@@ -1,41 +1,27 @@
 ---
-title: Introduction
+title: Home
 type: docs
 ---
 
-# Acerbo datus maxime
+Welcome to **Opinionated Guides**.
 
-{{< columns >}}
-## Astris ipse furtiva
+The biggest section of this site is [Opinionated Engineering]({{< relref "/Engineering/Engineering" >}}),
+but that isn't to say [Opinionated Music]({{< relref "Music/opinionatedmusic" >}}), [Opinionated Design]({{< relref "Design/opinionateddesign" >}}), and [Opinionated Philosophy]({{< relref "Phil/opinionatedphilosophy" >}}) aren't worth checking out too.
 
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
+You'll also find some other miscalanious stuff, such as [Interviews]({{< relref "Interviews/interviews" >}}), and [blog posts]({{< relref "posts" >}}).
 
-<--->
+The site is mostly maintained by me, Vega:
 
-## Suis quot vota
+![box](/box.png)
 
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
-{{< /columns >}}
+But I more than welcome contributions. Either submit a pull request or, if you're dedicated to helping a lot, I can add you as a contributor if you get in touch with me (find me most places as Vega Deftwing).
 
+For a tiny bit of background, I'm a Computer and Electrical Engineering student and I'm very into music, espically guitars and eurorack. I enjoy spending my free time scouring the internet for new things to learn and falling down youtube pits until 3 in the morning. I'm that guy that types on a split Dvorak keyboard, and that wears an old vacuum tube around my neck, but I also like longboarding around town and playing video games. I'm pretty opinionated, but I'd like to think most of those oppinions have been tested reasonably rigerously or have at the very least come from a fair amount of experiance, though I know I will need to update this site based on new information over time. I will occasionally try to sway you into my camp - like getting you to use Linux - for reasons that are both practical and ideological; however, I hope that once I share my reasons for both you'll agree as well. Of course, I greatly enjoy a good debate and hearing new information too, so if you disagree, to me that's even more valuable.
 
-## Tempora nisi nunc
+**TLDR**: I enjoy programming guitars and playing computers 💾 I strum Dvorak, and type in chords 🤘
 
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
+---
 
-    var panel = ram_design;
-    if (backup + system) {
-        file.readPoint = network_native;
-        sidebar_engine_device(cell_tftp_raster,
-                dual_login_paper.adf_vci.application_reader_design(
-                graphicsNvramCdma, lpi_footer_snmp, integer_model));
-    }
+also, floating at the top of the page you'll find a link to the github source repository for this project and at the bottom you'll find a fancy logo that acts as a link to the [Webring](https://en.wikipedia.org/wiki/Webring) that this site is a part of.
 
-## Locis suis novi cum suoque decidit eadem
-
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
+If you're contributing to this site and need a quick overview of themeing/styling, check out [This page](webdev.md). 
