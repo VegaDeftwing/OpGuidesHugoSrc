@@ -1,10 +1,10 @@
-# Chapter 3 - Into the hardware
+
 
 One of the nifty things about Linux is you don't need to install extra software to check out the deeper parts of your hardware. While on windows you might need a tool like CPU-Z to look at information about the CPU on Linux you can do it out of the box. Let's get started on that then!
 
 ## The CPU
 
-![CPUS](/cpus.jpg ':size=75%')
+<img src="/cpus.jpg" alt="CPUS" height="400em">
 
 These are CPUS or Central Processing Units. They're the beating heart of your computer, doing the day-to-day number crunching. The rectangular one of one of the first CPU's in the lineage leading up to CPU's like the ones used in desktop's today, with further sucessors shown in order from top left to the bottom right. The metal-capped one at the bottom right, while old, is visulally quite representative of a moden desktop CPU, though the CPUs in a laptop or smart phone do look quite differnt still.
 
@@ -65,7 +65,7 @@ Each of these things is very important, but I'm going to start with cpu MHz as i
 
 ### Clock Speed
 
-![transistor](/transistor.jpg ':size=75%')
+<img src="/transistor.jpg" alt="Transistors" height="400em">
 
 However, to get to that we've gotta go just a bit further down the rabbit hole to the relay. Relays are super simple to understand, they're just a metal switch that is pulled open or closed using another input signal (usually a magnet pulling/pushing the switch closed/open) basically imagine a light switch, where the switch itself is controlled by yet another electrical signal. Relays are slow though, they require a physical metal plate to move to change the connection. Because of this they have limited reliability and worth note they're actually loud. You can hear an audible click of the switch as they change state.
 
@@ -122,32 +122,40 @@ This in turn gets turned into binary as can bee seen by this screenshot generate
 
 ![godbolt](/godbolt.png)
 
-See the weird numbers next to each instruction? like 4004b255? That's a base 16 number or hexadecimal usually refered to as 'Hex'. Hex is what is used by most computer guys to represent numbers because computers operate in base 2, or binary- like 01001100, which is very difficult to read and type accurately, however, base 10, the normal numbering system your used to, makes translating between binary and decimal a bit uncomfortable as the common factor is 5, an number that is both odd and in turn not a factor of two, where as 16 is $2^4$ so that means we can easily represent binary like this:
+{{< columns >}}
 
-| Binary | Hex | Decimal |
-| ------ | --- | ------- |
-| 0000   | 0   | 0       |
-| 0001   | 1   | 1       |
-| 0010   | 2   | 2       |
-| 0011   | 3   | 3       |
-| 0100   | 4   | 4       |
-| 0101   | 5   | 5       |
-| 0110   | 6   | 6       |
-| 0111   | 6   | 7       |
-| 1000   | 8   | 8       |
-| 1001   | 9   | 9       |
-| 1010   | A   | 10      |
-| 1011   | B   | 11      |
-| 1100   | C   | 12      |
-| 1101   | D   | 13      |
-| 1110   | E   | 14      |
-| 1111   | F   | 15      |
+| Binary (0b) | Hex (0x) | Decimal |
+| ----------- | -------- | ------- |
+| 0000        | 0        | 0       |
+| 0001        | 1        | 1       |
+| 0010        | 2        | 2       |
+| 0011        | 3        | 3       |
+| 0100        | 4        | 4       |
+| 0101        | 5        | 5       |
+| 0110        | 6        | 6       |
+| 0111        | 6        | 7       |
+| 1000        | 8        | 8       |
+| 1001        | 9        | 9       |
+| 1010        | A        | 10      |
+| 1011        | B        | 11      |
+| 1100        | C        | 12      |
+| 1101        | D        | 13      |
+| 1110        | E        | 14      |
+| 1111        | F        | 15      |
+
+<--->
+
+See the weird numbers next to each instruction? like **4004b255**? That's a base 16 number or hexadecimal usually refered to as 'Hex'. Hex is what is used by most computer guys to represent numbers because computers operate in base 2, or binary- like 01001100, which is very difficult to read and type accurately, however, base 10, the normal numbering system your used to, makes translating between binary and decimal a bit uncomfortable as the common factor is 5, an number that is both odd and in turn not a factor of two, where as 16 is 2^4​ (2\*2\*2\*2) so that means we can easily represent binary like this:
 
 Okay, so now those 1's and 0's are what your computer actually reads to run instructions. We'll come back to this later, but since we're here I'll drop this [link]( https://www-user.tu-chemnitz.de/~heha/viewchm.php/hs/x86.chm/x86.htm)
 
 Where you can see how these 1's and 0's are arranged to tell the computer what to do. That is super advanced for where we are now though, so let's get back on track- what the hell is micro code already?
 
-Well, it turns out that modern processors are still compatible with some really, really old code. All the way back to the first 8086 processor made by Intel in 1978. It was here that the x86 instruction set - the instructions like 'mov' , 'push', and 'add' above that define the x86 architecture were born. Originally these were 16bit CPUs, that is each instruction only had 16 1's and 0's but soon the i386 came along and used 32bits. Back when 32 bit computers were common this is what this was in reference to. As with all things technology progressed and 64bit cpu's came along. Many attempts were made to make 32bit programs run with backwards comparability at high speeds on these CPU's, though in the end AMD made the method used today, dubbed the x86_64 instruction set. Overtime this instruction set was expanded with various additions. We can actually see the names of these additions that are available on the CPU in the system by looking yet again at the output of `cat /proc/cpuinfo` and looking at the flags section. While not all of these signify instruction set additions, many do. The most common 'famous' if you will is SSE, of which there have been multiple revision, the first version alone adds [70 instructions](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions), which are used to make math faster
+Well, it turns out that modern processors are still compatible with some really, really old code. All the way back to the first 8086 processor made by Intel in 1978. It was here that the x86 instruction set - the instructions like 'mov' , 'push', and 'add' above that define the x86 architecture were born. Originally these were 16bit CPUs, that is each instruction only had 16 1's and 0's but soon the i386 came along and used 32bits. Back when 32 bit computers were common this is what this was in reference to.
+
+{{< /columns >}}
+
+As with all things technology progressed and 64bit cpu's came along. Many attempts were made to make 32bit programs run with backwards comparability at high speeds on these CPU's, though in the end AMD made the method used today, dubbed the x86_64 instruction set. Overtime this instruction set was expanded with various additions. We can actually see the names of these additions that are available on the CPU in the system by looking yet again at the output of `cat /proc/cpuinfo` and looking at the flags section. While not all of these signify instruction set additions, many do. The most common 'famous' if you will is SSE, of which there have been multiple revision, the first version alone adds [70 instructions](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions), which are used to make math faster
 
 Alright, so finally, enter Mircocode. At some point all of this became a lot to manage and processor designs evolved even further, getting exponentially more complicated and faster with more and more instructions, so they added this little computer which has the primary duty of turning the mess of countless possible instructions into yet even smaller instructions that the heavy duty 'real' processor does. Every once in a while a problem will be found in the way this is done, or a security vulnerability in the hardware itself may be found, and your CPU manufacture will release a microcode update.
 
@@ -227,7 +235,7 @@ While support for this will vary depending on your motherboard, you should be ab
 
 The output will probably repeat multiple times, printing once for each physical stick of ram in your system. I actually have 4 sticks, but I'll just be showing one:
 
-![dmiram](/dmiram.png ':size=50%')
+<img src="/dmiram.png" alt="DMI Ram" height="600em">
 
 You should note that many of the things mentioned above can be seen here, though I do want to look at some things here.
 
@@ -272,7 +280,7 @@ Going back to when cache was mentioned though, RAM's primary job is to hold bulk
 
 ## The Motherboard
 
-![mobo](/mobo.jpg)
+<img src="/mobo.jpg" alt="Motherboard" height="700em">
 
 This is an older motherboard, but still new enough to have modern parts. Let's start by looking at the the most obvious physical features and move to smaller things from there.
 
@@ -310,7 +318,7 @@ So, how do we get any information from the motherboard? Well, in case it wasn't 
 
 To see what your fans are doing on Linux you'll need to grab the package `lm_sensors` with yay, then you can run run `sudo sensors-decect` and mash enter until it's done. After this you should be able to run `sensors` and see an output similar to this one:
 
-![sense](/sensors.png ':size=60%')
+<img src="/sensors.png" alt="sensors" height="500em">
 
 Of note, depending on your system, there's a small chance nothing will be detected at all or that some information will be wrong. Even in my case this is true as my CPU fan is reporting 0 RPM. Actually entering your motherboard's UEFI or BIOS settings may expose more information, but we'll talk about that more later.
 
@@ -471,9 +479,9 @@ Finally, it's notable that the chipset typically acts as a PCIe lane 'splitter' 
 
 ### Expansion slots
 
-![pciep](/pciep.jpg ':size=70%')
+<img src="/pciep.jpg" alt="pci expansion" height="500em">
 
-> Two PCI-e 1x expansion cards, one for USB 3.0 and one for audio. Of note, most motherboards have both functions built in.
+> Two PCI-e 1x expansion cards, one for USB 3.0 and one for audio. Of note, most modern motherboards have both functions built in.
 
 Most modern expansion cards connect though the PCI Express or PCIe bus. This standard, much like DDR, has gone though multiple generations of bandwidth doubling. Currently consumer devices offer up to PCIe 3.0 but devices with both 4.0 and 5.0 should be on the market shortly.
 
