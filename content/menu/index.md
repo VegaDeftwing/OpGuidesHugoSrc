@@ -3,9 +3,6 @@ headless: true
 ---
 
 ---
-[**HOME**]({{< relref "/home" >}})
-
----
 - [**Engineering**]({{< relref "/Engineering/Engineering" >}})
   - [Ⅰ - Community]({{< relref "/Engineering/ep1-community" >}})
   - [Ⅱ - Learn How to Learn]({{< relref "/Engineering/ep2-howtolearn" >}})
