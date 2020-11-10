@@ -1,0 +1,12 @@
+baseURL = "https://opinionatedguide.github.io#/"
+languageCode = "en-us"
+title = "Opinionated Guides"
+
+[params]
+
+BookMenuBundle = '/menu'
+BookRepo = 'https://github.com/alex-shpak/hugo-book'
+BookEditPath = 'edit/master/exampleSite'
+
+[markup.goldmark.renderer]
+  unsafe = true
