@@ -24,6 +24,8 @@ adapted from floppy drives, but less expensive
 
 RIOT-OS, MBED, etc
 
+[TODO note, MBED was used on the euclidean drum project for its event queue]
+
 talk about scheduling (CFS, etc)
 
 ## Other weird and cool projects:
