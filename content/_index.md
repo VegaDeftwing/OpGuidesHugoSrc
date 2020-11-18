@@ -26,7 +26,7 @@ Why am I writing Opinionated Guides?
 
 Honestly, the answer changes from time to time.
 
-At first, I had this grandees idea that I could offer something akin to a college education for Comp Sci, Comp Eng, and Electrical Engineering.
+At first, I had this grandiose idea that I could offer something akin to a college education for Comp Sci, Comp Eng, and Electrical Engineering.
 
 And maybe that's possible still, maybe over the course of a decade OpGuides will still end up as that. But I don't think that's even what I want anymore. I don't want this to be Vega's Opinionated Big Ass Book To Give You An All-In-One Education, both because VegaOpBABTGYAAIOEdu is far less catchy, and because I don't even think it's possible. The more I write on this the more I value input of others and other resources I find, and the more happy I am that I called this project Opinionated Guides.
 
