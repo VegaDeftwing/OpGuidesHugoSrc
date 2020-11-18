@@ -67,6 +67,10 @@ C++ from scratch, JS electron app, Processing creative coding, Python Kivy or si
 
 ## Libraries
 
+[Nanogui (Github)](https://github.com/mitsuba-renderer/nanogui)
+
+
+
 #### Native GUI
 
 #### Web-based

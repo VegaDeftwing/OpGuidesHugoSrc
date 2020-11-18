@@ -80,3 +80,7 @@ https://github.com/ultralight-ux/Ultralight
 ### Python
 
 [Pampy](https://github.com/santinic/pampy) - Pattern Matching for Python
+
+[Rich](https://github.com/willmcgugan/rich) -  library for rich text and beautiful formatting in the terminal
+
+[Manim](https://github.com/3b1b/manim) - "Animation engine for explanatory math videos" used by 3Blue1Brown

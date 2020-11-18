@@ -4,13 +4,27 @@
 
 ## Low Level
 
+### C, C++, C#, ????
+
+[TODO] - a lot, talk about the varieties and differences of C and C++ and C# and why thery're good and bad, etc.
+
+[Best-of-C](https://blog.joren.ga/programming/best-of-c)
+
 ### Assembly
+
+[Say hello to x86_64 Assembly 1-8](https://0xax.github.io/archive/) by 0xAX 
+
+or
 
 [Let's Learn x86-64 Assembly! Part 0 - Setup and First Steps](https://gpfault.net/posts/asm-tut-0.txt.html)
 
 [Part 1 - Metaprogramming in Flat Assembler](https://gpfault.net/posts/asm-tut-1.txt.html) 
 
 [Part 2 - We're Writing a Virtual Machine](https://gpfault.net/posts/asm-tut-2.txt.html)
+
+or for the very adventerous
+
+[Linux-kernal-module-cheat [Github]](https://github.com/cirosantilli/linux-kernel-module-cheat#userland-assembly), has a nice guide to asm
 
 ### Rust
 
@@ -30,8 +44,7 @@ Other sources to lean rust:
 
 - https://doc.rust-lang.org/book/foreword.html
 - [Learning Rust the Dangerous Way (Cliff L. Biffle)](http://cliffle.com/p/dangerust/)
-
-
+- [Rust Performance Book](https://nnethercote.github.io/perf-book/)
 
 ### Go
 

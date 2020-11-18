@@ -760,7 +760,9 @@ discuss systemd taking over home soon
 
 permissions discussed eariler, recap here
 
-## Drivers
+## Drivers & Kernel Modules
+
+https://github.com/orhun/kmon
 
 [TODO]
 
@@ -789,6 +791,8 @@ lsof, strace, ltrace, nice levels
 ## System Calls
 
 [TODO]
+
+https://github.com/microsoft/ProcMon-for-Linux
 
 start with a syscall table
 

@@ -106,3 +106,7 @@ Fossil
 ## Weird Git
 
 https://radicle.xyz
+
+## Further Reading
+
+[./missing-semester - Metaprogramming](https://missing.csail.mit.edu/2020/metaprogramming/)
