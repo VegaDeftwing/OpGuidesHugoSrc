@@ -10,7 +10,7 @@ slug: "Effects"
 
 This is probably the easiest to understand audio effect. Put simply, fade the volume in and out automatically, usually pretty fast and with a bias so that the volume never completely cuts. It can also refer to a playing style where the same note is struck rapidly, leading to a similar effect. In VCV this can be done as simply as hooking up an LFO to a VCA's CV input like we did here, but turning up the frequency of the LFO-2 module (note, that here there is no bias so the volume does actually cut out):
 
-![vcavult](/vcavult.gif)
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/fCUTX1jurJ4?list=FLFMnqfaTa1se1LfbCB3peJQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Vibrato
 
@@ -200,6 +200,8 @@ The 'Threshold' is what level the compressor has to be over to do anything at al
 [Todo, Dynamic range compression, Parallel Compression, different analog models (ie Fets v tube v optical)]
 
 reverb, delay, pan, tremello, overdrive, distortion
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/j4NrWQljyso?list=PL5cGwrD7cv8jd0PSN2E8pFD97H3R5aQwN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Vocoders
 

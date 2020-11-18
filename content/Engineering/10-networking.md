@@ -186,6 +186,8 @@ Real time clocks, timezones, utc, etc.
 
 ### Wireshark
 
+https://wiki.wireshark.org/CaptureFilters
+
 ### Nmap
 
 ### Scapy / Kamene
@@ -193,6 +195,14 @@ Real time clocks, timezones, utc, etc.
 [Kamene](https://kamene.readthedocs.io/en/latest/introduction.html)
 
 ### (G)NS
+
+### HTTPie 
+
+[HTTPie [Github]](https://github.com/httpie/httpie) - human-friendly CLI HTTP client for the API era
+
+## Further Reading
+
+[What happens when... [Github]](https://github.com/alex/what-happens-when) - An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?"
 
 
 

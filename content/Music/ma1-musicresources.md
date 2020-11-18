@@ -34,3 +34,12 @@ https://learningmusic.ableton.com/
 https://codepen.io/teropa/full/bRqYVj/
 
 [Synchronized Swept-Sine: Theory, Application, and Implementation](https://hal.archives-ouvertes.fr/hal-02504321/document)
+
+[AutoEq (Github)](https://github.com/jaakkopasanen/AutoEq) - Automatic headphone equalization from frequency responses
+
+## A note on Music and Engineering
+
+[TODO] compare VCV to programming, filters, etc
+
+[Chua oscillator on CRO during inductance sweep](https://www.youtube.com/watch?v=WRXP0ZeIrlM)
+

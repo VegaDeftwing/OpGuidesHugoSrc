@@ -72,14 +72,15 @@ Of note, while the majority of these commands should be available on nearly any 
 - **export** - used to set environment variables, these for example use `export EDITOR=nano` to use nano as your terminal text viewer by default.
 - **systemctl** - literally system control, wayyy to big to cover quickly, used for everything from setting services to run on boot, shutting down/restarting the system, to viewing logs. Look up Systemd for more information. This is probably the least-universal of the tools listed here, but *most* linux systems have switched to Systemd now for better or worse.
 - **ip, ping, & dig** - **ip** is used to view as well as modify aspects of network configuration at the more hardware-level, such as turning on/off a networking interface.  **ping** allows you to see if you're able to reach a site/ip address, and **dig** allows you to check if you're able to turn a domain name to an ip, such as checking the ip address that archlinux.org points to with `dig archlinux.org`
-- **ps** - process management: listing processing, finding the parent of a particular process, etc. 
+- **ps** - process management: listing processing, finding the parent of a particular process, etc.
+  - Alternative recommendation: [procs (Github)](https://github.com/dalance/procs)
 - **free** - display information about system RAM usage
 - **top** - a graphical-ish view of the running processes, ram, and CPU usage
   - Alternative recommendation: **htop**
 - **kill**, murder a process in various ways
 - **whereis** - find the location of an executable, ex `whereis ls` will tell you it's in `/usr/bin/ls`
 - **wget, curl** - retrieve a web page
-  - Alternative recommendation: **lynx**, **w3m**
+  - Alternative recommendation: **lynx**, **w3m**, or **brow.sh**
 
 ## Tab Completion and faster navigation
 
@@ -144,6 +145,8 @@ Which while I could explain, I think just staring at that a little while should 
 regex can be used with a bunch of common tools like awk, sed, and grep. This means you can do fancy things like chain ls and grep together with a pipe to find any file matching a pattern or chain commands to rename any file containing characters which may be invalid in NTFS ( The file system used by Windows) to be valid before doing a transfer.
 
 Also, you may find [The Regular Expression Visualizer, Simulator & Cross-Compiler Tool](https://blog.robertelder.org/regular-expression-visualizer/) useful.
+
+If you're really lazy, [Grex](https://github.com/pemistahl/grex) is "[automatically generates] a single regular expression from user-provided test cases. The resulting expression is guaranteed to match the test cases which it was generated from."
 
 ## Job Control
 
@@ -234,7 +237,7 @@ When we installed arch we actually changed the default shell from bash to zsh, b
   * alternative to `ping`, pretty
 * diff-so-fancy, icdiff, [Delta](https://github.com/dandavison/delta)
   * alternative to `diff`, but better
-* ncdu
+* ncdu and [dust](https://github.com/bootandy/dust)
   * while much slower than `du` it's great for finding out what's eating storage space
 * [choose](https://github.com/theryangeary/choose)
   * user friendly, simple alternative to awk/cut

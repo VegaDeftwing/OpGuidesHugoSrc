@@ -42,4 +42,12 @@
 
 * [Geological Phonograph](https://azlen.me/blog/geological_phonograph/)
 
+* [Hemmingway App](http://www.hemingwayapp.com)
+
+  > Don't take what this says as a hard truth, but it does a decent job of 'grading' your writing for readability and complexity.
+  
+* [Instantly Age Alcohol - Ultrasonic Treatment (Though Emporium on YouTube)](https://www.youtube.com/watch?v=YlQT4ptwLKs)
+
+* [The Egg - A Short Story (Kurzesaght on YouTube)](https://www.youtube.com/watch?v=h6fcK_fRYaI)
+
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>

@@ -71,6 +71,18 @@ Trackers, vs non liner, vs modular, etc.
 
 
 
+### Visualization Software/Tools
+
+| Name & Link                                                  | Description                                            | Screenshot/Demo                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------------ |
+| [music_visualizer [Github]](https://github.com/bradleybauer/music_visualizer) | Shader viewer / music visualizer for Windows and Linux | Too many variations to easily show, look at the github repo. |
+| [Soundshader [Github]](https://github.com/soundshader/soundshader.github.io) | Uses fancy 'AutoCorrelation' - info on the github page | https://soundshader.github.io                                |
+|                                                              |                                                        |                                                              |
+
+ 
+
+
+
 #### Max4Live Devices
 
 These devices only work inside of Ableton Live using Max For Live
@@ -94,3 +106,5 @@ These 'plugins' only work on Monome's Norns hardware
 [Awesome MusicDSP (Github)](https://github.com/olilarkin/awesome-musicdsp)
 
 [Awesome Audio Visualization (Github)](https://github.com/willianjusten/awesome-audio-visualization)
+
+[Kord (Github)](https://github.com/synestematic/kord) - a music theory development framework in python

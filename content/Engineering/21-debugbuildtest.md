@@ -71,3 +71,7 @@ Fuzzing (sandsifter), make and alts, etc.
 ## Continuous Integration
 
 ## Continuous Deployment
+
+## Benchmarking
+
+https://github.com/sharkdp/hyperfine
