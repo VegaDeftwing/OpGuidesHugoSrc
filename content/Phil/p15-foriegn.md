@@ -4,7 +4,7 @@ slug: "Foriegn"
 
 ---
 
-# War and Foriegn involvment
+# War and Foreign Involvement
 
 ## Denuclearization
 

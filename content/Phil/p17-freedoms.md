@@ -12,27 +12,27 @@ slug: "Freedoms"
 
 Everyone is press, https://www.eff.org/bloggers
 
-### Whistleblower Protections
+### Whistle Blower Protections
 
-## Search and Seizeure
+## Search and Seizure
 
 ## Fair Trial
 
-### Court of Public Oppinion
+### Court of Public Opinion
 
 ## Freedom of Body
 
 Marital Rape, Euthanasia, Abortion, AI recognition and usage, gene ownership
 
-## Freedom of enviromental concern
+## Freedom of environmental concern
 
-Vaccination, local polution
+Vaccination, local pollution
 
 ### Freedom of Travel
 
 Immigration, Citizenship testing
 
-### Personal Armerment
+### Personal Armament
 
 ### Right to record, Right to know
 
