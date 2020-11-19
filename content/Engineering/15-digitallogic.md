@@ -12,19 +12,54 @@ min/max terms, Don't cares, SOP/POS, multiple out
 
 ## Basic Logic Gates
 
-#### Not
+[TODO] truth tables, circuit symbol, discrete logic symbol for all.
+
+### Not
+
+| Input | Output |
+| ----- | ------ |
+| 0     | 1      |
+| 1     | 0      |
 
 Truth table, transistor implementation pmos/nmos, cost, power consumption at switch
 
-#### And, Nand
+### AND
 
-#### Or, Nor, Exnor
+A∧B, AB, 
 
-### Xor, Exor
+| Input A | Input B | Output |
+| ------- | ------- | ------ |
+| 0       | 0       | 0      |
+| 0       | 1       | 0      |
+| 1       | 0       | 0      |
+| 1       | 1       | 1      |
 
-#### Transmission,
+### NAND 
 
-#### Mux, Demux, encoders
+| Input A | Input B | Output |
+| ------- | ------- | ------ |
+| 0       | 0       | 1      |
+| 0       | 1       | 1      |
+| 1       | 0       | 1      |
+| 1       | 1       | 0      |
+
+### Or
+
+### Nor
+
+### Exnor
+
+### Xor
+
+### Exor
+
+### Transmission,
+
+### Mux
+
+### Demux
+
+### Encoders
 
 ## Basic combinational logic
 

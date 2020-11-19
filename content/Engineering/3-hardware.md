@@ -89,6 +89,12 @@ Finally it's worth note that on some systems, primarily high end desktops, you c
 
 Modern processors are very, very complicated. So complicated in fact that there is a full very tiny computer in your processor. This computer does multiple things, but the main one we'll talk about is the translation between types of machine code. In order to understand this we'll need to look a basic program written in the language 'C'.
 
+ {{< columns >}}
+
+This code first makes two integers, `a` and `b`, gives them values, then adds them together and stores the result back into a. Finally, the program returns a 0 to the operating system in order to say "I ran without errors".
+
+<--->
+
 ```c
 int main() {
   int a;
@@ -100,9 +106,13 @@ int main() {
 }
 ```
 
-This code first makes two integers, a and b, gives them values, then adds them together and stores the result back into a. Finally, the program returns a 0 to the operating system in order to say "I ran without errors".
+{{< /columns >}}
 
-Unlike python which get's converted to something the computer can understand as it executes C is compiled before hand. This makes it so programs written in C are much, much faster than those written in python, though obviously C code is more difficult to write. Compilation is the process of turning a program into a file full of instructions the computer actually understands. This happens in two steps, first the program is turned into assembly code, for the above code this results in an output that looks like
+{{< columns >}}
+
+Unlike python which get's converted to something the computer can understand as it executes C is compiled before hand. This makes it so programs written in C are much, much faster than those written in python, though obviously C code is more difficult to write. Compilation is the process of turning a program into a file full of instructions the computer actually understands. This happens in two steps, first the program is turned into assembly code, for the above code this results in the output to the right:
+
+<--->
 
 ```c
         push    rbp
@@ -117,6 +127,8 @@ Unlike python which get's converted to something the computer can understand as 
 ```
 
 As you can see, this is incredibly difficult to read to a 'normal' person, so even though we're not there yet.
+
+{{< /columns >}}
 
 This in turn gets turned into binary as can bee seen by this screenshot generated using https://godbolt.org/
 
@@ -706,13 +718,19 @@ Zfs, hardware raid, software raid, emulated hardware (bios), etc.
 
 ## Network Interfaces
 
-![NICS](/nics.jpg ':size=50%')
+{{< columns >}}
 
-Pictured here are three Network Interface cards or a NIC. The three on the left are for WiFi (though some of this form factor may include bluetooth as well) while the one on the right has an ethernet port for wired access. Most computer's will not have a separate card for the wired interface though, as most motherboard's have a wired network interface built in.
+<img src="/nics.jpg" alt="NICS" height="600em">
+
+<--->
+
+Pictured here are three Network Interface cards or NICs. The three on the left are for WiFi (though some of this form factor may include bluetooth as well) while the one on the right has an ethernet port for wired access. Most computer's will not have a separate card for the wired interface though, as most motherboard's have a wired network interface built in.
 
 NICs also include the wireless chipset used for connecting to a cell tower and really any radio communication device in general.
 
 Older NICs include those used for Dial-Up connections and some obscure wireless methods that predate WiFi.
+
+{{< /columns >}}
 
 ### Ethernet
 

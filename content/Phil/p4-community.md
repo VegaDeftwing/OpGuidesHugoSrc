@@ -26,8 +26,6 @@ Encryption, Tradgedy of the commons
 
 #### Moderation
 
-![[respect.png]]
-
 ensuring that we're self moderating one another
 
 

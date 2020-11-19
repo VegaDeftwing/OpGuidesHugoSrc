@@ -32,6 +32,8 @@ https://media.ccc.de/
 
 https://linuxjourney.com
 
+{{< columns >}}
+
 ## Youtube
 
 [ElectroBoom](https://www.youtube.com/channel/UCJ0-OtVpF0wOKEqT2Z1HEtA)
@@ -54,9 +56,13 @@ https://linuxjourney.com
 
 [Level1Techs](https://www.youtube.com/channel/UC4w1YQAJMWOz4qtxinq55LQ)
 
+<--->
+
 ## Podcasts
 
 https://theamphour.com/
+
+{{< /columns >}}
 
 ## Github info pages
 
