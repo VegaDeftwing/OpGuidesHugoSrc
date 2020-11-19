@@ -213,7 +213,9 @@ https://www.reddit.com/r/generative/comments/epja3d/mycelium/
 
 [Generative Constellations (Reddit)](https://www.reddit.com/r/generative/comments/dynx25/constellations/) 
 
-> Seriously, the two above pieces are some of my absolute favorite pieces. I think about them a lot.
+[Indra's Net (Reddit)](https://www.reddit.com/r/generative/comments/jvc93t/indras_net/)
+
+> Seriously, the three above pieces are some of my absolute favorite pieces. I think about them a lot.
 
 [Grant Custer's Feed](https://feed.grantcuster.com) + [Constraint.systems](https://constraint.systems)
 

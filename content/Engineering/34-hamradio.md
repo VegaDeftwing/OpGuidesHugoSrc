@@ -1,6 +1,6 @@
 # Chapter 34 - Ham Radio
 
-<img src=" /radioart.png " alt="radioart" style="zoom:50%;" />
+<img src=" /radioart.png " alt="radioart" style="zoom:75%;" />
 
 > '137Mhz' by u/CashewHut
 
@@ -28,4 +28,24 @@ https://newhams.info/2017/02/17/rf-connector-types/
 
 [Monitor Airplane Traffic with a Raspberry Pi and SDR](https://brianchristner.io/monitor-airplane-traffic-with-a-raspberry-pi/)
 
+
+
+[From u/irresponsible_owl on Reddit](https://www.reddit.com/r/amateurradio/comments/jt4crn/when_one_ferrite_doesnt_do_the_trick/gc3fwvk?utm_source=share&utm_medium=web2x&context=3), in response to a picture of a USB cable with a dozen ferrite cores on it:
+
+> Are you sure the cable is shielded? One quick way to tell is to put a continuity tester on the outside metal parts of each end. If it beeps, the cable is likely shielded. I've seen tons of cables that aren't, where there's no connection between the jack covers - even though the USB specification says there must be. If there's continuity it doesn't guarantee it's shielded, but lack of continuity is a sure sign it's not.
+>
+> If the cable is shielded you shouldn't need more than 2 ferrites, one at each end.
+>
+> Source: I've been down this road before...
+>
+> Edit: Here are some fun articles to read:
+>
+> https://www.yoctopuce.com/EN/article/usb-cables-shielding-matters-as-well
+>
+> https://www.totalphase.com/blog/2020/05/what-are-the-guidelines-for-testing-ground-and-shield-resistance-of-usb-cables/
+>
+> You can get a lot more in depth with the testing if you want... or just buy a higher quality cable :D
+
 ?> I've actually set this up using a HackRF and Rock64. It's pretty neat. Just be aware the ADS-b, the radio signals you'll be picking up to do this, are very line-of-sight so you might need to plop the antenna on your roof or something.
+
+<img src=" /MorseDecode.png " alt="radioart" style="zoom:50%;" />

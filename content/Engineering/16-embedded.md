@@ -42,3 +42,10 @@ talk about scheduling (CFS, etc)
 
 mention pi sd card performance / stability limits and pi advantages in how common it is
 
+## Arduino ≠ Atmega32p
+
+<p class="tip"> I REALLY want to make this clear: Arduino is a framework. Not a specific hardware platform. Different Arduino devices can run with wildly different specs and support wildly different features. </p>
+
+## STM 32
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">First up is the brains of the operation: an STM32F103. Not a lightweight chip: It&#39;s a Cortex M3 @ 72MHz. It&#39;s got 256kB of flash and 48kB of RAM and that&#39;s a 100-pin TQFP package!<a href="https://t.co/oPCeo7XMpe">https://t.co/oPCeo7XMpe</a> <a href="https://t.co/niDPuIFBPT">pic.twitter.com/niDPuIFBPT</a></p>&mdash; Stargirl 🌠 (@theavalkyrie) <a href="https://twitter.com/theavalkyrie/status/1328555704676913153?ref_src=twsrc%5Etfw">November 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
