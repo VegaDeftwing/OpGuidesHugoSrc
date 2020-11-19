@@ -690,7 +690,10 @@ Type "help", "copyright", "credits" or "license" for more information.
 ╰─➤
 ```
 
-telling us the answer is 2628. To make you feel like a bad ass, you actually just wrote code that's equivalent to this math    $$\sum_{n=1}^{72} n$$   pretty cool right? But that's math? Who cares? Let's do something cool!
+telling us the answer is 2628. To make you feel like a bad ass, you actually just wrote code that's equivalent to this math {{< katex >}} \sum_{n=1}^{72} n {{< /katex >}}
+pretty cool right? But that's math? Who cares? Let's do something cool!
+
+> If you're not familiar with math like this, this is the sum from n=1 to n=72 of n, so it'd be 1+2+3+...+72
 
 Python code doesn't have to be written in line by line, you can put it an a file and the computer will run that file as a program, so let's do that! But to do that we're gonna need something better than a terminal editor or an equivalent to notepad. There are actually text editors that make writing code much easier. Let's go grab the 'Visual Studio Code' editor. Hopefully by now you know the command! (The name of the package is just `code`)
 
@@ -703,7 +706,7 @@ super quick detour: while you can open graphical programs though the start menu 
 
 and a new window should pop up. It'll probably open with a few tabs welcoming you, asking if you want to install a theme, if you are okay sending VSCode usage info, etc. Uncheck boxes so these don't come up each time and answer questions as you please. Then, we're going to go up to the top and chose
 
- `file -> new file`  Then, down at the bottom right of the editor you should see something that says `plain text` click that and a box will appear asking for the name of the language you're working with. Obviously chose python.
+`file -> new file`  Then, down at the bottom right of the editor you should see something that says `plain text` click that and a box will appear asking for the name of the language you're working with. Obviously chose python.
 
 alright, now we're ready to code! Let's put a bit more interesting of a program in and then we'll talk about what it does line by line. I stole this code from https://matplotlib.org/2.0.2/examples/animation/animate_decay.html
 

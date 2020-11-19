@@ -2,13 +2,13 @@
 
 ## The Terminal
 
-In the world of programming, embedded development, and electrical debugging you will inevitably need to understand how to use a terminal/command line at some point. While the text only interface can look intimidating, it has some clear advantages, namely it's significantly faster to use the cli or 'command line interface' version of many tools. Because of the nature of this book you will be using the terminal frequently, so for convince sake information on using it effectively has been moved to Appendix A, though I highly recommend you read though it now.
+In the world of programming, embedded development, and electrical debugging you will inevitably need to understand how to use a terminal/command line at some point. While the text only interface can look intimidating, it has some clear advantages. Namely it's significantly faster to use the cli or 'command line interface' version of many tools. Because of the nature of this guide you will be using the terminal frequently, so for convince sake information on using it effectively has been moved to Appendix A, though I highly recommend you read though it now.
 
-I also highly recommend getting autojump (`j`) setup early as it makes navigating around the terminal much faster, furthermore, `bat` makes reading code though cat not suck and `tldr` will save you time when you forget how to use `tar`, set these up early if nothing else.
+At bare minimum, I recommend getting autojump (`j`) setup early as it makes navigating around the terminal much faster, `bat` makes reading code though `cat` not suck, and `tldr` will save you time when you forget how to use `tar`. Set these up early if nothing else. But really, there's a lot in Appendix A that I think is really cool. Do check it out.
 
 ## Heads up,
 
-With that out of the way, I want to preface this chapter with a big warning: Getting used to everything we're about to do will be a pretty big leap. There's a good chance you've never used a computer that works like we're going to be setting up, but it's what I and many of my friends use daily and for good reason. This is probably where more opinions are going to show than anywhere else. You've been warned.
+With that out of the way, I want to preface this chapter with a big warning: Getting used to everything we're about to do will be a pretty big leap. There's a good chance you've never used a computer that works in a way like we're going to be setting up, but it's what I and many of my friends use daily and for good reason. This is probably where more opinions are going to show than anywhere else.
 
 [TODO] pacman -Qi , pacman -R
 
@@ -36,7 +36,9 @@ This gives you a pretty kick butt editor on bar with most full Integrated Develo
 
 ![code](/code.png)
 
-## The Desktop Envrioment
+There are of course a ton of other options, emacs, ox, Atom, ... If these don't suit you, feel free to look into others.
+
+## The Desktop Environment
 
 This is the biggest change, I'm going to recommend switching from KDE, which we installed when we setup arch, to i3. i3 is a tiling window manager, this means it looks something like this:
 
@@ -64,7 +66,11 @@ For setting the wallpaper (which you probably wont see much) you can use `nitrog
 
 if you have multiple monitors before setting the wallpaper though you'll probably want to arrange your monitors correctly, for this you can use `xrandr` , read the man page for more information. You can add the command you use to set up your displays to your i3 config file to apply them at each reboot
 
-if you have a high resolution monitor and things are small, you may want to look here: https://wiki.archlinux.org/index.php/HiDPI , the best thing from this is to add
+{{< columns >}}
+
+if you have a high resolution monitor and things are small, you may want to look here: https://wiki.archlinux.org/index.php/HiDPI , the best thing from this is to add the text on the right to your `/etc/environment` file.
+
+<--->
 
 ```bash
 QT_QPA_PLATFORMTHEME=qt5ct
@@ -73,9 +79,9 @@ GDK_SCALE=2
 ELM_SCALE=1.5
 ```
 
-to your /etc/enviroment file.
+{{< /columns >}}
 
-You'll be needing quite a few different utilities beyond this. for a terminal I highly  recomend `kitty`,  `rxvt-unicode`, or `Alacritty`.
+You'll be needing quite a few different utilities beyond this. for a terminal I highly recommend `kitty`,  `rxvt-unicode`, or `Alacritty`.
 
 For fonts you'll certainly have your own tastes, but I really like Droid Sans Mono, which is in `ttf-droid`, but `ttf-hack` and `otf-fira-code` are pretty cool too. I also recommend installing `noto-fonts`, `noto-fonts-extra`, and `ttf-font-awesome`. The noto packages will provide coverage for weird characters and font awesome is basically icons saved as a font, and many open source projects use it.
 
@@ -105,51 +111,97 @@ Unfortunately, there is no magic rule for how far away your monitor should be fr
 
 I personally have my three, 4k (that's 3840x2160, or 4 times the resolution of 1080p) monitors positioned approximately 30 inches from my eyes.
 
-Before moving forward though, I think it would make sense to talk about some of this display terminology, if you're already cool with this just skip this massive quote block
+Before moving forward though, I think it would make sense to talk about some of this display terminology. With that, I present far too much information condensed into one box:
 
-> Aspect ratio is the ratio is the ratio of the width to the height of the screen, most modern screens are 16:9, or have 16 units of width for every 9 units of height. Most older displays, often now called square screens, are actually 4:3. Many people actually still prefer this for the extra vertical room it affords at a given size, and some laptops are actually moving back to a more 'square' aspect ratio. On the other hand more exotic ultra-wide displays are also coming out
+{{< tabs "Display Info" >}}
 
-> Sizing of displays is a bit odd. A 27" 16:9 display, is not the same size as a 27" 4:3 display as displays are measured diagonally.
+{{< tab "Aspect Ratio" >}}
 
-> Resolution of a display refers to the number of pixels, HD technically starts at 720p, or 720 pixels across, though this is generally rather low by modern standards, with acceptable usually considered 1080p, which is technically 1920x1080. You may also see 1080i, this is a strange concept, not actually related to resolution, and we'll come back to it in a moment
+**Aspect ratio** is the ratio is the ratio of the width to the height of the screen, most modern screens are 16:9, or have 16 units of width for every 9 units of height. Most older displays, often now called square screens, are actually 4:3. Many people actually still prefer this for the extra vertical room it affords at a given size, and some laptops are actually moving back to a more 'square' aspect ratio. On the other hand more exotic ultra-wide displays are also coming out
 
-> The interface on your display matters greatly as well, the most common at the are HDMI, Display Port, DVI, and VGA
-> 
-> VGA is the worst option here, as it's an analog signal. This means the signal can do strange things, getting corrupted between your computer and the monitor. Typically this is a blue, screw in connection with many pins
-> 
-> DVI is still pretty common and looks like an even larger VGA connection, with a typically white, screw in connector. This signal is normally digital, though there is a varient of DVI that can be adapted into VGA. Of note, DVI can also be adapted to HDMI though you will not have audio, as DVI does not carry sound
-> 
-> HDMI, probably the most well known connector, has multiple revisions, the revision determines many things such as the maximum resolution, refresh rate, and weather or not more obscure things such as HDR are supported. HDMI is usually considered the best of these three options
-> 
-> Taking the crown however, is Display Port (DP). Like HDMI display port does have multiple revisions which do differentiate similar things; however, Display Port will generally support high resolutions and more features at any given point. Assuming you're running a bog-standard 60hz 1080p display however, you'll find no difference between DVI, HDMI, and DP - unless you need sound.
+Sizing of displays is a bit odd. A 27" 16:9 display, is not the same size as a 27" 4:3 display as displays are measured diagonally.
 
-> Next, you'll want to note the refresh rate of your monitor. This is how many times per second your monitor refreshes the screen. Typically monitors run at 60hz and TVs at 30 or 60. Because unlike a TV you're causing things on screen to change though, 30hz is generally considered bad and can even cause motion sickness. While 60hz may be standard, going for something even higher, with many displays offering well above 120hz, is something you may want to consider, especially if you plan on gaming.
-> 
-> Newer displays may support Freesync or Gsync, and both of these technologies require a supported graphics card in the system as well. These allow the display and computer to adaptively change the refresh rate so the monitor and computer both send and display frames in sync, which can make even a low refresh rate 'feel' much higher. This is a feature typically marketed to gamers and only supported in video games, but this has been changing. Gsync monitors genearlly have a much better implementation of the technology but it requires an Nvidia graphics card. As of the time of writing both Freesync and GSync are supported on linux, but quite rough around the edges.
+{{< /tab >}}
 
-> related to refresh rate is latency. In general this can actually mean two things, one is how long it takes for an image sent to the screen to actually be displayed. The lower this time the better, with good screens being sub 10 millisecond. Unfortunately, there's no standard among the industry to measure this and many get it wrong.
-> 
-> Also with latency theres grey to grey times, this is a measure of how long it takes a pixel to go from one shade to another. The lower this is the less motion blur the screen will exhibit
+{{< tab "Resolution" >}}
 
-> The color depth of the display determines how precisely a color may be displayed. The higher this is the better, but almost all modern displays will be the same, and unless you're an artist or creative professional you're unlikely to notice a difference
-> 
-> On the other hand, you are likely to notice the color gamut or what range of colors the display is actually capable of displaying.
-> 
-> For example, two displays may both be capable of displaying 255 levels of red, but if one display's range is only from a dingy red to a dark-ish red, while the other is from a brilliant red to a deep dark red, there's a massive difference in color availability. If this is important to you, notably as a creative professionally in photo or video, you may want to read more at https://en.wikipedia.org/wiki/Gamut
+**Resolution** of a display refers to the number of pixels, HD technically starts at 720p, or 720 pixels across, though this is generally rather low by modern standards, with acceptable usually considered 1080p, which is technically 1920x1080. You may also see 1080i, this is a strange concept, not actually related to resolution, but more to refresh rate. [Interlaced Video (Wikipedia)](https://en.wikipedia.org/wiki/Interlaced_video)
 
-> The next obvious thing to mention is dynamic range, or how deep the blacks are and how vivid the whites are. Again, this is simple, the higher the better. Many display types (LCD, TN-Panel) will have similar specifications in all these areas, but particularly here. OLED is probably the best when it comes to dynamic range as it can display true black by actually turning the source of the light off, but unfortunately these are quite susceptible to burn in and image persistence.
->
-> Actually, display technology overall (OLED, LCD, TN, CRT, etc.) will have more of an impact than anything else. But, this is also getting really into the weeds, and I don't want to recomend one technology over the other since depending on many other factors on each display theres no clear winner.
->
-> There are some newer displays which feature HDR or High Dynamic Range, which allows the panel to selective change the brightness in an area of the screen, giving much better dynamic range in supported applications than a normal display
+QHD is 1440p and 4k (ignoring the mess of naming there) is usually 2160p. I recommenced against 1440p unless the system is mostly for gaming, as scaling from most content that is in 1080p to 1440p is awkward compared to the direct 2x scaling with 1080p to 2160p
 
-> burn in and image persistence are both negative effects on many displays where a pixel either permanently or temporarily resists change in color. This can lead to being able to read previously displayed bright white text on a now black image for example. More commonly you'll find TVs which have a particular station's logo 'burnt in' to one corner of the screen, persisting even after changing channels
+{{< /tab >}}
 
-> Brightness is obvious, how bright or dim is the display. The big thing to note here is weather the brightness is PWM or DC controlled. Displays with PWM controlled brightness are much more common, however, it's a bit of a cheat. Instead of actually changing the intensity of the back light directly, they're simply strobing the light on and off to fast for the eye to see. This can cause eye strain over time though, and generally DC control, which actually does change the brightness directly is preferred. If you have a PWM display and don't mind it at full brightness, this should help with eyes strain, as there is no longer a strobe effect as the display's backlight is just constantly on.
+{{< tab "Interface" >}}
 
-> Finally, if fonts look bad on a screen, it may be due to Sub-pixel rendering. Basically, while most screens pixels go R-G-B in order, not all do. To make text look sharper, most font renders will try to abuse this sub-pixel order to get sharper-than-pixel fonts.
+The interface on your display matters greatly as well, the most common at the are HDMI, Display Port, DVI, and VGA
 
-clearly there's a lot to be considered here. A no compromise monitor can cost thousands of dollars, but nice 4k 27" monitors like mine can be found for <250 on sale, and I love them. Just figure out what you need and what would be the most beneficial for you and work from there
+**VGA** is the worst option here, as it's an analog signal. This means the signal can do strange things, getting corrupted between your computer and the monitor. Typically this is a blue, screw in connection with many pins
+
+**DVI** is still pretty common and looks like an even larger VGA connection, with a typically white, screw in connector. This signal is normally digital, though there is a varient of DVI that can be adapted into VGA. Of note, DVI can also be adapted to HDMI though you will not have audio, as DVI does not carry sound
+
+**HDMI**, probably the most well known connector, has multiple revisions, the revision determines many things such as the maximum resolution, refresh rate, and weather or not more obscure things such as HDR are supported. HDMI is usually considered the best of these three options
+
+Taking the crown however, is **Display Port** (DP). Like HDMI display port does have multiple revisions which do differentiate similar things; however, Display Port will generally support high resolutions and more features at any given point. Assuming you're running a bog-standard 60hz 1080p display however, you'll find no difference between DVI, HDMI, and DP - unless you need sound.
+
+{{< /tab >}}
+
+{{< tab "Refresh Rate" >}}
+
+Next, you'll want to note the **refresh rate** of your monitor. This is how many times per second your monitor refreshes the screen. Typically monitors run at 60hz and TVs at 30 or 60. Because unlike a TV you're causing things on screen to change though, 30hz is generally considered bad and can even cause motion sickness. While 60hz may be standard, going for something even higher, with many displays offering well above 120hz, is something you may want to consider, especially if you plan on gaming.
+
+Newer displays may support Freesync or Gsync, and both of these technologies require a supported graphics card in the system as well. These allow the display and computer to adaptively change the refresh rate so the monitor and computer both send and display frames in sync, which can make even a low refresh rate 'feel' much higher. This is a feature typically marketed to gamers and only supported in video games, but this has been changing. Gsync monitors generally have a much better implementation of the technology but it requires an Nvidia graphics card. As of the time of writing both Freesync and GSync are supported on linux, but quite rough around the edges.
+
+{{< /tab >}}
+
+{{< tab "Latency" >}}
+
+Related to refresh rate is **latency**. In general this can actually mean two things, one is how long it takes for an image sent to the screen to actually be displayed. The lower this time the better, with good screens being sub 10 millisecond. Unfortunately, there's no standard among the industry to measure this and many get it wrong.
+
+Also with latency there's grey to grey times, this is a measure of how long it takes a pixel to go from one shade to another. The lower this is the less motion blur the screen will exhibit.
+
+{{< /tab >}}
+
+{{< tab "Color Depth" >}}
+
+The **color depth** of the display determines how precisely a color may be displayed. The higher this is the better, but almost all modern displays will be the same, and unless you're an artist or creative professional you're unlikely to notice a difference
+
+On the other hand, you are likely to notice the color gamut or what range of colors the display is actually capable of displaying.
+
+For example, two displays may both be capable of displaying 255 levels of red, but if one display's range is only from a dingy red to a dark-ish red, while the other is from a brilliant red to a deep dark red, there's a massive difference in color availability. If this is important to you, notably as a creative professionally in photo or video, you may want to read more at https://en.wikipedia.org/wiki/Gamut
+
+{{< /tab >}}
+
+{{< tab "Dynamic Range" >}}
+
+The next obvious thing to mention is **dynamic range**, or how deep the blacks are and how vivid the whites are. Again, this is simple, the higher the better. Many display types (LCD, TN-Panel) will have similar specifications in all these areas, but particularly here. OLED is probably the best when it comes to dynamic range as it can display true black by actually turning the source of the light off, but unfortunately these are quite susceptible to burn in and image persistence.
+
+Actually, display technology overall (OLED, LCD, TN, CRT, etc.) will have more of an impact than anything else. But, this is also getting really into the weeds, and I don't want to recomend one technology over the other since depending on many other factors on each display theres no clear winner.
+
+There are some newer displays which feature HDR or High Dynamic Range, which allows the panel to selective change the brightness in an area of the screen, giving much better dynamic range in supported applications than a normal display
+
+{{< /tab >}}
+
+{{< tab "Burn in" >}}
+
+**burn in** and **image persistence** are both negative effects on many displays where a pixel either permanently or temporarily resists change in color. This can lead to being able to read previously displayed bright white text on a now black image for example. More commonly you'll find TVs which have a particular station's logo 'burnt in' to one corner of the screen, persisting even after changing channels
+
+{{< /tab >}}
+
+{{< tab "Brightness" >}}
+
+**Brightness** is obvious, how bright or dim is the display. The big thing to note here is weather the brightness is PWM or DC controlled. Displays with PWM controlled brightness are much more common, however, it's a bit of a cheat. Instead of actually changing the intensity of the back light directly, they're simply strobing the light on and off to fast for the eye to see. This can cause eye strain over time though, and generally DC control, which actually does change the brightness directly is preferred. If you have a PWM display and don't mind it at full brightness, this should help with eyes strain, as there is no longer a strobe effect as the display's backlight is just constantly on.
+
+{{< /tab >}}
+
+{{< tab "Subpixels" >}}
+
+Finally, if fonts look bad on a screen, it may be due to **Sub-pixel rendering**. Basically, while most screens pixels go R-G-B in order, not all do. To make text look sharper, most font renders will try to abuse this sub-pixel order to get sharper-than-pixel fonts. This is adjustable in lxappearence on Linux, and should be handled by setting up 'ClearType text'.
+
+{{< /tab >}}
+
+{{< /tabs >}}
+
+clearly there's a lot to be considered here. A no compromise monitor can cost thousands of dollars, but nice 4k 27" monitors like mine can be found for <250 on sale, and I love them. Just figure out what you need and what would be the most beneficial for you and work from there.
 
 ---
 
@@ -183,7 +235,13 @@ You should also consider they layout of your keyboard. Some people absolutely ne
 
 > This is a custom built ErgoDone keyboard, The Ergodox-ez can be purchased for ~300 USD, or you can build one like mine for a bit under 200
 
-Beyond the physical layout you may also consider the keymap or software layout. Not only does my keyboard look weird, but the keys aren't arranged as you'd expect either. Instead of typing in QWERTY, I actually use Dvorak. That layout looks a like this on a normal keyboard: ![Image result for dvorak](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/KB_United_States_Dvorak.svg/1200px-KB_United_States_Dvorak.svg.png)
+{{< columns >}}
+
+Beyond the physical layout you may also consider the keymap or software layout. Not only does my keyboard look weird, but the keys aren't arranged as you'd expect either. Instead of typing in QWERTY, I actually use Dvorak. That layout looks a like this on a normal keyboard:
+
+<---> ![Image result for dvorak](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/KB_United_States_Dvorak.svg/1200px-KB_United_States_Dvorak.svg.png)
+
+{{< /columns >}}
 
 though obviously anything is possible. A lot of programmers like to disable their Caps key for example and put something more useful there, or you may just want to move around a letter or two. Using a standard layout like Dovark is a bit easier though as I can easily load my keymap pretty quickly on any computer. Plain old Qwerty is fine, but I personally like my 'weird' keymap.
 
