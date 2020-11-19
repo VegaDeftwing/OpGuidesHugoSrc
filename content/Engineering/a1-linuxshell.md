@@ -212,9 +212,17 @@ https://shellmagic.xyz/
 
 https://wiki.bash-hackers.org/
 
+{{< columns >}}
+
+[TODO] text on what shell scripting is
+
+<--->
+
 ![b0rk bash erros](/basherrorsb0rk.jpeg ':size=70%')
 
 > source: [b0rk on Twitter](https://twitter.com/b0rk) - he's got some cool zines' you can checkout https://wizardzines.com
+
+{{< /columns >}}
 
 ## Alternative Shells
 
@@ -384,9 +392,17 @@ While some of these may be included, they're some of the OG addons or tools to m
 
 ## Displaying Data in the terminal
 
+{{< columns >}}
+
+[TODO] info about various librarier and tools that show data using text based graphics or via terminals that can render SVGs/images
+
+<--->
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">💡FAQ about displaying stuff in a terminal <a href="https://t.co/XQBOezyJAx">pic.twitter.com/XQBOezyJAx</a></p>&mdash; Kate (but with plastic reindeer antlers on) (@thingskatedid) <a href="https://twitter.com/thingskatedid/status/1316074032379248640?ref_src=twsrc%5Etfw">October 13, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-[graphviz](https://graphviz.org) provides dot among other tools, this thread also mentions [libsixel](https://saitoha.github.io/libsixel/), [plot.awk](https://gist.github.com/katef/fb4cb6d47decd8052bd0e8d88c03a102), [KGT (Kate's Grammer Tools)](https://github.com/katef/kgt/), [libFSM](https://github.com/katef/libfsm/) for turning regex into FSMs.
+[graphviz](https://graphviz.org) provides `dot` among other tools, this thread also mentions [libsixel](https://saitoha.github.io/libsixel/), [plot.awk](https://gist.github.com/katef/fb4cb6d47decd8052bd0e8d88c03a102), [KGT (Kate's Grammer Tools)](https://github.com/katef/kgt/), [libFSM](https://github.com/katef/libfsm/) for turning regex into FSMs.
+
+{{< /columns >}}
 
 ## A note on Graphical-ish terminal programs
 

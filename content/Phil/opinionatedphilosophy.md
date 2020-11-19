@@ -4,7 +4,7 @@ slug: "OpPhil Old"
 
 ---
 
-!> This Section of opinionated guides will be getting a massive overhall soon. Content here may not actually reflect my views, and certainly does not reflect the views of all that contribute to the guides. Below is the old version. Much of what is written below will be reconsidered, expanded upon, and redistributed into the seperate chapters below
+<p class="tip">This Section of opinionated guides will be getting a massive overhaul soon. Content here may not actually reflect my views, and certainly does not reflect the views of all that contribute to the guides. Below is the old version. Much of what is written below will be reconsidered, expanded upon, and redistributed into the separate chapters below</p>
 
 Hey there.
 

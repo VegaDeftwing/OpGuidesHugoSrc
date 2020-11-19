@@ -2,172 +2,14 @@
 
 We've been using file in /proc and /dev throughout this, but we never really looked to see what else is in there. Let's do that.
 
-We'll actually start with /dev
+go ahead and open up a terminal and run 
 
 ```bash
 ╭─vega@lyrae ~
 ╰─➤  cd /dev
-╭─vega@lyrae /dev
-╰─➤  ls -la
-total 4
-drwxr-xr-x  22 root root         4600 Feb  8 06:03 .
-drwxr-xr-x  18 root root         4096 Jan 26 22:05 ..
-crw-rw-rw-   1 root root      10,  56 Feb  8 06:03 ashmem
-crw-r--r--   1 root root      10, 235 Feb  8 06:03 autofs
-crw-rw-rw-   1 root root     511,   0 Feb  8 06:03 binder
-drwxr-xr-x   2 root root          520 Feb  8 06:02 block
-drwxr-xr-x   2 root root          200 Feb  8 06:02 bsg
-crw-------   1 root root      10, 234 Feb  8 06:03 btrfs-control
-drwxr-xr-x   3 root root           60 Feb  8 06:02 bus
-lrwxrwxrwx   1 root root            3 Feb  8 06:03 cdrom -> sr0
-drwxr-xr-x   2 root root         5700 Feb  8 06:03 char
-crw-------   1 root root       5,   1 Feb  8 06:03 console
-lrwxrwxrwx   1 root root           11 Feb  8 06:02 core -> /proc/kcore
-drwxr-xr-x   2 root root           60 Feb  8 06:02 cpu
-crw-rw----   1 root realtime  10,  60 Feb  8 06:03 cpu_dma_latency
-crw-------   1 root root      10, 203 Feb  8 06:03 cuse
-drwxr-xr-x   8 root root          160 Feb  8 06:02 disk
-crw-rw----+  1 root audio     14,  73 Feb  8 06:03 dmmidi4
-crw-rw----+  1 root audio     14,  89 Feb  8 06:03 dmmidi5
-crw-rw----+  1 root audio     14, 105 Feb  8 06:03 dmmidi6
-crw-rw----+  1 root audio     14, 121 Feb  8 06:03 dmmidi7
-drwxr-xr-x   3 root root          140 Feb  8 06:03 dri
-crw-------   1 root root     242,   0 Feb  8 06:03 drm_dp_aux0
-crw-------   1 root root     242,   1 Feb  8 06:03 drm_dp_aux1
-crw-------   1 root root     242,   2 Feb  8 06:03 drm_dp_aux2
-crw-------   1 root root     242,   3 Feb  8 06:03 drm_dp_aux3
-crw-------   1 root root     242,   4 Feb  8 06:03 drm_dp_aux4
-crw-rw----   1 root video     29,   0 Feb  8 06:03 fb0
-lrwxrwxrwx   1 root root           13 Feb  8 06:02 fd -> /proc/self/fd
-crw-rw-rw-   1 root root       1,   7 Feb  8 06:03 full
-crw-rw-rw-   1 root root      10, 229 Feb  8 06:03 fuse
-crw-------   1 root root     254,   0 Feb  8 06:03 gpiochip0
-crw-------   1 root root     254,   1 Feb  8 06:03 gpiochip1
-crw-------   1 root root     240,   0 Feb  8 06:03 hidraw0
-------------------------------------------------------------------------------------
-to make this output shorter I stripped out hidraw 1-5,10-12
-------------------------------------------------------------------------------------
-crw-rw----+  1 root root     240,   6 Feb  8 06:03 hidraw6
-------------------------------------------------------------------------------------
-to make this output shorter I stripped out hidraw 7-9
-------------------------------------------------------------------------------------
-crw-rw----   1 root realtime  10, 228 Feb  8 06:03 hpet
-drwxr-xr-x   3 root root            0 Feb  8 06:03 hugepages
-crw-------   1 root root      10, 183 Feb  8 06:03 hwrng
-lrwxrwxrwx   1 root root           12 Feb  8 06:03 initctl -> /run/initctl
-drwxr-xr-x   4 root root          880 Feb  8 06:03 input
-crw-rw-rw-   1 root render   241,   0 Feb  8 06:03 kfd
-crw-r--r--   1 root root       1,  11 Feb  8 06:03 kmsg
-crw-rw-rw-   1 root kvm       10, 232 Feb  8 06:03 kvm
-drwxr-xr-x   2 root root           60 Feb  8 06:02 lightnvm
-lrwxrwxrwx   1 root root           28 Feb  8 06:03 log -> /run/systemd/journal/dev-log
-crw-rw----   1 root disk      10, 237 Feb  8 06:03 loop-control
-drwxr-xr-x   2 root root           60 Feb  8 06:03 mapper
-crw-rw----   1 root video    239,   0 Feb  8 06:03 media0
-crw-r-----   1 root kmem       1,   1 Feb  8 06:03 mem
-crw-------   1 root root      10,  57 Feb  8 06:03 memory_bandwidth
-crw-rw----+  1 root audio     14,  66 Feb  8 06:03 midi4
-crw-rw----+  1 root audio     14,  82 Feb  8 06:03 midi5
-crw-rw----+  1 root audio     14,  98 Feb  8 06:03 midi6
-crw-rw----+  1 root audio     14, 114 Feb  8 06:03 midi7
-drwxrwxrwt   2 root root           40 Feb  8 06:02 mqueue
-drwxr-xr-x   2 root root           60 Feb  8 06:03 net
-crw-------   1 root root      10,  59 Feb  8 06:03 network_latency
-crw-------   1 root root      10,  58 Feb  8 06:03 network_throughput
-crw-rw-rw-   1 root root       1,   3 Feb  8 06:03 null
-crw-------   1 root root     243,   0 Feb  8 06:03 nvme0
-brw-rw----   1 root disk     259,   0 Feb  8 06:03 nvme0n1
-brw-rw----   1 root disk     259,   1 Feb  8 06:03 nvme0n1p1
-brw-rw----   1 root disk     259,   2 Feb  8 06:03 nvme0n1p2
-crw-r-----   1 root kmem       1,   4 Feb  8 06:03 port
-crw-------   1 root root     108,   0 Feb  8 06:03 ppp
-crw-------   1 root root     248,   0 Feb  8 06:03 pps0
-crw-------   1 root root      10,   1 Feb  8 06:03 psaux
-crw-rw-rw-   1 root tty        5,   2 Feb  8 16:37 ptmx
-crw-------   1 root root     247,   0 Feb  8 06:03 ptp0
-drwxr-xr-x   2 root root            0 Feb  8 06:03 pts
-crw-rw-rw-   1 root root       1,   8 Feb  8 06:03 random
-crw-rw-r--+  1 root rfkill    10,  55 Feb  8 06:03 rfkill
-lrwxrwxrwx   1 root root            4 Feb  8 06:03 rtc -> rtc0
-crw-rw----   1 root realtime 250,   0 Feb  8 06:03 rtc0
-brw-rw----   1 root disk       8,   0 Feb  8 06:03 sda
-brw-rw----   1 root disk       8,   1 Feb  8 06:03 sda1
-brw-rw----   1 root disk       8,   2 Feb  8 06:03 sda2
-brw-rw----   1 root disk       8,  16 Feb  8 06:03 sdb
-brw-rw----   1 root disk       8,  17 Feb  8 06:03 sdb1
-brw-rw----   1 root disk       8,  32 Feb  8 06:03 sdc
-brw-rw----   1 root disk       8,  33 Feb  8 06:03 sdc1
-brw-rw----   1 root disk       8,  34 Feb  8 06:03 sdc2
-brw-rw----   1 root disk       8,  48 Feb  8 06:03 sdd
-brw-rw----   1 root disk       8,  64 Feb  8 06:03 sde
-brw-rw----   1 root disk       8,  65 Feb  8 06:03 sde1
-brw-rw----   1 root disk       8,  66 Feb  8 06:03 sde2
-brw-rw----   1 root disk       8,  67 Feb  8 06:03 sde3
-brw-rw----   1 root disk       8,  68 Feb  8 06:03 sde4
-brw-rw----   1 root disk       8,  80 Feb  8 06:03 sdf
-brw-rw----   1 root disk       8,  81 Feb  8 06:03 sdf1
-brw-rw----   1 root disk       8,  82 Feb  8 06:03 sdf2
-brw-rw----   1 root disk       8,  96 Feb  8 06:03 sdg
-brw-rw----   1 root disk       8,  97 Feb  8 06:03 sdg1
-brw-rw----   1 root disk       8,  98 Feb  8 16:37 sdg2
-drwxr-xr-x   4 root root           80 Feb  8 06:03 serial
-crw-rw----+  1 root optical   21,   0 Feb  8 06:03 sg0
-crw-rw----   1 root disk      21,   1 Feb  8 06:03 sg1
-------------------------------------------------------------------------------------
-to make this output shorter I stripped out sg2-6
-------------------------------------------------------------------------------------
-crw-rw----   1 root disk      21,   7 Feb  8 06:03 sg7
-drwxrwxrwt   2 root root           80 Feb  8 16:37 shm
-crw-------   1 root root      10, 231 Feb  8 06:03 snapshot
-drwxr-xr-x   4 root root          760 Feb  8 06:03 snd
-brw-rw----+  1 root optical   11,   0 Feb  8 06:03 sr0
-lrwxrwxrwx   1 root root           15 Feb  8 06:02 stderr -> /proc/self/fd/2
-lrwxrwxrwx   1 root root           15 Feb  8 06:02 stdin -> /proc/self/fd/0
-lrwxrwxrwx   1 root root           15 Feb  8 06:02 stdout -> /proc/self/fd/1
-crw-rw-rw-   1 root tty        5,   0 Feb  8 15:49 tty
-crw--w----   1 root tty        4,   0 Feb  8 06:03 tty0
-------------------------------------------------------------------------------------
-to make this output shorter I stripped out tty1-62
-------------------------------------------------------------------------------------
-crw--w----   1 root tty        4,  63 Feb  8 06:03 tty63
-crw-rw-rw-   1 root uucp     166,   0 Feb  8 06:03 ttyACM0
-crw-rw----+  1 root tty        4,  64 Feb  8 06:03 ttyS0
-crw-rw----+  1 root uucp       4,  65 Feb  8 06:03 ttyS1
-crw-rw----+  1 root uucp       4,  66 Feb  8 06:03 ttyS2
-crw-rw----+  1 root uucp       4,  67 Feb  8 06:03 ttyS3
-crw-------   1 root root      10,  61 Feb  8 06:03 udmabuf
-crw-------   1 root root      10, 239 Feb  8 06:03 uhid
-crw-rw-rw-+  1 root root      10, 223 Feb  8 06:03 uinput
-crw-rw-rw-   1 root root       1,   9 Feb  8 06:03 urandom
-drwxr-xr-x   2 root root          200 Feb  8 06:03 usb
-crw-------   1 root root      10, 240 Feb  8 06:03 userio
-drwxr-xr-x   4 root root           80 Feb  8 06:03 v4l
-crw-rw----   1 root tty        7,   0 Feb  8 06:03 vcs
-crw-rw----   1 root tty        7,   1 Feb  8 06:03 vcs1
-------------------------------------------------------------------------------------
-to make this output shorter I stripped out vcs2-6
-------------------------------------------------------------------------------------
-crw-rw----   1 root tty        7,   7 Feb  8 06:03 vcs7
-crw-rw----   1 root tty        7, 128 Feb  8 06:03 vcsa
-crw-rw----   1 root tty        7, 129 Feb  8 06:03 vcsa1
-------------------------------------------------------------------------------------
-to make this output shorter I stripped out vcsa2-6
-------------------------------------------------------------------------------------
-crw-rw----   1 root tty        7, 135 Feb  8 06:03 vcsa7
-crw-rw----   1 root tty        7,  64 Feb  8 06:03 vcsu
-crw-rw----   1 root tty        7,  65 Feb  8 06:03 vcsu1
-------------------------------------------------------------------------------------
-to make this output shorter I stripped out vcsu2-6
-------------------------------------------------------------------------------------
-crw-rw----   1 root tty        7,  71 Feb  8 06:03 vcsu7
-drwxr-xr-x   2 root root           60 Feb  8 06:03 vfio
-crw-------   1 root root      10,  63 Feb  8 06:03 vga_arbiter
-crw-------   1 root root      10, 137 Feb  8 06:03 vhci
-crw-rw----+  1 root kvm       10, 238 Feb  8 06:03 vhost-net
-crw-------   1 root root      10, 241 Feb  8 06:03 vhost-vsock
-crw-rw----+  1 root video     81,   0 Feb  8 06:03 video0
-crw-rw----+  1 root video     81,   1 Feb  8 06:03 video1
-crw-rw-rw-   1 root root       1,   5 Feb  8 06:03 zero
+╭─vega@lyrae /dev  
+╰─➤  ls
+[Very, Very Long Output here]
 ```
 
 Alright, I know what you're thinking.
@@ -191,29 +33,31 @@ drwxr-xr-x    2 vega vega     4096 Jul  7  2018 Documents
 
 So let's break that up further. Linux permissions are incredibly powerful, and are set up like this
 
-d rwx rwx rwx , the d, or lack there of, species weather a file is a directory (folder) or file.
+`d rwx rwx rwx` , the `d`, or lack there of, species weather a file is a directory (folder) or file.
 
-Less commonly you may see 'l', 'c', or 'b', as we do here in the /dev folder.
+Less commonly you may see `l`, `c`, or `b`, as we do here in the /dev folder.
 
-'l' is the easiest to understand, it's a link or shortcut. That's why you'll see an arrow pointing to where it leads at the end
+`l` is the easiest to understand, it's a link or shortcut. That's why you'll see an arrow pointing to where it leads at the end
 
-'c' is a character special file, 'b' is a special block file.
+`c` is a character special file, `b` is a special block file.
 
-Finally, you may also see either 'p' or '|' here for named pipes- more about that in a bit too.
+Finally, you may also see either `p` or `|` here for named pipes- more about that in a bit too.
 
 There are other possibilities here two, of which you can learn about by running `info ls`
 
-The vast majority of the time you will only see 'd' or '-' designating a file or directory though
+The vast majority of the time you will only see `d` for a director (folder) or `-` designating a file though.
 
-Moving on to the 'rwx' blocks, these stand for read, write, and execute respectively and each block in order states the permission of the owner of the file, those that are in the same group as the owner, and everyone else, for this reason these permissions will almost exclusively be set such that permissions are lost with each level, for example a file with
+Moving on to the `rwx` blocks, these stand for read, write, and execute respectively and each block in order states the permission of the owner of the file, those that are in the same group as the owner, and everyone else, for this reason these permissions will almost exclusively be set such that permissions are lost with each level, for example a file with
 
--rwxr--r-- , is a file (no 'd'), which may be read, written, or if it is a program ran, by the owner, yet by anyone else in the same group as the owner or anyone else on the system may only be read. So if we changed the permissions on that python file we wrote back in Chapter 2 to be this then while anyone else could see the code, they couldn't run it without making a copy.
+`-rwxr--r--` , is a file (no `d`), which may be `r`ead, `w`ritten, or if it is a program ran (e`x`ecuted), by the **owner**, but by anyone else in the same group as the owner or anyone else on the system may only be read.
+
+That's why it repeats 3 times, there's three access levels- Owner, Group, and Everyone Else. This mostly harkens back to when Linux boxes were shared servers at a university or business that everyone would remote into. You might want a file to only be modify-able (`rw-`) by you, only be readable (`r--`) by people in a shared group (Say, other students of the same class at a University or other managers at a business, etc.), and not even readable by others (`---`), this would give that file a total permission string of `-rw-r-----`. There are other uses of groups on systems too, usually for assigning who has access to hardware, like you may find that your user is in group called 'audio' if you run the `groups` command.
+
+So if we changed the permissions on that python file we wrote back in Chapter 2 to be this then while anyone else could see the code, they couldn't run it without making a copy.
 
 with that let's skip over the number of links, as I've never found it particularly useful and jump to the owner and group fields. The owner of a file is a single user, usually the one who created it. The root user is often the owner of important system files, which is why we have to temporarily use root account when we do many admin actions, such as updating or installing programs using `sudo`.
 
 (note, yay calls sudo automatically and you should NOT run yay with sudo)
-
-The group is almost nonsensical on single user systems, though many Linux systems today still have many users, so you may have user groups such as 'students' and 'staff' at a school.
 
 Next is size, this is pretty self explanatory, as its just the size of the file. Directories do take some space on the disk as they have to store the bit of their own permissions, name, and so on. On this note, directories are a bit strange in regards to the 'execute' flag that was previously mentioned. On a directory, rather than stating if a user can execute a directory (this wouldn't make any sense!) it says weather or not a user can see what's in the directory at all, almost like a lock on a file cabinet.
 
@@ -281,7 +125,7 @@ With all of that out of the way let's finally look at /dev !
 
 ## /dev, the devices folder
 
-Alrighty then, first, a heads up. My /dev folder will have some things yours wont. I'm on a desktop with a lot of hardware, drives, input devices, etc. And I've installed hundreds of programs, some of which interface with the system at a low enough level to necessitate extra files in here. For that reason some are going to be skipped over let's take these in blocks of 10
+Alrighty then, first, a heads up. My /dev folder will have some things yours wont. I'm on a desktop with a lot of hardware, drives, input devices, etc. And I've installed hundreds of programs, some of which interface with the system at a low enough level to necessitate extra files in here. For that reason some are going to be skipped over. I'll be breaking up the ouput of `ls /dev` into a bunch of code blocks below because of how ludicously large this output is.
 
 ```bash
 drwxr-xr-x  22 root root         4600 Feb  8 06:03 .
@@ -299,8 +143,6 @@ crw-------   1 root root       5,   1 Feb  8 06:03 console
 lrwxrwxrwx   1 root root           11 Feb  8 06:02 core -> /proc/kcore
 ```
 
-Here I've included . and .. in the output for reference, but we'll immediately move on.
-
 'ashmem' is something that is on my system as a part of a project with the end goal of running android apps natively on linux called 'anbox' it's still in early development, and is very difficult to run on arch
 
 'autofs' is a configurable system for mounting and unmounting storage as it is used
@@ -309,17 +151,30 @@ Here I've included . and .. in the output for reference, but we'll immediately m
 
 'block' is a directory which contains numbered links to the file system blocks used previously (such as sda)
 
-'bsg' is a directory with files that, again, represent your drives at a hardware level. You can open the bsg folder and run `ls` followed by `lsscsi` and compare the outputs to understand. This is practially just an artifact of older systems now.
+'bsg' is a directory with files that, again, represent your drives at a hardware level. You can open the bsg folder and run `ls` followed by `lsscsi` and compare the outputs to understand. This is practically just an artifact of older systems now.
 
-'btrfs-control' is used when you have drives on the system formated with the btrfs file system, this is a file system that is still in heavy development primarily targeted at storage arrays that are resilient to drive failures
+'btrfs-control' is used when you have drives on the system formatted with the btrfs file system, this is a file system that is still in heavy development primarily targeted at storage arrays that are resilient to drive failures
 
-'bus' is a folder which contains a folder 'usb' which contains folders for each usb host controller on the system, and then their devices
+'bus' is a folder which contains a folder 'usb' which contains folders for each usb host controller on the system, and then their devices. This is probably the first really cool one we're hitting as you should already be able to see how the system is letting us get data directly. To show this we'll need to have the `usbutils` package installed so that we can run `lsusb`. If you do that you should get an output like this
+
+```bash
+Bus 006 Device 003: ID 2109:0812 VIA Labs, Inc. VL812 Hub
+Bus 006 Device 002: ID 2109:0812 VIA Labs, Inc. VL812 Hub
+Bus 006 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 005 Device 005: ID 1235:007c Focusrite-Novation Launchkey MK2 49
+Bus 005 Device 007: ID 0c45:6340 Microdia Camera
+...
+Bus 005 Device 002: ID 1e7d:2e4a ROCCAT Tyon Black Mouse
+...
+```
+
+I've added ellipsis to the output to make it fit here, but you can see there that my mouse is device 002 on bus 005. If you poke around in here it should be pretty obvious how these correlate. Note, that this is just where the system puts info about the device (it's name, etc) not where the communication with the device actually happens (usually*). That's over in `/sys` which we'll get to more in depth in a bit, but for example here I could go to `/sys/bus/usb/devices/5-2` and run `cat product` for example to get the human readable name 'ROCCAT Tyon Black'.
 
 'cdrom' is actually a link to the new location of cdroms- sr0 , but, still, it's use it pretty duh
 
 'char' is a folder which contains links to a lot of other things in /dev for use with legacy things
 
-'console' is again a legacy component and is effecively the same as tty, which is always the current terminal. to be explained more when we get to the tty's
+'console' is again a legacy component and is effectively the same as tty, which is always the current terminal. to be explained more when we get to the tty's
 
 'core' a link to /proc/kcore is a direct way to read memory, used mostly for debugging
 
@@ -550,7 +405,7 @@ crw-rw----+  1 root uucp       4,  67 Feb  8 06:03 ttyS3
 
 'tty' the currently active terminal, try `echo 1 > /dev/tty`
 
-'ttyx' are virtual consoles accessible though **ctrl+alt+fx,** where fx is a function key. You should ben on tty7 by default, go ahead and try it now. Note you may need to hold the 'fn' key as well
+'ttyx' are virtual consoles accessible though **ctrl+alt+fx,** where fx is a function key. You should ben on tty7 by default (maybe? if not you might have to use ctrl+alt+fx on each number until you find your graphical environment again), go ahead and try it now. Note you may need to hold the 'fn' key as well depending on your keyboard.
 
 'ttyACMx' or 'ttyUSBx' are attached USB devices that can be accessed as a virtual terminal. This is mostly used for development boards, and we'll be using this later
 
@@ -762,6 +617,18 @@ permissions discussed eariler, recap here
 
 ## Drivers & Kernel Modules
 
+{{< columns >}}
+
+[TODO] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet lacus convallis, finibus neque sit amet, iaculis neque. Nulla consectetur nulla at magna condimentum, sed bibendum risus finibus. Nulla cursus felis vitae odio porttitor ultricies. Aenean mollis est non lorem facilisis, vitae blandit purus accumsan. Sed vitae neque pharetra libero elementum maximus. Quisque vel euismod sem. Nullam eget bibendum arcu. Nulla facilisi. Vestibulum vulputate libero lorem, nec blandit nibh suscipit vitae. Suspendisse laoreet vitae arcu non ornare. Nam aliquet lorem vitae mollis facilisis. Aliquam non accumsan libero, nec consequat ex. Duis dolor urna, facilisis non iaculis vitae, sagittis ut justo. Nulla porta turpis bibendum posuere elementum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+
+<--->
+
+![rik](/rik.jpeg)
+
+> Art by [@monoxromatik](https://twitter.com/monoxromatik), made for [@Freixfox](https://twitter.com/Ferixfox)
+
+{{< /columns >}}
+
 https://github.com/orhun/kmon
 
 [TODO]
@@ -816,7 +683,7 @@ init system: https://www.lifewire.com/how-to-use-the-init-command-in-linux-40669
 
 ## Dbus
 
-[TODO]reguallarly
+[TODO]
 
 https://github.com/KnowNo/How-Linux-Works-2nd-Edition/blob/master/How.Linux.Works.What.Every.Superuser.Should.Know.2nd.Edition.PDF.pdf
 

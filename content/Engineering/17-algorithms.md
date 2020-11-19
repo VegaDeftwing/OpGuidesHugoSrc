@@ -35,7 +35,7 @@ The Union of Set A = {1,3, 5, 6} and Set B = {1, 2, 4, 6} is
 
 A ⋃ B = {1, 2, 3, 4, 5, 6}
 
-## Complexity analsis
+## Complexity analysis
 
 +recursion analysis, [P vs. NP (YouTube)](https://www.youtube.com/watch?v=YX40hbAHx3s)
 

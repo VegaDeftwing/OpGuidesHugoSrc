@@ -16,7 +16,7 @@ slug: "Education"
 
 ### Individualized, shared, and student led
 
-![respect](/respect.png ':size=70%')
+![respect](/respect.png)
 
 ### Faster, lower standards
 

@@ -4,23 +4,31 @@ The only way to be successful in this journey is to make friends along the way. 
 
 Beyond that, having inspiration each day can be a huge booster shot to your motivation and creativity. Some sites I use nearly daily to finding good new material are:
 
-https://news.ycombinator.com/
+{{< columns >}}
 
-https://hackaday.io/ | www.hackster.io/
+[Hacker News](https://news.ycombinator.com/)
 
-https://www.bleepingcomputer.com/
+[Hackaday.io](https://hackaday.io/)
 
-https://www.humanreadablemag.com/morningcupofcoding
+[Hackster.io](www.hackster.io/)
 
-While much less active, I've found some of these to have great information as well
+[Bleeping Computer](https://www.bleepingcomputer.com/)
 
-https://n-o-d-e.net/index.html
+[Morning Cup Of Coding](https://www.humanreadablemag.com/morningcupofcoding)
 
-https://www.alchemistowl.org/pocorgtfo/
+<--->
 
-https://www.youtube.com/user/DEFCONConference
+While much less active, I've found some of these to have great information as well:
 
-(There are many more links in the 'Other Great Resources' section at the bottom of this document)
+[N-O-D-E](https://n-o-d-e.net/index.html)
+
+[POC||GTFO](https://www.alchemistowl.org/pocorgtfo/)
+
+[Defcon Videos on YouTube](https://www.youtube.com/user/DEFCONConference)
+
+{{< /columns >}}
+
+(There are many more links in Appendix A6 - 'Other Great Resources'
 
 Oh, and to mention it now
 
