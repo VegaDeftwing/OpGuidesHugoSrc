@@ -50,4 +50,10 @@
 
 * [The Egg - A Short Story (Kurzesaght on YouTube)](https://www.youtube.com/watch?v=h6fcK_fRYaI)
 
+* [Quiz from AV Husky on weird connectors](https://t.co/V5tsc7CJlD?amp=1)
+
+  * [Answers](https://docs.google.com/document/d/1czu143pnaL7EBAKtcgpAtIpiUtQyGYRQ3DDX3nXuVhQ/edit)
+
+* 
+
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>

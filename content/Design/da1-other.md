@@ -53,7 +53,21 @@ https://www.riotgames.com/en/urf-academy/curriculum-guide
 [Bevy](https://bevyengine.org/news/bevy-0-3/) - "A refreshingly simple data-driven game engine built in Rust
 Free and Open Source Forever!"
 
-?> 'Non Euclidian' is a super mathy term and I'm really into it, basically it just means that space doesn't quite work as you expect. The shortest distance between two points doesn't have to be a line, portals connecting spaces, walking in circles takes you new places, etc. [Here's a decent blog post about some](https://zenorogue.medium.com/non-euclidean-geometry-and-games-fb46989320d4).
+{{< hint info >}}
+
+'Non Euclidian' is a super mathy term and I'm really into it, basically it just means that space doesn't quite work as you expect. The shortest distance between two points doesn't have to be a line, portals connecting spaces, walking in circles takes you new places, etc. [Here's a decent blog post about some](https://zenorogue.medium.com/non-euclidean-geometry-and-games-fb46989320d4).
+
+{{< /hint >}}
+
+
+
+{{< hint warning >}}
+
+Heads up, not all 3d systems use the same coordinate systems. It's a bit of a pain. Heres a good chart for that ([source - @FreyaHolmer on Twitter](https://twitter.com/FreyaHolmer/status/1325556229410861056/photo/1))
+
+{{< /hint >}}
+
+![CoOrd Systems](/coordinatesystems.jpeg)
 
 ## Interesting ideas
 
