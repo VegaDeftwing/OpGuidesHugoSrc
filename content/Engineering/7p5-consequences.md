@@ -28,39 +28,37 @@ There's a pretty big list of considerations you should keep in mind when what yo
 
 **Localization**
 
-Can users of other in other regions still use it?
-
+* Can users of other in other regions still use it?
 * Qwerty isn't standard everywhere, neither is left-to-right text.
 * Does it comply with local laws and regulations?
   * Not all illegal services are morally wrong- take [Sci-Hub](https://en.wikipedia.org/wiki/Sci-Hub) for example.
+* Does it force units of measurement?
 
+**Monetization**
 
+- How is copyright infringement handled?
+  - This gets *very* complicated, read more in  [Philosophy Ch.8 - Copyright]({{< relref "Phil/p8-copyright" >}})
+- If something on what you're making is paid,  is [Purchasing Power Parity](https://en.wikipedia.org/wiki/Purchasing_power_parity) an option so that users in less fortunate areas can still have access?
+  - If you know what you're making will be pirated, can you release a 'Here, but seriously please pay me' version?
 
 <--->
 
 **User Experience**
 
 * Can differently-abled people still use it?
-
   * <p style="background: -webkit-linear-gradient(90deg, #F00, #0F0); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"> Color Blindness? </p>
   * Deaf?
   * Bad vision?
     
     *  <p style="font-size:.3em"> super tiny text </p>
-    
   * Motion? Flashing Lights? Light sensitivity? 
-
 * Are the elements of interaction standard / automatable
-
-  * This largely ties into differently-abled access
   
+  * This largely ties into differently-abled access
 * Does it really need to use as many resources as it does?
-
   * Could it still work if your internet was 100x slower?
   * Could it still work if your hardware was 10 years older?
-  
 * How long does it take a user to find a feature they know exists without help?
-
 * Avoid ['Dark Patterns'](https://darkpatterns.org)
 
 **Social Duties**
@@ -71,11 +69,12 @@ Can users of other in other regions still use it?
     - Does it matter that it does?
 - Can it be used for exploitation of vulnerable people?
   - The elderly? Children? Those in abusive relationships?
-- How is copyright infringement handled?
-  - This gets *very* complicated, read more in  [Philosophy Ch.8 - Copyright]({{< relref "Phil/p8-copyright" >}})
-- If something on what you're making is paid,  is [Purchasing Power Parity](https://en.wikipedia.org/wiki/Purchasing_power_parity) an option so that users in less fortunate areas can still have access?
-  - If you know what you're making will be pirated, can you release a 'Here, but seriously please pay me' version?
+- Does it make assumptions about social norms?
+- Does it assume something about FirstName LastName naming conventions?
+- Does it assume binary sex/gender fields? Does it assume Hetro relationships?
 
 {{< /columns >}}
+
+Here's a nice video from TomScott on this topic:
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/LZM9YdO_QKk?list=PL96C35uN7xGLLeET0dOWaKHkAlPsrkcha" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
