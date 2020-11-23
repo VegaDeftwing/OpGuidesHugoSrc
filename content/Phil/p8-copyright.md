@@ -16,7 +16,9 @@ Today, the most obvious example of this is the [Right to Repair movement](https:
 
 Copyright, DMCA
 
-[This video from Tom Scott](https://www.youtube.com/watch?v=1Jwo5qc78QU) is almost exactly reflective of my opinion; however, it does lack some of the finer details of what copyright reform might look like.
+This video from Tom Scott on YouTube is almost exactly reflective of my opinion; however, it does lack some of the finer details of what copyright reform might look like.
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/1Jwo5qc78QU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 

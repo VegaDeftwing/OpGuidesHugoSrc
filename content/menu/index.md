@@ -3,6 +3,9 @@ headless: true
 ---
 
 ---
+
+<div style="background:#42B9F308;border-radius: 5px;">
+
 - [**Engineering**]({{< relref "/Engineering/Engineering" >}})
   - [Ⅰ - Community]({{< relref "/Engineering/ep1-community" >}})
   - [Ⅱ - Learn How to Learn]({{< relref "/Engineering/ep2-howtolearn" >}})
@@ -14,6 +17,7 @@ headless: true
   - [6 - Let's Work on *How* we work]({{< relref "/Engineering/6-howwework" >}})
   - [6½ - Git]({{< relref "/Engineering/6p5-git" >}})
   - [7 - Let's Write Some Code]({{< relref "/Engineering/7-codeintro" >}})
+  - [7½ - Consequences]({{< relref "/Engineering/7p5-consequences" >}})
   - [8 - Low Level Programming]({{< relref "/Engineering/8-lowlvl" >}})
   - [9 - Finishing up the Project]({{< relref "/Engineering/9-codecont" >}})
   - [9½ - Programming Languages]({{< relref "/Engineering/9p5-languages" >}})
@@ -53,7 +57,12 @@ headless: true
   - [A7 - History]({{< relref "/Engineering/a7-history" >}})
   - [A8 - Odd Things]({{< relref "/Engineering/a8-oddthings" >}})
 
+</div>
+
 ---
+
+<div style="background:#F0D8D82F;border-radius: 5px;">
+
 - [**Music**]({{< relref "Music/opinionatedmusic" >}})
   - [1 - Getting Started]({{< relref "Music/m1-gettingstarted" >}})
   - [2 - Sound Sources]({{< relref "Music/m2-sources" >}})
@@ -66,7 +75,12 @@ headless: true
   - [9 - Hardware]({{< relref "Music/m9-musichard" >}})
   - [A1 - Other Resources]({{< relref "Music/ma1-musicresources" >}})
 
+</div>
+
 ---
+
+<div style="background:#C1F0E628;border-radius: 5px;">
+
 - [**Philosophy**]({{< relref "Phil/opinionatedphilosophy" >}})
   - [1 - Basic Philosophy]({{< relref "Phil/p1-basic" >}})
   - [2 - Logical Fallacies]({{< relref "Phil/p2-fallacy" >}})
@@ -86,11 +100,16 @@ headless: true
   - [16 - Voting]({{< relref "Phil/p16-voting" >}})
   - [17 - Freedoms and Rights]({{< relref "Phil/p17-freedoms" >}})
   - [18 - Duties]({{< relref "Phil/p18-duties" >}})
-  - [19 - Misc]({{< relref "Phil/p19-misc" >}})
-  - [A1 - Politics & The Internet]({{< relref "Phil/pa1-internet" >}})
-  - [A2 - Other Resources]({{< relref "Phil/pa2-other" >}})
+  - [19 - Internet]({{< relref "Phil/p19-internet" >}})
+  - [20 - Misc]({{< relref "Phil/p20-misc" >}})
+  - [A1 - Other Resources]({{< relref "Phil/pa1-other" >}})
+
+</div>
 
 ---
+
+<div style="background:#F0CFA822;border-radius: 5px;">
+
 - [**Design**]({{< relref "Design/opinionateddesign" >}})
   - [1 - Basics of Art]({{< relref "Design/d1-basics" >}})
   - [2 - Analog Art]({{< relref "Design/d2-analog" >}})
@@ -98,12 +117,24 @@ headless: true
   - [4 - UI/UX]({{< relref "Design/d4-uiux" >}})
   - [5 - Generative Tools]({{< relref "Design/d5-gen" >}})
   - [A1 - Other Resources]({{< relref "Design/da1-other" >}})
+  - 
+</div>
 
 ---
+
+<div style="background:#B4F0C122;border-radius: 5px;">
+
 - [**Interviews**]({{< relref "Interviews/interviews" >}})
   - [An Interview with Loial Otter]({{< relref "Interviews/loial" >}})
 
+</div>
+
 ---
+
+<div style="background:#e6feff22;border-radius: 5px;">
+
 - [**Other**]({{< relref "other" >}})
+
+</div>
 
 <br />

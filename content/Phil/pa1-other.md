@@ -24,8 +24,6 @@ slug: "Phil Other"
 
 [The Guy I Almost Was (Comic)](http://electricsheepcomix.com/almostguy/)
 
-[The Code I'm Still Ashamed Of](https://www.freecodecamp.org/news/the-code-im-still-ashamed-of-e4c021dff55e/)
-
 [A New Digital Manifesto](https://anewdigitalmanifesto.com/)
 
 [Small Technology Foundation](https://small-tech.org/about/#small-technology)
