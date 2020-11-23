@@ -60,7 +60,7 @@ Trackers, vs non liner, vs modular, etc.
 | Name & Link                                                  | Description                                                  | Screenshot |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
 | [Signalizer VST](https://www.jthorborg.com/index.html?ipage=signalizer) | An amazing VST Oscilliscope, Vectorscope, and general analysis tool |            |
-|                                                              |                                                              |            |
+| [Vital VST](https://vital.audio)                             | Spectral warping wavetable synth (Free and Paid tiers)       |            |
 |                                                              |                                                              |            |
 |                                                              |                                                              |            |
 |                                                              |                                                              |            |
@@ -75,9 +75,9 @@ Trackers, vs non liner, vs modular, etc.
 
 | Name & Link                                                  | Description                                            | Screenshot/Demo                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------------ |
-| [music_visualizer [Github]](https://github.com/bradleybauer/music_visualizer) | Shader viewer / music visualizer for Windows and Linux | Too many variations to easily show, look at the github repo. |
-| [Soundshader [Github]](https://github.com/soundshader/soundshader.github.io) | Uses fancy 'AutoCorrelation' - info on the github page | https://soundshader.github.io                                |
-|                                                              |                                                        |                                                              |
+| [music_visualizer (Github)](https://github.com/bradleybauer/music_visualizer) | Shader viewer / music visualizer for Windows and Linux | Too many variations to easily show, look at the github repo. |
+| [Soundshader (Github)](https://github.com/soundshader/soundshader.github.io) | Uses fancy 'AutoCorrelation' - info on the github page | https://soundshader.github.io                                |
+| [Metagroove (Itch.io)](https://marumari.itch.io/metagroove)  |                                                        |                                                              |
 
  
 
