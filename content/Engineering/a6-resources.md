@@ -156,3 +156,18 @@ https://twitter.com/oshpark
 https://twitter.com/climagic
 https://archive.org/
 https://media.ccc.de/v/31c3_-_6373_-_en_-_saal_6_-_201412291600_-_the_only_thing_we_know_about_cyberspace_is_that_its_640x480_-_olia_lialina#t=621
+
+## Android Apps
+
+| Name & Link   | Description                                                  | Screenshot/Demo |
+| ------------- | ------------------------------------------------------------ | --------------- |
+| Wolfram Alpha | app for https://www.wolframalpha.com, gives unlimited access to some of the paid features from the website. |                 |
+| SensorLab     |                                                              |                 |
+| Spectroid     |                                                              |                 |
+| BusyBox       |                                                              |                 |
+| ConnectBot    |                                                              |                 |
+| IP Tools      |                                                              |                 |
+| Intrace       |                                                              |                 |
+| zANTI         |                                                              |                 |
+| Wifi Analyzer |                                                              |                 |
+

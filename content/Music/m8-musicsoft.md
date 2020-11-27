@@ -55,31 +55,133 @@ Trackers, vs non liner, vs modular, etc.
 
 ### VSTs and other Plugins
 
-#### Free
+{{< hint warning >}}
+
+This is probably where the most bias of any of the lists on this page will show as I obviously can't list every possible VST. Instead, I'll list those that I think are particularly good both in terms of value and function.
+
+{{< /hint >}}
+
+[TODO] info about VST2 Vs VST3
+
+[TODO] info about other plugin formats, and linux briding
+
+#### Free (But might have better paid version)
+
+##### Audio Sources
+
+| Name & Link                                                  | Description                                            | Screenshot |
+| ------------------------------------------------------------ | ------------------------------------------------------ | ---------- |
+| [Ample Percussion Cloudrum](https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instrument/4194-Ample-Percussion-Cloudrum) | Steel Tongue Drum                                      |            |
+| [Alter Ego](https://www.plogue.com/products/alter-ego.html)  | Virtual Singer, Text to Speech                         |            |
+| [Dexed](https://asb2m10.github.io/dexed/)                    | Yamaha DX-7 Emulation                                  |            |
+|                                                              |                                                        |            |
+|                                                              |                                                        |            |
+|                                                              |                                                        |            |
+| [VITAL](https://vital.audio)                                 | Spectral warping wavetable synth (Free and Paid tiers) |            |
+
+##### Effects
+
+| Name & Link |      |      |
+| ----------- | ---- | ---- |
+|             |      |      |
+|             |      |      |
+|             |      |      |
+|             |      |      |
+|             |      |      |
+|             |      |      |
+|             |      |      |
+
+
+##### Other
 
 | Name & Link                                                  | Description                                                  | Screenshot |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
 | [Signalizer VST](https://www.jthorborg.com/index.html?ipage=signalizer) | An amazing VST Oscilliscope, Vectorscope, and general analysis tool |            |
-| [Vital VST](https://vital.audio)                             | Spectral warping wavetable synth (Free and Paid tiers)       |            |
+|                                                              |                                                              |            |
 |                                                              |                                                              |            |
 |                                                              |                                                              |            |
 |                                                              |                                                              |            |
 |                                                              |                                                              |            |
 |                                                              |                                                              |            |
 
-#### Paid
+#### Paid (But might have limited free version)
+
+{{< hint warning >}}
+
+No prices are listed below because they can fluctuate so much. VSTs and other music software tends to go on sale a lot, and usually quite good sales at that. **You probably shouldn't pay full price!**
+
+{{< /hint >}}
+
+##### Audio Sources
+
+| Name & Link                                                  | Description                                                  | Screenshot |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
+| [ABL3](https://www.audiorealism.se/audiorealism-bass-line-3.html) | Emulation of the classic TB303. You can buy a Behringer hardware clone for not much more, but this is easier to use imho, and Behringer is a horrible company so please don't support them. |            |
+| [Various from SugarBytes](https://sugar-bytes.de/products)   | I really like <li>Consequence - Chord Grovebox</li><li>Factory - Mod Matrix Polysynth</li><li>Guitarist - Guitar Emulation, easy to program</li><li>Drum Computer - Drum Synth</li><li>Obscurium - I don't even know, but it's cool.</li><li>Cyclop - Neat Synth, good for bass</li><li>Egoist - Weird audio stem re-groover?</li><li>Thesys - MIDI Sequencer </li> |            |
+| [Various from Artuira](https://www.arturia.com/products) (Go to Software Instruments) | <li>CS-80 V - CS-80 Emulation</li><li>DX7 V - DX-7 Emulation, better UI than the free '[Dexed](https://asb2m10.github.io/dexed/)'</li><li>SEM V - Oberheim Sem Emulation</li><li>Modular V - Moog Modular Emulation (Could just use [VCV](https://vcvrack.com))</li><li>Pigments - Artuira's take on a modern digital VST synth it's pretty awesome</li> |            |
+|                                                              |                                                              |            |
+|                                                              |                                                              |            |
+|                                                              |                                                              |            |
+|                                                              |                                                              |            |
+
+##### Effects
+
+| Name & Link | Description | Screenshot |
+| ----------- | ----------- | ---------- |
+|             |             |            |
+|             |             |            |
+|             |             |            |
+|             |             |            |
+|             |             |            |
+|             |             |            |
+|             |             |            |
+
+
+##### Other
+
+| Name & Link | Description | Screenshot |
+| ----------- | ----------- | ---------- |
+|             |             |            |
+|             |             |            |
+|             |             |            |
+|             |             |            |
+|             |             |            |
+|             |             |            |
+|             |             |            |
+
+##### Kontakt Libraries
 
 
 
 ### Visualization Software/Tools
 
-| Name & Link                                                  | Description                                            | Screenshot/Demo                                              |
-| ------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------------ |
-| [music_visualizer (Github)](https://github.com/bradleybauer/music_visualizer) | Shader viewer / music visualizer for Windows and Linux | Too many variations to easily show, look at the github repo. |
-| [Soundshader (Github)](https://github.com/soundshader/soundshader.github.io) | Uses fancy 'AutoCorrelation' - info on the github page | https://soundshader.github.io                                |
-| [Metagroove (Itch.io)](https://marumari.itch.io/metagroove)  |                                                        |                                                              |
+| Name & Link                                                  | Description                                                  | Screenshot/Demo                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [music_visualizer (Github)](https://github.com/bradleybauer/music_visualizer) | Shader viewer / music visualizer for Windows and Linux       | Too many variations to easily show, look at the github repo. |
+| [Soundshader (Github)](https://github.com/soundshader/soundshader.github.io) | Uses fancy 'AutoCorrelation' - info on the github page       | https://soundshader.github.io                                |
+| [Metagroove (Itch.io)](https://marumari.itch.io/metagroove)  |                                                              |                                                              |
+| [Signalizer VST](https://www.jthorborg.com/index.html?ipage=signalizer) | Listed above in Free VSTs, but it's so good I'm listing it here again. An amazing VST Oscilliscope, Vectorscope, and general analysis tool, looks very good too. Has full screen modes. |                                                              |
 
- 
+Note that most of the fancy music animations you see on YouTube are *probably* made in Adobe After Effects, with the exception of some that are done in programs like TouchDesigner or other node-based programming environments. You can read more about these in [Design Chapter 5 - Generative Tools]({{< relref "Design/d5-gen" >}})
+
+Some people also use hardware such as the [Sleepy Circuits 'Hypno'](https://sleepycircuits.com/hypno) or [Critter & Guitari 'Eyesy'](https://www.critterandguitari.com/eyesy) - though both of these platforms are really just running a Raspberry Pi (a lil' computer) under the hood.
+
+On very rare occasion you may also see some outright analog video synthesis, but this is generally very, very expensive. Just search [YouTube for 'Analog Video Synthesizer'](https://www.youtube.com/results?search_query=analog+video+synthesizer).
+
+### Music Apps (Android)
+
+| Name & Link | Description | Screenshot/Demo |
+| ----------- | ----------- | --------------- |
+| FractalBits |             |                 |
+| Sunvox      |             |                 |
+| Grainstorm  |             |                 |
+| WaveEditor  |             |                 |
+| Kaossilator |             |                 |
+| Hexpress    |             |                 |
+| SynprezFM   |             |                 |
+| NodeBeat    |             |                 |
+| OSCSurface  |             |                 |
+| Spectroid   |             |                 |
 
 
 
