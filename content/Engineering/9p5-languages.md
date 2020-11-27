@@ -1,5 +1,13 @@
 # Chapter 9½ - Programming Languages
 
+```
+for (🥚 = 1; 🥚 < 🐔; 🥚++){
+   //whatever
+}
+```
+
+
+
 [TODO] talk about to why there are so many, pros & cons per domain, etc
 
 ## Low Level
