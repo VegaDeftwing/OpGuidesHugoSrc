@@ -3,6 +3,24 @@ title: "Design, Other"
 slug: "Design, Other"
 
 ---
+# Mobile Apps for Art & Design
+
+| Name & Link                                                  | Description                                                  | Demo/Screenshot |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | --------------- |
+|                                                              |                                                              |                 |
+| [Pixlr](https://play.google.com/store/apps/details?id=com.pixlr.express&hl=en_US&gl=US) | phone version of https://pixlr.com                           |                 |
+| [Fragment](https://play.google.com/store/apps/details?id=com.pixite.fragment&hl=en_US&gl=US) | Add some neat geometric reflections into your art            |                 |
+| [Mirror Lab](https://play.google.com/store/apps/details?id=com.ilixa.mirror&hl=en_US&gl=US) | ^                                                            |                 |
+|                                                              |                                                              |                 |
+| [Spiro](https://play.google.com/store/apps/details?id=com.ninvus.spiro&hl=en_US&gl=US), [Tilemaker](https://play.google.com/store/apps/details?id=com.qfi.tilemaker&hl=en_US&gl=US) | Makes some interesting tiled patterns                        |                 |
+| [Easyposer](https://play.google.com/store/apps/details?id=com.madcat.easyposer&hl=en_US&gl=US), plenty of other alternatives | Decent app for posable character models. Some presets and models require a $5 pro version |                 |
+| [Fraksl](https://play.google.com/store/apps/details?id=com.workSPACE.Fraksl&hl=en_US&gl=US), [Fractal Eye](https://play.google.com/store/apps/details?id=com.selfsimilartech.fractaleye&hl=en_US&gl=US), [MandelBrowser](https://play.google.com/store/apps/details?id=pl.y0.mandelbrotbrowser&hl=en_US&gl=US) | Neat Fractal Explorers                                       |                 |
+| [Glitch Lab](https://play.google.com/store/apps/details?id=com.ilixa.glitch&hl=en_US&gl=US) | Tons of glitch effects, including some really nice pixel sorting |                 |
+|                                                              |                                                              |                 |
+| [Euclidea](https://play.google.com/store/apps/details?id=com.hil_hk.euclidea&hl=en_US&gl=US) | Not sure this one counts. It's a game about making various geometric shapes using circles. It's useful for learning some art techniques though. |                 |
+|                                                              |                                                              |                 |
+
+
 
 ## Working with other artists
 

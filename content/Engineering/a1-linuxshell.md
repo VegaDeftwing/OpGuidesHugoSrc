@@ -148,6 +148,8 @@ Also, you may find [The Regular Expression Visualizer, Simulator & Cross-Compile
 
 If you're really lazy, [Grex](https://github.com/pemistahl/grex) is "[automatically generates] a single regular expression from user-provided test cases. The resulting expression is guaranteed to match the test cases which it was generated from."
 
+Note that not all things that seem like a good fit are a good fit for regex, for example, [email](http://www.ex-parrot.com/pdw/Mail-RFC822-Address.html).
+
 ## Job Control
 
 [TODO]
