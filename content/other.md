@@ -54,6 +54,8 @@
 
   * [Answers](https://docs.google.com/document/d/1czu143pnaL7EBAKtcgpAtIpiUtQyGYRQ3DDX3nXuVhQ/edit)
 
-* 
+* [A WiFi-enabled power supply in a AA battery form factor, designed for sex toys](https://github.com/heyspacebuck/double-oh)
+
+* [I Spent 11 Years Working on This Line Rider Track by David Lu](https://delu.medium.com/i-spent-11-years-working-on-this-line-rider-track-96742fc0b709)
 
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>

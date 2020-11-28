@@ -69,15 +69,18 @@ This is probably where the most bias of any of the lists on this page will show 
 
 ##### Audio Sources
 
-| Name & Link                                                  | Description                                            | Screenshot |
-| ------------------------------------------------------------ | ------------------------------------------------------ | ---------- |
-| [Ample Percussion Cloudrum](https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instrument/4194-Ample-Percussion-Cloudrum) | Steel Tongue Drum                                      |            |
-| [Alter Ego](https://www.plogue.com/products/alter-ego.html)  | Virtual Singer, Text to Speech                         |            |
-| [Dexed](https://asb2m10.github.io/dexed/)                    | Yamaha DX-7 Emulation                                  |            |
-|                                                              |                                                        |            |
-|                                                              |                                                        |            |
-|                                                              |                                                        |            |
-| [VITAL](https://vital.audio)                                 | Spectral warping wavetable synth (Free and Paid tiers) |            |
+| Name & Link                                                  | Description                                                  | Screenshot |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
+| [Ample Percussion Cloudrum](https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instrument/4194-Ample-Percussion-Cloudrum) | Steel Tongue Drum                                            |            |
+| [Alter Ego](https://www.plogue.com/products/alter-ego.html)  | Virtual Singer, Text to Speech                               |            |
+| [Dexed](https://asb2m10.github.io/dexed/)                    | Yamaha DX-7 Emulation                                        |            |
+| [Surge Synthesizer](https://surge-synthesizer.github.io)     | FOSS hybrid synth                                            |            |
+| [Daichi Synth 1](http://daichilab.com)                       | Emulation of Nord Lead 2, but better. You'll probably want the preset pack |            |
+| [Distocore Bazz::Murda](https://distocore.online)            | Bass Drum maker, looks like it fell right out of 2004.       |            |
+| [Kairatune](https://futucraft.com/kairatune/)                |                                                              |            |
+| [Lord Of The Springs](http://www.taron.de/lots/)             | Physically modeled synthesis with a bunch of Springs         |            |
+| [Helm](https://tytel.org/helm/)                              |                                                              |            |
+| [Vital](https://vital.audio)                                 | Spectral warping wavetable synth (Free and Paid tiers)       |            |
 
 ##### Effects
 

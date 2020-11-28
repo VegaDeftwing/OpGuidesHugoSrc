@@ -28,6 +28,8 @@ https://newhams.info/2017/02/17/rf-connector-types/
 
 [Monitor Airplane Traffic with a Raspberry Pi and SDR](https://brianchristner.io/monitor-airplane-traffic-with-a-raspberry-pi/)
 
+[SDR: Digital Adventures in Shortwave Radio (Justus.ws Blog)](https://www.justus.ws/tech/sdr-adventures-in-shortwave/) 
+
 
 
 [From u/irresponsible_owl on Reddit](https://www.reddit.com/r/amateurradio/comments/jt4crn/when_one_ferrite_doesnt_do_the_trick/gc3fwvk?utm_source=share&utm_medium=web2x&context=3), in response to a picture of a USB cable with a dozen ferrite cores on it:

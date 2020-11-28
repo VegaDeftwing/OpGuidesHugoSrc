@@ -233,6 +233,10 @@ https://www.agner.org/forum/viewtopic.php?f=1&t=6
 
 The CPU has a lot of dedicated hardware inside for specific functions, for example many CPUs have a dedicated hardware random number generator.
 
+## Further Reading
+
+[Why you should use 'nproc' and not grep /proc/cpuinfo](https://www.flamingspork.com/blog/2020/11/25/why-you-should-use-nproc-and-not-grep-proc-cpuinfo/)
+
 ## RAM
 
 ![RAM](/ram.jpg)
