@@ -50,6 +50,23 @@ I fell down that trap. College isn't worth it. But maybe I can use that educatio
 
 OpGuides won't ever be a single resource and should never be in print. The reason I know I can do better is because instead of shying away from the internet and other resources for the sake of selling a book, I want to show them off and link to them. That's why I think I stand a chance of making something that can compete with college: I'm not alone, I'm a guide, showing you around the internet and introducing your to my other ~~totally not para-social relationships~~ friends.
 
+# Copyright
+
+This guide links to a bunch of other content. If you don't want your content linked please submit an issue on github or just poke me on Twitter. I have done my best to ask for permission where necessary when other resources are used.
+
+At the same time, some images and most of the text on OpGuides is the original work of either myself or other contributors. For the text, I don't really care, but for the images, gifs, etc. I do retain my copyright; however, you -the reader- are totally free to use it as long as it is **NOT** used...
+
+* to promote racist, sexist, or other shitty views that are contrary to what I've said in other places in this guide
+  * Of course you still have fair use rights for criticism and review, but you know how those limits apply.
+  * Don't be a dick.
+* in a commercial text-book without asking permission
+  * If you're from [Pearson](https://twitter.com/Vega_DW/status/1165017179865133059) or McGraw Hill the answer is no
+  * If you're from [No Starch Press](https://nostarch.com), have at it.
+* commercially in general
+  * If you're a professor or educator, please link to me, but I swear to god if you try to make students pay for an even 1 credit hour class and just say 'Oh, here, read this' I will be livid enough to seek legal action.
+
+If you repost content from OpGuides instead of linking to it directly it'd be very uncool of you to not at least credit the OpGuides project with a link.
+
 ---
 
 At the bottom you'll find a fancy logo that acts as a link to the [Webring](https://en.wikipedia.org/wiki/Webring) that this site is a part of.
