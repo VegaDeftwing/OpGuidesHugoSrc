@@ -18,18 +18,19 @@ https://www.reddit.com/r/PlotterArt/
 
 | Name & Link                                                  | Purpose / Description                                        | Screenshot                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [roberthodgin - meander](http://roberthodgin.com/project/meander) | Generative maps of how rivers meander, not the tool, but at least it's the process | ![Meander](/meander.jpg)                             |
-| [Map Generator](https://matthewtarbutton.itch.io/map-generator) | A tool for building custom maps, envisioned for use in tabletop roleplaying games. | ![mapgen](/mapgen.png)                               |
-| [One Page Dungeon](https://watabou.itch.io/one-page-dungeon) |                                                              | ![](/gdungeon.png)                                   |
-| [Dungeon Scrawl](https://probabletrain.itch.io/dungeon-scrawl) | https://dungeonscrawl.com/docs/#/                            | ![](/dscrawl.png)                                    |
-| [Fantasy City Generator](https://watabou.itch.io/medieval-fantasy-city-generator) | This application generates a random medieval city layout of a requested size. The generation method is rather arbitrary, the goal is to produce a nice looking map, not an accurate model of a city. | ![](/fcitygen.jpg)                                   |
-| [Fantasy Map Generator](https://azgaar.github.io/Fantasy-Map-Generator/) | make a map with tons of customization options including some about the culture and regions | ![fmapgen](/fmapgen.jpg)                             |
-| [Space Creator](https://github.com/erdavids/Space-Creator)   | Make a lil' solar system                                     | ![space creator](/spacec.png)                        |
+| [roberthodgin - meander](http://roberthodgin.com/project/meander) | Generative maps of how rivers meander, not the tool, but at least it's the process | ![Meander](/meander.jpg)                                     |
+| [Map Generator](https://matthewtarbutton.itch.io/map-generator) | A tool for building custom maps, envisioned for use in tabletop roleplaying games. | ![mapgen](/mapgen.png)                                       |
+| [One Page Dungeon](https://watabou.itch.io/one-page-dungeon) |                                                              | ![](/gdungeon.png)                                           |
+| [Dungeon Map Doodler](https://dungeonmapdoodler.com/draw/)   | "Dungeon Map Doodler is a new, free to use drawing tool accessible from any web browser. Easily create maps for your favourite tabletop RPGs in minutes!" | ![](/dungeondoodle.png)                                      |
+| [Dungeon Scrawl](https://probabletrain.itch.io/dungeon-scrawl) | https://dungeonscrawl.com/docs/#/                            | ![](/dscrawl.png)                                            |
+| [Fantasy City Generator](https://watabou.itch.io/medieval-fantasy-city-generator) | This application generates a random medieval city layout of a requested size. The generation method is rather arbitrary, the goal is to produce a nice looking map, not an accurate model of a city. | ![](/fcitygen.jpg)                                           |
+| [Fantasy Map Generator](https://azgaar.github.io/Fantasy-Map-Generator/) | make a map with tons of customization options including some about the culture and regions | ![fmapgen](/fmapgen.jpg)                                     |
+| [Space Creator](https://github.com/erdavids/Space-Creator)   | Make a lil' solar system                                     | ![space creator](/spacec.png)                                |
 | [Genbrush](https://mavichist.itch.io/genbrush) 15 USD        |                                                              | <iframe width="347" height="195" src="https://www.youtube.com/embed/oF7b-uTiz74" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> |
-| [Random Country Generator](https://randomcountrygenerator.com) |                                                              | ![](/rcountryg.png)                                  |
-| [World Machine](https://www.world-machine.com/download.php)  | NOTE: This is only **free** for **non-commercial use**       | ![](/wmachine.jpg)                                   |
+| [Random Country Generator](https://randomcountrygenerator.com) |                                                              | ![](/rcountryg.png)                                          |
+| [World Machine](https://www.world-machine.com/download.php)  | NOTE: This is only **free** for **non-commercial use**       | ![](/wmachine.jpg)                                           |
 | [World Painter](https://www.worldpainter.net)                | This one is for Minecraft, but still potentially useful      | ![worldpainterex](/worldpaint.jpg) SOURCE: https://www.reddit.com/r/ArdaCraft/comments/jaaw0v/a_lake_in_the_ered_luin/ |
-| [DataCombs](https://michaelgames.itch.io/datacombs)          | "3D Map editing utility for use with tabletop games like Dungeons & Dragons and Pathfinder" | ![datacomb](/datacomb.jpg)                           |
+| [DataCombs](https://michaelgames.itch.io/datacombs)          | "3D Map editing utility for use with tabletop games like Dungeons & Dragons and Pathfinder" | ![datacomb](/datacomb.jpg)                                   |
 
 ### Languages
 

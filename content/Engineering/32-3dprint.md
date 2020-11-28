@@ -11,3 +11,6 @@ While this book/guide/thing primarily focuses on the less mechancial-engieering-
 [Topology Optimization makes for some cool shelves (YouTube)](https://www.youtube.com/watch?v=3smr5CEdksc)
 
 [Cyberdecks for High-Tech Low-Lifes (The Dork Web)](https://thedorkweb.substack.com/p/tales-from-the-dork-web-9)
+
+[Clearner Laser Cutting With a 3D-Printed Nozzle (Hackaday)](https://hackaday.com/2020/11/25/cleaner-laser-cutting-with-a-3d-printed-nozzle/) ,[Links to article by Jesse @Nervous Systems](https://n-e-r-v-o-u-s.com/blog/?p=8722)
+
