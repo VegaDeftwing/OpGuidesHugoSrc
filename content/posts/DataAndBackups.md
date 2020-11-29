@@ -1,6 +1,8 @@
 ---
 title: "Data, Formats, Backups, and Digital Purgatory"
 slug: "Data, Formats, Backups, and Digital Purgatory"
+author: "Vega Deftwing"
+date: 2020-11-29
 ---
 
 # Data, Formats, Backups, and Digital Purgatory
