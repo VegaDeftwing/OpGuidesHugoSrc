@@ -1,13 +1,12 @@
 ---
-title: "HCI NEW"
-slug: "HCI NEW"
-
+title: "The Way We Interact With Computers Sucks."
+slug: "TheWayWeInteractWithComputersSucks"
+author: "Vega Deftwing"
+date: 2020-11-29
 ---
-> You are on a page that is a heavy work in progress. I don't necessarily stand by anything I've written here and this page should effectively be considered not yet published. I have decided to put it up while it is in development to encourage contributions
+<p class="tip">You are on a page that is a heavy work in progress. I don't necessarily stand by anything I've written here and this page should effectively be considered not yet published. I have decided to put it up while it is in development to encourage contributions</p>
 
 [TODO] https://readhacker.news/s/4ymEz (Programs are a prison: Rethinking the building blocks of computing interfaces)
-
-# The Way We Interact With Computers Sucks.
 
 **What do you see when you sit down to work?** My guess is a desk pressed against a wall, maybe a few shelves, one, maybe two monitors in front of you, and a keyboard and mouse dominating the work area of your desk. How do you access information? Do you simply Google something and if it's not on the first page give up? How do you get reliable information when you have a question? How do you interpret results that you find? How do you store information you've collected? How do you filter information to get exactly what you're looking for?
 
