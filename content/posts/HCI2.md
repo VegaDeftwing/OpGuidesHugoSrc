@@ -272,11 +272,15 @@ But the biggest reason your chair sucks? It's a chair. I'm not advocating for a 
 
 I've gone though wayyyy to many desks. What I'm currently using is a nice big un' with a surface that is 5' x 2'4" and it's still. not. big. enough. (for reference, a 'normal' cheap desk seems to be ~3' x 1'8"). So I've had to put two desks in an L-shape.
 
+I know that I can pick from pleanty of L or U shaped desks on amazon, but most will be seriously lacking in depth and be less than study, so my 2-desk concoction is the best I can do without making one- which I do intend to do at some point.
+
 ![](/desk.jpg)
 
 And, alright, I admit, I'm not a typical computer user. I have enough devices hooked up that `lsusb` gives me 28 lines of output, I have 3 monitors + a pen display, and my desk is also home to a whole host of lab equipment, a eurorack setup, and other various things. 
 
-But even I think my desk sorta sucks.
+Sure, It does actually have a decent sized keyboard tray unlike most where they just expect you to put the keyboard and mouse on top of the desk like some sort of monster, but that tray is still on the small side if I were to use a normal full size keyboard (with numberpad). Worse, if I use a normal keyboard my hands tend to hit the sides of the keyboard tray (where the slides attach). I've seen a ton of wooden desks with this issue. Just move the rails back like 2 inches and angle it. Please. A lot of desks also skimp on the height of keyboard that can fit in the tray. This is a fair trade off, as the better this is the closer it is to your legs when sitting, but still, I've seen multiple where the feet on the keyboard can't be raised to make typing more comfortable otherwise the keyboard tray can't be closed. My desk actually sits in a pretty good sweet spot on this, but...
+
+I still think my desk sorta sucks.
 
 Hear me out. First of all, I have a bad knee. Not like I'm walking around with a cane bad, but more like if I sit in one position for more than ~20 minutes and then move it I get a sharp pain like someone just drove a hot knife directly into it, but it only lasts a second. Yunno' what would be a major help with that? A sit / stand desk (height adjustable) desk.
 
@@ -324,13 +328,28 @@ I'm not going act like this doesn't have issues. I get it. There's questions of 
 
 Where was I? Ah, right. Desks.
 
-Next is adequate space for interruptions. While I'm a strong proponent of [separating a space's responsibilities](https://www.youtube.com/watch?v=snAhsXyO3Ck&ab_channel=CGPGrey)- (not eating where you work, not working where you consume media, not consuming media where you sleep, etc. - I understand that sometimes it's necessary, and there's nothing worse than not having a flat surface to put your bowl of soup on.
+{{< columns >}}
 
-So, why are these not more common?
+Next is adequate space for interruptions. While I'm a strong proponent of [separating a space's responsibilities](https://www.youtube.com/watch?v=snAhsXyO3Ck&ab_channel=CGPGrey) (not eating where you work, not working where you consume media, not consuming media where you sleep, etc.) I understand that sometimes it's necessary, and there's nothing worse than not having a flat surface to put your bowl of soup on.
 
-[TODO, picture of desk with pull out shelves/wings on the sides]
+So, why are desks with pull outs (as pictured on the right) not more common?
 
 More practically though, as mentioned before, it's ideal if the mouse and keyboard aren't in the way of desk space that would otherwise be used for physical craft, note taking, art, etc. So I think three spaces total are ideal: one for primary input devices- today that's a mouse and keyboard; a second for papers, a main project, etc; and a third that is easily accessible added for the interruptions and side projects in life.
+
+<--->
+
+![](/deskpullout.jpg)
+
+{{< /columns >}}
+
+In summary
+
+* Desks need a lot more surface area
+  * L or U shaped desks seriously help with this
+* We need keyboard trays that are longer, and often taller
+* Sit/Stand needs to come down in cost, be available in L and U shapes
+* Desks need built in wire management
+* Desks need to have pull outs
 
 ### Your Audio Sucks
 
@@ -381,8 +400,6 @@ Of course, the better the starting point the better this correction will work. Y
 There is software that does [some of this](https://github.com/jaakkopasanen/AutoEq), but I really think it needs hardware acceleration (hell, maybe an [FPAA](https://zrna.org/shop)) and to be more common.
 
 ### Your Displays Suck
-
-[TODO : Eink displays, display tech, non-pixel displays are good]
 
 I'm going to assume that if you're reading this you're probably using at minimum a 1080p, 60hz monitor. And like, yeah 2073600 is a ton of pixels. If you assume the normal 8-bit per R-G-B (24bit color) then you get ~2.98Gbit/s which is already pretty impressive if you think about it, but then consider that even cheap single board computers are starting to be capable of 4k, 3840x2160 which at 60hz is ~11.94Gbit/s and, alright, that's already undeniably really cool. But, unfortunately, super not enough and already causing problems. 
 
