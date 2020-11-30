@@ -26,15 +26,15 @@ Back in late 2018 I wrote the first version of this post and basically everythin
 
 What the fuck is this shit?
 
-[TODO, normal TKL membrane keyboard and two button mouse]
+![crappy membrane keyboard](/membranekeys.jpg)
 
-Come on, we can do better.
+Well, this shit is membrane keys. They use a lil' membrane of flexible plastic to make a button that when you press completes a circuit. They feel like mush and generally suck to type on. We can do much, much better:
 
-[TODO gaming keyboard, gaming mouse]
+![Mechanical keyboard](/mechanicalkeys.jpg)
 
-Really? That's the best we can do?
+Okay, cool, a mechanical keyboard. Now at least each switch is, well, mechanical. There's a spring and actual feedback to your fingers and ears when you hit a key. But the keys are still arranged horrendously and it's not at all fitting for human hands. So... What next? 
 
-[TODO ergodone and Tyon]
+![ergodone](/ergodone.jpg)
 
 Alright, so this is what I use. For me, this is great. It's still attainable and usable by meme mortals without infinitely deep wallets<a class="ptr">(1)</a> and using software as it exists today, but I think that's largely still because it's the furthest edge you can go from normal before things start being a royal pain in the ass, and don't get me wrong. It's not that there's not some PITA incurred from using this weird of a keyboard. Switching to a traditional keyboard will always feel weird, other people can't easily use your computer (not sure this is reallllly a downside...), configuration still basically requires you understand the basics of C programming, and some things that expect keys to be in certain places (games) will often be awkward.
 
@@ -84,7 +84,7 @@ That's why this topic is so interesting. My hands are not your hands. I play mus
 
 **Frankly, fuck that.**
 
-We can do so much better. Our phones have auto correct and limited [text expansion,](https://github.com/ianzhao05/textshot) why do our beefier systems not do something a thousand times better with their superior on board resources? Why are we not doing natural language processing so that I can verbally or textually describe to you a graph or math equation without needing to have committed to memory some archaic set of $\LaTeX$ symbol names <a class="ptr">(3)</a>. Why are so many fields limited to ASCII, or maybe UTF-8, giving us those sweet, sweet emoji 🔥🔥🔥💯💯💯💯 when we could have something that allows text, diagrams, pictures, videos, etc.
+We can do so much better. Our phones have auto correct and limited [text expansion,](https://github.com/ianzhao05/textshot) why do our beefier systems not do something a thousand times better with their superior on board resources? Why are we not doing natural language processing so that I can verbally or textually describe to you a graph or math equation without needing to have committed to memory some archaic set of {{< katex >}} \LaTeX {{< /katex >}}symbol names <a class="ptr">(3)</a>. Why are so many fields limited to ASCII, or maybe UTF-8, giving us those sweet, sweet emoji 🔥🔥🔥💯💯💯💯 when we could have something that allows text, diagrams, pictures, videos, etc.
 
 **But there's more than just the keyboard**
 
@@ -98,11 +98,29 @@ What would be better? Clearly pointing with a mouse is actually already pretty g
 
 Well, There's already the Leap Motion
 
-[TODO, Insert picture of LEAP diagnostics]
+{{< columns >}}
+
+![](/leapmotion.jpg)
+
+The leap motion hardware is basically just two cameras without an infrared filter and some infrared leds. 
+
+<--->
+
+![](/leapplayground.jpg)
+
+The Leap Motion software does an actually really good job of using this information to reconstruct the finger positions in software.  
+
+{{< /columns >}}
 
 and the Lexip 3D mouse - https://www.lexip.co
 
-[TODO, gif]
+![pu94](/3dmouse.gif)
+
+{{< hint warning >}}
+
+Note, This mouse, the Lexip pu94, is a complete disaster and the result of what is effectively a failed kickstarter. The windows drivers are broken, I'm currently working on a custom Linux driver for it but like, yeah. Don't buy one.
+
+{{< /hint >}}
 
 However, using the Leap for everything would require you hold your hands out to point, something that anybody who ever owned a wii can tell you gets very tiring very quickly.
 
@@ -116,9 +134,19 @@ Unfortunately, the drivers for configuring these options are still largely propr
 
 **Foot Controllers**
 
-I have multiple foot based inputs on my system. The most notable is probably the [Stinky Footboard](http://www.stinkyboard.com) in which I have swapped the controller to run aforementioned QMK - it's effectively just a 4-key mechanical keyboard. I also have a [MorningStarMC6](https://www.morningstarfx.com/mc6), a MIDI foot controller that can also take expression-pedal inputs (see the below picture:)
+{{< columns >}}
 
-[TODO pic of both MC6 and Stinky]
+![](/mc6.jpg)
+
+Morning Star MC6, a MIDI foot pedal that's high customizable and has inputs for connecting analog expression pedals (the green thing on the right). 10/10 recomended
+
+<--->
+
+![](/stinky.jpg)
+
+[Stinky Footboard](http://www.stinkyboard.com) - it's effectively a 4-key mechanical keyboard for your feet. The driver for this product sucks, so I swapped the controller out for a promicro running QMK. 
+
+{{< /columns >}}
 
 And, don't get me wrong, both are great. Being able to use my feet to control my system really allows for a lot of flexibility; however, your feet can only do so fine-grained of control. Unlike keyboards where our fingers are great at hitting a bunch of individual keys, we're better at hitting smaller buttons or controlling pedals (think pressure sensitive like a gas pedal) with our feet. So, with that in mind, you only get a limited number of inputs you can practically control, so those inputs really need to count. That's the problem. They really don't.
 
@@ -160,7 +188,7 @@ I'll expand on this thought later, down in the **Your Audio Sucks** Section.
 
 Finally, *nobody* has ever wanted their notifications to show up when sharing their screen. Why are notifications not deemed as a sort of 'draw over' element by default?
 
-**Aplication Specific Controllers (MIDI Controllers, Video Editing, etc)**
+**Application Specific Controllers (MIDI Controllers, Video Editing, etc)**
 
 First of all, this is done in a stupid way in most circumstances<a class="ptr">(9)</a>. There's no reason you should have single use hardware that sends specific commands that are not programmable by the user. Like I said, let's do all the mapping in software. This lets features be added later and users make better use of their controllers.
 
@@ -170,7 +198,9 @@ First though, for those unfamiliar, what is a MIDI controller? MIDI, or Musical 
 
 MIDI controllers come in all shapes and sizes, from a grid of RGB buttons to traditional keyboards to just a large array of knobs, so, naturally people took notice, and MIDI can therefore be used to control things it was never, ever meant for. People often try to use it to control video editors, 3D modeling software, and generally anything that Adobe<a class="ptr">(10)</a> makes.
 
-[TODO Picture of MIDI Controllers]
+![midi controllers](/midicontrollers.jpg)
+
+> Pictured here are the Novation Launch Key MkII (The big keyboard),  Launhpad MkII (the 8x8 grid), the Roli Seaboard Block, and two Roli Lightpad Blocks.  <a class="ptr">(11)</a>
 
 So now we have a crazy amount of controllers using a shitty standard instead of something that actually exposes more data and allows for finer control being used in ways that abuse the protocol instead of just exposing raw button down/up events and knob twists to the OS.
 
@@ -216,11 +246,23 @@ Want to look up $LaTeX$ Symbols? [Done.](https://detexify.kirelabs.org/classify.
 
 ### Your Chair Sucks
 
-Did you get a gaming, racing chair that cost like $65 off of ebay? Yeah, you'll regret that one soon enough.
+{{< columns >}}
 
-Even if you got a normal office chair, if it wasn't exorbitantly expensive it probably sucks. I did like two weeks of stressing about finding something good and thankfully finally got a good recommendation from a friend, but otherwise it's like $500 SteelCase chair or having a bolt poke though the butt-foam until it's leaving a permanent indentation.
+Did you get a gaming, racing chair that cost about $100 off of ebay? Yeah, you'll regret that one soon enough.
+
+![](/racingchair.jpg)
+
+Even if you got a normal office chair, if it wasn't exorbitantly expensive it probably sucks. I did like two weeks of stressing about finding something good and thankfully finally got a good recommendation from a friend, but otherwise it's like $500 SteelCase chair or having a bolt poke though the butt-foam until it's leaving a permanent indentation into your butt.
 
 It's not like we even *need* innovation here, (as proven by the influx of hot garbage 'gaming' chairs) we just need something affordable that's not garbage or plagued by fake reviews or reviews from another product attached to the new listing (Fix your shit amazon.)
+
+> The chair on the right is the one my friend recommended, [here's a link to it on Amazon](https://www.amazon.com/dp/B00450P182/ref=cm_sw_r_other_apa_i_oG.1EbSZR4NZP)
+
+<--->
+
+![](/chair.jpg)
+
+{{< /columns >}}
 
 But, I'm here to talk about the future, so what do I think can be better than anything I've even seen? Well, a good start would be threshold latches. Nicer office chairs often have a lock for allowing leaning back or not, but it'd be great if it was 'locked' until a pressure threshold so you can lean back and stretch without un-locking and necessitating re-adjusting the chair, a sort of temporary unlock done by just leaning back harder.
 
@@ -230,17 +272,17 @@ But the biggest reason your chair sucks? It's a chair. I'm not advocating for a 
 
 **or 'why the fuck is it so hard to find a deep desk with a keyboard tray'**
 
-I've gone though wayyyy to many desks. What I'm currently using is a nice big un' with a surface that is 5' x 2'4" and it's still. not. big. enough. (for reference, a 'normal' cheap desk seems to be ~3' x 1'8").
+I've gone though wayyyy to many desks. What I'm currently using is a nice big un' with a surface that is 5' x 2'4" and it's still. not. big. enough. (for reference, a 'normal' cheap desk seems to be ~3' x 1'8"). So I've had to put two desks in an L-shape.
+
+![](/desk.jpg)
 
 And, alright, I admit, I'm not a typical computer user. I have enough devices hooked up that `lsusb` gives me 28 lines of output, I have 3 monitors + a pen display, and my desk is also home to a whole host of lab equipment, a eurorack setup, and other various things. 
-
-[TODO, picture here]
 
 But even I think my desk sorta sucks.
 
 Hear me out. First of all, I have a bad knee. Not like I'm walking around with a cane bad, but more like if I sit in one position for more than ~20 minutes and then move it I get a sharp pain like someone just drove a hot knife directly into it, but it only lasts a second. Yunno' what would be a major help with that? A sit / stand desk (height adjustable) desk.
 
-But that won't work for me, and probably a lot of other nerds reading this for one big reason. **Wire. Hell.** Like, maybe you're thinking *"Pssh, what, so you have like a dozen cables down there, power, display, USB mouse/keeb, and audio"
+But that won't work for me, and probably a lot of other nerds reading this for one big reason. **Wire. Hell.** Like, maybe you're thinking "Pssh, what, so you have like a dozen cables down there, power, display, USB mouse/keeb, and audio"
 
 Ha. No.
 
@@ -252,9 +294,11 @@ I could rant to you about how USB-C with it's 42 different standards is a god da
 
 MIDI Is a fucking shit of a standard. It's 7 bit, ancient, and the 'standard' <a class="ptr">(4)</a> cable for it has (ᵈᵉᵖᵉⁿᵈᶦⁿᵍ ᵒⁿ ʰᵒʷ ʸᵒᵘ ˡᵒᵒᵏ ᵃᵗ ᶦᵗ) 3 more pins than it even uses. By all metrics it fucking sucks. ***However***, They did do one thing right.
 
-This, beautiful, beautiful port:
+This beautiful port:
 
-[TODO, MIDI THRU pic]
+![](/midithru.jpg)
+
+> Image © Shira Wolven 2020, used with permission
 
 This, is a midi through. On most gear, it's accompanied by (at least) a MIDI IN, so, you can take your MIDI info in, and then, because a single midi cable carries 16 channels, chain other gear on.
 
@@ -300,7 +344,11 @@ How many times have you watched a YouTube video where the speakers voice had far
 
 All of these things are totally fixable using a mix of hardware and software.
 
-!> before I get into all the following, I'm not saying all of these things should always be in use. For example when somebody is making music all of this obviously needs to be able to bypassed.
+{{< hint warning >}}
+
+Before I get into all the following, I'm not saying all of these things should always be in use. For example when somebody is making music all of this obviously needs to be able to bypassed.
+
+{{< /hint >}}
 
 **Why *the fuck* do we not have a system-wide limiter?**
 
@@ -318,13 +366,21 @@ Not all systems will be able to do this live without completely shitting the bed
 
 Alright, so this is mostly a dig at Windows, where everything is Garbage. Mac has CoreAudio which is pretty cool, and Linux can mostly do this for audio via [Jack Audio](https://jackaudio.org/faq/about.html) and work is being done to make something for both audio and video with [Pipewire](https://pipewire.org).
 
-[TODO example pic of catia and pipewire]
+![](/catia.png)
+
+> This is a screenshot of 'Catia' - a graphical program for audio routing with Jack Audio. Here I just have pulseaudio set to use my first two outputs as my speaker outputs (Sink -> System) , and the first input (my microphone, which is mono) set to be the input to the stereo 'virtual microphone' that pulse audio provides to applications (System->Source). All the orange and green stuff is for MIDI devices, which catia can also route.
 
 The reason this is necessary is with routable audio and video you can do things like route your webcam's video first though software that does some video effects, then to a recording program and to a streaming program easily. Sure, this can be done anyway right now, but it often means creating a 'virtual' webcam in the middle, and this scenario was already a fairly basic one. If you add in the aforementioned limiting and compressing as options you can see where this starts to matter.
 
 **Why are we not calibrating our audio devices?**
 
-[TODO] https://github.com/jaakkopasanen/AutoEq
+While it may seem like it at times- with big fancy tube amps, planar magnetic headphones, and silver cables for that hi-fi sound- audio is not black magic. It's math. More over, while everybody's ears are a bit different, the frequency response that most people want from their devices is [more or less known](https://www.headphonesty.com/2020/04/harman-target-curves-part-1/). No device can perfectly meet this, at least not at a cost a mere mortal can afford. As that linked article details, this isn't super straight forward anyway, as your head and ear size, room acoustics, etc. all mater. But here's the thing:
+
+Computers are really stupidly powerful. We can make our audio quality better, even on sub-optimal equipment. I'm going to gloss over most of the math, but the gist is by putting a special microphone with know frequency response at the desired listening point and doing a frequency sweep from each speaker (or headphone) and all the speakers at once we can math out each speaker's (or headphone's) frequency response and phase cancellation characteristics, then, being careful not to cause resonant peaks or really obnoxious phase shifting effects, use a parametric EQ to get the speakers (or headphones) as close to ideal as possible.
+
+Of course, the better the starting point the better this correction will work. You won't make some cheap iFrogs sound like Senheisers, but you might make them better.
+
+There is software that does [some of this](https://github.com/jaakkopasanen/AutoEq), but I really think it needs hardware acceleration (hell, maybe an [FPAA](https://zrna.org/shop)) and to be more common.
 
 ### Your Displays Suck
 
@@ -410,9 +466,41 @@ Next up is **dynamic range**, or how deep the blacks are and how vivid the white
 
 ### Noise
 
+Just looking at the [Wikipedia Article on Noise Polution](https://en.wikipedia.org/wiki/Noise_pollution#Humans), it's pretty obvious that humans like to be somewhere where noise is kept to a minimum. There are of course questions about what you want to consider noise. Like, clearly above I made it clear I prefer mechanical keyboards which, as anyone that has been on a discord call can tell you, are rather loud. The difference is in it being noise you're causing, or background noise that you can't control. Fan noise from your computer, music from another room that you can't quite make out, a rattle from the HVAC system, that's *noise*. Somehow we've all gotten rather used to rather noisy environments.
+
+Don't get me wrong, improvements have been made. A lot of computers don't even run the fans when they're idle or you're just web browsing, LED bulbs don't have the ballasts that were required of old fluorescent bulbs that always found a way to whine, we no longer used CRT (Cathode Ray Tube) screens that had flyback transformers whining at the edge of human hearing either. But it's still not great. Even if none of the electronics in a room have fans or speakers or the other things you expect to make noise, you can still notice when a room has been shut off. And a lot of electronics do have fans, and they're often crap. Even the high end ones that PC building enthusiasts idolize like those from Noctua [are far from amazing](https://www.youtube.com/watch?v=6L4Lbh5GwzA&ab_channel=MajorHardware). 
+
+But, come on. Why are we not integrating at least some sound control into our architecture? Why is acoustic dampening something only used by streamers? Why are devices that we know get nasty [coil whine](https://en.wikipedia.org/wiki/Electromagnetically_induced_acoustic_noise) not being silenced by just adding some wax or glue to the inductors?
+
+It's not like most of the solutions for making noise better aren't available and understood, it's just that it takes an extra bit of consideration and maybe a bit more money.
+
+I'm not sure what the solution should be. Maybe products need to have some sort of testing for this and a label applied, like the ubiquitous 'Energy Star' stickers or the 80 Plus ratings on PC power supplies.
+
 ### Lighting
 
-[TODO] warms vs cool, brightness, ambi-light
+If you're in an office right now, I can take a pretty good guess that the lights above you are some of those 4ft long fluorescent tube bulbs, probably in an excruciating 6500k.
+
+{{< columns >}}
+
+The problem with that color temperature isn't necessarily that it's too 'cool', it's that it's fixed at that point. 6500k is about the same as the sun on a clear day... at about noon. The problem is our bodies expect warmer colored light closer to night or it screws up our sleep cycle. The website for the software [f.lux](https://justgetflux.com) has aggregated some good [research](https://justgetflux.com/research.html) on this subject, but I think at this point it's actually pretty common knowledge as even Samsung phones ship with the ability to turn a blue light filter on.
+
+<--->
+
+![Color_temperature_black_body_800-12200K](/Color_temperature_black_body_800-12200K.svg)
+
+> Image from [Bhutajata](https://en.wikipedia.org/wiki/Color_temperature#/media/File:Color_temperature_black_body_800-12200K.svg) on this [Wikipedia article](https://en.wikipedia.org/wiki/Color_temperature)
+
+{{< /columns >}}
+
+> Brief aside, if you use Linux, [Redshift](http://jonls.dk/redshift/) is a good alternative to f.lux
+
+Right now we're still in the annoying stages of this sort of system, most RGB or color temperature variable bulbs have rather crappy [Color Rendering Index](https://en.wikipedia.org/wiki/Color_rendering_index) (CRI), so even if the temperature is variable the quality still sucks.
+
+> This is purely anecdotal, and it seems the Phillips Hue bulbs at least have a decently high CRI, but like, they're also a tad bit on the expensive and privacy invade-y side of things sooo ¯\\_(ツ)_/¯ 
+
+But worse, the software to keep these bulbs in sync is pretty gross, and some bulbs will just end up snapping from one color to another every 15 minutes or so, which is more distracting than it's worth.
+
+[TODO] ambi-light, led indicators
 
 ### CO2
 
@@ -420,11 +508,28 @@ Next up is **dynamic range**, or how deep the blacks are and how vivid the white
 
 Alright, so after seeing this I went out and got a [CO2 meter](https://www.co2meter.com/collections/desktop/products/co2mini-co2-indoor-air-quality-monitor). I watched it get above **2000ppm** regularly. I took steps to lower it and now, honestly, I do feel better.
 
+This requires two things to fix:
+
+1. Better indoor ventilation
+2. A Carbon tax and other restrictions that scientists and economists have been telling governments for decades that they need to be doing before we lose entire ecosystems, our entire world becomes inhospitable to life as we know it, more cities have [air that is literally toxic](https://www.bbc.com/news/world-asia-india-50280390), and things just generally go to shit.
+
+Coming back around to 'How is this relevant to how we interact with computers'?
+
+Well, I imagine you like to breathe while at your desk, and I also assume that you're using a device that uses electricity to read this, and that device is very likely *not* powered by renewable energy.
+
 ## Finding Information Sucks
 
 ## Transferring Information Sucks
 
 ### Networking Sucks
+
+* Everything is centralized
+* ipv4 is broken
+  * ipv6 is worse
+* ISPs are evil
+* nothing is secure
+* nothing is persistent (saved local copies)
+* 
 
 ### Transferring Your Profile Sucks
 
@@ -438,19 +543,23 @@ Alright, so after seeing this I went out and got a [CO2 meter](https://www.co2me
 
 ### Local Backups By Default
 
-# Authentication Sucks
+## Authentication Sucks
 
 File Permissions
 
 user/password/2factor
 
-### [Storing Information Sucks](Blog/DataAndBackups)
+### [Storing Information Sucks](https://opinionatedguide.github.io/posts/data-formats-backups-and-digital-purgatory/)
 
-?> This section I've put in a complete other article because It **sucks so hard** that it deserves it.
+{{< hint warning >}}
+
+This section I've put in a complete other article because It **sucks so hard** that it deserves it.
+
+{{< /hint >}}
 
 ## Presentation of Information Sucks
 
-!> I'll be the first to admit this website isn't the best on this. I put [The list of Generative Design Tools](Design/d5-gen) in a MarkDown Table for fucks sake. I know. But, We'll get to that in a bit, in the Creating New Information Sucks section below, and I hope to convince you that isn't necessarily my fault.
+<p class="tip">I'll be the first to admit this website isn't the best on this. I put <a href='https://opinionatedguide.github.io/design/generative-art/'/>the list of generative design tools</a> in a MarkDown Table for fucks sake. I know. But, We'll get to that in a bit, in the Creating New Information Sucks section below, and I hope to convince you that isn't necessarily my fault.</p>
 
 ### 'Dark Patterns'
 
@@ -484,6 +593,8 @@ With destructive or irreversible actions, such as deletion (not recycling), give
 <img src="/times-square.jpg" alt="Times Square" style="zoom: 33%;" />
 
 > Bobby Mikul, Times Square :CC0 -- [Source](https://www.publicdomainpictures.net/en/browse-author.php?a=2185)
+
+[Why The Web Is Such A Mess (Youtube - Tom Scott)](https://www.youtube.com/watch?v=OFRjZtYs3wY&ab_channel=TomScott)
 
 ### Updates after Initial Draw
 
@@ -661,6 +772,8 @@ Taking the crown however, is Display Port (DP). Like HDMI display port does have
 <li>I will concede the C920 can be made significantly less shit by just turning off most of the 'auto' settings and setting everything by hand. This can be done on Linux with GuvcView, but on Windows I've found all the recent drivers make it impossible, so, I stand by it still being shit.</li>
 <li>In the case of things that can be used standalone, not connected to a computer, like my afforementioned MorningStar MC6 midi controller, it makes some sense. </li>
 <li>Fuck Adobe.</li>
+<li>The Launchkey MK2 has an almost impressively bad keybed. Roli, the company behind the Seaboard Block and Lighpad Blocks is a bit controversial. Not like, Behringer levels of controversial, but still. ╮(─▽─)╭</li>
 </ol>
+
 
 

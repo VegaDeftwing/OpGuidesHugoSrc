@@ -1,12 +1,15 @@
 ---
 title: "Loial"
 slug: "Loial"
-
+date: 2018-09-23
 ---
 
-9/23/2018
+# An Interview With Loial Otter
+
+**9/23/2018**
 
 **Introduction:**
+
 I'm Matthew or LoialOtter, a crazy person up in western Canada who likes to make stuff. I work at Kron Technology as an engineer mainly in FPGA, electronics design and hardware design.
 
 I don't have any credentials except a certificate in baking and pastry arts. I'm self-taught mostly due to not being ever able to afford going to school. I suggest others do when the have the opportunity but it isn't absolutely required.
