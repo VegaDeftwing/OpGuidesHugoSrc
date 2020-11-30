@@ -6,8 +6,6 @@ date: 2020-11-29
 ---
 <p class="tip">You are on a page that is a heavy work in progress. I don't necessarily stand by anything I've written here and this page should effectively be considered not yet published. I have decided to put it up while it is in development to encourage contributions</p>
 
-[TODO] https://readhacker.news/s/4ymEz (Programs are a prison: Rethinking the building blocks of computing interfaces)
-
 **What do you see when you sit down to work?** My guess is a desk pressed against a wall, maybe a few shelves, one, maybe two monitors in front of you, and a keyboard and mouse dominating the work area of your desk. How do you access information? Do you simply Google something and if it's not on the first page give up? How do you get reliable information when you have a question? How do you interpret results that you find? How do you store information you've collected? How do you filter information to get exactly what you're looking for?
 
 If you're reading this, I'd wager that you've at least thought about this a little. Maybe you're a Linux user, deep into the tiling window manager rabbit hole. Maybe you already have a fancy keyboard, monitors surrounding you on all sides. But I'm here to tell you that no matter how hard you've tried, **what you're using still probably sucks**.
@@ -84,7 +82,7 @@ That's why this topic is so interesting. My hands are not your hands. I play mus
 
 **Frankly, fuck that.**
 
-We can do so much better. Our phones have auto correct and limited [text expansion,](https://github.com/ianzhao05/textshot) why do our beefier systems not do something a thousand times better with their superior on board resources? Why are we not doing natural language processing so that I can verbally or textually describe to you a graph or math equation without needing to have committed to memory some archaic set of {{< katex >}} \LaTeX {{< /katex >}}symbol names <a class="ptr">(3)</a>. Why are so many fields limited to ASCII, or maybe UTF-8, giving us those sweet, sweet emoji 🔥🔥🔥💯💯💯💯 when we could have something that allows text, diagrams, pictures, videos, etc.
+We can do so much better. Our phones have auto correct and limited [text expansion](https://espanso.org), why do our beefier systems not do something a thousand times better with their superior on board resources? We could at least make it easier to grab [text out of screenshots](https://github.com/ianzhao05/textshot)- But why are we not doing natural language processing so that I can verbally or textually describe to you a graph or math equation without needing to have committed to memory some archaic set of {{< katex >}} \LaTeX {{< /katex >}}symbol names <a class="ptr">(3)</a>? Why are so many fields limited to ASCII, or maybe UTF-8, giving us those sweet, sweet emoji 🔥🔥🔥💯💯💯💯 when we could have something that allows text, diagrams, pictures, videos, etc.
 
 **But there's more than just the keyboard**
 
@@ -462,6 +460,32 @@ Next up is **dynamic range**, or how deep the blacks are and how vivid the white
 
 > Note, OLED isn't really ready to be used for normal desktop or laptop monitors yet, as it can suffer from really bad burn in or image persistence. Looks great for movies, but when you have un-changing elements on screen for hours at a time it's not ideal.
 
+#### Non pixel displays
+
+{{< columns >}}
+
+You know what would really help with the search for the perfect display though? Needing it for less things.
+
+As time has moved on computers have taken over the role of more and more tools on our desk, but that also means the screen has had more responsibilities - I doubt you have a physical clock on your desk.
+
+I love analog meters. They can be backlit like old VU meters in stereo equipment, or they can totally illuminated by the environment. Regardless, they're quick and easy to read. Needle high, needle low. On the right I have a picture from my (horribly implemented) [CPU meter project](https://github.com/VegaDeftwing/Civil-Defense-System-Meter) that just shows my CPU usage on the radiation meter and ram usage on the RGB led.
+
+Of course, other forms of more passive indication are great too: Little e-ink or oled display, not-too-bright leds (or VFDs or Nixie tubes if you're feeling adventurous) - not everything needs to be on your screen. Let your eyes look away to a dedicated device now and then.
+
+---
+
+On the right, for example, is the Quirky Nimbus, which I think it shows this idea rather well.
+
+Note, the nimbus had issues when it did work, but is now a victim of IOT evolution as it's servers have long since been shut down and it's very difficult to hack (I own one and tried). So, uhh, don't go out and buy one.
+
+<--->
+
+![radiation meter](/radiation_meter.jpg)
+
+![nimbus](/nimbus.jpg)
+
+{{< /columns >}}
+
 ## Your Space Sucks
 
 ### Noise
@@ -500,7 +524,39 @@ Right now we're still in the annoying stages of this sort of system, most RGB or
 
 But worse, the software to keep these bulbs in sync is pretty gross, and some bulbs will just end up snapping from one color to another every 15 minutes or so, which is more distracting than it's worth.
 
-[TODO] ambi-light, led indicators
+{{< columns >}}
+
+The next worst offender with lighting is all way to bright (often blue) leds on ***E V E R Y T H I N G*** . For the love of god guys, the lights are supposed to be indicators, not light the entire room. There shouldn't be a product with over a [thousand reviews on Amazon](https://www.amazon.com/LightDims-Original-Strength-Electronics-Appliances/dp/B009WSJNCW) with the sole purpose of dimming obnoxious LEDs. Like, leds aren't even the best thing for the job anyway most of the time. I'd think an e-ink screen, like on the [pwnagotchi](https://pwnagotchi.ai) below, would be sooo much better for most applications that need multiple indicators. For a power on indicator, an led is fine, but please just make it like 20x dimmer or put it near the power input instead of somewhere normally visible.
+
+Like, my center display has a **blue** led that is on when the monitor is on instead of the more normal standby indicator that goes off when the display is on found on TVs. It's immensely distracting. Sure it can be fixed with a tiny piece of electrical tape, but whyyyy?
+
+Further Reading: [1 (Tedium.co)](https://tedium.co/2020/07/10/led-indicator-light-history/) [2 (Hackaday)](https://hackaday.com/2020/02/20/we-ruined-status-leds-heres-why-that-needs-to-change/comment-page-2/) 
+
+![](/eink.jpg)
+
+> my 'Powonagotchi' 🖤
+
+<--->
+
+![](/offensiveled.jpg)
+
+> An offending LED indicator on the Mackie CR4 speakers. It's meant to illuminate the volume knob in the dark but it mostly fails at that, especially since the all-black knob relies on a bump for indication rather than a white stripe.
+
+{{< /columns >}}
+
+{{< columns >}}
+
+On a far less useful but neat note- I think 'ambilight' systems need to be more common, obviously user choice weather or not to use it, but yeah. 10/10 need more ambilight in my life.
+
+Basically ambilight is just a system for letting the colors from the pixels near the edge of the screen be mirrored onto some RGB leds so that the color spills onto the wall behind. It's a really neat effect for games or movies.
+
+> Ambilight image from [Wikipeda user Stephan Legachev](https://commons.wikimedia.org/wiki/File:Ambilight-2.jpg), resized for this blog.
+
+<--->
+
+![](/Ambilight-2.jpg)
+
+{{< /columns >}}
 
 ### CO2
 
@@ -540,6 +596,8 @@ Well, I imagine you like to breathe while at your desk, and I also assume that y
 > 5) Switchable "user profiles" instead of "user accounts", which are an artifact of giant shared computer systems. User profile just contains personalized settings and can be located anywhere, including removable media so you can take yours to other computers. If you want to keep things safe from others, encrypt them. Otherwise there are no permissions except those applied to applications themselves.
 
 ## Accessing Information Sucks
+
+[TODO] https://readhacker.news/s/4ymEz (Programs are a prison: Rethinking the building blocks of computing interfaces)
 
 ### Local Backups By Default
 
@@ -593,6 +651,8 @@ With destructive or irreversible actions, such as deletion (not recycling), give
 <img src="/times-square.jpg" alt="Times Square" style="zoom: 33%;" />
 
 > Bobby Mikul, Times Square :CC0 -- [Source](https://www.publicdomainpictures.net/en/browse-author.php?a=2185)
+
+[Five Years After Banning Outdoor Ads, Brazil's Largest City Is More Vibrant Than Ever](https://newdream.org/blog/sao-paolo-ad-ban)
 
 [Why The Web Is Such A Mess (Youtube - Tom Scott)](https://www.youtube.com/watch?v=OFRjZtYs3wY&ab_channel=TomScott)
 
@@ -678,7 +738,7 @@ Microfluid computers, diode logic, GPIO
 
 # What points contradict
 
-* **Having Low Level Access and High Level Useability.**
+* **Having Low Level Access and High Level Usability.**
 
 Yeah, this is always a problem. It's always been the dream to be able to describe in 'natural language' what you want and to have the computer parse what you want, inferring intent, and do whatever you want for you, but naturally, this will never be totally possible. This point is only conflicting in the sense that it can be overwhelming- if a user has access to work in something as high as natural language and can manipulate those instructions all the way down an the assembly level, that's a lot of open space. Ideally, each layer of the abstraction would be open to tinker and modify for the sake of getting the solution to work correctly, to pipe data around at any level, or to add functionality in it's most natural language: Some tasks are better suited to describing what's needed in English, some are easier to do down in the dirt.
 
@@ -688,7 +748,7 @@ Making everything open this way may sound complicated, but if the UI were presen
 
 I'm asking for a lot of inclusion of AI/ML tech into the OS and day-to-day use, yet also asking for much, much faster response times in general. To some extent, hardware with dedicated silicon for AI/ML will make this better, but regardless, there's no way around how much this conflicts. I think the only way to fix this is to recognize what latency is and isn't acceptable.
 
-As mentioned above in **Presentation of Information -> Updates after Initial Draw**, there are some things that are particularly egregious to the user from a UI timing perspective. Waiting on the computer sucks, sure, but having to **babysit** the computer while you wait on a prompt that could easily be given premptively or make sure a task doesn't time out is completely unacceptable.
+As mentioned above in **Presentation of Information -> Updates after Initial Draw**, there are some things that are particularly egregious to the user from a UI timing perspective. Waiting on the computer sucks, sure, but having to **babysit** the computer while you wait on a prompt that could easily be given preemptively or make sure a task doesn't time out is completely unacceptable.
 
 But even just directly looking at speed and latency, there's still a ton of room for improvement. Why does the root file system not retain at least an index of other file systems to let you browse while a HDD spins up or a network connection is established? Why do so many damn things have   *s u c h   l o n g*   animations that have to complete before the user can continue? But most of all can we *please* stop building programs with electron or other things that are just full browsers for one program? Use literally anything else. The best way to lower latency is to use as little code as possible, good data structures, good libraries, and good tools. I said it contradicts to keep latency down when doing things that are heavy, but a lot can be done to make so much of what we use day to day substantially lighter to begin with with no loss in functionality. I understand why projects use Electron, but if you must please just use Flutter or Neutralino or Sciter or Ultralight even a game engine. Just, not something so heavy unless you need it? Please?
 * **Customizeability vs Default Inclusion**
@@ -747,7 +807,7 @@ https://desktopneo.com -- a UI mockup for a better system
 
 http://screenl.es/why.html -- the Screenless Office
 
-https://dynamicland.org -- computing that works with the enviroment
+https://dynamicland.org -- computing that works with the environment
 
 https://arcan-fe.com/2020/02/10/leveraging-the-display-server-to-improve-debugging/ - it's in the URL
 

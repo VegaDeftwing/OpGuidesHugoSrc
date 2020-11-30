@@ -39,6 +39,8 @@ origin	git@github.com:opinionatedguide/opinionatedguide.github.io.git (push)
 
 https://desktop.github.com
 
+https://extrawurst.itch.io/gitui
+
 https://aurees.com
 
 https://gitfiend.com
