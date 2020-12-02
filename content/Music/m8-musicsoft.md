@@ -61,9 +61,22 @@ This is probably where the most bias of any of the lists on this page will show 
 
 {{< /hint >}}
 
-[TODO] info about VST2 Vs VST3
+VSTs are a really weird standard, for one, unlike most standards that are ratified by a collection of involved interests, VST is the child of a single company - Steinberg.
 
-[TODO] info about other plugin formats, and linux briding
+Generally, there are a few things you need to know:
+
+1. Some VSTs are distributed as VST2 others as VST3, obviously one is newer than the other. Unfortunately, not all DAWs support VST3 and worse, new applications by new devs have to be VST3 due to Stienberg no longer issuing new licenses. Generally, VST2 will be downloaded as `.dll` files while vst3 will be `.vst3`
+   * VST3 does support a few extra features, and tend to perform better
+   * Some VST3's can do neat stuff so that if multiple instances are loaded they can communicate together, this is useful for some mastering plugins.
+2. Some VSTs are 64 bit, some are 32 bit. Not all modern DAWS support running 32bit VSTs
+3. VSTs can do 1 (or a mix of) three things
+   * act as a virtual instrument (guitar, synth, etc.)
+   * act as a virtual effect (delay, reverb, etc.)
+   * act as a midi effect (arpeggio, quantizer, etc.)
+
+There are some other, not-VST plugin formats you may encounter, namely [LV2](https://en.wikipedia.org/wiki/LV2) and Apple's [Audio Units](https://en.wikipedia.org/wiki/Audio_Units), as well as the various plugins for particular DAWs, like Reason's 'Rack Extensions' or Ableton Live's M4L (Max For Live) Devices.
+
+While VST3 does have a linux SDK, most plugins aren't released for Linux. You may still be able to make it work using a bridging program like [Yabridge](https://github.com/robbert-vdh/yabridge).
 
 #### Free (But might have better paid version)
 

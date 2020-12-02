@@ -14,7 +14,9 @@ ESDA is bad
 
 ## Cryptography
 
-[A furry writes about Cryptography but trust me you should actually read this](https://soatok.blog/2020/10/23/solving-for-why-furry-blogging-about-cryptography/)
+[How To Learn Cryptography as a Programmer (Soatok)](https://soatok.blog/2020/06/10/how-to-learn-cryptography-as-a-programmer/)
+
+[A furry writes about Cryptography but trust me you should actually read this (Soatok)](https://soatok.blog/2020/10/23/solving-for-why-furry-blogging-about-cryptography/)
 
 ## Hashing
 
