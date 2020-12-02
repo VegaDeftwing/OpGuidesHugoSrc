@@ -24,7 +24,7 @@ Modular, semi-modular, software
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/jfuSEdOdNz0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## The Esoterric
+## The Esoteric
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">feedback only, no input. i love this instrument. <a href="https://t.co/IR6lmxZGHJ">pic.twitter.com/IR6lmxZGHJ</a></p>&mdash; 𝒆𝒎𝒎𝒂 (@HECKSCAPER) <a href="https://twitter.com/HECKSCAPER/status/1289077336999104512?ref_src=twsrc%5Etfw">July 31, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
