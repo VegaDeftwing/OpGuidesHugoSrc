@@ -12,13 +12,15 @@ If you're reading this, I'd wager that you've at least thought about this a litt
 
 I think we, as individuals and as business, need to invest more in our work spaces, probably well beyond what most people would even consider. I'm not talking about adding a third monitor or giving everyone an artistic environment. I'm talking about setting up a work environment that's conducive to productivity as instead of merely being the medium on which it takes place, the work environment should actively contribute to finding, accessing, retrieving/storing, consuming, and creating. - where data can be anything: art, documentation, code, whatever.
 
-# HCI?
+## HCI?
 
 **Human Computer Interaction** or [HCI](https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction) is an interesting topic to me. So many people spend a crazy amount of time in front of a screen , you'd think we'd have some *damn* good hardware and software to use while we further deepen the permanent butt-shaped indentation into our seats, but alas, instead most people use *ˢʰᵘᵈᵈᵉʳ* Windows.
 
 Back in late 2018 I wrote the first version of this post and basically everything in there has been restated here but better. Since then I've talked to many others about this, read *many* other blog posts, and just generally done a lot of new things with computers and learned a lot, so here's HCI2: Electric Boogaloo.
 
-# Why What we have sucks
+## Chapter 1: The Physical
+
+Computers aren't just about software, websites, and programs. As the most powerful tool that most people have access to and often one that we spend many hours a day looking at, it makes sense that we make working with that tool comfortable, straight forward, and healthy. In general, we've mostly sucked at this, and while some things are getting better (monitor resolution) some things have gotten significantly worse (keyboards). Furthermore, the desks we sit at and the air we breathe while working is in need of attention too. 
 
 ## Our Input Methods Suck.
 
@@ -120,15 +122,15 @@ Note, This mouse, the Lexip pu94, is a complete disaster and the result of what 
 
 {{< /hint >}}
 
-However, using the Leap for everything would require you hold your hands out to point, something that anybody who ever owned a wii can tell you gets very tiring very quickly.
+However, using the Leap for everything would require you hold your hands out to point - something that anybody who ever owned a wii can tell you gets very tiring very quickly - and the Lexip PU94 would be far to awkward to use daily.
 
-I honestly don't know what the pointing device of the future looks like. Maybe it involves a mix of a mouse, finger tracking, eye control, and joysticks.
+So, I honestly don't know what the pointing device of the future looks like. Maybe it involves a mix of a mouse, finger tracking, eye control, and joysticks.
 
 As for issues with current tech, mouse acceleration and touch pad responsiveness, and touch pad dead zone are all big problems and, like, I don't understand how that's a problem in 2020?
 
 To give credit where credit is due, there have been minor changes that are trending positive, such as Logitech's MX Master Line with the infinite scroll wheels, and a general trend for reducing latency and increasing customization options of higher-end mice.
 
-Unfortunately, the drivers for configuring these options are still largely proprietary and anything but standardized, meaning making **native integration** all but **impossible**. Of everything listed up to this point, I actually think this is the biggest problem. Without a consistent, extendable interface about the best that can be exposed is awkward hacks where joysticks are mapped as if they're on a full game controller or keys just mapped to a macro of keyboard keys or existing but unused keys like the F13 though F24 keys or scroll lock. This is a massive problem. 
+Unfortunately, the drivers for configuring these options are still largely proprietary and anything but standardized, meaning making integration between brands and OS built-in support all but impossible. Of everything listed up to this point, I actually think this is the biggest problem. Without a consistent, extendable interface about the best that can be exposed is awkward hacks where joysticks are mapped as if they're on a full game controller or keys just mapped to a macro of keyboard keys or existing but unused keys like the F13 though F24 keys or scroll lock. This is a massive problem. 
 
 **Foot Controllers**
 
@@ -152,11 +154,11 @@ Even with all the power that using QMK gives and all the configuration options e
 
 Essentially, if my inputs are limited, there's a limited number of solutions. The MC6 does offer multiple pages of inputs by stepping on two buttons at once to either page up or page down, but that's not as good as just sending messages to the device to let it know that I've switched what I'm doing and that it should switch it's active page/profile/whatever accordingly, the problem there is that has to be set up manually. With context sensitivity in theory devices could change the way they behave to be optimal for what you're working on. Right now I have the Stinky Footboard set to control media playback (⏯️, ⏭️, ⏮️, 🔇) but that's currently *all* it is set to, and that seem like a bit of a waste. Sure, I could set up multiple profiles, but without them being context aware that's a bit of a moot point. And, alright, I think the original driver software for it as well as the software for most of my 'gaming' peripherals supports checking what the running program is, but that seems like a really bad solution and instead should be something the OS handles by letting the devices send generic button up/down events and doing **ALL of the mapping in software**.
 
-The other relevant point would be the ability for inter-peripheral communication - basically, your mouse should be able to 'talk' to your keyboard and vis-versa. This becomes a bit redundant if as mentioned above all the mapping and meaning of buttons is defined in software, but the point would be that a key-combo could change your mouse's DPI, or holding a button on your mouse could put your keyboard into a one-handed mode.
+The other relevant point would be the ability for **inter-peripheral communication** - basically, your mouse should be able to 'talk' to your keyboard and vis-versa. This becomes a bit redundant if as mentioned above all the mapping and meaning of buttons is defined in software, but the point would be that a key-combo could change your mouse's DPI, or holding a button on your mouse could put your keyboard into a one-handed mode.
 
 **Pen Tablets**
 
-Honestly, most pen tablets are reasonably good. Not all of them have great latency, map super well between the pen's nibb and the actual pointer on the screen, and the majority *don't* support touch, which probably isn't ideal.
+Honestly, most pen tablets are reasonably good. Not all of them have great latency, map super well between the pen's nibb and the actual pointer on the screen, and the majority *don't* support touch, which probably isn't ideal, but in general they do the job well enough, or, would, if you only counted teh hardware.
 
 *Waring, the following is a rant about drivers on Windows:* This is interesting as the hardware is actually reasonably competent, while the software is largely so incredibly god awful that it is somehow impressive. While I realize this is totally anecdotal, one pen tablet I've used on Windows the driver software is so bad that it actually randomly takes over as the focused application about once every 15 minutes, meaning whatever line you were in the middle of drawing just *stops* and you have to click on the program again to keep going. But, like, even with more competent driver stacks there's like a 6 different options for pen pressure: Wintab, Windows Ink, the option to 'Use the device as a mouse pointer' ... It's so incredibly confusing and the required options per application vary wildly. To make matters worse, most of the drivers completely shit themselves if one display is scaled for HiDPI and another isn't. On Linux, ironically, I've actually had very good luck with pen tablets. 
 
@@ -178,7 +180,7 @@ On webcams you have auto-white balance, auto-focus, auto-gain, etc. and everythi
 
 Your mic is also shit for the same reason. When doing audio mixing for a video or podcast there's some basic things that will almost always be in the mix chain: A noise supressor, A De-Esser, A Compressor (or multiple), and an Equalizer. For the most part, the settings on these things can be determined pretty algorithmically, or, better, a database of settings for hardware can be created and maintained - You'd still need to adjust for your voice (particularly for if you have a low or high pitch voice) but it could massively help.
 
-If you have gone out and gotten an expensive mic or audio interface to plug you mic into, you may have decided to get one that connects to the computer and is **powered by** USB. This is really, really dumb. I think every audio device I've ever used that connects via USB has had some sort of noise issues because of the USB power. Stop it.
+If you have gone out and gotten an expensive mic or audio interface to plug you mic into, you may have decided to get one that connects to the computer and is **powered by** USB. This is really, really dumb. I think every audio device I've ever used that connects via USB has had some sort of noise issues because of the USB power. Stop it. Isolate the power and use a real power supply and some real filtering. Please.
 
 Though, probably the most obnoxious thing that results from this is the inability to route audio in any reasonable way. Linux and Mac it seems have this done semi-well, Mac with Core Audio and Linux with Jack, but on Windows if you want to use a nice mic to talk on VOIP you better hook up your mic on the the first input on the audio interface or you're shit outta' luck my friend. 
 
@@ -188,7 +190,7 @@ Finally, *nobody* has ever wanted their notifications to show up when sharing th
 
 **Application Specific Controllers (MIDI Controllers, Video Editing, etc)**
 
-First of all, this is done in a stupid way in most circumstances<a class="ptr">(9)</a>. There's no reason you should have single use hardware that sends specific commands that are not programmable by the user. Like I said, let's do all the mapping in software. This lets features be added later and users make better use of their controllers.
+First of all, this is done in a stupid way in most circumstances<a class="ptr">(9)</a>. There is no reason you should have single use hardware that sends specific commands that are not programmable by the user. Like I said above, let's do all the mapping in software. This lets features be added later and users make better use of their controllers.
 
 But, let's look at some of what exists, and why I'm saying this. While other devices exist to pick on, I'm gong to focus on MIDI controllers as they're what I know.
 
@@ -198,11 +200,11 @@ MIDI controllers come in all shapes and sizes, from a grid of RGB buttons to tra
 
 ![midi controllers](/midicontrollers.jpg)
 
-> Pictured here are the Novation Launch Key MkII (The big keyboard),  Launhpad MkII (the 8x8 grid), the Roli Seaboard Block, and two Roli Lightpad Blocks.  <a class="ptr">(11)</a>
+> Pictured here are the Novation Launch Key MkII (The big keyboard),  Launhpad MkII (the 8x8 grid), the Roli Seaboard Block, and two Roli Lightpad Blocks.  <a class="ptr">(11)</a> The Roli equipment uses MPE, a 'standard' that abuses the hell out of midi and does things with it that were never intended.
 
 So now we have a crazy amount of controllers using a shitty standard instead of something that actually exposes more data and allows for finer control being used in ways that abuse the protocol instead of just exposing raw button down/up events and knob twists to the OS.
 
-> Note, I'm being careful to say button up and down events instead of button press. This is because it makes a lot more sense to exrpess the events as raw as possible so the OS can do things like detect a double-press, long-hold, etc.
+Note, I'm being careful to say button up and down events instead of button press. This is because it makes a lot more sense to exrpess the events as raw as possible so the OS can do things like detect a double-press, long-hold, etc.
 
 **Voice Control**
 
@@ -218,9 +220,9 @@ I want voice control that can actually -do- something. Not 15 competing standard
 
 What if everything you did was an actionable input? What if you could finger-drum on your desk and get real drum sounds, have your computer pause a video if you get out of you chair, or give the user a warning if they've been sitting with a bad posture for a long time? Between the Kinect, [Leap Motion,](https://www.ultraleap.com) and [Tobii Eye Tracking](https://www.tobii.com) we're staring to get close to this.
 
-I think https://dynamicland.org has a lot of interesting thoughts on this idea and if this vision of the future interests you, you should check it out.
+I think https://dynamicland.org has a lot of interesting thoughts on this idea and if this vision of the future interests you, you should check it out. [ReacTable](https://www.youtube.com/watch?v=Mgy1S8qymx0&ab_channel=ReacTj) is another interesting concept in the relm of pyhsical computing too.
 
-[ReacTable](https://www.youtube.com/watch?v=Mgy1S8qymx0&ab_channel=ReacTj) is another interesting concept in the relm of pyhsical computing
+I do think in the future we'll stop using the basic screen + keyboard + mouse combo and see more 'smarts' integrated into everyday things and our work flows. I really like the idea of having a desk with a camera and projector above it to highlight objects and interact with what it can see- scanning documents, giving feedback on technique with crafts, whatever.
 
 **Game Controllers**
 
@@ -228,7 +230,7 @@ Re everything above. Something something make sure they're rechargeable, ergonom
 
 **RFID Tags**
 
-I have RFID tags from Dangerous Things in each hand, I have an RFID based access card for my University, and my parking lot uses RFID tags for entry. Ignoring the obvious security problems with RFID authentication, It's also just not great to have people carry around a card when their phones can already act as an RFID device anyway, it just makes for a very mis-placeable access token which seems rather stupid.
+I have RFID tags from Dangerous Things in each hand, I have an RFID based access card for my University, and my parking lot uses RFID tags for entry. Ignoring the obvious security problems with RFID authentication, It's also just not great to have people carry around a card when their phones can already act as an RFID device anyway, it just makes for a very mis-placeable access token which seems rather stupid. I'll talk authentication more in a bit.
 
 **Document Scanners**
 
@@ -373,7 +375,7 @@ And not just a dumb decibel limiter, but a [loudness (Wikipedia)](https://en.wik
 
 **Why *the fuck* do we not have per-stream audio compression?**
 
-Not file-compression but volume-compression. the 'make loud sounds quieter and quieter sounds louder' kind. Generally this is something the music industry over-uses and it doesn't sound great on music, but for voice it can make a huge difference for keeping things understandable and not distracting. Ideally this would be done before the content is ever published or sent though the network, but that won't ever be the case. So, you should be able to easily take any audio stream (say, a YouTube video playing in a tab) and apply a compressor to it.
+Not file-compression but volume-compression. the 'make loud sounds quieter and quieter sounds louder' kind. Generally this is something the music industry over-uses and it doesn't sound great on music, but for voice it can make a huge difference for keeping things understandable and not distracting. Ideally this would be done before the content is ever published or sent though the network, but that won't always be the case. So, you should be able to easily take any audio stream (say, a YouTube video playing in a tab) and apply a compressor to it.
 
 **Why do we not have live Speech to Text?**
 
@@ -590,47 +592,41 @@ Coming back around to 'How is this relevant to how we interact with computers'?
 
 Well, I imagine you like to breathe while at your desk, and I also assume that you're using a device that uses electricity to read this, and that device is very likely *not* powered by renewable energy.
 
-## Finding Information Sucks
+## Chapter 2: The Digital
 
-## Transferring Information Sucks
+Alright, now onto the fun stuff, I think I've established that the physical side of how we use a computer is sub optimal, but what about how we actually do the things we do day to day? I think, for the most part, these things can be put into a few categories:
 
-### Networking Sucks
+* Finding and Accessing shit
+* Looking at shit
+* Storing Shit
+* Transferring Shit 
+* Making Shit
 
-* Everything is centralized
-* ipv4 is broken
-  * ipv6 is worse
-* ISPs are evil
-* nothing is secure
-* nothing is persistent (saved local copies)
-* 
+I'm not the first to think on this subject by any means, [Programs are a prison: Rethinking the fundamental building blocks of computing interfaces by Robert Lechte](https://djrobstep.com/posts/programs-are-a-prison) put a lot of ideas I'd thought before into words much more elegantly than I can, please give it a read then come back here, keeping in mind how the ideas presented there could work with what I'm saying here.
 
-### Transferring Your Profile Sucks
+## Finding and accessing Information Sucks
 
- AnIdiotOnTheNet's Comment on [This Hacker New's Submission - 'Re-Thinking the Desktop OS'](https://news.ycombinator.com/item?id=24783387)
+### Search sucks
 
-> [...]
->
-> 5) Switchable "user profiles" instead of "user accounts", which are an artifact of giant shared computer systems. User profile just contains personalized settings and can be located anywhere, including removable media so you can take yours to other computers. If you want to keep things safe from others, encrypt them. Otherwise there are no permissions except those applied to applications themselves.
+* ads for half the page
+* Stuck on something you don't mean, unable to filter it out
+* Not knowing the word you need to look up in the first place
+* I'd like to see some sort of filter that can just kill swaths of sites though like a NOT_SOCIAL_MEDIA or NOT_CODE_HOSTING tags 
+* the ability to just set a list of bad sites. Like, please never ever show me any results from Pintrest
+* "It's more that I still think search engines could do a lot better both by making it easier to filter results, and by letting users do a sort of curation of topics and knowledge management. Honestly, I find what I'm looking for faster by just going to as close of a topic as I can think of on wikipedia and poking around links than I can by directly searching."
+* digging though endless pages
+  * also letting new content get a chance
+* Tracking
 
-## Accessing Information Sucks
+### Pay-Walls suck
 
-[TODO] https://readhacker.news/s/4ymEz (Programs are a prison: Rethinking the building blocks of computing interfaces)
+* Tons of things are behind a pay wall, even if publically funded
 
-### Local Backups By Default
-
-## Authentication Sucks
+### Authentication Sucks
 
 File Permissions
 
 user/password/2factor
-
-### [Storing Information Sucks](https://opinionatedguide.github.io/posts/data-formats-backups-and-digital-purgatory/)
-
-{{< hint warning >}}
-
-This section I've put in a complete other article because It **sucks so hard** that it deserves it.
-
-{{< /hint >}}
 
 ## Presentation of Information Sucks
 
@@ -652,6 +648,7 @@ where the design is actively pursing an agenda. Instead the affirmative action s
   <button class="w3-bar-item w3-button w3-red" style="width:50%">Don't Do Action</button>
   <button class="w3-bar-item w3-button w3-green" style="width:50%">Do Action</button>
 </div>
+
 
 Not here by Action I literally mean to **include the verb.** Delete. Replace. Print. Etc. Yes or No *is not* good enough.
 
@@ -681,13 +678,66 @@ re-arranging menus
 
 *Fuck your 𝒻𝒶𝓃𝒸𝓎 animations.*
 
+### Advertising
+
+* Mixed into content, non-obvious
+
+## [Storing Information Sucks](https://opinionatedguide.github.io/posts/data-formats-backups-and-digital-purgatory/)
+
+{{< hint warning >}}
+
+This section I've put in a complete other article because It **sucks so hard** that it deserves it.
+
+{{< /hint >}}
+
+## Transferring Information Sucks
+
+### Networking Sucks
+
+* Everything is centralized
+* ipv4 is broken
+  * ipv6 is worse
+* ISPs are evil
+* nothing is secure
+* nothing is persistent (saved local copies)
+
+### Transferring Your Profile Sucks
+
+ AnIdiotOnTheNet's Comment on [This Hacker New's Submission - 'Re-Thinking the Desktop OS'](https://news.ycombinator.com/item?id=24783387)
+
+> [...]
+>
+> 5) Switchable "user profiles" instead of "user accounts", which are an artifact of giant shared computer systems. User profile just contains personalized settings and can be located anywhere, including removable media so you can take yours to other computers. If you want to keep things safe from others, encrypt them. Otherwise there are no permissions except those applied to applications themselves.
+
+### Local Backups By Default
+
 ## Creating New Information Sucks
 
 **Or, People Will Only Make Stuff That Is As Good As The Tools They Have**
 
-!> Note the **Will** and not **Can**. A very talented musician can make [a shovel](https://youtu.be/IyQOw-_H4yE) sound good, a talented photographer [doesn't need a good camera](https://www.kenrockwell.com/tech/notcamera.htm). But in general that's setting the required bar of talent - and therefore time - higher. The better and more efficient our tools are, the better content people can make without putting in more time than they're willing to. 
+{{< hint info >}}
+
+Note the **Will** and not **Can**. A very talented musician can make [a shovel](https://youtu.be/IyQOw-_H4yE) sound good, a talented photographer [doesn't need a good camera](https://www.kenrockwell.com/tech/notcamera.htm). But in general that's setting the required bar of talent - and therefore time - higher. The better and more efficient our tools are, the better content people can make without putting in more time than they're willing to. 
+
+A better camera won't make you a photographer, but it might be the difference between unusable pictures and a saved memory
+
+{{< /hint >}}
 
 I think I've generally made the case that our tools suck so far, but here's where I think things can get really interesting.
+
+* Faster input
+  * WYSIWYG sucks
+  * Needing to compile your views also sucks
+* Tools need to scale in complexity with the user
+  * Start by showing an intro UI, let the user add more features to the UI as needed
+  * Great in application documentation
+  * Included examples
+  * on UI help and highlighting
+* Program data type interopability
+  * Common in-progress formats for video editors, image editing, sound editing, etc.
+* Variety of formats, hard to shift between
+  * mp4 or .gif?
+* Copyright is a real pain
 
 ## Oh, and our systems are fucking racist and suck for anyone with special needs.
 
