@@ -617,6 +617,7 @@ I'm not the first to think on this subject by any means, [Programs are a prison:
 * digging though endless pages
   * also letting new content get a chance
 * Tracking
+* Google's information cards suck: https://twitter.com/xkcd/status/1333529967079120896
 
 ### Pay-Walls suck
 
