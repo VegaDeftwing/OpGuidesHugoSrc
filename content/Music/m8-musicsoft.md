@@ -188,6 +188,10 @@ Some people also use hardware such as the [Sleepy Circuits 'Hypno'](https://slee
 
 On very rare occasion you may also see some outright analog video synthesis, but this is generally very, very expensive. Just search [YouTube for 'Analog Video Synthesizer'](https://www.youtube.com/results?search_query=analog+video+synthesizer).
 
+I also recomend making your visuals in weirder ways. Here are some videos with visuals I really like:
+
+* [Max Cooper - Aleph 2 (Official Video by Martin Krzywinski)](https://www.youtube.com/watch?v=tNYfqklRehM)
+
 ### Music Apps (Android)
 
 | Name & Link | Description | Screenshot/Demo |
@@ -230,3 +234,8 @@ These 'plugins' only work on Monome's Norns hardware
 [Awesome Audio Visualization (Github)](https://github.com/willianjusten/awesome-audio-visualization)
 
 [Kord (Github)](https://github.com/synestematic/kord) - a music theory development framework in python
+
+[Tutorial: Programming Modules for VCV Rack - Part 1 (YouTube, Leonardo Laguna Ruiz)](https://www.youtube.com/watch?v=7Z7LHAnIIac) (This might be out of date)
+
+[Tutorial: Virtual Analog Modeling Basics, the Vult way (YouTube, Leonardo Laguna Ruiz)](https://www.youtube.com/watch?v=xQYLBS9R_uA)
+

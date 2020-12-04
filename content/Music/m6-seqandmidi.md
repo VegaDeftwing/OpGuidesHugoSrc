@@ -4,7 +4,7 @@ slug: "Sequencing and MIDI"
 
 ---
 
-# Sequencing
+## Sequencing
 
 random, sample/hold, probability, piano rolls, trackers, AI based, euclidian, trigger/gate/len, humanization
 
@@ -12,7 +12,12 @@ random, sample/hold, probability, piano rolls, trackers, AI based, euclidian, tr
 
 [Melody Guide [edmprod.com]](https://www.edmprod.com/ultimate-melody-guide/)
 
-# MIDI effects
+[Ways to turn tiny ideas into bigger tracks (YouTube, Andrew Huang)](https://youtu.be/ONloOhDLrFU)
+
+## MIDI effects
 
 Arp, velocity, pitch bend, mod, sustain, generative, legatto
 
+## Multitracking
+
+[Multitracking Synthesizers for Fun and Profit (YouTube, RedMeansRecording)](https://www.youtube.com/watch?v=7EipTdTy8hM)

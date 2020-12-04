@@ -28,6 +28,8 @@ Oh, and the circle of fifths is a thing [TODO]
 
 [TODO] Just V equal Temperament here is confusing
 
+[TODO] [Music Theory and White Supremacy (YouTube, Adam Neely)](https://www.youtube.com/watch?v=Kr3quGh7pJA)
+
 [TODO] [Waitbutwhy.com -- Sound](https://waitbutwhy.com/2016/03/sound.html)
 
 [TODO] [Nanotone Synth](https://dylancassidy.itch.io/nanotone-synth)
@@ -53,3 +55,9 @@ Heavy drops v dainty sections
 making instruments swap roles
 
 ### Key Changes
+
+## Further Reading
+
+[An Introduction to Math Rock (YouTube, Alfo Media)](https://youtu.be/MF4Fs1lgYc8)
+
+[The Largest Chord - sUpEr UlTrA hYpEr MeGa MeTa LyDiAn (YouTube, Leon Waves)](https://www.youtube.com/watch?v=HeTygKpi6pI)

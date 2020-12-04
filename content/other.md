@@ -58,4 +58,25 @@
 
 * [I Spent 11 Years Working on This Line Rider Track by David Lu](https://delu.medium.com/i-spent-11-years-working-on-this-line-rider-track-96742fc0b709)
 
+* [LIFE BEYOND II: The Museum of Alien Life (Youtube, MelodySheep)](https://www.youtube.com/watch?v=ThDYazipjSI)
+
+  > A weird video with really good CGI about potential alien life
+  
+* [Wild House Pilot](https://www.youtube.com/watch?v=fU4I79HubyM)
+
+  > "A Wolf, a Panther and a Tiger are the friendly roommates of this Wild House. They live in a wicked world with ambiguous moral codes, in which everyone is an idiot and nothing really works"
+
+* [The Complete Guide to Magnet Implants (YouTube, The Thought Emporium)](https://www.youtube.com/watch?v=3aVwvJn7vpo)
+
+* [You Are Two (YouTube, CGP Grey)](https://www.youtube.com/watch?v=wfYbgdo8e-8)
+
+  > This is about people that have had the link between each half the brain split
+
+* [Tech Icons: Cliff Stoll (YouTube, AT&T Tech Channel)](https://www.youtube.com/watch?v=Qt0844ViQDI)
+
+  > I love Cliff Stoll, he's like the ultimate cute grandpa that's also [obsessed with Klien Bottles.](https://www.youtube.com/watch?v=-k3mVnRlQLU&ab_channel=Numberphile)
+
+* [Jsting-F's awesome electronic Fursuit](https://www.youtube.com/watch?v=gGOFU62wVco)
+
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>
+

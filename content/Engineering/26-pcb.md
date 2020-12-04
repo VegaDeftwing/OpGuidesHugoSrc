@@ -715,6 +715,8 @@ https://llllllll.co/t/pcb-art-artfully-shaped-copper-traces/22027/2
 
 [Let KiCad and Python design your PCB Coils [Hackaday]](https://hackaday.com/2020/10/19/let-kicad-and-python-make-your-coils/)
 
+[KiCad STM32 + RF + USB Hardware Design (YouTube, Phil's Lab)](https://www.youtube.com/watch?v=14_jh3nLSsU)
+
 # Chapter 26.1 - PCB 'Badges'
 
 ![badges](/badges.jpeg)
