@@ -8,11 +8,15 @@ slug: "Instruments"
 
 TR808, syth, short ADSR, noise, snare, tom, kick, hat, clap, bell,
 
+[Guitar Pedals For Drums (YouTube, JHS Pedals)](https://youtu.be/yew08KqkLbg?list=WL)
+
 # Strings
 
 guitar, lute, dulcimer, dual/single string, acoustic, electric, electroacoustic
 
 guitar pickups, slides, kapo, tuning (equal v just), wound, physical modeling (Kurplus Strong)
+
+[The History Of Guitar (Youtube, Rob Scallon)](https://youtu.be/AjK4GVR1EcE)
 
 [Tuning a Floyd Rose Guitar (YouTube)](https://floydrose.com/blogs/tech-talk/string-tuning-instructions)
 
@@ -33,6 +37,8 @@ Modular, semi-modular, software
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/Q3oItpVa9fs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/A0VYsiMtrNE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Why To Modular With Guitar (YouTube, Knobs)](https://youtu.be/eYbSFiuSyuk)
 
 [Theorbo - The enormous 14 string lute (YouTube)](https://www.youtube.com/watch?v=48RVcbkhNHQ&ab_channel=RobScallon)
 

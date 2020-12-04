@@ -60,7 +60,21 @@ start, stop, fade, pitch shift, (ableton simpler)Live Input
 
 quantization, tracking
 
+## Additive and Subtractive Synthesis
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/videoseries?list=PLrnjie9klQEkZGar3zZ4hRurU_kUDk7Md" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[TODO] making a basic subtractive synth voice in VCV
+
 ## Wavetables
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/8DjnDVWKaEs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Note, that not all wavetables have the linear FM (discussed in the next section), Phase mod / distortion, and wavefolding that pigments has, though many do.
+
+I really reccomend using [Blamsoft's XFX-Wave](https://blamsoft.com/vcv-rack/xfx-wave/) for VCV rack to try out Wavetable synthesis. Also in VCV, [Tiny Tricks Wave](https://library.vcvrack.com/TinyTricks/WAVE) is a neat way to experiment with recording your own tables.
+
+[TODO pic of both]
 
 ## FM Synthesis
 
@@ -76,10 +90,20 @@ Exponential FM and V/Oct, assuming the same scaling, are the same thing though s
 
 When talking about Linear FM, I mentioned that simple ratios are best. This isn't entirely true, but they will produce the least complicated harmonics. For example taking
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/L1QZuEuMD_E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 [Todo, Why simple ratios]
 
 [Todo, Algorithms]
 
+[TODO, pic of Valley's Dexter]
+
+[TODO] DIY FM voice in VCV
+
 ## Granular Synthesis
 
-textures
+There are many, many granular synths and effects, but, I'd like to start with a video review from Loopop of the Tasty Chips GR-1, as I think the hardware does a good job of showing what's going on and Loopop does a great job explaining as well:
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/1RWOoEj3mwU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[TODO] use for textures

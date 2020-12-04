@@ -320,6 +320,10 @@ https://wiki.wireshark.org/CaptureFilters
 
 [What happens when... [Github]](https://github.com/alex/what-happens-when) - An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?"
 
+Ben Eater's Networking Tutorial Series is pretty good:
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/videoseries?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 # Chapter 10.1 - Weird Networking, because why not!
@@ -357,4 +361,6 @@ Software Defined Networking, ActivityPub
 [The Cost of CPU Networking on a Host (David Ahern's Blog)](https://people.kernel.org/dsahern/the-cpu-cost-of-networking-on-a-host)
 
 [Encapsulation of TCP over UDP](https://tools.ietf.org/id/draft-cheshire-tcp-over-udp-00.html)
+
+[WORST POSSIBLE quality on YouTube? (YouTube, FlyTech Videos)](https://youtu.be/uc9USAE6nJ0)
 
