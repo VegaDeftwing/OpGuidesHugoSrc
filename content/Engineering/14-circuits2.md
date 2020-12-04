@@ -10,6 +10,10 @@ That said, I don't want to get to in the mud of transistor physics. I really wan
 
 # Chapter 14.1 - Semiconductors
 
+## Semiconductors?
+
+[Will gallium nitride electronics change the world? (YouTube, Engadget)](https://youtu.be/sfTXZP2DB20?list=WL)
+
 ## Diodes, the one way road
 
 [TODO]
@@ -136,5 +140,7 @@ https://taleri.files.wordpress.com/2014/02/practical_electronics_for_inventors_-
 
 [Hackady.io 2020 Circuit Sculuture Challange](https://hackaday.io/contest/174093-2020-circuit-sculpture-challenge)
 
-[RGB LED, Inductively Powered, Frequency Controlled (Wolf Tronix - YouTube)](https://www.youtube.com/watch?v=3DeOPN1Cl1Y)
+[RGB LED, Inductively Powered, Frequency Controlled (YouTube, Wolf Tronix)](https://www.youtube.com/watch?v=3DeOPN1Cl1Y)
+
+[How to protect circuits from reversed voltage polarity! (YouTube, AfroTechMods)](https://www.youtube.com/watch?v=IrB-FPcv1Dc)
 

@@ -213,6 +213,19 @@ reverb, delay, pan, tremello, overdrive, distortion
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/j4NrWQljyso?list=PL5cGwrD7cv8jd0PSN2E8pFD97H3R5aQwN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[Beginner's Guide to Compression - Part 1 (YouTube, fabfilter)](https://www.youtube.com/watch?v=BIVfpsoPnOo&list=WL)
+
+[WTF is a Compander? (YouTube, Dan Worrall)](https://www.youtube.com/watch?v=ZRP5uI9mbzQ)
+
+[TODO] parallel Compression
+
 ## Vocoders
 
 ## Glitch, Granular, and Pitch
+
+
+
+# Neat tricks with effects
+
+[My first WET / DRY / WET Guitar Pedal Rig (YouTube, Mark Johnston)](https://www.youtube.com/watch?v=uptuRNXR0Mw)
+

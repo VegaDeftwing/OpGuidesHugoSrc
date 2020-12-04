@@ -69,6 +69,8 @@ Each of these things is very important, but I'm going to start with cpu MHz as i
 
 However, to get to that we've gotta go just a bit further down the rabbit hole to the relay. Relays are super simple to understand, they're just a metal switch that is pulled open or closed using another input signal (usually a magnet pulling/pushing the switch closed/open) basically imagine a light switch, where the switch itself is controlled by yet another electrical signal. Relays are slow though, they require a physical metal plate to move to change the connection. Because of this they have limited reliability and worth note they're actually loud. You can hear an audible click of the switch as they change state.
 
+> If this is already interesting to you, here's a [video](https://www.youtube.com/watch?v=k1hJoalcK68) demonstrating a relay computer you can actually buy
+
 Enter the vacuum tube. Though rarely used today outside of high end audio and old radios, for a period of time the logic inside a computer used these tubes. Essentially theres three important parts of the tube, the Cathode, Plate and Grid. Put very simply the Cathode emits electrons and the Plate collects them. Where it gets interesting is the grid in between. By applying a voltage to the grid a signal can be controlled giving us the same ability to turn something on or off by a third wire as in the relay.
 
 > Worth note but irreverent for digital electronics, tubes and transistors can actually pass only a percentage of the input back out, based proportionally on the input. This actually means that both tubes and transistors can act as an amplifier, using a small input range to control a much larger signal. A single tube or transistor in conjunction with other supporting components can be used to make a functional amplifier.
@@ -236,6 +238,8 @@ The CPU has a lot of dedicated hardware inside for specific functions, for examp
 ## Further Reading
 
 [Why you should use 'nproc' and not grep /proc/cpuinfo](https://www.flamingspork.com/blog/2020/11/25/why-you-should-use-nproc-and-not-grep-proc-cpuinfo/)
+
+[Spyware at The Hardware Level - Intel ME & AMD PSP (YouTube, Mental Outlaw)](https://youtu.be/HNwWQ9zGT-8)
 
 ## RAM
 
@@ -678,6 +682,8 @@ Finally, a quick note about Western Digital Green drives: Linux eats them. Thank
 [Shouting in the Datacenter (YouTube)](https://www.youtube.com/watch?v=tDacjrSCeq4&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
 
 [Western Digital is trying to redefine the word “RPM” (arstechnica)](https://arstechnica.com/gadgets/2020/09/western-digital-is-trying-to-redefine-the-word-rpm/)
+
+[What Is ZFS?: A Brief Primer (YouTube, Level1Linux)](https://www.youtube.com/watch?v=lsFDp-W1Ks0)
 
 ### SSD
 

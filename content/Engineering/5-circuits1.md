@@ -162,6 +162,8 @@ Motors
 
 ## Transformers, Variacs
 
+[World's Most Powerful Pancake Slayer Tesla Coil? Melts Copper! (YouTube, Plasma Channel)](https://www.youtube.com/watch?v=TT4QolzknC0)
+
 [TODO]
 
 ## Buttons, Switches, and Knobs
