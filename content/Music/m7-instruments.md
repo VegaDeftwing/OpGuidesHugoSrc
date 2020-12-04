@@ -16,9 +16,13 @@ guitar, lute, dulcimer, dual/single string, acoustic, electric, electroacoustic
 
 guitar pickups, slides, kapo, tuning (equal v just), wound, physical modeling (Kurplus Strong)
 
+
+
 [The History Of Guitar (Youtube, Rob Scallon)](https://youtu.be/AjK4GVR1EcE)
 
 [Tuning a Floyd Rose Guitar (YouTube)](https://floydrose.com/blogs/tech-talk/string-tuning-instructions)
+
+[My New 18-String Hurdy-Gurdy (YouTube, Patty Gurdy)](https://www.youtube.com/watch?v=jgXmxQQW5F4)
 
 # Synths
 
@@ -38,6 +42,8 @@ Modular, semi-modular, software
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/A0VYsiMtrNE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/WQDjVTpe6Lk?list=WL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 [Why To Modular With Guitar (YouTube, Knobs)](https://youtu.be/eYbSFiuSyuk)
 
 [Theorbo - The enormous 14 string lute (YouTube)](https://www.youtube.com/watch?v=48RVcbkhNHQ&ab_channel=RobScallon)
@@ -47,3 +53,5 @@ Modular, semi-modular, software
 [Octobasse: A really, really big upright bass (YouTube)](https://www.youtube.com/watch?v=12X-i9YHzmE&t=13s&ab_channel=MIMphx)
 
 [Awesome Japanese Electric Harp!](https://www.youtube.com/watch?v=1JP2nAoRgl0&ab_channel=ANDREWHUANG)
+
+[Using a Violin Bow on a Guitar Sounds Incredible (YouTube, Music Is Win)](https://www.youtube.com/watch?v=4l3aqFaL7ZM)

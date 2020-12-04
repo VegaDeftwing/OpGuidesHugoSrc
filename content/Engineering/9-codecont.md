@@ -28,6 +28,8 @@ Finally, let's go back and add a com port to the C code and send data to an ardu
 
 [Bit Tricks (GitHub)](https://github.com/kstenerud/bit-tricks)
 
+[Coding Challenge #12: The Lorenz Attractor in Processing (YouTube, The Coding Train)](https://www.youtube.com/watch?v=f0lkz2gSsIk) and [Coding in the Cabana 4: Worley Noise (YouTube, The Coding Train)](https://www.youtube.com/watch?v=4066MndcyCk)
+
 ## Coding Challanges
 
 [Obfuscated C programs: Introduction (YouTube)](https://www.youtube.com/watch?v=rwOI1biZeD8&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz&index=15&t=0s) Obvuscated C, https://www.ioccc.org/

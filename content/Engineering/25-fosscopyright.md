@@ -8,7 +8,7 @@ actually contribute on github, make an issue, submit a pull request, make a cust
 
 https://github.com/Marak/faker.js/issues/1046
 
-
+[How to break the Internet: Cory Doctorow at TEDxOxbridge (YouTube)](https://www.youtube.com/watch?v=aAWCN0Jed8g)
 
 # Chapter 25.1 - Things That Really Need to Exist
 
