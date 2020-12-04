@@ -125,7 +125,8 @@ headless: true
 <div style="background:#B4F0C122;border-radius: 5px;">
 
 - [**Interviews**]({{< relref "Interviews/interviews" >}})
-  - [An Interview with Loial Otter]({{< relref "Interviews/loial" >}})
+  - [Loial Otter]({{< relref "Interviews/loial" >}})
+  - [Soatok Dreamseeker]({{< relref "Interviews/soatok" >}})
 
 </div>
 

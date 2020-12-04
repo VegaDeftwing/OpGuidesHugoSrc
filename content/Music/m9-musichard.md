@@ -10,6 +10,32 @@ slug: "Music Hardware"
 
 MPE, aftertouch, vel, virtual midi, midi cc v pb v mod v note on/off v sysmsg v OSC v midi2.0
 
+Note, there's a pretty limited number of MPE capable instruments, thankfully there's stil a decent price range between them. This list is not exhaustive, but I think gives a good sampling:
+
+{{< columns >}}
+
+**Small:**
+
+Artiphon Orba
+
+Roli Lightpad Blocks
+
+Haken Audio ContinuuMini
+
+<--->
+
+**Big:**
+
+[Expressive e - Osmose](https://www.expressivee.com/2-osmose) ([Demo](https://www.youtube.com/watch?v=UjZ6SuWxBFg))
+
+Roli Seaboard (Block, Rise)
+
+LinnStrument
+
+Haken Audio Continuum
+
+{{< columns >}}
+
 ## Audio Interfaces
 
 [TODO, ADAT, preamps, headphone amps, phantom48]
@@ -60,4 +86,15 @@ MPE, aftertouch, vel, virtual midi, midi cc v pb v mod v note on/off v sysmsg v 
 
 ## Notes on how your hardware will be more expensive than you think
 
-[TODO] Balanced audio, group loop isolation, impedance matching, isolated power supplies, cables ... so many cables 
+[TODO] Balanced audio, group loop isolation, impedance matching, isolated power supplies, cables ... so many cables
+
+## DAWless?
+
+DAW-less just means not using a Digital Audio Workstation to make your music, usually though this means not using a typical computer at all. Here's a good example of a DAWless performance:
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/cxnr_De0MZQ?list=PL5hHktP4TFmkSCfhPUWSXRGSUOZCivpy3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+[10 Things You NEED to know before Building a Dawless Synthesizer Setup (YouTube, BoBeats)](https://youtu.be/e6lVyAcZRPk?list=WL)
+

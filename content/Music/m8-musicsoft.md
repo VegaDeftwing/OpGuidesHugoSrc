@@ -55,6 +55,8 @@ Trackers, vs non liner, vs modular, etc.
 
 ### VSTs and other Plugins
 
+[TODO] Daws usually have built in instruments and effets [I Made A Song Using Only Ableton Stock Plugins (YouTube, Composerily)](https://www.youtube.com/watch?v=Xgm1bGh-eyM)
+
 {{< hint warning >}}
 
 This is probably where the most bias of any of the lists on this page will show as I obviously can't list every possible VST. Instead, I'll list those that I think are particularly good both in terms of value and function.
@@ -77,6 +79,8 @@ Generally, there are a few things you need to know:
 There are some other, not-VST plugin formats you may encounter, namely [LV2](https://en.wikipedia.org/wiki/LV2) and Apple's [Audio Units](https://en.wikipedia.org/wiki/Audio_Units), as well as the various plugins for particular DAWs, like Reason's 'Rack Extensions' or Ableton Live's M4L (Max For Live) Devices.
 
 While VST3 does have a linux SDK, most plugins aren't released for Linux. You may still be able to make it work using a bridging program like [Yabridge](https://github.com/robbert-vdh/yabridge).
+
+You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just denote if the plugin is an instrument or effects plugin.
 
 #### Free (But might have better paid version)
 

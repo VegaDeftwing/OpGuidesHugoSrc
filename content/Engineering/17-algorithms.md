@@ -1,4 +1,6 @@
-# Chapter 17 - Discrete Math and Algorithms
+# Chapter 17 - Discrete Math, Algorithms, Data Structures, and Not Sucking at Programming ™*
+
+***With some complexity analysis too.**
 
 [TODO]
 
@@ -39,7 +41,7 @@ A ⋃ B = {1, 2, 3, 4, 5, 6}
 
 +recursion analysis, [P vs. NP (YouTube)](https://www.youtube.com/watch?v=YX40hbAHx3s)
 
-## Brute Force
+### Brute Force
 
 ## Data structures
 
@@ -48,3 +50,9 @@ trees, hashtables/maps, stacks
 ## Practice
 
 Fib, some pracice logical equliv, base conversion algo, overlapping lines, matrix multiplication
+
+## Dynamic Programming
+
+<p class="tip">Heads up, this is a 5 hour video:</p>
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/oBt53YbR9Kk?list=WL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
