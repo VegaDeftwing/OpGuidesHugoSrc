@@ -151,7 +151,7 @@ I've worked from home for most of my career, and for the entire past 6 years, so
 
 **Is there any skill that you spent too much time developing that you wish you hadn't?**
 
-Not particularly. There's no such thing as useless knowledge; only stuff you don't know how to use, or don't know how.
+Not particularly. There’s no such thing as useless knowledge; only stuff you don’t want to use, or don’t know how.
 
 **What's the most important skill that you've taught yourself?**
 
