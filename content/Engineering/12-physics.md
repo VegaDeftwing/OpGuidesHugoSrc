@@ -8,6 +8,8 @@
 
 [Natural nuclear fission reactor (Wikipedia)](https://en.wikipedia.org/wiki/Natural_nuclear_fission_reactor)
 
+[How Kodak Exposed The Atomic Bomb (YouTube, Veritasium)](https://www.youtube.com/watch?v=7pSqk-XV2QM)
+
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/3WYxF7x"  ><a href="//imgur.com/a/3WYxF7x">The Chernobyl Dice: A quantum random number generator with a nixie tube display</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 
