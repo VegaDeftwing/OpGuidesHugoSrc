@@ -2,7 +2,11 @@
 
 <img src=" /radioart.png " alt="radioart" style="zoom:75%;" />
 
-> '137Mhz' by u/CashewHut
+{{< attribution >}}
+
+'137Mhz' by u/CashewHut
+
+{{< /attribution >}}
 
 LORA
 

@@ -57,6 +57,10 @@ Fib, some pracice logical equliv, base conversion algo, overlapping lines, matri
 
 ## Dynamic Programming
 
-<p class="tip">Heads up, this is a 5 hour video:</p>
+{{< tip >}}
+
+Heads up, this is a 5 hour video:
+
+{{< /tip >}}
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/oBt53YbR9Kk?list=WL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -4,6 +4,8 @@
 
 ## What is digital logic?
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/sTu3LwpF6XI?list=WL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ignoring the analog world (10%/90%)
 
 ### Truth Tables, K-Maps

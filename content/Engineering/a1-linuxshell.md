@@ -150,6 +150,10 @@ If you're really lazy, [Grex](https://github.com/pemistahl/grex) is "[automatica
 
 Note that not all things that seem like a good fit are a good fit for regex, for example, [email](http://www.ex-parrot.com/pdw/Mail-RFC822-Address.html).
 
+[TODO] https://www.debuggex.com
+
+[Regular Expressions - Enough to be Dangerous (YouTube, Engineer man)](https://www.youtube.com/watch?v=bgBWp9EIlMM)
+
 ## Job Control
 
 [TODO]
@@ -222,7 +226,11 @@ https://wiki.bash-hackers.org/
 
 ![b0rk bash erros](/basherrorsb0rk.jpeg ':size=70%')
 
-> source: [b0rk on Twitter](https://twitter.com/b0rk) - he's got some cool zines' you can checkout https://wizardzines.com
+{{< attribution >}}
+
+source: [b0rk on Twitter](https://twitter.com/b0rk), check out https://wizardzines.com for more
+
+{{< /attribution >}}
 
 {{< /columns >}}
 
