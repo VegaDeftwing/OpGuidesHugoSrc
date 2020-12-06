@@ -78,5 +78,9 @@
 
 * [Jsting-F's awesome electronic Fursuit](https://www.youtube.com/watch?v=gGOFU62wVco)
 
+* [Cyberdecks for High-Tech Low-Lifes (Tales From The Dork Web)](https://thedorkweb.substack.com/p/tales-from-the-dork-web-9)
+
+  * and [ARM & x86 Team Up in No Compromise Cyberdeck (Hackaday, Tom Nardi)](https://hackaday.com/2020/12/05/arm-and-x86-team-up-in-no-compromise-cyberdeck/)
+
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>
 

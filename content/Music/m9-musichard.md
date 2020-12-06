@@ -8,6 +8,8 @@ slug: "Music Hardware"
 
 ## MIDI
 
+[TODO] [Building a MIDI Controller Using Arduino (YouTube, Switch & Lever)](https://www.youtube.com/watch?v=JZ5yPdoPooU)
+
 MPE, aftertouch, vel, virtual midi, midi cc v pb v mod v note on/off v sysmsg v OSC v midi2.0
 
 Note, there's a pretty limited number of MPE capable instruments, thankfully there's stil a decent price range between them. This list is not exhaustive, but I think gives a good sampling:
@@ -34,7 +36,7 @@ LinnStrument
 
 Haken Audio Continuum
 
-{{< columns >}}
+{{< /columns >}}
 
 ## Audio Interfaces
 

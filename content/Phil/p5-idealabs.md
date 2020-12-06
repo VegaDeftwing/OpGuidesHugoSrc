@@ -8,6 +8,12 @@ slug: "Idea Labs"
 
 ![xkcd time](/xkcdtime.jpg ':size=50%')
 
+{{< attribution >}}
+
+[TODO]
+
+{{< /attribution >}}
+
 ## Shared Spaces
 
 Hacker Spaces

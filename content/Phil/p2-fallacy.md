@@ -52,9 +52,11 @@ Identity Politics:
 
 <img src="/thegays.jpg" style="zoom:50%;" />
 
+{{< attribution >}}
 
+Source: https://www.instagram.com/p/CEpI20ps5wE/
 
-> Source: https://www.instagram.com/p/CEpI20ps5wE/
+{{< /attribution >}}
 
 [Doomscrolling](https://en.wikipedia.org/wiki/Doomscrolling)
 

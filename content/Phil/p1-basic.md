@@ -3,7 +3,6 @@ title: "Basic Phil"
 slug: "Basic Phil"
 
 ---
-
 # Basic Philosophy
 
 First, let's start really simple- what **is** philosophy. Well, for one, [Basically all pages on Wikipedia link back to it](https://en.wikipedia.org/wiki/Wikipedia:Getting_to_Philosophy), so it's obviously pretty fundamental. But, why would that be?

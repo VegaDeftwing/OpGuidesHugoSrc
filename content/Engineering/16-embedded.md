@@ -6,6 +6,12 @@
 
 ![pos](/pos.png ':size=50%')
 
+{{< attribution >}}
+
+[TODO] need source
+
+{{< /attribution >}}
+
 ## PWM, SPI, I2C, What's going on?!
 
 [Driving a PAL TV over RF thanks to PWM harmonics (Hackaday)](https://hackaday.com/2020/08/26/driving-a-pal-tv-over-rf-thanks-to-pwm-harmonics/)
@@ -44,7 +50,11 @@ mention pi sd card performance / stability limits and pi advantages in how commo
 
 ## Arduino ≠ Atmega32p
 
-<p class="tip"> I REALLY want to make this clear: Arduino is a framework. Not a specific hardware platform. Different Arduino devices can run with wildly different specs and support wildly different features. </p>
+{{< tip >}}
+
+I **really** want to make this clear: Arduino is a framework. Not a specific hardware platform. Different Arduino devices can run with wildly different specs and support wildly different features.
+
+{{< /tip >}}
 
 ## STM 32
 

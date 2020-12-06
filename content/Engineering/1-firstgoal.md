@@ -22,7 +22,11 @@ I mean, this was a real error message I saw when trying to upgrade my system fro
 
 ![somethinghappened](/somethinghappened.png)
 
-> [Image source](https://answers.microsoft.com/en-us/windows/forum/windows_10/unable-to-upgrade-to-windows-10-something-happened/be12b76d-af02-46a1-a00c-4e4af0c29588)
+{{< attribution >}}
+
+[Image source](https://answers.microsoft.com/en-us/windows/forum/windows_10/unable-to-upgrade-to-windows-10-something-happened/be12b76d-af02-46a1-a00c-4e4af0c29588)
+
+{{< /attribution >}}
 
 do you really think Microsoft is at all competent anymore?
 
@@ -30,7 +34,11 @@ do you really think Microsoft is at all competent anymore?
 
 ![Linux Fox](/linuxfox.jpg)
 
->  Art by [@monoxromatik](https://twitter.com/monoxromatik)
+{{< attribution >}}
+
+Art by [@monoxromatik](https://twitter.com/monoxromatik)
+
+{{< /attribution >}}
 
 {{< hint info >}}
 **Operating System:** According to Wikipedia, "An operating system (OS) is system software that manages computer hardware and software resources and provides common services for computer programs." put simply on your hardware this is probably Windows or Mac OS, and it's what everything else runs on top of

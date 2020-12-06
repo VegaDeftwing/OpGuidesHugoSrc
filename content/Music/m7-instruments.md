@@ -46,6 +46,8 @@ Modular, semi-modular, software
 
 [Why To Modular With Guitar (YouTube, Knobs)](https://youtu.be/eYbSFiuSyuk)
 
+[Otamatone Metal - Rob Scallon](https://www.youtube.com/watch?v=dSeJ73JpUxU)
+
 [Theorbo - The enormous 14 string lute (YouTube)](https://www.youtube.com/watch?v=48RVcbkhNHQ&ab_channel=RobScallon)
 
 [Double-sided Guitar Jam (YouTube)](https://www.youtube.com/watch?v=T_s5M48JHFE&ab_channel=RobScallon)
@@ -55,3 +57,8 @@ Modular, semi-modular, software
 [Awesome Japanese Electric Harp!](https://www.youtube.com/watch?v=1JP2nAoRgl0&ab_channel=ANDREWHUANG)
 
 [Using a Violin Bow on a Guitar Sounds Incredible (YouTube, Music Is Win)](https://www.youtube.com/watch?v=4l3aqFaL7ZM)
+
+[Crazy Fast Robot Drummer (YouTube, Andrew Huang)](https://www.youtube.com/watch?v=KvQ0UXOyh7A)
+
+[Show Us Your Junk! Ep. 25 - Sylvia Massy of Studio Divine  (YouTube, EarthQuaker Devices)](https://www.youtube.com/watch?v=sTnHEHzFOFU) ... She uses a pickle as a guitar effect...
+

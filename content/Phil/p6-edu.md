@@ -18,6 +18,12 @@ slug: "Education"
 
 ![respect](/respect.png)
 
+{{< attribution >}}
+
+[TODO]
+
+{{< /attribution >}}
+
 ### Faster, lower standards
 
 ### Better testing

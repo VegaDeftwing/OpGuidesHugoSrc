@@ -18,6 +18,6 @@
 
 ## 2 - Electromagnetism
 
-![maxwell](/maxwellequns.svg)
+<img src="/maxwellequns.svg" alt="maxwell" style="-webkit-filter: invert(.85);">
 
 ## 3 - Relativity and the Quantum

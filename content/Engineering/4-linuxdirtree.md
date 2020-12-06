@@ -625,7 +625,11 @@ permissions discussed eariler, recap here
 
 ![rik](/rik.jpeg)
 
-> Art by [@monoxromatik](https://twitter.com/monoxromatik), made for [@Freixfox](https://twitter.com/Ferixfox)
+{{< attribution >}}
+
+Art by [@monoxromatik](https://twitter.com/monoxromatik), made for [@Freixfox](https://twitter.com/Ferixfox)
+
+{{< /attribution >}}
 
 {{< /columns >}}
 

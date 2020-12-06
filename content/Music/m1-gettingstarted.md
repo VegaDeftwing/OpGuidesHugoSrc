@@ -8,7 +8,7 @@ slug: "Music Getting Started"
 
 Here's the part where I'm supposed to explain how to read music or something boring like that. Really though, that's not why you're here. So let me start by giving you a bit of motivation. In a bit I'll be going though how to use VCV Rack, a free (with paid addons, but those aren't necessary) program for making music. But as we go though each bit is going to look so -basic- that it's hard to see the bigger picture. So, here's that bigger picture: This track was made entirely with VCV rack:
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3503666064/size=small/bgcol=ffffff/linkcol=0687f5/track=3864536185/transparent=true/" seamless><a href="http://vegadeftwing.bandcamp.com/album-2">Content by Vega Deftwing</a></iframe>
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3503666064/size=small/bgcol=666666/linkcol=ffffff/track=3864536185/transparent=true/" seamless><a href="http://vegadeftwing.bandcamp.com/album-2">Content by Vega Deftwing</a></iframe>
 
 Alright, with motivation out of the way, let's make some noise! To do that though we're gonna need just a few things:
 Go download VCV Rack from https://vcvrack.com/ and depending on your OS you'll need some sound drivers, MAC guys, sorry, no idea. On Windows you'll want to use ASIO, if you don't know what that is just go grab http://www.asio4all.org/ and use that, on Linux you'll want to use Jack https://wiki.archlinux.org/index.php/JACK_Audio_Connection_Kit. On Linux you may need to use a tool like Catia to actually connect the jack devices together (VCV to System Out)

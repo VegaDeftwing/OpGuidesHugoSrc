@@ -35,6 +35,8 @@ Generally it seems there's a pretty 1-to-1 match between Microsoft's and Amazon'
 
 So that I can talk about this all without trying to name everything:
 
+[TODO] this references local files. I need to figure out how to present this better
+
 <img src="../../../../../../../../home/vega/.config/Typora/typora-user-images/image-20201115151852791.png" alt="image-20201115151852791" style="zoom:50%;" />
 
 <img src="../../../../../../../../home/vega/.config/Typora/typora-user-images/image-20201115152353844.png" alt="image-20201115152353844" style="zoom:50%;" />

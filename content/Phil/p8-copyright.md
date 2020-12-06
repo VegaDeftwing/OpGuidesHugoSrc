@@ -8,7 +8,7 @@ slug: "Copyright"
 
 I think to further address any issues we first need to look into how these issues have come to exist. In general, as a society advances new issues will arise. Computers and the Internet have shown us just how incredibly things can progress and how amazing un-hindered, open information flow can change the world. The Internet has served as an educational tool of unparalleled utility to my generation and has allowed me to learn things that I otherwise would have never had access to. Of course this also means the same for bad actors. Though acting in bad faith also now have the same unparalleled access to personal information of the masses and individuals can now use their anonymity and an Internet connection to do harm both to individuals via cyberbullying and trolling, but also to businesses as we move to a world that more heavily relies on ecommerce and the digital information they store becomes increasingly sensitive.
 
-Unfortunately, the law is often far to slow or far to fast to react, leading to laws that simultaneously fail to protect our rights as consumers and punish many to harshly[^3].
+Unfortunately, the law is often far to slow or far to fast to react, leading to laws that simultaneously fail to protect our rights as consumers and punish many to harshly.<a class="ptr">(1)</a>
 
 Innovation that is open to the public regularly leads to much greater good for society; however, there is need for very careful oversight. The Internet is an easy example, as laws like the [CFAA](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act), [SOPA](https://en.wikipedia.org/wiki/Stop_Online_Piracy_Act), and [SESTA](https://en.wikipedia.org/wiki/Stop_Enabling_Sex_Traffickers_Act) are all wildly considered overreaching, while laws like the [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) are implemented slowly. This is clearly a complicated subject, as it requires policy makers and the people they rely on to accurately predict the future. Unfortunately, often when the future is already here the law is still slow to keep up or paid for by parties with malicious intent.
 
@@ -42,3 +42,8 @@ What we should do about this:
 Marvel, Pink Floyd, and Minecraft Vs Web comics, indie, and Minetest.
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/tk862BbjWx4?list=WL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<ol hidden id="footnotes">
+    <li>By 'slow' I'm primarily referring to the lack of or incompetence of consumer data protection law. <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">GDPR</a> is definitely a step in the right direction on this; however, that is both only for the EU and was implemented far too late. By 'fast' I had the <a href="https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act">CFAA</a> which is wildly considered to be both overreaching and to harsh. Simultaneously, we lack real oversight for consumers. This leads to the total BS situations like Americans saw with the Equifax breach a few years ago.</li>
+</ol>
+

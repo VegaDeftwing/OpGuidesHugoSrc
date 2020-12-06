@@ -7,6 +7,8 @@ title = "Opinionated Guides"
 BookMenuBundle = '/menu'
 BookRepo = 'https://github.com/opinionatedguide/OpGuidesHugoSrc'
 BookEditPath = 'tree/main/content'
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
 
 [markup.goldmark.renderer]
   unsafe = true

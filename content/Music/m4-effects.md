@@ -20,7 +20,7 @@ This is probably the easiest to understand audio effect. Put simply, fade the vo
 
 ## Vibrato
 
-Vibrato as an effect requires pitch shifting, which I suppose actually makes it akin to FM synthesis as described above, regardless, it's as simple as applying a, typically subtle, pitch 'wobble' into the sound. On a guitar this may be done with a pedal but more simply just by bending the string back and forth with the fingers.
+Vibrato as an effect requires pitch shifting, which I suppose actually makes it akin to FM synthesis as in Chapter 2, regardless, it's as simple as applying a, typically subtle, pitch 'wobble' into the sound. On a guitar this may be done with a pedal but more simply just by bending the string back and forth with the fingers.
 
 ## Delay
 
@@ -187,39 +187,47 @@ plate, room, spring, gated, erbe verb video, convolutional, delay line + allpass
 
 ## Noise Gating
 
+### Gating other effects with a mix
+
+gated verb, gated distortion
+
 ## Limiting
 
 ## Compression
 
-![compression](/compression.gif)
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/BIVfpsoPnOo?list=WL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<audio
-    controls
-    src="{static}/audio/Compression.mp3">
-        Your browser does not support the
-        <code>audio</code> element.
-</audio>
+{{< hint info >}}
+
+The above is a 3 part series that explains compressors better than anything I can really write here
+
+{{< /hint >}}
+
 Compression can mean multiple things when talking about music and sometimes this makes talking about it sometimes confusing. Usually, when talking about compression the meaning is for compression that changes the *dynamics* of the audio, making loud sounds quieter and quiet sounds louder sort of ~squishing~ the sound. The other, unrealetd, definiton of compression is data compression, for example .mp3 vs .wav. We'll go into that later.
+
+<p class="tip">Okay, this is sort of a lie. Compressors don't <i>technically</i> make anything louder. Only quieter. It's just that usually there's some input and/or output gain that makes it seem this way. If you first boost all your signals, then lower louder parts that's <i>nearly</i> the same thing as making the quiet stuff louder and louder stuff quiter. The reason this is worth bringing up is because not all compressors actually have that gain stage, so they will literally only make the loud sounds quieter and assume the user knows they need to compensate</p>
 
 Usually compression has a few basic attributes that are relevent:
 
 The 'Threshold' is what level the compressor has to be over to do anything at all. 'Attack' is the time it takes for the signal to be affected. All compressors will have some minimum attack time if they're happening live (there are some compressors with 'Lookahead' that solve this problem) which lets the transients (sharp changes) of louder sounds, like the start of a drum hit, get through to some extent, but more attack will let more of the drum transient through. Tune to taste, release is similar idea, but controls how the compressor behaves as it falls below the treshold, letting the compressor fade out with a given time instead of having a sharp cut. Compressors can be used to make drums really stand out, give guitars a longer sustained sound, or just glue the mix together better.
 
-[Todo, add fabfilter guy video] 
+[TODO knee, sidechain]
 
-[Todo, Dynamic range compression, Parallel Compression, different analog models (ie Fets v tube v optical)]
+[TODO, Dynamic range compression, Parallel Compression, Miltiband compression, different analog models (ie Fets v tube v optical)]
 
 reverb, delay, pan, tremello, overdrive, distortion
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/j4NrWQljyso?list=PL5cGwrD7cv8jd0PSN2E8pFD97H3R5aQwN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[Beginner's Guide to Compression - Part 1 (YouTube, fabfilter)](https://www.youtube.com/watch?v=BIVfpsoPnOo&list=WL)
 
 [WTF is a Compander? (YouTube, Dan Worrall)](https://www.youtube.com/watch?v=ZRP5uI9mbzQ)
 
 [TODO] parallel Compression
 
 ## Vocoders
+
+[Ableton Live VOCODER Tutorial (YouTube, Once Upon A Synth)](https://www.youtube.com/watch?v=aiM_NQYhu1o)
+
+[TODO] all of it... but also mention how a lot of vocie effects use a combo of autotune, vocode, and pitch shifting
 
 ## Glitch, Granular, and Pitch
 
