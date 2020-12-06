@@ -4,7 +4,11 @@ slug: "TheWayWeInteractWithComputersSucks"
 author: "Vega Deftwing"
 date: 2020-11-29
 ---
-<p class="tip">You are on a page that is a heavy work in progress. I don't necessarily stand by anything I've written here and this page should effectively be considered not yet published. I have decided to put it up while it is in development to encourage contributions</p>
+{{< tip >}}
+
+You are on a page that is a heavy work in progress. I don't necessarily stand by anything I've written here and this page should effectively be considered not yet published. I have decided to put it up while it is in development to encourage contributions
+
+{{< /tip >}}
 
 **What do you see when you sit down to work?** My guess is a desk pressed against a wall, maybe a few shelves, one, maybe two monitors in front of you, and a keyboard and mouse dominating the work area of your desk. How do you access information? Do you simply Google something and if it's not on the first page give up? How do you get reliable information when you have a question? How do you interpret results that you find? How do you store information you've collected? How do you filter information to get exactly what you're looking for?
 
@@ -302,7 +306,11 @@ This beautiful port:
 
 ![](/midithru.jpg)
 
-> Image © Shira Wolven 2020, used with permission
+{{< attribution >}}
+
+Image © Shira Wolven 2020, used with permission
+
+{{< /attribution >}}
 
 This, is a midi through. On most gear, it's accompanied by (at least) a MIDI IN, so, you can take your MIDI info in, and then, because a single midi cable carries 16 channels, chain other gear on.
 
@@ -352,6 +360,8 @@ In summary
 * Sit/Stand needs to come down in cost, be available in L and U shapes
 * Desks need built in wire management
 * Desks need to have pull outs
+
+As a final note, I realize not everyone has space for a massive desk, but in that case, I think things like [this folding desk (YouTube, DIY Persk)](https://www.youtube.com/watch?v=QaoFh1DH51U) should be more common.
 
 ### Your Audio Sucks
 
@@ -449,7 +459,11 @@ Instead of doing DC dimming, that is just lowering the voltage of the back light
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Duty_Cycle_Examples.png" style="zoom:75%;" />
 
-> PWM image by [Thewrightstuff](https://commons.wikimedia.org/w/index.php?title=User:Thewrightstuff&action=edit&redlink=1) CC BY-SA 4.0
+{{< attribution >}}
+
+PWM image by [Thewrightstuff](https://commons.wikimedia.org/w/index.php?title=User:Thewrightstuff&action=edit&redlink=1) CC BY-SA 4.0
+
+{{< /attribution >}}
 
 So instead of just lowering the level directly, the back light is turned on and off rapidly, for a varying amount of time. This might be done really fast, sometimes it's fast enough that it really does not matter or there's a reasonable amount of capacitance to smooth this out, effectively making it look like just a DC signal again, good enough. Sometimes, the manufacture sucks and uses shitty, low frequency PWM dimming and even if you can't consciously see it, it will cause headaches and generally suck over long periods.
 
@@ -529,9 +543,13 @@ The problem with that color temperature isn't necessarily that it's too 'cool', 
 
 <--->
 
-![Color_temperature_black_body_800-12200K](/Color_temperature_black_body_800-12200K.svg)
+<img src="/Color_temperature_black_body_800-12200K.svg" style="background-color:white;">
 
-> Image from [Bhutajata](https://en.wikipedia.org/wiki/Color_temperature#/media/File:Color_temperature_black_body_800-12200K.svg) on this [Wikipedia article](https://en.wikipedia.org/wiki/Color_temperature)
+{{< attribution >}}
+
+Image from [Bhutajata](https://en.wikipedia.org/wiki/Color_temperature#/media/File:Color_temperature_black_body_800-12200K.svg) on this [Wikipedia article](https://en.wikipedia.org/wiki/Color_temperature)
+
+{{< /attribution >}}
 
 {{< /columns >}}
 
@@ -569,11 +587,15 @@ On a far less useful but neat note- I think 'ambilight' systems need to be more 
 
 Basically ambilight is just a system for letting the colors from the pixels near the edge of the screen be mirrored onto some RGB leds so that the color spills onto the wall behind. It's a really neat effect for games or movies.
 
-> Ambilight image from [Wikipeda user Stephan Legachev](https://commons.wikimedia.org/wiki/File:Ambilight-2.jpg), resized for this blog.
-
 <--->
 
 ![](/Ambilight-2.jpg)
+
+{{< attribution >}}
+
+Ambilight image from [Wikipeda user Stephan Legachev](https://commons.wikimedia.org/wiki/File:Ambilight-2.jpg), resized for this blog.
+
+{{< /attribution >}}
 
 {{< /columns >}}
 
@@ -631,27 +653,24 @@ user/password/2factor
 
 ## Presentation of Information Sucks
 
-<p class="tip">I'll be the first to admit this website isn't the best on this. I put <a href='https://opinionatedguide.github.io/design/generative-art/'/>the list of generative design tools</a> in a MarkDown Table for fucks sake. I know. But, We'll get to that in a bit, in the Creating New Information Sucks section below, and I hope to convince you that isn't necessarily my fault.</p>
+{{< tip >}}
+I'll be the first to admit this website isn't the best on this. I put <a href='https://opinionatedguide.github.io/design/generative-art/'/>the list of generative design tools</a> in a MarkDown Table for fucks sake. I know. But, We'll get to that in a bit, in the Creating New Information Sucks section below, and I hope to convince you that isn't necessarily my fault.
+{{< /tip >}}
 
 ### 'Dark Patterns'
 
 [This Site](https://darkpatterns.org/types-of-dark-pattern.html) has a lot of really good info on this, and I recommend heading over there and then coming back over here. 
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
 <div class="w3-container"><p><button class="w3-button w3-green w3-round-xxlarge w3-block">DO THE THING HERE</button></p></div>
-
 <div class="w3-container"><p><button class="w3-button w3-black w3-tiny w3-round-xxlarge">or don't and watch the world burn</button></p></div>
-
-where the design is actively pursing an agenda. Instead the affirmative action should be stated on the button that triggers it and both actions given equal weight to the user.
-
+<p>where the design is actively pursing an agenda. Instead the affirmative action should be stated on the button that triggers it and both actions given equal weight to the user.</p>
 <div class="w3-bar">
   <button class="w3-bar-item w3-button w3-red" style="width:50%">Don't Do Action</button>
   <button class="w3-bar-item w3-button w3-green" style="width:50%">Do Action</button>
 </div>
 
 
-Not here by Action I literally mean to **include the verb.** Delete. Replace. Print. Etc. Yes or No *is not* good enough.
+Note here by Action I literally mean to **include the verb.** Delete. Replace. Print. Etc. Yes or No *is not* good enough.
 
 With destructive or irreversible actions, such as deletion (not recycling), given a confirmation dialogue, and if particularly important, a dialogue that require *meaningful* user input, like this prompt when deleting a repo on GitHub
 
@@ -665,7 +684,11 @@ With destructive or irreversible actions, such as deletion (not recycling), give
 
 <img src="/times-square.jpg" alt="Times Square" style="zoom: 33%;" />
 
-> Bobby Mikul, Times Square :CC0 -- [Source](https://www.publicdomainpictures.net/en/browse-author.php?a=2185)
+{{< attribution >}}
+
+Bobby Mikul, Times Square :CC0 -- [Source](https://www.publicdomainpictures.net/en/browse-author.php?a=2185)
+
+{{< /attribution >}}
 
 [Five Years After Banning Outdoor Ads, Brazil's Largest City Is More Vibrant Than Ever](https://newdream.org/blog/sao-paolo-ad-ban)
 

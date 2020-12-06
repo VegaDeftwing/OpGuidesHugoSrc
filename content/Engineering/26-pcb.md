@@ -4,8 +4,9 @@
 
 First things first, we're going to be using Kicad, so you'll want to go grab that from the repos. While that's downloading and installing give this a watch to get the basics down:
 
-[KiCad Quick Start Tutorial (YouTube)](https://www.youtube.com/watch?v=zK3rDhJqMu0&index=8&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz&t=0s)
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/zK3rDhJqMu0?list=WL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<div style="background: #ffffff;">
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="210mm" height="297mm" viewBox="0 0 210 297" version="1.1" id="svg8" inkscape:version="0.92.1 r" sodipodi:docname="kicad-cheatsheet.svg">
   <defs id="defs2">
     <marker inkscape:stockid="TriangleOutS" orient="auto" refY="0.0" refX="0.0" id="marker6559" style="overflow:visible" inkscape:isstock="true">
@@ -705,7 +706,13 @@ First things first, we're going to be using Kicad, so you'll want to go grab tha
     </g>
   </g>
 </svg>
-> Src: Foalyy @ https://forum.kicad.info/t/cheatsheet-for-kicad/5247
+</div>
+
+{{< attribution >}}
+
+Sorce: Foalyy @ https://forum.kicad.info/t/cheatsheet-for-kicad/5247
+
+{{< /attribution >}}
 
 https://llllllll.co/t/pcb-art-artfully-shaped-copper-traces/22027/2
 
@@ -721,7 +728,11 @@ https://llllllll.co/t/pcb-art-artfully-shaped-copper-traces/22027/2
 
 ![badges](/badges.jpeg)
 
-> Source: @AkioOhtori on Twitter
+{{< attribution >}}
+
+Source: @AkioOhtori on Twitter
+
+{{< attribution >}}
 
 
 

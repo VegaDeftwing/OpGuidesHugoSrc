@@ -5,8 +5,6 @@ author: "Vega Deftwing"
 date: 2020-11-29
 ---
 
-# Data, Formats, Backups, and Digital Purgatory
-
 Yunno' what really grinds my gears?
 
 Okay, yes, the current political climate, the idea of Software As a Service, and about a thousand other things given that I've literally got the word opinionated in this sites name...

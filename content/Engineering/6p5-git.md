@@ -2,7 +2,11 @@
 
 [./missing-semester - Version Control](https://missing.csail.mit.edu/2020/version-control/)
 
-!> The above link does a better job of covering the vast majority of what I'd say than I could hope to put here. Just check it out.
+{{< tip >}}
+
+The above link does a better job of covering the vast majority of what I'd say than I could hope to put here. Just check it out.
+
+{{< /tip >}}
 
 [Bit, an alternative git cli (Github)](https://github.com/chriswalz/bit)
 
@@ -107,7 +111,7 @@ Fossil
 
 ## Weird Git
 
-https://radicle.xyz
+https://radicle.xyz 
 
 ## Further Reading
 

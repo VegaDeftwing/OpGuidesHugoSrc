@@ -1,5 +1,12 @@
 # Ⅰ - Community
 
+<style>
+  a{color:  #42b9f3;}
+  a:active{color: #42b9f3;}
+  ::-webkit-scrollbar-thumb {background: #009CDF;}
+  ::-webkit-scrollbar-thumb {background: #009CDF;}
+</style>
+
 The only way to be successful in this journey is to make friends along the way. Some of this gets really, really difficult. You *will* get stuck. Having friends to help makes it possible. Find group chats on telegram, join IRC channels, get on some forums, and ask questions on Reddit. Working with people is a lot more fun and you'll learn so much more.
 
 Beyond that, having inspiration each day can be a huge booster shot to your motivation and creativity. Some sites I use nearly daily to finding good new material are:
@@ -33,6 +40,12 @@ While much less active, I've found some of these to have great information as we
 Oh, and to mention it now
 
 ![Image result for dunning kruger effect xkcd](https://imgs.xkcd.com/comics/impostor_syndrome.png)
+
+{{< attribution >}}
+
+[xkcd #1954](https://xkcd.com/1954/)
+
+{{< /attribution >}}
 
 Yes, there is always a relevant XKCD, and yes, you will always feel like everyone knows more than you. Don't stress about asking stupid questions:
 
@@ -102,6 +115,8 @@ No matter what you care about, know there's a wide range of communities that wou
 ## Further reading 
 
 (Seriously all of these are **very** good)
+
+[Hacker Spaces are Awesome! (YouTube, LiveOverflow)](https://www.youtube.com/watch?v=HJy-Y4nok3g)
 
 [Assholes: A Probing Examination](https://www.nomachetejuggling.com/2019/06/03/dont-hire-assholes/)
 

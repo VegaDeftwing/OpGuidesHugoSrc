@@ -14,6 +14,8 @@ That said, I don't want to get to in the mud of transistor physics. I really wan
 
 [Will gallium nitride electronics change the world? (YouTube, Engadget)](https://youtu.be/sfTXZP2DB20?list=WL)
 
+[TODO] pic of silicon bulb
+
 ## Diodes, the one way road
 
 [TODO]
@@ -143,4 +145,6 @@ https://taleri.files.wordpress.com/2014/02/practical_electronics_for_inventors_-
 [RGB LED, Inductively Powered, Frequency Controlled (YouTube, Wolf Tronix)](https://www.youtube.com/watch?v=3DeOPN1Cl1Y)
 
 [How to protect circuits from reversed voltage polarity! (YouTube, AfroTechMods)](https://www.youtube.com/watch?v=IrB-FPcv1Dc)
+
+[Circuit Sculpture Workshop (Hackaday, Kristina Panos)](https://hackaday.com/2020/12/03/remoticon-video-circuit-sculpture-workshop/)
 

@@ -20,6 +20,12 @@ for (🥚 = 1; 🥚 < 🐔; 🥚++){
 
 ### Assembly
 
+[TODO] note about asm being architecture specific
+
+[x86 Assembly: Hello World! (YouTube, John Hammond)](https://www.youtube.com/watch?v=HgEGAaYdABA)
+
+
+
 [Say hello to x86_64 Assembly 1-8](https://0xax.github.io/archive/) by 0xAX 
 
 or

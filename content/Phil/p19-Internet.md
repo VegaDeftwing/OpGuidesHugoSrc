@@ -59,3 +59,8 @@ https://www.mnot.net/blog/2020/08/28/for_the_users RFC8890
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/OFRjZtYs3wY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Stalkerware
+
+## AI
+
+[Sufficently Advaced Technology and Justice (Hackaday, Elliot Williams)](https://hackaday.com/2020/12/05/sufficiently-advanced-technology-and-justice/)
+

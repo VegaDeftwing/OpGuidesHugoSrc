@@ -4,11 +4,7 @@ slug: "Design Intro"
 
 ---
 
-Hey there.
-
-My name is Vega. I know there are plenty of tutorials and ways to learn online be it on YouTube, SkillShare, or online classes provided for free by various universities. The difference here is there is no bullshit, no babysitting, and lots of bias as a result of personal experience. My views of things like what cretive software is bad (Adobe) or what equipment you should buy to learn with will be expressed directly and bluntly. This isn't to say I won't explain my reasoning, just that I'm not going to be apologetic when I say things like "non display tablets are trash" - though I will still likely talk about the things I dislike and why.
-
-### Inspirational Artists
+# Inspirational Artists
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Added a lot of minor improvements, like camera limits, subtle lighting, dust particles and more <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://twitter.com/hashtag/pixelart?src=hash&amp;ref_src=twsrc%5Etfw">#pixelart</a> <a href="https://twitter.com/hashtag/screenshotsaturday?src=hash&amp;ref_src=twsrc%5Etfw">#screenshotsaturday</a> <a href="https://t.co/KmSYW3iHml">pic.twitter.com/KmSYW3iHml</a></p>&mdash; Luis Moreno Jimenez (@more8bit) <a href="https://twitter.com/more8bit/status/904107654196469761?ref_src=twsrc%5Etfw">September 2, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

@@ -30,6 +30,7 @@ There's a pretty big list of considerations you should keep in mind when what yo
 
 * Can users of other in other regions still use it?
 * Qwerty isn't standard everywhere, neither is left-to-right text.
+  * Hell, [᚛ᚅᚑᚈ ᚐᚂᚂ ᚄᚚᚐᚉᚓᚄ ᚐᚏᚓ ᚄᚚᚐᚉᚓᚄ᚜ (YouTube, Tomm Scott)](https://www.youtube.com/watch?v=2yWWFLI5kFU) 
 * Does it comply with local laws and regulations?
   * Not all illegal services are morally wrong- take [Sci-Hub](https://en.wikipedia.org/wiki/Sci-Hub) for example.
 * Does it force units of measurement?

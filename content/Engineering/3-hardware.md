@@ -310,7 +310,11 @@ The large, white square is the CPU socket. This is an older board made for an AM
 
 ![CPU Socket 775](/581px-CPU_Socket_775_T.jpg)
 
-([img source](https://commons.wikimedia.org/wiki/File:CPU_Socket_775_T.jpg))
+{{< attribution >}}
+
+[img source](https://commons.wikimedia.org/wiki/File:CPU_Socket_775_T.jpg)
+
+{{< /attribution >}}
 
 If you're looking at a server or high end workstation you may actually run into a single motherboard with multiple CPU sockets. These are becoming less common with time, but even though there are multiple CPUs the system still operates as one larger system. For example, I have access to a system with 4, 8 core, 16 thread cpu's to give for a total of of 64 threads. Giving this beautiful sight:![64t](/64thread.png)
 
@@ -491,11 +495,19 @@ Finally, it's notable that the chipset typically acts as a PCIe lane 'splitter' 
 
 ![Chipset](/Chipset.png)
 
-> [Source](https://www.intel.com/dam/www/public/us/en/documents/product-briefs/z370-chipset-product-brief.pdf)
+{{< attribution >}}
+
+[Image Source](https://www.intel.com/dam/www/public/us/en/documents/product-briefs/z370-chipset-product-brief.pdf)
+
+{{< /attribution >}}
 
 ![chipsetamd](/chipsetamd.png)
 
-> [Source](https://en.wikichip.org/wiki/amd/microarchitectures/zen)
+{{< attribution >}}
+
+[Image Source](https://en.wikichip.org/wiki/amd/microarchitectures/zen)
+
+{{< /attribution >}}
 
 ### Expansion slots
 
@@ -583,7 +595,11 @@ Finally, it should be noted the iGPUs share system memory for graphics memory, w
 
 ![1900px-raven_ridge_die_(annotated)](/1900px-raven_ridge_die_(annotated).png)
 
-> [Source](https://en.wikichip.org/wiki/amd/microarchitectures/zen)
+{{< attribution >}}
+
+[Image Source](https://en.wikichip.org/wiki/amd/microarchitectures/zen)
+
+{{< /attribution >}}
 
 Moving on to graphics cards, Looking above at the stacks of graphics cards above, you'll probably notice that a graphics card is basically just a full separate motherboard and processor on a card. Really, this is pretty accurate, as there is a separate compute device (the GPU), ram (GDDR or HBM), and io (fan control, etc.) on the board. Of course, the Graphics card can't really be used as a full separate computer, but thinking about it as such isn't entirely wrong either. In fact, graphics cards really harken back to much older systems where it was common to add a math co-processor chip along side the CPU to make some mathematical operations faster.
 

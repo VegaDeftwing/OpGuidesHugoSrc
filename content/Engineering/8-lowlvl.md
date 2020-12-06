@@ -2,9 +2,6 @@
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/Snr113r5ocY?list=FLFMnqfaTa1se1LfbCB3peJQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-> [Video Link: Program in C (YouTube)](https://www.youtube.com/watch?v=Snr113r5ocY&list=FLFMnqfaTa1se1LfbCB3peJQ&index=126)
-
 the stack, pointers, etc.
 
 psuedo code, bitwise opererators, types, unsigned, signed bit, 1's compliment, 2's compliment
@@ -103,7 +100,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id tellus ultrici
 
 ![awrhey](/awrhey.jpeg)
 
-> Art by [@awr_hey](https://twitter.com/awr_hey), Rachel the Rox belongs to [@PixelatedWah](https://twitter.com/PixelatedWah)
+{{< attribution >}}
+
+Art by [@awr_hey](https://twitter.com/awr_hey), Rachel the Rox belongs to [@PixelatedWah](https://twitter.com/PixelatedWah)
+
+{{< /attribution >}}
 
 {{< /columns >}}
 

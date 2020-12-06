@@ -4,93 +4,99 @@ headless: true
 
 ---
 
-<div style="background:#42B9F308;border-radius: 5px;">
+<div class="navbak" style="background:#009CDF;>
 
 - [**Engineering**]({{< relref "/Engineering/Engineering" >}})
-  - [Ⅰ - Community]({{< relref "/Engineering/ep1-community" >}})
-  - [Ⅱ - Learn How to Learn]({{< relref "/Engineering/ep2-howtolearn" >}})
-  - [1 - The First Goal]({{< relref "/Engineering/1-firstgoal" >}})
-  - [2 - Let's do it then, Installing Arch Linux]({{< relref "/Engineering/2-arch" >}})
-  - [3 - Into The Hardware]({{< relref "/Engineering/3-hardware" >}})
-  - [4 - Back to the *Root* of Things]({{< relref "/Engineering/4-linuxdirtree" >}})
-  - [5 - Circuits, an Introduction]({{< relref "/Engineering/5-circuits1" >}})
-  - [6 - Let's Work on *How* we work]({{< relref "/Engineering/6-howwework" >}})
+
+</div>
+
+  - [ Ⅰ - Community]({{< relref "/Engineering/ep1-community" >}})
+  - [ Ⅱ - Learn How to Learn]({{< relref "/Engineering/ep2-howtolearn" >}})
+  - [ 1 - The First Goal]({{< relref "/Engineering/1-firstgoal" >}})
+  - [ 2 - Installing Arch Linux]({{< relref "/Engineering/2-arch" >}})
+  - [ 3 - Into The Hardware]({{< relref "/Engineering/3-hardware" >}})
+  - [ 4 - The *Root* of Things]({{< relref "/Engineering/4-linuxdirtree" >}})
+  - [ 5 - Circuits! ]({{< relref "/Engineering/5-circuits1" >}})
+  - [ 6 - Working on *How* we work]({{< relref "/Engineering/6-howwework" >}})
   - [6½ - Git]({{< relref "/Engineering/6p5-git" >}})
-  - [7 - Let's Write Some Code]({{< relref "/Engineering/7-codeintro" >}})
+  - [ 7 - Let's Write Some Code]({{< relref "/Engineering/7-codeintro" >}})
   - [7½ - Consequences]({{< relref "/Engineering/7p5-consequences" >}})
-  - [8 - Low Level Programming]({{< relref "/Engineering/8-lowlvl" >}})
-  - [9 - Finishing up the Project]({{< relref "/Engineering/9-codecont" >}})
+  - [ 8 - Low Level Programming]({{< relref "/Engineering/8-lowlvl" >}})
+  - [ 9 - Yet More Programming]({{< relref "/Engineering/9-codecont" >}})
   - [9½ - Programming Languages]({{< relref "/Engineering/9p5-languages" >}})
   - [10 - Networking]({{< relref "/Engineering/10-networking" >}})
   - [11 - Math]({{< relref "/Engineering/11-math" >}})
   - [12 - Physics]({{< relref "/Engineering/12-physics" >}})
   - [13 - Chemistry]({{< relref "/Engineering/13-chem" >}})
-  - [14 - Circuits & Semiconductors]({{< relref "/Engineering/14-circuits2" >}})
+  - [14 - Semiconductors]({{< relref "/Engineering/14-circuits2" >}})
   - [15 - Digital Logic]({{< relref "/Engineering/15-digitallogic" >}})
   - [16 - Embedded Systems]({{< relref "/Engineering/16-embedded" >}})
-  - [17 - Discrete Math and Algorithms]({{< relref "/Engineering/17-algorithms" >}})
-  - [18 - Writing a Larger Program]({{< relref "/Engineering/18-bigprog" >}})
+  - [17 - Algorithms and More]({{< relref "/Engineering/17-algorithms" >}})
+  - [18 - Writing a Big Program]({{< relref "/Engineering/18-bigprog" >}})
   - [19 - Servers!]({{< relref "/Engineering/19-servers" >}})
   - [19 - "The Cloud"]({{< relref "/Engineering/19p5-cloud" >}})
   - [20 - Databases]({{< relref "/Engineering/20-databases" >}})
-  - [21 - Debugging, Automated Building and Testing]({{< relref "/Engineering/21-debugbuildtest" >}})
-  - [22 - Compilers and Assemblers]({{< relref "/Engineering/22-compileassemble" >}})
+  - [21 - Debugging, CI & CD]({{< relref "/Engineering/21-debugbuildtest" >}})
+  - [22 - Compilers & Assemblers]({{< relref "/Engineering/22-compileassemble" >}})
   - [23 - Exploitation]({{< relref "/Engineering/23-exploitation" >}})
   - [24 - Security]({{< relref "/Engineering/24-security" >}})
-  - [25 - Open Source, Licences, and Copyright]({{< relref "/Engineering/25-fosscopyright" >}})
+  - [25 - FOSS & Copyright]({{< relref "/Engineering/25-fosscopyright" >}})
   - [26 - Let's Make our own PCB]({{< relref "/Engineering/26-pcb" >}})
-  - [27 - We've Got Cores, Let's use 'em]({{< relref "/Engineering/27-multithread" >}})
+  - [27 - We've Got Cores!]({{< relref "/Engineering/27-multithread" >}})
   - [28 - Graphical Programming]({{< relref "/Engineering/28-guiprog" >}})
   - [29 - (((())(()((()(()))))))]({{< relref "/Engineering/29-funcprog" >}})
-  - [30 - Let's Try out Programmable Logic]({{< relref "/Engineering/30-fpga1" >}})
+  - [30 - Programmable Logic]({{< relref "/Engineering/30-fpga1" >}})
   - [31 - Let's Make our own SOC]({{< relref "/Engineering/31-fpga2" >}})
-  - [32 - 3D Printing, CNC, and Making Things]({{< relref "/Engineering/32-3dprint" >}})
-  - [33 - Fine, I'll talk about AI/ML]({{< relref "/Engineering/33-aiml" >}})
+  - [32 - 3D Printing & CNC]({{< relref "/Engineering/32-3dprint" >}})
+  - [33 - Fine, here's AI/ML]({{< relref "/Engineering/33-aiml" >}})
   - [34 - Ham Radio]({{< relref "/Engineering/34-hamradio" >}})
   - [A0 - Wrapping Up]({{< relref "/Engineering/a0-wrappingup" >}})
   - [A1 - Using The Linux Shell]({{< relref "/Engineering/a1-linuxshell" >}})
-  - [A2 - Cheat Sheets and Quick Info]({{< relref "/Engineering/a2-cheat" >}})
+  - [A2 - Cheat Sheets]({{< relref "/Engineering/a2-cheat" >}})
   - [A3 - Bill Of Materials]({{< relref "/Engineering/a3-bom" >}})
-  - [A4 - Moved to Opinioned Philosophy]({{< relref "/Engineering/a4-politics" >}})
+  - [A4 - Ethics and Engineering]({{< relref "/Engineering/a4-politics" >}})
   - [A5 - Fixing Issues]({{< relref "/Engineering/a5-fixxingissuses" >}})
   - [A6 - Other Great Resources]({{< relref "/Engineering/a6-resources" >}})
   - [A7 - History]({{< relref "/Engineering/a7-history" >}})
   - [A8 - Odd Things]({{< relref "/Engineering/a8-oddthings" >}})
 
-</div>
 
 ---
 
-<div style="background:#F0D8D82F;border-radius: 5px;">
+<div class="navbak" style="background:#973999;">
 
-- [**Music**]({{< relref "Music/opinionatedmusic" >}})
-  - [1 - Getting Started]({{< relref "Music/m1-gettingstarted" >}})
-  - [2 - Sound Sources]({{< relref "Music/m2-sources" >}})
-  - [3 - Theory]({{< relref "Music/m3-theory" >}})
-  - [4 - Effects]({{< relref "Music/m4-effects" >}})
-  - [5 - Mixing & Mastering]({{< relref "Music/m5-mixmaster" >}})
-  - [6 - Arrangment - Sequencing & MIDI]({{< relref "Music/m6-seqandmidi" >}})
-  - [7 - Instruments]({{< relref "Music/m7-instruments" >}})
-  - [8 - Software]({{< relref "Music/m8-musicsoft" >}})
-  - [9 - Hardware]({{< relref "Music/m9-musichard" >}})
+- **Music**
+
+</div>
+
+  - [ 1 - Getting Started]({{< relref "Music/m1-gettingstarted" >}})
+  - [ 2 - Sound Sources]({{< relref "Music/m2-sources" >}})
+  - [ 3 - Theory]({{< relref "Music/m3-theory" >}})
+  - [ 4 - Effects]({{< relref "Music/m4-effects" >}})
+  - [ 5 - Mixing & Mastering]({{< relref "Music/m5-mixmaster" >}})
+  - [ 6 - Sequencing & MIDI]({{< relref "Music/m6-seqandmidi" >}})
+  - [ 7 - Instruments]({{< relref "Music/m7-instruments" >}})
+  - [ 8 - Software]({{< relref "Music/m8-musicsoft" >}})
+  - [ 9 - Hardware]({{< relref "Music/m9-musichard" >}})
   - [A1 - Other Resources]({{< relref "Music/ma1-musicresources" >}})
 
-</div>
-
 ---
 
-<div style="background:#C1F0E628;border-radius: 5px;">
+<div class="navbak" style="background:#E23838;">
 
-- [**Philosophy**]({{< relref "Phil/opinionatedphilosophy" >}})
-  - [1 - Basic Philosophy]({{< relref "Phil/p1-basic" >}})
-  - [2 - Logical Fallacies]({{< relref "Phil/p2-fallacy" >}})
-  - [3 - Arguments]({{< relref "Phil/p3-arguments" >}})
-  - [4 - Community Efforts]({{< relref "Phil/p4-community" >}})
-  - [5 - Community Idea Labs]({{< relref "Phil/p5-idealabs" >}})
-  - [6 - Education]({{< relref "Phil/p6-edu" >}})
-  - [7 - Labor and Compensation]({{< relref "Phil/p7-labor" >}})
-  - [8 - Copyright]({{< relref "Phil/p8-copyright" >}})
-  - [9 - Consumerism]({{< relref "Phil/p9-consumerism" >}})
+- **Philosophy**
+
+</div>
+
+  - [ 1 - Basic Philosophy]({{< relref "Phil/p1-basic" >}})
+  - [ 2 - Logical Fallacies]({{< relref "Phil/p2-fallacy" >}})
+  - [ 3 - Arguments]({{< relref "Phil/p3-arguments" >}})
+  - [ 4 - Community Efforts]({{< relref "Phil/p4-community" >}})
+  - [ 5 - Community Idea Labs]({{< relref "Phil/p5-idealabs" >}})
+  - [ 6 - Education]({{< relref "Phil/p6-edu" >}})
+  - [ 7 - Labor and Compensation]({{< relref "Phil/p7-labor" >}})
+  - [ 8 - Copyright]({{< relref "Phil/p8-copyright" >}})
+  - [ 9 - Consumerism]({{< relref "Phil/p9-consumerism" >}})
   - [10 - Law and Order]({{< relref "Phil/p10-lawandorder" >}})
   - [11 - Infrastructure]({{< relref "Phil/p11-Infrastructure" >}})
   - [12 - Religion]({{< relref "Phil/p12-Religion" >}})
@@ -104,38 +110,45 @@ headless: true
   - [20 - Misc]({{< relref "Phil/p20-misc" >}})
   - [A1 - Other Resources]({{< relref "Phil/pa1-other" >}})
 
-</div>
-
 ---
 
-<div style="background:#F0CFA822;border-radius: 5px;">
+<div class="navbak" style="background:#F78200;">
 
-- [**Design**]({{< relref "Design/opinionateddesign" >}})
-  - [1 - Basics of Art]({{< relref "Design/d1-basics" >}})
-  - [2 - Analog Art]({{< relref "Design/d2-analog" >}})
-  - [3 - Digital Art]({{< relref "Design/d3-digtal" >}})
-  - [4 - UI/UX]({{< relref "Design/d4-uiux" >}})
-  - [5 - Generative Tools]({{< relref "Design/d5-gen" >}})
+- **Design**
+
+</div>
+
+  - [ 1 - Basics of Art]({{< relref "Design/d1-basics" >}})
+  - [ 2 - Analog Art]({{< relref "Design/d2-analog" >}})
+  - [ 3 - Digital Art]({{< relref "Design/d3-digtal" >}})
+  - [ 4 - UI/UX]({{< relref "Design/d4-uiux" >}})
+  - [ 5 - Generative Tools]({{< relref "Design/d5-gen" >}})
   - [A1 - Other Resources]({{< relref "Design/da1-other" >}})
-  - 
+  - [A2 - Inspirational Art]({{< relref "Design/da2-ia" >}})
+  - </div>
+
+---
+
+<div class="navbak" style="background:#FFB900;">
+
+- **Interviews**
+
+</div>
+
+
+  - [   - Loial Otter]({{< relref "Interviews/loial" >}})
+  - [   - Soatok Dreamseeker]({{< relref "Interviews/soatok" >}})
+
 </div>
 
 ---
 
-<div style="background:#B4F0C122;border-radius: 5px;">
+<div class="navbak" style="background:#5EBD3E;">
 
-- [**Interviews**]({{< relref "Interviews/interviews" >}})
-  - [Loial Otter]({{< relref "Interviews/loial" >}})
-  - [Soatok Dreamseeker]({{< relref "Interviews/soatok" >}})
+- **Other**
 
 </div>
 
----
-
-<div style="background:#e6feff22;border-radius: 5px;">
-
-- [**Other**]({{< relref "other" >}})
-
-</div>
+* [   - Interesting Links]({{< relref "Other/funlinks" >}})
 
 <br />
