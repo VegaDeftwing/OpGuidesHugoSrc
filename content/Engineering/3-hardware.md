@@ -138,24 +138,24 @@ This in turn gets turned into binary as can bee seen by this screenshot generate
 
 {{< columns >}}
 
-| Binary (0b) | Hex (0x) | Decimal |
-| ----------- | -------- | ------- |
-| 0000        | 0        | 0       |
-| 0001        | 1        | 1       |
-| 0010        | 2        | 2       |
-| 0011        | 3        | 3       |
-| 0100        | 4        | 4       |
-| 0101        | 5        | 5       |
-| 0110        | 6        | 6       |
-| 0111        | 6        | 7       |
-| 1000        | 8        | 8       |
-| 1001        | 9        | 9       |
-| 1010        | A        | 10      |
-| 1011        | B        | 11      |
-| 1100        | C        | 12      |
-| 1101        | D        | 13      |
-| 1110        | E        | 14      |
-| 1111        | F        | 15      |
+| Binary (0b)                                                  | Hex (0x) | Decimal |
+| ------------------------------------------------------------ | -------- | ------- |
+| 0000                                                         | 0        | 0       |
+| 0001                                                         | 1        | 1       |
+| 0010                                                         | 2        | 2       |
+| 0011                                                         | 3        | 3       |
+| <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Custom protogen commission auction Now up ! <br><br>watch the video for more details<a href="https://t.co/TAeAPNtVEB">https://t.co/TAeAPNtVEB</a><br><br>auction link:<a href="https://t.co/Q7ZxERjZW5">https://t.co/Q7ZxERjZW5</a> <a href="https://t.co/aq5iM2nOVE">pic.twitter.com/aq5iM2nOVE</a></p>&mdash; Expensive black cheese (@JtingF) <a href="https://twitter.com/JtingF/status/1215796334420094977?ref_src=twsrc%5Etfw">January 11, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> | 4        | 4       |
+| 0101                                                         | 5        | 5       |
+| 0110                                                         | 6        | 6       |
+| 0111                                                         | 6        | 7       |
+| 1000                                                         | 8        | 8       |
+| 1001                                                         | 9        | 9       |
+| 1010                                                         | A        | 10      |
+| 1011                                                         | B        | 11      |
+| 1100                                                         | C        | 12      |
+| 1101                                                         | D        | 13      |
+| 1110                                                         | E        | 14      |
+| 1111                                                         | F        | 15      |
 
 <--->
 
@@ -819,6 +819,8 @@ HID or Human Interface Device, is the standard over which most mice, keyboards, 
 5pin din, PS2, USB
 
 [What Happens When (Github)](https://github.com/alex/what-happens-when)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here&#39;s a terrible idea for a keyboard that I&#39;m annoyed I didn&#39;t invent first.<br>Type out morse code by closing your laptop lid! <br><br>from <a href="https://t.co/FfXB2etRUu">https://t.co/FfXB2etRUu</a> <a href="https://t.co/YMJ5XVm8io">pic.twitter.com/YMJ5XVm8io</a></p>&mdash; foone (@Foone) <a href="https://twitter.com/Foone/status/1245610381600382976?ref_src=twsrc%5Etfw">April 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 # Chapter 3.1 - How to know what to buy
 
