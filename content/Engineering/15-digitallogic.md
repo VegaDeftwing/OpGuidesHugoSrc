@@ -1,5 +1,32 @@
 # Chapter 15 - Digital Logic
 
+{{< columns >}}
+
+| Binary (0b) | Hex (0x) | Decimal |
+| ----------- | -------- | ------- |
+| 0000        | 0        | 0       |
+| 0001        | 1        | 1       |
+| 0010        | 2        | 2       |
+| 0011        | 3        | 3       |
+| 0100        | 4        | 4       |
+| 0101        | 5        | 5       |
+| 0110        | 6        | 6       |
+| 0111        | 6        | 7       |
+| 1000        | 8        | 8       |
+| 1001        | 9        | 9       |
+| 1010        | A        | 10      |
+| 1011        | B        | 11      |
+| 1100        | C        | 12      |
+| 1101        | D        | 13      |
+| 1110        | E        | 14      |
+| 1111        | F        | 15      |
+
+<--->
+
+<img src="/logicloop.gif" alt="logicloop" height="800em">
+
+{{< /columns >}}
+
 [Todo, insert intro about Minecraft redstone]
 
 ## What is digital logic?
