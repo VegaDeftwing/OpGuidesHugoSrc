@@ -1,23 +1,79 @@
 # Chapter 7 - Let's write some Code
 
-From https://wiki.xxiivv.com/#development (link is now dead): [TODO, move this block]
-
-> * Prototype before polishing. Get it working before optimizing it.
-> * Separate policy from mechanism; separate interfaces from engines.
-> * Write simple modular parts connected by clean interfaces.
-> * Design programs to be connected to other programs.
-> * Write programs to write programs when you can.
-> * Design for the future, because it will be here sooner than you think.
-> * In interface design, always do the least surprising thing.
-> * When a program has nothing surprising to say, it should say nothing.
-> * When a program must fail, it should fail noisily and as soon as possible.
-> * Write big programs only when it is clear by demonstration that nothing else will do.
-
-Programming can seem scary at first but the more you exercise, the easier and more exciting it gets. After all, practice makes perfect! :)
-
 ## Starting Minimal
 
-https://tixy.land - very minimal start, just looking at math and plotting basically. This abstracts basically everything out.
+### Code is mostly math
+
+Heres the thing: Code is mostly math. If you're anything like me, you probably just went **ugggggghhhhhhh**.
+
+And I get it. But it's not that bad for two reasons:
+
+1. The math isn't like what you're used to.
+2. The math is actually *doing* something. You're not just getting a number to solve a problem, you're making a tool that can solve many problems or watching the math cause something to happen on screen.
+
+On point **1.**, it's usally because code has lots of flow control and logic that you're probably not used to seeing in math.
+
+Things like
+
+{{< columns >}}
+
+fake code for beginners:
+
+```python
+if x is equal to y:
+	set x to x-1
+else:
+	set x to y
+```
+
+or
+
+```python
+while Alice and Bob are Connected:
+    exchangeMessages(Alice,Bob)
+```
+
+<--->
+
+slightly less fake code for people that have seen this before:
+
+```python
+if x == y:
+	x = x-1
+else:
+	x = y
+```
+
+or
+
+```python
+while Alice.isConnectedTo(Bob):
+    Alice.Message(Bob, "Hello")
+```
+
+{{< /columns >}}
+
+But, what about point **2.**? Take a look at this:
+
+{{< columns >}}
+
+<iframe src="https://tixy.land" width="500em" height="500em"></iframe>
+
+<--->
+
+This is [tixy.land](https://tixy.land) -- Click on the moving dots to advanced though a lil' tutorial and some examples
+
+Here in tixy land, you can try out some code. I don't want to lead you to anything. Just, type something. See what happens.
+
+Even if you don't understand all the math or what the symbols mean I'm sure you can get a rough idea of what's going on.
+
+To give a quick run down of some operations you might want to use:
+
+[TODO]
+
+You can usually make something cool by just entering a bunch of trig and making complex functions you don't truely understand. You're learning, that's fine, no shame. Here, for example, is one I made by wandering around trig functions  `asin((t/9*(i/32*sin(t/4))*y)%5)`
+
+{{< /columns >}}
 
 [TODO] I want to start here instead of python, need to research which one to start with. I like pico-8, but it's paid and I'd like to keep OpGuides accessible. Tic-80 appears to be the most common otherwise? Pyxel looks good too though and would lead into python nicely? ... ╮(─▽─)╭
 
@@ -281,8 +337,6 @@ threads/ parrallelization(high level only), interupts (actually, let's save this
 ## A little more practice
 
 Weird projects
-
-https://twitter.com/Foone/status/1245610381600382976
 
 ## Easing int Graphical Programming with Creative Coding
 

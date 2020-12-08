@@ -16,7 +16,7 @@ generic midi use (paged out 002 pg 24)
 
 rop
 
-## Blog posts that dont fit anywhere eles but that you should totally read
+## Blog posts that don't fit anywhere else but that you should totally read
 
 - https://hackaday.com/2020/02/20/we-ruined-status-leds-heres-why-that-needs-to-change/
 - [Foone one weird adapters (Twitter Thread)](https://twitter.com/Foone/status/1224206741602062336)

@@ -10,11 +10,17 @@ For most distros like Ubuntu or OpenSuse (feel free to look these up, this page 
 
 When we're done you'll have a system that has exactly what you need and nothing you don't. You won't find weird forcibly installed software like Win 10's Candy Crush App here, and your system will only do exactly what you tell it. Of course, this implies you know how to speak it's language and tell it what you want. Thankfully with some practice you'll get used to running Arch and you'll wonder why you ever dealt with other systems to begin with.
 
-## Preperation
+## Preparation
 
 Install instructions will vary dependent on your hardware, but I'm going to assume you have a desktop or laptop which shipped with Windows 10 and has a UEFI system. Most laptops newer than ~2016 should be in this category. If your system uses a BIOS or Legacy boot instead, or if you have a mac, this won't apply to you, but you should be able to follow some of the resources I used to make this guide which are linked below along with some searching online to figure it out.
 
-Alright, so what exactly are you getting yourself into? Well, I'll be real with you, a lot. Installing Arch sucks. Things can go wrong, it's not user friendly at all, and is generally a pain, and if you screw up you'll need someone who can restore your computer to at least having Windows on it again so I'll say it again- **Make a backup of your entire hard drive before proceeding, if you don't know how to do this, search it.**
+Alright, so what exactly are you getting yourself into? Well, I'll be real with you, a lot. Installing Arch sucks. Things can go wrong, it's not user friendly at all, and is generally a pain, and if you screw up you'll need someone who can restore your computer to at least having Windows on it again so I'll say it again- **Make a backup of your entire hard drive before proceeding, if you don't know how to do this, look up how to use [Clonezilla](https://clonezilla.org).**
+
+{{< tip >}}
+
+Seriously. You should really make a full backup of your computer before doing this, as installing an operating system can rather easily lead to lost files when you reformat or reparation your drive or when you change settings in the BIOS/UEFI and swap the bootloader.
+
+{{< /tip >}}
 
 Okay, so, with that said let's dive into it. After you have a backup, you'll need to head on over to https://www.archlinux.org/download/ and if you have a torrent client installed use the provided BitTorrent Downloads, if you have no idea what that is, look at the below box
 
@@ -130,7 +136,7 @@ Obviously if you need this you'll need IRC open on a different device than the o
 ## Installation
 
 <p class="tip">☠☠☠</br>
-    Seriously, <b>backup your shit.</b> I've done this countless times and have still managed to accidentally wipe a drive. There's a good chance you're about to completely murder your windows install. This is a necssary evil to learn, and I assure you'll be happy you've done all this, but this next bit is actual hell for people. I'm sorry it gets so bad so early. I promise it's worth it, okay?
+    Seriously, <b>backup your shit.</b> I've done this countless times and have still managed to accidentally wipe a drive. There's a non-0 chance you're about to completely murder your windows install, It shouldn't happen, but it can. This is a necssary evil to learn, and I assure you'll be happy you've done all this, but this next bit is actual hell for people. I'm sorry it gets so bad so early. I promise it's worth it, okay?
 The next section requires a lot of reboots and has steps where you can't have this guide open on the computer you're working on. Don't be stupid.</br>☠☠☠ </p>
 
 >  To be fair, you should probably be doing backups anyway. We'll talk about this at some point, but, if you don't have a regular back up solution + an occasional full disk backup and you're already pretty nerdy, you might want to remedy that sooner rather than later
