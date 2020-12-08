@@ -25,6 +25,10 @@
 
 <img src="/logicloop.gif" alt="logicloop" height="800em">
 
+> lineart by https://merveilles.town/@chirrolafupa, I (Vega) filled it in and turned it into a gif. 
+
+> To access the original line art, use a [gemini](https://gemini.circumlunar.space) browser to go to gemini://caracolito.mooo.com/coloring-computers/
+
 {{< /columns >}}
 
 [Todo, insert intro about Minecraft redstone]
