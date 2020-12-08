@@ -7,13 +7,3 @@
 ## 3 - Organic Chemistry
 
 [Yeast that produce PENICILLIN - Whose Gene is it Anyway (YouTube)](https://youtu.be/X4lZo4Ogx-k?t=107)
-
-# Chapter 13½ - 'The Rest'
-
-## English
-
-[TODO] Because the majority of the Internet and most publications are in English
-
-## Other sources, interesting videos, etc:
-
-- Minute Physics, Thought Emporium, Cody's Lab, 3Blue1Brown

@@ -4,7 +4,7 @@
 
 ## The Tools of the Trade
 
-Building, fixing, and analyzing circuitry requires the use of a few tools and appliences. While there are many more than those listed here, these are the most important ones and should be all you need for most even very advanced applications.
+Building, fixing, and analyzing circuitry requires the use of a few tools and appliances. While there are many more than those listed here, these are the most important ones and should be all you need for most even very advanced applications.
 
 ### The Multimeter
 
@@ -12,7 +12,7 @@ Building, fixing, and analyzing circuitry requires the use of a few tools and ap
 
 {{< tip >}}
 
-note, the above video uses U=IR instead of V=IR like 'normal'. You'd think that engieers could just get along and pick consistent symbols, but, nope. The 'normal' V (voltage) = I (current) * R (Resistance) is often E=IR
+note, the above video uses U=IR instead of V=IR like 'normal'. You'd think that engineers could just get along and pick consistent symbols, but, nope. The 'normal' V (voltage) = I (current) * R (Resistance) is often E=IR
 
 {{< /tip >}}
 
@@ -94,17 +94,19 @@ https://en.wikipedia.org/wiki/Arbitrary_waveform_generator
 
 The oscilloscope (or OScope or simply Scope) allows you to see an AC signal and how it varies over time as a plot of Voltage on the Y axis and time on the X, Most OScopes will allow you to look at multiple signals at once, with one overlaid on the other. Furthermore, most support X-Y mode, where the plot is actually the voltage of one input as the X axis and the voltage of another as the Y, moving a dot and it's trail around the screen. In fact, this is how the first computer monitors worked:
 
-![Image result for asteroids game](/oscopeastroids.jpeg ':size=50%')
+<img src="/oscopeastroids.jpeg" alt="Asteroids" height="400em">
 
 Modern OScopes look much different than their phosphorescent green ancestors though:
 
-![Image result for oscilloscope](/modernscope.jpeg ':size=50%')
+<img src="/modernscope.jpeg" alt="Modern Scope" height="400em">
 
 However, a decent 'Digital Storage Oscilloscope' or DSO like the one above run a minimum of \$300 at the time of writing, so many hobbyist opt for older scopes like this one:
 
-![Image result for oscilloscope](/oldscope.jpeg)
+<img src="/oldscope.jpeg" alt="Old Scope" height="400em">
 
-or a cheap, low resolution, low speed one from Ebay. For most uses, both of these will be perfectly fine. For just starting out though I'd recommend a logic analyzer (I'll talk about that next) and oscilloscope combo tool, like the **LHT00SU1** which can be found on Ebay pretty easily. Be aware they can fry your USB port or worse though.
+~~or a cheap, low resolution, low speed one from Ebay. For most uses, both of these will be perfectly fine. For just starting out though I'd recommend a logic analyzer (I'll talk about that next) and oscilloscope combo tool, like the **LHT00SU1** The  which can be found on Ebay pretty easily. Be aware they can fry your USB port or worse though.~~
+
+[TODO] updated recommendations with DSLogic from Ebay and a cheap scope
 
 But what are these actually used for day to day, and why would you want one? [TODO]
 
