@@ -97,7 +97,11 @@ https://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/
 
 ## Other Version Control Systems
 
-!> Git is by far the most used VCS out there. If you want to use something else I encourge you to try it and learn it, but realize if the point is to work with others it might be a pain
+{{< tip >}}
+
+Git is by far the most used VCS out there. If you want to use something else I encourage you to try it and learn it, but realize if the point is to work with others it might be a pain
+
+{{< /tip >}}
 
 [TODO]
 
