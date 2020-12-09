@@ -138,28 +138,28 @@ This in turn gets turned into binary as can bee seen by this screenshot generate
 
 {{< columns >}}
 
-| Binary (0b)                                                  | Hex (0x) | Decimal |
-| ------------------------------------------------------------ | -------- | ------- |
-| 0000                                                         | 0        | 0       |
-| 0001                                                         | 1        | 1       |
-| 0010                                                         | 2        | 2       |
-| 0011                                                         | 3        | 3       |
-| <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Custom protogen commission auction Now up ! <br><br>watch the video for more details<a href="https://t.co/TAeAPNtVEB">https://t.co/TAeAPNtVEB</a><br><br>auction link:<a href="https://t.co/Q7ZxERjZW5">https://t.co/Q7ZxERjZW5</a> <a href="https://t.co/aq5iM2nOVE">pic.twitter.com/aq5iM2nOVE</a></p>&mdash; Expensive black cheese (@JtingF) <a href="https://twitter.com/JtingF/status/1215796334420094977?ref_src=twsrc%5Etfw">January 11, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> | 4        | 4       |
-| 0101                                                         | 5        | 5       |
-| 0110                                                         | 6        | 6       |
-| 0111                                                         | 6        | 7       |
-| 1000                                                         | 8        | 8       |
-| 1001                                                         | 9        | 9       |
-| 1010                                                         | A        | 10      |
-| 1011                                                         | B        | 11      |
-| 1100                                                         | C        | 12      |
-| 1101                                                         | D        | 13      |
-| 1110                                                         | E        | 14      |
-| 1111                                                         | F        | 15      |
+| Binary (0b) | Hex (0x) | Decimal |
+| ----------- | -------- | ------- |
+| 0000        | 0        | 0       |
+| 0001        | 1        | 1       |
+| 0010        | 2        | 2       |
+| 0011        | 3        | 3       |
+| 0100        | 4        | 4       |
+| 0101        | 5        | 5       |
+| 0110        | 6        | 6       |
+| 0111        | 6        | 7       |
+| 1000        | 8        | 8       |
+| 1001        | 9        | 9       |
+| 1010        | A        | 10      |
+| 1011        | B        | 11      |
+| 1100        | C        | 12      |
+| 1101        | D        | 13      |
+| 1110        | E        | 14      |
+| 1111        | F        | 15      |
 
 <--->
 
-See the weird numbers next to each instruction? like **4004b255**? That's a base 16 number or hexadecimal usually refered to as 'Hex'. Hex is what is used by most computer guys to represent numbers because computers operate in base 2, or binary- like 01001100, which is very difficult to read and type accurately, however, base 10, the normal numbering system your used to, makes translating between binary and decimal a bit uncomfortable as the common factor is 5, an number that is both odd and in turn not a factor of two, where as 16 is 2^4​ (2\*2\*2\*2) so that means we can easily represent binary like this:
+See the weird numbers next to each instruction? like **4004b255**? That's a base 16 number or hexadecimal usually referred to as 'Hex'. Hex is what is used by most computer guys to represent numbers because computers operate in base 2, or binary- like 01001100, which is very difficult to read and type accurately, however, base 10, the normal numbering system your used to, makes translating between binary and decimal a bit uncomfortable as the common factor is 5, an number that is both odd and in turn not a factor of two, where as 16 is 2^4 (2\*2\*2\*2) so that means we can easily represent binary like this:
 
 Okay, so now those 1's and 0's are what your computer actually reads to run instructions. We'll come back to this later, but since we're here I'll drop this [link]( https://www-user.tu-chemnitz.de/~heha/viewchm.php/hs/x86.chm/x86.htm)
 
