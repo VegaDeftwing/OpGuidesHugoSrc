@@ -33,7 +33,7 @@ common interfaces, simulation, serial/print debugging (slow), internal data logg
 +----------------------------------------------------+
 |Me: *does major refactor*                           |
 |Tests: ✓                                            |
-|Me: I don't belie^e you                             |
+|Me: I don't believe you                             |
 +----------------------------------------------------+
 [Suspended User]
 +----------------------------------------------------+

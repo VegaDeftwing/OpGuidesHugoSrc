@@ -2,27 +2,25 @@
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/Snr113r5ocY?list=FLFMnqfaTa1se1LfbCB3peJQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Why C++?
+## Why C?
 
-This chapter of OpGuides will be mostly C++, but, why? Well, there's only really a few options for learning low level programming that make sense to start with. C, C++, Rust are the 'big three' that come to mind for me. C is awesome. It's spec is small, it's been kept minimal, and it's got a ton of tools to help you learn. It forces you to know the low level, which in this case is great. C++ has grown into behemoth where any thing can be done in about a dozen different ways and each development team is effectively writing in their own dialect of C++. 
+This chapter of OpGuides will be mostly C, but, why? Well, there's only really a few options for learning low level programming that make sense to start with. C, C++, Rust are the 'big three' that come to mind for me. C is awesome. It's spec is small, it's been kept minimal, and it's got a ton of tools to help you learn. It forces you to know the low level, which in this case is great. C++ has grown into behemoth where any thing can be done in about a dozen different ways and each development team is effectively writing in their own dialect of C++. 
 
 On the other hand, C has a lot of annoyances due to its minimalism. For example, there are no strings - only arrays of characters - and all memory management is manual.
 
 Rust is cool, but I think it's more of a language you need to grow into understand why someone would want to use it. It's very rigid and does a very good job of preventing memory mistakes and making sure the programmer has handled any errors that could come their way (What do you do if you go to open a file and it's not there, for example).
 
-Ultimately, I chose to write this about C++ because it's what I see being used for most larger projects and more and more embedded programming is in C++ instead of C.
+Thankfully, C++ and C are pretty similar, as C++ is a superset of C - that is it's C with a whole wack ton of added features (for better or worse)
 
-Thankfully, the two are pretty similar, as C++ is a superset of C - that is it's C with a whole wack ton of added features (for better or worse)
+What this really means is that should you need the added features of C++ the syntax should be at least familiar. Keep in mind though they are different languages. C++ has features that you absolutely should use if you're writing in it. Strings, abstracting out much of the memory management, 'vectors', etc.
 
-What this really means is that should you need to go back and learn C it's more so learning to cope with having less of the features of C++.
-
-I'll try to teach the C way of doing things as I go anyway though, so honestly think of this more like 
+It's also worth considering that you can use C code in C++ projects if you need.
 
 ## Don't throw out everything you already know!
 
 [TODO] loops, while, etc.
 
-## Some simple programs, in C++
+## Some simple programs, in C
 
 TODO: [30 Seconds of C++ (Github)](https://github.com/Bhupesh-V/30-seconds-of-cpp)
 
@@ -30,19 +28,19 @@ TODO: [30 Seconds of C++ (Github)](https://github.com/Bhupesh-V/30-seconds-of-cp
 
 It's traditional to start in any language by writing a program that just outputs the words "Hello World!" to the terminal, so let's start there in C++
 
-```c++
-#include <iostream>
+```c
+#include <stdio.h>
 
 int main() {
-    std::cout << "Hello World!\n";
-    return(0);
+   printf("Hello World!\n");
+   return(0);
 }
 ```
 
-To run this code, save it to a file named `hello.cpp` and then open a terminal, navigate to that folder and run `g++ hello.cpp -o hello`, then you can run your program with `./hello`, that should give you something like this:
+To run this code, save it to a file named `hello.cpp` and then open a terminal, navigate to that folder and run `gcc hello.cpp -o hello`, then you can run your program with `./hello`, that should give you something like this:
 
 ```
-[vega@lyrae ~]$ g++ hello.c -o hello
+[vega@lyrae ~]$ gcc hello.c -o hello
 [vega@lyrae ~]$ ./hello
 Hello World!
 ```
@@ -51,223 +49,78 @@ Hello World!
 
 Alright, so let's go though line by line.
 
-On line **1** there's a `#include` statement, this tells the compiler we want to include some library or other code. In this case we want the `iostream` library, as well need it in a few lines, but what about this library, where is it?
+On line **1** there's a `#include` statement, this tells the compiler we want to include some library or other code. In this case we want the `stdio` library, as well need it in a few lines, but what about this library, where is it?
 
-Well, that library is just some other code. We can look at it by navigating to `/usr/include/c++/[version]` (at time of writing the version is 10.2.0) or, in VSCode you can hold control and click on the word *iostream* to go it's file, so let's look at that file:
+Well, that library is just some other code. We can look at it by navigating to `/usr/include/stdio.h`or, in VSCode you can hold control and click on the word *stdio* to go it's file, so let's look at that file:
 
-```c++
-// Standard iostream objects -*- C++ -*-
+```c
+/* Define ISO C stdio on top of C++ iostreams.
+   Copyright (C) 1991-2020 Free Software Foundation, Inc.
+   This file is part of the GNU C Library.
 
-// Copyright (C) 1997-2020 Free Software Foundation, Inc.
-//
-// This file is part of the GNU ISO C++ Library.  This library is free
-// software; you can redistribute it and/or modify it under the
-// terms of the GNU General Public License as published by the
-// Free Software Foundation; either version 3, or (at your option)
-// any later version.
+   The GNU C Library is free software; you can redistribute it and/or
+   modify it under the terms of the GNU Lesser General Public
+   License as published by the Free Software Foundation; either
+   version 2.1 of the License, or (at your option) any later version.
 
-// This library is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU General Public License for more details.
+   The GNU C Library is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+   Lesser General Public License for more details.
 
-// Under Section 7 of GPL version 3, you are granted additional
-// permissions described in the GCC Runtime Library Exception, version
-// 3.1, as published by the Free Software Foundation.
+   You should have received a copy of the GNU Lesser General Public
+   License along with the GNU C Library; if not, see
+   <https://www.gnu.org/licenses/>.  */
 
-// You should have received a copy of the GNU General Public License and
-// a copy of the GCC Runtime Library Exception along with this program;
-// see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see
-// <http://www.gnu.org/licenses/>.
-
-/** @file include/iostream
- *  This is a Standard C++ Library header.
+/*
+ *	ISO C99 Standard: 7.19 Input/output	<stdio.h>
  */
 
-//
-// ISO C++ 14882: 27.3  Standard iostream objects
-//
+#ifndef _STDIO_H
+#define _STDIO_H	1
 
-#ifndef _GLIBCXX_IOSTREAM
-#define _GLIBCXX_IOSTREAM 1
+#define __GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION
+#include <bits/libc-header-start.h>
 
-#pragma GCC system_header
+__BEGIN_DECLS
 
-#include <bits/c++config.h>
-#include <ostream>
-#include <istream>
+#define __need_size_t
+#define __need_NULL
+#include <stddef.h>
 
-namespace std _GLIBCXX_VISIBILITY(default)
-{
-_GLIBCXX_BEGIN_NAMESPACE_VERSION
-
-  /**
-   *  @name Standard Stream Objects
-   *
-   *  The &lt;iostream&gt; header declares the eight <em>standard stream
-   *  objects</em>.  For other declarations, see
-   *  http://gcc.gnu.org/onlinedocs/libstdc++/manual/io.html
-   *  and the @link iosfwd I/O forward declarations @endlink
-   *
-   *  They are required by default to cooperate with the global C
-   *  library's @c FILE streams, and to be available during program
-   *  startup and termination. For more information, see the section of the
-   *  manual linked to above.
-  */
-  //@{
-  extern istream cin;		/// Linked to standard input
-  extern ostream cout;		/// Linked to standard output
-  extern ostream cerr;		/// Linked to standard error (unbuffered)
-  extern ostream clog;		/// Linked to standard error (buffered)
-
-#ifdef _GLIBCXX_USE_WCHAR_T
-  extern wistream wcin;		/// Linked to standard input
-  extern wostream wcout;	/// Linked to standard output
-  extern wostream wcerr;	/// Linked to standard error (unbuffered)
-  extern wostream wclog;	/// Linked to standard error (buffered)
-#endif
-  //@}
-
-  // For construction of filebuffers for cout, cin, cerr, clog et. al.
-  static ios_base::Init __ioinit;
-
-_GLIBCXX_END_NAMESPACE_VERSION
-} // namespace
-
-#endif /* _GLIBCXX_IOSTREAM */
+//cutting the code here to show line 332
+extern int printf (const char *__restrict __format, ...);
 ```
 
-okay, so it starts with a big copyright block in comments - in C++ `//` makes a single ling comment and `/* comment */` are for multi-line comments - then on lines 39 and 40 we can see it is in turn including three more files- `bits/c++config.h`, `ostream` and `istream`, and then there's some code that links in these external resources... Let's go deeper! I won't be including the content of the files in full, but here's some snippit of `c++config.h`
+okay, so it starts with a big copyright block in comments - in C `//` makes a single ling comment and `/* comment */` are for multi-line comments - then on lines 39 and 40 we can see it is in turn including three more files such as `stddef.h` on line 33.
 
-```c++
-// Same GNU GPL Licence as before
+But lets look deeper, down on line 332 of `stdio.h` we can see `printf()` is loaded as an external function. The `extern` keyword marks this as a sort of indicator to the compiler, `gcc` in this case, that this function definition is actually implemented elsewhere, but that this is the signature to expect from it's usage. That is, when anything that imports `stdio.h` uses `printf()` it should expect to return an integer (the `int` before the word printf) and take in a pointer to a character array (the `char *` inside the parentheses)
 
-#ifndef _GLIBCXX17_INLINE
-# if __cplusplus >= 201703L
-#  define _GLIBCXX17_INLINE inline
-# else
-#  define _GLIBCXX17_INLINE
-# endif
-#endif
+So, where's the code for `printf()` that does the actual printing?
 
-// Macro for noexcept, to support in mixed 03/0x mode.
-#ifndef _GLIBCXX_NOEXCEPT
-# if __cplusplus >= 201103L
-#  define _GLIBCXX_NOEXCEPT noexcept
-#  define _GLIBCXX_NOEXCEPT_IF(...) noexcept(__VA_ARGS__)
-#  define _GLIBCXX_USE_NOEXCEPT noexcept
-#  define _GLIBCXX_THROW(_EXC)
-# else
-#  define _GLIBCXX_NOEXCEPT
-#  define _GLIBCXX_NOEXCEPT_IF(...)
-#  define _GLIBCXX_USE_NOEXCEPT throw()
-#  define _GLIBCXX_THROW(_EXC) throw(_EXC)
-# endif
-#endif
-```
+Well, in it's part of **libc**. libc is the C standard library on linux, typically it's glibc in particular. This is a pre-compiled shared library so that when any program needs to use `printf()` it can just call the printf implementation from libc, which is stored in /usr/lib/libc.so.6
 
-The syntax highlighting on this page isn't doing us any favors here, but if you're following along in VSCode you should see that this file is entirely comments and these blocks starting with `#`, and these `#` blocks do have some highlighting, so what's up?
+We could go looking into the source code for this, but I think it's sufficient to say that it's simply loaded from a shared system library.
 
-{{< tip >}}
+Another thing you should notice is the #ifndef at the start of this file, which starts with a #, just like define.
 
-These files don't end in a  **.cpp** extension, so you may have to tell VS code that the files are c++ files by clicking where it says 'plain text' in the lower right and selecting c++
+These are pre-processor directives, just like `#include` is, basically, it's special code that the compiler (in our case `gcc`) looks at before it complies the code. Of note there are `#if` and `#else` blocks, you might see these used for checking if a certain library is available for example, as a way to check what compiler is being used to adjust things slightly, or to check what OS the code is even being compiled for.
 
-{{< /tip >}}
+you also might see `#define` used to either set constants such as `#define PI 3.14159` or `#define GET_SIZE(*p*)  (GET(p) & ~0x7)`
 
-These are all pre-processor directives, just like `#include` is, basically, it's special code that the compiler (in our case `g++`) looks at before it makes the program, here it's looking at the version of C++ we're using and deciding how to set things up based on that. Let's go back a to the `iostream` file though, and then dive into `ostream` this time instead
+This little adventure was mostly just to show you that these `#include` statements that use system libraries are not magic, and to point out that most code will end up loading shared system libraries (`.so` files on Linux, `.dll` files on Windows)
 
-```c++
-// Same © the FSF, GPL licence stuff
-
-//lines 41-113, just for example
-namespace std _GLIBCXX_VISIBILITY(default)
-{
-_GLIBCXX_BEGIN_NAMESPACE_VERSION
-
-  /**
-   *  @brief  Template class basic_ostream.
-   *  @ingroup io
-   *
-   *  @tparam _CharT  Type of character stream.
-   *  @tparam _Traits  Traits for character type, defaults to
-   *                   char_traits<_CharT>.
-   *
-   *  This is the base class for all output streams.  It provides text
-   *  formatting of all builtin types, and communicates with any class
-   *  derived from basic_streambuf to do the actual output.
-  */
-  template<typename _CharT, typename _Traits>
-    class basic_ostream : virtual public basic_ios<_CharT, _Traits>
-    {
-    public:
-      // Types (inherited from basic_ios):
-      typedef _CharT			 		char_type;
-      typedef typename _Traits::int_type 		int_type;
-      typedef typename _Traits::pos_type 		pos_type;
-      typedef typename _Traits::off_type 		off_type;
-      typedef _Traits			 		traits_type;
-
-      // Non-standard Types:
-      typedef basic_streambuf<_CharT, _Traits> 		__streambuf_type;
-      typedef basic_ios<_CharT, _Traits>		__ios_type;
-      typedef basic_ostream<_CharT, _Traits>		__ostream_type;
-      typedef num_put<_CharT, ostreambuf_iterator<_CharT, _Traits> >
-      							__num_put_type;
-      typedef ctype<_CharT>	      			__ctype_type;
-
-      /**
-       *  @brief  Base constructor.
-       *
-       *  This ctor is almost never called by the user directly, rather from
-       *  derived classes' initialization lists, which pass a pointer to
-       *  their own stream buffer.
-      */
-      explicit
-      basic_ostream(__streambuf_type* __sb)
-      { this->init(__sb); }
-
-      /**
-       *  @brief  Base destructor.
-       *
-       *  This does very little apart from providing a virtual base dtor.
-      */
-      virtual
-      ~basic_ostream() { }
-
-      /// Safe prefix/suffix operations.
-      class sentry;
-      friend class sentry;
-
-      //@{
-      /**
-       *  @brief  Interface for manipulators.
-       *
-       *  Manipulators such as @c std::endl and @c std::hex use these
-       *  functions in constructs like "std::cout << std::endl".  For more
-       *  information, see the iomanip header.
-      */
-      __ostream_type&
-      operator<<(__ostream_type& (*__pf)(__ostream_type&))
-      {
-	// _GLIBCXX_RESOLVE_LIB_DEFECTS
-	// DR 60. What is a formatted input function?
-	// The inserters for manipulators are *not* formatted output functions.
-	return __pf(*this);
-```
-
-okay, so, this actually has some real code. I'm not going to try to interpret it, and neither should you. This little adventure was just to show you that these `#include` statements that use system libraries are not magic.
-
-Okay, so, that's done. Line **2** of our 6 line hello.cpp is just 'white space' or a blank line, so we can skip it. Line **3** is where things get interesting again, with `int main() {`. The `main()` function is special, as without doing something [weird](https://www.techiedelight.com/c-program-without-main-function/), it's where your code starts from. you may often see this line as `int main(int argc, char** argv) ` too, which I'll get to in a bit.
+Okay, so, that's done. Line **2** of our 6 line hello.c is just 'white space' or a blank line, so we can skip it. Line **3** is where things get interesting again, with `int main() {`. The `main()` function is special, as without doing something [weird](https://www.techiedelight.com/c-program-without-main-function/), it's where your code starts from. you may often see this line as `int main(int *argc*, char const **argv*[])` too, which I'll get to in a bit.
 
 So, lets break this down, starting with `int`.
 
-C++ is a statically typed language, this means that each variable has a defined type, but also that each function has a defined type it returns and expects to be given.
+C is a statically typed language, this means that each variable has a defined type, but also that each function has a defined type it returns and expects to be given.
 
 so, with `int main() {` we're saying the `main()` function will return an integer. skipping ahead a bit, we can see this is the case, as on line 5, `return(0)` it does exactly that, but, why?
 
 {{< columns >}}
 
-Let's run our code as is (`./hello`), then change this return code to `return(2);`, recompile with `g++ hello.cpp -o hello` and run `./hello` again.
+Let's run our code as is (`./hello`), then change this return code to `return(2);`, recompile with `gcc hello.cpp -o hello` and run `./hello` again.
 
 See that little `2 ↵` in my terminal? That's the return code, but why did it get printed?
 
@@ -290,36 +143,14 @@ int main(){
 We only have one line left to look at, and that's line **4**, which is
 
 ```c++
-std::cout << "Hello World!\n";
+printf("Hello World!\n");
 ```
 
-Okay, breaking it up, we first see `std::cout`
+Okay, breaking it up, we first see that we're using `printf()` the function whose definition we imported from `stdio.h` and which is actually being executed from a linked system library stored in `/usr/lib/libc.so.6`
 
-the `std` part of that is saying that the `cout` function is defined in the `std` namespace.
+Okay, so, we now have almost everything, last up is just the string that we're printing to the terminal, which is `"Hello World!\n"`
 
-And, so the rabbit hole continues. Rather than attempt to rewirte my own explanation, [This page (Tutorialspoint.com)](https://www.tutorialspoint.com/cplusplus/cpp_namespaces.htm) does a good job of explaining name spaces. 
-
-Regardless, as we saw before, `cout` is imported from the `iostream` library, so, we do have it in our code.
-
-Okay, so then we have the `<<` operator. This is admittedly, a tad on the confusing side. in C++ this operator is traditionally a bitwise shift, so shifting a bit one place to the left, that is appending a 0 onto the binary string, so normally that would be like
-
-```c++
-int x = 0b11 << 1
-```
-
-`0b11` in binary is 3, (the 0b prefix means binary) 1 here is the number of places we want to shift it left, so, x would now contain `0b110` which is 6.
-
-But, if that's the case then why are we using binary shifts to take text from a string to the output.
-
-Well, that's because C++ is weird and let's you do 'operator overloading' and this is why they did for the standard input output library.
-
-Basically, you can make an operator do something other than it's original purpose. For example, [here](https://www.geeksforgeeks.org/operator-overloading-c/), it is used pretty logically, to make adding two complex numbers actually return the correct result.
-
-With the cout function, it just happened that using `<<` for directing a string to output and `>>` for input with something like `cin >> userInput`  is actually a rather convenient way to represent it even if it is a bit weird when taken literally.
-
-Okay, so, we now have almost everything, last up is just the string that we're writing to `cout`, which is `"Hello World!\n"`
-
-Well, to understand this line we'll need our helpful friend, the ASCII table.
+But what's with that `\n` on the end? Well, to understand this line we'll need our helpful friend, the ASCII table.
 
 <img src="/ASCII-Table-wide.svg" alt="Arch Logo" height="600em" style="-webkit-filter: invert(100%);background: #eee;">
 
@@ -340,7 +171,7 @@ The reason we do this is because without it, the output of our program looks lik
 ```
 [vega@lyrae ~]$ ./hello
 Hello World!
-[vega@lyrae ~]$ g++ hello.cpp -o hello
+[vega@lyrae ~]$ gcc hello.c -o hello
 [vega@lyrae ~]$ ./hello
 Hello World![vega@lyrae ~]$
 ```
@@ -350,17 +181,18 @@ see how it doesn't leave room for the prompt to be printed on a new line of it's
 The ASCII table has some other interesting side effects too. See how a capital 'A' has an 'index' 32 higher than a lower case 'a', and the same for 'B' to 'b'. Let's use this to our advantage to make the 'd' in 'Hello World!" uppercase.
 
 ```c++
-#include <iostream>
-
-using namespace std;
+#include <stdio.h>
+#include <string.h>
 
 int main() {
     //move the greeting into a variable so we can play with it
-    string greeting = "Hello World!\n";
-    //print it as is first
-    cout << greeting;
+    char greeting[14] = "Hello World!\n";
+    //print it as is
+    // because arrays are naturally passed as a pointer this is fine
+    printf(greeting);
+
     /* 
-    *  C++ is '0' indexed, this means that
+    *  C is '0' indexed, this means that
     * 'H' is at position 0, 'e' is at 1, and so on.
     *  We want to change 'd' which is at pos 10.
     *  so we access the charecter in the string with the
@@ -369,26 +201,26 @@ int main() {
 
     // The following line is equivilent to greeting[10] = greeting[10] - 32;
     greeting[10]-=32;
-    cout << greeting;
+    printf(greeting);
 
     // note, we could have just changed the character directly,
     greeting[10]='z';
-    cout << greeting;
-    
+    printf(greeting);
+
     // Let's break that line feed character too, why not.
     greeting[12]='?';
-    cout << greeting;
-    
-    // Still broken, but the iostream lib gives us 'endl' to avoid the need for
-    // '\n' in the first place
-    cout << greeting << endl;
+    printf(greeting);
+
+    // need to include string.h to use strcat
+    // here strcat is concatinating on the newline that we removed.
+    printf(strcat(greeting,"\n"));
 
     return(0);
 }
 ```
 
 ```
-[vega@lyrae ~]$ g++ hello.cpp -o hello
+[vega@lyrae ~]$ gcc hello.cpp -o hello
 [vega@lyrae ~]$ ./hello
 Hello World!
 Hello WorlD!
@@ -416,6 +248,14 @@ mention efficiency, analysis later
 ### Cipher
 
 ## Bit Operations
+
+
+
+```c++
+int x = 0b11 << 1
+```
+
+`0b11` in binary is 3, (the 0b prefix means binary) 1 here is the number of places we want to shift it left, so, x would now contain `0b110` which is 6.
 
 unsigned, signed bit, 1's compliment, 2's compliment
 
