@@ -8,6 +8,8 @@ slug: "Labor"
 
 ## Economic Inequality
 
+https://www.wsj.com/articles/BL-DGB-42721
+
 ## Monopolies
 
 ## Unions
@@ -18,3 +20,4 @@ best intrest
 TOS simplification
 
 ## Homelessness
+

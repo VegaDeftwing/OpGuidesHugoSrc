@@ -626,14 +626,15 @@ Alright, now onto the fun stuff, I think I've established that the physical side
 
 I'm not the first to think on this subject by any means, [Programs are a prison: Rethinking the fundamental building blocks of computing interfaces by Robert Lechte](https://djrobstep.com/posts/programs-are-a-prison) put a lot of ideas I'd thought before into words much more elegantly than I can, please give it a read then come back here, keeping in mind how the ideas presented there could work with what I'm saying here.
 
-## Finding and accessing Information Sucks
+## Finding and Accessing Information Sucks
 
 ### Search sucks
 
 * ads for half the page
 * Stuck on something you don't mean, unable to filter it out
 * Not knowing the word you need to look up in the first place
-* I'd like to see some sort of filter that can just kill swaths of sites though like a NOT_SOCIAL_MEDIA or NOT_CODE_HOSTING tags 
+* I'd like to see some sort of filter that can just kill swaths of sites though like a NOT_SOCIAL_MEDIA or NOT_CODE_HOSTING tags
+  * https://support.google.com/websearch/answer/2466433?hl=en & https://www.google.com/advanced_search
 * the ability to just set a list of bad sites. Like, please never ever show me any results from Pintrest
 * "It's more that I still think search engines could do a lot better both by making it easier to filter results, and by letting users do a sort of curation of topics and knowledge management. Honestly, I find what I'm looking for faster by just going to as close of a topic as I can think of on wikipedia and poking around links than I can by directly searching."
 * digging though endless pages

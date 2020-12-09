@@ -26,6 +26,8 @@ ESDA is bad
 
 ## Hashing
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/S9JGmA5_unY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Note there's generall two 'classes' of hashing- hashing for cryptograhic security (Passwords) and for just general usage, the cryptograhic ones typically are siginicantly more computationally intensive to make it harder to brute force all possible keys. Also most cryptograhpic hashing algorithms go to much greater lengths to avoid collisions. Also, salting is relevent here: [Salting (Wikipedia)](https://en.wikipedia.org/wiki/Salt_(cryptography))
 
 ## Network Security

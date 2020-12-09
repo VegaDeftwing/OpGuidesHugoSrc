@@ -113,6 +113,8 @@ Fossil
 
 https://radicle.xyz 
 
+[CSS in Github READMEs](https://github.com/sindresorhus/css-in-readme-like-wat)
+
 ## Further Reading
 
 [./missing-semester - Metaprogramming](https://missing.csail.mit.edu/2020/metaprogramming/)
