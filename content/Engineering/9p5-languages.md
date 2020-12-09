@@ -10,6 +10,8 @@ for (🥚 = 1; 🥚 < 🐔; 🥚++){
 
 [TODO] talk about to why there are so many, pros & cons per domain, etc
 
+https://esoteric.codes
+
 ## Low Level
 
 ### C, C++, C#, ????
@@ -20,7 +22,9 @@ for (🥚 = 1; 🥚 < 🐔; 🥚++){
 
 ### Assembly
 
-[TODO] note about asm being architecture specific
+Assembly code is specific to an [Instruction Set Architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture) or ISA, that means it is written for a specific family of processors. Most laptops and desktops today run on [x86_64](https://en.wikipedia.org/wiki/X86-64) processors made by either AMD or Intel, while most tablets and phones use processors that use [ARM](https://en.wikipedia.org/wiki/ARM_architecture). Of course, there are many, many other instruction sets than these two. For example, [6502](https://en.wikipedia.org/wiki/MOS_Technology_6502) assembly is particularly easy to write as it's from an era <a class="ptr">(1)</a> when programming at the assembly level was still common. On the other hand, [RISC-V](https://en.wikipedia.org/wiki/RISC-V) is a newer ISA that has been gaining a lot of traction due to it's open nature.
+
+#### x86 ASM:
 
 [x86 Assembly: Hello World! (YouTube, John Hammond)](https://www.youtube.com/watch?v=HgEGAaYdABA)
 
@@ -36,7 +40,7 @@ or
 
 [Part 2 - We're Writing a Virtual Machine](https://gpfault.net/posts/asm-tut-2.txt.html)
 
-or for the very adventerous
+or for the very adventurous
 
 [Linux-kernal-module-cheat [Github]](https://github.com/cirosantilli/linux-kernel-module-cheat#userland-assembly), has a nice guide to asm
 
@@ -406,3 +410,7 @@ Look at Chapter 27 for Functional Programming
 ## Database (SQL)
 
 Look at Chapter 18 for information on Databases
+
+<ol hidden id="footnotes">
+    <li>Popular video game consoles and computers, such as the Atari 2600, Atari 8-bit family, Apple II, Nintendo Entertainment System, Commodore 64, Atari Lynx, BBC Micro and others, use the 6502 or variations of the basic design.</br>-from that same wikipedia article</li>
+</ol>
