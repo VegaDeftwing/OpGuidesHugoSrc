@@ -41,5 +41,7 @@ https://codepen.io/teropa/full/bRqYVj/
 
 [TODO] compare VCV to programming, filters, etc
 
+[A Transistor-less sound synthesizer (Hackaday, Jenny List, Dr. Cockroach)](https://hackaday.com/2020/10/24/a-transistor-less-sound-synthesizer/)
+
 [Chua oscillator on CRO during inductance sweep](https://www.youtube.com/watch?v=WRXP0ZeIrlM)
 

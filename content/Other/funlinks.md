@@ -82,7 +82,15 @@
 
   * and [ARM & x86 Team Up in No Compromise Cyberdeck (Hackaday, Tom Nardi)](https://hackaday.com/2020/12/05/arm-and-x86-team-up-in-no-compromise-cyberdeck/)
   
-* [A mix between Minesweeper and a Bullethell (Itch.io, Artemis Minesweeper)](https://swamp-kun.itch.io/artemis-minesweeper)
+* [A mix between Minesweeper and a Bullethell (tic-80, Artemis Minesweeper)](https://swamp-kun.itch.io/artemis-minesweeper)
+
+* [Hexagonal Chess (tic-80, HexChess)](https://tic80.com/play?cart=1496)
+
+  > While I'm at it, there [5D Chess With Multiverse Time Travel](https://store.steampowered.com/app/1349230/5D_Chess_With_Multiverse_Time_Travel/) too.
+
+* [A weird astroids clone (tic-80, Ship'em up)](https://tic80.com/play?cart=1495) 
+
+* 
 
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>
 

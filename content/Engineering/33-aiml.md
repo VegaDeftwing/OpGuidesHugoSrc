@@ -6,3 +6,6 @@ https://hific.github.io/
 
 [i.am.ai Roadmap](https://i.am.ai/roadmap/) -- this shows that AI/ML are rooted in Data Science, as a [TODO] this probably needs talked about here
 
+[This ____ Does Not Exist](https://thisxdoesnotexist.com)
+
+> "Using generative adversarial networks (GAN), we can learn how to create realistic-looking fake versions of almost anything"

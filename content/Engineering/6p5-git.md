@@ -81,6 +81,10 @@ https://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/
 
 [What will happen when you commit secrets to a public Git repo? ](https://tinysubversions.com/spooler/?url=https://twitter.com/andrzejdyjak/status/1324360914812940293)
 
+
+
+https://onlywei.github.io/explain-git-with-d3/
+
 ## Notes on GitHub and competition
 
 [Stop using number of git commits as any metric (u/Sajjon on Reddit)](https://www.reddit.com/r/CryptoCurrency/comments/cub9c2/stop_using_number_of_git_commits_as_any_metric/)
