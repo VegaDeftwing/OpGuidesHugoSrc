@@ -2,6 +2,8 @@
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/Snr113r5ocY?list=FLFMnqfaTa1se1LfbCB3peJQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[Ashlyn Black's C Cheat Sheet](https://cheatography.com/ashlyn-black/cheat-sheets/c-reference/)
+
 ## Why C?
 
 This chapter of OpGuides will be mostly C, but, why? Well, there's only really a few options for learning low level programming that make sense to start with. C, C++, Rust are the 'big three' that come to mind for me. C is awesome. It's spec is small, it's been kept minimal, and it's got a ton of tools to help you learn. It forces you to know the low level, which in this case is great. C++ has grown into behemoth where any thing can be done in about a dozen different ways and each development team is effectively writing in their own dialect of C++. 
@@ -22,7 +24,9 @@ It's also worth considering that you can use C code in C++ projects if you need.
 
 ## Some simple programs, in C
 
-TODO: [30 Seconds of C++ (Github)](https://github.com/Bhupesh-V/30-seconds-of-cpp)
+[TODO] https://github.com/rby90/project-based-tutorials-in-c
+
+[TODO] [30 Seconds of C++ (Github)](https://github.com/Bhupesh-V/30-seconds-of-cpp)
 
 ### Hello World!
 
@@ -239,9 +243,11 @@ pseudo code, types
 
 ### Sorting a list
 
-pointers
+pointers, heap
 
 mention efficiency, analysis later
+
+https://github.com/laserallan/malloc_geiger
 
 ### Palindromes
 
