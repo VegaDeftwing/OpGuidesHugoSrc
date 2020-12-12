@@ -71,11 +71,43 @@ $ may let you type inline math in \LaTeX $, and $$$ for blocks, same as the code
 
 ## Nice Libraries
 
+### Multi-Language
+
+[Ultralight](https://github.com/ultralight-ux/Ultralight) - "Next-generation HTML renderer for apps and games"
+
+> Bit like Electron, but less shit. Supports C, C++, C#, Rust, Java, and Go
+
+### C
+
+[Awesome-C](https://github.com/oz123/awesome-c) - "A curated list of awesome C frameworks, libraries, resources and other shiny things. Inspired by all the other awesome-... projects out there."
+
+[Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) - A single-header ANSI C immediate mode cross-platform GUI library
+
+[GuiLite.h](https://github.com/idea4good/GuiLite) - "!The smallest header-only GUI library (4 KLOC) for all platforms"
+
 ### C++
+
+> Keep in mind everything from the above should still work
 
 https://github.com/alandefreitas/matplotplusplus
 
-https://github.com/ultralight-ux/Ultralight
+[Rang](https://github.com/agauniyal/rang) - "A Minimal, Header only Modern c++ library for terminal goodies"
+
+[NanoGUI](https://github.com/mitsuba-renderer/nanogui) - "Minimalistic C++/Python GUI library for OpenGL, GLES2/3, Metal, and WebAssembly/WebGL"
+
+[Midifile](https://github.com/craigsapp/midifile) - C++ classes for reading/writing Standard MIDI Files
+
+### Rust
+
+[Nannou](https://github.com/nannou-org/nannou) - Creative Coding Framework for Rust
+
+
+
+### Go
+
+[Lorca](https://github.com/zserge/lorca) - "A very small library to build modern HTML5 desktop apps in Go. It uses Chrome browser as a UI layer. Unlike Electron it doesn't bundle Chrome into the app package, but rather reuses the one that is already installed."
+
+[Pixel](https://github.com/faiface/pixel) - "A hand-crafted 2D game library in Go"
 
 ### Python
 
@@ -84,3 +116,7 @@ https://github.com/ultralight-ux/Ultralight
 [Rich](https://github.com/willmcgugan/rich) -  library for rich text and beautiful formatting in the terminal
 
 [Manim](https://github.com/3b1b/manim) - "Animation engine for explanatory math videos" used by 3Blue1Brown
+
+https://github.com/mitsuba-renderer/nanogui
+
+[PyNuklear](https://github.com/billsix/pyNuklear) - Nuklear (see above) binding for python

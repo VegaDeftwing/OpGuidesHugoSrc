@@ -61,6 +61,8 @@ Here there's no difference between `-O` and `O3`, but with more complex code the
 
 [How the cpython compiler works](https://tenthousandmeters.com/blog/python-behind-the-scenes-2-how-the-cpython-compiler-works/)
 
+[CS 6120: Advanced Compilers: The Self-Guided Online Course](https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/)
+
 [TODO]
 
 Making a compiler and assembler, DIY language eso-lang style
