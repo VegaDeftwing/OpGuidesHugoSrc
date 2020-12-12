@@ -124,6 +124,12 @@ Using a logic analyzer is pretty simple, most today are connected to your comput
 
 [TODO] explain when a logic analyzer is actually used, and look at a quick example decode
 
+### Soldering
+
+https://www.digikey.com/en/maker/blogs/rohs-vs-non-rohs-soldering
+
+
+
 ## Software Simulation
 
 [TODO]
