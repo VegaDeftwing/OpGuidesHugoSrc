@@ -72,6 +72,8 @@ Pixel Art Tutorial from @saint11 https://saint11.org/blog/pixel-art-tutorials/
 
 [Noodle, 1-bit browser based art tool](https://github.com/hundredrabbits/Noodle)
 
+[Wobblepaint on the Pico-8, by Zep](https://www.lexaloffle.com/bbs/?tid=40058)
+
 ## Voxel Art
 
 [MagicaVoxel](https://ephtracy.github.io)
