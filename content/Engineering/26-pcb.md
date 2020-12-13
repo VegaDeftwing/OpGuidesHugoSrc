@@ -724,6 +724,10 @@ https://llllllll.co/t/pcb-art-artfully-shaped-copper-traces/22027/2
 
 [KiCad STM32 + RF + USB Hardware Design (YouTube, Phil's Lab)](https://www.youtube.com/watch?v=14_jh3nLSsU)
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I quite like this combination I soldered today: <a href="https://twitter.com/oshpark?ref_src=twsrc%5Etfw">@oshpark</a> &#39;s After Dark PCB with purple LEDs. This is my COPXIE project, which is inspired by PIXIE from <a href="https://twitter.com/lixielabs?ref_src=twsrc%5Etfw">@lixielabs</a> . More information can/will be also found here: <a href="https://t.co/BLMhnu95Vu">https://t.co/BLMhnu95Vu</a> <a href="https://t.co/Ssg1d1uNFN">pic.twitter.com/Ssg1d1uNFN</a></p>&mdash; Alex (@tinyledmatrix) <a href="https://twitter.com/tinyledmatrix/status/1319410599894417409?ref_src=twsrc%5Etfw">October 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The whole family - top ones are the oldest and the two test prototypes I made. There was issues with the micro I was using and I couldn&#39;t get it low enough power to run. Also assembly was really difficult. <a href="https://t.co/3mKgYs83Nr">pic.twitter.com/3mKgYs83Nr</a></p>&mdash; Loial Otter (@LoialOtter) <a href="https://twitter.com/LoialOtter/status/1250295830973534208?ref_src=twsrc%5Etfw">April 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 # Chapter 26.1 - PCB 'Badges'
 
 ![badges](/badges.jpeg)

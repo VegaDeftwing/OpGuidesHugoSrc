@@ -11,6 +11,10 @@ slug: "Basics"
 
 [TODO] - rule of thirds, contrast, etc.
 
+## Perspective
+
+https://twitter.com/miyuliart/status/1337423295814176768 (NSFWish I guess?)
+
 ## Some good advice,
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/5Tx6U5OhMDg?list=PL6haVw-BFETw13kBFhbWl6UCshzgIC7Ea" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
