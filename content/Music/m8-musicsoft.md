@@ -28,22 +28,22 @@ slug: "Music Software"
 
 ## DAWs and almost-daws
 
-| Name & Link                                                | Description                                                  | Screenshot / Demo |
-| ---------------------------------------------------------- | ------------------------------------------------------------ | ----------------- |
-| [VCV Rack](https://vcvrack.com/)                           |                                                              |                   |
-| Reaper                                                     |                                                              |                   |
-| Bitwig-Studio                                              |                                                              |                   |
-| Audacity                                                   |                                                              |                   |
-| Renoise                                                    |                                                              |                   |
-| Deflemask                                                  |                                                              |                   |
-| Sunvox                                                     |                                                              |                   |
-| FL-Studio                                                  |                                                              |                   |
-| [Oscistudio](https://oscilloscopemusic.com/oscistudio.php) |                                                              |                   |
-| Ableton Live                                               |                                                              |                   |
-| Reason                                                     |                                                              |                   |
-| GarageBand                                                 |                                                              |                   |
-| Pro Tools                                                  |                                                              |                   |
-| [Marabu](https://github.com/hundredrabbits/Marabu)         | "Marabu is a free and open-source music tracker built from [Soundbox](https://github.com/mbitsnbites/soundbox)." |                   |
+| Name & Link                                                | Description                                                  | Screenshot / Demo                |
+| ---------------------------------------------------------- | ------------------------------------------------------------ | -------------------------------- |
+| [VCV Rack](https://vcvrack.com/)                           |                                                              |                                  |
+| Reaper                                                     |                                                              |                                  |
+| [Bitwig-Studio](https://www.bitwig.com/overview/)          | Bitwig is a lot like Ableton, but has the neat idea of 'The Grid'- basically a little built in modular synth system. It's not like VCV, as it's a bit lower level but it can still be used for [Generative Music](https://www.youtube.com/watch?v=mu5A7QQbuho&feature=youtu.be&ab_channel=Sparvn%C3%A4tter) or [doing complex routing, like fading between effects](https://www.youtube.com/watch?v=bwi8rVXp-Q0&ab_channel=PolarityMusic). It also has really easy to use routable modulation, basically letting you drop an LFO, envelope, etc. onto any parameter of a VST. It also has good MPE support, which can be abused to do rhythmic drums as well: ![MPEDRUMS](/mpedrums.jpg) | https://www.bitwig.com/overview/ |
+| [Audacity](https://www.audacityteam.org)                   | Not a full DAW, but super useful for trimming audio and quick fixes |                                  |
+| Renoise                                                    |                                                              |                                  |
+| Deflemask                                                  |                                                              |                                  |
+| Sunvox                                                     |                                                              |                                  |
+| FL-Studio                                                  |                                                              |                                  |
+| [Oscistudio](https://oscilloscopemusic.com/oscistudio.php) |                                                              |                                  |
+| Ableton Live                                               |                                                              |                                  |
+| Reason                                                     |                                                              |                                  |
+| GarageBand                                                 |                                                              |                                  |
+| Pro Tools                                                  |                                                              |                                  |
+| [Marabu](https://github.com/hundredrabbits/Marabu)         | "Marabu is a free and open-source music tracker built from [Soundbox](https://github.com/mbitsnbites/soundbox)." |                                  |
 
 **NOTE: this list is far from exhaustive. Instead, I've tried to list the main ones and some that I think are particularly cool.**
 

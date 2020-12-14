@@ -34,6 +34,8 @@ https://newhams.info/2017/02/17/rf-connector-types/
 
 [SDR: Digital Adventures in Shortwave Radio (Justus.ws Blog)](https://www.justus.ws/tech/sdr-adventures-in-shortwave/) 
 
+[IRC over LORA for when things go really south(Tom Nardi, Hackaday)](https://hackaday.com/2020/12/12/irc-over-lora-for-when-things-really-go-south/)
+
 
 
 [From u/irresponsible_owl on Reddit](https://www.reddit.com/r/amateurradio/comments/jt4crn/when_one_ferrite_doesnt_do_the_trick/gc3fwvk?utm_source=share&utm_medium=web2x&context=3), in response to a picture of a USB cable with a dozen ferrite cores on it:

@@ -73,6 +73,10 @@ Making a compiler and assembler, DIY language eso-lang style
 
 https://medium.freecodecamp.org/the-programming-language-pipeline-91d3f449c919
 
+## Garbage Collection
+
+[Garbage Collection Algorithms](http://dmitrysoshnikov.com/courses/essentials-of-garbage-collectors/) + [Writing a memory allocator](http://dmitrysoshnikov.com/compilers/writing-a-memory-allocator/) 
+
 ## Continued Reading
 
 At this point I highly recommend '[The Art of Exploitation](https://nostarch.com/hacking2.htm)' by Jon Erickson

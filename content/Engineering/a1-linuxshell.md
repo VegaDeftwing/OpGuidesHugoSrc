@@ -37,25 +37,32 @@ As a very brief aside, you may see pictures in some terminals. This is possible 
 Of note, while the majority of these commands should be available on nearly any unix system you may use, many of the alternate recommendations may not be.
 
 - **man** "man [command/topic]", ex, "man ascii", bring up an indepth manual page for a given command/topic.
+  
   - Alternative recommendation: **tldr**, actually digestible and much faster when it gives enough info 
 - **pwd** - Print working directory - literally just a command to tell you the file path to where you are
 - **ls** - list - list the files/folders in the current directory, lots of flags available
+  
   - Alternative recommendation: **exa** 
 - **cd** - change directory, if you can't use this may god have mercy
+  
   - Alternative recommendation: **j (for autojump)** 
 - **mv** - move (or rename) a file to a new location (or name)
+  
   - Alternative recommendation: **rsync**
 - **rm** - remove a file/folder
 - **touch** - create an empty file, or change last accessed time of existing file
 - **mkdir & rmdir** - make or remove an empty directory (folder)
 - **cat** - output the contents of a file
+  
   - Alternative recommendation: **bat**, **less**, **more**, **fltrdr**, or an editor like **vim** or **nano** 
 - **date** - output current date and time
 - **chmod & chown** - change a file or folders permissions or owner
 - **ln** - make a symbolic / hard link (shortcut)
 - **du & df** - Disk usage and disk free, **df** will show you how much room you have left per disk, **du** serves to help find what's using up your disk
+  
   - Alternative recommendation: **ncdu** doesn't suck. 
 - **clear** - clear the screen of text- (only use in scripts)
+  
   - Alternative recommendation: **ctrl + l** , much faster
 - **passwd** - change a users password
 - **sudo & su** - run a command as another user, typically root
@@ -68,19 +75,25 @@ Of note, while the majority of these commands should be available on nearly any 
 - **diff** - show the differences between two files
 - **sort** - sort input by a number of criteria
 - **uniq** - remove duplicate entries
+  
   - **fdupes** is recommended if the goal is to identify duplicate files 
 - **export** - used to set environment variables, these for example use `export EDITOR=nano` to use nano as your terminal text viewer by default.
 - **systemctl** - literally system control, wayyy to big to cover quickly, used for everything from setting services to run on boot, shutting down/restarting the system, to viewing logs. Look up Systemd for more information. This is probably the least-universal of the tools listed here, but *most* linux systems have switched to Systemd now for better or worse.
 - **ip, ping, & dig** - **ip** is used to view as well as modify aspects of network configuration at the more hardware-level, such as turning on/off a networking interface.  **ping** allows you to see if you're able to reach a site/ip address, and **dig** allows you to check if you're able to turn a domain name to an ip, such as checking the ip address that archlinux.org points to with `dig archlinux.org`
 - **ps** - process management: listing processing, finding the parent of a particular process, etc.
+  
   - Alternative recommendation: [procs (Github)](https://github.com/dalance/procs)
 - **free** - display information about system RAM usage
 - **top** - a graphical-ish view of the running processes, ram, and CPU usage
+  
   - Alternative recommendation: **htop**
 - **kill**, murder a process in various ways
 - **whereis** - find the location of an executable, ex `whereis ls` will tell you it's in `/usr/bin/ls`
 - **wget, curl** - retrieve a web page
+  
   - Alternative recommendation: **lynx**, **w3m**, or **brow.sh**
+  
+    {{< tip >}} Heads up, you may ocassionly see installation instructions for things on github that ask you to use `curl www.example.com/script.sh | bash` - **DON'T**. It's [not safe](https://www.idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-side/). Instead, you can curl the script, check that it's something you want to run with `cat script.sh`, and then run it with `./script.sh`. {{< /tip >}}
 
 ## Tab Completion and faster navigation
 

@@ -34,6 +34,8 @@ Inktober, Swordvember, Smaugust
 
 # Game Design
 
+https://www.gameuidatabase.com/index.php
+
 https://www.riotgames.com/en/urf-academy/curriculum-guide
 
 ## Engines & Frameworks
