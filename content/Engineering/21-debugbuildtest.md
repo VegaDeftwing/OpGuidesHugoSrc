@@ -18,6 +18,8 @@ GDB with Gef, interpreted languages, embedded systems, non-code issues (boot pro
 
 [GDB + GEF](https://gef.readthedocs.io/en/master/)
 
+[The State of Linux Debuggers (Jamie Brandon's Blog)](https://scattered-thoughts.net/writing/the-state-of-linux-debuggers/) ← This is a decent rant about why most debuggers sort of suck. And yeah, they do. But we still sorta need them
+
 #### Static Analysis
 
 [CodeChecker using LLVM/Clang (GitHub)](https://github.com/Ericsson/codechecker)

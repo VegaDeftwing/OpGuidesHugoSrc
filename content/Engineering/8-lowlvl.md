@@ -28,6 +28,8 @@ It's also worth considering that you can use C code in C++ projects if you need.
 
 [TODO] [30 Seconds of C++ (Github)](https://github.com/Bhupesh-V/30-seconds-of-cpp)
 
+[TODO] http://pages.cs.wisc.edu/~remzi/OSTEP/
+
 ### Hello World!
 
 It's traditional to start in any language by writing a program that just outputs the words "Hello World!" to the terminal, so let's start there in C++
