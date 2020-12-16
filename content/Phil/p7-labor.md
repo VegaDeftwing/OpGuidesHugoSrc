@@ -12,14 +12,18 @@ slug: "Labor"
 
 https://www.wsj.com/articles/BL-DGB-42721
 
+UBI?
+
 ## Monopolies
 
 ## Unions
 
 ## Consumer protections
 
-best intrest
+best interest
 TOS simplification
 
 ## Homelessness
+
+## Job Obsolescence 
 

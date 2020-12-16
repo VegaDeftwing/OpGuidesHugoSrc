@@ -167,6 +167,8 @@ Note that not all things that seem like a good fit are a good fit for regex, for
 
 [Regular Expressions - Enough to be Dangerous (YouTube, Engineer man)](https://www.youtube.com/watch?v=bgBWp9EIlMM)
 
+[Crex (Octobanana git repo)](https://octobanana.com/software/crex) - "Explore, test, and check regular expressions in the terminal."
+
 ## Job Control
 
 [TODO]
@@ -247,6 +249,8 @@ source: [b0rk on Twitter](https://twitter.com/b0rk), check out https://wizardzin
 
 {{< /columns >}}
 
+[Minimal Safe Bash Script Template (Maciej Radzikowski)](https://betterdev.blog/minimal-safe-bash-script-template/)
+
 ## Alternative Shells
 
 When we installed arch we actually changed the default shell from bash to zsh, but there are other options such as fish, csh, and xonsh among others
@@ -275,6 +279,7 @@ When we installed arch we actually changed the default shell from bash to zsh, b
 * [ripgrep](https://github.com/BurntSushi/ripgrep)
   * "ripgrep is a line-oriented search tool that recursively searches your current directory for a regex pattern. By default, ripgrep will respect your .gitignore and automatically skip hidden files/directories and binary files. ripgrep has first class support on Windows, macOS and Linux, with binary downloads available for [every release](https://github.com/BurntSushi/ripgrep/releases). ripgrep is similar to other popular search tools like The Silver Searcher, ack and grep."
   * **TLDR**: Search into your text files really fast with regex support.
+  * [RGA](https://phiresky.github.io/blog/2019/rga--ripgrep-for-zip-targz-docx-odt-epub-jpg/) is like ripgrep on steroids- seaches though PDFs, ebooks, office docs, compressed files, etc.
 * [echowo](https://fluff.haus/kokoscript/echowo)
   * alternative to echo, but significantly furrier
 

@@ -22,13 +22,11 @@ slug: "UI"
 
 [Butalist Web Design, by David Copeland](https://brutalist-web.design/)
 
-[motherfuckingwebsite.com](http://motherfuckingwebsite.com/)
-
-[bettermotherfuckingwebsite.com](http://bettermotherfuckingwebsite.com/)
-
-[thebestmotherfuckingwebsite.website](https://thebestmotherfucking.website/)
+[motherfuckingwebsite.com](http://motherfuckingwebsite.com/), [bettermotherfuckingwebsite.com](http://bettermotherfuckingwebsite.com/), [thebestmotherfuckingwebsite.website](https://thebestmotherfucking.website/)
 
 [Scrollbar Blindness (Sven Kadak's Blog)](https://svenkadak.com/blog/scrollbar-blindness)
+
+[Github Dark Mode is too Dark. (Karen ying's blog)](https://blog.karenying.com/posts/github-darkmode-sucks)
 
 Figma
 
