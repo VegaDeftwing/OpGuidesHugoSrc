@@ -7,6 +7,8 @@ date: 2018-09-23
 
 **9/23/2018**
 
+<img src="/loial.jpg" alt="loial" height="200em">
+
 **Introduction:**
 
 I'm Matthew or LoialOtter, a crazy person up in western Canada who likes to make stuff. I work at Kron Technology as an engineer mainly in FPGA, electronics design and hardware design.
