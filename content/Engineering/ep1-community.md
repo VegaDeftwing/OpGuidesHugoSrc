@@ -112,6 +112,10 @@ No matter what you care about, know there's a wide range of communities that wou
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/0QO0yZldC2M?list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+The maker and hacker communities tend to focus a lot on popularity and getting your name out there. While obivously it's cool to do so, don't let likes and followers be your motivation. Make cool things to make cool things, and people will come. The number one best thing to see on the internet is someone that is passionate about something sharing those passions. It's better to have a dozen good friends that share those passions, than 25k followers that just go 'oh, neat' anyway.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Popularity doesn&#39;t matter (1/2) <a href="https://t.co/ae1VV2uocc">pic.twitter.com/ae1VV2uocc</a></p>&mdash; 🝧 Wolfy Vero 🝧 (@Wonivero) <a href="https://twitter.com/Wonivero/status/1317493393631571968?ref_src=twsrc%5Etfw">October 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Further reading 
 
 (Seriously all of these are **very** good)

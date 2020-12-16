@@ -28,6 +28,8 @@ slug: "Education"
 
 ### Better testing
 
+Fuck Respondus And Proctorio
+
 ## Free College
 
 ## Bullying
