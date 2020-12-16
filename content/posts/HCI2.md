@@ -363,6 +363,8 @@ In summary
 
 As a final note, I realize not everyone has space for a massive desk, but in that case, I think things like [this folding desk (YouTube, DIY Persk)](https://www.youtube.com/watch?v=QaoFh1DH51U) should be more common.
 
+[TODO] https://altwork.com/blogs/news/the-complexity-of-building-a-lie-down-workstation
+
 ### Your Audio Sucks
 
 There's a huge range of audio systems. You might not be able to have speakers at all and have to use headphones, maybe you have an awesome setup running [Dolby Atmos](https://en.wikipedia.org/wiki/Dolby_Atmos) like [Deadmau5's](https://www.magneticmag.com/2016/05/deadmau5-shows-off-the-completion-of-his-new-home-studio-finally/) where the room and speakers have been engineered he can virtually drop an instrument on the sound stage wherever he wants.

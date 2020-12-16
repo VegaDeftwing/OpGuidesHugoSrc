@@ -43,6 +43,8 @@ ignoring the analog world (10%/90%)
 
 min/max terms, Don't cares, SOP/POS, multiple out
 
+[TODO] http://nandgame.com
+
 ## Basic Logic Gates
 
 [TODO] truth tables, circuit symbol, discrete logic symbol for all.

@@ -90,6 +90,8 @@ https://en.wikibooks.org/wiki/Signals_and_Systems
 
 [The Scientist & Engineer's Guide to Digital Signal Processing, 1999 (Analog Devices)](https://www.analog.com/en/education/education-library/scientist_engineers_guide.html#Foundations)
 
+[DSP Spreadsheet: The Goertzel Algorithm is Fourier's Simpler Cousin (Hackaday, Al Williams)](https://hackaday.com/2020/11/13/dsp-spreadsheet-the-goertzel-algorithm-is-fouriers-simpler-cousin/)
+
 ## 8 - Probability/Stats
 
 Why, where are these used, etc.

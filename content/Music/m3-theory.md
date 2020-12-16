@@ -61,3 +61,5 @@ making instruments swap roles
 [An Introduction to Math Rock (YouTube, Alfo Media)](https://youtu.be/MF4Fs1lgYc8)
 
 [The Largest Chord - sUpEr UlTrA hYpEr MeGa MeTa LyDiAn (YouTube, Leon Waves)](https://www.youtube.com/watch?v=HeTygKpi6pI)
+
+[(*My) Procedurally Generated Music is Awful (Cube Drone)](https://devlog.groovelet.com/p/procedurally-generated-music-is-awful)

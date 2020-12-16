@@ -39,3 +39,7 @@ Trolly Problem, common arguments
 ## Some other terms you might hear
 
 [BreadTube](https://en.wikipedia.org/wiki/BreadTube)
+
+
+
+[TODO] [Ask HN: Learning Philosophy (Hacker News)](https://news.ycombinator.com/item?id=25312681)

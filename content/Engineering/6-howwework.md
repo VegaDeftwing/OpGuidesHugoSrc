@@ -89,6 +89,8 @@ inside your i3 config file you may want to set specific actions to take place ba
 
 If you're looking for more ways to make your setup the best it can be or config files you can steal from check out  [r/unixporn](https://www.reddit.com/r/unixporn).
 
+[TODO] https://github.com/mjswensen/themer
+
 ## The Physical Environment & Hardware
 
 ![penv](/physicalenv.jpg)
@@ -234,6 +236,8 @@ Furthermore, there are other types of switches like IBM's old Model M line which
 You should also consider they layout of your keyboard. Some people absolutely need a number pad while others are happy to omit it and have the shorted hand travel to their mouse. Even still others want an extravagant number of keys or a weird split keyboard like mine:![keeb](/splitkeeb.jpg)
 
 > This is a custom built ErgoDone keyboard, The Ergodox-ez can be purchased for ~300 USD, or you can build one like mine for a bit under 200
+
+[r/Mechancial Keyboards](https://www.reddit.com/r/MechanicalKeyboards/comments/jqy923/better_than_uwu_keycaps/) is a good place to go for inspiration and more information
 
 {{< columns >}}
 
