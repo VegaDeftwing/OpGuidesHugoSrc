@@ -2,7 +2,7 @@
 
 * [Brimestone Valley Mall](https://podcastaddict.com/podcast/2486564)
 
-  > The year is 1999. Lurking somewhere between Hot Topic and the food court, five misfit demons from Hell kill time inciting sin in a suburban shopping mall. When the lead singer of their band goes mysteriously missing, the demons only have two weeks to find him before they play the biggest gig of the millenium - or face the wrath of Satan herself.
+  > The year is 1999. Lurking somewhere between Hot Topic and the food court, five misfit demons from Hell kill time inciting sin in a suburban shopping mall. When the lead singer of their band goes mysteriously missing, the demons only have two weeks to find him before they play the biggest gig of the millennium - or face the wrath of Satan herself.
 
 * [17776](https://www.sbnation.com/a/17776-football)
 
@@ -24,7 +24,7 @@
 
 * [Durden and Arcan](http://durden.arcan-fe.com/)
 
-  > A new take on the display server and desktop enviroment, not production ready, but super weird and interesting
+  > A new take on the display server and desktop environment, not production ready, but super weird and interesting
 
 * [The blog of Szymon Kaliski](https://szymonkaliski.com)
 
