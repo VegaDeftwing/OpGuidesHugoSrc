@@ -177,7 +177,7 @@ For example, two displays may both be capable of displaying 255 levels of red, b
 
 The next obvious thing to mention is **dynamic range**, or how deep the blacks are and how vivid the whites are. Again, this is simple, the higher the better. Many display types (LCD, TN-Panel) will have similar specifications in all these areas, but particularly here. OLED is probably the best when it comes to dynamic range as it can display true black by actually turning the source of the light off, but unfortunately these are quite susceptible to burn in and image persistence.
 
-Actually, display technology overall (OLED, LCD, TN, CRT, etc.) will have more of an impact than anything else. But, this is also getting really into the weeds, and I don't want to recomend one technology over the other since depending on many other factors on each display theres no clear winner, as everything is a trade off - OLED is probably the best as it can display true black by actually turning the source of the light off, but it suffers from bad burn in, plus moving the image quickly can result in a 'purple smear' - something you may have noticed when scrolling though images on your phone. You probably won't find an OLED monitor for sale anyways because of this. Great for movies, but when you have un-changing elements on screen for hours at a time it's not ideal.
+Actually, display technology overall (OLED, LCD, TN, CRT, etc.) will have more of an impact than anything else. But, this is also getting really into the weeds, and I don't want to recommend one technology over the other since depending on many other factors on each display theres no clear winner, as everything is a trade off - OLED is probably the best as it can display true black by actually turning the source of the light off, but it suffers from bad burn in, plus moving the image quickly can result in a 'purple smear' - something you may have noticed when scrolling though images on your phone. You probably won't find an OLED monitor for sale anyways because of this. Great for movies, but when you have un-changing elements on screen for hours at a time it's not ideal.
 
 There are some newer displays which feature HDR or High Dynamic Range, which allows the panel to selective change the brightness in an area of the screen, giving much better dynamic range in supported applications than a normal display
 
@@ -219,14 +219,14 @@ Probably the most important thing you can do for your workspace is getting a nic
 
 ([source](https://commons.wikimedia.org/wiki/File:Keyboard_Construction_Button_Press.JPG))
 
-The membrane/rubber dome keyboard on the left doesn't give much physical feedback to your fingers when you press a key, compared to the mechanical key switch on the right. A decent mechanical keyboard can be found on amazon for <50 USD, though as with anything in life the more you spend the better the product. One thing to keep in mind is the color of the switch used. Above you can see that keyboard has blue switches, blue switches have a noticeable 'bump', that is the switch has a spot of higher resistance before it actually botmoms out, and the key actually presses at this point, furthermore, blue keys are clicky - they are loud and some people find this annoying. Finally, they're also pretty light, not taking too much force to push down. Generally, blues are considered the 'gold standard' among typist, but games on the other hand may prefer a brown, red, or black switch.
+The membrane/rubber dome keyboard on the left doesn't give much physical feedback to your fingers when you press a key, compared to the mechanical key switch on the right. A decent mechanical keyboard can be found on amazon for <50 USD, though as with anything in life the more you spend the better the product. One thing to keep in mind is the color of the switch used. Above you can see that keyboard has blue switches, blue switches have a noticeable 'bump', that is the switch has a spot of higher resistance before it actually bottoms out, and the key actually presses at this point, furthermore, blue keys are clicky - they are loud and some people find this annoying. Finally, they're also pretty light, not taking too much force to push down. Generally, blues are considered the 'gold standard' among typist, but games on the other hand may prefer a brown, red, or black switch.
 
 |           | Linear | Bump  | Bump + Click |
 | --------- | ------ | ----- | ------------ |
 | **Light** | Red    | Brown | Blue         |
 | **Heavy** | Black  | Clear | Green        |
 
-> these are the common colors and how they feel for Cherry MX switches. Most other mechancial switches are 'clones' of MX switches- though sometimes these clones are actually superiour-
+> these are the common colors and how they feel for Cherry MX switches. Most other mechanical switches are 'clones' of MX switches- though sometimes these clones are actually superior-
 > but these clones don't always follow this chart
 
 really it's all a matter of preference, I'm actually using a switch not listed here on my keyboard, but generally finding what you like among the above first is a good place to start. If I'm not using my main keyboard I generally use Blues. If you'd like to try some out before pulling the trigger on a full keyboard you can find switch test boards for sale online.
@@ -295,7 +295,7 @@ Taskweb
 
 [TODO]
 
-Ranger, THunar, Nautilius, Baobab, Gparted
+Ranger, Thunar, Nautilius, Baobab, Gparted
 
 if you use Nautilius, you may want to run
 

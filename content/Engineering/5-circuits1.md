@@ -64,7 +64,7 @@ If current is the pressure in the hose, then current is how much water actually 
 
 In practice this means the wire you want to measure current through would need to be cut and the ammeter's probes hooked up at either end, making the meter part of the circuit.
 
-Current, just like voltage, can varry, and in AC circuits usually does. This leads to some more interesting cases like power factor, but we'll get to that later.
+Current, just like voltage, can vary, and in AC circuits usually does. This leads to some more interesting cases like power factor, but we'll get to that later.
 
 #### Continuity Tester
 
