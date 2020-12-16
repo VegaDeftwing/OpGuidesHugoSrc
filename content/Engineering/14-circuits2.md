@@ -6,7 +6,7 @@ Show everything in a circuit sim, fix heading levels (this is a mess)
 
 Possibly break up this chapter? Transistors, the opamp, etc alone may each justify their own chapters
 
-That said, I don't want to get to in the mud of transistor physics. I really want to focus on how/when/why to use what, not how they work as the physics is both pretty hard to grasp and not super useful. Still would like to mention that switching is what uses power and like processe size things, but maybe not the chemistry or electron tunneling effects
+That said, I don't want to get to in the mud of transistor physics. I really want to focus on how/when/why to use what, not how they work as the physics is both pretty hard to grasp and not super useful. Still would like to mention that switching is what uses power and like process size things, but maybe not the chemistry or electron tunneling effects
 
 # Chapter 14.1 - Semiconductors
 

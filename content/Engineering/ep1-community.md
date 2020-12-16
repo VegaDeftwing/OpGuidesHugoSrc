@@ -1,11 +1,5 @@
 # Ⅰ - Community
 
-<style>
-  a{color:  #42b9f3;}
-  a:active{color: #42b9f3;}
-  ::-webkit-scrollbar-thumb {background: #009CDF;}
-  ::-webkit-scrollbar-thumb {background: #009CDF;}
-</style>
 
 The only way to be successful in this journey is to make friends along the way. Some of this gets really, really difficult. You *will* get stuck. Having friends to help makes it possible. Find group chats on telegram, join IRC channels, get on some forums, and ask questions on Reddit. Working with people is a lot more fun and you'll learn so much more.
 
