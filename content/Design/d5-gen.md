@@ -32,6 +32,8 @@ https://www.reddit.com/r/PlotterArt/
 | [World Painter](https://www.worldpainter.net)                | This one is for Minecraft, but still potentially useful      | ![worldpainterex](/worldpaint.jpg) SOURCE: https://www.reddit.com/r/ArdaCraft/comments/jaaw0v/a_lake_in_the_ered_luin/ |
 | [DataCombs](https://michaelgames.itch.io/datacombs)          | "3D Map editing utility for use with tabletop games like Dungeons & Dragons and Pathfinder" | ![datacomb](/datacomb.jpg)                                   |
 
+[Dungeon Generation in Enter The Gungeon (Boris The Brave)](https://www.boristhebrave.com/2019/07/28/dungeon-generation-in-enter-the-gungeon/)
+
 ### Languages
 
 | Name & Link                                                  | Screenshot                 |

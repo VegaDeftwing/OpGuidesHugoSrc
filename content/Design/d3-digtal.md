@@ -114,6 +114,10 @@ https://lospec.com/palette-list
 
 [Graphics & Palettes - Super Nintendo Entertainment System Features Pt. 01 (YouTube)](https://www.youtube.com/watch?v=57ibhDU2SAI&ab_channel=RetroGameMechanicsExplained)
 
+
+
+[Digital Video Introduction (Github)](https://github.com/leandromoreira/digital_video_introduction#how-does-a-video-codec-work) - "A hands-on introduction to video technology: image, video, codec (av1, vp9, h265) and more (ffmpeg encoding)."
+
 ## Compression
 
 {{< columns >}}

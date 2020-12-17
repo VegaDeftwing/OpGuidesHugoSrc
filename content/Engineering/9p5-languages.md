@@ -44,6 +44,10 @@ or for the very adventurous
 
 [Linux-kernal-module-cheat [Github]](https://github.com/cirosantilli/linux-kernel-module-cheat#userland-assembly), has a nice guide to asm
 
+#### 6502
+
+['Furby' Source Code](https://github.com/gnomon-/furby-source)
+
 ### Rust
 
 > Rust’s rich type system and ownership model guarantee memory-safety and thread-safety — enabling you to eliminate many classes of bugs at compile-time.
