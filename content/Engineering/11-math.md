@@ -32,7 +32,7 @@ some motivation, Klein bottle guy, non-euclidean games, fractals, colatz conject
 
 #### ^, √, !
 
-#### <, >, ≤, ≥, ±∞, ≠, ≈, ∝, <<, >>,
+#### <, >, ≤, ≥, ±, ≠, ≈, ∝, <<, >>,
 
 #### ±, |x|, ∆
 
