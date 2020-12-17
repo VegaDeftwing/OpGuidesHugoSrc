@@ -126,14 +126,14 @@ Probability Mass Function (PMF)
 
 Types of RV's
 
-| Distribution Name                                            | PMF  | Mean | Variance |
-| ------------------------------------------------------------ | ---- | ---- | -------- |
-| Bernoulli                                                    |      |      |          |
-| Geometric                                                    |      |      |          |
-| Binomial                                                     |      |      |          |
-| Pascal                                                       |      |      |          |
-| <p class="tip">☠☠☠</br>    Seriously, <b>backup your shit.</b> I've done this countless times and have still managed to accidentally wipe a drive. There's a non-0 chance you're about to completely murder your windows install, It shouldn't happen, but it can. This is a necssary evil to learn, and I assure you'll be happy you've done all this, but this next bit is actual hell for people. I'm sorry it gets so bad so early. I promise it's worth it, okay?The next section requires a lot of reboots and has steps where you can't have this guide open on the computer you're working on. Don't be stupid.</br>☠☠☠ </p> |      |      |          |
-| Poisson                                                      |      |      |          |
+| Distribution Name | PMF  | Mean | Variance |
+| ----------------- | ---- | ---- | -------- |
+| Bernoulli         |      |      |          |
+| Geometric         |      |      |          |
+| Binomial          |      |      |          |
+| Pascal            |      |      |          |
+| Discrete Uniform  |      |      |          |
+| Poisson           |      |      |          |
 
 Cumulative Distribution Function (CDF)
 
