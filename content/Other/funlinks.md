@@ -92,5 +92,9 @@
 
 * [I thought I made a hard game and then speedrunners totally destroyed it. Here is what that feels like. (Zukalous, Imgur)](https://imgur.com/t/speedrunning/zDoWihd)
 
+* [TEXTREME - a *juicy* text processor, with a rythm mode (Itch.io)](https://ash-k.itch.io/textreme)
+
+* [An Orbit Map of the Solar System (Tabletop Whale)](http://tabletopwhale.com/2019/06/10/the-solar-system.html)
+
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>
 

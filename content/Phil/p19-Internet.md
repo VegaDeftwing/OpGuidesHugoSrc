@@ -90,3 +90,6 @@ https://www.mnot.net/blog/2020/08/28/for_the_users RFC8890
 
 [Sufficently Advaced Technology and Justice (Hackaday, Elliot Williams)](https://hackaday.com/2020/12/05/sufficiently-advanced-technology-and-justice/)
 
+## Google Amp
+
+[Google AMP Can go to Hell (Polemic Digital)](https://www.polemicdigital.com/google-amp-go-to-hell/)
