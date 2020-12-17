@@ -267,6 +267,8 @@ int x = 0b11 << 1
 
 unsigned, signed bit, 1's compliment, 2's compliment
 
+[Bit Twiddling Hacks from Sean Eron Anderson](https://graphics.stanford.edu/~seander/bithacks.html)
+
 ## System Calls
 
 ## Assembly

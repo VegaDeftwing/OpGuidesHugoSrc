@@ -12,7 +12,9 @@ slug: "Labor"
 
 https://www.wsj.com/articles/BL-DGB-42721
 
-UBI?
+## Universal Basic Income
+
+ <iframe width="100%" height="500" src="https://www.youtube.com/embed/kl39KHS07Xc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Monopolies
 
