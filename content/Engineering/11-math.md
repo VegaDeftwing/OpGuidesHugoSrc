@@ -10,7 +10,55 @@ some motivation, Klein bottle guy, non-euclidean games, fractals, colatz conject
 
 ## 1 - Algebra
 
+### Number Systems
+
+#### ℕ - Natural Numbers
+
+#### ℤ - Integers
+
+#### ℚ - Rational Numbers
+
+####   - Irrational Numbers
+
+#### ℝ - Imaginary Numbers
+
+#### ℂ - Complex Numbers
+
+[Hypercomplex numbers](https://en.wikipedia.org/wiki/Hypercomplex_number) are also a thing, this term includes [Quaternions](https://en.wikipedia.org/wiki/Quaternion) which are used in some very high level physics, but otherwise you'll most likely never work with these.
+
+### Notation
+
+#### +, -, *, ÷, mod
+
+#### ^, √, !
+
+#### <, >, ≤, ≥, ±∞, ≠, ≈, ∝, <<, >>,
+
+#### ±, |x|, ∆
+
+#### *f* (*x*), (*f* ∘ *g*)
+
+#### (*a*,*b*), [a, b]
+
+#### ∑, Π
+
+https://www.rapidtables.com/math/symbols/Basic_Math_Symbols.html
+
+### Order of Operations
+
+stupid facebook memes
+
+### Looking at some equations
+
+#### Linear
+
+#### Polynomial
+
+
+
 Imaginary numbers, systems of equations
+
+## 1½ - Primes
 
 ## 2 - Discrete Math
 
@@ -18,7 +66,21 @@ http://discrete.openmathbooks.org/dmoi3/
 
 [Math For Programmers (pdf)](https://yurichev.com/writings/Math-for-programmers.pdf)
 
+### Notation
+
+https://en.wikipedia.org/wiki/List_of_mathematic_operators
+
 ## 3 - Trig
+
+### Very brief Geometry Lesson
+
+#### Notation
+
+∥, ⊥, 
+
+### Notation
+
+
 
 ## 4 - Calculus
 
