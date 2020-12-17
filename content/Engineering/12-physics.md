@@ -18,6 +18,8 @@
 
 ## 2 - Electromagnetism
 
+[The Electromagnetic Radiation Spectrum (Anthony Tekatch @ Unihedron.com)](http://unihedron.com/projects/spectrum/downloads/spectrum.jpg)
+
 <img src="/maxwellequns.svg" alt="maxwell" style="-webkit-filter: invert(.85);">
 
 ## 3 - Relativity and the Quantum

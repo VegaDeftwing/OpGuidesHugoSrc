@@ -97,6 +97,10 @@ https://github.com/alandefreitas/matplotplusplus
 
 [Midifile](https://github.com/craigsapp/midifile) - C++ classes for reading/writing Standard MIDI Files
 
+[Elements](https://github.com/cycfi/elements) - "lightweight, fine-grained, resolution independent, modular GUI library."
+
+[Fast IO](https://github.com/expnkx/fast_io) - "a new C++20 library for extremely fast input/output and aims to replace iostream and cstdio. It is header-only"
+
 ### Rust
 
 [Nannou](https://github.com/nannou-org/nannou) - Creative Coding Framework for Rust
@@ -120,3 +124,5 @@ https://github.com/alandefreitas/matplotplusplus
 https://github.com/mitsuba-renderer/nanogui
 
 [PyNuklear](https://github.com/billsix/pyNuklear) - Nuklear (see above) binding for python
+
+[Guietta](https://github.com/alfiopuglisi/guietta) - "A tool for making simple Python GUIs"
