@@ -370,3 +370,4 @@ Software Defined Networking, ActivityPub
 
 ['Nerfnet' tunnells TCP/IP over cheap NRF24L01 Radios (Hackaday, Tom Nardi) ](https://hackaday.com/2020/12/04/nerfnet-tunnels-tcp-ip-over-nrf24l01-radios/)
 
+[RFC for 700 HTTP Status Codes (Github, Joho)](https://github.com/joho/7XX-rfc)
