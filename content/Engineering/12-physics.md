@@ -10,6 +10,12 @@
 
 [How Kodak Exposed The Atomic Bomb (YouTube, Veritasium)](https://www.youtube.com/watch?v=7pSqk-XV2QM)
 
+[Seeing the invisible: Event displays in particle physics](https://home.cern/news/news/experiments/seeing-invisible-event-displays-particle-physics)
+
+[Building a Vortex Tube (This Old Tony, YouTube)](https://www.youtube.com/watch?v=Hn8hDY4bvpI&feature=youtu.be&ab_channel=ThisOldTony)
+
+
+
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/3WYxF7x"  ><a href="//imgur.com/a/3WYxF7x">The Chernobyl Dice: A quantum random number generator with a nixie tube display</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 
