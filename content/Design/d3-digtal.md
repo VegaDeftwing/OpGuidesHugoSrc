@@ -113,3 +113,13 @@ https://lospec.com/palette-list
 
 
 [Graphics & Palettes - Super Nintendo Entertainment System Features Pt. 01 (YouTube)](https://www.youtube.com/watch?v=57ibhDU2SAI&ab_channel=RetroGameMechanicsExplained)
+
+## Compression
+
+{{< columns >}}
+
+<iframe width="100%" height="300" src="https://www.youtube.com/embed/JPE45QMBAQw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<--->
+
+{{< /columns >}}

@@ -90,7 +90,7 @@
 
 * [A weird astroids clone (tic-80, Ship'em up)](https://tic80.com/play?cart=1495) 
 
-* 
+* [I thought I made a hard game and then speedrunners totally destroyed it. Here is what that feels like. (Zukalous, Imgur)](https://imgur.com/t/speedrunning/zDoWihd)
 
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>
 

@@ -102,7 +102,7 @@ headless: true
   - [11 - Infrastructure]({{< relref "Phil/p11-Infrastructure" >}})
   - [12 - Religion]({{< relref "Phil/p12-Religion" >}})
   - [13 - Sex]({{< relref "Phil/p13-sex" >}})
-  - [14 - Drugs]({{< relref "Phil/p14-drugs" >}})
+  - [14 - Medical]({{< relref "Phil/p14-medical" >}})
   - [15 - Foriegn Involment]({{< relref "Phil/p15-foriegn" >}})
   - [16 - Voting]({{< relref "Phil/p16-voting" >}})
   - [17 - Freedoms and Rights]({{< relref "Phil/p17-freedoms" >}})

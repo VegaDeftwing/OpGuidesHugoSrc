@@ -643,6 +643,7 @@ I'm not the first to think on this subject by any means, [Programs are a prison:
   * also letting new content get a chance
 * Tracking
 * Google's information cards suck: https://twitter.com/xkcd/status/1333529967079120896
+* [Ask HN: Is there a search engine which excludes the world's biggest websites?](https://news.ycombinator.com/item?id=23202850)
 
 ### Pay-Walls suck
 

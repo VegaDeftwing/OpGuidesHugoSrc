@@ -53,14 +53,20 @@ There's a pretty big list of considerations you should keep in mind when what yo
     
     *  <p style="font-size:.3em"> super tiny text </p>
   * Motion? Flashing Lights? Light sensitivity? 
+  
 * Are the elements of interaction standard / automatable
   
   * This largely ties into differently-abled access
+  
 * Does it really need to use as many resources as it does?
   * Could it still work if your internet was 100x slower?
   * Could it still work if your hardware was 10 years older?
+  
 * How long does it take a user to find a feature they know exists without help?
+
 * Avoid ['Dark Patterns'](https://darkpatterns.org)
+
+  * Don't use stupid [progress bars](https://web.eecs.utk.edu/~azh/blog/fixprogressbars.html)
 
 **Social Duties**
 
