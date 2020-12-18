@@ -40,13 +40,21 @@ Alright, so it was some failed law that tried to ban porn? Well, yeah, **BUT** i
 
 Section 230, protecting you in your facebook comments section
 
-### DMCA (attempting to fix 230)
+### DMCA (*attempting* to fix 230)
 
 jailbreaking exception
 
 ### FOSTA/SESTA (Breaking 230)
 
-### SOPA & PIPA(Trying to break everything)
+### SOPA & PIPA (Trying to break everything)
+
+{{< columns >}}
+
+<--->
+
+<iframe width="100%" height="300" src="https://www.youtube.com/embed/Hag2JWC8qZ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /columns >}}
 
 ### COPA (Breaking things... For the children!))
 
