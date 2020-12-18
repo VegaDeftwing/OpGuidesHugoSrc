@@ -682,13 +682,19 @@ It's no secret that access to academic articles is *fucking* expensive. JSTOR al
 
 But it's so much worse than that. Tons of information services are subscription based. So, the costs add up way worse. While it may seem like a bit of a stretch, I think it's pretty reasonable to call Netflix, Hulu, etc. all information sources as they often host documentaries, if we look at [The Cost of Every Streaming Service Per Month (TheStreet)](https://www.thestreet.com/lifestyle/best-streaming-services-cost-15166523), and assume just the most popular ones, so Netflix, Prime Video, and Hulu, it's already at **$418 a year.** Is it really any wonder why people are piracy again? Even if you subscribe to the theory that Piracy is a distribution problem and not a price problem, the pay walls are still the problem, as each service has it's own incentive to hoard as much exclusive content as possible and make their platform better than others for the price. This means that each platform runs on it's own standards and cross-compatibility is a real PITA. There are now websites and apps that specialize in just telling you which streaming service has what. Like what in the fresh fuck. 
 
-### Authentication Sucks
+### Authentication and Authorization Suck
 
-I'll bet cold, hard theoretical cash that you've put off turning on two factor for a service you don't give two shits about.
+> **Authentication** is the sign in
+>
+> **Authorization** is what the user and service can do, or what 'permissions' you grant the service and what you're allowed to do on the service.
+
+I'll bet cold, hard fictional cash that you've put off turning on two factor for a service you don't give two shits about.
 
 I'll double my fictional money to bet that you have a junk password you use by default everywhere you don't give a shit.
 
-Hell, I'll go all in betting on saying you've authenticated with quite a few services by just using the <div class="w3-container" style="width:50%" ><p><button class="w3-button w3-blue w3-round-xxlarge w3-block">LOGIN WITH SOCIAL MEDIA</button></p></div> button, though possibly only because it was the only way to login to that service at all.
+Hell, I'll go all in betting on saying you've authenticated with quite a few services by just using the 
+<div class="w3-container" style="width:fit-content%;display: inline-block;" ><p><button class="w3-button w3-blue w3-round-xxlarge w3-block">LOGIN WITH SOCIAL MEDIA</button></p></div></br>
+button, though possibly only because it was the only way to login to that service at all.
 
 Unfortunately, all of the above are probably not the best decisions.
 
@@ -710,11 +716,21 @@ Alright, so just follow the normal advice and use long passwords?
 
 Yeah. No. Well sorta. Okay, let me explain. Yes, you should use long passwords for exactly the reason this comic explains. But really, we need to stop using passwords outright. They just sorta suck.
 
-[WebAuthn](https://en.wikipedia.org/wiki/WebAuthn), which is what those usb-security keys use, is a move in the right direction.
+Instead, we should go to [Single Sign-On](https://en.wikipedia.org/wiki/Single_sign-on), like the above "Login with Social Media" example, but the *user* should be able to trust and change the identity provider with ease, to avoid the 'Facebook banned me' issue.
 
-File Permissions
+The real shitty part is a lot of services already support something like this, letting you setup sign in with Single Sign-On via your own identity server, but it's usually limited to enterprise users.
 
-user/password/2factor
+That said, you can self host Single Sign-On (like the way 'Sign in With Google' works), [keycloak](https://www.keycloak.org), [Dex](https://github.com/dexidp/dex), [Gluu](https://www.gluu.org) are options for doing this. It's just that basically no online services will let you use your self hosted service without an enterprise account.
+
+So, for now, users get fucked. There's really not any good options.
+
+That said, some things have gotten better [Webauthn](https://en.wikipedia.org/wiki/Single_sign-on) provides a much better way to authenticate with many services, including some that can provide Single Sign-On identities, often via those little [USB keys](https://www.yubico.com/products/) which are hugely better than the typical user name and password paradigm. 
+
+{{< tip >}}
+
+Note, those USB security keys have updated in standard. The newer ones which support WebAuthn are a bit more expensive and less common. The standards are confusing to understand, but the TLDR is you want something that supports WebAuthn/FIDO2.</br>The older standard, U2F, is a two factor system while the FIDO2/Webauth keys can outright replace passwords on the service
+
+{{< /tip >}}
 
 ## Presentation of Information Sucks
 
