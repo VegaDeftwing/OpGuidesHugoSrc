@@ -28,6 +28,12 @@ Natural Numbers are the dead basic set of numbers, 1, 2, 3, 4, 5, etc. note, thi
 
 Alright, Natural and Whole numbers are great and all, but what if we want to represent a deficit or debt? Negative numbers would definitely, be nice- introducing *Integers*, this is just the set of Whole numbers *and* the their inverseses, so .... -3, -2, -1, 0, 1, 2, 3 ...
 
+{{< tip >}}
+
+If you come from a programming background, do note that what programming languages call integers is ever so silghtly different. Namely, mathematically integers include arbitarily large numbers, but in programming most `int` types are bounded by how many bits they can store, for exmaple, an 8 bit signed integer can only hold values ranging from -128 to 127.
+
+{{< /tip >}}
+
 #### ℚ - Rational Numbers
 
 Alright, so, what if we want to represent the number of slices in a pie? Sure, we could say that pie has been cut into 6 slices and 1 of the slices is gone, so 5 remain, but the obviously natural way to say this is 5/6 of the pie is left, and like that we've invented rational numbers.
