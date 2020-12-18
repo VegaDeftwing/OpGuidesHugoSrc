@@ -4,6 +4,12 @@
 
 The next few chapters are, regrettably, necessary for developing your knack. Math, Physics, and Chemistry and fundamental to all engineering fields and while something about each of the three subjects finds a way to make the 16 year old highschooler in us release a long, exasperated groan. I think this is mostly due to each of these things being taught in a way that takes the fun and interesting parts out and replaces them with trying to learn skills that have largely been outdated by the advent of calculators, computers, and the internet. With that, let's jump into it:
 
+{{< tip >}}
+
+As with all of OpGuides, please skip around as necessary. I suspect the start of this math chapter will be stuff many readers already know, especially those currently in college.
+
+{{< /tip >}}
+
 # Chapter 11 - Math
 
 some motivation, Klein bottle guy, non-euclidean games, fractals, colatz conjecture, ...
