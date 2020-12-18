@@ -819,7 +819,7 @@ A lot of these come down to graphs that purposefully play with axis or do other 
 
 So, fuck their formatting. We should do it the Gemini way: Let the client handle the data display, and make the graphs interactive. If it's a two bar chart with one bar at 54.5% and one bar at 55.0%, that should be what the user sees first and only then can zoom in.
 
-> This is already easy enough to do with something like https://d3js.org/
+> This is already easy enough to do with something like https://d3js.org/, but it would need to be on the client side, and the server would just have to send the raw data + a preferred way to render it (bar chart or whatever), otherwise the problem is still there. Over time standards could grow to support more display formats. This would have the side effect of making it easier to author data and make web pages in the first place.
 
 This also makes it easier to compare data sets, as now the client actually has access to the source data, or at least the data that drew the graph.
 
