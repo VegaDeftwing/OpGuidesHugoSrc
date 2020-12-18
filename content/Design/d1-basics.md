@@ -23,3 +23,5 @@ https://twitter.com/miyuliart/status/1337423295814176768 (NSFWish I guess?)
 
 
 Things like digi shoes, tail holes in clothing, tail bags, etc. really help make characters feel like they're part of an actual world.
+
+[Cat Girl Headphones (Twitter, @foone)](https://twitter.com/Foone/status/1338310670488535040)
