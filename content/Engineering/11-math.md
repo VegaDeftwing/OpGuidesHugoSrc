@@ -72,9 +72,19 @@ Yep, that's pretty much everyone's first reaction. What in the hell is an imagin
 
 Well, okay, rember before how I said a square root was just whatever number you need to muliply with itself to get the number, so {{< katex >}} \sqrt{4} = 2 {{</ katex >}}? This has a problem, a negitive number times a negitive number is always positive, so {{< katex >}} 3 * 3 = 9, -3 * 3 = -9, \text{ but } -3 * -3 = 9 {{</ katex >}} So, what would the square root of a negitive number be? There are no two numbers that can multiply to give us -1, so, we made one up! {{< katex >}} \sqrt{-1} = i {{</ katex >}}
 
+furthermore, {{< katex >}} \sqrt{-4} = 2i {{</ katex >}}
+
+i being equal to {{< katex >}}\sqrt{-1}{{</ katex >}} has some interesting properties with exponents. Naturally exponentiation is the inverse of a root, that is {{< katex >}} 3^2 = 9, \text{ as } \sqrt{9} = 3 \text{ implies that } \sqrt{9}^2=9{{</ katex >}},
+
+When taken to negitive numbers, we can see this effect, so {{< katex >}} \sqrt{-1}^2=-1 \text{ implies } \sqrt{-1}^2 = i^2 = i* i = -1{{</ katex >}}
+
+So what if we keep taking *i* to higher powers?
+
+ {{< katex >}} i * i = i^2 = -1 \text{ and } i * i * i = i^3 = -i \text{ and } i * i * i *i = i^4 = 1{{</ katex >}} then this pattern repeats, so {{< katex >}} i^5 =  i^4 * i = 1 * i = i \text{ and } i^6 = i^4 * i^2 = -1 \text{ and so on,  } i^7 = -i,  i^8 = 1, i^9 = i {{</ katex >}} and so on.
+
 {{< tip >}}
 
-Note, you may also see 'j' used instead 'i' to represent complex numbers.
+Note, you may also see 'j' used instead 'i' to represent imaginary numbers.
 
 {{< /tip >}}
 
