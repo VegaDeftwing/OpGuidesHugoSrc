@@ -26,11 +26,11 @@ Natural Numbers are the dead basic set of numbers, 1, 2, 3, 4, 5, etc. note, thi
 
 #### ℤ - Integers
 
-Alright, Natural and Whole numbers are great and all, but what if we want to represent a deficit or debt? Negative numbers would definitely be nice- introducing *Integers*, this is just the set of Whole numbers *and* the their inverseses, so .... -3, -2, -1, 0, 1, 2, 3 ...
+Alright, Natural and Whole numbers are great and all, but what if we want to represent a deficit or debt? Negative numbers would definitely be nice- introducing *Integers*, this is just the set of Whole numbers *and* the their inverses, so .... -3, -2, -1, 0, 1, 2, 3 ...
 
 {{< tip >}}
 
-If you come from a programming background, do note that what programming languages call integers is ever so silghtly different. Namely, mathematically integers include arbitarily large numbers, but in programming most `int` types are bounded by how many bits they can store, for exmaple, an 8 bit signed integer can only hold values ranging from -128 to 127.
+If you come from a programming background, do note that what programming languages call integers is ever so slightly different. Namely, mathematically integers include arbitrarily large numbers, but in programming most `int` types are bounded by how many bits they can store, for example, an 8 bit signed integer can only hold values ranging from -128 to 127.
 
 {{< /tip >}}
 
@@ -70,7 +70,7 @@ Finally, we're up to the normal number line, that is, we now have the set of all
 
 Yep, that's pretty much everyone's first reaction. What in the hell is an imaginary number?
 
-Well, okay, rember before how I said a square root was just whatever number you need to muliply with itself to get the number, so {{< katex >}} \sqrt{4} = 2 {{</ katex >}}? This has a problem, a negitive number times a negitive number is always positive, so {{< katex >}} 3 * 3 = 9, -3 * 3 = -9, \text{ but } -3 * -3 = 9 {{</ katex >}} So, what would the square root of a negitive number be? There are no two numbers that can multiply to give us -1, so, we made one up! {{< katex >}} \sqrt{-1} = i {{</ katex >}}
+Well, okay, remember before how I said a square root was just whatever number you need to multiply with itself to get the number, so {{< katex >}} \sqrt{4} = 2 {{</ katex >}}? This has a problem, a negative number times a negative number is always positive, so {{< katex >}} 3 * 3 = 9, -3 * 3 = -9, \text{ but } -3 * -3 = 9 {{</ katex >}} So, what would the square root of a negitive number be? There are no two numbers that can multiply to give us -1, so, we made one up! {{< katex >}} \sqrt{-1} = i {{</ katex >}}
 
 furthermore, {{< katex >}} \sqrt{-4} = 2i {{</ katex >}}
 
@@ -92,7 +92,7 @@ While you're inital reaction may be "Who cares?", I assure you you'll see the va
 
 #### ℂ - Complex Numbers
 
-Complex numbers then, the end of this adventure for most sane people, are just Real numbers with imagianry numbers, written together, so this is numbers like {{< katex >}} 32 + 4i \text{ or } 420.69 - 2i{{</ katex >}}. This brings about something called the complex plane, as now if we want to plot these numbers we can no longer use a simple number line, but instead need an axis for each part, one for the Real (ℝ) part, and one for the imaginary part.
+Complex numbers then, the end of this adventure for most sane people, are just Real numbers with imaginary numbers, written together, so this is numbers like {{< katex >}} 32 + 4i \text{ or } 420.69 - 2i{{</ katex >}}. This brings about something called the complex plane, as now if we want to plot these numbers we can no longer use a simple number line, but instead need an axis for each part, one for the Real (ℝ) part, and one for the imaginary part.
 
 Here's a video to help you understand imaginary and complex numbers, albeit it does assume you've at least seen both a little bit before.
 
@@ -104,7 +104,48 @@ Here's a video to help you understand imaginary and complex numbers, albeit it d
 
 #### +, -, *, ÷, mod
 
+If you don't know that addition, subtraction, multiplication, and division are, I think you're in the wrong place...
+
+That said, there are some things you may not be used to. For starters, multiplication can be written in a variety of ways. of course there's the classic {{< katex >}} 2 \times 2 = 4 {{</ katex >}} but you may also see {{< katex >}} 2 \cdot 2 = 4 {{</ katex >}} or {{< katex >}} 2 * 2 = 4 {{</ katex >}} or just {{< katex >}} 2(2) = 4 {{</ katex >}}, where parentheses with no operation in between imply multiplication.
+
+Typically, the {{< katex >}} 2 \cdot 2 = 4 {{</ katex >}} and parentheses methods are used on paper, while the {{< katex >}} 2 * 2 = 4 {{</ katex >}} is used on computer screens as it's easy to type. {{< katex >}} 2 \times 2 = 4 {{</ katex >}} is generally not preferred as it can be confused with other operations you'll see later.
+
+Something to keep in mind is that addition and multiplication are both, both commutative and associative, while subtraction and division are not. What this means is that while {{< katex >}} 2 + 3 = 3 + 2 \text{ but, } 2 - 3 \neq 3 - 2 {{</ katex >}} (The Commutative Property) similarly, {{< katex >}} 2 * 3 = 3 * 2 \text{ but, } 2 \div 3 \neq 3 \div 2 {{</ katex >}}
+
+Furthermore, {{< katex >}} (2 + 3) + 4 = 3 + (2 + 4) \text{ but, } (2 - 3) - 4 \neq 2 - (3 - 4) {{</ katex >}} and {{< katex >}} (2 * 3) * 4 = 3 * (2 * 4) \text{ but, } (2 \div 3) \div 4 \neq 2 \div (3 \div 4) {{</ katex >}}, by the Associative Property. 
+
+For division, there's some terminology you should know. First of all, in {{< katex >}} \frac{a}{b} {{</ katex >}}, a is the *numerator* and b is the *denominator*. The *reciprocal* of {{< katex >}} \frac{a}{b} {{</ katex >}} is {{< katex >}} \frac{b}{a} {{</ katex >}}. This is actually pretty useful, for example, given {{< katex >}} \frac{a}{\frac{b}{c}} {{</ katex >}} you can write this as,  {{< katex >}} a * \frac{c}{b} {{</ katex >}}
+
+
+
+Modulo is something you'll see in programming a lot, in programming it's usually represented with the percent sign.
+
+Modulo is just the reminder after division, so 7%3 is 1, because 3 goes into 7 twice, with **1** left over.
+
 #### ^, √, !
+
+exponents, written as either {{< katex >}} a^x \text{ or }  {{</ katex >}}a^x or exp(x) if the base is 'e', that is {{< katex >}} e^x {{</ katex >}}, are pretty simple to understand, they're just repeated multiplication, so {{< katex >}} a^3 = a * a * a  {{</ katex >}}
+
+This results in a few 'rules' for exponents which are fairly easy to understand, with the exception of the not at all intuitive {{< katex >}} a^0 = 1  {{</ katex >}}
+
+| Exponent Rule                      | Assume a≠0 and b≠0                                           |
+| ---------------------------------- | ------------------------------------------------------------ |
+| Product Rule                       | {{< katex >}} a^x * a^y = a^{x+y}  {{</ katex >}}            |
+| Quotient Rule                      | {{< katex >}} a^x / a^y = a^{x-y}  {{</ katex >}}            |
+| Power Rule                         | {{< katex >}}  (a^x) ^y = a^{x*y}{{</ katex >}}              |
+| Power of a Product Rule            | {{< katex >}} (a*b)^x = a^x*b^x  {{</ katex >}}              |
+| Power of a Fraction Rule           | {{< katex >}} (\frac{a}{b})^x = (\frac{a^x}{b^x}) {{</ katex >}} |
+| Fractional Exponent                | {{< katex >}} a^{\frac{x}{y}} = \sqrt[y]{a^x} {{</ katex >}} |
+| Negitive Exponent                  | {{< katex >}} a^{-x} = \frac{1}{a^x} {{</ katex >}}          |
+| Zero Exponent **¡easy to forget!** | {{< katex >}}  a^0 = 1 {{</ katex >}}                        |
+
+alright, so why do I say these are intuitive? Let's take the product rule for example. Let's look at {{< katex >}}  2^2 * 2^3 = 2^5 {{</ katex >}} this is true because {{< katex >}}  2^2 = 2*2 , 2^3 = 2 * 2 * 2 \text{, so multiplied together they're }(2 * 2) * (2 * 2 * 2) \text{ and as multiplication is associative that is } 2*2*2*2*2 =  2^5 {{</ katex >}}, generally, any of these rules can be figured out by just writing out examples like these, expanding the exponent out like this, and seeing what happens.
+
+Alright, so now we can look at roots. The most common root you'll work with is the square root, which is what is implied when seeing a root symbol with no number in the crevice, though can be written explicitly as {{< katex >}} \sqrt[2]{n} {{</ katex >}}, though as you should've notice in the exponent rules other roots are possible, for example the cube root, which is {{< katex >}} \sqrt[3]{n} {{</ katex >}} is just whatever number you need to multiply with itself 3 times to get n, so for example {{< katex >}} \sqrt[3]{8} = 2 \text{ as } 2 * 2 * 2 = 8 {{</ katex >}}
+
+As implied by the Fractional exponent rule, roots can be written as fractional exponents, that is {{< katex >}} \sqrt[2]{n} = n^{1/2} {{</ katex >}} often it's actually more convenient to enter this notation into a calculator or programming language anyway. It can even just be nice for working on paper as when writing something like {{< katex >}} \frac{1}{\sqrt{ \text{some really long equation here}}} {{</ katex >}} it can be easy to miss the top bar and forget it's there, compared to {{< katex >}} \frac{1}{( \text{some really long equation here})^{\frac{1}{2}}} {{</ katex >}} where the power sticks out more.
+
+Finally, there's factorial, written with the **!**, it just means to multiply the number with the number prior down to 1, so  {{< katex >}} 4! = 4 * 3 *2 * 1 {{</ katex >}}
 
 #### <, >, ≤, ≥, ±, ≠, ≈, ∝, <<, >>,
 
