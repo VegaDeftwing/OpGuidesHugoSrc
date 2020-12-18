@@ -153,27 +153,117 @@ As implied by the Fractional exponent rule, roots can be written as fractional e
 
 Finally, there's factorial, written with the **!**, it just means to multiply the number with the number prior down to 1, so  {{< katex >}} 4! = 4 * 3 *2 * 1 {{</ katex >}}
 
-#### <, >, ≤, ≥, ±, ≠, ≈, ∝, <<, >>,
+#### =, <, >, ≤, ≥, ≠, <<, >>, ≈, ∝
 
-#### ±, |x|, ∆
+The equal sign is pretty obvious, it just means that what ever is on each side is equal. The implications of this will lead us deeper into algebra though as we actually solve equations. There's some really obvious equalities, those that lack variables, so things like {{< katex >}} 1 + 2 = 3 {{</ katex >}}  or any of the equalities shown to this point really. Where equality gets a bit more interesting is when there's an unknown (variable, same thing). For example, {{< katex >}} 1 + x = 3 {{</ katex >}} here we cane see pretty obviously that x must be 2. We'll go into how to actually solve for these unknows with non-obvious equations in a bit.
+
+Less Than and Greater Than are similarly simple, they just state that one side has a bigger number than the other. The '>' or '<' symbols should always 'eat' the bigger number, that is the open side faces the bigger number, and the pointy side points to the smaller. {{< katex >}} 2 < 3 {{</ katex >}} and  {{< katex >}} 4 > 3 {{</ katex >}} are examples of this. When variable are involved, it usually means there are multiple solutions. {{< katex >}} x > 3 {{</ katex >}} for example, is satisfied for any x greater than 3, right down to 3.0000000000...00001 al the way up to ∞. Similarly, there are 'or equal to' varients of less than and greater than, which are written with a bar underneath so {{< katex >}} x \geq 3 {{</ katex >}} is satisfied for x equal to 3 to ∞, so the 3 *is* included with the 'or equal to part.'
+
+≠ means 'Not Equal To', and as the name impiles it's just saying the two sides can't be equal so with {{< katex >}} x \neq 0 {{</ katex >}},  x can be any value, except for 0.
+
+Next are MUCH greater and less than, written with a doubble less than or greater than sign, so {{< katex >}} \gg \text{ or } \ll {{</ katex >}} these are weird for people new to the idea, because they're sort of fluid and depend on the situation. Generally they're used to say "This number is so small or large that it doesn't effect the outcome"
+
+Next up, is ≈ or "Approximately Equal To". This is for when you know your answer is off by some amount, due to impercesion in computation but it's still close enough for whatever you need to use it for. For example {{< katex >}} \pi \approx 3.1416 {{</ katex >}}
+
+Finally, there's ∝ for 'porportional to'. This just means the two equations are only different by a multiplited constant. For example, say {{< katex >}} y = kx {{</ katex >}}, where k is a constant (some number that can't change) then {{< katex >}} y \propto x {{</ katex >}}. This is useful for when two equations are representing something massively different in scale, but we want to indicate that they have the same behavior.
+
+#### |x|, ∆, ⌊x⌋, ⌈x⌉, ±
+
+The {{< katex >}} |x| {{</ katex >}} symbol means "Absolute Value", which, is really just a fancy way of saying "Make it positive.", so {{< katex >}} |3| = 3 {{</ katex >}}, no change, but {{< katex >}} |-3| = 3 {{</ katex >}}.
+
+Delta, {{< katex >}} \Delta {{</ katex >}}, is the change between two things, so from 10 to 20 degrees is a delta of 10 degrees. It is usally used with real units like this, giving us the difference between the final and inital values in an experiment. So really it's just Final Value - Initial Value. You may also see {{< katex >}} \delta t {{</ katex >}} or {{< katex >}} \Delta x {{</ katex >}}, this would be change in time and change in position (usually) respectively. Note that Δ can be negitive.
+
+{{< katex >}} \left \lfloor{x}\right \rfloor {{</ katex >}} is the 'floor' of x. Similarly, {{< katex >}} \left \lceil{x}\right \rceil {{</ katex >}} is the 'ceiling' of x. Very basically, For floor this just means to take the decmial right of, so {{< katex >}} \left \lfloor{1.534}\right \rfloor = 1 {{</ katex >}}. For ceiling, it means to go up 1 and take the decimal off. {{< katex >}} \left \lceil{1.001}\right \rceil = 1{{</ katex >}} 
+
+Finally, for lack of a better place to put it, let's look at ±. This is 'Plus or Minus' and it just means to do both, for example 3±2 gives us 1 and 5 as answers. Usually when this symbol is used, one of the two answers ends up being thrown out as invalid, but not always. 
 
 #### *f* (*x*), (*f* ∘ *g*)
 
+[TODO]
+
 #### (*a*,*b*), [a, b]
 
+[TODO]
+
 #### ∑, Π
+
+[TODO]
 
 https://www.rapidtables.com/math/symbols/Basic_Math_Symbols.html
 
 ### Order of Operations
 
-stupid facebook memes
+{{< columns >}}
+
+![](/mathmeme.jpg)
+
+{{< attribution >}}
+
+[Yes, I did make my own stupid math meme just for this. Fite me.]()
+
+{{< /attribution >}}
+
+<--->
+
+We've all seen these incredibly stupid memes going around social media at one point (Reason №876 to quit FaceBook), but why do people argue over the answer? The real answer is because it's a really stupid problem. It has ambuguity baked into it, because of a lack of perentheses the solution is truly a bit ambiguous. That said, the 'accepted' correct answers will either be 2/3 or 6 because of PEMDAS, which is, in itself a crappy acroynm, and sholud probably be written as (PE)(MD)(AS), let me explain.
+
+{{< /columns >}}
+
+PEMDAS stands for Perentheses, Exponents, Multiplication, Division, Addition, Subtraction, and is in general the correct order to do math operations. so given a mess like {{< katex >}} \frac{4*(1 + 2)^3}{2+1} + 1 {{</ katex >}} we can solve it in order. Here though, I have to point out the first failing in the PEMDAS accronym, division implies perentheses, as you'll have to do the 2+1 on the bottom before you can do the divison anyway. That said, let's look at this step by step
+
+{{< katex display >}}
+
+\frac{4*(1 + 2)^3}{2+1} + 1 = \frac{4*(3)^3}{2+1}  + 1= \frac{4*(3)^3}{3} + 1 = \frac{4*9}{3} + 1= \frac{36}{3} +1  = 12+1 = 13
+
+{{< /katex >}}
+
+In step 1 and 2 I did perenthes in top and the implied perenthes on the bottom, then in step 3 I did the exponent, followed by the multipliation and divison in steps 4 and 5, finally in the last step I did the +1 that was hanging off the entire time.
+
+{{< hint info>}}
+
+The P for Perenthes in PEMDAS can mean really any grouping symbol, so brackets [] or braces {}, whatever.
+
+{{< /hint >}}
+
+So, what's the problem with with the math equation in the start and why do people disagree? Well, Divison and Multiplication don't have to be done in that order, same for addition and substraction, instead they should be done all together, but going from left to right, so {{< katex >}} 1 + 2 + 3 - 4 + 1 - 2 {{</ katex >}} for example can be done in order left to right giving us 1, **not** doing this: {{< katex >}} (1 + 2 + 3) - (4 + 1) - 2 {{</ katex >}} which gives -1. Just to be crystal clear, **1 not -1** is correct here. So, applying this to the above social media meme, it's the same problem but with multiplication, implied with the 3(3) after doing the addition, and the divison. Some people interpret PEMDAS literally, meaning multiplication is done before division *always*. These people are wrong. So, with the meme the problem looks like this:
+
+{{< katex display >}}
+
+\frac{6}{3(1+2)} = \frac{6}{3(3)} = \frac{6}{9} = \frac{2}{3}
+
+{{< /katex >}}
+
+But see what I did there? I wrote the fraction as a bar, not as **÷**, and here, because this problem is written crappily, that actually changes the solution! And I know what you're thinking- Division is divison, how could that matter?? And you're right, it is. It matters because the bar implies that order, but if I go back to using a division sign look what happens:
+
+{{< katex display >}}
+
+6\div3(1+2) = 6\div3(3) = 2(3) = 6​
+
+{{< /katex >}}
+
+And there's the problem. Now, you're probably thinking **"What fucking dipshit let math be ambiguous?"** and the answer is really that this problem is just stupid. In any real problem the ambuguity here should be fixed by whoever is writing it in the first place, and since other than in textbooks math doesn't just appear from thin air, the true order of the operations should be specified clearly with perentheses, either as 
+
+{{< katex display >}}
+
+6\div(3(1+2))) \text{   -OR-   } (6\div3)(1+2)) \text{   -OR-   } \frac{6}{3(1+2)}​
+
+{{< /katex >}}
+
+where in the last option the bar implies the perentheses.
+
+### Simplification
+
+
 
 ### Looking at some equations
 
 #### Linear
 
 #### Polynomial
+
+#### Systems of Equations
+
+Nobody should do these by hand unless they're dead simple
 
 
 

@@ -32,3 +32,6 @@ Figma
 
 ### Dark Patterns
 
+### Logos
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Alright, nerds<br><br>I filed a FOIA appeal and won the infamous NROL-39 surveillance satellite logo as a PDF.<a href="https://t.co/GypoZPnwsu">https://t.co/GypoZPnwsu</a><br><br>This ain&#39;t a scanned powerpoint. This is a resizable vector. You know what you must do. Unleash the swag. <a href="https://t.co/WZJXeBdHPi">pic.twitter.com/WZJXeBdHPi</a></p>&mdash; Ben Welsh (@palewire) <a href="https://twitter.com/palewire/status/1181611182882353152?ref_src=twsrc%5Etfw">October 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

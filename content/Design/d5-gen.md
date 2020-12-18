@@ -228,6 +228,8 @@ https://www.reddit.com/r/generative/comments/epja3d/mycelium/
 
 [Echo/printf to write images in 5 LoC with zero libraries or headers (Vidar's Blog)](https://www.vidarholen.net/contents/blog/?p=904)
 
+[10 innovative creative coding examples that are redefining programming (Shaping Design - Editor X)](https://www.editorx.com/shaping-design/article/creative-coding)
+
 
 
 [META: Hacker News Submission on this page, with a bit of discussion](https://news.ycombinator.com/item?id=24889333)

@@ -96,5 +96,7 @@
 
 * [An Orbit Map of the Solar System (Tabletop Whale)](http://tabletopwhale.com/2019/06/10/the-solar-system.html)
 
+* [A Thread from @foone about how cat girls can weard headphones](https://twitter.com/Foone/status/1338302831950921729)
+
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>
 
