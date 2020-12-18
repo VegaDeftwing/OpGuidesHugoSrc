@@ -724,7 +724,7 @@ That said, you can self host Single Sign-On (like the way 'Sign in With Google' 
 
 So, for now, users get fucked. There's really not any good options.
 
-That said, some things have gotten better [Webauthn](https://en.wikipedia.org/wiki/Single_sign-on) provides a much better way to authenticate with many services, including some that can provide Single Sign-On identities, often via those little [USB keys](https://www.yubico.com/products/) which are hugely better than the typical user name and password paradigm. 
+That said, some things have gotten better, [Webauthn](https://en.wikipedia.org/wiki/Single_sign-on) provides a much better way to authenticate with many services, including some that can provide Single Sign-On identities, often via those little [USB keys](https://www.yubico.com/products/) which are hugely better than the typical user name and password paradigm. 
 
 {{< tip >}}
 
@@ -732,24 +732,64 @@ Note, those USB security keys have updated in standard. The newer ones which sup
 
 {{< /tip >}}
 
+### Moderation of Content sucks
+
+[TODO] amazon fake products
+
 ## Presentation of Information Sucks
 
 {{< tip >}}
 I'll be the first to admit this website isn't the best on this. I put <a href='https://opinionatedguide.github.io/design/generative-art/'/>the list of generative design tools</a> in a MarkDown Table for fucks sake. I know. But, We'll get to that in a bit, in the Creating New Information Sucks section below, and I hope to convince you that isn't necessarily my fault.
 {{< /tip >}}
 
+This section is about how we view information, the presentation of words on a page, graphs, and information in general. To start, I want to look at something a little bit different.
+
+![](/gemini.jpg)
+
+This is the home page for a project called [Gemini](https://gemini.circumlunar.space), which is a sort of alternative internet, but, wait, hang on...
+
+{{< columns >}}
+
+![](/gemini2.jpg)
+
+<--->
+
+![](/gemini3.jpg)
+
+{{< /columns >}}
+
+These are both that same page, loaded in different browsers. Why do they look different?
+
+Well, Gemini does something you may thing strange: It let's the browser (client) handle the look of the page. It only serves the raw text. That's it. That's all you get.
+
+Now, I *do not* think this is a good idea for the general web. But, I do think as an idea, it can give us some valuable insights.
+
+Put a pin in it for now though, let me jump ahead into Dark Patterns:
+
 ### 'Dark Patterns'
 
-[This Site](https://darkpatterns.org/types-of-dark-pattern.html) has a lot of really good info on this, and I recommend heading over there and then coming back over here. 
+> A **dark pattern** is "a user interface that has been carefully crafted to trick users into doing things, such as buying overpriced insurance with their purchase or signing up for recurring bills"
+
+That's the definition from from Wikipedia anyway. I think it's a bit better put as "Dark Patterns are what happens when UI designed are a bag of dicks"
+
+[This Site](https://darkpatterns.org/types-of-dark-pattern.html) has a lot of really good info on Dark Patters, and I recommend heading over there and then coming back over here. 
+
+Oh, cool, you're back.
+
+The biggest dark pattern that drives me nuts is a bit of what that site calls 'Confirm Shaming' and a bit of 'Misdirection', I'm talking about sites that do this
 
 <div class="w3-container"><p><button class="w3-button w3-green w3-round-xxlarge w3-block">DO THE THING HERE</button></p></div>
 <div class="w3-container"><p><button class="w3-button w3-black w3-tiny w3-round-xxlarge">or don't and watch the world burn</button></p></div>
-<p>where the design is actively pursing an agenda. Instead the affirmative action should be stated on the button that triggers it and both actions given equal weight to the user.</p>
+<p>where the design is actively pursing an agenda. But it's not just those. Even ones that look semi reasonable can still be annoying if they don't include the action directly.  The affirmative action should be stated on the button that triggers it and both actions given equal weight to the user.</p>
 <div class="w3-bar">
   <button class="w3-bar-item w3-button w3-red" style="width:50%">Don't Do Action</button>
   <button class="w3-bar-item w3-button w3-green" style="width:50%">Do Action</button>
 </div>
-
+<p>for example</p>
+<div class="w3-bar">
+  <button class="w3-bar-item w3-button w3-red" style="width:50%">Leave Items in Place</button>
+  <button class="w3-bar-item w3-button w3-green" style="width:50%">Delete Items</button>
+</div>
 
 Note here by Action I literally mean to **include the verb.** Delete. Replace. Print. Etc. Yes or No *is not* good enough.
 
@@ -757,7 +797,35 @@ With destructive or irreversible actions, such as deletion (not recycling), give
 
 <img src="/delconfirm.png" alt="DelConfirm" style="zoom:50%;" />
 
+Alright, so back to Gemini: Making more things like it wouldn't totally solve this problem, designers could still totally chose to make the text confirm shame, but by letting more elements be controlled by the user (or their browser), we could at least do a little bit better by letting that ensure options to confirm or deny are given equal weight and that they are colored appropriately.
 
+It's not like this system couldn't be abused still of course, and there will always be a balance between the user trusting the service and it's UI and the beauty of that UI, but I think we could stand to go a bit in the direction of Gemini.
+
+### Misleading Information
+
+> I don't like 'em putting chemicals in the water that turn the freakin' frogs gay!
+
+{{< attribution >}}
+
+[Alex Jones](https://en.wikiquote.org/wiki/Alex_Jones) ヘ（゜◇、゜）ノ
+
+{{< /attribution >}}
+
+Yes. Misinformation online is a royal fucking shit show. There's no way to possibly preserve total free speech, [not that we should](https://en.wikipedia.org/wiki/Paradox_of_tolerance), and also have a system that doesn't spread misinformation to the extent that people stop vaccinating their kids or thinking that COVID is a hoax. I'm not trying to address that problem. If I could, I would. But I honestly think that's a genie we can't really put back in the bottle now.
+
+Instead, I think we could do some things to make it a bit harder to spread stupid, false information by making it a bit harder to present data in misleading ways. Sure, the data itself may still be bad, but, we can make an attempt to increase transparency and display data accurately. How? Well, first, go have a look at some [comically bad graphs (Statistics How To)](https://www.statisticshowto.com/misleading-graphs/). 
+
+A lot of these come down to graphs that purposefully play with axis or do other bullshit with the express intent of tricking you.
+
+So, fuck their formatting. We should do it the Gemini way: Let the client handle the data display, and make the graphs interactive. If it's a two bar chart with one bar at 54.5% and one bar at 55.0%, that should be what the user sees first and only then can zoom in.
+
+> This is already easy enough to do with something like https://d3js.org/
+
+This also makes it easier to compare data sets, as now the client actually has access to the source data, or at least the data that drew the graph.
+
+This practice could be incentivized too, as news, shopping, and review sites that use it could do so as a way to build trust with their users, and, probably more importantly for adoption, shit on their competitors that don't do the same.
+
+This may not ensure the data is good, but at least it makes progress in increasing how we can trust data to some extent.
 
 ### Information Overload
 
@@ -896,7 +964,7 @@ updates, file changes, or just scrolling on a screen - a refresh sholud let you 
 
 ## Open Sensors and Generators
 
-SDRs, new IO options (something shittier than USB, cheap, and extendible), open IOT
+SDRs, new IO options (something shittier than USB, cheap, and extendable), open IOT
 
 
 
@@ -904,7 +972,7 @@ SDRs, new IO options (something shittier than USB, cheap, and extendible), open 
 
 https://github.com/SolarLune/masterplan
 
-### Hardware for Open Expirimentation
+### Hardware for Open Experimentation
 
 Microfluid computers, diode logic, GPIO
 
@@ -933,7 +1001,7 @@ As mentioned above in **Presentation of Information -> Updates after Initial Dra
 But even just directly looking at speed and latency, there's still a ton of room for improvement. Why does the root file system not retain at least an index of other file systems to let you browse while a HDD spins up or a network connection is established? Why do so many damn things have   *s u c h   l o n g*   animations that have to complete before the user can continue? But most of all can we *please* stop building programs with electron or other things that are just full browsers for one program? Use literally anything else. The best way to lower latency is to use as little code as possible, good data structures, good libraries, and good tools. I said it contradicts to keep latency down when doing things that are heavy, but a lot can be done to make so much of what we use day to day substantially lighter to begin with with no loss in functionality. I understand why projects use Electron, but if you must please just use Flutter or Neutralino or Sciter or Ultralight even a game engine. Just, not something so heavy unless you need it? Please?
 * **Customizeability vs Default Inclusion**
 
-Microsoft browser choice windows
+[TODO] Microsoft browser choice windows
 
 
 
