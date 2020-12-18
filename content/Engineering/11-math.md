@@ -26,7 +26,7 @@ Natural Numbers are the dead basic set of numbers, 1, 2, 3, 4, 5, etc. note, thi
 
 #### ℤ - Integers
 
-Alright, Natural and Whole numbers are great and all, but what if we want to represent a deficit or debt? Negative numbers would definitely, be nice- introducing *Integers*, this is just the set of Whole numbers *and* the their inverseses, so .... -3, -2, -1, 0, 1, 2, 3 ...
+Alright, Natural and Whole numbers are great and all, but what if we want to represent a deficit or debt? Negative numbers would definitely be nice- introducing *Integers*, this is just the set of Whole numbers *and* the their inverseses, so .... -3, -2, -1, 0, 1, 2, 3 ...
 
 {{< tip >}}
 
@@ -38,7 +38,7 @@ If you come from a programming background, do note that what programming languag
 
 Alright, so, what if we want to represent the number of slices in a pie? Sure, we could say that pie has been cut into 6 slices and 1 of the slices is gone, so 5 remain, but the obviously natural way to say this is 5/6 of the pie is left, and like that we've invented rational numbers.
 
-A rational number is any number that can be written as an integer over an integer. so {{< katex >}} \frac{1}{2} \text{ and } \frac{-1}{2} {{< /katex >}} are both obviously valid, but 'improper' fractions, that is fractions where the top is bigger than the bottom, like {{< katex >}} \frac{4}{3} \text{ and } \frac{-3}{2} {{< /katex >}} are both valid too.
+A rational number is any number that can be written as an integer over an integer. so {{< katex >}} \frac{1}{2} \text{ and } \frac{-1}{2} {{< /katex >}} are both obviously valid. 'Improper' fractions, that is fractions where the top is bigger than the bottom, like {{< katex >}} \frac{4}{3} \text{ and } \frac{-3}{2} {{< /katex >}} are both valid too.
 
 Of note, these can be written as *mixed numbers* too, that is {{< katex >}} \frac{4}{3} = 1\frac{1}{3} {{< /katex >}}, as {{< katex >}} \frac{3}{3} = 1 \text{ so the remaining } \frac{1}{3} {{< /katex >}} is just written next to it.
 
