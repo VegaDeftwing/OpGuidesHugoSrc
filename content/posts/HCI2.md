@@ -363,7 +363,9 @@ In summary
 
 As a final note, I realize not everyone has space for a massive desk, but in that case, I think things like [this folding desk (YouTube, DIY Persk)](https://www.youtube.com/watch?v=QaoFh1DH51U) should be more common.
 
-[TODO] https://altwork.com/blogs/news/the-complexity-of-building-a-lie-down-workstation
+Further reading:
+
+[The Complexity of Building a Lie Down Workstation (altwork)](https://altwork.com/blogs/news/the-complexity-of-building-a-lie-down-workstation)
 
 ### Your Audio Sucks
 
@@ -632,24 +634,83 @@ I'm not the first to think on this subject by any means, [Programs are a prison:
 
 ### Search sucks
 
-* ads for half the page
-* Stuck on something you don't mean, unable to filter it out
-* Not knowing the word you need to look up in the first place
-* I'd like to see some sort of filter that can just kill swaths of sites though like a NOT_SOCIAL_MEDIA or NOT_CODE_HOSTING tags
-  * https://support.google.com/websearch/answer/2466433?hl=en & https://www.google.com/advanced_search
-* the ability to just set a list of bad sites. Like, please never ever show me any results from Pintrest
-* "It's more that I still think search engines could do a lot better both by making it easier to filter results, and by letting users do a sort of curation of topics and knowledge management. Honestly, I find what I'm looking for faster by just going to as close of a topic as I can think of on wikipedia and poking around links than I can by directly searching."
-* digging though endless pages
-  * also letting new content get a chance
-* Tracking
-* Google's information cards suck: https://twitter.com/xkcd/status/1333529967079120896
-* [Ask HN: Is there a search engine which excludes the world's biggest websites?](https://news.ycombinator.com/item?id=23202850)
+If you're like most people, you probably use Google Search, but also don't like Google Search. Google's search makes the entire top of the page ads, tracks you, and is just generally a bit invasive, but, you still probably use it instead of DuckDuckGo because the results often get you to what you're looking for faster.
+
+To some extent things have gotten better as it is gotten easier to search directly from the search bar, with more browsers supporting setting the search engine by a prefix in the url bar, so if, for example, I want to search wikipedia and directly go to an article, I can just put a 'w' before what I search:
+
+![](/wsearch.jpg)
+
+And this definitely helps, but it's also not enough.
+
+Search now regularly returns a number of results that is completely unprocessable by the human brain
+
+![](/resultcount.jpg)
+
+So, what can be done about this? Well, there's already a fair amount of advanced search options:
+
+{{< columns >}}
+
+![](/searchopts.jpg)
+
+<--->
+
+![](/advsearch.jpg)
+
+{{< /columns >}}
+
+But I honestly think these more or less miss the point of how people want to search, not to mention they're not super easy to remember. Being able to take things out in large swaths is often rather helpful, so why are there not options like NO_SOCIAL to get rid of all social media results.
+
+On a similar note, [Ask HN: Is there a search engine which excludes the world's biggest websites?](https://news.ycombinator.com/item?id=23202850) was posted a while back, and I agree with idea: often I can find better information on smaller sites, so I think there should be an option to just say NO_10K to drop the top 10 thousand most popular sites from the search results. I don't know if this is really the right way to do this though. Fortunately, I do think the resurgence of [Webrings](https://en.wikipedia.org/wiki/Webring) is improving that a bit.
+
+Finding something when you don't know the word for it exactly can be challenging too, especially if the correct term is also shared with something else (like looking for skateboard trucks but only searching the word 'Trucks'). This wouldn't be so bad, but sometimes trying to filter out the incorrect results doesn't work either, because of unforeseen overlaps. Unfortunately I don't know of a solution to this problem, as it's one of conveying intent.
+
+Often, I find what I'm looking for faster by just going to as close of a topic as I can think of on Wikipedia and poking around links than I can by directly searching.
+
+It'd also be nice to have the ability to just set a list of bad sites. Like, please never ever show me any results from Pintrest. 
+
+Google also needs to quit their shit with information cards:
+
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/FPQnLW60Vt">pic.twitter.com/FPQnLW60Vt</a></p>&mdash; Randall Munroe (@xkcd) <a href="https://twitter.com/xkcd/status/1333621855001976832?ref_src=twsrc%5Etfw">December 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Pay-Walls suck
 
-* Tons of things are behind a pay wall, even if publically funded
+Look, it's not that I don't think journalists shouldn't be paid. They should be. It's just that having everything behind a paywall blows. There's not any fun solution to this. Ads suck too. Nobody wants a web full of micro-transactions, and the idea of news sites mining crypto while I read bothers me too. So, let's just ignore the news sites for a second, and instead, focus on the much more offensive situation: academia and scholarly articles ([not that they're all good to begin with (YouTube, DefCon 26)](https://www.youtube.com/watch?v=ras_VYgA77Q))
+
+It's no secret that access to academic articles is *fucking* expensive. JSTOR alone is \$200 a year for only 85% of the content, some individual articles are well above $20 to read despite a huge portion of it being publicly funded in the first place, yet somehow these sites wonder why so many sites are turning to [Sci-Hub](https://en.wikipedia.org/wiki/Sci-Hub).
+
+[You Pay to Read Research You Fund. That's *Ludicrous* (WIRED)](https://www.wired.com/2016/04/stealing-publicly-funded-research-isnt-stealing/)
+
+But it's so much worse than that. Tons of information services are subscription based. So, the costs add up way worse. While it may seem like a bit of a stretch, I think it's pretty reasonable to call Netflix, Hulu, etc. all information sources as they often host documentaries, if we look at [The Cost of Every Streaming Service Per Month (TheStreet)](https://www.thestreet.com/lifestyle/best-streaming-services-cost-15166523), and assume just the most popular ones, so Netflix, Prime Video, and Hulu, it's already at **$418 a year.** Is it really any wonder why people are piracy again? Even if you subscribe to the theory that Piracy is a distribution problem and not a price problem, the pay walls are still the problem, as each service has it's own incentive to hoard as much exclusive content as possible and make their platform better than others for the price. This means that each platform runs on it's own standards and cross-compatibility is a real PITA. There are now websites and apps that specialize in just telling you which streaming service has what. Like what in the fresh fuck. 
 
 ### Authentication Sucks
+
+I'll bet cold, hard theoretical cash that you've put off turning on two factor for a service you don't give two shits about.
+
+I'll double my fictional money to bet that you have a junk password you use by default everywhere you don't give a shit.
+
+Hell, I'll go all in betting on saying you've authenticated with quite a few services by just using the <div class="w3-container" style="width:50%" ><p><button class="w3-button w3-blue w3-round-xxlarge w3-block">LOGIN WITH SOCIAL MEDIA</button></p></div> button, though possibly only because it was the only way to login to that service at all.
+
+Unfortunately, all of the above are probably not the best decisions.
+
+The top two points combined mean someone can find your password in previous [security breaches (haveibeenpwned)](https://haveibeenpwned.com/PwnedWebsites), and then just login in, easy as that.
+
+Using a social media login means that if you ever lose access to that account, either because Facebook or Google or Twitter or whatever decide to ban you or because you manage to forget you 'master' password and lock yourself out, you'll be locked out of everything you logged into those services with. Not to mention if someone manages to break into your Facebook or Goggle or Twitter or whatever they'll be able to login to any of those services too.
+
+And look, I'm guilty of all of the above too. Sure, a password manager helps with this, but that's still annoying too as sometimes you just need to quickly sign in on a device for a few minutes. As of right now there's just no good solutions that are secure, easy to use everywhere, and fine gained enough to let the user give permissions as they want, and not give extra permissions they don't want to.
+
+Alright, so just follow the normal advice and use long passwords?
+
+![](https://imgs.xkcd.com/comics/password_strength.png)
+
+{{< attribution >}}
+
+[xkcd #936](https://xkcd.com/936/)
+
+{{< /attribution >}}
+
+Yeah. No. Well sorta. Okay, let me explain. Yes, you should use long passwords for exactly the reason this comic explains. But really, we need to stop using passwords outright. They just sorta suck.
+
+[WebAuthn](https://en.wikipedia.org/wiki/WebAuthn), which is what those usb-security keys use, is a move in the right direction.
 
 File Permissions
 
@@ -700,7 +761,15 @@ Bobby Mikul, Times Square :CC0 -- [Source](https://www.publicdomainpictures.net/
 
 ### Updates after Initial Draw
 
-re-arranging menus
+Fuck your shit. Compute first, then display.
+
+This may be *the most irritating* thing I encounter with modern computers. Our brains and bodies, as much as we may wish them to, don't respond to stimuli right away. So, when I search for something, go to click something, and then while I'm moving the mouse to click the screen updates and a different link or icon is now in the spot I meant to click it's *really* fucking annoying.
+
+Window's built in search, especially with web results on, is a huge offender on this but Google and other search engines do it too.
+
+It's not just search either, I'm sure everyone has encountered this in various places.
+
+All you have to do is not change shit until you're done computing the answer, and then only change it once. This is about as simple as it gets and it avoids magical re-arranging menus that make everyone lose their shit.
 
 ### Everything needs to be more damn responsive
 
