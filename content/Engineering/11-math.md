@@ -295,6 +295,8 @@ https://en.wikipedia.org/wiki/List_of_mathematic_operators
 
 ## 4 - Calculus
 
+[] TODO limits before video
+
 {{< hint info >}}
 
 Below is a 12 video series that totals about 3.25 hours.
