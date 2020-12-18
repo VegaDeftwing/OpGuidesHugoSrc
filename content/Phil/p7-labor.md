@@ -6,6 +6,8 @@ slug: "Labor"
 
 # Labor and Compensation
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/c_X-812q_Jc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Economic Inequality
 
 [Wage Theft is a Much Bigger Problem Than Other Forms of Theft—But Workers Remain Mostly Unprotected](https://www.epi.org/publication/wage-theft-bigger-problem-forms-theft-workers/)
