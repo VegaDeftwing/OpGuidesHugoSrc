@@ -10,19 +10,77 @@ some motivation, Klein bottle guy, non-euclidean games, fractals, colatz conject
 
 ## 1 - Algebra
 
+{{< hint info>}}
+
+This section is a tad bit misnamed, as instead of covering just Algebra I'll be covering most things you'd learn in a high school Algebra class along side it, plus probably a bit extra. 
+
+{{< /hint >}}
+
 ### Number Systems
+
+To get started, let's look at 'Number Systems'. Essentially, there are a variety of 'types' of numbers, rather than get all philosophical let's just dive in and I think you'll get the gist.
 
 #### ℕ - Natural Numbers
 
+Natural Numbers are the dead basic set of numbers, 1, 2, 3, 4, 5, etc. note, this this doesn't include fractions, decimals, etc. or the number 0. **Whole Numbers** is the set of natural numbers *and* the number 0, so 0, 1, 2, 3...
+
 #### ℤ - Integers
+
+Alright, Natural and Whole numbers are great and all, but what if we want to represent a deficit or debt? Negative numbers would definitely, be nice- introducing *Integers*, this is just the set of Whole numbers *and* the their inverseses, so .... -3, -2, -1, 0, 1, 2, 3 ...
 
 #### ℚ - Rational Numbers
 
+Alright, so, what if we want to represent the number of slices in a pie? Sure, we could say that pie has been cut into 6 slices and 1 of the slices is gone, so 5 remain, but the obviously natural way to say this is 5/6 of the pie is left, and like that we've invented rational numbers.
+
+A rational number is any number that can be written as an integer over an integer. so {{< katex >}} \frac{1}{2} \text{ and } \frac{-1}{2} {{< /katex >}} are both obviously valid, but 'improper' fractions, that is fractions where the top is bigger than the bottom, like {{< katex >}} \frac{4}{3} \text{ and } \frac{-3}{2} {{< /katex >}} are both valid too.
+
+Of note, these can be written as *mixed numbers* too, that is {{< katex >}} \frac{4}{3} = 1\frac{1}{3} {{< /katex >}}, as {{< katex >}} \frac{3}{3} = 1 \text{ so the remaining } \frac{1}{3} {{< /katex >}} is just written next to it.
+
+Note, that rational numbers do include numbers with an infinite repeating decimal, that is while {{< katex >}} \frac{1}{2} \text{ can be written as } .5 {{< /katex >}}, {{< katex >}} \frac{1}{3} \text{ has a repeating decimal, } \frac{1}{3} = .333333... = .\overline{33} {{< /katex >}}, where the line over the 3's implies that the 3's repeat infinitely. This *is* still a rational number.
+
 ####   - Irrational Numbers
 
-#### ℝ - Imaginary Numbers
+Alright then, what's an irrational number?
+
+Well, this is easier to answer with a few examples, the most well know of which is {{< katex >}} \pi = 3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679821480865132823066470938446095505822317253594081284811174502841027019385211055596446229489549303819644288109756659334461284756482337867831652712019091456485669234603486104543266482133936072602491412737245870066063155881748815209209628292540917153643678925903600113305305488204665213841469519415116094330572703657595919530921861173819326117931051185480744623799627495673518857527248912279381830119491298336733624406566430860213949463952247371907021798609437027705392171762931767523846748184676694051320005681271452635608277857713427577896091736371787214684409012249534301465495853710507922796892589235420199561121290219608640344181598136297747713099605187072113499999983729780499... {{< /katex >}}
+
+... I think you get the idea.
+
+Irrational numbers are numbers where the decimal doesn't repeat and as such can *not* be written as an integer over another integer. Because pi is a geometrically defined constant, it may be easier to look at something a bit more tangible.
+
+the square root of a number is just the number that when multiplied with itself gives the number in question, so the square root of 4 is 2 because 2*2 is 4, the square root of 9 is 3 because 3\*3 is 9, etc.
+
+But what about the square root of 2? well {{< katex >}} \sqrt{2} = 1.414213562373.... {{</ katex >}} you get the idea. Like with pi, it's a number that goes on forever, with no repeating pattern.
+
+Later on you'll see other irrational constants like {{< katex >}} e = 2.718281828459.... {{</ katex >}} and The Golden Ratio {{< katex >}} \frac{1+\sqrt{5}}{2} = 1.618033988749.... {{</ katex >}}
+
+#### ℝ - Real Numbers
+
+Finally, we're up to the normal number line, that is, we now have the set of all numbers on the number line, all the way from -∞ to +∞, (often written as ±∞) pick any number, with as many random numbers before or after the decimal point as you want, and that's a real number.
+
+#### {{< katex >}} i {{</ katex >}} - Imaginary Numbers
+
+![](/wtf.gif)
+
+Yep, that's pretty much everyone's first reaction. What in the hell is an imaginary number?
+
+Well, okay, rember before how I said a square root was just whatever number you need to muliply with itself to get the number, so {{< katex >}} \sqrt{4} = 2 {{</ katex >}}? This has a problem, a negitive number times a negitive number is always positive, so {{< katex >}} 3 * 3 = 9, -3 * 3 = -9, \text{ but } -3 * -3 = 9 {{</ katex >}} So, what would the square root of a negitive number be? There are no two numbers that can multiply to give us -1, so, we made one up! {{< katex >}} \sqrt{-1} = i {{</ katex >}}
+
+{{< tip >}}
+
+Note, you may also see 'j' used instead 'i' to represent complex numbers.
+
+{{< /tip >}}
+
+While you're inital reaction may be "Who cares?", I assure you you'll see the value of this in a bit.
 
 #### ℂ - Complex Numbers
+
+Complex numbers then, the end of this adventure for most sane people, are just Real numbers with imagianry numbers, written together, so this is numbers like {{< katex >}} 32 + 4i \text{ or } 420.69 - 2i{{</ katex >}}. This brings about something called the complex plane, as now if we want to plot these numbers we can no longer use a simple number line, but instead need an axis for each part, one for the Real (ℝ) part, and one for the imaginary part.
+
+Here's a video to help you understand imaginary and complex numbers, albeit it does assume you've at least seen both a little bit before.
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/5PcpBw5Hbwo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Hypercomplex numbers](https://en.wikipedia.org/wiki/Hypercomplex_number) are also a thing, this term includes [Quaternions](https://en.wikipedia.org/wiki/Quaternion) which are used in some very high level physics, but otherwise you'll most likely never work with these.
 
