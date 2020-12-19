@@ -632,6 +632,8 @@ If you do think "huh, I could go for a fish tank", I will warn you most produce 
 
 {{< /hint >}}
 
+---
+
 ## Chapter 2: The Digital
 
 Alright, now onto the fun stuff, I think I've established that the physical side of how we use a computer is sub optimal, but what about how we actually do the things we do day to day? I think, for the most part, these things can be put into a few categories:
@@ -710,6 +712,8 @@ But it's so much worse than that. Tons of information services are subscription 
 >
 > **Authorization** is what the user and service can do, or what 'permissions' you grant the service and what you're allowed to do on the service.
 
+**Authentication:**
+
 I'll bet cold, hard fictional cash that you've put off turning on two factor for a service you don't give two shits about.
 
 I'll double my fictional money to bet that you have a junk password you use by default everywhere you don't give a shit.
@@ -753,6 +757,10 @@ That said, some things have gotten better, [Webauthn](https://en.wikipedia.org/w
 Note, those USB security keys have updated in standard. The newer ones which support WebAuthn are a bit more expensive and less common. The standards are confusing to understand, but the TLDR is you want something that supports WebAuthn/FIDO2.</br>The older standard, U2F, is a two factor system while the FIDO2/Webauth keys can outright replace passwords on the service
 
 {{< /tip >}}
+
+**Authorization:**
+
+[TODO]
 
 ### Moderation of Content sucks
 
@@ -911,11 +919,17 @@ All you have to do is not change shit until you're done computing the answer, an
 
 *Fuck your 𝒻𝒶𝓃𝒸𝓎 animations.*
 
+[TODO]
+
 ### Advertising
 
 * Mixed into content, non-obvious
 
+[TODO]
+
 ## Storing Information Sucks
+
+[TODO]
 
 https://lbry.io/
 
@@ -969,7 +983,11 @@ The biggest problem with of course, is that currently home internet users very r
 
 ## Transferring Information Sucks
 
+[TODO]
+
 ### Networking Sucks
+
+[TODO]
 
 * Everything is centralized
 * ipv4 is broken
@@ -988,7 +1006,11 @@ The biggest problem with of course, is that currently home internet users very r
 
 ### Local Backups By Default
 
+[TODO]
+
 ### Physical Interaction
+
+[TODO]
 
 I also think the boundaries of physical and digital should be more blurred. I'd love if I could set a book on my desk and search though it for an idea or concept by mere image recognition of the cover, or if it's an unknown book at least being able to digest any pages shown to it explicitly. Say a section was highlighted? It would be great if that were automatically added to a *personal journal file of sorts* for future reference, especially if related data were automatically associated with online sources, or links made to people who are interested in similar subjects.
 
@@ -1005,6 +1027,8 @@ A better camera won't make you a photographer, but it might be the difference be
 {{< /hint >}}
 
 I think I've generally made the case that our tools suck so far, but here's where I think things can get really interesting.
+
+[TODO]
 
 * Faster input
   * WYSIWYG sucks
@@ -1032,11 +1056,15 @@ Potentially this could also plug into the entire OS as well, making it so an ima
 
 ## Oh, and our systems are fucking racist and suck for anyone with special needs.
 
-
+[TODO]
 
 # What's Else Is Needed?
 
+[TODO]
+
 ## Script all the things! But Not Like That™
+
+[TODO]
 
 Visual Programming but still supporting text based programming, natural language scripting
 
@@ -1044,9 +1072,13 @@ everything is a file/folder (inc. full programs)
 
 ## Optional Security
 
+[TODO]
+
 Temple OS philosophy
 
 ## Backwards Compatibility via Compatibility Layers
+
+[TODO]
 
  AnIdiotOnTheNet's Comment on [This Hacker New's Submission - 'Re-Thinking the Desktop OS'](https://news.ycombinator.com/item?id=24783387)
 
@@ -1062,17 +1094,21 @@ Hardware compatibility via FPGA modules
 
 ## Hardware Modularity, Repairability, and Customization
 
-
+[TODO]
 
 ## Network Transparency
 
-
+[TODO]
 
 ## The Ability to go Back In Time
+
+[TODO]
 
 updates, file changes, or just scrolling on a screen - a refresh sholud let you return to the previous state, past notifications should be accessible 
 
 ## Open Sensors and Generators
+
+[TODO]
 
 SDRs, new IO options (something shittier than USB, cheap, and extendable), open IOT
 
@@ -1080,9 +1116,13 @@ SDRs, new IO options (something shittier than USB, cheap, and extendable), open 
 
 ## Software that breaks the mold
 
+[TODO]
+
 https://github.com/SolarLune/masterplan
 
 ### Hardware for Open Experimentation
+
+[TODO]
 
 Microfluid computers, diode logic, GPIO
 
@@ -1129,11 +1169,11 @@ On the other hand, one of the things I mentioned repeatedly was portability. Bro
 
 Or why **"I wish everybody used Linux!"** is probably not the wisest thing to say.
 
-
+[TODO]
 
 # What do we already have?
 
-
+[TODO]
 
 # What else is holding us back?
 
@@ -1141,7 +1181,7 @@ Or why **"I wish everybody used Linux!"** is probably not the wisest thing to sa
 
 Microsoft has been spending a lot of time changing to the new UI, and their calculator has been updated like a dozen times for UI now but still [SpeedCrunch](http://speedcrunch.org) remains 1000x more usable and tools like [WolframAlpha](https://www.wolframalpha.com) remain superior yet. Stop spending time on shit literally nobody gives a shit about.
 
-
+[TODO]
 
 
 
@@ -1151,11 +1191,13 @@ Microsoft has been spending a lot of time changing to the new UI, and their calc
 
 Another point is the idea of biohacking and body augmentation. Examples include implanted [RFID tags](https://dangerousthings.com/) (which I actually have) and magnets for sensing electromagnetic fields, though I think a lot of biohackers are missing the point. [This](https://www.youtube.com/watch?v=4c1lqFXHvqI) is the future I see in store.
 
+[TODO]
+
 ## Brain Computer Interfaces
 
 https://science.slashdot.org/story/20/10/26/2140202/no-implants-needed-for-precise-control-deep-into-the-brain
 
-
+[TODO]
 
 ## Wrapping up
 
@@ -1170,6 +1212,8 @@ Finally, I'd like to say I understand we don't all get the choice, be it by mone
 ---
 
 # Other hardware and software pushing things forward
+
+[TODO]
 
 https://hookproductivity.com -- Link all the things
 
@@ -1188,6 +1232,8 @@ https://arcan-fe.com/2020/02/10/leveraging-the-display-server-to-improve-debuggi
 
 
 # Other people that have ranted about similar things, but usually a bit more politely
+
+[TODO]
 
 https://mmcthrow-musings.blogspot.com/2020/04/a-proposal-for-flexible-composable.html
 
