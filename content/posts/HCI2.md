@@ -2,7 +2,7 @@
 title: "The Way We Interact With Computers Sucks."
 slug: "TheWayWeInteractWithComputersSucks"
 author: "Vega Deftwing"
-date: 2020-11-29
+date: 2020-12-18
 ---
 {{< tip >}}
 
@@ -128,7 +128,7 @@ Note, This mouse, the Lexip pu94, is a complete disaster and the result of what 
 
 However, using the Leap for everything would require you hold your hands out to point - something that anybody who ever owned a wii can tell you gets very tiring very quickly - and the Lexip PU94 would be far to awkward to use daily.
 
-So, I honestly don't know what the pointing device of the future looks like. Maybe it involves a mix of a mouse, finger tracking, eye control, and joysticks.
+So, I honestly don't know what the pointing device of the future looks like. Maybe it involves a mix of a mouse, finger tracking, eye control, and joysticks. The use of [WiiMotes for projection mapping](https://www.youtube.com/watch?v=wEeVMEzOmac) shows that there is room for using different devices for different kinds of input though.
 
 As for issues with current tech, mouse acceleration and touch pad responsiveness, and touch pad dead zone are all big problems and, like, I don't understand how that's a problem in 2020?
 
@@ -529,7 +529,7 @@ Note, the nimbus had issues when it did work, but is now a victim of IOT evoluti
 
 Just looking at the [Wikipedia Article on Noise Polution](https://en.wikipedia.org/wiki/Noise_pollution#Humans), it's pretty obvious that humans like to be somewhere where noise is kept to a minimum. There are of course questions about what you want to consider noise. Like, clearly above I made it clear I prefer mechanical keyboards which, as anyone that has been on a discord call can tell you, are rather loud. The difference is in it being noise you're causing, or background noise that you can't control. Fan noise from your computer, music from another room that you can't quite make out, a rattle from the HVAC system, that's *noise*. Somehow we've all gotten rather used to rather noisy environments.
 
-Don't get me wrong, improvements have been made. A lot of computers don't even run the fans when they're idle or you're just web browsing, LED bulbs don't have the ballasts that were required of old fluorescent bulbs that always found a way to whine, we no longer used CRT (Cathode Ray Tube) screens that had flyback transformers whining at the edge of human hearing either. But it's still not great. Even if none of the electronics in a room have fans or speakers or the other things you expect to make noise, you can still notice when a room has been shut off. And a lot of electronics do have fans, and they're often crap. Even the high end ones that PC building enthusiasts idolize like those from Noctua [are far from amazing](https://www.youtube.com/watch?v=6L4Lbh5GwzA&ab_channel=MajorHardware). 
+Don't get me wrong, improvements have been made. A lot of computers don't even run the fans when they're idle or you're just web browsing (plus the fans have gotten bigger, which means lower pitch, which is way less annoying), LED bulbs don't have the ballasts that were required of old fluorescent bulbs that always found a way to whine, we no longer used CRT (Cathode Ray Tube) screens that had flyback transformers whining at the edge of human hearing either. But it's still not great. Even if none of the electronics in a room have fans or speakers or the other things you expect to make noise, you can still notice when a room has been shut off. If you spend a lot of time surrounded by electronics like I do, not having the hum around is a mix of eerie and relaxing. But, still a lot of electronics do have fans, and they're often crap. Even the high end ones that PC building enthusiasts idolize like those from Noctua [are far from amazing](https://www.youtube.com/watch?v=6L4Lbh5GwzA&ab_channel=MajorHardware). 
 
 But, come on. Why are we not integrating at least some sound control into our architecture? Why is acoustic dampening something only used by streamers? Why are devices that we know get nasty [coil whine](https://en.wikipedia.org/wiki/Electromagnetically_induced_acoustic_noise) not being silenced by just adding some wax or glue to the inductors?
 
@@ -618,6 +618,20 @@ Coming back around to 'How is this relevant to how we interact with computers'?
 
 Well, I imagine you like to breathe while at your desk, and I also assume that you're using a device that uses electricity to read this, and that device is very likely *not* powered by renewable energy.
 
+### A Good Environment for Thought
+
+It's also worth considering what is in your space to keep visually appealing. Wires dangling over things, pealing paint, unorganized shelves, etc. are obviously off-putting, but I'd go the step further to say they actively interrupt productivity as they stick out and beg to be fixed. It's the standard scenario of not wanting to do homework until the room is clean. On the other hand, adding a bit of tactile flair can go a long way. It is tough to strike a good balance. I personally don't want art or static words (paintings with text, motivational posters etc.) in front of me in my work space as I find that distracting. Instead, a bit of sound dampening foam on the wall can go a long way, both for sound in a room and adding visual interest to the wall, and it's pretty cheap too.
+
+To keep your desk tidy a good start is just getting rid of your monitor's base and using a VESA mount to the wall or back of desk. the flexibility in position and extra available desk space goes a long way, and it's much, much more visually appealing.
+
+Rather paradoxically, I do see value in motion in the work space too. For example, [MIT's reactive table](https://www.youtube.com/watch?v=1fV-B0E9rP4) or those [fancy marble in sand tables](https://www.youtube.com/watch?v=Ztax9lCE-Mk) can add much needed visual motion to prevent a space from becoming stale. Hell, even a simple fish tank or plant that adds a bit of change with time make's a huge difference.
+
+{{< hint warning >}}
+
+If you do think "huh, I could go for a fish tank", I will warn you most produce a fair amount of noise with running water and motors for the air pump and filtration. There are some tanks that avoid both though, so don't immediately rule it out, just do your research.
+
+{{< /hint >}}
+
 ## Chapter 2: The Digital
 
 Alright, now onto the fun stuff, I think I've established that the physical side of how we use a computer is sub optimal, but what about how we actually do the things we do day to day? I think, for the most part, these things can be put into a few categories:
@@ -666,7 +680,15 @@ Finding something when you don't know the word for it exactly can be challenging
 
 Often, I find what I'm looking for faster by just going to as close of a topic as I can think of on Wikipedia and poking around links than I can by directly searching.
 
-It'd also be nice to have the ability to just set a list of bad sites. Like, please never ever show me any results from Pintrest. 
+It'd also be nice to have the ability to just set a list of bad sites. Like, please never ever show me any results from Pintrest.
+
+Thinking more into the future, I would very much like to see a world where data searching is context aware. For example, say I'm searching for a data sheet for an old vacuum tube and I have a schematic of an old amplifier open in another tab, I would love if the browser saw the context and changed the label in the schematic into a link to this datasheet. Furthermore, it would be great if it crawled the web and finished finding datasheets and linking them, possibly well before I even even got to that page in the first place. I know we don't have the tech to do this yet, especially not as a general purpose tool, but I like to think about the future. ¯\\_(ツ)_/¯
+
+Another point is the summery of information and omission of the irrelevant info. Say I were to look up bits in a byte, I don't necessarily need the historical context as to why bits are named bits and bytes, bytes, though even though I didn't search it, presenting that a nybble is 4 bits, and how to tell endinan-ness is more relevant, unless I had recently searched historical information or stated I wanted that explicitly. In my opinion we should be less concerned with finding relevant results and more concerned with discarding the irrelevant, though making the verbose available.
+
+I also think that bringing people together, potentially anonymously, based on search and knowledge could be extraordinary valuable. If as I'm looking up 'How to do X' and somebody else is looking up 'How to Do Y, an advanced topic from X' it would be fantastic if we could talk, albeit unobtrusively to the person being requested. It seems to me that searching is desperately lacking a social element and ranking system. How great would a simple Reddit like upvote system on any given search be? What if browsers added a comment system that was hosted though some sort of distributed network and tied to each page so people could leave comments on any site regardless of if the site has comment functionality built in? (Yes, I know this is ripe for spam and abuse, but let me dream...)
+
+
 
 Google also needs to quit their shit with information cards:
 
@@ -735,6 +757,22 @@ Note, those USB security keys have updated in standard. The newer ones which sup
 ### Moderation of Content sucks
 
 [TODO] amazon fake products
+
+### Content Linkage sorta sucks
+
+[TODO] wikipeda graph, Roam/Obsidian graph
+
+The digital world doesn't have to be lonely pages indexed like a book, why are we treating it as such? Today each page can point to any other page in a beautiful web of interconnected information, where each topic has lines of association spanning such that no two pages are unconnected. Wikipedia sort of has the simplest form of this, but what if we had systems so capable of automatic understanding - not just tagging - of information that any new info could propagate though that web naturally. Social linkage to people in the same graph, even if anonymous, could help connect people that together, due to their very specific knowledge, drive man kind further. I should clarify to, I literally mean a web/graph, possibly in 3D, relating and indexing information, possibly like these 3D views of Wikipedia: (though the data should probably be served 'raw' so that other presentation methods can be developed, as this definitely wouldn't be ideal for actually reading the content)
+
+![](/wikigalaxy.jpg)
+
+{{< attribution >}}
+
+[WikiGalaxy: Explore Wikipedia in 3D](http://wiki.polyfra.me#) ([wikiverse.io](https://www.wikiverse.io) is very similar and worth checking out too)
+
+{{< /attribution >}}
+
+Obviously this overly linked system is something that people would need to get used to. Until the advent of the WWW we've read information linearly, page by page. The web has allowed this tree traversal style of navigation so that any missed topic can be reviewed, but generally this is a system where the tree only builds down, to simpler information, from the current node. It seems weird to think about an algebra book where it suddenly references multidimensional calculus, but this is exactly what I'm implying. In my education there was uncountable times I had to learn something because 'it will be used later' with no explanation as to how or why. Linking back up the tree allows for information traversal in both directions, eliminating this problem.
 
 ## Presentation of Information Sucks
 
@@ -825,7 +863,11 @@ This also makes it easier to compare data sets, as now the client actually has a
 
 This practice could be incentivized too, as news, shopping, and review sites that use it could do so as a way to build trust with their users, and, probably more importantly for adoption, shit on their competitors that don't do the same.
 
+For those that still don't, it might be possible to spin up a system with some machine learning to extract data from graphs in static images, and then re-display them as dynamic content.
+
 This may not ensure the data is good, but at least it makes progress in increasing how we can trust data to some extent.
+
+This could have extra uses too. Having something that could take two 2D graphs with a common axis and turn it into one 3d graph would be incredible, particularly if that data could come from multiple sources across multiple domains. Combine this with the ability to change the type of graph and this could help expose otherwise non obvious trends.
 
 ### Information Overload
 
@@ -838,6 +880,16 @@ This may not ensure the data is good, but at least it makes progress in increasi
 Bobby Mikul, Times Square :CC0 -- [Source](https://www.publicdomainpictures.net/en/browse-author.php?a=2185)
 
 {{< /attribution >}}
+
+Information overload is increasingly becoming a problem. As more and more information is accessible at our fingertips and more advertisements have the opportunity to be beamed via any one of a number of surrounding screens directly into our retinas we need a way to filter it down to levels the human brain can cope with and digest.
+
+[TODO]
+
+Furthermore, the design should promote health. An example of this is Netflix's 'Are you still watching?' while this was implemented on their end to prevent unnecessary usage of data, it has the side effect of letting a user know they've been on the couch longer than should probably be advised. I'm not advocating for interruptions at every corner, just affirmative action by the user before bombardment with data. I do think as much data as possible should be linked to or aggregated, but force me to see more than what I request plus some surface level information. For something like YouTube this might mean playing a playlist is fine, but don't start playing another 'related' video when that list is over.
+
+[TODO]
+
+Beyond that, keeping the design minimal but powerful. I think markdown is a great example of this. Users aren't as dumb as people seem to think, we can, and do, learn the ways to make interaction with the things we use daily faster, so make the 'speed limit' as fast as it can be. Putting a frequently used option into a menu that needs to be clicked at all is much slower than assigning it a keyboard shortcut.
 
 [Five Years After Banning Outdoor Ads, Brazil's Largest City Is More Vibrant Than Ever](https://newdream.org/blog/sao-paolo-ad-ban)
 
@@ -863,13 +915,57 @@ All you have to do is not change shit until you're done computing the answer, an
 
 * Mixed into content, non-obvious
 
-## [Storing Information Sucks](https://opinionatedguide.github.io/posts/data-formats-backups-and-digital-purgatory/)
+## Storing Information Sucks
 
-{{< hint warning >}}
+https://lbry.io/
 
-This section I've put in a complete other article because It **sucks so hard** that it deserves it.
+https://datproject.org/
 
-{{< /hint >}}
+https://ipfs.io/
+
+* Archival is a pain in the ass
+* No good backup software
+* Phone<->PC is the fucking worst
+  * MTP needs to die a very painful death
+* All the best formats are a pain in the ass
+  * format shifting sucks, opening them sucks, patents suck
+  * https://bellard.org/bpg/
+* People use some really, really shit formats
+* A lot of formats are needlessly complicated and not human or computer readable to anyone but the software vendor
+* Data get's compressed, saved, and recompressed (ref xkcd)
+  * Using Waifu-2x to unfuck images still blows
+* sorting through data blows
+* no 'transaction history' or global text search
+* lack of file system based versioning
+* why the fuck are we still using NTFS and EXT4 and not ZFS and LVM
+* Hard drive vendors are a bag of dicks
+  * RPM != RPM
+  * SMR
+  * DRamless SSDs
+* Hard drives are just, bad
+  * Screaming at them makes them run worse
+    * I have a subwoffer right next to mine
+  * Feeling the inertia in a laptop
+* Cloud storage is a terrible idea
+
+
+
+I'd also like to mention the idea of distributed computation here as well, as I think it's relevant both for the sake of compression and encryption of the data. I think that having a distributed system like 'this' - I'm referring to all the ideas up until now- in place should ask for contribution from users in turn for it's use, the obvious ask is to get it to be self sufficient. So if the distributed computational power of all these systems were used for everything I've described until now that should be more than plenty to allow it to function. This brings up the idea of balanced usage to contribution, I think the easiest solution is to simply use a system of computational debt tied to each user account. If the user is creating more computational debt than the average debt the system can sustain then that user should be handicapped in bandwidth accordingly. This does sort of bring us full circle in 'can I just trade debt with someone, or sell them my computational time' such that we're back to crypto based services again though, and I really don't like this idea for two reasons: 
+
+1. This system needs real time computation and bandwidth, and these vary in value just like how electricity peak hours cost more.
+2. This incentives simply paying for compute time instead of actually contributing computational power to the network like it actually needs, which in turns creates an incentive for people to do this at scale *annnndd* look at that we're back to centralization.
+
+The biggest problem with of course, is that currently home internet users very rarely have symmetric connections, so would probably be very pissed if their download speed were suddenly tied to their upload speed. This *could* be offset by building up credit, as previously mentioned, but that has the issues, as previously mentioned. I suppose there could simply be a credit cap, but setting that would be exceedingly awkward as a logical number to use would vary by user and how they use the system.
+
+
+
+![XKCD Digital Data](/xkcddigitaldata.png)
+
+{{< attribution >}}
+
+[XKCD #1683](https://xkcd.com/1683/)
+
+{{< /attribution >}}
 
 ## Transferring Information Sucks
 
@@ -891,6 +987,10 @@ This section I've put in a complete other article because It **sucks so hard** t
 > 5) Switchable "user profiles" instead of "user accounts", which are an artifact of giant shared computer systems. User profile just contains personalized settings and can be located anywhere, including removable media so you can take yours to other computers. If you want to keep things safe from others, encrypt them. Otherwise there are no permissions except those applied to applications themselves.
 
 ### Local Backups By Default
+
+### Physical Interaction
+
+I also think the boundaries of physical and digital should be more blurred. I'd love if I could set a book on my desk and search though it for an idea or concept by mere image recognition of the cover, or if it's an unknown book at least being able to digest any pages shown to it explicitly. Say a section was highlighted? It would be great if that were automatically added to a *personal journal file of sorts* for future reference, especially if related data were automatically associated with online sources, or links made to people who are interested in similar subjects.
 
 ## Creating New Information Sucks
 
@@ -919,6 +1019,16 @@ I think I've generally made the case that our tools suck so far, but here's wher
 * Variety of formats, hard to shift between
   * mp4 or .gif?
 * Copyright is a real pain
+
+As far as how all of these tools should work and interact, well, I think they should all use standardized file formats, even if they have to abuse them a little to do so and that they should all have a common Application Programming Interface (API) for interaction. This would hopefully mean that any extension written for one program would work for another, and any program could talk to another. For example, currently the realm of music software has a little bit of this with VSTs and MIDI. but it still leaves a lot to be desired. I'd actually like to take it a step further though and ask that all data of any kind use a common enough format that it can be processed with any extension/program written with this API in mind. Imagine if you could use a synthesizer as a static generator for image manipulation, or color management controls as an EQ. Both would and should behave in strange way, and it's this very lack of defined behavior that could lead to interesting art forms. I'd love to see a 'Master' API that works across all formats and ideas with a common data type that allows for program⟺program, program⟺extension, program⟺hardware, etc. communication even in long, complicated chains. After all, if you've taken a signals and systems course you know that basically any data can be treated as a signal.
+
+This could be done with some sort of node based programming system. While I don't actually know how to use it, I think [Luna](https://www.luna-lang.org/) demonstrates this concept fairly well:
+
+ ![Luna](/luna.png)
+
+though there are plenty of other examples, like the node editors used for making shaders or programming in Unreal Engine
+
+Potentially this could also plug into the entire OS as well, making it so an image manipulation program's extension could for example modify anything output to the screen in real time, or an audio program could effect the output of anything. For developer's this may even offer more power, making possible things such as inter-process communication (think pipes, like `$ls -la | grep png`) a matter of connecting two nodes, or reading disk information such as activity, space, or even writeback and inode information, this would literally allow any one piece of information to be accessible to any other. This does have obvious permission issues, but unix permissions should already have this under control. If something like this could also be tied into the previously mentioned internet search and socialization 'web' without massive security concerns the potential use cases are as simple as getting color information from an image hosted online to as complicated as remote access or distributed computing.
 
 ## Oh, and our systems are fucking racist and suck for anyone with special needs.
 
@@ -1039,9 +1149,25 @@ Microsoft has been spending a lot of time changing to the new UI, and their calc
 
 ## Body Modification and Bio-Engineering
 
+Another point is the idea of biohacking and body augmentation. Examples include implanted [RFID tags](https://dangerousthings.com/) (which I actually have) and magnets for sensing electromagnetic fields, though I think a lot of biohackers are missing the point. [This](https://www.youtube.com/watch?v=4c1lqFXHvqI) is the future I see in store.
+
 ## Brain Computer Interfaces
 
 https://science.slashdot.org/story/20/10/26/2140202/no-implants-needed-for-precise-control-deep-into-the-brain
+
+
+
+## Wrapping up
+
+In all honestly I'm not exactly sure what everything I just wrote is about. Mostly it's just a lot of ranting, but hopefully it has been interesting. To round things off with a bit of a closing note though, I don't actually foresee many of the things I mentioned becoming common place or many even being possible, if not simply because they're require so many people to agree on [standards](https://xkcd.com/927/), but there is one glimmer of hope, and it's one of proof of uniformity. The terminal. Yes. This terminal:
+
+![terminal](/2019-02-08-194844_3241x2113_scrot.png)
+
+The terminal emulator above is still compatible with the VT220 from 1983 (as are most terminal emulators) yet from it, with a good shell (like ZSH) I can do everything I can really think of: [browse the web](https://askubuntu.com/questions/29540/browsing-the-internet-from-the-command-line), [chat with friends](https://www.omgubuntu.co.uk/2016/10/use-telegram-cli-in-terminal-ubuntu),[ listen to music](https://wiki.archlinux.org/index.php/ncmpcpp), [basically anything](http://www.tuxarena.com/2014/03/20-great-terminal-replacements-for-gui-applications/). I'm not saying we should all stop using chrome, but I think part of the reason so many neck beards and sysadmins still use the terminal is you can do so much with it, everything that uses it as a common interface, and it has programming capabilities. You can automate or string together just about anything, exactly as I described above. 
+
+Finally, I'd like to say I understand we don't all get the choice, be it by monetary, physical, or other restrictions, to have a 'perfect' work environment. If you live in the city there will be noise, If you live in the country, you may be limited by your internet connection, I get that. Obviously I don't expect everyone to go out and make their own versions of some of the high tech, borderline art installations that I linked either. I also don't think everyone's down to go get an RFID tag in their hand. I just wanted to present what I see as 'the future'. It probably won't come in 2021 or even 20021. I do, however, hope this has inspired you to look at the way you work, the environment you work in, and how you can improve it.
+
+---
 
 # Other hardware and software pushing things forward
 
