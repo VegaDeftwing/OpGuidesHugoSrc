@@ -1,4 +1,4 @@
 [submodule "public"]
 	path = public
-	url = https://github.com/opinionatedguide/opinionatedguide.github.io
+	url = https://github.com/VegaDeftwing/opinionatedguide
 	branch = master
