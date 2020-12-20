@@ -157,11 +157,11 @@ Finally, there's factorial, written with the **!**, it just means to multiply th
 
 The equal sign is pretty obvious, it just means that what ever is on each side is equal. The implications of this will lead us deeper into algebra though as we actually solve equations. There's some really obvious equalities, those that lack variables, so things like {{< katex >}} 1 + 2 = 3 {{</ katex >}}  or any of the equalities shown to this point really. Where equality gets a bit more interesting is when there's an unknown (variable, same thing). For example, {{< katex >}} 1 + x = 3 {{</ katex >}} here we cane see pretty obviously that x must be 2. We'll go into how to actually solve for these unknows with non-obvious equations in a bit.
 
-Less Than and Greater Than are similarly simple, they just state that one side has a bigger number than the other. The '>' or '<' symbols should always 'eat' the bigger number, that is the open side faces the bigger number, and the pointy side points to the smaller. {{< katex >}} 2 < 3 {{</ katex >}} and  {{< katex >}} 4 > 3 {{</ katex >}} are examples of this. When variable are involved, it usually means there are multiple solutions. {{< katex >}} x > 3 {{</ katex >}} for example, is satisfied for any x greater than 3, right down to 3.0000000000...00001 al the way up to ∞. Similarly, there are 'or equal to' varients of less than and greater than, which are written with a bar underneath so {{< katex >}} x \geq 3 {{</ katex >}} is satisfied for x equal to 3 to ∞, so the 3 *is* included with the 'or equal to part.'
+Less Than and Greater Than are similarly simple, they just state that one side has a bigger number than the other. The '>' or '<' symbols should always 'eat' the bigger number, that is the open side faces the bigger number, and the pointy side points to the smaller. {{< katex >}} 2 < 3 {{</ katex >}} and  {{< katex >}} 4 > 3 {{</ katex >}} are examples of this. When variable are involved, it usually means there are multiple solutions. {{< katex >}} x > 3 {{</ katex >}} for example, is satisfied for any x greater than 3, right down to 3.0000000000...00001 all the way up to ∞. Similarly, there are 'or equal to' varients of less than and greater than, which are written with a bar underneath so {{< katex >}} x \geq 3 {{</ katex >}} is satisfied for x equal to 3 to ∞, so the 3 *is* included with the 'or equal to part.'
 
 ≠ means 'Not Equal To', and as the name impiles it's just saying the two sides can't be equal so with {{< katex >}} x \neq 0 {{</ katex >}},  x can be any value, except for 0.
 
-Next are MUCH greater and less than, written with a doubble less than or greater than sign, so {{< katex >}} \gg \text{ or } \ll {{</ katex >}} these are weird for people new to the idea, because they're sort of fluid and depend on the situation. Generally they're used to say "This number is so small or large that it doesn't effect the outcome"
+Next are MUCH greater and less than, written with a doubble less than or greater than sign, so {{< katex >}} \gg \text{ or } \ll {{</ katex >}} these are weird for people new to the idea, because they're sort of fluid and depend on the situation. Generally they're used to say "This number is so small that it doesn't effect the outcome" or "This number is large that it domininates the outcome"
 
 Next up, is ≈ or "Approximately Equal To". This is for when you know your answer is off by some amount, due to impercesion in computation but it's still close enough for whatever you need to use it for. For example {{< katex >}} \pi \approx 3.1416 {{</ katex >}}
 
@@ -171,9 +171,15 @@ Finally, there's ∝ for 'porportional to'. This just means the two equations ar
 
 The {{< katex >}} |x| {{</ katex >}} symbol means "Absolute Value", which, is really just a fancy way of saying "Make it positive.", so {{< katex >}} |3| = 3 {{</ katex >}}, no change, but {{< katex >}} |-3| = 3 {{</ katex >}}.
 
-Delta, {{< katex >}} \Delta {{</ katex >}}, is the change between two things, so from 10 to 20 degrees is a delta of 10 degrees. It is usally used with real units like this, giving us the difference between the final and inital values in an experiment. So really it's just Final Value - Initial Value. You may also see {{< katex >}} \delta t {{</ katex >}} or {{< katex >}} \Delta x {{</ katex >}}, this would be change in time and change in position (usually) respectively. Note that Δ can be negitive.
+{{< tip >}}
 
-{{< katex >}} \left \lfloor{x}\right \rfloor {{</ katex >}} is the 'floor' of x. Similarly, {{< katex >}} \left \lceil{x}\right \rceil {{</ katex >}} is the 'ceiling' of x. Very basically, For floor this just means to take the decmial right of, so {{< katex >}} \left \lfloor{1.534}\right \rfloor = 1 {{</ katex >}}. For ceiling, it means to go up 1 and take the decimal off. {{< katex >}} \left \lceil{1.001}\right \rceil = 1{{</ katex >}} 
+Later on you'll also see something called the 'Determinate', this uses the same notiation, two vertical bars, but is totally different. Thankfully it's not hard to tell apart, as the determinate is a matrix operation, meaning there will be a grid of numbers between the bars instead of a single expression.
+
+{{< /tip >}}
+
+Delta, {{< katex >}} \Delta {{</ katex >}}, is the change between two things, so from 10 to 20 degrees is a delta of 10 degrees. It is usally used with real units like this, giving us the difference between the final and inital values in an experiment. So really it's just Final Value - Initial Value. You may also see {{< katex >}} \Delta t {{</ katex >}} or {{< katex >}} \Delta x {{</ katex >}}, this would be change in time and change in position (usually) respectively. Note that Δ can be negitive.
+
+{{< katex >}} \left \lfloor{x}\right \rfloor {{</ katex >}} is the 'floor' of x. Similarly, {{< katex >}} \left \lceil{x}\right \rceil {{</ katex >}} is the 'ceiling' of x. Very basically, For floor this just means to drop everything after the decmial right off, so {{< katex >}} \left \lfloor{1.534}\right \rfloor = 1 {{</ katex >}}. For ceiling, it means to go up 1 and take the decimal off. {{< katex >}} \left \lceil{1.001}\right \rceil = 1{{</ katex >}} 
 
 Finally, for lack of a better place to put it, let's look at ±. This is 'Plus or Minus' and it just means to do both, for example 3±2 gives us 1 and 5 as answers. Usually when this symbol is used, one of the two answers ends up being thrown out as invalid, but not always. 
 
@@ -209,7 +215,7 @@ We've all seen these incredibly stupid memes going around social media at one po
 
 {{< /columns >}}
 
-PEMDAS stands for Perentheses, Exponents, Multiplication, Division, Addition, Subtraction, and is in general the correct order to do math operations. so given a mess like {{< katex >}} \frac{4*(1 + 2)^3}{2+1} + 1 {{</ katex >}} we can solve it in order. Here though, I have to point out the first failing in the PEMDAS accronym, division implies perentheses, as you'll have to do the 2+1 on the bottom before you can do the divison anyway. That said, let's look at this step by step
+PEMDAS stands for Perentheses, Exponents, Multiplication, Division, Addition, Subtraction, and is in general the correct order to do math operations. so given a mess like {{< katex >}} \frac{4*(1 + 2)^3}{2+1} + 1 {{</ katex >}} we can solve it in order. Here though, I have to point out the first failing in the PEMDAS accronym, division *with a bar* implies perentheses, as you'll have to do the 2+1 on the bottom before you can do the divison anyway. That said, let's look at this step by step
 
 {{< katex display >}}
 
