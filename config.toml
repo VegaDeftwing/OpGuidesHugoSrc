@@ -1,11 +1,11 @@
-baseURL = "https://opguides.info/opionatedguide"
+baseURL = "https://opguides.info/"
 languageCode = "en-us"
 title = "Opinionated Guides"
 
 [params]
 
 BookMenuBundle = '/menu'
-BookRepo = 'https://github.com/opinionatedguide/OpGuidesHugoSrc'
+BookRepo = 'https://github.com/VegaDeftwing/OpGuidesHugoSrc'
 BookEditPath = 'tree/main/content'
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
