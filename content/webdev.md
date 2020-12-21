@@ -1,13 +1,5 @@
 # Vue demo
 
-<div id="main">hello {{ msg }}</div>
-
-<script>
-  new Vue({
-    el: '#main',
-    data: { msg: 'Vue' }
-  })
-</script>
 
 As a sort of key for navigating this site you'll probably see things like this:
 

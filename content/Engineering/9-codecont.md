@@ -1,6 +1,6 @@
 # Chapter 9 - Finishing up the project
 
-> # Manifesto
+> ### Manifesto
 >
 > 1. **Everything should be a tool.** A tool transforms data without adding to its source limitations. It's a function: returns an output for a given input.
 > 2. **A great tool is [ambient](https://are.na/alex-singh/ambient-product-design).** It should disappear and flow through your actions. You should never need it because it's always at your hands. You should never ignore it because it's never in your way.

@@ -6,6 +6,8 @@
 
 ## Discrete Math
 
+[TODO] I also have discreete math in the chapter 11, math... not sure what do do about this...
+
 Truth tables, binary, logical equlivencies, propositional logic,
 
 Sets, functions, relations, recurrence, induction, combonation, graphs, isomorphsm,
