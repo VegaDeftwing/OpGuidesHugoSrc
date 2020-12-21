@@ -153,6 +153,10 @@ As implied by the Fractional exponent rule, roots can be written as fractional e
 
 Finally, there's factorial, written with the **!**, it just means to multiply the number with the number prior down to 1, so  {{< katex >}} 4! = 4 * 3 *2 * 1 {{</ katex >}}
 
+#####  Scientific Notation
+
+[TODO]
+
 #### =, <, >, ≤, ≥, ≠, <<, >>, ≈, ∝
 
 The equal sign is pretty obvious, it just means that what ever is on each side is equal. The implications of this will lead us deeper into algebra though as we actually solve equations. There's some really obvious equalities, those that lack variables, so things like {{< katex >}} 1 + 2 = 3 {{</ katex >}}  or any of the equalities shown to this point really. Where equality gets a bit more interesting is when there's an unknown (variable, same thing). For example, {{< katex >}} 1 + x = 3 {{</ katex >}} here we cane see pretty obviously that x must be 2. We'll go into how to actually solve for these unknows with non-obvious equations in a bit.
@@ -275,7 +279,47 @@ Nobody should do these by hand unless they're dead simple
 
 Imaginary numbers, systems of equations
 
-## 1½ - Primes
+## 1¼ - Accuracy and Precesion
+
+For lack of a better place to put it and not wantin to wait until the much latter section on probability, I'd like to briefly mention the difference between Accuracy and Precesion. Typically, this is repsented 
+
+## 1½ - Coordinate Systems
+
+So, up until now you've only seen the XY 'Cartesian' coordinate system, but I did gloss over some details. For starters, when refering to points in the Cartesian plane, you may hear the term quadrants, these are the 4 infinite corners of the plane, coming out from the '+' shape at (0,0). Slightly counter intuitively, they're numbered from starting in the top right and going *counter* clockwise. 
+
+[TODO] picture here
+
+The Cartesian coordinate system can be expanded into high dimensions as well, but you're unlike to work with more than 3, to form space defined with XYZ
+
+[TODO] picture here
+
+There are a few other coordinate systems you'll likely come across though: Polar, Cylindrical, and Spherical.
+
+[TODO] all 3 of those 
+
+
+
+## 1¾ - Primes & Factors
+
+Alright, so maybe not something you'll use everday, but you still should know the basics of primes, espically if you want to understand [Public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography). So, what's a prime?
+
+A prime is an number where the only two whole numbers that you can multiply to get to that number are 1 and itself.
+
+2? Prime. 1*2 is the only option.
+
+3? Prime. 1*3 is the only option.
+
+4? Not Prime. 2\*2 = 4, as does 1*4
+
+103801? Prime. only two numbers that can multiplied together to get it are 1 and 103801. 
+
+I think you get the gist. One of the neat applications of primes is that multiplying two prime numbers together makes for a number that's not quite prime, but whose only other fators are two two numbers that you multiplied together, so say we take 103801 * 7 to get 726607, the only two whole numbers other than 1 and itself that can be multiplied to get 726607 are 103801 and 7.
+
+There are also 'antiprimes' (or 'highly composite numbers'), from Wikipedia:
+
+> ... an **antiprime number**, is a [positive](https://en.wikipedia.org/wiki/Positive_number) [integer](https://en.wikipedia.org/wiki/Integer) with more [divisors](https://en.wikipedia.org/wiki/Divisor) than any smaller positive integer has
+
+so, technically 1, 2, 4, and 6 are all antiprime. But where it gets interesting is with larger numbers. For example, 360 is anti prime as you get get to it with {{< katex >}} $2*2*2*2*3*3*5${{< /katex >}}, which is 7 primes multiplied together, more than it takes to get to any number prior. These numbers are really easy to work with because of this, and it makes it really convient for the number of degrees in a circle as it can be divided so easily.
 
 ## 2 - Discrete Math
 
@@ -287,7 +331,7 @@ http://discrete.openmathbooks.org/dmoi3/
 
 https://en.wikipedia.org/wiki/List_of_mathematic_operators
 
-## 3 - Trig
+## 3 - Geometry and Trigonometry
 
 ### Very brief Geometry Lesson
 

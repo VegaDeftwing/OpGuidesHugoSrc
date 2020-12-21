@@ -6,8 +6,6 @@ slug: "Phil Other"
 
 # Political or social commentary ramblings from hackers solarpunks and engineers
 
-[Please Consider My Application to Give You Labor So I Can Stay Alive](https://www.mcsweeneys.net/articles/please-consider-my-application-to-give-you-labor-so-i-can-stay-alive)
-
 [The Great Asshole Fallacy](https://500ish.com/the-great-asshole-fallacy-82e108a755c7)
 
 [Ameyama's Values Update](https://ameyama.com/blog/values-update)

@@ -1,5 +1,7 @@
 # Chapter 12 - Physics
 
+[TODO] speed vs Velocity vs Acceleration, clasicall vs realative
+
 ![](/Exposure_chart-XKCD.svg)
 
 [Radiocarbon dating (Wikipedia)](https://en.wikipedia.org/wiki/Radiocarbon_dating)
