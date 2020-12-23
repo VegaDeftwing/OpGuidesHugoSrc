@@ -57,7 +57,7 @@ But, what about point **2.**? Take a look at this:
 
 {{< columns >}}
 
-<iframe src="https://tixy.land" width="500em" height="500em"></iframe>
+<iframe src="https://tixy.land" width="100%em" height="500em"></iframe>
 
 <--->
 
