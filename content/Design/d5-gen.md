@@ -115,6 +115,8 @@ https://www.reddit.com/r/generative/comments/epja3d/mycelium/
 
 [Toplap.org - a site all about live coding](https://toplap.org)
 
+[The Book of Shaders](https://thebookofshaders.com) - "A gentle step-by-step guide through the abstract and complex universe of Fragment Shaders."
+
 
 
 | Name & Link                                                  | Purpsoe                                                      | Screenshot / Demo                                            |
