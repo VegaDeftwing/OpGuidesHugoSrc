@@ -27,16 +27,16 @@ After you have a key generated, you'll need to add the public key to github,
 you may need to change existing repo to use a git based origin rather than an https one:
 
 ```bash
-╭─vega@lyrae ~/git/local/openg3  ‹master› 
+╭─vega@lyrae ~/git/local/opguides  ‹master› 
 ╰─➤  git remote -v
-origin	https://github.com/opinionatedguide/opinionatedguide.github.io (fetch)
-origin	https://github.com/opinionatedguide/opinionatedguide.github.io (push)
-╭─vega@lyrae ~/git/local/openg3  ‹master› 
-╰─➤  git remote set-url origin git@github.com:opinionatedguide/opinionatedguide.github.io.git
-╭─vega@lyrae ~/git/local/openg3  ‹master› 
+origin	https://github.com/VegaDeftwing/opinionatedguide (fetch)
+origin	https://github.com/VegaDeftwing/opinionatedguide (push)
+╭─vega@lyrae ~/git/local/opguides  ‹master› 
+╰─➤  git remote set-url origin git@github.com:VegaDeftwing/opinionatedguide.git
+╭─vega@lyrae ~/git/local/opguides  ‹master› 
 ╰─➤  git remote -v
-origin	git@github.com:opinionatedguide/opinionatedguide.github.io.git (fetch)
-origin	git@github.com:opinionatedguide/opinionatedguide.github.io.git (push)
+origin	git@github.com:VegaDeftwing/opinionatedguide.git (fetch)
+origin	git@github.com:VegaDeftwing/opinionatedguide.git (push)
 ```
 
 [TODO] show graphical git tools

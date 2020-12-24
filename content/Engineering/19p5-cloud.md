@@ -55,18 +55,18 @@ Further separating things, while Microsoft has tried to make their development m
 
 So, while Azure effectively has the [single bullet point of visual studio](https://azure.microsoft.com/en-us/product-categories/developer-tools/), AWS has all of this
 
-<img src="/awstools.png" alt="AWS Tools" height="700em">
+<img src="/awstools.png" alt="AWS Tools" height="700em" style="-webkit-filter: invert(.85);">
 
 As a very lazy metric, just searching Github (Which is owned by MS and hosted on Azure), we find this:
 
 {{< columns >}}
 
-![azurerepos](/azurerepos.png)
+<img src="/azurerepos.png">
 
 <--->
 
-![awsrepos](/awsrepos.png)
+<img src="/awsrepos.png">
 
 {{< /columns >}}
 
-I'm not going to pretend that having double the repos means AWS is twice as good, but what it does mean is that developers are choosing it. That could be because it's cheaper or some other unrelated factor, but it could well be because it has much better documentation  (something extremely evident in trying to do this lab itself) and because it has better tools developed by Amazon and the community.
+I'm not going to pretend that having double the repos means AWS is twice as good, but what it does mean is that developers are choosing it. That could be because it's cheaper or some other unrelated factor, but it could well be because it has much better documentation  (something extremely evident in trying to do find this information in the first place) and because it has better tools developed by Amazon and the community.
