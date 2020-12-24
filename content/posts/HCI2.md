@@ -320,14 +320,13 @@ From this,                             To This.
           +------>Device 1|
           |      +--------+
           |
- +----------+    +--------+            +----------+   +--------+   +--------+   +--------+
- |Controller+---->Device 2|   +----->  |Controller+--->Device 1+--->Device 2+--->Device 3|
- +----------+    +--------+            +----------+   +--------+   +--------+   +--------+
+ +----------+    +--------+         +----------+   +--------+   +--------+   +--------+
+ |Controller+---->Device 2| +-----> |Controller+--->Device 1+--->Device 2+--->Device 3|
+ +----------+    +--------+         +----------+   +--------+   +--------+   +--------+
           |
           |      +--------+
           +------>Device 3|
                  +--------+
-
 ```
 
 And, okay, so what? Well, I'll tell you what. This is rad as hell. I currently have 3 6' Display Port cables running from my desktop on the floor up to my displays on my desk. The monitors are 4k and get pissy if I go over a 6' cable, so with my tower on my right, the left-most monitor has to have this perfectly 45' cable making the connection, so I can't even organize the cables in the first place. But what if I could just route all of that to one monitor then piggy-back each one going forward?
