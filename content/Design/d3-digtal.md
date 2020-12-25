@@ -118,6 +118,10 @@ https://lospec.com/palette-list
 
 [Digital Video Introduction (Github)](https://github.com/leandromoreira/digital_video_introduction#how-does-a-video-codec-work) - "A hands-on introduction to video technology: image, video, codec (av1, vp9, h265) and more (ffmpeg encoding)."
 
+
+
+[Oklab](https://bottosson.github.io/posts/oklab/) - "A perceptual color space is desirable when doing many kinds of image processing"
+
 ## Compression
 
 {{< columns >}}

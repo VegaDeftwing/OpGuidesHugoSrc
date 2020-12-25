@@ -8,6 +8,8 @@ slug: "UI"
 
 [Principals of UI, A Thread (zensaiyuki@mastodon.social)](https://mastodon.social/@zensaiyuki/102683452946911475)
 
+[Gallery of Fantasy UI design from Movies and TV shows](https://www.pushing-pixels.org/fui/)
+
 ### Responsiveness
 
 ![dragonphone](/dragonphone.jpeg ':size=45%')

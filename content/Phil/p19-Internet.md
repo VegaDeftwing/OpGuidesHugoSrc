@@ -40,6 +40,8 @@ Alright, so it was some failed law that tried to ban porn? Well, yeah, **BUT** i
 
 Section 230, protecting you in your facebook comments section
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/678EW8v09z8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### DMCA (*attempting* to fix 230)
 
 jailbreaking exception
@@ -59,6 +61,14 @@ jailbreaking exception
 ### COPA (Breaking things... For the children!))
 
 ### GDPR (They tried)
+
+{{< tip >}}
+
+Note, unlike the rest of the items in this list, the GDPR is NOT legislation from the United States, instead it's applicable to all EU residents
+
+{{< /tip >}}
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">US websites when they don&#39;t want to comply to the GDPR:<br><br>&quot;Sorry, we want to track you, but because of EU&#39;s GDPR, we can&#39;t, so f* off, we won&#39;t show you our website&#39;s content.&quot; <a href="https://t.co/70LuYcYotH">pic.twitter.com/70LuYcYotH</a></p>&mdash; Samantaz (@SamantazFox) <a href="https://twitter.com/SamantazFox/status/1340624879234781185?ref_src=twsrc%5Etfw">December 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### EARN IT (Breaking things more)
 

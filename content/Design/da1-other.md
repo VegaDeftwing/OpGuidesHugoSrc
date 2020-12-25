@@ -98,3 +98,9 @@ Heads up, not all 3d systems use the same coordinate systems. It's a bit of a pa
 ### RougeLikes
 
 [What "Rougelike" Meant](https://zenorogue.medium.com/what-roguelike-meant-fb8b0e1601a)
+
+### Tons of Simulation
+
+[Notia](https://noitagame.com) - Rougelite where every pixel is simulated
+
+[Cogmind](https://www.gridsagegames.com/cogmind/) - Ascii art game with a similarly extreme amount of enviroment destructivity
