@@ -101,6 +101,8 @@ https://github.com/alandefreitas/matplotplusplus
 
 [Fast IO](https://github.com/expnkx/fast_io) - "a new C++20 library for extremely fast input/output and aims to replace iostream and cstdio. It is header-only"
 
+[Interactive C++ for Data Science](https://blog.llvm.org/posts/2020-12-21-interactive-cpp-for-data-science/) - Like Jupyter Notebooks
+
 ### Rust
 
 [Nannou](https://github.com/nannou-org/nannou) - Creative Coding Framework for Rust

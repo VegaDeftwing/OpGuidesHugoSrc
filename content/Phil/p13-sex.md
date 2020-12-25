@@ -20,6 +20,10 @@ In an ideal world human kind would be driven forward by more than the initiate d
 
 [Visa and Mastercard are Trying to Dictate What You Can Watch on Pornhub (EFF)](https://www.eff.org/deeplinks/2020/12/visa-and-mastercard-are-trying-dictate-what-you-can-watch-pornhub)
 
+[The Internet is for Porn - post is mostly about OnlyFans (The Margins)](https://themargins.substack.com/p/the-internet-is-for-porn)
+
+### Porn Addiction?
+
 ## Pro-Choice Vs Pro-Life
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/c2PAajlHbnU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
