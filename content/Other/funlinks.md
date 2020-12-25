@@ -98,5 +98,9 @@
 
 * [A Thread from @foone about how cat girls can weard headphones](https://twitter.com/Foone/status/1338302831950921729)
 
+* [A Twitter Thread about PayPal blocking all transactions with the word "Tardigrade"](https://twitter.com/ArchieMcPhee/status/1304434532293046272)
+
+  
+
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>
 

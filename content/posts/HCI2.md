@@ -1119,6 +1119,12 @@ SDRs, new IO options (something shittier than USB, cheap, and extendable), open 
 
 https://github.com/SolarLune/masterplan
 
+Habitica?
+
+https://www.craft.do
+
+http://audulus.com
+
 ### Hardware for Open Experimentation
 
 [TODO]
