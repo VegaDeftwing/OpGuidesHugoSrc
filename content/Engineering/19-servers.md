@@ -22,4 +22,7 @@ Before we get to business there's some necessary viewing: http://motherfuckingwe
 
 ## Containerization
 
-## Fault tollerence
+## Fault tolerance
+
+## Serverless?
+

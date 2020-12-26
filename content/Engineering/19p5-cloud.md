@@ -1,5 +1,7 @@
 # Chapter 19½ - "The Cloud"
 
+[Dropbox saved almost $75 million over two years by building its own tech infrastructure (GeekWire)](https://www.geekwire.com/2018/dropbox-saved-almost-75-million-two-years-building-tech-infrastructure/)
+
 ## Comparison of Vendors
 
 [TODO] Add Google Cloud to list, mention they're all sorta evil.

@@ -24,6 +24,8 @@ It's also worth considering that you can use C code in C++ projects if you need.
 
 ## Some simple programs, in C
 
+[TODO] use TCC instead of GCC, to enable live reload https://bellard.org/tcc/
+
 [TODO] https://github.com/rby90/project-based-tutorials-in-c
 
 [TODO] [30 Seconds of C++ (Github)](https://github.com/Bhupesh-V/30-seconds-of-cpp)
