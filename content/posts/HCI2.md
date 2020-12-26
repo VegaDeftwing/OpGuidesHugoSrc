@@ -2,7 +2,7 @@
 title: "The Way We Interact With Computers Sucks."
 slug: "TheWayWeInteractWithComputersSucks"
 author: "Vega Deftwing"
-date: 2020-12-18
+date: 2020-12-25
 ---
 {{< tip >}}
 
@@ -759,15 +759,19 @@ Note, those USB security keys have updated in standard. The newer ones which sup
 
 **Authorization:**
 
-[TODO]
+Put simply, we need easier to use, fine grain authorization settings that can't be bypassed. I should be able to tell a program, website, or app that I don't want to give it my location, and then, if it asks anyway it should be fed garbage. Refusal should also not stop access to that service. Similarly for storage, microphone, contact, etc.
 
-### Moderation of Content sucks
-
-[TODO] amazon fake products
+Newer versions of Android actually do this really well, including the ability to only grant those permissions for that session. This is amazing. It's not *perfect*, far from it. Like, Bluetooth requires location permissions and, unless you're on a rooted phone, there are some permissions the user can't even give. That's a load of shit, but I'll come back to that. 
 
 ### Content Linkage sorta sucks
 
-[TODO] wikipeda graph, Roam/Obsidian graph
+![](https://obsidian.md/images/screenshot.png)
+
+{{< attribution >}}
+
+Screenshot from the homepage of [Obsidian.md](https://obsidian.md)
+
+{{< /attribution >}}
 
 The digital world doesn't have to be lonely pages indexed like a book, why are we treating it as such? Today each page can point to any other page in a beautiful web of interconnected information, where each topic has lines of association spanning such that no two pages are unconnected. Wikipedia sort of has the simplest form of this, but what if we had systems so capable of automatic understanding - not just tagging - of information that any new info could propagate though that web naturally. Social linkage to people in the same graph, even if anonymous, could help connect people that together, due to their very specific knowledge, drive man kind further. I should clarify to, I literally mean a web/graph, possibly in 3D, relating and indexing information, possibly like these 3D views of Wikipedia: (though the data should probably be served 'raw' so that other presentation methods can be developed, as this definitely wouldn't be ideal for actually reading the content)
 
@@ -876,6 +880,8 @@ This may not ensure the data is good, but at least it makes progress in increasi
 
 This could have extra uses too. Having something that could take two 2D graphs with a common axis and turn it into one 3d graph would be incredible, particularly if that data could come from multiple sources across multiple domains. Combine this with the ability to change the type of graph and this could help expose otherwise non obvious trends.
 
+Beyond that, content moderation needs improvements too - I don't even mean fake news or porn here (Though we could stand to have better nsfw tagging on most social media). I mean the bullshit reviews on Amazon or the fake products when shopping online (mostly fake electronics). If those services are going to be allowed to make stupid amounts of money, they should be required to do at least a tiny bit of consumer protection.
+
 ### Information Overload
 
 ʸᵉˢ ᴵ ˢᵉᵉ ᵗʰᵉ ᶦʳᵒⁿʸ ᶦⁿ ᵃ ᵖᵒˢᵗ ᵗʰᶦˢ ˡᵒⁿᵍ
@@ -890,17 +896,17 @@ Bobby Mikul, Times Square :CC0 -- [Source](https://www.publicdomainpictures.net/
 
 Information overload is increasingly becoming a problem. As more and more information is accessible at our fingertips and more advertisements have the opportunity to be beamed via any one of a number of surrounding screens directly into our retinas we need a way to filter it down to levels the human brain can cope with and digest.
 
-[TODO]
+This is a complicated subject, on one hand, it's amazing to have an infinite wealth of information. On the other, an ever growing amount of that information is shit and irreverent, and eats away at our very limited mental processing time for the day, we can only ingest and actively pay attention to or throw out so much information, and when much of the information we seek to avoid (ads) are actively doing everything in their power to demand attention from our brains, be it with sex appeal, bright colors, or even humor, it's an uphill battle. So what can we do? Well, a good start would be to legally limit advertising to be less distracting from normal content **and** make the advertising more easily distinguishable from the real content. But I don't think that's enough. I think if we're going to make systems that have machine learning to get better and better at sucking our time we need to put in just as much effort to making design that promotes health and consumption in moderation.
 
-Furthermore, the design should promote health. An example of this is Netflix's 'Are you still watching?' while this was implemented on their end to prevent unnecessary usage of data, it has the side effect of letting a user know they've been on the couch longer than should probably be advised. I'm not advocating for interruptions at every corner, just affirmative action by the user before bombardment with data. I do think as much data as possible should be linked to or aggregated, but force me to see more than what I request plus some surface level information. For something like YouTube this might mean playing a playlist is fine, but don't start playing another 'related' video when that list is over.
+An example of this is Netflix's 'Are you still watching?' while this was implemented on their end to prevent unnecessary usage of data, it has the side effect of letting a user know they've been on the couch longer than should probably be advised. I'm not advocating for interruptions at every corner, just affirmative action by the user before bombardment with data. I do think as much data as possible should be linked to or aggregated, but force me to see more than what I request plus some surface level information. For something like YouTube this might mean playing a playlist is fine, but don't start playing another 'related' video when that list is over.
 
-[TODO]
+Beyond that, keeping the design minimal but powerful. I think markdown is a great example of this. Users aren't as dumb as people seem to think, we can, and do, learn the ways to make interaction with the things we use daily faster, so make the 'speed limit' as fast as it can be while lowering the need for menu diving and learning to do complex actions. Putting a frequently used option into a menu that needs to be clicked at all is much slower than assigning it a keyboard shortcut.
 
-Beyond that, keeping the design minimal but powerful. I think markdown is a great example of this. Users aren't as dumb as people seem to think, we can, and do, learn the ways to make interaction with the things we use daily faster, so make the 'speed limit' as fast as it can be. Putting a frequently used option into a menu that needs to be clicked at all is much slower than assigning it a keyboard shortcut.
+But, okay, back to information overload: The biggest problem is still that there's just too much. I don't really think there is a solution, maybe  [Banning Outdoor Ads like Brazil's Largest City Did](https://newdream.org/blog/sao-paolo-ad-ban), would be a start. Maybe requiring that the Terms of Service for any service a user signs up to be a limited length and actually commendable would help. But I just don't know. I think the world has just simply progressed to a point where FOMO has gone from a fear of missing out has gotten to a point where missing out is just a fact of life as [500 hours of content are uploaded to YouTube every minute.](https://www.tubefilter.com/2019/05/07/number-hours-video-uploaded-to-youtube-per-minute/) 
 
-[Five Years After Banning Outdoor Ads, Brazil's Largest City Is More Vibrant Than Ever](https://newdream.org/blog/sao-paolo-ad-ban)
+What I do know is that trusting the YouTube or Facebook or Twitter algorithm to decide the content I see is incredibly dangerous, but that the alternative is overwhelming.
 
-[Why The Web Is Such A Mess (Youtube - Tom Scott)](https://www.youtube.com/watch?v=OFRjZtYs3wY&ab_channel=TomScott)
+Meanwhile, legislation that has been passed to try to fix some of this often results in other issues, like all the 'Can we give you cookies?' prompts on websites: [Why The Web Is Such A Mess (Youtube - Tom Scott)](https://www.youtube.com/watch?v=OFRjZtYs3wY&ab_channel=TomScott)
 
 ### Updates after Initial Draw
 
@@ -916,15 +922,29 @@ All you have to do is not change shit until you're done computing the answer, an
 
 ### Everything needs to be more damn responsive
 
-*Fuck your 𝒻𝒶𝓃𝒸𝓎 animations.*
-
-[TODO]
+*Fuck your 𝒻𝒶𝓃𝒸𝓎 animations.* I love eye candy, and a little bit is fine, but I shouldn't have to wait as a menu slowly drops down with some pretty animation. If I've used that menu before I probably already know where I want to click, and now because I expect to be able to do so instantly I just clicked whatever is behind it. Fuck that. If the animation is masking some load time, sure, but *as soon as* it is loaded, quit it, and show the damn content. If the animation is necessary to avoid suddenly flipping from black to white and blinding users, again, I get it. But it doesn't need to take more than 100ms. 
 
 ### Advertising
 
-* Mixed into content, non-obvious
+If I have to spend more than a fraction of a second to process what is being shown to me is an ad, it should be fucking illegal. If you want to put ads mixed into the content, then it should be required to be a lot of a lot more visually obvious.
 
-[TODO]
+{{< columns >}}
+
+**Original:**
+
+![](/adbado.jpg)
+
+<--->
+
+**Edited:**
+
+![](/adbade.jpg)
+
+{{< /columns >}}
+
+Here the original at least has some color differentiation (Using the Boost app to view Reddit) but on the official Twitter client I actually have to stop and look to avoid accidentally clicking an ad link. That's some bull shit.
+
+Yunno what else is bullshit? The fact that all of these ads are 'personalized' to the point that collecting crazy amounts of information on individuals is expected and almost inevitable online, even with a pile of tracking blocking extensions and a DNS blackhole like [pi-hole](https://pi-hole.net). This could, and should, be a rant of it's own. Being spied on by our own devices is 100% not okay and it's one of the biggest reasons that they way we interact with computers sucks.
 
 ## Storing Information Sucks
 
@@ -952,11 +972,11 @@ https://ipfs.io/
 * lack of file system based versioning
 * why the fuck are we still using NTFS and EXT4 and not ZFS and LVM
 * Hard drive vendors are a bag of dicks
-  * RPM != RPM
-  * SMR
-  * DRamless SSDs
+  * RPM != RPM https://arstechnica.com/gadgets/2020/09/western-digital-is-trying-to-redefine-the-word-rpm/
+  * SMR https://arstechnica.com/gadgets/2020/05/western-digital-gets-sued-for-sneaking-smr-disks-into-its-nas-channel/
+  * DRAMless SSDs
 * Hard drives are just, bad
-  * Screaming at them makes them run worse
+  * Screaming at them makes them run worse https://www.youtube.com/watch?v=tDacjrSCeq4
     * I have a subwoffer right next to mine
   * Feeling the inertia in a laptop
 * Cloud storage is a terrible idea
@@ -1056,6 +1076,10 @@ Potentially this could also plug into the entire OS as well, making it so an ima
 ## Oh, and our systems are fucking racist and suck for anyone with special needs.
 
 [TODO]
+
+## We basically don't even own our computers anymore
+
+[TODO] Licensed everything, no root access, etc. 
 
 # What's Else Is Needed?
 
@@ -1241,6 +1265,8 @@ https://arcan-fe.com/2020/02/10/leveraging-the-display-server-to-improve-debuggi
 [TODO]
 
 https://mmcthrow-musings.blogspot.com/2020/04/a-proposal-for-flexible-composable.html
+
+[What do I care the open web is dying? (Abhinav Sharma, Cofounder Insight. ex Mozilla & Facebook)](https://insightbrowser.com/blog/open-web-dying-why-care)
 
 <ol hidden id="footnotes">
 <li>alright, so, yes they're still expensive as all hell, but like if you go DIY then I think they're mostly attainable to most people. I'm sure there's a bit of privlidge talking there, but ╮(─▽─)╭</li>

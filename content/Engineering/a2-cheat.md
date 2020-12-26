@@ -128,3 +128,5 @@ https://github.com/mitsuba-renderer/nanogui
 [PyNuklear](https://github.com/billsix/pyNuklear) - Nuklear (see above) binding for python
 
 [Guietta](https://github.com/alfiopuglisi/guietta) - "A tool for making simple Python GUIs"
+
+[Kivy](https://kivy.org/#home) - GUI framework
