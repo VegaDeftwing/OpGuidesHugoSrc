@@ -200,6 +200,8 @@ https://jakewharton.com/shrinking-a-kotlin-binary/
 
 While not technically a programming language, I wanted to bring it up and encourage you look into it to be used instead of JavaScript for real projects. 
 
+https://www.assemblyscript.org is a TypeScript varient that can generate Web asm.
+
 
 
 ### Vult

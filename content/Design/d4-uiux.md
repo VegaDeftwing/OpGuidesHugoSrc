@@ -32,6 +32,8 @@ slug: "UI"
 
 Figma
 
+https://muzzleapp.com
+
 ### Dark Patterns
 
 ### Logos
