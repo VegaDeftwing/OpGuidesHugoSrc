@@ -948,6 +948,18 @@ Yunno what else is bullshit? The fact that all of these ads are 'personalized' t
 
 ## Storing Information Sucks
 
+Storing your data blows. Users have to contend with backups, backups for you backups, bitrot, file size vs compression, what file system to use, how to make backups actually convenient, mirroring information between systems with limited bandwidth, etc. But to start somewhere let's just look at archival:
+
+### Archival
+
+Digital archival on 'cold storage' sucks. For one, that cold storage is ofter either a PITA to attach in the first place, Usually using either using a slow USB interface, an expensive and far-from-universal thunderbolt one, or, if you want to go very bulk storage, requiring a specialized PCIe card which is meant for servers which brings along it's own pile of issues.
+
+But even once you have everything attached, most of the time backups are pain to run. You can always do the lazy copy-and-replace-existing method, but that's painfully slow as it has to check all the current files instead of just doing the logical thing and comparing two indexes, but, of course, most file systems don't support this index based method. Sure, there's software to add it, like Bvckup, but most that I can find is paid or not something I would trust.
+
+Using Git (or GitAnnex) is of course an option, but that has a higher barrier to entry to learn than seems reasonable. At the same time having actual file versioning needs to be a thing, something better than having `meh1.docx`, `meh2.docx`,`meh3final.docx`, and `meh3.5.finaler.docx`, even if it is still storing the file in full (though hopefully compressed) behind the scenes.
+
+But, on the note of indexes, why are tools to provide a disk-offline index not better. From what I can find, [catcli](https://github.com/deadc0de6/catcli) and [Virtual Volumes View](http://vvvapp.sourceforge.net) are the main two options, and both are bit out of the way to use, compared to just having it be natively in the file browser. 
+
 [TODO]
 
 https://lbry.io/
@@ -956,20 +968,33 @@ https://datproject.org/
 
 https://ipfs.io/
 
-* Archival is a pain in the ass
-* No good backup software
-* Phone<->PC is the fucking worst
-  * MTP needs to die a very painful death
+### Phone ↔ PC is the fucking worst.
+
+MTP needs to die a very painful death.
+
+### Were using ancient formats
+
+Look, jpeg and png are perfectly fine formats. For 2000. It's 2020. HEIF (or [BPG](https://bellard.org/bpg/)) really should be standard. Instead, it's a motherfucker because M$ is too damn cheap to include the HEVC extensions which it relies on it without either having the user [pay \$0.99](https://www.microsoft.com/en-us/p/hevc-video-extensions/9nmzlz57r3t7) ([or claiming to be the OEM](https://www.microsoft.com/en-us/p/hevc-video-extensions-from-device-manufacturer/9n4wgh0z6vhq?activetab=pivot:overviewtab)) because a collection of jackasses have it [patented so hard](https://www.hackerfactor.com/blog/index.php?/archives/833-HEIC-Yeah.html) and require licensing fees such that it may as well not exist. HEIF/HEIC or BPG I think have a good chance because of the preexisting hardware acceleration, but other formats like [hific](https://hific.github.io/), which uses GANs to do compression, look promising too.
+
+Of course the same applies in other formats. .flac is replacing .wav for high end audio, but why not [Direct Stream Digital (DSD)](https://en.wikipedia.org/wiki/Direct_Stream_Digital)? 
+
 * All the best formats are a pain in the ass
   * format shifting sucks, opening them sucks, patents suck
-  * https://bellard.org/bpg/
 * People use some really, really shit formats
 * A lot of formats are needlessly complicated and not human or computer readable to anyone but the software vendor
+
+### Bit rot?
+
 * Data get's compressed, saved, and recompressed (ref xkcd)
   * Using Waifu-2x to unfuck images still blows
+
+
+
 * sorting through data blows
 * no 'transaction history' or global text search
-* lack of file system based versioning
+
+### Hard drives and File systems suck.
+
 * why the fuck are we still using NTFS and EXT4 and not ZFS and LVM
 * Hard drive vendors are a bag of dicks
   * RPM != RPM https://arstechnica.com/gadgets/2020/09/western-digital-is-trying-to-redefine-the-word-rpm/
@@ -979,6 +1004,9 @@ https://ipfs.io/
   * Screaming at them makes them run worse https://www.youtube.com/watch?v=tDacjrSCeq4
     * I have a subwoffer right next to mine
   * Feeling the inertia in a laptop
+
+### Cloud Storage is a terrible idea
+
 * Cloud storage is a terrible idea
 
 
@@ -988,7 +1016,7 @@ I'd also like to mention the idea of distributed computation here as well, as I 
 1. This system needs real time computation and bandwidth, and these vary in value just like how electricity peak hours cost more.
 2. This incentives simply paying for compute time instead of actually contributing computational power to the network like it actually needs, which in turns creates an incentive for people to do this at scale *annnndd* look at that we're back to centralization.
 
-The biggest problem with of course, is that currently home internet users very rarely have symmetric connections, so would probably be very pissed if their download speed were suddenly tied to their upload speed. This *could* be offset by building up credit, as previously mentioned, but that has the issues, as previously mentioned. I suppose there could simply be a credit cap, but setting that would be exceedingly awkward as a logical number to use would vary by user and how they use the system.
+The biggest problem with of course, is that currently home Internet users very rarely have symmetric connections, so would probably be very pissed if their download speed were suddenly tied to their upload speed. This *could* be offset by building up credit, as previously mentioned, but that has the issues, as previously mentioned. I suppose there could simply be a credit cap, but setting that would be exceedingly awkward as a logical number to use would vary by user and how they use the system.
 
 
 
