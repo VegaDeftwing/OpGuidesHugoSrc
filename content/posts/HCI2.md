@@ -27,7 +27,7 @@ Back in late 2018 I wrote the first version of this post and basically everythin
 
 Computers aren't just about software, websites, and programs. As the most powerful tool that most people have access to and often one that we spend many hours a day looking at, it makes sense that we make working with that tool comfortable, straight forward, and healthy. In general, we've mostly sucked at this, and while some things are getting better (monitor resolution) some things have gotten significantly worse (keyboards). Furthermore, the desks we sit at and the air we breathe while working is in need of attention too. 
 
-## Our Input Methods Suck.
+### Our Input Methods Suck.
 
 What the fuck is this shit?
 
@@ -245,9 +245,9 @@ To keep this short: Higher default DPI, options to output via OCR (Optical Chara
 
 Want to look up {{< katex >}} \LaTeX {{< /katex >}} Symbols? [Done.](https://detexify.kirelabs.org/classify.html) Want to have Optical Character Recognition on your screenshots? [Textshot has that covered.](https://github.com/ianzhao05/textshot) But while I could go on with this list, the big problem is of *integration* While having an OS like Linux that is tweakabe to the nth degree is unmistakably *fucking incredible*. I also **shouldn't have to**. I should be able to use any computer and trust the OS to have built in methods for getting text from a picture, to trust the OS will let me remap keys so that tapping the [shift keys types perentheses](https://docs.qmk.fm#/feature_space_cadet) or that I can bind the keys to type arbitrary Unicode. The OS should have a **local** - *don't you fucking dare collect all of this data* - store of everything I've looked at so I can go back and search for "mostly purple images" or "links clicked on October 12th". And like, there's about a dozen different chrome extensions that try to do this under the very stupid assumption that essentially all of that interaction will be in browser.
 
-## Our Physical Environments Suck
+### Our Physical Environments Suck
 
-### Your Chair Sucks
+#### Your Chair Sucks
 
 {{< columns >}}
 
@@ -271,7 +271,7 @@ But, I'm here to talk about the future, so what do I think can be better than an
 
 But the biggest reason your chair sucks? It's a chair. I'm not advocating for a treadmill desk, or sitting on one of those big ball things, I'm simply saying having the only reasonable way of interacting with our second-brains being in a seated, unmoving position does nasty things to our bodies. While it would make more sense to adapt our peripherals and input methods, it's worth considering how we may re-shape our seats to work with us. A little while ago ["I built a lay down desk"](https://blog.luap.info/drafts/i-built-a-lay-down-desk.html?hnn) was trending on Hacker News, and it's something I'd considered before too, but I want to think bigger: What if our desk and chair acted as one piece of furniture, one that was flexible between sitting, laying, and standing positions, and the chair bent to an appropiate shape to match the position of the desk? [Design doesn't have to be static](https://youtu.be/xN9hTo3iR6A?t=182).
 
-### Your Desk Sucks
+#### Your Desk Sucks
 
 **or 'why the fuck is it so hard to find a deep desk with a keyboard tray'**
 
@@ -365,7 +365,7 @@ Further reading:
 
 [The Complexity of Building a Lie Down Workstation (altwork)](https://altwork.com/blogs/news/the-complexity-of-building-a-lie-down-workstation)
 
-### Your Audio Sucks
+#### Your Audio Sucks
 
 There's a huge range of audio systems. You might not be able to have speakers at all and have to use headphones, maybe you have an awesome setup running [Dolby Atmos](https://en.wikipedia.org/wiki/Dolby_Atmos) like [Deadmau5's](https://www.magneticmag.com/2016/05/deadmau5-shows-off-the-completion-of-his-new-home-studio-finally/) where the room and speakers have been engineered he can virtually drop an instrument on the sound stage wherever he wants.
 
@@ -381,19 +381,19 @@ Before I get into all the following, I'm not saying all of these things should a
 
 {{< /hint >}}
 
-#### Why *the fuck* do we not have a system-wide limiter?
+##### Why *the fuck* do we not have a system-wide limiter?
 
 And not just a dumb decibel limiter, but a [loudness (Wikipedia)](https://en.wikipedia.org/wiki/Loudness) limiter. There's no reason there shouldn't be a toggle-able limiter to protect your ears
 
-#### Why *the fuck* do we not have per-stream audio compression?
+##### Why *the fuck* do we not have per-stream audio compression?
 
 Not file-compression but volume-compression. the 'make loud sounds quieter and quieter sounds louder' kind. Generally this is something the music industry over-uses and it doesn't sound great on music, but for voice it can make a huge difference for keeping things understandable and not distracting. Ideally this would be done before the content is ever published or sent though the network, but that won't always be the case. So, you should be able to easily take any audio stream (say, a YouTube video playing in a tab) and apply a compressor to it.
 
-#### Why do we not have live Speech to Text?
+##### Why do we not have live Speech to Text?
 
 Not all systems will be able to do this live without completely shitting the bed because of lack of processing power, but as our graphics cards are now including specific hardware for doing AI/ML based computation, there's no reason we sholudn't be using in the OS for the sake of grabbing the text out of all audio that goes in or out of the system. (of course, storing it securely and locally, nobody wants to wiretap themselves)
 
-#### Why is Audio and Video Not Routable?
+##### Why is Audio and Video Not Routable?
 
 Alright, so this is mostly a dig at Windows, where everything is Garbage. Mac has CoreAudio which is pretty cool, and Linux can mostly do this for audio via [Jack Audio](https://jackaudio.org/faq/about.html) and work is being done to make something for both audio and video with [Pipewire](https://pipewire.org).
 
@@ -403,7 +403,7 @@ Alright, so this is mostly a dig at Windows, where everything is Garbage. Mac ha
 
 The reason this is necessary is with routable audio and video you can do things like route your webcam's video first though software that does some video effects, then to a recording program and to a streaming program easily. Sure, this can be done anyway right now, but it often means creating a 'virtual' webcam in the middle, and this scenario was already a fairly basic one. If you add in the aforementioned limiting and compressing as options you can see where this starts to matter.
 
-#### Why are we not calibrating our audio devices?
+##### Why are we not calibrating our audio devices?
 
 While it may seem like it at times- with big fancy tube amps, planar magnetic headphones, and silver cables for that hi-fi sound- audio is not black magic. It's math. More over, while everybody's ears are a bit different, the frequency response that most people want from their devices is [more or less known](https://www.headphonesty.com/2020/04/harman-target-curves-part-1/). No device can perfectly meet this, at least not at a cost a mere mortal can afford. As that linked article details, this isn't super straight forward anyway, as your head and ear size, room acoustics, etc. all mater. But here's the thing:
 
@@ -413,7 +413,7 @@ Of course, the better the starting point the better this correction will work. Y
 
 There is software that does [some of this](https://github.com/jaakkopasanen/AutoEq), but I really think it needs hardware acceleration (hell, maybe an [FPAA](https://zrna.org/shop)) and to be more common.
 
-### Your Displays Suck
+#### Your Displays Suck
 
 I'm going to assume that if you're reading this you're probably using at minimum a 1080p, 60hz monitor. And like, yeah 2073600 is a ton of pixels. If you assume the normal 8-bit per R-G-B (24bit color) then you get ~2.98Gbit/s which is already pretty impressive if you think about it, but then consider that even cheap single board computers are starting to be capable of 4k, 3840x2160 which at 60hz is ~11.94Gbit/s and, alright, that's already undeniably really cool. But, unfortunately, super not enough and already causing problems. 
 
@@ -431,7 +431,7 @@ I'm not sure that there's really much need to go beyond 4k. While I haven't even
 
 > Little aside first. Some jackasses decided even on digital displays [interlacing](https://en.wikipedia.org/wiki/Interlaced_video) should be a thing. I don't want to lose focus here, but I want to at least mention this, which you'll often see listed as 1080i or 720i, is shit.
 
-#### Refresh Rate
+##### Refresh Rate
 
 Do a little experiment for me real quick: try changing your display to 30Hz. Most displays will support it.
 
@@ -453,7 +453,7 @@ This, to me, is a big deal. Latency is something you can *feel*. If there's a lo
 
 So, the time it actually takes for your display to update once it's gotten a frame is not irreverent.
 
-#### Dimming
+##### Dimming
 
 Unless you're a fan of melting your eyes out of their sockets, you likely do not have your display set to maximum brightness. Unfortunately, dimming on most displays is absolute garbage.
 
@@ -477,7 +477,7 @@ In this video, because it is so incredibly slowed down, you can see the led's fl
 
 This has put me in the crappy situation before of having to set the display to max brightness to avoid the headache from the strobing effect (Pulse width at 100% means constantly on so just DC), but dealing with being blinded by any application with a white background.
 
-#### Color and Dynamic Range
+##### Color and Dynamic Range
 
 If you have multiple displays that aren't exactly the same you know just how annoying un-matched color can be. This is a harder problem to solve than some of the others. Color calibration definitely helps, but that only means so much when the actual display technology may be different. an LCD will look different than an LED will look different than an OLED even if they're color calibrated to match. This, I think, is actually reasonable. What is totally unreasonable is how digital color looks in the first place. Let me start by linking a video:
 
@@ -521,9 +521,9 @@ Note, the nimbus had issues when it did work, but is now a victim of IOT evoluti
 
 {{< /columns >}}
 
-## Your Space Sucks
+### Your Space Sucks
 
-### Noise
+#### Noise
 
 Just looking at the [Wikipedia Article on Noise Polution](https://en.wikipedia.org/wiki/Noise_pollution#Humans), it's pretty obvious that humans like to be somewhere where noise is kept to a minimum. There are of course questions about what you want to consider noise. Like, clearly above I made it clear I prefer mechanical keyboards which, as anyone that has been on a discord call can tell you, are rather loud. The difference is in it being noise you're causing, or background noise that you can't control. Fan noise from your computer, music from another room that you can't quite make out, a rattle from the HVAC system, that's *noise*. Somehow we've all gotten rather used to rather noisy environments.
 
@@ -535,7 +535,7 @@ It's not like most of the solutions for making noise better aren't available and
 
 I'm not sure what the solution should be. Maybe products need to have some sort of testing for this and a label applied, like the ubiquitous 'Energy Star' stickers or the 80 Plus ratings on PC power supplies.
 
-### Lighting
+#### Lighting
 
 If you're in an office right now, I can take a pretty good guess that the lights above you are some of those 4ft long fluorescent tube bulbs, probably in an excruciating 6500k.
 
@@ -601,7 +601,7 @@ Ambilight image from [Wikipeda user Stephan Legachev](https://commons.wikimedia.
 
 {{< /columns >}}
 
-### CO2
+#### CO2
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/1Nh_vxpycEA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -652,9 +652,9 @@ Alright, now onto the fun stuff, I think I've established that the physical side
 
 I'm not the first to think on this subject by any means, [Programs are a prison: Rethinking the fundamental building blocks of computing interfaces by Robert Lechte](https://djrobstep.com/posts/programs-are-a-prison) put a lot of ideas I'd thought before into words much more elegantly than I can, please give it a read then come back here, keeping in mind how the ideas presented there could work with what I'm saying here.
 
-## Finding and Accessing Information Sucks
+### Finding and Accessing Information Sucks
 
-### Search sucks
+#### Search sucks
 
 If you're like most people, you probably use Google Search, but also don't like Google Search. Google's search makes the entire top of the page ads, tracks you, and is just generally a bit invasive, but, you still probably use it instead of DuckDuckGo because the results often get you to what you're looking for faster.
 
@@ -700,7 +700,7 @@ Google also needs to quit their shit with information cards:
 
 <blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/FPQnLW60Vt">pic.twitter.com/FPQnLW60Vt</a></p>— Randall Munroe (@xkcd) <a href="https://twitter.com/xkcd/status/1333621855001976832?ref_src=twsrc%5Etfw">December 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### Pay-Walls suck
+#### Pay-Walls suck
 
 Look, it's not that I don't think journalists shouldn't be paid. They should be. It's just that having everything behind a paywall blows. There's not any fun solution to this. Ads suck too. Nobody wants a web full of micro-transactions, and the idea of news sites mining crypto while I read bothers me too. So, let's just ignore the news sites for a second, and instead, focus on the much more offensive situation: academia and scholarly articles ([not that they're all good to begin with (YouTube, DefCon 26)](https://www.youtube.com/watch?v=ras_VYgA77Q))
 
@@ -710,13 +710,13 @@ It's no secret that access to academic articles is *fucking* expensive. JSTOR al
 
 But it's so much worse than that. Tons of information services are subscription based. So, the costs add up way worse. While it may seem like a bit of a stretch, I think it's pretty reasonable to call Netflix, Hulu, etc. all information sources as they often host documentaries, if we look at [The Cost of Every Streaming Service Per Month (TheStreet)](https://www.thestreet.com/lifestyle/best-streaming-services-cost-15166523), and assume just the most popular ones, so Netflix, Prime Video, and Hulu, it's already at **$418 a year.** Is it really any wonder why people are piracy again? Even if you subscribe to the theory that Piracy is a distribution problem and not a price problem, the pay walls are still the problem, as each service has it's own incentive to hoard as much exclusive content as possible and make their platform better than others for the price. This means that each platform runs on it's own standards and cross-compatibility is a real PITA. There are now websites and apps that specialize in just telling you which streaming service has what. Like what in the fresh fuck. 
 
-### Authentication and Authorization Suck
+#### Authentication and Authorization Suck
 
 > **Authentication** is the sign in
 > 
 > **Authorization** is what the user and service can do, or what 'permissions' you grant the service and what you're allowed to do on the service.
 
-#### Authentication:
+##### Authentication:
 
 I'll bet cold, hard fictional cash that you've put off turning on two factor for a service you don't give two shits about.
 
@@ -763,13 +763,13 @@ Note, those USB security keys have updated in standard. The newer ones which sup
 
 {{< /tip >}}
 
-#### Authorization:
+##### Authorization:
 
 Put simply, we need easier to use, fine grain authorization settings that can't be bypassed. I should be able to tell a program, website, or app that I don't want to give it my location, and then, if it asks anyway it should be fed garbage. Refusal should also not stop access to that service. Similarly for storage, microphone, contact, etc.
 
 Newer versions of Android actually do this really well, including the ability to only grant those permissions for that session. This is amazing. It's not *perfect*, far from it. Like, Bluetooth requires location permissions and, unless you're on a rooted phone, there are some permissions the user can't even give. That's a load of shit, but I'll come back to that. 
 
-### Content Linkage sorta sucks
+#### Content Linkage sorta sucks
 
 ![](https://obsidian.md/images/screenshot.png)
 
@@ -791,7 +791,7 @@ The digital world doesn't have to be lonely pages indexed like a book, why are w
 
 Obviously this overly linked system is something that people would need to get used to. Until the advent of the WWW we've read information linearly, page by page. The web has allowed this tree traversal style of navigation so that any missed topic can be reviewed, but generally this is a system where the tree only builds down, to simpler information, from the current node. It seems weird to think about an algebra book where it suddenly references multidimensional calculus, but this is exactly what I'm implying. In my education there was uncountable times I had to learn something because 'it will be used later' with no explanation as to how or why. Linking back up the tree allows for information traversal in both directions, eliminating this problem.
 
-## Presentation of Information Sucks
+### Presentation of Information Sucks
 
 {{< tip >}}
 I'll be the first to admit this website isn't the best on this. I put <a href='https://opinionatedguide.github.io/design/generative-art/'/>the list of generative design tools</a> in a MarkDown Table for fucks sake. I know. But, We'll get to that in a bit, in the Creating New Information Sucks section below, and I hope to convince you that isn't necessarily my fault.
@@ -821,7 +821,7 @@ Now, I *do not* think this is a good idea for the general web. But, I do think a
 
 Put a pin in it for now though, let me jump ahead into Dark Patterns:
 
-### 'Dark Patterns'
+#### 'Dark Patterns'
 
 > A **dark pattern** is "a user interface that has been carefully crafted to trick users into doing things, such as buying overpriced insurance with their purchase or signing up for recurring bills"
 
@@ -856,13 +856,13 @@ Alright, so back to Gemini: Making more things like it wouldn't totally solve th
 
 It's not like this system couldn't be abused still of course, and there will always be a balance between the user trusting the service and it's UI and the beauty of that UI, but I think we could stand to go a bit in the direction of Gemini.
 
-### Misleading Information
+#### Misleading Information
 
-> I don't like 'em putting chemicals in the water that turn the freakin' frogs gay!
+> "Global warming relies on the theory that we are destroying ecosystems. There is no evidence that we could destroy ecosystems."
 
 {{< attribution >}}
 
-[Alex Jones](https://en.wikiquote.org/wiki/Alex_Jones) ヘ（゜◇、゜）ノ
+Rush Limbaugh, recipient of the Medal Of Freedom.
 
 {{< /attribution >}}
 
@@ -888,7 +888,7 @@ This could have extra uses too. Having something that could take two 2D graphs w
 
 Beyond that, content moderation needs improvements too - I don't even mean fake news or porn here (Though we could stand to have better nsfw tagging on most social media). I mean the bullshit reviews on Amazon or the fake products when shopping online (mostly fake electronics). If those services are going to be allowed to make stupid amounts of money, they should be required to do at least a tiny bit of consumer protection.
 
-### Information Overload
+#### Information Overload
 
 ʸᵉˢ ᴵ ˢᵉᵉ ᵗʰᵉ ᶦʳᵒⁿʸ ᶦⁿ ᵃ ᵖᵒˢᵗ ᵗʰᶦˢ ˡᵒⁿᵍ
 
@@ -914,7 +914,7 @@ What I do know is that trusting the YouTube or Facebook or Twitter algorithm to 
 
 Meanwhile, legislation that has been passed to try to fix some of this often results in other issues, like all the 'Can we give you cookies?' prompts on websites: [Why The Web Is Such A Mess (Youtube - Tom Scott)](https://www.youtube.com/watch?v=OFRjZtYs3wY&ab_channel=TomScott)
 
-### Updates after Initial Draw
+#### Updates after Initial Draw
 
 Fuck your shit. Compute first, then display.
 
@@ -926,11 +926,11 @@ It's not just search either, I'm sure everyone has encountered this in various p
 
 All you have to do is not change shit until you're done computing the answer, and then only change it once. This is about as simple as it gets and it avoids magical re-arranging menus that make everyone lose their shit.
 
-### Everything needs to be more damn responsive
+#### Everything needs to be more damn responsive
 
 *Fuck your 𝒻𝒶𝓃𝒸𝓎 animations.* I love eye candy, and a little bit is fine, but I shouldn't have to wait as a menu slowly drops down with some pretty animation. If I've used that menu before I probably already know where I want to click, and now because I expect to be able to do so instantly I just clicked whatever is behind it. Fuck that. If the animation is masking some load time, sure, but *as soon as* it is loaded, quit it, and show the damn content. If the animation is necessary to avoid suddenly flipping from black to white and blinding users, again, I get it. But it doesn't need to take more than 100ms. 
 
-### Advertising
+#### Advertising
 
 If I have to spend more than a fraction of a second to process what is being shown to me is an ad, it should be fucking illegal. If you want to put ads mixed into the content, then it should be required to be a lot of a lot more visually obvious.
 
@@ -952,17 +952,17 @@ Here the original at least has some color differentiation (Using the Boost app t
 
 Yunno what else is bullshit? The fact that all of these ads are 'personalized' to the point that collecting crazy amounts of information on individuals is expected and almost inevitable online, even with a pile of tracking blocking extensions and a DNS blackhole like [pi-hole](https://pi-hole.net). This could, and should, be a rant of it's own. Being spied on by our own devices is 100% not okay and it's one of the biggest reasons that they way we interact with computers sucks.
 
-## Storing Information Sucks
+### Storing Information Sucks
 
 Storing your data blows. Users have to contend with backups, backups for you backups, bitrot, file size vs compression, what file system to use, how to make backups actually convenient, mirroring information between systems with limited bandwidth, etc. But to start somewhere let's just look at archival:
 
-### Archival
+#### Archival
 
-Digital archival on 'cold storage' sucks. For one, that cold storage is ofter either a PITA to attach in the first place, Usually using either using a slow USB interface, an expensive and far-from-universal thunderbolt one, or, if you want to go very bulk storage, requiring a specialized PCIe card which is meant for servers which brings along it's own pile of issues.
+Digital archival on 'cold storage' sucks. For one, that cold storage is often either a PITA to attach in the first place, Usually using either using a slow USB interface, an expensive and far-from-universal thunderbolt one, or, if you want to go very bulk storage, requiring a specialized PCIe card which is meant for servers which brings along it's own pile of issues.
 
 But even once you have everything attached, most of the time backups are pain to run. You can always do the lazy copy-and-replace-existing method, but that's painfully slow as it has to check all the current files instead of just doing the logical thing and comparing two indexes, but, of course, most file systems don't support this index based method. Sure, there's software to add it, like Bvckup, but most that I can find is paid or not something I would trust.
 
-Using Git (or GitAnnex) is of course an option, but that has a higher barrier to entry to learn than seems reasonable. At the same time having actual file versioning needs to be a thing, something better than having `meh1.docx`, `meh2.docx`,`meh3final.docx`, and `meh3.5.finaler.docx`, even if it is still storing the file in full (though hopefully compressed) behind the scenes.
+Using Git (or GitAnnex) is of course an option, but that has a higher barrier to entry to learn than seems reasonable. At the same time having actual file versioning needs to be a thing, something better than having `untitled.docx`, `untitled.docx`,`untitled3final.docx`, and `untitled3.5.finaler.docx`, even if it is still storing the file in full (though hopefully compressed) behind the scenes.
 
 But, on the note of indexes, why are tools to provide a disk-offline index not better. From what I can find, [catcli](https://github.com/deadc0de6/catcli) and [Virtual Volumes View](http://vvvapp.sourceforge.net) are the main two options, and both are bit out of the way to use, compared to just having it be natively in the file browser. 
 
@@ -974,11 +974,11 @@ https://datproject.org/
 
 https://ipfs.io/
 
-### Phone ↔ PC is the fucking worst.
+#### Phone ↔ PC is the fucking worst.
 
-MTP needs to die a very painful death.
+MTP needs to die a very painful death. [USB Mass Storage](https://en.wikipedia.org/wiki/Media_Transfer_Protocol#Comparison_with_USB_Mass_Storage), that is, devices that show up the same way a flash drive does, are infinitely easier to work with. On Android, with large folders, I've found [adbfs](https://github.com/zach-klippenstein/adbfs), a tool that lets you do file transfer over Android Debugging Bridge, to be much better than MTP, but, really? No 'normal' user should be expected to use that. Hell, a lot of people are just uploading files to the cloud and then downloading them on the target device because it's easier. There's also a growing number of apps that let users to transfers over wifi by hosting an Samba server on the phone, but why would something wireless be better? It's absolutely crazy that things have gotten this bad. 
 
-### We're using ancient formats
+#### We're using ancient formats
 
 Look, jpeg and png are perfectly fine formats. For 2000. It's 2020. HEIF (or [BPG](https://bellard.org/bpg/)) really should be standard. Instead, it's a motherfucker because M$ is too damn cheap to include the HEVC extensions which it relies on it without either having the user [pay \$0.99](https://www.microsoft.com/en-us/p/hevc-video-extensions/9nmzlz57r3t7) ([or claiming to be the OEM](https://www.microsoft.com/en-us/p/hevc-video-extensions-from-device-manufacturer/9n4wgh0z6vhq)) because a collection of jackasses have it [patented so hard](https://www.hackerfactor.com/blog/index.php?/archives/833-HEIC-Yeah.html) and require licensing fees such that it may as well not exist. HEIF/HEIC or BPG I think have a good chance because of the preexisting hardware acceleration, but other formats like [hific](https://hific.github.io/), which uses GANs to do compression, look promising too.
 
@@ -991,7 +991,7 @@ Of course the same applies in other formats. .flac is replacing .wav for high en
 * People use some really, really shit formats
 * A lot of formats are needlessly complicated and not human or computer readable to anyone but the software vendor
 
-### Bit rot?
+#### Bit rot?
 
 * Data get's compressed, saved, and recompressed (ref xkcd)
   
@@ -1001,7 +1001,7 @@ Of course the same applies in other formats. .flac is replacing .wav for high en
 
 * no 'transaction history' or global text search
 
-### Hard drives and File systems suck.
+#### Hard drives and File systems suck.
 
 * why the fuck are we still using NTFS and EXT4 and not ZFS and LVM
 * Hard drive vendors are a bag of dicks
@@ -1013,9 +1013,7 @@ Of course the same applies in other formats. .flac is replacing .wav for high en
     * I have a subwoffer right next to mine
   * Feeling the inertia in a laptop
 
-### Cloud Storage is a terrible idea
-
-* Cloud storage is a terrible idea
+#### Cloud Storage is a terrible idea
 
 I'd also like to mention the idea of distributed computation here as well, as I think it's relevant both for the sake of compression and encryption of the data. I think that having a distributed system like 'this' - I'm referring to all the ideas up until now- in place should ask for contribution from users in turn for it's use, the obvious ask is to get it to be self sufficient. So if the distributed computational power of all these systems were used for everything I've described until now that should be more than plenty to allow it to function. This brings up the idea of balanced usage to contribution, I think the easiest solution is to simply use a system of computational debt tied to each user account. If the user is creating more computational debt than the average debt the system can sustain then that user should be handicapped in bandwidth accordingly. This does sort of bring us full circle in 'can I just trade debt with someone, or sell them my computational time' such that we're back to crypto based services again though, and I really don't like this idea for two reasons: 
 
@@ -1032,11 +1030,11 @@ The biggest problem with of course, is that currently home Internet users very r
 
 {{< /attribution >}}
 
-## Transferring Information Sucks
+### Transferring Information Sucks
 
 [TODO]
 
-### Networking Sucks
+#### Networking Sucks
 
 [TODO]
 
@@ -1047,7 +1045,9 @@ The biggest problem with of course, is that currently home Internet users very r
 * nothing is secure
 * nothing is persistent (saved local copies)
 
-### Transferring Your Profile Sucks
+[Nat Slipstream](https://samy.pl/slipstream/)
+
+#### Transferring Your Profile Sucks
 
  AnIdiotOnTheNet's Comment on [This Hacker New's Submission - 'Re-Thinking the Desktop OS'](https://news.ycombinator.com/item?id=24783387)
 
@@ -1055,17 +1055,17 @@ The biggest problem with of course, is that currently home Internet users very r
 > 
 > 5) Switchable "user profiles" instead of "user accounts", which are an artifact of giant shared computer systems. User profile just contains personalized settings and can be located anywhere, including removable media so you can take yours to other computers. If you want to keep things safe from others, encrypt them. Otherwise there are no permissions except those applied to applications themselves.
 
-### Local Backups By Default
+#### Local Backups By Default
 
 [TODO]
 
-### Physical Interaction
+#### Physical Interaction
 
 [TODO]
 
 I also think the boundaries of physical and digital should be more blurred. I'd love if I could set a book on my desk and search though it for an idea or concept by mere image recognition of the cover, or if it's an unknown book at least being able to digest any pages shown to it explicitly. Say a section was highlighted? It would be great if that were automatically added to a *personal journal file of sorts* for future reference, especially if related data were automatically associated with online sources, or links made to people who are interested in similar subjects.
 
-## Creating New Information Sucks
+### Creating New Information Sucks
 
 **Or, People Will Only Make Stuff That Is As Good As The Tools They Have**
 
@@ -1105,19 +1105,23 @@ though there are plenty of other examples, like the node editors used for making
 
 Potentially this could also plug into the entire OS as well, making it so an image manipulation program's extension could for example modify anything output to the screen in real time, or an audio program could effect the output of anything. For developer's this may even offer more power, making possible things such as inter-process communication (think pipes, like `$ls -la | grep png`) a matter of connecting two nodes, or reading disk information such as activity, space, or even writeback and inode information, this would literally allow any one piece of information to be accessible to any other. This does have obvious permission issues, but unix permissions should already have this under control. If something like this could also be tied into the previously mentioned internet search and socialization 'web' without massive security concerns the potential use cases are as simple as getting color information from an image hosted online to as complicated as remote access or distributed computing.
 
-## Oh, and our systems are fucking racist and suck for anyone with special needs.
+### Oh, and our systems are fucking racist and suck for anyone with special needs.
+
+#### Racist, how can a computer be racist?
+
+AI systems, naming conventions (both human names and terms like master/slave, whitelist/blacklist)
 
 [TODO]
 
-## We basically don't even own our computers anymore
+### We basically don't even own our computers anymore
 
 [TODO] Licensed everything, no root access, etc. 
 
-# What's Else Is Needed?
+## Chapter 3: What's Else Is Needed?
 
 [TODO]
 
-## Script all the things! But Not Like That™
+### Script all the things! But Not Like That™
 
 [TODO]
 
@@ -1125,13 +1129,13 @@ Visual Programming but still supporting text based programming, natural language
 
 everything is a file/folder (inc. full programs)
 
-## Optional Security
+### Optional Security
 
 [TODO]
 
 Temple OS philosophy
 
-## Backwards Compatibility via Compatibility Layers
+### Backwards Compatibility via Compatibility Layers
 
 [TODO]
 
@@ -1147,27 +1151,27 @@ No reason we shouldn't be able to run very old shit, but also no reason to use t
 
 Hardware compatibility via FPGA modules
 
-## Hardware Modularity, Repairability, and Customization
+### Hardware Modularity, Repairability, and Customization
 
 [TODO]
 
-## Network Transparency
+### Network Transparency
 
 [TODO]
 
-## The Ability to go Back In Time
+### The Ability to go Back In Time
 
 [TODO]
 
 updates, file changes, or just scrolling on a screen - a refresh sholud let you return to the previous state, past notifications should be accessible 
 
-## Open Sensors and Generators
+### Open Sensors and Generators
 
 [TODO]
 
 SDRs, new IO options (something shittier than USB, cheap, and extendable), open IOT
 
-## Software that breaks the mold
+### Software that breaks the mold
 
 [TODO]
 
@@ -1189,7 +1193,7 @@ Microfluid computers, diode logic, GPIO
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Why can’t you easily search all of the text you read on any screen (desktop + mobile) over the past day?<br><br>It’s strange how much obvious, low-hanging fruit of this form still exists.</p>— Patrick Collison (@patrickc) <a href="https://twitter.com/patrickc/status/953011978217205760?ref_src=twsrc%5Etfw">January 15, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-# What points contradict
+## Chapter 4: What points contradict?
 
 * **Having Low Level Access and High Level Usability.**
 
@@ -1209,7 +1213,7 @@ But even just directly looking at speed and latency, there's still a ton of room
 
 [TODO] Microsoft browser choice windows
 
-## Everything is in the browser now anyway?
+### Everything is in the browser now anyway?
 
 Above I said that all of this should be in the OS and not just browser extensions as people still use a lot of non-browser tools, and I think saying that was rather dismissive. It is definitely true that when using a computer today the vast majority of your use will probably be in-browser. The problem lies in that 'vast majority part' - that's likely because in general people spend a lot more time consuming than creating, and the browser is built for media consumption.
 
@@ -1219,33 +1223,29 @@ The other point to make here is the browser probbbbabbllyy isn't the best place 
 
 On the other hand, one of the things I mentioned repeatedly was portability. Browsers actually have this working pretty damn well at this point, syncing beautifully between devices compared to how things are on Windows or Linux (I wouldn't know about mac ¯\\_(ツ)_/¯)
 
-## Unification vs Diversity
+### Unification vs Diversity
 
 Or why **"I wish everybody used Linux!"** is probably not the wisest thing to say.
 
 [TODO]
 
-# What do we already have?
+### What else is holding us back?
 
-[TODO]
-
-# What else is holding us back?
-
-## Wheel reinvention
+#### Wheel reinvention
 
 Microsoft has been spending a lot of time changing to the new UI, and their calculator has been updated like a dozen times for UI now but still [SpeedCrunch](http://speedcrunch.org) remains 1000x more usable and tools like [WolframAlpha](https://www.wolframalpha.com) remain superior yet. Stop spending time on shit literally nobody gives a shit about.
 
 [TODO]
 
-# What Might Radically Change Things?
+## Chapter 5: What Might Radically Change Things?
 
-## Body Modification and Bio-Engineering
+### Body Modification and Bio-Engineering
 
 Another point is the idea of biohacking and body augmentation. Examples include implanted [RFID tags](https://dangerousthings.com/) (which I actually have) and magnets for sensing electromagnetic fields, though I think a lot of biohackers are missing the point. [This](https://www.youtube.com/watch?v=4c1lqFXHvqI) is the future I see in store.
 
 [TODO]
 
-## Brain Computer Interfaces
+### Brain Computer Interfaces
 
 [Implant-less BCI](https://science.slashdot.org/story/20/10/26/2140202/no-implants-needed-for-precise-control-deep-into-the-brain)
 
@@ -1261,9 +1261,7 @@ The terminal emulator above is still compatible with the VT220 from 1983 (as are
 
 Finally, I'd like to say I understand we don't all get the choice, be it by monetary, physical, or other restrictions, to have a 'perfect' work environment. If you live in the city there will be noise, If you live in the country, you may be limited by your internet connection, I get that. Obviously I don't expect everyone to go out and make their own versions of some of the high tech, borderline art installations that I linked either. I also don't think everyone's down to go get an RFID tag in their hand. I just wanted to present what I see as 'the future'. It probably won't come in 2021 or even 20021. I do, however, hope this has inspired you to look at the way you work, the environment you work in, and how you can improve it.
 
----
-
-# Other hardware and software pushing things forward
+### Other hardware and software pushing things forward
 
 [TODO]
 
@@ -1281,7 +1279,7 @@ https://dynamicland.org -- computing that works with the environment
 
 https://arcan-fe.com/2020/02/10/leveraging-the-display-server-to-improve-debugging/ - it's in the URL
 
-# Other people that have ranted about similar things, but usually a bit more politely
+### Other people that have ranted about similar things, but usually a bit more politely
 
 [TODO]
 
@@ -1294,7 +1292,7 @@ https://mmcthrow-musings.blogspot.com/2020/04/a-proposal-for-flexible-composable
 <li><a href="https://en.wikipedia.org/wiki/Dvorak_keyboard_layout#/media/File:KB_Programmer_Dvorak.svg">Programmer's Dvorak</a> is a thing and honestly I want to know if anybody actually uses it? Having the numbers like that hurts my brain.</li>
 <li><a href="http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf">Seriously,</a>  check these out. You won't believe some of what's in here.</li>
 <li>MIDI is currently in a transition period from MIDI on a 5-pin Din to over TRS exactly because of this reason. Unfortunately, there's now two competing versions of MIDI over TRS called TRS-A and TRS-B where the signals on each pin are mixed around. Making it even worse, there's even a version that runs on 'mono' TS cables. It's a <a href="https://minimidi.world">mess.</a></li>
-<li>Sub-Pixel Rendering is effectively abusing the fact that monitors will have a sort of trippled horizonal resolution, where each individual R, G, and B sub pixel is treated like an individual pixel that can be rendered to. This can make text look substantially shaper, but is why when you take a screenshot and blow it up you might see weird colors around the text. It's a hacky work around.</li>
+<li>Sub-Pixel Rendering is effectively abusing the fact that monitors will have a sort of trippled horizonal resolution, where each individual R, G, and B sub pixel is treated like an individual pixel that can be rendered to. This can make text look substantially sharper, but is why when you take a screenshot and blow it up you might see weird colors around the text. It's a hacky work around.</li>
 <li>The interface on your display matters greatly as well, the most common at the are HDMI, Display Port, DVI, and VGA<br>
 VGA is the worst option here, as it's an analog signal. This means the signal can do strange things, getting corrupted between your computer and the monitor. Typically this is a blue, screw in connection with many pins
 DVI is still pretty common and looks like an even larger VGA connection, with a typically white, screw in connector. This signal is normally digital, though there is a variant of DVI that can be adapted into VGA. Of note, DVI can also be adapted to HDMI though you will not have audio, as DVI does not carry sound<br>
@@ -1306,3 +1304,4 @@ Taking the crown however, is Display Port (DP). Like HDMI display port does have
 <li>Fuck Adobe.</li>
 <li>The Launchkey MK2 has an almost impressively bad keybed. Roli, the company behind the Seaboard Block and Lighpad Blocks is a bit controversial. Not like, Behringer levels of controversial, but still. ╮(─▽─)╭</li>
 </ol>
+
