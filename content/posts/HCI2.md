@@ -90,11 +90,9 @@ That's why this topic is so interesting. My hands are not your hands. I play mus
 
 We can do so much better. Our phones have auto correct and limited [text expansion](https://espanso.org), why do our beefier systems not do something a thousand times better with their superior on board resources? We could at least make it easier to grab [text out of screenshots](https://github.com/ianzhao05/textshot)- But why are we not doing natural language processing so that I can verbally or textually describe to you a graph or math equation without needing to have committed to memory some archaic set of {{< katex >}} \LaTeX {{< /katex >}}symbol names <a class="ptr">(3)</a>? Why are so many fields limited to ASCII, or maybe UTF-8, giving us those sweet, sweet emoji 🔥🔥🔥💯💯💯💯 when we could have something that allows text, diagrams, pictures, videos, etc.
 
-**But there's more than just the keyboard**
+### More than Just the Keyboard:
 
-Oh. I know. Thank you for me for bringing me to my next points so I can get back to ranting.
-
-**Mice and Touch pads and track balls**
+#### Mice and Touch pads and track balls
 
 Take your hand off your phone screen or mouse for a second and hold your hand in front of your face. Wiggle you fingers, move your wrists. With that last instruction what did you do? Did you rotate your hand, move it up and down, or twist it? Now, consider how each of your fingers possess such fine motor controls. Is a mouse really made to take advantage of this?
 
@@ -136,13 +134,13 @@ To give credit where credit is due, there have been minor changes that are trend
 
 Unfortunately, the drivers for configuring these options are still largely proprietary and anything but standardized, meaning making integration between brands and OS built-in support all but impossible. Of everything listed up to this point, I actually think this is the biggest problem. Without a consistent, extendable interface about the best that can be exposed is awkward hacks where joysticks are mapped as if they're on a full game controller or keys just mapped to a macro of keyboard keys or existing but unused keys like the F13 though F24 keys or scroll lock. This is a massive problem. 
 
-**Foot Controllers**
+#### Foot Controllers
 
 {{< columns >}}
 
 ![](/mc6.jpg)
 
-Morning Star MC6, a MIDI foot pedal that's high customizable and has inputs for connecting analog expression pedals (the green thing on the right). 10/10 recomended
+MorningStar MC6, a MIDI foot pedal that's highly customizable and has inputs for connecting analog expression pedals (the green thing on the left). 10/10 recommended
 
 <--->
 
@@ -160,11 +158,11 @@ Essentially, if my inputs are limited, there's a limited number of solutions. Th
 
 The other relevant point would be the ability for **inter-peripheral communication** - basically, your mouse should be able to 'talk' to your keyboard and vis-versa. This becomes a bit redundant if as mentioned above all the mapping and meaning of buttons is defined in software, but the point would be that a key-combo could change your mouse's DPI, or holding a button on your mouse could put your keyboard into a one-handed mode.
 
-**Pen Tablets**
+#### Pen Tablets
 
 Honestly, most pen tablets are reasonably good. Not all of them have great latency, map super well between the pen's nibb and the actual pointer on the screen, and the majority *don't* support touch, which probably isn't ideal, but in general they do the job well enough, or, would, if you only counted teh hardware.
 
-*Waring, the following is a rant about drivers on Windows:* This is interesting as the hardware is actually reasonably competent, while the software is largely so incredibly god awful that it is somehow impressive. While I realize this is totally anecdotal, one pen tablet I've used on Windows the driver software is so bad that it actually randomly takes over as the focused application about once every 15 minutes, meaning whatever line you were in the middle of drawing just *stops* and you have to click on the program again to keep going. But, like, even with more competent driver stacks there's like a 6 different options for pen pressure: Wintab, Windows Ink, the option to 'Use the device as a mouse pointer' ... It's so incredibly confusing and the required options per application vary wildly. To make matters worse, most of the drivers completely shit themselves if one display is scaled for HiDPI and another isn't. On Linux, ironically, I've actually had very good luck with pen tablets. 
+*Warning, the following is a rant about drivers on Windows:* This is interesting as the hardware is actually reasonably competent, while the software is largely so incredibly god awful that it is somehow impressive. While I realize this is totally anecdotal, one pen tablet I've used on Windows the driver software is so bad that it actually randomly takes over as the focused application about once every 15 minutes, meaning whatever line you were in the middle of drawing just *stops* and you have to click on the program again to keep going. But, like, even with more competent driver stacks there's like a 6 different options for pen pressure: Wintab, Windows Ink, the option to 'Use the device as a mouse pointer' ... It's so incredibly confusing and the required options per application vary wildly. To make matters worse, most of the drivers completely shit themselves if one display is scaled for HiDPI and another isn't. On Linux, ironically, I've actually had very good luck with pen tablets. 
 
 But even then most don't handle pressure in a way that's customization in a good way, instead relying on software to do pressure-mapping, which just isn't great. It's often a serious pain in the ass to get it set  𝘫𝘶𝘴𝘵 𝘳𝘪𝘨𝘩𝘵  so that you don't get crazy pressure jumps and even if the driver has in-driver calibration, you still usually have to tweak it more in the specific art/drawing/art application so now you have TWO pressure maps and it begins to feel like trying to balance a double pendulum.
 
@@ -172,7 +170,7 @@ I do still think there's more room for improvement in the hardware too. I think 
 
 I also think there's room to allow for workflows that rely more on the physical, possibly something like [Dynamic Land](https://dynamicland.org) or even just the [iskn](https://www.iskn.co) Slate or Repaper (Note, I tried the slate and it really, really sucked. But the *idea* was interesting.)
 
-**Audio And Video**
+#### Audio And Video
 
 Your **webcam** is shit. You know how I know? Because it's a webcam. Even the everybody's go-to, the Logitcech C920, is shit<a class="ptr">(8)</a>. You know what else is shit? Your microphone. When you type on a laptop it sounds like damn earthquake, and if you get comfortable and lean back in your chair you suddenly get quiet. But more than anything it sounds like I'm carry a call over cans on a string. Maybe you have a gamer headset. Cool, the boom mic sounds about as good somebody screaming through a cardboard tube.
 
@@ -192,7 +190,7 @@ I'll expand on this thought later, down in the **Your Audio Sucks** Section.
 
 Finally, *nobody* has ever wanted their notifications to show up when sharing their screen. Why are notifications not deemed as a sort of 'draw over' element by default?
 
-**Application Specific Controllers (MIDI Controllers, Video Editing, etc)**
+#### Application Specific Controllers (MIDI Controllers, Video Editing, etc)
 
 First of all, this is done in a stupid way in most circumstances<a class="ptr">(9)</a>. There is no reason you should have single use hardware that sends specific commands that are not programmable by the user. Like I said above, let's do all the mapping in software. This lets features be added later and users make better use of their controllers.
 
@@ -210,7 +208,7 @@ So now we have a crazy amount of controllers using a shitty standard instead of 
 
 Note, I'm being careful to say button up and down events instead of button press. This is because it makes a lot more sense to exrpess the events as raw as possible so the OS can do things like detect a double-press, long-hold, etc.
 
-**Voice Control**
+#### Voice Control
 
 The first thing I want to point out is how incredibly English centric voice control is. I only speak English so I lack any more to say on the subject, but come on.
 
@@ -220,7 +218,7 @@ If anything, I think Alexa is a bit ahead of the curve on this making it semi-ea
 
 I want voice control that can actually -do- something. Not 15 competing standards. It's okay if they all implement the same standard protocol, but unless there's a standard that all programs can start tieing into and it's given real, time saving capabilities nobody will use it. This mostly comes down to needing much, much better natural language processing - something that [GTP-3](https://en.wikipedia.org/wiki/GPT-3) has shown is possible - and having a way for applications to define accessible inputs and outputs. Think the Unix Philosophy where things can be piped and IO redirected but applied to larger applications and controlled via voice or text entry.
 
-**Object Tracking**
+#### Object Tracking
 
 What if everything you did was an actionable input? What if you could finger-drum on your desk and get real drum sounds, have your computer pause a video if you get out of you chair, or give the user a warning if they've been sitting with a bad posture for a long time? Between the Kinect, [Leap Motion,](https://www.ultraleap.com) and [Tobii Eye Tracking](https://www.tobii.com) we're staring to get close to this.
 
@@ -228,23 +226,23 @@ I think https://dynamicland.org has a lot of interesting thoughts on this idea a
 
 I do think in the future we'll stop using the basic screen + keyboard + mouse combo and see more 'smarts' integrated into everyday things and our work flows. I really like the idea of having a desk with a camera and projector above it to highlight objects and interact with what it can see- scanning documents, giving feedback on technique with crafts, whatever.
 
-**Game Controllers**
+#### Game Controllers
 
 Re everything above. Something something make sure they're rechargeable, ergonomic, and simply fun to use. My award for Not Sucking™ goes to the Steam Controller and my award for Best For People With Three Hands™ goes to the N64 Controller.
 
-**RFID Tags**
+#### RFID Tags
 
 I have RFID tags from Dangerous Things in each hand, I have an RFID based access card for my University, and my parking lot uses RFID tags for entry. Ignoring the obvious security problems with RFID authentication, It's also just not great to have people carry around a card when their phones can already act as an RFID device anyway, it just makes for a very mis-placeable access token which seems rather stupid. I'll talk authentication more in a bit.
 
-**Document Scanners**
+#### Document Scanners
 
 I will not take this opportunity to rant about printers, no matter how much I want to.
 
 To keep this short: Higher default DPI, options to output via OCR (Optical Character Recognition) directly to the document so you don't have to even store the original document, built in de-noising (remove the dust specs), live scanning of paper via camera for things like helping with math.
 
-**What's worse is half this shit already exists, and it is shit.**
+### What's worse is half this shit already exists, and it is shit.
 
-Want to look up $LaTeX$ Symbols? [Done.](https://detexify.kirelabs.org/classify.html) Want to have Optical Character Recognition on your screenshots? [Textshot has that covered.](https://github.com/ianzhao05/textshot) But while I could go on with this list the big problem is of *integration* While having an OS like Linux that is tweakabe to the nth degree is unmistakably *fucking incredible*. I also **shouldn't have to**. I should be able to use any computer and trust the OS to have built in methods for getting text from a picture, to trust the OS will let me remap keys so that tapping the [shift keys types perentheses](https://docs.qmk.fm#/feature_space_cadet) or that I can bind the keys to type arbitrary Unicode. The OS should have a **local** - *don't you fucking dare collect all of this data* - store of everything I've looked at so I can go back and search for "mostly purple images" or "links clicked on October 12th". And like, there's about a dozen different chrome extensions that try to do this under the very stupid assumption that essentially all of that interaction will be in browser.
+Want to look up {{< katex >}} \LaTeX {{< /katex >}} Symbols? [Done.](https://detexify.kirelabs.org/classify.html) Want to have Optical Character Recognition on your screenshots? [Textshot has that covered.](https://github.com/ianzhao05/textshot) But while I could go on with this list, the big problem is of *integration* While having an OS like Linux that is tweakabe to the nth degree is unmistakably *fucking incredible*. I also **shouldn't have to**. I should be able to use any computer and trust the OS to have built in methods for getting text from a picture, to trust the OS will let me remap keys so that tapping the [shift keys types perentheses](https://docs.qmk.fm#/feature_space_cadet) or that I can bind the keys to type arbitrary Unicode. The OS should have a **local** - *don't you fucking dare collect all of this data* - store of everything I've looked at so I can go back and search for "mostly purple images" or "links clicked on October 12th". And like, there's about a dozen different chrome extensions that try to do this under the very stupid assumption that essentially all of that interaction will be in browser.
 
 ## Our Physical Environments Suck
 
@@ -382,19 +380,19 @@ Before I get into all the following, I'm not saying all of these things should a
 
 {{< /hint >}}
 
-**Why *the fuck* do we not have a system-wide limiter?**
+#### Why *the fuck* do we not have a system-wide limiter?
 
 And not just a dumb decibel limiter, but a [loudness (Wikipedia)](https://en.wikipedia.org/wiki/Loudness) limiter. There's no reason there shouldn't be a toggle-able limiter to protect your ears
 
-**Why *the fuck* do we not have per-stream audio compression?**
+#### Why *the fuck* do we not have per-stream audio compression?
 
 Not file-compression but volume-compression. the 'make loud sounds quieter and quieter sounds louder' kind. Generally this is something the music industry over-uses and it doesn't sound great on music, but for voice it can make a huge difference for keeping things understandable and not distracting. Ideally this would be done before the content is ever published or sent though the network, but that won't always be the case. So, you should be able to easily take any audio stream (say, a YouTube video playing in a tab) and apply a compressor to it.
 
-**Why do we not have live Speech to Text?**
+#### Why do we not have live Speech to Text?
 
 Not all systems will be able to do this live without completely shitting the bed because of lack of processing power, but as our graphics cards are now including specific hardware for doing AI/ML based computation, there's no reason we sholudn't be using in the OS for the sake of grabbing the text out of all audio that goes in or out of the system. (of course, storing it securely and locally, nobody wants to wiretap themselves)
 
-**Why is Audio and Video Not Routable?**
+#### Why is Audio and Video Not Routable?
 
 Alright, so this is mostly a dig at Windows, where everything is Garbage. Mac has CoreAudio which is pretty cool, and Linux can mostly do this for audio via [Jack Audio](https://jackaudio.org/faq/about.html) and work is being done to make something for both audio and video with [Pipewire](https://pipewire.org).
 
@@ -404,7 +402,7 @@ Alright, so this is mostly a dig at Windows, where everything is Garbage. Mac ha
 
 The reason this is necessary is with routable audio and video you can do things like route your webcam's video first though software that does some video effects, then to a recording program and to a streaming program easily. Sure, this can be done anyway right now, but it often means creating a 'virtual' webcam in the middle, and this scenario was already a fairly basic one. If you add in the aforementioned limiting and compressing as options you can see where this starts to matter.
 
-**Why are we not calibrating our audio devices?**
+#### Why are we not calibrating our audio devices?
 
 While it may seem like it at times- with big fancy tube amps, planar magnetic headphones, and silver cables for that hi-fi sound- audio is not black magic. It's math. More over, while everybody's ears are a bit different, the frequency response that most people want from their devices is [more or less known](https://www.headphonesty.com/2020/04/harman-target-curves-part-1/). No device can perfectly meet this, at least not at a cost a mere mortal can afford. As that linked article details, this isn't super straight forward anyway, as your head and ear size, room acoustics, etc. all mater. But here's the thing:
 
@@ -432,7 +430,7 @@ I'm not sure that there's really much need to go beyond 4k. While I haven't even
 
 > Little aside first. Some jackasses decided even on digital displays [interlacing](https://en.wikipedia.org/wiki/Interlaced_video) should be a thing. I don't want to lose focus here, but I want to at least mention this, which you'll often see listed as 1080i or 720i, is shit.
 
-**Refresh Rate**
+#### Refresh Rate
 
 Do a little experiment for me real quick: try changing your display to 30Hz. Most displays will support it.
 
@@ -454,7 +452,7 @@ This, to me, is a big deal. Latency is something you can *feel*. If there's a lo
 
 So, the time it actually takes for your display to update once it's gotten a frame is not irreverent.
 
-**Dimming**
+#### Dimming
 
 Unless you're a fan of melting your eyes out of their sockets, you likely do not have your display set to maximum brightness. Unfortunately, dimming on most displays is absolute garbage.
 
@@ -478,7 +476,7 @@ In this video, because it is so incredibly slowed down, you can see the led's fl
 
 This has put me in the crappy situation before of having to set the display to max brightness to avoid the headache from the strobing effect (Pulse width at 100% means constantly on so just DC), but dealing with being blinded by any application with a white background.
 
-**Color and Dynamic Range**
+#### Color and Dynamic Range
 
 If you have multiple displays that aren't exactly the same you know just how annoying un-matched color can be. This is a harder problem to solve than some of the others. Color calibration definitely helps, but that only means so much when the actual display technology may be different. an LCD will look different than an LED will look different than an OLED even if they're color calibrated to match. This, I think, is actually reasonable. What is totally unreasonable is how digital color looks in the first place. Let me start by linking a video:
 
@@ -633,7 +631,17 @@ If you do think "huh, I could go for a fish tank", I will warn you most produce 
 
 ---
 
+
+
+<div class="wrapper">
+  <h2 class="glitch">Chapter 2: The Digital</h1>
+</div>
+
+<div hidden>
+
 ## Chapter 2: The Digital
+
+</div>
 
 Alright, now onto the fun stuff, I think I've established that the physical side of how we use a computer is sub optimal, but what about how we actually do the things we do day to day? I think, for the most part, these things can be put into a few categories:
 
@@ -711,7 +719,7 @@ But it's so much worse than that. Tons of information services are subscription 
 >
 > **Authorization** is what the user and service can do, or what 'permissions' you grant the service and what you're allowed to do on the service.
 
-**Authentication:**
+#### Authentication:
 
 I'll bet cold, hard fictional cash that you've put off turning on two factor for a service you don't give two shits about.
 
@@ -757,7 +765,7 @@ Note, those USB security keys have updated in standard. The newer ones which sup
 
 {{< /tip >}}
 
-**Authorization:**
+#### Authorization:
 
 Put simply, we need easier to use, fine grain authorization settings that can't be bypassed. I should be able to tell a program, website, or app that I don't want to give it my location, and then, if it asks anyway it should be fed garbage. Refusal should also not stop access to that service. Similarly for storage, microphone, contact, etc.
 
@@ -972,9 +980,11 @@ https://ipfs.io/
 
 MTP needs to die a very painful death.
 
-### Were using ancient formats
+### We're using ancient formats
 
-Look, jpeg and png are perfectly fine formats. For 2000. It's 2020. HEIF (or [BPG](https://bellard.org/bpg/)) really should be standard. Instead, it's a motherfucker because M$ is too damn cheap to include the HEVC extensions which it relies on it without either having the user [pay \$0.99](https://www.microsoft.com/en-us/p/hevc-video-extensions/9nmzlz57r3t7) ([or claiming to be the OEM](https://www.microsoft.com/en-us/p/hevc-video-extensions-from-device-manufacturer/9n4wgh0z6vhq?activetab=pivot:overviewtab)) because a collection of jackasses have it [patented so hard](https://www.hackerfactor.com/blog/index.php?/archives/833-HEIC-Yeah.html) and require licensing fees such that it may as well not exist. HEIF/HEIC or BPG I think have a good chance because of the preexisting hardware acceleration, but other formats like [hific](https://hific.github.io/), which uses GANs to do compression, look promising too.
+Look, jpeg and png are perfectly fine formats. For 2000. It's 2020. HEIF (or [BPG](https://bellard.org/bpg/)) really should be standard. Instead, it's a motherfucker because M$ is too damn cheap to include the HEVC extensions which it relies on it without either having the user [pay \$0.99](https://www.microsoft.com/en-us/p/hevc-video-extensions/9nmzlz57r3t7) ([or claiming to be the OEM](https://www.microsoft.com/en-us/p/hevc-video-extensions-from-device-manufacturer/9n4wgh0z6vhq)) because a collection of jackasses have it [patented so hard](https://www.hackerfactor.com/blog/index.php?/archives/833-HEIC-Yeah.html) and require licensing fees such that it may as well not exist. HEIF/HEIC or BPG I think have a good chance because of the preexisting hardware acceleration, but other formats like [hific](https://hific.github.io/), which uses GANs to do compression, look promising too.
+
+> As a note about why I wrote about HEIF/C in particular, most phones are capable of storing images in this format now, and IPhones do by default, which is a real PITA if an apple user emails these pictures to a Windows user.
 
 Of course the same applies in other formats. .flac is replacing .wav for high end audio, but why not [Direct Stream Digital (DSD)](https://en.wikipedia.org/wiki/Direct_Stream_Digital)? 
 
