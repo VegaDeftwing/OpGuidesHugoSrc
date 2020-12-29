@@ -319,7 +319,7 @@ There are also 'antiprimes' (or 'highly composite numbers'), from Wikipedia:
 
 > ... an **antiprime number**, is a [positive](https://en.wikipedia.org/wiki/Positive_number) [integer](https://en.wikipedia.org/wiki/Integer) with more [divisors](https://en.wikipedia.org/wiki/Divisor) than any smaller positive integer has
 
-so, technically 1, 2, 4, and 6 are all antiprime. But where it gets interesting is with larger numbers. For example, 360 is anti prime as you get get to it with {{< katex >}} $2*2*2*2*3*3*5${{< /katex >}}, which is 7 primes multiplied together, more than it takes to get to any number prior. These numbers are really easy to work with because of this, and it makes it really convient for the number of degrees in a circle as it can be divided so easily.
+so, technically 1, 2, 4, and 6 are all antiprime. But where it gets interesting is with larger numbers. For example, 360 is anti prime as you get get to it with {{< katex >}} 2*2*2*2*3*3*5​{{< /katex >}}, which is 7 primes multiplied together, more than it takes to get to any number prior. These numbers are really easy to work with because of this, and it makes it really convient for the number of degrees in a circle as it can be divided so easily.
 
 ## 2 - Discrete Math
 
