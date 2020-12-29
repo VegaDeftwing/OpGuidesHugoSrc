@@ -4,6 +4,7 @@ slug: "TheWayWeInteractWithComputersSucks"
 author: "Vega Deftwing"
 date: 2020-12-25
 ---
+
 {{< tip >}}
 
 You are on a page that is a heavy work in progress. I don't necessarily stand by anything I've written here and this page should effectively be considered not yet published. I have decided to put it up while it is in development to encourage contributions
@@ -480,7 +481,7 @@ This has put me in the crappy situation before of having to set the display to m
 
 If you have multiple displays that aren't exactly the same you know just how annoying un-matched color can be. This is a harder problem to solve than some of the others. Color calibration definitely helps, but that only means so much when the actual display technology may be different. an LCD will look different than an LED will look different than an OLED even if they're color calibrated to match. This, I think, is actually reasonable. What is totally unreasonable is how digital color looks in the first place. Let me start by linking a video:
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/h9j89L8eQQk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/h9j89L8eQQk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This sucks. Like, why have we accepted this? Sure, things like [High Dynamic Range (Wikipedia)](https://en.wikipedia.org/wiki/High-dynamic-range_rendering) or HDR - which allows the panel to selective change the brightness in an area of the screen, giving much better dynamic range in supported applications - have helped with this problem indirectly, but it's still not great. 
 
@@ -631,8 +632,6 @@ If you do think "huh, I could go for a fish tank", I will warn you most produce 
 
 ---
 
-
-
 <div class="wrapper">
   <h2 class="glitch">Chapter 2: The Digital</h1>
 </div>
@@ -697,11 +696,9 @@ Another point is the summery of information and omission of the irrelevant info.
 
 I also think that bringing people together, potentially anonymously, based on search and knowledge could be extraordinary valuable. If as I'm looking up 'How to do X' and somebody else is looking up 'How to Do Y, an advanced topic from X' it would be fantastic if we could talk, albeit unobtrusively to the person being requested. It seems to me that searching is desperately lacking a social element and ranking system. How great would a simple Reddit like upvote system on any given search be? What if browsers added a comment system that was hosted though some sort of distributed network and tied to each page so people could leave comments on any site regardless of if the site has comment functionality built in? (Yes, I know this is ripe for spam and abuse, but let me dream...)
 
-
-
 Google also needs to quit their shit with information cards:
 
-<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/FPQnLW60Vt">pic.twitter.com/FPQnLW60Vt</a></p>&mdash; Randall Munroe (@xkcd) <a href="https://twitter.com/xkcd/status/1333621855001976832?ref_src=twsrc%5Etfw">December 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/FPQnLW60Vt">pic.twitter.com/FPQnLW60Vt</a></p>— Randall Munroe (@xkcd) <a href="https://twitter.com/xkcd/status/1333621855001976832?ref_src=twsrc%5Etfw">December 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Pay-Walls suck
 
@@ -716,7 +713,7 @@ But it's so much worse than that. Tons of information services are subscription 
 ### Authentication and Authorization Suck
 
 > **Authentication** is the sign in
->
+> 
 > **Authorization** is what the user and service can do, or what 'permissions' you grant the service and what you're allowed to do on the service.
 
 #### Authentication:
@@ -726,6 +723,7 @@ I'll bet cold, hard fictional cash that you've put off turning on two factor for
 I'll double my fictional money to bet that you have a junk password you use by default everywhere you don't give a shit.
 
 Hell, I'll go all in betting on saying you've authenticated with quite a few services by just using the 
+
 <div class="w3-container" style="width:fit-content%;display: inline-block;" ><p><button class="w3-button w3-blue w3-round-xxlarge w3-block">LOGIN WITH SOCIAL MEDIA</button></p></div></br>
 button, though possibly only because it was the only way to login to that service at all.
 
@@ -996,22 +994,22 @@ Of course the same applies in other formats. .flac is replacing .wav for high en
 ### Bit rot?
 
 * Data get's compressed, saved, and recompressed (ref xkcd)
+  
   * Using Waifu-2x to unfuck images still blows
 
-
-
 * sorting through data blows
+
 * no 'transaction history' or global text search
 
 ### Hard drives and File systems suck.
 
 * why the fuck are we still using NTFS and EXT4 and not ZFS and LVM
 * Hard drive vendors are a bag of dicks
-  * RPM != RPM https://arstechnica.com/gadgets/2020/09/western-digital-is-trying-to-redefine-the-word-rpm/
-  * SMR https://arstechnica.com/gadgets/2020/05/western-digital-gets-sued-for-sneaking-smr-disks-into-its-nas-channel/
+  * RPM != RPM [Western Digital redefines 'RPM'](https://arstechnica.com/gadgets/2020/09/western-digital-is-trying-to-redefine-the-word-rpm/)
+  * SMR [Western Digital uses SMR on NAS drives](https://arstechnica.com/gadgets/2020/05/western-digital-gets-sued-for-sneaking-smr-disks-into-its-nas-channel/)
   * DRAMless SSDs
 * Hard drives are just, bad
-  * Screaming at them makes them run worse https://www.youtube.com/watch?v=tDacjrSCeq4
+  * Screaming at them makes them run worse [Shouting In The Datacenter](https://www.youtube.com/watch?v=tDacjrSCeq4)
     * I have a subwoffer right next to mine
   * Feeling the inertia in a laptop
 
@@ -1019,16 +1017,12 @@ Of course the same applies in other formats. .flac is replacing .wav for high en
 
 * Cloud storage is a terrible idea
 
-
-
 I'd also like to mention the idea of distributed computation here as well, as I think it's relevant both for the sake of compression and encryption of the data. I think that having a distributed system like 'this' - I'm referring to all the ideas up until now- in place should ask for contribution from users in turn for it's use, the obvious ask is to get it to be self sufficient. So if the distributed computational power of all these systems were used for everything I've described until now that should be more than plenty to allow it to function. This brings up the idea of balanced usage to contribution, I think the easiest solution is to simply use a system of computational debt tied to each user account. If the user is creating more computational debt than the average debt the system can sustain then that user should be handicapped in bandwidth accordingly. This does sort of bring us full circle in 'can I just trade debt with someone, or sell them my computational time' such that we're back to crypto based services again though, and I really don't like this idea for two reasons: 
 
 1. This system needs real time computation and bandwidth, and these vary in value just like how electricity peak hours cost more.
 2. This incentives simply paying for compute time instead of actually contributing computational power to the network like it actually needs, which in turns creates an incentive for people to do this at scale *annnndd* look at that we're back to centralization.
 
 The biggest problem with of course, is that currently home Internet users very rarely have symmetric connections, so would probably be very pissed if their download speed were suddenly tied to their upload speed. This *could* be offset by building up credit, as previously mentioned, but that has the issues, as previously mentioned. I suppose there could simply be a credit cap, but setting that would be exceedingly awkward as a logical number to use would vary by user and how they use the system.
-
-
 
 ![XKCD Digital Data](/xkcddigitaldata.png)
 
@@ -1058,7 +1052,7 @@ The biggest problem with of course, is that currently home Internet users very r
  AnIdiotOnTheNet's Comment on [This Hacker New's Submission - 'Re-Thinking the Desktop OS'](https://news.ycombinator.com/item?id=24783387)
 
 > [...]
->
+> 
 > 5) Switchable "user profiles" instead of "user accounts", which are an artifact of giant shared computer systems. User profile just contains personalized settings and can be located anywhere, including removable media so you can take yours to other computers. If you want to keep things safe from others, encrypt them. Otherwise there are no permissions except those applied to applications themselves.
 
 ### Local Backups By Default
@@ -1144,7 +1138,7 @@ Temple OS philosophy
  AnIdiotOnTheNet's Comment on [This Hacker New's Submission - 'Re-Thinking the Desktop OS'](https://news.ycombinator.com/item?id=24783387)
 
 > [...]
->
+> 
 > 7) Backwards compatibility should be a high priority, but accomplished via shim layers and/or emulation and/or vms when clean breaks are necessary. A wide array of such should be included with the OS from the beginning. In 2020, there is no excuse for not being able to run old software."
 
 Excel date bug
@@ -1173,13 +1167,11 @@ updates, file changes, or just scrolling on a screen - a refresh sholud let you 
 
 SDRs, new IO options (something shittier than USB, cheap, and extendable), open IOT
 
-
-
 ## Software that breaks the mold
 
 [TODO]
 
-https://github.com/SolarLune/masterplan
+[MasterPlan by SolarLune](https://github.com/SolarLune/masterplan)
 
 Habitica?
 
@@ -1193,13 +1185,9 @@ http://audulus.com
 
 Microfluid computers, diode logic, GPIO
 
-
-
-
-
 7) Backwards compatibility should be a high priority, but accomplished via shim layers and/or emulation and/or vms when clean breaks are necessary. A wide array of such should be included with the OS from the beginning. In 2020, there is no excuse for not being able to run old software."
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Why can’t you easily search all of the text you read on any screen (desktop + mobile) over the past day?<br><br>It’s strange how much obvious, low-hanging fruit of this form still exists.</p>&mdash; Patrick Collison (@patrickc) <a href="https://twitter.com/patrickc/status/953011978217205760?ref_src=twsrc%5Etfw">January 15, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Why can’t you easily search all of the text you read on any screen (desktop + mobile) over the past day?<br><br>It’s strange how much obvious, low-hanging fruit of this form still exists.</p>— Patrick Collison (@patrickc) <a href="https://twitter.com/patrickc/status/953011978217205760?ref_src=twsrc%5Etfw">January 15, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 # What points contradict
 
@@ -1216,11 +1204,10 @@ I'm asking for a lot of inclusion of AI/ML tech into the OS and day-to-day use, 
 As mentioned above in **Presentation of Information -> Updates after Initial Draw**, there are some things that are particularly egregious to the user from a UI timing perspective. Waiting on the computer sucks, sure, but having to **babysit** the computer while you wait on a prompt that could easily be given preemptively or make sure a task doesn't time out is completely unacceptable.
 
 But even just directly looking at speed and latency, there's still a ton of room for improvement. Why does the root file system not retain at least an index of other file systems to let you browse while a HDD spins up or a network connection is established? Why do so many damn things have   *s u c h   l o n g*   animations that have to complete before the user can continue? But most of all can we *please* stop building programs with electron or other things that are just full browsers for one program? Use literally anything else. The best way to lower latency is to use as little code as possible, good data structures, good libraries, and good tools. I said it contradicts to keep latency down when doing things that are heavy, but a lot can be done to make so much of what we use day to day substantially lighter to begin with with no loss in functionality. I understand why projects use Electron, but if you must please just use Flutter or Neutralino or Sciter or Ultralight even a game engine. Just, not something so heavy unless you need it? Please?
+
 * **Customizeability vs Default Inclusion**
 
 [TODO] Microsoft browser choice windows
-
-
 
 ## Everything is in the browser now anyway?
 
@@ -1250,8 +1237,6 @@ Microsoft has been spending a lot of time changing to the new UI, and their calc
 
 [TODO]
 
-
-
 # What Might Radically Change Things?
 
 ## Body Modification and Bio-Engineering
@@ -1262,7 +1247,7 @@ Another point is the idea of biohacking and body augmentation. Examples include 
 
 ## Brain Computer Interfaces
 
-https://science.slashdot.org/story/20/10/26/2140202/no-implants-needed-for-precise-control-deep-into-the-brain
+[Implant-less BCI](https://science.slashdot.org/story/20/10/26/2140202/no-implants-needed-for-precise-control-deep-into-the-brain)
 
 [TODO]
 
@@ -1284,7 +1269,7 @@ Finally, I'd like to say I understand we don't all get the choice, be it by mone
 
 https://hookproductivity.com -- Link all the things
 
-https://techcrunch.com/2017/10/18/atlas-informatics-calls-it-quits-after-less-than-a-year/ - search all the things
+[Atlas Informatics (TechCrunch Article)](https://techcrunch.com/2017/10/18/atlas-informatics-calls-it-quits-after-less-than-a-year/) - search all the things
 
 https://apse.io -- a photographic memory of all the text that goes across your screen
 
@@ -1295,8 +1280,6 @@ http://screenl.es/why.html -- the Screenless Office
 https://dynamicland.org -- computing that works with the environment
 
 https://arcan-fe.com/2020/02/10/leveraging-the-display-server-to-improve-debugging/ - it's in the URL
-
-
 
 # Other people that have ranted about similar things, but usually a bit more politely
 
@@ -1323,6 +1306,3 @@ Taking the crown however, is Display Port (DP). Like HDMI display port does have
 <li>Fuck Adobe.</li>
 <li>The Launchkey MK2 has an almost impressively bad keybed. Roli, the company behind the Seaboard Block and Lighpad Blocks is a bit controversial. Not like, Behringer levels of controversial, but still. ╮(─▽─)╭</li>
 </ol>
-
-
-

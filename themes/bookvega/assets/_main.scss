@@ -19,6 +19,10 @@ body {
   * {
     box-sizing: inherit;
   }
+
+  overflow-x: hidden;
+  max-width: 100%;
+
 }
 
 h1,
