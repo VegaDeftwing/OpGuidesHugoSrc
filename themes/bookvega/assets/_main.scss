@@ -461,3 +461,184 @@ a {
   padding-left: .5em;
   padding-right: .1em;
 }
+
+.wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  h2.glitch{
+    color: white;
+    font-weight: 400;
+    position: relative;
+    font-size: 2em;
+    padding: 30px;
+  }
+    
+  h2.glitch::before, h1.glitch::after{
+    padding: 30px;
+    color: white;
+    content: "Chapter 2: The Digital";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222222;
+    overflow: hidden;
+    top: 0;
+  }
+  
+  h2.glitch::before{
+    left: 3px;
+    text-shadow: -2px 0 red;
+    animation-name: glitch-animation-1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse-alternate;
+  }
+    
+  h2.glitch::after{
+    left: -3px;
+    text-shadow: -2px 0 blue;
+    animation-name: glitch-animation-2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse-alternate;
+  }
+}
+  
+@keyframes glitch-animation-1 {
+  0% {
+    clip: rect(61px, 850px, 126px, 30px);
+  }
+  5% {
+    clip: rect(45px, 850px, 59px, 30px);
+  }
+  10% {
+    clip: rect(48px, 850px, 101px, 30px);
+  }
+  15% {
+    clip: rect(21px, 850px, 17px, 30px);
+  }
+  20% {
+    clip: rect(25px, 850px, 25px, 30px);
+  }
+  25% {
+    clip: rect(71px, 850px, 73px, 30px);
+  }
+  30% {
+    clip: rect(17px, 850px, 99px, 30px);
+  }
+  35% {
+    clip: rect(129px, 850px, 61px, 30px);
+  }
+  40% {
+    clip: rect(55px, 850px, 74px, 30px);
+  }
+  45% {
+    clip: rect(134px, 850px, 14px, 30px);
+  }
+  50% {
+    clip: rect(136px, 850px, 129px, 30px);
+  }
+  55% {
+    clip: rect(100px, 850px, 100px, 30px);
+  }
+  60% {
+    clip: rect(122px, 850px, 26px, 30px);
+  }
+  65% {
+    clip: rect(33px, 850px, 140px, 30px);
+  }
+  70% {
+    clip: rect(7px, 850px, 58px, 30px);
+  }
+  75% {
+    clip: rect(48px, 850px, 141px, 30px);
+  }
+  80% {
+    clip: rect(120px, 850px, 112px, 30px);
+  }
+  85% {
+    clip: rect(86px, 850px, 29px, 30px);
+  }
+  90% {
+    clip: rect(9px, 850px, 84px, 30px);
+  }
+  95% {
+    clip: rect(34px, 850px, 59px, 30px);
+  }
+  100% {
+    clip: rect(72px, 850px, 87px, 30px);
+  }
+}
+@keyframes glitch-animation-2 {
+  0% {
+    clip: rect(140px, 150px, 51px, 30px);
+  }
+  5% {
+    clip: rect(4px, 150px, 70px, 30px);
+  }
+  10% {
+    clip: rect(31px, 150px, 123px, 30px);
+  }
+  15% {
+    clip: rect(124px, 150px, 78px, 30px);
+  }
+  20% {
+    clip: rect(3px, 150px, 27px, 30px);
+  }
+  25% {
+    clip: rect(73px, 150px, 96px, 30px);
+  }
+  30% {
+    clip: rect(142px, 150px, 147px, 30px);
+  }
+  35% {
+    clip: rect(15px, 150px, 135px, 30px);
+  }
+  40% {
+    clip: rect(34px, 150px, 68px, 30px);
+  }
+  45% {
+    clip: rect(101px, 150px, 96px, 30px);
+  }
+  50% {
+    clip: rect(11px, 150px, 144px, 30px);
+  }
+  55% {
+    clip: rect(64px, 150px, 80px, 30px);
+  }
+  60% {
+    clip: rect(146px, 150px, 125px, 30px);
+  }
+  65% {
+    clip: rect(105px, 150px, 70px, 30px);
+  }
+  70% {
+    clip: rect(125px, 150px, 9px, 30px);
+  }
+  75% {
+    clip: rect(126px, 150px, 135px, 30px);
+  }
+  80% {
+    clip: rect(117px, 150px, 2px, 30px);
+  }
+  85% {
+    clip: rect(20px, 150px, 10px, 30px);
+  }
+  90% {
+    clip: rect(24px, 150px, 66px, 30px);
+  }
+  95% {
+    clip: rect(88px, 150px, 57px, 30px);
+  }
+  100% {
+    clip: rect(130px, 150px, 129px, 30px);
+  }
+}

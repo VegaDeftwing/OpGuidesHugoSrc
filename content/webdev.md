@@ -120,6 +120,4 @@ Markdown can be wrapped in html to apply theming or do other things:
 
 
 
-<script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
-<script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"> 
-<script>mermaid.initialize({ startOnLoad: true });</script>
+<link href='https://fonts.googleapis.com/css?family=Cabin+Condensed:700' rel='stylesheet' type='text/css'>
