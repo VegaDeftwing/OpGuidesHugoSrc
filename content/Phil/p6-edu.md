@@ -43,3 +43,9 @@ The Following is from '[Modern Universities Are An Exercise in Insanity](https:/
 > But it can get even cheaper. Let's say you take the general principle of group classes from the university. Say you can find four other people to take all of these other classes with you. Just four. Well that equals out to $680 per class, or $16,000 a person for four years of classes.
 
 ## Bullying
+
+
+
+
+
+[School or Prison](https://www.schoolprison.com) ([Comments on Hacker News](https://news.ycombinator.com/item?id=25605867))

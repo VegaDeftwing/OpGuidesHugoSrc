@@ -18,6 +18,8 @@ slug: "Labor"
 
 [TODO] historical tax rates (the 91% tax bracket? Need to do more research on this...), wealth tax
 
+[A Megacorp is not your dream job (Drew DeVault's Blog)](https://drewdevault.com/2021/01/01/Megacorps-are-not-your-dream-job.html)
+
 <iframe width="100%" height="460" src="https://www.epi.org?p=172791&view=embed&embed_template=charts_v2013_08_21&embed_date=20201217&onp=91701&utm_source=epi_press&utm_medium=chart_embed&utm_campaign=charts_v2" frameborder="0"></iframe>
 
 ## Universal Basic Income
