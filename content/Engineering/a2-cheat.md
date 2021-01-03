@@ -117,6 +117,10 @@ https://github.com/alandefreitas/matplotplusplus
 
 ### Python
 
+[NumPy Illustrated: The Visual Guide to NumPy (Lev Maximov)](https://medium.com/better-programming/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d)
+
+
+
 [Pampy](https://github.com/santinic/pampy) - Pattern Matching for Python
 
 [Rich](https://github.com/willmcgugan/rich) -  library for rich text and beautiful formatting in the terminal

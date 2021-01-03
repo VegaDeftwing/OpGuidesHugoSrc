@@ -79,6 +79,7 @@ There's a pretty big list of considerations you should keep in mind when what yo
 - Does it make assumptions about social norms?
 - Does it assume something about FirstName LastName naming conventions?
 - Does it assume binary sex/gender fields? Does it assume Hetro relationships?
+  - [36C3 ChaosWest: "Hello, I'm your Edge Case!"](https://www.youtube.com/watch?v=nMTNatBC4mI)
 
 {{< /columns >}}
 

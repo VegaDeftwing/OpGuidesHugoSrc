@@ -22,6 +22,8 @@ Links are the interconnects between two nodes. Generally these fall into two cat
 
 Not all Links can support the same bandwidth or throughput. In general, Coaxial is worse than Twisted Pair which is in turn worse than fiber.
 
+<img src="/nodes.svg" alt="nodes" style="-webkit-filter: invert(.85);">
+
 **Applications**
 
 These are the things that you want to do: Talk to someone via voice, text, or video; browse the web; download files; etc.
@@ -371,3 +373,5 @@ Software Defined Networking, ActivityPub
 ['Nerfnet' tunnells TCP/IP over cheap NRF24L01 Radios (Hackaday, Tom Nardi) ](https://hackaday.com/2020/12/04/nerfnet-tunnels-tcp-ip-over-nrf24l01-radios/)
 
 [RFC for 700 HTTP Status Codes (Github, Joho)](https://github.com/joho/7XX-rfc)
+
+[Fun with IP address parsing (David Anderson's Blog)](https://blog.dave.tf/post/ip-addr-parsing/)

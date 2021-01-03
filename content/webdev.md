@@ -1,4 +1,4 @@
-# Vue demo
+https://excalidraw.com
 
 
 As a sort of key for navigating this site you'll probably see things like this:
@@ -121,3 +121,21 @@ Markdown can be wrapped in html to apply theming or do other things:
 
 
 <link href='https://fonts.googleapis.com/css?family=Cabin+Condensed:700' rel='stylesheet' type='text/css'>
+
+
+
+https://vincentgarreau.com/particles.js/
+
+https://codepen.io/alexzaworski/pen/mEkvAG
+
+https://codepen.io/P1N2O/pen/pyBNzX
+
+https://codepen.io/saransh/pen/BKJun
+
+https://codepen.io/fabiowallner/pen/ozkoYo
+
+https://codepen.io/lbebber/pen/EVxvWN
+
+https://codepen.io/wagerfield/pen/wftcE
+
+https://medium.com/chingu/decrypting-effect-c5fc2a071354 & https://github.com/bartobri/no-more-secrets#the-nms-library
