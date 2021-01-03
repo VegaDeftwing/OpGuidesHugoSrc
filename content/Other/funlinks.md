@@ -100,6 +100,12 @@
 
 * [A Twitter Thread about PayPal blocking all transactions with the word "Tardigrade"](https://twitter.com/ArchieMcPhee/status/1304434532293046272)
 
+* [Operation Mindfuck Vol. 4, a video from rC3 (YouTube)](https://www.youtube.com/watch?v=ywYBT0xM7so&list=WL&index=7)
+
+  > Isomorphic keyboards, Truchet Tiles, and much much more.
+  
+* [The Best Things and Stuff of 2020 (Fogus' Blog)](http://blog.fogus.me/2020/12/31/the-best-things-and-stuff-of-2020/)
+  
   
 
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>

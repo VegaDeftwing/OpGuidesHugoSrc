@@ -126,3 +126,7 @@ https://radicle.xyz
 ## Further Reading
 
 [./missing-semester - Metaprogramming](https://missing.csail.mit.edu/2020/metaprogramming/)
+
+# Chapter 6¾ - Documentation
+
+[Lets talk about changelogs, or, how I loathe 'bugfixes and performance improvements' (Remy van Elst's Blog)](https://raymii.org/s/blog/Rant_Lets_talk_about_changelogs.html)

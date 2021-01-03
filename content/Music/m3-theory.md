@@ -63,3 +63,5 @@ making instruments swap roles
 [The Largest Chord - sUpEr UlTrA hYpEr MeGa MeTa LyDiAn (YouTube, Leon Waves)](https://www.youtube.com/watch?v=HeTygKpi6pI)
 
 [(*My) Procedurally Generated Music is Awful (Cube Drone)](https://devlog.groovelet.com/p/procedurally-generated-music-is-awful)
+
+[LilyPond: programming beautiful musical scores (YouTube, 36C3)](https://www.youtube.com/watch?v=ryiXvCX3I64&list=WL&index=18)

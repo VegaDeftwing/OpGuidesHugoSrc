@@ -321,6 +321,10 @@ There are also 'antiprimes' (or 'highly composite numbers'), from Wikipedia:
 
 so, technically 1, 2, 4, and 6 are all antiprime. But where it gets interesting is with larger numbers. For example, 360 is anti prime as you get get to it with {{< katex >}} 2*2*2*2*3*3*5​{{< /katex >}}, which is 7 primes multiplied together, more than it takes to get to any number prior. These numbers are really easy to work with because of this, and it makes it really convient for the number of degrees in a circle as it can be divided so easily.
 
+## 1⅘ - Number Bases
+
+[Number Bases Strech the Mind (Hackaday)](https://hackaday.com/2021/01/01/number-bases-stretch-the-mind/)
+
 ## 2 - Discrete Math
 
 http://discrete.openmathbooks.org/dmoi3/
@@ -480,3 +484,6 @@ Gaussian Random Variables / Normal RVs (same thing)
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I did it. <a href="https://t.co/eMEmUw0HSY">pic.twitter.com/eMEmUw0HSY</a></p>&mdash; Zillion Ross (@ZillionRoss) <a href="https://twitter.com/ZillionRoss/status/1331387290887680000?ref_src=twsrc%5Etfw">November 25, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+TODO:
+
+https://en.m.wikipedia.org/wiki/Logistic_map
