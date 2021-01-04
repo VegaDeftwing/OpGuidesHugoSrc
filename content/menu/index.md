@@ -151,5 +151,6 @@ headless: true
 </div>
 
 * [   - Interesting Links]({{< relref "Other/funlinks" >}})
+* [   - Cool Hardware]({{< relref "Other/coolhardware" >}})
 
 <br />

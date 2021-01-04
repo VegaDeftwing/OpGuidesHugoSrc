@@ -38,3 +38,7 @@ While this book/guide/thing primarily focuses on the less mechancial-engieering-
 
 [Clearner Laser Cutting With a 3D-Printed Nozzle (Hackaday)](https://hackaday.com/2020/11/25/cleaner-laser-cutting-with-a-3d-printed-nozzle/) ,[Links to article by Jesse @Nervous Systems](https://n-e-r-v-o-u-s.com/blog/?p=8722)
 
+### Some neat 3D printable things
+
+https://www.prusaprinters.org/prints/7876-rotating-rings-toy
+
