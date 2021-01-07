@@ -42,6 +42,8 @@ The Following is from '[Modern Universities Are An Exercise in Insanity](https:/
 >
 > But it can get even cheaper. Let's say you take the general principle of group classes from the university. Say you can find four other people to take all of these other classes with you. Just four. Well that equals out to $680 per class, or $16,000 a person for four years of classes.
 
+[How I Got a Computer Science Degree in 3 Months for Less Than $5000](https://miguelrochefort.com/blog/cs-degree/)
+
 ## Bullying
 
 

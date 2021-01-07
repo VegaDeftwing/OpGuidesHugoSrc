@@ -73,6 +73,12 @@ To give a quick run down of some operations you might want to use:
 
 You can usually make something cool by just entering a bunch of trig and making complex functions you don't truely understand. You're learning, that's fine, no shame. Here, for example, is one I made by wandering around trig functions  `asin((t/9*(i/32*sin(t/4))*y)%5)`
 
+{{< hint info>}}
+
+https://hexy.now.sh is inspired by tixy but has some extra interesting features, if you're having fun with tixy.land it's worth checking out.
+
+{{< /hint >}}
+
 {{< /columns >}}
 
 [TODO] I want to start here instead of python, need to research which one to start with. I like pico-8, but it's paid and I'd like to keep OpGuides accessible. Tic-80 appears to be the most common otherwise? Pyxel looks good too though and would lead into python nicely? ... ╮(─▽─)╭

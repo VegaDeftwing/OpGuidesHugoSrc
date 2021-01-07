@@ -259,7 +259,7 @@ And there's the problem. Now, you're probably thinking **"What fucking dipshit l
 
 {{< /katex >}}
 
-where in the last option the bar implies the perentheses.
+where in the last option the bar implies the parentheses.
 
 ### Simplification
 
@@ -269,7 +269,32 @@ where in the last option the bar implies the perentheses.
 
 #### Linear
 
-#### Polynomial
+[TODO] replaces these desmos graphs with something custom using https://jsxgraph.uni-bayreuth.de/wp/index.html
+
+it'll be uglier, but I don't like loading something this large, and jsxgraph will be more flexible anyway. Since I literally never write js this is proving to be a bit rough. Working on getting something that will show the slope and intercept values as two arbitrary points on the line are moved on a graph.
+
+```js
+var b = JXG.JSXGraph.initBoard('jxgbox', { 
+    boundingbox: [-5, 5, 5, -5], axis:true
+});
+var p1 = b.create('point',[-1,1], {name:'A',size:4});
+var p2 = b.create('point',[2,-1], {name:'B',size:4});
+var li = b.create('line',["A","B"], {strokeColor:'#00ff00',strokeWidth:2});
+var p3 = b.create('point',[p1.X, p2.Y], {name:'S',size:4});
+var li2 = b.create('line',["A","S"], {strokeColor:'#00ff00',strokeWidth:2});
+var i = -1;
+setInterval(function(){p3.moveTo(p1.X,p2.Y); i++; },1000);
+```
+
+ is what I have so far, but it appears the .X and .Y getters are not working as I expect. This should give me an 'S' point that I can then line segment to A and B to get the right angle 'stair' step slope. 
+
+<iframe src="https://www.desmos.com/calculator/srmm3mfqcj" width="100%" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+#### Polynomials
+
+##### Parabolas
+
+<iframe src="https://www.desmos.com/calculator/teki6din5m" width="100%" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 #### Systems of Equations
 
@@ -279,9 +304,9 @@ Nobody should do these by hand unless they're dead simple
 
 Imaginary numbers, systems of equations
 
-## 1¼ - Accuracy and Precesion
+## 1¼ - Accuracy and Precision
 
-For lack of a better place to put it and not wantin to wait until the much latter section on probability, I'd like to briefly mention the difference between Accuracy and Precesion. Typically, this is repsented 
+For lack of a better place to put it and not wanting to wait until the much latter section on probability, I'd like to briefly mention the difference between Accuracy and Precision. Typically, this is represented as 
 
 ## 1½ - Coordinate Systems
 
@@ -487,3 +512,5 @@ Gaussian Random Variables / Normal RVs (same thing)
 TODO:
 
 https://en.m.wikipedia.org/wiki/Logistic_map
+
+https://en.wikipedia.org/wiki/Attractor

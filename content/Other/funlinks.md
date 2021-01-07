@@ -106,6 +106,8 @@
   
 * [The Best Things and Stuff of 2020 (Fogus' Blog)](http://blog.fogus.me/2020/12/31/the-best-things-and-stuff-of-2020/)
   
+* [Robot Sumo Wrestling (YouTube)](https://www.youtube.com/watch?v=QCqxOzKNFks&list=FLFMnqfaTa1se1LfbCB3peJQ&index=6)
+  
   
 
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>
