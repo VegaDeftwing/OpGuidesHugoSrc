@@ -14,6 +14,10 @@ random, sample/hold, probability, piano rolls, trackers, AI based, euclidian, tr
 
 [Ways to turn tiny ideas into bigger tracks (YouTube, Andrew Huang)](https://youtu.be/ONloOhDLrFU)
 
+Song structure ABAB, ABBA, ABAC, etc.
+
+bpm changes, key changes, hooks, drops, 'flavor' with added samples
+
 ## MIDI effects
 
 Arp, velocity, pitch bend, mod, sustain, generative, legatto

@@ -146,6 +146,10 @@ Note, unlike the rest of the items in this list, the GDPR is NOT legislation fro
 
 https://www.mnot.net/blog/2020/08/28/for_the_users RFC8890
 
+### EARN IT
+
+https://medium.com/tech-thoughts-by-thegreatonion/how-the-earn-it-bill-undermines-americans-rights-online-8894d17cc427
+
 ### Protecting general computation
 
 ### Encryption and illegal numbers
