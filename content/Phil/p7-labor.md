@@ -6,6 +6,8 @@ slug: "Labor"
 
 # Labor and Compensation
 
+[EU pushes for 'right to disconnect' from work at home (dw.com)](https://www.dw.com/en/eu-pushes-for-right-to-disconnect-from-work-at-home/a-55803776)
+
 [Please Consider My Application to Give You Labor So I Can Stay Alive](https://www.mcsweeneys.net/articles/please-consider-my-application-to-give-you-labor-so-i-can-stay-alive)
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/c_X-812q_Jc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
