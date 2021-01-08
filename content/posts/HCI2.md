@@ -271,6 +271,8 @@ But, I'm here to talk about the future, so what do I think can be better than an
 
 But the biggest reason your chair sucks? It's a chair. I'm not advocating for a treadmill desk, or sitting on one of those big ball things, I'm simply saying having the only reasonable way of interacting with our second-brains being in a seated, unmoving position does nasty things to our bodies. While it would make more sense to adapt our peripherals and input methods, it's worth considering how we may re-shape our seats to work with us. A little while ago ["I built a lay down desk"](https://blog.luap.info/drafts/i-built-a-lay-down-desk.html?hnn) was trending on Hacker News, and it's something I'd considered before too, but I want to think bigger: What if our desk and chair acted as one piece of furniture, one that was flexible between sitting, laying, and standing positions, and the chair bent to an appropiate shape to match the position of the desk? [Design doesn't have to be static](https://youtu.be/xN9hTo3iR6A?t=182).
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/9Yhc6mmdJC4?list=WL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 #### Your Desk Sucks
 
 **or 'why the fuck is it so hard to find a deep desk with a keyboard tray'**
@@ -1001,13 +1003,18 @@ Of course the same applies in other formats. .flac is replacing .wav for high en
 
 * no 'transaction history' or global text search
 
-#### Hard drives and File systems suck.
+#### Storage Hardware and File systems suck.
+
+The hardware issue is mostly a side effect of trying to market technical differences to people who ultimately just want a place to drop their files. A normal user shouldn't have to know what all the various specs of a HDD or SSD mean to know what to buy.
+
+That said, holy shit do manufactures suck at this. Everything from [Western Digital redefining 'RPM'](https://arstechnica.com/gadgets/2020/09/western-digital-is-trying-to-redefine-the-word-rpm/) to [Western Digital uses SMR on NAS drives](https://arstechnica.com/gadgets/2020/05/western-digital-gets-sued-for-sneaking-smr-disks-into-its-nas-channel/), 
+
+> SMR, or Shielded Magnetic Recording, has a few issues that make it problematic for Network Attached Storage (NAS) systems using multiple disks, particularly if the NAS is running ZFS, a common file system made exactly for this use case.
+
+on hard drives, to [DRAM-less SSDs](https://www.youtube.com/watch?v=ybIXsrLCgdM) and [Bait-and-switch in regards to SSD performance](https://youtu.be/bGY9hEVk_Bc?t=3744).
 
 * why the fuck are we still using NTFS and EXT4 and not ZFS and LVM
-* Hard drive vendors are a bag of dicks
-  * RPM != RPM [Western Digital redefines 'RPM'](https://arstechnica.com/gadgets/2020/09/western-digital-is-trying-to-redefine-the-word-rpm/)
-  * SMR [Western Digital uses SMR on NAS drives](https://arstechnica.com/gadgets/2020/05/western-digital-gets-sued-for-sneaking-smr-disks-into-its-nas-channel/)
-  * DRAMless SSDs
+  * Microsoft, not merging some fucking filesystems
 * Hard drives are just, bad
   * Screaming at them makes them run worse [Shouting In The Datacenter](https://www.youtube.com/watch?v=tDacjrSCeq4)
     * I have a subwoffer right next to mine

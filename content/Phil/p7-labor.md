@@ -28,6 +28,10 @@ slug: "Labor"
 
  <iframe width="100%" height="500" src="https://www.youtube.com/embed/kl39KHS07Xc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Work Life Balance
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/aS3-iSEwNhs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Monopolies
 
 ## Unions
