@@ -47,6 +47,28 @@ What we should do about this:
 [TODO]
 Marvel, Pink Floyd, and Minecraft Vs Web comics, indie, and Minetest.
 
+## Piracy?
+
+{{< columns >}}
+
+![](/scihub.jpg)
+
+<--->
+
+{{< /columns >}}
+
+{{< hint warning>}}
+
+Because these many of these sites are tecnically hosting illegal content, they tend to change domains a lot. One of the better ways to be sure you're not going to a [Honeypot](https://en.wikipedia.org/wiki/Honeypot_(computing)), a fake site used to catch people, is to check what domain the Wikipedia article refers to, for example for scihub:
+
+<img src="/scihubsite.jpg" alt="Scihib link on wikipedia" height="500em">
+
+{{< /hint >}}
+
+[Awesome Piracy (GitHub)](https://github.com/Igglybuff/awesome-piracy)
+
+[Sci-hub.do](https://sci-hub.do)
+
 <ol hidden id="footnotes">
     <li>By 'slow' I'm primarily referring to the lack of or incompetence of consumer data protection law. <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">GDPR</a> is definitely a step in the right direction on this; however, that is both only for the EU and was implemented far too late. By 'fast' I had the <a href="https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act">DMCA</a> in mind, which is wildly considered to be both overreaching and to harsh. Simultaneously, we lack real power as consumers, copyright is a game the rich can play with expensive laywers and the small creator can't afford to defend.</li>
 </ol>

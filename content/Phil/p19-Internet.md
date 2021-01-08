@@ -156,6 +156,18 @@ https://medium.com/tech-thoughts-by-thegreatonion/how-the-earn-it-bill-undermine
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/CINVwWHlzTY?list=PL96C35uN7xGLLeET0dOWaKHkAlPsrkcha" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+https://en.wikipedia.org/wiki/Illegal_number
+
+[HDCP master key release (Wikipedia) ](https://en.wikipedia.org/wiki/High-bandwidth_Digital_Content_Protection#Master_key_release) [TODO, + background on what HDCP is]
+
+http://www.catb.org/~esr/hdcp-master.txt
+
+http://libraryofbabel.info
+
+https://www.wikiwand.com/en/Texas_Instruments_signing_key_controversy
+
+https://science.slashdot.org/story/20/05/25/0136238/texas-instruments-makes-it-harder-to-run-programs-on-its-calculators
+
 ### Do you own your hardware? software?
 
 ### Format shifting
