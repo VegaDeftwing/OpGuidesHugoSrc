@@ -191,3 +191,7 @@ https://science.slashdot.org/story/20/05/25/0136238/texas-instruments-makes-it-h
 ## Google Amp
 
 [Google AMP Can go to Hell (Polemic Digital)](https://www.polemicdigital.com/google-amp-go-to-hell/)
+
+## Social Media and Censorship
+
+Parler V Mastadon V Twitter
