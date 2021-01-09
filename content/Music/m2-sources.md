@@ -60,6 +60,12 @@ start, stop, fade, pitch shift, (ableton simpler)Live Input
 
 quantization, tracking
 
+## Basic Oscillators
+
+PWM, Hard/Soft Sync, different wavefroms, oscilator cores (Triangle, saw, trap), pitch drift
+
+harmonics on sharper transistions, even and odd harmonics
+
 ## Additive and Subtractive Synthesis
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/videoseries?list=PLrnjie9klQEkZGar3zZ4hRurU_kUDk7Md" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
