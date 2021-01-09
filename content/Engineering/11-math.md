@@ -10,6 +10,8 @@ As with all of OpGuides, please skip around as necessary. I suspect the start of
 
 {{< /tip >}}
 
+This video on [How to Read Math (YouTube, Dominic Walliman)](https://www.youtube.com/watch?v=Kp2bYWRQylk) and the cheat sheet from it, [How To Read Math, Cheat Sheet (Flickr, Dominic Walliman)](https://live.staticflickr.com/4671/40544016221_61cf8944d1_h.jpg) may help you get your brain juices flowing.
+
 # Chapter 11 - Math
 
 some motivation, Klein bottle guy, non-euclidean games, fractals, colatz conjecture, ...
