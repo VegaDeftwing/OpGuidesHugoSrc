@@ -6,13 +6,7 @@ slug: "Fallacies"
 
 # Logical Fallacies (and a bit more)
 
-If you've been on the internet for more than about a quarter of a second, you've likely been accused of a whole host of logical fallacies. Unfortunately, most people really don't understand what they're saying and often use a lot of these incorrectly. On the other hand, you also likely encounter ~~politicians~~ people using these fallacies on a regular basis as well, and it's nice to be able to call them out on it. This page is going to cover a fair amount of the most common and attempt to give you examples of when they apply and when they don't: (sources are at the bottom of the page)
-
----
-
-Everything in quote blocks on this page is directly stolen from the article linked to by it's heading, usually Wikipedia
-
----
+If you've been on the internet for more than about a quarter of a second, you've likely been accused of a whole host of logical fallacies. Unfortunately, most people really don't understand what they're saying and often use a lot of these incorrectly. On the other hand, you also likely encounter ~~politicians~~ people using these fallacies on a regular basis as well, and it's nice to be able to call them out on it. This page is going to cover a fair amount of the most common and attempt to give you examples of when they apply and when they don't.
 
 ## Argumentum ad populum
 
