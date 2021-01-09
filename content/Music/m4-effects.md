@@ -144,7 +144,7 @@ Here I start by feeding this filter an input from an oscillator module which is 
 
 Here, the same filter is being put right at the edge of resonance and a square wave is 'pinging' the filter. It resonates heavily, but not enough to drive it into self oscillation. Different outputs may sound a bit different here.
 
-This filter module actually has a dedicated ping input, which is why I can 'ping' it with a square wave, but typically you'd want to ping filters with a trigger (a very short pulse) rather than a square wave (which is high as much as it is low)
+This filter module actually has a dedicated ping input, which is why I can 'ping' it with a square wave, but typically you'd want to ping filters with a trigger (a very short pulse) rather than a square wave (which is high as much as it is low). You can think of this as the difference between striking a drum head and slapping a drum, but keeping your hand pressed on to the drum's skin when you do. Clearly the latter is going to mute the sound.
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/11rZJGvAimk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
