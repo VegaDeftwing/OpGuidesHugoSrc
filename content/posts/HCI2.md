@@ -1015,6 +1015,7 @@ on hard drives, to [DRAM-less SSDs](https://www.youtube.com/watch?v=ybIXsrLCgdM)
 
 * why the fuck are we still using NTFS and EXT4 and not ZFS and LVM
   * Microsoft, not merging some fucking filesystems
+  * https://github.com/maharmstone/btrfs (WinBtrfs)
 * Hard drives are just, bad
   * Screaming at them makes them run worse [Shouting In The Datacenter](https://www.youtube.com/watch?v=tDacjrSCeq4)
     * I have a subwoffer right next to mine
@@ -1215,6 +1216,8 @@ I'm asking for a lot of inclusion of AI/ML tech into the OS and day-to-day use, 
 As mentioned above in **Presentation of Information -> Updates after Initial Draw**, there are some things that are particularly egregious to the user from a UI timing perspective. Waiting on the computer sucks, sure, but having to **babysit** the computer while you wait on a prompt that could easily be given preemptively or make sure a task doesn't time out is completely unacceptable.
 
 But even just directly looking at speed and latency, there's still a ton of room for improvement. Why does the root file system not retain at least an index of other file systems to let you browse while a HDD spins up or a network connection is established? Why do so many damn things have   *s u c h   l o n g*   animations that have to complete before the user can continue? But most of all can we *please* stop building programs with electron or other things that are just full browsers for one program? Use literally anything else. The best way to lower latency is to use as little code as possible, good data structures, good libraries, and good tools. I said it contradicts to keep latency down when doing things that are heavy, but a lot can be done to make so much of what we use day to day substantially lighter to begin with with no loss in functionality. I understand why projects use Electron, but if you must please just use Flutter or Neutralino or Sciter or Ultralight even a game engine. Just, not something so heavy unless you need it? Please?
+
+https://danluu.com/input-lag/
 
 * **Customizeability vs Default Inclusion**
 
