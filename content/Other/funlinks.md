@@ -108,6 +108,10 @@
   
 * [Robot Sumo Wrestling (YouTube)](https://www.youtube.com/watch?v=QCqxOzKNFks&list=FLFMnqfaTa1se1LfbCB3peJQ&index=6)
   
+* [Voice of the Ilk (Wiktopher.ca)](https://wiktopher.ca/site/chapter_01.html)
+  
+* 
+  
   
 
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>

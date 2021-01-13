@@ -38,7 +38,13 @@ While this book/guide/thing primarily focuses on the less mechancial-engieering-
 
 [Clearner Laser Cutting With a 3D-Printed Nozzle (Hackaday)](https://hackaday.com/2020/11/25/cleaner-laser-cutting-with-a-3d-printed-nozzle/) ,[Links to article by Jesse @Nervous Systems](https://n-e-r-v-o-u-s.com/blog/?p=8722)
 
+[Elksmaker modifications (YouTube)](https://www.youtube.com/watch?v=ZzO9skEYqwY)
+
 ### Some neat 3D printable things
 
 https://www.prusaprinters.org/prints/7876-rotating-rings-toy
+
+[VGA USB cover (Thingiverse)](https://www.thingiverse.com/thing:3014450)
+
+[Fuckofftopus 2.0 (Thingiverse)](https://www.thingiverse.com/thing:2905334)
 

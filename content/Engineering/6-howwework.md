@@ -58,7 +58,7 @@ Finally you'll want a runner/application launcher. While i3-demu is included, I 
 
 To further make i3 reasonable to use you'll want a few more things:
 
-`picom` is a composite manager. This is used to allow application to have some transparency, prevent screen tearing, and do slight effects, like but a shadow behind windows.
+`picom` is a composite manager. This is used to allow application to have some transparency, prevent screen tearing, and do slight effects, like but a shadow behind windows. (You may also see this referred to as Compton, picom is the replacement for `Compton`)
 
 `lxappearance-gtk3` can be used to set the theme used by various graphical applications. I use [Sweet](https://www.gnome-look.org/p/1253385/) but there are nearly endless options
 

@@ -11,6 +11,8 @@ slug: "Basics"
 
 [TODO] - rule of thirds, contrast, etc.
 
+[This is a black and white image. Only the lines are colored. (Reddit)](https://www.reddit.com/r/blackmagicfuckery/comments/cj4gyl/this_is_a_black_and_white_image_only_the_lines/)
+
 ## Perspective
 
 https://twitter.com/miyuliart/status/1337423295814176768 (NSFWish I guess?)
@@ -25,3 +27,9 @@ https://twitter.com/miyuliart/status/1337423295814176768 (NSFWish I guess?)
 Things like digi shoes, tail holes in clothing, tail bags, etc. really help make characters feel like they're part of an actual world.
 
 [Cat Girl Headphones (Twitter, @foone)](https://twitter.com/Foone/status/1338310670488535040)
+
+## Art Guides
+
+[Detailed guide to different types of bird wings and their functional parts (Reddit)](https://www.reddit.com/r/coolguides/comments/eau4e2/detailed_guide_to_different_types_of_bird_wings/)
+
+[Skin Tone Cloud (Reddit)](https://www.reddit.com/r/coolguides/comments/fgta8k/skin_tone_cloud/)

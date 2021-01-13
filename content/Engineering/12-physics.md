@@ -38,3 +38,5 @@ This is still a dumping ground for things I want to write about later, nothing o
 <img src="/maxwellequns.svg" alt="maxwell" style="-webkit-filter: invert(.85);">
 
 ## 3 - Relativity and the Quantum
+
+Planck frequency, time, length
