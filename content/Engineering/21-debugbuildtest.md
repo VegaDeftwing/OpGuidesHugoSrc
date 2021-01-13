@@ -60,7 +60,7 @@ src: https://twitter.com/boo_radley/status/1062513898954391552
 
 ### Software Testing
 
-unit tests, integration tests
+unit tests, integration tests, performance testing - https://github.com/sharkdp/hyperfine
 
 ### Hardware Testing
 

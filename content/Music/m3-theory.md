@@ -36,6 +36,8 @@ Oh, and the circle of fifths is a thing [TODO]
 
 [Circle of 5ths Explained](https://ledgernote.com/columns/music-theory/circle-of-fifths-explained/)
 
+http://huygens-fokker.org/scala/downloads.html#scales
+
 ## Song Structure
 
 ### Repition

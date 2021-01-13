@@ -16,7 +16,7 @@ guitar, lute, dulcimer, dual/single string, acoustic, electric, electroacoustic
 
 guitar pickups, slides, kapo, tuning (equal v just), wound, physical modeling (Kurplus Strong)
 
-
+https://grunfy.com/scaler.html
 
 [The History Of Guitar (Youtube, Rob Scallon)](https://youtu.be/AjK4GVR1EcE)
 
