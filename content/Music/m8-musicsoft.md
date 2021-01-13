@@ -25,6 +25,7 @@ slug: "Music Software"
 | [Siren (Github)](https://github.com/cannc4/Siren/)           | Tracker meets livecode                                       |                                                              |
 | [FoxDot](https://foxdot.org)                                 | Livecoding with Python                                       |                                                              |
 | [Extempore Lang](https://extemporelang.github.io)            | "Extempore is a programming language and runtime environment designed to support **cyberphysical programming**" |                                                              |
+| [Bespoke](https://github.com/awwbees/BespokeSynth)           | Software modular synth                                       | ![](https://github.com/awwbees/BespokeSynth/raw/master/screenshot-1.png) |
 
 ## DAWs and almost-daws
 

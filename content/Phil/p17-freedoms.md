@@ -8,6 +8,14 @@ slug: "Freedoms"
 
 ## Freedom of Speech
 
+![](https://imgs.xkcd.com/comics/free_speech.png)
+
+{{< attribution >}}
+
+[xkcd №1357](https://xkcd.com/1357/)
+
+{{< /attribution >}}
+
 ## Freedom of Press
 
 Everyone is press, https://www.eff.org/bloggers

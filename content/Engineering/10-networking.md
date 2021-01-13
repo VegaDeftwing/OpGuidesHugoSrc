@@ -310,6 +310,8 @@ Real time clocks, timezones, utc, etc.
 
 https://wiki.wireshark.org/CaptureFilters
 
+[Enable Packet Diagram View](https://www.cellstream.com/reference-reading/tipsandtricks/541-wireshark-packetdiagram)
+
 ### Nmap
 
 ### Scapy / Kamene
