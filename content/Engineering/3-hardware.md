@@ -290,6 +290,8 @@ Pagefaults and misses are also important. Because these topics are a bit hard to
 
 Going back to when cache was mentioned though, RAM's primary job is to hold bulk information that's in use a bit closer to the CPU. For example if you load a large image file it'll first get copied to ram and then be processed though cache in chunks, this is because there just simply isn't enough cache on the CPU to hold a large image.
 
+[TODO] Huge Pages ref [this](https://www.chaoticafractals.com/manual/getting-started/enabling-large-page-support-windows)
+
 ### Memory issues and Memtest86:
 
 ### Rowhammer
