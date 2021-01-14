@@ -866,3 +866,4 @@ For more information on embedded architectures and in-depth comparisons look at 
 
 [TODO] note on hackintoshes
 
+https://manybutfinite.com/post/how-computers-boot-up/

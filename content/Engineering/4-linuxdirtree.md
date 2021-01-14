@@ -692,3 +692,9 @@ init system: https://www.lifewire.com/how-to-use-the-init-command-in-linux-40669
 https://github.com/KnowNo/How-Linux-Works-2nd-Edition/blob/master/How.Linux.Works.What.Every.Superuser.Should.Know.2nd.Edition.PDF.pdf
 
 We'll explore more of the OS later, but for now I think the information overload is a bit much anyway, so lets move away from screens and into the world of hardware
+
+
+
+
+
+https://littleosbook.github.io

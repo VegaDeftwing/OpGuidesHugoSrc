@@ -361,6 +361,12 @@ Vivaldi, Firefox, Syncthing, Beaker, IPFS, IRC - irssi, Telegram, Etherape, Wire
 
 https://joshwcomeau.com/accessibility/hands-free-coding/
 
+
+
+**Lil' shoutout**
+
+I've stolen a lot of config files from r/UnixPorn and other websites over the years, but I'd espically like to highlight https://twily.info as twilly actually helped me out a lot when I was a total noob and even helped me steal her website to make my own clone of it at one point
+
 <ol hidden id="footnotes">
 <li>PlatfromIO is for working with embedded hardware like Arduino or STM32, etc. Unfortunately, it opens an annoying screen at start up. This can be disabled, but at least in the past this has caused other issues for me. If you do work with embedded hardware though it's still by far the best option as the normal ArduinoIDE is absolute trash.</li>
 </ol>

@@ -85,6 +85,8 @@ $ may let you type inline math in \LaTeX $, and $$$ for blocks, same as the code
 
 [GuiLite.h](https://github.com/idea4good/GuiLite) - "!The smallest header-only GUI library (4 KLOC) for all platforms"
 
+[Protothreads](http://dunkels.com/adam/pt/index.html) - "extremely lightweight stackless threads designed for severely memory constrained systems"
+
 ### C++
 
 > Keep in mind everything from the above should still work
@@ -120,6 +122,8 @@ https://github.com/alandefreitas/matplotplusplus
 ### Python
 
 [NumPy Illustrated: The Visual Guide to NumPy (Lev Maximov)](https://medium.com/better-programming/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d)
+
+[Full Stack Python Course, has some info on more comon libraries](https://www.fullstackpython.com/table-of-contents.html)
 
 
 
