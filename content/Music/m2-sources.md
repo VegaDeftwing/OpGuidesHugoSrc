@@ -60,6 +60,10 @@ start, stop, fade, pitch shift, (ableton simpler)Live Input
 
 quantization, tracking
 
+### Field Recordings, Tape Loops, and other sampling goodness
+
+https://soundslikenoise.org
+
 ## Basic Oscillators
 
 PWM, Hard/Soft Sync, different wavefroms, oscilator cores (Triangle, saw, trap), pitch drift

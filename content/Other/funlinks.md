@@ -110,7 +110,9 @@
   
 * [Voice of the Ilk (Wiktopher.ca)](https://wiktopher.ca/site/chapter_01.html)
   
-* 
+* [Leonardo da Vinci's Notebooks](https://www.vam.ac.uk/articles/leonardo-da-vincis-notebooks)
+  
+* ['Free Games' tag on Rock Paper Shotgun shows off some neat stuff](https://www.rockpapershotgun.com/tag/free-games/)
   
   
 

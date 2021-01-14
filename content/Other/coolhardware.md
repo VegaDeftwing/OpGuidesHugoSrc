@@ -14,8 +14,11 @@
   * <blockquote class="twitter-tweet"><p lang="en" dir="ltr">turns out placing 900 resistors does not get you banned from SMD assembly service after all 😇 <a href="https://t.co/3iu3zL5TLi">pic.twitter.com/3iu3zL5TLi</a></p>&mdash; Marco Reps (@MarcoReps) <a href="https://twitter.com/MarcoReps/status/1344720545703747589?ref_src=twsrc%5Etfw">December 31, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 * List of nixie tube types: https://justanotherelectronicsblog.com/?p=228
+
 * DIY Particle Detector
   
   * ![](https://github.com/ozel/DIY_particle_detector/raw/master/images/Alpha-spectrometer_with_ceramics_in_chocolate_box.jpeg)
 
 * [Williams Tube (Wikipedia)](https://en.wikipedia.org/wiki/Williams_tube)
+
+* [Slow Motion optical illusion picture frame kit on Tindie](https://www.tindie.com/products/Nick64/jf-slomo-slow-motion-frame-diy-kit/)

@@ -45,3 +45,4 @@ https://codepen.io/teropa/full/bRqYVj/
 
 [Chua oscillator on CRO during inductance sweep](https://www.youtube.com/watch?v=WRXP0ZeIrlM)
 
+http://www.doepfer.de/DIY/a100_diy.htm

@@ -69,6 +69,12 @@ Because these many of these sites are tecnically hosting illegal content, they t
 
 [Sci-hub.do](https://sci-hub.do)
 
+## Open Directories
+
+https://www.reddit.com/r/opendirectories/
+
+https://the-eye.eu/public/
+
 <ol hidden id="footnotes">
     <li>By 'slow' I'm primarily referring to the lack of or incompetence of consumer data protection law. <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">GDPR</a> is definitely a step in the right direction on this; however, that is both only for the EU and was implemented far too late. By 'fast' I had the <a href="https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act">DMCA</a> in mind, which is wildly considered to be both overreaching and to harsh. Simultaneously, we lack real power as consumers, copyright is a game the rich can play with expensive laywers and the small creator can't afford to defend.</li>
 </ol>
