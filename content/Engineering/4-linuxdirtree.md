@@ -609,6 +609,10 @@ Some of the more interesting things in `/etc` are:
 
 discuss systemd taking over home soon
 
+## /tmp
+
+![](/tmp.png)
+
 ## Users and Groups
 
 [TODO]

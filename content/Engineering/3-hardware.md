@@ -217,6 +217,10 @@ I very strongly recommend looking into this on any system though, as by default 
 
 ![cpupower](/cpupower.png ':size=70%')
 
+If you want to actually see how much power is used, `rapl` should do the trick, just be sure to actually put the system under load first- `stress-ng --cpu 16` (or whatever your thread count is) should work.
+
+![rapl](/rapl.png)
+
 We'll talk about delivering power to the CPU in a bit, when we talk about the Voltage Regulation Module (VRM) on the Motherboard.
 
 ### Physically, what and where is this thing?
