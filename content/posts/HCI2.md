@@ -41,7 +41,7 @@ Okay, cool, a mechanical keyboard. Now at least each switch is, well, mechanical
 
 ![ergodone](/ergodone.jpg)
 
-Alright, so this is what I use. For me, this is great. It's still attainable and usable by meme mortals without infinitely deep wallets<a class="ptr">(1)</a> and using software as it exists today, but I think that's largely still because it's the furthest edge you can go from normal before things start being a royal pain in the ass, and don't get me wrong. It's not that there's not some PITA incurred from using this weird of a keyboard. Switching to a traditional keyboard will always feel weird, other people can't easily use your computer (not sure this is reallllly a downside...), configuration still basically requires you understand the basics of C programming, and some things that expect keys to be in certain places (games) will often be awkward.
+Alright, so this is what I use. For me, this is great. It's still attainable and usable by mere mortals without infinitely deep wallets<a class="ptr">(1)</a> and using software as it exists today, but I think that's largely still because it's the furthest edge you can go from normal before things start being a royal pain in the ass, and don't get me wrong. It's not that there's not some PITA incurred from using this weird of a keyboard. Switching to a traditional keyboard will always feel weird, other people can't easily use your computer (not sure this is reallllly a downside...), configuration still basically requires you understand the basics of C programming, and some things that expect keys to be in certain places (games) will often be awkward.
 
 But, that's not where I want to go with this blog post. There's plenty of people that have gone on for like 20 pages about how amazing [QMK](https://qmk.fm) and the Ergodox are, I want to go **deeper**.
 
@@ -995,15 +995,17 @@ Of course the same applies in other formats. .flac is replacing .wav for high en
 
 {{< /attribution >}}
 
-### 
+Data on the internet gets compressed, saved, recompressed, resaved, upscaled, re-colored, and deep-fried pretty quickly.
 
-* Data get's compressed, saved, and recompressed (ref xkcd)
-  
-  * Using Waifu-2x to unfuck images still blows
+This combined with more traditional [bit rot](https://en.wikipedia.org/wiki/Data_degradation), where errors result in flipped bits, is a massive PITA.
 
-* sorting through data blows
+Sure, tools like [Waifu-2x](https://github.com/nagadomi/waifu2x) help with the first problem, but using AI-up scaling to fix the loss of data isn't ideal. For actual bit rot, tools exist to detect bit errors in most formats and you could always use a better file system that does check summing, but both of these require more technical skill than most people have.
 
-* no 'transaction history' or global text search
+While not exactly related, data accumulation and near-duplication (think having two pictures with one having just a 2px cropped off the top) is a big problem. Trying to sort though a mounting of images, text, or audio files can be nearly impossible if put off for too long, making good digital hygiene a must despite the fact that nobody ever tells anybody how to have good digital hygiene in the first place.
+
+AI tools to tag and identify images and audio help, but those tools are still limited and often only work well on uncompressed data, so no .jpgs or .mp3s for you.
+
+With all of this combined keeping your files in order, not corrupted, and not having duplicates becomes a growing issue.
 
 #### Storage Hardware and File systems suck.
 
@@ -1101,6 +1103,8 @@ There are tools that do this already (like [Archivebox](https://archivebox.io)) 
 
 I also think the boundaries of physical and digital should be more blurred. I'd love if I could set a book on my desk and search though it for an idea or concept by mere image recognition of the cover, or if it's an unknown book at least being able to digest any pages shown to it explicitly. Say a section was highlighted? It would be great if that were automatically added to a *personal journal file of sorts* for future reference, especially if related data were automatically associated with online sources, or links made to people who are interested in similar subjects.
 
+[The Screenless Office (Screenl.es)](http://screenl.es/why.html) and [Dynamic Land](https://dynamicland.org) both show this idea pretty well.
+
 ### Creating New Information Sucks
 
 **Or, People Will Only Make Stuff That Is As Good As The Tools They Have**
@@ -1165,7 +1169,7 @@ I'm not the best to talk on these issues to begin with though as for the most pa
 
 #### Access
 
-While not an issue strictly pertaining to race or disability, there's certainly a bias for those groups to also be poor or in worse circumstances that limit their internet connection or hardware's speed. The solution? Stop making shit so fucking bloated. If you're developing on a high end computer with umpteen cores and enough ram to store the english-only copy of Wikipedia <a class="ptr">(12)</a> make sure to at least *try* it on something else and see if it still works.
+While not an issue strictly pertaining to race or disability, there's certainly a bias for those groups to also be poor or in worse circumstances that limit their internet connection or hardware's speed. The solution? Stop making shit so fucking bloated. If you're developing on a high end computer with umpteen cores and enough ram to store the English-only copy of Wikipedia <a class="ptr">(12)</a> make sure to at least *try* it on something else and see if it still works.
 
 ### We basically don't even own our computers anymore
 
@@ -1243,7 +1247,9 @@ The only real downside for the consumer is that the products might be hair bit t
 
 ### Network Transparency
 
-[TODO]
+Network Transparency is a neat concept, basically, it means you can use a program over the network as if it were local. I think the coolest example of this is the X Window System on Linux, which lets you run graphical programs on a remote computer, even one with no screen attached, and have the window be visible on your own computer. For example, while you could always setup a file server to access file remotely, you could also just use X's network transparency to forward the entire file manager window to your computer and browse files like normal.
+
+I'd love to see more applications and backend software (like X) support this. 
 
 ### The Ability to go Back In Time
 
@@ -1251,7 +1257,7 @@ A lot of software already runs on an idea of 'events' or 'transactions', whateve
 
 A refresh should try to bring you to the previous state, dismissed notifications should be able to be un-dissmissed.
 
-As previously mentioned, you should be able to go back to a saved copy of any webpage you've visited. You should be able to revert your system to a restore point (Good idea from Windows, poorly implemented).
+As previously mentioned, you should be able to go back to a saved copy of any web page you've visited. You should be able to revert your system to a restore point (Good idea from Windows, poorly implemented).
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">EVERY <br>F**IN&#39;<br>TIME<br>💢<br>🦊 <a href="https://t.co/5JGKXqxIwF">pic.twitter.com/5JGKXqxIwF</a></p>&mdash; FPV 🟡 眼鏡の狐 (@F0XnR0LL) <a href="https://twitter.com/F0XnR0LL/status/1347328703987142656?ref_src=twsrc%5Etfw">January 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -1399,10 +1405,6 @@ https://apse.io -- a photographic memory of all the text that goes across your s
 
 https://desktopneo.com -- a UI mockup for a better system
 
-http://screenl.es/why.html -- the Screenless Office
-
-https://dynamicland.org -- computing that works with the environment
-
 https://arcan-fe.com/2020/02/10/leveraging-the-display-server-to-improve-debugging/ - it's in the URL
 
 ### Other people that have ranted about similar things, but usually a bit more politely
@@ -1434,7 +1436,7 @@ Taking the crown however, is Display Port (DP). Like HDMI display port does have
 
 {{< tip >}}
 
-if you a link to add, feel free to tweet at me @Vega_DW
+if you have a link to add, feel free to tweet at me @Vega_DW
 
 {{< /tip >}}
 
