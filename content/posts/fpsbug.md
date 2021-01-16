@@ -37,7 +37,7 @@ Unfortunately, that was a bust. Still rocking the 930 FPS.
 
 From here I had to ask for more help. Thankfully, a friend in my modular music chat on telegram was able to point me to a few ideas. I ran `glxinfo`, made sure everything looked sane, and it was. Next I tried using `LIBGL_THROTTLE_REFRESH=1` and `WGL_SWAP_INTERVAL=1` with no luck either.
 
-Failing other ideas I Googled "linux limit frame rate environment variables" and one of the top results was [libstrangle (GitHub)](https://github.com/milaq/libstrangle) which limits frame rate by using `LD_PRELOAD` to dynamically link it's own library that does the FPS limiting. This reeks of hacky bullshit. But I'm *always* down for some hacky bullshit. For S&Gs I check, and `lo and behold it's in the AUR. 
+Failing other ideas I Googled "linux limit frame rate environment variables" and one of the top results was [libstrangle (GitLab)](https://gitlab.com/torkel104/libstrangle) which limits frame rate by using `LD_PRELOAD` to dynamically link it's own library that does the FPS limiting. This reeks of hacky bullshit. But I'm *always* down for some hacky bullshit. For S&Gs I check, and `lo and behold it's in the AUR. 
 
 ![strangle](/strangle.png)
 

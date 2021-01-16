@@ -2,7 +2,7 @@
 title: "The Way We Interact With Computers Sucks."
 slug: "TheWayWeInteractWithComputersSucks"
 author: "Vega Deftwing"
-date: 2020-12-25
+date: 2021-01-15
 ---
 
 {{< tip >}}
@@ -956,7 +956,7 @@ Yunno what else is bullshit? The fact that all of these ads are 'personalized' t
 
 ### Storing Information Sucks
 
-Storing your data blows. Users have to contend with backups, backups for you backups, bitrot, file size vs compression, what file system to use, how to make backups actually convenient, mirroring information between systems with limited bandwidth, etc. But to start somewhere let's just look at archival:
+Storing your data blows. Users have to contend with backups, backups for you backups, bitrot, file size vs compression, what file system to use, how to make backups actually convenient, mirroring information between systems with limited bandwidth, etc. But to start somewhere let's look at archival:
 
 #### Archival
 
@@ -967,14 +967,6 @@ But even once you have everything attached, most of the time backups are pain to
 Using Git (or GitAnnex) is of course an option, but that has a higher barrier to entry to learn than seems reasonable. At the same time having actual file versioning needs to be a thing, something better than having `untitled.docx`, `untitled.docx`,`untitled3final.docx`, and `untitled3.5.finaler.docx`, even if it is still storing the file in full (though hopefully compressed) behind the scenes.
 
 But, on the note of indexes, why are tools to provide a disk-offline index not better. From what I can find, [catcli](https://github.com/deadc0de6/catcli) and [Virtual Volumes View](http://vvvapp.sourceforge.net) are the main two options, and both are bit out of the way to use, compared to just having it be natively in the file browser. 
-
-[TODO]
-
-https://lbry.io/
-
-https://datproject.org/
-
-https://ipfs.io/
 
 #### Phone ↔ PC is the fucking worst.
 
@@ -994,6 +986,16 @@ Of course the same applies in other formats. .flac is replacing .wav for high en
 * A lot of formats are needlessly complicated and not human or computer readable to anyone but the software vendor
 
 #### Bit rot?
+
+![XKCD Digital Data](/xkcddigitaldata.png)
+
+{{< attribution >}}
+
+[XKCD #1683](https://xkcd.com/1683/)
+
+{{< /attribution >}}
+
+### 
 
 * Data get's compressed, saved, and recompressed (ref xkcd)
   
@@ -1023,37 +1025,49 @@ on hard drives, to [DRAM-less SSDs](https://www.youtube.com/watch?v=ybIXsrLCgdM)
 
 #### Cloud Storage is a terrible idea
 
-I'd also like to mention the idea of distributed computation here as well, as I think it's relevant both for the sake of compression and encryption of the data. I think that having a distributed system like 'this' - I'm referring to all the ideas up until now- in place should ask for contribution from users in turn for it's use, the obvious ask is to get it to be self sufficient. So if the distributed computational power of all these systems were used for everything I've described until now that should be more than plenty to allow it to function. This brings up the idea of balanced usage to contribution, I think the easiest solution is to simply use a system of computational debt tied to each user account. If the user is creating more computational debt than the average debt the system can sustain then that user should be handicapped in bandwidth accordingly. This does sort of bring us full circle in 'can I just trade debt with someone, or sell them my computational time' such that we're back to crypto based services again though, and I really don't like this idea for two reasons: 
+To keep the core of this issue brief: The cloud is just someone else's computer. You can't ever be certain of what they'll do to your data, if they won't have some random DMCA complaint take something down, if they won't suddenly increase price and essentially hold continued access to your data at ransom, if they'll mine your data for targeted advertising, or if you're data will accidentally be public because of bad security. Just... don't.
+
+That said, I will admit two valid uses:
+
+1. Collaborative Editing. GSuite is actually pretty cool.
+2. Backup but only if the service is *only* backup and you already have at least an on site backup. For example, I think [Backblaze](https://www.backblaze.com) is actually a pretty neat service and it seems like they do things reasonably. The ship you a hard drive option here is what makes it make sense to me. Note, I've never actually used Backblaze.
+
+But 1. still has it's issues, especially if the format the collaborative documents are saved as are only viewable on that cloud platform.
+
+
+
+I'd also like to mention the idea of distributed computation here as well, as It can be used for both the storage of and computation on data. I think that having a *true* distributed system in place, one where all users contribute compute and storage for it's use, makes sense. The obvious ask is to get it to be self sufficient. This brings up the idea of balanced usage to contribution, I think the easiest solution is to simply use a system of computational debt tied to each user account. If the user is creating more computational debt than the average debt the system can sustain then that user should be handicapped in bandwidth accordingly. This does sort of bring us full circle in 'can I just trade debt with someone, or sell them my computational time' such that we're back to crypto based services again though, and I **really** don't like this idea for two reasons: 
 
 1. This system needs real time computation and bandwidth, and these vary in value just like how electricity peak hours cost more.
 2. This incentives simply paying for compute time instead of actually contributing computational power to the network like it actually needs, which in turns creates an incentive for people to do this at scale *annnndd* look at that we're back to centralization.
 
-The biggest problem with of course, is that currently home Internet users very rarely have symmetric connections, so would probably be very pissed if their download speed were suddenly tied to their upload speed. This *could* be offset by building up credit, as previously mentioned, but that has the issues, as previously mentioned. I suppose there could simply be a credit cap, but setting that would be exceedingly awkward as a logical number to use would vary by user and how they use the system.
+The biggest problem with this is that home Internet users very rarely have symmetric connections, so people would probably be very pissed off if their download speed were suddenly tied to their upload speed. This *could* be offset by building up credit, as previously mentioned, but that has the issues, as previously mentioned. I suppose there could simply be a credit cap, but setting that would be exceedingly awkward as a logical number to use would vary by user and how they use the system.
 
-![XKCD Digital Data](/xkcddigitaldata.png)
+I do hope that someone has a better idea than me for the future of distributed computation, because I really can't see any good solutions despite wanting it to be part of the future.
 
-{{< attribution >}}
-
-[XKCD #1683](https://xkcd.com/1683/)
-
-{{< /attribution >}}
+I'd also be remiss if I didn't mention [Boinc](https://boinc.berkeley.edu), a tool you can use to donate unused computational resources from when your computer would be otherwise idle to good causes such as [Searching for Extraterestial Life](https://setiathome.berkeley.edu) or [Folding protiens](https://foldingathome.org) to look for cures to various diseases.
 
 ### Transferring Information Sucks
 
-[TODO]
+I mostly mean networking, but things like flash drives too.
 
-#### Networking Sucks
+#### The Internet Sucks
 
-[TODO]
+Well, okay, the internet is honestly fucking awesome. But some of it is designed horribly and some of it is nowhere near as good as it could be because of users making stupid choices.
 
-* Everything is centralized
-* ipv4 is broken
-  * ipv6 is worse
-* ISPs are evil
-* nothing is secure
-* nothing is persistent (saved local copies)
+To start with, let's look at how horribly shit was designed. As a start, I recommend reading [IPv6 Is a Total Nightmare — This is Why](https://teknikaldomain.me/post/ipv6-is-a-total-nightmare/) by Teknikal, it explains the issues with both IPv4 and IPv6 beautifully. There are other issues with the web, like the fact that neither DNS or IP were designed to be encrypted (and so private) by default, so instead we've had to patch on fixes like http**s**. Of course, there network security problems are found regularly, such as [Nat Slipstreaming](https://samy.pl/slipstream/), a nasty issue that made the rounds recently.
 
-[Nat Slipstream](https://samy.pl/slipstream/)
+There are also issues of access. In the US at least, most places are part of an ISP regional monopoly. Often they'll argue that you *do* have options, such as satellite internet. However, this is complete and total bull shit. You do *technically* have the option, sure, but this option is slow, usually has data caps, and just generally sucks. If you're in a rural area, you're lucky if the copper in the ground is still good enough to get you something fast enough to watch a YouTube video. Then, ontop of all this BS, the ISPs regularly get caught for doing shit to your traffic, weather it be injecting ads, terminating connections early, blocking services (often torrenting), not letting you forward ports, etc. Oh, and then they try to charge you for a modem you don't even have- thankfully that was [just made illegal](https://www.extremetech.com/internet/318570-its-finally-illegal-for-isps-to-charge-rental-fees-for-equipment-you-own).
+
+TLDR; ISPs are evil.
+
+#### Centralization Sucks
+
+https://lbry.io/
+
+https://datproject.org/
+
+https://ipfs.io/
 
 #### Transferring Your Profile Sucks
 
@@ -1063,13 +1077,27 @@ The biggest problem with of course, is that currently home Internet users very r
 > 
 > 5) Switchable "user profiles" instead of "user accounts", which are an artifact of giant shared computer systems. User profile just contains personalized settings and can be located anywhere, including removable media so you can take yours to other computers. If you want to keep things safe from others, encrypt them. Otherwise there are no permissions except those applied to applications themselves.
 
+I think Solid, a project by Prof. Time Berners-Lee, the guy behind the World Wide Web, is a decent implementation of this if it were to gain enough traction to actually be used.
+
+> Solid's central focus is to enable the discovery and sharing of information in a way that preserves privacy. A user stores personal data in "pods", personal online data stores, hosted wherever the user desires. Applications that are authenticated by Solid are allowed to request data if the user has given the application permission.
+
+{{< attribution >}}
+
+[Solid Wikipedia Article](https://en.wikipedia.org/wiki/Solid_(web_decentralization_project))
+
+{{< /attribution >}}
+
+But the point I'm trying to convey is that right now setting up a new device or logging into a service sorta blows. The user profile needs to be secure, user-owned, and decentralized. For those that know Linux, it's what making your `~/.config` folder into a git repo *should* be like.
+
 #### Local Backups By Default
 
-[TODO]
+Most web pages are reasonably small, especially if you ignore java script crap. Why do browsers not just backup all web pages we go to (on desktops and laptops where storage is a non-issue) ? This would provide the benefit of being able to do a local text search of everything browsed recently as well as backups in case the page goes offline or moves.
+
+There are tools that do this already (like [Archivebox](https://archivebox.io)) which can be automated but it's still not user friendly to normies. There are also sites like [Waybak Machine](https://archive.org/web/) and [Perma.cc](https://perma.cc) that will save copies of websites for you and provide a link that should always work, even if the website goes down or the address changes, but again, this is a bit of a pain. It also can lead to copyright issues for these services.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Why can’t you easily search all of the text you read on any screen (desktop + mobile) over the past day?<br><br>It’s strange how much obvious, low-hanging fruit of this form still exists.</p>— Patrick Collison (@patrickc) <a href="https://twitter.com/patrickc/status/953011978217205760?ref_src=twsrc%5Etfw">January 15, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 #### Physical Interaction
-
-[TODO]
 
 I also think the boundaries of physical and digital should be more blurred. I'd love if I could set a book on my desk and search though it for an idea or concept by mere image recognition of the cover, or if it's an unknown book at least being able to digest any pages shown to it explicitly. Say a section was highlighted? It would be great if that were automatically added to a *personal journal file of sorts* for future reference, especially if related data were automatically associated with online sources, or links made to people who are interested in similar subjects.
 
@@ -1117,17 +1145,51 @@ Potentially this could also plug into the entire OS as well, making it so an ima
 
 #### Racist, how can a computer be racist?
 
-AI systems, naming conventions (both human names and terms like master/slave, whitelist/blacklist)
+Well, okay, this depends on the definition of 'racist' I guess, but there's definitely some issues. There's the more mundane and debatable stuff such as using 'Master/Slave' to denote device control schemes or using the terms whitelist and blacklist for allowed and dis-allowed lists respectively, but those are all results of human naming decisions.
 
-[TODO]
+The bigger issue is with AI. There have been a ton of stories now where facial recognition software, used for [test taking](https://www.technologyreview.com/2020/08/07/1006132/software-algorithms-proctoring-online-tests-ai-ethics/) or by [government and police](https://www.aclu.org/news/privacy-technology/how-is-face-recognition-surveillance-technology-racist/), have built in racial biases as a result of learning the same racial biases that made up the data sets to begin with. This is, to put it extremely mildly, not great.
+
+#### Special Needs?
+
+Well, yeah. How often do you see more common needs like color blindness accounted for, let alone issues like screen readers. If anything, some of these things are getting *worse*. For example, web design is becoming more and more javascript heavy, which can often result in screen readers just not being able to process much of the text on screen. Meanwhile, applications that everyone is expected to use are becoming complex enough, with more and more rarely used features being shoved into sub-menus that it's harder to interact with them in non traditional ways.
+
+Sure, we're making better hardware to tackle these issues, but a lot of it is pretty expensive.
+
+There's also the problem of making computers accessible to people with metal handicaps. And I'll be honest, this one's rough. Just like how power tools are an extension of our ability to do physical works, computers, I think, are naturally an extension of the mind. If a subset of users have less capable minds to begin with, it's going to be really hard to design around that.
+
+I'm not the best to talk on these issues to begin with though as for the most part my body and mind don't impede the way I work or require special tools. So, instead I'll link to some other articles:
+
+[Software development 450 words per minute](https://www.vincit.fi/fi/software-development-450-words-per-minute/)
+
+[Chapter 3 of 'Buliding Accessible Websites' by Joe Clark](https://joeclark.org/book/sashay/serialization/Chapter03.html) (I think this is written a bit... bluntly. I don't agree with everything here. That said, it's still a good resource)
+
+#### Access
+
+While not an issue strictly pertaining to race or disability, there's certainly a bias for those groups to also be poor or in worse circumstances that limit their internet connection or hardware's speed. The solution? Stop making shit so fucking bloated. If you're developing on a high end computer with umpteen cores and enough ram to store the english-only copy of Wikipedia <a class="ptr">(12)</a> make sure to at least *try* it on something else and see if it still works.
 
 ### We basically don't even own our computers anymore
 
-[TODO] Licensed everything, no root access, etc. 
+Like many things in this far-to-long article, this could be post on its own, but I do think it's necessary to bring up the fact that there's an on going war against general purpose computation. If you've got an hour to kill (or half an hour if you can tolerate 2x speed), this video is basically required viewing:
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/HUEvRyemKSg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< hint info >}}
+
+A few notes on this video. 
+
+[SOPA](https://en.wikipedia.org/wiki/Stop_Online_Piracy_Act), the Stop Online Piracy Act, is mentioned because at the time it was a big deal. Thankfully, it was indeed stopped.
+
+[Illegal Numbers](https://en.wikipedia.org/wiki/Illegal_number) are a thing, and the history of them is incredibly interesting
+
+{{< /hint >}}
+
+There are also issues on ownership, for example:
+
+[Amazon Sued For Saying You've 'Bought' Movies That It Can Take Away From You](https://www.techdirt.com/articles/20200505/23193344443/amazon-sued-saying-youve-bought-movies-that-it-can-take-away-you.shtml)
+
+[Microsoft Is Closing Its Ebook Store and Taking the Books With It](https://www.popularmechanics.com/technology/a27021744/microsoft-ebook-store-shutdown/)
 
 ## Chapter 3: What's Else Is Needed?
-
-[TODO]
 
 ### Script all the things! But Not Like That™
 
@@ -1139,13 +1201,21 @@ everything is a file/folder (inc. full programs)
 
 ### Optional Security
 
-[TODO]
+[TempleOS](https://en.wikipedia.org/wiki/TempleOS) is a really weird operating system. From Wikipedia
 
-Temple OS philosophy
+> **TempleOS** is a biblical-themed lightweight operating system designed to be the Third Temple prophesied in the Bible. It was created by the late American programmer Terry A. Davis, who developed it alone over the course of a decade after a series of manic episodes that he later described as a revelation from God.
+>
+> [...] using an interface similar to a mixture of DOS and Turbo C. Davis proclaimed that the system's features, such as its 640x480 resolution, 16-color display and single audio voice, were designed according to explicit instructions from God.
+
+But the part that's cool to me? TempleOS gives no fucks about security, now, that's at least in part because it doesn't have networking (though there is a [fork with networking](https://github.com/minexew/Shrine)) but even then, there's no concept of an admin or 'normal' user. There's no system-protected processes. You want to flip arbitrary bits, directly send data over IO lines, whatever. The OS will not stop you. The entire thing runs in ring 0, which means you always have total control over the hardware, but it also means there's nothing stopping you from massively fucking everything up and crashing the system, corrupting everything, etc.
+
+[TempleOS (Linus Tech Tips)](https://youtu.be/LtlyeDAJR7A)
+
+And, okay, yeah, that's obviously not ideal for *normal* use, but I think there's something to be said for having the *option* to say fuck it, slam your fist down on the manual override button, and take full control of the system. This is what I mean by optional security - no HAL 9000 in the way. No `sudo`, no 'no'. In this mode it should also be easy to turn off all networking and malware protection, so a super-fuckit No firewallls, no threat scanning, etc. switch.
+
+Running as root in Linux is *almost* this. It could even be argued that it's better since toying with memory though `/dev/kmem` is probably easier than trying to deduce the physical memory map. That said, there's still *[some](https://stackoverflow.com/questions/21761185/is-there-a-difference-between-sudo-mode-and-kernel-mode)* restrictions on the root account compared to running directly in 'kernel mode'.
 
 ### Backwards Compatibility via Compatibility Layers
-
-[TODO]
 
  AnIdiotOnTheNet's Comment on [This Hacker New's Submission - 'Re-Thinking the Desktop OS'](https://news.ycombinator.com/item?id=24783387)
 
@@ -1153,15 +1223,23 @@ Temple OS philosophy
 > 
 > 7) Backwards compatibility should be a high priority, but accomplished via shim layers and/or emulation and/or vms when clean breaks are necessary. A wide array of such should be included with the OS from the beginning. In 2020, there is no excuse for not being able to run old software."
 
-Excel date bug
+And yeah, that pretty much sums it up. Currently backwards compatibility is often a choice of actually going to better technology and fixing bugs - like the Excel [leap year problem](https://docs.microsoft.com/en-us/office/troubleshoot/excel/wrongly-assumes-1900-is-leap-year) or supporting older files without them massively breaking. There's really no reason we couldn't do both using comparability layers. The cost, I think, would mostly be in accepting that the transition to those comparability layers will be rough and that some thing will just have to be upgraded until that compatibility infrastructure is in place.
 
-No reason we shouldn't be able to run very old shit, but also no reason to use that as an excuse against moving forward.
+There's no reason we shouldn't be able to run very old software, but also no reason to use that as an excuse against moving forward.
 
-Hardware compatibility via FPGA modules
+A fairly interesting solution to some of this might be to implement hardware compatibility via FPGAs, that is loading either full soft-core CPUs or instruction set translation logic onto a tightly integrated FPGA. Higher end retro console emulators are already using FPGA emulations of the original CPUs anyway, so this isn't some crazy fantasy. To add even further hope, AMD owns Xilinx and Intel own Altera, so the two biggest CPU manufactures both already own the two biggest FPGA manufactures. There's nothing stopping them from making integration standard. (well, other than cost and market segmentation)
 
 ### Hardware Modularity, Repairability, and Customization
 
-[TODO]
+According to Wikipedia [Right to Repair](https://en.wikipedia.org/wiki/Electronics_right_to_repair) is 
+
+> legislation that is intended to allow consumers the ability to repair and modify their own consumer electronic devices, where otherwise the manufacturer of such devices require the consumer to use only their offered services
+
+This is a big deal, with big player like Apple and John Deer lobbying incredibly hard against it. I can't possibly explain even a fraction of all the nuance in the arguments, so instead I recommend reading [this post](https://www.eff.org/issues/right-to-repair) from the Electronic Frontier Foundation (EFF) for a quick overview.
+
+As for modularity and customization, I mean that hardware should be made such that components can be swapped out. For example, most desktop computers do a decent job o f this, where each component - the CPU, graphics card, power supply, RAM, etc. - can be upgraded individually <a class="ptr">(14)</a>. This concept desperately needs to be more widespread. It simultaneously cuts down on eWaste by increasing longevity, allows consumers to only pay for what they need, and lets consumers buy-now-upgrade-later if they can't afford what they really want to start with.
+
+The only real downside for the consumer is that the products might be hair bit thicker? Yeah, I think that's a fair trade.
 
 ### Network Transparency
 
@@ -1169,15 +1247,23 @@ Hardware compatibility via FPGA modules
 
 ### The Ability to go Back In Time
 
-[TODO]
+A lot of software already runs on an idea of 'events' or 'transactions', whatever you want to call it. What I want is for these to always be undo-able, at least for window of time or number of past events. This might mean updates, changes to a file, or just scrolling down on a screen.
 
-updates, file changes, or just scrolling on a screen - a refresh sholud let you return to the previous state, past notifications should be accessible 
+A refresh should try to bring you to the previous state, dismissed notifications should be able to be un-dissmissed.
+
+As previously mentioned, you should be able to go back to a saved copy of any webpage you've visited. You should be able to revert your system to a restore point (Good idea from Windows, poorly implemented).
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">EVERY <br>F**IN&#39;<br>TIME<br>💢<br>🦊 <a href="https://t.co/5JGKXqxIwF">pic.twitter.com/5JGKXqxIwF</a></p>&mdash; FPV 🟡 眼鏡の狐 (@F0XnR0LL) <a href="https://twitter.com/F0XnR0LL/status/1347328703987142656?ref_src=twsrc%5Etfw">January 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Open Sensors and Generators
 
-[TODO]
+Hardware is gradually becoming more general purpose, and as this happens it would be amazing if they were opened up enough to allow for experimentation. Think using full on software defined radio chips for Wifi and Bluetooth, such that they could be reconfigured on the fly and a different antenna attached to make use of GPS, cellular, or satellite internet. There's already a mini PCI-e card SDR [on the market](https://www.crowdsupply.com/fairwaves/xtrx). like this, but it's my understanding that many wifi chipsets are effectively just limited SDRs running locked down firmware anyway. Why not open it up?
 
-SDRs, new IO options (something shittier than USB, cheap, and extendable), open IOT
+I also want more platform to have GPIO access. On a full on desktop or laptop this would have to be done with care to avoid people straight up frying devices, but I think the [wide array of hats](https://www.adafruit.com/category/286) available for the RaspberryPi shows that having this as an option would really allow for some cool hardware to exist.
+
+I also want senors and IOT devices to be more open and extendable. Give me a serial out, let me wire it up to my own home automation. I mentioned above that I have a CO2 meter from CO2Meter.com, but I'm looking at getting [this](https://www.adafruit.com/product/4867?utm_source=youtube&utm_medium=videodescrip&utm_campaign=newproducts) CO2 sensor just so I can get reading out of it easier.
+
+IOT especially **needs** to be open. In 2020 alone [Wink started charging customers $5/mo](https://www.consumerreports.org/smart-home/wink-tells-users-pay-up-or-we-will-disable-smart-home-hub/) for app access to IOT gear they already owned, and [Sonos bricked devices with 'Recycle Mode'](https://www.theverge.com/2019/12/30/21042871/sonos-recycle-mode-trade-up-program-controversy). 
 
 ### Software that breaks the mold
 
@@ -1197,19 +1283,19 @@ http://audulus.com
 
 Microfluid computers, diode logic, GPIO
 
-7) Backwards compatibility should be a high priority, but accomplished via shim layers and/or emulation and/or vms when clean breaks are necessary. A wide array of such should be included with the OS from the beginning. In 2020, there is no excuse for not being able to run old software."
+#### Wasting time on stupid shit that nobody cares about
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Why can’t you easily search all of the text you read on any screen (desktop + mobile) over the past day?<br><br>It’s strange how much obvious, low-hanging fruit of this form still exists.</p>— Patrick Collison (@patrickc) <a href="https://twitter.com/patrickc/status/953011978217205760?ref_src=twsrc%5Etfw">January 15, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Microsoft has been spending a lot of time changing to the new UI, and their calculator has been updated like a dozen times for UI now but still [SpeedCrunch](http://speedcrunch.org) remains 1000x more usable and tools like [WolframAlpha](https://www.wolframalpha.com) remain superior yet. Stop spending time on shit literally nobody gives a shit about.
 
 ## Chapter 4: What points contradict?
 
-* **Having Low Level Access and High Level Usability.**
+### Having Low Level Access and High Level Usability.
 
 Yeah, this is always a problem. It's always been the dream to be able to describe in 'natural language' what you want and to have the computer parse what you want, inferring intent, and do whatever you want for you, but naturally, this will never be totally possible. This point is only conflicting in the sense that it can be overwhelming- if a user has access to work in something as high as natural language and can manipulate those instructions all the way down an the assembly level, that's a lot of open space. Ideally, each layer of the abstraction would be open to tinker and modify for the sake of getting the solution to work correctly, to pipe data around at any level, or to add functionality in it's most natural language: Some tasks are better suited to describing what's needed in English, some are easier to do down in the dirt.
 
 Making everything open this way may sound complicated, but if the UI were presented right it could just be a stack of abstraction that propagates up and down. Changing the assembly could change the source could change the natural language description. Better, the cost of this could be lowered if each layer is only shown and edit-able at request, and that layer just bypassed until needed. Of course, this would mean being able to to make a set of languages that can be can go from higher level to lower level yet have a middle language introduced mid-stack without changing the meaning. This is complicated. It's like asking for a fast python interpreter that can be ran directly or spit out C, then have that C code be editable with it's changes reflected back into the python code. I'm aware of how complicated of a problem that is. Add a natural language description above the python level in the above and it just got much, much more complicated. Still, I think this is something we should aim for.
 
-* **Latency/Speed vs Things That Are Inherently Heavy**
+### Latency/Speed vs Things That Are Inherently Heavy
 
 I'm asking for a lot of inclusion of AI/ML tech into the OS and day-to-day use, yet also asking for much, much faster response times in general. To some extent, hardware with dedicated silicon for AI/ML will make this better, but regardless, there's no way around how much this conflicts. I think the only way to fix this is to recognize what latency is and isn't acceptable.
 
@@ -1219,9 +1305,21 @@ But even just directly looking at speed and latency, there's still a ton of room
 
 https://danluu.com/input-lag/
 
-* **Customizeability vs Default Inclusion**
+### Customizeability vs Defaults
 
-[TODO] Microsoft browser choice windows
+I'm writing this at [@292.78](https://minkukel.com/en/clocks/swatch-internet-clock/) on Day 15 of [12,020](https://www.youtube.com/watch?v=czgOWmtGVGs). I'm typing on a Dvorak, split, ortholinear keyboard in a [markdown](https://www.markdownguide.org/basic-syntax/) document using [Arch Linux](https://www.archlinux.org/) instead of M$ Word on Windows.
+
+And It's fucking awesome.
+
+Thing is, nobody else can use my computer. Moreover, if anyone were forced to learn all these weird formats and behaviors instead of what they're used to, they'd give up. What people are used to, that is the *defaults* make a huge difference.
+
+Defaults have a lot of power. There's good reason that (for a while at least) Microsoft had to [inform users about browser options](https://answers.microsoft.com/en-us/ie/forum/ie8-windows_other/what-is-the-browser-choice-update/12fb0294-fd62-4487-a14b-ac37071c1081). What comes ready to use and presented to the user from the start is much more likely to get used than something a user has to go out of their way to get.
+
+Similarly, the ability to even make choices in the first place matters a great deal. For example, on modern versions of Windows, you're pretty much stuck with the stock shell (desktop+file manager) as alternatives are either [pretty similar](https://cairoshell.com) to what's there already or [mostly dead](http://bb4win.sourceforge.net). 
+
+The question then becomes what things *matter* to choose? I think ideally everything *should* be open enough to be replaced, but that doesn't fix anything if options aren't given. At the same time, Systems like [Arch Linux](https://www.archlinux.org/) will likely never have mainstream appeal exactly because none of these choices are made for the user. At the end of the day, most users want a system that *just works*. They don't want to have to choose between a list of 5 different firewall providers, hundreds of desktop environments, and login managers, and shells, and so on. So, defaults have to be chosen.
+
+Fortunately, so long as people have the option to change things if they want to, they can approach a system that works well for them. For me, that's Linux, i3wm, Dvorak, and a bunch of weird hardware. For a lot of people, it's probably just exactly how Windows is now with a few minor tweaks.
 
 ### Everything is in the browser now anyway?
 
@@ -1237,29 +1335,47 @@ On the other hand, one of the things I mentioned repeatedly was portability. Bro
 
 Or why **"I wish everybody used Linux!"** is probably not the wisest thing to say.
 
-[TODO]
+To keep this short, if everybody used Linux, there'd be less incentive for Linux to compete with Windows. If everybody used Windows, M$ wouldn't have incentive to further their OS. Boiled down, competition is a good thing.
 
-### What else is holding us back?
+That said, there are limits to how much diversity (in the context of computing) is a good thing too. If I search the Arch User Repository for "i3lock" there are  28 results + original they're all forked <a class="ptr">(13)</a> from. And, okay, not all 28 of those are actual forks, but you get the point. There's a lot of work being duplicated on open source projects, instead of just everybody working together to make one, really good thing.
 
-#### Wheel reinvention
-
-Microsoft has been spending a lot of time changing to the new UI, and their calculator has been updated like a dozen times for UI now but still [SpeedCrunch](http://speedcrunch.org) remains 1000x more usable and tools like [WolframAlpha](https://www.wolframalpha.com) remain superior yet. Stop spending time on shit literally nobody gives a shit about.
-
-[TODO]
+And, yeah, this provides more choices, but does *anybody* want to research 28 choices for anything to figure out which is best? Especially when most of them are super similar? With desktop environments on Linux at least each is typically novel enough to fun to look at, but if it's something boring, like the given screen-locker example, really?
 
 ## Chapter 5: What Might Radically Change Things?
 
 ### Body Modification and Bio-Engineering
 
-Another point is the idea of biohacking and body augmentation. Examples include implanted [RFID tags](https://dangerousthings.com/) (which I actually have) and magnets for sensing electromagnetic fields, though I think a lot of biohackers are missing the point. [This](https://www.youtube.com/watch?v=4c1lqFXHvqI) is the future I see in store.
+Another point is the idea of biohacking and body augmentation. The most common biohacks include implanted [RFID tags](https://dangerousthings.com/) (which I actually have) and magnets for sensing electromagnetic fields, but these are still pretty mundane. This Ted Talk I think shows what might be possible a bit better:
 
-[TODO]
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/4c1lqFXHvqI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+But I still think there's room for a lot more. Last semester I was fortunate enough to take a class with Dr. Massimilliano Pierobon who is currently the director of the [Molecular and Biochemical Telecommunications Lab (MBITE)](https://mbite.unl.edu) at UNL, and while I'm far from knowledgeable enough to understand everything that they do there I know they're doing some very interesting work that could be summarized as hacking the chemistry and existing networks in biological systems (inc. humans). Here's some work from the MBITE lab I found particularly interesting:
+
+<div style="font-size: .75em">
+
+Bi, D., Deng, Y., Pierobon, M., and Nallanathan, A.  ***"Chemical Reactions-based Microfluidic Transmitter and Receiver Design for Molecular Communication,"*** IEEE Transactions on Communications (Early Access), 10.1109/TCOMM.2020.2993633, May 2020. [[PDF\]](https://mbite.unl.edu/files/papers/2020/J1.pdf)
+
+Marcone, A., Pierobon, M., and Magarini, M. ***"Parity-Check Coding Based on Genetic Circuits for Engineered Molecular Communication Between Biological Cells,"*** IEEE Transactions on Communications, vol. 66, no. 12, pp. 6221-6236, December 2018. [[PDF\]](https://mbite.unl.edu/files/papers/2018/j2.pdf) 
+
+Hanisch, N.,  Pierobon, M. **“Digital Modulation and Achievable Information Rates of Thru-body Haptic Communications,”** In Proceedings of the SPIE International Conference on Defense + Security (DCS), April 2017. [[PDF\]](https://mbite.unl.edu/files/1020603.pdf)
+
+</div>
+
+{{< attribution >}}
+
+These articles, and others from the MBITE lab at UNL, can be found [here](https://mbite.unl.edu/publications)
+
+{{< /attribution >}}
+
+Seeing this makes me wonder if the future of bio-hacking might be a bit more tightly integrated into how our bodies already work, rather than just tossing some electronics inside some silicon or glass to implant somewhere.
 
 ### Brain Computer Interfaces
 
-[Implant-less BCI](https://science.slashdot.org/story/20/10/26/2140202/no-implants-needed-for-precise-control-deep-into-the-brain)
+I don't know that BCI are really the future. Elon Musk is working on [Neuralink](https://en.wikipedia.org/wiki/Neuralink) which is neat and all, but I'm not sure I'm convinced. I would welcome the faster computer to brain link as the keyboard->eyes->brain loop is far to slow, but I don't really see anyone going in to have their skull drilled into for elective surgery unless it's to correct or treat something else neurologically. There have been efforts to do BCI [without implants](https://science.slashdot.org/story/20/10/26/2140202/no-implants-needed-for-precise-control-deep-into-the-brain), but I suspect that would suffer from a lack of bandwidth.
 
-[TODO]
+I do very much hope to be wrong, as I think BCI has the opportunity to be the biggest leap humanity has ever taken. Soon, it may even be necessary to even deal with how quickly our would is changing and the amount of information we need to process every day.
+
+[Brain Computer Interface article on Wikipedia](https://en.wikipedia.org/wiki/Brain%E2%80%93computer_interface)
 
 ## Wrapping up
 
@@ -1291,9 +1407,7 @@ https://arcan-fe.com/2020/02/10/leveraging-the-display-server-to-improve-debuggi
 
 ### Other people that have ranted about similar things, but usually a bit more politely
 
-[TODO]
-
-https://mmcthrow-musings.blogspot.com/2020/04/a-proposal-for-flexible-composable.html
+[A Proposal for a Flexible, Composable, Libre Desktop Environment (Michael McThrow)](https://mmcthrow-musings.blogspot.com/2020/04/a-proposal-for-flexible-composable.html)
 
 [What do I care the open web is dying? (Abhinav Sharma, Cofounder Insight. ex Mozilla & Facebook)](https://insightbrowser.com/blog/open-web-dying-why-care)
 
@@ -1313,5 +1427,14 @@ Taking the crown however, is Display Port (DP). Like HDMI display port does have
 <li>In the case of things that can be used standalone, not connected to a computer, like my afforementioned MorningStar MC6 midi controller, it makes some sense. </li>
 <li>Fuck Adobe.</li>
 <li>The Launchkey MK2 has an almost impressively bad keybed. Roli, the company behind the Seaboard Block and Lighpad Blocks is a bit controversial. Not like, Behringer levels of controversial, but still. ╮(─▽─)╭</li>
+<li>Currently 17.5Gb - <a href="https://dumps.wikimedia.org/enwiki/20201001/"</a>https://dumps.wikimedia.org/enwiki/20201001/</li>
+<li>for the non-technical people: A fork is just when you take an existing project and add your own features on top, usually with a rename. If I don't also keep my project up to date with the original, they'll diverge in features even more significantly with time.</li>
+<li>With the normal limits of compatability, you can't drop a crazy fast graphics card in without upgrading the power supply, and often the CPU, Ram, and motherboard all need to be from the same generation.</li>
 </ol>
+
+{{< tip >}}
+
+if you a link to add, feel free to tweet at me @Vega_DW
+
+{{< /tip >}}
 
