@@ -88,7 +88,7 @@ Often, the square wave output has PWM or 'Pulse Width Modulation' control:
 
 Varying the pulse width over time sounds really good, to give it a shot try setting this up in VCV:
 
-![PWMosc](../../static/PWMosc.jpg)
+![PWMosc](/PWMosc.jpg)
 
 {{< hint info>}}
 
@@ -140,7 +140,7 @@ I'd also like to briefly mention oscillator cores. Especially in VCOs, knowing w
 
 You can think of making a saw wave as just progressively counting higher with time. So, at t=0, we start at 0, at t=1 we go to 1, etc. until at, let's say t=10, we reset back to 0, and count back up to 10. If we assume this process is continuous, that is we could look at any decimal, like at t=1.12 the wave is at 1.12, we've generated a sawtooth wave. This is our core. Now, we can say whenever that 'core' wave is less than 5, output 0 on the square output. If it's greater than 5, output 10. If the blue wave is that core oscilator, the pink wave is the result (ignore the awkward spikes at the transition points)
 
-![cores](../../static/cores.jpg) 
+![cores](/cores.jpg) 
 
 The core used will often change the features of the oscillator. Generally, saw core oscillators are the cheapest and most common but also the least capable. Triangle and trapezoid cores often offer extra features, such as outputs other than the common sine, tri, saw, square. 
 
