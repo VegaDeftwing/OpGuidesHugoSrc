@@ -66,9 +66,100 @@ https://soundslikenoise.org
 
 ## Basic Oscillators
 
-PWM, Hard/Soft Sync, different wavefroms, oscilator cores (Triangle, saw, trap), pitch drift
+Generally there are a few kinds of oscillators you should know about, but first, what's an oscillator?
 
-harmonics on sharper transistions, even and odd harmonics
+Well, very simply, it's a thing that oscillates- moves in a repeating pattern. Generally there are three ways you'll hear Oscillators refereed to as being VCO, DCO, or LFO. You may also see Oscillators in general refereed to with the abbreviation osc. Unfortunately, that can be confusing because OSC can also mean Open Sound Control, something I'll get into in the Sequencing and MIDI chapter in a bit.
+
+A **VCO** is a Voltage Controlled Oscillator. Back in VCV you saw these being emulated where each volt of constant input applied made the oscillator oscillator at twice the speed, one octave higher. In real life, VCOs tend to be a bit unstable and have minor pitch drift. While this may sound like a negative, it's generally seen as a feature, as stacked, slightly out of tune oscillators sound really good. In fact, VCV Rack's basic VCO, 'VCO-1', emulates this behavior by default.
+
+A **DCO** is a Digitally Controlled Oscillator. These (usually) exhibit no pitch drift and are far easier to tune.
+
+Note that some hardware may go from a digital input to a VCO internally, or take a voltage pitch signal as input but just sample it to use a DCO internally.
+
+an **LFO** is a Low Frequency Oscillator, they can still be either digital or analog (DCO or VCO), but they typically have a max frequency of around a hundred hertz and are meant to be used to control other things, not make sound to hear directly. 
+
+Oscillators usually have very simple wave shapes as outputs. Typically, you'll see Sine ∿ , Triangle ʌ , Square ⎍ , and Saw waves as outputs. You may see other, more exotic wave forms though.
+
+![img](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Waveforms.svg/557px-Waveforms.svg.png)
+
+Often, the square wave output has PWM or 'Pulse Width Modulation' control:
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Duty_Cycle_Examples.png" style="zoom:75%;" />
+
+Varying the pulse width over time sounds really good, to give it a shot try setting this up in VCV:
+
+![PWMosc](../../static/PWMosc.jpg)
+
+{{< hint info>}}
+
+Here I've set the LFO to be bi-polar with the switch on the left, and VCO-1's PWM CV knob has been turned up to make the input do something.
+
+{{< /hint >}}
+
+Some oscillators will also have Sync, either Hard or Soft. Sync, in general, makes the waveform reset once it gets an input from another oscillator. This means you'll need two oscillators to do sync.
+
+> **Oscillator sync** is a feature in some synthesizers with two or more VCOs, DCOs, or "virtual" oscillators. As one oscillator finishes a cycle, it resets the period of another oscillator, forcing the latter to have the same [base frequency](https://en.wikipedia.org/wiki/Frequency).
+>
+> [For Hard Sync] If the [following oscillator] is tuned to a lower frequency than the [controlling oscillator] it will be forced to repeat before it completes an entire cycle, and if it is tuned to a higher frequency it will be forced to repeat partway through a second or third cycle.
+>
+> [...] There are several other kinds of sync which may also be called Soft Sync.
+>
+> **Reversing Sync**
+>
+> This form of oscillator sync is less common. This form is very similar to Hard Sync, with one small difference. In Reversing Soft Sync, rather than resetting to zero, the wave is inverted; that is, its direction is reversed. Reversing Soft Sync is more associated with analog triangle core oscillators than analog sawtooth core oscillators.
+>
+> **Threshold or Weak Sync**
+>
+> Several kinds of Soft Sync use comparison thresholds:
+>
+> - Hard Sync which is disabled when the frequency or amplitude of the slave crosses a user-defined threshold.
+> - Hard Sync which is disabled when the frequency of the [following oscillator] extends too high above or too far below the frequency of the [leading oscillator].
+> - Hard Sync which is disabled when the frequency of the [following oscillator] is lower than the frequency of the [leading oscillator].
+>
+> Soft Sync may accurately refer to any of these, depending on the synthesizer or manufacturer in question.
+>
+> **Phase Advance 'Sync'**
+>
+> The phase of the slave is advanced by some amount when the [leading] oscillator level crosses some threshold. Used for audio synthesis, this may give an audible effect similar to Soft Sync.
+>
+> **Reset Inhibit Sync**
+>
+> When the [leading] oscillator crosses some threshold, the normal reset of the [following oscillator] is disabled: it will stick at its final level, positive or negative. When the [leader] crosses back over some threshold, the [following oscillator] is reset.
+>
+> **Overlap Sync**
+>
+> In this method, the current wave completes but a new waveform is generated at the sync pulse. The tail of the old wave and the new wave are output summed if they overlap.
+
+{{< attribution >}}
+
+https://en.wikipedia.org/wiki/Oscillator_sync
+
+{{< /attribution >}}
+
+I'd also like to briefly mention oscillator cores. Especially in VCOs, knowing what the 'core' of an oscillator is can make a difference. The core is simply the waveform from which the other waveform are derived. Generally, there are three kinds you'll see (though others are possible): Triangle, Saw, and Trapezoid core. To get an idea of what a core is, lets look at the saw.
+
+You can think of making a saw wave as just progressively counting higher with time. So, at t=0, we start at 0, at t=1 we go to 1, etc. until at, let's say t=10, we reset back to 0, and count back up to 10. If we assume this process is continuous, that is we could look at any decimal, like at t=1.12 the wave is at 1.12, we've generated a sawtooth wave. This is our core. Now, we can say whenever that 'core' wave is less than 5, output 0 on the square output. If it's greater than 5, output 10. If the blue wave is that core oscilator, the pink wave is the result (ignore the awkward spikes at the transition points)
+
+![cores](../../static/cores.jpg) 
+
+The core used will often change the features of the oscillator. Generally, saw core oscillators are the cheapest and most common but also the least capable. Triangle and trapezoid cores often offer extra features, such as outputs other than the common sine, tri, saw, square. 
+
+Finally, I'd like to bring up harmonics.
+
+The really dumb version: If the wave has quick transitions (cliffs, ridges, etc) it's going to be more harmonically rich, and therefore have more 'sonic content' above the base frequency. For example, say you play a 440hz sine wave. It will have no harmonics, it will be a pure, 440hz tone. But, if you play a 440hz square wave?  That'll have a ton of harmonics, actually, by definition, it will have **odd** harmonics. If you care about the mathy stuff you can read [An Interactive Introduction to Fourier Transforms by
+Jez Swanson](http://www.jezzamon.com/fourier/). But, the relevant bit for for musical stuff is that these harmonics, the phase relationship between them, and how they change over time is what makes a sound sound like *that sound*. It's what makes a piano sound like a piano, etc.
+
+Anyway, knowing what these harmonics add to a sound make a big difference. Often with synths, you'll find you have separate control or outputs of the even and odd harmonics. This is sort of what you expect.
+
+For example, say we have a 100hz 'base' sound. Then the even harmonics would be 200, 400, 600, 800, etc. Odd harmonics will be at 300, 500, 700, etc. Note that humans can only hear up to 20,000 hertz anyway, so, technically it's impossible for you to hear a true square wave (Well, technically a *true* square wave would have infinite energy, so it's impossible for more than one reason). 
+
+I'll spare you going any deeper into terminology like the difference between harmonics and overtones, but, and here's the important parts:
+
+* Even harmonics have the perfect octaves and 5th, while odd harmonics have 3rds- which turns into dominant seventh chords
+* If you add in a lower harmonic (say you have a sub-octave pedal on your guitar) your brain will (usually) perceive the note as being the lowest frequency in that harmonic series available
+* Distortion is literally just adding harmonics to the sound, clipping a sine wave (a form of distortion) is a really easy way to see this
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/Wx_kugSemfY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Additive and Subtractive Synthesis
 
