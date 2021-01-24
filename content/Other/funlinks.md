@@ -14,6 +14,8 @@
   >
   > "The [/r/SpaceBuckets subreddit](https://www.reddit.com/r/SpaceBuckets) is our main forum"
   
+  * Similar, but like 100x more high tech, [Encapsulated Enviromental System](https://azumamakoto.com/3705/)
+  
 * [Stones on are.na (idk, I just like them okay...)](https://www.are.na/martin-murphy/stones)
 
 * [Hey, and while we're at it how about growing Moss too](http://ifyoulived.org/moss.html)
