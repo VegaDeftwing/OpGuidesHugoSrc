@@ -464,9 +464,46 @@ bring up music things, part failure rates, tollerences, etc.
 
 ### Basics
 
+For the following I'll be using a dice roll example, where the events are the total of two die. The *Sample Space* of this is 
+
+$ S = \{2,3,4,5,6,7,8,9,10,11,12\}$
+
+Note, that 1 isn't possible as the lowest is both die being '1'. 
+
+Let's look at the probability of these outcomes,
+
+| die2↓, die1→ | 1    | 2    | 3    | 4    | 5    | 6    |
+| ------------ | ---- | ---- | ---- | ---- | ---- | ---- |
+| **1**        | 2    | 3    | 4    | 5    | 6    | 7    |
+| **2**        | 3    | 4    | 5    | 6    | 7    | 8    |
+| **3**        | 4    | 5    | 6    | 7    | 8    | 9    |
+| **4**        | 5    | 6    | 7    | 8    | 9    | 10   |
+| **5**        | 6    | 7    | 8    | 9    | 10   | 11   |
+| **6**        | 7    | 8    | 9    | 10   | 11   | 12   |
+
+While there are 11 (2-12) unique outcomes, there are 36 possible outcomes from the two die, which are shown in the table above.
+
+If you follow the diagonal you can see that there is only one way to get 2 or 12, two ways to get 3 or 11, and so on, this gives this table:
+
+| Total of two die | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | 10   | 11   | 12   |
+| ---------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| Probability      | 1/36 | 2/36 | 3/36 | 4/36 | 5/36 | 6/36 | 5/36 | 4/36 | 3/36 | 2/36 | 1/36 |
+
+Now, let's say we want the probability that we roll an even number (2,4,6,8,10,12) we can just sum their respective probabilities, so $\frac{1}{36}+\frac{3}{36}+\frac{5}{36}+\frac{5}{36}+\frac{3}{36}+\frac{1}{36} = \frac{18}{36} = \frac{1}{2}$
+
+Lets go ahead and call this event A, so P[A] = 1/2
+
+Similarly, we can define a new rule, Event B, such that the roll total is greater than 9, that comes out to be 1/6, so P[B]=1/6
+
 Statistical Independence
 
+Event A and event B are statistically independent if and only if (*iff*) 
+
+$P[AB] = P[A]P[B]$
+
 Conditional probability
+
+$ P[A|B]P[B]=P[AB]=P[B|A]P[A]$
 
 Sub experiments & Tree diagrams
 

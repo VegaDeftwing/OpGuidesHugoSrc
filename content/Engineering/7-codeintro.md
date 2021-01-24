@@ -178,6 +178,8 @@ Using the `elif` statement, you can check for another condition if the one in th
 Some lines of codes have to be repeated very often. Instead of typing the same line over and over again, you can use loops.
 There are two types of loops: The `for` and the `while` loop. While they both basically do the same thing, sometimes it is more intuitive to use one over the other.
 
+TODO: [Again on 0-based vs. 1-based indexing](https://hisham.hm/2021/01/18/again-on-0-based-vs-1-based-indexing/)
+
 
 #### The `for` loop
 

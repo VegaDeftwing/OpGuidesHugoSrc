@@ -44,6 +44,8 @@ The Following is from '[Modern Universities Are An Exercise in Insanity](https:/
 
 [How I Got a Computer Science Degree in 3 Months for Less Than $5000](https://miguelrochefort.com/blog/cs-degree/)
 
+[We Are Sending More Foster Kids To Prison Than College (Kansas City Star)](https://www.kansascity.com/news/special-reports/article238206754.html)
+
 ## Bullying
 
 
