@@ -17,6 +17,8 @@ slug: "Basics"
 
 https://twitter.com/miyuliart/status/1337423295814176768 (NSFWish I guess?)
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A pet peeve of mine is this idea that taking a selfie or any other image without a filter or any post-production is somehow a more &quot;authentic&quot; presentation of the subject<br><br>A camera in its default state isn&#39;t some totally objective, neutral observer<br><br>It has its own biases <a href="https://t.co/ERozlmmBt2">pic.twitter.com/ERozlmmBt2</a></p>&mdash; Vapor Weyve (@Nymphomachy) <a href="https://twitter.com/Nymphomachy/status/1349408603715686400?ref_src=twsrc%5Etfw">January 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Some good advice,
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/5Tx6U5OhMDg?list=PL6haVw-BFETw13kBFhbWl6UCshzgIC7Ea" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

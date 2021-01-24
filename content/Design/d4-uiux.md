@@ -16,6 +16,10 @@ slug: "UI"
 
 > [Source](https://twitter.com/kogotsuchidark/status/1313211696677302273/photo/1)
 
+### Power Users
+
+[User power, not power users: htop and its design philosophy](https://hisham.hm/2020/12/18/user-power-not-power-users-htop-and-its-design-philosophy/)
+
 ### Typography
 
 [Practical Typography Textbook](https://practicaltypography.com/)
