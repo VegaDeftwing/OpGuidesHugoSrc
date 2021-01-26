@@ -48,7 +48,7 @@ headless: true
   - [28 - Graphical Programming]({{< relref "/Engineering/28-guiprog" >}})
   - [29 - (((())(()((()(()))))))]({{< relref "/Engineering/29-funcprog" >}})
   - [30 - Programmable Logic]({{< relref "/Engineering/30-fpga1" >}})
-  - [31 - Let's Make our own SOC]({{< relref "/Engineering/31-fpga2" >}})
+  - [31 - Let's Make our own CPU]({{< relref "/Engineering/31-comparch" >}})
   - [32 - 3D Printing & CNC]({{< relref "/Engineering/32-3dprint" >}})
   - [33 - Fine, here's AI/ML]({{< relref "/Engineering/33-aiml" >}})
   - [34 - Ham Radio]({{< relref "/Engineering/34-hamradio" >}})

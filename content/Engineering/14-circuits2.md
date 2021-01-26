@@ -16,6 +16,8 @@ That said, I don't want to get to in the mud of transistor physics. I really wan
 
 [TODO] pic of silicon bulb
 
+P/N junctions, etc.
+
 ## Diodes, the one way road
 
 [TODO]
