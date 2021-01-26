@@ -122,5 +122,5 @@ There's a ton of simulators out there for making simple circuits educationally, 
 
 ## More Digital Logic resources
 
-We'll come back to look at more complex digital logic in chapter 28 "Let's try out programmable logic" and **29 "Let's make our own SOC"** , but if you're hungry for even more, here are some resources
+We'll come back to look at more complex digital logic in chapter 28 "Let's try out programmable logic" and **29 "Let's make our own CPU"** , but if you're hungry for even more, here are some resources
 
