@@ -108,6 +108,8 @@ But, because I think it's easier to cover it with things more broken up, I'll go
 
 ## 1 - The physical Layer
 
+**The [series of tubes](https://www.youtube.com/watch?v=R8XSo0etBC4), wireless media, etc. that you shove your information into**
+
 ### Coax, Twister Pair, Fiber & More
 
 ### Wireless (Terrestrial and Satellite)
@@ -119,6 +121,8 @@ geostationary vs LEO
 ### Carrier Pidgeon, Can, etc.
 
 ## 2 - Data Link
+
+**Organize the information in the meduium into a packet, control who get's that packet**
 
 MAC and LLC
 
@@ -135,6 +139,8 @@ MAC and LLC
 ### VLAN
 
 ## 3 - Network Layer/IP Layer
+
+**Find paths though the mesh of links and forward the packets though it**
 
 ### Service Models
 
@@ -171,6 +177,8 @@ https://www.aelius.com/njh/subnet_sheet.html
 open, update, keepalive, notification
 
 ## 4 - Transport Layer
+
+**Better reliability of the network by keeping packets in order, retransmitting lost packets, etc.**
 
 Multiplexing, Demultiplexing
 
