@@ -104,3 +104,16 @@ Heads up, not all 3d systems use the same coordinate systems. It's a bit of a pa
 [Notia](https://noitagame.com) - Rougelite where every pixel is simulated
 
 [Cogmind](https://www.gridsagegames.com/cogmind/) - Ascii art game with a similarly extreme amount of enviroment destructivity
+
+## Photography
+
+https://filmulator.org/about/ 
+
+> Filmulator accepts raw files from cameras and simulates the development of film as if exposed to the same light as the camera's sensor. This brings about several benefits:
+>
+> - Large bright regions become darker, compressing the output dynamic range.
+> - Small bright regions make their surroundings darker, enhancing local contrast.
+> - In bright regions, saturation is enhanced, helping retain color in bright skies, brighter skin tones, and sunsets.
+> - In extremely saturated regions, the brightness is attenuated, helping retain detail e.g. in flowers.
+
+[Extremely high resolution scan of art](https://www.micro-pano.com/pearl/index.html)

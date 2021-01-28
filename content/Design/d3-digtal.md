@@ -122,6 +122,10 @@ https://lospec.com/palette-list
 
 [Oklab](https://bottosson.github.io/posts/oklab/), [An interactive review of Oklab (Raph Levien's Blog)](https://raphlinus.github.io/color/2021/01/18/oklab-critique.html) - "A perceptual color space is desirable when doing many kinds of image processing"
 
+
+
+[The hyperbezier pen tool (cmyr.net)](https://www.cmyr.net/blog/hyperbezier.html)
+
 ## Compression
 
 {{< columns >}}

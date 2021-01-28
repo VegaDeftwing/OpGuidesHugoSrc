@@ -6,6 +6,10 @@ slug: "Music Hardware"
 
 # Music Hardware
 
+Digital: 1010111010010010110100101110101
+
+Analog: ∿∿\~∿\~∿∿∿~
+
 ## MIDI
 
 [TODO] [Building a MIDI Controller Using Arduino (YouTube, Switch & Lever)](https://www.youtube.com/watch?v=JZ5yPdoPooU)
@@ -40,7 +44,7 @@ Haken Audio Continuum
 
 ## Audio Interfaces
 
-[TODO, ADAT, preamps, headphone amps, phantom48]
+[TODO, ADAT, preamps, headphone amps, phantom48, Hi-Z, Lo-Z]
 
 > Weird side note:
 >

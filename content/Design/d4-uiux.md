@@ -24,6 +24,10 @@ slug: "UI"
 
 [Practical Typography Textbook](https://practicaltypography.com/)
 
+[Datalegeya Font](http://www.datalegreya.com/?lang=en)
+
+
+
 ### Website Design
 
 [Butalist Web Design, by David Copeland](https://brutalist-web.design/)

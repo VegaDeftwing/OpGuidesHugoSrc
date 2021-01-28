@@ -41,6 +41,8 @@ A ⋃ B = {1, 2, 3, 4, 5, 6}
 
 ## Complexity analysis
 
+[Big O Notation - explained as easily as possible (that computer scientist)](/home/vega/Downloads/newDrums)
+
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/LOZTuMds3LM?list=WL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > More cool videos like this can be found at https://www.youtube.com/c/Musicombo/videos
