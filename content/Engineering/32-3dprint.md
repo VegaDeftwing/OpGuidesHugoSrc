@@ -48,3 +48,4 @@ https://www.prusaprinters.org/prints/7876-rotating-rings-toy
 
 [Fuckofftopus 2.0 (Thingiverse)](https://www.thingiverse.com/thing:2905334)
 
+[Motorized Scaly Gauntlet (Hackaday)](https://hackaday.com/2020/12/22/watch-this-scaly-gauntlets-hypnotizing-rippling-waves/)

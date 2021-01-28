@@ -296,7 +296,13 @@ Going back to when cache was mentioned though, RAM's primary job is to hold bulk
 
 [TODO] Huge Pages ref [this](https://www.chaoticafractals.com/manual/getting-started/enabling-large-page-support-windows)
 
-### Memory issues and Memtest86:
+### Memory issues and Memtest86
+
+### The Future of RAM
+
+[In-Memory Processing by UPMEM](https://www.anandtech.com/show/14750/hot-chips-31-analysis-inmemory-processing-by-upmem)
+
+[Intel Optane Persistant Memory](https://www.storagereview.com/news/intel-optane-dc-persistent-memory-module-pmm)
 
 ### Rowhammer
 
@@ -618,6 +624,10 @@ Moving on to graphics cards, Looking above at the stacks of graphics cards above
 [TODO]
 
 https://utcc.utoronto.ca/~cks/space/blog/web/Firefox80VideoAccelConfusion
+
+## Hardware Acceleration
+
+[Cerebras Wafer Scale Engine: Why we need big chips for Deep Learning](https://www.cerebras.net/cerebras-wafer-scale-engine-why-we-need-big-chips-for-deep-learning/)
 
 ## Storage
 

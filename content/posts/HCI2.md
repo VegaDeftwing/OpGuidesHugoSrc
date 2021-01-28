@@ -1413,6 +1413,8 @@ https://arcan-fe.com/2020/02/10/leveraging-the-display-server-to-improve-debuggi
 
 [What do I care the open web is dying? (Abhinav Sharma, Cofounder Insight. ex Mozilla & Facebook)](https://insightbrowser.com/blog/open-web-dying-why-care)
 
+[I hate computers: confessions of a sysadmin (TechCrunch)](https://techcrunch.com/2010/04/22/i-hate-computers-confessions-of-a-sysadmin/)
+
 <ol hidden id="footnotes">
 <li>alright, so, yes they're still expensive as all hell, but like if you go DIY then I think they're mostly attainable to most people. I'm sure there's a bit of privlidge talking there, but ╮(─▽─)╭</li>
 <li><a href="https://en.wikipedia.org/wiki/Dvorak_keyboard_layout#/media/File:KB_Programmer_Dvorak.svg">Programmer's Dvorak</a> is a thing and honestly I want to know if anybody actually uses it? Having the numbers like that hurts my brain.</li>
