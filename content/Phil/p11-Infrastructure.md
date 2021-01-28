@@ -18,6 +18,12 @@ Carbon Tax?
 
 [A Plateful of Plastic - Visualising the amount of microplastic we eat (Reuters)](https://graphics.reuters.com/ENVIRONMENT-PLASTIC/0100B4TF2MQ/index.html)
 
+[The poison found in everyone, even unborn babies – and who is responsible for it (The Guardian)](https://www.theguardian.com/commentisfree/2020/dec/17/dark-waters-pfas-ticking-chemical-time-bomb-in-your-blood)
+
 ## Networking (Mesh)
 
-## Land Value Tax?
+## Housing and Land
+
+[The People the Suburbs Were Built for Are Gone (Vice)](https://www.vice.com/en/article/y3gx5b/the-people-the-suburbs-were-built-for-are-gone)
+
+### Land Value Tax?
