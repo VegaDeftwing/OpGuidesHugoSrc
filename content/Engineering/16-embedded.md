@@ -1,10 +1,11 @@
 # Chapter 16 - Embedded Systems
 
+
 [TODO]
 
 ## What is an Embedded System?
 
-![pos](/pos.png ':size=50%')
+![pos](/pos.png)
 
 {{< attribution >}}
 

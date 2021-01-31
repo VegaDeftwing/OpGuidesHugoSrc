@@ -111,7 +111,7 @@ https://github.com/alandefreitas/matplotplusplus
 
 [Nannou](https://github.com/nannou-org/nannou) - Creative Coding Framework for Rust
 
-
+[pyo3](https://github.com/PyO3/pyo3) - Rust bindings for python, write python modules in rust
 
 ### Go
 
