@@ -16,7 +16,9 @@ focus on how to write secure programs, protect hardware, etc.
 
 ESDA is bad
 
+## Passwords
 
+https://pages.nist.gov/800-63-FAQ/#q-b05
 
 ## Cryptography
 
