@@ -4,6 +4,8 @@ slug: "Copyright"
 
 ---
 
+[TODO] https://locusmag.com/2020/09/cory-doctorow-ip/
+
 # Letting Society Advance Though Art and Innovation
 
 This video from Tom Scott on YouTube is a very good intro to everything I'll be talking about on this page, I'll assume you've watched it so that I don't have to repeat everything that he says here.

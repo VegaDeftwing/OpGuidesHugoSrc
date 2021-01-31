@@ -35,6 +35,14 @@ Let C be the **target function** to be learned. Think of C as a function that ta
 
 Each instance x represents a vector of features (attributes). For example, let each $x=(x_1,x_2)$ be  a vector describing attributes of a guitar; $x_1 = \text{sting count}, x_2=\text{acoustic or electric}$, each label is binary (positive/negitive, yes/no, 1/0, etc.) and contributes to weather or not it's a 6 string acoustic guitar.
 
+A leraning algorithm uses train set χ and finds a hypothesis h∈H that approximates C
+
+error (loss) of h
+
+- Empirical error is a fraction of χ that h gets wrong
+- Generilation error is probability that a new, randomly selected, instance is misclassified by h. This depends on the probability distribution over instances. Generalizion error is much more important than Empirical - it's better to have it perfrom well on new data than be great on the training data
+- False Negitives (C-h) and False Positives (h-C)
+
 ### Unsupervised Learning
 
 Same as above, but no labels. (Still features). For example, https://en.wikipedia.org/wiki/K-means_clustering or Hierachical clustering https://en.wikipedia.org/wiki/Hierarchical_clustering
@@ -87,7 +95,59 @@ cross entropy
 
 No single best approach 
 
+## Linear Unit (Regression)
 
+[TODO] tie back to https://en.wikipedia.org/wiki/Linear_regression
+
+a vector with features x_1 to x_2 and weights w_1 to w_n
+
+<img src="/linearregression.svg" style="-webkit-filter: invert(.85);">
+
+</br>
+
+{{< katex >}}\hat{y}=f(x;w,b)=x w+b=w_1x_1+....w_nx_n+b{{< /katex >}}
+
+b can be represnteded as {{< katex >}}w_0{{< /katex >}} instead, as is shown in the above
+
+<img src="/linregbin.svg" style="-webkit-filter: invert(.85);">
+
+</br>
+
+{{< katex >}}y=o(x;w,b)=\{{+1 \text{ if } f(x;w,b)>0\atop{-1 \text{ otherwise}}}{{< /katex >}}
+
+(sometimes 0 instead of -1)
+
+for binary classification, +1 is it *is* the thing, -1 (or 0) is saying it's *not* the thing.
+
+not all functions are linearly seperable, one straight line can't split the data into postives and negitives- so having *networks* of units works around this
+
+Of course, we'd like to be able to use inputs that aren't just numbers. Representing things like price or weight can be given a number, but for other things, like colors, **one hot vectors** are helpful, for example, if there are three color options, red, green, blue, red could be [1,0,0], green [0,1,0], blue [0,0,1]. This is better than just assigning each color an integer (red=1,green=2,blue=3, etc.) because we don't want to imply ordering in the data. one hot vectors are espcically nice because they let us assign positive weights to a given color and negitive weights to others. For example, in identifying a fire truck, red will obviosuly have a very positive weight, while being the other colors may be a negitive weight.
+
+training:
+
+{{< katex >}}w_j\prime\larr w_j+\eta(y^t-\hat{y}^t)x^t_j{{< /katex >}}
+
+{{< katex >}}w_j\prime{{< /katex >}} is the new value of {{< katex >}}w_j{{< /katex >}}, (the j'th w as each weight is incremented though)
+
+{{< katex >}}x_j^t{{< /katex >}} is the jth attribute of tranining instance t
+
+{{< katex >}}y^t{{< /katex >}} is the label of traning instance t
+
+{{< katex >}}\hat{y}^t{{< /katex >}} is Perception output on traning instance t
+
+{{< katex >}}\eta > 0{{< /katex >}}, the *learning rate*, is a small constant (e.g.; 0.1) 
+
+if {{< katex >}}(y-\hat{y})>0 \text{ then increase } w_j \text{ w.r.t } x_j{{< /katex >}}  else decrease
+
+Can prove rule will converge if traning data is linearly seperable and η sufficently small
+
+a bad learning rate can cause very slow convergence (too small) or even divergence (too large)
+
+## Gradient Descent
+
+[TODO] https://en.wikipedia.org/wiki/Gradient_descent
+
+[TODO] Stochastic Gradient Descent
 
 ## ANN - Artifical Neural Networks
 

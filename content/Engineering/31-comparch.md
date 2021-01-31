@@ -28,6 +28,20 @@ Here you can see there are three memory operations(2x MOV and one ADD that have 
 
 [TODO] newer systems, https://www.cerebras.net/cerebras-wafer-scale-engine-why-we-need-big-chips-for-deep-learning/, https://www.anandtech.com/show/14750/hot-chips-31-analysis-inmemory-processing-by-upmem, intel optane
 
+[TODO]
+
+Data-Level, Task-Level, and Instruction-Level Paralleism (Application Parrallelism)
+
+Intstruction Level Parrelism (Pipelining), Thread-Level and Request-Level Parellism (Architectural Parallelism)
+
+Single Insturtion Stream, Single Data Stream (SISD)
+
+Single Instruction Stream, Multiple Data Streams (SIMD)
+
+MISD is not used commercially
+
+Multiple Instruction Streams, Multiple Data STreams (MIMD) (tightly and loosely coupled)
+
 ## Part 2: Making the CPU
 
 ## Part 3: Making It Do Something
