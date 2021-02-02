@@ -62,3 +62,6 @@ Before we start, I'll warn you this isn't easy, but it's also not as bad as it s
 
 [ZRNA FPAA](https://zrna.org/shop)
 
+# Weird Things
+
+https://hackaday.com/2020/11/23/a-cpu-less-computer-with-a-single-nor-gate-alu/

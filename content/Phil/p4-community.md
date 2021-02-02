@@ -16,6 +16,14 @@ Encryption, Tradgedy of the commons
 
 ## Community
 
+![](https://pbs.twimg.com/media/ENDDgdEXsAAZkbR?format=jpg&name=small)
+
+{{< attribution >}}
+
+[Litterboxcomics](https://twitter.com/LitterboxComics/status/1211683284947746816/photo/3)
+
+{{< /attribution >}}
+
 ### Small and connected
 
 [You May be Using Mastodon Wrong (Carlos Fenollosa Blog)](https://cfenollosa.com/blog/you-may-be-using-mastodon-wrong.html)

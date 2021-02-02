@@ -45,3 +45,10 @@ TOS simplification
 
 ## Job Obsolescence 
 
+<img src="https://pbs.twimg.com/media/ErYce-dXYAQr8Rz?format=jpg&name=4096x4096" style="zoom:20%;" />
+
+{{< attribution >}}
+
+[@dinoman_j on twitter](https://twitter.com/dinoman_j/status/1348296472232648708/photo/1)
+
+{{< /attribution >}}

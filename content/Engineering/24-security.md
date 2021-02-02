@@ -1,5 +1,21 @@
 # Chapter 24 - Security
 
+Before we get started on these next two chapters I want to get something out of the way:
+
+Security is important, and should be taken seriously. **But** it's also a field of people who are tired of your shit, Karen. We don't wear suits and we won't do something just to look 'professional'.
+
+If I want to curse, if I want to put furry art on these pages, I will do as I fucking please.
+
+Real 'Security Professionals' own the word hacker, and real hackers don't give a shit about what society tells them to do. Hacking is about finding how systems can do something far outside of what the original desigener ever even considered, about finding solutions so elegant they're art, about breaking boundries. If you want to keep with professionalism or tradition you're in the wrong place.
+
+As [Soatok](https://soatok.blog/2020/10/08/vanity-vendors-and-vulnerabilities/) put it:
+
+> If people who are sharing great content–be it on Twitter or on their personal blog–do something that prevents you from sharing their content with your coworkers, the problem isn’t us.
+>
+> No, the real problem is your coworkers and bosses, and the unquestioned culture of anal-retentive diversity-choking bullshit that pervades business everywhere.
+
+**With that out of the way, let us begin:**
+
 [./missing-semester - Security](https://missing.csail.mit.edu/2020/security/)
 
 ![xkcd messaging systems](https://imgs.xkcd.com/comics/messaging_systems.png)
@@ -47,4 +63,8 @@ Ut gravida venenatis luctus. Fusce sagittis quam vehicula porttitor condimentum.
 > [Source](https://furrynetwork.com/artwork/1647029/hacker-dragon/), [Artist](https://www.furaffinity.net/user/halybs/) (used with permission from Phyxius)
 
 {{< /columns >}}
+
+## Responsible Disclosure
+
+https://adamcaudill.com/2015/11/19/responsible-disclosure-is-wrong/
 
