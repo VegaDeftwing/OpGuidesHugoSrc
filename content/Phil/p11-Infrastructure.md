@@ -30,3 +30,7 @@ Carbon Tax?
 [The People the Suburbs Were Built for Are Gone (Vice)](https://www.vice.com/en/article/y3gx5b/the-people-the-suburbs-were-built-for-are-gone)
 
 ### Land Value Tax?
+
+## Birth Lottery
+
+Where you're born determines if you have access to even basic needs

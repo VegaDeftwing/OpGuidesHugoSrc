@@ -24,6 +24,8 @@ slug: "Labor"
 
 <iframe width="100%" height="460" src="https://www.epi.org?p=172791&view=embed&embed_template=charts_v2013_08_21&embed_date=20201217&onp=91701&utm_source=epi_press&utm_medium=chart_embed&utm_campaign=charts_v2" frameborder="0"></iframe>
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/LfgSEwjAeno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Universal Basic Income
 
  <iframe width="100%" height="500" src="https://www.youtube.com/embed/kl39KHS07Xc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
