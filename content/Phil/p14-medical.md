@@ -13,3 +13,15 @@ slug: "Medical"
 ## Drugs
 
 Most drugs and prostitution should be legal at the age of 18. However, trafficking obviously not, and drugs must be sold by an individual with a licence to deal and said licence may be revoked if the product is sold with a false label or is tainted.
+
+<img src="https://swordscomic.com/media/Swords420bT.png" style="zoom:33%;" />
+
+{{< attribution >}}
+
+[Swords Comic CDXX](https://swordscomic.com/comic/CDXX/)
+
+{{< /attribution >}}
+
+## Mental Health
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Secret Panel HERE 😳 <a href="https://t.co/EFeSAtdlp0">https://t.co/EFeSAtdlp0</a> <a href="https://t.co/aKi1nOv5uW">pic.twitter.com/aKi1nOv5uW</a></p>&mdash; J. L. Westover (@MrLovenstein) <a href="https://twitter.com/MrLovenstein/status/1346811848482545664?ref_src=twsrc%5Etfw">January 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

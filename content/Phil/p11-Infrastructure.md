@@ -10,6 +10,9 @@ slug: "Infrastructure"
 
 ## Eco Friendly
 
+<div style="display: inline-block; background-color: #fff; border-radius: 10px;"><blockquote class="reddit-card"><a href="https://www.reddit.com/r/funny/comments/l5dzig/legacy_oc/">Legacy [OC]</a> from <a href="http://www.reddit.com/r/funny">r/funny</a></blockquote>
+    <script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script></div>
+
 Carbon Tax?
 
 [Geoengineering: A Horrible Idea We Might Have to Do (YouTube, Kurzgesagt)](https://www.youtube.com/watch?v=dSu5sXmsur4)
