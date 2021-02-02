@@ -31,11 +31,15 @@ voting based on if they like the person, how he/she looks, single issue voting
 
 
 
-## Issue 4: Gerrymandering and Fraud
+## Issue 4: Gerrymandering and Fraud and Astroturfing
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/A-4dIImaodQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/rHFOwlMCdto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/Fmh4RdIwswE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[TODO] Comment on Citizen's United
 
 ## Issue 5: Turnout
 

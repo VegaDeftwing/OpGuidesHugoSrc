@@ -46,7 +46,13 @@ Modular, semi-modular, software
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/A0VYsiMtrNE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/WQDjVTpe6Lk?list=WL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/WQDjVTpe6Lk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/DRuGVfy5eDk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+[A neat on-guitar effects board (Instagram, ian.costabile)](https://www.instagram.com/p/CI8AdiYhhkR/)
 
 [Why To Modular With Guitar (YouTube, Knobs)](https://youtu.be/eYbSFiuSyuk)
 

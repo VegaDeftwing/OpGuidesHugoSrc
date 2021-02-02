@@ -332,3 +332,7 @@ Basically, people might use protecting children an an excuse to ban all porn or 
 ## Schrodinger's Douchebag
 
 ![](/sdbag.png)
+
+# Other Resources
+
+[Logicalfallacies.org](https://www.logicalfallacies.org) covers many of these same fallacies, plus a few I didn't touch on, and is hugely better written. Give it a look
