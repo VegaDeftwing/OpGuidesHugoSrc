@@ -416,6 +416,36 @@ Below is a 15 video series that totals a bit under 3 hours.
 
 [Linear Algebra and Applications: An Inquiry-Based Approach](https://scholarworks.gvsu.edu/cgi/viewcontent.cgi?article=1021&context=books)
 
+## 6½ - Numerical Analysis
+
+[Bisection Method](https://en.wikipedia.org/wiki/Bisection_method)
+
+[Newton's Method](https://en.wikipedia.org/wiki/Newton's_method)
+
+[Secant Method](https://en.wikipedia.org/wiki/Secant_method)
+
+[Lagrange Polynomial](https://en.wikipedia.org/wiki/Lagrange_polynomial)
+
+[Divided Differences](https://en.wikipedia.org/wiki/Divided_differences)
+
+[Linear Interpolation](https://en.wikipedia.org/wiki/Linear_interpolation), [Bilinear Interpolation](https://en.wikipedia.org/wiki/Bilinear_interpolation), [Bicubic Interpolation](https://en.wikipedia.org/wiki/Bicubic_interpolation), [Spatial Interpolation](https://en.wikipedia.org/wiki/Multivariate_interpolation)
+
+[Cubic Spline](https://en.wikipedia.org/wiki/Cubic_Hermite_spline)
+
+[Numerical Differentiation](https://en.wikipedia.org/wiki/Numerical_differentiation)
+
+[Trapezoidal Rule](https://en.wikipedia.org/wiki/Trapezoidal_rule)
+
+[Simpson's Rule](https://en.wikipedia.org/wiki/Simpson's_rule)
+
+[Romberg Integration](https://en.wikipedia.org/wiki/Romberg's_method)
+
+[Monte Carlo Method](https://en.wikipedia.org/wiki/Monte_Carlo_method)
+
+[Condition Number](https://en.wikipedia.org/wiki/Condition_number)
+
+[Least Squares](https://en.wikipedia.org/wiki/Least_squares)
+
 ## 7 - Signals & Systems
 
 {{< hint warning >}}
