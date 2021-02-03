@@ -149,6 +149,69 @@ a bad learning rate can cause very slow convergence (too small) or even divergen
 
 [TODO] Stochastic Gradient Descent
 
+## Nonlinearly seperable Problems
+
+{{< tip >}}
+
+writing this as I take notes, it's basically meaningless at the moment
+
+{{< /tip >}}
+
+XOR
+
+| Input A | Input B | Output |
+| ------- | ------- | ------ |
+| 0       | 0       | 0      |
+| 0       | 1       | 1      |
+| 1       | 0       | 1      |
+| 1       | 1       | 0      |
+
+No single linear threshold unit can describe this
+
+in 2d a line, in 3d a plane, 4+d hyperplane
+
+Every one one side of these is a *halfspace*, but given two functions, we can get an overlap, the intersection of the two halfspaces
+
+now, we can find $z_i$ , mapping though a non-linear function, from x space to z space, now the problem is linearly seperable- there's no need for the demiensions from mapping from x-to-z space to be the same, and there can be multiple hidden layers
+
+We've mapped from a non-linearly seperable problem into a linearly seperable one
+
+[Feedforward Neural Networks on Wikipedia](https://en.wikipedia.org/wiki/Feedforward_neural_network)
+
+generally, if the input can be split up with straight lines and be defined as the unions and intersections of those halfspaces, then two hidden layers and an output layer must exist that works
+
+### Backpopagation
+
+First, feed forward the network's inputs to it's outputs, then propagates back error with by repeatdely applying the chain rule
+
+[Backpropagation (Wikipedia)](https://en.wikipedia.org/wiki/Backpropagation)
+
+propagate error back in order to compute loss gradient with respect to each weight, then update the wights
+
+
+
+don't have to update the loss on each instance, could do mini-batches (Stochastic Gradient Descent- SGD), or in the extreme case, have the entire training set be a single batch (batch gradient descent). SGD saves on memory, which helps.
+
+#### Computation Graphs
+
+(note the library- tensor flow, pytorch, etc.- will probably handle this for you)
+
+given a complicated function, we want to know it's partial derivatives with respect to its parameters
+
+For 
+
+
+
+multivariate chain rule, multiple paths that can affect the output. Math gets very gross very quickly
+
+## The Sigmoid Unit
+
+$S(x)=\frac{1}{1+e^{-x}}$ squashes everything into a range from 0 to 1 (or -1 to 1), with 0 mapping to to ½. It's similar to the threshold function, for us, this is useful as $\sigma(x)=\frac{1}{1+e^{-net}}$, where $net=\sum_{i=0}^{n} w_i x_i=f(x;w,b)$
+
+<img src="/sigmoid.svg" style="-webkit-filter: invert(.85);">
+
+</br>
+
 ## ANN - Artifical Neural Networks
 
 Silicon 'neurons' are much faster, but connect to many less nodes, compared 

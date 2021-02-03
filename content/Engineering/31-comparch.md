@@ -42,6 +42,12 @@ MISD is not used commercially
 
 Multiple Instruction Streams, Multiple Data STreams (MIMD) (tightly and loosely coupled)
 
+[In Memory Processing](https://en.wikipedia.org/wiki/In-memory_processing)
+
+[Neuromorphic Computing](https://en.wikipedia.org/wiki/Neuromorphic_engineering)
+
+
+
 ## Part 2: Making the CPU
 
 ## Part 3: Making It Do Something

@@ -86,6 +86,13 @@ A∧B, AB,
 
 ### Xor
 
+| Input A | Input B | Output |
+| ------- | ------- | ------ |
+| 0       | 0       | 0      |
+| 0       | 1       | 1      |
+| 1       | 0       | 1      |
+| 1       | 1       | 0      |
+
 ### Exor
 
 ### Transmission,

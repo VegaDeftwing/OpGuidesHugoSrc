@@ -72,7 +72,9 @@ The Following is from '[Modern Universities Are An Exercise in Insanity](https:/
 
 ## Bullying
 
+## Invasive Technology
 
+Apps, GoogleClassroom, etc
 
 
 
