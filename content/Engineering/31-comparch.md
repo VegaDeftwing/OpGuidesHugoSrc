@@ -46,7 +46,7 @@ Multiple Instruction Streams, Multiple Data STreams (MIMD) (tightly and loosely 
 
 [Neuromorphic Computing](https://en.wikipedia.org/wiki/Neuromorphic_engineering)
 
-
+Power wall, max Silicon freq, max density before tunnling 
 
 ## Part 2: Making the CPU
 
