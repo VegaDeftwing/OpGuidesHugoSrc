@@ -31,6 +31,7 @@ https://www.reddit.com/r/PlotterArt/
 | [World Machine](https://www.world-machine.com/download.php)  | NOTE: This is only **free** for **non-commercial use**       | ![](/wmachine.jpg)                                           |
 | [World Painter](https://www.worldpainter.net)                | This one is for Minecraft, but still potentially useful      | ![worldpainterex](/worldpaint.jpg) SOURCE: https://www.reddit.com/r/ArdaCraft/comments/jaaw0v/a_lake_in_the_ered_luin/ |
 | [DataCombs](https://michaelgames.itch.io/datacombs)          | "3D Map editing utility for use with tabletop games like Dungeons & Dragons and Pathfinder" | ![datacomb](/datacomb.jpg)                                   |
+| [BlenderGIS](https://github.com/domlysz/BlenderGIS)          | Import real map data into blender, cool for topograhpic maps and such | ![](https://raw.githubusercontent.com/wiki/domlysz/blenderGIS/Blender28x/gif/bgis_demo_webdata.gif) |
 
 [Dungeon Generation in Enter The Gungeon (Boris The Brave)](https://www.boristhebrave.com/2019/07/28/dungeon-generation-in-enter-the-gungeon/)
 
