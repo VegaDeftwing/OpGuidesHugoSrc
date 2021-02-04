@@ -135,19 +135,40 @@ training:
 
 {{< katex >}}\hat{y}^t{{< /katex >}} is Perception output on traning instance t
 
-{{< katex >}}\eta > 0{{< /katex >}}, the *learning rate*, is a small constant (e.g.; 0.1) 
+η > 0, the *learning rate*, is a small constant (e.g.; 0.1) 
 
 if {{< katex >}}(y-\hat{y})>0 \text{ then increase } w_j \text{ w.r.t } x_j{{< /katex >}}  else decrease
 
 Can prove rule will converge if traning data is linearly seperable and η sufficently small
 
-a bad learning rate can cause very slow convergence (too small) or even divergence (too large)
+a bad learning rate, η,  can cause very slow convergence (too small) or even divergence (too large)
+
+It's best to adjust the learning rate per schedule (iteration) rather than just use a constant. For this we want to start with a high learning rate, then decrease it.
+
+| Schedule               | Formula                                                      |
+| ---------------------- | ------------------------------------------------------------ |
+| Power Scheduling       | {{< katex >}}\eta(t)=\eta_0/(1+t/s)^c​{{< /katex >}}          |
+| Exponential Scheduling | {{< katex >}}\eta(t)=\eta_0(0.1)^{t/s}​{{< /katex >}}         |
+| Performance Scheduling | reduce η by λ when no improvment in validation               |
+| 1cycle Scheduling      | increase from {{< katex >}}\eta_0 \text{ linearly to } \eta_1​{{< /katex >}} then back down to  ​{{< katex >}}\eta_0​{{< /katex >}} |
+
+
 
 ## Gradient Descent
 
 [TODO] https://en.wikipedia.org/wiki/Gradient_descent
 
 [TODO] Stochastic Gradient Descent
+
+momentum term β to keep updates moving in the same direction as previous trials
+
+this can help move though local minima to a better local or global minimum and not get stuck on flat spots
+
+Adagrad adapts learning rate by scaling it down in steepest dimensions
+
+RMSProp exponations decays old gradients to avoid AdaGrad's problem of sotpping to early for neural networks duo to agressive downscaling
+
+Adapative Moment Estimation (Adam) combines momentum optimization and RMSProp
 
 ## Nonlinearly seperable Problems
 
@@ -212,6 +233,30 @@ $S(x)=\frac{1}{1+e^{-x}}$ squashes everything into a range from 0 to 1 (or -1 to
 
 </br>
 
+## Types of Output Units
+
+Linear - works well with GD training
+
+Logistic - good for probabilities
+
+Softmax - every output node
+
+## Types of Hidden Units
+
+Logistic - has issues with saturation
+
+Rectified Linear Unit (ReLU)
+
+​	 leaky ReLU and exp ReLU
+
+## How many layers to use?
+
+increasing number of layers increases risk of overfitting, need more training data for deeper network to avoid this
+
+performance improvement even without more parameters
+
+Gotta know when to add more layers instead of parameters, but in general adding more layers is better, that is try adding layers before widening, keeping in mind the overfitting problem. Also increasese training time
+
 ## ANN - Artifical Neural Networks
 
 Silicon 'neurons' are much faster, but connect to many less nodes, compared 
@@ -228,7 +273,27 @@ Started with the Perceptron algoritm, but that was too limited (40's)
 
 multi-layer backpropagation (80's) allowed for training multi layer networks, and they couldn't be made deep on that era's hardware, while other algoritms (Support Vector Machines, boosting) were taking off instead. In the 2000's it became possible for 5-8 layers though, making 'deep' learning possible (mostly because of gaming GPUs). Better datasets, and better algorithms helped too.
 
-### Linear Units
+any boolean function can be represented with 2 layers
+
+any bounded contious function can be represented with arbitarily small error with two layers
+
+that goes to *any* function at 3 layers
+
+*but*, this is only true for existance. It may be very, very difficult to find the weights and take a ton of nodes
+
+### Initalization
+
+We used to initalize parameters to random numbers near 0, but now Glorot is used, 
+
+with $n_{in} \text{ inputs and } n_{out} \text{ outputs}$, initialize with a uniform from $[-r,r]$ with $r=a\sqrt{\frac{6}{n_{in}+n_{out}}}$ or normal, $\mathcal{N}(0,\sigma)$, with $\sigma=a\sqrt{\frac{2}{n_{in}+n_{out}}}$
+
+| Activation | a    |
+| ---------- | ---- |
+| Logistic   | 1    |
+| tanh       | 4    |
+| ReLU       | √2   |
+
+
 
 ### Gradient Decest
 

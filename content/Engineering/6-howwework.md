@@ -28,7 +28,7 @@ Vim, with Spacevim (spacevim.org) ontop is a very powerful tool.
 
 ![welcome-page](https://user-images.githubusercontent.com/13142418/45254913-e1e17580-b3b2-11e8-8983-43d6c358a474.png)
 
-Vim can do everything you could ever dream of, and probably a bit more, and with spacevim ontop, it's a powerhouse. Unfortunately, vim is regularly the butt end of a joke becaue of how nutoriously difficult it is to get the hang of. For that reason I'm going to link a mini tutorial here: https://www.openvim.com/, and link https://spacevim.org/documentation
+Vim can do everything you could ever dream of, and probably a bit more, and with spacevim ontop, it's a powerhouse. Unfortunately, vim is regularly the butt end of a joke becaue of how nutoriously difficult it is to get the hang of. For that reason I'm going to link a mini tutorial here: https://www.openvim.com/, and link [the SpaceVim documentation](https://spacevim.org/documentation). [This VIM cheat sheet may help too](https://i.imgur.com/YLInLlY.png)
 
 Graphically I recommend Visual Studio Code with Platform IO<a class="ptr">(1)</a>, Bracket Pair Colorizer 2, and GitLens. If you're looking for more extensions than that, there's also a version of Asciiflow for VSCode, pleanty of extensions for live rendering (live-p5, glsl-canvas, Processing Language)
 
