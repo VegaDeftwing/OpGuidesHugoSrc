@@ -267,6 +267,20 @@ source: [b0rk on Twitter](https://twitter.com/b0rk), check out https://wizardzin
 
 [Minimal Safe Bash Script Template (Maciej Radzikowski)](https://betterdev.blog/minimal-safe-bash-script-template/)
 
+```bash
+for file in *
+do
+	whatever command on $file
+done
+```
+
+```bash
+for file in *.png
+do
+	waifu2x-ncnn-vulkan -n 1 -s 2 -i $file -o $file
+done
+```
+
 ## Alternative Shells
 
 When we installed arch we actually changed the default shell from bash to zsh, but there are other options such as fish, csh, and xonsh among others

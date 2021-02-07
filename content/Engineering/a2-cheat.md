@@ -69,7 +69,7 @@ $ may let you type inline math in \LaTeX $, and $$$ for blocks, same as the code
 1^2 or 1~2 may let you write super and sub-script text as well.
 ```
 
-## Nice Libraries
+## Nice Libraries & Resources
 
 ### Multi-Language
 
@@ -125,7 +125,11 @@ https://github.com/alandefreitas/matplotplusplus
 
 [Full Stack Python Course, has some info on more comon libraries](https://www.fullstackpython.com/table-of-contents.html)
 
+[Python-Cheatsheet](https://github.com/gto76/python-cheatsheet) by gto76 on github
 
+> Only including the less common ones here. If you're new to python you should look into Numpy, Matplotlib, Pygame, Pandas, and Requests. Those more or less make up the
+
+[Pretty Errors](https://github.com/onelivesleft/PrettyErrors) - "Prettify Python exception output to make it legible."
 
 [Pampy](https://github.com/santinic/pampy) - Pattern Matching for Python
 
@@ -140,3 +144,24 @@ https://github.com/mitsuba-renderer/nanogui
 [Guietta](https://github.com/alfiopuglisi/guietta) - "A tool for making simple Python GUIs"
 
 [Kivy](https://kivy.org/#home) - GUI framework
+
+[Typer](https://github.com/tiangolo/typer) - "Typer, build great CLIs. Easy to code. Based on Python type hints."
+
+[Python-Fire](https://github.com/google/python-fire) - "a library for automatically generating CLIs from absolutely any Python object."
+
+[Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - Web scraping
+
+[bokeh](https://docs.bokeh.org/en/latest/docs/user_guide/quickstart.html#userguide-quickstart) - "Bokeh is an interactive visualization library for modern web browsers" (yes, it uses python)
+
+[MoviePy](https://pypi.org/project/moviepy/) - "a Python library for video editing: cutting, concatenations, title insertions, video compositing (a.k.a. non-linear editing), video processing, and creation of custom effects"
+
+> Also see pyO3 in rust above, which allows for writing python modules. Of course python modules can be written [in C or C++](https://docs.python.org/3/extending/extending.html), but doing so in Rust is safer, because, Rust.
+
+#### Python Machine Learning
+
+> Obviously Tensorflow, PyTorch, Keras, etc. exist. This list is for the stuff you don't already know about
+>
+> That said, it's worth noting that `tensorflow-rocm` exists, which *might* work for you if you have an AMD graphics card and don't want to shell out for a different GPU just for CUDA support.
+
+[SpaCy](https://github.com/explosion/spaCy) - "Industrial-strength Natural Language Processing (NLP) in Python"
+
