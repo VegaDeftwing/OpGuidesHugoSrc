@@ -57,3 +57,6 @@ https://codepen.io/lbebber/pen/EVxvWN
 https://codepen.io/wagerfield/pen/wftcE
 
 https://medium.com/chingu/decrypting-effect-c5fc2a071354 & https://github.com/bartobri/no-more-secrets#the-nms-library
+
+> Columns2 shortcode is a very shittily done shortcode that is just a slight mod on cols, it centers the text and adds a line under each box. This works well for making pseudo-tables that don't fuckup content width or have issues with rendering on mobile
+
