@@ -91,6 +91,33 @@
     }
   }
 
+  .book-columns2 {
+    margin-left: -$padding-16;
+    margin-right: -$padding-16;
+
+    > div {
+      min-width: $body-min-width / 2;
+      padding: 0 $padding-16;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: $mobile-breakpoint) {
+    .book-columns2 {
+      margin-left: -$padding-16;
+      margin-right: -$padding-16;
+  
+      > div {
+        margin: $padding-16 0;
+        // Setting this to not be /2 makes this work on mobile.
+        min-width: $body-min-width; 
+        padding: 0 $padding-16;
+      }
+    }
+  }
+
   // {{< button >}}
   a.book-btn {
     display: inline-block;
