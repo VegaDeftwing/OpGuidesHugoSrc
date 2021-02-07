@@ -6,42 +6,243 @@ slug: "Generative Art"
 
 # Generative Art
 
-https://www.reddit.com/r/proceduralgeneration/
+[r/proceduralgeneration](https://www.reddit.com/r/proceduralgeneration/)
 
-https://www.reddit.com/r/generative
+[r/generative](https://www.reddit.com/r/generative)
 
-https://www.reddit.com/r/PlotterArt/
+[r/PlotterArt](https://www.reddit.com/r/PlotterArt/)
 
-## Generative World Building
+### World Building Tools
 
-### World generation
+---
 
-| Name & Link                                                  | Purpose / Description                                        | Screenshot                                                   |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [roberthodgin - meander](http://roberthodgin.com/project/meander) | Generative maps of how rivers meander, not the tool, but at least it's the process | ![Meander](/meander.jpg)                                     |
-| [Map Generator](https://matthewtarbutton.itch.io/map-generator) | A tool for building custom maps, envisioned for use in tabletop roleplaying games. | ![mapgen](/mapgen.png)                                       |
-| [One Page Dungeon](https://watabou.itch.io/one-page-dungeon) |                                                              | ![](/gdungeon.png)                                           |
-| [Dungeon Map Doodler](https://dungeonmapdoodler.com/draw/)   | "Dungeon Map Doodler is a new, free to use drawing tool accessible from any web browser. Easily create maps for your favourite tabletop RPGs in minutes!" | ![](/dungeondoodle.png)                                      |
-| [Dungeon Scrawl](https://probabletrain.itch.io/dungeon-scrawl) | https://dungeonscrawl.com/docs/#/                            | ![](/dscrawl.png)                                            |
-| [Fantasy City Generator](https://watabou.itch.io/medieval-fantasy-city-generator) | This application generates a random medieval city layout of a requested size. The generation method is rather arbitrary, the goal is to produce a nice looking map, not an accurate model of a city. | ![](/fcitygen.jpg)                                           |
-| [Fantasy Map Generator](https://azgaar.github.io/Fantasy-Map-Generator/) | make a map with tons of customization options including some about the culture and regions | ![fmapgen](/fmapgen.jpg)                                     |
-| [Space Creator](https://github.com/erdavids/Space-Creator)   | Make a lil' solar system                                     | ![space creator](/spacec.png)                                |
-| [Genbrush](https://mavichist.itch.io/genbrush) ~15 USD       |                                                              | <iframe width="347" height="195" src="https://www.youtube.com/embed/oF7b-uTiz74" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> |
-| [Random Country Generator](https://randomcountrygenerator.com) |                                                              | ![](/rcountryg.png)                                          |
-| [World Machine](https://www.world-machine.com/download.php)  | NOTE: This is only **free** for **non-commercial use**       | ![](/wmachine.jpg)                                           |
-| [World Painter](https://www.worldpainter.net)                | This one is for Minecraft, but still potentially useful      | ![worldpainterex](/worldpaint.jpg) SOURCE: https://www.reddit.com/r/ArdaCraft/comments/jaaw0v/a_lake_in_the_ered_luin/ |
-| [DataCombs](https://michaelgames.itch.io/datacombs)          | "3D Map editing utility for use with tabletop games like Dungeons & Dragons and Pathfinder" | ![datacomb](/datacomb.jpg)                                   |
-| [BlenderGIS](https://github.com/domlysz/BlenderGIS)          | Import real map data into blender, cool for topograhpic maps and such | ![](https://raw.githubusercontent.com/wiki/domlysz/blenderGIS/Blender28x/gif/bgis_demo_webdata.gif) |
+{{< columns2 >}}
 
-[Dungeon Generation in Enter The Gungeon (Boris The Brave)](https://www.boristhebrave.com/2019/07/28/dungeon-generation-in-enter-the-gungeon/)
+[roberthodgin - meander](http://roberthodgin.com/project/meander)
+
+<--->
+
+Generative maps of how rivers meander, not the tool, but at least it's the process
+
+<--->
+
+![Meander](/meander.jpg)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Map Generator](https://matthewtarbutton.itch.io/map-generator)
+
+<--->
+
+A tool for building custom maps, envisioned for use in tabletop roleplaying games.
+
+<--->
+
+![mapgen](/mapgen.png)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[One Page Dungeon](https://watabou.itch.io/one-page-dungeon)
+
+<--->
+
+
+
+<--->
+
+![](/gdungeon.png)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Dungeon Map Doodler](https://dungeonmapdoodler.com/draw/)
+
+<--->
+
+"Dungeon Map Doodler is a new, free to use drawing tool accessible from any web browser. Easily create maps for your favourite tabletop RPGs in minutes!"
+
+<--->
+
+![](/dungeondoodle.png)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Dungeon Scrawl](https://probabletrain.itch.io/dungeon-scrawl)
+
+<--->
+
+  [Dungeon Scraws Documentation](https://dungeonscrawl.com/docs/#/)
+
+<--->
+
+![](/dscrawl.png)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Fantasy City Generator](https://watabou.itch.io/medieval-fantasy-city-generator)
+
+<--->
+
+This application generates a random medieval city layout of a requested size. The generation method is rather arbitrary, the goal is to produce a nice looking map, not an accurate model of a city.
+
+<--->
+
+![](/fcitygen.jpg)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Fantasy Map Generator](https://azgaar.github.io/Fantasy-Map-Generator/)
+
+<--->
+
+make a map with tons of customization options including some about the culture and regions
+
+<--->
+
+![fmapgen](/fmapgen.jpg)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Space Creator](https://github.com/erdavids/Space-Creator)
+
+<--->
+
+Make a lil' solar system
+
+<--->
+
+![space creator](/spacec.png)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Genbrush](https://mavichist.itch.io/genbrush) ~15 USD
+
+<--->
+
+
+
+<--->
+
+<iframe width="100%" height="195" src="https://www.youtube.com/embed/oF7b-uTiz74" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Random Country Generator](https://randomcountrygenerator.com)  
+
+<--->
+
+
+
+<--->
+
+![](/rcountryg.png)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[World Machine](https://www.world-machine.com/download.php)
+
+<--->
+
+NOTE: This is only **free** for **non-commercial use**
+
+<--->
+
+![](/wmachine.jpg)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[World Painter](https://www.worldpainter.net)
+
+<--->
+
+This one is for Minecraft, but still potentially useful
+
+<--->
+
+![worldpainterex](/worldpaint.jpg) [Image Source](https://www.reddit.com/r/ArdaCraft/comments/jaaw0v/a_lake_in_the_ered_luin/)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[DataCombs](https://michaelgames.itch.io/datacombs)
+
+<--->
+
+"3D Map editing utility for use with tabletop games like Dungeons & Dragons and Pathfinder"
+
+<--->
+
+![datacomb](/datacomb.jpg)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[BlenderGIS](https://github.com/domlysz/BlenderGIS)
+
+<--->
+
+Import real map data into blender, cool for topograhpic maps and such
+
+<--->
+
+![](https://raw.githubusercontent.com/wiki/domlysz/blenderGIS/Blender28x/gif/bgis_demo_webdata.gif)
+
+{{< /columns2 >}}
 
 ### Languages
 
-| Name & Link                                                  | Screenshot                 |
-| ------------------------------------------------------------ | -------------------------- |
-| [Procedural Runes](https://jakofranko.github.io/procedural-runes/) | ![](/prunes.png)   |
-| [Glyph](https://github.com/nik282000/glyph)                  | ![](/glpyh.png)    |
-| [Glyph Generator](https://madequa.itch.io/glyph-generator)   | ![](/glyphgen.png) |
+{{< columns2 >}}
+
+[Procedural Runes](https://jakofranko.github.io/procedural-runes/)
+
+<--->
+
+![](/prunes.png)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Glyph](https://github.com/nik282000/glyph)
+
+<--->
+
+![](/glpyh.png)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Glyph Generator](https://madequa.itch.io/glyph-generator)
+
+<--->
+
+![](/glyphgen.png)
+
+{{< /columns2 >}}
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/97RsfY2ODw0?list=PLuYLhuXt4HrQqnfSceITmv6T_drx1hN84" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -49,23 +250,72 @@ https://www.reddit.com/r/PlotterArt/
 
 Some more cool examples, but lacking code:
 
-https://www.reddit.com/r/generative/comments/d5284l/pentagonal_glyphs/
-https://www.reddit.com/r/generative/comments/d5zeca/generative_glyphs/
+[Pentagonal Glyphs (Reddit)](https://www.reddit.com/r/generative/comments/d5284l/pentagonal_glyphs/)
+[Generative Glyphs (Reddit)](https://www.reddit.com/r/generative/comments/d5zeca/generative_glyphs/)
 
 
 
 ## Generative Textures and Geometry
 
-| Name & Link                                                  | Purpose / Description                                        | Screenshot / Demo                                            |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Forsynthia](https://github.com/johnalexandergreene/Forsythia) | Check out [these(1)](https://github.com/johnalexandergreene/Geom_Kisrhombille) [pages (2)](https://github.com/johnalexandergreene/Forsythia/tree/master/app/grammarEditor) for more information | ![forsynthia](/forsynthia.png)                       |
-| [Noisemaker](https://noisemaker.readthedocs.io/en/latest/#usage) | Noise maker can make a ton of generative art pieces, as you can see at the right, this is a small sampling using a few of the included presets. Can be a pain to get to run as it needs Tensorflow | ![](/nm1.jpg ':size=25%')![](/nm2.jpg ':size=25%') ![](/nm3.jpg ':size=25%') |
-| [Noisey-Shapes (Github)](https://github.com/cnfrancis/noisey-shapes) | "Making the computer draw weird shapes using basic trigonometry and different species of randomness(noise)" | ![Noisey-Shapes](https://github.com/cnfrancis/noisey-shapes/raw/main/images_/ea89c1c7_3_turns.png?raw=true) |
-| [Superformula SVG](https://jasonwebb.github.io/SuperformulaSVG-for-web/) | [Github repo](https://github.com/jasonwebb/SuperformulaSVG-for-web) | ![](/superformula.svg)                               |
+{{< columns2 >}}
 
+[Forsynthia](https://github.com/johnalexandergreene/Forsythia)
 
+<--->
 
+Check out [these(1)](https://github.com/johnalexandergreene/Geom_Kisrhombille) [pages (2)](https://github.com/johnalexandergreene/Forsythia/tree/master/app/grammarEditor) for more information
 
+<--->
+
+![forsynthia](/forsynthia.png)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Noisemaker](https://noisemaker.readthedocs.io/en/latest/#usage)
+
+<--->
+
+Noise maker can make a ton of generative art pieces, as you can see at the right, this is a small sampling using a few of the included presets. Can be a pain to get to run as it needs Tensorflow
+
+<--->
+
+![](/nm1.jpg ':size=25%')
+
+![](/nm2.jpg ':size=25%') 
+
+![](/nm3.jpg ':size=25%')
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Noisey-Shapes (Github)](https://github.com/cnfrancis/noisey-shapes)
+
+<--->
+
+"Making the computer draw weird shapes using basic trigonometry and different species of randomness(noise)"
+
+<--->
+
+![Noisey-Shapes](https://github.com/cnfrancis/noisey-shapes/raw/main/images_/ea89c1c7_3_turns.png?raw=true)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Superformula SVG](https://jasonwebb.github.io/SuperformulaSVG-for-web/)
+
+<--->
+
+[Github repo](https://github.com/jasonwebb/SuperformulaSVG-for-web)
+
+<--->
+
+<img src="/superformula.svg" alt="superformula" style="-webkit-filter: invert(.85);">
+
+{{< /columns2 >}}
 
 ## Pixel Sorting
 
@@ -87,22 +337,89 @@ https://www.reddit.com/r/generative/comments/d5zeca/generative_glyphs/
 
 ## Fractal Art
 
-| Name & Link                                                  | Purpose                               | Screenshot                     |
-| ------------------------------------------------------------ | ------------------------------------- | ------------------------------ |
-| [Apophysis](https://sourceforge.net/projects/apophysis/)     | Fractal Flames                        | [TODO]                         |
-| [Mandelbulber](https://www.mandelbulber.com)                 |                                       | ![](/mandelbulber.jpg) |
-| [Mandelbulb3D](https://mb3d.overwhale.com)                   |                                       | [TODO]                         |
-| [ifs Fractal Generator](https://sirxemic.github.io/ifs-animator/) |                                       | ![](/ifsfractal.png)   |
-| [Fractorium](http://fractorium.com)                          | A GPU-Accelerated Fractal Flame Edito | ![](/fractorium.jpg)   |
-| [Chaotica](https://www.chaoticafractals.com) *               |                                       | ![](/chaotica.png)     |
+{{< columns2 >}}
 
-> Chaotica is **free for noncommercial use**, and can render up to 1.23 megapixel images (e.g. 1280x960 resolution) and up to 30 second 480p animations without a licence. A **Chaotica HD (45 USD)** licence for casual users who want to create high quality desktop wallpapers up to 4 megapixels (e.g. 2560x1600) and 720p animations up to 3 minutes long is available at a very low price point. The professional **Chaotica Studio (109 USD)** licence has no still image or animation limitations at all. *prices are from time of writing
+[Apophysis](https://sourceforge.net/projects/apophysis/)
+
+<--->
+
+Fractal Flames
+
+<--->
+
+[TODO]
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Mandelbulber](https://www.mandelbulber.com)
+
+<--->
+
+<--->
+
+![](/mandelbulber.jpg)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Mandelbulb3D](https://mb3d.overwhale.com)
+
+<--->
+
+<--->
+
+[TODO]
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[ifs Fractal Generator](https://sirxemic.github.io/ifs-animator/)
+
+<--->
+
+<--->
+
+![](/ifsfractal.png)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Fractorium](http://fractorium.com)
+
+<--->
+
+A GPU-Accelerated Fractal Flame Editor
+
+<--->
+
+![](/fractorium.jpg)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Chaotica](https://www.chaoticafractals.com)
+
+<--->
+
+Chaotica is **free for noncommercial use**, and can render up to 1.23 megapixel images (e.g. 1280x960 resolution) and up to 30 second 480p animations without a licence. A **Chaotica HD (45 USD)** licence for casual users who want to create high quality desktop wallpapers up to 4 megapixels (e.g. 2560x1600) and 720p animations up to 3 minutes long is available at a very low price point. The professional **Chaotica Studio (109 USD)** licence has no still image or animation limitations at all. *prices are from time of writing
+
+<--->
+
+![](/chaotica.png)
+
+{{< /columns2 >}}
 
 ## Generative Eyes
 
-https://www.reddit.com/r/generative/comments/j4uati/iris/
-https://www.reddit.com/r/generative/comments/jabwl8/greye/
-https://www.reddit.com/r/generative/comments/epja3d/mycelium/
+[Iris (Reddit)](https://www.reddit.com/r/generative/comments/j4uati/iris/)
+[Greye (Reddit)](https://www.reddit.com/r/generative/comments/jabwl8/greye/)
+[Mycelium (Reddit)](https://www.reddit.com/r/generative/comments/epja3d/mycelium/)
 
 
 
@@ -118,31 +435,163 @@ https://www.reddit.com/r/generative/comments/epja3d/mycelium/
 
 [The Book of Shaders](https://thebookofshaders.com) - "A gentle step-by-step guide through the abstract and complex universe of Fragment Shaders."
 
+---
 
 
-| Name & Link                                                  | Purpsoe                                                      | Screenshot / Demo                                            |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Tidal Cycles](https://tidalcycles.org/index.php/Welcome)    |                                                              | <iframe width="50%" height="220" src="https://www.youtube.com/embed/Vomnc9R-7mw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> |
-| [Praxislive](https://www.praxislive.org)                     |                                                              | <iframe width="640" height="360" src="https://www.youtube.com/embed/TFAFaS4_r8A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> |
-| [Rectitude](https://lbarret.itch.io/rectitude)               |                                                              | <iframe width="640" height="360" src="https://www.youtube.com/embed/pWKpevPKxUQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> |
-| [Mosaic](https://mosaic.d3cod3.org)                          |                                                              | <iframe title="vimeo-player" src="https://player.vimeo.com/video/464702127" width="640" height="360" frameborder="0" allowfullscreen></iframe> |
-| [p5-live (Github)](https://github.com/yangsu/p5-live)        | live coding for p5.js - you'll probably want the VS Code Extension | <iframe width="640" height="360" src="https://www.youtube.com/embed/HerCR8bw_GE?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> |
-| [hydra (Github)](https://github.com/ojack/hydra)             | "Set of tools for livecoding networked visuals. Inspired by analog modular synthesizers, these tools are an exploration into using streaming over the web for routing video sources and outputs in realtime. Hydra uses multiple framebuffers to allow dynamically mixing, compositing, and collaborating between connected browser-visual-streams. Coordinate and color transforms can be applied to each output via chained functions." | ![](https://github.com/ojack/hydra/raw/master/hydra-3-01.png?raw=true) |
-| [LiveCodeLab](https://livecodelab.net)                       | "Livecodelab is a special secret place where you can make fancy "on-the-fly" 3d visuals and play awesomely offbeat (literally) sounds. "On-the-fly" meaning: as you type. Type just three letters: "box", and boom! a box appears. No clicking play, no waiting, no nothing." | ![](https://livecodelab.net/images/screenshots/ScreenShot7.png) |
-| [Thixels by Ramsey Nasser (Github, Linux Only)](https://github.com/nasser/thixels) | "[PICO8](https://www.lexaloffle.com/pico-8.php) inspired live coding visual instrument." | ![](https://github.com/nasser/thixels/raw/master/sunnyvale.png) |
-| [Gibber.cc](https://gibber.cc)                               | "Gibber is a creative coding environment for audiovisual performance and composition. It contains features for audio synthesis and musical sequencing, 2d drawing, 3d scene construction and manipulation, and live-coding shaders." | ![](/gibber.png)                                             |
-| [Ronin (Github)](https://github.com/hundredrabbits/Ronin)    | "Ronin is a procedural graphics tool designed to automate simple graphical tasks, like resizing, cropping, coloring, and generating algorithmic images. It interprets a minimal dialect of LISP, look at the examples to better understand how this all works." | <iframe width="640" height="360" src="https://www.youtube.com/embed/SgAWGh1s9zg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a> |
-| [The Force (Github)](https://github.com/shawnlawson/The_Force) | ... this one basically lacks all description. Best you'll get is the [api docs in the wiki](https://github.com/shawnlawson/The_Force/wiki/API) | <iframe title="vimeo-player" src="https://player.vimeo.com/video/184863637" width="640" height="360" frameborder="0" allowfullscreen></iframe> |
-| [Tooll.io](http://tooll.io/)                                 | node-basde tool for interactive realtime content on the web  | <iframe width="640" height="360" src="https://www.youtube.com/embed/B-GU4I5Xv_g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> |
-| [Kodelife](https://hexler.net/products/kodelife)             | Realtime GPU shader editor                                   | ![](https://hexler.net/gfx/_software/kodelife-screens-10.png) |
-| [Cables.gl (beta)](https://cables.gl)                        | "Cables is a tool for creating beautiful interactive content. With an easy to navigate interface and real time visuals, it allows for rapid prototyping and fast adjustments." --- Because this seems to be so 'beta' and I don't see code or any indication on future pricing it's probably not the best option at the moment | ![](https://cables.gl/landing/ui.mp4.gif)                    |
-| [Nimp (Github)](https://github.com/dan335/nimp)              | "Node-Based Image Manipulation Program"                      | ![](https://camo.githubusercontent.com/aed66b47b44341290fd233e55bf4abc02768ea85/68747470733a2f2f6e696d702e6170702f7374617469632f73637265656e73686f74732f73637265656e73686f7430332e4a5047) |
-| [vvvv](https://vvvv.org) - Heads up VVVV requires a licence for comercial use that is rather expensive | "vvvv is a hybrid visual/textual live-programming environment for easy prototyping and development. It is designed to facilitate the handling of large media environments with physical interfaces, real-time motion graphics, audio and video that can interact with many users simultaneously." | ![vvvv](https://vvvv.org/sites/default/files/imagecache/large/images/vvvv_Propaganda_NEU_00_1.png) |
-| [TouchDesigner](https://derivative.ca) (Free, but 600 USD for Commercial licence) | "TouchDesigner is a visual development platform that equips you with the tools you need to create stunning realtime projects and rich user experiences.  Whether you're creating interactive media systems, architectural projections, live music visuals, or rapid-prototyping your latest ideas, TouchDesigner is the platform that can do it all." | <video controls width="640">    <source src="/neurotouchdesigner.mp4"            type="video/mp4"> </video> <br><p> Video courtesy of [Neurotypique](https://www.youtube.com/channel/UC4oBI5piGMznFMZdtEC0FhA) </p> |
-| [Nodes](https://nodes.io)                                    | Not Yet Publiclly Released                                   | <video width="640" poster="assets/video-cover.jpg" src="https://player.vimeo.com/external/348671633.hd.mp4?s=d2d3dd176a1ddbb28c78bb0fb3e007ee10704c1b&amp;profile_id=174" class="w-100" autoplay="" loop="" playsinline="" muted=""></video> |
-| [Cyril (Github)](https://github.com/cyrilcode/cyril), [Main site](http://cyrilcode.com) | The Cyril programming language is designed for fast prototyping of visualisations and live coding visuals. | ![](https://miro.medium.com/max/1400/1*4SaWjEs62NUN_Ti-FU_Iwg.png) |
-| [Eternal](https://eternal.rob.computer)                      | "node based audio / visual composition"                      | ![](/eternal.jpg)                                            |
+{{< columns2 >}}
+[Tidal Cycles](https://tidalcycles.org/index.php/Welcome)
+<--->
+<--->
+<iframe width="50%" height="220" src="https://www.youtube.com/embed/Vomnc9R-7mw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< /columns2 >}}
 
+{{< columns2 >}}
+[Praxislive](https://www.praxislive.org)
+<--->
+<--->
+<iframe width="100%" height="150" src="https://www.youtube.com/embed/TFAFaS4_r8A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Rectitude](https://lbarret.itch.io/rectitude)
+<--->
+<--->
+<iframe width="100%" height="150" src="https://www.youtube.com/embed/pWKpevPKxUQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Mosaic](https://mosaic.d3cod3.org)
+<--->
+<--->
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/464702127" width="100%" height="150" frameborder="0" allowfullscreen></iframe>
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[p5-live (Github)](https://github.com/yangsu/p5-live)
+<--->
+live coding for p5.js - you'll probably want the VS Code Extension
+<--->
+<iframe width="100%" height="150" src="https://www.youtube.com/embed/HerCR8bw_GE?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[hydra (Github)](https://github.com/ojack/hydra)
+<--->
+"Set of tools for livecoding networked visuals. Inspired by analog modular synthesizers, these tools are an exploration into using streaming over the web for routing video sources and outputs in realtime. Hydra uses multiple framebuffers to allow dynamically mixing, compositing, and collaborating between connected browser-visual-streams. Coordinate and color transforms can be applied to each output via chained functions."
+<--->
+![](https://github.com/ojack/hydra/raw/master/hydra-3-01.png?raw=true)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[LiveCodeLab](https://livecodelab.net)
+<--->
+"Livecodelab is a special secret place where you can make fancy "on-the-fly" 3d visuals and play awesomely offbeat (literally) sounds. "On-the-fly" meaning: as you type. Type just three letters: "box", and boom! a box appears. No clicking play, no waiting, no nothing."
+<--->
+![](https://livecodelab.net/images/screenshots/ScreenShot7.png)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Thixels by Ramsey Nasser (Github, Linux Only)](https://github.com/nasser/thixels)
+<--->
+"[PICO8](https://www.lexaloffle.com/pico-8.php) inspired live coding visual instrument."
+<--->
+![](https://github.com/nasser/thixels/raw/master/sunnyvale.png)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Gibber.cc](https://gibber.cc)
+<--->
+"Gibber is a creative coding environment for audiovisual performance and composition. It contains features for audio synthesis and musical sequencing, 2d drawing, 3d scene construction and manipulation, and live-coding shaders."
+<--->
+![](/gibber.png)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Ronin (Github)](https://github.com/hundredrabbits/Ronin)
+<--->
+"Ronin is a procedural graphics tool designed to automate simple graphical tasks, like resizing, cropping, coloring, and generating algorithmic images. It interprets a minimal dialect of LISP, look at the examples to better understand how this all works."
+<--->
+<iframe width="100%" height="150" src="https://www.youtube.com/embed/SgAWGh1s9zg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[The Force (Github)](https://github.com/shawnlawson/The_Force)
+<--->
+... this one basically lacks all description. Best you'll get is the [api docs in the wiki](https://github.com/shawnlawson/The_Force/wiki/API)
+<--->
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/184863637" width="100%" height="150" frameborder="0" allowfullscreen></iframe>
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Tooll.io](http://tooll.io/)
+<--->
+node-basde tool for interactive realtime content on the web
+<--->
+<iframe width="100%" height="150" src="https://www.youtube.com/embed/B-GU4I5Xv_g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Kodelife](https://hexler.net/products/kodelife)
+<--->
+Realtime GPU shader editor
+<--->
+![](https://hexler.net/gfx/_software/kodelife-screens-10.png)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Cables.gl (beta)](https://cables.gl)
+<--->
+"Cables is a tool for creating beautiful interactive content. With an easy to navigate interface and real time visuals, it allows for rapid prototyping and fast adjustments." --- Because this seems to be so 'beta' and I don't see code or any indication on future pricing it's probably not the best option at the moment
+<--->
+![](https://cables.gl/landing/ui.mp4.gif)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Nimp (Github)](https://github.com/dan335/nimp)
+<--->
+"Node-Based Image Manipulation Program"
+<--->
+![](https://camo.githubusercontent.com/aed66b47b44341290fd233e55bf4abc02768ea85/68747470733a2f2f6e696d702e6170702f7374617469632f73637265656e73686f74732f73637265656e73686f7430332e4a5047)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[vvvv](https://vvvv.org) - Heads up VVVV requires a licence for comercial use that is rather expensive
+<--->
+"vvvv is a hybrid visual/textual live-programming environment for easy prototyping and development. It is designed to facilitate the handling of large media environments with physical interfaces, real-time motion graphics, audio and video that can interact with many users simultaneously."
+<--->
+![vvvv](https://vvvv.org/sites/default/files/imagecache/large/images/vvvv_Propaganda_NEU_00_1.png)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[TouchDesigner](https://derivative.ca) (Free, but 600 USD for Commercial licence)
+<--->
+"TouchDesigner is a visual development platform that equips you with the tools you need to create stunning realtime projects and rich user experiences.  Whether you're creating interactive media systems, architectural projections, live music visuals, or rapid-prototyping your latest ideas, TouchDesigner is the platform that can do it all."
+<--->
+<video controls width="100%">    <source src="/neurotouchdesigner.mp4"            type="video/mp4"> </video> <br><p> Video courtesy of [Neurotypique](https://www.youtube.com/channel/UC4oBI5piGMznFMZdtEC0FhA) </p>
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Nodes](https://nodes.io)
+<--->
+<--->
+<video width="100%" poster="assets/video-cover.jpg" src="https://player.vimeo.com/external/348671633.hd.mp4?s=d2d3dd176a1ddbb28c78bb0fb3e007ee10704c1b&amp;profile_id=174" class="w-100" autoplay="" loop="" playsinline="" muted=""></video>
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Cyril (Github)](https://github.com/cyrilcode/cyril) [(Main site)](http://cyrilcode.com)
+<--->
+The Cyril programming language is designed for fast prototyping of visualisations and live coding visuals.
+<--->
+![](https://miro.medium.com/max/1400/1*4SaWjEs62NUN_Ti-FU_Iwg.png)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Eternal](https://eternal.rob.computer)
+<--->
+"node based audio / visual composition"
+<--->
+![](/eternal.jpg)
+{{< /columns2 >}}
 ## Creative Coding (Non Live)
 
 [HackadayU Creative Code with Casey Hunt (YouTube)](https://www.youtube.com/playlist?list=PL_tws4AXg7att6rxtRNsGa36fOoRtdKJV)
