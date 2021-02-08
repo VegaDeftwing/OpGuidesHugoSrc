@@ -596,56 +596,281 @@ The Cyril programming language is designed for fast prototyping of visualisation
 
 [HackadayU Creative Code with Casey Hunt (YouTube)](https://www.youtube.com/playlist?list=PL_tws4AXg7att6rxtRNsGa36fOoRtdKJV)
 
-| Name & Link                                                  | Purpose / Description                                        | Screenshot / Demo Link                                       |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Processing Language](https://processing.org)                | "Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts." | <iframe title="vimeo-player" src="https://player.vimeo.com/video/140600280" width="640" height="360" frameborder="0" allowfullscreen></iframe> |
-| [Hype Framework](https://www.hypeframework.com)              | "This is a collection of processing.org classes that performs heavy lifting tasks while using a minimal amount of code writing" | This site is really weird? It seems to be emedding vimeo videos of static images, regardless, still worth checking out |
-| [P5.js](https://p5js.org/)                                   | "p5.js is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else!" --- Processing can run P5.js scripts, you can also live code p5.js with some VSCode extensions as mentioned above | <iframe width="640" height="360" src="https://www.youtube.com/embed/HerCR8bw_GE?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> |
-| [three.js](https://threejs.org)                              | "Three.js is a lightweight cross-browser JavaScript library/API used to create and display animated 3D computer graphics on a Web browser. Three.js scripts may be used in conjunction with the HTML5 canvas element, SVG or WebGL." | [Three.js examples from Free Frontend](https://freefrontend.com/three-js-examples/) and [on the Three.js site itself](https://threejs.org/examples/) |
-| [paper.js](http://paperjs.org/about/)                        | "Paper.js is an open source vector graphics scripting framework that runs on top of the HTML5 Canvas" | [Paper.js examples](http://paperjs.org/examples/nyan-rainbow/) |
-| [rune.js](https://runemadsen.github.io/rune.js/)             | "a JavaScript library for programming graphic design systems with SVG in both the browser or node.js" | Move your mouse over the image on the homepage               |
-| [rough.js](https://roughjs.com)                              | "a small (<9kB gzipped) graphics library that lets you draw in a *sketchy*, *hand-drawn-like*, style." | ![roughjs example](https://roughjs.com/images/cap.png)       |
-| [StructureSynth](http://structuresynth.sourceforge.net/index.php) | "Structure Synth is a cross-platform application for generating 3D structures by specifying a design grammar" | ![](http://structuresynth.sourceforge.net/images/ss1.jpg)    |
-| [OpenFrameworks](https://openframeworks.cc)                  | openFrameworks is an open source C++ toolkit for creative coding. | <iframe title="vimeo-player" src="https://player.vimeo.com/video/74124094" width="640" height="360" frameborder="0" allowfullscreen></iframe> |
-| [openrndr](https://openrndr.org)                             | "In short, OPENRNDR is a tool to create tools. It is an open source framework for creative coding, written in Kotlin for the Java VM that simplifies writing real-time interactive software" | pleanty of examples on the site                              |
-| [Cinder](https://www.libcinder.org)                          | "Cinder is a free and open source library for professional-quality creative coding in C++." | pleanty of examples on the site                              |
-| [Context Free](https://www.contextfreeart.org)               | "Context Free is a program that generates images from written instructions called a grammar. The program follows the instructions in a few seconds to create images that can contain millions of shapes." | ![](https://glyphic.s3.amazonaws.com/cfa/gallery/uploads/81/0d/810d02128464264536b6e3b71bff7332//full_3498.jpg?5)<img alt="creative commons icon" src="https://i.creativecommons.org/l/by-nc-sa/3.0//88x31.png" style="image-rendering: pixelated;"> **Agneya** by [**thijs**](https://www.contextfreeart.org/gallery/search.php?by=thijs) |
-| [Nannou](https://github.com/nannou-org/nannou)               | a creative coding frame work for Rust, you may want to look at the work by [MacTuitui (Twitter)](https://twitter.com/MacTuitui) | ![](https://camo.githubusercontent.com/47242f5abfba5e6536e88d9ba33d66a19079ca94/68747470733a2f2f692e696d6775722e636f6d2f6c6d345249344e2e676966) ![](https://camo.githubusercontent.com/0e2a41870e5f421b24b912e70a08c7fdeb37e304/68747470733a2f2f692e696d6775722e636f6d2f67616957485a582e676966) |
-| [Valora](https://paytonturnage.gitbook.io/valora/)           | Another creative coding framework for Rust                   | ![](https://gblobscdn.gitbook.com/assets%2F-Lw1VWDRh9_wPSAWr8kv%2F-M51LUdWgcmABW_iSJDI%2F-M51LaXRFO0JLuIVbJfo%2Fimage.png?alt=media&token=1e4f8e4b-da2e-4dc3-af67-61d1d0d15fe7)[curtain](https://paytonturnage.gitbook.io/valora/gallery) by turnage, 2020 |
-| [immense](https://github.com/turnage/immense)                | A Rust library for describing 3D meshes with simple composable rules. ```rule![     tf![         Tf::saturation(0.8),         Tf::hue(160.0),         Replicate::n(36, vec![Tf::rz(10.0), Tf::ty(0.1)]),         Replicate::n(36, vec![Tf::ry(10.0), Tf::tz(1.2), Tf::hue(3.4)]),     ] => cube() ]``` is all that's needed to generate the example on the right | ![](https://camo.githubusercontent.com/2b6b66d2f42672a91cf9ce527d4250c83d2f837d/68747470733a2f2f692e696d6775722e636f6d2f31456d696b345a2e706e67) |
-| [ANSIedad](https://github.com/gabochi/ANSIedad)              |                                                              | ![ANSIedad](https://raw.githubusercontent.com/gabochi/ANSIedad/master/demo.gif?raw=true) |
-| [ASCII Generator](https://github.com/uvipen/ASCII-generator) |                                                              | ![](https://github.com/uvipen/ASCII-generator/raw/master/demo/input.jpg)![](https://github.com/uvipen/ASCII-generator/raw/master/demo/output_simple_white_200.jpg) |
-| [ShaderGif](https://github.com/antoineMoPa/shadergif)        | You can make gifs with shaders (glsl) and Javascript (either with raw canvas or with the coder-friendly p5.js library). | ![](https://github.com/antoineMoPa/shadergif/raw/master/public/screenshot.png?v=1) |
-| [ShaderView](https://github.com/josephwilk/shaderview)       | "Shaderview is an app for creating visuals using OpenGl Shaders and it uses OSC messages to communicate changes in state. For example when live coding music you could send an OSC message when the drum sample played and in turn your shader could do something with that signal, like flashing of white." | ![](https://camo.githubusercontent.com/44a7056e9b091dd6517bd926d52f4354594cb3cd/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f434c565568466a5777414537644a502e706e673a736d616c6c) |
+
+{{< columns2 >}}
+[Processing Language](https://processing.org)               
+<--->
+"Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts."
+<--->
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/140600280" width="100%" height="150" frameborder="0" allowfullscreen></iframe>
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Hype Framework](https://www.hypeframework.com)             
+<--->
+"This is a collection of processing.org classes that performs heavy lifting tasks while using a minimal amount of code writing"
+<--->
+This site is really weird? It seems to be emedding vimeo videos of static images, regardless, still worth checking out
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[P5.js](https://p5js.org/)                                  
+<--->
+"p5.js is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else!" --- Processing can run P5.js scripts, you can also live code p5.js with some VSCode extensions as mentioned above
+<--->
+<iframe width="100%" height="150" src="https://www.youtube.com/embed/HerCR8bw_GE?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[three.js](https://threejs.org)                             
+<--->
+"Three.js is a lightweight cross-browser JavaScript library/API used to create and display animated 3D computer graphics on a Web browser. Three.js scripts may be used in conjunction with the HTML5 canvas element, SVG or WebGL."
+<--->
+[Three.js examples from Free Frontend](https://freefrontend.com/three-js-examples/) and [on the Three.js site itself](https://threejs.org/examples/)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[paper.js](http://paperjs.org/about/)                       
+<--->
+"Paper.js is an open source vector graphics scripting framework that runs on top of the HTML5 Canvas"
+<--->
+[Paper.js examples](http://paperjs.org/examples/nyan-rainbow/)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[rune.js](https://runemadsen.github.io/rune.js/)            
+<--->
+"a JavaScript library for programming graphic design systems with SVG in both the browser or node.js"
+<--->
+Move your mouse over the image on the homepage
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[rough.js](https://roughjs.com)                             
+<--->
+"a small (<9kB gzipped) graphics library that lets you draw in a *sketchy*, *hand-drawn-like*, style."
+<--->
+![roughjs example](https://roughjs.com/images/cap.png)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[StructureSynth](http://structuresynth.sourceforge.net/)
+<--->
+"Structure Synth is a cross-platform application for generating 3D structures by specifying a design grammar"
+<--->
+![](http://structuresynth.sourceforge.net/images/ss1.jpg)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[OpenFrameworks](https://openframeworks.cc)                 
+<--->
+openFrameworks is an open source C++ toolkit for creative coding.
+<--->
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/74124094" width="100%" height="150" frameborder="0" allowfullscreen></iframe>
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[openrndr](https://openrndr.org)                            
+<--->
+"In short, OPENRNDR is a tool to create tools. It is an open source framework for creative coding, written in Kotlin for the Java VM that simplifies writing real-time interactive software"
+<--->
+pleanty of examples on the site
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Cinder](https://www.libcinder.org)                         
+<--->
+"Cinder is a free and open source library for professional-quality creative coding in C++."
+<--->
+pleanty of examples on the site                              |
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Context Free](https://www.contextfreeart.org)              
+<--->
+"Context Free is a program that generates images from written instructions called a grammar. The program follows the instructions in a few seconds to create images that can contain millions of shapes."
+<--->
+![](https://glyphic.s3.amazonaws.com/cfa/gallery/uploads/81/0d/810d02128464264536b6e3b71bff7332//full_3498.jpg?5)<img alt="creative commons icon" src="https://i.creativecommons.org/l/by-nc-sa/3.0//88x31.png" style="image-rendering: pixelated;"> **Agneya** by [**thijs**](https://www.contextfreeart.org/gallery/search.php?by=thijs)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Nannou](https://github.com/nannou-org/nannou)              
+<--->
+a creative coding frame work for Rust, you may want to look at the work by [MacTuitui (Twitter)](https://twitter.com/MacTuitui)
+<--->
+![](https://camo.githubusercontent.com/47242f5abfba5e6536e88d9ba33d66a19079ca94/68747470733a2f2f692e696d6775722e636f6d2f6c6d345249344e2e676966) ![](https://camo.githubusercontent.com/0e2a41870e5f421b24b912e70a08c7fdeb37e304/68747470733a2f2f692e696d6775722e636f6d2f67616957485a582e676966)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Valora](https://paytonturnage.gitbook.io/valora/)          
+<--->
+Another creative coding framework for Rust
+<--->
+![](https://gblobscdn.gitbook.com/assets%2F-Lw1VWDRh9_wPSAWr8kv%2F-M51LUdWgcmABW_iSJDI%2F-M51LaXRFO0JLuIVbJfo%2Fimage.png?alt=media&token=1e4f8e4b-da2e-4dc3-af67-61d1d0d15fe7)[curtain](https://paytonturnage.gitbook.io/valora/gallery) by turnage, 2020
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[immense](https://github.com/turnage/immense)               
+<--->
+A Rust library for describing 3D meshes with simple composable rules. 
+```rust
+rule![
+    tf![
+        Tf::saturation(0.8),
+        Tf::hue(160.0),
+        Replicate::n(36, vec![Tf::rz(10.0), Tf::ty(0.1)]),
+        Replicate::n(36, vec![Tf::ry(10.0), Tf::tz(1.2), Tf::hue(3.4)]),
+    ] => cube()
+]
+``` 
+is all that's needed to generate this shape:
+<--->
+![](https://camo.githubusercontent.com/2b6b66d2f42672a91cf9ce527d4250c83d2f837d/68747470733a2f2f692e696d6775722e636f6d2f31456d696b345a2e706e67)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[ANSIedad](https://github.com/gabochi/ANSIedad)             
+<--->
+<--->
+![ANSIedad](https://raw.githubusercontent.com/gabochi/ANSIedad/master/demo.gif?raw=true)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[ASCII Generator](https://github.com/uvipen/ASCII-generator)
+<--->
+<--->
+![](https://github.com/uvipen/ASCII-generator/raw/master/demo/input.jpg)![](https://github.com/uvipen/ASCII-generator/raw/master/demo/output_simple_white_200.jpg)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[ShaderGif](https://github.com/antoineMoPa/shadergif)       
+<--->
+You can make gifs with shaders (glsl) and Javascript (either with raw canvas or with the coder-friendly p5.js library).
+<--->
+![](https://github.com/antoineMoPa/shadergif/raw/master/public/screenshot.png?v=1)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[ShaderView](https://github.com/josephwilk/shaderview)      
+<--->
+"Shaderview is an app for creating visuals using OpenGl Shaders and it uses OSC messages to communicate changes in state. For example when live coding music you could send an OSC message when the drum sample played and in turn your shader could do something with that signal, like flashing of white."
+<--->
+![](https://camo.githubusercontent.com/44a7056e9b091dd6517bd926d52f4354594cb3cd/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f434c565568466a5777414537644a502e706e673a736d616c6c)
+{{< /columns2 >}}
 
 ## Data Visulization
 
-| Name & Link                                       | Purpose / Description                                        | Screenshot / Demo                                            |
-| ------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Nodebox](https://www.nodebox.net/node/)          | "NodeBox makes it easy to do data visualisations, generative design and complex production challenges." | ![](https://www.nodebox.net/media/node/features-dataviz.png) |
-| [d3js](https://d3js.org)                          | "**D3.js** is a JavaScript library for manipulating documents based on data. **D3** helps you bring data to life using HTML, SVG, and CSS." | The homepage has a ton of live demos                         |
-| [Apparatus](https://github.com/cdglabs/apparatus) | a hybrid graphics editor / programming environment for creating interactive diagrams | ![](https://camo.githubusercontent.com/a9a89d5ee037527373c5b50f0867e5d5ab9c59b4/687474703a2f2f617072742e75732f6173736574732f75736167652e706e67) |
-| [Vega-Lite](https://vega.github.io/vega-lite/)    | "**Vega-Lite** is a high-level grammar of interactive graphics. It provides a concise, declarative JSON syntax to create an expressive range of visualizations for data analysis and presentation." | ![](/vegalite.png)                                   |
+{{< columns2 >}}
+[Nodebox](https://www.nodebox.net/node/)           
+<--->
+"NodeBox makes it easy to do data visualisations, generative design and complex production challenges."
+<--->
+![](https://www.nodebox.net/media/node/features-dataviz.png)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[d3js](https://d3js.org)                           
+<--->
+**D3.js** is a JavaScript library for manipulating documents based on data. **D3** helps you bring data to life using HTML, SVG, and CSS.
+<--->
+The homepage has a ton of live demos
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Apparatus](https://github.com/cdglabs/apparatus)  
+<--->
+a hybrid graphics editor / programming environment for creating interactive diagrams
+<--->
+![](https://camo.githubusercontent.com/a9a89d5ee037527373c5b50f0867e5d5ab9c59b4/687474703a2f2f617072742e75732f6173736574732f75736167652e706e67)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Vega-Lite](https://vega.github.io/vega-lite/)     
+<--->
+**Vega-Lite** is a high-level grammar of interactive graphics. It provides a concise, declarative JSON syntax to create an expressive range of visualizations for data analysis and presentation.
+<--->
+![](/vegalite.png)
+{{< /columns2 >}}
+
 
 ## Scripting/Generative tools IN other tools
 
-| Name & Link                                                  | Purpose                                                      | Screenshot                                                   |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Blender python API](https://docs.blender.org/api/current/info_overview.html#:~:text=Python%20in%20Blender&text=Blender%20provides%20its%20Python%20modules,import%20the%20modules%20to%20work.) |                                                              |                                                              |
-| [Sorcar for Blender](https://aachman98.itch.io/sorcar)       | procedural modeling node-based system for Blender            |                                                              |
-| [Adobe Extend Script](http://docs.aenhancers.com/introduction/overview/) | "A script is a series of commands that tells an application to perform a series of operations. You can use scripts in most Adobe applications to automate repetitive tasks, perform complex calculations, and even use some functionality not directly exposed through the graphical user interface." |                                                              |
-| [Krita SeExpr](https://docs.krita.org/en/reference_manual/layers_and_masks/fill_layer_generators/seexpr.html?highlight=seexpr) | Fills the layer with a pattern specified through Disney Animation’s [**SeExpr** expression language](https://wdas.github.io/SeExpr). - note that this is for **FILL layers** in krita | ![Kritas SeExpr](https://docs.krita.org/en/_images/SeExpr_editor.png) |
+{{< columns2 >}}
+[Blender python API](https://docs.blender.org/api/current/info_overview.html#:~:text=Python%20in%20Blender&text=Blender%20provides%20its%20Python%20modules,import%20the%20modules%20to%20work.)
+<--->
+<--->
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Sorcar for Blender](https://aachman98.itch.io/sorcar)
+<--->
+procedural modeling node-based system for Blender
+<--->
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Adobe Extend Script](http://docs.aenhancers.com/introduction/overview/)
+<--->
+"A script is a series of commands that tells an application to perform a series of operations. You can use scripts in most Adobe applications to automate repetitive tasks, perform complex calculations, and even use some functionality not directly exposed through the graphical user interface."
+<--->
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Krita SeExpr](https://docs.krita.org/en/reference_manual/layers_and_masks/fill_layer_generators/seexpr.html?highlight=seexpr)
+<--->
+Fills the layer with a pattern specified through Disney Animation’s [**SeExpr** expression language](https://wdas.github.io/SeExpr). - note that this is for **FILL layers** in krita
+<--->
+![Kritas SeExpr](https://docs.krita.org/en/_images/SeExpr_editor.png)
+{{< /columns2 >}}
+
 
 ## Super resolution, frame interpolation, and other effects
 
-| Name & Link                                                  | Purpose                                                      | Screenshot / Demo                                            |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Waifu-2x](http://waifu2x.udp.jp)                            | "Image Super-Resolution for Anime-style art using Deep Convolutional Neural Networks. And it supports photo." - Works well on most things, not just anime art. The link is for a site where you can try it out online, but if you need to run it a lot you should probably run it locally. If you do I recomend [this version](https://github.com/nihui/waifu2x-ncnn-vulkan) is it's compatible with basically any modern GPU. You may also want to check out [Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI). | ![](https://raw.githubusercontent.com/nagadomi/waifu2x/master/images/slide.png) |
-| [Drain-App](https://grisk.itch.io/dain-app)                  | Dain-App is a free app that let you take any form of media like movies, stop-motion, anime, cartoons, sprites, etc and interpolate new frames, generating a bigger frame-rate from the original file. **NOTE: drain-app only runs on systems with an NVDIA GPU** |                                                              |
-| [Neat auto lighting/shading software (Github pages site)](https://lllyasviel.github.io/PaintingLight/) | "[...]. Based on this observation, we design an algorithm to both estimate the density of strokes in a digital painting using color geometry, and then generate novel lighting effects by mimicking artists' coarse-to-fine workflow." | ![](https://lllyasviel.github.io/PaintingLight/index_files/paintlight_title.jpg) artwork traced by ToS2P from an artwork by David Revoy under CC-BY license, www.peppercarrot.com |
-| [Pixatool](https://kronbits.itch.io/pixatool) (15 USD)       | convert 'normal' art into pixel art                          | ![](https://img.itch.zone/aW1hZ2UvMTkxNjgxLzEwNzY5MDkuZ2lm/794x1000/I4T9rN.gif) |
-| [picbreeder](http://picbreeder.org)                          | "Picbreeder is a collaborative art application based on an idea called *evolutionary art*, which is a technique that allows pictures to be bred almost like animals. For example, you can evolve a butterfly into a bat by selecting parents that look like bats" |                                                              |
-| [Geon FX](https://nod.itch.io/geon-fx) (10 USD)              | Particle effects generator/editor                            | ![](https://img.itch.zone/aW1hZ2UvOTcyMjYvNDU1Mjk5LmdpZg==/794x1000/MUP83%2B.gif) |
+{{< columns2 >}}
+[Waifu-2x](http://waifu2x.udp.jp)                            
+<--->
+"Image Super-Resolution for Anime-style art using Deep Convolutional Neural Networks. And it supports photo." - Works well on most things, not just anime art. The link is for a site where you can try it out online, but if you need to run it a lot you should probably run it locally. If you do I recomend [this version](https://github.com/nihui/waifu2x-ncnn-vulkan) is it's compatible with basically any modern GPU. You may also want to check out [Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI)
+<--->
+![](https://raw.githubusercontent.com/nagadomi/waifu2x/master/images/slide.png)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Drain-App](https://grisk.itch.io/dain-app)                  
+<--->
+Dain-App is a free app that let you take any form of media like movies, stop-motion, anime, cartoons, sprites, etc and interpolate new frames, generating a bigger frame-rate from the original file. **NOTE: drain-app only runs on systems with an NVDIA GPU**
+<--->
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Neat auto lighting/shading software (Github pages site)](htt://lllyasviel.github.io/PaintingLight/)
+<--->
+"[...]. Based on this observation, we design an algorithm to both estimate the density of strokes in a digital painting using color geometry, and then generate novel lighting effects by mimicking artists' coarse-to-fine workflow."
+<--->
+![](https://lllyasviel.github.io/PaintingLight/index_files/paintlight_title.jpg) artwork traced by ToS2P from an artwork by David Revoy under CC-BY license, www.peppercarrot.com
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Pixatool](https://kronbits.itch.io/pixatool) (15 USD)       
+<--->
+convert 'normal' art into pixel art
+<--->
+![](https://img.itch.zone/aW1hZ2UvMTkxNjgxLzEwNzY5MDkuZ2lm/794x1000/I4T9rN.gif)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[picbreeder](http://picbreeder.org)                          
+<--->
+"Picbreeder is a collaborative art application based on an idea called *evolutionary art*, which is a technique that allows pictures to be bred almost like animals. For example, you can evolve a butterfly into a bat by selecting parents that look like bats"
+<--->
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Geon FX](https://nod.itch.io/geon-fx) (10 USD)              
+<--->
+Particle effects generator/editor
+<--->
+![](https://img.itch.zone/aW1hZ2UvOTcyMjYvNDU1Mjk5LmdpZg==/794x1000/MUP83%2B.gif)
+{{< /columns2 >}}
 
 
 
