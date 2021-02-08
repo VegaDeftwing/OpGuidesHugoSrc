@@ -43,6 +43,12 @@ On the note of CSS- that has been a major pain point for me. Web dev is both eas
 
 This is most obvious in the [Generative Tools]({{< relref "Design/d5-gen" >}}) chapter of the Design section. The page has great content, but renders like a dumpster fire and I still don't know how to fix it cleanly. Probably something with CSS Grids but after repeated attempts to make something work I gave up, so at least for now it will remain as the dumpster fire it is.
 
+{{< tip >}}
+
+This has been fixed. See [this commit](https://github.com/VegaDeftwing/OpGuidesHugoSrc/commit/73bb04b86982b3576cbe0e5113461b9c03a447fa#diff-7faf8ce9ea81d4773cbb5c72fd6d6e292a949bfdb3e5f779dd39834e62e7f101) if you're interested in how.
+
+{{< /tip >}}
+
 Ontop of the technical, there's also the stylistic challanges. I'm actually really happy with how OpGuides looks right now, but there was a lot of heachache inducing research, trial and error, and humbly asking for help for making the text readable and getting everything to look good. I'd very gladly never read another word about typography or contrast for accesibility.
 
 And while the site is definitely functional, it's also built on less-than-study foundations. I've hacked together quite a few things because getting it to work was more valuable to me than getting it to work right. For example, the javascipt for the footnotes <a class="ptr">(2)</a> is loaded using script tags in the [base html](https://github.com/VegaDeftwing/OpGuidesHugoSrc/blob/main/themes/bookvega/layouts/_default/baseof.html) file for every page, and the different colors for different sections is [very poorly](https://github.com/VegaDeftwing/OpGuidesHugoSrc/blob/main/themes/bookvega/layouts/partials/docs/html-head.html) thrown into the hugo templating html. This is to say I've valued getting a website that works and looks the way I want over doing it right. Partially this is ignorance (either of webdev or hugo), and partially this is laziness ("I got it working, no need to make it elgant"). But ultimately I think of it as a time trade off. I could spend way more time getting everything exactly right, acrue no technical debt (albeit this is debt that I rather doubt I'll ever have to pay on) or I can just make a damn website and spend that time doing the part people *actually* care about: Writing content.
