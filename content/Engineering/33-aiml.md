@@ -1,12 +1,12 @@
 # Chapter 33 - Fine, I'll talk about AI
 
-## Machine Learning
-
 {{< tip >}}
 
-This chapter is very much a work in progress, as such the math on this page will not render correctly until I fix it for the static site generator this site uses.
+This chapter is very much a work in progress, and is really more of just a list of topics despite how much content there appears to be
 
 {{< /tip >}}
+
+## Machine Learning?
 
 You've used it today. ML is used for search engines, social media feed order (the almighty Algorithm), and predictive text systems.
 
@@ -24,6 +24,14 @@ when to use ML?
 when *not* to use ML?
 
 * When all cases can be covered by a traditional program
+
+## Speedbump
+
+Before we actually get into anything of substance, I think it's useful to just be exposed to terms in bulk and get a sort of high level overview of what's going on. For that, I recommend just putting this video on 2x speed and digesting it as best you can. Don't worry if something makes you go "huh?" for now:
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/oJNHXPs0XDk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Supervised Vs. Unsupervised Learning 
 
 ### Supervised Learning
 
@@ -303,11 +311,55 @@ with $n_{in} \text{ inputs and } n_{out} \text{ outputs}$, initialize with a uni
 
 ### Types of Activation Functions
 
+## Convolutional Neural Networks
+
+[CNN's on Wikipedia](https://en.wikipedia.org/wiki/Convolutional_neural_network)
+
+Good for data with grid/array like topology, think images or time series data
+
+based on using convolutions and pooling- extract features, invarient to transforms, parameter efficient
+
+passing a kernel over an image, just doing a sliding window, like normal - can do edge detection, bluring, etc.
+
+Kernels are just weights, so, we can learn the best weight to use
+
+not complete connectivity, that is no crossing from layer to another, the layer above only depends on one path
+
+... unless we use a convolutional stack(?)
+
+... next node over probably shares many parameters (weight sharing), the computation graph could just share this overlap to reduce parameters. Saves memory
+
+​	weight sharing forces the layer to learn a specific feature extractor. Multiple layers could be learned in parrallel, as only detecting one feature (like vertical lines) may not be helpful.
+
+​	on images this is commonly done as seperate detectors on color channels and multiple for specific feauters. Each higer layer is for a more complex feature, with mulitple channels of features.
+
+Basically, 
+
+can pad to retain size, 0-padding is common
+
+can use a stride-parameter to downsample
+
+<img src="/CNNImage.svg" style="-webkit-filter: invert(.85);">
+
+<!--colors are shifted in the SVG to make the invert correct--->
+
+pooling nodes help get translation invariance
+
+Downsides of CNNs: Many parameters to tune, large memory useage
+
+often better to modify a prior network trained on a bigger dataset and for longer - Transfer Learning
+
+Object Detection can look for local areas of interest:
+
+R-CNN, SPP-NET, Fast R-CNN, YOLO - You Only Look Once
 
 
 
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/oJNHXPs0XDk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+---
 
 https://hific.github.io/
 
