@@ -11,7 +11,7 @@ Here's the part where I'm supposed to explain how to read music or something bor
 <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3503666064/size=small/bgcol=666666/linkcol=ffffff/track=3864536185/transparent=true/" seamless><a href="http://vegadeftwing.bandcamp.com/album-2">Content by Vega Deftwing</a></iframe>
 
 Alright, with motivation out of the way, let's make some noise! To do that though we're gonna need just a few things:
-Go download VCV Rack from https://vcvrack.com/ and depending on your OS you'll need some sound drivers, MAC guys, sorry, no idea. On Windows you'll want to use ASIO, if you don't know what that is just go grab http://www.asio4all.org/ and use that, on Linux you'll want to use Jack https://wiki.archlinux.org/index.php/JACK_Audio_Connection_Kit. On Linux you may need to use a tool like Catia to actually connect the jack devices together (VCV to System Out)
+Go download VCV Rack from https://vcvrack.com/ and depending on your OS you'll need some sound drivers, MAC guys, sorry, no idea. On Windows you'll want to use ASIO, if you don't know what that is just go grab http://www.asio4all.org/ and use that, on Linux you'll want to use Jack https://wiki.archlinux.org/index.php/JACK_Audio_Connection_Kit. On Linux you may need to use a tool like Catia to actually connect the jack devices together (VCV to System Out) - for more Linux info check out [Making Sense of The Linux Audio Stack on Venam's Blog](https://venam.nixers.net/blog/unix/2021/02/07/audio-stack.html).
 
 Go ahead and fire up VCV and a template patch should have opened up that looks some thing like this:
 ![vcv1default](/vcv1default.png)
@@ -113,7 +113,7 @@ anyway, so now the last relevant part of the above patch worth understanding is 
 
 ## A bit of an aside
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Secret Panel HERE 😶 <a href="https://t.co/i8H7WlWRbO">https://t.co/i8H7WlWRbO</a> <a href="https://t.co/BJOfoxNzCg">pic.twitter.com/BJOfoxNzCg</a></p>&mdash; J. L. Westover (@MrLovenstein) <a href="https://twitter.com/MrLovenstein/status/1347912909465255938?ref_src=twsrc%5Etfw">January 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Secret Panel HERE ðŸ˜¶ <a href="https://t.co/i8H7WlWRbO">https://t.co/i8H7WlWRbO</a> <a href="https://t.co/BJOfoxNzCg">pic.twitter.com/BJOfoxNzCg</a></p>&mdash; J. L. Westover (@MrLovenstein) <a href="https://twitter.com/MrLovenstein/status/1347912909465255938?ref_src=twsrc%5Etfw">January 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Some people will try to get you to try various substances to be creative, to make better music, etc.
 

@@ -81,6 +81,8 @@ But this has a whole host of issues. I'm going to redirect this to [This page fr
 
 More recently, the [DMCA takedown](https://github.com/github/dmca/blob/master/2020/10/2020-10-23-RIAA.md) of YouTube-dl, a program that lets users download videos from YouTube among many, many other video sites, was a big issue that riled up the technical world, and for which it seems most people think was a flagrant misuse of the DMCA against a tool, not a specific instance of infringing content. Extra stupid when you realize the computer itself could also be argued to be the tool enabling infringement.
 
+The abuse of automated, algorithmic takedowns for the sake of keeping up with the DMCA has also resulted in [cops playing music to prevent videos from being on social media (VICE)](https://www.vice.com/en/article/bvxb94/is-this-beverly-hills-cop-playing-sublimes-santeria-to-avoid-being-livestreamed).
+
 #### Exceptions
 
 Alright, so the DMCA is dumpster fire burning with a raging satanic hell blaze which only emits darkness, but thankfully the sentient darkness that represents the American people has carved away a few crumbs that we can use to sustain ourselves with in these dire times. The list below are things for which you can safely outright ignore the DMCA and break into things as you please. I'll go over my favorites, but [here's the list in full on Wikipedia](https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act#Anti-circumvention_exemptions).
@@ -187,6 +189,8 @@ https://science.slashdot.org/story/20/05/25/0136238/texas-instruments-makes-it-h
 [Terms of Service Didn't Read](https://tosdr.org/)
 
 ## Stalkerware
+
+[Creeping As A Service](https://every.to/divinations/creeping-as-a-service-craas)
 
 ## AI
 

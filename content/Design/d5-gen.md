@@ -317,6 +317,20 @@ Noise maker can make a ton of generative art pieces, as you can see at the right
 
 {{< /columns2 >}}
 
+{{< columns2 >}}
+
+[Pattern Generator](https://doodad.dev/pattern-generator/)
+
+<--->
+
+Use this tool to create unique, seamless, royalty-free patterns.</br>Choose a base style, then customize with colors, filters, and transforms.</br>Each pattern style has it's own unique transforms. Play around to see what they do.</br>Click the 'shuffle' button to see the kinds of patterns you can make.</br>
+
+<--->
+
+![](/patterngen.jpg)
+
+{{< /columns2 >}}
+
 ## Pixel Sorting
 
 ![](/pixelsorting.jpg ':size=40%')
@@ -722,7 +736,7 @@ rule![
         Replicate::n(36, vec![Tf::ry(10.0), Tf::tz(1.2), Tf::hue(3.4)]),
     ] => cube()
 ]
-``` 
+```
 is all that's needed to generate this shape:
 <--->
 ![](https://camo.githubusercontent.com/2b6b66d2f42672a91cf9ce527d4250c83d2f837d/68747470733a2f2f692e696d6775722e636f6d2f31456d696b345a2e706e67)
