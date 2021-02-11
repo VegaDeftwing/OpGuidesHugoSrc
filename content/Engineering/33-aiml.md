@@ -329,9 +329,9 @@ not complete connectivity, that is no crossing from layer to another, the layer 
 
 ... next node over probably shares many parameters (weight sharing), the computation graph could just share this overlap to reduce parameters. Saves memory
 
-​	weight sharing forces the layer to learn a specific feature extractor. Multiple layers could be learned in parrallel, as only detecting one feature (like vertical lines) may not be helpful.
+​	weight sharing forces the layer to learn a specific feature extractor. Multiple layers could be learned in parallel, as only detecting one feature (like vertical lines) may not be helpful.
 
-​	on images this is commonly done as seperate detectors on color channels and multiple for specific feauters. Each higer layer is for a more complex feature, with mulitple channels of features.
+​	on images this is commonly done as separate detectors on color channels and multiple for specific feasters. Each higher layer is for a more complex feature, with multiple channels of features.
 
 Basically, 
 
@@ -345,7 +345,7 @@ can use a stride-parameter to downsample
 
 pooling nodes help get translation invariance
 
-Downsides of CNNs: Many parameters to tune, large memory useage
+Downsides of CNNs: Many parameters to tune, large memory usage
 
 often better to modify a prior network trained on a bigger dataset and for longer - Transfer Learning
 
@@ -353,13 +353,80 @@ Object Detection can look for local areas of interest:
 
 R-CNN, SPP-NET, Fast R-CNN, YOLO - You Only Look Once
 
+## Regularization and Evaluation
+
+ML is basically an optimization problem
+
+We need a function to measure performance - a loss function
+
+Given instance x, with label y, and a prediction $\hat{y}$, then $J(y,\hat{y})$ is the loss on that instance
+
+| Function      | Common Use                                                   | Formula                                               |
+| ------------- | ------------------------------------------------------------ | ----------------------------------------------------- |
+| 0-1 Loss      |                                                              | $J(y,\hat{y})=1$ if $y\neq\hat{y}$, 0 otherwise       |
+| Square Loss   | Regression                                                   | $J(y,\hat{y}) = (y - \hat{y})^2$                      |
+| Cross-Entropy | y and $\hat{y}$ are considered probabilities of a '1' label. Allows for two probability distributions. Good for when the input data also has probability. Often used for classifying images | $J(y,\hat{y})$ = $(-y)ln(\hat{y})-(1-y)ln(1-\hat{y})$ |
+| Hinge Loss    | Large Margin Classifier                                      | $J(y,\hat{y}) = max(0,1-y\hat{y})$                    |
+
+given a loss function, J, and a dataset, X, $error_x(h)=\sum_{x\in h}J(y_x,\hat{y}_x)$ where $y_x$ is x's label, and $\hat{y}_x$ is h's prediction
+
+But, it's more important that the model generalizes, so given a new example (picked i.i.d) according to unknown probability distribution D, we want to minimize h's **expected** loss $error_D(h)=\mathbb{E}_{x\sim{D}}[J(y_x,\hat{y}_x)]$
+
+minimizing training loss isn't the same as minimizing expected loss? **NO**
+
+By doing *to good* on the training set, the over fitting will make results pretty bad. That is a specific parameter h overfits the training data, X, if there is an alternative hypothesis, $h^\prime$ such that $error_x(h) < error_x(h^{\prime})$ and  $error_D(h) > error_D(h^{\prime})$
+
+> This is literally just the formal defn' of overfitting. Don't over think it.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Overfitting.svg/1920px-Overfitting.svg.png" alt="overfitting" style="-webkit-filter: invert(.85);zoom:15%;">
+
+{{< attribution >}}[Overfitting example by Chabacano - CC BY-SA 4.0](https://en.wikipedia.org/wiki/Overfitting#/media/File:Overfitting.svg){{< /attribution >}}
+
+Note that underfitting is just as much of a problem. Training accuracy needs to be balanced with simplicity.
+
+Overfitting is often a result of an overkill network topology, training too long, not having enough training data, or not doing early stopping.
+
+Complexity Penalty $J^{\sim}(\theta;X,y)=J(\theta,X,y)+\alpha\Omega(\theta)$ where $\alpha \in [0,\infin)$ weights loss J against penalty $\Omega$. $\Omega(\theta)$ just measures complexity via $\Omega(\theta)=(0.5)||\theta||_2^2$, that is the sum of the squares of network's weights. Since $\theta=w$, this becomes
+
+$J^{\sim}(w;X,y)=(\alpha/2)w^{\top}w+J(w;X,y)$
+
+as weights deviate from 0, activation functions become more nonlinear, which brings a higher risk of overfitting
 
 
 
+### Early Stopping
+
+danger of stopping too soon, as it might just have a 'bump'
+
+### Data Augmentation
+
+Careful not to change class- ie 6 → 9 or E → 3 in images
+
+protects against translation/rotation and overfitting/underfitting
+
+adding noise
+
+### Multitask Learning
+
+Share common layers of lower network
+
+### Dropout
+
+Prevents any node from becoming too specialized sorta distributes the work load
+
+### Batch Normalization
+
+### Parameter Tying
+
+### Parameter Sharing
+
+### Sparse Representations
 
 
 
 ---
+
+##  Other Resources
 
 https://hific.github.io/
 

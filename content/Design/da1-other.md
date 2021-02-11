@@ -89,7 +89,7 @@ Heads up, not all 3d systems use the same coordinate systems. It's a bit of a pa
 
 ![CoOrd Systems](/coordinatesystems.jpeg)
 
-A very long thread on ... stairs? Yeah. Look up advice on DND level design if you need general level design or architecture design n advice.
+A very long thread on ... stairs? Yeah. Look up advice on DND level design if you need general level design or architecture design n advice. The same twitter (Tommy Norberg, @the_Norberg) has **many** other good posts
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/leveldesign?src=hash&amp;ref_src=twsrc%5Etfw">#leveldesign</a> tip of the day! STAIRS 🪜<br>A Long Thread about stairs! Wohoooooo!<br><br>1/12 <a href="https://t.co/Z3TcWwOSaH">pic.twitter.com/Z3TcWwOSaH</a></p>&mdash; Tommy Norberg (@the_Norberg) <a href="https://twitter.com/the_Norberg/status/1359516288087973888?ref_src=twsrc%5Etfw">February 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
