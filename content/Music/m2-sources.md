@@ -46,23 +46,33 @@ This is particularly relevant to making music for multiple reasons:
 
 > Bitwig Studio's Sampler. Here pitch tracking is enabled, making it so the sample can be played sped up or slowed down to pitch chromatically along the keyboard. Bitwig's Sampler is pretty similar to many other samplers in other DAWs like Ableton Live or modules like Simpliciter In VCV rack
 
-Here, we're looking at the sampler device in in Bitwig Studio, though most of this should be similar in other software. Starting with the obvious, the sample wave form in the middle. Here I have loaded a sample ([TODO, new picture, .wav]) which has multiple drum sound in it, but I've zoomed in on one sample and placed these yellow flags to denote the start an end points. Bitwig's sampler, like many others, will try to snap these points to aforementioned zero crossings.  You'll also see next to the file name that the keyboard icon is blue and says 100% and next to that the root is set to C3. This means that if I play the C3 key on my keyboard it will play the sample as is, but if I play a different key it will slow playback down or speed playback up to match the pitch to the key I'm playing. The root being C3 is because, say I hit and recorded the A4 key on my piano- it's nice to be able to correct for the pitch of the sample in the keyboard tracking.
+Here, we're looking at the sampler device in in Bitwig Studio, though most of this should be similar in other software. Starting with the obvious, the sample wave form in the middle. Here I have loaded a sample which has multiple drum sound in it, but I've zoomed in on one sample and placed these yellow flags to denote the start an end points. Bitwig's sampler, like many others, will try to snap these points to aforementioned zero crossings.  You'll also see next to the file name that the keyboard icon is blue and says 100% and next to that the root is set to C3. This means that if I play the C3 key on my keyboard it will play the sample as is, but if I play a different key it will slow playback down or speed playback up to match the pitch to the key I'm playing. The root being C3 is because, say I hit and recorded the A4 key on my piano- it's nice to be able to correct for the pitch of the sample in the keyboard tracking.
 
-Still in the same section of the window but at the bottom now you'll see two icons for the flags with '[TODO]' time between them and after them, these are the times in the sample where the start and end flags are placed. Left of that you'll also see an arrow with an R over it, that's the button to tell it you want to play the sample in reverse.
+Still in the same section of the window but below the first yellow flag that denotes the start, you'll see two smaller yellow flag icons that have a time specified. These are the times in the sample where the start and end flags are placed. Left of that you'll also see an arrow with an R over it, that's the button to tell it you want to play the sample in reverse. To the right, there's some loop options. Right now it's in 'Single Shot' mode. If the button to trigger the sample is held for longer than the length of the sample, it will still only play once. The other two options are a forward repeat, the equivilent of leaving a song on loop, and a 'ping-pong' loop, where the slice will play forwards then-backwards then forwards then .... as long as the gate is held. 
 
-[TODO, a lot to go here]
+I also want to mention the freeze ability in this sampler- the snowflak below the end-time indicator. When enabled sample playback has to be done manually - and new controlls to do so become available. Think of it like a record that you have to spin yourself. This can lead to some really cool sounds. 
+
+Finally, you'll see below that snowflake is a RAM indicator. When lit, the sample is stored in RAM, not on disk. In general, this is probably what you want. It might be helpful to do otherwise though if you're either low on memory or you're trying to load some absolutely massive samples.
+
+[TODO] Multisamples
 
 ![simpliciter](/simpliciter.png ':size=50%')
 
 > 'Simpliciter' module in VCV rack, a sampler with transient detection, Sound On Sound (SOS) looping, and variable speed (pitch) playback
 
-start, stop, fade, pitch shift, (ableton simpler)Live Input
+Unlike the bitwig sampler, this sampler, 'Simpliciter' in VCV Rack can take in live input to layer sounds or record the inital sample. In general you should see a lot of the same controls I talked about above exposed in this UI. There are some extra neat ones here though, including the ability to detect peaks as is enabled in the lower left in this screenshot. With this and a longer sample file with multiple drums you can just select the drum sample you want on each play-trigger.
 
-quantization, tracking
+This video from Omri Cohen goes pretty in depth:
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/bY6-Vxwdj_k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Field Recordings, Tape Loops, and other sampling goodness
 
+[TODO]
+
 https://soundslikenoise.org
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/JZ-yp2cCGbQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Basic Oscillators
 
@@ -84,11 +94,11 @@ Of note, you'll often hear people call non voltage controlled oscillators VCO's 
 
 Oscillators usually have very simple wave shapes as outputs. Typically, you'll see Sine ∿ , Triangle ʌ , Square ⎍ , and Saw waves as outputs. You may see other, more exotic wave forms though.
 
-![img](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Waveforms.svg/557px-Waveforms.svg.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Waveforms.svg/557px-Waveforms.svg.png" alt="Waveforms" style="-webkit-filter: invert(.85);">
 
 Often, the square wave output has PWM or 'Pulse Width Modulation' control:
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Duty_Cycle_Examples.png" style="zoom:75%;" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Duty_Cycle_Examples.png" style="-webkit-filter: invert(.85);zoom:75%;" />
 
 Varying the pulse width over time sounds really good, to give it a shot try setting this up in VCV:
 
@@ -177,33 +187,41 @@ I'll spare you going any deeper into terminology like the difference between har
 
 Note, that not all wavetable synths have the linear FM (discussed in the next section), Phase mod / distortion, and wavefolding that pigments has, though many do.
 
-I really recommend using [Blamsoft's XFX-Wave](https://blamsoft.com/vcv-rack/xfx-wave/) for VCV rack to try out Wavetable synthesis. Also in VCV, [Tiny Tricks Wave](https://library.vcvrack.com/TinyTricks/WAVE) is a neat way to experiment with recording your own tables.
+I really recommend using [Blamsoft's XFX-Wave](https://blamsoft.com/vcv-rack/xfx-wave/) for VCV rack to try out Wavetable synthesis. Also in VCV, [Tiny Tricks Wave](https://library.vcvrack.com/TinyTricks/WAVE) is a neat way to experiment with recording your own tables- just hook up three signals and press 'capture'.
 
-[TODO pic of both]
+![](/VCVWavetables.jpg)
+
+You may also hear about [XFer Serum](https://xferrecords.com/products/serum), it's the sort of EDM/Dubstep standard synth, and is a powerhouse for wavetables. It's incredibly popular, so there's a ton of great wavetable packs for it too (I particularly like the [Coda](https://www.echosoundworks.com/coda) pack). Because Serum is so popular, it's wavetable format is supported by most other wavetable synths as well, so if you're jonesn' for more wavetables, looking up free packs for serum can be a good place to start.
+
+Serum is pretty expensive though, so you may want to check out [VITAL](https://vital.audio) (which TBH I think is a bit better anyway)
+
+There are of course, many, many other Wavetable synths out there, but I can't mention all of them. If you do want to check out more though, I recomend looking into [Phase Plant (VST)](https://kilohearts.com/products/phase_plant), [Argon8 (Standalone Synth)](https://www.modalelectronics.com/argon8/), [Piston Honda MKⅢ (Eurorack)](https://www.perfectcircuit.com/harvestman-piston-honda-mk3.html), Plaits & Braids (Eurorack or [VCV](https://library.vcvrack.com/Atelier/AtelierPalette)), Cursus Iteritas ([Eurorack](https://www.perfectcircuit.com/noise-eng-cursus-iteritas-black.html) or [Reason](https://www.reasonstudios.com/shop/rack-extension/cursus-iteritas-vereor/)), and the [Hydrasynth (Desktop)](https://www.perfectcircuit.com/asm-hydrasynth-desktop.html).
+
+The Spherical Wavetable Navigator from 4MS is too cool to not link a video too as well:
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/qosfee4qJbM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## FM Synthesis
 
-![DX7 Operators](/dx7.jpeg ':size=70%')
+<img src="/dx7.jpeg" alt="dx7" style="-webkit-filter: invert(.9);zoom:75%;">
 
 > [Source (Likely originally from the Yahmaha DX7 Manual)](https://scsynth.org/t/coding-fm-synthesis-algorithms/1381)
 
 Frequency Modulation or FM, is just the simply when you let the output of one oscillator modulate the frequency of another oscillator. Usually this is done in simple ratios and, ideals, uses linear, through zero modulation.
 
-First, Let's start with linear vs exponential FM. It's worth noting that most pitch tracking is exponential since our music system itself is inherently exponential (each octave is a doubling, that is the frequency between C5 and C4 is twice the frequency between C3 and C4). This causes a problem though, if we modulate with exponential FM, say with a sine wave that is +/- 1V (2Vpp) and we start with an A4 at 440hz, then we'll swing up to 880hz and down to 220hz. Fine right? Not so much. If this modulation is meant to simply give us a more harmonically interesting A as we mix in different octaves that won't be the effect, as now we're (to oversimplify) at 880hz half the time and 220hz half the time, and if we average those $\frac{880+220}{2}$ then we don't still get the original A 440hz but rather we get 550Hz, so, we've detuned. Linear FM won't be able to follow the V/Oct standard (though some may use the Hz/V standard) but will keep you in tune as you modulate. This, however, begins to pose a more interesting problem. Imagine you want to modulate a 100hz signal by +/- 200hz. Clearly, that would mean going as high as 300hz, but what happens when we get past the first half of that negative signal and hit 0hz? Well, this is where having a Though Zero FM (TZFM) capability comes in handy, as this issue is solved sonically by actually inverting the phase of the signal when crossing the 0Hz point. While this may seem an odd solution, it does produce sounds that line up with what our ears expect.
+First, Let's start with linear vs exponential FM. It's worth noting that most pitch tracking is exponential since our music system itself is inherently exponential (each octave is a doubling, that is the frequency between C5 and C4 is twice the frequency between C3 and C4). This causes a problem though, if we modulate with exponential FM, say with a sine wave that is +/- 1V (2Vpp) and we start with an A4 at 440hz, then we'll swing up to 880hz and down to 220hz. Fine right? Not so much. If this modulation is meant to simply give us a more harmonically interesting A as we mix in different octaves that won't be the effect, as now we're (to oversimplify) at 880hz half the time and 220hz half the time, and if we average those, {{< katex >}}\frac{880+220}{2}{{< /katex >}}, then we don't still get the original A 440hz but rather we get 550Hz, so, we've detuned. Linear FM won't be able to follow the V/Oct standard (though some may use the Hz/V standard) but will keep you in tune as you modulate. This, however, begins to pose a more interesting problem. Imagine you want to modulate a 100hz signal by +/- 200hz. Clearly, that would mean going as high as 300hz, but what happens when we get past the first half of that negative signal and hit 0hz? Well, this is where having a Though Zero FM (TZFM) capability comes in handy, as this issue is solved sonically by actually inverting the phase of the signal when crossing the 0Hz point. While this may seem an odd solution, it does produce sounds that line up with what our ears expect.
 
 Exponential FM and V/Oct, assuming the same scaling, are the same thing though so sometimes you can actually view it more as a second V/Oct input. For example, you could use the Exp FM input to specify the note, and then the normal V/Oct input to change the octave. Of note however, this may not always work as the Exp FM input may be AC coupled, meaning that DC values, like note data, will not be able to get through and instead you'll just hear a "ping" as the pitch is modulated at the cutoff of the AC coupling filter, in these cases the Exp FM input will have a minimum frequency that the input signal can oscillate at to perform properly. 
 
-When talking about Linear FM, I mentioned that simple ratios are best. This isn't entirely true, but they will produce the least complicated harmonics. For example taking
+When talking about Linear FM, I mentioned that simple ratios are best. This isn't entirely true, but they will produce the least complicated harmonics, and while complicated harmonics are *awesome* it's also really easy to make something that sounds awful.
+
+Becasue FM synthesis is a pretty complicated topic to wrap your head around, I recomend giving these three videos a watch:
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/L1QZuEuMD_E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Todo, Why simple ratios]
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/P4EYqMEH6Dc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Todo, Algorithms]
-
-[TODO, pic of Valley's Dexter]
-
-[TODO] DIY FM voice in VCV
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/2BmFnA0YsUc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Granular Synthesis
 
@@ -211,4 +229,12 @@ There are many, many granular synths and effects, but, I'd like to start with a 
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/1RWOoEj3mwU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[TODO] use for textures
+This video from Red Means Recording goes over a ton of VSTS that do this well.
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/zwLXD3cxOkk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Finally, I want to mention Arbhar, Morphagene, and Clouds- but rather than try to poorly explain the three I'm going to link videos again. Note that 'Simpliciter', the sampler I mentioned earlier is pretty similar to Morphagene and that Clouds is available in VCV rack.
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/YuRPdbqJK-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/IjcDnax9yLY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
