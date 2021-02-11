@@ -50,7 +50,7 @@ Here, we're looking at the sampler device in in Bitwig Studio, though most of th
 
 Still in the same section of the window but below the first yellow flag that denotes the start, you'll see two smaller yellow flag icons that have a time specified. These are the times in the sample where the start and end flags are placed. Left of that you'll also see an arrow with an R over it, that's the button to tell it you want to play the sample in reverse. To the right, there's some loop options. Right now it's in 'Single Shot' mode. If the button to trigger the sample is held for longer than the length of the sample, it will still only play once. The other two options are a forward repeat, the equivilent of leaving a song on loop, and a 'ping-pong' loop, where the slice will play forwards then-backwards then forwards then .... as long as the gate is held. 
 
-I also want to mention the freeze ability in this sampler- the snowflak below the end-time indicator. When enabled sample playback has to be done manually - and new controlls to do so become available. Think of it like a record that you have to spin yourself. This can lead to some really cool sounds. 
+I also want to mention the freeze ability in this sampler- the snowflake below the end-time indicator. When enabled sample playback has to be done manually - and new controls to do so become available. Think of it like a record that you have to spin yourself. This can lead to some really cool sounds. 
 
 Finally, you'll see below that snowflake is a RAM indicator. When lit, the sample is stored in RAM, not on disk. In general, this is probably what you want. It might be helpful to do otherwise though if you're either low on memory or you're trying to load some absolutely massive samples.
 
@@ -195,7 +195,7 @@ You may also hear about [XFer Serum](https://xferrecords.com/products/serum), it
 
 Serum is pretty expensive though, so you may want to check out [VITAL](https://vital.audio) (which TBH I think is a bit better anyway)
 
-There are of course, many, many other Wavetable synths out there, but I can't mention all of them. If you do want to check out more though, I recomend looking into [Phase Plant (VST)](https://kilohearts.com/products/phase_plant), [Argon8 (Standalone Synth)](https://www.modalelectronics.com/argon8/), [Piston Honda MKⅢ (Eurorack)](https://www.perfectcircuit.com/harvestman-piston-honda-mk3.html), Plaits & Braids (Eurorack or [VCV](https://library.vcvrack.com/Atelier/AtelierPalette)), Cursus Iteritas ([Eurorack](https://www.perfectcircuit.com/noise-eng-cursus-iteritas-black.html) or [Reason](https://www.reasonstudios.com/shop/rack-extension/cursus-iteritas-vereor/)), and the [Hydrasynth (Desktop)](https://www.perfectcircuit.com/asm-hydrasynth-desktop.html).
+There are of course, many, many other Wavetable synths out there, but I can't mention all of them. If you do want to check out more though, I recommend looking into [Phase Plant (VST)](https://kilohearts.com/products/phase_plant), [Argon8 (Standalone Synth)](https://www.modalelectronics.com/argon8/), [Piston Honda MKⅢ (Eurorack)](https://www.perfectcircuit.com/harvestman-piston-honda-mk3.html), Plaits & Braids (Eurorack or [VCV](https://library.vcvrack.com/Atelier/AtelierPalette)), Cursus Iteritas ([Eurorack](https://www.perfectcircuit.com/noise-eng-cursus-iteritas-black.html) or [Reason](https://www.reasonstudios.com/shop/rack-extension/cursus-iteritas-vereor/)), and the [Hydrasynth (Desktop)](https://www.perfectcircuit.com/asm-hydrasynth-desktop.html).
 
 The Spherical Wavetable Navigator from 4MS is too cool to not link a video too as well:
 
@@ -215,7 +215,7 @@ Exponential FM and V/Oct, assuming the same scaling, are the same thing though s
 
 When talking about Linear FM, I mentioned that simple ratios are best. This isn't entirely true, but they will produce the least complicated harmonics, and while complicated harmonics are *awesome* it's also really easy to make something that sounds awful.
 
-Becasue FM synthesis is a pretty complicated topic to wrap your head around, I recomend giving these three videos a watch:
+Becasue FM synthesis is a pretty complicated topic to wrap your head around, I recommend giving these three videos a watch:
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/L1QZuEuMD_E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
