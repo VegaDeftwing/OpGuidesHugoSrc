@@ -35,3 +35,5 @@ Things like digi shoes, tail holes in clothing, tail bags, etc. really help make
 [Detailed guide to different types of bird wings and their functional parts (Reddit)](https://www.reddit.com/r/coolguides/comments/eau4e2/detailed_guide_to_different_types_of_bird_wings/)
 
 [Skin Tone Cloud (Reddit)](https://www.reddit.com/r/coolguides/comments/fgta8k/skin_tone_cloud/)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">here’s an art tutorial on some ways that i avoid “same face syndrome”! keep in mind that these tips might not work for everyone though <a href="https://t.co/qfgRNz8Anf">pic.twitter.com/qfgRNz8Anf</a></p>&mdash; harvey (@harvviies) <a href="https://twitter.com/harvviies/status/1359879055198228483?ref_src=twsrc%5Etfw">February 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
