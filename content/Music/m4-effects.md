@@ -6,11 +6,31 @@ slug: "Effects"
 
 # Audio Effects
 
+{{< tip >}}
+
+A lot of audio effects boil down to automating some simple parameter. Some times you may not actually need a dedicated effect and can instead get by with using [Automation Lanes (YouTube, once upon a synth)](https://www.youtube.com/watch?v=WmgXmb2V6zE) in you Digital Audio Workstation (DAW)
+
+ {{< /tip >}}
+
+{{< tip >}}
+
+Also don't get to deep into gear envy. Effects are awesome and it's tempting to either want to collect them and hoard them like a happy dragon on a pile of gold or feel like you can't make music without that one perfect effect. Unless you're falling down the rabbit hole of a DAWless setup and have a very limited amount of gear, you can almost certainly find something for free that will fill the need, or already have something. Most DAWs come with an impressive amount of built in effects: **Use these first!** They're usually lighter on your CPU and still sound really good.
+
+{{< /tip >}}
+
+{{< tip >}}
+
+Immediately contradicting myself though, don't undervalue workflow either. In my experience, making music depends on a really quick brain to input device feedback loop. Being able to turn a physical knob and mash physical keys will often lead to better results if only because you're able to try things faster and try things by physically interacting with something that you may not have thought of otherwise. It's why guitars, MPE keyboards, and Eurorack are so great: they all give you a crazy amount of control and expression that is **literally** at your finger tips. The brain to input interface there is just so much better.</br></br>Find a happy middle ground. This often means getting some basic effects and gear that doesn't actually let you do anything new, but instead gives you a faster way of working with it that may open your mind to new possibilities.
+
+{{< /tip >}}
+
+**With that out of the way, onto the list of effects!**
+
 ## Tremolo
 
 {{< columns >}}
 
-This is probably the easiest to understand audio effect. Put simply, fade the volume in and out automatically, usually pretty fast and with a bias so that the volume never completely cuts. It can also refer to a playing style where the same note is struck rapidly, leading to a similar effect. In VCV this can be done as simply as hooking up an LFO to a VCA's CV input like we did here, but turning up the frequency of the LFO-2 module (note, that here there is no bias so the volume does actually cut out):
+This is probably the easiest to understand audio effect. Put simply, fade the volume in and out automatically. This can be done at different speeds (really fast for a 'deep' effect or slow for something pad-like) and with a bias so that the volume never completely cuts. It can also refer to a playing style where the same note is struck rapidly, leading to a similar effect. In VCV this can be done as simply as hooking up an LFO to a VCA's CV input like we did here, but turning up the frequency of the LFO-2 module (note, that here there is no bias so the volume does actually cut out):
 
 <--->
 
@@ -18,9 +38,13 @@ This is probably the easiest to understand audio effect. Put simply, fade the vo
 
 {{< /columns >}}
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/GkMYl3kY7aw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Vibrato
 
-Vibrato as an effect requires pitch shifting, which I suppose actually makes it akin to FM synthesis as in Chapter 2, regardless, it's as simple as applying a, typically subtle, pitch 'wobble' into the sound. On a guitar this may be done with a pedal but more simply just by bending the string back and forth with the fingers quickly.
+Vibrato as an effect requires pitch shifting, which I suppose actually makes it akin to FM synthesis as in Chapter 2, regardless, it's as simple as applying a, typically subtle, pitch 'wobble' into the sound. On a guitar this may be done with a pedal but more simply just by bending the string back and forth with the fingers quickly or using a whammy bar. In eurorack or VCV you can just use the fm input and hook up an LFO
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/JWWZK8KFp8I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Delay
 
@@ -58,9 +82,17 @@ Finally, it's worth noting that there are a few interesting features some delays
 
 > Screenshot of [Eventide's Quadravox VST](https://www.eventideaudio.com/products/effects/diatonic-pitch-shift/quadravox), with pitch shifted delays
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/MNzBFgwkU0A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Loopers
 
 Loopers are most commonly seen in hardware and can be seen as a sort of mix between samplers and delays. Essentially you just tap in when you start playing, play what you want, then tap out, then, the loop of whatever you played will play back to you. There may be additional settings, such as a half speed effect.
+
+Often you'll see loopers used for 'Live Looping' performances, where each layer is looped and overdubbed to create a full song
+
+Here for example is a jam using the Ditto X4 looper (the box slightly blurry, closest to the camera), which is used to loop the guitar here.
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/PffyRrUEPVM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Filters (LP, HP, BP, Notch)
 
@@ -148,7 +180,11 @@ This filter module actually has a dedicated ping input, which is why I can 'ping
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/11rZJGvAimk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### AutoWah
+### Auto Wah
+
+an Auto Wah or Envelope filter uses an envelope follower to control a filter's cut off. Essentially this means how loud you play will change the filter. These are normally used on guitar, but you can put them on anything really.
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/Dp1s0Ow2BJU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Equalizers
 
@@ -179,9 +215,27 @@ Flanger works by taking a **very** short delay* which slowly modulated delay tim
 
 ## Reverb
 
-plate, room, spring, gated, erbe verb video, convolutional, delay line + allpass, hearing comb filters
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/qaEM78hdsXA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Rooms
+
+You'll often see reverbs listed as 'room', 'cathedral','cave', etc. These are trying to emulate the sound of playing in a closed space
+
+### Plate
+
+### Spring
+
+### Constitutional
+
+### Internals
+
+Delay lines, allpass, comb filters
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/Il_qdtQKnqk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Distortion
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/erv4lit4aWY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [How Distortion Works in Music (Ben Sheron's Blog)](https://benmosheron.gitlab.io/blog/2020/04/26/distortion.html)
 
@@ -191,11 +245,25 @@ plate, room, spring, gated, erbe verb video, convolutional, delay line + allpass
 
 ### Wavefolding
 
+This is one of those things where while the name is pretty self descriptive, you sorta just have to see the signal on a scope and hear it to see what it does.
+
+Like any distortion, it ultimately adds in more harmonics, so it will make it sound higher pitch.
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/nxH6lyfpLxk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 #### Parallel V Serial Wavefolding
 
 ### Drive, and Tubes
 
 ### Bitcrushing & Comparators
+
+Bit crushing is often related to sample rate reduction as well, so one at a time:
+
+Bit crushing is taking the signal and lowering the number of bits that are used to store it. This means it's an inherently digital effect. Most audio is processed at 16 or 24 bit, even at just 16 bit that means each sample point can be any of {{< katex >}}2^16 = 65536{{< /katex >}} values. Usually, audio is sampled with a Digital to Analog Coverter (DAC) at around 44.1khz. This means that 44,100 times a second the signal is sampled and the level (amplitude) of the signal is stored as a value between 0 and 65536. That bit depth (16bit) is good enough that you shouldn't really be able to tell it's digital once it's spit back though a Digital to Analog Converter (ADC). However, if we turn that bit depth down, let's say all the way to 8 bit now there are only {{< katex >}}2^8 = 256{{< /katex >}} levels of amplitude the signal can be represented with, even if we continue to sample at the same rate, this will cause audible distortion and bring a lo-fi sound. Crush even harder, say down to 2 bit (4 levels), and it turns into an outright destructive distortion that mangles the signal.
+
+Similarly, the sample rate can be reduced to cause the signal to have issues with higher frequencies as a result of aliasing.
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/59Nc9pPND8A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Todo, fabfilter distortion video]
 
@@ -203,11 +271,21 @@ plate, room, spring, gated, erbe verb video, convolutional, delay line + allpass
 
 ### Panning
 
+Panning in general is just setting the side (left/right) that a sound is balanced on. Just slightly panning everything in a mix can even add a lot. Just like anything, you can also automate panning, but that brings up auto-panners, which are effects that do this rather quickly. Cableguy's Pancake 2 VST is free and sort of the go to for showing this, though there are some tools that may be easier to use. You may also see **rotary** effects, these emulate older speaker systems that did an effect similar to this by physically spinning the speaker horns in a circle. It has a slightly different sound and is worth exploring in it's own right
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/gJyssZeXEdk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/TZlvi9428Lw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Widening
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/mwaZ85VeUoU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Noise Gating
 
 ### Gating other effects with a mix
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/DPFuhvFV9aU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 gated verb, gated distortion
 
@@ -217,7 +295,7 @@ gated verb, gated distortion
 
 ## Compression
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/BIVfpsoPnOo?list=WL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/BIVfpsoPnOo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{< hint info >}}
 

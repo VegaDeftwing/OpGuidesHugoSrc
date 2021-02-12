@@ -19,7 +19,7 @@ talk about loudness and spotify
 
 eq, pan, quadraphonic+
 
-[Delay Always Means Phase Shift But Phase Shift Does Not Always Mean Delay (YouTube, Dan Worrall)](https://youtu.be/H3ZyaXgTqjM?list=WL)
+[Delay Always Means Phase Shift But Phase Shift Does Not Always Mean Delay (YouTube, Dan Worrall)](https://youtu.be/H3ZyaXgTqjM)
 
 {{< columns >}}
 

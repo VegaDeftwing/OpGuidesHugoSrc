@@ -12,7 +12,7 @@ That said, I don't want to get to in the mud of transistor physics. I really wan
 
 ## Semiconductors?
 
-[Will gallium nitride electronics change the world? (YouTube, Engadget)](https://youtu.be/sfTXZP2DB20?list=WL)
+[Will gallium nitride electronics change the world? (YouTube, Engadget)](https://youtu.be/sfTXZP2DB20)
 
 [TODO] pic of silicon bulb
 
