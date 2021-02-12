@@ -102,7 +102,7 @@
 
 * [A Twitter Thread about PayPal blocking all transactions with the word "Tardigrade"](https://twitter.com/ArchieMcPhee/status/1304434532293046272)
 
-* [Operation Mindfuck Vol. 4, a video from rC3 (YouTube)](https://www.youtube.com/watch?v=ywYBT0xM7so&list=WL&index=7)
+* [Operation Mindfuck Vol. 4, a video from rC3 (YouTube)](https://www.youtube.com/watch?v=ywYBT0xM7so)
 
   > Isomorphic keyboards, Truchet Tiles, and much much more.
   

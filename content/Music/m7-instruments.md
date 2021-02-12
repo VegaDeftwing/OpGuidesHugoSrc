@@ -8,7 +8,7 @@ slug: "Instruments"
 
 TR808, syth, short ADSR, noise, snare, tom, kick, hat, clap, bell,
 
-[Guitar Pedals For Drums (YouTube, JHS Pedals)](https://youtu.be/yew08KqkLbg?list=WL)
+[Guitar Pedals For Drums (YouTube, JHS Pedals)](https://youtu.be/yew08KqkLbg)
 
 # Strings
 

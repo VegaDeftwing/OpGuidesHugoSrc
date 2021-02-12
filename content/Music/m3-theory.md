@@ -18,8 +18,6 @@ Out ears also like integer divisions of musical ratios- I'm sure you've heard th
 
 On the other hand perfection is boring, our ears and minds beg for stimulation, for surprise, for shock. Drums make complex sounds, that, while tuned, aren't playing a constant note and we want our music to have sufficient progression, not just repeat the same sequence endlessly. A gnarly drop in some Dubstep or the cannon fire in the 1812 Overture both serve functionally a similar purpose.
 
-The most common scale worldwide, the chromatic scale, uses 12 notes in an octave tuned to an equal temperament [TODO link] as to make as many chords as possible sound good is by far the most common but only one of an infinite ways that music can be represented. On the extreme end is Microtonal music, such as is possible on fretless [TODO link guitar, and this keyboard https://www.youtube.com/watch?v=APtJsaPxNgo] instruments. Furthermore, our choice of centering out keyboard with A set to 440Hz is relatively arbitrary (not that it's a bad thing: https://www.youtube.com/watch?v=EKTZ151yLnk).
-
 In the chromatic scale there are many other, more 'refined' scales like Minor, Major, Pentatonic, etc. These scales may be transposed to be centered around any note (or any frequency, since notes are just agreed upon frequencies and the ratios between them)
 
 And honestly? That's about all you need to know. Basically music is math and math makes music.
@@ -66,4 +64,4 @@ making instruments swap roles
 
 [(*My) Procedurally Generated Music is Awful (Cube Drone)](https://devlog.groovelet.com/p/procedurally-generated-music-is-awful)
 
-[LilyPond: programming beautiful musical scores (YouTube, 36C3)](https://www.youtube.com/watch?v=ryiXvCX3I64&list=WL&index=18)
+[LilyPond: programming beautiful musical scores (YouTube, 36C3)](https://www.youtube.com/watch?v=ryiXvCX3I64)

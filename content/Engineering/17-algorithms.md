@@ -4,7 +4,7 @@
 
 [TODO]
 
-## Discrete Math
+## <iframe width="100%" height="500" src="https://www.youtube.com/embed/zK3rDhJqMu0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [TODO] I also have discreete math in the chapter 11, math... not sure what do do about this...
 
@@ -43,7 +43,7 @@ A ⋃ B = {1, 2, 3, 4, 5, 6}
 
 [Big O Notation - explained as easily as possible (that computer scientist)](/home/vega/Downloads/newDrums)
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/LOZTuMds3LM?list=WL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/LOZTuMds3LM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > More cool videos like this can be found at https://www.youtube.com/c/Musicombo/videos
 
@@ -67,4 +67,4 @@ Heads up, this is a 5 hour video:
 
 {{< /tip >}}
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/oBt53YbR9Kk?list=WL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/oBt53YbR9Kk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
