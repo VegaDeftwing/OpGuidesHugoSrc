@@ -102,5 +102,5 @@ DAW-less just means not using a Digital Audio Workstation to make your music, us
 
 
 
-[10 Things You NEED to know before Building a Dawless Synthesizer Setup (YouTube, BoBeats)](https://youtu.be/e6lVyAcZRPk?list=WL)
+[10 Things You NEED to know before Building a Dawless Synthesizer Setup (YouTube, BoBeats)](https://youtu.be/e6lVyAcZRPk)
 

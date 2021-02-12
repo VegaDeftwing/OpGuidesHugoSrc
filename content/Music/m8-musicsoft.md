@@ -53,7 +53,7 @@ Digital Audio Workstations or 'DAWs' come in many flavors, so let's look at the 
 
 Trackers, vs non liner, vs modular, etc.
 
-[How To Ableton Like a Pro (YouTube)](https://www.youtube.com/watch?v=W8CMgThLpHc&list=WL&index=176&t=0s&ab_channel=DylanTallchief)
+[How To Ableton Like a Pro (YouTube)](https://www.youtube.com/watch?v=W8CMgThLpHc)
 
 ### VSTs and other Plugins
 
