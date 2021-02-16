@@ -20,6 +20,10 @@ https://dvt.name/2020/02/24/rfc-lets-disrupt-dating-apps/
 
 ### Advertising
 
+This video from Tom Scott provides a ton of background information and makes some really good points
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/L-x8DYTOv7w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 #### Native Ads
 
 #### Dangerous ads

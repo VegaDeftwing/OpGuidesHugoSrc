@@ -37,12 +37,38 @@ https://codepen.io/teropa/full/bRqYVj/
 
 [AutoEq (Github)](https://github.com/jaakkopasanen/AutoEq) - Automatic headphone equalization from frequency responses
 
-## A note on Music and Engineering
+## Making your own music software and hardware
 
 [TODO] compare VCV to programming, filters, etc
+
+**DSP Resources**
+
+https://ccrma.stanford.edu/~jos/sasp/
+
+[Awesome MusicDSP (Github)](https://github.com/olilarkin/awesome-musicdsp)
+
+[Tom Erbe, Design the Erbe Verb (YouTube)](https://www.youtube.com/watch?v=Il_qdtQKnqk)
+
+https://zserge.com/posts/etude-in-c/ & https://zserge.com/posts/beep/
+
+**Hardware**
 
 [A Transistor-less sound synthesizer (Hackaday, Jenny List, Dr. Cockroach)](https://hackaday.com/2020/10/24/a-transistor-less-sound-synthesizer/)
 
 [Chua oscillator on CRO during inductance sweep](https://www.youtube.com/watch?v=WRXP0ZeIrlM)
 
 http://www.doepfer.de/DIY/a100_diy.htm
+
+> As a quick note, there are a ton of possible options when choosing what to use as hardware for devloping audio hardware. You can go full analog, work with dedicated DSP hardware, use microcontrollers with full FPUs, use single board computers, use an [FPGA (Like on the Rainmaker)](https://intellijel.com/downloads/manuals/cylonix-rainmaker_manual_v1.09-143.pdf), or try to get by on a 328P (Arduino Uno). The most important part is making something, don't stress too much about what you use to do it- but don't use something prohibitively expensive or outright garbage (like the 328P) either, unless you know what you're doing. The STM32's with FPU's are probably a good bet.
+
+**Software**
+
+[Vult DSP Programming Language](https://www.vult-dsp.com/vult-language)
+
+[Awesome Audio Visualization (Github)](https://github.com/willianjusten/awesome-audio-visualization)
+
+[Kord (Github)](https://github.com/synestematic/kord) - a music theory development framework in python
+
+[Tutorial: Programming Modules for VCV Rack - Part 1 (YouTube, Leonardo Laguna Ruiz)](https://www.youtube.com/watch?v=7Z7LHAnIIac) (This might be out of date)
+
+[Tutorial: Virtual Analog Modeling Basics, the Vult way (YouTube, Leonardo Laguna Ruiz)](https://www.youtube.com/watch?v=xQYLBS9R_uA)

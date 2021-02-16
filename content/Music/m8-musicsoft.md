@@ -229,15 +229,3 @@ These 'plugins' only work on Monome's Norns hardware
 
 [euclidigons - euclidian sequencer but not like that™](https://llllllll.co/t/euclidigons/36666)
 
-# Making your own Music Software
-
-[Awesome MusicDSP (Github)](https://github.com/olilarkin/awesome-musicdsp)
-
-[Awesome Audio Visualization (Github)](https://github.com/willianjusten/awesome-audio-visualization)
-
-[Kord (Github)](https://github.com/synestematic/kord) - a music theory development framework in python
-
-[Tutorial: Programming Modules for VCV Rack - Part 1 (YouTube, Leonardo Laguna Ruiz)](https://www.youtube.com/watch?v=7Z7LHAnIIac) (This might be out of date)
-
-[Tutorial: Virtual Analog Modeling Basics, the Vult way (YouTube, Leonardo Laguna Ruiz)](https://www.youtube.com/watch?v=xQYLBS9R_uA)
-
