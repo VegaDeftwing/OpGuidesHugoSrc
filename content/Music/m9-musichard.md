@@ -79,6 +79,8 @@ Haken Audio Continuum
 
 [Sixtyfour pixels 'Noodlebox' sequencer](https://six4pix.net/product/noodlebox/)
 
+[Sixtyfour pixels 'Hack-Du-Strum'](https://six4pix.net/hacks-du-strum/), a page feautring mods of their strummable controller, similar to an omnichord
+
 [Sleepy Circuit's "Hypno" CV live visuals box](https://sleepycircuits.com/shop/hypno)
 
 

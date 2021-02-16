@@ -7,7 +7,7 @@
 
 * [Core Memory Shield for Arduino by Jussi Kilpelainen on Tindie](https://www.tindie.com/products/kilpelaj/core-memory-shield-for-arduino/)
   
-* ![](https://cdn.tindiemedia.com/images/resize/8lV_BMahceQidSR0Y2vqfpc8mTc=/p/full-fit-in/2400x1600/i/11183/products/2020-02-16T09%3A31%3A21.486Z-DSCF6793_crop.jpg?1606306133)
+* <img src="https://cdn.tindiemedia.com/images/resize/8lV_BMahceQidSR0Y2vqfpc8mTc=/p/full-fit-in/2400x1600/i/11183/products/2020-02-16T09%3A31%3A21.486Z-DSCF6793_crop.jpg?1606306133" style="zoom:33%;" />
   
 * A somewhat ridiculous precision voltage source  
 
@@ -17,8 +17,12 @@
 
 * DIY Particle Detector
   
-  * ![](https://github.com/ozel/DIY_particle_detector/raw/master/images/Alpha-spectrometer_with_ceramics_in_chocolate_box.jpeg)
+  * <img src="https://github.com/ozel/DIY_particle_detector/raw/master/images/Alpha-spectrometer_with_ceramics_in_chocolate_box.jpeg" style="zoom:33%;" />
 
 * [Williams Tube (Wikipedia)](https://en.wikipedia.org/wiki/Williams_tube)
 
 * [Slow Motion optical illusion picture frame kit on Tindie](https://www.tindie.com/products/Nick64/jf-slomo-slow-motion-frame-diy-kit/)
+
+* [USB-C PD Breadboard programmable PSU](https://hackaday.com/2021/01/16/usb-c-programmable-power-supply-for-any-project/)
+
+  * <img src="https://hackaday.com/wp-content/uploads/2021/01/5312271609785641535.jpg?w=800" style="zoom:50%;" />
