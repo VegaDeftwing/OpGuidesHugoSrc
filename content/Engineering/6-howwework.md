@@ -353,6 +353,8 @@ maintaining an aur package, pacman conf stuff
 
 Vivaldi, Firefox, Syncthing, Beaker, IPFS, IRC - irssi, Telegram, Etherape, Wireshark, gufw,
 
+[Google Images Restored](https://github.com/fanfare/googleimagesrestored)
+
 **Shell Scripts**
 
 [TODO]

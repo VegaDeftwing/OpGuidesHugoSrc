@@ -173,7 +173,7 @@ I also think there's room to allow for workflows that rely more on the physical,
 
 #### Audio And Video
 
-Your **webcam** is shit. You know how I know? Because it's a webcam. Even the everybody's go-to, the Logitcech C920, is shit<a class="ptr">(8)</a>. You know what else is shit? Your microphone. When you type on a laptop it sounds like damn earthquake, and if you get comfortable and lean back in your chair you suddenly get quiet. But more than anything it sounds like I'm carry a call over cans on a string. Maybe you have a gamer headset. Cool, the boom mic sounds about as good somebody screaming through a cardboard tube.
+[Your **webcam** is shit](https://reincubate.com/support/how-to/why-are-webcams-bad/#putting-them-to-the-test). You know how I know? Because it's a webcam. Even the everybody's go-to, the Logitcech C920, is shit<a class="ptr">(8)</a>. You know what else is shit? Your microphone. When you type on a laptop it sounds like damn earthquake, and if you get comfortable and lean back in your chair you suddenly get quiet. But more than anything it sounds like I'm carry a call over cans on a string. Maybe you have a gamer headset. Cool, the boom mic sounds about as good somebody screaming through a cardboard tube.
 
 But, better cameras do exist, and if you are willing to shell out the cash you can get a decent mic, but either way they have a problem.
 
@@ -1282,6 +1282,8 @@ Habitica?
 https://www.craft.do
 
 http://audulus.com
+
+https://dag.s-ol.nu
 
 ### Hardware for Open Experimentation
 
