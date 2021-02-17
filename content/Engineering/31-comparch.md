@@ -48,9 +48,17 @@ Multiple Instruction Streams, Multiple Data STreams (MIMD) (tightly and loosely 
 
 Power wall, max Silicon freq, max density before tunnling 
 
-## Part 2: Making the CPU
+## Part 2: What Make a CPU tick?
 
-## Part 3: Making It Do Something
+[TODO]
+
+https://computersciencewiki.org/index.php/Architecture_of_the_central_processing_unit_(CPU)#Major_parts_of_a_CPU
+
+maybe Ben Eaters bread board CPU series?
+
+## Part 3: Making the CPU
+
+## Part 4: Making It Do Something
 
 Before we start, I'll warn you this isn't easy, but it's also not as bad as it sounds, and it's certainly not as [bad](https://www.youtube.com/watch?v=C8txvmXUIJQ&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz&index=141&t=0s) as it used to be
 

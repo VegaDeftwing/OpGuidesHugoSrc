@@ -59,6 +59,12 @@ trees, hashtables/maps, stacks
 
 Fib, some pracice logical equliv, base conversion algo, overlapping lines, matrix multiplication
 
+## Locality
+
+### Temporal
+
+### Spatial
+
 ## Dynamic Programming
 
 {{< tip >}}
