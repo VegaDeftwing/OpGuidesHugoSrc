@@ -227,19 +227,62 @@ We'll talk about delivering power to the CPU in a bit, when we talk about the Vo
 
 The CPU is on a square or rectangular board that is usually covered by a large heat sink used to keep it cool under load. It connects to the motherboard via hundreds of small, gold plated pins to send and receive signals (which well will discuss in depth later) from all around the system. Even though most modern CPUs are x86_64, generation to generation and cross manufacturer there are changes in the number of pins and the way they are arranged, meaning getting a new processor that's not from the same generation usually won't work. Furthermore, most laptops have soldered on processors that can not be upgraded to begin with.
 
+### Numa Nodes? Chiplets? Die Yield?
+
+[TODO]
+
+### Branch Prediction & Pipelining
+
+I don't want to dive toooo deep into the weeds, but because of the Meltdown and Spectre vulnerabilities, I find it necessary to briefly talk about branch prediction.
+
+{{< columns >}}
+
+Basically, modern CPUs do a very good job of guessing what path of code will be executed on branches, that is code like this:
+
+<--->
+
+```python
+if condition == True:
+	doThing()
+else:
+	doOtherThing()
+```
+
+{{< /columns >}}
+
+The CPU will do a good job guessing which path will actually be taken. This is done because CPUs are actually *pipelined*.
+
+CPUs have to do a few things per each instruction, generally they need to FETCH the instruction, DECODE what that instruction is telling the CPU to do, EXECUTE that instruction, and then WRITE BACK the result of the computation. 
+
+This could be done in order,
+
+<img src="/wopipe.svg" style="-webkit-filter: invert(1);">
+
+but because the CPU uses different parts internally, they can be pipelined, sort of like an assembly line. While one instruction is in WRITE BACK, the next instruction is being EXECUTED, the next-next instruction is being DECODED, and the next-next-next is being FETCHED.
+
+<img src="/wpipe.svg" style="-webkit-filter: invert(1);">
+
+Now, there's a lot more that goes into this, times where this doesn't work -like if two instructions work on the same data, have to wait for write back before that data can be executed on- but the relevant bit here is that as much as we can, we want to keep this pipe line full. That is, we want to keep each point in the assembly line busy. To do this, the above code with an `if` utilizes branch prediction, and assuming it's correct, is able to keep the pipeline full and running like normal. If it's wrong, it has to empty the pipeline, go back, and do the correct instructions instead.
+
+The issue with this that lead to the Spectre bug was that the assumed correct path to be executed may include a security level elevation, that is, it might be code that should only be able to be executed by the administrator (root) user, but in the prediction code there's no check there, so if the prediction can be abused, code can be executed as an admin- a doomsday level vulnerability.
+
+Meltdown is similar- you can read how it works on [Wikipedia](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)#Mechanism) (actually human readable and explained well).
+
 ### A note on x86, vendors, and CPU politics
 
 [TODO]
 
-china trying to make their own silicon, apple to own CPU, etc.
+china trying to make their own silicon , apple to own SOC ([Called it](https://www.reddit.com/r/assholedesign/comments/gq2nfu/adobe_slaps_you_with_an_early_cancellation_fee/frsvjxi?utm_source=share&utm_medium=web2x&context=3)), etc.
 
 https://www.agner.org/forum/viewtopic.php?f=1&t=6
 
-## Otherthings done by the CPU:
+### Other things done by the CPU:
 
 The CPU has a lot of dedicated hardware inside for specific functions, for example many CPUs have a dedicated hardware random number generator.
 
 ## Further Reading
+
+If you want to know about the internals of the CPU itself, check out [Chapter 31 - Let's Make our own CPU]({{< relref "/Engineering/31-comparch" >}}) which goes into the componets of the CPU, why they're made the way they are, and what the future of CPU architecture may look like.
 
 [Why you should use 'nproc' and not grep /proc/cpuinfo](https://www.flamingspork.com/blog/2020/11/25/why-you-should-use-nproc-and-not-grep-proc-cpuinfo/)
 
@@ -267,9 +310,9 @@ First, size. This is an 8Gb or 8192Mb stick of ram. Obviously the more ram the b
 
 Most modern systems use 2 or 3 memory channels, to simplify a bit, it makes it so two sticks of ram can have their speed be used in parallel. Think about it like a parking lot, if you have a total of 4 parking lots you could, theoretically, hook them all up in a straight line with one entrance/exit shared among them. This would be pretty stupid though, as it would severely bottleneck traffic going though. Instead you may want to add a separate entrance and exit for each, but that quickly becomes expensive. Instead, most systems use a mix of the two, connecting a pair of sticks together, allowing for added capacity, but allowing for multiple pairs to be inserted independently. A lot of people don't fully fill all the available memory slots on their motherboard though, so instead of having 4 lots with 2 entrances you should be able to have 2 and 2, unless you mistakingly put the sticks in wrong, leaving one 'entrance' closed entirely while the other now has a ton of capacity. On my motherboard these 'lots' are labeled A1, A2, B1, and B2. Looking above you can see the stick we're looking at here is the A1 lot. It's because of this that you should ideally have a multiple of as many sticks of ram as you do memory channels. For example, if you have a two channel motherboard and CPU then you want either 2, 4, or 8 sticks of ram. Most motherboards top out at 4 sticks though, with 2 channel and 2 sticks being the most common configuration.
 
-Next, I want to look at the line that says 'Type Detail: Synchronous Unbuffered (Unregistered)' this is referencing another type of ram, which is buffered and error correcting (ECC) memory. This type of ram is almost strictly used in servers and is special because there's actually an extra physical memory die on the card. If you look above you'll notice each stick has sets of 8 black memory dies. ECC memory actually has 9 dies. The reason there are normally 8 dies is simple- there's 8 bits in a byte. Servers don't work on some magic 9-bit in a byte system, instead, this extra bit per byte is used to ensure the data hasn't been corrupted. The math behind this can get complicated and weird, but for now let's just go with it. Buffered memory is basically just adding an extra 'buffer' between the read/write and again, it's a server thing.
+Next, I want to look at the line that says 'Type Detail: Synchronous Unbuffered (Unregistered)' this is referencing another type of ram, which is buffered and error correcting (ECC) memory. I'll come back to this.
 
-Finally I want to point out the voltage. Much like a CPU the voltage a Ram module runs at is important, and needs to be kept very stable. However, it may need bumped up if the RAM is running at a particularly high speed or if it's set higher than factory (overclocked).
+I also want to point out the voltage. Much like a CPU the voltage a Ram module runs at is important, and needs to be kept very stable. However, it may need bumped up if the RAM is running at a particularly high speed or if it's set higher than factory (overclocked).
 
 Some RAM actually includes a special memory profile, often called XMPP, which can be applied in the BIOS/UEFI settings to make sure you're getting the absolute best performance out of you RAM before manual overclocking. This may actually overclock your CPU a bit as well as a bit of a side effect.
 
@@ -282,7 +325,7 @@ There's a program on your system called `free` which can be used to see how much
 Mem:           31Gi       4.5Gi        23Gi       488Mi       3.3Gi        26Gi
 ```
 
-You can see I have 32Gb of RAM total (it get's truncated to 31 because it's actually like 31.99, units are weird), with ony 4.5Gb used. Most people complain about Chorme eating all their RAM but the truth is unused RAM is wasted RAM. The OS will manage RAM for you, and if you run out start using swap (that partition we made eariler).
+You can see I have 32Gb of RAM total (it get's truncated to 31 because it's actually like 31.99, units are weird), with ony 4.5Gb used. Most people complain about Chrome eating all their RAM but the truth is unused RAM is wasted RAM. The OS will manage RAM for you, and if you run out start using swap (that partition we made eariler).
 
 Let's take a deeper dive, reading the man page for free with `man free` we can see it uses information from /proc/meminfo, so lets look at that file ourselves using `cat /proc/meminfo`.
 
@@ -294,19 +337,79 @@ Pagefaults and misses are also important. Because these topics are a bit hard to
 
 Going back to when cache was mentioned though, RAM's primary job is to hold bulk information that's in use a bit closer to the CPU. For example if you load a large image file it'll first get copied to ram and then be processed though cache in chunks, this is because there just simply isn't enough cache on the CPU to hold a large image.
 
+### Virtual Memory
+
+#### Dirty bit
+
+### Pages
+
 [TODO] Huge Pages ref [this](https://www.chaoticafractals.com/manual/getting-started/enabling-large-page-support-windows)
 
-### Memory issues and Memtest86
+### Memory issues, ECC, and Memtest86
+
+Memory can have quite a few issues, sometimes resulting in random Blue Screen of Death (BSoD) or Linux Kernel Panics, other times just occasionally corrupting data with no way to know. 
+
+If you're working with super critical data, you can at least know that something has gone wrong by using Error Correction Code (ECC) memory. In an ideal world ECC would just be standard on everything. Unfortunately, Intel is a bag of dicks and uses it for product segmentation and people are cheap: ECC is also more expensive because it requires an extra bit for every byte. This also means that instead of the normal 8 memory dies per stick of RAM, ECC memory actually has 9 dies (usually). The reason there are normally 8 dies is simple- there's 8 bits in a byte. Servers don't work on some magic 9-bit in a byte system, instead, this extra bit per byte is used to ensure the data hasn't been corrupted. 
+
+{{< columns >}}
+
+The math to do this is generally capable of detecting and fixing a single bit flip per byte, and at least detecting a double flip.
+
+This video explains how that works if you're interested:
+
+<--->
+
+<iframe width="100%" height="250" src="https://www.youtube.com/embed/X8jsijhllIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /columns >}}
+
+It is worth noting that along with being more expensive, ECC is also usually a tad slower. There's also such thing as Registered/Buffered memory, which you may see with ECC as well. Buffered memory is basically just adding an extra 'buffer' between the read/write and again, it's a server thing- you're unlikely to ever see it on a consumer platform. Just know that if you're buying RAM for a server you may need to be careful to ensure you're getting the right thing.
+
+When DDR5 comes along, ECC is built into the spec for all levels to some extent because as memory speeds have increased, the likelihood of an error has as well. It's becoming necessary for basic functionality at DDR5 speeds.
+
+Now, ECC would be great and all, but the memory in the system you're reading this on almost certainly isn't using it, so what can you do?
+
+{{< columns >}}
+
+Well, for one, you need to get a feel for when something might be a memory error. Generally, if you see issues that you can't attribute to anything in software, where there's no obvious pattern, it's a good bet that it's memory. Assuming you're on an x86(_64) system, like *most* laptops or desktops, you can check with [Memtest86(+) (Wikipedia)](https://en.wikipedia.org/wiki/Memtest86). It often needs to run for a few hours to find anything, but when it does you'll get a big red error.
+
+Unfortunately, this probably means you need to buy new RAM. In the absolute worst case, maybe a new CPU if the memory controller has gotten damaged, but this is unlikely.
+
+<--->
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Memtest86%2B_15_million_errors_2017.jpg/2560px-Memtest86%2B_15_million_errors_2017.jpg" style="zoom:50%;" />
+
+{{< attribution >}}
+
+Image by Андрей Крижановский on Wikipedia, Public Domain
+
+{{< /attribution >}}
+
+{{< /columns >}}
+
+You're far more likely to get RAM errors if you Overclock your RAM as well, so just be smart if you do OC your RAM- though I really don't recomend doing so beyond applying the [XMP profile (Tom's Hardware)](https://www.tomshardware.com/reviews/how-to-enable-xmp-ddr4-overclocking,6133.html#:~:text=Intel%20XMP%20is%20an%20automated,few%20clicks%20and%20compatible%20hardware.) your RAM may have shipped with. 
 
 ### The Future of RAM
+
+[TODO]
 
 [In-Memory Processing by UPMEM](https://www.anandtech.com/show/14750/hot-chips-31-analysis-inmemory-processing-by-upmem)
 
 [Intel Optane Persistant Memory](https://www.storagereview.com/news/intel-optane-dc-persistent-memory-module-pmm)
 
-### Rowhammer
+### Row Hammer
 
+{{< columns >}}
 
+Row Hammer is vulnrability that arrieses due to the way memory is arranged physically and electrically on a memory stick. It let's you flip bits you shouldn't be able to by 'hammering' on the row above or below the target row, hoping that you can induce a bit flip in the target row.
+
+[Row Hammer's Wikipedia Page](https://en.wikipedia.org/wiki/Row_hammer) has some a very good overview as well as some example assembly to explain the exploit
+
+<--->
+
+<iframe width="100%" height="250" src="https://www.youtube.com/embed/rGaF15-ko5w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /columns >}}
 
 
 
@@ -698,6 +801,8 @@ yay -S smartmontools
 sudo smartctl -i path/to/disk
 ```
 
+Hard drives, being the last remaining mechancial part in a computer (aside from fans or liquid cooling pumps) are also pretty prone to failure. If you want to avoid this keep vibrations to a minimum (see [Shouting in the Datacenter (YouTube)](https://www.youtube.com/watch?v=tDacjrSCeq4&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)), look for disks that are rated for your use case (being on 24/7, being next to many other hard drives, etc) and check the drives MTBF or Mean Time Between Failure. You want this number to be as high as possible, often something like 1,000,000 hours.
+
 Finally, a quick note about Western Digital Green drives: Linux eats them. Thankfully you can use hdparm to fix this. From the man page:
 
 > -J
@@ -710,8 +815,6 @@ Finally, a quick note about Western Digital Green drives: Linux eats them. Thank
 > in setting to take effect, regardless of which program is used to tweak things.
 > A  setting  of  30 seconds is recommended for Linux use.  Permitted values are from 8 to 12 seconds, and from 30 to 300 seconds in 30-second increments.  Specify a value of
 > zero (0) to disable the WD idle3 timer completely (NOT RECOMMENDED!).
-
-[Shouting in the Datacenter (YouTube)](https://www.youtube.com/watch?v=tDacjrSCeq4&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
 
 [Western Digital is trying to redefine the word “RPM” (arstechnica)](https://arstechnica.com/gadgets/2020/09/western-digital-is-trying-to-redefine-the-word-rpm/)
 
