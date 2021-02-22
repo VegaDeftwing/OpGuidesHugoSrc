@@ -573,15 +573,19 @@ Finally to install Plasma run
 
 ```bash
 sudo pacman -S xorg-server xord-utils xorg-xinit xterm plasma kde-applications
+```
 
 then
 
+```bash
 sudo systemctl enable ssdm
 
 amixer sset Master unmute
+```
 
 and finally, lets see the epic payoff of all the effort
 
+```bash
 sudo systemctl start ssdm
 ```
 
@@ -589,21 +593,21 @@ Note that KDE Plasma is fairly large to download and a bit resource intensive. A
 
 ```bash
 sudo pacman -S xorg-server xorg-utils xorg-xinit xterm mate mate-extra lightdm
+```
 
-then
-
-sudo systemctl enebale lightdm
+```bash
+sudo systemctl enable lightdm
 
 amixer sset Master unmute
 
 and finally, lets see the epic payoff of all the effort
 
-sudo systemctl start lxdm
+sudo systemctl start lightdm
 ```
 
 Alright, now you can take a few minutes to get used to how your new computer works, play with settings, etc.
 
-before you wrap up lets do a tiny bit of houskeeping
+before you wrap up lets do a tiny bit of housekeeping
 
 ```bash
 sudo pacman-key --init
