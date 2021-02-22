@@ -14,3 +14,6 @@ PygmentsStyle = "monokai"
   unsafe = true
   [markup.highlight]
     lineNos = true
+
+[markup.tableOfContents]
+  startLevel = 1

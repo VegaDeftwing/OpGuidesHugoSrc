@@ -2,69 +2,95 @@
 
 ## The Terminal
 
-In the world of programming, embedded development, and electrical debugging you will inevitably need to understand how to use a terminal/command line at some point. While the text only interface can look intimidating, it has some clear advantages. Namely it's significantly faster to use the cli or 'command line interface' version of many tools. Because of the nature of this guide you will be using the terminal frequently, so for convince sake information on using it effectively has been moved to Appendix A, though I highly recommend you read though it now.
+In the world of programming, embedded development, and electrical debugging you will inevitably need to understand how to use a terminal/command line at some point. While the text only interface can look intimidating, it has some clear advantages. Namely it's significantly faster to use the cli or 'command line interface' version of many tools. Because of the nature of this guide you will be using the terminal frequently, so for convince sake information on using it effectively has been moved to Appendix A, I highly recommend you read though it after you finish this page.
 
-At bare minimum, I recommend getting autojump (`j`) setup early as it makes navigating around the terminal much faster, `bat` makes reading code though `cat` not suck, and `tldr` will save you time when you forget how to use `tar`. Set these up early if nothing else. But really, there's a lot in Appendix A that I think is really cool. Do check it out.
+For now, at bare minimum, I recommend getting autojump (`j`) setup early as it makes navigating around the terminal much faster, `bat` makes reading code though `cat` not suck, and `tldr` will save you time when you forget how to use `tar`. Set these up early if nothing else. But really, there's a lot in Appendix A that I think is really cool. Do check it out.
 
 ## Heads up,
 
 With that out of the way, I want to preface this chapter with a big warning: Getting used to everything we're about to do will be a pretty big leap. There's a good chance you've never used a computer that works in a way like we're going to be setting up, but it's what I and many of my friends use daily and for good reason. This is probably where more opinions are going to show than anywhere else.
 
-[TODO] pacman -Qi , pacman -R
+I'm not going to repeatedly state how to install packages on Arch, so here's your lil' guide:
+
+`yay` followed by the name or description of a package you want will help you find most packages. For example, running `yay i3 wm` will come up with multiple numbered results.
+
+![yayi3](/yayi3.png)
+
+Here I could type 2 followed by pressing enter to install i3-wm. Note that whenever possible, you should prefer packages in core, community, or extra. (or any other repositories you've added to your `/etc/pacman.conf` file) over the AUR, as packages in the AUR are maintained to a slightly lesser standard and are often a bit more annoying to update. That said, the AUR is still *much* better than trying to download a package from some random webpage.
+
+Also keep in mind `yay` is a wrapper for `pacman` and can download AUR packages (`pacman` itself can't), but you can always still use `pacman` directly. Just keep in mind that while `yay` will call `sudo` for you internally to request your password, `pacman` requires it up front, so to do most operations you'll actually need to use `sudo pacman`.
+
+Speaking of, the basic operations you'll need to do with pacman:
+
+`sudo pacman -Syu` will run an update, but just using `yay` is usually better as it will update things in the AUR as well.
+
+`pacman -F name-of-program-here` will let you know what package provides what program. For example `pacman -F lsblk` will tell me that the `lsblk` command comes from the `util-linux` package.
+
+`sudo pacman -R name-of-package` will let you remove a package
+
+For more info, read the ArchWiki page on [Pacman](https://wiki.archlinux.org/index.php/Pacman) and the [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository). 
 
 ## Code editors
 
-People get defensive about the way they work, and frequently try to claim theres is the best way. I personally see value in multiple of them, but also understand how setting down with just one and getting very fast with it may have it's appeal. I have three recommendations for code editors, as silly as that may seem.
+People get defensive about the way they work, and frequently try to claim the way they work is the best way. I of corse *know* that my way is the best 😉. Really though, it's mostly a matter of settling down into a good workflow and getting very fast with it.
+
+
+
+I have three recommendations for code editors, as silly as that may seem.
 
 The first two are terminal based `nano` and `vim`,
 
-nano, is the most simplistic of all the editors I'll list here. It's stupid simple to use and for quick just opening a text file and changing one line, probably the fastest. It clearly prints it's instructions at the bottom of the terminal:
+`nano`, is the most simplistic of all the editors I'll list here. It's stupid simple to use and for quick just opening a text file and changing one line, probably the fastest. It clearly prints it's instructions at the bottom of the terminal:
 
 ![nano](/nano.png)
 
-where ^ is the ctrl key, and M the alt key. However, you'll quickly find nano rather limiting, so onto vim!
+where `^` is the ctrl key, and `M` the alt key. However, you'll quickly find `nano` rather limiting, so onto `vim`!
 
 Vim, with Spacevim (spacevim.org) ontop is a very powerful tool.
 
 ![welcome-page](https://user-images.githubusercontent.com/13142418/45254913-e1e17580-b3b2-11e8-8983-43d6c358a474.png)
 
-Vim can do everything you could ever dream of, and probably a bit more, and with spacevim ontop, it's a powerhouse. Unfortunately, vim is regularly the butt end of a joke becaue of how nutoriously difficult it is to get the hang of. For that reason I'm going to link a mini tutorial here: https://www.openvim.com/, and link [the SpaceVim documentation](https://spacevim.org/documentation). [This VIM cheat sheet may help too](https://i.imgur.com/YLInLlY.png)
+Vim can do everything you could ever dream of, and probably a bit more, and with spacevim ontop, it's a powerhouse. Unfortunately, vim is regularly the butt end of a joke because of how notoriously difficult it is to get the hang of. For that reason I'm going to link a mini tutorial here: https://www.openvim.com/, and link [the SpaceVim documentation](https://spacevim.org/documentation). [This VIM cheat sheet may help too](https://i.imgur.com/YLInLlY.png)
 
-Graphically I recommend Visual Studio Code with Platform IO<a class="ptr">(1)</a>, Bracket Pair Colorizer 2, and GitLens. If you're looking for more extensions than that, there's also a version of Asciiflow for VSCode, pleanty of extensions for live rendering (live-p5, glsl-canvas, Processing Language)
+Of course, you *probably* don't want to always use a terminal-based text editor (though you should be able to when you have to) so what's good graphically?
 
-This gives you a pretty kick butt editor on bar with most full Integrated Development Environments or IDEs. I recommend you try out IDEs, especially if for some unholy reason you want to write in Java, but otherwise this will do fine.
+Despite it being a Microsoft thing, I really recommend Visual Studio Code with Platform IO<a class="ptr">(1)</a>, Bracket Pair Colorizer 2, and GitLens. If you're looking for more extensions than that, there's also a version of Asciiflow for VSCode, plenty of extensions for live rendering (live-p5, glsl-canvas, Processing Language)
+
+This gives you a pretty kick butt editor on par with most full Integrated Development Environments (IDE). I recommend you try out IDEs, especially if for some unholy reason you want to write in Java, but otherwise this will do fine.
 
 ![code](/code.png)
 
-There are of course a ton of other options, emacs, ox, Atom, ... If these don't suit you, feel free to look into others.
+There are of course a ton of other options, emacs, ox, Atom, ... If these don't suit you, feel free to look into these. Regardless, a text editor should be pretty high up on your list of things to get setup, as it will make the latter steps much easier.
 
 ## The Desktop Environment
 
-This is the biggest change, I'm going to recommend switching from KDE, which we installed when we setup arch, to i3. i3 is a tiling window manager, this means it looks something like this:
+This is the biggest change, I'm going to recommend switching from KDE, which we installed when we setup arch, to i3-wm. i3 is a tiling window manager, this means it looks something like this:
 
-![i3](/i3.png)
+![i3](/newi3.png)
 
-This is with 3 windows open: Marktext (the program I'm writing this in), a file manager, and an terminal I used to launch the program (scrot) to take the screenshot. What's cool about i3 is how it will always use space as efficiently as possible by tiling the windows, and you can navigate between the windows (or multiple monitors) entirely by keyboard (mouse still works obviously) and open multiple virtual workspaces. When programming and using a computer for advanced things it's not uncommon to have a dozen windows open and having things organized like this can be a life saver.
+This is a screenshot of i3-wm with 4 windows open: two instances of `Typora` (the program I'm writing this in), and a file manager (`Thunar`),  a terminal (`deepin-terminal-gtk`) running `ncmpcpp` which is what I use for music. The `Typora` windows are being tabbed by i3 (it's a bit hard to see, but there's two big tabs at the top of the Window).  What's cool about i3 is how it will always use space as efficiently as possible by tiling the windows, and you can navigate between the windows (or multiple monitors) entirely by keyboard (mouse still works obviously) and open multiple virtual workspaces. When programming and using a computer for advanced things it's not uncommon to have a dozen windows open and having things organized like this can be a life saver. Plus, as I showed with the typora tabs, programs can also be tabbed instead of tiled, so I could have one tab of firefox, one of typora, and one of a terminal, so they're all still maximized but I can get between them quickly, and these tabs can be mixed with the tiles, as in that screenshot.
+
+Alright, so i3-wm is great, right? Well yes, but...
 
 i3, when first installed, is very, very minimal, it will greet you with a plain black bar and clicking with either mouse button anywhere will do nothing. You should, however, be able to open a terminal by using your modkey (probably the windows or alt key) and enter.
 
 i3 actually comes in a bunch of separate parts, the most important of which are the window manager itself, the status bar, and the task runner.
 
-The window manager is the thing that actually manages the windows, this is the part most people are referring to when talking about i3 (assuming they're not talking about an i3 Intel CPU) and is sometimes refereed to as i3wm. A very popular 'fork' of i3 is `i3-gaps` which is available in the community repository.
+The window manager is the thing that actually manages the windows, this is the part most people are referring to when talking about i3 (assuming they're not talking about an i3 Intel CPU) and is sometimes refereed to as i3wm. A very popular 'fork' of i3 is `i3-gaps` which is available in the community repository. It just addes slight gaps at the edge of the screen and between tiled applications for visual clarity. You can customize these gaps to be how ever big or small you want.
 
-On top of the raw window manager you'll probably want a status bar of some kind. While the default i3bar which is included with the i3-gaps package is fine when paired with `i3status`, it does leave a bit to be desired. Many other options are available. I personally use `polybar` though I have friends that have used `lemonbar`  or`i3blocks`.
+On top of the raw window manager you'll probably want a status bar of some kind. While the default `i3bar` which is included with the `i3-gaps` package is fine when paired with `i3status`, it does leave a bit to be desired. Many other options are available. I personally use `polybar` though I have friends that have used `lemonbar` or `i3blocks`.
 
-Finally you'll want a runner/application launcher. While i3-demu is included, I find it rather annoying to use, and much prefer `rofi` -- this is much better explained here than I can briefly: https://github.com/davatorium/rofi
+Finally you'll want a runner/application launcher. While `i3-demu` is the default, I find it rather annoying to use, and much prefer `rofi` -- this is much better explained here than I can briefly: https://github.com/davatorium/rofi
 
 To further make i3 reasonable to use you'll want a few more things:
 
-`picom` is a composite manager. This is used to allow application to have some transparency, prevent screen tearing, and do slight effects, like but a shadow behind windows. (You may also see this referred to as Compton, picom is the replacement for `Compton`)
+`picom` is a composite manager. This is used to allow application to have some transparency, prevent screen tearing, and does slight effects, like a shadow behind windows. (You may also see this referred to as Compton, picom is the replacement for `Compton`)
 
 `lxappearance-gtk3` can be used to set the theme used by various graphical applications. I use [Sweet](https://www.gnome-look.org/p/1253385/) but there are nearly endless options
 
-For setting the wallpaper (which you probably wont see much) you can use `nitrogen` or `feh`
+For setting the wallpaper (which you probably wont see much) you can use `nitrogen` or `feh`.
 
-if you have multiple monitors before setting the wallpaper though you'll probably want to arrange your monitors correctly, for this you can use `xrandr` , read the man page for more information. You can add the command you use to set up your displays to your i3 config file to apply them at each reboot
+if you have multiple monitors before setting the wallpaper though you'll probably want to arrange your monitors correctly, for this you can use `xrandr` , read the man page for more information. You can add the command you use to set up your displays to your i3 config file to apply them at each reboot. If you're having issuse with `xrandr` you may want to use `arandr` to make the initial config file.
 
 {{< columns >}}
 
@@ -81,11 +107,91 @@ ELM_SCALE=1.5
 
 {{< /columns >}}
 
-You'll be needing quite a few different utilities beyond this. for a terminal I highly recommend `kitty`,  `rxvt-unicode`, or `Alacritty`.
+You'll be needing quite a few different utilities beyond this. for a terminal I highly recommend `kitty`,  `rxvt-unicode`, or `Alacritty`, though I actually use `deepin-terminal-gtk`.
 
-For fonts you'll certainly have your own tastes, but I really like Droid Sans Mono, which is in `ttf-droid`, but `ttf-hack` and `otf-fira-code` are pretty cool too. I also recommend installing `noto-fonts`, `noto-fonts-extra`, and `ttf-font-awesome`. The noto packages will provide coverage for weird characters and font awesome is basically icons saved as a font, and many open source projects use it.
+For fonts you'll certainly have your own tastes, but I really like Droid Sans Mono, which is in `ttf-droid`, but `ttf-hack` and `otf-fira-code` are pretty cool too. I also recommend installing `noto-fonts`, `noto-fonts-extra`, and `ttf-font-awesome`. The noto packages will provide coverage for weird characters and font awesome is basically icons saved as a font, and many open source projects use it. You'll also probably want `nerd-fonts-complete` which is in the AUR.
+
+### Actually configuring i3, polybar, etc.
+
+Alright, so I just spit a lot of information at you, let's put some of it to use.
+
+The first thing we need to do is get everything installed. If you followed the install guide in Chapter 2, you should have either installed `ssdm` and `kde` or `lightdm` and `mate`. I had you start with those because they're at least somewhat familiar to most people in how they work. Fortunately, display managers like `ssdm` and `lightdm` will let you choose the environment you log into, so for now we can leave everything in place, and just login to it later.
+
+I'm going to give the list of what I want when I get a system set up, you probably won't use all of these right away, but you'll likely need them at some point. Before you do this though, make sure you've enabled `multilib` in `/etc/pacman.conf`, and update (just run `yay`).
+
+`i3-gaps`, `rofi`,  `picom` ,`polybar`(AUR), `lxappearance-gtk3`, `kitty`, `deepin-terminal-gtk`, `polkit-gnome`, `thunar`, `nautilus`, `mpd`, `ncmpcpp`, `evince`, `vivaldi`, `vivaldi-ffmpeg-codecs`, `firefox`, `pavucontrol`, `krita`, `libreoffice-fresh`, `nomacs`, `feh`, `typora` (AUR), `gparted`, `deepin-screenshot`, `audacity`, `vlc`, `kicad`, `obs-studio`, `wine`, `firewall-d`, `zsh`, `tldr`, `autojump` (AUR), `bat`, `lsd`, `duf`, `htop`, `progress`, `youtube-dl`, `hexyl`, `fzf`, `optipng`, `jpegoptim`, `speedcrunch`
+
+> if you want to game, you'll probably want `steam` too. I recommend using `steam-native-runtime` and installing `steam-fonts`. Steam also provides 'proton' which is like `wine` on steroids. It makes a huge number of Windows games work with no added effort.
+
+{{< expand "What are all of these things???" >}}
+
+| Name                  | Use                                                          |
+| --------------------- | ------------------------------------------------------------ |
+| i3-gaps               | The thing that tiles and tabs windows, draws the title bar on windows, handles window open/close events, resizes windows, etc. Literally the Window manager. |
+| rofi                  | The 'runner', opens a window for you to type the name of a program you want to run into |
+| picom                 | The 'compositer' - prevents weird graphical bugs, lets you use transparency and shadows, etc. |
+| polybar               | provides the bar at the bottom of the screen                 |
+| lxappearance-gtk3     | Lets you change the theme of graphical programs              |
+| kitty                 | Terminal emulator                                            |
+| deepin-terminal-gtk   | Another Terminal emulator                                    |
+| polkit-gnome          | allows graphical programs to request your password           |
+| thunar                | file manager                                                 |
+| nautilus              | another file manager, a bit slower to use but handles remote connections well |
+| mpd                   | the 'sever' side of the music player I like                  |
+| ncmpcpp               | the 'client' side of the music music player I like           |
+| evince                | pdf++ viewer                                                 |
+| vivaldi               | my web browser of choice                                     |
+| vivaldi-ffmpeg-codecs | lets you watch youtube videos without the browser shitting itself |
+| firefox               | spare web browser. Trust me. You want two.                   |
+| pavucontrol           | volume control                                               |
+| krita                 | art program                                                  |
+| libreoffice-fresh     | Word, Excel, etc. alternative. Can open word docs.           |
+| nomacs                | good image viewer, with some editing capabilities            |
+| feh                   | minimal image viewer                                         |
+| typora                | markdown document editor                                     |
+| gparted               | storage manager (reformatting hard drives, etc.)             |
+| deepin-screenshot     | Screenshot with some editing built in.                       |
+| audacity              | audio editor                                                 |
+| vlc                   | media player (video++)                                       |
+| kicad                 | PCB design software                                          |
+| obs-studio            | screen recording++                                           |
+| wine                  | run windows programs on Linux. **do not use this for driver software, bios updates, etc.** |
+| firewall-d            | Firewall service and config program                          |
+| zsh                   | shell, better than bash                                      |
+| autojump              | make shell navigation faster                                 |
+| bat                   | better in-terminal file preview                              |
+| lsd                   | better in-terminal file listing                              |
+| duf                   | quick disk usage viewer                                      |
+| ncdu                  | disk usage analyzer, find what's filling your entire disk    |
+| htop                  | like Task-manager on steroids                                |
+| progress              | view progress of a running terminal app                      |
+| youtube-dl            | download videos/gifs from basically any website              |
+| hexyl                 | hex-dump file                                                |
+| fzf                   | dependency for many other things, useful to make quick terminal menus |
+| optipng & jpegoptim   | lossless shrink of image file sizes                          |
+| speedcrunch           | fast to use calculator program                               |
+
+{{< /expand >}}
+
+> This might work, but also might not, installing packages in bulk fails sometimes
+>
+> [TODO] one-liner install with --needed
+
+First things first, lets get switched over to `zsh` and setup `oh-my-zsh` and `autojump`.
+
+[TODO]
+
+Pop open your text editor to work on your `~/.config/i3/config` file, and go ahead and open up [the i3 User's Guide](https://i3wm.org/docs/userguide.html) in a browser for reference. We're gonna get cookin'.
+
+
+
+[TODO]
+
+
 
 inside your i3 config file you may want to set specific actions to take place based on a window's name (bind all social applications to a social workspace for example) to do this you'll need to get the windows class using a tool like `xprop`
+
+### Customization Resources
 
 If you're looking for more ways to make your setup the best it can be or config files you can steal from check out  [r/unixporn](https://www.reddit.com/r/unixporn).
 

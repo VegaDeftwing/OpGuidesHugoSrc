@@ -1,7 +1,6 @@
 ---
 headless: true
----
-
+bookHidden: true
 ---
 
 <div class="navbak" style="background:#009CDF;>
@@ -12,6 +11,7 @@ headless: true
 
   - [ 0 - What is this?]({{< relref "/Engineering/Engineering" >}})
   - [ Ⅰ - Community]({{< relref "/Engineering/ep1-community" >}})
+
   - [ Ⅱ - Learn How to Learn]({{< relref "/Engineering/ep2-howtolearn" >}})
   - [ 1 - The First Goal]({{< relref "/Engineering/1-firstgoal" >}})
   - [ 2 - Installing Arch Linux]({{< relref "/Engineering/2-arch" >}})

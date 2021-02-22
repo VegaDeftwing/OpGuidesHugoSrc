@@ -40,18 +40,19 @@ Of note, while the majority of these commands should be available on nearly any 
 
 - **man** "man [command/topic]", ex, "man ascii", bring up an in depth manual page for a given command/topic.
   
-  - Alternative recommendation: **tldr**, actually digestible and much faster when it gives enough info 
+  - Alternative recommendation: [**tldr**](https://github.com/tldr-pages/tldr), actually digestible and much faster when it gives enough info 
 - **pwd** - Print working directory - literally just a command to tell you the file path to where you are
 - **ls** - list - list the files/folders in the current directory, lots of flags available
   
-  - Alternative recommendation: **exa** 
+  - Alternative recommendation: **exa** or **[lsd](https://github.com/Peltoche/lsd)**
 - **cd** - change directory, if you can't use this may god have mercy
   
-  - Alternative recommendation: **j (for autojump)** 
+  - Alternative recommendation: **j (for [autojump](https://github.com/wting/autojump))** 
+  - note that `cd ..` will move back by one folder.
 - **mv** - move (or rename) a file to a new location (or name)
   
   - Alternative recommendation: **rsync**
-- **rm** - remove a file/folder
+- **rm** - remove a file
 - **touch** - create an empty file, or change last accessed time of existing file
 - **mkdir & rmdir** - make or remove an empty directory (folder)
 - **cat** - output the contents of a file
@@ -62,7 +63,7 @@ Of note, while the majority of these commands should be available on nearly any 
 - **ln** - make a symbolic / hard link (shortcut)
 - **du & df** - Disk usage and disk free, **df** will show you how much room you have left per disk, **du** serves to help find what's using up your disk
   
-  - Alternative recommendation: **ncdu** doesn't suck. 
+  - Alternative recommendation: **ncdu** and [**duf**](https://github.com/muesli/duf)
 - **clear** - clear the screen of text- (only use in scripts)
   
   - Alternative recommendation: **ctrl + l** , much faster
@@ -473,7 +474,7 @@ like [brow.sh](https://www.brow.sh) [TODO]
 
 Mostly taken from https://wiki.archlinux.org/index.php/List_of_applications and https://github.com/Kickball/awesome-selfhosted
 
-## Graphical Enviroments++
+## Graphical Environments++
 
 Gnome, KDE, Pantheon,
 
