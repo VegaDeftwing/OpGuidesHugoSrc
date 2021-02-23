@@ -119,7 +119,7 @@ The first thing we need to do is get everything installed. If you followed the i
 
 I'm going to give the list of what I want when I get a system set up, you probably won't use all of these right away, but you'll likely need them at some point. Before you do this though, make sure you've enabled `multilib` in `/etc/pacman.conf`, and update (just run `yay`).
 
-`i3-gaps`, `rofi`,  `picom` ,`polybar`(AUR), `lxappearance-gtk3`, `kitty`, `deepin-terminal-gtk`, `polkit-gnome`, `thunar`, `nautilus`, `mpd`, `ncmpcpp`, `evince`, `vivaldi`, `vivaldi-ffmpeg-codecs`, `firefox`, `pavucontrol`, `krita`, `libreoffice-fresh`, `nomacs`, `feh`, `typora` (AUR), `gparted`, `deepin-screenshot`, `audacity`, `vlc`, `kicad`, `obs-studio`, `wine`, `firewall-d`, `zsh`, `tldr`, `autojump` (AUR), `bat`, `lsd`, `duf`, `htop`, `progress`, `youtube-dl`, `hexyl`, `fzf`, `optipng`, `jpegoptim`, `speedcrunch`
+`i3-gaps`, `rofi`,  `picom` ,`polybar`(AUR), `lxappearance-gtk3`, `kitty`, `deepin-terminal-gtk`, `polkit-gnome`, `thunar`, `nautilus`, `mpd`, `ncmpcpp`, `evince`, `vivaldi`, `vivaldi-ffmpeg-codecs`, `firefox`, `pavucontrol`, `krita`, `libreoffice-fresh`, `nomacs`, `feh`, `typora` (AUR), `gparted`, `deepin-screenshot`, `audacity`, `vlc`, `kicad`, `obs-studio`, `wine`, `firewall-d`, `zsh`, `tldr`, `autojump` (AUR), `bat`, `lsd`, `duf`, `htop`, `progress`, `youtube-dl`, `hexyl`, `fzf`, `optipng`, `jpegoptim`, `speedcrunch`, `caffeine-ng`, `redshift`
 
 > if you want to game, you'll probably want `steam` too. I recommend using `steam-native-runtime` and installing `steam-fonts`. Steam also provides 'proton' which is like `wine` on steroids. It makes a huge number of Windows games work with no added effort.
 
@@ -170,6 +170,8 @@ I'm going to give the list of what I want when I get a system set up, you probab
 | fzf                   | dependency for many other things, useful to make quick terminal menus |
 | optipng & jpegoptim   | lossless shrink of image file sizes                          |
 | speedcrunch           | fast to use calculator program                               |
+| caffeine-ng           | ability to turn off screensaver/suspend from tray            |
+| redshift              | bluelight filter to prevent your eyes from bleeding          |
 
 {{< /expand >}}
 

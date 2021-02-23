@@ -1,6 +1,5 @@
 ---
 headless: true
-bookHidden: true
 ---
 
 <div class="navbak" style="background:#009CDF;>
