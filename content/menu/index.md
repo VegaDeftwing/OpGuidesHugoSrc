@@ -123,7 +123,8 @@ headless: true
   - [ 2 - Analog Art]({{< relref "Design/d2-analog" >}})
   - [ 3 - Digital Art]({{< relref "Design/d3-digtal" >}})
   - [ 4 - UI/UX]({{< relref "Design/d4-uiux" >}})
-  - [ 5 - Generative Tools]({{< relref "Design/d5-gen" >}})
+  - [ 5 - 3D]({{< relref "Design/d5-3D" >}})
+  - [ 6 - Generative Tools]({{< relref "Design/d6-gen" >}})
   - [A1 - Other Resources]({{< relref "Design/da1-other" >}})
   - [A2 - Inspirational Art]({{< relref "Design/da2-ia" >}})
   - </div>
