@@ -1,5 +1,11 @@
 # Chapter 24 - Security
 
+{{< tip >}}
+
+This chapter will be getting merged into Chapter 23
+
+{{< /tip >}}
+
 Before we get started on these next two chapters I want to get something out of the way:
 
 Security is important, and should be taken seriously. **But** it's also a field of people who are tired of your shit, Karen. We don't wear suits and we won't do something just to look 'professional'.
@@ -68,3 +74,46 @@ Ut gravida venenatis luctus. Fusce sagittis quam vehicula porttitor condimentum.
 
 https://adamcaudill.com/2015/11/19/responsible-disclosure-is-wrong/
 
+
+
+[TODO - thinking about an outline, please ignore this...]
+
+* DOs and DO-NOTs
+  * DO sanitize *all* your inputs
+  * DO NOT use random crypto libraries
+  * DO NOT manage your own memory
+    * DO NOT trust something to abstract away memory managment perfectly either
+      * python x=1 is y=1 but x=101 is not y=101
+  * DO NOT assume...
+    * the hardware is secure
+      * Are you in a VM? Are their hardware sidechannel attacks?
+    * that things wont break
+      * that things wont overflow
+      * that the stack can't be smashed
+      * that there's not somebody trying to break your shit
+    * That you're talking to who you think you are
+    * That data won't get leaked
+    * That your users will have any idea why a signature, key, or anything else is
+    * That your users give a shit about security
+    * The code you write is the code that will run
+      * The compiler may not be magic, but it sure does feel like it
+  * DO NOT claim unhackability
+  * DO NOT use the cool, flashy, new thing on the block for sensative data
+  * DO NOT assume that just because it's old and nobody has found a bug, that it's secure
+  * DO NOT trust humans, espically those in customer support
+* Email sucks
+* PGP really sucks
+* Authentication!=Authorization ; Auth!=Identity
+* Metadata can bite you in the ass
+* Threat modeling
+* Sandboxes
+* Firewalls, intrusion detection, DNS blackholes, Fail2Ban, etc.
+* Malware types
+  * ++ Cryptolockers, rootkits, and the real nasty shit
+* Privacy on the Web, Fingerprinting
+  * What should your employer be able to see?
+* Stalkerware
+* Expect everything to go to shit
+  * Backups
+  * Keeping uptime
+* IOT, Elections, and Infrastructure
