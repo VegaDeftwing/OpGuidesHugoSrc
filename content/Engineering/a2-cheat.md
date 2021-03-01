@@ -129,6 +129,8 @@ https://github.com/alandefreitas/matplotplusplus
 
 > Only including the less common ones here. If you're new to python you should look into Numpy, Matplotlib, Pygame, Pandas, and Requests. Those more or less make up the
 
+[Sympy](https://www.sympy.org/en/index.html) - Symbolic computation for python. 
+
 [Pretty Errors](https://github.com/onelivesleft/PrettyErrors) - "Prettify Python exception output to make it legible."
 
 [Pampy](https://github.com/santinic/pampy) - Pattern Matching for Python
@@ -156,6 +158,8 @@ https://github.com/mitsuba-renderer/nanogui
 [MoviePy](https://pypi.org/project/moviepy/) - "a Python library for video editing: cutting, concatenations, title insertions, video compositing (a.k.a. non-linear editing), video processing, and creation of custom effects"
 
 > Also see pyO3 in rust above, which allows for writing python modules. Of course python modules can be written [in C or C++](https://docs.python.org/3/extending/extending.html), but doing so in Rust is safer, because, Rust.
+
+> For Matplotlib, I do recomend looking at the aviailable [Matplotlib colormaps](https://matplotlib.org/stable/tutorials/colors/colormaps.html) and [color map normalization](https://matplotlib.org/stable/tutorials/colors/colormapnorms.html#sphx-glr-tutorials-colors-colormapnorms-py) as the colors used to view your data can make a huge difference in how readable it is
 
 #### Python Machine Learning
 
