@@ -11,9 +11,12 @@ slug: "Infrastructure"
 ## Eco Friendly
 
 <div style="display: inline-block; background-color: #fff; border-radius: 10px;"><blockquote class="reddit-card"><a href="https://www.reddit.com/r/funny/comments/l5dzig/legacy_oc/">Legacy [OC]</a> from <a href="http://www.reddit.com/r/funny">r/funny</a></blockquote>
-    <script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script></div>
+    <script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script></div></br>
 
 Carbon Tax?
+
+</br><div style="display: inline-block; background-color: #fff; border-radius: 10px;"><blockquote class="reddit-card"><a href="https://www.reddit.com/r/dataisbeautiful/comments/lsw33w/percentage_of_all_fossil_fuel_emissions_that_have/">Percentage of all fossil fuel emissions that have occurred in my lifetime [OC]</a> from <a href="http://www.reddit.com/r/dataisbeautiful">r/dataisbeautiful</a></blockquote>
+    <script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script></div>
 
 [Geoengineering: A Horrible Idea We Might Have to Do (YouTube, Kurzgesagt)](https://www.youtube.com/watch?v=dSu5sXmsur4)
 

@@ -41,7 +41,7 @@ On the note of CSS- that has been a major pain point for me. Web dev is both eas
 | display  | content   | it    |
 | probably | shouldn't | .     |
 
-This is most obvious in the [Generative Tools]({{< relref "Design/d5-gen" >}}) chapter of the Design section. The page has great content, but renders like a dumpster fire and I still don't know how to fix it cleanly. Probably something with CSS Grids but after repeated attempts to make something work I gave up, so at least for now it will remain as the dumpster fire it is.
+This is most obvious in the [Generative Tools]({{< relref "Design/d6-gen" >}}) chapter of the Design section. The page has great content, but renders like a dumpster fire and I still don't know how to fix it cleanly. Probably something with CSS Grids but after repeated attempts to make something work I gave up, so at least for now it will remain as the dumpster fire it is.
 
 {{< tip >}}
 

@@ -48,6 +48,9 @@ There's a pretty big list of considerations you should keep in mind when what yo
 
 * Can differently-abled people still use it?
   * <p style="background: -webkit-linear-gradient(90deg, #F00, #0F0); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"> Color Blindness? </p>
+  
+    * check out this [color blindness simulator (color-blindness.com)](https://www.color-blindness.com/coblis-color-blindness-simulator/)
+ 
   * Deaf?
   * Bad vision?
     
