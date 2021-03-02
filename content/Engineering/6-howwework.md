@@ -123,7 +123,7 @@ I'm going to give the list of what I want when I get a system set up, you probab
 
 > if you want to game, you'll probably want `steam` too. I recommend using `steam-native-runtime` and installing `steam-fonts`. Steam also provides 'proton' which is like `wine` on steroids. It makes a huge number of Windows games work with no added effort.
 
-{{< expand "What are all of these things???" >}}
+{{< details "What are all of these things???" >}}
 
 | Name                  | Use                                                          |
 | --------------------- | ------------------------------------------------------------ |
@@ -173,7 +173,7 @@ I'm going to give the list of what I want when I get a system set up, you probab
 | caffeine-ng           | ability to turn off screensaver/suspend from tray            |
 | redshift              | bluelight filter to prevent your eyes from bleeding          |
 
-{{< /expand >}}
+{{< /details >}}
 
 > This might work, but also might not, installing packages in bulk fails sometimes
 >
