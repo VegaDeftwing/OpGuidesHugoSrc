@@ -1,4 +1,10 @@
-# Chapter 23 - Exploitation & Security
+# Chapter 23 - Security & Exploitation
+
+{{< hint warning >}}
+
+I'm going to assume at least some prior knowledge here, if you want a quick intro, I recommend going through [./missing-semester-Security](https://missing.csail.mit.edu/2020/security/) so that we can all be on the same page.
+
+{{< /hint >}}
 
 {{< columns >}}
 
@@ -22,7 +28,7 @@ Most books on hacking or security start out either painfully formal talking abou
 
 Neither of these are probably your biggest concern.
 
-Instead, you should be thinking "How do I write code that isn't horribly fucked for security?"
+Instead, you should be thinking "How do I write code that isn't horribly fucked for security?" then wrap back around to getting a deeper understanding so that you can know how to actually know how to make some of the more complex decisions, and why they matter.
 
 Let's start with an example:
 
@@ -118,7 +124,7 @@ Similarly, crypto is hard, unless you want to go into it (which is cool, go for 
 
 I would seriously hope this is a 'No Shit'. Unfortunately, it seems it's not. So, allow me:
 
-DO NOT USE: MD5, DES (Including Tripple DES), SHA-1*, AES-EBC, AES-CBC without a MAC
+DO NOT USE: MD5, DES (Including Tripple DES), SHA-1*, AES-EBC, AES-CBC without a [MAC](https://en.wikipedia.org/wiki/CBC-MAC)
 
 Alright, so what should you use? Well, the answer is obviously "It depends on what you want", but in general the recommendations from [Cryptographic Right Answers](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html) are probably a good place to start.
 
@@ -234,9 +240,19 @@ Some things you should consider:
   * This exact problem leads to people being able to carry out a [SIM swap scam (Wikipedia)](https://en.wikipedia.org/wiki/SIM_swap_scam)
 * While verification of identity is important, so is looking up that identity in the first place. If you always call the wrong number, always connect to the wrong URL, etc. You're asking for someone to come along and fill that role.
 
-### DO NOT CLAIM UNHACKABILITY
+### DO NOT claim 'unhackability'
 
 If you do, and you get hacked, it goes from being tragic to funny, and it's a huge welcome sign to bored hackers that *will* find a way in.
+
+{{< details "Examples of 'unhackable' systems:" >}}
+
+[‘Unhackable’ encrypted flash drive eyeDisk is, as it happens, hackable (TechCrunch)](https://techcrunch.com/2019/05/10/eyedisk-encrypted-flash-drive-unhackable/)
+
+---
+
+![unhackable](/unhackable1.jpg ':size=50%')
+
+{{< /details >}}
 
 ### DO NOT think that code=binary
 
@@ -278,13 +294,17 @@ Similarly, unless you know you're audience is already technical, don't assume th
 
 There's a reason torrent clients verify the hash automatically, that browsers show a little lock, and that telegram lets users [check their keys with emoji](https://www.slashgear.com/telegram-debuts-voice-calls-uses-emoji-codes-to-verify-security-30480357/).
 
-Also don't make your users change passwords on a schedule. We all hate it, [It's not even recomended anymore](https://pages.nist.gov/800-63-FAQ/#q-b05), and it's just a royal PITA.
+Also don't make your users change passwords on a schedule. We all hate it, [It's not even recomended anymore](https://pages.nist.gov/800-63-FAQ/#q-b05), and it's just a royal PITA. 
 
 ### ...Or that they have a single clue about privacy
 
+[TODO]
+
 https://0l.wtf/posts/4_visual_browser_fingerprinting.html
 
-### Old ≠ Good & New ≠ Good
+#### What about on the job or at school?
+
+### DO NOT think that Old ≠ Good & New ≠ Good
 
 ... Middleaged doesn't mean good either I guess.
 
@@ -292,31 +312,111 @@ Basically, just because something is new and shiny and claims to be 200% as fast
 
 Basically, what I'm saying is you should be careful when choosing what to use, patch shit when vulnerabilities are found, and despite how handy using some new kid on the block library looks, you might wanna avoid it if you're handling sensitive data.
 
-### Have a plan
+### DO NOT get over confident
 
 You should expect something to fail. Data **will** leak. You **will** have an 'oh shit' moment. The shit will, in fact, hit the fan, splatter all over the room, and seep into the carpet.
 
 The best you can do is have a plan for when this happens and do your best to make sure that when it does the damage- both short and long term- is minimal.
 
+Basically this comes down to two things: Backups and maintaining uptime. For backups:
+
+> The 3-2-1 rule can aid in the backup process. It states that there should be at least 3 copies of the data, stored on 2 different types of storage media, and one copy should be kept offsite, in a remote location
+
+For uptime, well, that's more complicated. If you're trying to keep 99.99%+ uptime, you'll have to get creative with automatic failovers, software defined networking/storage, etc.
+
+That said, trying to get umpteen 9's of uptime is a bit crazy for most things anyway.
+
+### DO NOT trust humans
+
+Customer support exists to bypass security. Users exist to find bugs you wouldn't think possible. hackers exist to show you that you suck at programming. humans in general exist to do things that to other humans seems totally illogical.
+
+Don't trust humans. [They're Made Out of Meat.](https://www.youtube.com/watch?v=7tScAyNaRdQ)
+
+---
+
+<img src="https://imgs.xkcd.com/comics/messaging_systems.png" alt="xkcd messaging systems" style="zoom:100%; display: block; margin-left: auto; margin-right: auto;" />
+
+> 'SMS is just the worst, but I'm having trouble convincing people to adopt my preferred system, TLS IRC with a local server and a patched DOSBox gateway running in my mobile browser.'
+
+{{< attribution >}}
+
+[XKCD #2365](https://xkcd.com/2365/)
+
+{{< /attribution >}}
+
+Before we go any further, I want to get something out of the way:
+
+Security is important, and should be taken seriously. **But** it's also a field of people who are tired of your shit, Karen. We don't wear suits and we won't do something just to look 'professional'.
+
+If I want to curse, if I want to put furry art on these pages, I will do as I fucking please.
+
+Real 'Security Professionals' own the word hacker, and real hackers don't give a shit about what society tells them to do. Hacking is about finding how systems can do something far outside of what the original desigener ever even considered, about finding solutions so elegant they're art, about breaking boundries. If you want to keep with professionalism or tradition you're in the wrong place.
+
+As [Soatok](https://soatok.blog/2020/10/08/vanity-vendors-and-vulnerabilities/) put it:
+
+> If people who are sharing great content–be it on Twitter or on their personal blog–do something that prevents you from sharing their content with your coworkers, the problem isn’t us.
+>
+> No, the real problem is your coworkers and bosses, and the unquestioned culture of anal-retentive diversity-choking bullshit that pervades business everywhere.
+
+---
+
+## Authentication & Authorization
+
+Authentication != Identity
+
+## Cryptography
+
+[How To Learn Cryptography as a Programmer (Soatok)](https://soatok.blog/2020/06/10/how-to-learn-cryptography-as-a-programmer/)
+
+[A furry writes about Cryptography but trust me you should actually read this (Soatok)](https://soatok.blog/2020/10/23/solving-for-why-furry-blogging-about-cryptography/)
+
+## Hashing
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/S9JGmA5_unY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Note there's general two 'classes' of hashing- hashing for cryptographic security (Passwords) and for just general usage, the cryptographic ones typically are significantly more computationally intensive to make it harder to brute force all possible keys. Also most cryptographic hashing algorithms go to much greater lengths to avoid collisions. Also, salting is relevant here: [Salting (Wikipedia)](https://en.wikipedia.org/wiki/Salt_(cryptography))
+
+## Security Policies
+
+Metadata can bite you in the ass
+
+## Threat Modeling
+
+## Network Security
+
+{{< columns >}}
+
+* Email sucks
+
+* PGP really sucks
+
+* Firewalls, intrusion detection, DNS blackholes, Fail2Ban, etc.
+
+* DoS/DDoS
+
+  MitM
+
+  XXS
+
+  [How The Self-Retweeting Tweet Worked: Cross-Site Scripting (XSS) and Twitter (Youtube - Tom Scott)](https://www.youtube.com/watch?v=zv0kZKC6GAM&ab_channel=TomScott)
+
+  MAC/IP spoofing
+
+  sniffing
+
+  DNS: [idn-phishing](https://www.xudongz.com/blog/2017/idn-phishing/)
+
+  [Wifi Cactus](https://blog.adafruit.com/2017/08/02/wificactus-when-you-need-to-know-about-hackers-wearablewednesday/)
+
+<--->
+
+![phyxius](/phyxius.jpg)
+
+> [Source](https://furrynetwork.com/artwork/1647029/hacker-dragon/), [Artist](https://www.furaffinity.net/user/halybs/) (used with permission from Phyxius)
+
+{{< /columns >}}
 
 
-* DO NOT assume...
-
-  * that things wont break
-
-    * that things wont overflow
-    * that the stack can't be smashed
-    * that there's not somebody trying to break your shit
-
-  * That data won't get leaked
-
-    
-
-* DO NOT use the cool, flashy, new thing on the block for sensative data
-
-* DO NOT assume that just because it's old and nobody has found a bug, that it's secure
-
-* DO NOT trust humans, espically those in customer support
 
 ## Types of exploits
 
@@ -356,24 +456,6 @@ pseudo-random
 
 Fuzzing
 
-#### Networking
-
-DoS/DDoS
-
-MitM
-
-XXS
-
-[How The Self-Retweeting Tweet Worked: Cross-Site Scripting (XSS) and Twitter (Youtube - Tom Scott)](https://www.youtube.com/watch?v=zv0kZKC6GAM&ab_channel=TomScott)
-
-MAC/IP spoofing
-
-sniffing
-
-DNS: https://www.xudongz.com/blog/2017/idn-phishing/
-
-[Wifi Cactus](https://blog.adafruit.com/2017/08/02/wificactus-when-you-need-to-know-about-hackers-wearablewednesday/)
-
 ### Hardware
 
 [Intro to Hardware Reversing: Finding a UART and getting a shell (YouTube)](https://www.youtube.com/watch?v=ZmZuKA-Rst0&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
@@ -412,6 +494,8 @@ default passwords
 
 honey pots
 
+stalkerware (Should this be moved?)
+
 ### Physical security
 
 Lock picking as a last resort
@@ -428,7 +512,7 @@ Viruses
 
 polymorphic
 
-boot-record
+boot-record/rootkit
 
 trojan
 
@@ -455,6 +539,20 @@ Wireshark
 Cheatengine
 
 dynamic linking
+
+Sandboxing
+
+## Responsible Disclosure
+
+https://adamcaudill.com/2015/11/19/responsible-disclosure-is-wrong/
+
+## IOT
+
+## Infrastructure
+
+## Elections
+
+
 
 ## Getting some practice
 
@@ -506,10 +604,6 @@ https://nagarrosecurity.com/blog/interactive-buffer-overflow-exploitation
 
 [Leap Day Bugs](https://codeofmatt.com/list-of-2020-leap-day-bugs/)
 
-Never claim something is 'unhackable':
-https://techcrunch.com/2019/05/10/eyedisk-encrypted-flash-drive-unhackable/,
-![unhackable](/unhackable1.jpg ':size=50%')
-
 [DEF CON 18 - Zoz - Pwned By The Owner: What Happens When You Steal A Hacker's Computer (YouTube)](https://www.youtube.com/watch?v=Jwpg-AwJ0Jc)
 
 [Diabetics Are Hacking Their Own Insulin Pumps (YouTube)](https://www.youtube.com/watch?v=bouYRMItWnI)
@@ -524,13 +618,15 @@ https://techcrunch.com/2019/05/10/eyedisk-encrypted-flash-drive-unhackable/,
 
 From https://wiki.xxiivv.com/#development:
 
-> The Four Essential Freedoms
-> The freedom to run the program as you wish, for any purpose.
-> The freedom to study how the program works, and change it.
-> The freedom to redistribute copies so you can help others.
+> The Four Essential Freedoms:</br>
+> The freedom to run the program as you wish, for any purpose.</br>
+> The freedom to study how the program works, and change it.</br>
+> The freedom to redistribute copies so you can help others.</br>
 > The freedom to distribute copies of your modified versions to others.
 
-The hacker and information freedom community has multiple 'sacred texts' if you will, which I think do a good job of outlining some of the ideologies of the communities. Probably the most famous is the Guerrilla Open Access Manifesto written by Aaron Swartz, an amazing man that, according to Wikipedia "was involved in the development of the web feed format RSS and the Markdown publishing format, the organization Creative Commons, and the website framework web.py, and was a co-founder of the social news site Reddit". Due to his extensive work in online politics his Wikipedia page almost acts like a hub of sorts for relevant information: https://en.wikipedia.org/wiki/Aaron_Swartz. The full text of the Guerrilla Open Access Manifesto is below:
+The hacker and information freedom community has multiple 'sacred texts' if you will, which I think do a good job of outlining some of the ideologies of the communities. Probably the most famous is the Guerrilla Open Access Manifesto written by Aaron Swartz, an amazing man that, according to Wikipedia "was involved in the development of the web feed format RSS and the Markdown publishing format, the organization Creative Commons, and the website framework web.py, and was a co-founder of the social news site Reddit". Due to his extensive work in online politics his Wikipedia page almost acts like a hub of sorts for relevant information: https://en.wikipedia.org/wiki/Aaron_Swartz. His most famous text though is probably the Guerrilla Open Access Manifesto.
+
+{{< details "'Guerrilla Open Access Manifesto:" >}}
 
 > Information is power. But like all power, there are those who want to keep it for
 > themselves. The world's entire scientific and cultural heritage, published over centuries
@@ -593,7 +689,11 @@ The hacker and information freedom community has multiple 'sacred texts' if you 
 
 If you'd like more information on Swartz's infulence you can watch a documentry on him [here](https://www.youtube.com/watch?v=vXr-2hwTk58&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz&index=367&t=0s)
 
-Another important document is "The Conscience of a Hacker" written by "The Mentor" in '86
+{{< /details >}}
+
+Another one that you should read is *The Conscience of a Hacker* written by 'The Mentor' in '86:
+
+{{< details "The Conscience of a Hacker" >}}
 
 > Another one got caught today, It's all over the papers.
 > "Teenager Arrested in Computer Crime Scandal", "Hacker arrested
@@ -673,4 +773,6 @@ Another important document is "The Conscience of a Hacker" written by "The Mento
 > +++The Mentor+++
 > Racketeers
 
-![irules](/irules.jpg)
+{{< /details >}}
+
+<div hidden><img src="/irules.jpg" alt="internet rules" style="zoom:100%; display: block; margin-left: auto; margin-right: auto;" /></div>
