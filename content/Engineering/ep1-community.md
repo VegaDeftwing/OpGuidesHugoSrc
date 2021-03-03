@@ -109,7 +109,7 @@ In general I've found site specific forms and Reddit to be the best platforms fo
 
 No matter what you care about, know there's a wide range of communities that would be thrilled to have you, and you can always combine what you learn here with any of the other interests you have to make the things your passionate about better!
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/0QO0yZldC2M?list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/0QO0yZldC2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The maker and hacker communities tend to focus a lot on popularity and getting your name out there. While obivously it's cool to do so, don't let likes and followers be your motivation. Make cool things to make cool things, and people will come. The number one best thing to see on the internet is someone that is passionate about something sharing those passions. It's better to have a dozen good friends that share those passions, than 25k followers that just go 'oh, neat' anyway.
 
