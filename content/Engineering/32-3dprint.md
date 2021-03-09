@@ -12,6 +12,8 @@
 
 [Epoxy Inlay and Rustic Compass Butcher Block Countertops (imgur)](https://imgur.com/gallery/uYeV6G9) [(YouTube)](https://www.youtube.com/watch?v=jGTkFdYeaJc&feature=youtu.be)
 
+
+
 ### Metal Working
 
 #### Safety
@@ -31,6 +33,8 @@ While this book/guide/thing primarily focuses on the less mechancial-engieering-
 [Laser Etching Stainless Steel with Mustard (Hackaday)](https://hackaday.com/2021/01/02/laser-etching-stainless-steel-with-mustard/)
 
 [Achieve true 3D printing with non planar slicing (YouTube, Teaching Tech)](https://www.youtube.com/watch?v=gmePlcU0TRw)
+
+[3D Printing 90 degree overhangs with non-planar Slicing (Hackaday)](https://hackaday.com/2021/03/08/3d-printing-90-deg-overhangs-with-non-planar-slicing/)
 
 [Giant Mechanical Iris! Cut on a CNC Router (YouTube)](https://www.youtube.com/watch?v=u9KHhsnLhfM&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
 

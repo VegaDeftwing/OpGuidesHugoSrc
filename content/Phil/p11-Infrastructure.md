@@ -41,3 +41,12 @@ Carbon Tax?
 ## Birth Lottery
 
 Where you're born determines if you have access to even basic needs
+
+<a href="https://www.statista.com/statistics/881541/bitcoin-energy-consumption-transaction-comparison-visa/" rel="nofollow"><img src="https://www.statista.com/graphic/1/881541/bitcoin-energy-consumption-transaction-comparison-visa.jpg" alt="Statistic: Bitcoin network average energy consumption per transaction compared to VISA network as of 2020 (in kilowatt-hours) | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/></a>
+
+{{< attribution >}}
+
+  <a href="https://www.statista.com" rel="nofollow">Statista</a>
+
+{{< /attribution >}}
+
