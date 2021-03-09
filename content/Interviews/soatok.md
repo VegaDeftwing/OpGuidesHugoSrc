@@ -177,7 +177,7 @@ Not a fun year.
 
 **Who are your biggest inspirations? What creators do you think are way to underrated and deserve a shout out?**
 
-There are too many people to list. I feel like I'd do everyone a disservice if I tried. Too many artists, too many musicians, too many videographers, too many photographers, too many dangers.
+There are too many people to list. I feel like I'd do everyone a disservice if I tried. Too many artists, too many musicians, too many videographers, too many photographers, too many dancers.
 
 Maybe if I could Ctrl+A, Ctrl+C the furry fandom (sans the alt-right), that'd be closer to the comprehensive list.
 
