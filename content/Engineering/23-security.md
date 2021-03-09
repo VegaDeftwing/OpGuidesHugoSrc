@@ -128,6 +128,10 @@ DO NOT USE: MD5, DES (Including Tripple DES), SHA-1*, AES-EBC, AES-CBC without a
 
 Alright, so what should you use? Well, the answer is obviously "It depends on what you want", but in general the recommendations from [Cryptographic Right Answers](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html) are probably a good place to start.
 
+[TODO]
+
+https://blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/
+
 ### DO NOT think encryption is a magic bullet
 
 > Our mysterious hero ran from the evil forces, carrying his trusty cyberdeck with all the information the resistance needed to win, but if it fell into the wrong hands it would all be over. Unfortunately, there were to many- He was surrounded! He feared not though, for his disk was encrypted by AES-4096! While the resistance may not get the data, the evil forces wouldn't have it either! He taunted his captors, "You'll never get that data!"

@@ -385,3 +385,5 @@ Software Defined Networking, ActivityPub
 [RFC for 700 HTTP Status Codes (Github, Joho)](https://github.com/joho/7XX-rfc)
 
 [Fun with IP address parsing (David Anderson's Blog)](https://blog.dave.tf/post/ip-addr-parsing/)
+
+[http-wtf](https://httptoolkit.tech/blog/http-wtf/)

@@ -4,7 +4,7 @@
 
 [TODO]
 
-## <iframe width="100%" height="500" src="https://www.youtube.com/embed/zK3rDhJqMu0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.mattkeeter.com/blog/2021-03-01-happen/
 
 [TODO] I also have discreete math in the chapter 11, math... not sure what do do about this...
 
