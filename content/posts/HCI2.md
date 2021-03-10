@@ -91,6 +91,16 @@ That's why this topic is so interesting. My hands are not your hands. I play mus
 
 We can do so much better. Our phones have auto correct and limited [text expansion](https://espanso.org), why do our beefier systems not do something a thousand times better with their superior on board resources? We could at least make it easier to grab [text out of screenshots](https://github.com/ianzhao05/textshot)- But why are we not doing natural language processing so that I can verbally or textually describe to you a graph or math equation without needing to have committed to memory some archaic set of {{< katex >}} \LaTeX {{< /katex >}}symbol names <a class="ptr">(3)</a>? Why are so many fields limited to ASCII, or maybe UTF-8, giving us those sweet, sweet emoji 🔥🔥🔥💯💯💯💯 when we could have something that allows text, diagrams, pictures, videos, etc.
 
+{{< columns >}}
+
+Why are we limited to only buttons on our keyboards anyway? I have a BDN9 macro pad that has encoders which I can use to input keystrokes too, this lets me map knobs to functions that makes sense, like pageup/down, volume up/down, brush size in an art program, etc.
+
+<--->
+
+![BDN9 keypad with encoders](/bdn9.jpg)
+
+{{< /columns >}}
+
 ### More than Just the Keyboard:
 
 #### Mice and Touch pads and track balls
@@ -765,6 +775,14 @@ Note, those USB security keys have updated in standard. The newer ones which sup
 
 {{< /tip >}}
 
+{{< hint info>}}
+
+If you really want advice on what to use for your personal, daily password storage needs I think [keepassxc](https://keepassxc.org) is probably the best option at the moment, though it's still a tad awkward.
+
+For advice on making secure programs see Engineering Chapter 23.
+
+{{< /hint >}}
+
 ##### Authorization:
 
 Put simply, we need easier to use, fine grain authorization settings that can't be bypassed. I should be able to tell a program, website, or app that I don't want to give it my location, and then, if it asks anyway it should be fed garbage. Refusal should also not stop access to that service. Similarly for storage, microphone, contact, etc.
@@ -794,10 +812,6 @@ The digital world doesn't have to be lonely pages indexed like a book, why are w
 Obviously this overly linked system is something that people would need to get used to. Until the advent of the WWW we've read information linearly, page by page. The web has allowed this tree traversal style of navigation so that any missed topic can be reviewed, but generally this is a system where the tree only builds down, to simpler information, from the current node. It seems weird to think about an algebra book where it suddenly references multidimensional calculus, but this is exactly what I'm implying. In my education there was uncountable times I had to learn something because 'it will be used later' with no explanation as to how or why. Linking back up the tree allows for information traversal in both directions, eliminating this problem.
 
 ### Presentation of Information Sucks
-
-{{< tip >}}
-I'll be the first to admit this website isn't the best on this. I put <a href='https://opinionatedguide.github.io/design/generative-art/'/>the list of generative design tools</a> in a MarkDown Table for fucks sake. I know. But, We'll get to that in a bit, in the Creating New Information Sucks section below, and I hope to convince you that isn't necessarily my fault.
-{{< /tip >}}
 
 This section is about how we view information, the presentation of words on a page, graphs, and information in general. To start, I want to look at something a little bit different.
 
