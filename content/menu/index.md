@@ -140,6 +140,7 @@ headless: true
 
   - [   - Loial Otter]({{< relref "Interviews/loial" >}})
   - [   - Soatok Dreamseeker]({{< relref "Interviews/soatok" >}})
+  - [   - Cadey Ratio]({{< relref "Interviews/CadeyRatio" >}})
 
 </div>
 
