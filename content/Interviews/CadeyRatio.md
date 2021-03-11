@@ -9,7 +9,7 @@
 
 <img src="/cadey1.png" alt="Cadey Ratio" height="200em">
 
-**Thank you for taking the time for this interview Cadey. Your blog at [christine.website/blog](christine.website/blog) shows that you really have a wide range of interests. So, to get started, what are you passionate about and why?**
+**Thank you for taking the time for this interview Cadey. Your blog at [christine.website/blog](https://christine.website/blog) shows that you really have a wide range of interests. So, to get started, what are you passionate about and why?**
 
 I'm passionate about making computers understandable. We work with these impossibly complex mechanical creations like they are nothing. They dominate our culture. With the onset of COVID, the internet has gone from an essential part of our lives to a vital method of communication.
 
