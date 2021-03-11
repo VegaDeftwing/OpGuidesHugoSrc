@@ -35,7 +35,7 @@ headless: true
   - [17 - Algorithms and More]({{< relref "/Engineering/17-algorithms" >}})
   - [18 - Writing a Big Program]({{< relref "/Engineering/18-bigprog" >}})
   - [19 - Servers!]({{< relref "/Engineering/19-servers" >}})
-  - [19 - "The Cloud"]({{< relref "/Engineering/19p5-cloud" >}})
+  - [19½- "The Cloud"]({{< relref "/Engineering/19p5-cloud" >}})
   - [20 - Databases]({{< relref "/Engineering/20-databases" >}})
   - [21 - Debugging, CI & CD]({{< relref "/Engineering/21-debugbuildtest" >}})
   - [22 - Compilers & Assemblers]({{< relref "/Engineering/22-compileassemble" >}})
