@@ -17,7 +17,7 @@ My name is Vega. I have to tell myself that a lot, reminding myself of who I am.
 
 I know that may sound weird, but, if it wen't already obvious, it isn't my *legal* name. (yet.)
 
-Despite my best efforts, my parent's still call me by my 'old' name. I'm hesitant to call it a dead name, as I'm not trans. I don't think it's the same or that it's fair to claim that it is.
+Despite my best efforts, my parents still call me by my 'old' name. I'm hesitant to call it a dead name, as I'm not trans. I don't think it's the same or that it's fair to claim that it is.
 
 My old name, ▒▒▒▒▒▒▒▒▒, is a chain.
 
