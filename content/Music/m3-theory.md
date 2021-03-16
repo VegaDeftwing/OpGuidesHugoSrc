@@ -65,3 +65,7 @@ making instruments swap roles
 [(*My) Procedurally Generated Music is Awful (Cube Drone)](https://devlog.groovelet.com/p/procedurally-generated-music-is-awful)
 
 [LilyPond: programming beautiful musical scores (YouTube, 36C3)](https://www.youtube.com/watch?v=ryiXvCX3I64)
+
+
+
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr">3/2 and 4/3 <a href="https://t.co/k56BTwYUL8">pic.twitter.com/k56BTwYUL8</a></p>&mdash; man fish (@mannfishh) <a href="https://twitter.com/mannfishh/status/1367589684021366785?ref_src=twsrc%5Etfw">March 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

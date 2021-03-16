@@ -90,6 +90,25 @@ an **LFO** is a Low Frequency Oscillator, they can still be either digital or an
 
 Some oscillators, weather digital or analog, cover enough range to be either a 'normal' oscillator used for sounds you're intended to hear or an LFO, so there's not always a clear distinction.
 
+{{< hint info>}}
+
+**Analog? Digital?**
+
+Avoiding the complex explanation of what actually makes an oscilator analog or digital, here's what you need to know:
+
+no, really it's a matter of a few things:
+
+* Analog systems have some natural pitch drift and non-linearity (distortion), this makes them sound 'warmer'
+* Most analog designs can handle audio-rate modulation by default, you're not fighting a limited sample rate
+* If you record at very high bit depth / rate or direct to analog media (tape), it's relevent to not have the computational overhead on the sources, so analog oscilators help with that.
+* Analog is low latency: a DSP based source/effect will incurr latency due to the neccitity of a sample buffer. *technically* you can somewhat avoid this with dedicated DSP/FGPA hardware, but even then there's some.
+  * This also means analog systems are great for feedback patching
+* Digital (DSP) oscilators can get complexity and polyphony for cheaper, so they're good for really complex timbres, for example with wavetables, which I'll cover in a bit
+
+So, which is better? Neither! If you want to go all analog or all digital, that's cool, but both have their strengths and weaknesses. 
+
+{{< /hint >}}
+
 Of note, you'll often hear people call non voltage controlled oscillators VCO's anyway. ╮(─▽─)╭ 
 
 Oscillators usually have very simple wave shapes as outputs. Typically, you'll see Sine ∿ , Triangle ʌ , Square ⎍ , and Saw waves as outputs. You may see other, more exotic wave forms though.

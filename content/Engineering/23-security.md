@@ -306,6 +306,8 @@ Also don't make your users change passwords on a schedule. We all hate it, [It's
 
 https://0l.wtf/posts/4_visual_browser_fingerprinting.html
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A quick reminder of why &quot;it&#39;s only metadata&quot; is a bad argument... <a href="https://t.co/lAG5PA1QZG">pic.twitter.com/lAG5PA1QZG</a></p>&mdash; Jake Williams (@MalwareJake) <a href="https://twitter.com/MalwareJake/status/1361022885687664646?ref_src=twsrc%5Etfw">February 14, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 #### What about on the job or at school?
 
 ### DO NOT think that Old ≠ Good & New ≠ Good
