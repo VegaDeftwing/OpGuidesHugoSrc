@@ -824,14 +824,19 @@ Finally, a quick note about Western Digital Green drives: Linux eats them. Thank
 
 ### SSD
 
-Solid state drives, like HDDs, come in many capacites, speeds, and form factors; however, SSDs come in many, many more than HDDs. The primary two of note at the moment are SATA SSDs and NVMe SSDs. Sata SSDs are typically the same size and shape (though sometimes a bit thinner) as the normal 2.5" laptop hard drive; however, some other standards are used such as mSATA and m.2. Unfortunately, the m.2 spec is slightly confusing, with some drives being SATA based and some being NVMe based, and the m.2 slot itself supporting any mix (just SATA, just NVMe, or both), so when getting a drive you need to be careful that your motherboard's m.2 slot and the drive are compatible.
+Solid state drives, like HDDs, come in many capacites, speeds, and form factors; however, SSDs come in many, many more than HDDs. The primary two of note at the moment are SATA SSDs and NVMe SSDs. Sata SSDs are typically the same size and shape (though sometimes a bit thinner) as the normal 2.5" laptop hard drive; however, some other standards are used such as mSATA (about a half-credit hard in size) and m.2 (a bit bigger than a stick of gum). Unfortunately, the m.2 spec is slightly confusing, with some drives being SATA based and some being NVMe based, and the m.2 slot itself supporting any mix (just SATA, just NVMe, or both), so when getting a drive you need to be careful that your motherboard's m.2 slot and the drive are compatible.
 
-The main reason you'd want to use NVMe is because it's much, much faster. NVMe drives are often many times faster than their SATA equivilents, and as of the time of writing, only slightly more expensive, albeit not supported on all systems.
+The main reason you'd want to use NVMe is because it's much, much faster. NVMe drives are often many times faster than their SATA equivilents (usually because Sata is limited to 600MB/s tops), and as of the time of writing, only slightly more expensive, albeit not supported on all systems. Do keep in mind though that NVMe drives will use some of your limited PCI-e lanes, so if you want to add a lot of expansion cards like a GPU, sound card, extra usb ports, etc. you'll need to be careful about that.
 
-All SSDs regradless of type consist of 3 main parts: The Controller, the NAND, and some RAM. (okay, technically not all SSDs have ram, but that's sorta misleading)
+All SSDs, regradless of type, consist of 3 main parts: The Controller, the NAND, and, if they're not garbage, some RAM. (Seriously, don't buy a DRAM-less SSD)
 
-[TODO]
-Optane, NVMe, Sata, technically all flash, Ram disks, different controllers, MLC, TLC, etc.
+All three of these can make difference to both perfromance and reliability, though honestly, this is one situation where just sticking name brand is probably the best way to ensure you don't get boned. Samsung, Intel, Silicon Power, Kingston, Crucial, Western Digital, Sandisk, Micro, ADATA, and Toshiba should all be safe bets. It's really not worth saving a buck on a no-name brand when your data is at stake.
+
+If you do care about the nerdy nitty-gritty, you sholud read about [Multi Level Cell Flash (Wikipedia)](https://en.wikipedia.org/wiki/Multi-level_cell), with the general take away that more levels means more space but worse speeds and durability.
+
+It's also worth mentioning that new flash types, controllers, and methods to make things even faster keep coming out. One of the most interesting is Intel's Optane SSDs which use 3D XPoint, which, is fast, very low latency, and more durable than flash, but more expensive. It's actually fast enough that in some exotic systems its's starting [to be used as an alternative to RAM](https://youtu.be/uHAfTty9UWY) that can also keep it's data though a reboot (unlike normal RAM).
+
+
 
 [Recovering File Systems from NAND Flash (YouTube, Defcon 28)](https://www.youtube.com/watch?v=C6munjMprzU)
 
@@ -839,15 +844,21 @@ Optane, NVMe, Sata, technically all flash, Ram disks, different controllers, MLC
 
 This is opinioned guide, so now that's about to show: Dont do it. All cloud storage is is someone else's disks. If you want to use it as a backup sure, but I don't see why- it's much less expensive to just backup the reallly important stuff to a hosted server continually and periodically (weekly, monthly, whatever) backup to some external disks that you keep somewhere else. Not to mention the privacy concerns. Like, really? You want to put allllll your family pictures under the all seeing eyes of Google or Microsoft. Nah. I'll pass.
 
+If you reallllly insist, then check out https://www.backblaze.com/cloud-backup.html (I'm not affiliated in anyway, nor do I use the service) as it's probably the safest option and they have good recovery options, like sending you a physical hard drive with your data on it.
+
+But, seriously, only use cloud for a backup if you have to and never ever ever ever ever use it as a primary storage medium.
+
+The cloud is not your friend.
+
 ### Portable
 
-Most fixed disk enclosures suck, albeit they can be less expensive. I'd recommend getting a portable multi-drive enclosure that runs over whatever the fastest connection you have is (Thunderbolt, USB 3.1, etc.). You can even get usb->nvme adapters, albeit they have a nasty amount of bandwidth limiting.
+Most fixed disk enclosures (Think your normal, off the shelf portable driver) suck, albeit they can be less expensive. I'd recommend getting a portable multi-drive enclosure that runs over whatever the fastest connection you have is (Thunderbolt, USB 3.1, etc.). You can even get usb->nvme adapters, albeit they have a nasty amount of bandwidth limiting.
 
 Most off-the-shelf flash drives have ass cooling and will over-heat them selves to death when you use them for things like installing operating systems regularly, so I recommend just getting a bulk pack of cheap, low capacity ones to toss when they finally kick the bucket and a few nice USB->SATA or USB->NVME adapter for  your main portable storage needs. Failing that, you can always use your phone if you've got a nice high capacity SD card in it or plenty of spare internal storage. The problem with that is MTP or 'Media Transfer Protocol' is a buggy, slow mess, and there's no other clean way to transfer things from a phone. So ¯\\_(ツ)_/¯
 
 <blockquote class="twitter-tweet"><p lang="ro" dir="ltr">Recuperación de datos de µSD nivel: F*cking Master of the Universe. <a href="https://t.co/B9egCrW4WJ">pic.twitter.com/B9egCrW4WJ</a></p>&mdash; ChuxMan Skywalker (@MrChuxMan) <a href="https://twitter.com/MrChuxMan/status/1288054419985248257?ref_src=twsrc%5Etfw">July 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
+You might also want to look into [Hard Drive Schucking](https://www.ifixit.com/News/46724/how-to-find-useful-discounted-disks-inside-an-external-hard-drive) if you're in need of as much storage as you can get your grubby lil' [r/DataHoarder](https://www.reddit.com/r/DataHoarder/) hands onto.
 
 ### The Past
 
@@ -917,7 +928,7 @@ Most PC PSU's are in the ATX format, the same specification used to size motherb
 
 Main takeaway here, if some one is talking about an ATX PSU they're talking about the power supply in a desktop. Often they're (less than safely...) used in other applications as they're cheap and often easy to find used or salvaged from old systems.
 
-[TODO] add pictures
+[TODO] add pictures, ATX 12VO, don't use ATX for lab purpsoses, please.
 
 ## Cooling
 
