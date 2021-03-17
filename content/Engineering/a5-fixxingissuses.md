@@ -20,9 +20,25 @@ Yeah, not always applicable advice, but if you have something that's even simila
 
 What are your conditions for success? Are you even testing for these conditions correctly?
 
+## Binary Search Debugging
+
+The binary search algorithm looks a bit like this:
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Binary_Search.png" style="zoom:67%; -webkit-filter: invert(.85);" />
 
 
 
+{{< attribution >}}
+
+Chad250, [CC BY-SA 4.0](<https://creativecommons.org/licenses/by-sa/4.0>), via Wikimedia Commons
+
+{{< /attribution >}}
+
+So, what does this have to do with debugging? Apply the same idea- find things you can try to narrow down the problem seach space. Comment out some of the non-vital code, then bring it back in half at a time until the problem comes back, etc. Often, finding the problem is the hardest part, so having a strategy to search for it can be a big help.
+
+## Keep a list of what you've tried and what you haven't tried
+
+This is easy, just make a todo style list, if you come up with a new idea halfway though and try it real quick, add it and immediately check it off. This prevents the possibility of being 3 hours in and repeating the same 'fixes' as an exercise in insanity.
 
 [TODO]
 
