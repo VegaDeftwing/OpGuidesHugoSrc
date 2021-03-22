@@ -4,6 +4,9 @@ slug: "whydidipay"
 author: "Vega Deftwing"
 date: 2021-03-22
 draft: false
+tags:
+- personal
+- school
 ---
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/ac/Nebraska_Union.jpg)

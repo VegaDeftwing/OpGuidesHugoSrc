@@ -3,6 +3,7 @@ title: "Mirrors of Opal"
 slug: "MirrorsOfOpal"
 author: "Vega Deftwing"
 date: 2021-03-02
+tags: personal
 ---
 
 When I looked into the mirror this morning, I wasn't sure who I was looking at. Is that me? Is that really what I look like now? Has this years long separation from reality caused me to not recognize my own face, or would it have happened anyway- a side effect of growing older.

@@ -3,6 +3,7 @@ title: "How I Make OpGuides"
 slug: "howIMakeOpGuides"
 author: "Vega Deftwing"
 date: 2021-02-07
+tags: meta
 ---
 
 ## History

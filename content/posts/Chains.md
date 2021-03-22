@@ -3,6 +3,7 @@ title: "Chains"
 slug: "Chains"
 author: "Vega Deftwing"
 date: 2021-03-12
+tags: personal
 ---
 
  
