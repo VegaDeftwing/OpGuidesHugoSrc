@@ -2,27 +2,21 @@
 title: "Why did I pay to go to college?"
 slug: "whydidipay"
 author: "Vega Deftwing"
-date: 2021-03-19
-draft: true
+date: 2021-03-22
+draft: false
 ---
-
-**THIS PAGE IS A DRAFT.**
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/ac/Nebraska_Union.jpg)
 
 {{< attribution >}}
 
-ensign_beedrill, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons
+The Nebraska Union at UNL, photo by ensign_beedrill, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons
 
 {{< /attribution >}}
 
-I am currently a student at the University of Nebraska - Lincoln, where I study Computer and Electrical Engineering (dual major). I have a serious passion for both of these subjects, which is why I am so incredibly frustrated at how negative my experience at UNL has been, especially in the classes the directly relate to my major. This frustration is a large part of why I started OpGuides, so I thought I'd share it with the world.
+I am currently a student at the University of Nebraska - Lincoln, where I study Computer and Electrical Engineering as a dual major. I have a serious passion for both of these subjects, which is why I am so incredibly frustrated at how negative my experience at UNL has been, especially in the classes that directly relate to my major. This frustration is a large part of why I started OpGuides, so I thought I'd share it with the world.
 
-{{< tip >}}
-
-This article's purpose is highlight the shortcomings of my college experience. While I am going to try to summarize each semester, there is no way I can possibly capture all of my daily struggles and frustrations or possibly mention all the great people that have helped me along the way. Nor can I possibly put into words the value of the friendships I have made, the joy that I've had at some university hosted events, and some of the amazing benefits that come with college that are not academic. I also can't fully provide context about what was going on in my life or what personal achievements or projects I was working on at any given time. This is a huge span of time to try to sum up.
-
-{{< /tip >}}
+This article's purpose is highlight the shortcomings of my college experience. While I am going to try to summarize each semester, there is no way I can possibly capture all of my daily struggles and frustrations or possibly mention all the great people that have helped me along the way. Nor can I possibly put into words the value of the friendships I have made, the joy that I've had at some university hosted events, and some of the amazing benefits that come with college that are not academic. I also can't fully provide context about what was going on in my life or what personal achievements or projects I was working on at any given time. This is a huge span of time to try to sum up. Despite this, I hope their are some nuggets of wisdom you can extract. I've tried to pre-bake these nuggets for you as much as I could, if you don't want the full story, you can jump straight the bulleted list of conclusions at the bottom of the page.
 
 {{< tip >}}
 
@@ -52,7 +46,7 @@ Freshman year feels like ancient history now, but some of it still stands out. A
 
 * C programming:
 
-  Painfully slow, but it was also a 100 level course so ╮(─▽─)╭, my roommate was also taking the course and failed, but I got an A+. He partied, did stupid shit, and eventually dropped out, so I suppose it still served as a basic weed-out class, which I don't necessarily see as a bad thing. That said, I do wish the class had gone a bit more in depth. I don't think I ever wrote code that topped 100 lines in this class.
+  Painfully slow, but it was also a 100 level course so ╮(─▽─)╭, my roommate was also taking the course and failed, but I got an A+. He partied, did stupid shit, and eventually dropped out, so I suppose it still served as a basic weed-out class, which I don't necessarily see as a bad thing. That said, I do wish the class had gone a bit more in depth. I don't think I ever wrote code that topped 100 lines in this class. Similarly, we never even used bit operations despite the class being C programming. A bit odd.
 
 * Interpersonal Skills 
 
@@ -64,13 +58,13 @@ Freshman year feels like ancient history now, but some of it still stands out. A
 
   In Calc Ⅰ I also had somebody put gum in my hair so bad that I had to get a hair cut. So, those beautiful locks you see above were short lived.
 
-  The biggest complaint I had from Calc Ⅰ was the use of some auto-grading math quiz program. We were usually given unlimited attempts to get a 100% on the quizes; however, they were often mis-graded because the software was ass. Like, sometimes it would want {{< katex >}}\frac{4}{3}{{< /katex >}} or {{< katex >}}1.333333{{< /katex >}} seemingly at random, with the higher precision answer ({{< katex >}}\frac{4}{3}{{< /katex >}}) not always being the correct answer, seemingly at random. To say this was frustrating would be an understatement.
+  The biggest complaint I had from Calc Ⅰ was the use of 'WeBWorK', auto-grading math quiz software. We were usually given unlimited attempts to get a 100% on the quizes; however, they were often mis-graded because the software is not great. Like, sometimes it would want {{< katex >}}\frac{4}{3}{{< /katex >}} or {{< katex >}}1.333333{{< /katex >}} (with the higher precision answer, {{< katex >}}\frac{4}{3}{{< /katex >}}, not always being the correct answer, if you were wondering), seemingly at random. To say this was frustrating would be an understatement.
 
 * History of Rock 
 
   Great class, great prof, lots of fun. The tests got oddly specific, but whatever. About a year later I met up with the prof to put an accelerometer hooked up to an Arduino into the back of his guitar for controlling MIDI effects, but that's about the most relevant thing to my majors that came of it.
 
-The actual 'college experience' was actually pretty good this semester. I only had to chop off one arm to pay for books with online codes attached that I prevented buying used. Living with a roommate wasn't *quite* as bad as people said it would be (still pretty much sucked)
+The actual 'college experience' was actually pretty good this semester. I only had to chop off one arm to pay for books with online codes attached that me prevented buying them used. Living with a roommate wasn't *quite* as bad as people said it would be (still pretty much sucked)
 
 Oh, the cazy preechers on campus were definitely a great way to round out the college experience.
 
@@ -112,7 +106,7 @@ The reason I choose to drop Physics was two fold, for one, the class was my hard
 
 * Computer Organizaiton
 
-  Ho-boy, now we're hitting the really what-the-fuck stuff. According to my record I passed this with a C+ and that's the biggest grade inflation the world ever did see, most of the class got out with C's after a similar curve that stopped them from outright failing. My grade on the first test- a whopping 27%, and the high was a 32% (iirc?). The prof, while the sweetest old man I have ever met in my life and I would happily spend hours with just talking to, had some sort of neurodegeneration disease and in his old age should not have been teaching. This meant that instead, the TA's picked up the slack. There were 5 TA's I think? Only 1 really knew what he was doing though, and he showed up to class **DRUNK** a few times. I was actually really into learning about computer architecture before this class so sorta had a better idea of what I was doing than most, so for one of the TA-lead classes where the TA that knew what he was doing was too hungover to attend one of the other TA's *asked me to teach it*. Just let that one sink in a little bit.
+  Ho-boy, now we're hitting the really what-the-fuck stuff. According to my record I passed this with a C+ and that's the biggest grade inflation the world ever did see, most of the class got out with C's after a similar curve that stopped them from outright failing. My grade on the first test- a whopping 27%, and the high was a 32% (iirc?). The prof, while the sweetest old man I have ever met in my life and I would happily spend hours with just talking to, had some sort of neurodegeneration disease and in his old age should not have been teaching. This meant that instead of having the prof teach, the TA's picked up the slack. There were 5 TA's I think? Only 1 really knew what he was doing though, and he showed up to class **DRUNK** a few times. I was actually really into learning about computer architecture before this class so sorta had a better idea of what I was doing than most, so for one of the TA-lead classes where the TA that knew what he was doing was too hungover to attend one of the other TA's *asked me to teach it*. Just let that one sink in a little bit.
 
   Eventually, the department got involved, a second prof was brought in to attempt to un-fuck things, but that went about as well as you'd think it would 3/4 though a semester, so they ended up just scaling the fuck out of our grades.
 
@@ -194,11 +188,11 @@ Okay, now I'm sorta pissed. This is **not** what a TA should do. TA's are suppos
 >
 > Fine, then let's go talk to [The Lab Lead]!
 
-At this point, I'm literally laughing at this guy, he's red in the face from screaming, and I'm just chill. We get up to the lab leads office, the guy who is also responsible for fixing equipment, and the GTA tells hid story of how I'm a disrespectful little shit, somehow leaving out what started the entire thing- him almost getting people to blow fuses on equipment. After he's done making his case, while I smile and play with the tube around my neck and lean on my 10kv burnt long-board, I tell the lab lead what we're actually up here about, that this GTA wanted us to **measure impedance, with an ohmeter, on a live circuit**. Lab Lead, I shit you not, looks at the GTA and just says "Are you serious?" then ripped the dude a new one. 11/10.
+At this point, I'm literally laughing at this guy, he's red in the face from screaming, and I'm just keep laughing at his tantrum. We get up to the lab leads office, the guy who is also responsible for fixing equipment, and the GTA tells hid story of how I'm a disrespectful little shit, somehow leaving out what started the entire thing- him almost getting people to blow fuses on equipment. After he's done making his case, while I smile and play with the tube around my neck and lean on my 10kv burnt long-board, I tell the lab lead what we're actually up here about, that this GTA wanted us to **measure impedance, with an ohmeter, on a live circuit**. Lab Lead, I shit you not, looks at the GTA and just says "Are you serious?" then ripped the dude a new one. 11/10.
 
 This did *not* get better, at all, though the semester. I basically ended up teaching my lab.
 
-This semester I was also a Resident Assistant at UNL. Because of the legallity of discussing anything about that, I'm choosing to not talk about the experience directly, though my next semester an an RA left an even more sour taste in my mouth than this one did.
+This semester I was also a Resident Assistant at UNL. More on that in a bit.
 
 During this time UNL did have an incident with a [Racist](https://journalstar.com/news/local/education/unl-students-voice-frustration-over-administrations-lack-of-action-against-white-nationalist/article_2f83d453-5f66-58f3-a0df-32af4d50e625.html) [Douchebag](http://www.dailynebraskan.com/news/unl-chancellor-says-daniel-kleve-is-protected-by-first-amendment/article_54a064ee-0cee-11e8-ad7b-ef1f3a068da6.html) to which they respond by ... giving everyone free "Hate Will Never Win" T-shirts instead of doing something actually meaningful. Cool.
 
@@ -206,7 +200,7 @@ During this time UNL did have an incident with a [Racist](https://journalstar.co
 
 * Data Structures & Algorithms
 
-  'Algos was odd. The class did make me a better programmer, but it had some really annoying issues. Primarily, the lectures were often repeats, sometimes up to 3 or 4 times of covering *exactly* the same material. This got old very quickly.
+  'Algos was odd. The class did make me a better programmer, but it had some really annoying issues. Primarily, the lectures were often repeats, sometimes up to 3 or 4 times of covering *exactly* the same material, but attendance was graded. This got old very quickly.
 
 * Circuits Ⅱ
 
@@ -220,9 +214,21 @@ During this time UNL did have an incident with a [Racist](https://journalstar.co
 
   This class was a mixed bag, on one hand, the prof was amazing (Thank you Dr. Laubmeier). It was her first semester teaching but she *nailed* it. On the other hand, something about the subject just absolutely failed to 'click' with me, so while I could work though the problems, I felt like it was all sorta magic? I don't know how else to put it. Regardless, this is 100% on me.
 
-This semester I was also a Resident Assistant at UNL again. I still can't say much about this as I'd like; however, I will say that the entire experience as an RA made me feel that, despite the dorms existing as housing at an educational institution and the fact that I was in the dorm that was primarily used for honors students, the dorms were anything but conductive to education. Music majors couldn't use electric amps in the music room and nobody was allowed to have anything that wasn't UL certified in their rooms- there goes everything from 3D printers to any lab equipment. And like, yeah, I get it, but come on? I also felt that I was not respected as a person, as despite my request that I be stationed literally anywhere else in the building on account of my bad knee, I was assigned a room on the fourth floor of a building with no elevator. Their response to LGBT issuses also left me unhappy, as on oppisite-sex guest wasn't allowed overnight... yeah. Let that one sink in, it's somehow more restrictive to straight people yet more offensive to LGBT people. Way to go guys.
+This semester I was also a Resident Assistant at UNL again. I can't say much about this as I'd like for legal reasons; however, I will say that the entire experience as an RA made me feel that, despite the dorms existing as housing at an educational institution and the fact that I was in the dorm that was primarily used for honors students, the dorms were anything but conductive to education. Music majors couldn't use electric amps in the music room and nobody was allowed to have anything that wasn't UL certified in their rooms- there goes everything from 3D printers to any lab equipment. And like, yeah, I get it, but come on?
+
+{{< columns >}}
+
+I also felt that I was not respected as a person. Despite my request that I be stationed literally anywhere else in the building on account of my bad knee, I was assigned a room on the fourth floor of a building with no elevator. Their response to LGBT issuses also left me unhappy, as on oppisite-sex guest wasn't allowed overnight... yeah. Let that one sink in, it's somehow more restrictive to straight people yet more offensive to LGBT people. Way to go guys.
+
+
+
+also as my 4th semester living in the dorms, I was growing very tired of 1-ply toilet paper.
+
+<--->
 
 <img src="/20180429_231232.jpg" alt="20180429_231232" style="zoom:13%;" />
+
+{{< /columns >}}
 
 ## 6 - Junior, Spring '19
 
@@ -252,7 +258,7 @@ I had a lot going on outside of school, so I intentionally took a rather chill s
 
 * Circuits Ⅲ 
 
-  This class was an absolute dumpster fire. The prof is by far the worst I've had my entire time at UNHell. He made crazy assumptions about the prior knowledge of students, dove *way* to deep into semiconductor physics instead of how to actually use them, miserably failed to explain things, assigned homework that was insanely long, gave tests that were more a test of what you had written on your allowed cheat-sheet, and at one point even told the class a test was going to be over the wrong thing- making it so that he had to give a make-up test. He was also just kind of unpersonable and unwelcoming. While my experience was already horrible, I had friends that had far worse. I still don't understand how to use transistors in a circuit very well, and if anything I think this class made that situation worse. If I were rating my classes out of 10, this one would get a negative score.
+  This class was an absolute dumpster fire. The prof is by far the worst I've had my entire time at UNL. He made crazy assumptions about the prior knowledge of students, dove *way* to deep into semiconductor physics instead of how to actually use them, miserably failed to explain things, assigned homework that was insanely long, gave tests that were more a test of what you had written on your allowed cheat-sheet, and at one point even told the class a test was going to be over the wrong thing- making it so that he had to give a make-up test. He was also just kind of unpersonable and unwelcoming. While my experience was already horrible, I had friends that had far worse. I still don't understand how to use transistors in a circuit very well, and if anything I think this class made that situation worse. If I were rating my classes out of 10, this one would get a negative score.
 
 * Linear Algebra
 
@@ -266,7 +272,7 @@ I had a lot going on outside of school, so I intentionally took a rather chill s
 
 {{< tip >}}
 
-This semester is the one that COVID-19 hit. The last half-ish of this semester had otherwise normal classes transitioning to being entirely online. This went about as well as could be expected. Obviously, this is a rather odd scenario. It may not be fair to judge the University based on the response to this necessarily; however, I think that seeing how the university responds to this shows how they'll respond to other things- that is to say poorly.
+This semester is the one that COVID-19 hit. The last third-ish of this semester had otherwise normal classes transitioning to being entirely online. This went about as well as could be expected. Obviously, this is a rather odd scenario. It may not be fair to judge the University based on the response to this necessarily; however, I think that seeing how the university responds to this shows how they'll respond to other things- that is to say poorly.
 
 {{< /tip >}}
 
@@ -304,23 +310,29 @@ If the quality of my professors and classes didn't piss me off before, this is t
 
   ![conclusion](/conclusion.jpg)
 
-and okay, I admit that was a bit over the line, but the rest of the lab report was written well and I did my work. I got a 90/100 on that. As is this sort of makes me look like the bad guy, I was frustrated, and I think justified, but I agree this wasn't the best way to voice that opinion. This is why I am still livid about this to this day- here's my lab partner's conclusion, he got 100/100 on this assignment.
+	and okay, I admit that was a bit over the line, but the rest of the lab report was written well and I did my work. I got a 90/100 on that. As is this sort of makes me look like the bad guy, I was frustrated, and I think justified, but I agree this wasn't the best way to voice that opinion. This is why I am still livid about this to this day- here's my lab partner's conclusion, he got 100/100 on this assignment.
 
-![otherconclusion](/otherconclusion.jpg)
+  ![otherconclusion](/otherconclusion.jpg)
 
-this is some top tier bullshit, so, I go to the prof that oversees the course.
+  this is some top tier bullshit, so, I go to the prof that oversees the course.
 
-He, I shit you not, responded "How do you know other students aren't still using XP"
+  He, I shit you not, responded "How do you know other students aren't still using XP"
 
-And, okay, maybe this lab would have had some redeeming qualities, even if out of date, except for the fact that each of the supposed-to-be 3 hour labs were about 15 minute labs, with the only reason they took that long being due to unintelligible instructions for each assignment.
+  And, okay, maybe this lab would have had some redeeming qualities, even if out of date, except for the fact that each of the supposed-to-be 3 hour labs were about 15 minute labs, with the only reason they took that long being due to unintelligible instructions for each assignment.
 
-The professor, responded to my criticism of his labs being written poorly with "If you think you can do better, then you write them."
+  The professor, responded to my criticism of his labs being written poorly with "If you think you can do better, then you write them."
 
-Yes, I can. No, I won't. I'm paying $1000 to take this class, not to write the content for you.
+  Yes, I can. No, I won't. I'm paying $1000 to take this class, not to write the content for you.
+
+* PCB Design
+
+  We designed a PCB in KiCad, mostly refrencing existing open source designs. This was assumed to be a baby's first PCB class, which it wasn't for me. The prof is super cool and having chats with him about nothing in particular in his office have often lead to me learning more than I have in other classes over an entire semester.
+
+  Unfortunately, when COVID hit it stopped the class in its tracks, resulting in the PCB never actually being soldered as I don't have good enough equipment to do the fine soldering required for what I designed at home
 
 * Philosophy and Current Issues
 
-  The only redeeming thing about this semester was this class. The TA and professor I had for this class were both amazing. The TA, Zachary Garrett, had a true passion for philosophy and had even done quite a few game jams making philosophy related games (mostly in Unity). Thanks for making me passionate about Philosophy! The prof even did a pretty good job with the transition to online classes.
+  The only redeeming thing about this semester was this class. The TA and professor I had for this class were both amazing. The TA, Zachary Garrett, had a true passion for philosophy and had even done quite a few game jams making philosophy related games (mostly in Unity). He really inspired me to be more passionate about Philosophy. The prof even did a pretty good job with the transition to online classes.
 
 ## 9 - Senior+, Fall '20
 
@@ -353,6 +365,10 @@ Yes, I can. No, I won't. I'm paying $1000 to take this class, not to write the c
   Because of that intervention she did restructure the class significantly, but regardless I felt I learned effectively nothing from the course.
 
   Oh, and the quizzes for the course were new levels of stupid.
+  
+* Communication Networks
+
+  This prof, Dr. Massimilliano Pierobon, was great. I've never seen a professor express so much concern and care for his students. He knew the Pandemic and our course load was getting to us, and was extraordiniarly flexible to the needs of the class. The content covered in the course was presented well, and his research with the [Molecular and Biochemical Telecommunications Lab (MBITE)](https://mbite.unl.edu/) was facinating to hear about.
 
 ## 10 - Senior+, Spring '21
 
@@ -362,17 +378,49 @@ You are now at current time. My opinion of these courses may change as time pass
 
 {{< /tip >}}
 
+* Computer Architecture
+
+  {{< hint warning >}}
+
+  Witholding comment until the end of the semester
+
+  {{< /hint >}}
+
+* Data and Network Security
+
+  {{< hint warning >}}
+
+  Witholding comment until the end of the semester
+
+  {{< /hint >}}
+
+* Numerical Analysis
+
+  Above, for Electromagnetic Field Theory I said "Not the worst professor I've had, but definitely the most useless. Literally just read the slides word for word for the entire semester, reading the equations for what they were, never explaining what the variable mean or giving context."
+
+  The exact same thing happened here. Seriously, it's no different than just having the book read aloud for 50 minutes.
+
+* Into to Machine Learning
+
+  <img src="/stressedclass.png" alt="stressedclass" style="zoom:75%;" />
+
 # Conclusions
 
 I originally had a multi page rant here, but instead, I've decided that some bullet points of wisdom are more helpful. So in the style of [Baz Luhrmann's 'Wear Sunscreen'](https://www.youtube.com/watch?v=LZmi7InKU0I), I hope my advice, given in no particular order, is worth something:
 
 * When paying for an education, students don't want it to be easy or so hard that they're stressed out of their minds: *above all else* we want to learn.
 * *Never* forget you're paying to sit in that seat. (Even if you have scholarships)
+  * Don't skip class. If you're paying $600 a credit hour (this is the roughly the average in the US, you may be pay much less or much more) you're paying about \$40 per lecture.
 * Students and professors alike should be treated with respect. While the professors may be our elders we can't sit by idly if they aren't giving us what we paid for.
 * College is a captive market. Dropping out means crippling debt. Transferring schools means more debt when credit doesn't transfer.
-* The college or department will assure you the next class will have it better, but that doesn't make it any better for you.
+* The college or department will always assure you the next class will have it better, but that doesn't make it any better for you.
+  * Ask the next class if it is better. Follow up. Bring change.
 * Inequality in funding may mean that the facilities for the degrees you want to study are crumbling. This is very hard to know in advance.
+  * College is for profit. They make profit off of new students. The best facilities are the ones perspective students are shown on a tour. Ask to go off the tour path.
 * The system serves to hammer in the tired practice of academia more than it does to teach how to do the things you're passionate about.
+* If your professors do research, they likely care about that a lot more than teaching.
+  * They also likely have a paper quota to hit. If you want to know how to spot really bad professors, look for the ones that have published research using the same dataset over and over and that have published very 'meh' papers.
+  * A bad prof with bad research is still usually better than a bad prof with good research
 * Education has not yet caught up to the idea of Google, StackOverflow, and the Internet. College is still largely about memorizing things you'll soon forget instead of helping build a framework for understanding.
   * Progress and change is exponential, while humans ability to adapt and react is, and always has been, linear.
   * It still makes sense to learn how to do a derivative by hand a few times, it just doesn't make sense to do complex ones
@@ -393,5 +441,27 @@ I originally had a multi page rant here, but instead, I've decided that some bul
 * Don't expect your classes to teach you everything you need to know
   * Getting a B- in a class because you took detours teaching yourself extra related things is far more valuable
     * If the prof has a passion for what they teach, talk to them about it- you never know what doing that work might do for your grade 😉
-* Find a creative outlet unrelated to your major, then find a way to tie it in.
+  * The harder the classes and larger the course load, the less you'll learn.
+    * Honor's students often learn *less* because they don't have time to persue their own interests- speaking of:
+* Find a creative outlet unrelated to your major, then find a way to tie it in to what you're learning.
   * For me this was music, doing DSP or designing circuits for audio
+
+![](https://imgs.xkcd.com/comics/11th_grade.png)
+{{< attribution >}}[xkcd #519](https://xkcd.com/519/){{< /attribution >}}
+
+* While directly contrary to what I've done in this post, generally I don't recommend burning bridges, you never know when the flames may come back to bite you.
+* There *is* such thing as a stupid question, just they're more often on quizzes and tests than brought up by students
+  * *Nobody* in a crypto class cares about the the three names that make up the accronym RSA
+  * *Nobody* in a networking class needs to know about [NCP](https://en.wikipedia.org/wiki/Network_Control_Program)
+  * Most classes are about 15 weeks. These profs have 45 hours over 15 weeks (assuming a 3 credit hour class) to take you from presumably zero knowledge on a topic to being competent. There's just not time for trivia questions on tests or quizzes, and they're a good sign the prof is adding filler and depriving you of more valuable content.
+* Most classes shy away from ethics, keep in mind how what you're learning could be used for good and evil
+  * Thermal cameras for increasing crop yield or targeting civilians taking shelter?
+  * Machine learning to find cures or make deep fake porn?
+* Be vocal in class. Ask questions. Ask questions that a bit tangential even.
+* Talk to you classmates. As many as you can. Get to know them, find out what they're good at.
+  * Study groups save lives
+* Never take an unpaid internship
+  * If the field your in only has unpaid interships you need to change majors.
+  * If your college does a final project (often called Capstone) and they want you to do work for a corprate/business 'sponsor' for free, tell them to   *g o   f u c k   t h e m s e l v e s*.  DO. NOT. DO. WORK. FOR. FREE.
+* Colege is ᵥₑᵣᵧ, very , ᵛᵉʳʸ, extremely, ¸,ø¤º° extraordinaly °º¤ø,¸ , 𝕦𝕟𝕗𝕒𝕥𝕙𝕠𝕞𝕒𝕓𝕝𝕪, *ludicriously*, obnoxiously expensive.
+* At the end of the day, you still need that degree to get most jobs that you actually want, so if you can't avoid it- you may as well fight to make it worth something.
