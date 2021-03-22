@@ -420,7 +420,7 @@ I originally had a multi page rant here, but instead, I've decided that some bul
 * The system serves to hammer in the tired practice of academia more than it does to teach how to do the things you're passionate about.
 * If your professors do research, they likely care about that a lot more than teaching.
   * They also likely have a paper quota to hit. If you want to know how to spot really bad professors, look for the ones that have published research using the same dataset over and over and that have published very 'meh' papers.
-  * A bad prof with bad research is still usually better than a bad prof with good research
+  * A bad prof with bad research is still usually worse than a bad prof with good research
 * Education has not yet caught up to the idea of Google, StackOverflow, and the Internet. College is still largely about memorizing things you'll soon forget instead of helping build a framework for understanding.
   * Progress and change is exponential, while humans ability to adapt and react is, and always has been, linear.
   * It still makes sense to learn how to do a derivative by hand a few times, it just doesn't make sense to do complex ones
