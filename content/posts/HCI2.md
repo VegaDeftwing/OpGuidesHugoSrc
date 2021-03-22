@@ -3,6 +3,7 @@ title: "The Way We Interact With Computers Sucks."
 slug: "TheWayWeInteractWithComputersSucks"
 author: "Vega Deftwing"
 date: 2021-01-15
+tags: technical
 ---
 
 {{< tip >}}

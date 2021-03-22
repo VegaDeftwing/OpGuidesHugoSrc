@@ -17,3 +17,6 @@ PygmentsStyle = "monokai"
 
 [markup.tableOfContents]
   startLevel = 1
+
+[taxonomies]
+  tag = "tags"
