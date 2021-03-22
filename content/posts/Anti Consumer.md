@@ -3,6 +3,7 @@ title: "Anti Consumer"
 slug: "Anti Consumer"
 author: "Vega Deftwing"
 date: 2019-03-12
+tags: personal
 ---
 
 As I walked to my car after class I could smell the ashes of a cigarette and hear the echos of a train scraping on its tracks. The cool foggy air held still beams of light. It looked like a scene from Blade runner, but I couldn't help but feel like the Android's of it's inspiration, lusting after something to make me feel alive.

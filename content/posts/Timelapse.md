@@ -3,6 +3,7 @@ title: "Time lapse"
 slug: "Time lapse"
 author: "Vega Deftwing"
 date: 2021-02-04
+tags: technical
 ---
 
 Super brief post about one of the more fun projects I setup recently: a lil' time lapse script

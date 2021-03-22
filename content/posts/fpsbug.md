@@ -3,6 +3,7 @@ title: "Slow Down!"
 slug: "slowdown"
 author: "Vega Deftwing"
 date: 2021-01-14
+tags: technical
 ---
 
 I use [VCV Rack](https://vcvrack.com) a lot. I normally use it on Windows as running VSTs in Linux is still a bit of a PITA and If I'm going to make music I want to have access to all of my tools. However, I still want to be able to use VCV on Linux for processing guitar when taking breaks from working on other things without having to reboot over to Windows.
