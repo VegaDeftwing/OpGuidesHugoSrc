@@ -424,7 +424,7 @@ I originally had a multi page rant here, but instead, I've decided that some bul
 * Education has not yet caught up to the idea of Google, StackOverflow, and the Internet. College is still largely about memorizing things you'll soon forget instead of helping build a framework for understanding.
   * Progress and change is exponential, while humans ability to adapt and react is, and always has been, linear.
   * It still makes sense to learn how to do a derivative by hand a few times, it just doesn't make sense to do complex ones
-    * Can we *please* teach people how to program up numerical analysis solvers early
+    * Can we *please* teach people how to program their own numerical analysis solvers early
   * People taught to solve yesterday's problems will at best solve today's problems too late
   * Nobody makes money by doing hundreds of integrals by hand every day.
 * While the [Perato Principle](https://en.wikipedia.org/wiki/Pareto_principle) would lead you to believe that 80% of what we lean is shit with 20% being actually useful, I've found that it's more like 95/5 for what assignments, nuggets of knowledge, and test or quiz questions have stuck with me.
@@ -432,7 +432,7 @@ I originally had a multi page rant here, but instead, I've decided that some bul
 * Paying to access homework written by Pearson or McGraw Hill instead of the professor is even worse.
 * The best professors understand that cracking jokes and having fun make students learn better.
 * A bad professor can make easy content hard.
-* Classes that have open book, open internet, and even open phone-a-friend tests are generally a lot better than classes that don't- at the very least a cheat sheet.
+* Classes that have open book, open internet, and even open phone-a-friend tests are generally a lot better than classes that don't- a good class will let you have at least a cheat sheet.
   * Even for completely open everything tests, still make a cheat sheet
 * Take notes in a centralized place early. Making OpGuides has accelerated my learning ten fold
 * Ask your professors about their research, even if you aren't interested in helping with it
