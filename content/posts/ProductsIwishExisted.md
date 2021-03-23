@@ -1,11 +1,16 @@
 ---
-title: "Products I Wish Existed"
+title: "10 Products I Wish Existed"
 slug: "productsiwishexisted"
 author: "Vega Deftwing"
-date: 2021-02-04
+date: 2021-03-23
+tags: technical
 ---
 
-> Most of these things probably exist. For many, it's just that they don't exist at a practical price point.
+{{< hint info >}}
+
+Most of these things probably exist. For many, it's just that they don't exist at a practical price point.
+
+{{< /hint >}}
 
 **Without further ado, In no particular order**
 
@@ -53,4 +58,13 @@ date: 2021-02-04
 
    We throw out a crazy amount of plastic. While it *could* be recycled for normal 3D printing, I think the quality and colors of the plastic would make it pretty 'meh'. Instead, I could see having a large scale home or community 3D printing platform which recycles plastic for large things as a huge win. Need more shelving for the garage? Melt down and print using all those empty 2L bottles!
 
-9. 
+   There are some options [for 3D printer plastic recyling](https://all3dp.com/2/3d-printers-recycled-plastic/) already but all the ready-to-go options are very expensive, and none are made for this sort of large scale I'd like to see.
+
+9. Modular Furniture (That actually follows a standard)
+
+   How freakin' cool would it be if when you needed more desk space you could just snap an extra wing on, or if you could move your existing desk top to a sit-stand desk. Would it not be great if when you're office chair's bottom eventually goes bad you could just snap a new one on?
+
+10. Literally just https://dynamicland.org
+
+
+
