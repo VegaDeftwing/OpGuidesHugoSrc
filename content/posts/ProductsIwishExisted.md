@@ -16,19 +16,19 @@ Most of these things probably exist. For many, it's just that they don't exist a
 
 1. A not garbage, not phone based, IR camera that doesn't cost a bajillion dollars
 
-   Yes. I know the FLIR and SEEK Thermal cameras are a thing, but both have their share of software problems or hardware incompatibilities but most I don't want to have to hope that their app keeps working with my phone at risk of a $250 paper weight.
+   Yes. I know the FLIR and SEEK Thermal cameras are a thing, but both have their share of software problems or hardware incompatibilities. Most of all, I don't want to have to hope that their app keeps working with my phone at risk of a $250 paper weight.
 
-   And, yes, FLIR does have a handheld thermal spot camera that's ~$350, \$100 more, that's standalone but it's only an 80x60 pixel image (same as the PRO LT smart phone one) but lacks the dual camera smarts that make the image better.
+   And, yes, FLIR does have a handheld thermal spot camera that's ~$350, \$100 more, that is standalone; however, it's only an 80x60 pixel image (same as the PRO LT smart phone one) and lacks the dual camera smarts that make the image better on their phone-attached offerings.
 
    I suspect this is largely due to restrictions on selling IR cameras for the sake of 'national security' as high speed, high resolution IR have military applications. Doesn't make me any less salty though.
 
 2. Better environmental quality sensors
 
-   There's no good reason, in 2021, that every home - or hell, every room - doesn't have CO2 and radiation level detection along with CO and smoke detection. And I don't mean some fuck off lil' estimated CO2 meter, I mean the real shit, [NDIR sensing](https://www.adafruit.com/product/4867) and a giger tube.
+   There's no good reason, in 2021, that every home - or hell, every room - doesn't have CO2 and radiation level detection along with CO and smoke detection. And I don't mean some waste of time lil' estimated CO2 meter, I mean the real deal, [NDIR sensing](https://www.adafruit.com/product/4867) and a giger tube.
 
 3. Not shit webcams
 
-   Short and sweet. Everything available right now, even upwards of $200, is fucking shit. Put a real damn sensor and hardware encoding in them.
+   Short and sweet. Everything available right now, even upwards of $200, is *shit*. Put a real sensor and hardware encoding in them.
 
    I know using a capture card (USB or PCIe) and a full on camera is an option, but now were back into stupid money.
 
