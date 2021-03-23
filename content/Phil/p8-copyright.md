@@ -4,8 +4,6 @@ slug: "Copyright"
 
 ---
 
-[TODO] https://locusmag.com/2020/09/cory-doctorow-ip/
-
 # Letting Society Advance Though Art and Innovation
 
 This video from Tom Scott on YouTube is a very good intro to everything I'll be talking about on this page, I'll assume you've watched it so that I don't have to repeat everything that he says here.
@@ -51,13 +49,7 @@ Marvel, Pink Floyd, and Minecraft Vs Web comics, indie, and Minetest.
 
 ## Piracy?
 
-{{< columns >}}
-
-![](/scihub.jpg)
-
-<--->
-
-{{< /columns >}}
+[TODO] ethics of piracy, when it's okay, who it affects, etc.
 
 {{< hint warning>}}
 
@@ -73,12 +65,85 @@ Because these many of these sites are tecnically hosting illegal content, they t
 
 ## Open Directories
 
+[TODO what is an open directory]
+
 https://www.reddit.com/r/opendirectories/
 
 https://the-eye.eu/public/
+
+## For the Hackers, Makers, and Engineers
+
+Cory Dottorow is a huge name when it comes to speaking on how copyright matters to those of us that like to create with code and wires. I really recomend reading his post about why [There are no digital rights, only human rights.](https://locusmag.com/2020/09/cory-doctorow-ip/) and watching this video about the [War on General-Purpose Computing](https://www.youtube.com/watch?v=gbYXBJOFgeI).
 
 <ol hidden id="footnotes">
     <li>By 'slow' I'm primarily referring to the lack of or incompetence of consumer data protection law. <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">GDPR</a> is definitely a step in the right direction on this; however, that is both only for the EU and was implemented far too late. By 'fast' I had the <a href="https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act">DMCA</a> in mind, which is wildly considered to be both overreaching and to harsh. Simultaneously, we lack real power as consumers, copyright is a game the rich can play with expensive laywers and the small creator can't afford to defend.</li>
 </ol>
 
+
+## For the furries
+
+No, you can not copyright your species or make a 'closed' species. While I am not a lawyer, I can say with a pretty high degree of certainty that your claims of copyright over a fictional species would not stand up in court.
+
+Here's some other people telling you exactly the same thing:
+
+[Lakota Wolf on Fur Affinity](https://forums.furaffinity.net/threads/clearing-confusion-about-closed-species-and-i-copyright-this-species-character.135077/), [Valkyrie on Furry Amino](https://aminoapps.com/c/furry-amino/page/blog/closed-species-dont-exist/d37B_6pxHbuEKLg7Mb74wg40e17EelGdKR7#:~:text=Is%20it%20possible%20to%20copyright,their%20services,%20but%20not%20copyright.)
+
+The TLDR? You can't copyright an idea.
+
+---
+
+Also in response to [Closed Species and Copyright: I Asked a Lawyer](https://www.deviantart.com/riipurr/journal/Closed-Species-and-Copyright-I-Asked-a-Lawyer-802440301) from Riipurr
+
+> [...] if the character still resembles Doraemon enough, you can get sued for it.”
+
+Yeah, that doesn't mean anything. You can be sued for *anything*. Weather or not a judge will agree with you is a wildly different question. While, again, IANAL, I have read *way to much* copyright law and work with people that actively push the limits of the Digital Millenium Copyright Act (DMCA) and know enough to justify my donations to the EFF.
+
+If someone were to trace your work. Definitely, that's copying, you're in the right, you'd win.
+
+If someone were to draw what was *very* obviously your character with minor tweaks, again, you'd win.
+
+If someone were to draw a new character, with significantly different markings, but of the same species? Probably not. Unless your species has some *incredibly* specific details that are in of themselves a copyrightable work that the person also copies you're going to have a hard time. You do seem to get this as you say
+
+> we were mainly discussing about species with distinguishable physical features and not simple hybrids like a plain cat with wings, etc. You’d have to make the cat’s silhouette unique enough to make it its own, new thing (like scarfoxes)
+
+But, really? Looking at [Scarfoxes](https://www.deviantart.com/scarfoxchronicles/art/Scarfox-Head-Chart-871694096) I'd really question the claim that there's enough copyrightable material here. Remember, *ideas* are not copyrightable. To me, this looks like you're claiming the *idea* of making a fox like character with upright ears and a stiched-style face is the copyright. If the silloute were to exactly match one of these, yeah, that's infringement, but making something that uses a similar *idea* is not. Similarly, you can't copyright a word- that would be trademark, and unless you intend to file for it you don't get it by default like you do copyright.
+
+Further down you even said
+
+> To be frank, I don’t quite care about the legality of all these. It’s just that people who excuse ripping off artists and others because “duuhhh laws say I can” really annoy me.
+
+Yeah. And that's fine. But you need to realize that when you're trying to claim copyright of something so broad you're saying "This *idea* belongs to me" seemingly unaware that you're possibly infringing on the ablity of other artists to make things that honestly weren't inspried by your work, that just happen to be similar.
+
+At the end of the day, this comment is the one that matters:
+
+> [<img src="https://a.deviantart.net/avatars-big/j/u/juriscat.gif?3" alt="JurisCat's avatar" style="zoom:25%;" />](https://www.deviantart.com/juriscat)
+>
+> [JurisCat](https://www.deviantart.com/juriscat)[Jun 20, 2019](https://www.deviantart.com/comments/1/802440301/4745375467)
+>
+> One thing to consider about this, though, is that people are unlikely to sue over characters being copied because typically the legal fees would be too high to make it worth suing. 
+>
+
+>[<img src="https://a.deviantart.net/avatars-big/r/i/riipurr.gif?14" alt="Riipurr's avatar" style="zoom:25%;" />](https://www.deviantart.com/riipurr)
+> 
+>[Riipurr](https://www.deviantart.com/riipurr)[Jun 20, 2019](https://www.deviantart.com/comments/1/802440301/4745387918)
+> 
+>Most definitely! This is simply an answer to something that's been bothering me for a while.
+
+*THIS*. It's often not worth your time to sue, so unless you're *damn* sure that somebody is infringing - that is it's traced, the outlines match, the colors and markings are exactly the same - you wouldn't. That's exactly the point of **copy**right. It's in the name.
+
+This is *not* an attack on [Riipur](https://www.deviantart.com/riipurr) (seriously, I don't even know them, and their art is actually bomb as hell), rather it's a statment to the furry comunity: *Quit. Your. Bullshit.*
+
+Because this really bothers me, here's a list of examples I find particularly offensive:
+
+[This species](https://catarazzo.wixsite.com/selvageist) by [Kataxicon](https://www.deviantart.com/katxicon), was even directly called a Wendigo, an existing mythological creature, before she renamed it to Selvageist.
+
+[The "Phish-Keepers"](https://www.deviantart.com/flnch-face/art/P-K-Chatbox-Talpi-870007723) by [Flnch-Face](https://www.deviantart.com/flnch-face) is literally just a water dragon.
+
+[This "Shark-Wolf"](https://www.deviantart.com/birdywren/art/Shork-810332517) species by [Alfeddy](https://www.deviantart.com/alfeddy) speaks for itself.
+
+I could literally go though deviant-art and find these all day.
+
+If you do this, as an artist, you are *actively harming* the furry community by claiming ownership over an idea.
+
+<iframe src="https://giphy.com/embed/KYLLQg2fqs5blnO4sj" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/velma-stop-that-you-KYLLQg2fqs5blnO4sj"></a></p>
 
