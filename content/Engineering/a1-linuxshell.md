@@ -240,6 +240,8 @@ To make aliases permanent, add them to your shell's configuration file (.bashrc 
 
 Aliases are one way to customize your shell. Most shell customization occurs in the shells configuration file, usually stored as a hidden file in the home directory. .bashrc and .zshrc are the configuration files for bash and zsh. The files are loaded every time a terminal is started up and can set up its environment by loading aliases and custom functions and setting terminal colors and variables like PATH and EDITOR.
 
+https://github.com/zsh-users/zsh-autosuggestions
+
 [TODO]
 
 ## Shell Scripting
