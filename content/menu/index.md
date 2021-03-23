@@ -80,6 +80,7 @@ headless: true
   - [ 8 - Software]({{< relref "Music/m8-musicsoft" >}})
   - [ 9 - Hardware]({{< relref "Music/m9-musichard" >}})
   - [A1 - Other Resources]({{< relref "Music/ma1-musicresources" >}})
+  - [A2 - Video]({{< relref "Music/ma2-video" >}})
 
 ---
 

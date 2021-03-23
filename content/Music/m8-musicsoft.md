@@ -175,25 +175,6 @@ No prices are listed below because they can fluctuate so much. VSTs and other mu
 
 
 
-### Visualization Software/Tools
-
-| Name & Link                                                  | Description                                                  | Screenshot/Demo                                              |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [music_visualizer (Github)](https://github.com/bradleybauer/music_visualizer) | Shader viewer / music visualizer for Windows and Linux       | Too many variations to easily show, look at the github repo. |
-| [Soundshader (Github)](https://github.com/soundshader/soundshader.github.io) | Uses fancy 'AutoCorrelation' - info on the github page       | https://soundshader.github.io                                |
-| [Metagroove (Itch.io)](https://marumari.itch.io/metagroove)  |                                                              |                                                              |
-| [Signalizer VST](https://www.jthorborg.com/index.html?ipage=signalizer) | Listed above in Free VSTs, but it's so good I'm listing it here again. An amazing VST Oscilliscope, Vectorscope, and general analysis tool, looks very good too. Has full screen modes. |                                                              |
-
-Note that most of the fancy music animations you see on YouTube are *probably* made in Adobe After Effects, with the exception of some that are done in programs like TouchDesigner or other node-based programming environments. You can read more about these in [Design Chapter 6 - Generative Tools]({{< relref "Design/d6-gen" >}})
-
-Some people also use hardware such as the [Sleepy Circuits 'Hypno'](https://sleepycircuits.com/hypno) or [Critter & Guitari 'Eyesy'](https://www.critterandguitari.com/eyesy) - though both of these platforms are really just running a Raspberry Pi (a lil' computer) under the hood.
-
-On very rare occasion you may also see some outright analog video synthesis, but this is generally very, very expensive. Just search [YouTube for 'Analog Video Synthesizer'](https://www.youtube.com/results?search_query=analog+video+synthesizer).
-
-I also recomend making your visuals in weirder ways. Here are some videos with visuals I really like:
-
-* [Max Cooper - Aleph 2 (Official Video by Martin Krzywinski)](https://www.youtube.com/watch?v=tNYfqklRehM)
-
 ### Music Apps (Android)
 
 | Name & Link | Description | Screenshot/Demo |
