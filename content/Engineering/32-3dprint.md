@@ -1,12 +1,12 @@
 # Chapter 32 - 3D printing, CNC, and making things
 
-## Basic making
+# 32.1 - Basic making
 
-### Wood working
+## Wood working
 
-#### Safety
+### Safety
 
-#### Cool projects
+### Cool projects
 
 [Lichtenberg Figure Table (imgur)](https://imgur.com/a/7FGxi)
 
@@ -14,15 +14,41 @@
 
 
 
-### Metal Working
+## Metal Working
 
-#### Safety
+### Safety
 
-## CNC, 3D, Lasers, & Plotting
+# 32.2 - CNC, 3D, Lasers, & Plotting
 
+## Plotting
 
+## Lasters
+
+## 3D Printing
+
+{{< hint info>}}
+
+From personal experiance, I can tell you the *really* cheap, like sub $200 printers, are mostly shit. I'm currently rocking an Ender 3 V2, which is around \$300.
+
+{{< columns >}}
+
+<img src="/ender3.jpg" alt="ender3" style="zoom:32%;" />
+
+<--->
+
+So far I've had pretty good luck with it. It's not perfect, and if you do get the base kit, you'll still probably need to put some money into it to upgrade it to fix some of it's more glaring issues, but that can be done iteratively and it will still work 'stock'.
+
+It's also a pretty popular printer, which means there's a lot of [videos on upgrading it](https://youtu.be/kG_YKeJDaX8) and [printable upgrade](https://www.thingiverse.com/search?q=ender+3&type=things&sort=relevant) parts on Thingiverse.
+
+Obviously still do your own research, but at least as of the time of writing (Mar of 2021) this seems like the best option at an entry-level price point. If you can't do at least this printer, I'd really advise just saving your money, because *anything* cheaper is really going to be questionable, to the point it may not ever really work.
+
+{{< /columns >}}
+
+{{< /hint >}}
 
 [TODO]
+
+Calibration @ https://teachingtechyt.github.io/calibration.html
 
 While this book/guide/thing primarily focuses on the less mechancial-engieering-y side of things, it wouldn't make sense not to include at least a little about 3D printing, molding, materials, gears, springs, and the like. So, here goes:
 
