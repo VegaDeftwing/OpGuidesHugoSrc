@@ -139,7 +139,13 @@ Because this really bothers me, here's a list of examples I find particularly of
 
 I could literally go though deviant-art and find these all day.
 
-If you do this, as an artist, you are *actively harming* the furry community by claiming ownership over an idea.
+If you do this, as an artist, you are *harming* the furry community by claiming ownership over an idea. It deters other artists from being able to draw things they *do* have the right to, and it's really just a form of gatekeeping. I do understand the desire to claim your own work and get the value you deserve out of it, but closed species are often stepping over the line and claiming ownership of an idea, something you do not have the right to do.
+
+Yeah, our current copyright system is 300% ultra forked for small creators. I understand. And yeah, I'd be super pissed off if some nazi-fur made a dutch angel dragon and paraded it around.
+
+But then we come to the real solution: If you want to have a closed species, you need to make sure it really does pass the bar where others would associate the species with you, that any creature, regardless of colors and sub-designs, is so obviously a derivative that everyone recognizes it (and as such could associate it with you). Examples of this are easy: Protogens, Sergals, and Dutch Angel Dragons (albeit the last one is hella debatable) 
+
+So next time you're thinking about calling your Lynx-duck hybrid a closed species, 
 
 <iframe src="https://giphy.com/embed/KYLLQg2fqs5blnO4sj" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/velma-stop-that-you-KYLLQg2fqs5blnO4sj"></a></p>
 
