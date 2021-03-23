@@ -116,16 +116,12 @@ Yeah. And that's fine. But you need to realize that when you're trying to claim 
 
 At the end of the day, this comment is the one that matters:
 
-> [<img src="https://a.deviantart.net/avatars-big/j/u/juriscat.gif?3" alt="JurisCat's avatar" style="zoom:25%;" />](https://www.deviantart.com/juriscat)
->
-> [JurisCat](https://www.deviantart.com/juriscat)[Jun 20, 2019](https://www.deviantart.com/comments/1/802440301/4745375467)
+> [<img src="https://a.deviantart.net/avatars-big/j/u/juriscat.gif?3" alt="JurisCat's avatar" style="zoom:25%;" />](https://www.deviantart.com/juriscat) [JurisCat](https://www.deviantart.com/juriscat) - [Jun 20, 2019](https://www.deviantart.com/comments/1/802440301/4745375467)
 >
 > One thing to consider about this, though, is that people are unlikely to sue over characters being copied because typically the legal fees would be too high to make it worth suing. 
 >
 
->[<img src="https://a.deviantart.net/avatars-big/r/i/riipurr.gif?14" alt="Riipurr's avatar" style="zoom:25%;" />](https://www.deviantart.com/riipurr)
-> 
->[Riipurr](https://www.deviantart.com/riipurr)[Jun 20, 2019](https://www.deviantart.com/comments/1/802440301/4745387918)
+>[<img src="https://a.deviantart.net/avatars-big/r/i/riipurr.gif?14" alt="Riipurr's avatar" style="zoom:25%;" />](https://www.deviantart.com/riipurr) [Riipurr](https://www.deviantart.com/riipurr) - [Jun 20, 2019](https://www.deviantart.com/comments/1/802440301/4745387918)
 > 
 >Most definitely! This is simply an answer to something that's been bothering me for a while.
 
