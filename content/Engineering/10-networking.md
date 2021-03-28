@@ -2,6 +2,8 @@
 
 [TODO] Add follow along making a network stack
 
+[TODO] https://iximiuz.com/en/posts/computer-networking-101/
+
 ## Basics
 
 **Nodes**

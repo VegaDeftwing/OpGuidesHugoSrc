@@ -17,7 +17,7 @@ I'm a 'murican, so this will be US centric, that said, the arguments here could 
 lower standards of removal, ranked, transparency
 Budget voting
 
-<iframe width="100" height="500" src="https://www.youtube.com/embed/s7tWHJfhiyo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/s7tWHJfhiyo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/l8XOZJkozfI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
