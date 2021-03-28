@@ -12,6 +12,8 @@ for (🥚 = 1; 🥚 < 🐔; 🥚++){
 
 https://esoteric.codes
 
+[Why OO Sucks (Joe Armstrong)](http://harmful.cat-v.org/software/OO_programming/why_oo_sucks)
+
 ## Low Level
 
 ### C, C++, C#, ????
@@ -67,6 +69,8 @@ Other sources to lean rust:
 - https://doc.rust-lang.org/book/foreword.html
 - [Learning Rust the Dangerous Way (Cliff L. Biffle)](http://cliffle.com/p/dangerust/)
 - [Rust Performance Book](https://nnethercote.github.io/perf-book/)
+
+You may also want to check out [CXX](https://github.com/dtolnay/cxx) for C++<-> Rust interop
 
 ### Go
 

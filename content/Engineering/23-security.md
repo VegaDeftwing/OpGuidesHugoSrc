@@ -370,6 +370,8 @@ As [Soatok](https://soatok.blog/2020/10/08/vanity-vendors-and-vulnerabilities/) 
 
 Authentication != Identity
 
+https://permission.site
+
 ## Cryptography
 
 [How To Learn Cryptography as a Programmer (Soatok)](https://soatok.blog/2020/06/10/how-to-learn-cryptography-as-a-programmer/)

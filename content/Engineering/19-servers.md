@@ -80,3 +80,7 @@ Before we get to business there's some necessary viewing: http://motherfuckingwe
 [TODO]
 ## Serverless?
 [TODO]
+
+## Interesting Related Articles:
+
+[Why All My Servers Have an 8GB Empty File (Brian Schrader)](https://brianschrader.com/archive/why-all-my-servers-have-an-8gb-empty-file/) (It's to buy time in case of a full disk)
