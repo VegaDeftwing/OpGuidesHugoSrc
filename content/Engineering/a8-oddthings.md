@@ -26,5 +26,6 @@ rop
 - https://n-o-d-e.live/zine/NODE_VOL_02.pdf
 - [A post about Windows 10 LTSC, a super stripped down version of 10 that sucks a bit less](https://www.reddit.com/r/pcmasterrace/comments/e4d3a5/finally_had_to_replace_it_due_to_software/f9adwx3/)
 - https://criu.org
+- [Factorio Is The Best Technical Interview We Have (Erik McClure)](https://erikmcclure.com/blog/factorio-is-best-interview-we-have/)
 
 

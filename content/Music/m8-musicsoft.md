@@ -212,3 +212,27 @@ These 'plugins' only work on Monome's Norns hardware
 
 [euclidigons - euclidian sequencer but not like that™](https://llllllll.co/t/euclidigons/36666)
 
+# Audio backends
+
+[TODO]
+
+## Windows
+
+### ASIO
+
+### Direct Sound
+
+## Linux
+
+### ALSA
+
+### Pulse Audio
+
+### Jack
+
+{{< hint warning >}}
+
+A few programs you wouldn't expect to run directly though jack, one of the more annoying is Telegram. To fix Telegram at least, just use `alsoft-config` and go to Backends->General, then right click Disabled backends and add JACK.
+
+{{< /hint >}}
+
