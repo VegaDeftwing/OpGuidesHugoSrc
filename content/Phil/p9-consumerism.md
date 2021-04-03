@@ -6,11 +6,45 @@ slug: "Consumerism"
 
 # Consumerism
 
+{{< columns >}}
+
+![VegaMaw](/VegaMaw.PNG)
+
+{{< attribution >}}Vega's Maw, made for me by [@NewtWolfdeer](https://twitter.com/newtwolfdeer){{< /attribution >}}
+
+<--->
+
+Look, I'll be the first to admit I'm guilty of falling for the tricks used to get people to consume. To buy and buy more. A good sale, even on something I didn't know I previously wanted, still has a way of making my dumb lil' human brain go "OH!"
+
+The *problem* is that consumers can easily fall into traps that lead them to buy things for a stupid reasons, these include:
+
+* Buying something expensive as a status symbol
+* Buying the 'New version' which has no meaningful improvement
+* Brand Loyalty (not *always* bad)
+* Buying from businesses that prevent repairs
+* Buying from businesses that abuse workers or their rights
+
+among many, many other things.
+
+{{< /columns >}}
+
+Under Capitalism, there are oposing forces here. On the one hand, greater consumption means more jobs, more money flowing, means a better enconomy, means everyone gets to live a better life.
+
+{{< attribution >}}(or at least this is true if you subscribe to the hyper-capitalist propaganda we're fed from birth in the US! Yay, Capitalism is all sunshine ☀️ and rainbows 🌈 and absolutely can not be criticized or you're an *evil* comunist!){{< /attribution >}}
+
+On the other hand, holy fucking shit everything is on fire. People buy useless shit wrapped in enough plastic to [create a fucking Texas sized trash island](https://en.wikipedia.org/wiki/Great_Pacific_garbage_patch) in the Pacific, we support companies that actively fight against our [right to repair](https://en.wikipedia.org/wiki/Electronics_right_to_repair) or which make products with extreme [Planned Obsolescence](https://en.wikipedia.org/wiki/Planned_obsolescence), and most of us work meaningless jobs just to be able to afford to pay for a fancier car that we will mostly use to *get to* that job. Meanwhile, if you *don't* have a credit card and debt, you're also fucked because you need to maintain a good [Credit Score](https://en.wikipedia.org/wiki/Credit_score#United_States).<a class="ptr">(1)</a>
+
+But the real problem is that we all go to work to pay for shit that we don't need, that we're not allowed to repair or don't even really 'own'<a class="ptr">(2)</a>, that mines our data to advertise to us after we've bought the product<a class="ptr">(3)</a>, that randomly removes features years later<a class="ptr">(4)</a>, that we've been told has value it doesn't<a class="ptr">(5)</a>. It's not turtles all the way down, it's just piles of bullshit.
+
 ## We buy too much shit
+
+We buy to much shit. 
 
 TODO: individually wrapped wastes of money for holidays makes me feel gross
 
 ## Enforcing Protections
+
+
 
 ### Planned obsolescence, Right to repair
 
@@ -76,3 +110,12 @@ But, I'm getting off topic, the point of this was to discuss and propose a solut
 >[5] https://joinmastodon.org/
 >[6] https://telegram.org/
 >[7] https://addons.mozilla.org/…/fire…/addon/facebook-container/
+
+<ol hidden id="footnotes">
+	<li>Nevermind that one of the major credit bueraus fucked up hard enough to expose the the <a href="https://en.wikipedia.org/wiki/Equifax#Security_Failings">credit records of 140 milllion Americans</a> </li>
+    <li>Your carrier probably owns your phone, it has apps on it you can't remove. You're Smart-Whatever might phone-home and <a href="https://www.consumerreports.org/smart-home/wink-tells-users-pay-up-or-we-will-disable-smart-home-hub/"> stop working </a> if you don't <a href="https://gizmodo.com/cricut-now-wants-users-to-pay-extra-for-unlimited-use-o-1846477745"> pay for a subscription.</a> You're digital library of kindle books can have a title revoked at any time. You may have your gaming account banned and lose all your digital games and DLC. </li>
+    <li><a href="https://www.flatpanelshd.com/news.php?subaction=showfull&id=1583755244"> Fuck Smart TVs</a></li>
+	<li>Like TI did to their <a href="https://www.inputmag.com/culture/texas-instruments-removes-support-for-popular-side-loaded-apps">Calculators</a></li>
+    <li>Diamonds. Diamonds, in jewlery, aren't worth anything near what we've been lead to believe. Plus they're often acquired via slavery or other really dark means, extra stupid when you consider they can made in a lab anyway.</li>
+</ol>
+
