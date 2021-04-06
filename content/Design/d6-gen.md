@@ -812,6 +812,14 @@ a hybrid graphics editor / programming environment for creating interactive diag
 ![](/vegalite.png)
 {{< /columns2 >}}
 
+{{< columns2 >}}
+[Talso](https://github.com/rockbite/talos) 
+<--->
+Node based, open source VFX Editor with powerfull interface and a ready to use libGDX runtime.
+<--->
+![](https://camo.githubusercontent.com/f5e36d15a2a35cfc792491fa23c103950f38e2af11a74bb78882ee60f9e4c8d1/68747470733a2f2f692e696d6775722e636f6d2f4b5970796e7a422e706e67)
+{{< /columns2 >}}
+
 
 ## Scripting/Generative tools IN other tools
 
