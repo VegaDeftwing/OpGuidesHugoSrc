@@ -5,7 +5,7 @@ type: docs
 
 # Welcome to Opinionated Guides
 
-The biggest section of this site is [Opinionated Engineering]({{< relref "/Engineering/ep1-community" >}}),
+The biggest section of this site is [Opinionated Engineering]({{< relref "/Engineering/community" >}}),
 but that isn't to say [Opinionated Music]({{< relref "Music/m1-gettingstarted" >}}), [Opinionated Design]({{< relref "Design/d1-basics" >}}), and [Opinionated Philosophy]({{< relref "Phil/p1-basic" >}}) aren't worth checking out too.
 
 You'll also find some other miscalculation stuff, such as [Interviews]({{< relref "Interviews/interviews" >}}), and [blog posts]({{< relref "posts" >}}).

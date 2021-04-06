@@ -8,58 +8,85 @@ headless: true
 
 </div>
 
+<p style="color:#009CDF;" >    Introduction</p>
+
   - [ 0 - What is this?]({{< relref "/Engineering/Engineering" >}})
-  - [ Ⅰ - Community]({{< relref "/Engineering/ep1-community" >}})
-  - [ Ⅱ - Learn How to Learn]({{< relref "/Engineering/ep2-howtolearn" >}})
-  - [ 1 - The First Goal]({{< relref "/Engineering/1-firstgoal" >}})
-  - [ 2 - Installing Arch Linux]({{< relref "/Engineering/2-arch" >}})
-  - [ 3 - Into The Hardware]({{< relref "/Engineering/3-hardware" >}})
-  - [ 4 - The *Root* of Things]({{< relref "/Engineering/4-linuxdirtree" >}})
-  - [ 5 - Circuits! ]({{< relref "/Engineering/5-circuits1" >}})
-  - [ 6 - Working on *How* we work]({{< relref "/Engineering/6-howwework" >}})
-  - [ 6½- Git]({{< relref "/Engineering/6p5-git" >}})
-  - [ 7 - Let's Write Some Code]({{< relref "/Engineering/7-codeintro" >}})
-  - [ 7½- Consequences]({{< relref "/Engineering/7p5-consequences" >}})
-  - [ 8 - Low Level Programming]({{< relref "/Engineering/8-lowlvl" >}})
-  - [ 9 - Yet More Programming]({{< relref "/Engineering/9-codecont" >}})
-  - [ 9½- Programming Languages]({{< relref "/Engineering/9p5-languages" >}})
-  - [10 - Networking]({{< relref "/Engineering/10-networking" >}})
-  - [11 - Math]({{< relref "/Engineering/11-math" >}})
-  - [12 - Physics]({{< relref "/Engineering/12-physics" >}})
-  - [13 - Chemistry]({{< relref "/Engineering/13-chem" >}})
-  - [13½- 'The Rest']({{< relref "/Engineering/13p5-othersubjects" >}})
-  - [14 - Semiconductors]({{< relref "/Engineering/14-circuits2" >}})
-  - [15 - Digital Logic]({{< relref "/Engineering/15-digitallogic" >}})
-  - [16 - Embedded Systems]({{< relref "/Engineering/16-embedded" >}})
-  - [17 - Algorithms and More]({{< relref "/Engineering/17-algorithms" >}})
-  - [18 - Writing a Big Program]({{< relref "/Engineering/18-bigprog" >}})
-  - [19 - Servers!]({{< relref "/Engineering/19-servers" >}})
-  - [19½- "The Cloud"]({{< relref "/Engineering/19p5-cloud" >}})
-  - [20 - Databases]({{< relref "/Engineering/20-databases" >}})
-  - [21 - Debugging, CI & CD]({{< relref "/Engineering/21-debugbuildtest" >}})
-  - [22 - Compilers & Assemblers]({{< relref "/Engineering/22-compileassemble" >}})
-  - [23 - Security & Exploitation]({{< relref "/Engineering/23-security" >}})
-  - [24 - ]({{< relref "/Engineering/24-" >}})
-  - [25 - FOSS & Copyright]({{< relref "/Engineering/25-fosscopyright" >}})
-  - [26 - Let's Make our own PCB]({{< relref "/Engineering/26-pcb" >}})
-  - [27 - We've Got Cores!]({{< relref "/Engineering/27-multithread" >}})
-  - [28 - Graphical Programming]({{< relref "/Engineering/28-guiprog" >}})
-  - [28½- Game Programming]({{< relref "/Engineering/28p5-game" >}})
-  - [29 - (((())(()((()(()))))))]({{< relref "/Engineering/29-funcprog" >}})
-  - [30 - Programmable Logic]({{< relref "/Engineering/30-fpga1" >}})
-  - [31 - Let's Make our own CPU]({{< relref "/Engineering/31-comparch" >}})
-  - [32 - 3D Printing & CNC]({{< relref "/Engineering/32-3dprint" >}})
-  - [33 - Fine, here's AI/ML]({{< relref "/Engineering/33-aiml" >}})
-  - [34 - Ham Radio]({{< relref "/Engineering/34-hamradio" >}})
-  - [A0 - Wrapping Up]({{< relref "/Engineering/a0-wrappingup" >}})
-  - [A1 - Using The Linux Shell]({{< relref "/Engineering/a1-linuxshell" >}})
-  - [A2 - Cheat Sheets]({{< relref "/Engineering/a2-cheat" >}})
-  - [A3 - Bill Of Materials]({{< relref "/Engineering/a3-bom" >}})
-  - [A4 - Ethics and Engineering]({{< relref "/Engineering/a4-politics" >}})
-  - [A5 - Fixing Issues]({{< relref "/Engineering/a5-fixxingissuses" >}})
-  - [A6 - Other Great Resources]({{< relref "/Engineering/a6-resources" >}})
-  - [A7 - History]({{< relref "/Engineering/a7-history" >}})
-  - [A8 - Odd Things]({{< relref "/Engineering/a8-oddthings" >}})
+  - [ Ⅰ - Community]({{< relref "/Engineering/community" >}})  
+  - [ Ⅱ - Learn How to Learn]({{< relref "/Engineering/howtolearn" >}})
+
+<p style="color:#009CDF;" >    Linux & Your Computer</p>
+
+  - [ 1 - The First Goal]({{< relref "/Engineering/firstgoal" >}})
+  - [ 2 - Installing Arch Linux]({{< relref "/Engineering/arch" >}})
+  - [ 3 - Into The Hardware]({{< relref "/Engineering/hardware" >}})
+  - [ 4 - The *Root* of Things]({{< relref "/Engineering/linuxdirtree" >}})
+  - [ 5 - Working on *How* we work]({{< relref "/Engineering/howwework" >}})
+  - [ 5½- Git]({{< relref "/Engineering/git" >}})
+  - [A1 - Using The Linux Shell]({{< relref "/Engineering/linuxshell" >}})
+
+<p style="color:#009CDF;" >    Prerequisites</p>
+
+  - [6 - Math]({{< relref "/Engineering/math" >}})
+  - [7 - Physics]({{< relref "/Engineering/physics" >}})
+  - [8 - Chemistry]({{< relref "/Engineering/chem" >}})
+  - [9 - 'The Rest']({{< relref "/Engineering/othersubjects" >}})
+
+<p style="color:#009CDF;" >    Programming</p>
+
+  - [10 - Let's Write Some Code]({{< relref "/Engineering/codeintro" >}})
+  - [10½- Consequences]({{< relref "/Engineering/consequences" >}})
+  - [11 - Low Level Programming]({{< relref "/Engineering/lowlvl" >}})
+  - [11½- FOSS & Copyright]({{< relref "/Engineering/fosscopyright" >}})
+  - [12 - Yet More Programming]({{< relref "/Engineering/codecont" >}})
+  - [12½- Fixing Issues]({{< relref "/Engineering/fixxingissuses" >}})
+  - [13 - Programming Languages]({{< relref "/Engineering/languages" >}})
+  - [14 - Algorithms and More]({{< relref "/Engineering/algorithms" >}})
+  - [15 - Writing a Big Program]({{< relref "/Engineering/bigprog" >}})
+  - [16 - Debugging, CI & CD]({{< relref "/Engineering/debugbuildtest" >}})
+  - [17 - We've Got Cores!]({{< relref "/Engineering/multithread" >}})
+  - [18 - Graphical Programming]({{< relref "/Engineering/guiprog" >}})
+  - [19 - Game Programming]({{< relref "/Engineering/game" >}})
+  - [20 - (((())(()((()(()))))))]({{< relref "/Engineering/funcprog" >}})
+  - [21 - Fine, here's AI/ML]({{< relref "/Engineering/aiml" >}})
+
+<p style="color:#009CDF;" >    Circuits</p>
+
+  - [22 - Circuits! ]({{< relref "/Engineering/circuits1" >}})
+  - [23 - Semiconductors]({{< relref "/Engineering/circuits2" >}})
+  - [24 - Digital Logic]({{< relref "/Engineering/digitallogic" >}})
+  - [25 - Embedded Systems]({{< relref "/Engineering/embedded" >}})
+  - [26 - Let's Make our own PCB]({{< relref "/Engineering/pcb" >}})
+
+<p style="color:#009CDF;" >    Going Deeper</p>
+
+  - [27 - Compilers & Assemblers]({{< relref "/Engineering/compileassemble" >}})
+  - [28 - Programmable Logic]({{< relref "/Engineering/fpga1" >}})
+  - [29 - Let's Make our own CPU]({{< relref "/Engineering/comparch" >}})
+
+<p style="color:#009CDF;" >    Networking & Servers</p>
+
+  - [30 - Networking]({{< relref "/Engineering/networking" >}})
+  - [31 - Servers!]({{< relref "/Engineering/servers" >}})
+  - [31½- "The Cloud"]({{< relref "/Engineering/cloud" >}})
+  - [32 - Databases]({{< relref "/Engineering/databases" >}})
+  - [33 - Security & Exploitation]({{< relref "/Engineering/security" >}})
+
+<!--  - [24 - ]({{< relref "/Engineering/24-" >}}) -->
+
+<p style="color:#009CDF;" >    Making and Hobbies</p>
+
+  - [34 - 3D Printing & CNC]({{< relref "/Engineering/3dprint" >}})
+  - [35 - Ham Radio]({{< relref "/Engineering/hamradio" >}})
+  - [36 - Computer History]({{< relref "/Engineering/history" >}})
+
+<p style="color:#009CDF;" >    Wrapping Up</p>
+
+  - [37 - Where next?]({{< relref "/Engineering/wrappingup" >}})
+
+
+  - [A2 - Cheat Sheets & Libraries]({{< relref "/Engineering/cheat" >}})
+<!--  - [A3 - Bill Of Materials]({{< relref "/Engineering/a3-bom" >}}) -->
+  - [A3 - Other Great Resources]({{< relref "/Engineering/resources" >}})
 
 
 ---
