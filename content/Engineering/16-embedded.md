@@ -70,4 +70,3 @@ I **really** want to make this clear: Arduino is a framework. Not a specific har
 ## Things you'll want to know exist that I don't know where else to put:
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/qKy98Cbcltw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-

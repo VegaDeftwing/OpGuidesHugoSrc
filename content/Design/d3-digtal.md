@@ -12,6 +12,8 @@ slug: "Digital Design"
 
 ### Raster Art
 
+[PhotoGIMP](https://github.com/Diolinux/PhotoGIMP) is a patch for Gimp that makes it look more like Photoshop, adds fonts and some filters.
+
 #### Pixel Art
 
 ### Vector Art

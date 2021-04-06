@@ -10,7 +10,6 @@ headless: true
 
   - [ 0 - What is this?]({{< relref "/Engineering/Engineering" >}})
   - [ Ⅰ - Community]({{< relref "/Engineering/ep1-community" >}})
-
   - [ Ⅱ - Learn How to Learn]({{< relref "/Engineering/ep2-howtolearn" >}})
   - [ 1 - The First Goal]({{< relref "/Engineering/1-firstgoal" >}})
   - [ 2 - Installing Arch Linux]({{< relref "/Engineering/2-arch" >}})
@@ -45,6 +44,7 @@ headless: true
   - [26 - Let's Make our own PCB]({{< relref "/Engineering/26-pcb" >}})
   - [27 - We've Got Cores!]({{< relref "/Engineering/27-multithread" >}})
   - [28 - Graphical Programming]({{< relref "/Engineering/28-guiprog" >}})
+  - [28½- Game Programming]({{< relref "/Engineering/28p5-game" >}})
   - [29 - (((())(()((()(()))))))]({{< relref "/Engineering/29-funcprog" >}})
   - [30 - Programmable Logic]({{< relref "/Engineering/30-fpga1" >}})
   - [31 - Let's Make our own CPU]({{< relref "/Engineering/31-comparch" >}})
