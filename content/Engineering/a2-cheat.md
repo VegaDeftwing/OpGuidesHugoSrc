@@ -169,3 +169,9 @@ https://github.com/mitsuba-renderer/nanogui
 
 [SpaCy](https://github.com/explosion/spaCy) - "Industrial-strength Natural Language Processing (NLP) in Python"
 
+[ELI5](https://github.com/TeamHG-Memex/eli5) - "A library for debugging/inspecting machine learning classifiers and explaining their predictions"
+
+#### For Embedded Applications
+
+[u8g2](https://github.com/olikraus/u8g2) - "Library for monochrome displays, version 2"
+

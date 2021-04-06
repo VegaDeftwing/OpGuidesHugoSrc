@@ -423,6 +423,8 @@ so that the file paths are displayed in full
 
 [Masterplan](https://solarlune.itch.io/masterplan)
 
+https://github.com/climech/grit
+
 Libreoffice
 
 Krita

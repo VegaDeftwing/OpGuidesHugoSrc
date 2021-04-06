@@ -51,6 +51,8 @@ https://ccrma.stanford.edu/~jos/sasp/
 
 https://zserge.com/posts/etude-in-c/ & https://zserge.com/posts/beep/
 
+[Diospyros](https://github.com/cucapra/diospyros) - Search-based compiler for high-performance DSP programming
+
 **Hardware**
 
 [A Transistor-less sound synthesizer (Hackaday, Jenny List, Dr. Cockroach)](https://hackaday.com/2020/10/24/a-transistor-less-sound-synthesizer/)
