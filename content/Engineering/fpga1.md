@@ -1,0 +1,13 @@
+# Chapter 28 - Let's try out programmable logic
+
+!> Before we get started, please be sure you've read **Chapter 15 - Digital Logic**
+
+![](http://pixeljoint.com/files/icons/full/4004_simu_part.gif)
+
+>  Simulation of an Intel 4004 in [TICS (The Integrated Circuit Simulator) a (abandoned?) WIP by Oni](http://onidev.fr/projet-tics.html), [Download the interpreter here](https://github.com/onidev/TICS/releases), the [repo](https://github.com/onidev/TICS) has pleanty of examples.
+>
+> Something a bit less cool but similar is https://github.com/martinkirsche/wired-logic
+
+[TODO]
+
+Finite State Machines, VHDL, Verilog, FPGA & CPLD internals
