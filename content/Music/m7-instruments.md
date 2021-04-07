@@ -72,3 +72,4 @@ Modular, semi-modular, software
 
 [Show Us Your Junk! Ep. 25 - Sylvia Massy of Studio Divine  (YouTube, EarthQuaker Devices)](https://www.youtube.com/watch?v=sTnHEHzFOFU) ... She uses a pickle as a guitar effect...
 
+[Duesenberg Multibender](https://store.duesenberg.de/en/tremolo-systems/76/duesenberg-multibender) - device to add 2+ string specific pitch bend arms to a guitar 

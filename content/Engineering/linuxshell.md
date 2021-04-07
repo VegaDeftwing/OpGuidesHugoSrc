@@ -40,7 +40,9 @@ Of note, while the majority of these commands should be available on nearly any 
 
 - **man** "man [command/topic]", ex, "man ascii", bring up an in depth manual page for a given command/topic.
   
-  - Alternative recommendation: [**tldr**](https://github.com/tldr-pages/tldr), actually digestible and much faster when it gives enough info 
+  - Alternative recommendation: [**tldr**](https://github.com/tldr-pages/tldr) actually digestible and much faster when it gives enough info 
+  
+    </br>
 - **pwd** - Print working directory - literally just a command to tell you the file path to where you are
 - **ls** - list - list the files/folders in the current directory, lots of flags available
   

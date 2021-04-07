@@ -6,12 +6,18 @@ slug: "Music Software"
 
 # Music Software
 
+{{< tip >}}
+
+Some tools on this page are not-free. As such, I've tried to list prices as best I can. Music software **usally** goes on sale pretty significantly around Black Friday or Christmas, so when I can, I've tried to list 'street' prices. Regadless, I'm not afiliated with any of these projects in any way and I don't make any money from these links- so don't complain to me if the prices are wrong ╮(─▽─)╭
+
+{{< /tip >}}
+
 ## Live Coding Tools
 
 | Name & Link                                                  | Description                                                  | Screenshot / Demo                                            |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [SonicPi](https://sonic-pi.net/tutorial)                     |                                                              |                                                              |
-| [ORCΑ](https://github.com/hundredrabbits/Orca)               | [Learn Orca](https://metasyn.github.io/learn-orca/) <br>Extra Tools for ORCA: </li><li> [Cassetter for ORCA](https://person0b.itch.io/cassetter) </li><li>[Aioi - UDP to complex OSC for ORCA](https://github.com/MAKIO135/aioi)</li> <li> [Pilot - 16 voice synth for ORCA](https://github.com/hundredrabbits/Pilot)</li> |                                                              |
+| {{< best >}}[ORCΑ](https://github.com/hundredrabbits/Orca){{< /best >}} | [Learn Orca](https://metasyn.github.io/learn-orca/) <br>Extra Tools for ORCA: </li><li> [Cassetter for ORCA](https://person0b.itch.io/cassetter) </li><li>[Aioi - UDP to complex OSC for ORCA](https://github.com/MAKIO135/aioi)</li> <li> [Pilot - 16 voice synth for ORCA](https://github.com/hundredrabbits/Pilot)</li> |                                                              |
 | [Noton](https://git.sr.ht/~rabbits/noton)                    | A minimal logic gates playground, written in ANSI C. Made by the same developers as ORCΑ |                                                              |
 | [Chuck](https://github.com/ccrma/chuck)                      | "Chuck is a programming language for real-time sound synthesis and music creation. It is open-source and freely available on MacOS X, Windows, and Linux. Chuck presents a unique time-based, a concurrent programming model that's precise and expressive (we call this strongly-timed), dynamic control rates, and the ability to add and modify code on-the-fly. In addition, ChucK supports MIDI, OpenSoundControl, HID device, and multi-channel audio." |                                                              |
 | [Mutateful](https://github.com/carrierdown/mutate4l) **Requires Ableton Live** | "enables live coding in Ableton Live's session view. Set up transformations that trigger whenever a source clip is changed, including arpeggiation, shuffling, and ratcheting/retriggering." |                                                              |
@@ -27,7 +33,6 @@ slug: "Music Software"
 | [Extempore Lang](https://extemporelang.github.io)            | "Extempore is a programming language and runtime environment designed to support **cyberphysical programming**" |                                                              |
 | [Bespoke](https://github.com/awwbees/BespokeSynth)           | Software modular synth                                       | ![](https://github.com/awwbees/BespokeSynth/raw/master/screenshot-1.png) |
 | [Music Pattern Generator](https://github.com/hisschemoller/music-pattern-generator) | Music Pattern Generator is an app to create musical rhythms. It sends MIDI data, so it won’t make any sounds by itself. For that you need to connect it to MIDI soft- or hardware that can handle MIDI data to produce sound. | ![](https://github.com/hisschemoller/music-pattern-generator/raw/develop/assets/img/mpg-2_1-animation.gif) |
-| [ClyphX](https://github.com/ldrolez/clyphx-live10)           | **Tool for Ableton Live only** - livecoding-ish for live clips, allows for a ton of automation/functions |                                                              |
 
 ## DAWs and almost-daws
 
@@ -100,7 +105,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
 | [Kairatune](https://futucraft.com/kairatune/)                |                                                              |            |
 | [Lord Of The Springs](http://www.taron.de/lots/)             | Physically modeled synthesis with a bunch of Springs         |            |
 | [Helm](https://tytel.org/helm/)                              |                                                              |            |
-| [Vital](https://vital.audio)                                 | Spectral warping wavetable synth (Free and Paid tiers)       |            |
+| {{< best >}}[Vital](https://vital.audio){{< /best >}}        | Spectral warping wavetable synth (Free and Paid tiers)       |            |
 
 ##### Effects
 
@@ -119,7 +124,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
 
 | Name & Link                                                  | Description                                                  | Screenshot |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
-| [Signalizer VST](https://www.jthorborg.com/index.html?ipage=signalizer) | An amazing VST Oscilliscope, Vectorscope, and general analysis tool |            |
+| {{< best >}}[Signalizer VST](https://www.jthorborg.com/index.html?ipage=signalizer){{< /best >}} | An amazing VST Oscilliscope, Vectorscope, and general analysis tool |            |
 |                                                              |                                                              |            |
 |                                                              |                                                              |            |
 |                                                              |                                                              |            |
@@ -199,7 +204,23 @@ No prices are listed below because they can fluctuate so much. VSTs and other mu
 
 These devices only work inside of Ableton Live using Max For Live
 
-[lil' pup](https://llllllll.co/t/smartphones-lil-pup/35749)
+[lil' pup](https://llllllll.co/t/smartphones-lil-pup/35749) - "Tools for generative music and live performance"
+
+[Survey](https://patches.zone/max-for-live/survey) - "Survey acts as a kind of macro control for your project’s most important parameters. Save collections of settings across multiple devices and tracks for simple recall or to creatively morph between them." **$20**
+
+[Scenery](https://patches.zone/max-for-live/scenery) - Convient ambience tool **$10**
+
+[Cartographer](https://patches.zone/max-for-live/cartographer) - "When the *Follow* feature is engaged, the Loop Brace will always follow the set’s playhead, meaning you’re ready to loop whatever you’re listening to at any given moment without breaking your flow." **$5**
+
+[Swatches](https://patches.zone/max-for-live/swatches) - Easily recolor everything in Ableton Live
+
+[Clyphx old, free version](https://github.com/ldrolez/clyphx-live10) & [Clyphx Pro](https://isotonikstudios.com/product/clyphx-pro/) - Scripting Language for live, seriously recomend this one. Paid version is **$43.33**
+
+{{< best >}}[Magenta Studio](https://www.ableton.com/en/blog/magenta-studio-free-ai-tools-ableton-live/) - AI based MIDI generator for live. Honestly spits out some really good progressions. Can do drums, extent what you've writen for a melody, and a lot more. Tons of fun.{{< /best >}}
+
+
+
+
 
 #### Norns Devices
 

@@ -6,6 +6,10 @@ slug: "Sequencing and MIDI"
 
 ## Sequencing
 
+[TODO] 
+
+[Breaking The Loop (Patches.zone)](https://patches.zone/breaking-the-loop)
+
 random, sample/hold, probability, piano rolls, trackers, AI based, euclidian, trigger/gate/len, humanization
 
 [Creating Melodies [Music Guides from Ableton]](https://makingmusic.ableton.com/creating-melodies-1-contour)

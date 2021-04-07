@@ -283,6 +283,8 @@ Panning in general is just setting the side (left/right) that a sound is balance
 
 ## Noise Gating
 
+[The Animated Guide to Gates (Patches.zone)](https://patches.zone/the-animated-guide-to-gates)
+
 ### Gating other effects with a mix
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/DPFuhvFV9aU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -294,6 +296,8 @@ gated verb, gated distortion
 ### Soft and Hard Clipping
 
 ## Compression
+
+[The Animated Guide To Compression (patche.zone)](https://patches.zone/compression-guide) is a great place to start, but if you still need more, I recomend reading on:
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/BIVfpsoPnOo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

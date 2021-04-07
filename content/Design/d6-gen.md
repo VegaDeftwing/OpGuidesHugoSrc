@@ -331,6 +331,20 @@ Use this tool to create unique, seamless, royalty-free patterns.</br>Choose a ba
 
 {{< /columns2 >}}
 
+{{< columns2 >}}
+
+[Noisedeck.app](https://noisedeck.app)
+
+<--->
+
+Noisedeck is a generative art synth. Still in early development. Some features require a licence.
+
+<--->
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Five months ago, we had an idea for a simple app to make generative art accessible to everyone. It&#39;s rapidly matured into a remarkable app, and found its way into the workflow of a small (but growing!) base of talented creators.<br><br>Thank you! We&#39;re excited about what&#39;s next. ✨ <a href="https://t.co/7KpkFNjv99">pic.twitter.com/7KpkFNjv99</a></p>&mdash; noisedeck (@noisedeck) <a href="https://twitter.com/noisedeck/status/1378936586138759169?ref_src=twsrc%5Etfw">April 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+{{< /columns2 >}}
+
 [Making 'Noise Planets' on Avinayak's Blog](https://avinayak.github.io/art/2021/01/09/noise-planets.html)
 
 
@@ -495,11 +509,17 @@ live coding for p5.js - you'll probably want the VS Code Extension
 {{< /columns2 >}}
 
 {{< columns2 >}}
-[hydra (Github)](https://github.com/ojack/hydra)
+
+{{< best >}}
+
+[Hydra (Github)](https://github.com/ojack/hydra)
+
+{{< /best >}}
+
 <--->
 "Set of tools for livecoding networked visuals. Inspired by analog modular synthesizers, these tools are an exploration into using streaming over the web for routing video sources and outputs in realtime. Hydra uses multiple framebuffers to allow dynamically mixing, compositing, and collaborating between connected browser-visual-streams. Coordinate and color transforms can be applied to each output via chained functions."
 <--->
-![](https://github.com/ojack/hydra/raw/master/hydra-3-01.png?raw=true)
+![](/hydraexample.jpg)
 {{< /columns2 >}}
 
 {{< columns2 >}}

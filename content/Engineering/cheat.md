@@ -14,7 +14,7 @@
 
 
 
-{{< expand "Markdown Syntax" >}}
+{{< details "Markdown Syntax" >}}
 
 ```html
 # heading1
@@ -75,7 +75,7 @@ same as the code syntax
 For example to write "21^st^ birthday"
 ```
 
-{{< /expand >}}
+{{< /details >}}
 
 ## Nice Libraries & Resources
 
