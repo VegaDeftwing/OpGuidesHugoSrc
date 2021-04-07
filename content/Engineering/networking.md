@@ -160,6 +160,16 @@ Logical: [6] <-> [6] <- ------------------- -> [6] <-> [6]
 
 Physical: [6] <-> [6] <-> [4] <-> [4] <-> [6] <-> [6]
 
+{{< columns >}}
+
+[TODO] ipv4 exhastion
+
+<--->
+
+![](https://www.caida.org/research/id-consumption/census-map/images/2013-hilbert-plot.png)
+
+{{< /columns >}}
+
 ### MAC
 
 ### ICMP, IGMP

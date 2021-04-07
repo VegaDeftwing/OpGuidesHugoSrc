@@ -45,6 +45,8 @@ https://codepen.io/teropa/full/bRqYVj/
 
 {{< best >}}[Spectral Audio Signal Processing](https://ccrma.stanford.edu/~jos/sasp/) by JULIUS O. SMITH III at the Center for Computer Research in Music and Acoustics (CCRMA){{< /best >}}
 
+[The Scientist and Engineer's Guide to Digital Signal Processing](http://www.dspguide.com/pdfbook.htm)  By Steven W. Smith, Ph.D.
+
 [Awesome MusicDSP (Github)](https://github.com/olilarkin/awesome-musicdsp)
 
 [Tom Erbe, Design the Erbe Verb (YouTube)](https://www.youtube.com/watch?v=Il_qdtQKnqk)

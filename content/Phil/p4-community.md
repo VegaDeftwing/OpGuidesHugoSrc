@@ -6,15 +6,47 @@ slug: "Community"
 
 # Community
 
-## Adopting new societal values of acceptance
+{{< columns >}}
 
-Furries, internet culture, LGBT, Gender Identity vs need for legal identity
+Hopefully this isn't a shock to anyone reading this, but I'm a furry.
+
+{{< attribution >}}
+
+owo uwu nuzzles rawr tehe 
+
+{{< /attribution >}}
+
+So, I think I can share a little bit about why I joined the fandom, what being in a subculture community is like, and how some of those experiences have made me a better person and helped me be a part of or run successful online communities.
+
+I hope that though this I can talk about what makes a community good or bad, what brings division, and what good rules for a healthy community look like.
+
+But, to get there, I think I need to first indoctrinate you into the furry culture of OwO and UwU. So prepare your beans, we're about to get fluffy. 
+
+<--->
+
+![](/box.png)
+
+{{< attribution >}}
+
+Character owned by me, art by [Talon Creations](https://twitter.com/Talon_Creations)
+
+{{< /attribution >}}
+
+{{< /columns >}}
+
+## Furries?
+
+[TODO] Furries, internet culture, LGBT, Gender Identity vs need for legal identity - furry stats, like what percent look at lood, age demographics, etc.
+
+## Adopting new societal values of acceptance
 
 ## Understanding the common good
 
 Encryption, Tradgedy of the commons
 
 ## Community
+
+{{< columns >}}
 
 ![](https://pbs.twimg.com/media/ENDDgdEXsAAZkbR?format=jpg&name=small)
 
@@ -24,9 +56,19 @@ Encryption, Tradgedy of the commons
 
 {{< /attribution >}}
 
+<--->
+
+
+
+{{< /columns >}}
+
 ### Small and connected
 
 [You May be Using Mastodon Wrong (Carlos Fenollosa Blog)](https://cfenollosa.com/blog/you-may-be-using-mastodon-wrong.html)
+
+https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture)
+
+I miss voice-first servers like TeamSpeak
 
 #### Echo Chambers
 
