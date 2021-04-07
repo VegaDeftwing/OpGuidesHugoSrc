@@ -56,7 +56,7 @@ Of note, from a mathematical perspective all time varying signals can be represe
 
 https://en.wikipedia.org/wiki/Fourier_series#Examples
 
-If you're feeling really adventurous [Chapter 7, Section 11](https://opinionatedguide.github.io/engineering/11-math/#7---signals) has more resources on this topic
+If you're feeling really adventurous [Chapter 6 - Math, Section 11](https://opinionatedguide.github.io/engineering/11-math/#7---signals) has more resources on this topic
 
 ## Current and the Ammeter
 

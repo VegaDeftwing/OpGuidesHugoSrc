@@ -27,6 +27,10 @@
 
 adapted from floppy drives, but less expensive
 
+---
+
+[TODO] [From Zero to main() (Interupt)](https://interrupt.memfault.com/blog/tag/zero-to-main/)
+
 ## Real Time Operating Systems
 
 RIOT-OS, MBED, etc

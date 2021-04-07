@@ -72,7 +72,7 @@ Before we start, I'll warn you this isn't easy, but it's also not as bad as it s
 
 [My Nor](http://www.mynor.org) - "a single board computer that does not have a CPU. Instead, the CPU consists of discrete logic gates from the 74HC series. This computer also has no ALU. Only a single NOR gate is used to perfom all computations such as addition, subtraction, AND, OR and XOR."
 
-# Chapter 31.1 - FPAAs
+# Chapter 29.1 - FPAAs
 
 [ZRNA FPAA](https://zrna.org/shop)
 

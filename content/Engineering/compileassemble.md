@@ -2,6 +2,8 @@
 
 https://lee.earth/til/compiling-c-code-a-step-by-step-guide/
 
+[TODO] [Better Firmware with LLVM/Clang](https://interrupt.memfault.com/blog/arm-cortexm-with-llvm-clang)
+
 ## Common Flags and When to Use them
 
 > These flags are not universal, instead they're from GCC. GCC and Clang are the big two compilers you'll see a lot and these flags should be mostly the same between the two. Of course, there are many, many other compilers, but I'm going to start with the common stuff
@@ -46,6 +48,8 @@ This is a *very* stupid multiply function. Effectively, it's multiplying two num
 <iframe width="100%" height="500px" src="https://godbolt.org/e#g:!((g:!((g:!((h:codeEditor,i:(fontScale:14,j:1,lang:c%2B%2B,selection:(endColumn:2,endLineNumber:5,positionColumn:2,positionLineNumber:5,selectionStartColumn:2,selectionStartLineNumber:5,startColumn:2,startLineNumber:5),source:'//+Type+your+code+here,+or+load+an+example.%0Aint+mult(int+n,+int+m)%7B%0A++++char+a%5Bm%5D%5Bn%5D%3B%0A++++return(sizeof(a))%3B%0A%7D'),l:'5',n:'0',o:'C%2B%2B+source+%231',t:'0')),k:50,l:'4',n:'0',o:'',s:0,t:'0'),(g:!((h:compiler,i:(compiler:g102,filters:(b:'0',binary:'1',commentOnly:'0',demangle:'0',directives:'0',execute:'1',intel:'0',libraryCode:'1',trim:'1'),fontScale:14,j:1,lang:c%2B%2B,libs:!(),options:'',selection:(endColumn:1,endLineNumber:1,positionColumn:1,positionLineNumber:1,selectionStartColumn:1,selectionStartLineNumber:1,startColumn:1,startLineNumber:1),source:1),l:'5',n:'0',o:'x86-64+gcc+10.2+(Editor+%231,+Compiler+%231)+C%2B%2B',t:'0')),k:50,l:'4',n:'0',o:'',s:0,t:'0')),l:'2',n:'0',o:'',t:'0')),version:4"></iframe>
 
 Here there's no difference between `-O` and `O3`, but with more complex code there often is. Just keep in mind that this is a trade off, there is the upfront cost of a longer compile time.
+
+[TODO] [Code Size Optimization: GCC Compiler Flags (Interrupt)](https://interrupt.memfault.com/blog/code-size-optimization-gcc-flags)
 
 ### -march, -mtune, -flto, -msse4.2, -mavx, -mavx2
 

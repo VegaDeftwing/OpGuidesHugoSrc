@@ -4,7 +4,7 @@
 
 ## Debugging
 
-[./missing-semester - Bebugging and Profiling](https://missing.csail.mit.edu/2020/debugging-profiling/)
+[./missing-semester - Debugging and Profiling](https://missing.csail.mit.edu/2020/debugging-profiling/)
 
 ### Software Debugging
 
@@ -20,6 +20,8 @@ GDB with Gef, interpreted languages, embedded systems, non-code issues (boot pro
 
 [The State of Linux Debuggers (Jamie Brandon's Blog)](https://scattered-thoughts.net/writing/the-state-of-linux-debuggers/) ← This is a decent rant about why most debuggers sort of suck. And yeah, they do. But we still sorta need them
 
+[Advanced GDB Usage (Interrupt)](https://interrupt.memfault.com/blog/advanced-gdb)
+
 #### Static Analysis
 
 [CodeChecker using LLVM/Clang (GitHub)](https://github.com/Ericsson/codechecker)
@@ -27,6 +29,10 @@ GDB with Gef, interpreted languages, embedded systems, non-code issues (boot pro
 ### Hardware Debugging
 
 common interfaces, simulation, serial/print debugging (slow), internal data logging, physical indicators of internal state, hardware to facilitate debugging (LED 'byte')
+
+[TODO] [Embedded C/C++ Unit Testing Basics (Interrupt)](https://interrupt.memfault.com/blog/unit-testing-basics)
+
+[TODO] [Faster Debugging with Watchpoints (Interrupt)](https://interrupt.memfault.com/blog/cortex-m-watchpoints)
 
 ## Testing
 

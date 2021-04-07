@@ -62,6 +62,8 @@ I fell down that trap. College isn't worth it. But maybe I can use that educatio
 
 OpGuides won't ever be a single resource and should never be in print. The reason I know I can do better is because instead of shying away from the internet and other resources for the sake of selling a book, I want to show them off and link to them. That's why I think I stand a chance of making something that can compete with college: I'm not alone, I'm a guide, showing you around the internet and introducing your to my other ~~totally not para-social relationships~~ friends.
 
+On the note of links, those that I think are a cut above the rest will have a lil' '<img src="/best.svg" width="20em" style="margin: 0px 6px 0px 0px;"/>'  symbol next to them to mark them as being particularly good resources.
+
 # Thank You!
 
 {{< columns >}}

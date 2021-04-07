@@ -30,7 +30,7 @@ While much less active, I've found some of these to have great information as we
 
 [POC||GTFO](https://www.alchemistowl.org/pocorgtfo/)
 
-[Defcon Videos on YouTube](https://www.youtube.com/user/DEFCONConference)
+{{< best >}} [Defcon Videos on YouTube](https://www.youtube.com/user/DEFCONConference) {{< /best >}}
 
 {{< /columns >}}
 

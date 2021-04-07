@@ -348,12 +348,14 @@ threads/ parrallelization(high level only), interupts (actually, let's save this
 
 Weird projects
 
-## Easing int Graphical Programming with Creative Coding
+## Easing into Graphical Programming with Creative Coding
 
 http://feed.grantcuster.com/
 
 [Coding Adventure: Ray Marching (YouTube)](https://www.youtube.com/watch?v=Cp5WWtMoeKg)
+
 [Coding Adventure: Marching Cubes(Youtube)](https://www.youtube.com/watch?v=M3iI2l0ltbE)
+
 [Coding Adventure: Portals (YouTube)](https://www.youtube.com/watch?v=cWpFZbjtSQg&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
 
 

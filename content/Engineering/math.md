@@ -356,7 +356,7 @@ so, technically 1, 2, 4, and 6 are all antiprime. But where it gets interesting 
 
 http://discrete.openmathbooks.org/dmoi3/
 
-[Math For Programmers (pdf)](https://yurichev.com/writings/Math-for-programmers.pdf)
+{{< best >}} [Math For Programmers (pdf)](https://yurichev.com/writings/Math-for-programmers.pdf) {{< /best >}}
 
 ### Notation
 
@@ -460,7 +460,9 @@ But, if you'd rather learn out of a textbook, if you go looking online you might
 
 ---
 
-One of the most important things in Signals is the Fourier Transform. Fortunately, quality content about it is abundant. This site, [An Interactive Introduction to the Fourier Transform](http://www.jezzamon.com/fourier/), provides a great introduction for developing an intuition about it graphically, while "[But what is the Fourier Transform? A visual introduction. (YouTube, 3Blue1Brown)](https://www.youtube.com/watch?v=spUNpyF58BY)" goes a bit more into the math by the end.
+One of the most important things in Signals is the Fourier Transform. Fortunately, quality content about it is abundant. This site, {{< best >}} [An Interactive Introduction to the Fourier Transform](http://www.jezzamon.com/fourier/) {{< /best >}}
+
+provides a great introduction for developing an intuition about it graphically, while "[But what is the Fourier Transform? A visual introduction. (YouTube, 3Blue1Brown)](https://www.youtube.com/watch?v=spUNpyF58BY)" goes a bit more into the math by the end.
 
 [TODO] put in all notes from class here to provide a half decent resource
 

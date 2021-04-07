@@ -266,7 +266,11 @@ still TCP, out-of-band, maintains state, passive v active mode
 
 ### DNS
 
-record types
+**TTL?**
+
+[Stop Using Rediculously Low DNS TTLs (Frank Denis)](https://00f.net/2019/11/03/stop-using-low-dns-ttls/)
+
+**record types**
 
 [You Smart TV is probably ignoring your PiHole (LabZilla)](https://labzilla.io/blog/force-dns-pihole)
 

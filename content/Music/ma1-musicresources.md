@@ -11,7 +11,7 @@ https://twitter.com/LOOKMUMNOCMPUTR
 
 https://twitter.com/electricdahliia
 
-https://t.me/vcvrackchat
+{{< best >}}https://t.me/vcvrackchat - some shameless self promo, as this is my chat.{{< /best >}}
 
 Neurotypique https://www.youtube.com/channel/UC4oBI5piGMznFMZdtEC0FhA
 
@@ -43,7 +43,7 @@ https://codepen.io/teropa/full/bRqYVj/
 
 **DSP Resources**
 
-https://ccrma.stanford.edu/~jos/sasp/
+{{< best >}}[Spectral Audio Signal Processing](https://ccrma.stanford.edu/~jos/sasp/) by JULIUS O. SMITH III at the Center for Computer Research in Music and Acoustics (CCRMA){{< /best >}}
 
 [Awesome MusicDSP (Github)](https://github.com/olilarkin/awesome-musicdsp)
 
@@ -52,6 +52,10 @@ https://ccrma.stanford.edu/~jos/sasp/
 https://zserge.com/posts/etude-in-c/ & https://zserge.com/posts/beep/
 
 [Diospyros](https://github.com/cucapra/diospyros) - Search-based compiler for high-performance DSP programming
+
+[Think DSP](https://greenteapress.com/wp/think-dsp/) - DSP in Python, Free book
+
+{{< best >}}[Vult DSP Programming Language](https://www.vult-dsp.com/vult-language){{< /best >}}
 
 **Hardware**
 
@@ -65,8 +69,6 @@ http://www.doepfer.de/DIY/a100_diy.htm
 
 **Software**
 
-[Vult DSP Programming Language](https://www.vult-dsp.com/vult-language)
-
 [Awesome Audio Visualization (Github)](https://github.com/willianjusten/awesome-audio-visualization)
 
 [Kord (Github)](https://github.com/synestematic/kord) - a music theory development framework in python
@@ -74,3 +76,5 @@ http://www.doepfer.de/DIY/a100_diy.htm
 [Tutorial: Programming Modules for VCV Rack - Part 1 (YouTube, Leonardo Laguna Ruiz)](https://www.youtube.com/watch?v=7Z7LHAnIIac) (This might be out of date)
 
 [Tutorial: Virtual Analog Modeling Basics, the Vult way (YouTube, Leonardo Laguna Ruiz)](https://www.youtube.com/watch?v=xQYLBS9R_uA)
+
+[Rust For DSP](https://interrupt.memfault.com/blog/rust-for-digital-signal-processing)
