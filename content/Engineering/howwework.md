@@ -465,6 +465,8 @@ Vivaldi, Firefox, Syncthing, Beaker, IPFS, IRC - irssi, Telegram, Etherape, Wire
 
 [Google Images Restored](https://github.com/fanfare/googleimagesrestored)
 
+https://nyxt.atlas.engineer
+
 **Shell Scripts**
 
 [TODO]

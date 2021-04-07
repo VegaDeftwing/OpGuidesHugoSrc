@@ -1,6 +1,6 @@
 # Chapter 28 - Let's try out programmable logic
 
-!> Before we get started, please be sure you've read **Chapter 15 - Digital Logic**
+{{< tip >}} Before we get started, please be sure you've read **Chapter 24 - Digital Logic** {{< /tip >}}
 
 ![](http://pixeljoint.com/files/icons/full/4004_simu_part.gif)
 

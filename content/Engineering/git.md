@@ -1,6 +1,6 @@
 # Chapter 5½ - Git.
 
-[./missing-semester - Version Control](https://missing.csail.mit.edu/2020/version-control/)
+{{< best >}} [./missing-semester - Version Control](https://missing.csail.mit.edu/2020/version-control/) {{< /best >}}
 
 {{< tip >}}
 

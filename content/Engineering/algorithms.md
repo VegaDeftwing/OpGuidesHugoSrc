@@ -1,5 +1,15 @@
 # Chapter 14 - Discrete Math, Algorithms, Data Structures, and Not Sucking at Programming ™*
 
+[TODO] [Directed Acyclic Graphs](https://en.wikipedia.org/wiki/Directed_acyclic_graph) 
+
+[TODO] [Finite State Machines](https://en.wikipedia.org/wiki/Finite-state_machine)
+
+[TODO] e-graphs? https://egraphs-good.github.io
+
+[TODO] http://courses.csail.mit.edu/6.851/
+
+
+
 ***With some complexity analysis too.**
 
 [TODO]
