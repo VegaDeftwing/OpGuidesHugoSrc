@@ -14,9 +14,15 @@ You'll also find some other miscalculation stuff, such as [Interviews]({{< relre
 
 {{< columns >}}
 
-The site is *mostly* maintained by me, Vega ↓
+The site is *mostly* maintained by me, Vega
 
-![box](/box.png)
+<img src="/opguidesSiplick.png" alt="opguidesSiplick" style="zoom:34%;" />
+
+{{< attribution >}}
+
+Character is owned by me, art is by [Siplick](https://www.deviantart.com/siplick)
+
+{{< /attribution >}}
 
 <--->
 
