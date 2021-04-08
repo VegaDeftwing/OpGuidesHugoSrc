@@ -138,7 +138,7 @@ Note, This mouse, the Lexip pu94, is a complete disaster and the result of what 
 
 However, using the Leap for everything would require you hold your hands out to point - something that anybody who ever owned a wii can tell you gets very tiring very quickly - and the Lexip PU94 would be far to awkward to use daily.
 
-So, I honestly don't know what the pointing device of the future looks like. Maybe it involves a mix of a mouse, finger tracking, eye control, and joysticks. The use of [WiiMotes for projection mapping](https://www.youtube.com/watch?v=wEeVMEzOmac) shows that there is room for using different devices for different kinds of input though.
+So, I honestly don't know what the pointing device of the future looks like. Maybe it involves a mix of a mouse, finger tracking, eye control, and joysticks? The use of [WiiMotes for projection mapping](https://www.youtube.com/watch?v=wEeVMEzOmac) shows that there is room for using different devices for different kinds of input though. Maybe it's more like the [non-game uses the Kinect](https://hackaday.com/2020/11/09/kinect-gave-us-a-preview-of-the-future-though-not-the-one-it-intended/) has gotten over it's post-lifetime? I'm not really sure.
 
 As for issues with current tech, mouse acceleration and touch pad responsiveness, and touch pad dead zone are all big problems and, like, I don't understand how that's a problem in 2020?
 

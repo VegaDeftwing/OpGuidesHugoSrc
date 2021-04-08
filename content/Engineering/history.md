@@ -23,3 +23,7 @@ https://media.ccc.de/v/31c3_-_6373_-_en_-_saal_6_-_201412291600_-_the_only_thing
 ## Preserving hardware
 
 https://en.wikipedia.org/wiki/Delay_line_memory
+
+http://www.vcfed.org/forum/forum.php
+
+https://skilldrick.github.io/easy6502/

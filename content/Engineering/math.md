@@ -574,7 +574,7 @@ Conditional Probability Mass Fn & Conditional Expected Value
 
 Gaussian Random Variables / Normal RVs (same thing)
 
-
+[TODO] https://mc-stan.org/users/documentation/
 
 
 
