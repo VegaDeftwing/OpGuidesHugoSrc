@@ -14,6 +14,8 @@ https://esoteric.codes
 
 [Why OO Sucks (Joe Armstrong)](http://harmful.cat-v.org/software/OO_programming/why_oo_sucks)
 
+[0-based vs. 1-based indexing (Hisham Hm)](https://hisham.hm/2021/01/18/again-on-0-based-vs-1-based-indexing/)
+
 ## Low Level
 
 ### C, C++, C#, ????

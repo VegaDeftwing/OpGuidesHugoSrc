@@ -67,6 +67,8 @@ Here there's no difference between `-O` and `O3`, but with more complex code the
 
 [CS 6120: Advanced Compilers: The Self-Guided Online Course](https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/)
 
+[Recommended compiler and linker flags for GCC (Red Hat)](https://developers.redhat.com/blog/2018/03/21/compiler-and-linker-flags-gcc/)
+
 [TODO]
 
 Making a compiler and assembler, DIY language eso-lang style

@@ -14,6 +14,8 @@ slug: "Digital Design"
 
 [PhotoGIMP](https://github.com/Diolinux/PhotoGIMP) is a patch for Gimp that makes it look more like Photoshop, adds fonts and some filters.
 
+[Unsplash](https://unsplash.com) is a good source for '[Freely usable images](https://unsplash.com/license)' if you need some source material
+
 #### Pixel Art
 
 ### Vector Art

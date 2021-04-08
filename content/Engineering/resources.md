@@ -1,40 +1,70 @@
 # Appendix 3 - Other Great Resources
 
-https://news.ycombinator.com/
+## Conventions
 
-https://slashdot.org/
+{{< columns >}}
 
-https://hackaday.com/
+https://www.emfcamp.org
 
-https://lobste.rs/
+https://media.ccc.de/
 
-https://snapzu.com/
+<--->
 
-https://serializer.io/
+{{< /columns >}}
 
-https://stackoverflow.com/
+---
 
-http://textfiles.com/
+## News Sites
 
-https://www.alchemistowl.org/pocorgtfo/
+[Serializer.io](https://serializer.io/) (Aggregate of Hacker News, Ars, Reddit, Macrumors, and Lobste.rs )
+
+{{< columns >}}
+
+[Hacker News](https://news.ycombinator.com/)
+
+[Hackaday](https://hackaday.com/)
+
+[Slashdot](https://slashdot.org)
+
+<--->
+
+[Snopzu](https://snapzu.com/)
 
 https://n-o-d-e.news/
 
+{{< /columns >}}
+
+---
+
+## Forums
+
+{{< columns >}}
+
+https://lobste.rs/
+
+https://stackoverflow.com/
+
+<--->
+
+{{< /columns >}}
+
+
+
+http://textfiles.com/
+
 https://glitch.com/
 
-https://media.ccc.de/
-
-https://media.ccc.de/
-
-[Crash Course: Comptuer Science, from PBS](https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
+---
 
 ## Learning Linux
 
 https://linuxjourney.com
 
-{{< columns >}}
+---
 
 ## Youtube
+
+{{< columns >}}
 
 [ElectroBoom](https://www.youtube.com/channel/UCJ0-OtVpF0wOKEqT2Z1HEtA)
 
@@ -46,6 +76,8 @@ https://linuxjourney.com
 
 [Tom Scott](https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A)
 
+<--->
+
 [bigclive](https://www.youtube.com/channel/UCtM5z2gkrGRuWd0JQMx76qA)
 
 [AdoredTV](https://www.youtube.com/channel/UCHXbDmbswY3xNOmzr5O3zgA)
@@ -56,65 +88,89 @@ https://linuxjourney.com
 
 [Level1Techs](https://www.youtube.com/channel/UC4w1YQAJMWOz4qtxinq55LQ)
 
-<--->
+[Crash Course: Comptuer Science, from PBS](https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
+
+{{< /columns >}}
+
+---
 
 ## Podcasts
 
 https://theamphour.com/
 
-{{< /columns >}}
+[Hacker Public Radio](https://hackerpublicradio.org)
+
+---
 
 ## Github info pages
 
-https://github.com/dwmkerr/hacker-laws
+{{< columns >}}
 
-https://github.com/lorin/resilience-engineering
+[Hacker Laws](https://github.com/dwmkerr/hacker-laws)
 
-https://github.com/alex/what-happens-when
+[Resilence Engineering](https://github.com/lorin/resilience-engineering)
 
-https://github.com/Awesome-Windows/Awesome
+[What Happens When](https://github.com/alex/what-happens-when)
 
-https://github.com/dwmkerr/hacker-laws
+[Awesome Windows](https://github.com/Awesome-Windows/Awesome) (List of tools for Windows)
 
-https://github.com/cirosantilli/x86-assembly-cheat
+[x86 Assembly Cheat Page](https://github.com/cirosantilli/x86-assembly-cheat)
 
-https://github.com/kozross/awesome-c
+[Awesome C](https://github.com/kozross/awesome-c)
 
-https://github.com/rby90/Project-Based-Tutorials-in-C
+[Project Based Tutorials in C](https://github.com/rby90/Project-Based-Tutorials-in-C)
 
-https://github.com/trimstray/the-book-of-secret-knowledge
+<--->
 
-https://github.com/terkelg/awesome-creative-coding
+[The Book Of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
 
-https://github.com/toplap/awesome-livecoding
+[Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
 
-https://github.com/sindresorhus/awesome
+[Awesome Livecoding](https://github.com/toplap/awesome-livecoding)
 
-https://github.com/apsdehal/awesome-ctf#readme
+[List of Awesome Pages](https://github.com/sindresorhus/awesome)
 
-https://github.com/carpedm20/awesome-hacking#readme
+[Awesome CTF](https://github.com/apsdehal/awesome-ctf#readme)
 
-https://github.com/sdnds-tw/awesome-sdn#readme
+[Awesome Hacking](https://github.com/carpedm20/awesome-hacking#readme)
 
-https://github.com/jagracey/Awesome-Unicode#readme
+[Awesome Software Defined Networking](https://github.com/sdnds-tw/awesome-sdn#readme)
 
-https://github.com/netspooky/Simple-Virtual-CPU
+[Awesome Unicode](https://github.com/jagracey/Awesome-Unicode#readme)
+
+[Simple Virtual CPU](https://github.com/netspooky/Simple-Virtual-CPU)
+
+{{< /columns >}}
+
+---
 
 ## Books and Papers
 
 https://github.com/EbookFoundation/free-programming-books#readme
 
-!> You may want to use a VPN for the following:
+[POC||GTFO](https://www.alchemistowl.org/pocorgtfo/)
+
+{{< tip >}}
+
+You may want to use a VPN for the following:
+
+{{< /tip >}}
 
 https://scihub.org/ & http://libgen.rs
+
+---
 
 ## Blogs
 
 http://blog.cleancoder.com/
 
+---
+
 ## DIY Pages
 
 https://www.instructables.com/circuits/
+
+---
 
 ## Non-Technical
 
@@ -122,40 +178,42 @@ https://longform.org/
 https://www.metafilter.com/
 https://relevant.community/relevant/top
 
+---
+
 ## Some really cool, inspirational people
 
 ## Security
 
-Netspooky @ https://twitter.com/netspooky , https://twitter.com/netspooky
-LiveOverflow @ https://twitter.com/LiveOverflow
-https://twitter.com/ANDnXOR
-https://twitter.com/DCFurs
-https://twitter.com/gynvael
-https://twitter.com/ZonkSec
-https://twitter.com/Viss
-https://twitter.com/hacks4pancakes
-https://twitter.com/malwareunicorn
-https://twitter.com/da_667
-https://twitter.com/0xCODEs
-https://twitter.com/zerosum0x0
-https://twitter.com/x0rz -- https://discord.0day.rocks/
+* Netspooky @ https://twitter.com/netspooky
+* LiveOverflow @ https://twitter.com/LiveOverflow
+* https://twitter.com/ANDnXOR
+* https://twitter.com/DCFurs
+* https://twitter.com/gynvael
+* https://twitter.com/ZonkSec
+* https://twitter.com/Viss
+* https://twitter.com/hacks4pancakes
+* https://twitter.com/malwareunicorn
+* https://twitter.com/da_667
+* https://twitter.com/0xCODEs
+* https://twitter.com/zerosum0x0
+* https://twitter.com/x0rz
 
 ## Programming/Live coding
 
-RavenKwok @ https://twitter.com/RavenKwok
-Neauoire & RekkaBell @ https://merveilles.town/@neauoire , http://100r.co/
-https://twitter.com/RavenKwok
-https://twitter.com/generateme_blog
-https://twitter.com/manoloidee
+* RavenKwok @ https://twitter.com/RavenKwok
+* Neauoire & RekkaBell @ https://merveilles.town/@neauoire , http://100r.co/
+* https://twitter.com/RavenKwok
+* https://twitter.com/generateme_blog
+* https://twitter.com/manoloidee
 
 ## Just generally nerdy
 
-https://twitter.com/Level1Techs / https://twitter.com/tekwendell
-https://twitter.com/Snowden
-https://twitter.com/oshpark
-https://twitter.com/climagic
-https://archive.org/
-https://media.ccc.de/v/31c3_-_6373_-_en_-_saal_6_-_201412291600_-_the_only_thing_we_know_about_cyberspace_is_that_its_640x480_-_olia_lialina#t=621
+* https://twitter.com/Level1Techs / https://twitter.com/tekwendell
+* https://twitter.com/Snowden
+* https://twitter.com/oshpark
+* https://twitter.com/climagic
+* https://archive.org/
+* https://media.ccc.de/v/31c3_-_6373_-_en_-_saal_6_-_201412291600_-_the_only_thing_we_know_about_cyberspace_is_that_its_640x480_-_olia_lialina#t=621
 
 ## Android Apps
 

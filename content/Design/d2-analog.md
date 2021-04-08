@@ -29,10 +29,13 @@ https://www.reddit.com/r/PourPainting/
 
 
 
-# Fabrics
+# Fabrics and Fashion
 
 <div style="display: inline-block; background-color: #eee; border-radius: 10px;"><blockquote class="reddit-card" data-card-created="1609713910"><a href="https://www.reddit.com/r/LongFurbies/comments/iqwhsd/this_is_my_very_long_daughter_calliope_crayon/">This is my very long daughter, Calliope Crayon Cruncher</a> from <a href="http://www.reddit.com/r/LongFurbies">r/LongFurbies</a></blockquote>
     <script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script></div>
+
+
+[LED Hackers Jacket for EMF Camp (lochsh)](https://mcla.ug/blog/led-hackers-jacket-for-emf-camp.html)
 
 # Glass
 

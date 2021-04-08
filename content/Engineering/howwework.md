@@ -32,35 +32,35 @@ For more info, read the ArchWiki page on [Pacman](https://wiki.archlinux.org/ind
 
 ## Code editors
 
-People get defensive about the way they work, and frequently try to claim the way they work is the best way. I of corse *know* that my way is the best 😉. Really though, it's mostly a matter of settling down into a good workflow and getting very fast with it.
+People get defensive about the way they work, and frequently try to claim the way they work is the best way. I of course *know* that my way is the best 😉. Really though, it's mostly a matter of settling down into a good workflow and getting very fast with it.
 
 
 
 I have three recommendations for code editors, as silly as that may seem.
 
-The first two are terminal based `nano` and `vim`,
+The first two are terminal based `nano` and `vim`
 
 `nano`, is the most simplistic of all the editors I'll list here. It's stupid simple to use and for quick just opening a text file and changing one line, probably the fastest. It clearly prints it's instructions at the bottom of the terminal:
 
 ![nano](/nano.png)
 
-where `^` is the ctrl key, and `M` the alt key. However, you'll quickly find `nano` rather limiting, so onto `vim`!
-
-Vim, with Spacevim (spacevim.org) ontop is a very powerful tool.
-
-![welcome-page](https://user-images.githubusercontent.com/13142418/45254913-e1e17580-b3b2-11e8-8983-43d6c358a474.png)
-
-Vim can do everything you could ever dream of, and probably a bit more, and with spacevim ontop, it's a powerhouse. Unfortunately, vim is regularly the butt end of a joke because of how notoriously difficult it is to get the hang of. For that reason I'm going to link a mini tutorial here: https://www.openvim.com/, and link [the SpaceVim documentation](https://spacevim.org/documentation). [This VIM cheat sheet may help too](https://i.imgur.com/YLInLlY.png)
+where `^` is the ctrl key, and `M` the alt key. However, you'll quickly find `nano` rather limiting. You'll still probably need to use it when you're stuck with only having command line access though. That brings me to my second recommendation, `vim` (or [ox](https://github.com/curlpipe/ox)). Unfortunately, `vim` is notoriously difficult to use, to the point that trying to exit vim is a bit of a joke (it's esc→:wq) [this tutorial](https://www.openvim.com/) is pretty good though, and if you want you can get some really nice extensions for vim, or full on plugin packs, like [spcaevim](https://spacevim.org).
 
 Of course, you *probably* don't want to always use a terminal-based text editor (though you should be able to when you have to) so what's good graphically?
 
-Despite it being a Microsoft thing, I really recommend Visual Studio Code with Platform IO<a class="ptr">(1)</a>, Bracket Pair Colorizer 2, and GitLens. If you're looking for more extensions than that, there's also a version of Asciiflow for VSCode, plenty of extensions for live rendering (live-p5, glsl-canvas, Processing Language)
+Despite it being a Microsoft thing, I really recommend Visual Studio Code with Platform IO<a class="ptr">(1)</a>, Bracket Pair Colorizer 2, and GitLens. If you're looking for more extensions than that, there's also a version of Asciiflow for VSCode, and plenty of extensions for live rendering graphical code (live-p5, glsl-canvas, Processing Language). If you're not okay with Microsoft living in your editor, you can grab [vscodium](https://vscodium.com) instead.
 
 This gives you a pretty kick butt editor on par with most full Integrated Development Environments (IDE). I recommend you try out IDEs, especially if for some unholy reason you want to write in Java, but otherwise this will do fine.
 
 ![code](/code.png)
 
-There are of course a ton of other options, emacs, ox, Atom, ... If these don't suit you, feel free to look into these. Regardless, a text editor should be pretty high up on your list of things to get setup, as it will make the latter steps much easier.
+There are of course a ton of other options, Emacs, Atom, Eclipse ... If what I recommended doesn't suit you, feel free to look into these. Regardless, a text editor should be pretty high up on your list of things to get setup, as it will make the latter steps much easier.
+
+{{< hint gray>}}
+
+Alright, some disclosure. I don't really use Vim. I only use nano and VSCode. This is because if I really need to edit something in a CLI (so on a remote server or when first getting a system running) it's almost always the case that it's either a quick n' dirty config file edit that `nano` is fine for or something complicated enough to justify the annoyance of bringing the file off the server, using VSCode, then uploading it again. Often, I don't even need to do that though, as I'm able to edit the file in VSCode using [VSCode's Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) plugin or just connecting with [sshfs](https://github.com/libfuse/sshfs). That said, I did still learn vim well enough that I can use it if it is the only editor available, and do still recommend learning it as in a lot of professional contexts the servers will not have these modern conveniences.
+
+{{< /hint >}}
 
 ## The Desktop Environment
 

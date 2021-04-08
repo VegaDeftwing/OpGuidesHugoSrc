@@ -26,3 +26,8 @@
 * [USB-C PD Breadboard programmable PSU](https://hackaday.com/2021/01/16/usb-c-programmable-power-supply-for-any-project/)
 
   * <img src="https://hackaday.com/wp-content/uploads/2021/01/5312271609785641535.jpg?w=800" style="zoom:50%;" />
+  
+* [Ottercast (Hackaday)](https://hackaday.com/2021/04/06/you-otter-be-able-to-stream-that-audio-open-hardware-eclipses-chromecast-audio/) - a Chomecast audio clone
+
+  * <img src="https://raw.githubusercontent.com/Ottercast/OtterCastAudioV2/main/images/4.jpeg" style="zoom:33%;" />
+

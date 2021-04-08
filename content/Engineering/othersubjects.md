@@ -4,6 +4,10 @@
 
 [TODO] Because the majority of the Internet and most publications are in English
 
+https://www.marginchronicles.com/site/style/index.html
+
+[TODO] conlang critic, Tomscott videos
+
 ## Finance
 
 [TODO] because making and engineering are expensive, and you probably want to make money, and spend less money.
