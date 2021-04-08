@@ -635,3 +635,49 @@ Ix , 0bin (pastebin)
 Mathics
 
 TaskWeb (TaskWarrior)
+
+## Other Linux Distros that are neat
+
+[Gobo Linux](https://www.gobolinux.org)
+
+> GoboLinux is an alternative **Linux distribution** which
+> redefines the entire filesystem hierarchy.
+>
+> In GoboLinux you don't need a package database because
+> the **filesystem is the database**: each program resides in its own directory,
+> such as /Programs/LibX11/1.6.9 and /Programs/GCC/9.2.0. 
+
+[Bedrock Linux](https://bedrocklinux.org)
+
+> Bedrock Linux is a meta Linux distribution which allows users to mix-and-match components from other, typically incompatible distributions. Bedrock integrates these components into one largely cohesive system.
+>
+> For example, one could have:
+>
+> - Debian's stable coreutils
+> - Arch's cutting edge kernel
+> - Void's runit init system
+> - A pdf reader with custom patches automatically maintained by Gentoo's portage
+> - A font from Arch's AUR
+> - Games running against Ubuntu's libraries
+> - Business software running against CentOS's libraries
+>
+> All at the same time and working together mostly as though they were packaged for the same distribution.
+
+[NixOS](https://nixos.org)
+
+> Nix builds packages in isolation from each other. This ensures that they are reproducible and don't have undeclared dependencies, so **if a package works on one machine, it will also work on another**.
+
+[Qubes OS](https://www.qubes-os.org)
+
+> see https://www.qubes-os.org/intro/ - basically everything gets it's own VM for security sake
+
+[Tails Linux](https://tails.boum.org)
+
+> Tails is a portable operating system that protects against surveillance and censorship.
+
+[Debian Dog](https://debiandog.github.io/doglinux/zz01debiandogjessie.html)
+
+> This is the only distro I could find that will actually work somewhat well on systems with *ancient* x86 CPUs (586,686-pae)
+
+
+

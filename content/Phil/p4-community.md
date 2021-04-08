@@ -36,7 +36,9 @@ Character owned by me, art by [Talon Creations](https://twitter.com/Talon_Creati
 
 ## Furries?
 
-[TODO] Furries, internet culture, LGBT, Gender Identity vs need for legal identity - furry stats, like what percent look at lood, age demographics, etc.
+[TODO] Furries, internet culture, LGBT, Gender Identity vs need for legal identity - furry stats, like what percent look at lood, age demographics, etc. [Proof of X](https://julian.digital/2020/08/06/proof-of-x/), [Assholes: A Probing Examination](https://www.nomachetejuggling.com/2019/06/03/dont-hire-assholes/), 
+
+Might also talk about https://wileywiggins.com/merveilles.html as that's a community and ethos I can speak to as well
 
 ## Adopting new societal values of acceptance
 

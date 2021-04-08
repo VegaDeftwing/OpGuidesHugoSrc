@@ -35,3 +35,9 @@ This series from Crash Course series is in progress at the time of writing, but 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/bSMx0NS0XfY?list=PL8dPuuaLjXtONguuhLdVmq0HTKS0jksS4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Yeast that produce PENICILLIN - Whose Gene is it Anyway (YouTube)](https://youtu.be/X4lZo4Ogx-k?t=107)
+
+## 8.4 - Making Chemistry Fun
+
+https://www.homebrewtalk.com
+
+[TODO] add nile red, cody's lab, and thought emporium specific links

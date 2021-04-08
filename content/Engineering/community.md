@@ -126,3 +126,5 @@ The maker and hacker communities tend to focus a lot on popularity and getting y
 [Death to Bullshit](https://deathtobullshit.com/) [(mirror)](https://web.archive.org/web/20191217003321/http://deathtobullshit.com/)
 
 [Hacker-Laws (Github)](https://github.com/dwmkerr/hacker-laws)
+
+[Proof of X](https://julian.digital/2020/08/06/proof-of-x/)

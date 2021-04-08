@@ -150,3 +150,5 @@ https://taleri.files.wordpress.com/2014/02/practical_electronics_for_inventors_-
 
 [Circuit Sculpture Workshop (Hackaday, Kristina Panos)](https://hackaday.com/2020/12/03/remoticon-video-circuit-sculpture-workshop/)
 
+[Current Loop (Wikipedia)](https://en.wikipedia.org/wiki/Current_loop)
+
