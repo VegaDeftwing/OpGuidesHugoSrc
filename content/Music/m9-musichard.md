@@ -6,17 +6,17 @@ slug: "Music Hardware"
 
 # Music Hardware
 
-While you *could* make all of your music without any extra gear but a comuter, you'll probably want some tools that make your life as a musician easier and let you explore ideas faster. Like I said back in the audio effects section, in my experience, making music depends on a really quick brain to input device feedback loop. Being able to turn a physical knob and mash physical keys will often lead to better results if only because you’re able to try things faster and try things by physically interacting with something that you may not have thought of otherwise. It’s why guitars, MPE keyboards, and Eurorack are so great: they all give you a crazy amount of control and expression that is *literally* at your finger tips. The brain to input interface there is just so much better.
+While you *could* make all of your music without any extra gear but a computer, you'll probably want some tools that make your life as a musician easier and let you explore ideas faster. Like I said back in the audio effects section, in my experience, making music depends on a really quick brain to input device feedback loop. Being able to turn a physical knob and mash physical keys will often lead to better results if only because you’re able to try things faster and try things by physically interacting with something that you may not have thought of otherwise. It’s why guitars, MPE keyboards, and Eurorack are so great: they all give you a crazy amount of control and expression that is *literally* at your finger tips. The brain to input interface there is just so much better.
 
 So, while I don't think you should go *crazy* deep into hardware and spend your life savings, there's some things that just make sense to get, like a good keyboard midi controller, some knobs, and at least one realllly expressive instrument like a guitar or MPE controller. Something that really lets you *feel* what you're playing.
 
-With that out of the way, let's look at the biggest distiction between any music hardware: is it Digital or Analog?
+With that out of the way, let's look at the biggest distinction between any music hardware: is it Digital or Analog?
 
 Digital: 1010111010010010110100101110101
 
 Analog: ∿∿\~∿\~∿∿∿~∿∿\~∿\~∿∿∿~∿∿\~∿
 
-I'm going to assume that you know what the difference is, and while some gear is obvious (A normal acoustic guitar is analog, a MIDI controller is digital) some music gear reallly blurs the lines, or even twists them outright. The Behringer DeepMind line, for example, is a purely analog synth with digital control's and a big ol' screen. Meanwhile, the Modor NF-1 is a digital synth that looks and tries to emulate the sound and feel of analog equipment. Plus, there's a ton of synths now that have analog oscilators and filters, but then do DSP (Digital Signal Processing) or, the other way around, with digital oscilators and analog filters. What I'm trying to say is, it's complicated.
+I'm going to assume that you know what the difference is, and while some gear is obvious (A normal acoustic guitar is analog, a MIDI controller is digital) some music gear reallly blurs the lines, or even twists them outright. The Behringer DeepMind line, for example, is a purely analog synth with digital control's and a big ol' screen. Meanwhile, the Modor NF-1 is a digital synth that looks and tries to emulate the sound and feel of analog equipment. Plus, there's a ton of synths now that have analog oscillators and filters, but then do DSP (Digital Signal Processing) or, the other way around, with digital oscillators and analog filters. What I'm trying to say is, it's complicated.
 
 So, let's start simple, and look at some MIDI controllers, why you might want one, and what features you might want to look for.
 
@@ -24,13 +24,13 @@ So, let's start simple, and look at some MIDI controllers, why you might want on
 
 ### What is MIDI?
 
-**M**usical **I**nstrument **D**igital **I**nterface, or **MIDI** is what it sounds like, the primary way to get data between devices digitally. Want to tell a hardware synth to play a sequence you arranged on your computer? MIDI. Want to play notes into your computer using a keyboard? MIDI. Want to sequence drums, with varrying 'velocity' on each hit? MIDI.
+**M**usical **I**nstrument **D**igital **I**nterface, or **MIDI** is what it sounds like, the primary way to get data between devices digitally. Want to tell a hardware synth to play a sequence you arranged on your computer? MIDI. Want to play notes into your computer using a keyboard? MIDI. Want to sequence drums, with varying 'velocity' on each hit? MIDI.
 
 ### Sounds Great?
 
-For the most part, yeah. Everything works together and you can make all your hardware speak the same language. Let your keyboard talk to your computer and then your computer talk to your drums so that you can play the drums with your keyboard! Send automation from your computer to a parameter on your synth to varry the sound over time, whatever.
+For the most part, yeah. Everything works together and you can make all your hardware speak the same language. Let your keyboard talk to your computer and then your computer talk to your drums so that you can play the drums with your keyboard! Send automation from your computer to a parameter on your synth to vary the sound over time, whatever.
 
-The Catch? MIDI is outright ancient by technology standards, having come out in 1981. It's so damn old, that it's (mostly) a 7-bit standard. Now, ideally, a musican shouldn't have to know all this shit and the gear should stay out of the way. Unfortunately, we've been sticking with this standard for so damn long that basically everything abuses it in one way or another to the extent you sorta have to know how it works. So, 7-bit, what does that mean?
+The Catch? MIDI is outright ancient by technology standards, having come out in 1981. It's so damn old, that it's (mostly) a 7-bit standard. Now, ideally, a musician shouldn't have to know all this shit and the gear should stay out of the way. Unfortunately, we've been sticking with this standard for so damn long that basically everything abuses it in one way or another to the extent you sorta have to know how it works. So, 7-bit, what does that mean?
 
 Well, it's talking about bits, so 1's and 0's. For each message in midi, you get 7 bit's of data. So, when you turn a knob it can range from 0000000 to 1111111, which, work out to be 0 to 127. This means each knob, even if it feels smooth to you, only has 127 distinct levels the software can recognize. This is fucking awful. But, wait, it get's worse. This applies to *almost everything in MIDI, so how hard you hit the keys and how finely you can set the volume with a physical slider. Clearly, this blows.
 
@@ -38,12 +38,12 @@ And, it so happens, everyone agrees. Because of that, there's a whole fustercluc
 
 * MIDI **N**on-**R**egistered **P**art **N**umber ([NPRN](https://en.wikipedia.org/wiki/NRPN)) is one way MIDI controllers can send higher resolution signals (14bit so, 0 to 16384) by putting two, 7-bit CC's values together such that one controls the **M**ost **S**ignificant **B**yte (MSB) and the other the **L**east **S**ignificant **B**yte (LSB)
 * **O**pen **S**ound **C**ontrol (OSC) *isn't* MIDI, but rather a competing standard that's much higher resolution and can work over ip (wifi), but it's not universally supported like MIDI
-* **M**ackie **C**ontrol **U**niversal (MCU) is a fustercluck of a non-standard devloped by Mackie, a particular hardware manufacture, for one of their products. Originally MCU was made for Logic but eventually the control 'standard' wound its way into other DAWs. It mostly provide a 'universal' mapping for common functions like mute, solo, track select, EQ and what not. It basically just sits on top MIDI.
+* **M**ackie **C**ontrol **U**niversal (MCU) is a fustercluck of a non-standard developed by Mackie, a particular hardware manufacture, for one of their products. Originally MCU was made for Logic but eventually the control 'standard' wound its way into other DAWs. It mostly provide a 'universal' mapping for common functions like mute, solo, track select, EQ and what not. It basically just sits on top MIDI.
 * **M**idi **P**olyphonic **E**xpression (MPE) is probably the most convoluted of the workarounds, but it will require some more explanation, so I'll come back to this in a second.
 
 "Alright", I hear you thinking, "so MIDI is a fucked up standard, what is it good for then?"
 
-Well, it's pretty much still the only one you can sequence notes in your DAW, that all instruments interface with eachother and a computer, and often the only way you can control digital instruments and effects from hardware.
+Well, it's pretty much still the only one you can sequence notes in your DAW, that all instruments interface with each other and a computer, and often the only way you can control digital instruments and effects from hardware.
 
 So, let's poke into some of the common MIDI message types, starting with the most obvious: Notes.
 
@@ -55,7 +55,7 @@ MIDI notes range from 0 to 127, with the highest note, 127, being a G9 @ 12543.9
 
 Given human hearing starts at about 20hz, the lowest notes are inaudible except for harmonics assuming no octave shifting or other quirks. As such, these lowest notes are often repurposed for control messages, though even then a lot of sound sources will only respond to a limited range of these notes anyway.
 
-While MIDI does have an [extension](https://en.wikipedia.org/wiki/MIDI_tuning_standard) for supporting alternate tunings, it's rarely directly supported. As microtonal and other non-12TET (12 True Equal Temperment) scales have become common, various tools exist to use MIDI pitch to force notes to a chose scale anyway.
+While MIDI does have an [extension](https://en.wikipedia.org/wiki/MIDI_tuning_standard) for supporting alternate tunings, it's rarely directly supported. As microtonal and other non-12TET (12 True Equal Temperament) scales have become common, various tools exist to use MIDI pitch to force notes to a chose scale anyway.
 
 General MIDI, one of various MIDI extensions (that often get ignored anyway) also defines a few specific instruments to belong to specific midi channels (rarely used unless listening to midi files directly with soundfonts) and a mapping for drums, which is used a bit more often, and is generally close to the normal mapping you'll see in tools like Ableton's Drum Rack. If you buy an electronic drum kit or use a drum machine, it's likely to at least try to respect this mapping.
 
