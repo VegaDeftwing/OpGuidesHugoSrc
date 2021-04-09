@@ -10,15 +10,53 @@ While you *could* make all of your music without any extra gear but a computer, 
 
 So, while I don't think you should go *crazy* deep into hardware and spend your life savings, there's some things that just make sense to get, like a good keyboard midi controller, some knobs, and at least one realllly expressive instrument like a guitar or MPE controller. Something that really lets you *feel* what you're playing.
 
-With that out of the way, let's look at the biggest distinction between any music hardware: is it Digital or Analog?
+---
+
+{{< columns >}}
+
+With that out of the way, I also want to briefly mention the 'war' between Digital and Analog in music hardware
+
+<--->
 
 Digital: 1010111010010010110100101110101
 
 Analog: ∿∿\~∿\~∿∿∿~∿∿\~∿\~∿∿∿~∿∿\~∿
 
-I'm going to assume that you know what the difference is, and while some gear is obvious (A normal acoustic guitar is analog, a MIDI controller is digital) some music gear reallly blurs the lines, or even twists them outright. The Behringer DeepMind line, for example, is a purely analog synth with digital control's and a big ol' screen. Meanwhile, the Modor NF-1 is a digital synth that looks and tries to emulate the sound and feel of analog equipment. Plus, there's a ton of synths now that have analog oscillators and filters, but then do DSP (Digital Signal Processing) or, the other way around, with digital oscillators and analog filters. What I'm trying to say is, it's complicated.
+{{< /columns >}}
 
-So, let's start simple, and look at some MIDI controllers, why you might want one, and what features you might want to look for.
+I'm going to assume that you know what the difference is, and while some gear is obvious (A normal acoustic guitar is analog, a MIDI controller is digital) some music gear really blurs the lines, or even twists them outright. The Behringer DeepMind line, for example, is a purely analog synth with digital control's and a big ol' screen. Meanwhile, the Modor NF-1 is a digital synth that looks and tries to emulate the sound and feel of analog equipment. Plus, there's a ton of synths now that have analog oscillators and filters, but then do DSP (Digital Signal Processing) or, the other way around, with digital oscillators and analog filters. What I'm trying to say is, it's complicated.
+
+There are a lot of 'Analog Purists' out there, who will claim an analog oscillator just sounds better, or that it adds something extra to their sound. To some extent, they're not wrong. But, I think this is also largely because people are comparing often free digital sources and effects to analog ones and, as with most things in life, you often get what you pay for. I'd actually argue that in most cases, paid digital tools and hardware is a better value than the analog gear. <a class="ptr">(1)</a><a class="ptr">(2)</a><a class="ptr">(3)</a> What I'm trying to say is, in most cases, weather or not a tool is analog or digital shouldn't really factor into your choice of what to buy. Your choice should be determined by what sounds good, what is enjoyable to play, and if the device offers all the features you need and want. *In very few cases* will a device being analog be a 'feature' that matters.<a class="ptr">(4)</a> Instead, the feature that matters with analog gear is often the hands on feel that usually comes with a device being analog, like all the articulations that a player can get out of a guitar.<a class="ptr">(5)</a> At the same time, this isn't exclusive to analog instruments anymore, as MPE controllers (I'll get to them later) have made it possible to get a TON of expression out of a digital controller, arguably more than I can out of my guitar- so again, the guitar being *analog* isn't the feature that mattered. When buying gear, try to dig down and ask yourself *why* you want a tool - for how it sounds, how it feels to play, etc. - and ask yourself if there's competing products that meet the same needs, then you'll easily avoid the elitism that analog purists bring with them.<a class="ptr">(6)</a>
+
+---
+
+Hopefully that all made sense and you feel a bit less lost about what is probably one of the most divisive topics in music hardware today. Let's move on and try to barrel though all the technical crap so we can get to the fun stuff later on. Let's start with something you're already familiar with, but dive in a little deeper: A normal ol' audio jack.
+
+## TRS? 3.5mm? ¼ inch?
+
+{{< columns >}}
+
+<iframe src="https://merveilles.town/@zens/105891797104825087/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://merveilles.town/embed.js" async="async"></script>
+
+<!-- So, let's start simple, and look at some MIDI controllers, why you might want one, and what features you might want to look for. -->
+
+<--->
+
+You're normal every-day headphones that you'd plug into your phone (or did. Thanks Apple (¬､¬)) use a 3.5mm **T**ip **R**ing **S**leave cable. If your headphones have an in-line mic, they're probably TRRS. The difference, as this meme shows, is how many 'rings' are on the connector. Normally, for headphones, the **T**ip would carry the left channel, the **R**ing the **r**ight and the **S**leave the common ground for each. If there's an inline mic, the connections *usually* go Left, Right, Ground, Microphone on the TRRS pins respectively. 
+
+{{< hint warning >}}
+
+Don't assume all devices will support the TRRS headsets with mics. Some devices will have a dedicated microphone in line, and others will just omit it outright.
+
+{{< /hint >}}
+
+{{< /columns >}}
+
+But, because nothing can ever be simple, that's not always the case. Enter, balanced audio.
+
+While uncommon for 3.5mm cables like most headphones, on a lot of pro audio gear that uses the much beefier ¼ inch jacks will use a TRS cable to carry a mono signal.  
+
+[TODO] Balanced, XLR, 
 
 ## MIDI
 
@@ -32,7 +70,7 @@ For the most part, yeah. Everything works together and you can make all your har
 
 The Catch? MIDI is outright ancient by technology standards, having come out in 1981. It's so damn old, that it's (mostly) a 7-bit standard. Now, ideally, a musician shouldn't have to know all this shit and the gear should stay out of the way. Unfortunately, we've been sticking with this standard for so damn long that basically everything abuses it in one way or another to the extent you sorta have to know how it works. So, 7-bit, what does that mean?
 
-Well, it's talking about bits, so 1's and 0's. For each message in midi, you get 7 bit's of data. So, when you turn a knob it can range from 0000000 to 1111111, which, work out to be 0 to 127. This means each knob, even if it feels smooth to you, only has 127 distinct levels the software can recognize. This is fucking awful. But, wait, it get's worse. This applies to *almost everything in MIDI, so how hard you hit the keys and how finely you can set the volume with a physical slider. Clearly, this blows.
+Well, it's talking about bits, so 1's and 0's. For each message in midi, you get 7 bit's of data. So, when you turn a knob it can range from 0000000 to 1111111, which, works out to be 0 to 127. This means each knob, even if it feels smooth to you, only has 127 distinct levels whatever it's talking to can receive. This is *really* bad. But, wait, it gets worse. This applies to *almost everything in MIDI, so how hard you hit the keys and how finely you can set the volume with a physical slider. Clearly, this blows.
 
 And, it so happens, everyone agrees. Because of that, there's a whole fustercluck of solutions. Some you might see include
 
@@ -259,3 +297,12 @@ DAW-less just means not using a Digital Audio Workstation to make your music, us
 
 [10 Things You NEED to know before Building a Dawless Synthesizer Setup (YouTube, BoBeats)](https://youtu.be/e6lVyAcZRPk)
 
+<ol hidden id="footnotes">
+    <li>Plus, digital tools won't suffer as much from the issues with tuning, latency compensation, the need to worry about a noise floor, etc. Digital aliasing might be a problem, but even that can usually be worked around.</li>
+    <li>To point out my own hypocrisy now, I'm really into Eurorack, which is an inheritly analog, and stupidly expensive, medium. Making music isn't all logic. If you think a certain tool will just work well for you, you shouldn't deny it's value just because something else may provide the same function. Fourm matters. Your enjoyment matters. To me, there was inherit value in the joy of working with real patch cables and the physical knobs, even if VCV Rack is the 'better' tool and doesn't cost a full months rent per module.</li>
+    <li>Okay, So, yes. There is some concern about everything in (1) with digital stuff. Latency compensation with digital tools is still a thing. Your midi controler will still have a delay. A digital <i>hardware</i> synth will still send an analog audio signal out, which will have some latency. MIDI clock may not get distributed around your system perfectly, resulting in issues as well. I'm meaning in general. Like, if you want to record a guitar in and hear any DSP effects you have on the chain in your DAW in real time, you'll have to compensate for that full round trip time, which can easily set you off beat a solid amount when recording in. Plus, <i>most</ii> analog instrument are <i>not</i> balanced audio, so there will be some noise getting in compared to the complete lack of noise in a software source/effect or the very minimal noise of that from a balanced audio source. If you have no idea what this means, that's fine, I'm about to go over it. This is just to prevent some really early 'um, acktually'.</br></br> All that is to say, analog gear is generally a bigger PITA to deal with than digital gear, and often the claims for why to go analog are total shit; however, some of the issues with analog gear are actually just issues with any hardware music tool.
+    </li>
+	<li>Distortions and anything with feedback is the most obvious counter point, and I'll concede on that one. Digital distortion, drive, and feedback based effects are almost universally worse sounding and eat up a ton of digital resources on your computer.</li>
+<li>String bending, plucking, strumming up or down, palm muting, how hard you pluck, whammy bars, harmonics (a type of playing), slapping the strings, slapping the body, tuning live... The guitar is an extraordinarly hands on instrument, it doesn't make just one sound. </li>
+<li>If you pick the analog gear because it does offer something better, looks cooler, or it's cheaper for some reason there's obviously no shame in that. Your decesion was still educated. That's what matters.</li>
+</ol>
