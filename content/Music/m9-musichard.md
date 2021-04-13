@@ -14,17 +14,82 @@ So, while I don't think you should go *crazy* deep into hardware and spend your 
 
 {{< columns >}}
 
-With that out of the way, I also want to briefly mention the 'war' between Digital and Analog in music hardware
+First things first, I also want to go over the difference between Digital and Analog in music hardware:
 
 <--->
 
-Digital: 1010111010010010110100101110101
+<p class="dshift">Digital: 1010111010010010110100101110101</p><p class="ashift">Analog: ∿∿~∿~∿∿∿~∿∿~∿~∿∿∿~∿∿~∿</p>
 
-Analog: ∿∿\~∿\~∿∿∿~∿∿\~∿\~∿∿∿~∿∿\~∿
+<script>
+    var cur_color = -1,
+    colors = [
+        'red',
+        'green',
+        'blue',
+        'yellow',
+        'magenta',
+        'pink'
+    ];
+    var myInterval = setInterval(function() {
+    var da = document.querySelector("body > main > div > article > div:nth-child(5) > div:nth-child(2) > p.dshift").textContent;
+    var daa = da.replace(/10/g, "01").replace(/100/g, "010").replace(/000000/g, "111111").replace(/11111111111111111111111111/g, "10100111111001111111000110").replace(/110/g, "010");
+    document.querySelector("body > main > div > article > div:nth-child(5) > div:nth-child(2) > p.dshift").textContent = daa;
+    var db = document.querySelector("body > main > div > article > div:nth-child(5) > div:nth-child(2) > p.ashift").textContent;
+    var dbb = db.replace(/∿~/g, "~∿").replace(/∿~~/g, "~∿~").replace(/~~~~~~/g, "∿∿∿∿∿∿").replace(/∿∿∿∿∿∿∿∿∿∿/g, "∿~∿~∿∿∿~∿∿").replace(/∿∿~/g, "~∿~");
+    document.querySelector("body > main > div > article > div:nth-child(5) > div:nth-child(2) > p.ashift").textContent = dbb;
+    }, 400);
+    //Let it be known that I have absolutely no idea what I'm doing (I don't know js) and that I only wanted a quick and dity solution. It works.
+</script>
 
 {{< /columns >}}
 
-I'm going to assume that you know what the difference is, and while some gear is obvious (A normal acoustic guitar is analog, a MIDI controller is digital) some music gear really blurs the lines, or even twists them outright. The Behringer DeepMind line, for example, is a purely analog synth with digital control's and a big ol' screen. Meanwhile, the Modor NF-1 is a digital synth that looks and tries to emulate the sound and feel of analog equipment. Plus, there's a ton of synths now that have analog oscillators and filters, but then do DSP (Digital Signal Processing) or, the other way around, with digital oscillators and analog filters. What I'm trying to say is, it's complicated.
+What you should keep in mind as you read everything going forward is that you can only *hear* an analog signal. At the end of the chain, everything needs to be analog, as ultimately sound waves exist not as the 1's and 0's of binary, but as waves of pressure in the air- which is an analog medium.
+
+To start, lets look at an all analog signal path. Here, a guitar string is plucked, the signal is picked up by the guitar's pickup (as the metal string causes a magnet to move, generating a weak electrical signal), the signal is amplified (twice), then the amplifed signal used to move a speaker cone, moving the air so you can hear it.
+
+![](/allanalog.svg)
+
+---
+
+{{< hint gray >}}
+
+Note, I've drawn a light gray cable along side all the analog signals. This is the ground cable. Audio circuits are no different from any other circuit, and require a full, well, circuit. This means a full loop, with ground. Where the cables come out of the amplifier I've drawn these two wires much more distinctly, with a red wire meant to mean the 'live' wire that carries the signal and gray wire the ground. This is by convention. If you ever have to wire up an amplifer, you'll probably see one red and one black wire, representing these in turn. In many cases (but definitely not always) things will still work if you get these backwards, but you'll end up with audio that is out of phase, as your signal is quite literally flipped. In the case of a guitar amp with a single speaker, this probably won't matter. But, if you have two speakers (left and right) and only flip one, this is very likely to make things sound awful.
+
+{{< /hint >}}
+
+Hopefully that made sense, now let's look at a digital setup. Keep in mind even the most digital of paths needs to end in analog so that there's something for you to hear.
+
+Here, a digital keyboard is hooked up to a laptop, presumably running some sort of sound-generating software - Maybe a DAW or VCV Rack. Here I've shown the audio Interface (labeled DAC) as an external box hooked up over USB, but this could also just be internal to the computer. All computers or phones will have an internal audio interface, it's just that most musicans end up attaching their own that offer better features.
+
+![](/digitalsound.svg)
+
+Here, everything on the blue cables is digital, it's only 1's and 0's. The first cable is only carrying information about what note you're playing and knobs you're turning, while the second one (between the laptop and the the DAC) is carying digital information that represents the audio, but it hasn't yet been turned into an analog signal. That's the job of the DAC. It takes those 1's and 0's and turns it back into an analog signal.
+
+{{< hint warning >}}
+
+Often you'll hear the terms Audio Interface, Sound Card, and DAC used interchangeably. They're not all the same thing, but generally it's the part that turns the digital signal into an analog one. If you're plugging a guitar or microphone into your computer, the terms Audio Interface and Sound Card still apply, but in that case you're using an ADC. I'll come back to this in a bit.
+
+{{< /hint >}}
+
+If youre confused about how digital 1's and 0's can represent an analog signal in the first place, refer back to samples in [Chapter 2 - Sound Sources]({{< relref "Music/m2-sources" >}}). For more information on how Digital to Analog and Analog to Digital conversion works, check out [this video from xiph.org](https://xiph.org/video/vid2.shtml).
+
+{{< columns >}}
+
+Some devices may have almost everything in this chain internally. This is true of a lot of digital insturments, like the Elektron Digitakt pictured here:
+
+<--->
+
+[TODO]
+
+{{< /columns >}}
+
+Though the really confusing thing to beginers is when the device is digital, but has both analog input and outputs. Just like there's a DAC (**D**igital to **A**nalog **C**onverter) you'll often be working with ADCs or **A**nalog to **D**igital **C**onverters. 
+
+[TODO]
+
+[TODO] show guitar bit-crusher to explain DAC and ADC better.
+
+Hopefully that was enough to get you up to speed on the basics. Unfortunately, while some gear is obvious (A normal acoustic guitar is analog, a MIDI controller is digital) some music gear really blurs the lines, or even twists them outright. The Behringer DeepMind line, for example, is a purely analog synth with digital control's and a big ol' screen. Meanwhile, the Modor NF-1 is a digital synth that looks and tries to emulate the sound and feel of analog equipment. Plus, there's a ton of synths now that have analog oscillators and filters, but then do DSP (Digital Signal Processing) based effects or the other way around- with digital oscillators and analog filters. What I'm trying to say is, it's complicated.
 
 There are a lot of 'Analog Purists' out there, who will claim an analog oscillator just sounds better, or that it adds something extra to their sound. To some extent, they're not wrong. But, I think this is also largely because people are comparing often free digital sources and effects to analog ones and, as with most things in life, you often get what you pay for. I'd actually argue that in most cases, paid digital tools and hardware is a better value than the analog gear. <a class="ptr">(1)</a><a class="ptr">(2)</a><a class="ptr">(3)</a> What I'm trying to say is, in most cases, weather or not a tool is analog or digital shouldn't really factor into your choice of what to buy. Your choice should be determined by what sounds good, what is enjoyable to play, and if the device offers all the features you need and want. *In very few cases* will a device being analog be a 'feature' that matters.<a class="ptr">(4)</a> Instead, the feature that matters with analog gear is often the hands on feel that usually comes with a device being analog, like all the articulations that a player can get out of a guitar.<a class="ptr">(5)</a> At the same time, this isn't exclusive to analog instruments anymore, as MPE controllers (I'll get to them later) have made it possible to get a TON of expression out of a digital controller, arguably more than I can out of my guitar- so again, the guitar being *analog* isn't the feature that mattered. When buying gear, try to dig down and ask yourself *why* you want a tool - for how it sounds, how it feels to play, etc. - and ask yourself if there's competing products that meet the same needs, then you'll easily avoid the elitism that analog purists bring with them.<a class="ptr">(6)</a>
 
@@ -42,7 +107,7 @@ Hopefully that all made sense and you feel a bit less lost about what is probabl
 
 <--->
 
-You're normal every-day headphones that you'd plug into your phone (or did. Thanks Apple (¬､¬)) use a 3.5mm **T**ip **R**ing **S**leave cable. If your headphones have an in-line mic, they're probably TRRS. The difference, as this meme shows, is how many 'rings' are on the connector. Normally, for headphones, the **T**ip would carry the left channel, the **R**ing the **r**ight and the **S**leave the common ground for each. If there's an inline mic, the connections *usually* go Left, Right, Ground, Microphone on the TRRS pins respectively. 
+Your normal every-day headphones that you'd plug into your phone (or did. Thanks Apple (¬､¬)) use a 3.5mm **T**ip **R**ing **S**leave cable. If your headphones have an in-line mic, they're probably TRRS. The difference, as this meme shows, is how many 'rings' are on the connector. Normally, for headphones, the **T**ip would carry the left channel, the **R**ing the **r**ight and the **S**leave the common ground for each. If there's an inline mic, the connections *usually* go Left, Right, Ground, Microphone on the TRRS pins respectively. 
 
 {{< hint warning >}}
 
@@ -299,7 +364,7 @@ DAW-less just means not using a Digital Audio Workstation to make your music, us
 
 <ol hidden id="footnotes">
     <li>Plus, digital tools won't suffer as much from the issues with tuning, latency compensation, the need to worry about a noise floor, etc. Digital aliasing might be a problem, but even that can usually be worked around.</li>
-    <li>To point out my own hypocrisy now, I'm really into Eurorack, which is an inheritly analog, and stupidly expensive, medium. Making music isn't all logic. If you think a certain tool will just work well for you, you shouldn't deny it's value just because something else may provide the same function. Fourm matters. Your enjoyment matters. To me, there was inherit value in the joy of working with real patch cables and the physical knobs, even if VCV Rack is the 'better' tool and doesn't cost a full months rent per module.</li>
+    <li>To point out my own hypocrisy now, I'm really into Eurorack, which is an inheritly analog, and stupidly expensive, medium. Making music isn't all logic. If you think a certain tool will just work well for you, you shouldn't deny its value just because something else may provide the same function. Form matters. Your enjoyment matters. To me, there was inherit value in the joy of working with real patch cables and the physical knobs, even if VCV Rack is the 'better' tool and doesn't cost a full months rent per module.</li>
     <li>Okay, So, yes. There is some concern about everything in (1) with digital stuff. Latency compensation with digital tools is still a thing. Your midi controler will still have a delay. A digital <i>hardware</i> synth will still send an analog audio signal out, which will have some latency. MIDI clock may not get distributed around your system perfectly, resulting in issues as well. I'm meaning in general. Like, if you want to record a guitar in and hear any DSP effects you have on the chain in your DAW in real time, you'll have to compensate for that full round trip time, which can easily set you off beat a solid amount when recording in. Plus, <i>most</ii> analog instrument are <i>not</i> balanced audio, so there will be some noise getting in compared to the complete lack of noise in a software source/effect or the very minimal noise of that from a balanced audio source. If you have no idea what this means, that's fine, I'm about to go over it. This is just to prevent some really early 'um, acktually'.</br></br> All that is to say, analog gear is generally a bigger PITA to deal with than digital gear, and often the claims for why to go analog are total shit; however, some of the issues with analog gear are actually just issues with any hardware music tool.
     </li>
 	<li>Distortions and anything with feedback is the most obvious counter point, and I'll concede on that one. Digital distortion, drive, and feedback based effects are almost universally worse sounding and eat up a ton of digital resources on your computer.</li>
