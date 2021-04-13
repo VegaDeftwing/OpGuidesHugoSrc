@@ -1,12 +1,36 @@
 # Chapter 23 - Circuits & Semiconductors
 
+{{< columns >}}
+
+When I was a kid I thought about circuits as being alive, like [Cells at Work!](https://en.wikipedia.org/wiki/Cells_at_Work!), only little electrons going around busily keeping the heart of my toy working instead of anthropomorphic red blood cells working in the human body.
+
+Now, as an adult - and a computer and electrical engineer at that - I still find this thought endearing. Though I've now come to see the physics and art of electronics to be even more beautiful when their true nature is really understood.
+
+There's a joke you'll hear about those that work with these low level physics or that arrange logic gates to make full CPUs- that our job and passions boil down to teaching rocks to think.
+
+So, let's lean how to teach some rocks.
+
+<--->
+
+![](/noisedeck1.gif)
+
+{{< attribution >}}
+
+©Vega, made with [Noisedeck](https://noisedeck.app)
+
+{{< /attribution >}}
+
+{{< /columns >}}
+
+---
+
 [TODO]
 
 Show everything in a circuit sim, fix heading levels (this is a mess)
 
 Possibly break up this chapter? Transistors, the opamp, etc alone may each justify their own chapters
 
-That said, I don't want to get to in the mud of transistor physics. I really want to focus on how/when/why to use what, not how they work as the physics is both pretty hard to grasp and not super useful. Still would like to mention that switching is what uses power and like process size things, but maybe not the chemistry or electron tunneling effects
+That said, I don't want to get to in the mud of transistor physics. I really want to focus on how/when/why to use what, not how they work as the physics is both pretty hard to grasp and not super useful. Still would like to mention that switching is what uses power and like process size things, but maybe not the chemistry or electron tunneling effects, at least not in great detail
 
 # Chapter 23.1 - Semiconductors
 
@@ -16,9 +40,23 @@ That said, I don't want to get to in the mud of transistor physics. I really wan
 
 [TODO] pic of silicon bulb
 
+https://en.wikipedia.org/wiki/Wafer_(electronics)
+
 P/N junctions, etc.
 
 ## Diodes, the one way road
+
+> A **diode** is a two-terminal electronic component that conducts current primarily in one direction (asymmetric conductance); it has low (ideally zero) resistance in one direction, and high (ideally infinite) resistance in the other.
+
+{{< attribution >}}
+
+[Diode page on Wikipedia](https://en.wikipedia.org/wiki/Diode) (which is actually super good)
+
+{{< /attribution >}}
+
+Alright, so in very basic terms, it's a part that only lets current flow in one direction (idealy). A one-way road for current. If you put a sine wave in, you'll get a sine-wave chopped in half out. Now, this assumes everything is ideal, as you'll really get more like the top 40% of the wave out, but we'll get to those details in a bit. For now, I recomend watching this video:
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/Ll0IOk_Ltfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [TODO]
 
