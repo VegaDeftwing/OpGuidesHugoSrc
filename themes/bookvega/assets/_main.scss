@@ -227,7 +227,7 @@ ul.pagination {
     width: $toc-width;
     padding: $padding-16;
 
-    @include fixed;
+    // @include fixed;
   }
 
   img {
