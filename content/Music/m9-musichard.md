@@ -6,9 +6,9 @@ slug: "Music Hardware"
 
 # Music Hardware
 
-While you *could* make all of your music without any extra gear but a computer, you'll probably want some tools that make your life as a musician easier and let you explore ideas faster. Like I said back in the audio effects section, in my experience, making music depends on a really quick brain to input device feedback loop. Being able to turn a physical knob and mash physical keys will often lead to better results if only because you’re able to try things faster and try things by physically interacting with something that you may not have thought of otherwise. It’s why guitars, MPE keyboards, and Eurorack are so great: they all give you a crazy amount of control and expression that is *literally* at your finger tips. The brain to input interface there is just so much better.
+While you *could* make all of your music with just computer, you’ll probably want some tools that make your life as a musician easier and let you explore ideas faster. Like I said back in the [Audio Effects Chapter]({{< relref "Music/m4-effects" >}}), in my experience, making music depends on a really quick brain to input device feedback loop. Being able to turn a physical knob and mash physical keys will often lead to better results if only because you’re able to try things both faster and by physically interacting with something that you may not have thought of otherwise. It’s why guitars, MPE keyboards, and Eurorack are so great: they all give you a crazy amount of control and expression that is *literally* at your finger tips. The brain to input interface there is just so much better.
 
-So, while I don't think you should go *crazy* deep into hardware and spend your life savings, there's some things that just make sense to get, like a good keyboard midi controller, some knobs, and at least one realllly expressive instrument like a guitar or MPE controller. Something that really lets you *feel* what you're playing.
+So, while I don't think you should go *crazy* deep into hardware and spend your life savings, there's some things that just make sense to get, like a good keyboard MIDI controller, some knobs, and at least one realllly expressive instrument like a guitar or MPE controller. Something that really lets you *feel* what you're playing.
 
 ---
 
@@ -21,15 +21,6 @@ First things first, I also want to go over the difference between Digital and An
 <p class="dshift">Digital: 1010111010010010110100101110101</p><p class="ashift">Analog: ∿∿~∿~∿∿∿~∿∿~∿~∿∿∿~∿∿~∿</p>
 
 <script>
-    var cur_color = -1,
-    colors = [
-        'red',
-        'green',
-        'blue',
-        'yellow',
-        'magenta',
-        'pink'
-    ];
     var myInterval = setInterval(function() {
     var da = document.querySelector("body > main > div > article > div:nth-child(5) > div:nth-child(2) > p.dshift").textContent;
     var daa = da.replace(/10/g, "01").replace(/100/g, "010").replace(/000000/g, "111111").replace(/11111111111111111111111111/g, "10100111111001111111000110").replace(/110/g, "010");
@@ -43,9 +34,9 @@ First things first, I also want to go over the difference between Digital and An
 
 {{< /columns >}}
 
-What you should keep in mind as you read everything going forward is that you can only *hear* an analog signal. At the end of the chain, everything needs to be analog, as ultimately sound waves exist not as the 1's and 0's of binary, but as waves of pressure in the air- which is an analog medium.
+A quick note before you read anything further: you can only hear an analog signal. At the end of the chain, everything needs to be analog, as ultimately sound waves exist not as the 1’s and 0’s of binary, but as waves of pressure in the air- which is an analog medium.
 
-To start, lets look at an all analog signal path. Here, a guitar string is plucked, the signal is picked up by the guitar's pickup (as the metal string causes a magnet to move, generating a weak electrical signal), the signal is amplified (twice), then the amplifed signal used to move a speaker cone, moving the air so you can hear it.
+To start, let’s look at an all-analog signal path. Here, a guitar string is plucked, the signal is picked up by the guitar’s pickup (as the metal string causes a magnet to move, generating a weak electrical signal), the signal is amplified (twice), and then the amplified signal is used to move a speaker cone, which in turn moves the air, so you can hear it.
 
 ![](/allanalog.svg)
 
@@ -53,17 +44,17 @@ To start, lets look at an all analog signal path. Here, a guitar string is pluck
 
 {{< hint gray >}}
 
-Note, I've drawn a light gray cable along side all the analog signals. This is the ground cable. Audio circuits are no different from any other circuit, and require a full, well, circuit. This means a full loop, with ground. Where the cables come out of the amplifier I've drawn these two wires much more distinctly, with a red wire meant to mean the 'live' wire that carries the signal and gray wire the ground. This is by convention. If you ever have to wire up an amplifer, you'll probably see one red and one black wire, representing these in turn. In many cases (but definitely not always) things will still work if you get these backwards, but you'll end up with audio that is out of phase, as your signal is quite literally flipped. In the case of a guitar amp with a single speaker, this probably won't matter. But, if you have two speakers (left and right) and only flip one, this is very likely to make things sound awful.
+Note, I’ve drawn a light gray cable along side all the analog signals. This is the ground cable. Audio circuits are no different from any other circuit, and require a full, well, circuit. A circuit is a full loop, with ground. Where the cables come out of the amplifier, I’ve drawn these two wires much more distinctly, with a red wire- meant to visualize the ‘live’ wire that carries the signal- and gray wire the ground. This is by convention. If you ever have to wire up an amplifier, you’ll probably see one red and one black wire, representing these in turn. In many cases (but definitely not always), things will still work if you get these backwards, but you’ll end up with audio that is out of phase, as your signal is quite literally flipped. In the case of a guitar amp with a single speaker, this probably won’t matter. But, if you have two speakers (left and right) and only flip one, this is very likely to make things sound awful.
 
 {{< /hint >}}
 
 Hopefully that made sense, now let's look at a digital setup. Keep in mind even the most digital of paths needs to end in analog so that there's something for you to hear.
 
-Here, a digital keyboard is hooked up to a laptop, presumably running some sort of sound-generating software - Maybe a DAW or VCV Rack. Here I've shown the audio Interface (labeled DAC) as an external box hooked up over USB, but this could also just be internal to the computer. All computers or phones will have an internal audio interface, it's just that most musicans end up attaching their own that offer better features.
+Here, a digital keyboard is hooked up to a laptop, presumably running some sort of sound-generating software - Maybe a DAW or VCV Rack. Here I've shown the audio Interface (labeled DAC) as an external box hooked up over USB, but this could also just be internal to the computer. All computers or phones will have an internal audio interface, it's just that most musicians end up attaching their own that offer better features.
 
 ![](/digitalsound.svg)
 
-Here, everything on the blue cables is digital, it's only 1's and 0's. The first cable is only carrying information about what note you're playing and knobs you're turning, while the second one (between the laptop and the the DAC) is carying digital information that represents the audio, but it hasn't yet been turned into an analog signal. That's the job of the DAC. It takes those 1's and 0's and turns it back into an analog signal.
+Here, everything on the blue cables is digital, it's only 1's and 0's. The first cable is only carrying information about what note you're playing and knobs you're turning, while the second one (between the laptop and the the DAC) is carrying digital information that represents the audio, but it hasn't yet been turned into an analog signal. That's the job of the DAC. It takes those 1's and 0's and turns it back into an analog signal.
 
 {{< hint warning >}}
 
@@ -75,7 +66,7 @@ If youre confused about how digital 1's and 0's can represent an analog signal i
 
 {{< columns >}}
 
-Some devices may have almost everything in this chain internally. This is true of a lot of digital insturments, like the Elektron Digitakt pictured here:
+Some devices may have almost everything in this chain internally. This is true of a lot of digital instruments, like the Elektron Digitakt pictured here:
 
 The Digitakt is a drum machine that uses samples saved internally as .wav files. It's basically just a very specialized computer in a box.
 
@@ -85,17 +76,17 @@ The Digitakt is a drum machine that uses samples saved internally as .wav files.
 
 {{< /columns >}}
 
-Though the really confusing thing to beginers is when the device is digital, but has both analog input and outputs. Just like there's a DAC (**D**igital to **A**nalog **C**onverter) for analog output you'll often be working with ADCs or **A**nalog to **D**igital **C**onverters to take your analog input and use it on your computer (or internally, like in a digital guitar pedal)
+Though the really confusing thing to beginners is when the device is digital, but has both analog input and outputs. Just like there's a DAC (**D**igital to **A**nalog **C**onverter) for analog output you'll often be working with ADCs or **A**nalog to **D**igital **C**onverters to take your analog input and use it on your computer (or internally, like in a digital guitar pedal)
 
-For the most basic possible example, let's look at a bit-crusher and sample rate reducer pedal. These pedals basically just hook a DAC directly into an ADC, then let you purposelly mess up the conversion.
+For the most basic possible example, let's look at a bit-crusher and sample rate reducer pedal. These pedals basically just hook a DAC directly into an ADC, then let you purposely mess up the conversion.
 
 {{< columns >}}
 
-Bit crushing, as explained back in the effects chapter, is just purposefully reducing the range of values a sample of digital audio can be. So, while an 8-bit audio point can be any whole number up to {{< katex >}}2^8 = 256{{< /katex >}}, a lower-bit sample might only be able to be represented by {{< katex >}}2^6 = 64{{< /katex >}} possible values, which will really start to sound pretty distorted. Similarly, sample rate reduction distorts the audio by intentionally limiting the rate at which new digital samples of the input audio are aquired. As long as samples are gotten at a rate at least twice that of the highest frequency in the input audio, there will be no difference, but as this goes below that, the convertor simply doesn't get enough data to reproduce the input signal.
+Bit crushing, as explained back in the effects chapter, is just purposefully reducing the range of values a sample of digital audio can be. So, while an 8-bit audio point can be any whole number up to {{< katex >}}2^8 = 256{{< /katex >}}, a lower-bit sample might only be able to be represented by {{< katex >}}2^6 = 64{{< /katex >}} possible values, which will really start to sound pretty distorted. Similarly, sample rate reduction distorts the audio by intentionally limiting the rate at which new digital samples of the input audio are acquired. As long as samples are gotten at a rate at least twice that of the highest frequency in the input audio, there will be no difference, but as this goes below that, the converter simply doesn't get enough data to reproduce the input signal.
 
 <--->
 
-This effect is *inheritly* digital. It's really just purposely doing digital to analog conversion poorly. If we want it as a guitar pedal, that means the pedal has to first convert the analog signal to digital, then convert the digital signal back to analog.
+This effect is inherently digital. It's really just purposely doing digital to analog conversion poorly. If we want it as a guitar pedal, that means the pedal has to first convert the analog signal to digital, then convert the digital signal back to analog.
 
 ![](/bitcrusher.svg)
 
@@ -111,7 +102,7 @@ There are a lot of 'Analog Purists' out there, who will claim an analog oscillat
 
 A few more notes:
 
-I want to point out that there is a valid concern that your ADCs and DACs are of decent quality. Some people are crazy about this and want to spend thousands of dollars on brand name ADCs and DACs, but honestly I've found that it's more just a matter of 'is it good enough' is really just the bar to hit, as long as it's not causing a ludicrious amount of noise and can capture enough of the dynamic range (difference between playing softly and loud) of your instrument you're good to go. In my experiance, USB powered devices tend to have the worst time with noise, as the power going in is so 'dirty' that the DAC/ADC ends up putting this noise into the signal. A lot of equipment will discuss this in regard to the **S**ignal to **N**oise **R**atio (SNR).
+I want to point out that there is a valid concern that your ADCs and DACs are of decent quality. Some people are crazy about this and want to spend thousands of dollars on brand name ADCs and DACs, but honestly I've found that it's more just a matter of 'is it good enough' is really just the bar to hit, as long as it's not causing a ludicrous amount of noise and can capture enough of the dynamic range (difference between playing softly and loud) of your instrument you're good to go. In my experience, USB powered devices tend to have the worst time with noise, as the power going in is so 'dirty' that the DAC/ADC ends up putting this noise into the signal. A lot of equipment will discuss this in regard to the **S**ignal to **N**oise **R**atio (SNR).
 
 Some people get crazy about sample rate. For a *final recording* there is **absolutely no reason** to exceed 24bit/48khz audio. Even that is really overkill. On the other hand, *during recording* there can be rather significantly audible differences in oversampled (that is 80khz+) audio, as the virtual instruments have more headroom to work with to avoid a side effect of digital audio called aliasing. You can learn more about this in {{< best >}}[Samplerates: the higher the better, right?](https://www.youtube.com/watch?v=-jCwIsT0X8M) from FabFilter on YouTube. {{< /best >}}
 
