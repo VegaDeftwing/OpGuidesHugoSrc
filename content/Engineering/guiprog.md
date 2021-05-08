@@ -57,6 +57,8 @@ Before going further let's copy and paste the code into VSCode and run it:
 
 C++ from scratch, JS electron app, Processing creative coding, Python Kivy or similar, Flutter (google lang), shaders (graphical editors), nimp, ronin, Nuklear
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/eED4bSkYCB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## GP-GPU
 
 

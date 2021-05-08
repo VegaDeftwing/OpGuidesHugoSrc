@@ -14,6 +14,16 @@ slug: "Labor"
 
 ## Economic Inequality
 
+<iframe style="background: #FFFFFF;" width="100%" height="720" src="https://mkorostoff.github.io/1-pixel-wealth/" title="Wealth shown to scale"></iframe>
+
+{{< attribution >}}
+
+[Source code](https://github.com/MKorostoff/1-pixel-wealth) [(GPL v3)](https://github.com/MKorostoff/1-pixel-wealth/blob/master/LICENSE.txt), by [Matt Korostoff](https://mkorostoff.github.io)
+
+{{< /attribution >}}
+
+
+
 [Wage Theft is a Much Bigger Problem Than Other Forms of Theft—But Workers Remain Mostly Unprotected](https://www.epi.org/publication/wage-theft-bigger-problem-forms-theft-workers/)
 
 [Ex-Google Employee Exposes Unequal Pay With Spreadsheet (Wall Street Journal)](https://www.wsj.com/articles/BL-DGB-42721)
