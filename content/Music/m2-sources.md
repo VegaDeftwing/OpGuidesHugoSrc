@@ -200,6 +200,8 @@ I'll spare you going any deeper into terminology like the difference between har
 
 [TODO] making a basic subtractive synth voice in VCV
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/SCujIf5eJ2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Wavetables
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/8DjnDVWKaEs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

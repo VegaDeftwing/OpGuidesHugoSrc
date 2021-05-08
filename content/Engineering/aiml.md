@@ -27,9 +27,13 @@ when *not* to use ML?
 
 * When all cases can be covered by a traditional program
 
-## Speedbump
+---
 
-Before we actually get into anything of substance, I think it's useful to just be exposed to terms in bulk and get a sort of high level overview of what's going on. For that, I recommend just putting this video on 2x speed and digesting it as best you can. Don't worry if something makes you go "huh?" for now:
+Before I try to *poorly* explain something that has been explained much better than I can via text, I recomend watching this 4-video series from 3Blue1Brown, it totals just a hair over hour.
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/aircAruvnKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+With 3B1B's videos done, I think it's useful to just be exposed to some terms in bulk and get a sort of high level overview of what's going on. For that, I recommend just putting this video on 2x speed and digesting it as best you can. Don't worry if something makes you go "huh?" for now:
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/oJNHXPs0XDk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

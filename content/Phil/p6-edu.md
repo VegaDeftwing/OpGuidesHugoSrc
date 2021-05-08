@@ -8,11 +8,11 @@ slug: "Education"
 
 ## Freedom of Information
 
-## Cariculum Changes
+## Curriculum Changes
 
 ### Basic Aid
 
-### Philosophy
+### Sex Education
 
 ### Individualized, shared, and student led
 
