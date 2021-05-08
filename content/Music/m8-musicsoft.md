@@ -234,6 +234,14 @@ No prices are listed below because they can fluctuate so much. VSTs and other mu
 
 {{< details "Monme Norns Devices" >}}
 
+</br>
+
+{{< tip >}}
+
+I previously maintained a 'best of' list for Norns scripts, but the community has now made a much better resource https://norns.community
+
+{{< /tip >}}
+
 **These 'plugins' only work on Monome's Norns hardware**
 
 [Segments Audio Looper](https://llllllll.co/t/segments-audio-looper-for-norns/32937)

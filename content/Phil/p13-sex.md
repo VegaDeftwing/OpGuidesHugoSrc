@@ -10,7 +10,19 @@ In an ideal world human kind would be driven forward by more than the initiate d
 
 ## Consent
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/L-q-tSHo9Ho" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Look, I don't think you're an idiot. I assume you know "don't rαpe people". I also assume you've had the normal no-is-no, not-a-yes-is-still-a-no and probably already seen [Tea and Consent](https://youtu.be/pZwvrxVavnQ). 
+
+I also understand it's not always that simplistic. Some people are into consensual-non-consent. Sometimes, the non-consented act may be unintentional.
+
+Maybe you couldn't tell you were getting close. Maybe it was dark and something slipped. Maybe you didn't realize the other person felt pressured.
+
+Consent, above all else, is about communication. If you're worried the other person is feeling uncomfortable- ask!
+
+If you're worried the other person can't consent at the moment- don't be a douche.
+
+By far I think the biggest thing not everyone realizes, especially teenagers in places with abstinence only sex ed, is that your body's response isn't consent. Getting wet or hard *is. not. consent.* 
+
+{{< attribution >}} here's a [TED talk](https://youtu.be/pZwvrxVavnQ) on that point if you need it. {{< /attribution >}}
 
 [TODO] Coersion by econominc and social pressure
 
