@@ -12,5 +12,7 @@ This paper was written for CSCE-430, Computer Architecture at University Of Nebr
 
 This in-page view isn't all that great, so feel free to [download the pdf directly](https://opguides.info/ternary.pdf).
 
+If you would like to read the original papers, I reccomend using [Sci-Hub](https://en.wikipedia.org/wiki/Sci-Hub) with a VPN on, as the academic publishers putting up paywalls as barriers to science can go fuck themselves.
+
 {{< embed-pdf url="./ternary.pdf" >}}
 
