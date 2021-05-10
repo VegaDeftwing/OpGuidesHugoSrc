@@ -6,6 +6,8 @@ This Chapter will be split into three parts:</br></br>Part 1, understanding the 
 
 {{< /tip >}}
 
+[TODO] http://www.lighterra.com/papers/modernmicroprocessors/
+
 ## Part 1: Computer Architecture
 
 ### Motivation:

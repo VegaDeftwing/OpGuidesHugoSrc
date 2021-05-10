@@ -20,7 +20,7 @@ Links are the interconnects between two nodes. Generally these fall into two cat
 
 *Guided* Links are those that only connect a few nodes (usually only two) and are typically physical, hard-wire links, often copper or fiber optic.
 
-*Unguided* Links are those that broadcast out. These can be radio based (WiFi, cellular, etc.), optical (Flashing lights but no fiber optic, just like, though the air), acoustic, whatever. These might be terrestrial (from the earth) or be satellite based. 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/3FxfXVuHRjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Not all Links can support the same bandwidth or throughput. In general, Coaxial is worse than Twisted Pair which is in turn worse than fiber.
 
@@ -403,3 +403,5 @@ Software Defined Networking, ActivityPub
 [Fun with IP address parsing (David Anderson's Blog)](https://blog.dave.tf/post/ip-addr-parsing/)
 
 [http-wtf](https://httptoolkit.tech/blog/http-wtf/)
+
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="et" dir="ltr">midi <a href="https://t.co/5zd4dWJ3U4">pic.twitter.com/5zd4dWJ3U4</a></p>&mdash; Ravarcheon (@ravarcheon) <a href="https://twitter.com/ravarcheon/status/1383045683037413376?ref_src=twsrc%5Etfw">April 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

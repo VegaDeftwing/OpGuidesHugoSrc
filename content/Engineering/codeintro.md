@@ -77,6 +77,8 @@ You can usually make something cool by just entering a bunch of trig and making 
 
 https://hexy.now.sh is inspired by tixy but has some extra interesting features, if you're having fun with tixy.land it's worth checking out.
 
+https://doersino.github.io/tixyz/ is the same as tixy, but add's a 3rd dimension
+
 {{< /hint >}}
 
 {{< /columns >}}

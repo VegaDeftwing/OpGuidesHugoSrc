@@ -216,7 +216,7 @@ No prices are listed below because they can fluctuate so much. VSTs and other mu
 
 [Swatches](https://patches.zone/max-for-live/swatches) - Easily recolor everything in Ableton Live
 
-[Clyphx old, free version](https://github.com/ldrolez/clyphx-live10) & [Clyphx Pro](https://isotonikstudios.com/product/clyphx-pro/) - Scripting Language for live, seriously recomend this one. Paid version is **$43.33**
+[Clyphx old, free version](https://github.com/ldrolez/clyphx-live10) & [Clyphx Pro](https://isotonikstudios.com/product/clyphx-pro/) - Scripting Language for live, seriously recomend this one. Paid version is **$43.33**, not sure it supports the latest live or is getting worked on?
 
 {{< best >}}[Magenta Studio](https://www.ableton.com/en/blog/magenta-studio-free-ai-tools-ableton-live/) - AI based MIDI generator for live. Honestly spits out some really good progressions. Can do drums, extent what you've writen for a melody, and a lot more. Tons of fun.{{< /best >}}
 
