@@ -104,31 +104,15 @@ https://lospec.com/palette-list
 
 
 
-[Demo of how Fourier Filtering works](http://bigwww.epfl.ch/demo/ip/demos/FFT-filtering/)
-
-
-
-[Color Emulation of the GameBoy](https://byuu.net/video/color-emulation/)
-
-
-
-[Hello hsluv - blog post about how hsluv works](https://austinjones.onfabrik.com/blog/hello-hsluv)
-
-
-
-[Graphics & Palettes - Super Nintendo Entertainment System Features Pt. 01 (YouTube)](https://www.youtube.com/watch?v=57ibhDU2SAI&ab_channel=RetroGameMechanicsExplained)
-
-
-
-[Digital Video Introduction (Github)](https://github.com/leandromoreira/digital_video_introduction#how-does-a-video-codec-work) - "A hands-on introduction to video technology: image, video, codec (av1, vp9, h265) and more (ffmpeg encoding)."
-
-
-
-[Oklab](https://bottosson.github.io/posts/oklab/), [An interactive review of Oklab (Raph Levien's Blog)](https://raphlinus.github.io/color/2021/01/18/oklab-critique.html) - "A perceptual color space is desirable when doing many kinds of image processing"
-
-
-
-[The hyperbezier pen tool (cmyr.net)](https://www.cmyr.net/blog/hyperbezier.html)
+* [Squoosh](https://squoosh.app), a tool for trying out different image formats to check their relative size and quality. Particularly useful if you're targeting web
+  * Keep in mind not all devices and browsers support all formats
+* [Demo of how Fourier Filtering works](http://bigwww.epfl.ch/demo/ip/demos/FFT-filtering/)
+* [Color Emulation of the GameBoy](https://byuu.net/video/color-emulation/)
+* [Hello hsluv - blog post about how hsluv works](https://austinjones.onfabrik.com/blog/hello-hsluv)
+* [Graphics & Palettes - Super Nintendo Entertainment System Features Pt. 01 (YouTube)](https://www.youtube.com/watch?v=57ibhDU2SAI&ab_channel=RetroGameMechanicsExplained)
+* [Digital Video Introduction (Github)](https://github.com/leandromoreira/digital_video_introduction#how-does-a-video-codec-work) - "A hands-on introduction to video technology: image, video, codec (av1, vp9, h265) and more (ffmpeg encoding)."
+* [Oklab](https://bottosson.github.io/posts/oklab/), [An interactive review of Oklab (Raph Levien's Blog)](https://raphlinus.github.io/color/2021/01/18/oklab-critique.html) - "A perceptual color space is desirable when doing many kinds of image processing"
+* [The hyperbezier pen tool (cmyr.net)](https://www.cmyr.net/blog/hyperbezier.html)
 
 ## Compression
 
