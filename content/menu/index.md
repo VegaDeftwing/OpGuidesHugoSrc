@@ -70,6 +70,7 @@ headless: true
   - [31½- "The Cloud"]({{< relref "/Engineering/cloud" >}})
   - [32 - Databases]({{< relref "/Engineering/databases" >}})
   - [33 - Security & Exploitation]({{< relref "/Engineering/security" >}})
+  - [33½- Privacy]({{< relref "/Engineering/privacy" >}})
 
 <!--  - [24 - ]({{< relref "/Engineering/24-" >}}) -->
 
