@@ -10,6 +10,10 @@ slug: "Labor"
 
 [Please Consider My Application to Give You Labor So I Can Stay Alive](https://www.mcsweeneys.net/articles/please-consider-my-application-to-give-you-labor-so-i-can-stay-alive)
 
+[Workplace Wellbeing Is a Scam (Tribune)](https://tribunemag.co.uk/2021/05/workplace-wellbeing-is-a-scam)
+
+<!-- TODO: https://news.ycombinator.com/item?id=27086861 -->
+
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/c_X-812q_Jc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Economic Inequality

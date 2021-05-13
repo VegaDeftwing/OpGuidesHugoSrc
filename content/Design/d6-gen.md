@@ -505,7 +505,24 @@ Chaotica is **free for noncommercial use**, and can render up to 1.23 megapixel 
 <--->
 live coding for p5.js - you'll probably want the VS Code Extension
 <--->
+
 <iframe width="100%" height="150" src="https://www.youtube.com/embed/HerCR8bw_GE?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Pts.js](https://ptsjs.org)
+
+<--->
+
+JS library for visulaization & creative coding 
+
+[demo](https://ptsjs.org/demo/edit/?name=circle.intersectCircle2D)
+
+<--->
+
+![](/pts.png)
+
 {{< /columns2 >}}
 
 {{< columns2 >}}

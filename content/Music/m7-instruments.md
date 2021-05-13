@@ -6,9 +6,15 @@ slug: "Instruments"
 
 # Drums
 
+[TODO] list of types of drums
+
 TR808, syth, short ADSR, noise, snare, tom, kick, hat, clap, bell,
 
 [Guitar Pedals For Drums (YouTube, JHS Pedals)](https://youtu.be/yew08KqkLbg)
+
+[Why do drum sets have descending toms? (Low Volume Drumming)](https://www.lowvolumedrumming.org/descending-toms/)
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/EFjZ1QaKHdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Strings
 
