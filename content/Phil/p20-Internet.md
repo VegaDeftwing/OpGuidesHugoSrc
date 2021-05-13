@@ -184,7 +184,7 @@ https://science.slashdot.org/story/20/05/25/0136238/texas-instruments-makes-it-h
 
 [COMMENTS on "Facebook criticizes Apple’s iOS privacy changes with full-page newspaper ads" on Hacker News](https://news.ycombinator.com/item?id=25441986)
 
-### Terms of Service
+## Terms of Service and EULAs
 
 [Terms of Service Didn't Read](https://tosdr.org/)
 
@@ -203,3 +203,8 @@ https://science.slashdot.org/story/20/05/25/0136238/texas-instruments-makes-it-h
 ## Social Media and Censorship
 
 Parler V Mastadon V Twitter
+
+### Federation
+
+[Fediverse.party](https://fediverse.party/en/miscellaneous)
+
