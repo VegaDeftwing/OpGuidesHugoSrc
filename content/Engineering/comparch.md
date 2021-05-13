@@ -50,6 +50,8 @@ Multiple Instruction Streams, Multiple Data STreams (MIMD) (tightly and loosely 
 
 Power wall, max Silicon freq, max density before tunnling 
 
+[Branch predictor: How many "if"s are too many? Including x86 and M1 benchmarks! (Cloudflare Blog)](https://blog.cloudflare.com/branch-predictor/)
+
 ## Part 2: What Make a CPU tick?
 
 [TODO]

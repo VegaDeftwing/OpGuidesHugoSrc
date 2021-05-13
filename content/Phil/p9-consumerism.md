@@ -60,6 +60,12 @@ This video from Tom Scott provides a ton of background information and makes som
 
 #### Native Ads
 
+{{< attribution >}}
+
+psst, if you don't like YouTube sponsorships spots check out [sponsorblock](https://sponsor.ajay.app) - just be aware of the morality of doing so and like, support people on Patreon or whatever.
+
+{{< /attribution >}}
+
 #### Dangerous ads
 
 Sugar
@@ -118,4 +124,3 @@ But, I'm getting off topic, the point of this was to discuss and propose a solut
 	<li>Like TI did to their <a href="https://www.inputmag.com/culture/texas-instruments-removes-support-for-popular-side-loaded-apps">Calculators</a></li>
     <li>Diamonds. Diamonds, in jewlery, aren't worth anything near what we've been lead to believe. Plus they're often acquired via slavery or other really dark means, extra stupid when you consider they can made in a lab anyway.</li>
 </ol>
-

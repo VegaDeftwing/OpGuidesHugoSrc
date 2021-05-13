@@ -47,6 +47,8 @@ talk about scheduling (CFS, etc)
 
 ["The Simplest of Pseudo Random Number Generators" - Hackaday](https://hackaday.com/2019/04/23/the-simplest-of-pseudo-random-number-generators/)
 
+[Reverse Engineering an Unknown Microcontroller (Dmitry.GR)](https://dmitry.gr/?r=05.Projects&proj=30.%20Reverse%20Engineering%20an%20Unknown%20Microcontroller)
+
 # Chapter 14.1 - Embedded Hardware comparison
 
 [TODO, Pi V RockPi4 V Arduinos V x86, ref architecture information from chapter 3.3]

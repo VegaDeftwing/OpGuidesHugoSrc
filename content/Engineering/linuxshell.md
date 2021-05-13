@@ -472,6 +472,10 @@ While some of these may be included, they're some of the OG addons or tools to m
 
 like [brow.sh](https://www.brow.sh) [TODO]
 
+## How might the terminal evolve?
+
+[CLUI: Building a Graphical Command Line (Repelit)](https://blog.replit.com/clui)
+
 ## Common Graphical Linux Utils
 
 [TODO]

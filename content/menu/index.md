@@ -27,6 +27,7 @@ headless: true
 <p style="color:#009CDF;" >    Prerequisites</p>
 
   - [6 - Math]({{< relref "/Engineering/math" >}})
+  - [6½- Units]({{< relref "/Engineering/units" >}})
   - [7 - Physics]({{< relref "/Engineering/physics" >}})
   - [8 - Chemistry]({{< relref "/Engineering/chem" >}})
   - [9 - 'The Rest']({{< relref "/Engineering/othersubjects" >}})

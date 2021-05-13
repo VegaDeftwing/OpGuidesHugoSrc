@@ -69,6 +69,8 @@ zeener, normal, bipolar
 
 [Tunnel Diodes (Wikipedia)](https://en.wikipedia.org/wiki/Tunnel_diode)
 
+[DIY Diode (Simplifier)](https://simplifier.neocities.org/diode.html) [Part 2](https://simplifier.neocities.org/diode2.html) [Part 3](https://simplifier.neocities.org/diode3.html) [Part 4: Power Diode](https://simplifier.neocities.org/powerdiode.html) 
+
 ### Diode Logic
 
 [The Diode Clock](https://hackaday.io/project/11677-the-diode-clock)
@@ -83,9 +85,11 @@ zeener, normal, bipolar
 
 tubes and how they work
 
+[DIY Triode (Simplifier)](https://simplifier.neocities.org/triode.html) [Part 2](https://simplifier.neocities.org/triode2.html) [Part 3](https://simplifier.neocities.org/triode3.html) [Part 4](https://simplifier.neocities.org/triode4.html) [Part 5: Power Triode](https://simplifier.neocities.org/power.html) [Part 6: Power Triode 2](https://simplifier.neocities.org/power2.html) [Part 7: Portable Triode](https://simplifier.neocities.org/portable.html), [Tetrode](https://simplifier.neocities.org/tetrode.html)
+
 ### PNP V NPN
 
-### IGBT, Mosfets?
+### tIGBT, Mosfets?
 
 #### Tubes
 

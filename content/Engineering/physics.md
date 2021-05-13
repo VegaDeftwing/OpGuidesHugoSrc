@@ -33,6 +33,8 @@ This is still a dumping ground for things I want to write about later, nothing o
 
 ## 2 - Electromagnetism
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">in case you were wondering: yes, it works :D <a href="https://t.co/CEjK6p2cHj">pic.twitter.com/CEjK6p2cHj</a></p>&mdash; mx.qualia (@profanegeometry) <a href="https://twitter.com/profanegeometry/status/1222353743359836160?ref_src=twsrc%5Etfw">January 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 [The Electromagnetic Radiation Spectrum (Anthony Tekatch @ Unihedron.com)](http://unihedron.com/projects/spectrum/downloads/spectrum.jpg)
 
 <img src="/maxwellequns.svg" alt="maxwell" style="-webkit-filter: invert(.85);">
