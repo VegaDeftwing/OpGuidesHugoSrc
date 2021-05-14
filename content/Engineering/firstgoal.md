@@ -4,6 +4,8 @@ bookToC = false
 
 # Chapter 1 - The first goal
 
+<!-- TODO switch the text blocks to the newer foot notes -->
+
 {{< columns >}}
 
 Every journey needs a place to start, and while many may like to start slow I think a head first approach is best. So that's exactly what we're gonna do. The very first thing we're going to do is install a new **Operating System (OS)** on your computer. This is a pretty involved process. It will require you to **Repartition** your drive, change settings in your **BIOS or UEFI**, and install a new **Bootloader**. I know this sounds really hard, but it's not as bad as it sounds and I assure you it's worth it. The OS we'll be installing is called Linux. Linux is actually what powers both Android and ChromeOS, and is a common descendant of the same system as Mac OSX. Linux is the OS that almost all of the servers on the internet use - from massive website like Facebook and Google to small Minecraft servers you can rent online to play with friends. What's cool about Linux is it lets you get much closer to the hardware and see what's going on, and it just generally makes writing code much easier.

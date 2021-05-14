@@ -20,6 +20,10 @@ Yeah, not always applicable advice, but if you have something that's even simila
 
 What are your conditions for success? Are you even testing for these conditions correctly?
 
+## Actually use a debugger
+
+For some reason a ton of programmers are allergic to their debuggers. There's more to life than print debugging. Set a break point. You can do it. I believe in you.
+
 ## Binary Search Debugging
 
 The binary search algorithm looks a bit like this:

@@ -1,10 +1,21 @@
-# Chapter 2 - Let's do it then, Installing Arch Linux
+# Chapter 2 - Installing Arch Linux
 
-<img src="/archlogo.png" alt="Arch Logo" height="80em">
+<img src="/archlogo.png" alt="Arch Logo" height="120em" style="display: block; margin-left: auto; margin-right: auto;">
 
 ## Some Background
 
-Unlike Windows or Mac which are primarily differentiated by versions (Windows XP, Vista, 7, 10...), Linux has two important things to look out for: The distribution and the kernel version number. Linux is actually just the name of the underlying 'core' of the system, known as the kernel, as such, there are literally thousands of Linux variations. Some of the well known variants include Ubuntu, Fedora, OpenSuse, and Arch (No disrespect to the other distros out there!). Each of these has a different target audience, with some meant for servers, some meant for casual users as an alternative to Windows, others as work station for hard core computing. They also ship with different software pre-installed to be accessed after the first boot. The other differentiating factor is the version of the Linux Kernel that they use. Some chose to use an older, battle hardened kernel that is known to be very, very stable, others chose a nice middle ground, while yet others continuously release an update to the newest available kernel. There are pros and cons to each model and each has its place; however, the one I'm going to have you install is know as one of the hardest to work with, but also one of the most cutting edge, fun to tinker around in, and best documented: Arch Linux. Arch is what's known as a rolling release distribution, which means it gets the bleeding edge features and the newest kernel pretty much as fast as possible, though really the biggest thing that makes Arch special is how bare bones it is out of the box, shipping with basically no pre-installed software. In fact, when you first start it up the only thing you'll see is a screen to type and run commands, and that's where we're going to start.
+Unlike Windows or Mac which are primarily differentiated by versions (Windows XP, Vista, 7, 10...), Linux has two important things to look out for:
+
+* The distribution name (Arch, Ubuntu, Mint, Debian, etc.)
+* Kernel version number (5.12 last time this page was updated)
+
+So, what do each of these mean?
+
+Well, Linux is actually just the name of the underlying 'core' of the system, known as the kernel, as such, there are literally thousands of Linux variations or '**distributions**'. Some of the well known variants include Ubuntu, Fedora, OpenSuse, and Arch (No disrespect to the other distros out there!). Each of these has a different target audience, with some meant for servers, some meant for casual users as an alternative to Windows, others as work station for hard core computing. They also ship with different software pre-installed to be accessed after the first boot.
+
+The other differentiating factor is the version of the Linux **Kernel** that they use. Some chose to use an older, battle hardened kernel that is known to be very, very stable, others chose a nice middle ground, while yet others continuously release an update to the newest available kernel. There are pros and cons to each model and each has its place; however, the distro I'm going to have you install, Arch, uses the (almost) the newest available, updating very regularly. Arch has a reputation as one of the hardest distros to work with, but also one of the most cutting edge, fun to tinker around in, and best documented.
+
+Arch is what's known as a *rolling release* distribution, which means it gets the bleeding edge features and the newest kernel pretty much as fast as possible, though really the biggest thing that makes Arch special is how bare bones it is out of the box, shipping with basically **no pre-installed software**. In fact, when you first start it up the only thing you'll see is a screen to type and run commands, and that's where we're going to start.
 
 For most distros like Ubuntu or OpenSuse (feel free to look these up, this page isn't going anywhere) there's a nice graphical, point and click installer which helps you install the system and somewhat mitigates potential risk of killing your original OS (Mac/Win) or losing data; however, the goal of this guide is to learn. Arch's install process, entirely by typing commands in this terminal is hard, but that difficulty leads to a deeper understanding and respect for the system as a whole
 
@@ -76,16 +87,15 @@ followed by pressing tab to make that auto complete to something like
 
 upon pressing enter the terminal should print out a long string of text.
 
+So let's look at this command. The first part, shasum, is a program on your computer, '-a 1' says to use the sha1 algorithm instead of something like sha256, and the last part is the filename we want to compute the checksum of. Now, if you go back to https://www.archlinux.org/download/ and look under 'Checksums' you can compare the output of the command you just ran against the SHA1 sum provided to be sure you didn't have any errors in the file. This is mostly a security check as in theory someone could provide a 'bad' version of the OS containing malware, but such a version would produce an incorrect checksum, in practice this is extraordinarily uncommon. Though this does also serve to ensure the download wasn't corrupted in any way either.
+
 {{< /tab >}}
 
 {{< /tabs >}}
 
-
-So let's look at this command. The first part, shasum, is a program on your computer, '-a 1' says to use the sha1 algorithm instead of something like sha256, and the last part is the filename we want to compute the checksum of. Now, if you go back to https://www.archlinux.org/download/ and look under 'Checksums' you can compare the output of the command you just ran against the SHA1 sum provided to be sure you didn't have any errors in the file. This is mostly a security check as in theory someone could provide a 'bad' version of the OS containing malware, but such a version would produce an incorrect checksum, in practice this is extraordinarily uncommon. Though this does also serve to ensure the download wasn't corrupted in any way either.
-
 ---
 
-Okay, so we have the OS, how do you install the damn thing? Well, get ready for a fun time. The first thing you'll need is a flash drive with nothing on it you care about, as it's going to be reformated, which will wipe any data on it. To install an OS you have to create 'bootable media' this used to be done with a CD, though mostly it's done with flash drives now. You'll actually be putting the OS on the flash drive and then using that to put it on your hard drive.
+Okay, so we have the OS, how do you install the damn thing? Well, get ready for a fun time. The first thing you'll need is a flash drive with nothing on it you care about, as it's going to be reformated, which will **wipe any data on it**. To install an OS you have to create 'bootable media' this used to be done with a CD, though mostly it's done with flash drives now. You'll actually be putting the OS on the flash drive and then using that to put it on your hard drive.
 
 Let's not get ahead of ourselves though, we need room to put the new operating system in! Thankfully Linux is small- really small. Even 50Gb should be plenty for the OS, all your programs, and tons of room to spare for data, but I typically recommend at least 100GB, and since we'll be installing a lot of development tools, it makes sense to do this right to begin with.
 
@@ -137,7 +147,8 @@ Obviously if you need this you'll need IRC open on a different device than the o
 
 <p class="tip">☠☠☠</br>
     Seriously, <b>backup your shit.</b> I've done this countless times and have still managed to accidentally wipe a drive. There's a non-0 chance you're about to completely murder your windows install, It shouldn't happen, but it can. This is a necssary evil to learn, and I assure you'll be happy you've done all this, but this next bit is actual hell for people. I'm sorry it gets so bad so early. I promise it's worth it, okay?
-The next section requires a lot of reboots and has steps where you can't have this guide open on the computer you're working on. Don't be stupid.</br>☠☠☠ </p>
+The next section requires a lot of reboots and has steps where you can't have this guide open on the computer you're working on, so you may want to have a spare system next to you to follow these insturctions on and Google if anything goes wrong.</br>☠☠☠ </p>
+
 
 >  To be fair, you should probably be doing backups anyway. We'll talk about this at some point, but, if you don't have a regular back up solution + an occasional full disk backup and you're already pretty nerdy, you might want to remedy that sooner rather than later
 
@@ -148,7 +159,7 @@ The next section requires a lot of reboots and has steps where you can't have th
 
 ---
 
-Now you'll need to power off your computer. Turn it back on and as you do mash the everliving hell out of both f2 and delete (unless you know what key gets you into the UEFI / BIOS settings). This should bring up a menu that either looks super fancy or looks stright out of the 80's. Either is fine. The setting we're looking for is 'Secure Boot' it's probably under a menu called 'Boot' or 'Security'. You'll need to shut this off. In theory secure boot should protect against a nasty kind of virus called a rootkit, in practice it doesn't and only serves to make installing linux more annoying, don't worry, I'm a security nut and am comfortable leaving it off. Exit and save settings, and as your computer boots again mash F11 or whatever key gets you to a boot menu, and select your USB key. If it shows up twice try the first one first, if that doesn't work try the other one. (If you end up back in Windows just restart and go back into the bios settings, go to 'Boot' and reorder the boot menu entries so your flash drive is the first option) The system should boot first to a screen with a few options, pick Arch Linux if you have to or just wait for it to move on. You should, with any luck, see a list of text flash down the screen that looks roughly like
+Now you'll need to power off your computer. Turn it back on and as you do mash the everliving hell out of both f2 and delete (unless you know what key gets you into the UEFI / BIOS settings). This should bring up a menu that either looks super fancy or looks stright out of the 80's. Either is fine. The setting we're looking for is '**Secure Boot**' it's probably under a menu called 'Boot' or 'Security'. You'll need to shut this **off**. In theory secure boot should protect against a nasty kind of virus called a rootkit, in practice it doesn't and only serves to make installing Linux more annoying, don't worry, I'm a security nut and am comfortable leaving it off. Exit and save settings, and as your computer boots again mash F11 or whatever key gets you to a boot menu, and select your USB key. If it shows up twice try the first one first, if that doesn't work try the other one. (If you end up back in Windows just restart and go back into the bios settings, go to 'Boot' and reorder the boot menu entries so your flash drive is the first option) The system should boot first to a screen with a few options, pick Arch Linux if you have to or just wait for it to move on. You should, with any luck, see a list of text flash down the screen that looks roughly like
 
 ```bash
 [OK] doing thing
@@ -184,21 +195,24 @@ Now, try
 ping archlinux.org
 ```
 
-if you see something like '64 bytes from apollo.archlinux.org', congrats! You're online! If not, you may try a different network or wireless if applicable (seriously, it's a pain)
+if you see something like `64 bytes from apollo.archlinux.org`, congrats! You're online! If not, you may try a different network or wireless if applicable (seriously, it's a pain)
 
-From here, you'll need to see the names of the hard drives on your system. run 'lsblk -f'.
+From here, you'll need to see the names of the hard drives on your system. run `lsblk -f`.
 
-but what does that even mean? well, let's learn about another command! 'man'
+but what does that even mean? well, let's learn about another command! - `man`
 
-for most commands on linux if you type 'man' before the command with no flags (the -x things after the command) it'll open a manual page for the command. Read here to figure and try to figure out what lsblk is and what -f does.
+For most commands on Linux if you type `man` before the command with no flags (the -x things after the command) it'll open a manual page for the command. Read here to figure and try to figure out what `lsblk` is and what -f does.
 
-> lsblk lists information about all or the specified block devices. The lsblk command reads the sysfs filesystem to gather information.
-> The command prints all block devices (except RAM disks) in a tree-like format by default. Use lsblk --help to get a list of all available columns.
-> ...
-> The default output as well as default output from options like --topology and --fs is subject to change, so whenever possible you should avoid using default outputs in your scripts. Always explicitly define expected columns by --output columns in environment where a stable output is required.
-> ...
-> -f, --fs
-> Output info about filesystems. This option is equivalent to "-o NAME,FSTYPE,LABEL,MOUNTPOINT". The authoritative information about filesystems and raids is provided by the blkid(8) command.
+{{< hint gray >}}
+
+lsblk lists information about all or the specified block devices. The lsblk command reads the sysfs filesystem to gather information.</br>
+
+The command prints all block devices (except RAM disks) in a tree-like format by default. Use lsblk --help to get a list of all available columns.</br>...</br>
+
+The default output as well as default output from options like --topology and --fs is subject to change, so whenever possible you should avoid using default outputs in your scripts. Always explicitly define expected columns by --output columns in environment where a stable output is required.</br>...</br>**-f, --fs** :
+Output info about filesystems. This option is equivalent to "-o NAME,FSTYPE,LABEL,MOUNTPOINT". The authoritative information about filesystems and raids is provided by the blkid(8) command.
+
+{{< /hint >}}
 
 Okay? Well, that probably doesn't mean much so lets focus on the important bits
 
@@ -210,7 +224,7 @@ Block devices are devices that have 'blocks' of information, like hard drives, f
 
 This means we'll be able to see what type of file system is on each block device.
 
-So, we can use this command to see information like we saw graphically back when we opened disk management in windows, only now with their linux names. In linux each block device is actually stored as a file, as bizarre as that may seem. This file is actually located in the dev folder which sits on top the root folder. The root folder is simply designated by a single '/' so a normal file structure may look like '/home/USERNAME/Documents/office/' and so on. It's worth noting that '/' is actually a folder in itself, it's just the absolute bottom folder, hence it's called the root folder. So the dev folder is located at /dev. In /dev there's a lot of things, but at the moment what we're really concerned about is the storage devices. so, looking at this example output from `lsblk` you'll see three storage devices /dev/sda /dev/sdb and /dev/nvme0n1
+So, we can use this command to see information like we saw graphically back when we opened disk management in windows, only now with their Linux names. In Linux each block device is actually stored as a file, as bizarre as that may seem. This file is actually located in the `/dev` folder which sits on top the root folder. The root folder is simply designated by a single `/` so a normal file structure may look like `/home/USERNAME/Documents/office/` and so on. It's worth noting that `/` is actually a folder in itself, it's just the absolute bottom folder, hence it's called the root folder. So the `/dev` folder is located at `/dev`. In `/dev` there's a lot of things, but at the moment what we're really concerned about is the storage devices. so, looking at this example output from `lsblk` you'll see three storage devices `/dev/sda`, `/dev/sdb`, and `/dev/nvme0n1`
 
 ```bash
 vega@linux ~ # lsblk -f
@@ -230,11 +244,11 @@ nvme0n1
 └─nvme0n1p4
 ```
 
-What do these mean? Well, most drives in linux are simply designated by a /dev/sdX where x is just the next available letter in the alphabet, though on some newer systems like mine, you may find some blazing fast SSDs actually use that other odd nvme syntax. Both work exactly the same way for what were doing.
+What do these mean? Well, most drives in Linux are simply designated by a `/dev/sdX` where x is just the next available letter in the alphabet, though on some newer systems like mine, you may find some blazing fast SSDs actually use that other odd nvme syntax. Both work exactly the same way for what were doing.
 
-looking at that output again you'll see each device has multiple things under it. For example /dev/sda has /dev/sda1 all the way though /dev/sda4. Each of these are the separate partitions. In this particular example, sda is actually the flash drive we're running off of, so you can see that it is currently where our root file is '/' on /dev/sda1 and that it's an ext4 file system (I'll explain this a bit more in a bit) you'll also see there's another partition that's formatted as fat32 for boot, but all of these are on the flash drive because they're on sda.
+looking at that output again you'll see each device has multiple things under it. For example `/dev/sda` has `/dev/sda1` all the way though `/dev/sda4`. Each of these are the separate **partitions**. In this particular example, sda is actually the flash drive we're running off of, so you can see that it is currently where our root file is `/` on `/dev/sda1` and that it's an ext4 file system (I'll explain this a bit more in a bit) you'll also see there's another partition that's formatted as fat32 for boot, but all of these are on the flash drive because they're on sda.
 
-For Simplicity now we're actually going to look at a simpler 'lsblk -f' output with only /dev/sda and sdb. sda is still the boot usb stick you're on, but sdb is now the singular drive in a laptop that has windows installed and available free space in accordance with this guide.
+For Simplicity now we're actually going to look at a simpler `lsblk -f` output with only `/dev/sda` and sdb. sda is still the boot usb stick you're on, but sdb is now the singular drive in a laptop that has windows installed and available free space in accordance with this guide.
 
 ```bash
 root@archiso ~ # lsblk -f
@@ -242,28 +256,28 @@ root@archiso ~ # lsblk -f
 sdb
 ├─sdb1      ntfs   Recovery 36C8A86BC8A82B57
 ├─sdb2      vfat            E2AB-10F2
-├─sdb3        ntfs            DE54B4D854B4B51D
+├─sdb3      ntfs            DE54B4D854B4B51D
 └─sdb4
 ```
 
-alright, so now on sdb we see there's 4 partitions (sdb1,2,3,4) where in this case we have sdb2 as a ~512Mb vfat partition, sdb3 as a 300Gb NTFs partition, and then that blank partition we made on sdb4. That 512Mb partition contains the bootloader for both windows and soon linux. The larger NTFS file system is where Windows and all your programs documents and other things you've done on your computer in the past live. I hope now it's obvious why I urged backups, as we're about to play around with things a bit.
+alright, so now on sdb we see there's 4 partitions (sdb1,2,3,4) where in this case we have sdb2 as a ~512Mb vfat partition, sdb3 as a 300Gb NTFs partition, and then that blank partition we made on sdb4. That 512Mb partition contains the bootloader for windows, but soon we'll add Linux. The larger NTFS file system is where Windows and all your programs documents and other things you've done on your computer in the past live. I hope now it's obvious why I urged backups, as we're about to play around with things a bit.
 
-We're going to need to make some changes this list tough, as we actually need one more small division in the partition table. run the command
+We're going to need to make some changes to this list tough, as we actually need one more small division in the partition table. run the command
 
 ```bash
 root@archiso ~ # cfdisk /dev/sdb
 ```
 
-this should bring up a strange command line based almost graphical interface which you can used to edit, add, or remove partitions. With that 100Gb (or whatever you chose free space we made earlier), let's divide it into two partitions, one that's 8GB and the other that's just what's left. We're doing this so we have somewhere to put SWAP in a second, but let's get to that later, for now just use your arrow keys and highlight the large empty block and select new, select primary, then make it 8GB, which is 8*1024Mb or 8192, and then select end. Finally write it, then quit. Whew. Bit stressful even for me. Don't worry, Linux get's much much easier, especially when we get our graphical tools back.
+this should bring up a strange command line based almost graphical interface which you can used to edit, add, or remove partitions. With that 100Gb (or whatever you chose free space we made earlier), let's divide it into two partitions, one that's 8GB and the other that's just what's left. We're doing this so we have somewhere to put SWAP in a second, but let's get to that later, for now just use your arrow keys and highlight the large empty block and select new, select primary, then make it 8GB, which is 8*1024Mb or 8192, and then select end. Finally write it, then quit. Whew. Bit stressful even for me. Don't worry, Linux gets much much easier, especially when we get our graphical tools back.
 
-now, run lsblk again. You should see something like
+now, run `lsblk` again. You should see something like
 
 ```bash
 root@archiso ~ # lsblk
 sdb
 ├─sdb1      ntfs   Recovery 36C8A86BC8A82B57
 ├─sdb2      vfat            E2AB-10F2
-├─sdb3        ntfs            DE54B4D854B4B51D
+├─sdb3      ntfs            DE54B4D854B4B51D
 ├─sdb4
 └─sdb5
 ```
@@ -274,7 +288,7 @@ so now we need to format these partitions with a file system. For the root file 
 root@archiso ~ # mkfs.ext4 /dev/sdxy
 ```
 
-where xy is the correct letter and number for your partition, in the above example that's /dev/sdb4, as sdb5 is the 8Gb partition we just made
+**Where xy is the correct letter and number for your partition**, in the above example that's /dev/sdb4, as sdb5 is the 8Gb partition we just made
 
 alright, that's actually most of the really hard stuff done. Now we need to mount both the file system we just made and the boot filesystem. run:
 
