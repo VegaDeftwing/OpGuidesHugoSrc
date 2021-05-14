@@ -5,10 +5,27 @@ weight: 20
 
 # Ⅰ - Community
 
-
 The only way to be successful in this journey is to make friends along the way. Some of this gets really, really difficult. You *will* get stuck. Having friends to help makes it possible. Find group chats on telegram, join IRC channels, get on some forums, and ask questions on Reddit. Working with people is a lot more fun and you'll learn so much more.
 
-Beyond that, having inspiration each day can be a huge booster shot to your motivation and creativity. Some sites I use nearly daily to finding good new material are:
+<!--
+
+While I don't want to recommend specific smaller communities as to avoid them getting overwhelmed and growing to a size that makes them a worse quality, I'll put a few bigger ones here:
+
+{{< columns >}}
+
+[r/EngineeringStudents](https://www.reddit.com/r/EngineeringStudents/)
+
+
+
+<--->
+
+
+
+{{< /columns >}}
+
+-->
+
+While a small community of people you can talk to 1-on-1 is better, having inspiration each day can provide a huge boost to your motivation and creativity, so I recommend following some nerdy news sites. This also helps with staying current on the cutting edge and security issues. Some sites I use nearly daily to finding good new material are:
 
 {{< columns >}}
 
@@ -34,7 +51,7 @@ While much less active, I've found some of these to have great information as we
 
 {{< /columns >}}
 
-(There are many more links in Appendix A6 - 'Other Great Resources'
+(There are many more links in Appendix A3 - 'Other Great Resources'
 
 Oh, and to mention it now
 

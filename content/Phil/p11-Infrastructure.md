@@ -12,6 +12,10 @@ slug: "Infrastructure"
 
 [International Dark Sky Association](https://www.darksky.org)
 
+## Air Quality
+
+[A paradigm shift to combat indoor respiratory infection](https://drive.google.com/file/d/1_aMgbcDdvbUv5ehmhMeZ4NlVHzKxIMUC/view)
+
 ## Networking (Mesh)
 
 ## Housing and Land
