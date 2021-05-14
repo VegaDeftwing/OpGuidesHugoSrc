@@ -118,6 +118,8 @@ https://hackaday.com/2019/05/20/integrated-circuits-can-be-easy-to-understand-wi
 
 [555 as an amplifier (don't actually do this!)](http://www.555-timer-circuits.com/555-amplifier.html)
 
+[Tiny Transistors' Clever TT555 Is a Pin-Compatible 555 Timer Built from Discrete Components (Hackster.io)](https://www.hackster.io/news/tiny-transistors-clever-tt555-is-a-pin-compatible-555-timer-built-from-discrete-components-40f684ef8c98)
+
 potato semi
 
 # Chapter 23.2 - Opamps & Filters
