@@ -56,6 +56,8 @@ Calibration @ https://teachingtechyt.github.io/calibration.html
 
 ### Modeling
 
+[TODO] look into https://libfive.com/studio/ instead of OpenSCad as OpenSCad is full of problems
+
 #### OpenSCad
 
 https://github.com/davidson16807/relativity.scad

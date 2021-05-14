@@ -43,57 +43,89 @@ Of note, while the majority of these commands should be available on nearly any 
   - Alternative recommendation: [**tldr**](https://github.com/tldr-pages/tldr) actually digestible and much faster when it gives enough info 
   
     </br>
+  
 - **pwd** - Print working directory - literally just a command to tell you the file path to where you are
+
 - **ls** - list - list the files/folders in the current directory, lots of flags available
   
   - Alternative recommendation: **exa** or **[lsd](https://github.com/Peltoche/lsd)**
+  
 - **cd** - change directory, if you can't use this may god have mercy
   
   - Alternative recommendation: **j (for [autojump](https://github.com/wting/autojump))** 
   - note that `cd ..` will move back by one folder.
+  
 - **mv** - move (or rename) a file to a new location (or name)
   
   - Alternative recommendation: **rsync**
+  
 - **rm** - remove a file
+
 - **touch** - create an empty file, or change last accessed time of existing file
+
 - **mkdir & rmdir** - make or remove an empty directory (folder)
+
 - **cat** - output the contents of a file
   
   - Alternative recommendation: **bat**, **less**, **more**, **fltrdr**, or an editor like **vim** or **nano** 
+  
 - **date** - output current date and time
+
 - **chmod & chown** - change a file or folders permissions or owner
+
 - **ln** - make a symbolic / hard link (shortcut)
+
 - **du & df** - Disk usage and disk free, **df** will show you how much room you have left per disk, **du** serves to help find what's using up your disk
   
   - Alternative recommendation: **ncdu** and [**duf**](https://github.com/muesli/duf)
+  
 - **clear** - clear the screen of text- (only use in scripts)
   
   - Alternative recommendation: **ctrl + l** , much faster
+  
 - **passwd** - change a users password
+
 - **sudo & su** - run a command as another user, typically root
+
 - **head & tail** - print a number of lines from the top or bottom of a file
+
 - **tee** - mostly used with pipes to print output to terminal as well as put it into a file
+
 - **grep, sed, awk, tr** - the 'big four' commands used for text processing in a terminal. **grep** (and **egrep**) are used for search, for example running `ls | grep myfile` to confirm a file is indeed in a folder. **sed** is used for text/character replacement. **awk** is a programming language in it's own right, used primarily for selecting text fields by separator, for example only printing the permissions column in the output of `ls -l` 
 - **w** -  show who is currently logged in and what they're running, epically applicable on shared servers if you need to see if there's an active ssh connection to your system
+
 - **tar, gzip, bzip, zip** - all used for making compressed folders (like .zip files)
+
 - **ssh , scp, ftp** - used for doing remote access, letting you run commands on one system from another
+
 - **diff** - show the differences between two files
+
 - **sort** - sort input by a number of criteria
+
 - **uniq** - remove duplicate entries
   
   - **fdupes** is recommended if the goal is to identify duplicate files 
+  
 - **export** - used to set environment variables, these for example use `export EDITOR=nano` to use nano as your terminal text viewer by default.
+
 - **systemctl** - literally system control, wayyy to big to cover quickly, used for everything from setting services to run on boot, shutting down/restarting the system, to viewing logs. Look up Systemd for more information. This is probably the least-universal of the tools listed here, but *most* linux systems have switched to Systemd now for better or worse.
+
 - **ip, ping, & dig** - **ip** is used to view as well as modify aspects of network configuration at the more hardware-level, such as turning on/off a networking interface.  **ping** allows you to see if you're able to reach a site/ip address, and **dig** allows you to check if you're able to turn a domain name to an ip, such as checking the ip address that archlinux.org points to with `dig archlinux.org`
+
 - **ps** - process management: listing processing, finding the parent of a particular process, etc.
   
   - Alternative recommendation: [procs (Github)](https://github.com/dalance/procs)
+  
 - **free** - display information about system RAM usage
+
 - **top** - a graphical-ish view of the running processes, ram, and CPU usage
   
   - Alternative recommendation: **htop**
+  
 - **kill**, murder a process in various ways
+
 - **whereis** - find the location of an executable, ex `whereis ls` will tell you it's in `/usr/bin/ls`
+
 - **wget, curl** - retrieve a web page
   
   - Alternative recommendation: **lynx**, **w3m**, or **brow.sh**
@@ -315,6 +347,7 @@ When we installed arch we actually changed the default shell from bash to zsh, b
   * "ripgrep is a line-oriented search tool that recursively searches your current directory for a regex pattern. By default, ripgrep will respect your .gitignore and automatically skip hidden files/directories and binary files. ripgrep has first class support on Windows, macOS and Linux, with binary downloads available for [every release](https://github.com/BurntSushi/ripgrep/releases). ripgrep is similar to other popular search tools like The Silver Searcher, ack and grep."
   * **TLDR**: Search into your text files really fast with regex support.
   * [RGA](https://phiresky.github.io/blog/2019/rga--ripgrep-for-zip-targz-docx-odt-epub-jpg/) is like ripgrep on steroids- seaches though PDFs, ebooks, office docs, compressed files, etc.
+  * [Semgrep](https://semgrep.dev/docs/getting-started/) may be a better fit for doing code stuff
 * [echowo](https://fluff.haus/kokoscript/echowo)
   * alternative to echo, but significantly furrier
 

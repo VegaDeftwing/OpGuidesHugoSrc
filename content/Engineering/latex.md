@@ -24,6 +24,20 @@ Of course, it can both be much simpler and much more complex than this. On the s
 
 You'll probably end up googling how to do most things in {{< katex >}}\LaTeX{{< /katex >}}, find that a lot of things don't really sit where you want them to ("Why is this figure in the wrong spot?"), and end up using a lot of packages to write it. Frustratingly, most of the desktop {{< katex >}}\LaTeX{{< /katex >}} clients suck, so it seems most people just use [Overleaf](https://www.overleaf.com/) now, which does have a free tier, but is a paid web-app. Fortunately, it actually works incredibly well and has very nice Google-docs like multi-user features.
 
+{{< columns >}}
+
+You'll likely use Bibtex for citing sources in your document, fortunately, a lot of papers have built in Bibtex citations you can download and import and your sources document. [Litmaps](https://app.litmaps.co) is an awesome tool for building up research on a topic, exploring related tools, and exporting bibtex sources as well - though it is probably only free while in early access.
+
+You may also want to check out [Connectedpapers.com](https://www.connectedpapers.com) if you're more interested in the research side, and one of the links listed for each paper does still usually have the bibtex available.
+
+Keep in mind if you need the full text of a paper, [Sci-Hub](https://en.wikipedia.org/wiki/Sci-Hub) is an option
+
+<--->
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Litmaps lets you visualise your key literature, iteratively expand your research, and notify you as new articles connect to your maps. Try it out: <a href="https://t.co/uTwd9yHUjW">https://t.co/uTwd9yHUjW</a> <a href="https://t.co/n3lO8yQ4Jg">pic.twitter.com/n3lO8yQ4Jg</a></p>&mdash; Litmaps (@LitmapsApp) <a href="https://twitter.com/LitmapsApp/status/1384737052516765699?ref_src=twsrc%5Etfw">April 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+{{< /columns >}}
+
 ---
 
 ## Markdown?

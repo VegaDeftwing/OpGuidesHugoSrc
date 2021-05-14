@@ -200,7 +200,11 @@ https://science.slashdot.org/story/20/05/25/0136238/texas-instruments-makes-it-h
 
 [Google AMP Can go to Hell (Polemic Digital)](https://www.polemicdigital.com/google-amp-go-to-hell/)
 
-## Social Media and Censorship
+## Social Media
+
+[Facebook deliberately made people sad. This ought to be the final straw (The Guardian) (2014)](https://www.theguardian.com/commentisfree/2014/jun/30/facebook-sad-manipulating-emotions-socially-responsible-company)
+
+### Censorship
 
 Parler V Mastadon V Twitter
 
