@@ -1,5 +1,5 @@
 ---
-title: "I'm not a Digital Native, and Neither are you"
+title: "I'm Not a Digital Native, and Neither Are You"
 slug: "digital native"
 author: "Vega Deftwing"
 date: 2021-05-14
