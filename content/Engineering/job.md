@@ -7,3 +7,10 @@ THIS WILL NOT BE A PLACE TO LINK TO SPECIFIC JOBS. DO NOT EVEN TRY TO SUBMIT A P
 ## Interviewing
 
 https://erikmcclure.com/blog/factorio-is-best-interview-we-have/
+
+
+
+# Self Employment?
+
+[What I learnt roasting 200 landing pages in 12 months (Oliver Meakings Blog)](https://blog.roastmylandingpage.com/landing-page-roasts/)
+
