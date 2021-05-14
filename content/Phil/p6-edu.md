@@ -52,6 +52,18 @@ Finally, there's a bit of a normalization of spyware that education using these 
 
 I understand the need for secure, online testing, but this is certainly not the right solution.
 
+---
+
+One of the replies to this email did sort of make my day though:
+
+> Short answer: no, I won't use them.
+>
+> Slightly longer answer: I won't use them since there will be no exams or quizzes in this course.
+>
+> Even longer answer: Even if I did have exams or quizzes, there's no way in hell I'd use that awful, awful software. My conscience and my son would never forgive me.
+
+Of course, this is a rabbit hole you can keep going down. You might want to keep an eye on this: [Proctorio filed a SLAPP suit](https://twitter.com/Linkletter/status/1385004344903290883) if you want to see them fall on their faces.
+
 ## Free College
 
 The Following is from '[Modern Universities Are An Exercise in Insanity](https://scholars-stage.blogspot.com/2018/01/modern-universities-are-exercise-in.html)' on The Scholar's Stage Blog:

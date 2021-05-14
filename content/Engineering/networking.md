@@ -186,6 +186,10 @@ https://www.aelius.com/njh/subnet_sheet.html
 
 ### BGP
 
+https://blog.benjojo.co.uk/post/bgp-stuck-routes-tcp-zero-window
+
+[EVE Online internet](https://blog.benjojo.co.uk/post/eve-online-bgp-internet) from https://blog.benjojo.co.uk, which has a ton of other really, really neat posts, like [The Speed of BGP network propagation](https://blog.benjojo.co.uk/post/speed-of-bgp-network-propagation), or [Hacking Ethernet out of Fibre Channel cards](https://blog.benjojo.co.uk/post/ip-over-fibre-channel-hack)
+
 open, update, keepalive, notification
 
 ## 4 - Transport Layer
@@ -371,8 +375,6 @@ Ben Eater's Networking Tutorial Series is pretty good:
 [Beaker Browser](https://beakerbrowser.com)
 
 [Bombadillo](https://bombadillo.colorfield.space) is a non-web browser, designed for a growing list of protocols operating outside of the web.
-
-[EVE Online internet](https://blog.benjojo.co.uk/post/eve-online-bgp-internet) from https://blog.benjojo.co.uk, which has a ton of other really, really neat posts, like [The Speed of BGP network propagation](https://blog.benjojo.co.uk/post/speed-of-bgp-network-propagation), or [Hacking Ethernet out of Fibre Channel cards](https://blog.benjojo.co.uk/post/ip-over-fibre-channel-hack)
 
 Software Defined Networking, ActivityPub
 

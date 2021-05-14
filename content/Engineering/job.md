@@ -8,6 +8,8 @@ THIS WILL NOT BE A PLACE TO LINK TO SPECIFIC JOBS. DO NOT EVEN TRY TO SUBMIT A P
 
 https://erikmcclure.com/blog/factorio-is-best-interview-we-have/
 
+[10 questions to ask in a job interview that will really expose a company’s culture](https://www.fastcompany.com/90622890/10-questions-to-ask-in-a-job-interview-that-will-really-expose-a-companys-culture) (and [hacker news comments](https://news.ycombinator.com/item?id=26854130))
+
 
 
 # Self Employment?

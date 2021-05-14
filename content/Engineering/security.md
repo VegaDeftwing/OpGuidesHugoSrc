@@ -310,6 +310,8 @@ https://0l.wtf/blog/4_visual_browser_fingerprinting.html
 
 [TODO] [The Hitchhiker's Guide to Online Anonymity](https://anonymousplanet.org/)
 
+[Are the top websites using WebGL for fingerprinting?](https://jonatron.github.io/webgl-fingerprinting/)
+
 #### What about on the job or at school?
 
 ### DO NOT think that Old ≠ Good & New ≠ Good

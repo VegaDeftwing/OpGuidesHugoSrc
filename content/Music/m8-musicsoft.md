@@ -288,3 +288,6 @@ A few programs you wouldn't expect to run directly though jack, one of the more 
 
 ### Pipewire
 
+# Really weird stuff that doesn't fit elsewhere
+
+https://github.com/oakes/ansiwave
