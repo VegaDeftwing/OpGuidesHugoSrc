@@ -103,6 +103,8 @@ https://www.lexaloffle.com/pico-8.php (and https://www.lexaloffle.com/voxatron.p
 
 <!--
 
+https://learnpythontherightway.com
+
 http://www.spronck.net/pythonbook/pythonbook.pdf
 
 https://buildmedia.readthedocs.org/media/pdf/intermediatepythongithubio/latest/intermediatepythongithubio.pdf
