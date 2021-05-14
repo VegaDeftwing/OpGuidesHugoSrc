@@ -212,6 +212,20 @@ Import real map data into blender, cool for topograhpic maps and such
 
 {{< /columns2 >}}
 
+{{< columns2 >}}
+
+[Worldanvil](https://www.worldanvil.com)
+
+<--->
+
+"World Anvil is a set of worldbuilding tools that helps you create, organize and store your world setting. With wiki-like articles, interactive maps, historical timelines, an RPG Campaign Manager and a full novel-writing software, we have all the tools you’ll need to run your RPG Campaign or write your novel!"
+
+<--->
+
+![](https://www.worldanvil.com/images/marketing/landing/demo/map.jpg)
+
+{{< /columns2 >}}
+
 ### Languages
 
 {{< columns2 >}}
@@ -576,6 +590,7 @@ JS library for visulaization & creative coding
 <--->
 ... this one basically lacks all description. Best you'll get is the [api docs in the wiki](https://github.com/shawnlawson/The_Force/wiki/API)
 <--->
+
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/184863637" width="100%" height="150" frameborder="0" allowfullscreen></iframe>
 {{< /columns2 >}}
 
@@ -949,11 +964,23 @@ Particle effects generator/editor
 
 ### Sound Design
 
-!> There's a LOT more tools listed in the music chapters, but there's some more 'for animation' tools here:
+{{< tip >}}
+
+There's a LOT more tools listed in the music chapters, but there's some more 'for animation' tools here:
+
+{{< /tip >}}
 
 [rfxgen](https://raylibtech.itch.io/rfxgen)
 
-# Some inspiration
+## Resources to learn Creative Coding
+
+[Noise in Creative Coding (Varun Vachhar)](https://varun.ca/noise/)
+
+> As an aside, [Simplex Noise](https://en.wikipedia.org/wiki/Simplex_noise#Legal_status) is technically patented until Jan 8, 2022 (which is really fucking stupid) 
+
+[Making Perlin Planets (vinaybhaip.com)](https://vinaybhaip.com/blog/2021/01/26/perlin-planets)
+
+## Some inspiration
 
 [Python + Quantum Research = Art + Saving 1000s hours of CPU time (Reddit)](https://www.reddit.com/r/dataisbeautiful/comments/eaap3p/python_quantum_research_art_saving_1000s_hours_of/)
 

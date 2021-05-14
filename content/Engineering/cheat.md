@@ -169,6 +169,8 @@ https://github.com/mitsuba-renderer/nanogui
 
 > For Matplotlib, I do recomend looking at the aviailable [Matplotlib colormaps](https://matplotlib.org/stable/tutorials/colors/colormaps.html) and [color map normalization](https://matplotlib.org/stable/tutorials/colors/colormapnorms.html#sphx-glr-tutorials-colors-colormapnorms-py) as the colors used to view your data can make a huge difference in how readable it is
 
+[nbterm: Jupyter Notebooks in the terminal](https://github.com/davidbrochart/nbterm)
+
 #### Machine Learning
 
 > Obviously Tensorflow, PyTorch, Keras, etc. exist. This list is for the stuff you don't already know about
@@ -180,6 +182,8 @@ https://github.com/mitsuba-renderer/nanogui
 [ELI5](https://github.com/TeamHG-Memex/eli5) - "A library for debugging/inspecting machine learning classifiers and explaining their predictions"
 
 ['$' family of stroke/gesture recognition tools](https://depts.washington.edu/acelab/proj/dollar/index.html)
+
+[Kobra](https://kobra.dev) - "A visual programming language for machine learning (in beta)"
 
 #### For Embedded Applications
 

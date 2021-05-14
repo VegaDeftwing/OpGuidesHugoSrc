@@ -8,6 +8,10 @@ slug: "Infrastructure"
 
 [College Campuses Are Designed at Human-Scale. Our Cities Can Be Too. (StrongTowns.org)](https://www.strongtowns.org/journal/2021/1/6/college-campuses-as-a-model-for-urban-planning)
 
+### Power
+
+[Gravity-based batteries try to beat their chemical cousins with winches, weights, and mine shafts](https://www.sciencemag.org/news/2021/04/gravity-based-batteries-try-beat-their-chemical-cousins-winches-weights-and-mine-shafts)
+
 ### Light Pollution
 
 [International Dark Sky Association](https://www.darksky.org)

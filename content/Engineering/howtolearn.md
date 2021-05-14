@@ -35,6 +35,8 @@ but note, you should keep in mind the standard warning that comes when first usi
 
 Other things:
 
+[Use Google like a pro](https://markodenic.com/use-google-like-a-pro/)
+
 [Learn about problems, not solutions (Gareth Dwyer)](https://dwyer.co.za/problems-not-solutions.html)
 
 [How to learn things at 1000x the speed (Pranay Prakash)](https://pranay.gp/how-to-learn-things-at-1000x-the-speed)
