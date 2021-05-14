@@ -87,9 +87,10 @@ headless: true
 
 
   - [A2 - Cheat Sheets & Libraries]({{< relref "/Engineering/cheat" >}})
-<!--  - [A3 - Bill Of Materials]({{< relref "/Engineering/a3-bom" >}}) -->
+    <!--  - [A3 - Bill Of Materials]({{< relref "/Engineering/a3-bom" >}}) -->
   - [A3 - Other Great Resources]({{< relref "/Engineering/resources" >}})
   - [A4 - Getting a Job]({{< relref "/Engineering/job" >}})
+  - [A5 - {{< katex >}}\LaTeX{{< /katex >}} & Markdown]({{< relref "/Engineering/latex" >}})
 
 
 ---
