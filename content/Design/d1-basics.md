@@ -5,19 +5,47 @@ slug: "Basics"
 ---
 # The Basics of Art and Design
 
-## Hue, Saturation, Value
+When you're first learning art, every art class will beat a few core ideas into your head: 
 
-[Something strange you should know about color (YouTube)](https://www.youtube.com/watch?v=gJ2HOj22gDo&ab_channel=MarcoBucci)
+* **Lines** - The 'structure' bits of the works, when you start making art, you'll often start with the Line Art
 
-[TODO] - rule of thirds, contrast, etc.
+* **Shape** - Structures that form out of lines, might appear 3D. These might be mathy, like squares, or organic, like an eye
+
+* **Form** - Mostly applicable to 3D (or art interpreted as 3D) - Think of this as the shape you'd see if you could move around the object in real life 
+
+* **Color** - Color's consist of hue (red, blue, etc.), saturation (how 'strong' the color is), and value (how bright/dark the color is)
+
+* **Space** - The relationship between objects, including the empty space between them (Negative space)
+
+* **Texture** - Is it smooth? Reflective? Rough? Does it look painted or flatly colored?
+
+* **Value** - How dark or light is each region
+
+These are your fundamental building blocks of art, and you should get to know them. Rather than try to poorly teach these to you, I'm going to recommend you check out this [Art Fundamentals](https://www.youtube.com/playlist?list=PLVgLT-e3jXPDgeED0pD0BPq8kY1VAZAGa) playlist from Swatches on YouTube.
+
+<!--- If you need more, https://creatureartteacher.com has some good tutorials albeit they are not free --->
+
+## Hue, Saturation
+
+[TODO]
 
 [This is a black and white image. Only the lines are colored. (Reddit)](https://www.reddit.com/r/blackmagicfuckery/comments/cj4gyl/this_is_a_black_and_white_image_only_the_lines/)
+
+## Value & Lighting
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/gJ2HOj22gDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/P9IY52xmMns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Perspective
 
 https://twitter.com/miyuliart/status/1337423295814176768 (NSFWish I guess?)
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A pet peeve of mine is this idea that taking a selfie or any other image without a filter or any post-production is somehow a more &quot;authentic&quot; presentation of the subject<br><br>A camera in its default state isn&#39;t some totally objective, neutral observer<br><br>It has its own biases <a href="https://t.co/ERozlmmBt2">pic.twitter.com/ERozlmmBt2</a></p>&mdash; Vapor Weyve (@Nymphomachy) <a href="https://twitter.com/Nymphomachy/status/1349408603715686400?ref_src=twsrc%5Etfw">January 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## Rule of Thirds
 
 ## Some good advice,
 
