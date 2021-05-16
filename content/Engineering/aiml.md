@@ -443,3 +443,7 @@ https://hific.github.io/
 > "Using generative adversarial networks (GAN), we can learn how to create realistic-looking fake versions of almost anything"
 
 [Stan for statistical modeling](https://mc-stan.org)
+
+
+
+[ML model can classify sex from retinal photograph, clinicians can't](https://www.nature.com/articles/s41598-021-89743-x.epdf?sharing_token=Fe891D30KtzWj086Mix2BtRgN0jAjWel9jnR3ZoTv0MtpAfo4k5SUyr2ANoiCUj48aDnaVS1oiRvWR5Jq3W5vp2Xty3aFDSimt06-04o22tCkZ62X__WtnMTTtit3At8eCD1Y4VRife50LtwBhS8nU--GtD10XpQBfLSJk9Tc1tdTUwF5RuI--pQYDk9R8IJ)
