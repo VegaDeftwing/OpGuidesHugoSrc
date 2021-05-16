@@ -116,7 +116,9 @@
   
 * ['Free Games' tag on Rock Paper Shotgun shows off some neat stuff](https://www.rockpapershotgun.com/tag/free-games/)
   
-* [Historical US Topographic Map explorer](https://kylebarron.dev/usgs-topo-mosaic/#11/37.7382/-119.5912)
+* [Historical US Topographic Map explorer](https://kylebarron.dev/usgs-topo-mosaic/)
+  
+* [Authagraph World Map: True Representation Of The Continents And Oceans](https://totravelistolive.co/authagraph-world-map/)
   
   
 
