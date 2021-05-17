@@ -1,8 +1,30 @@
 # Chapter 31½ - "The Cloud"
 
+Some people will tell you the cloud is the future, that someday everybody will rent computational power from a handful of services like AWS. These people are nuts. The cloud is very, very, stupid. Unless your business is going though a period of extreme growth it makes no sense to use a cloud provider like AWS or Azure. It does make plenty of sense to buy a VPS (Virtual Private Server) for hosting a website or game server, but at scale, no.
+
+So, I've told you it's bad- now let me explain why, starting with some background knowledge.
+
+Generally, there are a few kinds of cloud services:
+
+* **IaaS** - Infrastructure as a Service
+  * Hardware servers, virtual machines, storage, networking, etc. The depth of services provided varies, but generally this is just getting a bare system, with no
+* **PaaS** - Platform as a Service
+  * Generally PaaS adds another layer of abstraction, as the client (you) don't need to worry about the underlying hardware, but instead can use provider specific programming languages and development tools to setup what you need. 
+* **SaaS** - Software as a Service
+  * SaaS goes up yet another layer, here the client (you) are not buying something on which you can host your own software and tools, but are buying the (usually monthly) access and support for existing tools. Adobe's CreativeCloud and Office365 are good (albeit evil) examples.
+* **FaaS / Serverless** - Function as a Service
+  * The provider starts up or shuts down virtual machines and otherwise allocates resources on demand as they are called upon. It's not that there is no sever, it's just that the computation is done on demand and then the results saved to disk, such that they can be called upon later.
+  * See [Serverless Computing](https://en.wikipedia.org/wiki/Serverless_computing) on Wikipedia for more information, as well as a list of advantages and disadvantages.
+
+All of this sounds good, and while yes, there can be security or cost benefits in some situations, the cases in which it makes sense compared to just buying a hardware server or using a cheap VPS are honestly limited. 
+
+
+
 [GCP Outpaces Azure, AWS in the 2021 Cloud Report (Cockroarch Labs)](https://www.cockroachlabs.com/blog/2021-cloud-report/)
 
 [Dropbox saved almost $75 million over two years by building its own tech infrastructure (GeekWire)](https://www.geekwire.com/2018/dropbox-saved-almost-75-million-two-years-building-tech-infrastructure/)
+
+
 
 ## Comparison of Vendors
 

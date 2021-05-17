@@ -32,6 +32,8 @@ Finally, let's go back and add a com port to the C code and send data to an ardu
 
 ## Coding Challanges
 
+Advent of Code
+
 [Obfuscated C programs: Introduction (YouTube)](https://www.youtube.com/watch?v=rwOI1biZeD8) Obvuscated C, https://www.ioccc.org/ 
 
 <img src="/ginny.png" alt="ginny" style="zoom:50%;" />
