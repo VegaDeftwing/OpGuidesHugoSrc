@@ -61,13 +61,17 @@ A ⋃ B = {1, 2, 3, 4, 5, 6}
 
 ### Brute Force
 
+## Divide and Conquer
+
+
+
 ## Data structures
 
 trees, hashtables/maps, stacks
 
 ## Practice
 
-Fib, some pracice logical equliv, base conversion algo, overlapping lines, matrix multiplication
+Fib, some practice logical equliv, base conversion algo, overlapping lines, matrix multiplication
 
 ## Locality
 

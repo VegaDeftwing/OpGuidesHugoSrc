@@ -157,21 +157,23 @@ Finally, there's factorial, written with the **!**, it just means to multiply th
 
 #####  Scientific Notation
 
-[TODO]
+Say you have a really big number like 2,340,000,000,000,000,000 or a really small number 0.000000567 in either case, writing out and counting the zeros is very cumbersome and easy to mess up. For this reason, scientific notation is common. In scientific notation, those numbers would be written as {{< katex >}} 2.34 \times 10^{18} {{</ katex >}} and {{< katex >}} 5.67 \times 10^{-7} {{</ katex >}} respectively. In each case, it's just a matter of moving the numbers so that there's only one digit before the decimal, then listing to what power of 10 you need to multiply this number by to get the original number- meaning the power will be the same as the number of 0's in the original number. You may see calculators show this with a big 'E' instead of writing the {{< katex >}} x.xxxx \times 10^{y} {{</ katex >}}, for example {{< katex >}} 5.67 \times 10^{-7} {{</ katex >}} is often shown as 5.67E-7
+
+[TODO] beyond scientific notation for REALLY big numbers video... numberphile?
 
 #### =, <, >, ≤, ≥, ≠, <<, >>, ≈, ∝
 
-The equal sign is pretty obvious, it just means that what ever is on each side is equal. The implications of this will lead us deeper into algebra though as we actually solve equations. There's some really obvious equalities, those that lack variables, so things like {{< katex >}} 1 + 2 = 3 {{</ katex >}}  or any of the equalities shown to this point really. Where equality gets a bit more interesting is when there's an unknown (variable, same thing). For example, {{< katex >}} 1 + x = 3 {{</ katex >}} here we cane see pretty obviously that x must be 2. We'll go into how to actually solve for these unknows with non-obvious equations in a bit.
+The equal sign is pretty obvious, it just means that what ever is on each side is equal. The implications of this will lead us deeper into algebra though as we actually solve equations. There's some really obvious equalities, those that lack variables, so things like {{< katex >}} 1 + 2 = 3 {{</ katex >}}  or any of the equalities shown to this point really. Where equality gets a bit more interesting is when there's an unknown (variable, same thing). For example, {{< katex >}} 1 + x = 3 {{</ katex >}} here we cane see pretty obviously that x must be 2. We'll go into how to actually solve for these unknowns with non-obvious equations in a bit.
 
-Less Than and Greater Than are similarly simple, they just state that one side has a bigger number than the other. The '>' or '<' symbols should always 'eat' the bigger number, that is the open side faces the bigger number, and the pointy side points to the smaller. {{< katex >}} 2 < 3 {{</ katex >}} and  {{< katex >}} 4 > 3 {{</ katex >}} are examples of this. When variable are involved, it usually means there are multiple solutions. {{< katex >}} x > 3 {{</ katex >}} for example, is satisfied for any x greater than 3, right down to 3.0000000000...00001 all the way up to ∞. Similarly, there are 'or equal to' varients of less than and greater than, which are written with a bar underneath so {{< katex >}} x \geq 3 {{</ katex >}} is satisfied for x equal to 3 to ∞, so the 3 *is* included with the 'or equal to part.'
+Less Than and Greater Than are similarly simple, they just state that one side has a bigger number than the other. The '>' or '<' symbols should always 'eat' the bigger number, that is the open side faces the bigger number, and the pointy side points to the smaller. {{< katex >}} 2 < 3 {{</ katex >}} and {{< katex >}} 4 > 3 {{</ katex >}} are examples of this. When variable are involved, it usually means there are multiple solutions. {{< katex >}} x > 3 {{</ katex >}} for example, is satisfied for any x greater than 3, right down to 3.0000000000...00001 all the way up to ∞. Similarly, there are 'or equal to' variants of less than and greater than, which are written with a bar underneath so {{< katex >}} x \geq 3 {{</ katex >}} is satisfied for x equal to 3 to ∞, so the 3 *is* included with the 'or equal to part.'
 
 ≠ means 'Not Equal To', and as the name impiles it's just saying the two sides can't be equal so with {{< katex >}} x \neq 0 {{</ katex >}},  x can be any value, except for 0.
 
-Next are MUCH greater and less than, written with a doubble less than or greater than sign, so {{< katex >}} \gg \text{ or } \ll {{</ katex >}} these are weird for people new to the idea, because they're sort of fluid and depend on the situation. Generally they're used to say "This number is so small that it doesn't effect the outcome" or "This number is large that it domininates the outcome"
+Next are MUCH greater and less than, written with a double less than or greater than sign, so {{< katex >}} \gg \text{ or } \ll {{</ katex >}} these are weird for people new to the idea, because they're sort of fluid and depend on the situation. Generally they're used to say "This number is so small that it doesn't effect the outcome" or "This number is large that it dominates the outcome"
 
 Next up, is ≈ or "Approximately Equal To". This is for when you know your answer is off by some amount, due to impercesion in computation but it's still close enough for whatever you need to use it for. For example {{< katex >}} \pi \approx 3.1416 {{</ katex >}}
 
-Finally, there's ∝ for 'porportional to'. This just means the two equations are only different by a multiplited constant. For example, say {{< katex >}} y = kx {{</ katex >}}, where k is a constant (some number that can't change) then {{< katex >}} y \propto x {{</ katex >}}. This is useful for when two equations are representing something massively different in scale, but we want to indicate that they have the same behavior.
+Finally, there's ∝ for 'proportional to'. This just means the two equations are only different by a multiplited constant. For example, say {{< katex >}} y = kx {{</ katex >}}, where k is a constant (some number that can't change) then {{< katex >}} y \propto x {{</ katex >}}. This is useful for when two equations are representing something massively different in scale, but we want to indicate that they have the same behavior.
 
 #### |x|, ∆, ⌊x⌋, ⌈x⌉, ±
 
@@ -179,7 +181,7 @@ The {{< katex >}} |x| {{</ katex >}} symbol means "Absolute Value", which, is re
 
 {{< tip >}}
 
-Later on you'll also see something called the 'Determinate', this uses the same notiation, two vertical bars, but is totally different. Thankfully it's not hard to tell apart, as the determinate is a matrix operation, meaning there will be a grid of numbers between the bars instead of a single expression.
+Later on you'll also see something called the 'Determinate', this uses the same notation, two vertical bars, but is totally different. Thankfully it's not hard to tell apart, as the determinate is a matrix operation, meaning there will be a grid of numbers between the bars instead of a single expression.
 
 {{< /tip >}}
 
@@ -265,7 +267,47 @@ where in the last option the bar implies the parentheses.
 
 ### Simplification
 
+Before we can get to doing useful things with these operations, it helps to be proficient at simplifying an equation. For example say we have
 
+$3x^2+3+(2-x)(4-x)+2=12+(3+(x*2))+2$ before we ever solve for x, we'll want to turn this into something much easier to work with. When doing this, we need to make sure to keep the equality the same, that is if we had $3+x=4$ we need to not accidentally change it into $3+x=5$, changing the answer.
+
+This generally means that we can only either do basic operations to get an equivalent value or do the same operation to both sides. Ironically, often simplification actually requires expansion first, that is doing math like the $(2-x)(4-x)$ to get $8-2x-4x+x^2$ which can then be reduced back down to $x^2-6x+8$.
+
+For the example equation, the most obvious thing to start with is the +2 that's common to both sides. This is our first example of using the same operation on both sides- the idea being as long as we apply the same operation on both sides of the equality the meaning won't change that is, the solution to $x+3=2$ is the same as the solution to $x+3+2=2+2$, but we can take advantage of this to get rid of terms too. For example, with $x+3=2$ we can subtract 3 from both sides to get $x=-1$ (seeing how this might lead to solving the equation?) In our example equation, both end in a +2 so we can "cancel this out" by subtracting 2 from both sides.
+
+$3x^2+3+(2-x)(4-x)+2=12+(3+(x*2))+2$  Becomes
+
+$3x^2+3+(2-x)(4-x)=12+(3+(x*2))$
+
+While we're at it, let's FOIL out that $(2-x)(4-x)$...
+
+$3x^2+3+(8-2x-4x+x^2)=12+(3+(x*2))$
+
+$3x^2+3+(x^2-6x+8)=12+(3+(x*2))$
+
+with that done, we can get rid of some of those parentheses
+
+$3x^2+3+x^2-6x+8=12+3+2x$
+
+then, we can combine like terms,
+
+$4x^2-6x+11=15+2x$
+
+and then we can subtract $2x$ from both sides
+
+$4x^2-6x-2x+11=15+2x-2x$
+
+$4x^2-8x+11=15$
+
+then subtract 15 from both sides
+
+ $4x^2-8x+11-15=15-15$
+
+ $4x^2-8x-4=0$
+
+And now we're fully simplified. You **can't** combine the $x^2$ and x terms.
+
+This general process applies to any equation. It's like a little puzzle, you just want to take the complex equation you have, do the same thing to both sides or do the math that's internal to one side. Sometimes it's more complicated to do this. For example, you might need to square root both sides to "cancel out" both sides being squared, for example $x^2=25$ to $\sqrt{x^2} = \sqrt{25}$ to $x=5$, but here this only works because we're square rooting everything on both sides. Keep that in mind, whatever you do you need to do to both sides and *the entirety* of both sides, not just one term.
 
 ### Looking at some equations
 

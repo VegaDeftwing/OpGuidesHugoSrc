@@ -20,7 +20,7 @@ note, the above video uses U=IR instead of V=IR like 'normal'. You'd think that 
 
 ## Resistance and the OHM meter
 
-resistors do one thing- resist current. Using the ohm meter function of your multimeter you can find out the amount of this resistance measured in ohms (ohms are represented with a capital omega, Ω) using an ohm meter is simple, just poke and prod with at least one component in between the leads. If there's nothing in between - that is the leads are touching one another- there will be no resistance, if there's no way for a DC voltage to get from one point to the other, that will be infinite or 'overload' resistance
+Resistors do one thing- resist current. Using the ohm meter function of your multimeter you can find out the amount of this resistance measured in ohms (ohms are represented with a capital omega, Ω) using an ohm meter is simple, just poke and prod with at least one component in between the leads. If there's nothing in between - that is the leads are touching one another- there will be no resistance, if there's no way for a DC voltage to get from one point to the other, that will be infinite or 'overload' resistance
 
 ## Voltage, Ground, and the Volt Meter
 
@@ -60,7 +60,7 @@ If you're feeling really adventurous [Chapter 6 - Math, Section 11](https://opin
 
 ## Current and the Ammeter
 
-If current is the pressure in the hose, then current is how much water actually flows. This analogy holds up too, because if we use a resistor to kink the hose and the flow is restricted the current will go down. If you were to stick a wire directly into the wall outlet all the current the wall can give will try to flow though, but it can be restricted. To measure the current though a circuit we can't just probe between two points as before though. Instead the probes need to form the exclusive path that part of the circuit can flow through.
+If voltage is the pressure in the hose, then current is how much water actually flows. This analogy holds up too, because if we use a resistor to kink the hose and the flow is restricted the current will go down. If you were to stick a wire directly into the wall outlet all the current the wall can give will try to flow though, but it can be restricted. To measure the current though a circuit we can't just probe between two points as before though. Instead the probes need to form the exclusive path that part of the circuit can flow through.
 
 In practice this means the wire you want to measure current through would need to be cut and the ammeter's probes hooked up at either end, making the meter part of the circuit.
 
@@ -108,6 +108,8 @@ However, a decent 'Digital Storage Oscilloscope' or DSO like the one above run a
 
 [TODO] updated recommendations with DSLogic from Ebay and a cheap scope
 
+[TODO] ... or the Analog Lab from Diglent?
+
 But what are these actually used for day to day, and why would you want one? [TODO]
 
 [Quake on an oscilloscope (YouTube)](https://www.youtube.com/watch?v=GIdiHh6mW58&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
@@ -150,7 +152,7 @@ VCV Rack?
 
 [TODO]
 
-potentiometer read from aduino full range (center tap or max resitor)
+potentiometer read from arduino full range (center tap or max resistor)
 
 ## Capacitors
 
