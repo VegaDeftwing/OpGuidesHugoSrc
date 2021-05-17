@@ -904,7 +904,7 @@ Channels 12, 13, 14. 2.4 v 5, wifi 6, weird authentication, etc
 
 [TODO], infiniband, DMA, 10GbE+, Multigig
 
-At the end of the day, nothing is faster than a truck filled with drives.
+At the end of the day, nothing is faster than a truck filled with drives. [TODO xkcd link]
 
 ### The Future
 

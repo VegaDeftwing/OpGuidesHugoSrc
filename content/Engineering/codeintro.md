@@ -4,14 +4,14 @@
 
 ### Code is mostly math
 
-Heres the thing: Code is mostly math. If you're anything like me, you probably just went **ugggggghhhhhhh**.
+Here's the thing: Code is mostly math. If you're anything like me, you probably just went **ugggggghhhhhhh**.
 
 And I get it. But it's not that bad for two reasons:
 
 1. The math isn't like what you're used to.
 2. The math is actually *doing* something. You're not just getting a number to solve a problem, you're making a tool that can solve many problems or watching the math cause something to happen on screen.
 
-On point **1.**, it's usally because code has lots of flow control and logic that you're probably not used to seeing in math.
+On point **1.**, it's usually because code has lots of flow control and logic that you're probably not used to seeing in math.
 
 Things like
 
@@ -127,7 +127,7 @@ http://composingprograms.com
 
 ## The building blocks of programming
 
-All programming is just chaining logic, for example using treatments like "if a is b, then make c hold the value of a-3" followed by "if c is negitive then say hello"
+All programming is just chaining logic, for example using treatments like "if a is b, then make c hold the value of a-3" followed by "if c is negative then say hello"
 
 Well, that's actually an easy program
 
