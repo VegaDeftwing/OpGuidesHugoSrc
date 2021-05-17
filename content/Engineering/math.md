@@ -122,9 +122,11 @@ Something to keep in mind is that addition and multiplication are both, both com
 
 Furthermore, {{< katex >}} (2 + 3) + 4 = 3 + (2 + 4) \text{ but, } (2 - 3) - 4 \neq 2 - (3 - 4) {{</ katex >}} and {{< katex >}} (2 * 3) * 4 = 3 * (2 * 4) \text{ but, } (2 \div 3) \div 4 \neq 2 \div (3 \div 4) {{</ katex >}}, by the Associative Property. 
 
+Finally, for multiplication, you should keep in mind how to do multiplication on grouped items
+
+[TODO] $a*(x+y)$ and $(a+b)(x+y)$ - FOIL
+
 For division, there's some terminology you should know. First of all, in {{< katex >}} \frac{a}{b} {{</ katex >}}, a is the *numerator* and b is the *denominator*. The *reciprocal* of {{< katex >}} \frac{a}{b} {{</ katex >}} is {{< katex >}} \frac{b}{a} {{</ katex >}}. This is actually pretty useful, for example, given {{< katex >}} \frac{a}{\frac{b}{c}} {{</ katex >}} you can write this as,  {{< katex >}} a * \frac{c}{b} {{</ katex >}}
-
-
 
 Modulo is something you'll see in programming a lot, in programming it's usually represented with the percent sign.
 
@@ -269,45 +271,89 @@ where in the last option the bar implies the parentheses.
 
 Before we can get to doing useful things with these operations, it helps to be proficient at simplifying an equation. For example say we have
 
-$3x^2+3+(2-x)(4-x)+2=12+(3+(x*2))+2$ before we ever solve for x, we'll want to turn this into something much easier to work with. When doing this, we need to make sure to keep the equality the same, that is if we had $3+x=4$ we need to not accidentally change it into $3+x=5$, changing the answer.
+{{< katex >}}3x^2+3+(2-x)(4-x)+2=12+(3+(x*2))+2{{< /katex >}} before we ever solve for x, we'll want to turn this into something much easier to work with. When doing this, we need to make sure to keep the equality the same, that is if we had {{< katex >}}3+x=4{{< /katex >}} we need to not accidentally change it into {{< katex >}}3+x=5{{< /katex >}}, changing the answer.
 
-This generally means that we can only either do basic operations to get an equivalent value or do the same operation to both sides. Ironically, often simplification actually requires expansion first, that is doing math like the $(2-x)(4-x)$ to get $8-2x-4x+x^2$ which can then be reduced back down to $x^2-6x+8$.
+This generally means that we can only either do basic operations to get an equivalent value or do the same operation to both sides. Ironically, often simplification actually requires expansion first, that is doing math like the {{< katex >}}(2-x)(4-x){{< /katex >}} to get {{< katex >}}8-2x-4x+x^2{{< /katex >}} which can then be reduced back down to {{< katex >}}x^2-6x+8{{< /katex >}}.
 
-For the example equation, the most obvious thing to start with is the +2 that's common to both sides. This is our first example of using the same operation on both sides- the idea being as long as we apply the same operation on both sides of the equality the meaning won't change that is, the solution to $x+3=2$ is the same as the solution to $x+3+2=2+2$, but we can take advantage of this to get rid of terms too. For example, with $x+3=2$ we can subtract 3 from both sides to get $x=-1$ (seeing how this might lead to solving the equation?) In our example equation, both end in a +2 so we can "cancel this out" by subtracting 2 from both sides.
+For the example equation, the most obvious thing to start with is the +2 that's common to both sides. This is our first example of using the same operation on both sides- the idea being as long as we apply the same operation on both sides of the equality the meaning won't change. That is, the solution to {{< katex >}}x+3=2{{< /katex >}} is the same as the solution to {{< katex >}}x+3+2=2+2{{< /katex >}}, but we can take advantage of this to get rid of terms too. For example, with {{< katex >}}x+3=2{{< /katex >}} we can subtract 3 from both sides to get {{< katex >}}x=-1{{< /katex >}} (seeing how this might lead to solving the equation?) In our example equation, both end in a +2 so we can "cancel this out" by subtracting 2 from both sides.
 
-$3x^2+3+(2-x)(4-x)+2=12+(3+(x*2))+2$  Becomes
+{{< katex display >}}
 
-$3x^2+3+(2-x)(4-x)=12+(3+(x*2))$
+\begin{aligned}
 
-While we're at it, let's FOIL out that $(2-x)(4-x)$...
+3x^2+3+(2-x)(4-x)+2&=12+(3+(x*2))+2​ \\
 
-$3x^2+3+(8-2x-4x+x^2)=12+(3+(x*2))$
+3x^2+3+(2-x)(4-x)&=12+(3+(x*2))​
 
-$3x^2+3+(x^2-6x+8)=12+(3+(x*2))$
+\end{aligned} 
+
+{{< /katex >}}
+
+but because we did the same operation to both sides of the equality, the answer didn't change
+
+{{< hint warning >}}
+
+☠☠☠ The following is an easy place to screw up ☠☠☠
+
+{{< /hint >}}
+
+Keep in mind, whatever you do you need to do to both sides and *the entirety* of both sides, not just one term. For example, If you were to only divide one term on each side by 2 this is **not** keeping equivalence. You *can* divide both sides in full by two, sure, but you can't just pick one term from each side and selectively divide that *term* by two. That is {{< katex >}}4+2x=8{{< /katex >}} can become {{< katex >}}2-x=4{{< /katex >}} but *not* {{< katex >}}\frac{4}{2}+2x=\frac{8}{2}{{< /katex >}} which is {{< katex >}}2+2x=4{{< /katex >}}. You can see this as the solution to {{< katex >}}4+2x=8{{< /katex >}} is {{< katex >}}x=2{{< /katex >}} but the solution to {{< katex >}}2+2x=4{{< /katex >}} is {{< katex >}}x=1{{< /katex >}}. So, just be sure if you do some arbitrary operation you do it to **both sides** and the entirety of the side, not just one term. 
+
+
+
+Back to our big equation: next, let's FOIL out that {{< katex >}}(2-x)(4-x){{< /katex >}}...
+
+{{< katex display >}}
+
+\begin{aligned}
+
+3x^2+3+(8-2x-4x+x^2)&=12+(3+(x*2))​\\
+
+3x^2+3+(x^2-6x+8)&=12+(3+(x*2))​
+
+\end{aligned} 
+
+{{< /katex >}}
 
 with that done, we can get rid of some of those parentheses
 
-$3x^2+3+x^2-6x+8=12+3+2x$
+{{< katex display >}}3x^2+3+x^2-6x+8=12+3+2x{{< /katex >}}
 
-then, we can combine like terms,
+then, we can combine like terms...
 
-$4x^2-6x+11=15+2x$
+{{< katex display >}}4x^2-6x+11=15+2x{{< /katex >}}
 
-and then we can subtract $2x$ from both sides
+and subtract $2x$ from both sides
 
-$4x^2-6x-2x+11=15+2x-2x$
+{{< katex display >}}
 
-$4x^2-8x+11=15$
+\begin{aligned}
+
+4x^2-6x-2x+11&=15+2x-2x​\\
+
+4x^2-8x+11&=15​
+
+\end{aligned} 
+
+{{< /katex >}}
 
 then subtract 15 from both sides
 
- $4x^2-8x+11-15=15-15$
+{{< katex display >}}
 
- $4x^2-8x-4=0$
+\begin{aligned}
 
-And now we're fully simplified. You **can't** combine the $x^2$ and x terms.
+ 4x^2-8x+11-15&=15-15​\\
 
-This general process applies to any equation. It's like a little puzzle, you just want to take the complex equation you have, do the same thing to both sides or do the math that's internal to one side. Sometimes it's more complicated to do this. For example, you might need to square root both sides to "cancel out" both sides being squared, for example $x^2=25$ to $\sqrt{x^2} = \sqrt{25}$ to $x=5$, but here this only works because we're square rooting everything on both sides. Keep that in mind, whatever you do you need to do to both sides and *the entirety* of both sides, not just one term.
+ 4x^2-8x-4&=0​
+
+\end{aligned} 
+
+{{< /katex >}}
+
+And now we're fully simplified. You **can't** combine the {{< katex >}}x^2{{< /katex >}} and x terms.
+
+This general process applies to any equation. It's like a little puzzle, you just want to take the complex equation you have, do the same thing to both sides or do the math that's internal to one side. Sometimes it's more complicated to do this. For example, you might need to square root both sides to "cancel out" both sides being squared, for example {{< katex >}}x^2=25{{< /katex >}} to {{< katex >}}\sqrt{x^2} = \sqrt{25}{{< /katex >}} to {{< katex >}}x=5{{< /katex >}}, but here this only works because we're square rooting everything on both sides.
 
 ### Looking at some equations
 
