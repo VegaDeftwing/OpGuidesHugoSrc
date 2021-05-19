@@ -22,6 +22,10 @@ GDB with Gef, interpreted languages, embedded systems, non-code issues (boot pro
 
 [Advanced GDB Usage (Interrupt)](https://interrupt.memfault.com/blog/advanced-gdb)
 
+https://rr-project.org
+
+\+ valgrid in here somewhere, ref 11- low level prog
+
 #### Static Analysis
 
 [CodeChecker using LLVM/Clang (GitHub)](https://github.com/Ericsson/codechecker)

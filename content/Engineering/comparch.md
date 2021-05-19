@@ -8,6 +8,8 @@ This Chapter will be split into three parts:</br></br>Part 1, understanding the 
 
 [TODO] http://www.lighterra.com/papers/modernmicroprocessors/
 
+[TODO] [A Density Metric for Semiconductor Technology](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9063714) - past nm for sizing
+
 ## Part 1: Computer Architecture
 
 ### Motivation:

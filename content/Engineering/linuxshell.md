@@ -254,12 +254,15 @@ Note that not all things that seem like a good fit are a good fit for regex, for
 
 - cd -: to last dir
 - cd: go to home if entered without arguments
-
 - reptyr to move
 - pushd/popd & dirs to use path stack
 - history, and !№ to run that cmd
 - ctrl-left/right to nav args
 - expansion with mv /path/meh.{md,txt}
+
+## Performance Analysis
+
+![](/linuxperftools.png)
 
 ## Aliases and customization
 

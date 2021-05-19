@@ -34,6 +34,10 @@ That said, I don't want to get to in the mud of transistor physics. I really wan
 
 # Chapter 23.1 - Semiconductors
 
+TODO, looks very good briefly scrolling though it: https://lcamtuf.coredump.cx/electronics/
+
+Digilent's 'Real Aanlog' course looks okay too, and I might write this guide assuming their analog parts kit: https://learn.digilentinc.com/classroom/realanalog/ 
+
 ## Semiconductors?
 
 [Will gallium nitride electronics change the world? (YouTube, Engadget)](https://youtu.be/sfTXZP2DB20)
@@ -64,6 +68,8 @@ zeener, normal, bipolar
 
 + varistors , sparkgaps
 + Leds - getting current both ways, LED safety
+
+[Zener Diode (YouTube - EEVblog)](https://www.youtube.com/watch?v=7FYHt5XviKc)
 
 [Varicaps (Wikipedia)](https://en.wikipedia.org/wiki/Varicap)
 
@@ -122,7 +128,11 @@ https://hackaday.com/2019/05/20/integrated-circuits-can-be-easy-to-understand-wi
 
 potato semi
 
-# Chapter 23.2 - Opamps & Filters
+# Chapter 23.2 - Op-Amps & Filters
+
+## Op-Amps
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/7FYHt5XviKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Optical Electronics
 
@@ -152,6 +162,12 @@ Nyquist
 
 http://sim.okawa-denshi.jp/en/
 
+[Chebyshev Filters (YouTube - All About Electronics)](https://www.youtube.com/watch?v=6JbOAxCAxGo)
+
+[Butterworth Filters (YouTube - All About Electronics)](https://youtu.be/lc6QT8VjqVc)
+
+
+
 [TODO]
 
 ## Waveguides
@@ -173,6 +189,18 @@ add motors, analog meters, various connection standards, radio, flex/pressure se
 [TODO]
 
 Relate back to things like ADSR, Distortion, Reverb / Echo, Decibels (audio), etc. Use VCV RACK
+
+
+
+# Chapter 23.3 - Rare and Dangerous Componets
+
+* Dangerous
+  * Tesla coils
+  * High voltage/current/hot/whatever
+  * Don't pretend to be an electrician
+  * Don't use ATX psus for dumb things
+* Rare/Expensive
+  * Tubes, NOS parts, etc.
 
 
 
