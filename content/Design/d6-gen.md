@@ -359,6 +359,20 @@ Noisedeck is a generative art synth. Still in early development. Some features r
 
 {{< /columns2 >}}
 
+{{< columns2 >}}
+
+[Globs Designer](https://www.globs.design)
+
+<--->
+
+Has a neat code editor too, for making more complex geometry
+
+<--->
+
+![](/globsdesigner.png)
+
+{{< /columns2 >}}
+
 [Making 'Noise Planets' on Avinayak's Blog](https://avinayak.github.io/art/2021/01/09/noise-planets.html)
 
 

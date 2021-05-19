@@ -145,3 +145,7 @@ The maker and hacker communities tend to focus a lot on popularity and getting y
 [Hacker-Laws (Github)](https://github.com/dwmkerr/hacker-laws)
 
 [Proof of X](https://julian.digital/2020/08/06/proof-of-x/)
+
+## Hackerspaces [TODO]
+
+[Building a Hackerspace](https://fahrplan.events.ccc.de/congress/2007/Fahrplan/attachments/1003_Building%20a%20Hacker%20Space.pdf)

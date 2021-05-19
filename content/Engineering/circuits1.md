@@ -188,19 +188,29 @@ Motors
 
 [TODO] solid state vs old school
 
+## Decibels
+
+[TODO]
+
+How to read logarithmic first, example for why they're needed: [log-scales demo in uPlot (github)](https://leeoniya.github.io/uPlot/demos/log-scales.html)
+
+
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/WZLQoP6CM0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 ## Filters
 
 [TODO]
 
 Passive V Active
 
-## Decibels
+[RC Low Pass Filter (YouTube - All About Electronics)](https://www.youtube.com/watch?v=_2L0l-E1Wx0)
 
-[TODO]
+[Series Resonance in RLC Circuit (YouTube - All About Electronics)](https://www.youtube.com/watch?v=YLGrugmDvc0)
 
-How to read logarithmic first
-
-[log-scales demo in uPlot (github)](https://leeoniya.github.io/uPlot/demos/log-scales.html)
+[Transient Analysis of the RLC Circuit (YouTube - All About Electronics)](https://www.youtube.com/watch?v=B4TezoTORYA)
 
 
 
