@@ -9,7 +9,6 @@
 * reading specs
 
 * datasheets
-  
 
 ## Nice Libraries & Resources
 
@@ -98,6 +97,8 @@ https://github.com/mitsuba-renderer/nanogui
 [bokeh](https://docs.bokeh.org/en/latest/docs/user_guide/quickstart.html#userguide-quickstart) - "Bokeh is an interactive visualization library for modern web browsers" (yes, it uses python)
 
 [MoviePy](https://pypi.org/project/moviepy/) - "a Python library for video editing: cutting, concatenations, title insertions, video compositing (a.k.a. non-linear editing), video processing, and creation of custom effects"
+
+[Pint](https://pint.readthedocs.io/en/stable/) - work with units, including prefixes like kilometers
 
 > Also see pyO3 in rust above, which allows for writing python modules. Of course python modules can be written [in C or C++](https://docs.python.org/3/extending/extending.html), but doing so in Rust is safer, because, Rust.
 

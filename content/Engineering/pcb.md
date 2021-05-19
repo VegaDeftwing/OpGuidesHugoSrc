@@ -2,6 +2,14 @@
 
 [TODO]
 
+* Make it work
+* Make it not emit a ton of RF or go to shit when around it (everything is an antenna)
+* Make it pretty
+  * ref that weird russian autorouter as limits on this
+* Make it repairable
+* Know when to do a PCB or a Perma-Proto
+* Assuming parts will only be available for so long
+
 First things first, we're going to be using Kicad, so you'll want to go grab that from the repos. While that's downloading and installing give this a watch to get the basics down:
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/zK3rDhJqMu0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -714,7 +722,9 @@ Sorce: Foalyy @ https://forum.kicad.info/t/cheatsheet-for-kicad/5247
 
 {{< /attribution >}}
 
-https://llllllll.co/t/pcb-art-artfully-shaped-copper-traces/22027/2
+https://llllllll.co/t/pcb-art-artfully-shaped-copper-traces/22027/2t
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">These 0.3mm PCBs are crazy flexible. Makes it difficult to evenly polish down to extract all the metal layers, but we&#39;ll fix it in post 😉 <a href="https://t.co/ylP0lc34g2">pic.twitter.com/ylP0lc34g2</a></p>&mdash; David Hulton (@0x31337) <a href="https://twitter.com/0x31337/status/1395064352785399808?ref_src=twsrc%5Etfw">May 19, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Always double check your footprints. 😬 <a href="https://t.co/BdTq9e9Byq">pic.twitter.com/BdTq9e9Byq</a></p>&mdash; Greg (@GregDavill) <a href="https://twitter.com/GregDavill/status/1252912461457420288?ref_src=twsrc%5Etfw">April 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -728,7 +738,15 @@ https://llllllll.co/t/pcb-art-artfully-shaped-copper-traces/22027/2
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The whole family - top ones are the oldest and the two test prototypes I made. There was issues with the micro I was using and I couldn&#39;t get it low enough power to run. Also assembly was really difficult. <a href="https://t.co/3mKgYs83Nr">pic.twitter.com/3mKgYs83Nr</a></p>&mdash; Loial Otter (@LoialOtter) <a href="https://twitter.com/LoialOtter/status/1250295830973534208?ref_src=twsrc%5Etfw">April 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-# Chapter 26.1 - PCB 'Badges'
+## Chapter 26.1 - PCB Components
+
+[TODO] Antennas (2.4ghz mostly), [Spark gaps](https://www.youtube.com/watch?v=vfP_65gSSBU&list=PL3C5D963B695411B6&index=25), [coils](https://www.youtube.com/watch?v=3DeOPN1Cl1Y), PCB capacitor, [distributed element filters](https://en.wikipedia.org/wiki/Distributed-element_filter), flexible PCB as connectors
+
+and technically resistors and [fuses](https://www.youtube.com/watch?v=CMlpCX0bug8), albeit ... eh.
+
+0-ohm resistors to keep 1-sidded
+
+# Chapter 26.2 - PCB 'Badges'
 
 ![badges](/badges.jpeg)
 

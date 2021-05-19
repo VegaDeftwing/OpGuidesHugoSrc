@@ -122,4 +122,25 @@ https://lospec.com/palette-list
 
 <--->
 
+https://squoosh.app
+
 {{< /columns >}}
+
+
+
+
+
+
+
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Whenever I make foliage I always find myself hoping nobody else is as lazy as I am. I just make a bunch of random shapes and copy paste to victory... Please don&#39;t call the cops <a href="https://t.co/Vz63AOBuZo">pic.twitter.com/Vz63AOBuZo</a></p>&mdash; mog (@wtfmig) <a href="https://twitter.com/wtfmig/status/1197789438102966272?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+[Krita Brush Tips: Outline](https://docs.krita.org/en/tutorials/krita-brush-tips/outline.html)
+
+[Krita Brush Tips: Hair](https://docs.krita.org/en/tutorials/krita-brush-tips/hair.html)
+
+[Krita: Painting Fur](https://docs.krita.org/en/tutorials/krita-brush-tips/fur.html)
+
+[Krita: Animated (Random) Brushes - Good for trees/bushes](https://docs.krita.org/en/tutorials/krita-brush-tips/animated_brushes.html)
+

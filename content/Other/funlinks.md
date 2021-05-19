@@ -120,6 +120,8 @@
   
 * [Authagraph World Map: True Representation Of The Continents And Oceans](https://totravelistolive.co/authagraph-world-map/)
   
+* [Pink Trombone - Bare Handed Speech Synthesis](https://dood.al/pinktrombone/)
+  
   
 
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>
