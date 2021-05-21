@@ -641,9 +641,13 @@ with or without replacement
 
 ### Random Variables
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/mBCiKUzwdMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Probability Mass Function (PMF)
 
 Types of RV's
+
+[TODO] http://www.math.wm.edu/~leemis/chart/UDR/UDR.html
 
 | Distribution Name | PMF  | Mean | Variance |
 | ----------------- | ---- | ---- | -------- |
@@ -666,7 +670,7 @@ Gaussian Random Variables / Normal RVs (same thing)
 
 [TODO] https://mc-stan.org/users/documentation/
 
-
+[TODO] [The Fisher Information (YouTube - Mutual Information)](https://youtu.be/pneluWj-U-o)
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I did it. <a href="https://t.co/eMEmUw0HSY">pic.twitter.com/eMEmUw0HSY</a></p>&mdash; Zillion Ross (@ZillionRoss) <a href="https://twitter.com/ZillionRoss/status/1331387290887680000?ref_src=twsrc%5Etfw">November 25, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
