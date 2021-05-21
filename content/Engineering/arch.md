@@ -1,6 +1,6 @@
 # Chapter 2 - Installing Arch Linux
 
-<img src="/archlogo.png" alt="Arch Logo" height="120em" style="display: block; margin-left: auto; margin-right: auto;">
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/ezUoiaoQCTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Some Background
 
@@ -15,7 +15,17 @@ Well, Linux is actually just the name of the underlying 'core' of the system, kn
 
 The other differentiating factor is the version of the Linux **Kernel** that they use. Some chose to use an older, battle hardened kernel that is known to be very, very stable, others chose a nice middle ground, while yet others continuously release an update to the newest available kernel. There are pros and cons to each model and each has its place; however, the distro I'm going to have you install, Arch, uses the (almost) the newest available, updating very regularly. Arch has a reputation as one of the hardest distros to work with, but also one of the most cutting edge, fun to tinker around in, and best documented.
 
+{{< columns >}}
+
 Arch is what's known as a *rolling release* distribution, which means it gets the bleeding edge features and the newest kernel pretty much as fast as possible, though really the biggest thing that makes Arch special is how bare bones it is out of the box, shipping with basically **no pre-installed software**. In fact, when you first start it up the only thing you'll see is a screen to type and run commands, and that's where we're going to start.
+
+<--->
+
+<img src="/archlogo.png" alt="Arch Logo" height="180em" style="display: block; margin-left: auto; margin-right: auto;">
+
+{{< attribution >}}Arch Linux Logo from [archlinux.org](https://archlinux.org){{< /attribution >}}
+
+{{< /columns >}}
 
 For most distros like Ubuntu or OpenSuse (feel free to look these up, this page isn't going anywhere) there's a nice graphical, point and click installer which helps you install the system and somewhat mitigates potential risk of killing your original OS (Mac/Win) or losing data; however, the goal of this guide is to learn. Arch's install process, entirely by typing commands in this terminal is hard, but that difficulty leads to a deeper understanding and respect for the system as a whole
 
