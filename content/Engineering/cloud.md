@@ -1,10 +1,24 @@
 # Chapter 31½ - "The Cloud"
 
-Some people will tell you the cloud is the future, that someday everybody will rent computational power from a handful of services like AWS. These people are nuts. The cloud is very, very, stupid. Unless your business is going though a period of extreme growth it makes no sense to use a cloud provider like AWS or Azure. It does make plenty of sense to buy a VPS (Virtual Private Server) for hosting a website or game server, but at scale, no.
+{{< columns >}}
 
-So, I've told you it's bad- now let me explain why, starting with some background knowledge.
+Some people will tell you the cloud is the future, that someday everybody will rent computational power from a handful of services like AWS.
 
-Generally, there are a few kinds of cloud services:
+These people are nuts.
+
+The cloud is just someone eles's computer. Unless your business is going though a period of extreme growth it makes no sense to use a cloud provider like AWS or Azure. It does make plenty of sense to buy a VPS (Virtual Private Server) for hosting a website or game server or a personal website like this one, but at scale? No.
+
+Unfortunately, "The Cloud" isn't going anywhere. AWS, Azure, and Google Cloud probably host the vast majority of websites you visit and the backends for apps you use. So we may as well understand it... if for no other reason than to be able to hold educated arguments against it.
+
+<--->
+
+<img src="/yellsatcloud2.webp" alt="Old Vega Yells at Cloud">
+
+{{< attribution >}}Character owned by Vega, art by [Talon Creations](https://twitter.com/Talon_Creations) and Vega {{< /attribution >}}
+
+{{< /columns >}}
+
+So, my opinion out of the way, let's look at what the cloud is. Generally, there are a few kinds of cloud services, here they're listed in increasing level of abstraction:
 
 * **IaaS** - Infrastructure as a Service
   * Hardware servers, virtual machines, storage, networking, etc. The depth of services provided varies, but generally this is just getting a bare system, with no
@@ -16,22 +30,54 @@ Generally, there are a few kinds of cloud services:
   * The provider starts up or shuts down virtual machines and otherwise allocates resources on demand as they are called upon. It's not that there is no sever, it's just that the computation is done on demand and then the results saved to disk, such that they can be called upon later.
   * See [Serverless Computing](https://en.wikipedia.org/wiki/Serverless_computing) on Wikipedia for more information, as well as a list of advantages and disadvantages.
 
-All of this sounds good, and while yes, there can be security or cost benefits in some situations, the cases in which it makes sense compared to just buying a hardware server or using a cheap VPS are honestly limited. 
+To put this in a nice lil' table, the stuff in blue is *done for you*, while you need to handle the things shown in gray.
+
+<style>
+.models {
+    width: 100%;
+    text-align: center;
+}
+.models th {
+background: #fff3;
+word-wrap: break-word;
+text-align: center;
+}
+.models > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(-n) > td:nth-child(1) { background: #009cdf55; }
+.models > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(n+5) > td:nth-child(2) { background: #009cdf55; }
+.models > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(n+3) > td:nth-child(3) { background: #009cdf55; }
+.models > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(n) > td:nth-child(4) { background: #009cdf55; }
+</style>
 
 
+<div class="models">
+
+| Traditional:   | Infrastructure as a Service | Platform as a Service | Software as a Service |
+| -------------- | --------------------------- | --------------------- | --------------------- |
+| Applications   | Applications                | Applications          | Applications          |
+| Data           | Data                        | Data                  | Data                  |
+| Runtime        | Runtime                     | Runtime               | Runtime               |
+| Middleware     | Middleware                  | Middleware            | Middleware            |
+| OS             | OS                          | OS                    | OS                    |
+| Virtualization | Virtualization              | Virtualization        | Virtualization        |
+| Servers        | Servers                     | Servers               | Servers               |
+| Storage        | Storage                     | Storage               | Storage               |
+| Networking     | Networking                  | Networking            | Networking            |
+
+</div>
+
+Obviously, for each thing done for you you've giving up more control, abstracting away that complexity to the provider.
 
 [GCP Outpaces Azure, AWS in the 2021 Cloud Report (Cockroarch Labs)](https://www.cockroachlabs.com/blog/2021-cloud-report/)
 
 [Dropbox saved almost $75 million over two years by building its own tech infrastructure (GeekWire)](https://www.geekwire.com/2018/dropbox-saved-almost-75-million-two-years-building-tech-infrastructure/)
 
-
+[TODO] Service Level Agreements
 
 ## Comparison of Vendors
 
 [TODO] Add Google Cloud to list, mention they're all sorta evil.
 
 > Note, I'm not going to directly compare pricing between these services because that's both rather variable and because the cost is often in terms of resource usage, which can be calculated in so many different way that the only real way to compare is to actually run something. Similarly, comparing uptime is also mostly useless as there are different metrics used and because of service contracts any provider will do everything in its power to appear to have umpteen 9's of uptime.
->
 
 ### Compute
 

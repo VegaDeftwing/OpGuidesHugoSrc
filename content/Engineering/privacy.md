@@ -1,8 +1,13 @@
 # Chapter 33½ - Your Guide to Privacy
 
-<p style="font-size:2em;color:#aaa;"><i><b>"</b>Arguing that you don't care about the right to privacy because you have <u>nothing to hide</u> is no different than saying you don't care about free speech because <u>you have nothing to say</u>.<b>"</b></i></p>
+---
 
-{{< attribution >}}\- Edward Snowden, in his [Reddit AMA](https://www.reddit.com/r/IAmA/comments/36ru89/just_days_left_to_kill_mass_surveillance_under/crglgh2?utm_source=share&utm_medium=web2x&context=3){{< /attribution >}}
+<div style="display: block; width: 84%; text-align: center;margin-left: auto; margin-right: auto;">
+<p style="font-size:1.2em;color:#aaa;"><i><b>"</b>Arguing that you don't care about the right to privacy because you have <u>nothing to hide</u> is no different than saying you don't care about free speech because <u>you have nothing to say</u>.<b>"</b></i>
+</div>
+<div style="display: block; width: 80%; margin-left: auto; margin-right: auto;">
+<p style="font-size:.85em;color:#aaa;">- Edward Snowden, in his <a href="https://www.reddit.com/r/IAmA/comments/36ru89/just_days_left_to_kill_mass_surveillance_under/crglgh2?utm_source=share&utm_medium=web2x&context=3">Reddit AMA</a></p>
+</div>
 
 ---
 
