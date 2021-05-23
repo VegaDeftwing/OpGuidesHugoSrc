@@ -20,8 +20,6 @@ Links are the interconnects between two nodes. Generally these fall into two cat
 
 *Guided* Links are those that only connect a few nodes (usually only two) and are typically physical, hard-wire links, often copper or fiber optic.
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/3FxfXVuHRjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 Not all Links can support the same bandwidth or throughput. In general, Coaxial is worse than Twisted Pair which is in turn worse than fiber.
 
 <img src="/nodes.svg" alt="nodes" style="-webkit-filter: invert(.85);">
