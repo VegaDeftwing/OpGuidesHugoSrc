@@ -131,3 +131,6 @@ There's a ton of simulators out there for making simple circuits educationally, 
 
 We'll come back to look at more complex digital logic in chapter 28 "Let's try out programmable logic" and **29 "Let's make our own CPU"** , but if you're hungry for even more, here are some resources
 
+---
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/X8jsijhllIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
