@@ -2,7 +2,7 @@
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/g8vHhgh6oM0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The next few chapters are, regrettably, necessary for developing your knack. Math, Physics, and Chemistry and fundamental to all engineering fields and while something about each of the three subjects finds a way to make the 16 year old highschooler in us release a long, exasperated groan. I think this is mostly due to each of these things being taught in a way that takes the fun and interesting parts out and replaces them with trying to learn skills that have largely been outdated by the advent of calculators, computers, and the internet. With that, let's jump into it:
+The next few chapters are, regrettably, necessary for developing your knack. Math, Physics, and Chemistry and fundamental to all engineering fields and while something about each of the three subjects finds a way to make the 16 year old high schooler in us release a long, exasperated groan. I think this is mostly due to each of these things being taught in a way that takes the fun and interesting parts out and replaces them with trying to learn skills that have largely been outdated by the advent of calculators, computers, and the internet. I'll do my best to keep this chapter interesting by showing some of the fun parts of math and linking to the most entertaining videos and 'hands on' resources that I can. So, let's get mathy!
 
 {{< tip >}}
 
@@ -12,9 +12,11 @@ As with all of OpGuides, please skip around as necessary. I suspect the start of
 
 This video on [How to Read Math (YouTube, Dominic Walliman)](https://www.youtube.com/watch?v=Kp2bYWRQylk) and the cheat sheet from it, [How To Read Math, Cheat Sheet (Flickr, Dominic Walliman)](https://live.staticflickr.com/4671/40544016221_61cf8944d1_h.jpg) may help you get your brain juices flowing.
 
+If you're reading this as someone that's trying to refresh on what they learned in high school, I do still recommend reading what I have on this page, but Professor Leonard's [College Algebra and Trigonometry](https://www.youtube.com/watch?v=9OOrhA2iKak&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP) course on YouTube is probably your best bet for getting back up to speed, though it is long enough to take a week of full time watching to get through.
+
 # Chapter 11 - Math
 
-some motivation, Klein bottle guy, non-euclidean games, fractals, colatz conjecture, ...
+[TODO] some motivation, Klein bottle guy, non-euclidean games, fractals, colatz conjecture, math in music, etc.
 
 ## 1 - Algebra
 
@@ -108,6 +110,14 @@ Here's a video to help you understand imaginary and complex numbers, albeit it d
 
 [Hypercomplex numbers](https://en.wikipedia.org/wiki/Hypercomplex_number) are also a thing, this term includes [Quaternions](https://en.wikipedia.org/wiki/Quaternion) which are used in some very high level physics, but otherwise you'll most likely never work with these.
 
+#### Infinity
+
+Diving into the weeds for a bit, let's poke the concept of Infinity:
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/3s7h2MHQtxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/OxGsU8oIWjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Notation
 
 #### +, -, *, ÷, mod
@@ -132,7 +142,7 @@ Modulo is something you'll see in programming a lot, in programming it's usually
 
 Modulo is just the reminder after division, so 7%3 is 1, because 3 goes into 7 twice, with **1** left over.
 
-#### ^, √, !
+#### ^, √, !, log()
 
 exponents, written as either {{< katex >}} a^x \text{ or }  {{</ katex >}}a^x or exp(x) if the base is 'e', that is {{< katex >}} e^x {{</ katex >}}, are pretty simple to understand, they're just repeated multiplication, so {{< katex >}} a^3 = a * a * a  {{</ katex >}}
 
@@ -155,7 +165,11 @@ Alright, so now we can look at roots. The most common root you'll work with is t
 
 As implied by the Fractional exponent rule, roots can be written as fractional exponents, that is {{< katex >}} \sqrt[2]{n} = n^{1/2} {{</ katex >}} often it's actually more convenient to enter this notation into a calculator or programming language anyway. It can even just be nice for working on paper as when writing something like {{< katex >}} \frac{1}{\sqrt{ \text{some really long equation here}}} {{</ katex >}} it can be easy to miss the top bar and forget it's there, compared to {{< katex >}} \frac{1}{( \text{some really long equation here})^{\frac{1}{2}}} {{</ katex >}} where the power sticks out more.
 
-Finally, there's factorial, written with the **!**, it just means to multiply the number with the number prior down to 1, so  {{< katex >}} 4! = 4 * 3 *2 * 1 {{</ katex >}}
+Next, there's factorial, written with the **!**, it just means to multiply the number with the number prior down to 1, so  {{< katex >}} 4! = 4 * 3 *2 * 1 {{</ katex >}}
+
+Finally, let's look at Logarithms:
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/cEvgcoyZvB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #####  Scientific Notation
 
@@ -440,7 +454,7 @@ so, technically 1, 2, 4, and 6 are all antiprime. But where it gets interesting 
 
 [Number Bases Strech the Mind (Hackaday)](https://hackaday.com/2021/01/01/number-bases-stretch-the-mind/)
 
-## 2 - Discrete Math
+## 2 - Discrete Math & Logic
 
 http://discrete.openmathbooks.org/dmoi3/
 
@@ -450,17 +464,63 @@ http://discrete.openmathbooks.org/dmoi3/
 
 https://en.wikipedia.org/wiki/List_of_mathematic_operators
 
+### Logic
+
+#### Many Valued Logic
+
+#### Fuzzy Logic
+
+
+
 ## 3 - Geometry and Trigonometry
 
-### Very brief Geometry Lesson
+### Geometry
 
 #### Notation
 
 ∥, ⊥, 
 
-### Notation
+### Trigonometry
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/yBw67Fb31Cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Learning Trig playlist on YouTube by 'The Organic Chemistry Tutor'](https://www.youtube.com/playlist?list=PL0o_zxa4K1BVCB8iCVCGOES9pEF6byTMT)
 
 
+
+#### Notation
+
+
+
+## 3½ - Topology
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/AmgkSdhK4K8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< columns >}}
+
+<iframe width="100%" height="200" src="https://www.youtube.com/embed/_hjRvZYkAgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<--->
+
+<iframe width="100%" height="200" src="https://www.youtube.com/embed/AAsICMPwGPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /columns >}}
+
+But, this is supposed to be about engineering, so why do we need it?
+
+[TODO] topology optimization and generative design
+
+## 3¾ - Non-Euclidian Spaces
+
+
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/zQo_S3yNa2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Fractals
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/gB9n2gHsHN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/GiAj9WW1OfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 4 - Calculus
 
@@ -578,7 +638,13 @@ https://en.wikibooks.org/wiki/Signals_and_Systems
 
 [Tripple Pendulum on a Cart](https://www.youtube.com/watch?v=cyN-CRNrb3E&ab_channel=TobiasGl%C3%BCck) & [Inverted Pendulum on a Cart (Steve Brunton's Control Bootcamp on YouTube)](https://www.youtube.com/watch?v=qjhAAQexzLg&ab_channel=SteveBrunton)
 
-## 8 - Probability/Stats
+## 8 - Set Theory
+
+This video 
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/HeQX2HjkcNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 9 - Probability/Stats
 
 Why, where are these used, etc.
 
@@ -674,8 +740,33 @@ Gaussian Random Variables / Normal RVs (same thing)
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I did it. <a href="https://t.co/eMEmUw0HSY">pic.twitter.com/eMEmUw0HSY</a></p>&mdash; Zillion Ross (@ZillionRoss) <a href="https://twitter.com/ZillionRoss/status/1331387290887680000?ref_src=twsrc%5Etfw">November 25, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-TODO:
+### Chaos
 
-https://en.m.wikipedia.org/wiki/Logistic_map
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/fDek6cYijxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-https://en.wikipedia.org/wiki/Attractor
+{{< columns >}}
+
+<iframe width="100%" height="200" src="https://www.youtube.com/embed/idpOunnpKTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<--->
+
+<iframe width="100%" height="200" src="https://www.youtube.com/embed/ovJcsL7vyrk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /columns >}}
+
+
+
+### TODO
+
+https://en.wikipedia.org/wiki/Space_syntax, https://en.wikipedia.org/wiki/List_of_network_theory_topics
+
+Game Theory
+
+https://en.wikipedia.org/wiki/Directed_acyclic_graph
+
+CAS, Solvers, Sympy, https://github.com/Z3Prover/z3 → http://www.cs.toronto.edu/~victorn/tutorials/z3_SAT_2019/index.html & https://ericpony.github.io/z3py-tutorial/guide-examples.htm
+
+
+
+
+
