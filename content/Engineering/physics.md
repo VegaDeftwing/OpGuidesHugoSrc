@@ -42,3 +42,5 @@ This is still a dumping ground for things I want to write about later, nothing o
 ## 3 - Relativity and the Quantum
 
 Planck frequency, time, length
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/zcqZHYo7ONs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
