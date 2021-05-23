@@ -71,7 +71,7 @@ Obviously, for each thing done for you you've giving up more control, abstractin
 
 [Dropbox saved almost $75 million over two years by building its own tech infrastructure (GeekWire)](https://www.geekwire.com/2018/dropbox-saved-almost-75-million-two-years-building-tech-infrastructure/)
 
-[TODO] Service Level Agreements
+[TODO] Service Level Agreements, reallly cheap VPS, 
 
 ## Comparison of Vendors
 
