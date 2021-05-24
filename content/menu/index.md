@@ -8,90 +8,122 @@ headless: true
 
 </div>
 
-<p style="color:#009CDF;" >    Introduction</p>
+<p style="color:#009CDF;margin-bottom:0px;" >    Introduction</p>
 
-  - [ 0 - What is this?]({{< relref "/Engineering/Engineering" >}})
-  - [ Ⅰ - Community]({{< relref "/Engineering/community" >}})  
-  - [ Ⅱ - Learn How to Learn]({{< relref "/Engineering/howtolearn" >}})
+<div class="progress-ww">
+<dl>
+<dt>0 </dt><dd> <a href="/engineering/engineering/">What is this?</a></dd>
+<dt>Ⅰ </dt><dd> <a href="/engineering/intro/community/">Community</a></dd>
+<dt>Ⅱ </dt><dd> <a href="/engineering/intro/howtolearn/">Learn How to Learn</a></dd>
+</dil>
+</div>
 
-<p style="color:#009CDF;" >    Linux & Your Computer</p>
+<p style="color:#009CDF;margin-bottom:0px;" >    Linux & Your Computer</p>
 
-  - [ 1 - The First Goal]({{< relref "/Engineering/firstgoal" >}})
-  - [ 2 - Installing Arch Linux]({{< relref "/Engineering/arch" >}})
-  - [ 3 - Into The Hardware]({{< relref "/Engineering/hardware" >}})
-  - [ 4 - The *Root* of Things]({{< relref "/Engineering/linuxdirtree" >}})
-  - [ 5 - Working on *How* we work]({{< relref "/Engineering/howwework" >}})
-  - [ 5½- Git]({{< relref "/Engineering/git" >}})
-  - [A1 - Using The Linux Shell]({{< relref "/Engineering/linuxshell" >}})
+<div class="progress-ww">
+<dl>
+<dt>1 </dt><dd> <a href="/engineering/linux/firstgoal/">The First Goal</a></dd>
+<dt>2 </dt><dd> <a href="/engineering/linux/arch/">Installing Arch Linux</a></dd>
+<dt>3 </dt><dd> <a href="/engineering/linux/hardware/">Into The Hardware</a></dd>
+<dt>4 </dt><dd> <a href="/engineering/linux/linuxdirtree/">The First Goal</a></dd>
+<dt>5 </dt><dd> <a href="/engineering/linux/howwework/">Working on <i>How</i> we work</a></dd>
+<dt>5½</dt><dd> <a href="/engineering/linux/git/">Git</a></dd>
+<dt>A1 </dt><dd> <a href="/engineering/linux/linuxshell/">Using The Linux Shell</a></dd>
+</dil>
+</div>
 
-<p style="color:#009CDF;" >    Prerequisites</p>
+<p style="color:#009CDF;margin-bottom:0px;" >    Prerequisites</p>
 
-  - [6 - Math]({{< relref "/Engineering/math" >}})
-  - [6½- Units]({{< relref "/Engineering/units" >}})
-  - [7 - Physics]({{< relref "/Engineering/physics" >}})
-  - [8 - Chemistry]({{< relref "/Engineering/chem" >}})
-  - [9 - 'The Rest']({{< relref "/Engineering/othersubjects" >}})
+<div class="progress-ww">
+<dl>
+<dt>6 </dt><dd> <a href="/engineering/math/math/">Math</a></dd>
+<dt>6½</dt><dd> <a href="/engineering/math/units/">Units</a></dd>
+<dt>7 </dt><dd> <a href="/engineering/prereq/physics/">Physics</a></dd>
+<dt>8 </dt><dd> <a href="/engineering/prereq/chem/">Chemistry</a></dd>
+<dt>9 </dt><dd> <a href="/engineering/prereq/othersubjects/">'The Rest'</a></dd>
+</dil>
+</div>
 
-<p style="color:#009CDF;" >    Programming</p>
+<p style="color:#009CDF;margin-bottom:0px;" >    Programming</p>
 
-  - [10 - Let's Write Some Code]({{< relref "/Engineering/codeintro" >}})
-  - [10½- Consequences]({{< relref "/Engineering/consequences" >}})
-  - [11 - Low Level Programming]({{< relref "/Engineering/lowlvl" >}})
-  - [11½- FOSS & Copyright]({{< relref "/Engineering/fosscopyright" >}})
-  - [12 - Yet More Programming]({{< relref "/Engineering/codecont" >}})
-  - [12½- Fixing Issues]({{< relref "/Engineering/fixxingissuses" >}})
-  - [13 - Programming Languages]({{< relref "/Engineering/languages" >}})
-  - [14 - Algorithms and More]({{< relref "/Engineering/algorithms" >}})
-  - [15 - Writing a Big Program]({{< relref "/Engineering/bigprog" >}})
-  - [16 - Debugging, CI & CD]({{< relref "/Engineering/debugbuildtest" >}})
-  - [17 - We've Got Cores!]({{< relref "/Engineering/multithread" >}})
-  - [18 - Graphical Programming]({{< relref "/Engineering/guiprog" >}})
-  - [19 - Game Programming]({{< relref "/Engineering/game" >}})
-  - [20 - (((())(()((()(()))))))]({{< relref "/Engineering/funcprog" >}})
-  - [21 - Fine, here's AI/ML]({{< relref "/Engineering/aiml" >}})
+<div class="progress-ww">
+<dl>
+<dt>10 </dt><dd> <a href="/engineering/programming/codeintro/">Let's Write Some Code</a></dd>
+<dt>10½</dt><dd> <a href="/engineering/programming/consequences/">Consequences</a></dd>
+<dt>11 </dt><dd> <a href="/engineering/programming/lowlvl/">Low Level Programming</a></dd>
+<dt>11½</dt><dd> <a href="/engineering/programming/fosscopyright/">FOSS & Copyright</a></dd>
+<dt>12 </dt><dd> <a href="/engineering/programming/codecont/">Yet More Programming</a></dd>
+<dt>12½</dt><dd> <a href="/engineering/programming/fixxingissuses/">Fixing Issues</a></dd>
+<dt>13 </dt><dd> <a href="/engineering/programming/languages/">Programming Languages</a></dd>
+<dt>14 </dt><dd> <a href="/engineering/programming/algorithms/">Algorithms and More</a></dd>
+<dt>15 </dt><dd> <a href="/engineering/programming/bigprog/">Writing a Big Program</a></dd>
+<dt>16 </dt><dd> <a href="/engineering/programming/debugbuildtest/">Debugging, CI & CD</a></dd>
+<dt>17 </dt><dd> <a href="/engineering/programming/multithread/">We've Got Cores!</a></dd>
+<dt>18 </dt><dd> <a href="/engineering/programming/guiprog/">Graphical Programming</a></dd>
+<dt>19 </dt><dd> <a href="/engineering/programming/game/">Game Programming</a></dd>
+<dt>20 </dt><dd> <a href="/engineering/programming/funcprog/">(((())(()((()(()))))))</a></dd>
+<dt>21 </dt><dd> <a href="/engineering/programming/aiml/">Fine, here's AI/ML</a></dd>
+</dil>
+</div>
 
-<p style="color:#009CDF;" >    Circuits</p>
+<p style="color:#009CDF;margin-bottom:0px;" >    Circuits</p>
 
-  - [22 - Circuits! ]({{< relref "/Engineering/circuits1" >}})
-  - [23 - Semiconductors]({{< relref "/Engineering/circuits2" >}})
-  - [24 - Digital Logic]({{< relref "/Engineering/digitallogic" >}})
-  - [25 - Embedded Systems]({{< relref "/Engineering/embedded" >}})
-  - [26 - Let's Make our own PCB]({{< relref "/Engineering/pcb" >}})
+<div class="progress-ww">
+<dl>
+<dt>22 </dt><dd> <a href="/engineering/circuits/circuits1/">Circuits!</a></dd>
+<dt>23 </dt><dd> <a href="/engineering/circuits/circuits2/">Semiconductors</a></dd>
+<dt>24 </dt><dd> <a href="/engineering/circuits/digitallogic/">Digital Logic</a></dd>
+<dt>25 </dt><dd> <a href="/engineering/circuits/embedded/">Embedded Systems</a></dd>
+<dt>26 </dt><dd> <a href="/engineering/circuits/pcb/">Let's Make our own PCB</a></dd>
+</dil>
+</div>
 
-<p style="color:#009CDF;" >    Going Deeper</p>
+<p style="color:#009CDF;margin-bottom:0px;" >    Going Deeper</p>
 
-  - [27 - Compilers & Assemblers]({{< relref "/Engineering/compileassemble" >}})
-  - [28 - Programmable Logic]({{< relref "/Engineering/fpga1" >}})
-  - [29 - Let's Make our own CPU]({{< relref "/Engineering/comparch" >}})
+<div class="progress-ww">
+<dl>
+<dt>27 </dt><dd> <a href="/engineering/deeper/compileassemble/">Compilers & Assemblers</a></dd>
+<dt>28 </dt><dd> <a href="/engineering/deeper/fpga1/">Programmable Logic</a></dd>
+<dt>29 </dt><dd> <a href="/engineering/deeper/comparch/">Let's Make our own CPU</a></dd>
+</dil>
+</div>
 
-<p style="color:#009CDF;" >    Networking & Servers</p>
+<p style="color:#009CDF;margin-bottom:0px;" >    Networking & Servers</p>
 
-  - [30 - Networking]({{< relref "/Engineering/networking" >}})
-  - [31 - Servers!]({{< relref "/Engineering/servers" >}})
-  - [31½- "The Cloud"]({{< relref "/Engineering/cloud" >}})
-  - [32 - Databases]({{< relref "/Engineering/databases" >}})
-  - [33 - Security & Exploitation]({{< relref "/Engineering/security" >}})
-  - [33½- Privacy]({{< relref "/Engineering/privacy" >}})
+<div class="progress-ww">
+<dl>
+<dt>30 </dt><dd> <a href="/engineering/networking/networking/">Networking</a></dd>
+<dt>31 </dt><dd> <a href="/engineering/networking/servers/">Servers!</a></dd>
+<dt>31½</dt><dd> <a href="/engineering/networking/cloud/">"The Cloud"</a></dd>
+<dt>32 </dt><dd> <a href="/engineering/networking/databases/">Databases</a></dd>
+<dt>33 </dt><dd> <a href="/engineering/networking/security/">Security & Exploitation</a></dd>
+<dt>33½</dt><dd> <a href="/engineering/networking/privacy/">Privacy</a></dd>
+</dil>
+</div>
 
 <!--  - [24 - ]({{< relref "/Engineering/24-" >}}) -->
 
-<p style="color:#009CDF;" >    Making and Hobbies</p>
+<p style="color:#009CDF;margin-bottom:0px;" >    Making and Hobbies</p>
 
-  - [34 - 3D Printing & CNC]({{< relref "/Engineering/3dprint" >}})
-  - [35 - Ham Radio]({{< relref "/Engineering/hamradio" >}})
-  - [36 - Computer History]({{< relref "/Engineering/history" >}})
+<div class="progress-ww">
+<dl>
+<dt>34 </dt><dd> <a href="/engineering/making/3dprint/">3D Printing & CNC</a></dd>
+<dt>35 </dt><dd> <a href="/engineering/making/hamradio/">Ham Radio</a></dd>
+<dt>36 </dt><dd> <a href="/engineering/making/history/">Computer History</a></dd>
+</dil>
+</div>
 
-<p style="color:#009CDF;" >    Wrapping Up</p>
+<p style="color:#009CDF;margin-bottom:0px;" >    Wrapping Up</p>
 
-  - [37 - Where next?]({{< relref "/Engineering/wrappingup" >}})
-
-
-  - [A2 - Cheat Sheets & Libraries]({{< relref "/Engineering/cheat" >}})
-    <!--  - [A3 - Bill Of Materials]({{< relref "/Engineering/a3-bom" >}}) -->
-  - [A3 - Other Great Resources]({{< relref "/Engineering/resources" >}})
-  - [A4 - Getting a Job]({{< relref "/Engineering/job" >}})
-  - [A5 - {{< katex >}}\LaTeX{{< /katex >}} & Markdown]({{< relref "/Engineering/latex" >}})
-
+<div class="progress-ww">
+<dl>
+<dt>37 </dt><dd> <a href="/engineering/wrappingup/wrappingup/">Where next?</a></dd>
+<dt>A2 </dt><dd> <a href="/engineering/wrappingup/cheat/">Cheat Sheets & Libraries</a></dd>
+<dt>A3 </dt><dd> <a href="/engineering/wrappingup/resources/">Other Great Resources</a></dd>
+<dt>A4 </dt><dd> <a href="/engineering/wrappingup/job/">Getting a Job</a></dd>
+<dt>A5 </dt><dd> <a href="/engineering/wrappingup/latex/">Markdown and LaTeX</a></dd>
+</dil>
+</div>
 
 ---
 
@@ -101,17 +133,21 @@ headless: true
 
 </div>
 
-  - [ 1 - Getting Started]({{< relref "Music/m1-gettingstarted" >}})
-  - [ 2 - Sound Sources]({{< relref "Music/m2-sources" >}})
-  - [ 3 - Theory]({{< relref "Music/m3-theory" >}})
-  - [ 4 - Effects]({{< relref "Music/m4-effects" >}})
-  - [ 5 - Mixing & Mastering]({{< relref "Music/m5-mixmaster" >}})
-  - [ 6 - Sequencing & MIDI]({{< relref "Music/m6-seqandmidi" >}})
-  - [ 7 - Instruments]({{< relref "Music/m7-instruments" >}})
-  - [ 8 - Software]({{< relref "Music/m8-musicsoft" >}})
-  - [ 9 - Hardware]({{< relref "Music/m9-musichard" >}})
-  - [A1 - Other Resources]({{< relref "Music/ma1-musicresources" >}})
-  - [A2 - Video]({{< relref "Music/ma2-video" >}})
+<div class="progress-ww">
+<dl>
+<dt>1 </dt><dd> <a href="/music/music-getting-started/">Getting Started</a></dd>
+<dt>2 </dt><dd> <a href="/music/sound-sources/">Sound Sources</a></dd>
+<dt>3 </dt><dd> <a href="/music/theory/">Theory</a></dd>
+<dt>4 </dt><dd> <a href="/music/effects/">Effects</a></dd>
+<dt>5 </dt><dd> <a href="/music/mix-and-master/">Mixing & Mastering</a></dd>
+<dt>6 </dt><dd> <a href="/music/sequencing-and-midi/">Sequencing & MIDI</a></dd>
+<dt>7 </dt><dd> <a href="/music/instruments/">Instruments</a></dd>
+<dt>8 </dt><dd> <a href="/music/music-software/">Software</a></dd>
+<dt>9 </dt><dd> <a href="/music/music-hardware/">Hardware</a></dd>
+<dt>A1 </dt><dd> <a href="/music/other-resources-music/">Other Resources</a></dd>
+<dt>A2 </dt><dd> <a href="/music/video/">Video</a></dd>
+</dil>
+</div>
 
 ---
 
@@ -121,28 +157,32 @@ headless: true
 
 </div>
 
-  - [ 1 - Basic Philosophy]({{< relref "Phil/p1-basic" >}})
-  - [ 2 - Logical Fallacies]({{< relref "Phil/p2-fallacy" >}})
-  - [ 3 - Arguments]({{< relref "Phil/p3-arguments" >}})
-  - [ 4 - Community Efforts]({{< relref "Phil/p4-community" >}})
-  - [ 5 - Community Idea Labs]({{< relref "Phil/p5-idealabs" >}})
-  - [ 6 - Education]({{< relref "Phil/p6-edu" >}})
-  - [ 7 - Labor and Compensation]({{< relref "Phil/p7-labor" >}})
-  - [ 8 - Copyright]({{< relref "Phil/p8-copyright" >}})
-  - [ 9 - Consumerism]({{< relref "Phil/p9-consumerism" >}})
-  - [10 - Law and Order]({{< relref "Phil/p10-lawandorder" >}})
-  - [11 - Infrastructure]({{< relref "Phil/p11-Infrastructure" >}})
-  - [12 - Environment]({{< relref "Phil/p12-environment" >}})
-  - [13 - Religion]({{< relref "Phil/p13-Religion" >}})
-  - [14 - Sex]({{< relref "Phil/p14-sex" >}})
-  - [15 - Medical]({{< relref "Phil/p15-medical" >}})
-  - [16 - Foriegn Involment]({{< relref "Phil/p16-foriegn" >}})
-  - [17 - Voting]({{< relref "Phil/p17-voting" >}})
-  - [18 - Freedoms and Rights]({{< relref "Phil/p18-freedoms" >}})
-  - [19 - Duties]({{< relref "Phil/p19-duties" >}})
-  - [20 - Internet]({{< relref "Phil/p20-internet" >}})
-  - [21 - Misc]({{< relref "Phil/p21-misc" >}})
-  - [A1 - Other Resources]({{< relref "Phil/pa1-other" >}})
+<div class="progress-ww">
+<dl>
+<dt>1 </dt><dd> <a href="/phil/basic-phil/">Basic Philosophy</a></dd>
+<dt>2 </dt><dd> <a href="/phil/fallacies/">Logical Fallacies+</a></dd>
+<dt>3 </dt><dd> <a href="/phil/arguments/">Arguments</a></dd>
+<dt>4 </dt><dd> <a href="/phil/community/">Community Efforts</a></dd>
+<dt>5 </dt><dd> <a href="/phil/idea-labs/">Community Idea Labs</a></dd>
+<dt>6 </dt><dd> <a href="/phil/education/">Education</a></dd>
+<dt>7 </dt><dd> <a href="/phil/labor/">Labor & Compensation</a></dd>
+<dt>8 </dt><dd> <a href="/phil/copyright/">Copyright</a></dd>
+<dt>9 </dt><dd> <a href="/phil/consumerism/">Consumerism</a></dd>
+<dt>10 </dt><dd> <a href="/phil/law-and-order/">Law & Order</a></dd>
+<dt>11 </dt><dd> <a href="/phil/infrastructure/">Infrasturcture</a></dd>
+<dt>12 </dt><dd> <a href="/phil/environment/">Environment</a></dd>
+<dt>13 </dt><dd> <a href="/phil/religion/">Religion</a></dd>
+<dt>14 </dt><dd> <a href="/phil/sex/">Sex</a></dd>
+<dt>15 </dt><dd> <a href="/phil/medical/">Medical</a></dd>
+<dt>16 </dt><dd> <a href="/phil/foriegn/">Foriegn Involvement</a></dd>
+<dt>17 </dt><dd> <a href="/phil/voting/">Voting</a></dd>
+<dt>18 </dt><dd> <a href="/phil/freedoms/">Freedoms & Rights</a></dd>
+<dt>19 </dt><dd> <a href="/phil/duties/">Duties</a></dd>
+<dt>20 </dt><dd> <a href="/phil/phil-and-the-internet/">Internet</a></dd>
+<dt>21 </dt><dd> <a href="/phil/phil-misc/">Misc</a></dd>
+<dt>A1 </dt><dd> <a href="/phil/phil-other/">Other Resources</a></dd>
+</dil>
+</div>
 
 ---
 
@@ -152,15 +192,19 @@ headless: true
 
 </div>
 
-  - [ 1 - Basics of Art]({{< relref "Design/d1-basics" >}})
-  - [ 2 - Analog Art]({{< relref "Design/d2-analog" >}})
-  - [ 3 - Digital Art]({{< relref "Design/d3-digtal" >}})
-  - [ 4 - UI/UX]({{< relref "Design/d4-uiux" >}})
-  - [ 5 - 3D]({{< relref "Design/d5-3D" >}})
-  - [ 6 - Generative Tools]({{< relref "Design/d6-gen" >}})
-  - [A1 - Other Resources]({{< relref "Design/da1-other" >}})
-  - [A2 - Inspirational Art]({{< relref "Design/da2-ia" >}})
-  - </div>
+<div class="progress-ww">
+<dl>
+<dt>1 </dt><dd> <a href="/design/basics/">Basics of Art</a></dd>
+<dt>2 </dt><dd> <a href="/design/analog-design/">Analog Art</a></dd>
+<dt>3 </dt><dd> <a href="/design/digital-design/">Digital Art</a></dd>
+<dt>4 </dt><dd> <a href="/design/ui/">UI/UX</a></dd>
+<dt>5 </dt><dd> <a href="/design/3d/">3D</a></dd>
+<dt>6 </dt><dd> <a href="/design/generative-art/">Generative Tools</a></dd>
+<dt>A1 </dt><dd> <a href="/design/design-other/">Other Resources</a></dd>
+<dt>A2 </dt><dd> <a href="/design/ia/">Inspirational Art</a></dd>
+<dt>A3 </dt><dd> <a href="/design/photo/">Photo</a></dd>
+</dil>
+</div>
 
 ---
 
@@ -170,11 +214,12 @@ headless: true
 
 </div>
 
-
-  - [   - Loial Otter]({{< relref "Interviews/loial" >}})
-  - [   - Soatok Dreamseeker]({{< relref "Interviews/soatok" >}})
-  - [   - Cadey Ratio]({{< relref "Interviews/CadeyRatio" >}})
-
+<div class="progress-ww">
+<dl>
+<dt> </dt><dd> <a href="/interviews/loial/">Loial Otter</a></dd>
+<dt> </dt><dd> <a href="/interviews/soatok/">Soatok Dreamseeker</a></dd>
+<dt> </dt><dd> <a href="/interviews/cadeyratio/">Cadey Ratio</a></dd>
+</dil>
 </div>
 
 ---
@@ -185,7 +230,11 @@ headless: true
 
 </div>
 
-* [   - Interesting Links]({{< relref "Other/funlinks" >}})
-* [   - Cool Hardware]({{< relref "Other/coolhardware" >}})
+<div class="progress-ww">
+<dl>
+<dt> </dt><dd> <a href="/other/funlinks/">Interesting Links</a></dd>
+<dt> </dt><dd> <a href="/other/coolhardware/">Cool Hardware</a></dd>
+</dil>
+</div>
 
 <br />

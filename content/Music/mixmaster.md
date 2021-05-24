@@ -4,6 +4,8 @@ slug: "Mix and Master"
 
 ---
 
+# Mixing & Mastering
+
 ## Mixers
 
 mixer front ends, preamps, etc. Software mixing, etc.
@@ -14,9 +16,11 @@ https://youlean.co/youlean-loudness-meter/
 
 talk about loudness and spotify
 
-## Mixing and Mastering
+## Mixing
 
 eq, pan, quadraphonic+
+
+## Mastering
 
 [Delay Always Means Phase Shift But Phase Shift Does Not Always Mean Delay (YouTube, Dan Worrall)](https://youtu.be/H3ZyaXgTqjM)
 
