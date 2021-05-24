@@ -34,7 +34,7 @@ Because writting those hugo shortcode tags (like  \{\{\< katex >}} \) can be a b
 
 It's still not the perfect development system. In a perfect world a lot of the experiance would be smoother. I'd love to be able to tell Typora how to handle the image directory problem and add custom logic for rendering the shortcodes. (actually, with enough time and CSS magic I *might* be able to do that, but It's not worth the effort)
 
-On the note of CSS- that has been a major pain point for me. Web dev is both easy and incedibly difficult. Doing it is actually pretty simple- CSS, HTML, and JS are pretty straight forward, there's plenty of resources online, and the webdev panels in both Firefox and Chome make trying changes live nice. On the other hand *ohmygod* is it a pain in the ass. You will have issues you couldn't possibly think of ahead of time. For example, one that I left in because it's funny is on the [Math]({{< relref "/Engineering/math" >}}) chapter where the digits of pi just overflow off the right edge of the screen <a class="ptr">(1)</a>, and sure, I think the site actually looks pretty good now, but there's still some outright disgusting outstanding issues. For exmaple, I'm using markdown tables,
+On the note of CSS- that has been a major pain point for me. Web dev is both easy and incedibly difficult. Doing it is actually pretty simple- CSS, HTML, and JS are pretty straight forward, there's plenty of resources online, and the webdev panels in both Firefox and Chome make trying changes live nice. On the other hand *ohmygod* is it a pain in the ass. You will have issues you couldn't possibly think of ahead of time. For example, one that I left in because it's funny is on the [Math]({{< relref "/Engineering/math/math" >}}) chapter where the digits of pi just overflow off the right edge of the screen <a class="ptr">(1)</a>, and sure, I think the site actually looks pretty good now, but there's still some outright disgusting outstanding issues. For exmaple, I'm using markdown tables,
 
 | like     | this      | table |
 | -------- | --------- | ----- |
@@ -42,7 +42,7 @@ On the note of CSS- that has been a major pain point for me. Web dev is both eas
 | display  | content   | it    |
 | probably | shouldn't | .     |
 
-This is most obvious in the [Generative Tools]({{< relref "Design/d6-gen" >}}) chapter of the Design section. The page has great content, but renders like a dumpster fire and I still don't know how to fix it cleanly. Probably something with CSS Grids but after repeated attempts to make something work I gave up, so at least for now it will remain as the dumpster fire it is.
+This is most obvious in the [Generative Tools]({{< relref "Design/gen" >}}) chapter of the Design section. The page has great content, but renders like a dumpster fire and I still don't know how to fix it cleanly. Probably something with CSS Grids but after repeated attempts to make something work I gave up, so at least for now it will remain as the dumpster fire it is.
 
 {{< tip >}}
 
@@ -73,4 +73,3 @@ http://shapecatcher.com is pretty much the same, but for unicode symbols.
     <li>like this one</li>
     <li>assuming you don't want to be a webdev for hire - if that's the case you should probably give more of a shit</li>
 </ol>
-

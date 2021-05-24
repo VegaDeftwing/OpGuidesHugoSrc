@@ -646,3 +646,32 @@ a {
     clip: rect(130px, 150px, 129px, 30px);
   }
 }
+
+.progress-ww {
+  text-align:left;
+}
+.progress-ww div {
+  display: flex;
+  padding:0 0 0 0px;
+}
+dl { 
+width: 100%;
+margin-top:0;
+}
+dt , dd {
+  display:inline-block;
+  vertical-align:top;
+  margin:0;
+  padding:12px 10px 0 0;
+  color: #fff;
+  font-size: small;
+}
+dt {
+  width: 17%;
+  text-align:right;
+}
+dd {
+  width: 80%;
+  text-align:left;
+}
+dt:after {content:'-';}

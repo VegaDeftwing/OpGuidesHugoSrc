@@ -43,7 +43,7 @@ These settings aren't necessarily the best for quality, but they should prevent 
 | [Metagroove (Itch.io)](https://marumari.itch.io/metagroove)  |                                                              |                                                              |
 | [Signalizer VST](https://www.jthorborg.com/index.html?ipage=signalizer) | Listed above in Free VSTs, but it's so good I'm listing it here again. An amazing VST Oscilliscope, Vectorscope, and general analysis tool, looks very good too. Has full screen modes. |                                                              |
 
-Note that most of the fancy music animations you see on YouTube are *probably* made in Adobe After Effects, with the exception of some that are done in programs like TouchDesigner or other node-based programming environments. You can read more about these in [Design Chapter 6 - Generative Tools]({{< relref "Design/d6-gen" >}})
+Note that most of the fancy music animations you see on YouTube are *probably* made in Adobe After Effects, with the exception of some that are done in programs like TouchDesigner or other node-based programming environments. You can read more about these in [Design Chapter 6 - Generative Tools]({{< relref "Design/gen" >}})
 
 Some people also use hardware such as the [Sleepy Circuits 'Hypno'](https://sleepycircuits.com/hypno) or [Critter & Guitari 'Eyesy'](https://www.critterandguitari.com/eyesy) - though both of these platforms are really just running a Raspberry Pi (a lil' computer) under the hood.
 

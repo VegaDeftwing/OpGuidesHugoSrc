@@ -100,7 +100,7 @@ I know what you're thinking "Vega, this guide is about engineering- why should I
 
 Because you'll still probably need to design enclosures, make easy to read documentation, and probably make a user interface or two, and bad design usually leads to both users not being interest in the first place *and* a poor user experience.
 
-So, even if you're not super into it, give the [Design Chapters]({{< relref "Design/d1-basics" >}}) a quick skim and look at the parts that seem relevant to you, you'll want to look at [Section 4 - UI/UX]({{< relref "Design/d4-uiux" >}}) for sure.
+So, even if you're not super into it, give the [Design Chapters]({{< relref "Design/basics" >}}) a quick skim and look at the parts that seem relevant to you, you'll want to look at [Section 4 - UI/UX]({{< relref "Design/uiux" >}}) for sure.
 
 If you'd like a good laugh, check out this video from Tantacrul roasting the poor design of *Sibelius*, a popular program for music notation
 

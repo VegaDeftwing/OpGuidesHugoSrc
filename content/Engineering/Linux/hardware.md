@@ -282,7 +282,7 @@ The CPU has a lot of dedicated hardware inside for specific functions, for examp
 
 ## Further Reading
 
-If you want to know about the internals of the CPU itself, check out [Chapter 29 - Let's Make our own CPU]({{< relref "/Engineering/comparch" >}}) which goes into the componets of the CPU, why they're made the way they are, and what the future of CPU architecture may look like.
+If you want to know about the internals of the CPU itself, check out [Chapter 29 - Let's Make our own CPU]({{< relref "/Engineering/deeper/comparch" >}}) which goes into the componets of the CPU, why they're made the way they are, and what the future of CPU architecture may look like.
 
 [Why you should use 'nproc' and not grep /proc/cpuinfo](https://www.flamingspork.com/blog/2020/11/25/why-you-should-use-nproc-and-not-grep-proc-cpuinfo/)
 
