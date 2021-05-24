@@ -4,7 +4,9 @@ slug: "Instruments"
 
 ---
 
-# Drums
+# Instruments
+
+## Drums
 
 [TODO] list of types of drums
 
@@ -16,7 +18,7 @@ TR808, syth, short ADSR, noise, snare, tom, kick, hat, clap, bell,
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/EFjZ1QaKHdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Strings
+## Strings
 
 guitar, lute, dulcimer, dual/single string, acoustic, electric, electroacoustic
 
@@ -30,7 +32,7 @@ https://grunfy.com/scaler.html
 
 [My New 18-String Hurdy-Gurdy (YouTube, Patty Gurdy)](https://www.youtube.com/watch?v=jgXmxQQW5F4)
 
-# Synths
+## Synths
 
 Modular, semi-modular, software
 

@@ -54,7 +54,7 @@ Frankly, I think that sums it up pretty well, and truth be told I don't think I 
 
 ## Birth Control
 
-
+[TODO] womens right to get a historectomy
 
 ## Gender, LGBT, & the term Queer
 

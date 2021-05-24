@@ -1,6 +1,6 @@
 ---
-title: "Religon"
-slug: "Religon"
+title: "Religion"
+slug: "Religion"
 
 ---
 

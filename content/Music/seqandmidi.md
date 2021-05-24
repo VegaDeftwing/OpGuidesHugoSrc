@@ -4,6 +4,8 @@ slug: "Sequencing and MIDI"
 
 ---
 
+# Sequencing & Midi
+
 ## Sequencing
 
 [TODO] 

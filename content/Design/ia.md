@@ -1,6 +1,6 @@
 ---
-title: "Design Intro"
-slug: "Design Intro"
+title: "Inspirational Artists"
+slug: "ia"
 
 ---
 

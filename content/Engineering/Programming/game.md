@@ -53,13 +53,17 @@ Heads up, not all 3d systems use the same coordinate systems. It's a bit of a pa
 
 {{< /hint >}}
 
-![CoOrd Systems](../../../../../../coordinatesystems.jpeg)
+![CoOrd Systems](/coordinatesystems.jpeg)
 
 
 
 ### Physics Engines
 
 https://github.com/erincatto/box2d
+
+## Netcode
+
+https://yal.cc/preparing-your-game-for-deterministic-netcode/
 
 
 ## Interesting ideas

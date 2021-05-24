@@ -40,7 +40,7 @@ There's a pretty big list of considerations you should keep in mind when what yo
 **Monetization**
 
 - How is copyright infringement handled?
-  - This gets *very* complicated, read more in  [Philosophy Ch.8 - Copyright]({{< relref "Phil/p8-copyright" >}})
+  - This gets *very* complicated, read more in  [Philosophy Ch.8 - Copyright]({{< relref "Phil/copyright" >}})
 - If something on what you're making is paid,  is [Purchasing Power Parity](https://en.wikipedia.org/wiki/Purchasing_power_parity) an option so that users in less fortunate areas can still have access?
   - If you know what you're making will be pirated, can you release a 'Here, but seriously please pay me' version?
 

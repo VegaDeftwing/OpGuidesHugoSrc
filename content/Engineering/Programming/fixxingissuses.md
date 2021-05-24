@@ -24,9 +24,9 @@ What are your conditions for success? Are you even testing for these conditions 
 
 For some reason a ton of programmers are allergic to their debuggers. There's more to life than print debugging. Set a break point. You can do it. I believe in you.
 
-see: [Print Debugging Should Go Away](https://robert.ocallahan.org/2021/04/print-debugging-should-go-away.html) and the tools recomended in it, like [rr](https://rr-project.org) - also refer back to Chapter 11, [Low Level Programming]({{< relref "/Engineering/lowlvl" >}}) where tools like valgrid were mentioned.
+see: [Print Debugging Should Go Away](https://robert.ocallahan.org/2021/04/print-debugging-should-go-away.html) and the tools recomended in it, like [rr](https://rr-project.org) - also refer back to Chapter 11, [Low Level Programming]({{< relref "/Engineering/programming/lowlvl" >}}) where tools like valgrid were mentioned.
 
-You may also want to skip ahead to Chapter 16, [Debugging, CI & CD]({{< relref "/Engineering/debugbuildtest" >}}).
+You may also want to skip ahead to Chapter 16, [Debugging, CI & CD]({{< relref "/Engineering/programming/debugbuildtest" >}}).
 
 ## Binary Search Debugging
 
