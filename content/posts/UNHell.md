@@ -2,12 +2,14 @@
 title: "Why did I pay to go to college?"
 slug: "whydidipay"
 author: "Vega Deftwing"
-date: 2021-03-22
+date: 2021-05-25
 draft: false
 tags:
 - personal
 - school
 ---
+
+{{< attribution >}}Post originally published March 22 of 2021, date above represents most recent edit {{< /attribution >}}
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/ac/Nebraska_Union.jpg)
 
@@ -339,13 +341,19 @@ If the quality of my professors and classes didn't piss me off before, this is t
 
 ## 9 - Senior+, Fall '20
 
+{{< hint warning >}}
+
+This semester was entirely done online due to COVID-19. All classes were taught live via Zoom.
+
+{{< /hint >}}
+
 * Electromagnetic Field Theory
 
   Not the worst professor I've had, but definitely the most useless. Literally just read the slides word for word for the entire semester, reading the equations for what they were, never explaining what the variable mean or giving context.
 
 * Probability Theory
 
-  Really good class. Because COVID and my bad heart, the prof let me take it online, so I just watched recording of lecture. This wasn't ideal obviously, but the prof still checked in regularly and the lectures were taught incredibly well.
+  Really good class. Because COVID and my bad heart, the prof let me take it online, so I just watched recording of lecture. This wasn't ideal obviously, but the prof still checked in regularly and the lectures were taught incredibly well. I did still have to take tests in person, but steps were taken to minimize my exposure
 
 * Software Engineering
 
@@ -375,27 +383,23 @@ If the quality of my professors and classes didn't piss me off before, this is t
 
 ## 10 - Senior+, Spring '21
 
-{{< tip >}}
+{{< hint warning >}}
 
-You are now at current time. My opinion of these courses may change as time passes.
+This semester was entirely done online due to COVID-19. Computer Architecture, Data and Network Security, and Numerical Analysis were taught live via Zoom while Into to Machine Learning was done asynchronously with recorded lectures, but did have a lot of calls with chosen group members for the semester long project. 
 
-{{< /tip >}}
+{{< /hint >}}
 
 * Computer Architecture
 
-  {{< hint warning >}}
-
-  Witholding comment until the end of the semester
-
-  {{< /hint >}}
+  This, from my understanding, was this professor's first time teaching. He actually did a pretty good job. The biggest problems came from weird expectations (homework deadlines were not great), extraordinarly hard homework compared to what was taught, and a lack of hands on labs/exercises like could be offered on an FPGA, by poking around in Linux, or using a simulator of some sort. Of course, this class was remote, so I can understand why these things were not done.
 
 * Data and Network Security
 
-  {{< hint warning >}}
+  This was not good. It was a lot of really basic cryptography (how does RSA work, etc.) with very little actually applied skills. I didn't really finish with any new knowledge. The tests and quizzes got really awkwardly specific about implementation details of some standards, yet I don't think most who took the class would know when to use what. Much of the information covered was either out of date or wrong, which resulted in me sending a lot of corrections in the Zoom chat. At one point another student complained I was using the chat as "the notifications are distracting" and so the professor mandated that questions and comments be sent to him directly, instead of to the class as a whole- actively discouraging participation.
 
-  Witholding comment until the end of the semester
+  The classed ended with a group project, for which my partner was entirely useless as he completely lacked the ability to program despite being a 3rd year CS student and also had no idea how to use {{< katex >}}\LaTeX{{< /katex >}} to write the paper or even how to find academic resources beyond knowing not to use sites that end in '.com'. 🤦
 
-  {{< /hint >}}
+  I learned more reading [Soatok's Blog](https://soatok.blog) than I did from this class.
 
 * Numerical Analysis
 
@@ -406,6 +410,10 @@ You are now at current time. My opinion of these courses may change as time pass
 * Into to Machine Learning
 
   <img src="/stressedclass.png" alt="stressedclass" style="zoom:75%;" />
+
+---
+  
+Right after my last final of the semester I was able to get my first dose of the COVID vaccine.
 
 # Conclusions
 
