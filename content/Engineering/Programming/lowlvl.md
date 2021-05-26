@@ -4,6 +4,8 @@
 
 [Ashlyn Black's C Cheat Sheet](https://cheatography.com/ashlyn-black/cheat-sheets/c-reference/)
 
+['C Programming' on badd10de.dev](https://badd10de.dev/notes/c-programming.html)
+
 ## Why C?
 
 This chapter of OpGuides will be mostly C, but, why? Well, there's only really a few options for learning low level programming that make sense to start with. C, C++, Rust are the 'big three' that come to mind for me. C is awesome. It's spec is small, it's been kept minimal, and it's got a ton of tools to help you learn. It forces you to know the low level, which in this case is great. C++ has grown into behemoth where any thing can be done in about a dozen different ways and each development team is effectively writing in their own dialect of C++. 

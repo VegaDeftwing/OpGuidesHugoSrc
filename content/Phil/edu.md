@@ -91,3 +91,7 @@ Apps, GoogleClassroom, etc
 [60% of School Apps are Sending Student Data to Potentially High-risk Third Parties Without Knowledge or Consent According to New Research from Me2B Alliance](https://me2ba.org/me2ba-product-testing-spotlight-report-published-data-sharing-in-primary-secondary-school-mobile-apps-2/) 
 
 [School or Prison](https://www.schoolprison.com) ([Comments on Hacker News](https://news.ycombinator.com/item?id=25605867))
+
+
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/mJBlgIA3K24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

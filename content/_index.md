@@ -64,11 +64,23 @@ Seriously, look at how poor of a value even a technical education is becoming as
 
 *except for 18y/o high school graduates that have been fed the line that college is necessary for them to have a fulfilling life and that their parents expect it from them
 
-I fell down that trap. College isn't worth it. But maybe I can use that education to give anyone who finds these guides a better one. Because of my college experience I do know what college gets right and wrong, what is covered and isn't. And, while I think I could have done a lot better on my own, it did serve as the catalyst. It gave me the terms to search, it pulled the curtain back just enough so that I could see some of the options. I hope that OpGuides can supplement your college education, that I can finish the job of opening the curtains to give you the full stage, to show you the things you missed or re-light that spark of passion for the same things that I'm passionate about yet college managed to turn into a dull delve into cryptic and dead yet far too expensive text books.
+I fell down that trap. College isn't worth it. But maybe I can use that education to give anyone who finds these guides a better one. Because of my college experience I do know what college gets right and wrong, what is covered and isn't. And, while I think I could have done a lot better on my own, it did serve as the catalyst. It gave me the terms to search, it pulled the curtain back just enough so that I could see some of the options. 
+
+If you are going to college, I hope that OpGuides can supplement your college education, that I can finish the job of opening the curtains to give you the full stage, to show you the things you missed or re-light that spark of passion for the same things that I'm passionate about yet college managed to turn into a dull delve into cryptic and dead yet far too expensive text books.
 
 OpGuides won't ever be a single resource and should never be in print. The reason I know I can do better is because instead of shying away from the internet and other resources for the sake of selling a book, I want to show them off and link to them. That's why I think I stand a chance of making something that can compete with college: I'm not alone, I'm a guide, showing you around the internet and introducing your to my other ~~totally not para-social relationships~~ friends.
 
 On the note of links, those that I think are a cut above the rest will have a lil' '<img src="/best.svg" width="20em" style="margin: 0px 6px 0px 0px;"/>'  symbol next to them to mark them as being particularly good resources.
+
+{{< columns >}}
+
+There's also just a point of being utterly pissed off at the quality of my eduaction (see <a href="/posts/whydidipay/">Why did I pay to go to college?</a>) and then seeing just how poor the quality of a formal education often is when compared to what is availble from YouTubers that have perfected making entertaining education that actually sticks with you. I think this segment, starting at 37:08, from this video touches on this well.
+
+<--->
+
+<iframe width="100%" height="240" src="https://www.youtube.com/embed/YCeKBf_3T6w?t=2228" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /columns >}}
 
 # Thank You!
 

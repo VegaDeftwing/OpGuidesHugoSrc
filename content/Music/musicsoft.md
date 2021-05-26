@@ -242,6 +242,12 @@ I previously maintained a 'best of' list for Norns scripts, but the community ha
 
 {{< /tip >}}
 
+{{< details "JSFX and Scripts for Reaper DAW" >}}
+
+https://github.com/JoepVanlier/JSFX
+
+{{< /details >}}
+
 **These 'plugins' only work on Monome's Norns hardware**
 
 [Segments Audio Looper](https://llllllll.co/t/segments-audio-looper-for-norns/32937)

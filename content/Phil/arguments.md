@@ -18,8 +18,11 @@ This is probably the primary motivating factor behind many of my political belie
 
 What we should do about this:
 
-* 
+* [TODO]
 
 [^2]: Though I think you can pretty much guess that I think given the Kellog's Fueled, anti sexual liberty history of Circumcision in the US I think it's bull shit. Further, I think prioritizing women for custody does make some sense as there is some biological context, but I've also seen, as the son of a family law attorney, how frequently this is the default even when the mother is most certainly not the most capable or loving parent. 
 
 [^egg]: Rawl's idea here is sorta kinda close to [The Egg](https://www.youtube.com/watch?v=h6fcK_fRYaI), a video from Kurzgesagt.
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/ATITdJg7bWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
