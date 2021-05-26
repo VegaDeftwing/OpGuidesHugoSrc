@@ -1,12 +1,30 @@
 # Chapter 5½ - Git.
 
+![](/arrow.svg)
+
 {{< best >}} [./missing-semester - Version Control](https://missing.csail.mit.edu/2020/version-control/) {{< /best >}}
+
+![](/arrowthis.svg)
 
 {{< tip >}}
 
-The above link does a better job of covering the vast majority of what I'd say than I could hope to put here. Just check it out.
+The above link does a better job of covering the vast majority of what I'd say than I could hope to put here. Just check it out. But do come back here!
 
 {{< /tip >}}
+
+Oh, hai! Welcome back.
+
+So, a lot of people conflate Git and Github, the largest git cloud service on the internet. This isn't totally without out reason: Github is actually super nice to use, and is often the only way a lot of people use git. For better or worse, you'll probably want to know how to use it and use it well.
+
+One of the first things you ~~should~~ have to do when using Github is setup authentication, that is a method for logging in from the command line so that you can push your changes in your code to Github's servers. For security reasons, you can't just use a password (This is a good thing) and instead need to setup key based authentication.
+
+I'm going to save the nitty gritty about how public-private key based authentication works for the <a href="/engineering/networking/security/">Security & Exploitation</a> chapter, but for now what you need to know is having a key pair will let you securely access git and ssh services on various servers, so we need to get keys setup.
+
+[TODO]
+
+
+
+---
 
 [Bit, an alternative git cli (Github)](https://github.com/chriswalz/bit)
 

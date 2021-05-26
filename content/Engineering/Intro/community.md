@@ -65,34 +65,35 @@ Oh, and to mention it now
 
 Yes, there is always a relevant XKCD, and yes, you will always feel like everyone knows more than you. Don't stress about asking stupid questions:
 
-> Frequently in chats, whether telegram, IRC, slack, or discord, someone says something like this:
-> 
-> <AnonOtter> Anyone know rust? Having an issue.
-> 
-> How that question is often read:
-> 
-> <AnonOtter> Can someone to commit to being able to solve my problem with rust, spending as much time as necessary, without them even knowing what the actual problem is or if it's even a rust problem?
-> 
-> Hopefully it's clear why questions like this rarely result in direct answers.
-> 
-> - There are very few people who could be called experts in every facet of whatever is being asked
-> - Imposter syndrome is common
-> - Most people won't write that blank check for time/help commitment
-> 
-> Instead, share:
-> 
-> - The goal - "Trying to query for a list of tags on a post" - See [The XY Problem](http://xyproblem.info/)
-> - The problem - "I'm getting back these results"
-> - The expectation - "but it should be these results"
-> - Any context or previous research you've done
-> - If possible, a simplified example. 3v4l for php, jsfiddle for html/js/css, etc. are great, otherwise a paste site.
-> - What you've already tried
-> 
-> This allows anyone there to try to help. Many skills transfer well to other languages or platforms. At minimum, you might get an idea for something you haven't tried yet. Sometimes you'll even solve your own problem while narrowing down the simplest possible test case.
-> 
-> Oh, and don't snark at well-intentioned answers. It's rude and discourages participation.
+{{< quote "https://bad.pet/q/" >}}
 
---from https://bad.pet/q/
+Frequently in chats, whether telegram, IRC, slack, or discord, someone says something like this:
+
+<AnonOtter> Anyone know rust? Having an issue.
+
+How that question is often read:
+
+<AnonOtter> Can someone to commit to being able to solve my problem with rust, spending as much time as necessary, without them even knowing what the actual problem is or if it's even a rust problem?
+
+Hopefully it's clear why questions like this rarely result in direct answers.
+ - There are very few people who could be called experts in every facet of whatever is being asked
+- Imposter syndrome is common
+- Most people won't write that blank check for time/help commitment
+
+Instead, share:
+
+- The goal - "Trying to query for a list of tags on a post" - See [The XY Problem](http://xyproblem.info/)
+- The problem - "I'm getting back these results"
+- The expectation - "but it should be these results"
+- Any context or previous research you've done
+- If possible, a simplified example. 3v4l for php, jsfiddle for html/js/css, etc. are great, otherwise a paste site.
+- What you've already tried
+
+This allows anyone there to try to help. Many skills transfer well to other languages or platforms. At minimum, you might get an idea for something you haven't tried yet. Sometimes you'll even solve your own problem while narrowing down the simplest possible test case.
+
+Oh, and don't snark at well-intentioned answers. It's rude and discourages participation.
+
+{{< /quote >}}
 
 The technical community can be ruthless with it comes to expecting people to have 'basic' knowledge sometimes, but don't let it get to you. I do want to provide some general ideas that, while not universally, are generally shared among the engineering and surrounding community:
 
