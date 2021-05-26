@@ -149,4 +149,40 @@
     font-size: $font-size-12;
     padding-bottom: 20px;
   }
+
+div.quote, tr:nth-child(2n) {
+	background-color: #00000033;
+}
+
+div.quote {
+	border-bottom-right-radius: 2px;
+	border-left: 4px solid #777;
+	border-top-right-radius: 2px;
+	margin: 2em 0;
+	padding: 12px 24px 12px 30px;
+	position: relative
+}
+
+div.quote:before {
+	background-color: #222;
+	border-radius: 100%;
+	color: #fff;
+	content: "\"";
+	font-family: Dosis, Source Sans Pro, Helvetica Neue, Arial, sans-serif;
+	font-size: 44px;
+	font-weight: 700;
+	left: -12px;
+	line-height: 44px;
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	text-align: center;
+}
+
+
+
+div.quote em {
+	color: #fff
+}
+
 }

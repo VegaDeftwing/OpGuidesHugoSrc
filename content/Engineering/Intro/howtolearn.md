@@ -22,7 +22,11 @@ But try to take this lesson elsewhere, try renaming a .docx (word) file to a .zi
 
 Finally, there's
 
-> **Cunningham's Law** states "the best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer." ([source](https://meta.wikimedia.org/wiki/Cunningham's_Law))
+{{< quote "[Cunningham's Law](https://meta.wikimedia.org/wiki/Cunningham's_Law) on Wikipedia" >}}
+
+**Cunningham's Law** states "the best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer." ([source](https://meta.wikimedia.org/wiki/Cunningham's_Law))
+
+{{< /quote >}}
 
 but note, you should keep in mind the standard warning that comes when first using `sudo` if you plan to use Cunningham's law to your advantage:
 

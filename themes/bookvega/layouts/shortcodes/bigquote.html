@@ -1,0 +1,12 @@
+<hr>
+<div style="display: block; width: 84%; text-align: center;margin-left: auto; margin-right: auto;">
+<p class="test {{ .Get 0 }}" style="font-size:1.2em;color:#ddd;"><i><b>"</b>
+    {{ .Inner | markdownify }}
+<b>"</b></i>
+</p>
+</div>
+<div style="display: block; width: 80%; margin-left: auto; margin-right: auto;">
+<p style="font-size:.85em;color:#aaa;"> 
+    - {{ .Get 0 | markdownify }}
+</div>
+<hr>
