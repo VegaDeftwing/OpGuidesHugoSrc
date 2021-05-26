@@ -370,6 +370,10 @@ As [Soatok](https://soatok.blog/2020/10/08/vanity-vendors-and-vulnerabilities/) 
 
 ---
 
+[TODO] https://paragonie.com/blog/2015/08/gentle-introduction-application-security
+
+
+
 ## Authentication & Authorization
 
 Authentication != Identity

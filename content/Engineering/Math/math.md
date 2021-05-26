@@ -283,6 +283,8 @@ where in the last option the bar implies the parentheses.
 
 ### Simplification
 
+[TODO] redo with https://github.com/airladon/FigureOne
+
 Before we can get to doing useful things with these operations, it helps to be proficient at simplifying an equation. For example say we have
 
 {{< katex >}}3x^2+3+(2-x)(4-x)+2=12+(3+(x*2))+2{{< /katex >}} before we ever solve for x, we'll want to turn this into something much easier to work with. When doing this, we need to make sure to keep the equality the same, that is if we had {{< katex >}}3+x=4{{< /katex >}} we need to not accidentally change it into {{< katex >}}3+x=5{{< /katex >}}, changing the answer.
@@ -368,6 +370,14 @@ then subtract 15 from both sides
 And now we're fully simplified. You **can't** combine the {{< katex >}}x^2{{< /katex >}} and x terms.
 
 This general process applies to any equation. It's like a little puzzle, you just want to take the complex equation you have, do the same thing to both sides or do the math that's internal to one side. Sometimes it's more complicated to do this. For example, you might need to square root both sides to "cancel out" both sides being squared, for example {{< katex >}}x^2=25{{< /katex >}} to {{< katex >}}\sqrt{x^2} = \sqrt{25}{{< /katex >}} to {{< katex >}}x=5{{< /katex >}}, but here this only works because we're square rooting everything on both sides.
+
+## Plotting functions
+
+[TODO]
+
+['Plotting' on Algorithm Archive](https://www.algorithm-archive.org/contents/plotting/plotting.html)
+
+
 
 ### Looking at some equations
 
@@ -590,7 +600,7 @@ Below is a 15 video series that totals a bit under 3 hours.
 
 [Romberg Integration](https://en.wikipedia.org/wiki/Romberg's_method)
 
-[Monte Carlo Method](https://en.wikipedia.org/wiki/Monte_Carlo_method)
+[Monte Carlo Method](https://en.wikipedia.org/wiki/Monte_Carlo_method) - [Algorithm Archive](https://www.algorithm-archive.org/contents/monte_carlo_integration/monte_carlo_integration.html)
 
 [Condition Number](https://en.wikipedia.org/wiki/Condition_number)
 
@@ -598,11 +608,13 @@ Below is a 15 video series that totals a bit under 3 hours.
 
 ## 7 - Signals & Systems
 
-{{< hint warning >}}
+{{< hint info>}}
 
-There's a ton of content available on Signals and Systems in Video form, but honestly I don't think any of it is great. The MIT OpenCourseWare series linked below is probably the best I can find, but it's also still only 480p
+Below is a 54 video series that totals around 13 hours
 
 {{< /hint >}}
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/playlist?list=PLOunECWxELQRYwsuj4BL4Hu1nvj9dxRQ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [MIT Signals and Systems Lectures (YouTube)](https://www.youtube.com/watch?v=-FHm2pQmiSM&list=PLUl4u3cNGP61kdPAOC7CzFjJZ8f1eMUxs&ab_channel=MITOpenCourseWare)
 
@@ -631,6 +643,10 @@ https://en.wikibooks.org/wiki/Signals_and_Systems
 [DSP Spreadsheet: The Goertzel Algorithm is Fourier's Simpler Cousin (Hackaday, Al Williams)](https://hackaday.com/2020/11/13/dsp-spreadsheet-the-goertzel-algorithm-is-fouriers-simpler-cousin/)
 
 [What does the Laplace Transform really tell us? (Zach Star, YouTube)](https://www.youtube.com/watch?v=n2y7n6jw5d0&ab_channel=ZachStar)
+
+[FFT on Algorithm Archive](https://www.algorithm-archive.org/contents/cooley_tukey/cooley_tukey.html)
+
+
 
 
 

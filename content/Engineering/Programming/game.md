@@ -39,11 +39,25 @@ https://www.riotgames.com/en/urf-academy/curriculum-guide
 [Bevy](https://bevyengine.org/news/bevy-0-3/) - "A refreshingly simple data-driven game engine built in Rust
 Free and Open Source Forever!"
 
+[A Minecraft clone in hyperbolic space](https://www.youtube.com/watch?v=K7BwHjs0Il0)
+
 {{< hint info >}}
 
 'Non Euclidean' is a super mathy term and I'm really into it, basically it just means that space doesn't quite work as you expect. The shortest distance between two points doesn't have to be a line, portals connecting spaces, walking in circles takes you new places, etc. [Here's a decent blog post about some](https://zenorogue.medium.com/non-euclidean-geometry-and-games-fb46989320d4).
 
 {{< /hint >}}
+
+There's also been some neat progress in the relm of voxel engines:
+
+{{< columns >}}
+
+<iframe width="100%" height=200 src="https://www.youtube.com/embed/8ptH79R53c0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<--->
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/i7vq-HY10hI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /columns >}}
 
 
 
