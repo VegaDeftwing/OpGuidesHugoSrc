@@ -1,15 +1,10 @@
 # Chapter 33½ - Your Guide to Privacy
 
----
+{{< bigquote "Edward Snowden, in his [Reddit AMA](https://www.reddit.com/r/IAmA/comments/36ru89/just_days_left_to_kill_mass_surveillance_under/crglgh2?utm_source=share&utm_medium=web2x&context=3)">}}
 
-<div style="display: block; width: 84%; text-align: center;margin-left: auto; margin-right: auto;">
-<p style="font-size:1.2em;color:#aaa;"><i><b>"</b>Arguing that you don't care about the right to privacy because you have <u>nothing to hide</u> is no different than saying you don't care about free speech because <u>you have nothing to say</u>.<b>"</b></i>
-</div>
-<div style="display: block; width: 80%; margin-left: auto; margin-right: auto;">
-<p style="font-size:.85em;color:#aaa;">- Edward Snowden, in his <a href="https://www.reddit.com/r/IAmA/comments/36ru89/just_days_left_to_kill_mass_surveillance_under/crglgh2?utm_source=share&utm_medium=web2x&context=3">Reddit AMA</a></p>
-</div>
+Arguing that you don't care about the right to privacy because you have <u>nothing to hide</u> is no different than saying you don't care about free speech because <u>you have nothing to say</u>.
 
----
+{{< /bigquote >}}
 
 Privacy online is a joke. No matter what you do, you're still going to be tracked so much that advertisers and the big tech companies (Facebook, Google, Microsoft, etc.) all know way more about you than you'd like. *Technically*, most of these companies will provide various opt-outs. Realistically, you shouldn't expect these to stop anyone. You can be 110% your data is being sold. So, what can you do?
 

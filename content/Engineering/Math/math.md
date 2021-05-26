@@ -578,6 +578,8 @@ Below is a 15 video series that totals a bit under 3 hours.
 
 ## 6½ - Numerical Analysis
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/YIfANKRmEu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 [Bisection Method](https://en.wikipedia.org/wiki/Bisection_method)
 
 [Newton's Method](https://en.wikipedia.org/wiki/Newton's_method)
