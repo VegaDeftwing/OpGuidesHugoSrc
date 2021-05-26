@@ -31,3 +31,6 @@
 
   * <img src="https://raw.githubusercontent.com/Ottercast/OtterCastAudioV2/main/images/4.jpeg" style="zoom:33%;" />
 
+* PinJig Soldering tool - failed kickstarter
+
+  <iframe width="100%" height="500" src="https://www.youtube.com/embed/o-9gB3QkQTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

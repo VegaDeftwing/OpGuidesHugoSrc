@@ -58,6 +58,8 @@ Calibration @ https://teachingtechyt.github.io/calibration.html
 
 [TODO] look into https://libfive.com/studio/ instead of OpenSCad as OpenSCad is full of problems
 
+[TODO] complient design, see [3D Printed Joystick Using Spherical Flexure Joint (Hackaday)](https://hackaday.com/2021/05/25/3d-printed-joystick-using-spherical-flexure-joint/)
+
 #### OpenSCad
 
 https://github.com/davidson16807/relativity.scad
@@ -95,3 +97,7 @@ https://www.prusaprinters.org/prints/7876-rotating-rings-toy
 [Fuckofftopus 2.0 (Thingiverse)](https://www.thingiverse.com/thing:2905334)
 
 [Motorized Scaly Gauntlet (Hackaday)](https://hackaday.com/2020/12/22/watch-this-scaly-gauntlets-hypnotizing-rippling-waves/)
+
+## 34.3 - Aluminum Extrusion
+
+[Getting started with Aluminum Extrusions (Hackaday)](https://hackaday.com/2021/05/25/getting-started-with-aluminum-extrusions/)

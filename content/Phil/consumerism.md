@@ -48,6 +48,17 @@ TODO: individually wrapped wastes of money for holidays makes me feel gross
 
 ### Planned obsolescence, Right to repair
 
+---
+
+<div style="display: block; width: 84%; text-align: center;margin-left: auto; margin-right: auto;">
+<p style="font-size:1.2em;color:#aaa;"><i><b>"</b>To refuse to inform yourself about the basic operation and maintenance of the equpment you depend on was to passively accept that tyranny and agree to its terms: when your equipment works, you'll work, but when your equipment breaks down you'll break down, too. Your posessions would possess you.<b>"</b></i>
+</div>
+<div style="display: block; width: 80%; margin-left: auto; margin-right: auto;">
+    <p style="font-size:.85em;color:#aaa;">- Edward Snowden, in his book <i>Permanant Record</i></p>
+</div>
+
+---
+
 ### Anti-consumer practices
 
 https://dvt.name/2020/02/24/rfc-lets-disrupt-dating-apps/
@@ -57,6 +68,8 @@ https://dvt.name/2020/02/24/rfc-lets-disrupt-dating-apps/
 This video from Tom Scott provides a ton of background information and makes some really good points
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/L-x8DYTOv7w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Avoiding the Frigid Hellscape of Online Marketing (Soatok's Blog)](https://soatok.blog/2021/05/18/avoiding-the-frigid-hellscape-of-online-marketing/)
 
 #### Native Ads
 

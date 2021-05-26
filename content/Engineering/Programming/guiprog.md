@@ -1,5 +1,7 @@
 # Chapter 18 - Graphical Programming
 
+[TODO] [Graphics Programming on badd10de.dev](https://badd10de.dev/notes/graphics-programming.html)
+
 Let's start in a way that's incredibly simple, and abstract away all the hard stuff at first by using a tool kit called 'Processing', which is available under that name from the community repo in arch. The default IDE that comes with it is awful to work in though, so go ahead and open up VSCode and grab the [Processing Language](https://marketplace.visualstudio.com/items?itemName=Tobiah.language-pde) add on, then in VSCode open up a new workspace folder and make a file called processing.pde, then open VSCode's command pallete (CTRL+Shift+P) and run 'Processing: create task file', after that you'll want to open the tasks.json file and change the `command:` line to have `"command": "/usr/bin/processing-java",` after that you can easily try new code just by re-building project the project with CTRL+Shift+B
 
 Alright, setup out of the way, let's code! One of my first projects in processing was to make a [Topographic Map](https://en.wikipedia.org/wiki/Topographic_map), looking generator because I just find them quite visually appealing.
@@ -58,6 +60,12 @@ Before going further let's copy and paste the code into VSCode and run it:
 C++ from scratch, JS electron app, Processing creative coding, Python Kivy or similar, Flutter (google lang), shaders (graphical editors), nimp, ronin, Nuklear
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/eED4bSkYCB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+26 video playlist from Aaron Lanterman, a Georgia Tech professor
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/videoseries?list=PLOunECWxELQQwayE8e3WjKPJsTGKknJ8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GP-GPU
 
