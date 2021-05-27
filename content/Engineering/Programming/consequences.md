@@ -6,9 +6,11 @@ Programming is awesome. If you get into creative coding you'll be able to use it
 
 There's a pretty big list of considerations you should keep in mind when what you're making starts to grow in impact, but honestly most of them just come down to being an empathetic, good person as best you can.
 
-{{< columns >}}
+---
 
-**User Data & Privacy**
+{{< columns3 >}}
+
+##### **User Data & Privacy**
 
 * Is user data secure?
 * Do users have control over their data?
@@ -19,7 +21,9 @@ There's a pretty big list of considerations you should keep in mind when what yo
 * Is there an open API?
   * Maybe what you're making can't be open, but interaction could be. Sorta like having 3rd party Twitter or Reddit apps.
 
-**Development Considerations**
+---
+
+##### **Development Considerations**
 
 * Does it rely on other tools or libraries that don't follow these ideals?
   * *ᶜᵒᵘᵍʰ* Windows *ᶜᵒᵘᵍʰ*
@@ -28,7 +32,9 @@ There's a pretty big list of considerations you should keep in mind when what yo
   * Have you given funding to any of those tools, if you're making money off of them?
   * Have you contributed code to any of them?
 
-**Localization**
+---
+
+#####  **Localization**
 
 * Can users of other in other regions still use it?
 * Qwerty isn't standard everywhere, neither is left-to-right text.
@@ -37,7 +43,9 @@ There's a pretty big list of considerations you should keep in mind when what yo
   * Not all illegal services are morally wrong- take [Sci-Hub](https://en.wikipedia.org/wiki/Sci-Hub) for example.
 * Does it force units of measurement?
 
-**Monetization**
+---
+
+##### **Monetization**
 
 - How is copyright infringement handled?
   - This gets *very* complicated, read more in  [Philosophy Ch.8 - Copyright]({{< relref "Phil/copyright" >}})
@@ -46,7 +54,7 @@ There's a pretty big list of considerations you should keep in mind when what yo
 
 <--->
 
-**User Experience**
+##### **User Experience**
 
 * Can differently-abled people still use it?
   * <p style="background: -webkit-linear-gradient(90deg, #F00, #0F0); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"> Color Blindness? </p>
@@ -54,11 +62,14 @@ There's a pretty big list of considerations you should keep in mind when what yo
     * check out this [color blindness simulator (color-blindness.com)](https://www.color-blindness.com/coblis-color-blindness-simulator/)
 
   * Deaf?
+  
   * Bad vision?
     
     *  <p style="font-size:.3em"> super tiny text </p>
+    
   * Motion? Flashing Lights? Light sensitivity? 
   
+
 * Are the elements of interaction standard / automatable
   
   * This largely ties into differently-abled access
@@ -73,7 +84,9 @@ There's a pretty big list of considerations you should keep in mind when what yo
 
   * Don't use stupid [progress bars](https://web.eecs.utk.edu/~azh/blog/fixprogressbars.html)
 
-**Social Duties**
+---
+
+##### **Social Duties**
 
 - Can it be used for Hate Speech? Spreading misinformation?
   - How does content moderation work?
@@ -86,7 +99,9 @@ There's a pretty big list of considerations you should keep in mind when what yo
 - Does it assume binary sex/gender fields? Does it assume Hetro relationships?
   - [36C3 ChaosWest: "Hello, I'm your Edge Case!"](https://www.youtube.com/watch?v=nMTNatBC4mI)
 
-{{< /columns >}}
+{{< /columns3 >}}
+
+---
 
 Here's a nice video from TomScott on this topic:
 

@@ -1,4 +1,4 @@
-# Chapter 4 - Back to the Root of Things
+# Chapter 4 - Getting Rooted In Linux
 
 We've been using file in /proc and /dev throughout this, but we never really looked to see what else is in there. Let's do that.
 

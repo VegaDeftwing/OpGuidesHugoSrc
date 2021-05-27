@@ -4,7 +4,7 @@ One of the nifty things about Linux is you don't need to install extra software 
 
 ## The CPU
 
-<img src="/cpus.jpg" alt="CPUS" height="400em">
+<img class="center" src="/cpus.jpg" alt="CPUS" height="400em">
 
 These are CPUS or Central Processing Units. They're the beating heart of your computer, doing the day-to-day number crunching. The rectangular one of one of the first CPU's in the lineage leading up to CPU's like the ones used in desktop's today, with further successors shown in order from top left to the bottom right. The metal-capped one at the bottom right, while old, is visually quite representative of a modern desktop CPU, though the CPUs in a laptop or smart phone do look quite different still.
 
@@ -65,7 +65,7 @@ Each of these things is very important, but I'm going to start with cpu MHz as i
 
 ### Clock Speed
 
-<img src="/transistor.jpg" alt="Transistors" height="400em">
+<img class="center" src="/transistor.jpg" alt="Transistors" height="400em">
 
 However, to get to that we've gotta go just a bit further down the rabbit hole to the relay. Relays are super simple to understand, they're just a metal switch that is pulled open or closed using another input signal (usually a magnet pulling/pushing the switch closed/open) basically imagine a light switch, where the switch itself is controlled by yet another electrical signal. Relays are slow though, they require a physical metal plate to move to change the connection. Because of this they have limited reliability and worth note they're actually loud. You can hear an audible click of the switch as they change state.
 
@@ -415,7 +415,7 @@ Row Hammer is vulnrability that arrieses due to the way memory is arranged physi
 
 ## The Motherboard
 
-<img src="/mobo.jpg" alt="Motherboard" height="700em">
+<img class="center" src="/mobo.jpg" alt="Motherboard" height="700em">
 
 This is an older motherboard, but still new enough to have modern parts. Let's start by looking at the the most obvious physical features and move to smaller things from there.
 
@@ -626,7 +626,7 @@ Finally, it's notable that the chipset typically acts as a PCIe lane 'splitter' 
 
 ### Expansion slots
 
-<img src="/pciep.jpg" alt="pci expansion" height="500em">
+<img class="center" src="/pciep.jpg" alt="pci expansion" height="500em">
 
 > Two PCI-e 1x expansion cards, one for USB 3.0 and one for audio. Of note, most modern motherboards have both functions built in.
 
