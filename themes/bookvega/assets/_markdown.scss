@@ -21,6 +21,7 @@
     margin-top: 1.5em;
     margin-bottom: $padding-16;
     text-align: center;
+    text-shadow: 2px 3px 2px rgba(0,0,0,0.8);
 
     a.anchor {
       opacity: 0;
@@ -41,12 +42,28 @@
     font-weight: bolder;
   }
 
+  h1 {
+    font-size: 2.2em;
+  }
+
+  h2 {
+    font-size: 1.7em;
+  }
+
+  h3 {
+    font-size: 1.4em;
+  }
+
+  h4 {
+    font-size: 1.2em;
+  }
+
   h5 {
-    font-size: 0.875em;
+    font-size: 1.1em;
   }
 
   h6 {
-    font-size: 0.75em;
+    font-size: 1em;
   }
 
   b,

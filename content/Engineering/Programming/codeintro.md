@@ -121,7 +121,7 @@ http://composingprograms.com
 
 -->
 
-<img src="/python.png" alt="Py Logo" height="200em">
+<img class="center" src="/python.png" alt="Py Logo" height="200em">
 
 [TODO] Why start with python
 
