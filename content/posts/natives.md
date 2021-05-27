@@ -69,7 +69,7 @@ Sure, some things may be *slightly* more obvious to someone who grew up with the
 
 Hell, a ton of people my age have never seen a terminal and never typed a command. Similarly, a lot of people of the older generations have never use Snapchat or TikTok<a class="ptr">(1)</a> or Tinder<a class="ptr">(2)</a>. This plays into stereotypes too. Not every young person sits on social media, spends their time at coffee shops swiping right endlessly, and religiously plays video games, and people over the age of thirty don't exclusively communicate via email. Having a different list of apps we use doesn't make us any more or less competent than you. Having used older tech doesn't make you more knowledgeable, especially if you haven't kept up to date. 
 
-I was extraordinary fortunate that my family bought a PC. How many kids now will grow up with only a small-screened Android device? Will future natives need to have been brought up with VR? Being a "digital native" is as much a class thing as anything else then.
+I was extraordinarily fortunate that my family bought a PC. How many kids now will grow up with only a small-screened Android device? Will future natives need to have been brought up with VR? Being a "digital native" is as much a class thing as anything else then.
 
 The term is stupid, claiming it for yourself is stupid, and assigning it to a generation is stupid.
 
