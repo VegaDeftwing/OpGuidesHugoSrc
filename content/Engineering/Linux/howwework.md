@@ -1,4 +1,4 @@
-# Chapter 5 - Let's work on how we work
+# Chapter 5 - Working on how we work
 
 ## The Terminal
 
