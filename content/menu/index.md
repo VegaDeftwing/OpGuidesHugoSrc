@@ -25,7 +25,7 @@ headless: true
 <dt>1 </dt><dd> <a href="/engineering/linux/firstgoal/">The First Goal</a></dd>
 <dt>2 </dt><dd> <a href="/engineering/linux/arch/">Installing Arch Linux</a></dd>
 <dt>3 </dt><dd> <a href="/engineering/linux/hardware/">Into The Hardware</a></dd>
-<dt>4 </dt><dd> <a href="/engineering/linux/linuxdirtree/">The First Goal</a></dd>
+<dt>4 </dt><dd> <a href="/engineering/linux/linuxdirtree/">Getting Rooted in Linux</a></dd>
 <dt>5 </dt><dd> <a href="/engineering/linux/howwework/">Working on <i>How</i> we work</a></dd>
 <dt>5½</dt><dd> <a href="/engineering/linux/git/">Git</a></dd>
 <dt>A1 </dt><dd> <a href="/engineering/linux/linuxshell/">Using The Linux Shell</a></dd>

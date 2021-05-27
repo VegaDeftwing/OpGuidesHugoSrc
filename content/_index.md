@@ -8,7 +8,7 @@ type: docs
 The biggest section of this site is [Opinionated Engineering]({{< relref "/Engineering/engineering" >}}),
 but that isn't to say [Opinionated Music]({{< relref "Music/gettingstarted" >}}), [Opinionated Design]({{< relref "Design/basics" >}}), and [Opinionated Philosophy]({{< relref "Phil/basic" >}}) aren't worth checking out too.
 
-You'll also find some other miscalculation stuff, such as [Interviews]({{< relref "Interviews/interviews" >}}), and [blog posts]({{< relref "posts" >}}).
+You'll also find some other miscellaneous stuff, such as [Interviews]({{< relref "Interviews/interviews" >}}), and [blog posts]({{< relref "posts" >}}).
 
 ---
 
