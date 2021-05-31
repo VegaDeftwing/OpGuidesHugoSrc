@@ -12,6 +12,45 @@ Some tools on this page are not-free. As such, I've tried to list prices as best
 
 {{< /tip >}}
 
+## Digital Audio Workstations+
+
+[TODO] what is a DAW
+
+[TODO] why are none of these good
+
+{{< hint info>}}
+
+Not everything in this list is a true DAW, some are more aptly called overgrown audio editors, but may be good enough for some users
+
+{{< /hint >}}
+
+| Name & Link                                                | Price                           | Description                                                  | Screenshot / Demo                |
+| ---------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------ | -------------------------------- |
+| [VCV Rack](https://vcvrack.com/)                           | Free                            |                                                              |                                  |
+| Reaper                                                     |                                 |                                                              |                                  |
+| [Bitwig-Studio](https://www.bitwig.com/overview/)          |                                 | Bitwig is a lot like Ableton, but has the neat idea of 'The Grid'- basically a little built in modular synth system. It's not like VCV, as it's a bit lower level but it can still be used for [Generative Music](https://www.youtube.com/watch?v=mu5A7QQbuho&feature=youtu.be&ab_channel=Sparvn%C3%A4tter) or [doing complex routing, like fading between effects](https://www.youtube.com/watch?v=bwi8rVXp-Q0&ab_channel=PolarityMusic). It also has really easy to use routable modulation, basically letting you drop an LFO, envelope, etc. onto any parameter of a VST. | https://www.bitwig.com/overview/ |
+| [Audacity](https://www.audacityteam.org)                   | Free                            | Not a full DAW, but super useful for trimming audio and quick fixes |                                  |
+| Renoise                                                    |                                 |                                                              |                                  |
+| Deflemask                                                  |                                 |                                                              |                                  |
+| Sunvox                                                     | Free on desktop, paid on mobile |                                                              |                                  |
+| FL-Studio                                                  |                                 |                                                              |                                  |
+| [Oscistudio](https://oscilloscopemusic.com/oscistudio.php) |                                 |                                                              |                                  |
+| Ableton Live                                               |                                 |                                                              |                                  |
+| Reason                                                     |                                 |                                                              |                                  |
+| GarageBand                                                 |                                 |                                                              |                                  |
+| Pro Tools                                                  |                                 |                                                              |                                  |
+| [Marabu](https://github.com/hundredrabbits/Marabu)         |                                 | "Marabu is a free and open-source music tracker built from [Soundbox](https://github.com/mbitsnbites/soundbox)." |                                  |
+
+**NOTE: this list is far from exhaustive. Instead, I've tried to list the main ones and some that I think are particularly cool.**
+
+Digital Audio Workstations or 'DAWs' come in many flavors, so let's look at the differences between the above in depth [TODO]
+
+Trackers, vs non liner, vs modular, etc.
+
+[TODO] 'Luna Recording System'
+
+[How To Ableton Like a Pro (YouTube)](https://www.youtube.com/watch?v=W8CMgThLpHc)
+
 ## Live Coding Tools
 
 | Name & Link                                                  | Description                                                  | Screenshot / Demo                                            |
@@ -33,33 +72,6 @@ Some tools on this page are not-free. As such, I've tried to list prices as best
 | [Extempore Lang](https://extemporelang.github.io)            | "Extempore is a programming language and runtime environment designed to support **cyberphysical programming**" |                                                              |
 | [Bespoke](https://github.com/awwbees/BespokeSynth)           | Software modular synth                                       | ![](https://github.com/awwbees/BespokeSynth/raw/master/screenshot-1.png) |
 | [Music Pattern Generator](https://github.com/hisschemoller/music-pattern-generator) | Music Pattern Generator is an app to create musical rhythms. It sends MIDI data, so it won’t make any sounds by itself. For that you need to connect it to MIDI soft- or hardware that can handle MIDI data to produce sound. | ![](https://github.com/hisschemoller/music-pattern-generator/raw/develop/assets/img/mpg-2_1-animation.gif) |
-
-## DAWs and almost-daws
-
-| Name & Link                                                | Description                                                  | Screenshot / Demo                |
-| ---------------------------------------------------------- | ------------------------------------------------------------ | -------------------------------- |
-| [VCV Rack](https://vcvrack.com/)                           |                                                              |                                  |
-| Reaper                                                     |                                                              |                                  |
-| [Bitwig-Studio](https://www.bitwig.com/overview/)          | Bitwig is a lot like Ableton, but has the neat idea of 'The Grid'- basically a little built in modular synth system. It's not like VCV, as it's a bit lower level but it can still be used for [Generative Music](https://www.youtube.com/watch?v=mu5A7QQbuho&feature=youtu.be&ab_channel=Sparvn%C3%A4tter) or [doing complex routing, like fading between effects](https://www.youtube.com/watch?v=bwi8rVXp-Q0&ab_channel=PolarityMusic). It also has really easy to use routable modulation, basically letting you drop an LFO, envelope, etc. onto any parameter of a VST. | https://www.bitwig.com/overview/ |
-| [Audacity](https://www.audacityteam.org)                   | Not a full DAW, but super useful for trimming audio and quick fixes |                                  |
-| Renoise                                                    |                                                              |                                  |
-| Deflemask                                                  |                                                              |                                  |
-| Sunvox                                                     |                                                              |                                  |
-| FL-Studio                                                  |                                                              |                                  |
-| [Oscistudio](https://oscilloscopemusic.com/oscistudio.php) |                                                              |                                  |
-| Ableton Live                                               |                                                              |                                  |
-| Reason                                                     |                                                              |                                  |
-| GarageBand                                                 |                                                              |                                  |
-| Pro Tools                                                  |                                                              |                                  |
-| [Marabu](https://github.com/hundredrabbits/Marabu)         | "Marabu is a free and open-source music tracker built from [Soundbox](https://github.com/mbitsnbites/soundbox)." |                                  |
-
-**NOTE: this list is far from exhaustive. Instead, I've tried to list the main ones and some that I think are particularly cool.**
-
-Digital Audio Workstations or 'DAWs' come in many flavors, so let's look at the differences between the above in depth [TODO]
-
-Trackers, vs non liner, vs modular, etc.
-
-[How To Ableton Like a Pro (YouTube)](https://www.youtube.com/watch?v=W8CMgThLpHc)
 
 ### VSTs and other Plugins
 
