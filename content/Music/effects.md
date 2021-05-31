@@ -44,6 +44,8 @@ This is probably the easiest to understand audio effect. Put simply, fade the vo
 
 Vibrato as an effect requires pitch shifting, which I suppose actually makes it akin to FM synthesis as in Chapter 2, regardless, it's as simple as applying a, typically subtle, pitch 'wobble' into the sound. On a guitar this may be done with a pedal but more simply just by bending the string back and forth with the fingers quickly or using a whammy bar. In eurorack or VCV you can just use the fm input and hook up an LFO
 
+If your signal doesn't have a way to directly modulate the frequency, it may be done by varying the time a signal takes to get though a delay line, simulating a doppler effect - see [Time-Varying Delay Effects](https://www.dsprelated.com/freebooks/pasp/Time_Varying_Delay_Effects.html) on DSPRelated.com for more about how this works.
+
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/JWWZK8KFp8I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Delay
@@ -211,6 +213,8 @@ Flanger works by taking a **very** short delay* which slowly modulated delay tim
 > The '[Pyramids](https://www.earthquakerdevices.com/pyramids)' Flanger pedal from Earthquaker Devices.
 
 ## Chorus
+
+Chorus does as the name implies, layering copies of the signal together to get a 'denser' sound. To be a chorus (and not just increase the volume) the copies are slightly pitch shifted, delayed, or otherwise modulated relative to one another. See - see [Time-Varying Delay Effects](https://www.dsprelated.com/freebooks/pasp/Time_Varying_Delay_Effects.html) on DSPRelated.com for more about how this works.
 
 ## Reverb
 

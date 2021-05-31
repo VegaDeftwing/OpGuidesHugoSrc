@@ -138,17 +138,19 @@ headless: true
 <dl>
 <dt>1 </dt><dd> <a href="/music/music-getting-started/">Getting Started</a></dd>
 <dt>2 </dt><dd> <a href="/music/sound-sources/">Sound Sources</a></dd>
-<dt>3 </dt><dd> <a href="/music/theory/">Theory</a></dd>
+<dt>3 </dt><dd> <a href="/music/instruments/">Instruments</a></dd>
 <dt>4 </dt><dd> <a href="/music/effects/">Effects</a></dd>
-<dt>5 </dt><dd> <a href="/music/mix-and-master/">Mixing & Mastering</a></dd>
-<dt>6 </dt><dd> <a href="/music/sequencing-and-midi/">Sequencing & MIDI</a></dd>
-<dt>7 </dt><dd> <a href="/music/instruments/">Instruments</a></dd>
-<dt>8 </dt><dd> <a href="/music/music-software/">Software</a></dd>
-<dt>9 </dt><dd> <a href="/music/music-hardware/">Hardware</a></dd>
+<dt>5 </dt><dd> <a href="/music/sequencing-and-midi/">Sequencing & MIDI</a></dd>
+<dt>6 </dt><dd> <a href="/music/music-software/">Software</a></dd>
+<dt>6½</dt><dd> <a href="/music/midi/">MIDI in Detail</a></dd>
+<dt>7 </dt><dd> <a href="/music/music-hardware/">Hardware</a></dd>
+<dt>8 </dt><dd> <a href="/music/theory/">Theory</a></dd>
+<dt>9 </dt><dd> <a href="/music/mix-and-master/">Mixing & Mastering</a></dd>
 <dt>A1 </dt><dd> <a href="/music/other-resources-music/">Other Resources</a></dd>
 <dt>A2 </dt><dd> <a href="/music/video/">Video</a></dd>
 </dil>
 </div>
+
 
 ---
 
