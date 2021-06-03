@@ -14,7 +14,85 @@ Some tools on this page are not-free. As such, I've tried to list prices as best
 
 ## Digital Audio Workstations+
 
-[TODO] what is a DAW
+A **D**igital **A**udio **W**orkstations is software that allows you to record and edit audio, host and play digital instruments, arrange the parts in a time line, and mix the audio together. The most common DAWs you'll see are Ableton Live (Often called just "Ableton" or "Live") and FL Studio, but there are plenty of other options as well, many of which are listed below.
+
+The definition of a DAW is a bit fuzzy, as tools like VCV Rack and Audacity- both of which we've seen previously- have features that make them very DAW like and can be used to make full tracks (assuming you have hardware instruments to record into Audacity)
+
+Before you look at this list I want to stress that every DAW has its issues.
+
+### Ableton Live
+
+Ableton Live isn't very stable (lacks plugin sandboxing), has a mediocre piano roll, makes modulation a bit of a pain. Its main feature is its popularity, as there is a ton of educational content, great hardware support, and a fair amount of Ableton specific plugins. As the name implies, it also works pretty well for live recording, and has the best audio stretching and quantization, meaning even if you play slightly out of time it's easy to fix.
+
+{{< columns3 >}}
+
+<p style="color:#77FF77;margin-bottom:0px;" >GOOD</p>
+
+---
+
+- Popular
+- Great hardware support
+- Access to Ableton only plugins - Including Max4Live
+- Great audio quantization
+
+<--->
+
+<p style="color:#FF4444;margin-bottom:0px;" >BAD</p>
+
+---
+
+* Piano Roll sorta sucks
+* Unstable (No plugin sandboxing)
+* M4L devices needed to do many basic things
+* Modulation is often awkward
+
+{{< /columns3 >}}
+
+### VCV
+
+**VCV** isn't really DAW, so lacks good ways to do automation and complex sequencing, at least without work arounds. For generative music, it's still probably your best bet.
+
+### Reaper
+
+**Reaper** is incredibly feature full and probably *technically* the best DAW but it's user interface is pretty bad and requires a lot of menu diving, to the point where in my opinion it's totally unusable. It does offer the ability to view what you've put into your piano roll as actual sheet music and It's hugely customizable, with multiple user-facing programming options- ReaScript and JSFX. If you're already a highly technical user and don't mind getting your hands dirty with code, need a sheet music view, or want something with incredibly low CPU overhead, Reaper is probably your best choice.
+
+### Audacity
+
+**Audacity**, like VCV, isn't a DAW. It's really just an audio editor. It's free and open source, and while the UI isn't great, you'll be hard pressed to find anything better for doing quick edits or recording in a few clips. Full songs *could* be made in audacity, but it's not made for that.
+
+### Reason
+
+**Reason** [TODO]
+
+### Renoise
+
+**Renoise** is a neat combination of a modern DAW and old school trackers. This means there is no classic piano roll, but instead the notes are entered as text into a vertical display. Usually raw samples of audio are used as instruments, and this lets you do neat things like specify a sound to be played backwards, be rapidly rolled, panned per note, etc. Generally, trackers are associated with a few specific genres- most notably Chiptune and Jungle
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/OIxFjXE_D0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Deflemask
+
+**Deflemask** [TODO]
+
+### Sunvox
+
+**Sunvox** [TODO]
+
+### Garage Band
+
+**Garage Band** [TODO]
+
+### ProTools
+
+**ProTools** [TODO]
+
+### LUNA
+
+**LUNA** [TODO]
+
+### Oscistudio
+
+**Oscistudio** [TODO]
 
 [TODO] why are none of these good
 
