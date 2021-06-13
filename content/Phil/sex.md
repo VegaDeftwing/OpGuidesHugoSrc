@@ -6,7 +6,7 @@ slug: "Sex"
 
 # Sex
 
-In an ideal world human kind would be driven forward by more than the initiate desire to reproduce and bone. Then again, if it weren't for that we wouldn't have evolved to this point where we're capable of reflecting on that irony, in the first place.
+In an ideal world human kind would be driven forward by more than the initiate desire to reproduce and bone. But, we don't live in an ideal world and people like to have fun and feel good. (consensual) Sex is fun and feels good-  so it should not be looked down on. Flirting, hooking up, being horny: They're all natural and good. Unfortunately, today it seems {{< best >}}[Everyone is Beautiful and No One is Horny](https://bloodknife.com/everyone-beautiful-no-one-horny/){{< /best >}}
 
 ## Consent
 
@@ -55,6 +55,10 @@ Frankly, I think that sums it up pretty well, and truth be told I don't think I 
 ## Birth Control
 
 [TODO] womens right to get a historectomy
+
+### Having Kids
+
+[TODO] birth rates
 
 ## Gender, LGBT, & the term Queer
 
