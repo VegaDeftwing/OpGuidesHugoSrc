@@ -21,6 +21,8 @@ Budget voting
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/l8XOZJkozfI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+
 ## Issue 2: Voters are really, really stupid
 
 voting based on if they like the person, how he/she looks, single issue voting

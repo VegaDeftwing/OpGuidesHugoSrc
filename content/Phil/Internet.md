@@ -27,11 +27,7 @@ If you're outside the US, this will still very likely affect you. Hell, PornHub 
 
 # Politics and The Internet
 
-{{< tip >}}
-
-Much of the following is pretty complex and anything I can say would just be reiterating things said by those much more qualified than I, so rather than try to explain things in depth, I'll be linking to a lot of external sources. **please** take the time to read these articles and watch the videos.
-
-{{< /tip >}}
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/Px6wr3OgnJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## The important laws you need to understand:
 
@@ -211,4 +207,8 @@ Parler V Mastadon V Twitter
 ### Federation
 
 [Fediverse.party](https://fediverse.party/en/miscellaneous)
+
+---
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/k1BneeJTDcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
