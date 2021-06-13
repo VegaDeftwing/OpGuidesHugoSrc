@@ -26,7 +26,13 @@ anti-SLAPP laws
 
 ### Whistle Blower Protections
 
+https://en.wikipedia.org/wiki/List_of_whistleblowers
+
 ## Search and Seizure
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/XEVlyP4_11M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/3kEpZWGgJks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Fair Trial
 

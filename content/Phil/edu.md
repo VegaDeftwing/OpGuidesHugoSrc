@@ -10,6 +10,8 @@ slug: "Education"
 
 ## Curriculum Changes
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/e7sN11tjhNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Basic Aid
 
 ### Sex Education
