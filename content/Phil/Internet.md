@@ -138,6 +138,16 @@ Note, unlike the rest of the items in this list, the GDPR is NOT legislation fro
 
 ### CFAA (Hack The Planet?)
 
+[TODO] internet's own boy: Aaron Swartz
+
+**Update, June 3rd 2021: The Supreme Court has restricted the scope of the CFAA, making it less awful**
+
+The opionion can be read [here](https://www.supremecourt.gov/opinions/20pdf/19-783_k53l.pdf). The average person only really needs read point *(d)* from the syllabus:
+
+> (d) The Government’s interpretation of the “exceeds authorized access” clause would attach criminal penalties to a breathtaking amount of commonplace computer activity. For instance, employers commonly state that computers and electronic devices can be used only for business purposes. On the Government’s reading, an employee who sends a personal e-mail or reads the news using a work computer has violated the CFAA. The Government speculates that other provisions might limit its prosecutorial power, but its charging practice and policy indicate otherwise. The Government’s approach would also inject arbitrariness into the assessment of criminal liability, because whether conduct like Van Buren’s violated the CFAA would depend on how an employer phrased the policy violated (as a “use” restriction or an “access” restriction). Pp. 17–20. 
+
+So, this ruling has significantly reduced the cluster-fuck that CFAA created.
+
 ### Net Neutrality (and the buying of the FCC)
 
 ### HIPAA (attempting to unfuck healthcare a wee bit)

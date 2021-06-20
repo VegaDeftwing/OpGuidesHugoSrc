@@ -678,9 +678,13 @@ The VRM or 'Voltage Regulation Module' serves a simple but important task of ens
 
 Essentially the VRM may contain multiple stages of current and voltage regulation modules. The more of these stages the more stable the voltage and the more current can be delivered. For most cases, this can be left alone, but it's incredibly important when over clocking, as to overclock a CPU or GPU it's usually necessary to increase the voltage, which is typically done from within the BIOS/UEFI or from a configuration utility inside the OS in the case of the GPU.
 
-You can typically tell how strong a particular VRM is by counting the number of 'chokes' on the board.
+You can typically tell how strong a particular uVRM is by counting the number of 'chokes' on the board.
 
 [TODO, add pictures of chokes]
+
+---
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/zxGqGCtPxn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Graphics Card (or integrated graphics)
 
@@ -928,7 +932,9 @@ Most PC PSU's are in the ATX format, the same specification used to size motherb
 
 Main takeaway here, if some one is talking about an ATX PSU they're talking about the power supply in a desktop. Often they're (less than safely...) used in other applications as they're cheap and often easy to find used or salvaged from old systems.
 
-[TODO] add pictures, ATX 12VO, don't use ATX for lab purpsoses, please.
+[TODO] add pictures, ATX 12VO, don't use ATX for lab purpsoses, please. see battery/psu stuff from Linux, `powertop`, [Power Managment on Arch Wiki](https://wiki.archlinux.org/title/Power_management)
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/i9ZnaA8DZDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Cooling
 
