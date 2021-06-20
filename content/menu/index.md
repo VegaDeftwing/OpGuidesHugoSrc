@@ -37,7 +37,7 @@ headless: true
 
 <div class="progress-ww">
 <dl>
-   <dt>6 </dt><dd> <details> <summary><a href="/engineering/math/math/">Math</a></summary>
+   <dt>6 </dt><dd> <details id="mathMenu"> <summary><a href="/engineering/math/math/">Math</a></summary>
     <dt class="sub">6.1</dt><dd class="sub"> <a href="/engineering/math/algebra"> Algebra</a></dd>
 	<dt class="sub">6.2</dt><dd class="sub"> <a href="/engineering/math/logic"> Logic</a></dd>
     <dt class="sub">6.3</dt><dd class="sub"> <a href="/engineering/math/geometry"> Geometry & Trig</a></dd>

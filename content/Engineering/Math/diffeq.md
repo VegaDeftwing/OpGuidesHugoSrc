@@ -1,5 +1,9 @@
 # 5 - Differential Equations
 
+<script>
+    document.getElementById("mathMenu").open = true;
+</script>
+
 {{< hint info >}}
 
 Below is a 5 video series that totals about 1.5 hours.
