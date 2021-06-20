@@ -37,7 +37,18 @@ headless: true
 
 <div class="progress-ww">
 <dl>
-<dt>6 </dt><dd> <a href="/engineering/math/math/">Math</a></dd>
+   <dt>6 </dt><dd> <details> <summary><a href="/engineering/math/math/">Math</a></summary>
+    <dt class="sub">6.1</dt><dd class="sub"> <a href="/engineering/math/algebra"> Algebra</a></dd>
+	<dt class="sub">6.2</dt><dd class="sub"> <a href="/engineering/math/logic"> Logic</a></dd>
+    <dt class="sub">6.3</dt><dd class="sub"> <a href="/engineering/math/geometry"> Geometry & Trig</a></dd>
+    <dt class="sub">6.4</dt><dd class="sub"> <a href="/engineering/math/calc"> Calculus</a></dd>
+    <dt class="sub">6.5</dt><dd class="sub"> <a href="/engineering/math/diffeq"> Diff Eq</a></dd>
+    <dt class="sub">6.6</dt><dd class="sub"> <a href="/engineering/math/linalg"> Linear Algebra</a></dd>
+    <dt class="sub">6.7</dt><dd class="sub"> <a href="/engineering/math/numanalysis"> Numerical Analysis</a></dd>
+    <dt class="sub">6.8</dt><dd class="sub"> <a href="/engineering/math/sigandsys"> Signals & Systems</a></dd>
+    <dt class="sub">6.9</dt><dd class="sub"> <a href="/engineering/math/settheory"> Set Theory</a></dd>
+    <dt class="sub">6.10</dt><dd class="sub"> <a href="/engineering/math/probability"> Probability</a></dd>
+   </details> </dd>
 <dt>6½</dt><dd> <a href="/engineering/math/units/">Units</a></dd>
 <dt>7 </dt><dd> <a href="/engineering/prereq/physics/">Physics</a></dd>
 <dt>8 </dt><dd> <a href="/engineering/prereq/chem/">Chemistry</a></dd>
@@ -194,6 +205,20 @@ headless: true
 - **Design**
 
 </div>
+<div class="progress-ww">
+<dl>
+<dt>1 </dt><dd> <a href="/design/basics/">Basics of Art</a></dd>
+<dt>2 </dt><dd> <a href="/design/analog-design/">Analog Art</a></dd>
+<dt>3 </dt><dd> <a href="/design/digital-design/">Digital Art</a></dd>
+<dt>4 </dt><dd> <a href="/design/ui/">UI/UX</a></dd>
+<dt>5 </dt><dd> <a href="/design/3d/">3D</a></dd>
+<dt>6 </dt><dd> <a href="/design/generative-art/">Generative Tools</a></dd>
+<dt>A1 </dt><dd> <a href="/design/design-other/">Other Resources</a></dd>
+<dt>A2 </dt><dd> <a href="/design/ia/">Inspirational Art</a></dd>
+<dt>A3 </dt><dd> <a href="/design/photo/">Photo</a></dd>
+</dil>
+</div>
+
 
 <div class="progress-ww">
 <dl>

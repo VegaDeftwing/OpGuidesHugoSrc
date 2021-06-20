@@ -675,3 +675,9 @@ dd {
   text-align:left;
 }
 dt:after {content:'-';}
+
+dt.sub, dd.sub {
+  padding:8px 0 0 0 !important;
+}
+
+dt.sub:after {content:':';}

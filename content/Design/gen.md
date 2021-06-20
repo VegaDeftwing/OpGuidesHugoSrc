@@ -415,7 +415,7 @@ Has a neat code editor too, for making more complex geometry
 
 ![](/pixelsorting.jpg ':size=40%')
 
-> [Source](https://www.reddit.com/r/pixelsorting/comments/jeor0y/just_messing_around_with_datamoshing_and_pixel/) - [u/Hunter_timeFR](https://www.reddit.com/user/Hunter_timeFR/) on Reddit
+{{< attribution >}}[Source](https://www.reddit.com/r/pixelsorting/comments/jeor0y/just_messing_around_with_datamoshing_and_pixel/) - [u/Hunter_timeFR](https://www.reddit.com/user/Hunter_timeFR/) on Reddit{{< /attribution >}}
 
 [r/pixelsorting (Reddit)](https://www.reddit.com/r/pixelsorting/)
 
