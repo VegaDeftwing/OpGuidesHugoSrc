@@ -1,5 +1,9 @@
 # 8 - Signals & Systems
 
+<script>
+    document.getElementById("mathMenu").open = true;
+</script>
+
 {{< hint info>}}
 
 Below is a 54 video series that totals around 13 hours

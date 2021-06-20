@@ -1,5 +1,9 @@
 # 6 - Matrix Theory / Linear Algebra
 
+<script>
+    document.getElementById("mathMenu").open = true;
+</script>
+
 {{< hint info >}}
 
 Below is a 15 video series that totals a bit under 3 hours.

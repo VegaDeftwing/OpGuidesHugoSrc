@@ -1,5 +1,9 @@
 # Chapter 6 - Math
 
+<script>
+    document.getElementById("mathMenu").open = true;
+</script>
+
 {{< columns >}}
 
 {{< tip >}}This section of OpGuides is devided into sub sections for easier reading!{{< /tip >}}
