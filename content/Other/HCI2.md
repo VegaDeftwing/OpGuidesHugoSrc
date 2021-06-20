@@ -1,10 +1,4 @@
----
-title: "The Way We Interact With Computers Sucks."
-slug: "TheWayWeInteractWithComputersSucks"
-author: "Vega Deftwing"
-date: 2021-01-15
-tags: technical
----
+# The Way We Interact With Computers Sucks.
 
 {{< tip >}}
 
@@ -101,6 +95,12 @@ Why are we limited to only buttons on our keyboards anyway? I have a BDN9 macro 
 ![BDN9 keypad with encoders](/bdn9.jpg)
 
 {{< /columns >}}
+
+---
+
+Also, if you're the kind of person that needs to write long walls of text with minimal formatting, you might want to check out stenography:
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/nRp_1S7cj6A?list=WL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### More than Just the Keyboard:
 

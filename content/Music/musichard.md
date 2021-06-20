@@ -106,6 +106,16 @@ I want to point out that there is a valid concern that your ADCs and DACs are of
 
 Some people get crazy about sample rate. For a *final recording* there is **absolutely no reason** to exceed 24bit/48khz audio. Even that is really overkill. On the other hand, *during recording* there can be rather significantly audible differences in oversampled (that is 80khz+) audio, as the virtual instruments have more headroom to work with to avoid a side effect of digital audio called aliasing. You can learn more about this in {{< best >}}[Samplerates: the higher the better, right?](https://www.youtube.com/watch?v=-jCwIsT0X8M) from FabFilter on YouTube. {{< /best >}}
 
+If you hear someone raving about tube amps, you should know that -yes- they do have a pretty distinct sound, but it's not necessarilly *better*- here's a fun video from JHS Pedals showing this: [Solid State Amps Suck](https://youtu.be/x9TYCes1lTU). For a bit more technical detail see [Tube Amp vs Solid State – What's the Difference?](https://youtu.be/QoGiW2h68k4) from Sweetwater on YouTube. I do think this video might over-sell how good tube-amps can sound and honestly today I don't think there's a huge difference. That said, I do still have a tube amp because there's something that makes the little kid in me happy about seeing a glowing tube
+
+<a href="https://commons.wikimedia.org/wiki/File:Solton_BV60_Bassamp.jpg#/media/File:Solton_BV60_Bassamp.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Solton_BV60_Bassamp.jpg" alt="Solton BV60 Bassamp.jpg"></a>
+
+{{< attribution >}}
+
+Picture by Christopher Schirner, <a href="https://creativecommons.org/licenses/by-sa/2.0" title="Creative Commons Attribution-Share Alike 2.0">CC BY-SA 2.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=53326983">Link</a>
+
+{{< /attribution >}}
+
 Finally, I want to briefly mention that as you add more equipment, you're very likely to run into an issue with [ground loops](https://en.wikipedia.org/wiki/Ground_loop_(electricity)). If you plug in a piece of gear and start hearing a hum or significantly more noise, this is likely the problem. Check out [6 simple and cheap ways to fix hum, buzz and ground loop noise](https://www.youtube.com/watch?v=q2c6fKOu-vo) from Loopop on YouTube.
 
 ---
