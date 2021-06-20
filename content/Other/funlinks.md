@@ -122,7 +122,8 @@
   
 * [Pink Trombone - Bare Handed Speech Synthesis](https://dood.al/pinktrombone/)
   
+* [You Are Two](https://www.youtube.com/watch?v=wfYbgdo8e-8)
+  
   
 
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>
-

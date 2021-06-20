@@ -86,7 +86,7 @@ https://grunfy.com/scaler.html
 
 [Tuning a Floyd Rose Guitar (YouTube)](https://floydrose.com/blogs/tech-talk/string-tuning-instructions)
 
-[My New 18-String Hurdy-Gurdy (YouTube, Patty Gurdy)](https://www.youtube.com/watch?v=jgXmxQQW5F4)
+[My New 18-String Hurdy-Gurdy (YouTube, Patty Gurdy)](https://www.youtube.com/watch?v=jgXmxQQW5F4) (also see [5 System of a Down riffs on hurdy gurdy](https://www.youtube.com/watch?v=l3DF6cHN02s))
 
 ## Synths
 
