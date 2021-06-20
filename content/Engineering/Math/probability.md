@@ -1,5 +1,9 @@
 # 10 - Probability/Stats
 
+<script>
+    document.getElementById("mathMenu").open = true;
+</script>
+
 Why, where are these used, etc.
 
 bring up music things, part failure rates, tollerences, etc.

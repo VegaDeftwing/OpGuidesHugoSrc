@@ -1,5 +1,9 @@
 # 3 - Geometry and Trigonometry
 
+<script>
+    document.getElementById("mathMenu").open = true;
+</script>
+
 ## Geometry
 
 ### Notation
