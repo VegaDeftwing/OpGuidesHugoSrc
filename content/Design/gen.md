@@ -6,13 +6,23 @@ slug: "Generative Art"
 
 # Generative Art
 
+{{< columns >}}
+
+This page is almost completely devoid of actual educational content. Instead, I've tried to make the most complete list of generative art tools and libraries on the internet. Of course, I can't actually make an exhaustive list and may be missing some of the newest tools and ideals, so please check out these other communities for more:
+
+<--->
+
 [r/proceduralgeneration](https://www.reddit.com/r/proceduralgeneration/)
 
 [r/generative](https://www.reddit.com/r/generative)
 
 [r/PlotterArt](https://www.reddit.com/r/PlotterArt/)
 
-### World Building Tools
+{{< /columns >}}
+
+If you're interested in generative music and sounds as well, you may want to check out The OpGuides page on <a href="/music/music-software/">Music Software</a>.
+
+{{< details title="World Building Tools" open=false >}}
 
 ---
 
@@ -226,7 +236,23 @@ Import real map data into blender, cool for topograhpic maps and such
 
 {{< /columns2 >}}
 
-### Languages
+{{< columns2 >}}
+
+[LDtk - Level Designer Toolkit](https://deepnight.itch.io/ldtk)
+
+<--->
+
+"LDtk is a modern and open-source 2D level editor, specifically designed for indie devs."
+
+<--->
+
+![](https://ldtk.io/wp-content/uploads/2020/11/full7.png)
+
+{{< /columns2 >}}
+
+{{< /details >}}
+
+{{< details title="Constructed Langugages, Generative Text" open=false >}}
 
 {{< columns2 >}}
 
@@ -267,9 +293,9 @@ Some more cool examples, but lacking code:
 [Pentagonal Glyphs (Reddit)](https://www.reddit.com/r/generative/comments/d5284l/pentagonal_glyphs/)
 [Generative Glyphs (Reddit)](https://www.reddit.com/r/generative/comments/d5zeca/generative_glyphs/)
 
+{{< /details >}}
 
-
-## Generative Textures and Geometry
+{{< details title="Generative Textures and Geometry" open=false >}}
 
 {{< columns2 >}}
 
@@ -373,13 +399,19 @@ Has a neat code editor too, for making more complex geometry
 
 {{< /columns2 >}}
 
+
+
+
+
 [Making 'Noise Planets' on Avinayak's Blog](https://avinayak.github.io/art/2021/01/09/noise-planets.html)
 
 
 
 [Themer (Live Demo)](https://themer.dev/?colors.dark.accent0=#F59597&colors.dark.accent1=#F2B494&colors.dark.accent2=#F2DB94&colors.dark.accent3=#C8F29D&colors.dark.accent4=#94F2DD&colors.dark.accent5=#94CEF2&colors.dark.accent6=#DB9CF7&colors.dark.accent7=#F79CE0&colors.dark.shade0=#44484F&colors.dark.shade7=#C7F3FF&colors.light.accent0=#E11418&colors.light.accent1=#E0530D&colors.light.accent2=#D2A623&colors.light.accent3=#61AB16&colors.light.accent4=#06B38B&colors.light.accent5=#34A4E7&colors.light.accent6=#A549CD&colors.light.accent7=#CC52AD&colors.light.shade0=#DBF7FF&colors.light.shade7=#3E444F&activeColorSet=dark&calculateIntermediaryShades.dark=true&calculateIntermediaryShades.light=true) [(Github)](https://github.com/mjswensen/themer), meant for making themes for Linux enviroments, but makes good textures in general
 
-## Pixel Sorting
+{{< /details >}}
+
+{{< details title="Pixel Sorting" open=false >}}
 
 ![](/pixelsorting.jpg ':size=40%')
 
@@ -397,7 +429,9 @@ Has a neat code editor too, for making more complex geometry
 
 [GenerateMe (Github)](https://github.com/tsulej/GenerateMe) - lots of glitch effects
 
-## Fractal Art
+{{< /details >}}
+
+{{< details title="Fractal Art" open=false >}}
 
 {{< columns2 >}}
 
@@ -477,19 +511,29 @@ Chaotica is **free for noncommercial use**, and can render up to 1.23 megapixel 
 
 {{< /columns2 >}}
 
-## Generative Eyes
+{{< /details >}}
+
+{{< details title="Generative Eyes" open=false >}}
+
+</br>
+
+<iframe id="reddit-embed" src="https://www.redditmedia.com/user/Redditing_Enigma789/comments/m87rht/fully_procedural_irises_sclera_and_cornea_nodes/?ref_source=embed&amp;ref=share&amp;embed=true&amp;theme=dark" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="360" width="640" scrolling="no"></iframe>
+
+{{< attribution >}} [Extraordinarly realistic eyes from Blender Nodes (Reddit, u/Redditing_Enigma789)](https://www.reddit.com/user/Redditing_Enigma789/comments/m87rht/fully_procedural_irises_sclera_and_cornea_nodes/?utm_source=share&utm_medium=web2x&context=3){{< /attribution >}}
 
 [Iris (Reddit)](https://www.reddit.com/r/generative/comments/j4uati/iris/)
+
 [Greye (Reddit)](https://www.reddit.com/r/generative/comments/jabwl8/greye/)
+
 [Mycelium (Reddit)](https://www.reddit.com/r/generative/comments/epja3d/mycelium/)
 
+{{< /details >}}
 
+{{< details title="Livecoding Visuals" open=false >}}
+
+</br>
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/6avJHaC3C2U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-## Livecoding visuals
 
 [r/livecoding (Reddit)](https://www.reddit.com/r/livecoding/)
 
@@ -653,6 +697,7 @@ Realtime GPU shader editor
 <--->
 "TouchDesigner is a visual development platform that equips you with the tools you need to create stunning realtime projects and rich user experiences.  Whether you're creating interactive media systems, architectural projections, live music visuals, or rapid-prototyping your latest ideas, TouchDesigner is the platform that can do it all."
 <--->
+
 <video controls width="100%">    <source src="/neurotouchdesigner.mp4"            type="video/mp4"> </video> <br><p> Video courtesy of [Neurotypique](https://www.youtube.com/channel/UC4oBI5piGMznFMZdtEC0FhA) </p>
 {{< /columns2 >}}
 
@@ -678,7 +723,12 @@ The Cyril programming language is designed for fast prototyping of visualisation
 <--->
 ![](/eternal.jpg)
 {{< /columns2 >}}
-## Creative Coding (Non Live)
+
+{{< /details >}}
+
+{{< details title="Creative Coding (Non Live)" open=false >}}
+
+</br>
 
 [HackadayU Creative Code with Casey Hunt (YouTube)](https://www.youtube.com/playlist?list=PL_tws4AXg7att6rxtRNsGa36fOoRtdKJV)
 
@@ -844,7 +894,9 @@ You can make gifs with shaders (glsl) and Javascript (either with raw canvas or 
 ![](https://camo.githubusercontent.com/44a7056e9b091dd6517bd926d52f4354594cb3cd/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f434c565568466a5777414537644a502e706e673a736d616c6c)
 {{< /columns2 >}}
 
-## Data Visulization
+{{< /details >}}
+
+{{< details title="Data Visulization" open=false >}}
 
 {{< columns2 >}}
 [Nodebox](https://www.nodebox.net/node/)           
@@ -886,8 +938,9 @@ Node based, open source VFX Editor with powerfull interface and a ready to use l
 ![](https://camo.githubusercontent.com/f5e36d15a2a35cfc792491fa23c103950f38e2af11a74bb78882ee60f9e4c8d1/68747470733a2f2f692e696d6775722e636f6d2f4b5970796e7a422e706e67)
 {{< /columns2 >}}
 
+{{< /details >}}
 
-## Scripting/Generative tools IN other tools
+{{< details title="Scripting/Generative tools IN other tools" open=false >}}
 
 {{< columns2 >}}
 [Blender python API](https://docs.blender.org/api/current/info_overview.html#:~:text=Python%20in%20Blender&text=Blender%20provides%20its%20Python%20modules,import%20the%20modules%20to%20work.)
@@ -917,8 +970,15 @@ Fills the layer with a pattern specified through Disney Animation’s [**SeExpr*
 ![Kritas SeExpr](https://docs.krita.org/en/_images/SeExpr_editor.png)
 {{< /columns2 >}}
 
+{{< /details >}}
 
-## Super resolution, frame interpolation, and other effects
+{{< details title="Super resolution, frame interpolation, and other effects" open=false >}}
+
+</br>
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/_KRb_qV9P4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 {{< columns2 >}}
 [Waifu-2x](http://waifu2x.udp.jp)                            
@@ -966,15 +1026,25 @@ Particle effects generator/editor
 ![](https://img.itch.zone/aW1hZ2UvOTcyMjYvNDU1Mjk5LmdpZg==/794x1000/MUP83%2B.gif)
 {{< /columns2 >}}
 
+{{< /details >}}
 
+{{< details title="For Plotters" open=false >}}
 
-## For Plotters
+</br>
+
+See the <a href="/engineering/making/3dprint/">3D Printing & CNC</a> page from the Engineering section of OpGuides for more resources
+
+---
 
 [vpype](https://github.com/abey79/vpype) - aims to be the one-stop-shop, Swiss Army knife for producing plotter-ready vector graphics. Here are, for illustration, a few examples of what it can do:
 
+{{< /details >}}
 
 
-## Other tools
+
+---
+
+{{< details title="Other Resources" open=false >}}
 
 ### Sound Design
 
@@ -1014,6 +1084,6 @@ There's a LOT more tools listed in the music chapters, but there's some more 'fo
 
 [10 innovative creative coding examples that are redefining programming (Shaping Design - Editor X)](https://www.editorx.com/shaping-design/article/creative-coding)
 
-
+{{< /details >}}
 
 [META: Hacker News Submission on this page, with a bit of discussion](https://news.ycombinator.com/item?id=24889333)
