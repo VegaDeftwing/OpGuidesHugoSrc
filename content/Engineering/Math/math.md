@@ -608,6 +608,8 @@ Below is a 15 video series that totals a bit under 3 hours.
 
 [Least Squares](https://en.wikipedia.org/wiki/Least_squares)
 
+[The Bernstein Basis (Mutual Information, YouTube)](https://www.youtube.com/watch?v=DNFhI_Op4y0)
+
 ## 7 - Signals & Systems
 
 {{< hint info>}}

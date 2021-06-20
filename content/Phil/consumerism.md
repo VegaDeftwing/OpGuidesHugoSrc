@@ -42,6 +42,14 @@ We buy to much shit.
 
 TODO: individually wrapped wastes of money for holidays makes me feel gross
 
+## We buy too much cheap shit
+
+[TODO] walmart and Amazon offbrands and clones, cheap batteries, lack of repailabily along with lack of inital durability, nobody uses warrenties
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/HbxWGjQ2szQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 ## Enforcing Protections
 
 
