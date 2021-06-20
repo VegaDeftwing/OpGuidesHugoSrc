@@ -111,3 +111,4 @@ by LadySnakeBite on FurAffinity
 
 I also reccomend: [A Handy Guide To Internal Shots (VERY NSFW)](https://www.furaffinity.net/view/23502635/) by her, which is a rant on art feautring cervix penetration.
 
+<p hidden> <a href="https://www.youtube.com/watch?v=QyL9P1ccy-w"> Suction Cup Man 4: Business or Pleasure<p>
