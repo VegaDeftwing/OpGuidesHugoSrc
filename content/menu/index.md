@@ -232,21 +232,6 @@ headless: true
 </dil>
 </div>
 
-
-<div class="progress-ww">
-<dl>
-<dt>1 </dt><dd> <a href="/design/basics/">Basics of Art</a></dd>
-<dt>2 </dt><dd> <a href="/design/analog-design/">Analog Art</a></dd>
-<dt>3 </dt><dd> <a href="/design/digital-design/">Digital Art</a></dd>
-<dt>4 </dt><dd> <a href="/design/ui/">UI/UX</a></dd>
-<dt>5 </dt><dd> <a href="/design/3d/">3D</a></dd>
-<dt>6 </dt><dd> <a href="/design/generative-art/">Generative Tools</a></dd>
-<dt>A1 </dt><dd> <a href="/design/design-other/">Other Resources</a></dd>
-<dt>A2 </dt><dd> <a href="/design/ia/">Inspirational Art</a></dd>
-<dt>A3 </dt><dd> <a href="/design/photo/">Photo</a></dd>
-</dil>
-</div>
-
 ---
 
 <div class="navbak" style="background:#FFB900;">

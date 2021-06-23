@@ -93,6 +93,15 @@ If you're in a quiet enviroment, don't need to record vocals, and care if the ba
 
 If you want to record vocals, have background noise, or just don't care as much about having a spot-on sound stage, get closed.
 
+## Dealing with noise
+
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/iiiiiiitttttttttttt/comments/o4kpj1/layer_one_first_always/?ref_source=embed&amp;ref=share&amp;embed=true&amp;theme=dark" sandbox="allow-scripts allow-same-origin allow-
+popups" style="border: none;" height="477" width="640" scrolling="no"></iframe>
+
+### Types and Sources of Noise
+
+[TODO]
+
 ## Finishing a track
 
 From this [Interview of Jeremy Blake](http://martinyammoller.com/9oddquestionsformusicgearjunkies/red-means-recording-jeremy-blake/) on [martinyammoller.com](http://martinyammoller.com) -
