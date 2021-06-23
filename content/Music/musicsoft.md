@@ -582,6 +582,14 @@ https://github.com/JoepVanlier/JSFX
 
 {{< /details >}}
 
+{{< details "Patches & Info for Empress Zoia" >}}
+
+https://sensai7.github.io/ZOIACheatsheet/
+
+https://patchstorage.com/platform/zoia/
+
+{{< /details >}}
+
 **These 'plugins' only work on Monome's Norns hardware**
 
 [Segments Audio Looper](https://llllllll.co/t/segments-audio-looper-for-norns/32937)
