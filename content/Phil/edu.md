@@ -86,6 +86,8 @@ The Following is from '[Modern Universities Are An Exercise in Insanity](https:/
 
 ## Bullying
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/Ej9rUiY2flU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Invasive Technology
 
 Apps, GoogleClassroom, etc
