@@ -1,11 +1,5 @@
 # The Way We Interact With Computers Sucks.
 
-{{< tip >}}
-
-You are on a page that is a heavy work in progress. I don't necessarily stand by anything I've written here and this page should effectively be considered not yet published. I have decided to put it up while it is in development to encourage contributions
-
-{{< /tip >}}
-
 **What do you see when you sit down to work?** My guess is a desk pressed against a wall, maybe a few shelves, one, maybe two monitors in front of you, and a keyboard and mouse dominating the work area of your desk. How do you access information? Do you simply Google something and if it's not on the first page give up? How do you get reliable information when you have a question? How do you interpret results that you find? How do you store information you've collected? How do you filter information to get exactly what you're looking for?
 
 If you're reading this, I'd wager that you've at least thought about this a little. Maybe you're a Linux user, deep into the tiling window manager rabbit hole. Maybe you already have a fancy keyboard, monitors surrounding you on all sides. But I'm here to tell you that no matter how hard you've tried, **what you're using still probably sucks**.
@@ -140,11 +134,11 @@ However, using the Leap for everything would require you hold your hands out to 
 
 So, I honestly don't know what the pointing device of the future looks like. Maybe it involves a mix of a mouse, finger tracking, eye control, and joysticks? The use of [WiiMotes for projection mapping](https://www.youtube.com/watch?v=wEeVMEzOmac) shows that there is room for using different devices for different kinds of input though. Maybe it's more like the [non-game uses the Kinect](https://hackaday.com/2020/11/09/kinect-gave-us-a-preview-of-the-future-though-not-the-one-it-intended/) has gotten over it's post-lifetime? I'm not really sure.
 
-As for issues with current tech, mouse acceleration and touch pad responsiveness, and touch pad dead zone are all big problems and, like, I don't understand how that's a problem in 2020?
+As for issues with current tech, mouse acceleration and touch pad responsiveness, and touch pad dead zone are all big problems and, like, I don't understand how that's a problem in 2021?
 
 To give credit where credit is due, there have been minor changes that are trending positive, such as Logitech's MX Master Line with the infinite scroll wheels, and a general trend for reducing latency and increasing customization options of higher-end mice.
 
-Unfortunately, the drivers for configuring these options are still largely proprietary and anything but standardized, meaning making integration between brands and OS built-in support all but impossible. Of everything listed up to this point, I actually think this is the biggest problem. Without a consistent, extendable interface about the best that can be exposed is awkward hacks where joysticks are mapped as if they're on a full game controller or keys just mapped to a macro of keyboard keys or existing but unused keys like the F13 though F24 keys or scroll lock. This is a massive problem. 
+Unfortunately, the drivers for configuring these options are still largely proprietary and anything but standardized, meaning making integration between brands and OS built-in support all but impossible. Of everything listed up to this point, I actually think this is the biggest problem. Without a consistent, extendable interface about the best that can be exposed is awkward hacks where joysticks are mapped as if they're on a full game controller or keys just mapped to a macro of keyboard keys or existing but unused keys like the F13 though F24 keys or scroll lock. This is a massive problem. More on that in a bit.
 
 #### Foot Controllers
 
@@ -172,13 +166,13 @@ The other relevant point would be the ability for **inter-peripheral communicati
 
 #### Pen Tablets
 
-Honestly, most pen tablets are reasonably good. Not all of them have great latency, map super well between the pen's nibb and the actual pointer on the screen, and the majority *don't* support touch, which probably isn't ideal, but in general they do the job well enough, or, would, if you only counted teh hardware.
+Honestly, most pen tablets are reasonably good. Not all of them have great latency, map super well between the pen's nibb and the actual pointer on the screen, and the majority *don't* support touch, which probably isn't ideal, but in general they do the job well enough, or, would, if you only counted the hardware.
 
 *Warning, the following is a rant about drivers on Windows:* This is interesting as the hardware is actually reasonably competent, while the software is largely so incredibly god awful that it is somehow impressive. While I realize this is totally anecdotal, one pen tablet I've used on Windows the driver software is so bad that it actually randomly takes over as the focused application about once every 15 minutes, meaning whatever line you were in the middle of drawing just *stops* and you have to click on the program again to keep going. But, like, even with more competent driver stacks there's like a 6 different options for pen pressure: Wintab, Windows Ink, the option to 'Use the device as a mouse pointer' ... It's so incredibly confusing and the required options per application vary wildly. To make matters worse, most of the drivers completely shit themselves if one display is scaled for HiDPI and another isn't. On Linux, ironically, I've actually had very good luck with pen tablets. 
 
 But even then most don't handle pressure in a way that's customization in a good way, instead relying on software to do pressure-mapping, which just isn't great. It's often a serious pain in the ass to get it set  𝘫𝘶𝘴𝘵 𝘳𝘪𝘨𝘩𝘵  so that you don't get crazy pressure jumps and even if the driver has in-driver calibration, you still usually have to tweak it more in the specific art/drawing/art application so now you have TWO pressure maps and it begins to feel like trying to balance a double pendulum.
 
-I do still think there's more room for improvement in the hardware too. I think [Microsoft's Surface Studio 2](https://youtu.be/RmVAbB3M-4Y?t=45) actually had some really interesting and innovative ideas albeit it's a *weee bit* on the expensive side at 3,500 USD. I also think the [HP Sprout](https://www8.hp.com/us/en/campaigns/sprout-pro/overview.html) did some really neat things too. Unfortunately, I highly suspect both will suffer from poor long term support.
+I do still think there's more room for improvement in the hardware too. I think [Microsoft's Surface Studio 2](https://youtu.be/RmVAbB3M-4Y?t=45) actually had some really interesting and innovative ideas albeit it's a *weee bit* on the extremely expensive side at 3,500 USD. I also think the [HP Sprout](https://www8.hp.com/us/en/campaigns/sprout-pro/overview.html) did some really neat things too. Unfortunately, I highly suspect both will suffer from poor long term support.
 
 I also think there's room to allow for workflows that rely more on the physical, possibly something like [Dynamic Land](https://dynamicland.org) or even just the [iskn](https://www.iskn.co) Slate or Repaper (Note, I tried the slate and it really, really sucked. But the *idea* was interesting.)
 
@@ -191,6 +185,10 @@ But, better cameras do exist, and if you are willing to shell out the cash you c
 The default settings are still shit.
 
 On webcams you have auto-white balance, auto-focus, auto-gain, etc. and everything it tries to do is awful. On a laptop where it will legitimately be in a different setting regularly, that's some-what forgivable, but on a desktop webcam? Like, the only variable here is if there's a window letting light in. Make calibration easy and give me a white-balance slider. Please. Or just make better cameras and let the open source community make better drivers. I assure you there are plenty of rage-filled nerds willing to make your product not suck so hard.
+
+Right now, my best webcam is *my phone* running [droidcam](https://www.dev47apps.com). I have the (at time of writing) $80 logitech C920 webcam. A device which is meant to ONLY be a camera. It has one job. Yet, this awkward hack using my phone looks MUCH better.
+
+---
 
 Your mic is also shit for the same reason. When doing audio mixing for a video or podcast there's some basic things that will almost always be in the mix chain: A noise supressor, A De-Esser, A Compressor (or multiple), and an Equalizer. For the most part, the settings on these things can be determined pretty algorithmically, or, better, a database of settings for hardware can be created and maintained - You'd still need to adjust for your voice (particularly for if you have a low or high pitch voice) but it could massively help.
 
@@ -294,7 +292,7 @@ I know that I can pick from pleanty of L or U shaped desks on amazon, but most w
 
 ![](/desk.jpg)
 
-And, alright, I admit, I'm not a typical computer user. I have enough devices hooked up that `lsusb` gives me 28 lines of output, I have 3 monitors + a pen display, and my desk is also home to a whole host of lab equipment, a eurorack setup, and other various things. 
+And, alright, I admit, I'm not a typical computer user. I have enough devices hooked up that `lsusb` gives me 36 lines of output<a class="ptr">(15)</a>, I have 3 monitors + a pen display, and my desk is also home to a whole host of lab equipment, a eurorack setup, and other various things. 
 
 Sure, It does actually have a decent sized keyboard tray unlike most where they just expect you to put the keyboard and mouse on top of the desk like some sort of monster, but that tray is still on the small side if I were to use a normal full size keyboard (with numberpad). Worse, if I use a normal keyboard my hands tend to hit the sides of the keyboard tray (where the slides attach). I've seen a ton of wooden desks with this issue. Just move the rails back like 2 inches and angle it. Please. A lot of desks also skimp on the height of keyboard that can fit in the tray. This is a fair trade off, as the better this is the closer it is to your legs when sitting, but still, I've seen multiple where the feet on the keyboard can't be raised to make typing more comfortable otherwise the keyboard tray can't be closed. My desk actually sits in a pretty good sweet spot on this, but...
 
@@ -326,20 +324,30 @@ Image © Shira Wolven 2020, used with permission
 
 This, is a midi through. On most gear, it's accompanied by (at least) a MIDI IN, so, you can take your MIDI info in, and then, because a single midi cable carries 16 channels, chain other gear on.
 
-```
-From this,                             To This.
-                 +--------+
-          +------>Device 1|
-          |      +--------+
-          |
- +----------+    +--------+         +----------+   +--------+   +--------+   +--------+
- |Controller+---->Device 2| +-----> |Controller+--->Device 1+--->Device 2+--->Device 3|
- +----------+    +--------+         +----------+   +--------+   +--------+   +--------+
-          |
-          |      +--------+
-          +------>Device 3|
-                 +--------+
-```
+{{< columns >}}
+
+From this,
+
+{{< mermaid >}}
+graph LR
+    A[Controller] --> B(Device 1)
+    A --> C(Device 2)
+    A --> D(Device 3)
+{{< /mermaid >}}
+
+<--->
+
+To this:
+
+{{< mermaid >}}
+graph LR
+    A[Controller] --> B(Device 1)
+    B --> C(Device 2)
+    C --> D(Device 3)
+{{< /mermaid >}}
+
+
+{{< /columns >}}
 
 And, okay, so what? Well, I'll tell you what. This is rad as hell. I currently have 3 6' Display Port cables running from my desktop on the floor up to my displays on my desk. The monitors are 4k and get pissy if I go over a 6' cable, so with my tower on my right, the left-most monitor has to have this perfectly 45' cable making the connection, so I can't even organize the cables in the first place. But what if I could just route all of that to one monitor then piggy-back each one going forward?
 
@@ -384,7 +392,7 @@ There's a huge range of audio systems. You might not be able to have speakers at
 
 But nothing like that is even needed in order to make things suck less.
 
-How many times have you watched a YouTube video where the speakers voice had far too much bass or masked by a high pitch whine? How many streams have you heard where there's some hum or annoying background noise? I'm sure you've turned up your audio because something is quiet only to have your ears ravaged as soon as the audio is fixed in the stream.
+How many times have you watched a YouTube video where the speakers voice had far too much bass or was masked by a high pitch whine? How many streams have you heard where there's some hum or annoying background noise? I'm sure you've turned up your audio because something is quiet only to have your ears ravaged as soon as the audio is fixed in the stream.
 
 All of these things are totally fixable using a mix of hardware and software.
 
@@ -402,9 +410,11 @@ And not just a dumb decibel limiter, but a [loudness (Wikipedia)](https://en.wik
 
 Not file-compression but volume-compression. the 'make loud sounds quieter and quieter sounds louder' kind. Generally this is something the music industry over-uses and it doesn't sound great on music, but for voice it can make a huge difference for keeping things understandable and not distracting. Ideally this would be done before the content is ever published or sent though the network, but that won't always be the case. So, you should be able to easily take any audio stream (say, a YouTube video playing in a tab) and apply a compressor to it.
 
+This is particularly helpful when you consider input streams (your mic) as generally having compression on your mic will make it so that as you change the distance between you and the mic the volume stays more consistent, and also just sounds better in general.
+
 ##### Why do we not have live Speech to Text?
 
-Not all systems will be able to do this live without completely shitting the bed because of lack of processing power, but as our graphics cards are now including specific hardware for doing AI/ML based computation, there's no reason we sholudn't be using in the OS for the sake of grabbing the text out of all audio that goes in or out of the system. (of course, storing it securely and locally, nobody wants to wiretap themselves)
+Not all systems will be able to do this live without completely shitting the bed because of lack of processing power, but as our graphics cards are now including specific hardware for doing AI/ML based computation, there's no reason we shouldn't be using in the OS for the sake of grabbing the text out of all audio that goes in or out of the system. (of course, storing it securely and locally, nobody wants to wiretap themselves)
 
 ##### Why is Audio and Video Not Routable?
 
@@ -520,17 +530,21 @@ I love analog meters. They can be backlit like old VU meters in stereo equipment
 
 Of course, other forms of more passive indication are great too: Little e-ink or oled display, not-too-bright leds (or VFDs or Nixie tubes if you're feeling adventurous) - not everything needs to be on your screen. Let your eyes look away to a dedicated device now and then.
 
----
+Often though, they're just beautiful to look at, like this lil' Nixie clock:
 
-On the right, for example, is the Quirky Nimbus, which I think it shows this idea rather well.
-
-Note, the nimbus had issues when it did work, but is now a victim of IOT evolution as it's servers have long since been shut down and it's very difficult to hack (I own one and tried). So, uhh, don't go out and buy one.
+![nixieclock](/nixieclock.jpg)
 
 <--->
 
 ![radiation meter](/radiation_meter.jpg)
 
 ![nimbus](/nimbus.jpg)
+
+{{< attribution >}}The discontinued Quirky Nimbus, a nightmare of an IOT product {{< /attribution >}}
+
+![](/eink.jpg)
+
+{{< attribution >}}my '[Powonagotchi](https://pwnagotchi.ai)' 🖤 , with its e-ink display {{< /attribution >}}
 
 {{< /columns >}}
 
@@ -582,11 +596,7 @@ The next worst offender with lighting is all way to bright (often blue) leds on 
 
 Like, my center display has a **blue** led that is on when the monitor is on instead of the more normal standby indicator that goes off when the display is on found on TVs. It's immensely distracting. Sure it can be fixed with a tiny piece of electrical tape, but whyyyy?
 
-Further Reading: [1 (Tedium.co)](https://tedium.co/2020/07/10/led-indicator-light-history/) [2 (Hackaday)](https://hackaday.com/2020/02/20/we-ruined-status-leds-heres-why-that-needs-to-change/comment-page-2/) 
-
-![](/eink.jpg)
-
-> my 'Powonagotchi' 🖤
+Further Reading: [LED History (Tedium.co)](https://tedium.co/2020/07/10/led-indicator-light-history/), [We Ruined Status LEDs (Hackaday)](https://hackaday.com/2020/02/20/we-ruined-status-leds-heres-why-that-needs-to-change/comment-page-2/) 
 
 <--->
 
@@ -631,7 +641,7 @@ Well, I imagine you like to breathe while at your desk, and I also assume that y
 
 ### A Good Environment for Thought
 
-It's also worth considering what is in your space to keep visually appealing. Wires dangling over things, pealing paint, unorganized shelves, etc. are obviously off-putting, but I'd go the step further to say they actively interrupt productivity as they stick out and beg to be fixed. It's the standard scenario of not wanting to do homework until the room is clean. On the other hand, adding a bit of tactile flair can go a long way. It is tough to strike a good balance. I personally don't want art or static words (paintings with text, motivational posters etc.) in front of me in my work space as I find that distracting. Instead, a bit of sound dampening foam on the wall can go a long way, both for sound in a room and adding visual interest to the wall, and it's pretty cheap too.
+It's also worth considering what is in your space to keep visually appealing. Wires dangling over things, pealing paint, unorganized shelves, etc. are obviously off-putting, but I'd go the step further to say they actively interrupt productivity as they stick out and beg to be fixed. It's the standard scenario of not wanting to do homework until the room is clean. On the other hand, adding a bit of tactile flair can go a long way. It is tough to strike a good balance. I personally don't want art or static words (paintings with text, motivational posters etc.) in front of me in my work space as I find that distracting. Instead, some acoustic panels (not cheap acoustic foam) on the wall can go a long way, both for sound in a room and adding visual interest to the wall, and it's pretty cheap too.
 
 To keep your desk tidy a good start is just getting rid of your monitor's base and using a VESA mount to the wall or back of desk. the flexibility in position and extra available desk space goes a long way, and it's much, much more visually appealing.
 
@@ -663,7 +673,7 @@ Alright, now onto the fun stuff, I think I've established that the physical side
 * Transferring Shit 
 * Making Shit
 
-I'm not the first to think on this subject by any means, [Programs are a prison: Rethinking the fundamental building blocks of computing interfaces by Robert Lechte](https://djrobstep.com/posts/programs-are-a-prison) put a lot of ideas I'd thought before into words much more elegantly than I can, please give it a read then come back here, keeping in mind how the ideas presented there could work with what I'm saying here.
+I'm not the first to think on this subject by any means, [Programs are a prison: Rethinking the fundamental building blocks of computing interfaces by Robert Lechte](https://djrobstep.com/posts/programs-are-a-prison) is a particularly good example of other thoughts on this same subject.
 
 ### Finding and Accessing Information Sucks
 
@@ -697,13 +707,13 @@ But I honestly think these more or less miss the point of how people want to sea
 
 On a similar note, [Ask HN: Is there a search engine which excludes the world's biggest websites?](https://news.ycombinator.com/item?id=23202850) was posted a while back, and I agree with idea: often I can find better information on smaller sites, so I think there should be an option to just say NO_10K to drop the top 10 thousand most popular sites from the search results. I don't know if this is really the right way to do this though. Fortunately, I do think the resurgence of [Webrings](https://en.wikipedia.org/wiki/Webring) is improving that a bit.
 
-Finding something when you don't know the word for it exactly can be challenging too, especially if the correct term is also shared with something else (like looking for skateboard trucks but only searching the word 'Trucks'). This wouldn't be so bad, but sometimes trying to filter out the incorrect results doesn't work either, because of unforeseen overlaps. Unfortunately I don't know of a solution to this problem, as it's one of conveying intent.
+Finding something when you don't know the word for it exactly can be challenging too, especially if the correct term is also shared with something else (like looking for skateboard trucks but only searching the word 'Trucks'). This wouldn't be so bad, but sometimes trying to filter out the incorrect results doesn't work either, because of unforeseen overlaps. Unfortunately I don't know of a solution to this problem, as it's one of conveying intent with context, something which has been a problem much longer than the existence of search engines.
 
 Often, I find what I'm looking for faster by just going to as close of a topic as I can think of on Wikipedia and poking around links than I can by directly searching.
 
 It'd also be nice to have the ability to just set a list of bad sites. Like, please never ever show me any results from Pintrest.
 
-Thinking more into the future, I would very much like to see a world where data searching is context aware. For example, say I'm searching for a data sheet for an old vacuum tube and I have a schematic of an old amplifier open in another tab, I would love if the browser saw the context and changed the label in the schematic into a link to this datasheet. Furthermore, it would be great if it crawled the web and finished finding datasheets and linking them, possibly well before I even even got to that page in the first place. I know we don't have the tech to do this yet, especially not as a general purpose tool, but I like to think about the future. ¯\\_(ツ)_/¯
+Thinking more into the future, I would very much like to see a world where data searching is context aware. For example, say I'm searching for a data sheet for an old vacuum tube and I have a schematic of an old amplifier open in another tab, I would love if the browser saw the context and changed the label in the schematic into a link to this datasheet. Furthermore, it would be great if it crawled the web and finished finding datasheets and linking them, possibly well before I even even got to that page in the first place. I know we don't have the tech to do this yet, especially not as a general purpose tool, but I like to think about the future. ¯\\\_(ツ)\_/¯
 
 Another point is the summery of information and omission of the irrelevant info. Say I were to look up bits in a byte, I don't necessarily need the historical context as to why bits are named bits and bytes, bytes, though even though I didn't search it, presenting that a nybble is 4 bits, and how to tell endinan-ness is more relevant, unless I had recently searched historical information or stated I wanted that explicitly. In my opinion we should be less concerned with finding relevant results and more concerned with discarding the irrelevant, though making the verbose available.
 
@@ -725,7 +735,7 @@ But it's so much worse than that. Tons of information services are subscription 
 
 #### Authentication and Authorization Suck
 
-> **Authentication** is the sign in
+> **Authentication** is the sign in- the verifying you are who you say you are
 > 
 > **Authorization** is what the user and service can do, or what 'permissions' you grant the service and what you're allowed to do on the service.
 
@@ -780,17 +790,19 @@ Note, those USB security keys have updated in standard. The newer ones which sup
 
 If you really want advice on what to use for your personal, daily password storage needs I think [keepassxc](https://keepassxc.org) is probably the best option at the moment, though it's still a tad awkward.
 
-For advice on making secure programs see Engineering Chapter 23.
+For advice on security and privacy see the <a href="/engineering/networking/security/">Security & Exploitation</a> and <a href="/engineering/networking/privacy/">Privacy</a> pages.
 
 {{< /hint >}}
 
 ##### Authorization:
 
-Put simply, we need easier to use, fine grain authorization settings that can't be bypassed. I should be able to tell a program, website, or app that I don't want to give it my location, and then, if it asks anyway it should be fed garbage. Refusal should also not stop access to that service. Similarly for storage, microphone, contact, etc.
+Put simply, we need easier to use, fine grain authorization settings that can't be bypassed. I should be able to tell a program, website, or app that I don't want to give it my location, and then, if it asks anyway it should be fed garbage. Refusal should also not stop access to that service<a class="ptr">(16)</a>. Similarly for storage, microphone, contacts, etc.
 
 Newer versions of Android actually do this really well, including the ability to only grant those permissions for that session. This is amazing. It's not *perfect*, far from it. Like, Bluetooth requires location permissions and, unless you're on a rooted phone, there are some permissions the user can't even give. That's a load of shit, but I'll come back to that. 
 
 #### Content Linkage sorta sucks
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Search is the biggest scam in UI now. It almost never works. How do you find stuff that is not in your top 10 results of mini snippets? We need more explorative interfaces taking advantage of context and association. <a href="https://t.co/RC1BEekf3X">pic.twitter.com/RC1BEekf3X</a></p>&mdash; Marcin Ignac (@marcinignac) <a href="https://twitter.com/marcinignac/status/1400806180797231104?ref_src=twsrc%5Etfw">June 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ![](https://obsidian.md/images/screenshot.png)
 
@@ -811,6 +823,8 @@ The digital world doesn't have to be lonely pages indexed like a book, why are w
 {{< /attribution >}}
 
 Obviously this overly linked system is something that people would need to get used to. Until the advent of the WWW we've read information linearly, page by page. The web has allowed this tree traversal style of navigation so that any missed topic can be reviewed, but generally this is a system where the tree only builds down, to simpler information, from the current node. It seems weird to think about an algebra book where it suddenly references multidimensional calculus, but this is exactly what I'm implying. In my education there was uncountable times I had to learn something because 'it will be used later' with no explanation as to how or why. Linking back up the tree allows for information traversal in both directions, eliminating this problem.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Imagine if you could search through concept-space <a href="https://t.co/U3fSZaN8hR">pic.twitter.com/U3fSZaN8hR</a></p>&mdash; Azlen Elza (@azlenelza) <a href="https://twitter.com/azlenelza/status/1356884394628108289?ref_src=twsrc%5Etfw">February 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Presentation of Information Sucks
 
@@ -907,7 +921,7 @@ Beyond that, content moderation needs improvements too - I don't even mean fake 
 
 #### Information Overload
 
-ʸᵉˢ ᴵ ˢᵉᵉ ᵗʰᵉ ᶦʳᵒⁿʸ ᶦⁿ ᵃ ᵖᵒˢᵗ ᵗʰᶦˢ ˡᵒⁿᵍ
+{{< attribution >}}Yes, I see the irony in a post this long.{{< /attribution >}}
 
 <img src="/times-square.jpg" alt="Times Square" style="zoom: 33%;" />
 
@@ -930,6 +944,8 @@ But, okay, back to information overload: The biggest problem is still that there
 What I do know is that trusting the YouTube or Facebook or Twitter algorithm to decide the content I see is incredibly dangerous, but that the alternative is overwhelming.
 
 Meanwhile, legislation that has been passed to try to fix some of this often results in other issues, like all the 'Can we give you cookies?' prompts on websites: [Why The Web Is Such A Mess (Youtube - Tom Scott)](https://www.youtube.com/watch?v=OFRjZtYs3wY&ab_channel=TomScott)
+
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Imagine: drag to select text, pinch to summarize, vertical unpinch to generate alternatives, *inspiration*, record new sentence to replace the old one<br><br>And voilà, you&#39;ve explored multiple directions on the landscape of meaning and rewrote a sentence in just a few moments<br><br>4/4 🧵 <a href="https://t.co/LlcmcY3kpw">pic.twitter.com/LlcmcY3kpw</a></p>&mdash; Azlen Elza (@azlenelza) <a href="https://twitter.com/azlenelza/status/1331623023460421632?ref_src=twsrc%5Etfw">November 25, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 #### Updates after Initial Draw
 
@@ -1064,6 +1080,10 @@ I do hope that someone has a better idea than me for the future of distributed c
 
 I'd also be remiss if I didn't mention [Boinc](https://boinc.berkeley.edu), a tool you can use to donate unused computational resources from when your computer would be otherwise idle to good causes such as [Searching for Extraterestial Life](https://setiathome.berkeley.edu) or [Folding protiens](https://foldingathome.org) to look for cures to various diseases.
 
+---
+
+Unfortunately, in response to criticisms, like this one, of cloud storage a lot of providers of "Personal Cloud" devices have cropped up. Though, headlines like *[“I’m totally screwed.” WD My Book Live users wake up to find their data deleted](https://arstechnica.com/gadgets/2021/06/mass-data-wipe-in-my-book-devices-prompts-warning-from-western-digital/)* and *[If you have a QNAP NAS, stop what you're doing right now and install latest updates. Do it before Qlocker gets you](https://arstechnica.com/gadgets/2021/06/mass-data-wipe-in-my-book-devices-prompts-warning-from-western-digital/)* might go to show why that's also a pretty fucking stupid idea.
+
 ### Transferring Information Sucks
 
 I mostly mean networking, but things like flash drives too.
@@ -1159,6 +1179,8 @@ This could be done with some sort of node based programming system. While I don'
 though there are plenty of other examples, like the node editors used for making shaders or programming in Unreal Engine
 
 Potentially this could also plug into the entire OS as well, making it so an image manipulation program's extension could for example modify anything output to the screen in real time, or an audio program could effect the output of anything. For developer's this may even offer more power, making possible things such as inter-process communication (think pipes, like `$ls -la | grep png`) a matter of connecting two nodes, or reading disk information such as activity, space, or even writeback and inode information, this would literally allow any one piece of information to be accessible to any other. This does have obvious permission issues, but unix permissions should already have this under control. If something like this could also be tied into the previously mentioned internet search and socialization 'web' without massive security concerns the potential use cases are as simple as getting color information from an image hosted online to as complicated as remote access or distributed computing.
+
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Slightly more impressive from a more technical side is that you can reverse search for methods using an expected input-output pair<br><br>For example if you type in &#39;eureka&#39;, &#39;EUREKA&#39; it will return the method &quot;asUppercase&quot; which performs that string operation!<a href="https://t.co/9DpmCuV9hf">https://t.co/9DpmCuV9hf</a></p>&mdash; Azlen Elza (@azlenelza) <a href="https://twitter.com/azlenelza/status/1371612552824766477?ref_src=twsrc%5Etfw">March 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Oh, and our systems are fucking racist and suck for anyone with special needs.
 
@@ -1301,6 +1323,18 @@ http://audulus.com
 https://dag.s-ol.nu
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/FgHMU7m9-I8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Demos of the WIP [Blockhead DAW](https://www.patreon.com/colugomusic):
+
+{{< columns >}}
+
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/QTdXqJA3TY">pic.twitter.com/QTdXqJA3TY</a></p>&mdash; Colugo (@ColugoMusic) <a href="https://twitter.com/ColugoMusic/status/1378386958817312774?ref_src=twsrc%5Etfw">April 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<--->
+
+<blockquote class="twitter-tweet"><p lang="fr" dir="ltr">bizarre envelope <a href="https://t.co/8AMZwYc1sG">pic.twitter.com/8AMZwYc1sG</a></p>&mdash; Colugo (@ColugoMusic) <a href="https://twitter.com/ColugoMusic/status/1367270893731348481?ref_src=twsrc%5Etfw">March 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+{{< /columns >}}
 
 ### Hardware for Open Experimentation
 
@@ -1450,10 +1484,54 @@ Taking the crown however, is Display Port (DP). Like HDMI display port does have
 <li>In the case of things that can be used standalone, not connected to a computer, like my afforementioned MorningStar MC6 midi controller, it makes some sense. </li>
 <li>Fuck Adobe.</li>
 <li>The Launchkey MK2 has an almost impressively bad keybed. Roli, the company behind the Seaboard Block and Lighpad Blocks is a bit controversial. Not like, Behringer levels of controversial, but still. ╮(─▽─)╭</li>
-<li>Currently 17.5Gb - <a href="https://dumps.wikimedia.org/enwiki/20201001/"</a>https://dumps.wikimedia.org/enwiki/20201001/</li>
+<li>Currently 17.5Gb - <a href="https://dumps.wikimedia.org/enwiki/20201001/"> https://dumps.wikimedia.org/enwiki/20201001/ </a></li>
 <li>for the non-technical people: A fork is just when you take an existing project and add your own features on top, usually with a rename. If I don't also keep my project up to date with the original, they'll diverge in features even more significantly with time.</li>
 <li>With the normal limits of compatability, you can't drop a crazy fast graphics card in without upgrading the power supply, and often the CPU, Ram, and motherboard all need to be from the same generation.</li>
+<li>
+ this is without anything extra connected, like flash drives or RFID tools, or my SDR, ...</br>
+<code>
+Bus 006 Device 003: ID 2109:0812 VIA Labs, Inc. VL812 Hub </br>
+Bus 006 Device 002: ID 2109:0812 VIA Labs, Inc. VL812 Hub </br>
+Bus 006 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub </br>
+Bus 005 Device 011: ID 331b:0003 Morningstar Engineering Morningstar MC6MK2 </br>
+Bus 005 Device 008: ID 1235:007c Focusrite-Novation Launchkey MK2 49 </br>
+Bus 005 Device 009: ID 045e:028e Microsoft Corp. Xbox360 Controller </br>
+Bus 005 Device 006: ID 05e3:0608 Genesys Logic, Inc. Hub </br>
+Bus 005 Device 012: ID f182:0003 Leap Motion Controller </br>
+Bus 005 Device 013: ID 0c45:6340 Microdia Camera </br>
+Bus 005 Device 007: ID 1235:8201 Focusrite-Novation Scarlett 18i20 USB </br>
+Bus 005 Device 005: ID 2109:2812 VIA Labs, Inc. VL812 Hub </br>
+Bus 005 Device 004: ID 2109:2812 VIA Labs, Inc. VL812 Hub </br>
+Bus 005 Device 014: ID 1935:000d Elektron Music Machines Elektron Digitakt </br>
+Bus 005 Device 003: ID feed:e60d K.T.E.C. ErgoDone </br>
+Bus 005 Device 002: ID 1a86:7523 QinHeng Electronics CH340 serial converter </br>
+Bus 005 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub </br>
+Bus 004 Device 003: ID 2109:0813 VIA Labs, Inc. VL813 Hub</br>
+Bus 004 Device 002: ID 2109:0813 VIA Labs, Inc. VL813 Hub</br>
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub</br>
+Bus 003 Device 005: ID 256c:006e  Tablet Monitor</br>
+Bus 003 Device 009: ID 1235:0069 Focusrite-Novation Launchpad MK2</br>
+Bus 003 Device 008: ID 046d:082d Logitech, Inc. HD Pro Webcam C920</br>
+Bus 003 Device 007: ID 1337:6007 Vega Deftwing Stinky</br>
+Bus 003 Device 006: ID cb10:1133 Keebio BDN9 Rev. 1</br>
+Bus 003 Device 004: ID 2109:2813 VIA Labs, Inc. VL813 Hub</br>
+Bus 003 Device 003: ID 2109:2813 VIA Labs, Inc. VL813 Hub</br>
+Bus 003 Device 002: ID 1e7d:2e4a ROCCAT Tyon Black Mouse</br>
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</br>
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub</br>
+Bus 001 Device 002: ID 1235:0123 Focusrite-Novation Launchpad Pro MK3</br>
+Bus 001 Device 007: ID 04d8:eef2 Microchip Technology, Inc. FH-2</br>
+Bus 001 Device 006: ID 28de:1142 Valve Software Wireless Steam Controller</br>
+Bus 001 Device 005: ID 0bda:8771 Realtek Semiconductor Corp. Bluetooth Radio</br>
+Bus 001 Device 004: ID 05e3:0745 Genesys Logic, Inc. Logilink CR0012</br>
+Bus 001 Device 003: ID 1a40:0201 Terminus Technology Inc. FE 2.1 7-port Hub</br>
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</br>
+    </code>
+</li>
+<li>... unless that service is based around that permission, like denying a recording app access to a microphone.</li>
 </ol>
+
+
 
 {{< tip >}}
 
