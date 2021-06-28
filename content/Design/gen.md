@@ -377,7 +377,9 @@ Use this tool to create unique, seamless, royalty-free patterns.</br>Choose a ba
 
 <--->
 
-Noisedeck is a generative art synth. Still in early development. Some features require a licence.
+Noisedeck is a generative art synth. Still in early development. Some features require a license.
+
+<iframe width="100%" height="200" src="https://www.youtube.com/embed/pKlowAvANMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <--->
 
@@ -396,6 +398,20 @@ Has a neat code editor too, for making more complex geometry
 <--->
 
 ![](/globsdesigner.png)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Mutsuacen](https://mutsuacen.com)
+
+<--->
+
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Thank you!! <a href="https://t.co/XhuJw0V3n5">pic.twitter.com/XhuJw0V3n5</a></p>&mdash; Miguel Rafael (@migrafael) <a href="https://twitter.com/migrafael/status/1357024329754632194?ref_src=twsrc%5Etfw">February 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<--->
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">楽しい<a href="https://t.co/7RAyBn2VOl">https://t.co/7RAyBn2VOl</a> <a href="https://t.co/F1CcsaHqBd">https://t.co/F1CcsaHqBd</a> <a href="https://t.co/e3tfTLsN3x">pic.twitter.com/e3tfTLsN3x</a></p>&mdash; Jun Kanomata (@jun_kanomata) <a href="https://twitter.com/jun_kanomata/status/1357021829613846532?ref_src=twsrc%5Etfw">February 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 {{< /columns2 >}}
 

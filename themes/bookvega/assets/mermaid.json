@@ -2,5 +2,6 @@
   "flowchart": {
     "useMaxWidth":true
   },
-  "theme": "default"
+  "theme": "neutral",
+  "themeCSS": ".edgePath path { fill: white; }"
 }
