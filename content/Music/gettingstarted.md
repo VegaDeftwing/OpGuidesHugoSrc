@@ -65,7 +65,7 @@ Alright, that's fine and all, but the cable going input to the 'FREQ' control on
 
 So the adventure continues. 'ADSR' stands for 'Attack, Decay, Sustain, Release' and it does exactly that. But before we understand the output of an ADSR we have to look at it's input- 'Gate' and 'Retrig'
 
-'Gates', in modular, are simply a positive (sometimes needing to be 5V or higher) signals that represent that something is happening. Usually, that a key is being held. And that's exactly what's going on here. When you hold a key the 'Gate' output of  the MIDI->CV module is active. When you release it, the output goes off. You can see this by looking at the green indicator light where the gate output is on the MIDI->CV module when you hold or release a key. 'Retrig' is similar, though it only outputs a short pulse every time you press a key. This is handy because you may press a second key while already holding one key, meaning the gate output should stay on, but the retrig output will have sent a pulse each time you pressed a key (once when you pressed the key your holding, another time when you press a different key while still holding the original key).
+'Gates', in modular, are simply a positive (sometimes needing to be 5V or higher) signals that represent that something is happening. Usually, that a key is being held. And that's exactly what's going on here. When you hold a key the 'Gate' output of  the MIDI->CV module is active. When you release it, the output goes off. You can see this by looking at the green indicator light where the gate output is on the MIDI->CV module when you hold or release a key. 'Retrig' is similar, though it only outputs a short pulse every time you press a key. This is handy because you may press a second key while already holding one key, meaning the gate output should stay on, but the retrig output will have sent a pulse each time you pressed a key (once when you pressed the key your holding, another time when you press a different key while still holding the original key).
 
 So, back to the 'ADSR' an ADSR generates a signal that looks like this:
 
@@ -82,6 +82,14 @@ The mixer in this demo patch is super simple. It has 4 inputs, with one output. 
 ![vcavult](/vcavult.gif)
 
 Also, above you'll see I used a 3rd party oscillator instead of the VCO-1 you've seen so far. Pictured is 'Basal' from the 'Vult-Free' collection of modules available on the VCV library page.
+
+> To get modules from the [VCV library](https://library.vcvrack.com) you'll need to make an account on that website, add the module colections you want, sign in in the VCV rack software, and update your modules. Once the modules are done downloading you'll be promted to restart rack and they sholud be installed. If you're looking for a few packs to grab to get started, but not be overwhelmed, I recomend Valley, Bogaudio, Impromptu, Vult, Befaco, Alright Devices, Audible Instruments, Erica Synths, Hora, and MindMeld. This will still probably be enough to overwhelm you a bit, but it's a really good starting place.
+>
+> When you're looking to grow a bit: Aria Salvatrice, Blamsoft, Flag, Frozen Wasteland, Lindenberg Research, Geodesics, Instruo, Nysthi, Starling Via, Stoermelder, Wiqid, and ZZC are all very good.
+>
+> Of course, this list is far from exhaustive, there are a ton of other good modules in VCV, but these are the collections I find myself using the most. If yo're down to pay for some modules, I really reccomend VCV's Parametra and Host, as well as Vult's Premum and Compacts collections. Slime Child Audio's Moog Subharmonicon inspired modules are great too. If you're a fan of 808 sytle drums, Hora's analog drums collection is worth a look. If you're really itching for a better sequener and don't want to use an external program, check out ZZC's Phaseque or Geodesics+Vult Hexaquark.
+>
+> Note, that a few modules are not available in the VCV library, and instead you may need to install them manually.   see [Installing plugins not available on the VCV Library](https://vcvrack.com/manual/Installing#Installing-plugins-not-available-on-the-VCV-Library) from the offical VCV manual for more information.
 
 Finally, the output of just the first channel of the mixer is fed into the scope so that when you press a key you can see the signal your generating. To understand this it's easiest to just drag the cable coming out of the VCO's 'SAW' output to the VCO's 'Sine' Output. Now when you press a key instead of seeing a saw wave you should see a sine wave.
 
@@ -113,7 +121,7 @@ anyway, so now the last relevant part of the above patch worth understanding is 
 
 ## A bit of an aside
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Secret Panel HERE ðŸ˜¶ <a href="https://t.co/i8H7WlWRbO">https://t.co/i8H7WlWRbO</a> <a href="https://t.co/BJOfoxNzCg">pic.twitter.com/BJOfoxNzCg</a></p>&mdash; J. L. Westover (@MrLovenstein) <a href="https://twitter.com/MrLovenstein/status/1347912909465255938?ref_src=twsrc%5Etfw">January 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Secret Panel HERE Ã°Å¸ËœÂ¶ <a href="https://t.co/i8H7WlWRbO">https://t.co/i8H7WlWRbO</a> <a href="https://t.co/BJOfoxNzCg">pic.twitter.com/BJOfoxNzCg</a></p>&mdash; J. L. Westover (@MrLovenstein) <a href="https://twitter.com/MrLovenstein/status/1347912909465255938?ref_src=twsrc%5Etfw">January 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Some people will try to get you to try various substances to be creative, to make better music, etc.
 

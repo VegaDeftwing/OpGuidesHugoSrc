@@ -71,6 +71,8 @@ TODO: individually wrapped wastes of money for holidays makes me feel gross
 
 https://dvt.name/2020/02/24/rfc-lets-disrupt-dating-apps/
 
+[A classic Silicon Valley tactic — losing money to crush rivals — comes in for scrutiny (Washington Post)](https://www.washingtonpost.com/technology/2021/07/06/facebook-bulletin-antitrust/)
+
 ### Advertising
 
 This video from Tom Scott provides a ton of background information and makes some really good points

@@ -96,6 +96,8 @@ Apps, GoogleClassroom, etc
 
 [School or Prison](https://www.schoolprison.com) ([Comments on Hacker News](https://news.ycombinator.com/item?id=25605867))
 
+[Privacy For Students](https://ssd.eff.org/en/module/privacy-students)
+
 
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/mJBlgIA3K24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

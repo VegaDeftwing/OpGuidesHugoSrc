@@ -59,3 +59,5 @@ Community Garden
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/9vz06QO3UkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+I'd also like to touch on paid-for research. It's easy to think this is a problem of the past, that it was a problem back when cigarette companies bouught research to hide that they caused cancer- but guess what! That's still a problem: [Juul: Taking Academic Corruption to a New Level (The American Post)](https://prospect.org/health/juul-taking-academic-corruption-to-new-level/)
+

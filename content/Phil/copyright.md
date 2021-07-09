@@ -16,13 +16,41 @@ This video from Tom Scott on YouTube is a very good intro to everything I'll be 
 
 ## What's Wrong With that?
 
+[Watch a police officer admit to playing Taylor Swift to keep a video off YouTube (The Verge)](https://www.theverge.com/2021/7/1/22558292/police-officer-video-taylor-swift-youtube-copyright)
+
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/tk862BbjWx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!--
+
+LICENCE PENDING, NOT YET APPROVED FOR PUBLISHING
+
+### Shinkwrap Licenses
+
+> End User License Agreements, or EULAs for short, are a one sided contract, often imposed by a company with superior bargaining power to set terms to an end user. A particularly troublesome version of this is pejoratively called the “shrinkwrap license” as they are included in software, and often cannot be read until after the package has been purchased and opened.
+> A prime example is the license for Microsoft Visual Studio (Enterprise Edition), a developer software for the purpose of creating software. The problematic clause is one that forbids duplication of the functionality of Microsoft Access, and further forbids competition with the same, and even delegates this to the reasonable opinion of Microsoft <a class="ptr">(1)</a>.
+>
+> Bluntly, this means any piece of software created by Visual Studio can be declared in violation of the EULA on this clause simply because Microsoft darn well *says* it does. This allows arbitrary enforcement at Microsoft’s sheer whim just on fiat alone, which leads to an imbalance of power between Microsoft and the end user.
+>
+> Additionally, restraining the end user from competition or reimplementation of one of Microsoft’s own products is anticompetitive <a class="ptr">(2)</a>, and tends towards monopolistic practice, something Microsoft has in fact gotten in trouble with before <a class="ptr">(3)</a>.
+>
+> Furthermore, shrinkwrap licenses in general are unfair to the consumer because they may not be returnable by the place of origin, and in fact many stores, including Walmart, specifically forbid returns of copyrighted material for refund, at least for movies, and presumably the same restriction also applies to software. It is further theorized that this prohibition is imposed as a matter of copyright law and not merely Walmart’s corporate policy.
+> Standard procedure, however, spelled out by many EULAs demands that the software in question be returned to the place of purchase for refund, which may conflict with the return policy of the store of purchase, and ironically, may also contradict copyright law itself.
+>
+> A purchaser who acquires software subject to an EULA is thus treated unfairly, as in many cases the EULA is not even readable before purchase (hence the term “shrinkwrap license”) and they are deprived of an opportunity to evaluate the EULA before purchase, a decision that has a material impact on their finances if the store subsequently refuses to honor a return if the purchaser does in fact reject the license after purchase and attempts to exercise their remedy under the EULA to return said software.
+>
+> Shrinkwrap licenses are also unfair to the store, as they attempt to impose a duty on the store to accept a return for a product after it has already been purchased, which at a minimum will entail additional labor to restock, and if necessary, repack the software, in addition to transaction fees to a bank if the purchaser used a credit or debit card to make the purchase. The store may not have even agreed to the EULA itself, and thus it may have a duty imposed upon it that it did not agree to, or the alternative of being in a position to deny an end user their own remedy as spelled out by the publisher of the software in the previous paragraph of this essay.
+>
+> EULAs are often used unfairly by companies with more bargaining power than their customers, and impose unfair burdens on consumers and retailers alike. However, Microsoft’s particular EULA for Visual Studio goes beyond the general case by effecting monopolistic practices and restraining the end user’s ability to code their software as they see fit, and in so doing restraining trade in the economic sense by giving its own software a privileged status above that of the end user, and is a continuation of a pattern of behavior for which Microsoft has already been censured.
+
+{{< attribution >}}Raymond Jennings, [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/){{< /attribution >}}
+
+-->
 
 ## How do we fix it?
 
 I think to further address any issues we first need to look into how these issues have come to exist. In general, as a society advances new issues will arise. Computers and the Internet have shown us just how incredibly things can progress and how amazing un-hindered, open information flow can change the world. The Internet has served as an educational tool of unparalleled utility to my generation and has allowed me to learn things that I otherwise would have never had access to. Of course this also means the same for bad actors. Though acting in bad faith also now have the same unparalleled access to personal information of the masses and individuals can now use their anonymity and an Internet connection to do harm both to individuals via cyberbullying and trolling, but also to businesses as we move to a world that more heavily relies on ecommerce and the digital information they store becomes increasingly sensitive.
 
-Unfortunately, the law is often far to slow or far to fast to react, leading to laws that simultaneously fail to protect our rights as smaller creators and punish many to harshly.<a class="ptr">(1)</a>
+Unfortunately, the law is often far to slow or far to fast to react, leading to laws that simultaneously fail to protect our rights as smaller creators and punish many to harshly.<a class="ptr">(4)</a>
 
 ...
 
@@ -76,7 +104,10 @@ https://the-eye.eu/public/
 Cory Dottorow is a huge name when it comes to speaking on how copyright matters to those of us that like to create with code and wires. I really recomend reading his post about why [There are no digital rights, only human rights.](https://locusmag.com/2020/09/cory-doctorow-ip/) and watching this video about the [War on General-Purpose Computing](https://www.youtube.com/watch?v=gbYXBJOFgeI).
 
 <ol hidden id="footnotes">
-    <li>By 'slow' I'm primarily referring to the lack of or incompetence of consumer data protection law. <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">GDPR</a> is definitely a step in the right direction on this; however, that is both only for the EU and was implemented far too late. By 'fast' I had the <a href="https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act">DMCA</a> in mind, which is wildly considered to be both overreaching and to harsh. Simultaneously, we lack real power as consumers, copyright is a game the rich can play with expensive laywers and the small creator can't afford to defend.</li>
+	<li>Microsoft Corporation.  “MICROSOFT VISUAL BASIC/VISUAL C++ 6.0 ENTERPRISE EDITIONS” <a href="download.microsoft.com/documents/useterms/Visual%20Basic%20Enterprise_6.0_English_11762fc4-f3b9-4bf5-a513-b4a9b76b4f60.pdf">availabe here</a>  3 Jun 2020</li>
+	<li>United States House of Representatives.  “Monopolies and Combinations in Restraint of Trade”  Title 15, United States Code, Chapter 1  3 Jun 2020</li>
+	<li>United States District Court for the District of Columbia.  U.S. v Microsoft  Civil Action No. 98-1232  3 Jun 2020</li>
+	<li>By 'slow' I'm primarily referring to the lack of or incompetence of consumer data protection law. <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">GDPR</a> is definitely a step in the right direction on this; however, that is both only for the EU and was implemented far too late. By 'fast' I had the <a href="https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act">DMCA</a> in mind, which is wildly considered to be both overreaching and to harsh. Simultaneously, we lack real power as consumers, copyright is a game the rich can play with expensive laywers and the small creator can't afford to defend.</li>
 </ol>
 
 
@@ -119,7 +150,6 @@ At the end of the day, this comment is the one that matters:
 > [<img src="https://a.deviantart.net/avatars-big/j/u/juriscat.gif?3" alt="JurisCat's avatar" style="zoom:25%;" />](https://www.deviantart.com/juriscat) [JurisCat](https://www.deviantart.com/juriscat) - [Jun 20, 2019](https://www.deviantart.com/comments/1/802440301/4745375467)
 >
 > One thing to consider about this, though, is that people are unlikely to sue over characters being copied because typically the legal fees would be too high to make it worth suing. 
->
 
 >[<img src="https://a.deviantart.net/avatars-big/r/i/riipurr.gif?14" alt="Riipurr's avatar" style="zoom:25%;" />](https://www.deviantart.com/riipurr) [Riipurr](https://www.deviantart.com/riipurr) - [Jun 20, 2019](https://www.deviantart.com/comments/1/802440301/4745387918)
 > 

@@ -18,13 +18,13 @@ A **musical instrument** is a device created or adapted to make musical sounds. 
 
 which, okay, that's fair enough. But I think that has some issues. For one, not all devices that are played as instruments make sounds on their own. I have quite a few MIDI controllers sitting next to me, and while they send data about the notes I'm playing, they do not make sounds on their own- are they still instruments?
 
-So, for the purposes of these pages I'll consider an instrument to be defined not solely by sound, but by the interface. This may seem like an odd choice, but it is because technology has brought use to a point that it is often extraordinarily difficult to determine what interface is being used. I can play a guitar and hear a piano, I can play drums and hear a violin. The sounds, to some extent, have been decoupled from their physic forms.
+So, for the purposes of these pages I'll consider an instrument to be defined not solely by sound, but by the interface. This may seem like an odd choice, but it is because technology has brought use to a point that it is often extraordinarily difficult to determine what interface is being used. I can play a guitar and hear a piano, I can play drums and hear a violin. The sounds, to some extent, have been decoupled from their physical forms.
 
 *Obviously*, some interfaces are still better than others for making certain sounds. While I could detect each drum hit on a set of acoustic drums and map each to a different note on the piano, this will be far from a good way to play the piano, and may make playing chords impossible. Similarly, I could map drum sounds to each key on a keyboard (and this is often done) but it's rather awkward to play.
 
 In the first few chapters, <a href="/music/music-getting-started/">Getting Started</a> and <a href="/music/sound-sources/">Sound Sources</a>, synthesizers were explored rather deeply - so why do this before talking about the more familiar realm of acoustic instruments, like a big ol' hollow body guitar or a drum set with membrane you can hit and *feel*?
 
-Well, because assuming you know how all of the physics of those systems work *or* have really good samples of the instruments *or*  you only need to fill the same role as the sound (like needing a bass-heavy sound, but not a bass guitar) it really doesn't matter if you have the physical instrument, so long as you have a good way to play the same sounds, that lends the same amount of expressiveness and control.
+Well, because assuming you know how all of the physics of those systems work *or* have really good samples of the instruments *or* you only need to fill the same role as the sound (like needing a bass-heavy sound, but not a bass guitar) it really doesn't matter if you have the physical instrument, so long as you have a good way to play the same sounds, that lends the same amount of expressiveness and control.
 
 ### Expressiveness and Control
 
@@ -62,7 +62,93 @@ Three more things:
 2. Without proper respect for a digital instrument, it will sound just as bad as poorly played physical one. Just as it takes skill to play instruments with [varying dynamics](https://www.youtube.com/watch?v=fpqObbD2YqE) the same applies to digital instruments.
 3. Just as players in an real ensemble have to interpret notes and add their own 'flair' to what they see as part of the translation from paper to sound, so do players of digital instruments- the problem here is that a computer will be extremely *sterile*- do not expect to just place notes on a digital piano roll and get anywhere near the same quality. If you want it to sound like it's played by a human, you need to **actually play it** - even if the controller doesn't match the sound (guitar sound on a keyboard or whatever)
 
-## Drums
+## Percussion
+
+Before I even dive into Percussion, I think it's necessary to point out how generic the term is. Just looking at the Wikipedia page for drum kit you'll see this:
+
+<img src="/drumkit.png" alt="wikipedia drum kit list" height="500em">
+
+{{< attribution >}}[Drum Kit](https://en.wikipedia.org/wiki/Drum_kit) page on Wikipedia{{< /attribution >}}
+
+and clearly that's still not an exhastive list. Just off the top of my head I can see it lacks the Cajon or Taiko as acoustic instruments, let alone anything more specific than electronic drum, which can make for a class all its own.
+
+Wikipedia defines [Percussion Instrument](https://en.wikipedia.org/wiki/Percussion_instrument) as "a musical instrument that is sounded by being struck or scraped by a beater including attached or enclosed beaters or rattles struck, scraped or rubbed by hand or struck against another similar instrument." but, frankly, I think that definition really sucks. I think a better definiton would be any tool that be used to make a sound with a sharp attack, that is typically not pitched/tuned and is used to establish the tempo of the song. I confess that this defintion is still bad, but hey, it's better. Generally though, I think we all have a sort of intimate knowledge of what percussion is and I'm not trying to turn this page into one on the philosophy of music or human experiance, so let's jump back into my definition a bit- I said it (loosly) requires a sharp attack. What do I mean by that? Well, remember back when we looked at the ADSR in getting started?
+
+{{< columns >}}
+
+Here's that original ADSR gif again, see how the first stage, the attack can varry in time. If we imagine this as the volume of the sound, one with a more gradual fade in, instead of a verical line, will have a smooth fade in. This is not how most percussive sounds are used. Usually, a percusive sound has a very loud **transient** and, usually, a short decay. Basically, the drum hit's hard, fast, and goes away fast.
+
+![](/adsr.gif)
+
+<--->
+
+Look at this view of a bass drum hit on a scope. See how there's this sharp spike, right as it first starts? Also, see how it only moves up and down a few times before fading out? Think about this like smacking the head of a drum, you get that shap hit, then the drum head will oscilate back and forth a few times before coming to rest. What's also of note is those peaks aren't evenly spaced. It's actually gets lower pitch as it fades out (albiet not by much here). A lot of percussion does this, changing in pitch over it's short lifespan.
+
+![](/bassdrum.png)
+
+{{< /columns >}}
+
+It's also pretty common for percussion to have a noisy part to it, literally just 'poluting' the entire frequency spectrum. That's really obvious here with both the snare and open hi-hat sounds, where on the scope you can see the jittery-ness of the noise: 
+
+![](/hatbasssnare.png)
+
+It's also worth noting just how clean of a sine wave the bass drum is. This isn't necessarily *required* of the lower pitch drums, but most bass sounds- drums or not- tend to sound muddy if anything but a pure sine wave. 
+
+{{< columns >}}
+
+If you're wondering what the difference is between the snare and the hat given how similar they look in the wavefrom: the hat only really fills the 5khz to 20kHz range, with a peak around 6khz while the snare goes down to 320Hz (ish), with noise spreading up to 20khz as well, but with a strong peak at that 320Hz point.
+
+<--->
+
+![](/drumfrequencyanalysis.png)
+
+{{< attribution >}}Kick in green, snare in orange, hat in pink{{< /attribution >}}
+
+{{< /columns >}}
+
+{{< columns >}}
+
+Alright, so this is nice and all, but, like, this is a guide about sound and that's a lot of pictures? Let's dive in then. I've put together a VCV patch for you to learn on. It has a ton of notes built in and focuses on the sound design side of percussion, as we'll come back to actually sequencing drums (making patterns of drum hits, or playing them with sticks, whatever) in a bit, but I think it helps just to get a feel for how much sound design can go into percussion.
+
+{{< tip >}}
+
+To open this patch, you'll need to have VCV with the packs BogAudio, Audible Instruments, Befaco, Valley, Vult Free, Fehler Fabrik, Starling Via, MindMeld, Hora Processors Free, Geodesics, Aria Salvatrice, Erica Synths, Stoermelder, and  Submarine. All of these are free.
+
+{{< /tip >}}
+
+<--->
+
+![drum patch screenshot](/drumpatchscreenshot.jpg)
+
+The patch can be downloaded from patch storage [here](https://patchstorage.com/percussion-explainer/).
+
+{{< /columns >}}
+
+So just download this patch and poke around for a while. A big part of learning music is having a sort of mental catalog of sounds that you can make and how they can work together. The best way to build up this mental catalog is to experiment, that's why while this patch is pre-wired, I encourage you to twist and turn every knob. After all, worst case you just re-open the original file and start over. So experiment! Find werid sounds!
+
+{{< columns >}}
+
+Once you've done that, go ahead and try to make your own drum sound using basic modules (Oscilators, VCAs, etc.), thinking about the characteristics of the sounds you made and what I explained above, if you need a bit of an example for that, go ahead and check out this patch.
+
+You might want to go back to sound sources and look at subtractive and FM synthesis again if you're still a bit rusty on how to make patches from scratch.
+
+<--->
+
+![drum patch screenshot](/drumpatchscreenshot2.jpg)
+
+The patch can be downloaded from patch storage [here](https://patchstorage.com/percussion-explainer-2/).
+
+{{< /columns >}}
+
+When you've had your fill come back and we'll talk about some common percussive kits, that is sounds that you'll find together either in an acoustic drum kit or on an electronic drum machine. Then we can wrap precussion up by briefly diving into making drum patterns- though that will be covered more in depth in Chapter 5, <a href="/music/sequencing-and-midi/">Sequencing & MIDI</a>.
+
+----
+
+Welcome back, Hope you had fun messing around in that pach! Let's dive into percussion kits then.
+
+Probably the most famous percussion kit is the 808.... [TODO]
+
+
 
 [TODO] list of types of drums
 
