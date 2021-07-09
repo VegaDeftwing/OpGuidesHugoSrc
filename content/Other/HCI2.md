@@ -264,7 +264,7 @@ Did you get a gaming, racing chair that cost about $100 off of ebay? Yeah, you'l
 
 ![](/racingchair.jpg)
 
-Even if you got a normal office chair, if it wasn't exorbitantly expensive it probably sucks. I did like two weeks of stressing about finding something good and thankfully finally got a good recommendation from a friend, but otherwise it's like $500 SteelCase chair or having a bolt poke though the butt-foam until it's leaving a permanent indentation into your butt.
+Even if you got a normal office chair, if it wasn't exorbitantly expensive it probably sucks. I did like two weeks of stressing about finding something good and thankfully finally got a good recommendation from a friend, but otherwise it's like $500 SteelCase chair or having a bolt poke though the seat's foam until it's leaving a permanent indentation into your butt.
 
 It's not like we even *need* innovation here, (as proven by the influx of hot garbage 'gaming' chairs) we just need something affordable that's not garbage or plagued by fake reviews or reviews from another product attached to the new listing (Fix your shit amazon.)
 
@@ -1042,32 +1042,50 @@ With all of this combined keeping your files in order, not corrupted, and not ha
 
 The hardware issue is mostly a side effect of trying to market technical differences to people who ultimately just want a place to drop their files. A normal user shouldn't have to know what all the various specs of a HDD or SSD mean to know what to buy.
 
-That said, holy shit do manufactures suck at this. Everything from [Western Digital redefining 'RPM'](https://arstechnica.com/gadgets/2020/09/western-digital-is-trying-to-redefine-the-word-rpm/) to [Western Digital uses SMR on NAS drives](https://arstechnica.com/gadgets/2020/05/western-digital-gets-sued-for-sneaking-smr-disks-into-its-nas-channel/), 
+That said, holy shit do manufactures suck at this. Everything from [Western Digital redefining 'RPM'](https://arstechnica.com/gadgets/2020/09/western-digital-is-trying-to-redefine-the-word-rpm/) to [Western Digital uses SMR on NAS drives](https://arstechnica.com/gadgets/2020/05/western-digital-gets-sued-for-sneaking-smr-disks-into-its-nas-channel/),   [DRAM-less SSDs](https://www.youtube.com/watch?v=ybIXsrLCgdM) and [Bait-and-switch in regards to SSD performance](https://youtu.be/bGY9hEVk_Bc?t=3744).
 
 > SMR, or Shielded Magnetic Recording, has a few issues that make it problematic for Network Attached Storage (NAS) systems using multiple disks, particularly if the NAS is running ZFS, a common file system made exactly for this use case.
 
-on hard drives, to [DRAM-less SSDs](https://www.youtube.com/watch?v=ybIXsrLCgdM) and [Bait-and-switch in regards to SSD performance](https://youtu.be/bGY9hEVk_Bc?t=3744).
+But the issues go beyond that. While a bit controversial, I think literally any modern filesystem (BTRFS, ZFS, or even EXT4) is *much* better than the mess that is NTFS, yet, Microsoft only officially supports NTFS, FAT(/32), and ReFS- all of which sorta suck.
 
-* why the fuck are we still using NTFS and EXT4 and not ZFS and LVM
-  * Microsoft, not merging some fucking filesystems
-  * https://github.com/maharmstone/btrfs (WinBtrfs)
-* Hard drives are just, bad
-  * Screaming at them makes them run worse [Shouting In The Datacenter](https://www.youtube.com/watch?v=tDacjrSCeq4)
-    * I have a subwoffer right next to mine
-  * Feeling the inertia in a laptop
+There is no fucking reason everyone - Microsoft, Apple, Linux, etc. - can't fucking agree on *something* and avoid the massive fustercluck that is using FAT32, a filesystem that can only store files up to 4GB, as the only common system that "just works". 
+
+> Note, you can use [BTRFS on Windows](https://github.com/maharmstone/btrfs (WinBtrfs)), using 3rd party tools. Technically, the same is true of EXT2/3/4 too, but I don't trust it to not eat my data.
+
+Ideally, we'd be using [Logical Volume Managment](https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)) so that the entire filesystem can have snap shots, partitions could be resized, or use multiple physical disks 
+
+I also don't get how in 2021, some system are still booting off of spinning rust? Hell, why are we really using it at all. Yes, I know the price per GB is much lower, but we're talking about something that is so sensitive to vibration that [Shouting In The Datacenter](https://www.youtube.com/watch?v=tDacjrSCeq4) is a problem. This is extra dumb when you consider a lot of computers or game consoles will be right next to speakers and subwoffers. Every time I pickup a laptop with an HDD and I can feel the inertia of the disk it makes me cringe. 
 
 #### Cloud Storage is a terrible idea
 
-To keep the core of this issue brief: The cloud is just someone else's computer. You can't ever be certain of what they'll do to your data, if they won't have some random DMCA complaint take something down, if they won't suddenly increase price and essentially hold continued access to your data at ransom, if they'll mine your data for targeted advertising, or if you're data will accidentally be public because of bad security. Just... don't.
+{{< columns >}}
+
+To keep the core of this issue brief: The cloud is just someone else's computer. You can never be certain of what they'll do to your data.
+
+You can't be sure they won't have some random DMCA complaint take something down.
+
+You can't be sure they won't suddenly increase price and essentially hold continued access to your data at ransom
+
+You can't be sure they won't mine your data for targeted advertising
+
+You can't be sure your data won't accidentally be public because of bad security.
+
+<p style="text-align: center;"> Just don't put your data in the cloud.</p>
+
+<--->
+
+<img src="/yellsatcloud2.webp" alt="Old Vega Yells at Cloud">
+
+{{< attribution >}}Character owned by Vega, art by [Talon Creations](https://twitter.com/Talon_Creations) and Vega {{< /attribution >}}
+
+{{< /columns >}}
 
 That said, I will admit two valid uses:
 
 1. Collaborative Editing. GSuite is actually pretty cool.
 2. Backup but only if the service is *only* backup and you already have at least an on site backup. For example, I think [Backblaze](https://www.backblaze.com) is actually a pretty neat service and it seems like they do things reasonably. The ship you a hard drive option here is what makes it make sense to me. Note, I've never actually used Backblaze.
 
-But 1. still has it's issues, especially if the format the collaborative documents are saved as are only viewable on that cloud platform.
-
-
+But 1. still has issues, especially if the format the collaborative documents are saved as are only valid on that cloud platform. Think like .docx for Word, but what does GSuite use? Can you be sure it'll work offline?
 
 I'd also like to mention the idea of distributed computation here as well, as It can be used for both the storage of and computation on data. I think that having a *true* distributed system in place, one where all users contribute compute and storage for it's use, makes sense. The obvious ask is to get it to be self sufficient. This brings up the idea of balanced usage to contribution, I think the easiest solution is to simply use a system of computational debt tied to each user account. If the user is creating more computational debt than the average debt the system can sustain then that user should be handicapped in bandwidth accordingly. This does sort of bring us full circle in 'can I just trade debt with someone, or sell them my computational time' such that we're back to crypto based services again though, and I **really** don't like this idea for two reasons: 
 

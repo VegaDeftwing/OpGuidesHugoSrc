@@ -50,3 +50,5 @@ https://en.wikibooks.org/wiki/Signals_and_Systems
 
 [Tripple Pendulum on a Cart](https://www.youtube.com/watch?v=cyN-CRNrb3E&ab_channel=TobiasGl%C3%BCck) & [Inverted Pendulum on a Cart (Steve Brunton's Control Bootcamp on YouTube)](https://www.youtube.com/watch?v=qjhAAQexzLg&ab_channel=SteveBrunton)
 
+[Poisson's Equation is the Most Powerful Tool not yet in your Toolbox (Matt Ferraro)](https://mattferraro.dev/posts/poissons-equation)
+
