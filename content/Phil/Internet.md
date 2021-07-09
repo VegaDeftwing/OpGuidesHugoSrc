@@ -67,6 +67,8 @@ Here, this video covers everything I could say a lot better than I can easily wr
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/678EW8v09z8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[ Everything You’ve Heard About Section 230 Is Wrong from Wired is really god but **is behind a paywall**](https://www.wired.com/story/section-230-internet-sacred-law-false-idol/)
+
 ### DMCA (*attempting* to fix 230, poorly)
 
 Alright, so 230 made sites not liable at all (ish) but this actually isn't great either, as what is someone supposed to do if they get their copyrighted work posted online? No reasonable person (or business) can afford to sue literally every time someone posts their shit, so, the DMCA - the *Digital Millennium Copyright Act*-  was born, to steal from Wikipeda:
