@@ -98,6 +98,8 @@ https://www.prusaprinters.org/prints/7876-rotating-rings-toy
 
 [Motorized Scaly Gauntlet (Hackaday)](https://hackaday.com/2020/12/22/watch-this-scaly-gauntlets-hypnotizing-rippling-waves/)
 
+[Fractal Vise Holds Odd-Shaped Objects Tight (Hackaday)](https://hackaday.com/2021/07/10/fractal-vise-holds-odd-shaped-objects-tight/)
+
 ## 34.3 - Aluminum Extrusion
 
 [Getting started with Aluminum Extrusions (Hackaday)](https://hackaday.com/2021/05/25/getting-started-with-aluminum-extrusions/)

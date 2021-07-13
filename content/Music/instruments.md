@@ -130,6 +130,8 @@ So just download this patch and poke around for a while. A big part of learning 
 
 Once you've done that, go ahead and try to make your own drum sound using basic modules (Oscilators, VCAs, etc.), thinking about the characteristics of the sounds you made and what I explained above, if you need a bit of an example for that, go ahead and check out this patch.
 
+(if you need a little push, you might try out [Befaco's Percall](https://library.vcvrack.com/Befaco/Percall), which makes it pretty easy to get drum sounds out of any oscilattor)
+
 You might want to go back to sound sources and look at subtractive and FM synthesis again if you're still a bit rusty on how to make patches from scratch.
 
 <--->
