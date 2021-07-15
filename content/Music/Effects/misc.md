@@ -1,5 +1,9 @@
 # Misc Effects
 
+<script>
+    document.getElementById("effectMenu").open = true;
+</script>
+
 ## Vocoders
 
 [Ableton Live VOCODER Tutorial (YouTube, Once Upon A Synth)](https://www.youtube.com/watch?v=aiM_NQYhu1o)
