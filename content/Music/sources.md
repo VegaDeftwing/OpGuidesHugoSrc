@@ -68,6 +68,8 @@ This video from Omri Cohen goes pretty in depth:
 
 ### Field Recordings, Tape Loops, and other sampling goodness
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Check out the tape loop labyrinths of Justin Lakes. <a href="https://t.co/b8cTReWrWg">https://t.co/b8cTReWrWg</a> <a href="https://t.co/zULT0LaZtH">pic.twitter.com/zULT0LaZtH</a></p>&mdash; Tabs Out 🧻 (@tabsout) <a href="https://twitter.com/tabsout/status/949395722008489985?ref_src=twsrc%5Etfw">January 5, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 [TODO]
 
 https://soundslikenoise.org
