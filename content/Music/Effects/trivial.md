@@ -1,5 +1,9 @@
 # Trivial Effects
 
+<script>
+    document.getElementById("effectMenu").open = true;
+</script>
+
 ## Tremolo
 
 {{< columns >}}
