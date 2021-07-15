@@ -162,8 +162,20 @@ headless: true
 <dl>
 <dt>1 </dt><dd> <a href="/music/music-getting-started/">Getting Started</a></dd>
 <dt>2 </dt><dd> <a href="/music/sound-sources/">Sound Sources</a></dd>
-<dt>3 </dt><dd> <a href="/music/instruments/">Instruments</a></dd>
-<dt>4 </dt><dd> <a href="/music/effects/">Effects</a></dd>
+   <dt>3 </dt><dd> <details id="instMenu"> <summary><a href="/music/instruments/">Instruments</a></summary>
+    <dt class="sub">3.1</dt><dd class="sub"> <a href="/music/instruments/perc/"> Percussion</a></dd>
+	  <dt class="sub">3.2</dt><dd class="sub"> <a href="/music/instruments/strings/"> Strings</a></dd>
+    <dt class="sub">3.3</dt><dd class="sub"> <a href="/music/instruments/wind/"> Wind</a></dd>
+    <dt class="sub">3.4</dt><dd class="sub"> <a href="/music/instruments/synth/"> Synths</a></dd>
+    <dt class="sub">3.5</dt><dd class="sub"> <a href="/music/instruments/esoteric/"> The Esoteric</a></dd>
+   </details> </dd>
+   <dt>4 </dt><dd> <details id="effectMenu"> <summary><a href="/music/effects/">Effects</a></summary>
+    <dt class="sub">3.1</dt><dd class="sub"> <a href="/music/effects/trivial/"> Trivial Effects</a></dd>
+	  <dt class="sub">3.2</dt><dd class="sub"> <a href="/music/effects/time/"> Time Based Effects</a></dd>
+    <dt class="sub">3.3</dt><dd class="sub"> <a href="/music/effects/filter/"> Filters!</a></dd>
+    <dt class="sub">3.4</dt><dd class="sub"> <a href="/music/effects/dynamics/"> Dʸⁿᵃᵐᶦᶜˢ</a></dd>
+    <dt class="sub">3.5</dt><dd class="sub"> <a href="/music/effects/misc/"> Everything Else</a></dd>
+   </details> </dd>
 <dt>5 </dt><dd> <a href="/music/sequencing-and-midi/">Sequencing & MIDI</a></dd>
 <dt>6 </dt><dd> <a href="/music/music-software/">Software</a></dd>
 <dt>6½</dt><dd> <a href="/music/midi/">MIDI in Detail</a></dd>
@@ -174,6 +186,7 @@ headless: true
 <dt>A2 </dt><dd> <a href="/music/video/">Video</a></dd>
 </dil>
 </div>
+
 
 
 ---
