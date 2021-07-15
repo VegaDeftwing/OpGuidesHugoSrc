@@ -164,7 +164,9 @@ potentiometer read from arduino full range (center tap or max resistor)
 
 [Ideal Capacitor's aren't real](https://en.wikipedia.org/wiki/Two_capacitor_paradox)
 
+[Cap Types: Electrolytic & Ceramic - Collin’s Lab Notes (YouTube)](https://www.youtube.com/watch?v=7wBMDoM7C_U)
 
+[Capacitor Types P2: Tantalum & Film - Collin’s Lab Notes (YouTube)](https://www.youtube.com/watch?v=Th0evgETeBE)
 
 ## Inductors
 
@@ -177,6 +179,18 @@ Motors
 ## Transformers, Variacs
 
 [World's Most Powerful Pancake Slayer Tesla Coil? Melts Copper! (YouTube, Plasma Channel)](https://www.youtube.com/watch?v=TT4QolzknC0)
+
+{{< columns >}}
+
+### Planar Transformers
+
+<--->
+
+<img src="/pipoehat.webp" alt="pi poeplus hat">
+
+{{< attribution >}}image stollen from [Raspberry Pi PoE+ Hat](https://www.raspberrypi.org/products/poe-plus-hat/) product page{{< /attribution >}}
+
+{{< /columns >}}
 
 [TODO]
 

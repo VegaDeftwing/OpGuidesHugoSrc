@@ -5,6 +5,8 @@ weight: 20
 
 # Ⅰ - Community
 
+When you think engineer, what traits come to mind? If you're anything like most people, you probably thought "smart" and "antisocial". While I can't speak to how truthful that stereotype may be, I can tell you for sure that in engineering, not knowing how to make friends, ask for help, and talk with others will make you all but useless.
+
 The only way to be successful in this journey is to make friends along the way. Some of this gets really, really difficult. You *will* get stuck. Having friends to help makes it possible. Find group chats on telegram, join IRC channels, get on some forums, and ask questions on Reddit. Working with people is a lot more fun and you'll learn so much more.
 
 <!--

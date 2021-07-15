@@ -434,16 +434,32 @@ Prevents any node from becoming too specialized sorta distributes the work load
 
 ##  Other Resources
 
-https://hific.github.io/
+{{< tip >}} 
 
-[i.am.ai Roadmap](https://i.am.ai/roadmap/) -- this shows that AI/ML are rooted in Data Science, as a [TODO] this probably needs talked about here
+I've tried to divide these into academic and artistic, but there is a ton of overlap. I reccomend looking at everything here though!
+
+{{< /tip >}}
+
+{{< columns2 >}}
+
+### Academic
+
+[i.am.ai Roadmap](https://i.am.ai/roadmap/) - a 'Roadmap' to learning AI
+
+https://hific.github.io - Image compression with GANs
+
+[Stan, a platform for statistical modeling](https://mc-stan.org)
+
+[Alias-Free GAN](https://nvlabs.github.io/alias-free-gan/)
+
+<--->
+
+### Insipriational & Artistic
+
+[The Art of Asking Nicely (AI Weirdness)](https://ai-weirdness.ghost.io/the-art-of-asking-nicely/)
 
 [This ____ Does Not Exist](https://thisxdoesnotexist.com)
 
-> "Using generative adversarial networks (GAN), we can learn how to create realistic-looking fake versions of almost anything"
-
-[Stan for statistical modeling](https://mc-stan.org)
-
-
-
 [ML model can classify sex from retinal photograph, clinicians can't](https://www.nature.com/articles/s41598-021-89743-x.epdf?sharing_token=Fe891D30KtzWj086Mix2BtRgN0jAjWel9jnR3ZoTv0MtpAfo4k5SUyr2ANoiCUj48aDnaVS1oiRvWR5Jq3W5vp2Xty3aFDSimt06-04o22tCkZ62X__WtnMTTtit3At8eCD1Y4VRife50LtwBhS8nU--GtD10XpQBfLSJk9Tc1tdTUwF5RuI--pQYDk9R8IJ)
+
+{{< /columns2 >}}

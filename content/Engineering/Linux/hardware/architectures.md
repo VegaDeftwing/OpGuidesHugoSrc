@@ -53,3 +53,15 @@ So, what else contributes to the incompatabilites? Well, one major one is the la
 [TODO] note on hackintoshes
 
 https://manybutfinite.com/post/how-computers-boot-up/
+
+
+
+
+
+---
+
+In case you need it, here's a SubV/RiscV ISA ref sheet:
+
+![](/risc.png)
+
+{{< attribution >}}[s-ol@merveilles.town](https://merveilles.town/@s_ol/106578158809590397){{< /attribution >}}
