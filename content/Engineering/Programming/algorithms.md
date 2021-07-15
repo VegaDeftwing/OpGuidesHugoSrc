@@ -1,5 +1,13 @@
 # Chapter 14 - Discrete Math, Algorithms, Data Structures, and Not Sucking at Programming ™*
 
+
+
+## Brute Force Algorithms
+
+### Backtracking
+
+---
+
 [TODO] [Directed Acyclic Graphs](https://en.wikipedia.org/wiki/Directed_acyclic_graph) 
 
 [TODO] [Finite State Machines](https://en.wikipedia.org/wiki/Finite-state_machine)
@@ -9,6 +17,28 @@
 [TODO] http://courses.csail.mit.edu/6.851/
 
 [TODO]  ['Tree Traversal' on Algorithm Archive](https://www.algorithm-archive.org/contents/tree_traversal/tree_traversal.html)
+
+## Divide and Conquer
+
+### Master Theorm
+
+## Decrease and Conquer
+
+
+
+## Branch and Bound
+
+
+
+## Kernelization
+
+
+
+## Cacheing
+
+
+
+
 
 
 

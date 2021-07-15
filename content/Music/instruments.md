@@ -64,6 +64,8 @@ Three more things:
 
 ## Percussion
 
+### Theory
+
 Before I even dive into Percussion, I think it's necessary to point out how generic the term is. Just looking at the Wikipedia page for drum kit you'll see this:
 
 <img src="/drumkit.png" alt="wikipedia drum kit list" height="500em">
@@ -148,19 +150,130 @@ When you've had your fill come back and we'll talk about some common percussive 
 
 Welcome back, Hope you had fun messing around in that pach! Let's dive into percussion kits then.
 
-Probably the most famous percussion kit is the 808.... [TODO]
+### Your Standard Drum Kit
+
+I mentioned right at the start that theres a huge range of common percussion instruments. There's anything from the hexagonal drums on the giant drum sets of the 1980's to the marching drums you see played on the field. While there's no rules in music and I'm a huge fan of doing things in new and original ways, it still helps to have an idea of which of these drums sounds are most commonly used together.
+
+When you think of drums, you *probably* think of the standard acoustic drum kit like is portrayed in that wikipedia screenshot from the beginning, so let's start by breaking that down into it's parts
+
+* **Bass Drum + Pedal**
+{{< columns >}}
+
+This is the Big Ol' drum on the floor, the one that often has the band's logo on it. Sometimes it's called the Kick Drum, and it's usally hit with a beater pedal.
+
+This is the main drum everyone obsesses over, because it's (usually) the one that people are going to tap along to and sets the tempo of the track.
+
+I do want to point out that it's not just the drum that matters, but also the beater. [Espically in metal](https://www.youtube.com/watch?v=OptsiOhFW5c), you'll often see [Double Bass Drum Pedals](https://www.sweetwater.com/c651--Double_Drum_Pedals__and__Beaters).
+
+<--->
+
+<audio controls src="/NYC/CD2 - KCK 01.wav"></audio>
+{{< attribution >}}Kick Drum sample, from [NYC Drum Kit @ Soundpacks.com](https://soundpacks.com/free-sound-packs/nyc-drum-kit/){{< /attribution >}}
+
+<iframe width="100%" height="200" src="https://www.youtube.com/embed/EFjZ1QaKHdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /columns >}}
 
 
+---
+* **Snare Drum**
+{{< columns >}}
 
-[TODO] list of types of drums
+This is the shallowest drum, usually about 6 inches deep. The snare is also used for rimshots, coming back to thet in a bit. It's also pretty common to add extra things to the snare to spice it up:
 
-TR808, syth, short ADSR, noise, snare, tom, kick, hat, clap, bell,
+<iframe width="100%" height="200" src="https://www.youtube.com/embed/Fh5sIZo1_1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Guitar Pedals For Drums (YouTube, JHS Pedals)](https://youtu.be/yew08KqkLbg)
+{{< attribution >}}[Adding Effects to Your Snare Drum (Sounds Like A Drum, YouTube)](https://www.youtube.com/watch?v=3yVaQ9ecrcA){{< /attribution >}}
+
+<--->  
+
+
+<audio controls src="/NYC/CD2 - SNR 04.wav"></audio>
+
+{{< attribution >}}Snare drum sample, from [NYC Drum Kit @ Soundpacks.com](https://soundpacks.com/free-sound-packs/nyc-drum-kit/){{< /attribution >}}
+
+<audio controls src="/LivePercSamplePack/LPSP_RIMSHOT_79.wav"></audio>
+
+{{< attribution >}}Rimshot sample, from [Live Percussion Sample Pack @ Soundpacks.com](https://soundpacks.com/free-sound-packs/live-percussion-sample-pack/){{< /attribution >}}
+{{< /columns >}}
+
+---
+* **Floor Tom**
+  {{< columns >}}
+  Your 'Normal' drum set will have 3 Tom drums, these are big, deep drums. Of them, the Floor Tom is the biggest.
+  <---> 
+
+  See the video below to hear a Tom drum in action
+
+{{< /columns >}}
+
+---
+* **Toms (usually X2)**
+{{< columns >}}
+The other two drums on 'Normal' drum kit are toms too, but are typically a bit smaller, but not matched in size. Usually this is set up so you can have "Decending Toms" - more on this in a bit.
 
 [Why do drum sets have descending toms? (Low Volume Drumming)](https://www.lowvolumedrumming.org/descending-toms/)
+<--->  
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/EFjZ1QaKHdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="200" src="https://www.youtube.com/embed/3yVaQ9ecrcA?start=602" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< attribution >}}[Deep, Detuned Tom Sounds S2E15 (Sounds Like A Drum, YouTube)](https://www.youtube.com/watch?v=3yVaQ9ecrcA){{< /attribution >}}
+
+{{< /columns >}}
+
+---
+* **HiHat Cymbals + Pedal**
+{{< columns >}}
+The pedal here is used to close the two cymbals that make up the HiHat together. This gives it a shorter tail.
+
+<--->
+
+<audio controls src="/NYC/1.wav"></audio>
+
+{{< attribution >}}Closed HiHat sample, from [NYC Drum Kit @ Soundpacks.com](https://soundpacks.com/free-sound-packs/nyc-drum-kit/){{< /attribution >}}
+
+<audio controls src="/LivePercSamplePack/LPSP_OPEN_HATS_01.WAV"></audio>
+  {{< attribution >}}Open HiHat sample, from [Live Percussion Sample Pack @ Soundpacks.com](https://soundpacks.com/free-sound-packs/live-percussion-sample-pack/){{< /attribution >}}
+
+{{< /columns >}}
+
+---
+* **Crash, Ride, Splash, and China Cymbals**
+  {{< columns >}}
+  This is basically a big disc of metal made to flop noise around everywhere, right? Well, it turns out there's a little more nuance to it than that. Here's a really informative link and an interesting video comparing some Cymbals. My point is just that there's more to it than a slab of metal.
+
+  {{< best >}} [Cymbal Types: Up Your Drumming Knowledge](https://www.dawsons.co.uk/blog/beginners-guide-to-cymbals#:~:text=Whereas%20crash%20cymbals%20are%20typically,have%20a%20shimmering,%20sustaining%20sound.&text=The%20sound%20of%20a%20ride,on%20where%20it%20is%20hit.) {{< /best >}}
+
+  <--->
+
+<iframe width="100%" height="200" src="https://www.youtube.com/embed/h_8x3HbL-hM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< attribution >}}[Effects Cymbal Comparison (Christian Baumgartner, YouTube)](https://www.youtube.com/watch?v=h_8x3HbL-hM){{< /attribution >}}
+
+{{< /columns >}}
+
+---
+* **Sticks**
+{{< columns >}}
+Don't forget the obvious! The drum sticks themselves can be tapped together.
+<--->
+<audio controls src="/LivePercSamplePack/LPSP_STICKS_1.wav"></audio>
+    {{< attribution >}}Sticks sample, from [Live Percussion Sample Pack @ Soundpacks.com](https://soundpacks.com/free-sound-packs/live-percussion-sample-pack/){{< /attribution >}}
+{{< /columns >}}
+
+### The 808, 909, LinnDrum, and Oberheim DMX
+
+
+[TODO]
+
+### Drum Effects
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/yew08KqkLbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/Bxz6jShW-3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+[Guitar Pedals For Drums (YouTube, JHS Pedals)](https://youtu.be/yew08KqkLbg)
 
 ## Strings
 
