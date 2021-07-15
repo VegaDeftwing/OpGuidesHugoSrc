@@ -1,7 +1,7 @@
 # Dynamics
 
 <script>
-    document.getElementById("eMenu").open = true;
+    document.getElementById("effectMenu").open = true;
 </script>
 
 ## Distortion
