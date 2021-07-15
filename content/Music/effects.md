@@ -6,6 +6,10 @@ slug: "Effects"
 
 # Audio Effects
 
+<script>
+    document.getElementById("effectMenu").open = true;
+</script>
+
 {{< tip >}}
 
 A lot of audio effects boil down to automating some simple parameter. Some times you may not actually need a dedicated effect and can instead get by with using [Automation Lanes (YouTube, once upon a synth)](https://www.youtube.com/watch?v=WmgXmb2V6zE) in you Digital Audio Workstation (DAW)
