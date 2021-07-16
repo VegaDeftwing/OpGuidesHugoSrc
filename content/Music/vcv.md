@@ -50,25 +50,25 @@ I like to use random modulation a lot, and [Vult's Caudal](https://library.vcvra
 
 By doing this, you can either make a nice, random signal poly cable, great for keeping all the notes coming from a polyphonic source from being identical or you can run it through split, effectively just adding a global attenuator and offset to Caudal for quick control over your patch.
 
-# How do I add those labels onto modules?
+## How do I add those labels onto modules?
 
 [Stoermelder Glue](https://library.vcvrack.com/Stoermelder-P1/Glue) 
 
-# How do I change my wire colors?
+## How do I change my wire colors?
 
 [Submarine WM-101](https://library.vcvrack.com/SubmarineFree/WM-101)
 
-# How do I add CV control of a knob that doesn't have a CV input?
+## How do I add CV control of a knob that doesn't have a CV input?
 
 Stoermelder's [μMAP](https://library.vcvrack.com/Stoermelder-P1/CVMapMicro) or [CV-MAP](https://library.vcvrack.com/Stoermelder-P1/CVMap). You'll probably want to check out [CV-PAM](https://library.vcvrack.com/Stoermelder-P1/CVPam) too, for getting CV from changing any other knob. 
 
-# How do I get that fancy dimmed with bright lights effect I've seen in YouTube videos?
+## How do I get that fancy dimmed with bright lights effect I've seen in YouTube videos?
 
 [Modular Fungi Lights Off](https://library.vcvrack.com/ModularFungi/LightsOff) - right click it, set active, and drag the dim slider to whatever you want. Not all module's lights use the system it does to know what shouldn't be dimmed. While the stock VCV scope will stay dim, [Modular Fungi's Opsylloscope](https://library.vcvrack.com/ModularFungi/Opsylloscope) does work. Just be aware it uses more CPU
 
 ![](/lightsout.png)
 
-# VCV runs like shit
+## VCV runs like shit
 
 VCV needs a computer with a good CPU and not totally shit graphics processing. It probably won't run super well on your laptop, especially with some of the more CPU-heavy modules, like Plateau. You might be able to get it to run better by going to Engine → Threads in the top menu, and selecting whatever says "most modules" by it. Though, in my experience, going one or two down from that can help on very powerful systems. If you've got 16 threads, 6 or 7 seems to be the sweet spot, for example.
 

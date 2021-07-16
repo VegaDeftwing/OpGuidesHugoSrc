@@ -12,6 +12,24 @@
 
 ### Clipping (Soft & Hard)
 
+Clipping does exactly what it sounds like, it just chops off the wave. Usually on both the top and bottom. 
+
+{{< columns >}}
+
+**Hard Clipping**
+
+![hardclip](/hardclip.png)
+
+<--->
+
+**Soft Clipping**
+
+![softclip](/softclip.png)
+
+{{< /columns >}}
+
+The key take away from the two different kinds of clipping is that while both add harmonics, hard clipping adds **significantly** more. That is, it adds a lot more to the higher frequencies. Clipping often has gain to bring the signal back up to the same amplitude, but if this is done, it will usually be a few Loudness Units<a class="ptr">(1)</a> higher in volume. This is because more harmonics *sounds* louder.
+
 ### Waveshaping
 
 ### Wavefolding
@@ -19,6 +37,8 @@
 This is one of those things where while the name is pretty self descriptive, you sorta just have to see the signal on a scope and hear it to see what it does.
 
 Like any distortion, it ultimately adds in more harmonics, so it will make it sound higher pitch.
+
+[TODO] why it doesn't work on squares
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/nxH6lyfpLxk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -83,3 +103,8 @@ reverb, delay, pan, tremello, overdrive, distortion
 [WTF is a Compander? (YouTube, Dan Worrall)](https://www.youtube.com/watch?v=ZRP5uI9mbzQ)
 
 [TODO] parallel Compression
+
+<ol hidden id="footnotes">
+    <li>See <a href="https://en.wikipedia.org/wiki/EBU_R_128">EBU R 128 (Wikipedia)</a> if you're curious how loudness is usually defined. I'll talk about this more in the mixing and mastering chapter </li>
+</ol>
+
