@@ -184,6 +184,7 @@ headless: true
 <dt>9 </dt><dd> <a href="/music/mix-and-master/">Mixing & Mastering</a></dd>
 <dt>A1 </dt><dd> <a href="/music/other-resources-music/">Other Resources</a></dd>
 <dt>A2 </dt><dd> <a href="/music/video/">Video</a></dd>
+<dt>A3 </dt><dd> <a href="/music/vcv/">VCV Tips</a></dd>
 </dil>
 </div>
 
