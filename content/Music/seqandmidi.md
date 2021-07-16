@@ -10,7 +10,7 @@ slug: "Sequencing and MIDI"
 
 ## Sequencing
 
-The definition of a sequence is pretty obvious, but don't be misled by the name- a "sequence" is not always just a list of notes to be played one after the other. Sometimes there's overlap, gaps (rests), bends from one note to another (legato) and almost always information about how hard a note is pressed and how long it should be held for are saved. To wet your apatite before I go more into the weeds, I recommend this video from Red Means Recording:
+The definition of a sequence is pretty obvious, but don't be misled by the name- a "sequence" is not always just a list of notes to be played one after the other. Sometimes there's overlap, gaps (rests), bends from one note to another (legato) and almost always information about how hard a note is pressed and how long it should be held for are saved. To wet your appetite before I go more into the weeds, I recommend this video from Red Means Recording:
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/aXTT8jUhoAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -34,23 +34,39 @@ So, on that top row, we have
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | X    | -    | -    | -    | X    | -    | -    | -    | X    | -    | -    | -    | X    | -    | -    | -    |
 
-Which, effectively just means the bass drum will play every every 4th beat. This gives the bass drum a super basic, repetitive pattern. If I had done every other beat, it would just be twice as fast. You can see how the other drums have more complex patterns though, and you should be able to look at the screenshot above and see how that pattern matches the sound.
+Which, effectively just means the bass drum will play on the 4th beat, endlessly. This gives the bass drum a super basic, repetitive pattern. If I had done every other beat, it would just be twice as fast. You can see how the other drums have more complex patterns, and you should be able to look at the screenshot above and see how that pattern matches the sound.
 
-This setup for a step sequencer is almost painfully simple, and doesn't leave a ton of options. Probably the biggest missing thing here is velocity, which means there's not a way in this patch to adjust the volume of each hit<a class="ptr">(1)</a>. Rather than make this all about VCV though, I recommend you take a look at the step sequencer in the Elektron Digitakt, which is almost obnoxiously powerful. My point here isn't to convince you to run out and buy hardware, but rather to show that simple step sequencing, when done with care, can go a long way. For this, I recommend watching [Beats From Scratch / Elektron Digitakt Minimal Techno Jam](https://www.youtube.com/watch?v=g5bHONbDXDI) from Ihor on Youtube, which was feature on the percussion page as well. You almost certainly won't follow everything going on, but you should see that he can adjust certain parameters and 'lock' them to a step, like choosing only one step in a sequence to be a higher pitch. 
+This setup for a step sequencer is almost painfully simple, and doesn't leave a ton of options. Probably the biggest missing thing here is velocity, which means there's not a way in this patch to adjust the volume of each hit<a class="ptr">(1)</a>. Rather than make this all about VCV, I recommend you take a look at the step sequencer in the Elektron Digitakt, which is almost obnoxiously powerful. My point here isn't to convince you to run out and buy hardware, but rather to show that simple step sequencing, when done with care, can go a long way. For this, I recommend watching [Beats From Scratch / Elektron Digitakt Minimal Techno Jam](https://www.youtube.com/watch?v=g5bHONbDXDI) from Ihor on Youtube, which was feature on the percussion page as well. You almost certainly won't follow everything going on, but you should see that he can adjust certain parameters and 'lock' them to a step, like choosing only one step in a sequence to be a higher pitch. 
 
-Before moving on though, I do want to help you actually make these simple step/gate sequences. For as simple as it sounds to make basic drum sequences, it's *really* not. You'll often end up making just really basic 4-on-the-floor techno (with exactly the bass drum as in the demo sequence above) or just something that sounds like ass. The normal recommendation for this is [this 260 Drum Machine Patterns](https://www.amazon.com/Drum-Machine-Patterns-Leonard-Corp/dp/0881888877) book (that you can probably find PDFs of online) but [Beat Dissected from Attack Magazine](https://www.attackmagazine.com/technique/beat-dissected/) and this [$10 physical / FREE .PDF Drum patterns book](https://shittyrecording.studio) I think are better.
+Before moving on, I do want to help you actually make these simple step/gate sequences. For as simple as it sounds to make basic drum sequences, it's *really* not. You'll often end up making just really basic 4-on-the-floor techno (with exactly the bass drum as in the demo sequence above) or something that has at least one percussion hit on every step and gets too busy<a class="ptr">(2)</a>. The normal recommendation for this is [this 260 Drum Machine Patterns](https://www.amazon.com/Drum-Machine-Patterns-Leonard-Corp/dp/0881888877) book (that you can probably find PDFs of online) but [Beat Dissected from Attack Magazine](https://www.attackmagazine.com/technique/beat-dissected/) and this [$10 physical / FREE .PDF Drum patterns book](https://shittyrecording.studio) I think are better.
 
 #### Note and Value Sequencing
+
+{{< columns >}}
+
+With a value step sequencer each step has a corresponding knob (or slider) and outputs that knob's value when it is the active step, so now instead of a binary on/off at each step, we're setting a value.
+
+Here's a little gif showing this in action. Here, the steps are simply descending in value, as you can see from the downward staircase on the scope as well as the knobs being turned down on each successive step.
+
+These values could control anything. The most obvious is the pitch of an oscillator to make a musical pattern, but you could just as easily have them control other parameters too: filter cutoff, volume, amount of an effect, whatever. 
+
+<--->
+
+![](/basicanalogstep.gif)
+
+{{< /columns >}}
+
+To actually hear this in action, here's a patch demonstrating multiple sequences working together. In this patch, the PGMR module is a multi-lane sequencer, which really just means that at each step there's more than one knob, because there's more than one output. <a class="ptr">(3)</a> The main difference between this and just setting up four, small sequencers (like the ADDR-SEQ used in the gif) is that the steps are always locked together, you can't accidentally have one sequence run faster than the other, or get out of sync - not that either of those are bad things, you'll probably want to do both intentionally!
 
 ![](/analogstepseq.png)
 
 <audio controls loop src="/analogseq-005.wav"></audio>
 
-Alright, so, obviously there's a lot more going on here. That's intentional, but the idea is still pretty much the same. Here, we have 4 rows of 8 knobs, and just like above each beat advanced the sequence a step forward. The difference here is that at each step we're sending something more than just a trigger for something to happen- we're sending a value. These values need to mean something though. Here, I've setup two simple synth voices, one on top one on bottom. The green *Pitch 1* Sequence controls the pitch of one voice, while the blue *Pitch 2* sequence gets the pitch of the other. Similarly, each voice has a filter and there's two sequence controlling the filter's cutoff frequencies.
+Here, I've setup two simple synth voices, one on top one on bottom. The green *Pitch 1* Sequence controls the pitch of one voice, while the blue *Pitch 2* sequence gets the pitch of the other. Similarly, each voice has a filter and there's two sequence controlling the filter's cutoff frequencies.
 
 Some of the complexity here comes from trying to make these values fit into shapes we want. For both pitch sequences (green and blue) they need to pass through a *Quantizer* first, which just makes sure the values coming out of the sequencer are actual notes, not just random pitches that don't even correspond to a key on the keyboard. See in the bottom left scope how on the step between the *TIME* and *TRIG* knobs there's both a blue line and a pink line? The pink line here is the value *after* the quantizer, and you can see there is a difference, so it is doing something.
 
-Looking at the second scope, you can see in pink the original signal coming from the Filter 2 sequence, and in blue the signal after passing through a *Slew limiter* which is making it have smoother transitions, instead of the sharp transitions (vertical edges) of the original sequence. This is just making the filter transition a little smoother.
+Looking at the second scope, you can see in pink the original signal coming from the Filter 2 sequence, and in blue the signal after passing through a *Slew limiter* which is making it have smoother transitions, instead of the sharp transitions (vertical edges) of the original sequence. This is just making the filter transition a little smoother. If we had done this to the pitch sequence after the quantizer we'd have a legato effect instead.
 
 #### Getting Some Variety
 
@@ -58,7 +74,7 @@ One thing you should notice pretty quick once you start playing with sequencers 
 
 {{< columns >}}
 
-One of the more common methods to add variety is to just to sequence your sequences (usually this is called scenes) which while *can* be done by putting multiple sequences <a class="ptr">(2)</a> through and sequencing that switch, is a bit tedious to setup.
+One of the more common methods to add variety is to just to sequence your sequences (usually this is called scenes) which while *can* be done by putting multiple sequences <a class="ptr">(4)</a> through and sequencing that switch, is a bit tedious to setup.
 
 <--->
 
@@ -70,7 +86,7 @@ Instead, you'll probably want to run something which does it more natively. Most
 
 {{< columns >}}
 
-Step sequencers can also get pretty crazy with a lot of built in features, so if you're in need of some inspiration there's plenty of options. Some will feature randomization and probability, others will feature per-step ratcheting/repeats, some will let you select steps on a grid with up, down, left, and right instead of just forwards and backwards<a class="ptr">(3)</a>. Step sequencing doesn't have to be boring!
+Step sequencers can also get pretty crazy with a lot of built in features, so if you're in need of some inspiration there's plenty of options. Some will feature randomization and probability, others will feature per-step ratcheting/repeats, some will let you select steps on a grid with up, down, left, and right instead of just forwards and backwards<a class="ptr">(5)</a>. Step sequencing doesn't have to be boring!
 
 {{< attribution >}}Pictured, L→R, T→B: [Geodesics Entropia](https://library.vcvrack.com/Geodesics/Entropia), [Bidoo dTrOY](https://library.vcvrack.com/Bidoo/dTrOY), [Mog Network](https://library.vcvrack.com/Mog/Network), [Impromptu Phrase Seq 16](https://library.vcvrack.com/ImpromptuModular/Phrase-Seq-16), [Aria Salvatrice Darius](https://library.vcvrack.com/AriaSalvatrice/Darius), [JW GridSeq](https://library.vcvrack.com/JW-Modules/GridSeq), [ZZC Phaseque](https://library.vcvrack.com/ZZC-Phaseque/Phaseque) (non-free), [Slime Child Audio Polyrhythm Sequencer](https://library.vcvrack.com/SlimeChild-Substation/SlimeChild-Substation-PolySeq) (non-free) all running in [VCV Rack](https://vcvrack.com) {{< /attribution >}}
 
@@ -86,7 +102,7 @@ Probably the most common way of entering a sequence is using a **piano roll**
 
 {{< columns >}}
 
-Piano rolls get their name from player pianos, as they had actual rolls of paper with holes cut in them that represented the notes to be played. The gaps allowed for little pins of metal to push though and make contact, completing a circuit and driving electronics to hit the note, making it play on a real piano.
+Piano rolls get their name from player pianos, as they had actual rolls of paper with holes cut in them that represented the notes to be played. The gaps allowed for little pins of metal to push through and make contact, completing a circuit and driving electronics to hit the note, making it play on a real piano.
 
 Clearly, we don't want to be taking a hole punch to paper to make our music- we want to use a computer! But, despite how much everything has changed...
 
@@ -164,6 +180,8 @@ Arp, velocity, pitch bend, mod, sustain, generative, legatto
 
 <ol hidden id="footnotes">
 	<li>Velocity is technically more than just volume, in a lot of circumstances it will actually change the tone too, in an attempt to emulate the difference in sound when you hit a drum head or pluck a string harder or softer.</li>
+    <li>As with all things music, this isn't some hard and fast rule. If you want at least one sound on every step that's totally fine, but it's good to remember that empty space in a drum loop has its own character</li>
+    <li> You'll also see PGMRX, which is just an expander adding steps. PGMR only has 4 steps by default, but that's not really enough for most things. You can chain as many PGMRX module as you like to get more steps.</li>
     <li>...or a multi-lane sequencer like the Bogaudio PGMR sequencer that was used above</li>
     <li>These are actually cartesian sequencers, but they're still basically step sequencers</li>
 </ol>
