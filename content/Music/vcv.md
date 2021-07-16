@@ -2,7 +2,7 @@
 
 {{< tip >}}
 
-I am not affiliated with VCV or the Rack software in anyway.
+I am not affiliated with VCV or the Rack software in any way.
 
 {{< /tip >}}
 
@@ -34,7 +34,7 @@ If you want to use MPE (with like a Roli Seaboard or Artiphon Insturment One) yo
 
 ### With a Sequencer and/or Chord Generator
 
-Use a merge module to get the outputs into a thick, polyphonic cable. You can sequence multiple notes in a chord directly, but it's usually easier to use a chord generation module (like the Instruō harmonàig used here)
+Use a merge module to get the outputs into a thick, polyphonic cable. You can sequence multiple notes in a chord directly, but it's usually easier to use a chord generation module (like the [Instruō harmonàig](https://library.vcvrack.com/Instruo/harmonaig) used here)
 
 ![](/chordseq.png)
 
