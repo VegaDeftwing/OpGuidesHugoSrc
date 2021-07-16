@@ -214,7 +214,7 @@ This is the shallowest drum, usually about 6 inches deep. The snare is also used
 
 <audio controls src="/LivePercSamplePack/LPSP_STICKS_1.wav"></audio>
 
-    {{< attribution >}}Sticks sample, from [Live Percussion Sample Pack @ Soundpacks.com](https://soundpacks.com/free-sound-packs/live-percussion-sample-pack/){{< /attribution >}}
+{{< attribution >}}Sticks sample, from [Live Percussion Sample Pack @ Soundpacks.com](https://soundpacks.com/free-sound-packs/live-percussion-sample-pack/){{< /attribution >}}
 
 {{< /columns >}}
 
