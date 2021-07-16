@@ -10,7 +10,9 @@ slug: "Sequencing and MIDI"
 
 ## Sequencing
 
-The definition of a sequence is pretty obvious, but don't be misled by the name- a "sequence" is not always just a list of notes to be played one after the other. Sometimes there's overlap, gaps (rests), bends from one note to another (legato) and almost always information about how hard a note is pressed and how long it should be held for are saved. 
+The definition of a sequence is pretty obvious, but don't be misled by the name- a "sequence" is not always just a list of notes to be played one after the other. Sometimes there's overlap, gaps (rests), bends from one note to another (legato) and almost always information about how hard a note is pressed and how long it should be held for are saved. To wet your apatite before I go more into the weeds, I recommend this video from Red Means Recording:
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/aXTT8jUhoAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Step Sequencing
 
@@ -32,9 +34,9 @@ So, on that top row, we have
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | X    | -    | -    | -    | X    | -    | -    | -    | X    | -    | -    | -    | X    | -    | -    | -    |
 
-Which, effectively just means the bass drum will play every every 4th beat. This gives the kick drum a super basic, repetitive pattern. If I had done every other beat, it would just be twice as fast. You can see how the other drums have more complex patterns though, and you should be able to look at the screenshot above and see how that pattern matches the sound.
+Which, effectively just means the bass drum will play every every 4th beat. This gives the bass drum a super basic, repetitive pattern. If I had done every other beat, it would just be twice as fast. You can see how the other drums have more complex patterns though, and you should be able to look at the screenshot above and see how that pattern matches the sound.
 
-This setup for a step sequencer is almost painfully simple, and doesn't leave a ton of options. Probably the biggest missing thing here is velocity, which means there's not a way in this patch to adjust the volume of each hit. Rather than make this all about VCV though, I recommend you take a look at the step sequencer in the Elektron Digitakt, which is almost obnoxiously powerful. My point here isn't to convince you to run out and buy hardware, but rather to show that simple step sequencing, when done with care, can go a long way. For this, I recommend watching [Beats From Scratch / Elektron Digitakt Minimal Techno Jam](https://www.youtube.com/watch?v=g5bHONbDXDI) from Ihor on Youtube, which was feature on the percussion page as well. You almost certainly won't follow everything going on, but you should see that he can adjust certain parameters and 'lock' them to a step, like choosing only one step in a sequence to be a higher pitch. 
+This setup for a step sequencer is almost painfully simple, and doesn't leave a ton of options. Probably the biggest missing thing here is velocity, which means there's not a way in this patch to adjust the volume of each hit<a class="ptr">(1)</a>. Rather than make this all about VCV though, I recommend you take a look at the step sequencer in the Elektron Digitakt, which is almost obnoxiously powerful. My point here isn't to convince you to run out and buy hardware, but rather to show that simple step sequencing, when done with care, can go a long way. For this, I recommend watching [Beats From Scratch / Elektron Digitakt Minimal Techno Jam](https://www.youtube.com/watch?v=g5bHONbDXDI) from Ihor on Youtube, which was feature on the percussion page as well. You almost certainly won't follow everything going on, but you should see that he can adjust certain parameters and 'lock' them to a step, like choosing only one step in a sequence to be a higher pitch. 
 
 Before moving on though, I do want to help you actually make these simple step/gate sequences. For as simple as it sounds to make basic drum sequences, it's *really* not. You'll often end up making just really basic 4-on-the-floor techno (with exactly the bass drum as in the demo sequence above) or just something that sounds like ass. The normal recommendation for this is [this 260 Drum Machine Patterns](https://www.amazon.com/Drum-Machine-Patterns-Leonard-Corp/dp/0881888877) book (that you can probably find PDFs of online) but [Beat Dissected from Attack Magazine](https://www.attackmagazine.com/technique/beat-dissected/) and this [$10 physical / FREE .PDF Drum patterns book](https://shittyrecording.studio) I think are better.
 
@@ -56,7 +58,7 @@ One thing you should notice pretty quick once you start playing with sequencers 
 
 {{< columns >}}
 
-One of the more common methods to add variety is to just to sequence your sequences (usually this is called scenes) which while *can* be done by putting multiple sequences (or a multi-lane sequencer like the Bogaudio PGMR sequencer that was used above ) through and sequencing that switch, is a bit tedious to setup.
+One of the more common methods to add variety is to just to sequence your sequences (usually this is called scenes) which while *can* be done by putting multiple sequences <a class="ptr">(2)</a> through and sequencing that switch, is a bit tedious to setup.
 
 <--->
 
@@ -68,7 +70,7 @@ Instead, you'll probably want to run something which does it more natively. Most
 
 {{< columns >}}
 
-Step sequencers can also get pretty crazy with a lot of built in features, so if you're in need of some inspiration there's plenty of options. Some will feature randomization and probability, others will feature per-step ratcheting/repeats, some will let you select steps on a grid with up, down, left, and right instead of just forwards and backwards. Step sequencing doesn't have to be boring!
+Step sequencers can also get pretty crazy with a lot of built in features, so if you're in need of some inspiration there's plenty of options. Some will feature randomization and probability, others will feature per-step ratcheting/repeats, some will let you select steps on a grid with up, down, left, and right instead of just forwards and backwards<a class="ptr">(3)</a>. Step sequencing doesn't have to be boring!
 
 {{< attribution >}}Pictured, L→R, T→B: [Geodesics Entropia](https://library.vcvrack.com/Geodesics/Entropia), [Bidoo dTrOY](https://library.vcvrack.com/Bidoo/dTrOY), [Mog Network](https://library.vcvrack.com/Mog/Network), [Impromptu Phrase Seq 16](https://library.vcvrack.com/ImpromptuModular/Phrase-Seq-16), [Aria Salvatrice Darius](https://library.vcvrack.com/AriaSalvatrice/Darius), [JW GridSeq](https://library.vcvrack.com/JW-Modules/GridSeq), [ZZC Phaseque](https://library.vcvrack.com/ZZC-Phaseque/Phaseque) (non-free), [Slime Child Audio Polyrhythm Sequencer](https://library.vcvrack.com/SlimeChild-Substation/SlimeChild-Substation-PolySeq) (non-free) all running in [VCV Rack](https://vcvrack.com) {{< /attribution >}}
 
@@ -122,6 +124,36 @@ Song structure ABAB, ABBA, ABAC, etc.
 
 bpm changes, key changes, hooks, drops, 'flavor' with added samples
 
+## Euclidean Sequencing
+
+
+
+## Generative Sequencers
+
+### ORCΛ
+
+{{< columns >}}
+
+
+
+<--->
+
+<iframe width="100%" height="200" src="https://www.youtube.com/embed/07aHUFNJUn0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /columns >}}
+
+### Mutable Instruments Grids & Marbles
+
+
+
+### Turing Machines
+
+
+
+### Sequence Modifiers
+
+[TODO] Geodesics Fate, ...?
+
 ## MIDI effects
 
 Arp, velocity, pitch bend, mod, sustain, generative, legatto
@@ -129,3 +161,10 @@ Arp, velocity, pitch bend, mod, sustain, generative, legatto
 ## Multitracking
 
 [Multitracking Synthesizers for Fun and Profit (YouTube, RedMeansRecording)](https://www.youtube.com/watch?v=7EipTdTy8hM)
+
+<ol hidden id="footnotes">
+	<li>Velocity is technically more than just volume, in a lot of circumstances it will actually change the tone too, in an attempt to emulate the difference in sound when you hit a drum head or pluck a string harder or softer.</li>
+    <li>...or a multi-lane sequencer like the Bogaudio PGMR sequencer that was used above</li>
+    <li>These are actually cartesian sequencers, but they're still basically step sequencers</li>
+</ol>
+
