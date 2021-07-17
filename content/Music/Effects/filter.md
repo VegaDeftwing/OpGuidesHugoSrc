@@ -100,6 +100,10 @@ an Auto Wah or Envelope filter uses an envelope follower to control a filter's c
 
 ### Parametric
 
+### Graphic
+
+### Dynamic
+
 ### Fixed Filter Banks
 
 ## Phaser
