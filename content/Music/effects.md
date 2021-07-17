@@ -47,6 +47,10 @@ Immediately contradicting myself though, don't undervalue workflow either. In my
 
 **With that out of the way, feel free to dive into the list of effects!**
 
+# What order should my effects be in?
+
+
+
 # Neat tricks with effects
 
 [My first WET / DRY / WET Guitar Pedal Rig (YouTube, Mark Johnston)](https://www.youtube.com/watch?v=uptuRNXR0Mw)
