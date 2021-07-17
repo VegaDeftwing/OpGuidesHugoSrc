@@ -18,9 +18,13 @@ Some delays may also allow for unity or higher feedback, which will cause the de
 
 > Quick Reference Card for the Chronblob^2 from Alright Devices, http://docs.alrightdevices.com/chronoblob2-manual.pdf 
 
-Some delays let you also insert other things into the feedback path. This means you could do things such as having each repetition be progressively more filtered, cutting out more and more high end each time or putting a delay in the delay. (yo dawg, I heard you like delay?).
+Some delays let you insert other things into the feedback path. This means you could do things such as having each repetition be progressively more filtered, cutting out more and more high end each time or putting a delay in the delay. (yo dawg, I heard you like delay?).
 
-Some digital delays and most analog delays (especially bucket brigade delays<a class="ptr">(1)</a>) can produce interesting sounds if you change the delay time while audio is going through the buffer, resulting in a sort of pitch shift *whip* sound as the delay catches up or slows down.
+Some digital delays and most analog delays (especially bucket brigade delays<a class="ptr">(1)</a>) can produce interesting sounds if you change the delay time while audio is going through the buffer, resulting in a sort of pitch shift as the delay catches up or slows down. Here's a demo of Chronoblob2, which does this sort of pitch shifting, in action:
+
+<audio controls src="/DelayModulation01.mp3"></audio>
+
+{{< attribution >}}There's also a demo of over unity gain at the end. I've edited the volume of that, but it's still a bit alarming!{{< /attribution >}}
 
 {{< columns >}}
 
@@ -40,9 +44,15 @@ Finally, it's worth noting that there are a few interesting features some delays
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/MNzBFgwkU0A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Slap-Back delay
+### Slapback delay
 
-[TODO]
+Slapback delay is just a short delay with only a single echo, no feedback. It's often used on guitar, but it's nice on vocals and drums too! Here's a little example with Mutable Instruments' [Elements](https://mutable-instruments.net/modules/elements/) as the source. The first few notes are the dry signal, then I bring it in. 
+
+<audio controls loop src="/Slapback01.mp3"></audio>
+
+looking at a snippit of this audio, you can see just how short the delay is, with the slapback being on the notes that have the double hits.
+
+![slapback](/slapback.png)
 
 ## Loopers
 
@@ -98,4 +108,3 @@ Flanger works by taking a **very** short delay* which slowly modulated delay tim
 <ol hidden id="footnotes">
     <li>Bucket Brigade Delay is essentially a bunch of capacitors acting as the 'buckets' that are figuratively passed down the chain, moving from one bucket to the next each clock cycle, of course, this clock rate can be changed while it's running. The number of stages in a BBD determines how long of a delay you can get without having a massive determent to quality.</li>
 </ol>
-
