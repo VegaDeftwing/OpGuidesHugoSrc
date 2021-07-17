@@ -30,9 +30,9 @@ Here, I've set up a simple step sequence in VCV rack, the gist is that on each c
 
 So, on that top row, we have
 
-| 1    | 2    | 3    | 4    | 5    | 6    | 7                                              | 8    | 9    | 10   | 11   | 12   | 13   | 14   | 15   | 16   |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---------------------------------------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| X    | -    | -    | -    | X    | -    | <audio controls src="/ChordSeq02.mp3"></audio> | -    | X    | -    | -    | -    | X    | -    | -    | -    |
+| 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | 10   | 11   | 12   | 13   | 14   | 15   | 16   |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| X    | -    | -    | -    | X    | -    | -    | -    | X    | -    | -    | -    | X    | -    | -    | -    |
 
 Which, effectively just means the bass drum will play on the 4th beat, endlessly. This gives the bass drum a super basic, repetitive pattern. If I had done every other beat, it would just be twice as fast. You can see how the other drums have more complex patterns, and you should be able to look at the screenshot above and see how that pattern matches the sound.
 
