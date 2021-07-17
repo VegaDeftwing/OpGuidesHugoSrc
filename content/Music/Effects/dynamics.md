@@ -52,6 +52,10 @@ The dashed line represents an example input and output. Because here the line is
 
 despite the fact that I'm showing this on a basic oscillator, that isn't necessary. The input wave can be anything, drums, guitar, whatever you want. This kind of distortion can get pretty crazy pretty quickly.
 
+If you want to know more {{< best >}}[Learning Synthesis: Waveshapers](https://www.perfectcircuit.com/signal/learning-synthesis-waveshapers){{< /best >}}
+
+explains things beautifully, and also goes into some of the other kinds of distortion and wave mangling up ahead
+
 ### Wavefolding
 
 {{< columns >}}
@@ -73,6 +77,8 @@ If you're looking to get really crazy, check out [Befaco's Chopping Kinky](https
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/nxH6lyfpLxk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Drive, and Tubes
+
+[TODO]
 
 ### Bitcrushing & Comparators
 
@@ -98,9 +104,23 @@ gated verb, gated distortion
 
 ## Limiting
 
-### Soft and Hard Clipping
+Limiting is basically the exact same as clipping from before (including the hard and soft bits) *except* it usually involves being a little more clever about when to clip the signal, usually having some attack time before the signal get's clipped, moreover, the intention is usually to avoid distortion outright and so the limiter will usually try to turn down the gain a bit to keep signals in check, rather than just clipping them and getting all those extra harmonics.
+
+see: [Q. Is there a difference between clipping and limiting?](https://www.soundonsound.com/sound-advice/q-there-difference-between-clipping-and-limiting) from Sound on Sound.
+
+{{< quote "[[deleted] account on Reddit](https://www.reddit.com/r/edmproduction/comments/29tl0p/limiting_vs_clipping/ciod5zw?utm_source=share&utm_medium=web2x&context=3)" >}}
+
+The limiter says stuff like "everytime the signal gets loud, I'll gently attenuate it so that it's not TOO loud".
+
+A clipper will say "everytime the signal gets too loud, I'll chop every peak that's too loud and fuck you".
+
+{{< /quote >}} 
+
+If you already know what compressors do, you can basically think of limiters as compressors with the ratio knob at ∞. See [Limiter Vs Compressor: What you need to know (Musician on a Mission).](https://www.musicianonamission.com/limiter-vs-compressor/)
 
 ## Compression
+
+
 
 [The Animated Guide To Compression (patche.zone)](https://patches.zone/compression-guide) is a great place to start, but if you still need more, I recommend reading on:
 
@@ -129,6 +149,8 @@ reverb, delay, pan, tremolo, overdrive, distortion
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/j4NrWQljyso?list=PL5cGwrD7cv8jd0PSN2E8pFD97H3R5aQwN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [WTF is a Compander? (YouTube, Dan Worrall)](https://www.youtube.com/watch?v=ZRP5uI9mbzQ)
+
+[How to use a Compressor + 10 tips (Musician on a Mission)](https://www.musicianonamission.com/how-to-use-a-compressor-plus-10-top-tips/)
 
 [TODO] parallel Compression
 
