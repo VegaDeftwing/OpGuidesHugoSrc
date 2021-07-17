@@ -9,6 +9,9 @@ slug: "Instruments"
 <script>
     document.getElementById("instMenu").open = true;
 </script>
+{{< tip >}}If you're going to be playing an instrument though a computer - and I mean either an instrument which makes it's own noise like a guitar or a controller like a MIDI keyboard - you'll want to adjust your audio buffer size as best you can. See [Optimising The Latency Of Your PC Audio Interface](https://www.soundonsound.com/techniques/optimising-latency-pc-audio-interface) from Sound on Sound for more info about this, but generally just set your buffer size as low as you can until it starts to sound like it's horribly broken. If you don't do this, the delay between hitting a note and sound coming out your speakers will make it **very** difficult to play.{{< /tip >}}
+
+{{< tip >}}This chapter is broken up into sub sections, check the menu and it should have expanded!{{< /tip >}}
 
 ## What is an Instrument?
 
