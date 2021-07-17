@@ -77,6 +77,16 @@ Spectral editing is sorta crazy, the idea is instead of working with waves in th
 
 {{< /columns >}}
 
+## De-Noising & De-Essing
+
+(Make sure you didn't gloss over Noise Gates in the Dynamics Chapter)
+
+[TODO]
+
+## Ring Modulators
+
+
+
 ## Talk-boxes
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/h_L5v9OTSxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

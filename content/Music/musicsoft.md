@@ -501,15 +501,15 @@ No prices are listed below because they can fluctuate so much. VSTs and other mu
 
 ##### Other
 
-| Name & Link | Description | Screenshot |
-| ----------- | ----------- | ---------- |
-|             |             |            |
-|             |             |            |
-|             |             |            |
-|             |             |            |
-|             |             |            |
-|             |             |            |
-|             |             |            |
+| Name & Link | Description       | Screenshot |
+| ----------- | ----------------- | ---------- |
+| XO          | AI Sample Sorting |            |
+|             |                   |            |
+|             |                   |            |
+|             |                   |            |
+|             |                   |            |
+|             |                   |            |
+|             |                   |            |
 
 ##### Kontakt Libraries
 
