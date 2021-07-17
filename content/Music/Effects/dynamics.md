@@ -32,13 +32,39 @@ The key take away from the two different kinds of clipping is that while both ad
 
 ### Waveshaping
 
+{{< columns >}}
+
+Wave shaping is a a pretty broad term, but usually it refers to a method of mapping a wave onto another. It's basically just a function, like you've seen in math class, if you think y=x, that's a simple 45° slope, and that corresponds to this:
+
+---
+
+The dashed line represents an example input and output. Because here the line is that simple x=y the input and output values are exactly the same. If we change this line to be something else though, that's where the magic happens
+
+<--->
+
+![waveshaper](/waveshaper.svg)
+
+{{< /columns >}}
+
+![waveshaping](/waveshaping.gif)
+
+{{< attribution >}}This gif uses [Nysthi's BZ-Mapper](https://library.vcvrack.com/NYSTHI/BZ-MAPPER){{< /attribution >}}
+
+despite the fact that I'm showing this on a basic oscillator, that isn't necessary. The input wave can be anything, drums, guitar, whatever you want. This kind of distortion can get pretty crazy pretty quickly.
+
 ### Wavefolding
 
+{{< columns >}}
+
 ![](/wavefolding.gif)
+
+<--->
 
 This is one of those things where while the name is pretty self descriptive, you sorta just have to see the signal on a scope and hear it to see what it does.
 
 Like any distortion, it ultimately adds in more harmonics, so it will make any sound you give it have a lot more high frequency content; however, folding in particular adds a ludicrous amount, so much so they're sort of deemed "Anti-Filters".
+
+{{< /columns >}}
 
 Wavefolding eats the transition between high and low, the slopes, so with a square wave it has nothing to grab onto and so does nothing except for maybe changing the level. Because of this, you'll usually see simpiler wave forms like sines fed into wavefolders, like sines, triangles, and saws.
 
