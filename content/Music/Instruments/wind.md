@@ -3,8 +3,7 @@
 <script>
     document.getElementById("instMenu").open = true;
 </script>
-
-# What is a Wind Instrument?
+## What is a Wind Instrument?
 
 {{< quote "[Wikipedia](https://en.wikipedia.org/wiki/Wind_instrument)" >}}
 
@@ -52,8 +51,6 @@ So, let's just not give a shit, instead, let's take a look at some of the main w
 
 {{< columns >}}
 
-
-
 <--->
 
 <iframe width="100%" height="200" src="https://www.youtube.com/embed/5I14TK0ylDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -61,6 +58,56 @@ So, let's just not give a shit, instead, let's take a look at some of the main w
 {{< attribution >}}psst, if you like this, check out the more serious [NPR Music Tiny Desk Concert Moonhooch did back in 2014 (YouTube)](https://www.youtube.com/watch?v=wwBhxBBa7tE){{< /attribution >}}
 
 {{< /columns >}}
+
+## List of Wind Instruments
+
+### Accordion
+
+### Bagpipes
+
+Bagpipes aren't just for classical scottish music, check out [The SIDH - Iridium](https://www.youtube.com/watch?v=amJ_WLmOKS0), it's a basically EDM + Bagpipes and *fucking amazing*.
+
+### Blown Bottle
+
+### Clarinets
+
+### Didgeridoo
+
+### Flute
+
+#### Irish Flute
+
+### Harmonica
+
+### Kazoo
+
+### Melodica
+
+### Oboe
+
+### Ocarina
+
+### Piccolo
+
+### Organ
+
+### Recroder
+
+### Saxophone
+
+#### Alto, Tennor, Baritone, Bass, Soprano... Traffic Cone?
+
+### Sheng
+
+### Shō
+
+### Trombone
+
+### Trumpet
+
+### Tuba
+
+
 
 ---
 
