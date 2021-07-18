@@ -190,9 +190,11 @@ add motors, analog meters, various connection standards, radio, flex/pressure se
 
 Relate back to things like ADSR, Distortion, Reverb / Echo, Decibels (audio), etc. Use VCV RACK
 
+# Chapter 23.3 - Safe Circuits
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/BeORD7aG3Jc?list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Chapter 23.3 - Rare and Dangerous Componets
+# Chapter 23.4 - Rare and Dangerous Componets
 
 * Dangerous
   * Tesla coils

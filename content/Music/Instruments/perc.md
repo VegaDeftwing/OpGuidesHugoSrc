@@ -246,11 +246,67 @@ Most modern drum machines actually have a bit more than drums. The Elektron Digi
 
 ## Drum Effects
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/yew08KqkLbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< columns >}}
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/Bxz6jShW-3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="200" src="https://www.youtube.com/embed/yew08KqkLbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<--->
 
+<iframe width="100%" height="200" src="https://www.youtube.com/embed/Bxz6jShW-3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Guitar Pedals For Drums (YouTube, JHS Pedals)](https://youtu.be/yew08KqkLbg)
+{{< /columns >}}
+
+## Sometimes Less is more
+
+For as much as I've gone over all the different types of drums above, and the sea of percussion that lies below, I want to take a break and appriciate that sometimes you really don't need all that much. Just poke around these videos. I tried to find the absolute best of minimal and maximal that I could.
+
+{{< columns3 >}}
+
+### Giant
+
+<iframe width="100%" height="200" src="https://www.youtube.com/embed/PZwO5a5QSx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="100%" height="200" src="https://www.youtube.com/embed/kXGc2AR1a-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<--->
+
+### Minimal
+
+<iframe width="100%" height="200" src="https://www.youtube.com/embed/MhxtKutcPvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="100%" height="200" src="https://www.youtube.com/embed/v113x1LAqCs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /columns3 >}}
+
+Similarly, [Big Drums VS Small Drums (YouTube)](https://www.youtube.com/watch?v=9Q0R3TM2P6c) isn't as simple as you think either
+
+## Other Percussion Instruments
+
+### Bells and Carillons
+
+{{< columns >}}
+
+<--->
+
+<iframe width="100%" height="200" src="https://www.youtube.com/embed/VkRIMgTU7cA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /columns >}}
+
+### Beatboxing
+
+{{< attribution >}}okay, techinaclly this might belong in wind instruments. Fight me.{{< /attribution >}}
+
+### Steelpan
+
+### Hangdrums & Handpans
+
+### Tambourine
+
+### Vibraphone
+
+### Vibraslap
+
+### Wood block
+
+### Xylophones & Glockenspiels
 
