@@ -34,3 +34,11 @@
 * PinJig Soldering tool - failed kickstarter
 
   <iframe width="100%" height="500" src="https://www.youtube.com/embed/o-9gB3QkQTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+* A "Breathing PC"
+
+  <iframe width="100%" height="500" src="https://www.youtube.com/embed/C3GKe7eXbPE?list=FLFMnqfaTa1se1LfbCB3peJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+* Sensel Force Haptic Touchpad
+
+  <iframe width="100%" height="500" src="https://www.youtube.com/embed/XuM2ZG_Hwjk?list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

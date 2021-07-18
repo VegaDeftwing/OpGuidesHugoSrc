@@ -50,6 +50,34 @@ I like to use random modulation a lot, and [Vult's Caudal](https://library.vcvra
 
 By doing this, you can either make a nice, random signal poly cable, great for keeping all the notes coming from a polyphonic source from being identical or you can run it through split, effectively just adding a global attenuator and offset to Caudal for quick control over your patch.
 
+## When I send clock to [Module Name] it doesn't work right! 
+
+Different modules have different clocking standards. [Topograph](https://library.vcvrack.com/Valley/Topograph), for example, needs an input clock that's multiplied by 24 by default. You might see this written as 24ppqn which is **p**eaks **p**er **q**uarter **n**ote. Strangely, [μGraph](https://library.vcvrack.com/Valley/uGraph), the smaller version of Topograph, defaults to only 4ppqn. The advantage to the higher clock multiplier is if you change your tempo these modules can adapt to the new tempo more quickly, as they need to 'hear' at least two clicks before they can lock on.
+
+If you're trying to send clock to external gear via CV-MIDI, you'll probably need to give it 24ppqn too. Also, racks MIDI clock out is... not great. It's pretty unstable and can make some gear unhappy.
+
+### More on Clocking:
+
+{{< columns >}}
+
+While you'll often see [Impromptu's Clocked](https://library.vcvrack.com/ImpromptuModular/Clocked) used as the main clock source on YouTube, I actually recommend using ZZC's [Clock](https://library.vcvrack.com/ZZC/Clock) and [Div expander](https://library.vcvrack.com/ZZC/DivExp), especially since you can use the phase outputs they provide with [FN-3](https://library.vcvrack.com/ZZC/FN-3) to get clock sync'd lfo's very easily. Even cooler, if you use a sequencer on the Div expander and FN-3, you can get amazing clock sync'd modulation sequences.
+
+<--->
+
+![](/clocksyncdmod.png)
+
+{{< /columns >}}
+
+I also recommend keeping your clocking interesting. It you just have your sequencer be driven by a constant clock it might not be as interesting as you like. You can always use a gate sequencer as a 'clock' source for your sequencer and have gates be triggered more rhythmically. 
+
+If you want some random clocking, try using [Geodesics' Fate](https://library.vcvrack.com/Geodesics/Fate) (which is also amazing at adding randomness to note sequences), [Audible Instruments' Bernoulli Gate (Branches)](https://library.vcvrack.com/AudibleInstruments/Branches) or [Random Sampler (Marbles)](https://library.vcvrack.com/AudibleInstruments/Marbles), [Grayscale's Permutation](https://library.vcvrack.com/Grayscale/Permutation6),  or [SLM's Mux Freak](https://library.vcvrack.com/SLM/mux-freak). Each has it's own method of adding madness to clocking.
+
+{{< attribution >}}or, if you're feeling really spicy, there's [Arias Salvatrice's Darius](https://library.vcvrack.com/AriaSalvatrice/Darius), which is basically a lot of Bernoulli Gates chained together{{< /attribution >}}
+
+## CV-MIDI doesn't work
+
+If you want to constantly update the note value you're sending out of a sequence, you'll need to tie the gate input high. Otherwise, the note will only change on each gate activation/trigger. Also, if your triggers are too short, some midi interfaces will miss the message too.
+
 ## How do I add those labels onto modules?
 
 [Stoermelder Glue](https://library.vcvrack.com/Stoermelder-P1/Glue) 
@@ -74,5 +102,22 @@ VCV needs a computer with a good CPU and not totally shit graphics processing. I
 
 Also make sure you have Engine→Sample Rate set to something sane. I run at 44100 because I like to use CPU heavy modules and make big patches, but if you want a bit better sound VCV does actually benefit quite a bit from oversampling, just be aware setting this higher will absolutely tank performance.
 
+If you're running Linux and extraordinary unlucky, you might be dealing with a bug that's causing Rack to try to render at like 3000 FPS, which tanks performance and can crash your entire graphics stack to lock up. [LibStrangle](https://gitlab.com/torkel104/libstrangle) fixes the problem.
 
+## How do I interface VCV with other software?
 
+The most common way you'll see is uning VCV Bridge. Unfortunately, Bridge is sorta a pain to get, eats CPU, and just doesn't run well.
+
+So, your options are:
+
+* Use VCV Bridge, hope it doesn't crash or eat too much CPU
+* Wait until VCV rack 2.0 drops, and with it the $100 version that works as a VST Plugin
+* You can use [ASIO Link Pro](https://give.academy/downloads/2018/03/03/ODeusASIOLinkPro/) on Windows, or Jack on Linux (which you should be anyway). [This video from *VCV Rack Ideas*](https://www.youtube.com/watch?v=e5au-hkvnFA) explains how to setup ASIO Link Pro.
+* Use [VeeSeeVST Rack](https://github.com/bsp2/VeeSeeVSTRack), which is based on a pretty old version of Rack and has limited plugin selection
+* Use something other than VCV entirely, like [Voltage Modular](https://cherryaudio.com/voltage-modular), [Softube Modular](https://www.softube.com/modular), or maybe [Reason Rack](https://www.reasonstudios.com/en/reason/rack-plugin), 
+
+If you want to load VSTs inside of Rack, you'll have to get [VCV Host](https://library.vcvrack.com/VCV-Host/Host), which is not free. It's also not perfect about plugin support, but it's still by far the biggest bang for your buck you can add to rack, albeit the UI is a bit clunky at times.
+
+## How do I interface VCV with Eurorack hardware?
+
+Pretty much the only way to do it directly is with either the Expert Sleepers ES-8 or ES-9 or with an audio interface that supports ADAT and the ES-3 and ES-6. Just like all things eurorack, these are expensive.

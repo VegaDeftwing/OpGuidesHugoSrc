@@ -3,9 +3,9 @@
 <script>
     document.getElementById("instMenu").open = true;
 </script>
-[TODO] I've already talked about FM, additive, subtractive, etc. in Sound Sources. Here I want to go into how they fit into a song, the idea of pads, leads, bass. As well as how a lot of famous sounds have been done and what some of the most famous synths are.
+[TODO] I've already talked about FM, additive, subtractive, etc. in Sound Sources. Here I want to go into how they fit into a song, the idea of pads, leads, bass. As well as how a lot of famous sounds have been done and what some of the most famous synths are. I'd also like to cover some of why some newer synths are exciting, like the Hydrasynth, Continumm, Norand Mono, Subharmonicon, Polygogo, 
 
-Modular, semi-modular, software
+Modular, semi-modular, software, theramin
 
 [The Design of the Roland Juno oscillators (Stargirl Flowers' Blog)](https://blog.thea.codes/the-design-of-the-juno-dco/)
 

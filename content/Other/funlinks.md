@@ -122,7 +122,13 @@
   
 * [Pink Trombone - Bare Handed Speech Synthesis](https://dood.al/pinktrombone/)
   
-* [You Are Two](https://www.youtube.com/watch?v=wfYbgdo8e-8)
+* [You Are Two (YouTube)](https://www.youtube.com/watch?v=wfYbgdo8e-8)
+  
+* [Analog Fractals with 1930's Technology (YouTube)](https://www.youtube.com/watch?v=Pv26QAOcb6Q)
+  
+* [Metric Paper (YouTube)](https://www.youtube.com/watch?v=9DiHy5ZHzN0)
+  
+* [Sounds of the Mandelbrot Set](https://www.youtube.com/watch?v=9DiHy5ZHzN0)
   
   
 
