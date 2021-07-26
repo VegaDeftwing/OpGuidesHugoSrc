@@ -1,6 +1,36 @@
-# h1 The Quick Brown Fox
+# How to make OpGuides Better
 
-test
+[From 3b1b:](https://www.youtube.com/watch?v=ojjzXyQCzso)
+
+* Resturcture things to go from Concrete to Abstract, not the other way around; Show patterns & exmaples, before going to the symbolic and abstract
+* Go reallly esoteric, specific - it builds a loyal auidance
+* Do not start with definitions - let people think they could have come to those definitons themselves
+* Start with motivating problems
+
+From [https://mastodon.social/@zensaiyuki/102683452946911475](https://mastodon.social/@zensaiyuki/102683452946911475)
+
+* 19. Don't force the user to remember things if you can help it. Humans are really bad at remembering things. This includes passwords, sms codes, sums, function names, and so on.
+* 22. show, don’t tell. lengthy tutorials and “protips” forced on the user at app start usually do nothing other than get in the way of the user’s task. if you want to teach the user about a feature, include easy to find examples.
+* 
+
+From others but I forgot where:
+
+* Start with misconceptions
+* Put icons on all lists
+
+# Tools for making OpGuides
+
+https://excalidraw.com - for 'hand drawn' svg diagrams
+
+https://detexify.kirelabs.org/classify.html - for Latex symbol lookup
+
+http://shapecatcher.com - for unicode symbol lookup
+
+# Hacks
+
+> note, youtube "copy embed code" depends on current size on screen of the embed, this can be fixed a bit by changing the start to <iframe width="100%" height="500"
+
+# Style Checking (h1)
 
 ## h2 The Quick Brown Fox
 
@@ -21,21 +51,6 @@ test
 ###### h6
 
 test
-
-https://excalidraw.com - for 'hand drawn' svg diagrams
-
-https://detexify.kirelabs.org/classify.html - for Latex symbol lookup
-
-http://shapecatcher.com - for unicode symbol lookup
-
-> note, youtube "copy embed code" depends on current size on screen of the embed, this can be fixed a bit by changing the start to <iframe width="100%" height="500"
-
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The ULTRA spicy pillow (normal battery for comparison) <a href="https://t.co/yS1OUW7YJD">pic.twitter.com/yS1OUW7YJD</a></p>&mdash; techsupportgore (@techsupgore) <a href="https://twitter.com/techsupgore/status/1295762626899775488?ref_src=twsrc%5Etfw">August 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<iframe src="https://en.wikipedia.org/wiki/Webring" title="Basic iframe test, vcv"></iframe>
-
-
 
 <div style='color: red'>
 

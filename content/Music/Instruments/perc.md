@@ -280,6 +280,12 @@ For as much as I've gone over all the different types of drums above, and the se
 
 Similarly, [Big Drums VS Small Drums (YouTube)](https://www.youtube.com/watch?v=9Q0R3TM2P6c) isn't as simple as you think either
 
+---
+
+### Other Drum Content
+
+[12 Tips I Wish I Knew as a Beginner Drummer (Stephen Clark, YouTube)](https://youtu.be/gHIZELwH49k)
+
 ## Other Percussion Instruments
 
 ### Bells and Carillons
