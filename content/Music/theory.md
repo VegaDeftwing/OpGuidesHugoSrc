@@ -8,6 +8,8 @@ slug: "Theory"
 
 <iframe width="100%" height="440" src="https://www.youtube.com/embed/rgaTLrZGlk0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Don't undervalue just sitting down and listening to music, trying to figure out what parts you enjoy and thinking about how it compares to what you've made, what you think you should change to sound better.
+
 # Theory
 
 I'm going to be honest. I can't read music and I don't know scales. Why, then, would I in any way think I'm qualified to write anything about music? Well, let me stop you right there, I'm not. I make music for fun. However, I like to think that people enjoy my music and I enjoy listening to it myself as I make it, and though my experience I've picked up a little here and there to make sure things don't sound awful. Furthermore, my background is primarily technically and there's actually an insane amount of overlap with the incredibly technical and music. Fundamentally music is just doing math with frequencies after all.
@@ -33,6 +35,8 @@ Oh, and the circle of fifths is a thing [TODO]
 [TODO] [Nanotone Synth](https://dylancassidy.itch.io/nanotone-synth)
 
 [TODO] [Benedetti's Puzzle (mathematically impossible music) - (YouTube, Adam Neely)](https://youtu.be/TYhPAbsIqA8)
+
+[TODO] [Hack Music Theroy](https://www.youtube.com/c/RevolutionHarmony/videos)'s YouTube Channel is pretty good. They do tend to present their tips as rules, but the tips are still generally pretty good.
 
 [Circle of 5ths Explained](https://ledgernote.com/columns/music-theory/circle-of-fifths-explained/)
 

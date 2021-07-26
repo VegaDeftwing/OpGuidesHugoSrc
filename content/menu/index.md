@@ -152,9 +152,12 @@ headless: true
 
 ---
 
+
 <div class="navbak" style="background:#973999;">
 
 - **Music**
+
+</div>
 
 </div>
 
@@ -170,14 +173,19 @@ headless: true
     <dt class="sub">3.5</dt><dd class="sub"> <a href="/music/instruments/esoteric/"> The Esoteric</a></dd>
    </details> </dd>
    <dt>4 </dt><dd> <details id="effectMenu"> <summary><a href="/music/effects/">Effects</a></summary>
-    <dt class="sub">3.1</dt><dd class="sub"> <a href="/music/effects/trivial/"> Trivial Effects</a></dd>
-	  <dt class="sub">3.2</dt><dd class="sub"> <a href="/music/effects/time/"> Time Based Effects</a></dd>
-    <dt class="sub">3.3</dt><dd class="sub"> <a href="/music/effects/filter/"> Filters!</a></dd>
-    <dt class="sub">3.4</dt><dd class="sub"> <a href="/music/effects/dynamics/"> Dʸⁿᵃᵐᶦᶜˢ</a></dd>
-    <dt class="sub">3.5</dt><dd class="sub"> <a href="/music/effects/misc/"> Everything Else</a></dd>
+    <dt class="sub">4.1</dt><dd class="sub"> <a href="/music/effects/trivial/"> Trivial Effects</a></dd>
+	  <dt class="sub">4.2</dt><dd class="sub"> <a href="/music/effects/time/"> Time Based Effects</a></dd>
+    <dt class="sub">4.3</dt><dd class="sub"> <a href="/music/effects/filter/"> Filters!</a></dd>
+    <dt class="sub">4.4</dt><dd class="sub"> <a href="/music/effects/dynamics/"> Dʸⁿᵃᵐᶦᶜˢ</a></dd>
+    <dt class="sub">4.5</dt><dd class="sub"> <a href="/music/effects/misc/"> Everything Else</a></dd>
    </details> </dd>
 <dt>5 </dt><dd> <a href="/music/sequencing-and-midi/">Sequencing & MIDI</a></dd>
-<dt>6 </dt><dd> <a href="/music/music-software/">Software</a></dd>
+  </details> </dd>
+   <dt>6 </dt><dd> <details id="softMenu"> <summary><a href="/music/software/music-software">Software</a></summary>
+    <dt class="sub">6.1</dt><dd class="sub"> <a href="/music/software/daw"> DAW?</a></dd>
+	  <dt class="sub">6.2</dt><dd class="sub"> <a href="/music/software/plugin/"> Plugins!</a></dd>
+    <dt class="sub">6.3</dt><dd class="sub"> <a href="/music/software/livecoding/"> Live Code</a></dd>
+   </details> </dd>
 <dt>6½</dt><dd> <a href="/music/midi/">MIDI in Detail</a></dd>
 <dt>7 </dt><dd> <a href="/music/music-hardware/">Hardware</a></dd>
 <dt>8 </dt><dd> <a href="/music/theory/">Theory</a></dd>

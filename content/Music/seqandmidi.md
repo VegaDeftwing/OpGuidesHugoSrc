@@ -40,6 +40,10 @@ This setup for a step sequencer is almost painfully simple, and doesn't leave a 
 
 Before moving on, I do want to help you actually make these simple step/gate sequences. For as simple as it sounds to make basic drum sequences, it's *really* not. You'll often end up making just really basic 4-on-the-floor techno (with exactly the bass drum as in the demo sequence above) or something that has at least one percussion hit on every step and gets too busy<a class="ptr">(2)</a>. The normal recommendation for this is [this 260 Drum Machine Patterns](https://www.amazon.com/Drum-Machine-Patterns-Leonard-Corp/dp/0881888877) book (that you can probably find PDFs of online) but [Beat Dissected from Attack Magazine](https://www.attackmagazine.com/technique/beat-dissected/) and this [$10 physical / FREE .PDF Drum patterns book](https://shittyrecording.studio) I think are better.
 
+##### Fills
+
+[TODO]
+
 #### Note and Value Sequencing
 
 {{< columns >}}
