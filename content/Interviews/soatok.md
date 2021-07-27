@@ -1,9 +1,6 @@
----
-title: "Soatok"
-slug: "Soatok"
-date: 2020-12-03
----
-
++++
+bookToC = false
++++
 # An Interview With Soatok Dreamseeker
 
 **12/3/2020**

@@ -55,3 +55,5 @@ Immediately contradicting myself though, don't undervalue workflow either. In my
 
 [My first WET / DRY / WET Guitar Pedal Rig (YouTube, Mark Johnston)](https://www.youtube.com/watch?v=uptuRNXR0Mw)
 
+[How to Experiment with your effects pedal signal chain (MusicRadar)](https://www.musicradar.com/news/pedal-signal-chain-experiment)
+
