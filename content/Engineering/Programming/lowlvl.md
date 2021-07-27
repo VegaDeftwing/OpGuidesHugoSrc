@@ -480,6 +480,10 @@ source patching, binary patching
 
 [TODO] wav is easy, mp3 is hard.. show this. WAV format on 767 of POC||GTFO
 
+[Zip - How *not* to design a file format (gamesgreggman)](https://games.greggman.com/game/zip-rant/) 
+
+[PSD is not my favorite file format](https://github.com/gco/xee/blob/master/XeePhotoshopLoader.m#L108)
+
 ## Where to get more practice with low level programming
 
 [TODO]
