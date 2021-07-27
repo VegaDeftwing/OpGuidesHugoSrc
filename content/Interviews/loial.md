@@ -1,8 +1,6 @@
----
-title: "Loial"
-slug: "Loial"
-date: 2018-09-23
----
++++
+bookToC = false
++++
 # An Interview With Loial Otter
 
 **9/23/2018**

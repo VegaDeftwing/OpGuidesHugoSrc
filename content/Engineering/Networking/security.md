@@ -244,6 +244,8 @@ Some things you should consider:
   * This exact problem leads to people being able to carry out a [SIM swap scam (Wikipedia)](https://en.wikipedia.org/wiki/SIM_swap_scam)
 * While verification of identity is important, so is looking up that identity in the first place. If you always call the wrong number, always connect to the wrong URL, etc. You're asking for someone to come along and fill that role.
 
+There's also just a point about not assuming an adress will always point to the same place, like when a bunch of news websites [found that they were suddenly showing pron videos (The Verge)](https://www.theverge.com/2021/7/22/22589403/porn-site-bought-expired-video-hosting-site-old-embeds).
+
 ### DO NOT claim 'unhackability'
 
 If you do, and you get hacked, it goes from being tragic to funny, and it's a huge welcome sign to bored hackers that *will* find a way in.
