@@ -23,6 +23,18 @@ Other than that, just fork this repo, edit the .md files, and submit a pull requ
 
 If you would like to repeatedly contribute, please open an issue and I'll hapily add you as a contributor to avoid the need for many pull requests.
 
+### Running locally
+
+In order to run this site locally (and check the look and feel of your contribution) as this site is based on Hugo the first thing that you'll need is to have Hugo installed on your machine, you can [follow the docs](https://gohugo.io/getting-started/installing/).
+
+Then you need to simply run `hugo server --watch --port=8080 -t bookvega` where:
+
+* The `--watch` attribute indicates hugo to reload the files under any change.
+  
+* The `--port=8080` attribute indicates the localhost desired port.
+  
+* And `-t bookvega` indicates the theme to use, otherwise you'll be getting the `failed to extract shortcode: template for shortcode "columns" not found` error.
+
 ---
 Opguides site is hosted on Github pages and relies on Hugo using the [Hugo Book Theme](https://github.com/alex-shpak/hugo-book), so a massive thank you to all the contributors that have made OpGuides this easy to maintain!
 
