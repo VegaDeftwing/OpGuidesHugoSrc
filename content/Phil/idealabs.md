@@ -25,6 +25,8 @@ Community Garden
 
 ## Different Ideas are better
 
+[These 6 corporations control 90% of the media outlets in America.  (TechStartups)](https://techstartups.com/2020/09/18/6-corporations-control-90-media-america-illusion-choice-objectivity-2020/)
+
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/vKA4w2O61Xo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## P-hacking, Fake Science, and Academia's Bullshit

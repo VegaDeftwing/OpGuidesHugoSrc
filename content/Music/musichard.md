@@ -4,6 +4,8 @@ slug: "Music Hardware"
 
 ---
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/a_90uFCrWWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # Music Hardware
 
 While you *could* make all of your music with just computer, you’ll probably want some tools that make your life as a musician easier and let you explore ideas faster. Like I said back in the [Audio Effects Chapter]({{< relref "Music/effects" >}}), in my experience, making music depends on a really quick brain to input device feedback loop. Being able to turn a physical knob and mash physical keys will often lead to better results if only because you’re able to try things both faster and by physically interacting with something that you may not have thought of otherwise. It’s why guitars, MPE keyboards, and Eurorack are so great: they all give you a crazy amount of control and expression that is *literally* at your finger tips. The brain to input interface there is just so much better.
