@@ -46,6 +46,8 @@ LICENCE PENDING, NOT YET APPROVED FOR PUBLISHING
 
 -->
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I AM DYING<br><br>I just got a copyright claim for *TYPING ON MY KEYBOARD* <a href="https://t.co/EUSzQun8ik">pic.twitter.com/EUSzQun8ik</a></p>&mdash; Hector Martin (@marcan42) <a href="https://twitter.com/marcan42/status/1420807961518088194?ref_src=twsrc%5Etfw">July 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## How do we fix it?
 
 I think to further address any issues we first need to look into how these issues have come to exist. In general, as a society advances new issues will arise. Computers and the Internet have shown us just how incredibly things can progress and how amazing un-hindered, open information flow can change the world. The Internet has served as an educational tool of unparalleled utility to my generation and has allowed me to learn things that I otherwise would have never had access to. Of course this also means the same for bad actors. Though acting in bad faith also now have the same unparalleled access to personal information of the masses and individuals can now use their anonymity and an Internet connection to do harm both to individuals via cyberbullying and trolling, but also to businesses as we move to a world that more heavily relies on ecommerce and the digital information they store becomes increasingly sensitive.

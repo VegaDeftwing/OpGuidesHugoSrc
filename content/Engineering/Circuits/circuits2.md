@@ -202,7 +202,7 @@ Relate back to things like ADSR, Distortion, Reverb / Echo, Decibels (audio), et
   * Don't pretend to be an electrician
   * Don't use ATX psus for dumb things
 * Rare/Expensive
-  * Tubes, NOS parts, etc.
+  * Tubes, NOS parts, etc. - TODO: CRTs and [Aquadag](https://en.wikipedia.org/wiki/Aquadag)
 
 
 
