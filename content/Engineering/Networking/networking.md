@@ -407,3 +407,8 @@ Software Defined Networking, ActivityPub
 [http-wtf](https://httptoolkit.tech/blog/http-wtf/)
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="et" dir="ltr">midi <a href="https://t.co/5zd4dWJ3U4">pic.twitter.com/5zd4dWJ3U4</a></p>&mdash; Ravarcheon (@ravarcheon) <a href="https://twitter.com/ravarcheon/status/1383045683037413376?ref_src=twsrc%5Etfw">April 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+
+[Netcat - All you need to know](https://blog.ikuamike.io/posts/2021/netcat/)
+

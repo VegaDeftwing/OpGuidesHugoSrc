@@ -108,6 +108,7 @@ headless: true
 <div class="progress-ww">
 <dl>
 <dt>27 </dt><dd> <a href="/engineering/deeper/compileassemble/">Compilers & Assemblers</a></dd>
+<dt>27½</dt><dd> <a href="/engineering/deeper/reverse/">Reverse Engineering</a></dd>
 <dt>28 </dt><dd> <a href="/engineering/deeper/fpga1/">Programmable Logic</a></dd>
 <dt>29 </dt><dd> <a href="/engineering/deeper/comparch/">Let's Make our own CPU</a></dd>
 </dil>

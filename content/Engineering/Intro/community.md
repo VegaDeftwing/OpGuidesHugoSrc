@@ -139,6 +139,8 @@ The maker and hacker communities tend to focus a lot on popularity and getting y
 
 (Seriously all of these are **very** good)
 
+[How To Learn Stuff Quickly (Josh W Comeau)](https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly/)
+
 [Hacker Spaces are Awesome! (YouTube, LiveOverflow)](https://www.youtube.com/watch?v=HJy-Y4nok3g)
 
 [Assholes: A Probing Examination](https://www.nomachetejuggling.com/2019/06/03/dont-hire-assholes/)
