@@ -321,6 +321,8 @@ do
 done
 ```
 
+You may also be interested in [Funky](https://github.com/bbugyi200/funky) or [Direnv](https://direnv.net) for having scripts that load/unload when you enter and leave a folder in the terminal
+
 ## Alternative Shells
 
 When we installed arch we actually changed the default shell from bash to zsh, but there are other options such as fish, csh, and xonsh among others
@@ -353,6 +355,8 @@ When we installed arch we actually changed the default shell from bash to zsh, b
   * [Semgrep](https://semgrep.dev/docs/getting-started/) may be a better fit for doing code stuff
 * [echowo](https://fluff.haus/kokoscript/echowo)
   * alternative to echo, but significantly furrier
+* [broot](https://github.com/Canop/broot)
+  * alternative to `tree`, but optimizes for available screen space, and navigate the tree and cd to it
 
 ## Useful Non-Stock CLI Tools
 

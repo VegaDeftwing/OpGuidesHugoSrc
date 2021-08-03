@@ -67,11 +67,19 @@ TODO: individually wrapped wastes of money for holidays makes me feel gross
 
 ---
 
+[TODO] rant on devices that require apps
+
+[TODO] rant on devices that rely on non-self-hostable servers
+
+[TODO] rant on software with DRM that makes the pirated versions better
+
 ### Anti-consumer practices
 
 https://dvt.name/2020/02/24/rfc-lets-disrupt-dating-apps/
 
 [A classic Silicon Valley tactic — losing money to crush rivals — comes in for scrutiny (Washington Post)](https://www.washingtonpost.com/technology/2021/07/06/facebook-bulletin-antitrust/)
+
+[TODO] Geo-locked content
 
 ### Advertising
 
@@ -80,6 +88,8 @@ This video from Tom Scott provides a ton of background information and makes som
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/L-x8DYTOv7w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Avoiding the Frigid Hellscape of Online Marketing (Soatok's Blog)](https://soatok.blog/2021/05/18/avoiding-the-frigid-hellscape-of-online-marketing/)
+
+[You make a privacy-first service → You get banned on Google (Dan Kozlov)](https://dkzlv.medium.com/google-bans-privacy-first-services-b9452e281439)
 
 #### Native Ads
 
@@ -120,7 +130,7 @@ But, I'm getting off topic, the point of this was to discuss and propose a solut
 
 [TODO] [The Dark Reality Behind America’s Greatest Thrift Store Empire](https://medium.com/@aliceminium/the-dark-reality-behind-americas-greatest-thrift-store-empire-183967087a1e)
 
-# Something I've written while thinking about this:
+# Somethings I've written while thinking about this:
 
 >I've posted things like this here before, but I feel like I need to again in light of recent conversations with friends: On Facebook, you are the product and you are you should know what you are funding. I think at this point the Cambridge Analytica scandal[1] is pretty well known, but that is nothing compared to the other things in Facebook's past. At one point Facebook targeted teenagers and filtered their news feed to be mood based which was found to lead to real world mood changes [2]. But even if these things don't bother you, you think Facebook just made a mistake, there's the case of Facebook's content moderation team being paid less than a living wage and being exposed to situations which lead to severe mental illness [3]. Speaking of mental illness, Facebook owned Instagram's recommendation algorithm has been found to recommend pro self-harm content to those most vulnerable, which has actually lead to deaths [4].
 >
@@ -139,6 +149,14 @@ But, I'm getting off topic, the point of this was to discuss and propose a solut
 >[5] https://joinmastodon.org/
 >[6] https://telegram.org/
 >[7] https://addons.mozilla.org/…/fire…/addon/facebook-container/
+
+>I don't think it's a lack of morals, I think it's a lack of accountability combined with the legal requirement for businesses to do what's in the best interest of shareholders. At some point fines became the cost of doing business, as does lobbying and attempting to get regulatory market capture. While yes I think consumers are guilty of not voting with their wallets for the better alternatives, buying the better alternatives has become impractical when the ones playing dirty can undercut the ones playing nice by such a crazy extent. While I get nobody likes big government, I personally think the best solution is for the FTC, FCC, and EPA to do their jobs: force right to repair, force net neutrality and increase the definition of broadband minimums, implement a carbon tax respectively- among other issues. Capitalism without limits leads to abuse without limits. We complain that Facebook owns basically all of social media, that Amazon workers are peeing in bottles, but still let them buy literally all of their competition before they actually get large enough to compete. We let our politicians take unchecked donations form them that lead to laws that make it even harder for a smaller business to compete or get started, meanwhile not letting them pass any consumer protections like preventing Facebook from knowing when you're on your period or ClearviewAI from scraping profile pictures to build a nationwide facial recognition database that you can't opt out of.
+>
+>Morals aren't the answer. Regulation with real consequences, consumer protections, unions, blocking mergers, breaking up not just monopolies but even duo and tri and quadopolies (like the media landscape: Sinclar, Fox, Disney) as well as regional non-competes, unfucking that patent system, and undoing the damage Disney did to copyright is. Or at least it would be a start.
+>
+>I also think it's partially just a matter of there's too much going on in the world for most people to give a shit about everything. "The Good Place" did a good job of pointing this out where in the third(?) season it was revealed nobody had gone to heaven in hundreds of years because people couldn't actually act ethically anymore. They showed a particularly good example where someone didn't make it in because, unbeknownst to them, the apple they bought at the super market had been harvested with slave labor, and like... What are you supposed to do? Trace down every apples path from tree to you?
+>
+>Idk man, it just makes me depressed that we have to eternally be careful not to fund douchebags.
 
 <ol hidden id="footnotes">
 	<li>Nevermind that one of the major credit bueraus fucked up hard enough to expose the the <a href="https://en.wikipedia.org/wiki/Equifax#Security_Failings">credit records of 140 milllion Americans</a> </li>

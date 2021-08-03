@@ -14,8 +14,9 @@ While also linked previously in the War and Foreign Involvement chapter, I serio
 
 [*A People's History of the United States*](https://en.wikipedia.org/wiki/A_People's_History_of_the_United_States)
 
-[Quora](https://www.quora.com/Are-there-any-events-that-were-left-out-of-our-US-history-books-If-so-what-events)
+[Are there any events that were left out of our US history books?(Quora)](https://www.quora.com/Are-there-any-events-that-were-left-out-of-our-US-history-books-If-so-what-events)
 
-
+[CIA Timeline](http://www.huppi.com/kangaroo/CIAtimeline.html)
 
 TODO: https://cascade.page
+
