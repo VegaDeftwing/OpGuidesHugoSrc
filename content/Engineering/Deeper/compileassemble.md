@@ -4,6 +4,8 @@ https://lee.earth/til/compiling-c-code-a-step-by-step-guide/
 
 [TODO] [Better Firmware with LLVM/Clang](https://interrupt.memfault.com/blog/arm-cortexm-with-llvm-clang)
 
+[TODO] [`Zig cc`: a Powerful Drop-In Replacement for GCC/Clang](https://andrewkelley.me/post/zig-cc-powerful-drop-in-replacement-gcc-clang.html)
+
 ## Common Flags and When to Use them
 
 > These flags are not universal, instead they're from GCC. GCC and Clang are the big two compilers you'll see a lot and these flags should be mostly the same between the two. Of course, there are many, many other compilers, but I'm going to start with the common stuff

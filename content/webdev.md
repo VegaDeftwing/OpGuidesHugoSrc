@@ -11,7 +11,6 @@ From [https://mastodon.social/@zensaiyuki/102683452946911475](https://mastodon.s
 
 * 19. Don't force the user to remember things if you can help it. Humans are really bad at remembering things. This includes passwords, sms codes, sums, function names, and so on.
 * 22. show, don’t tell. lengthy tutorials and “protips” forced on the user at app start usually do nothing other than get in the way of the user’s task. if you want to teach the user about a feature, include easy to find examples.
-* 
 
 From others but I forgot where:
 
@@ -25,6 +24,10 @@ https://excalidraw.com - for 'hand drawn' svg diagrams
 https://detexify.kirelabs.org/classify.html - for Latex symbol lookup
 
 http://shapecatcher.com - for unicode symbol lookup
+
+https://rawgraphs.io - for making pretty graphics with data (csv, json, etc.)
+
+https://ivanceras.github.io/svgbob-editor/ - ASCII text to SVG
 
 # Hacks
 

@@ -29,3 +29,4 @@ The biggest reason knowing how legacy hardware works is important is because it 
 [TODO] Parallel, Serial, Tape, CD, gameport, C64, BIOS, floppy data storage tracks, 
 
 --->
+

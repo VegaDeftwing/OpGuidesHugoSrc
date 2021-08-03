@@ -14,7 +14,7 @@ Digital Audio Workstations or 'DAWs' come in many flavors, so let's look at the 
 
 Trackers, vs non liner, vs modular, etc.
 
-**NOTE: this list is far from exhaustive. Instead, I've tried to list the main ones and some that I think are particularly cool.**
+**NOTE: this list is far from exhaustive. Instead, I've tried to list the main ones and some that I think are particularly cool.** Also, you might want to see [AdmiralBumbleBee's Daw Feature Chart](https://www.admiralbumblebee.com/DAW-Chart.html) for a more analytical overview
 
 
 

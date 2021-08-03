@@ -415,6 +415,20 @@ Has a neat code editor too, for making more complex geometry
 
 {{< /columns2 >}}
 
+{{< columns2 >}}
+
+[Svgbob Editor](https://ivanceras.github.io/svgbob-editor/)
+
+<--->
+
+Convert your ascii diagram scribbles into happy little SVG
+
+<--->
+
+![](/svgbob.png)
+
+{{< /columns2 >}}
+
 
 
 
@@ -423,7 +437,7 @@ Has a neat code editor too, for making more complex geometry
 
 
 
-[Themer (Live Demo)](https://themer.dev/?colors.dark.accent0=#F59597&colors.dark.accent1=#F2B494&colors.dark.accent2=#F2DB94&colors.dark.accent3=#C8F29D&colors.dark.accent4=#94F2DD&colors.dark.accent5=#94CEF2&colors.dark.accent6=#DB9CF7&colors.dark.accent7=#F79CE0&colors.dark.shade0=#44484F&colors.dark.shade7=#C7F3FF&colors.light.accent0=#E11418&colors.light.accent1=#E0530D&colors.light.accent2=#D2A623&colors.light.accent3=#61AB16&colors.light.accent4=#06B38B&colors.light.accent5=#34A4E7&colors.light.accent6=#A549CD&colors.light.accent7=#CC52AD&colors.light.shade0=#DBF7FF&colors.light.shade7=#3E444F&activeColorSet=dark&calculateIntermediaryShades.dark=true&calculateIntermediaryShades.light=true) [(Github)](https://github.com/mjswensen/themer), meant for making themes for Linux enviroments, but makes good textures in general
+[Themer (Live Demo)](https://themer.dev/?colors.dark.accent0=#F59597&colors.dark.accent1=#F2B494&colors.dark.accent2=#F2DB94&colors.dark.accent3=#C8F29D&colors.dark.accent4=#94F2DD&colors.dark.accent5=#94CEF2&colors.dark.accent6=#DB9CF7&colors.dark.accent7=#F79CE0&colors.dark.shade0=#44484F&colors.dark.shade7=#C7F3FF&colors.light.accent0=#E11418&colors.light.accent1=#E0530D&colors.light.accent2=#D2A623&colors.light.accent3=#61AB16&colors.light.accent4=#06B38B&colors.light.accent5=#34A4E7&colors.light.accent6=#A549CD&colors.light.accent7=#CC52AD&colors.light.shade0=#DBF7FF&colors.light.shade7=#3E444F&activeColorSet=dark&calculateIntermediaryShades.dark=true&calculateIntermediaryShades.light=true) [(Github)](https://github.com/mjswensen/themer), meant for making themes for Linux environments, but makes good textures in general
 
 {{< /details >}}
 
