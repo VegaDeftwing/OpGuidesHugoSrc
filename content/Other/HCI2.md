@@ -94,7 +94,7 @@ Why are we limited to only buttons on our keyboards anyway? I have a BDN9 macro 
 
 Also, if you're the kind of person that needs to write long walls of text with minimal formatting, you might want to check out stenography:
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/nRp_1S7cj6A?list=WL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/nRp_1S7cj6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### More than Just the Keyboard:
 
