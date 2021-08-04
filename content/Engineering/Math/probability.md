@@ -92,6 +92,8 @@ Conditional Probability Mass Fn & Conditional Expected Value
 
 Gaussian Random Variables / Normal RVs (same thing)
 
+[TODO] [Gaussian Processes From Scratch (Peter Rlnts)](https://peterroelants.github.io/posts/gaussian-process-tutorial/)
+
 [TODO] https://mc-stan.org/users/documentation/
 
 [TODO] [The Fisher Information (YouTube - Mutual Information)](https://youtu.be/pneluWj-U-o)

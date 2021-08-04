@@ -16,6 +16,12 @@ https://codepen.io/teropa/full/bRqYVj/
 
 [AutoEq (Github)](https://github.com/jaakkopasanen/AutoEq) - Automatic headphone equalization from frequency responses
 
+
+
+## Sample Packs & Wavetables
+
+[Echo Sound Works *Coda*](https://www.echosoundworks.com/coda) (~$30) - Wavetables & Serum presets. These wavetables are truly amazing. 
+
 # Cool People
 
 https://twitter.com/RichardDevine
