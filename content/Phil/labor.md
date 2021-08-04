@@ -6,6 +6,8 @@ slug: "Labor"
 
 # Labor and Compensation
 
+[The Case For Banning Non-Competes (slowboring.com)](https://www.slowboring.com/p/the-case-for-banning-non-competes)
+
 [EU pushes for 'right to disconnect' from work at home (dw.com)](https://www.dw.com/en/eu-pushes-for-right-to-disconnect-from-work-at-home/a-55803776)
 
 [Please Consider My Application to Give You Labor So I Can Stay Alive](https://www.mcsweeneys.net/articles/please-consider-my-application-to-give-you-labor-so-i-can-stay-alive)
