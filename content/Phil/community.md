@@ -42,6 +42,8 @@ Might also talk about https://wileywiggins.com/merveilles.html as that's a commu
 
 ## Adopting new societal values of acceptance
 
+[A shift in American family values is fueling estrangement (The Atlantic)](https://www.theatlantic.com/family/archive/2021/01/why-parents-and-kids-get-estranged/617612/)
+
 ## Understanding the common good
 
 Encryption, Tradgedy of the commons

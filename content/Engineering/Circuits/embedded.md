@@ -1,9 +1,12 @@
 # Chapter 25 - Embedded Systems
 
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/571259885" width="100%" height="500" frameborder="0" allowfullscreen></iframe>
 
-[TODO]
+{{< attribution >}}By [Make It With Me](https://www.instructables.com/Cheapest-Plug-Play-Room-Automation-Setup/){{< /attribution >}}
 
 ## What is an Embedded System?
+
+{{< columns >}}
 
 ![pos](/pos.png)
 
@@ -13,11 +16,67 @@
 
 {{< /attribution >}}
 
+<--->
+
+These little devices are *Pocket Operators* made by Teenage Engineering, they're realatively inexpensive synths that can be chained together, and I think they're a great example of what an embedded system is, but for the sake of clarity, here's how wikipedia defines it:
+
+{{< quote Wikipedia>}}
+
+An embedded system is a computer system—a combination of a computer processor, computer memory, and input/output peripheral devices—that has a dedicated function within a larger mechanical or electronic system.
+
+{{< /quote >}}
+
+{{< /columns >}}
+
+Alright, so how do these pocket operators show this well? Well, the pocket operators have a *Microcontroller* on them as well as a fair amount of things connect to it, but let's hang on for a second- Microcontroller? Microcontrollers, sometise written as *μC*, *MCU*, or just *micro* are the heart of most embeed projects
+
+{{< quote "Wikipedia, minor edits" >}}
+
+**A microcontroller** is a small computer contained in an integrated circuit (IC) chip. A microcontroller contains one or more CPUs (processor cores) along with memory and programmable input/output peripherals. Microcontrollers are designed for embedded applications, in contrast to the microprocessors used in personal computers.
+
+Microcontrollers are used in automatically controlled products and devices, such as automobile engine control systems, implantable medical devices, remote controls, office machines, appliances, power tools, toys and other **embedded systems**.
+
+{{< /quote >}}
+
+Alright, so that's a lot of words. The gist of it is you're getting a tiny computer that's roughly comprable in specs to a computer from the 80's, but is inexpensive (usually under $0.25, espcially in bulk) and that has a ton of pins that you can connect other things to- LEDs, motors, buttons, etc. These computers (usually) don't run a full operating system, and instead (usally) just run a loop of your code forever. They also usually have some special pins that can do things like read analog voltages, communicate over SPI or {{< katex >}}\text{I}^2 \text{C}{{< /katex >}}, trigger interupts, or be used for PWM (Puse Width Modulation).
+
+{{< columns >}}
+
+Probably the most commonly reccomend microcontroller for begineers is the ATMEGA328P on the Arduino Uno. The 328P and Uno are both... not awesome. But, for first learning and getting your toes wet they're fine.
+
+It's worth noting, the μC itself is the Atmega328P- the really big black rectangular chip. The board that breaks these pins out to the headers for you to plug wires into, provides the USB connection, power filtering, reset button, etc. is the Development Board- in this case it's been named the Arduino Uno.
+
+<--->
+
+![](/duino.jpg)
+
+{{< attribution >}}Image by [Sahand Babali](https://unsplash.com/@sahandbabali){{< /attribution >}}
+
+{{< /columns >}}
+
+{{< columns >}}
+
+![](/pi.jpg)
+
+{{< attribution >}}Image by [Vishnu Mohanan](https://unsplash.com/photos/rZKdS0wI8Ks){{< /attribution >}}
+
+<--->
+
+Sometimes the lines for what's a microcontroller or embedded system can get blurry. This is espically the case when using development board on a finished product or when a full computer that runs a desktop OS is involved.
+
+For exmaple, the Raspberry Pi, pictured here, is an embeed system; *however*, it has a full blow ARM System On a Chip (SoC) that can run Linux and be used as a full desktop computer. More confusing still, the Pi itself has multiple embedded systems *in* the embedded system- for exmaple the dedicated chip on the Pi3b+ that provides the ethernet connectivity could be considered part of it's own embedded system. Yet, the Pi has General Purpos Input Output (GPIO) pins like most microcontrollers.
+
+{{< /columns >}}
+
+All of this is to say, don't worry about it too much. As you work with it more, you'll learn the differences. This is all just jargon anyway, and sometimes not everything fits cleanly under a single label. Instead, you should focus on what matters: Knowing what parts to use, what features they offer, and how to program them to do what you want.
+
 ## PWM, SPI, I2C, What's going on?!
 
 [Driving a PAL TV over RF thanks to PWM harmonics (Hackaday)](https://hackaday.com/2020/08/26/driving-a-pal-tv-over-rf-thanks-to-pwm-harmonics/)
 
 ## Playing around - Hello World and blink
+
+[TODO] breadboards, don't cheap out
 
 ## Making an Embedded System project - 1 - Humidity Sensor
 

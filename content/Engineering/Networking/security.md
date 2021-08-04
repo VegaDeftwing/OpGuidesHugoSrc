@@ -132,6 +132,8 @@ Alright, so what should you use? Well, the answer is obviously "It depends on wh
 
 https://blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/
 
+[Building a Curve25519 Hardware Accelerator (BunnieStudios)](https://www.bunniestudios.com/blog/?p=6140)
+
 ### DO NOT think encryption is a magic bullet
 
 > Our mysterious hero ran from the evil forces, carrying his trusty cyberdeck with all the information the resistance needed to win, but if it fell into the wrong hands it would all be over. Unfortunately, there were to many- He was surrounded! He feared not though, for his disk was encrypted by AES-4096! While the resistance may not get the data, the evil forces wouldn't have it either! He taunted his captors, "You'll never get that data!"
