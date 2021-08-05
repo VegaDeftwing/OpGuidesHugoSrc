@@ -105,15 +105,56 @@ https://the-eye.eu/public/
 
 Cory Dottorow is a huge name when it comes to speaking on how copyright matters to those of us that like to create with code and wires. I really recomend reading his post about why [There are no digital rights, only human rights.](https://locusmag.com/2020/09/cory-doctorow-ip/) and watching this video about the [War on General-Purpose Computing](https://www.youtube.com/watch?v=gbYXBJOFgeI).
 
-<ol hidden id="footnotes">
-	<li>Microsoft Corporation.  “MICROSOFT VISUAL BASIC/VISUAL C++ 6.0 ENTERPRISE EDITIONS” <a href="download.microsoft.com/documents/useterms/Visual%20Basic%20Enterprise_6.0_English_11762fc4-f3b9-4bf5-a513-b4a9b76b4f60.pdf">availabe here</a>  3 Jun 2020</li>
-	<li>United States House of Representatives.  “Monopolies and Combinations in Restraint of Trade”  Title 15, United States Code, Chapter 1  3 Jun 2020</li>
-	<li>United States District Court for the District of Columbia.  U.S. v Microsoft  Civil Action No. 98-1232  3 Jun 2020</li>
-	<li>By 'slow' I'm primarily referring to the lack of or incompetence of consumer data protection law. <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">GDPR</a> is definitely a step in the right direction on this; however, that is both only for the EU and was implemented far too late. By 'fast' I had the <a href="https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act">DMCA</a> in mind, which is wildly considered to be both overreaching and to harsh. Simultaneously, we lack real power as consumers, copyright is a game the rich can play with expensive laywers and the small creator can't afford to defend.</li>
-</ol>
+# Patents
+
+[TODO] e-ink, 3D-printing, MX keys, Loading screen game until expired ; patent trolls ; 
+
+{{< quote "TaylorAlexander on [this hacker news thread](https://news.ycombinator.com/item?id=27785255)" >}}
+
+Yes more on 3D printers:
+The first FDM 3D printers went on sale in 1995 for $50k. Ten years later they were $25k. Then in 2008 the patents expired. By 2011 a halfway decent printer was $1800. By 2018 $300 3D printers were available worldwide.
+
+I joined the community in 2010, bought my own printer in 2011, and I saw the community operating with my own two eyes. Thousands of people all over the world innovating without patents to improve the situation.
+
+The idea that patents promote innovation is absurd. The primary function of the patent is to stop innovation. All those thousands of people who wanted to improve 3D printers were legally prevented from innovating while the patent was in effect.
+
+I remember in 2012 people on the mailing list talking about 3D printing on to a belt that could move. Literally no one on the mailing list wanted to risk infringing on the Makerbot patent for this even though makerbot quickly stopped selling their belt printer and never sold a new one. To this day the only belt printers that are for sale is a printer with the carriage off angle from the belt to avoid infringing the makerbot patent that hasn’t been used in years.
+
+The rate of innovation would be higher without patents. We’re hurting ourselves for the benefit of those who amassed large patent portfolios so they can charge rent on old designs instead of innovating.
+
+Imagine the health and wealth that could be generated worldwide if we let every country copy the best MRI machines we have, and all our battery factories and chip designs. That wealth would immeasurably improve the lives of people the world over, and it would come back to us in the US as new economic trading partners with their own infrastructure. Along the way they’d find 100x cost savings or better and our medical care would be cheaper.
+
+We are truly shouting ourselves in the foot with patents.
+
+{{< /quote >}}
+
+{{< quote "lettergram on [this hacker news thread](https://news.ycombinator.com/item?id=27785255)" >}}
+
+Having spent a significant amount of time developing and patenting new technology — I think patents are both necessary, BUT need an overhaul.
+Particularly, I think design patents are likely positive, but I think utility patents need a different mechanism. For instance, I think the patent should work for X% of revenue of a given item is provided to the patent holder, provided they don’t reach an agreement. This would ensure anyone can use patents and the revenue would be defined. I also think a patent should be limited to 3 years without it being put to use. “Use” should have a lower bar, but effectively made or reduced revenue in some manner.
+
+In reality, you can build what you and ignore patents. Patents don’t matter until you are in business and make money. At which point, if someone uses you; you’re already successful and they’ll want a slice of that success. This is the advice I’ve always been given (from investors and attorneys, off record).
+
+{{< /quote >}}
+
+{{< quote "bee_rider on [this hacker news thread](https://news.ycombinator.com/item?id=27785255)" >}}
+
+A bounty system for patent invalidation might be nice. An idea could be:
+* When you get a patent, you put up a bond.
+
+* If someone invalidates your patent, they get the bond.
+
+* Otherwise, you get it back when your patent expires
+
+An extra, funny, probably impractical idea is that when filing for the patent, you decide on the value of the bond. But, the value of the bond is the maximum payout you can be awarded for a given instance of infringement. So, you have to essentially 'price' the value of your patent yourself.
+
+{{< /quote >}}
 
 
-## For the furries
+
+---
+
+# For the furries
 
 No, you can not copyright your species or make a 'closed' species. While I am not a lawyer, I can say with a pretty high degree of certainty that your claims of copyright over a fictional species would not stand up in court.
 
@@ -181,3 +222,9 @@ So next time you're thinking about calling your Lynx-duck hybrid a closed specie
 
 <iframe src="https://giphy.com/embed/KYLLQg2fqs5blnO4sj" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/velma-stop-that-you-KYLLQg2fqs5blnO4sj"></a></p>
 
+<ol hidden id="footnotes">
+	<li>Microsoft Corporation.  “MICROSOFT VISUAL BASIC/VISUAL C++ 6.0 ENTERPRISE EDITIONS” <a href="download.microsoft.com/documents/useterms/Visual%20Basic%20Enterprise_6.0_English_11762fc4-f3b9-4bf5-a513-b4a9b76b4f60.pdf">availabe here</a>  3 Jun 2020</li>
+	<li>United States House of Representatives.  “Monopolies and Combinations in Restraint of Trade”  Title 15, United States Code, Chapter 1  3 Jun 2020</li>
+	<li>United States District Court for the District of Columbia.  U.S. v Microsoft  Civil Action No. 98-1232  3 Jun 2020</li>
+	<li>By 'slow' I'm primarily referring to the lack of or incompetence of consumer data protection law. <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation">GDPR</a> is definitely a step in the right direction on this; however, that is both only for the EU and was implemented far too late. By 'fast' I had the <a href="https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act">DMCA</a> in mind, which is wildly considered to be both overreaching and to harsh. Simultaneously, we lack real power as consumers, copyright is a game the rich can play with expensive laywers and the small creator can't afford to defend.</li>
+</ol>
