@@ -70,21 +70,149 @@ For exmaple, the Raspberry Pi, pictured here, is an embeed system; *however*, it
 
 All of this is to say, don't worry about it too much. As you work with it more, you'll learn the differences. This is all just jargon anyway, and sometimes not everything fits cleanly under a single label. Instead, you should focus on what matters: Knowing what parts to use, what features they offer, and how to program them to do what you want.
 
+## Playing around - Hello World and blink
+
+Alright, so you have a microcontroller, presumably on a dev board, maybe even afforementioned Arduino Uno (though serisouly, the 328p is trash- coming back to that in a bit) but you want to make it *do something*. Generally, the first thing you'll want to do with a devboard is the exact same as you do when learning any programming language, make it say "Hello World". Now, this is pretty easy, if you have a controller that can run the arduino framework (this is more than just boards from Arduino- Arduino the framework runs on a bunch of other boards that aren't made by Arduino the foundation), you can download the Arduino IDE, write this code:
+
+```c++
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+  Serial.println("Hello World!");
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+}
+```
+
+connect your board, press upload, and if you go to *Tools → Serial Monitor* you should see the the arduino send back the words "Hello World!". Now, this is super not exciting as it doesn't reall seem any different than just running similar code on your computer. However, keep in mind that code spitting out that text *didn't* execute on your computer. It ran on that lil' board and then that text was sent back over the usb cable.
+
+But, there's a few things I want to adress first:
+
+1. The arduino IDE is fucking garbage (for now, it should be getting better with Version 2.0)
+2. This code leaves a lot obsucerd. Where is `Serial` from? What's up with `setup()` and `loop()` instead of `main()`? Why `9600`?
+
+So, to answer 1. - Yeah, don't use the Arduino IDE. For now, the best option is [PlatformIO](https://platformio.org) on VSCode.
+
+To rapid fire 2. - `Serial` is from a library that gets installed by default with Arduino and by using a call to it in your code, the Arduino IDE links it in for you, without the need for `#include` like we saw back in the low level programming chapter. This may sound nice, but it's actually really annoying. There's a bunch of libraries like this and often you won't realize you're even using something non standard- like `setup()` and `loop()` Arduino actually has a file sitting elsewhere that literally has the code:
+
+```c++
+#include <Arduino.h>
+
+int main(void)
+{
+    init();
+
+#if defined(USBCON)
+    USBDevice.attach();
+#endif
+    
+    setup();
+    
+    for (;;) {
+        loop();
+        if (serialEventRun) serialEventRun();
+    }
+        
+    return 0;
+}
+```
+
+which, while may look a bit weird, you'll see does contain our typical `main()` and just executes `setup()` once then whatever we put in `loop()` in an infinite for loop. Really, this abstraction is just in our way. There's no need for these libraries to sit between us and the code!
+
+Finally, just to be though, that `9600` which may seem like a magic number, is the baudrate the board was sending data to the computer at. `9600` is stupidly slow, yet is the default that many programs with the arduino framework will use- most boards can do `115200`, which is 12 times faster.
+
+All of this is to say, a lot of "Makers" will only learn to use the Arduino functions and way of donig things. Yeah, they might make some things easier, but long term they'll seriously limit what you can do. There's often nothing wrong with this! Sometimes, a quick n' dirty solution will work. If you just want to make some LEDs blink or switch a realy to turn something on and off, sure. The problem is, sooner or later you'll find something where you need fast response times and need to use interupts, or where you need to get fine control over PWM and need to twiddle bits, and the Arduino library will make doing so a massive pain in the ass.
+
+So, let's try this again, this time, don't use the arduino IDE, but grab PlatformIO and make a new project. I'll assume that most people reading this are- *despite how much of a massive pile of shit they are*- using an Arduino Uno (or clone). If that's all you have, frankly, the Arduino library is still your best bet for *some* things, so when you make a new project because it does provide some things that are a total pain to do by hand, like setup afforementiond `Serial`. That said, the other library that works in PlatfromIO for the Uno, [Simba](https://simba-os.readthedocs.io/en/latest/index.html) is pretty cool and will abstarct out a lot of that mess too. The biggest reason to use the Arduino framework is that there's a mountain of libraries written for it, so if you get a lilttle board for RFID or tempature sensing or GPS or whatever there's probably already a drop in library with example code. But, frankly, the 328P is so underpowered and old that I just can not justify learning on it. Instead, I'm going to reccomend the STM32F411CE - or, as it's more commonly known the "Black Pill"
+
+{{< tip >}}
+
+If you're buying one to follow along, be careful. There are varients of the BlackPill that have the F401 or F103. The F103 boards almost universally have issues, so at the very least make sure it's an F401 or F411.
+
+{{< /tip >}}
+
+But, I hear you asking, **"why?"**
+
+|                | Arduino Uno/Nano (328p)                                      | BlackPill (STM32F411CE)*         |
+| -------------- | ------------------------------------------------------------ | -------------------------------- |
+| Price          | ~$6.00                                                       | ~$6.00 + ~\$7 debugger           |
+| № Bits         | 8                                                            | 32                               |
+| Clock Speed    | 20Mhz                                                        | 100Mhz                           |
+| Program Memory | 32Kb                                                         | 512Kb                            |
+| Ram            | 2Kb                                                          | 128Kb                            |
+| I/O Voltage    | 5V                                                           | 3.3V (lots of 5V tollerent pins) |
+| Debugging      | Kinda, but not really.                                       | With ST-Link                     |
+| USB            | that big ol' printer style on the uno, or micro-usb on the Nano | USB-C                            |
+
+{{< attribution >}}*The STM32F4**0**1CE boards are a smidgen worse, but honestly, they're both so good it probably won't matter to you. Get whatever is cheaper.{{< /attribution >}}
+
+If that doesn't convince you, then I don't know what will. Oh, and it still supports the Arduino framework. Now, to be fair, there's a lot more to this than these specs. The 328p will almost certainly have better library support than the BlackPill, the Uno has a bunch of snap-on accessories, and some things do actually work better with the 5V i/o of the Uno. You'd also want to consider what protocols and inputs the boards can handle. In this case, the BlackPill is basically better in everyway in that front too. If you were looking at other options though, some boards may not have analog input pins, for example, and that might be a deal breaker for some projects. I'll talk more about how to find the right μC / Devboard for your project later, for now, let's move on assuming you have the BlackPill infront of you.
+
+So, let's try making our `Hello World!` again.
+
+[TODO] Blinking the onboard LED
+
+[TODO] Using the Arduino framework in PlatformIO, then setting up STM32CubeIDE because it's actually good. But explain that PlatformIO is still great because of support for ATmega, ESP8266/32, bigger STM boards like the STM32F7xx, Longan Nano, BBC Micro:bit, pi pico
+
 ## PWM, SPI, I2C, What's going on?!
+
+{{< tip >}}
+
+For this you'll probably actually want a few devices to experiment with. Unless you've already gone out and gotten a kit of stuff, I **strongly** reccomend against those "Lean Arduino" kits, and instead insist you buy the parts yourself. It's a tad more epensive just to get started, but honestly a lot of the kit shit, is, well, shit. </br></br>For this section, I'll be talking about and using a strip of WS2812b RGB Leds (~\$5), the MPU GY-521 Gyroscope/Accelerometer (\$1), a HC-SR04 ultasonic distance sensor ($5), and a ENC28J60 ethernet breakout (~\$8), as well as various parts from the [Digilent Analog Parts Kit](https://store.digilentinc.com/analog-parts-kit-by-analog-devices-companion-parts-kit-for-the-analog-discovery/) (~\$55) and breadboards (don't cheap out, get good ones ~\$11) that I reccomended earlier. I do realize this makes the total cost probably peak a smidge above the \$100 mark. Sorry ¯\\ \_(ツ)\_/¯
+
+{{< /tip >}}
+
+Alright, so making the board send text to the computer or blink an LED is cool and all, but, that's not really all that insteresting. Let's go further, lets... uh... blink a **different** LED!
+
+[TODO] LED pull up/down
+
+[TODO] PWM dimming, show in slow-mo
+
+[TODO] WS2812b, but without a library
+
+Alright, hopefully you're not totally bored of making lights flash, let's have a bit more fun! We'll start by looking at that Ultrasonic sensor
+
+[TODO] ultrasonic sensor, basic digital input and timing, interupts, etc.
+
+Now, let's look at that MPU GY-521 Gyroscope/Accelerometer
+
+[TODO] i2c? SDA, SCL, and interupt handeling (not on all devices)
+
+So, that's i2c, which is nice, but sometimes you'll want to talk to a device with *full duplex* communication. "*Full duplex*?" I hear you ask. Well, While {{< katex >}}\text{I}^2 \text{C}{{< /katex >}} is a great protocol and is easy to use, it's also only *half duplex* this means that, like a radio, only one side can talk at a time. *Full duplex* communication methods let both sides talk at once. While in a phone call this might be chaotic, there's often times where it's helpful to be able to send data to a device while we get data from it- for example, when working with that ethernet adapter I said we'd be using above. For ethernet, this is often necessary, as with TCP, a networking protocol I'll dive into in the programming chapter, you need to repeated send replies saying "Yep, I got what you last sent, keep em' coming" while still listening for more data.
+
+[TODO] SPI Ethernet
+
+[TODO] mention UART & CAN bus
 
 [Driving a PAL TV over RF thanks to PWM harmonics (Hackaday)](https://hackaday.com/2020/08/26/driving-a-pal-tv-over-rf-thanks-to-pwm-harmonics/)
 
-## Playing around - Hello World and blink
+## Project 1 - Calculator
 
-[TODO] breadboards, don't cheap out
+[TODO] diode matrix inputs, LED matrix outputs (7-seg), beeper, 
 
-## Making an Embedded System project - 1 - Humidity Sensor
+## Project 2 - MIDI Controller
 
-## Making an Embedded System project - 2 - MIDI Controller (with piezzo)
+[TODO] Gyro + photo-resistor + a few knobs & buttons
 
-## Making an Embedded System project - 3 - Stepper Motor Music
+## Project 3 - ADC to the DAC
 
-adapted from floppy drives, but less expensive
+[TODO] ADC → μC →DAC , floating point
+
+## Project 4 - LEDs... again?
+
+[TODO] Power with transistors, filtering, PWM. Color input from temp and magnetic field sensors
+
+## Project 5 - Euclidian Rhythms
+
+[TODO] Power with high, spiky loads, code with events and scheduling, watchdogs- using stepper, servo, and solenoids
+
+## Project 6 - The Epochalypse
+
+<img src="/Year_2038_problem.gif" style="-webkit-filter: invert(.87);" alt=" ">
+
+[TODO] low power (sleep states), graphics (eink), RTC
 
 ---
 
@@ -114,11 +242,11 @@ talk about scheduling (CFS, etc)
 
 mention pi sd card performance / stability limits and pi advantages in how common it is
 
-## Arduino ≠ Atmega32p
+## Arduino ≠ Arduino
 
 {{< tip >}}
 
-I **really** want to make this clear: Arduino is a framework. Not a specific hardware platform. Different Arduino devices can run with wildly different specs and support wildly different features.
+I **really** want to make this clear: Arduino is a framework. Not a specific hardware platform. Different Arduino devices can run with wildly different specs and support wildly different features, and not all devices that run the Arduino framework are made by the Arduino foundation. The Arduino Uno (ATmega328p) is both an Arduino foundation project *and* runs the Arduino framework. The STM32 BlackPill, NodeMCU, PiPico, etc. are all *not* made by the Arduino foundation, but can run the Arduino framework.
 
 {{< /tip >}}
 
@@ -130,8 +258,3 @@ I **really** want to make this clear: Arduino is a framework. Not a specific har
 
 [Getting Started in Robotics (Arthur Allshire's Blog)](https://allshire.org/getting-started-robotics/)
 
-
-
-## Things you'll want to know exist that I don't know where else to put:
-
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/qKy98Cbcltw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
