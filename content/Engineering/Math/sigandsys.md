@@ -32,6 +32,8 @@ provides a great introduction for developing an intuition about it graphically, 
 
 [TODO] put in all notes from class here to provide a half decent resource
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/qKy98Cbcltw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Extra Resources:**
 
 [Intuitive Guide to Convolution](https://betterexplained.com/articles/intuitive-convolution/)

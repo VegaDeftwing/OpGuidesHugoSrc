@@ -39,6 +39,8 @@ but note, you should keep in mind the standard warning that comes when first usi
 
 Other things:
 
+[How To Learn Stuff Quickly (Josh W Comeau)](https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly/)
+
 [Use Google like a pro](https://markodenic.com/use-google-like-a-pro/)
 
 [Learn about problems, not solutions (Gareth Dwyer)](https://dwyer.co.za/problems-not-solutions.html)
