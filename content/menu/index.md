@@ -285,9 +285,10 @@ headless: true
 <dl>
 <dt> </dt><dd> <a href="/other/funlinks/">Interesting Links</a></dd>
 <dt> </dt><dd> <a href="/other/coolhardware/">Cool Hardware</a></dd>
-<dt> </dt><dd> <a href="/other/hci2/">The Way We Intereact With Computers Sucks</a></dd>
+<dt> </dt><dd> <a href="/other/hci2/">The Way We Interact With Computers Sucks</a></dd>
 </dil>
 </div>
+
 
 
 

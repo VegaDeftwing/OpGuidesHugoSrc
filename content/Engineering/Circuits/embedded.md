@@ -214,6 +214,8 @@ So, that's i2c, which is nice, but sometimes you'll want to talk to a device wit
 
 [TODO] low power (sleep states), graphics (eink), RTC
 
+only 24 most significant bits, which should only change every 255 seconds, or every 4.25 minutes. Plenty of time to sit in sleep mode
+
 ---
 
 [TODO] [From Zero to main() (Interupt)](https://interrupt.memfault.com/blog/tag/zero-to-main/)
