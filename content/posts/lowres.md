@@ -10,7 +10,7 @@ tags:
 
 <div id="slider1"></div>
 
-So, you've got a website that you want to make use less bandwidth. Maybe you're paying by the byte per content delivery, maybe you're worried about the environment, either way, let's assume you want to make your images as small as possible. The obvious place to start is just shrinking your images. Here, this is a 4032x2268 .jpg shrunk down to a 1008x567 .jpg - 25% of the original quality. This brings the file down from 3.2Mb to 260.4Kb, so about a 12x reduction in size. We can do better though:
+So, you've got a website that you want to make use less bandwidth. Maybe you're paying by the byte for content delivery, maybe you're worried about the environment, either way, let's assume you want to make your images as small as possible. The obvious place to start is just shrinking your images. Here, this is a 4032x2268 .jpg shrunk down to a 1008x567 .jpg - 25% of the original quality. This brings the file down from 3.2Mb to 260.4Kb, so about a 12x reduction in size. We can do better though:
 
 <script src="/js/slider.js"></script>
 
@@ -69,7 +69,7 @@ This makes for a file that is still smaller than the full color .jpg, albeit onl
 
 So, this .webp version is about twice as big as the black and white version, at 60.1Kb. What happens if we combine .webp's performance with the other two images? It doesn't work. .webp does not work well with palettes, the images are actually larger.
 
-But how does this compare to images like on [solar.lowtechmagazine.com](solar.lowtechmagazine.com) or those at [https://ritualdust.com/works/photo/](https://ritualdust.com/works/photo/), well, those seem to range from ~50kb to ~120kb, and are all black & white. Now, this isn't supposed to be a call out post. There's two reasons to do it the dithered, low pallete way: not all browsers supported .webp and, frankly, it's a stylistic choice. The problem is by showing it as a technical choice for conserving data or helping those with limited bandwith, it promotes the idea that this is the best way to do it, instead of driving adoption of .webp, a format that if had greater adoption would actually greatly benefit the web at large instead of fringe (albeit amazing) websites like these. This is even weirder when you consider that even Safri has caught up and .webp is basically supported everywhere.
+But how does this compare to images like on [solar.lowtechmagazine.com](solar.lowtechmagazine.com) or those at [https://ritualdust.com/works/photo/](https://ritualdust.com/works/photo/), well, those seem to range from ~50kb to ~120kb, and are all black & white. Now, this isn't supposed to be a call out post. There's two reasons to do it the dithered, low palette way: not all browsers supported .webp and, frankly, it's a stylistic choice. The problem is by showing it as a technical choice for conserving data or helping those with limited bandwidth, it promotes the idea that this is the best way to do it, instead of driving adoption of .webp, a format that if had greater adoption would actually greatly benefit the web at large instead of fringe (albeit amazing) websites like these. This is even weirder when you consider that even Safari has caught up and .webp is basically supported everywhere.
 
 ---
 
