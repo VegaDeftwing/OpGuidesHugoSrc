@@ -66,6 +66,7 @@ convert -resize 25% -remap redblue-pal.png -dither Floyd-Steinberg -colors 16 CO
 This makes for a file that is still smaller than the full color .jpg, albeit only by half as we've gone from 260.4Kb to 130.7Kb. I do like the look of this and think it's a fair compromise. But now we have a good baseline, what about just using a better format?
 
 <div id="slider4"></div>
+{{< attribution >}}This is comparing the 25% resolution .jpg to the .webp at the same resolution, that is both are at 1008x567.{{< /attribution >}}
 
 So, this .webp version is about twice as big as the black and white version, at 60.1Kb. What happens if we combine .webp's performance with the other two images? It doesn't work. .webp does not work well with palettes, the images are actually larger.
 
