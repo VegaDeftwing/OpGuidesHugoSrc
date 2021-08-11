@@ -71,17 +71,58 @@ TODO: individually wrapped wastes of money for holidays makes me feel gross
 
 [TODO] rant on devices that rely on non-self-hostable servers
 
-[TODO] rant on software with DRM that makes the pirated versions better
-
-### Anti-consumer practices
+## Anti-consumer practices
 
 https://dvt.name/2020/02/24/rfc-lets-disrupt-dating-apps/
 
 [A classic Silicon Valley tactic — losing money to crush rivals — comes in for scrutiny (Washington Post)](https://www.washingtonpost.com/technology/2021/07/06/facebook-bulletin-antitrust/)
 
-[TODO] Geo-locked content
+### Hurting the paying customer, rewarding the pirate?
 
-### Advertising
+**D**igital **R**ights **M**anagment or DRM is software that serves to make it harder to pirate software, movies, TV shows, etc. It comes in many fourms, from the 'basic' that simply ask for a key and are easy to bypass to the complex that try to trick reverse engineering tools or rely on keys that are built into hardware- like **H**igh-bandwidth **D**igital **C**ontent **P**rotection, HDCP, which rides on the back of common protocols like HDMI and DisplayPort to try to prevent people from recording what they're watching.
+
+The ironic thing about all of these systems is they hurt the consumers:
+
+* Software DRM:
+  * [Makes game load times longer and performance worse (YouTube)](https://www.youtube.com/watch?v=n_DD-txK9_Q)
+  * Make- running tools you own annoying to install on multiple computers
+  * Makes some programs require a network connection when they otherwise wouldn't
+  * Makes some software un-usable if the authentication servers go offline
+  * May require deep integration into the OS, causing security concerns
+  * Makes running software with combatability tools, such as WINE for running Window's software on Linux, much harder
+  * Makes for combatability issues- it may be hard to keep content working as the most common formats change
+* Hardware DRM
+  * Has caused the removal of useful options, like analog-audio out ports from Blu-ray players
+  * May make your device literally stop working if opened up for repair
+  * May fill landfills with one-time-use tash, [like this CD that becomes un-playable 48 hours after opening](https://en.wikipedia.org/wiki/Flexplay)
+
+[TODO] https://en.wikipedia.org/wiki/Format_shifting
+
+### Sometimes, they don't even want you to be the customer?
+
+Jesus. Fucking. Christ. This is beyond evil. Now, obviously there are different markets that want different things: There's a legitimate reason that content on Netflix in the US would be primarily in English, and content in Germany primarily in German. That's fine. What's not fine is that while paying for the same service, two NetFlix users *can't even access* the same content. It's one thing to make it more visable, it's a whole different thing to change what's available. But hey, at least you can go use a different service, right?
+
+Well, not always. Some software, music, and videos *may not even be available to purchase* depending on your region. Or, maybe they *will* be but aren't yet. So, your only option if you want to watch that new TV show at the same time as your foreign friend is good ol' piracy.
+
+But, wait, there's more!
+
+Some **hardware** is actually geo-locked. This goes for everything from smart watches sold to only work in Europe but not the US, to Blu-ray discs that won't play if they're put in a player from over seas! What the fuck???!
+
+### Resale Price Maintenance
+
+[TODO] 
+
+### Purchasing Power
+
+Now, I won't say that this is always used for evil. For example, some people are implementing [Purchasing Power Parity (Wikipedia)](https://en.wikipedia.org/wiki/Purchasing_power_parity), which is region based price manipulation, not for the sake of charging richer countries *more* but for charging those in poorer regions *less*. Now, the effect is the same, and I'm not sure I like the idea anyway, but I am always open to new ideas, and I think that when done correctly and for the right reasons this can be a good thing; however, I do think the applicable scenarios are limited. There's a huge difference between offering an educational resource at a reduced cost, trying to increase the market for a Disney movie to extract value from poor nations, and trying to manipulate price to charge those with more power as much as they might be willing to pay by using an algorithm. This seems like a slippery slope that ~~might lead us~~ has brought us to prices that change based on your purchase history and data on how wealthy you seem, which isn't a good thing either.
+
+This is of course tricky. On one hand, everyone likes the idea of discounts: be it for Seniors, Students, Loyal Customers, or for showing up at the right time of day. On the other hand, almost all discounts are just an excuse to raise the price for a different group of people- those that are presumed to be able to pay more. There's a lot of complexity here, and the [Wikipedia article on Price Discrimination](https://en.wikipedia.org/wiki/Price_discrimination) covers a lot of it well, but I think the key take away should be that this is already a problem- what you buy online may well already be changing in price based on where you live, what account you're logged into, what device you're using to look at the website. Some of these practices may be of various legality depending on where you live, but good luck trying to stop it. 
+
+### Pay What You Want
+
+[TODO]
+
+## Advertising
 
 This video from Tom Scott provides a ton of background information and makes some really good points
 
@@ -91,7 +132,7 @@ This video from Tom Scott provides a ton of background information and makes som
 
 [You make a privacy-first service → You get banned on Google (Dan Kozlov)](https://dkzlv.medium.com/google-bans-privacy-first-services-b9452e281439)
 
-#### Native Ads
+### Native Ads
 
 {{< attribution >}}
 
@@ -99,10 +140,13 @@ psst, if you don't like YouTube sponsorships spots check out [sponsorblock](http
 
 {{< /attribution >}}
 
-#### Dangerous ads
+### Dangerous Ads
 
-Sugar
-Drugs
+[TODO] Sugar, Drugs
+
+### Ads in things you've already paid for
+
+[TODO] Hulu, TVs injecting ads, Chromecast bypassing DNS, etc.
 
 # Credit
 
