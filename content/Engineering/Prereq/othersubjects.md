@@ -26,6 +26,8 @@ https://www.marginchronicles.com/site/style/index.html
 
 [What if English were Phonetically Consistent? (YouTube - Aaron Alon)](https://www.youtube.com/watch?v=A8zWWp0akUU)
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The importance of proper italicized word placement. <a href="https://t.co/fQT5AuYn5W">pic.twitter.com/fQT5AuYn5W</a></p>&mdash; C.S. Ratliff (@cs_ratliff) <a href="https://twitter.com/cs_ratliff/status/1423082813264367617?ref_src=twsrc%5Etfw">August 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Finance
 
 [TODO] because making and engineering are expensive, and you probably want to make money, and spend less money.
