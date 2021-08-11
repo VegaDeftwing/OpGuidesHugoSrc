@@ -48,3 +48,8 @@ Other things:
 [How to learn things at 1000x the speed (Pranay Prakash)](https://pranay.gp/how-to-learn-things-at-1000x-the-speed)
 
 [My Engineering Axioms (Martin Rue's Blog)](https://martinrue.com/my-engineering-axioms/)
+
+![](https://imgs.xkcd.com/comics/average_familiarity.png)
+
+{{< attribution >}}[XKCD №2501](https://xkcd.com/2501/){{< /attribution >}}
+
