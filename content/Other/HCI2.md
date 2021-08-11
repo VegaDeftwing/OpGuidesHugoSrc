@@ -1330,6 +1330,20 @@ IOT especially **needs** to be open. In 2020 alone [Wink started charging custom
 
 ### Software that breaks the mold
 
+{{< columns >}}
+
+<video width="100%" controls src="/schultzschultzgrafik.mp4"></video>
+
+{{< attribution >}}
+
+[Schultzschultzgrafik on Instagram](https://www.instagram.com/p/CSMiHNXiQeT/)
+
+{{< /attribution >}}
+
+<--->
+
+{{< /columns >}}
+
 [TODO]
 
 [MasterPlan by SolarLune](https://github.com/SolarLune/masterplan)
