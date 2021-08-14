@@ -132,6 +132,8 @@ potato semi
 
 ## Op-Amps
 
+[Handbook of Operation Amplifier Applications (TI)](https://www.ti.com/lit/an/sboa092b/sboa092b.pdf)
+
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/7FYHt5XviKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Optical Electronics
@@ -192,7 +194,11 @@ Relate back to things like ADSR, Distortion, Reverb / Echo, Decibels (audio), et
 
 # Chapter 23.3 - Safe Circuits
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/BeORD7aG3Jc?list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< best >}} [10 Ways to Destroy an Arduino (Rugged Circuits)](https://www.rugged-circuits.com/10-ways-to-destroy-an-arduino) {{< /best >}}
+
+[Protecting Inputs in Digital Electronics (Digi-Key)](https://www.digikey.com/en/articles/protecting-inputs-in-digital-electronics)
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/BeORD7aG3Jc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Chapter 23.4 - Rare and Dangerous Componets
 

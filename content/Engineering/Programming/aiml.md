@@ -2,7 +2,7 @@
 
 {{< tip >}}
 
-This chapter is very much a work in progress, and is really more of just a list of topics despite how much content there appears to be. I'd really like to have code examples under each concept as well, as otherwise it's like reading a fucking math textbook from hell.
+This chapter is very much a work in progress, and is really more of just a list of topics despite how much content there appears to be. I'd really like to have code examples under each concept as well, as otherwise it's like reading a fucking math textbook from hell.</br></br>In the mean time, please see https://sebastianraschka.com/blog/2021/dl-course.html#l01-introduction-to-deep-learning for a good intro to Deep Learning
 
 {{< /tip >}}
 

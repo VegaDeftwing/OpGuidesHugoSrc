@@ -97,11 +97,13 @@ headless: true
 <dl>
 <dt>22 </dt><dd> <a href="/engineering/circuits/circuits1/">Circuits!</a></dd>
 <dt>23 </dt><dd> <a href="/engineering/circuits/circuits2/">Semiconductors</a></dd>
+<dt>23½</dt><dd> <a href="/engineering/circuits/parts/">Parts</a></dd>
 <dt>24 </dt><dd> <a href="/engineering/circuits/digitallogic/">Digital Logic</a></dd>
 <dt>25 </dt><dd> <a href="/engineering/circuits/embedded/">Embedded Systems</a></dd>
 <dt>26 </dt><dd> <a href="/engineering/circuits/pcb/">Let's Make our own PCB</a></dd>
 </dil>
 </div>
+
 
 <p style="color:#009CDF;margin-bottom:0px;" >    Going Deeper</p>
 
