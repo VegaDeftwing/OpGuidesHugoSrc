@@ -142,6 +142,8 @@ Floppy, Zip, tape
 
 ## RAID and Disk Pools
 
+[Adventures in Motherboard Raid (it's bad) - (Level1Techs, YouTube)](https://www.youtube.com/watch?v=xZJxV-_LbMc)
+
 [TODO]
 
 Zfs, hardware raid, software raid, emulated hardware (bios), etc.

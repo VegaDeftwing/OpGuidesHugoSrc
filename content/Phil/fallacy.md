@@ -42,6 +42,12 @@ Similarly, if most people think the Earth is flat, and some small fringe group o
 
 "If we let *the gays* marry, what's next, letting people marry horses!?"
 
+## The Slippery-er slope
+
+Not everything is a slippery slope. If there is actual evidence that one action may lead to future, worse action there is a good reason to take it seriously:
+
+"If we allow the government to spy on suspected terrorists without a warrant, they may spy on everyone"
+
 ## Begging the Question
 
 [Begging the Question (Wikipedia)](https://en.wikipedia.org/wiki/Begging_the_question)

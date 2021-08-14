@@ -6,6 +6,7 @@ slug: "Generative Art"
 
 # Generative Art
 
+
 {{< columns >}}
 
 This page is almost completely devoid of actual educational content. Instead, I've tried to make the most complete list of generative art tools and libraries on the internet. Of course, I can't actually make an exhaustive list and may be missing some of the newest tools and ideals, so please check out these other communities for more:
