@@ -111,6 +111,10 @@ propagation delay, fan in/out, POS/POS
 
 overflow, carry, ripple, fast, mul, shift-and-add mult, divider,
 
+## Feedback Circuits
+
+Oscilators, Monostable, Osc if high, Bistable (contrlollable/not controlable)
+
 ## Latches and Flip Flops
 
 SR, Dl, edge triggering, Dff, Tff, JKff,
@@ -118,6 +122,12 @@ SR, Dl, edge triggering, Dff, Tff, JKff,
 ### Registers
 
 ### Counters
+
+## Memory Circuits
+
+### Static Memory
+
+### Dynamic Memory
 
 ## Making Some Circuits
 
