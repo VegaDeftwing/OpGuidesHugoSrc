@@ -57,6 +57,8 @@ Sometimes, knowing something about one event tells us something about the probab
 
 {{< katex >}}P[A|B]P[B]=P[AB]=P[B|A]P[A]{{< /katex >}}
 
+> This also provides another equation, just by moving things around: </br>{{< katex >}}P[A|B]=\frac{P[AB]}{P[B]} {{< /katex >}}
+
 Here, P[A|B] means, the probability of event A happening given event B has already happened. 
 
 {{< tip >}}NOTE: This means that P[A|B] ≠ P[B|A] (well, not usually). I like to think of it this way: Losing your keys may make you late for work, and being late for work may be from loosing your keys; however, the probability that your late for work GIVEN you've lost your keys may be higher or lower than than the probability that you lost your keys GIVEN that you're late to work.{{< /tip >}}
@@ -114,7 +116,7 @@ This lets us figure out the conditional probabilities super easily, as all that'
 
 ![](/treediagram2.svg)
 
-So now we know the probability of a blue ball overall: 0.4 (.35 + .05), the probability of a bule ball in box 1 (.1), what is the probability that we actually picked from box 1? We know P[Blue|Box1], but what is P[Box1|Blue] ? Well, naturally, there's a handly formula, known as "Bayes Rule" for this situation:
+So now we know the probability of a blue ball overall: 0.4 (.05 + .35 )<a class="ptr">(1)</a>, the probability of a bule ball in box 1 (.1), what is the probability that we actually picked from box 1? We know P[Blue|Box1], but what is P[Box1|Blue] ? Well, naturally, there's a handly formula, known as "Bayes Rule" for this situation:
 
 {{< katex >}}P[A|B]=\frac{P[B|A]P[A]}{P[B]}{{< /katex >}}
 
@@ -154,21 +156,40 @@ P[B|A]&=.875
 
 And this works out, adding to 100%.
 
+There are a few more things to note regarding conditional probability:
+
+* if P[A|B] is 0, the two events are **mutally exclusive**. This happens in dumb situations like "Given you've rolled a 2, what is the probability you rolled a 3" but also more complex events may mean that this is less obvious, so it's nice to be able to math it out.
+
 ---
+
+[TODO]
+
+Tree diagram with more branches, some 'incomplete branches'
+
+fair/unfair coin:
+
+/C1-H-H-H
+\C2-H-H-H
+
+
 
 Sub experiments & Tree diagrams
 
-Law of total probability
 
-Bayes Rule
+
+
 
 Counting methods
 
 combinations and permutations
 
+Looking at binary, arrangements of bits
+
 with or without replacement
 
-### Random Variables
+## Random Variables
+
+
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/mBCiKUzwdMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -178,14 +199,84 @@ Types of RV's
 
 [TODO] http://www.math.wm.edu/~leemis/chart/UDR/UDR.html
 
-| Distribution Name | PMF  | Mean | Variance |
-| ----------------- | ---- | ---- | -------- |
-| Bernoulli         |      |      |          |
-| Geometric         |      |      |          |
-| Binomial          |      |      |          |
-| Pascal            |      |      |          |
-| Discrete Uniform  |      |      |          |
-| Poisson           |      |      |          |
+{{< columns2 >}}
+
+### Bernoulli
+
+{{< katex >}}
+
+\begin{cases}
+    q=1-p & \text{if }k=0 \\
+    p & \text{if }k=1
+ \end{cases}
+
+{{< /katex >}}
+
+<--->
+
+
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+### Geometric
+
+![Geometric_pmf](/pmf/Geometric_pmf.svg)</br>{{< attribution >}}Original Image by Skbkekas - Own work, CC BY 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=9578506){{< /attribution >}}
+
+<--->
+
+
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+### Binomial
+
+![Binomial_distribution_pmf](/pmf/Binomial_distribution_pmf.svg)</br>{{< attribution >}}Original Image by Tayste - Own work, Public Domain, [link](https://commons.wikimedia.org/w/index.php?curid=3646951){{< /attribution >}}
+
+<--->
+
+
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+### Pascal (Negative Binomial)
+
+<img src="/pmf/pascal.png" alt=" " style="-webkit-filter: invert(100%); filter: invert(100%);">{{< attribution >}}From Introduction to Probability by [Hossein Pishro-Nik](https://ece.umass.edu/faculty/hossein-pishro-nik),  [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US) ... technically I'm abusing the licence a bit, but the 'derivative' here is just a CSS invert, you can open the image in a new tab to see the 'original'{{< /attribution >}}
+
+<--->
+
+
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+### Discrete Uniform
+
+![Uniform_discrete_pmf_svg](/pmf/Uniform_discrete_pmf_svg.svg)</br>{{< attribution >}}Original Image by IkamusumeFan - Own work, CC BY-SA 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=27391798){{< /attribution >}}
+
+<--->
+
+
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+### Poisson
+
+![Poisson_pmf](/pmf/Poisson_pmf.svg)</br>{{< attribution >}}Original Image by Skbkekas - Own work, CC BY 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=9447142){{< /attribution >}}
+
+<--->
+
+
+
+{{< /columns2 >}}
 
 Cumulative Distribution Function (CDF)
 
@@ -197,6 +288,8 @@ Conditional Probability Mass Fn & Conditional Expected Value
 
 Gaussian Random Variables / Normal RVs (same thing)
 
+[Cheatsheet](https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf) and [another one](https://web.cs.elte.hu/~mesti/valszam/kepletek)
+
 [TODO] [Gaussian Processes From Scratch (Peter Rlnts)](https://peterroelants.github.io/posts/gaussian-process-tutorial/)
 
 [TODO] https://mc-stan.org/users/documentation/
@@ -205,7 +298,7 @@ Gaussian Random Variables / Normal RVs (same thing)
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I did it. <a href="https://t.co/eMEmUw0HSY">pic.twitter.com/eMEmUw0HSY</a></p>&mdash; Zillion Ross (@ZillionRoss) <a href="https://twitter.com/ZillionRoss/status/1331387290887680000?ref_src=twsrc%5Etfw">November 25, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### Chaos
+## Chaos
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/fDek6cYijxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -219,3 +312,6 @@ Gaussian Random Variables / Normal RVs (same thing)
 
 {{< /columns >}}
 
+<ol hidden id="footnotes">
+<li>Technically, this is the "Law Of Total Probability". Don't overthink this. It just means that by adding up all the conditional probalities of a certain event, you get the total probability. Here, we're adding up the probability of a blue ball given we picked box1 AND the probability of a blue ball given we picked box 2. It's sorta obvious this would give us the total probability of a blue ball. </li>
+</ol>
