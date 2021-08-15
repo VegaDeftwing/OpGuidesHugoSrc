@@ -199,9 +199,9 @@ Types of RV's
 
 [TODO] http://www.math.wm.edu/~leemis/chart/UDR/UDR.html
 
-{{< columns2 >}}
-
 ### Bernoulli
+
+{{< columns2 >}}
 
 {{< katex >}}
 
@@ -214,67 +214,77 @@ Types of RV's
 
 <--->
 
-
+Tossing a coin- if the coin is fair p and q both equal 1/2. This is literally just a true/false question and the probability of a given answer.
 
 {{< /columns2 >}}
 
-{{< columns2 >}}
-
 ### Geometric
+
+{{< columns2 >}}
 
 ![Geometric_pmf](/pmf/Geometric_pmf.svg)</br>{{< attribution >}}Original Image by Skbkekas - Own work, CC BY 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=9578506){{< /attribution >}}
 
 <--->
 
+{{< quote "[Wikipedia](https://en.wikipedia.org/wiki/Geometric_distribution)" >}}
 
+In probability theory and statistics, the geometric distribution is either one of two discrete probability distributions:
+
+* The probability distribution of the number X of Bernoulli trials needed to get one success, supported on the set { 1, 2, 3, ... }
+
+* The probability distribution of the number Y = X − 1 of failures before the first success, supported on the set { 0, 1, 2, 3, ... }
+
+Which of these one calls "the" geometric distribution is a matter of convention and convenience.
+
+{{< /quote >}}
 
 {{< /columns2 >}}
 
-{{< columns2 >}}
-
 ### Binomial
+
+{{< columns2 >}}
 
 ![Binomial_distribution_pmf](/pmf/Binomial_distribution_pmf.svg)</br>{{< attribution >}}Original Image by Tayste - Own work, Public Domain, [link](https://commons.wikimedia.org/w/index.php?curid=3646951){{< /attribution >}}
 
 <--->
 
-
+Sum of n, independent Bernoulli trials
 
 {{< /columns2 >}}
 
-{{< columns2 >}}
-
 ### Pascal (Negative Binomial)
+
+{{< columns2 >}}
 
 <img src="/pmf/pascal.png" alt=" " style="-webkit-filter: invert(100%); filter: invert(100%);">{{< attribution >}}From Introduction to Probability by [Hossein Pishro-Nik](https://ece.umass.edu/faculty/hossein-pishro-nik),  [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US) ... technically I'm abusing the licence a bit, but the 'derivative' here is just a CSS invert, you can open the image in a new tab to see the 'original'{{< /attribution >}}
 
 <--->
 
-
+Number of trials until k'th success. While *technically* the Pascal distribution is just a specific subset of Negitive Binomial distributions, you'll probably only ever use the Pascal distribution. Be aware the more general case exists though, as someday it may pop up.
 
 {{< /columns2 >}}
 
-{{< columns2 >}}
-
 ### Discrete Uniform
+
+{{< columns2 >}}
 
 ![Uniform_discrete_pmf_svg](/pmf/Uniform_discrete_pmf_svg.svg)</br>{{< attribution >}}Original Image by IkamusumeFan - Own work, CC BY-SA 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=27391798){{< /attribution >}}
 
 <--->
 
-
+It's a uniform distribution. Rolling a fair dice? Great, you have 1/6 chance to get a 1,2,3,4,5, or 6. So your 'a' and 'b' are 1 and 6, 'n' is the number of points, so b-a+1
 
 {{< /columns2 >}}
 
-{{< columns2 >}}
-
 ### Poisson
+
+{{< columns2 >}}
 
 ![Poisson_pmf](/pmf/Poisson_pmf.svg)</br>{{< attribution >}}Original Image by Skbkekas - Own work, CC BY 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=9447142){{< /attribution >}}
 
 <--->
 
-
+Probability of a number of events occuring in a fixed amount of time (or space, or whatever) provided the events happen with a constant average rate and the events are independent.
 
 {{< /columns2 >}}
 
