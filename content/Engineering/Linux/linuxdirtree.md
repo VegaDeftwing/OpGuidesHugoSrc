@@ -661,7 +661,7 @@ https://wiki.maemo.org/Modifying_the_root_image
 
 loading libs, forks, env variables, process ownership
 
-lsof, strace, ltrace, nice levels
+`lsof`, `strace`, `ltrace`, nice levels - `sysdig`
 
 ## System Calls
 

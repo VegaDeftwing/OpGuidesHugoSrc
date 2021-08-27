@@ -1117,4 +1117,44 @@ There's a LOT more tools listed in the music chapters, but there's some more 'fo
 
 {{< /details >}}
 
+
+
 [META: Hacker News Submission on this page, with a bit of discussion](https://news.ycombinator.com/item?id=24889333)
+
+<!---
+
+https://kroki.io - "Kroki provides a unified API with support for BlockDiag (BlockDiag, SeqDiag, ActDiag, NwDiag, PacketDiag, RackDiag), BPMN, Bytefield, C4 (with PlantUML), Ditaa, Erd, Excalidraw, GraphViz, Mermaid, Nomnoml, Pikchr, PlantUML, SvgBob, UMLet, Vega, Vega-Lite, WaveDrom... and more to come! "
+
+https://mbarkhau.keybase.pub/asciigrid/ - ASCII to SVG
+
+https://mscgen.js.org - Sequence Charts
+
+https://www.websequencediagrams.com - Sequence Charts
+
+https://sullerandras.github.io/SVG-Sequence-Diagram/ - Sequence Charts
+
+http://chartmage.com/index.html - Sequence Diagrams & Flow Charts
+
+https://state-machine-cat.js.org - State Machines
+
+https://xstate.js.org/viz/ - State Machines x2
+
+https://github.com/penrose/penrose - Set diagrams, see [building & running](https://github.com/penrose/penrose/wiki/Building-and-running)
+
+https://www.nomnoml.com - Text to UML, actually good looking
+
+https://dbdiagram.io/d - database diagrams, it works
+
+https://wavedrom.com/editor.html - Wave editor, for like showing bit patterns & such
+
+---
+
+https://spritestack.io
+
+---
+
+https://ctan.math.illinois.edu/graphics/pstricks/contrib/dsptricks/dspTricksManual.pdf
+
+> So, using this in overleaf, exporting as pdf, then using `pdf2svg` works. It's awful to do, but it works.
+
+--->

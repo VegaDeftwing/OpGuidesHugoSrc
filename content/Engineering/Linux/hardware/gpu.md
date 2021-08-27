@@ -51,3 +51,7 @@ Moving on to graphics cards, Looking above at the stacks of graphics cards above
 [TODO]
 
 https://utcc.utoronto.ca/~cks/space/blog/web/Firefox80VideoAccelConfusion
+
+---
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/QyjyWUrHsFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
