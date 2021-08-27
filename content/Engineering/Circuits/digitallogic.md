@@ -103,6 +103,10 @@ A∧B, AB,
 
 ### Encoders
 
+
+
+# SOP & POS
+
 ## Basic combinational logic
 
 propagation delay, fan in/out, POS/POS 

@@ -96,6 +96,10 @@ an Auto Wah or Envelope filter uses an envelope follower to control a filter's c
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/Dp1s0Ow2BJU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### FIR, IIR?
+
+Finite Impuse Response, Inifnite Impulse Response- ref Signals from Engineering
+
 ## Equalizers
 
 ### Parametric

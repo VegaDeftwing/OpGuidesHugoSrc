@@ -118,6 +118,8 @@ This lets us figure out the conditional probabilities super easily, as all that'
 
 So now we know the probability of a blue ball overall: 0.4 (.05 + .35 )<a class="ptr">(1)</a>, the probability of a bule ball in box 1 (.1), what is the probability that we actually picked from box 1? We know P[Blue|Box1], but what is P[Box1|Blue] ? Well, naturally, there's a handly formula, known as "Bayes Rule" for this situation:
 
+[TODO] [Why Bayes Rule is nicer with odds (YouTube, 3b1b)](https://www.youtube.com/watch?v=lG4VkPoG3ko)
+
 {{< katex >}}P[A|B]=\frac{P[B|A]P[A]}{P[B]}{{< /katex >}}
 
 Applying this, we can see that we get
@@ -305,8 +307,6 @@ Gaussian Random Variables / Normal RVs (same thing)
 [TODO] https://mc-stan.org/users/documentation/
 
 [TODO] [The Fisher Information (YouTube - Mutual Information)](https://youtu.be/pneluWj-U-o)
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I did it. <a href="https://t.co/eMEmUw0HSY">pic.twitter.com/eMEmUw0HSY</a></p>&mdash; Zillion Ross (@ZillionRoss) <a href="https://twitter.com/ZillionRoss/status/1331387290887680000?ref_src=twsrc%5Etfw">November 25, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Chaos
 

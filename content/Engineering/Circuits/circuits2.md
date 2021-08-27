@@ -58,11 +58,11 @@ P/N junctions, etc.
 
 {{< /attribution >}}
 
-Alright, so in very basic terms, it's a part that only lets current flow in one direction (idealy). A one-way road for current. If you put a sine wave in, you'll get a sine-wave chopped in half out. Now, this assumes everything is ideal, as you'll really get more like the top 40% of the wave out, but we'll get to those details in a bit. For now, I recomend watching this video:
+Alright, so in very basic terms, it's a part that only lets current flow in one direction (idealy). A one-way road for current. If you put a sine wave in, you'll get a sine-wave chopped in half out. Now, this assumes everything is ideal, as you'll really get more like the top 40% of the wave out, but we'll get to those details in a bit. For now, I recomend watching these videos:
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/Ll0IOk_Ltfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[TODO]
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/jvNNgUl3al0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 zeener, normal, bipolar
 
@@ -92,6 +92,8 @@ zeener, normal, bipolar
 tubes and how they work
 
 [DIY Triode (Simplifier)](https://simplifier.neocities.org/triode.html) [Part 2](https://simplifier.neocities.org/triode2.html) [Part 3](https://simplifier.neocities.org/triode3.html) [Part 4](https://simplifier.neocities.org/triode4.html) [Part 5: Power Triode](https://simplifier.neocities.org/power.html) [Part 6: Power Triode 2](https://simplifier.neocities.org/power2.html) [Part 7: Portable Triode](https://simplifier.neocities.org/portable.html), [Tetrode](https://simplifier.neocities.org/tetrode.html)
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/yMrCCx6uqcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### PNP V NPN
 
@@ -199,6 +201,8 @@ Relate back to things like ADSR, Distortion, Reverb / Echo, Decibels (audio), et
 [Protecting Inputs in Digital Electronics (Digi-Key)](https://www.digikey.com/en/articles/protecting-inputs-in-digital-electronics)
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/BeORD7aG3Jc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Why 10,000 Volts at altitude is a Bad Idea (YouTube, Strange Parts)](https://www.youtube.com/watch?v=MIqK45nxcTo)
 
 # Chapter 23.4 - Rare and Dangerous Componets
 
