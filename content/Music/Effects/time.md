@@ -54,6 +54,12 @@ looking at a snippit of this audio, you can see just how short the delay is, wit
 
 ![slapback](/slapback.png)
 
+### Delay at 100%(+) feedback?
+
+[TODO] Chornoblobs infinite mode
+
+[My Secret Guitar Pad Patch from the 1990's](https://www.youtube.com/watch?v=l9uX_slwbzk) - Inversely linking volume and delay feedback
+
 ## Loopers
 
 Loopers are most commonly seen in hardware and can be seen as a sort of mix between samplers and delays. Essentially you just tap in when you start playing, play what you want, then tap out, then, the loop of whatever you played will play back to you. There may be additional settings, such as a half speed effect.

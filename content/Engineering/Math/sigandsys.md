@@ -62,3 +62,63 @@ https://en.wikibooks.org/wiki/Signals_and_Systems
 
 [Poisson's Equation is the Most Powerful Tool not yet in your Toolbox (Matt Ferraro)](https://mattferraro.dev/posts/poissons-equation)
 
+[TODO] Basic signal transformations, shifts, scaling, etc.
+
+[TODO] Properties of waves
+
+- Phase, Frequency, Wavelength, Amplitude & Db & LuFS
+
+[TODO] Unit Step & Impulse
+
+[TODO] Memory - system is only dependent on input at the same time as the input
+
+[TODO] Invertability - inputs give distinct outputs
+
+[TODO] Causal - outuput doesn't depend on future events/data
+
+[TODO] Stability - small inputs don't cause divergence, easier to think of it as fragitility?
+
+[TODO] Time Invarience - Running the same experiment at a different time will still yield the same results
+
+[TODO] Linearity - if you put in A and get Y, put in B and get Z, then putting in A+B should give you Y+Z. Similarly, 2A should give you 2Y.
+
+[TODO] LTI - Linear, Time Invariant
+
+- Distributive, Associative, Invertability, Stability (if summable < inf)
+
+[TODO] Convolution
+
+[TODO] Fourier Decomposition
+
+[TODO] Filtering
+
+[TODO] Fourier Transform - Discree & Continuous
+
+[TODO] Sampling
+
+- Nyquist
+- Aliasing
+- Interpolation & Sinc fn
+
+[TODO] AM, FM, 
+
+[TODO] Laplace Transform, Region Of Convergence
+
+[TODO] Pole-Zero Plots
+
+[TODO] Z-Transform & Inverse
+
+	- and properties, ref *The Book* pg. 775
+
+[TODO] Linear Feedback Systems
+
+[TODO] PLLs
+
+---
+
+Basic DSP, maybe move to Music Chapters or find a way to link the two?
+
+[TODO] Lookup-table generators (Wavetables)
+
+[TODO] Envelopes
+
