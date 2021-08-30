@@ -77,6 +77,8 @@ https://dvt.name/2020/02/24/rfc-lets-disrupt-dating-apps/
 
 [A classic Silicon Valley tactic — losing money to crush rivals — comes in for scrutiny (Washington Post)](https://www.washingtonpost.com/technology/2021/07/06/facebook-bulletin-antitrust/)
 
+[Uber doubles price if your battery is low](https://twitter.com/NerdyAndNatural/status/1427614996738068485)
+
 ### Hurting the paying customer, rewarding the pirate?
 
 **D**igital **R**ights **M**anagment or DRM is software that serves to make it harder to pirate software, movies, TV shows, etc. It comes in many fourms, from the 'basic' that simply ask for a key and are easy to bypass to the complex that try to trick reverse engineering tools or rely on keys that are built into hardware- like **H**igh-bandwidth **D**igital **C**ontent **P**rotection, HDCP, which rides on the back of common protocols like HDMI and DisplayPort to try to prevent people from recording what they're watching.
@@ -108,9 +110,25 @@ But, wait, there's more!
 
 Some **hardware** is actually geo-locked. This goes for everything from smart watches sold to only work in Europe but not the US, to Blu-ray discs that won't play if they're put in a player from over seas! What the fuck???!
 
+#### Changing Specs, but not the name?
+
+Imagine you're in need of a car, so you do countles of hours of research and settle on a nice little four door electric car that's supposed to have a 300 mile range. You go to the dealer, test drive it, it's great. You get it home, and start using it to commute to work every day, 35 miles or so there, so 70 there and back- all highway. You notice you've used about a quarter charge, which is about right. Then, a few months in you notice your car isn't getting nearly the range it should, that same commute now uses up half the charge. You'd be pissed! So, you take it to the dealer and they let you know that for your car, they changed the batteries for any with a serial number above xxxxxx, and those batteries degrade faster. They kindly inform you "The batteries were still what you expected at the time of sale, and all cars get worse with age." You retort, "Yeah, but the reviewers of this car never saw this, and this isn't what I though I was paying for!"
+
+While this situation is fictional, this has been happening more and more lately, espically with consumer electronics. For example, [Netgear's GS305P POE switch (YouTube, Serve The Home)](https://www.youtube.com/watch?v=veq_gLhZ2SI) has wildly different specs but the same name, [Laptop manufactures are using slower RAM after the inital release (Youtube, Linus Tech Tips)](https://www.youtube.com/watch?v=R7CO9v9rpOk), and storage is particualry bad- [Samsung changing the controllers in SSDs (Arstechnica)](https://readhacker.news/s/4TmPf), [ADATA change to slower NAND in SSDs (Tom's Hardware)](https://www.tomshardware.com/news/adata-xpg-sx8200-pro-controller-change), [... And Western Digital too (Bleeping Computer)](https://www.bleepingcomputer.com/news/hardware/western-digital-confirms-speed-crippling-sn550-ssd-flash-change/). It's a total shit show.
+
+Now, the Samsung one is particularly interesting because for most users it's actually an improvement. But, that doesn't fucking matter when it's still a different product. The *most* there is doing heavy lifting too, as anyone doing high resolution video editing or injest from a 4k camera may notice a dramatic slow down.
+
+Put plain and simple: If you're going to meaningfully change a product part way into its release cycle, you absolutely need to make it clear to consumers what those differences are. Transparency is key.
+
+There's another angle here too. Some products are being sold that are just totally different, but using the same name at launch. I think the most heinous example is of the Nvidia GT1030, where one varient has DDR4 memory and the other GDDR5, [resulting in an about 2x performance difference (YouTube, Gamer's Nexus)](https://www.youtube.com/watch?v=1CazEXejPCU).
+
+I mean, what the fuck? How is any of this legal?
+
 ### Resale Price Maintenance
 
 [TODO] 
+
+[iPhones are faster in France](https://www.gizchina.com/2021/08/23/old-iphones-become-faster-if-you-change-the-region-to-france/), buying used products at a loss, 
 
 ### Purchasing Power
 
