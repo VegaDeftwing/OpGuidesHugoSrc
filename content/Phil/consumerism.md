@@ -36,23 +36,21 @@ On the other hand, holy fucking shit everything is on fire. People buy useless s
 
 But the real problem is that we all go to work to pay for shit that we don't need, that we're not allowed to repair or don't even really 'own'<a class="ptr">(2)</a>, that mines our data to advertise to us after we've bought the product<a class="ptr">(3)</a>, that randomly removes features years later<a class="ptr">(4)</a>, that we've been told has value it doesn't<a class="ptr">(5)</a>. It's not turtles all the way down, it's just piles of bullshit.
 
-## We buy too much shit
+## We buy too much shit and we feel guilty about it
 
-We buy to much shit. 
-
-TODO: individually wrapped wastes of money for holidays makes me feel gross
+We buy to much shit. And I mean *shit*. A lot of what we buy is distinctly not built to last. Sure, that may be in part because of planned obsolescence. But I think the bigger problem is just not giving a shit. We know that if something breaks we can order a new one, often for less than the cost of a good one to begin with. We know if we forget to bring our refillable bottle, we can buy a 16oz bottle of nearly anything at any gas station. We know not packing a lunch is fine because we can go get a salad in a plastic container that will take 16.5 million years to decompose in a landfill at a wide selection of fast food places. We just don't care. We buy this shit, and then post like this **make us feel guilty** for the individually wrapped candies we eat, yet we still feel obligated to get them for kids during the holidays. I feel guilty writing this, yet know my impact will be minimal. I know I can only do so much to change my own habits. I know I'd be angry if prices were higher because of sustainable packaging. I know I'd feel better with less possessions, yet the thought of losing even one to a fire makes me scared. News stories of Amazon throwing away unused goods and of farms destroying unsightly but totally edible crops upset me, yet I don't have a meaningful solution to these problems that doesn't end with a punchline of communism. But wallowing in our own existential dread is about as productive as trying to get WalMart to unionize, so where should we start?
 
 ## We buy too much cheap shit
 
-[TODO] walmart and Amazon offbrands and clones, cheap batteries, lack of repailabily along with lack of inital durability, nobody uses warrenties
-
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/HbxWGjQ2szQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+How the hell is anyone supposed to compete? It is impossible to put research everything we buy to make sure we're being ethical consumers. Sure, certifications like those from [Fairtrade](https://en.wikipedia.org/wiki/Fairtrade_certification) and [Rainforest Alliance](https://en.wikipedia.org/wiki/Rainforest_Alliance) sound like a reasonable solution; however, both have had their share of controversies showing the labels are largely just marketing and serve to make the consumer feel better, without real oversight. Even then, if your average person is given the choice between BrandA Thing and a 20% more expensive BrandB Thing with a "We care about the environment and stuff" sticker, will they care? Even if you think yes (which, uh, you're a bit overly optimistic if you do), do you think the company trying to act ethically will really be able to compete with one that doesn't care?
 
+Plus, even if a brand does get recognition for both a good product and giving a shit about the environment, having reasonably labor standards, etc. there's very little to stop a competitor from making a nearly identical product and undercutting them enough to just steal the market - like in the video embedded above. 
 
 ## Enforcing Protections
 
-
+Alright, so we've established nobody gives a shit. Now let's look at why that's the case and how we can fix it.
 
 ### Planned obsolescence, Right to repair
 
@@ -64,12 +62,17 @@ TODO: individually wrapped wastes of money for holidays makes me feel gross
 <div style="display: block; width: 80%; margin-left: auto; margin-right: auto;">
     <p style="font-size:.85em;color:#aaa;">- Edward Snowden, in his book <i>Permanant Record</i></p>
 </div>
+Right to repair and planned obsolescence go hand in hand. Put simply, manufactures don't want to have to compete with themselves, so, if they can make things such that they'll be out of date or fail in time for the next release, it's good business- and one thing that would stop them from doing that is if your stuff was easy to work on and keep running.
 
----
+Unfortunately, most of expensive big purchases (phones, laptops, cars, etc.) are getting harder to work on. Sometimes this is because of malicious manufacturing that uses copious amounts of glue and weird screws. Sometimes its software locks that would be illegal to even break. Sometimes it's devices being dependent on servers staying online- like a game server for a multiplayer game.
 
-[TODO] rant on devices that require apps
+I said before that people don't give a shit, they're willing to just throw away the broken thing and replace it. It's cheaper and easier.
 
-[TODO] rant on devices that rely on non-self-hostable servers
+But *WHY* is that the case? Manufactures would like you to believe that as our devices become more advanced, it's simply not possible to make something the consumer can work on. Products like the [Framework Laptop](https://www.youtube.com/watch?v=0rkTgPt3M4k) make this really hard to believe though. I think that what's happened is manufactures, over years of saying that it's impossible, have convinced consumers that they should be *scared*. Warranty Void If Removed Stickers, [legally enforcable or not (npr.org)](https://www.npr.org/sections/thetwo-way/2018/04/11/601582169/warranty-void-if-removed-as-it-turns-out-feds-say-those-warnings-are-illegal), combined with the abuse of DRM (we'll get to that in a sec), and these anti-repair designs that glue everything together have trained us as consumers to not *expect* to fix our devices. The default resolution to failure is replacement, to think about repair is becoming unnatural. Even if this makes for worse products - laptops with storage that can't be recovered if the CPU fails, phones with worse battery life as they age, etc. - the incentive for a business to make these choice is only growing, espically as the volume of products practices like these push off the shelves is so high it makes it hard for competitors not working at that scale to dream of competing.
+
+Right to Repair legislation as is only seeks to make it so that businesses need to provide schematics and parts to 3rd party repair centers and consumers who wish to repair their devices. I think this is far from enough. I think devices should be required to be designed with a certain level of repairability in mind - Making it easy to replace the battery in your phone, replace the touchpad on your laptop, etc. - If the manufacturer wants an exception to make something extra sleek and sexy, fine! But then they need to build in the cost of free replacment/repair of the most common to wear out parts if they limit the lifespan of the product, and provide it to anyone who brings in a device in need of those services, no questions asked- that way used products can be sold without losing this protection. I'm not saying a 10 year old phone should be covered, but a 3 year old flagship phone where the only problem is battery life? Yeah, that's bullshit. Similarly, manufactures of goods with software that connects to the internet should be required to provide security updates for the lifetime of the product- and by lifetime I mean actual lifetime as determined by a 3rd party or telemetry that reports the number of still active products.
+
+Furthermore, devices that rely on software or servers to continue running need to have that software distributed DRM free or the server software released to keep things running. It should be impossible for the vendor to make your purchase useless years later.
 
 ## Anti-consumer practices
 
@@ -102,7 +105,7 @@ The ironic thing about all of these systems is they hurt the consumers:
 
 ### Sometimes, they don't even want you to be the customer?
 
-Jesus. Fucking. Christ. This is beyond evil. Now, obviously there are different markets that want different things: There's a legitimate reason that content on Netflix in the US would be primarily in English, and content in Germany primarily in German. That's fine. What's not fine is that while paying for the same service, two NetFlix users *can't even access* the same content. It's one thing to make it more visable, it's a whole different thing to change what's available. But hey, at least you can go use a different service, right?
+Jesus. Fucking. Christ. This is beyond evil. Now, obviously there are different markets that want different things: There's a legitimate reason that content on Netflix in the US would be primarily in English, and content in Germany primarily in German. That's fine. What's not fine is that while paying for the same service, two Netflix users *can't even access* the same content. It's one thing to make it more visable, it's a whole different thing to change what's available. But hey, at least you can go use a different service, right?
 
 Well, not always. Some software, music, and videos *may not even be available to purchase* depending on your region. Or, maybe they *will* be but aren't yet. So, your only option if you want to watch that new TV show at the same time as your foreign friend is good ol' piracy.
 
