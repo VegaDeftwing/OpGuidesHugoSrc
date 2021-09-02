@@ -163,17 +163,68 @@ word-wrap: break-word;
 
 {{< /details >}}
 
+#### Velocity
+
+[TODO]
+
+#### Aftertouch
+
+[TODO]
+
 ### CC's
+
+MIDI **C**ontrol **C**hange messages are what they sound like. They're used to represent turning knobs or moving sliders- controls. You can then move these knobs to control whatevery you like, and optionally record these movements to play them back or edit them after the fact later- just like with notes.
+
+Generally, controls get mapped to whatever parameter you want using **MIDI Learn**. This is a feature in most software where you click the 'Learn' button, click the parameter you want to control, and then move the physical control you want to map it to. Then, click the 'Learn' button again to resume normal operation. Now that knob or slider or whatever will control the virtual knob/slider.
+
+{{< columns >}}
+
+Here I'm controlling various parameters of a patch in VCV rack using a MIDI CC →CV module, though the better way to do this is probably to use [MIDI-MAP](https://library.vcvrack.com/Core/MIDI-Map) which let's you map a virtual knob to physical knob without the wire, which is generally a bit easily to understand. I've only used the wire breakout module here as I think it makes it more clear what's going on.
+
+<--->
+
+<iframe width="100%" height="250" src="https://www.youtube.com/embed/eHYCmPawQdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /columns >}}
+
+Typically, you'll also be able to record and edit your adjustments of MIDI CC's after the fact. This is *usually* done in the same place as all other automation in whatever software you're using.
+
+[TODO] Ableton Automation Lane Picture
+
+Because MIDI CC's are only 7-bit (like the nearly the rest of MIDI) the resolution is trash and many programs will actually interpolate (morph) between values. This prevents knobs from feeling like they're clicky with only so many positions and instead makes them behave more like you'd actually expect, though not all software does this.
+
+There's a few special 'reserved' CC's, though often you can just overide them to do whatever you want anyway. However, before we got to that list of reserved CC's I want to take a small detour to understand just what the fuck an NRPN is.
+
+NRPN stands for Non-Registered Parameter Number, and is a weird tidbit in the midi standard where some control messages may actually use two messages to send one value. This is because MIDI is, as previously mentioned, fucking old and only 7 bits. Well, if we use 7-bits of one message to represent the higher bits (Most Significant Bits or MSB) and 7-bits of another to represent the lower bits (Least Significant Bits or LSB) we can get much finer resolution messages. By going from only having 7 bits (that is seven 1's and 0's) to represent our number to 14 bits, we go from only being able to represent numbers from 0 to 127 all the way to 0 to 16383. This makes knobs go from feeling like you're snapping to discrete values to feeling smooth.
+
+Unfortunately, NRPN support is super fucked up and support for it varries pretty wildly from program to program, and few controllers actually support it. Still, it's worth mentioning as until MIDI 2.0 picks up steam, we're stuck dealing with using whatever hacks we can to get more resolution out of things. So, now, in this list of 'reserved' MIDI CC's you'll see some CC's have a `+nn` next to them, for programs that support NRPNs, this the CC's that would be used in conjuction with the normal one to provide more resolution. 
+
+| CC                  | Name                                | Description                                                  |
+| ------------------- | ----------------------------------- | ------------------------------------------------------------ |
+| 1 (+33)             | Mod Wheel                           | One of the two wheels/touch strips on many keyboard controllers |
+| 7 (+39)             | Volume                              | Sometimes this is per-track, sometimes it's the master volume |
+| 8 or 10 (+40 or 42) | Pan                                 | 0=Left, 127=Right, 64=Center                                 |
+| 64                  | Sustain Pedal                       | When high (>64) hold all notes played until the CC goes low. Usually a pedal for piano |
+| 65, 66, 67, 68      | Portamento, Sostenuto, Soft, Legato | These CC's aren't often supported, but provide the other pedal controls that some MIDI keyboards will have as foot pedals. **Very few VSTs will respond to these correctly.** |
+| 33                  | Mod Wheel LSB                       | *sometimes* used for extra resolution on the mod wheel, very rare though |
+| 120                 | Mute                                | Channel Mute, but sometimes acts as master mute, depends on implimentation |
+| 123                 | All Off                             | Force all MIDI notes OFF, not always supported               |
+
+You'll notice that all the extra resolution CC's (these provide the LSB) are exactly 32 higher than the original. In fact, depending on the software you may be able to corolate any of the first 32 CCs to there +32 counterpart, 1 with 33, 2 with 34, and so on. Again, this is all relatively uncommon, but you should be aware of it.
+
+Of note, most software represents interal states with more than 7-bits of resolution, so moving the software knob will often let you get to more exact values if you need to get something between to 'clicks' of the knob turn. Also, usually your DAWs internal automation routing will have more than 7-bits of resolution too, so if you make a curve or ramp for a software knob to turn itself, it won't sound like it's clicking to 127 discrete values.
+
+#### CC Feedback?
+
+MIDI CC's are, typically, a one-way commuication. For *most* controllers, this is fine, as the knobs aren't motorized and can't move to reflect new values if you change a value with your mouse or automation effects the value. Though, this isn't always true - Some controllers do actually have a ring of LEDs around knobs, motorized faders, or lights above the keys. In these cases, the device needs to both send and recieve data. Not all software will support controllers that do this, but most will. It may be refered to as different things, for example, in Ableton Live if you enable 'Remote' in the MIDI settings of an device's input (output from Ableton) connection, it will send value updates to the controller so that parameters can be shown like this (see [this Ableton help page](https://help.ableton.com/hc/en-us/articles/209774205-Live-s-MIDI-Ports) for more info) in VCV [stoermelder's MIDI-CAT](https://library.vcvrack.com/Stoermelder-P1/MidiCat) is the only way I know of to do this kind of feedback
 
 #### Sustain
 
-#### Modulation
 
-#### MIDI LFO/Envelopes
 
-### Velocity
+#### MIDI Thoughput & LFOs & Envelopes
 
-### Aftertouch
+
 
 ### Pitchbend
 
@@ -183,4 +234,19 @@ word-wrap: break-word;
 
 ### SysEX
 
-## MIDI 2.0
+### The Phsical Connections
+
+#### USB
+
+#### 5-pin DIN
+
+#### TRS-A, TRS-B
+
+#### Over Network
+
+### MIDI 2.0
+
+## Open Sound Control
+
+## Mackie Control
+
