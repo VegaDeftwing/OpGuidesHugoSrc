@@ -37,7 +37,31 @@ General MIDI, one of various MIDI extensions (that often get ignored anyway) als
 
 {{< details "General MIDI Drum Map" >}}
 
+</br>
+
+> Note, the cells in blue are the notes used by Ableton (and in turn many DAWs which copied them) for their Drum Rack device, which is typically shown as 4x4 grid of pads, with the lowest note in the bottom left. There is no requirement that you follow the general-midi mapping when assigning samples, but it is probably good practice to match it up as well as you can. If you can't, try to at least make parts spit in the same area frequency wise- put high-pitch samples on the higher-pitch spots and so on. This will make changing kits much easier.
+
 {{< columns >}}
+
+<style>
+.drum th {
+background: #fff3;
+word-wrap: break-word;
+}
+.drum2 th {
+background: #fff3;
+word-wrap: break-word;
+}
+.drum3 th {
+}
+.drum > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(n+2) > td:nth-child(2) { background: #009cdf55; }
+.drum > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(n+18) > td:nth-child(2) { background: #22222222; }
+</style>
+
+
+
+
+<div class="drum">
 
 | KEY    | NOTE | SOUND              |
 | ------ | ---- | ------------------ |
@@ -65,7 +89,11 @@ General MIDI, one of various MIDI extensions (that often get ignored anyway) als
 | **56** | Ab2  | Cowbell            |
 | **57** | A2   | Crash Cymbal 2     |
 
+</div>
+
 <--->
+
+<div class="drum2">
 
 | KEY    | NOTE | SOUND          |
 | ------ | ---- | -------------- |
@@ -94,7 +122,44 @@ General MIDI, one of various MIDI extensions (that often get ignored anyway) als
 | **80** | Ab4  | Mute Triangle  |
 | **81** | A4   | Open Triangle  |
 
+</div>
+
 {{< /columns >}}
+
+**Ableton Drum Rack Mapping According to General Midi:**
+
+<div class="drum3">
+
+<table>
+<tbody>
+  <tr>
+    <td>High-Mid Tom (C2)</td>
+    <td>Crash (C#2)</td>
+    <td>High Tom (D2)</td>
+    <td>Ride (Eb2)</td>
+  </tr>
+  <tr>
+    <td>Pedal Hi-Hat (Ab1)</td>
+    <td>Low Tom (A1)</td>
+    <td>Open Hat (B#1)</td>
+    <td>Low-Mid Tom (B1)</td>
+  </tr>
+  <tr>
+    <td>Electric Snare (E1)</td>
+    <td>Low Floor Tom (F1)</td>
+    <td>Closed Hat (F#1)</td>
+    <td>High Floor Tom (G1)</td>
+  </tr>
+  <tr>
+    <td>Bass (C1)</td>
+    <td>Side Stick (C#1)</td>
+    <td>Acoustic Snare (D1)</td>
+    <td>Clap (Eb1)</td>
+  </tr>
+</tbody>
+</table>
+
+</div>
 
 {{< /details >}}
 
