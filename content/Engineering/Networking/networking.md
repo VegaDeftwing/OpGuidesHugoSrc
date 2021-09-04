@@ -364,6 +364,8 @@ Ben Eater's Networking Tutorial Series is pretty good:
 
 # Chapter 10.1 - Weird Networking, because why not!
 
+[Weird URL Protocols (YouTube, ThioJoe)](https://www.youtube.com/watch?v=WcLmMLqnKCM)
+
 [cjdns](https://github.com/cjdelisle/cjdns) + [hyperboria](https://hyperboria.net)
 
 [ipfs](https://ipfs.io)
