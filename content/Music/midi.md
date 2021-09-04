@@ -158,18 +158,19 @@ word-wrap: break-word;
   </tr>
 </tbody>
 </table>
-
 </div>
 
 {{< /details >}}
 
 #### Velocity
 
-[TODO]
+Every MIDI note also gets sent with a corosponding velocity message. If you strike a key hard, it'll send a higher velocity value, soft, lower. If the controller doesn't support this, the note will be sent with a velocity of 127 (the maxium value) on every note. There's also a bit of strangeness where the note-off event (the release of a note) actually sends its own velocity as well. Typically, this is 0, though other values are possible.
+
+Not all instruments/plugins/software will respond to velocity, and some may respond in different ways. A piano emulation for example may actually try to replicate the different ways piano keys sound when hit with more or less power, while a drum sampler may only varry the volume or ignore velocity all together.
 
 #### Aftertouch
 
-[TODO]
+After touch is a sort of continuous velocity message. It's not nearly as commonly supported, but the idea is to send so that the pressure of your finger over time can change something about the sound. Unfortunately, aftertouch is *usually* shared by all the notes you're holding at a given moment, and only the highest value (most pressure) is sent. Devices that send multiple aftertouch messages are significantly less common- this is part because until MIDI 2.0 becomes more common, the only good way to do it is with **M**IDI **P**olyphonic **E**xpression capable controllers, which send each note on a separate MIDI channel, and then abuse this to make each channel aftertouch message only be associated with a single note. This is a bit hacky, but has become a sort of bolted-on standard to MIDI, and so a lot of software (though far from all) supports it now. Probably the most recognizable MPE controller is the ROLI seboard, which I linked back in the <a href="/music/instruments/">Instruments</a> chapter. MPE controllers tend to be on the very expensive side of things though.
 
 ### CC's
 
@@ -220,7 +221,11 @@ MIDI CC's are, typically, a one-way commuication. For *most* controllers, this i
 
 #### Sustain
 
+In the above table, the Sustain on CC 64 is listed. This CC is particularly important as when it's high, notes will continue to play as if the note off message never happened until it is let go. This is really fun to play with.
 
+If you're using a pino VST, there's at least a small chance that CC's 65-68 will work as intended to emulate the pedals on a real piano as well.
+
+Sometimes the sustain CC is used as a control that is assumed to be on a pedal and would only be wanted as a momentry action, such as a repeated striking of the note or enabling a very heavy effect. This is realatively common in music plugins that emulate other instruments. For example, in a guitar emulation, the sustain pedal may act as a palm mute switch instead.
 
 #### MIDI Thoughput & LFOs & Envelopes
 
@@ -229,6 +234,8 @@ MIDI CC's are, typically, a one-way commuication. For *most* controllers, this i
 ### Pitchbend
 
 ### Clock & Transport
+
+MIDI clock is a fucking nightmare. At the bare basics, it just tries to 
 
 ### Program Change
 
