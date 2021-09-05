@@ -174,7 +174,7 @@ After touch is a sort of continuous velocity message. It's not nearly as commonl
 
 ### CC's
 
-MIDI **C**ontrol **C**hange messages are what they sound like. They're used to represent turning knobs or moving sliders- controls. You can then move these knobs to control whatevery you like, and optionally record these movements to play them back or edit them after the fact later- just like with notes.
+MIDI **C**ontrol **C**hange messages are what they sound like. They're used to represent turning knobs or moving sliders- controls. You can then move these knobs to control whatevery you like, and optionally record these movements to play them back or edit them after the facIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIt later- just like with notes.
 
 Generally, controls get mapped to whatever parameter you want using **MIDI Learn**. This is a feature in most software where you click the 'Learn' button, click the parameter you want to control, and then move the physical control you want to map it to. Then, click the 'Learn' button again to resume normal operation. Now that knob or slider or whatever will control the virtual knob/slider.
 
@@ -227,11 +227,9 @@ If you're using a pino VST, there's at least a small chance that CC's 65-68 will
 
 Sometimes the sustain CC is used as a control that is assumed to be on a pedal and would only be wanted as a momentry action, such as a repeated striking of the note or enabling a very heavy effect. This is realatively common in music plugins that emulate other instruments. For example, in a guitar emulation, the sustain pedal may act as a palm mute switch instead.
 
-#### MIDI Thoughput & LFOs & Envelopes
-
-
-
 ### Pitchbend
+
+[TODO] 14-bit, but often not really
 
 ### Clock & Transport
 
@@ -241,19 +239,76 @@ MIDI clock is a fucking nightmare. At the bare basics, it just tries to
 
 ### SysEX
 
-### The Phsical Connections
+## MIDI's Phsical Connections & Throughput
 
-#### USB
+So, there are multiple physical connections that MIDI data can run though- USB, TRS, and 5-pin DIN.
 
-#### 5-pin DIN
+<img src="/midipinout.svg" alt=" ">
 
-#### TRS-A, TRS-B
+### USB MIDI
+
+USB Midi can run over just about any USB connection you're used to- micro, mini, USB-C, and often that chonky square one that printers still use. There are four things you should know about USB midi:
+
+1. *Typically* it's two way. The usb connection will provide both MIDI *to* and *from* the connected device.
+2. USB devices have the concept of *Host* and *Device*. This means that with USB MIDI devices you can run into a situation where you may want to connect something that expects to have a USB *device* (like a keyboard) attached to it, but you want to connect a host (like your computer) and use it as a device. This may requrie you use an adapter.
+3. USB MIDI is *much* faster than the other MIDI standards
+4. USB MIDI can often lead to ground loop problems or noise in connected devices. You may be able to fix this by either using "Hum Destroyers" (Ground loop isolators) on the audio connections or using a USB power isolator on the USB connection. These don't always work though.
+
+### 5-Pin DIN
+
+This is the old school way that MIDI works.
+
+1. The connection is *optoisolated* this means that ground isn't sent over the cable, preventing ground loops. This may be a fix if a device offers both USB and 5-Pin DIN midi.
+2. Despite being a 5-pin cable, only 3 pins are used
+
+### TRS-A & TRS-B & TS?
+
+1. There are 3 conflicting MIDI over normal-audio-jack "standards". Fortunately, TRS-A (as shown in the figure above) has been made a real standard now and should be used exclusively on newer equipment. TRS-B and TS only devices are still out there though, so be sure to check
+2. Like 5-Pin DIN MIDI, MIDI over TRS is optoisolated, so you shouldn't have to worry about ground loops
+3. The standard is also often used on guitar pedals, though it shouldn't be confused with guitar pedal expression input or control voltage, which are both analog communication not digital like MIDI
+4. There are plenty of adapters out there to go between TRS MIDI and 5-Pin DIN, but again, make sure it's the right TRS Standard (A/B)
+
+### Throughput
+
+One thing you need to be aware of that a combonation of which of these physical connections you're using and what the devices you're using have for processing power will determine the maximum rate that you can push MIDI messages to a given device.
+
+If you're just playing the keyboard, you have nothing to worry about. If you're playing the keyboard, twisting a few knobs, using the pitch-wheel, and sending clock data you might start pushing it. If you'd like to use MIDI data to send an LFO or an envelope, you might find that things just don't work. If you imagine that you want a nice 10Hz sine wave MIDI CC LFO that uses the full 0-127 range, that means you'd need to send 128\*2\*10 = 2560 midi messages a second, each message needs 3 bytes, one to say the message is a CC, one to specify which CC it is, and one to send the actual data, a byte is 8 bits, so this means 24bits per message so we have 2560*24 bits per second = 61,440 bits per second. By default, the 'lowest spec' default **5-pin DIN MIDI only supports 31,250 bits per second**, we've already asked for about double that just by sending one LFO. Fortunately, USB Midi generally allows for *significantly* more data to pushed down the pipe, with some usb MIDI devices even requiring MIDI 3.0 which means these devices have a reason to need *more* than the ~480,000,000 bits per second USB 2.0 can do. This isn't your Grandma's MIDI.
+
+#### Eurorack MIDI⇄CV
+
+One common place to run into issues is with MIDI⇄CV. Doing MIDI to CV with an MPE controller is particularly difficult, so you should expect to need a nicer adapter that explicitly says it will work. Going the other way around, CV to MIDI, is even more complicated due to these bandwidth considerations. Even with the bandwidth of USB, CV→MIDI adapters will still top out at pretty slow LFOs (**you absolutely will never be able to do CV→MIDI at audio rate!**) and, if they're really slamming the USB controller or OS level virtual MIDI devices, they can cause more extreme issues- lots of software crashing ahead for those that go this route. That said, it does seem some devices are more user friendly than others. While my experincace with Expert Sleepers FH-2 for CV→MIDI has been a headache, it appears the Befaco *CV Thing* and *VCMC* work much more smoothly. I suspect this largely comes down how much the MIDI output bandwidth is being limited. The FH-2 appears to just try to throw as much data down the pipe as it can muster, while the Befaco modules seem to apply sane rate limiting- but that also means that they will not feel as smooth or support as fast of LFOs.
+
+If you can, you're probably better off either using something like the ExpertSleepers ES-8, ES-9, or ES-3+ES-6 to take audio in directly and using software that supports using audio as modulation (some workarounds may be necassry, such as using envelope followers) or using one of the very few modules that impliment OSC (more on that later). Honestly though, doing CV→MIDI is a bit of a fools errand, espically for modulation (CCs). The only real practical use is if you *really* want to sequnce something that doesn't have a CV input with a eurorack sequencer, otherwise you're better off just finding dedicated MIDI equipment that does the kind of input you want.
 
 #### Over Network
 
-### MIDI 2.0
+Look, I'm not going to say you can't do wireless or networked midi. You definitely can. It's just that there's alway something that goes wrong. The 'normal' way to do it is using RTP MIDI. This should work cross platform:
+
+- Windows, use [rtpMIDI](https://www.tobias-erichsen.de/software/rtpmidi.html) by Tobias Erichsen
+- Mac, use the built in network-MIDI tools
+- Linux, use [RaveloxMIDI](https://github.com/ravelox/pimidi)
+
+Sometimes this works 100% perfectly, other times it's a fucking nightmare. Best of luck.
+
+## MIDI 2.0
+
+MIDI 2.0 is the new spec that aims to be both backwards compatible with the MIDI as described up to this point, but fix all of the massive clusterfucks that have arisn over the years- providing higher bandwidth, bi-directional communication, higher resolution controls, native support for MPE-style devices, better clock syncronization, profiles based on use case, etc. Basically, it's not a total shit storm like what we have now. Unfortunately, MIDI 1.0 isn't going anywhere any time soon, mostly because there's already such a huge backlog of supported hardware and it's cheap to impliment. So, MIDI 2.0 is the future we will hopefully slowly creep into.
 
 ## Open Sound Control
 
+**I can't belive it's not MIDI!**
+
+
+
 ## Mackie Control
+
+
+
+## Ableton Link
+
+**Alright everyone, syncronize your watches!**
+
+
+
+
 
