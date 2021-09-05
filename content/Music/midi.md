@@ -4,24 +4,24 @@
 
 Sounds Great?
 
-For the most part, yeah. Everything works together and you can make all your hardware speak the same language. Let your keyboard talk to your computer and then your computer talk to your drums so that you can play the drums with your keyboard! Send automation from your computer to a parameter on your synth to vary the sound over time, whatever.
+For the most part, yeah. Everything works together and you can make all your hardware speak the same language. Let your keyboard talk to your computer, your computer talk to your drums, now you can play the drums with your keyboard! Send automation from your computer to a parameter on your synth to vary the sound over time, whatever. MIDI is pretty much carries all the information about your music expect the audio itself.
 
 The Catch? MIDI is outright ancient by technology standards, having come out in 1981. It's so damn old, that it's (mostly) a 7-bit standard. Now, ideally, a musician shouldn't have to know what this means and the gear should stay out of the way. Unfortunately, we've been sticking with this standard for so long that basically everything abuses it in one way or another to the extent you sorta have to know how it works. So, 7-bit, what does that mean?
 
 Well, it's talking about bits, so 1's and 0's. For each message in midi, you get 7 bit's of data. So, when you turn a knob it can range from 0000000 to 1111111, which, works out to be 0 to 127. This means each knob, even if it feels smooth to you, only has 128 distinct levels whatever it's talking to can receive. This is *really* bad. But, wait, it gets worse. This applies to *almost* everything in MIDI, so how hard you hit the keys and how finely you can set the volume with a physical slider. This really just isn't fine enough control.
 
-Because of that, there's a whole fustercluck of solutions. Some you might see include
+Because of MIDI's age and lack of resolution, there's a whole fustercluck of things that have been done to make working with digital instruments work better over the years. Some you might see include
 
-* MIDI **N**on-**R**egistered **P**art **N**umber ([NPRN](https://en.wikipedia.org/wiki/NRPN)) is one way MIDI controllers can send higher resolution signals (14bit so, 0 to 16384) by putting two, 7-bit CC's values together such that one controls the **M**ost **S**ignificant **B**yte (MSB) and the other the **L**east **S**ignificant **B**yte (LSB)
+* MIDI **N**on-**R**egistered **P**art **N**umber ([NPRN](https://en.wikipedia.org/wiki/NRPN)) is one way MIDI controllers can send higher resolution signals (14bit so, 0 to 16383) by putting two, 7-bit CC's values together
 * **O**pen **S**ound **C**ontrol (OSC) *isn't* MIDI, but rather a competing standard that's much higher resolution and can work over ip (wifi), but it's not universally supported like MIDI
-* **M**ackie **C**ontrol **U**niversal (MCU) is a fustercluck of a non-standard developed by Mackie, a particular hardware manufacture, for one of their products. Originally MCU was made for Logic but eventually the control 'standard' wound its way into other DAWs. It mostly provide a 'universal' mapping for common functions like mute, solo, track select, EQ and what not. It basically just sits on top MIDI.
+* **M**ackie **C**ontrol **U**niversal (MCU) is a fustercluck that has been bolted onto a lot of MIDI controllers. It mostly provides a 'universal' mapping for common functions like mute, solo, track select, EQ and what not. It basically just sits on top MIDI.
 * **M**idi **P**olyphonic **E**xpression (MPE) is probably the most convoluted of the workarounds, but it will require some more explanation, so I'll come back to this in a second.
 
-"Alright", I hear you thinking, "so MIDI is a fucked up standard, what is it good for then?"
+"Alright", I hear you thinking, "MIDI is an old dumpster fire, what is it good for then?"
 
-Well, it's pretty much still the only one you can sequence notes in your DAW, that all instruments interface with each other and a computer, and often the only way you can control digital instruments and effects from hardware.
+Well, it's pretty much still the only one you can sequence notes in your DAW, nearly all instruments interface with each other and a computer using MIDI, and MIDI controllers exist in about every shape and form you could think of- from a traditional keyboard to just a huge grid of knobs. MIDI's age also means that it is ludicrously compatible, as you can plug in hardware from over 30 years ago and it will still just work.
 
-So, let's dive into the details and see how MIDI actually works
+So, let's dive into the details and see how MIDI actually functions
 
 ## Types of Midi Messages
 
@@ -358,9 +358,17 @@ MIDI 2.0 is the new spec that aims to be both backwards compatible with the MIDI
 
 OSC is an alternative to MIDI you'll often see used when either higher resolution controls (more than the 0-127 of MIDI) or network control (using your phone as a control surface over WIFI, for example) is needed. Support is a bit all over the place, as a lot of major DAWs don't have built in support but can work with 3rd party tools, but there are very few hardware synths and controllers that use it, making it mostly useful for software controller implimentions that provide touch-screen knobs and faders - like [Touch OSC](https://hexler.net/touchosc#get) for mobile devices, speciality controllers like using the [Leap Motion](https://www.ultraleap.com) for sending control messages, or over-the network colaborative jamming - where each player can send signals  that other players can use, each from their own laptop. There are various [OSC Modules](https://library.vcvrack.com/?query=&brand=trowaSoft&tag=&license=) for VCV Rack.
 
-## Mackie Control
+## Mackie Control / HUI
 
-[TODO]
+{{< quote "[Wikipedia](https://en.wikipedia.org/wiki/Human_User_Interface_Protocol)" >}}
+
+Human User Interface Protocol (commonly abbreviated to HUI) is a proprietary MIDI communications protocol for interfacing between a hardware audio control surface and digital audio workstation (DAW) software. It was first created by Mackie and Digidesign in 1997 for use with Pro Tools, and is now part of the Mackie Control Universal (MCU) protocol.
+
+{{< /quote >}}
+
+So, MCU and HUI are *technically* different things, but they seem to be used interchangeably. But, what is it good for? 
+
+**M**ackie **C**ontrol **U**niversal (MCU) is a fustercluck of a non-standard developed by Mackie, a particular hardware manufacture, for one of their hardware controllers. While originally MCU was made for Apple's *Logic* DAW, it eventually the control 'standard' found its way into other DAWs. It mostly provide a 'universal' mapping for common functions like mute, solo, track select, EQ and what not. It's especially nice as MCU is 10bit (1024 values) and bidirectional - the controller can show the current volume or whatever on a screen easily- though it all still runs over MIDI, so devices using it mostly use USB MIDI. The specifics of how MCU works is sort of a nightmare to dig up, [this thread](https://forum.cockos.com/showthread.php?t=101328) is probably a good starting place should you have to look into it for some reason. The main take away is that HUI is used to provide this deeper integration into your DAW than normal MIDI provides alone, and that quite a few controllers now support it, for example ['Launch' series devices from Novation](https://novationmusic.com/en/keys/launchkey), the [Studiologic Mixface](https://www.studiologic-music.com/products/mixface/), and [Behringer X-Touch](https://www.behringer.com/product.html?modelCode=P0B1X), just to name a few. Just ctrl+f on these pages for HUI or MCU and you'll see it. Most of these controllers have a focus on what would traditionally be at a large mixing console- per track volume faders, pan, transport controls, etc.
 
 ## Ableton Link
 
