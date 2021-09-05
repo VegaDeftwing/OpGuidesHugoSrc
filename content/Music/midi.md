@@ -25,11 +25,15 @@ So, let's poke into some of the common MIDI message types, starting with the mos
 
 ## Types of Midi Messages
 
+### Channels
+
+While not a message in itself, it's necessary to note that MIDI connections provide 16 channels of communication, usually each device only uses one channel at a time, and you can use this for multiple things. If your keyboard makes channing the active channel easy, you may want to setup a different instrument on each channel, so you could switch between playing a piano or synth sound on channels 1 and 2 easily. The other big use is if you have multiple hardware devices that recieve MIDI messages and make sound, like synthesizers and drum machines. You can chain them together with MIDI Though (more on this later) and have each one listen for notes on it's own channel while using less cables.
+
 ### Notes
 
 MIDI notes range from 0 to 127, with the highest note, 127, being a G9 @ 12543.9hz and the lowest, note 0, being a C-1 at 8.176hz. Obviously this is more than the standard full 88-key piano.
 
-Given human hearing starts at about 20hz, the lowest notes are inaudible except for harmonics assuming no octave shifting or other quirks. As such, these lowest notes are often repurposed for control messages, though even then a lot of sound sources will only respond to a limited range of these notes anyway.
+Given human hearing starts at about 20hz, the lowest notes are inaudible except for harmonics assuming no octave shifting or other quirks. As such, these lowest notes are often repurposed for control messages. Even if they're not, a lot of sound sources will only respond to a limited range of these notes anyway.
 
 While MIDI does have an [extension](https://en.wikipedia.org/wiki/MIDI_tuning_standard) for supporting alternate tunings, it's rarely directly supported. As microtonal and other non-12TET (12 True Equal Temperament) scales have become common, various tools exist to use MIDI pitch to force notes to a chose scale anyway.
 
@@ -164,23 +168,23 @@ word-wrap: break-word;
 
 #### Velocity
 
-Every MIDI note also gets sent with a corosponding velocity message. If you strike a key hard, it'll send a higher velocity value, soft, lower. If the controller doesn't support this, the note will be sent with a velocity of 127 (the maxium value) on every note. There's also a bit of strangeness where the note-off event (the release of a note) actually sends its own velocity as well. Typically, this is 0, though other values are possible.
+Every MIDI note also gets sent with a corosponding velocity message. If you strike a key hard, it'll send a higher velocity value, soft, lower. If the controller doesn't support this, typically the note will be sent with a velocity of 127 (the maxium value) on every note. There's also a bit of strangeness where the note-off event (the release of a note) actually sends its own velocity as well. Typically, this is 0, though other values are possible.
 
 Not all instruments/plugins/software will respond to velocity, and some may respond in different ways. A piano emulation for example may actually try to replicate the different ways piano keys sound when hit with more or less power, while a drum sampler may only varry the volume or ignore velocity all together.
 
 #### Aftertouch
 
-After touch is a sort of continuous velocity message. It's not nearly as commonly supported, but the idea is to send so that the pressure of your finger over time can change something about the sound. Unfortunately, aftertouch is *usually* shared by all the notes you're holding at a given moment, and only the highest value (most pressure) is sent. Devices that send multiple aftertouch messages are significantly less common- this is part because until MIDI 2.0 becomes more common, the only good way to do it is with **M**IDI **P**olyphonic **E**xpression capable controllers, which send each note on a separate MIDI channel, and then abuse this to make each channel aftertouch message only be associated with a single note. This is a bit hacky, but has become a sort of bolted-on standard to MIDI, and so a lot of software (though far from all) supports it now. Probably the most recognizable MPE controller is the ROLI seboard, which I linked back in the <a href="/music/instruments/">Instruments</a> chapter. MPE controllers tend to be on the very expensive side of things though.
+Aftertouch is a sort of continuous velocity message. It's not nearly as commonly supported, but the idea is to send so that the pressure of your finger over time can change something about the sound. Unfortunately, aftertouch is *usually* shared by all the notes you're holding at a given moment, and only the highest value (most pressure) is sent. Devices that send multiple aftertouch messages are significantly less common- this is part because until MIDI 2.0 becomes more common, the only good way to do it is with **M**IDI **P**olyphonic **E**xpression capable controllers, which send each note on a separate MIDI channel, and then abuse this to make each channel aftertouch message only be associated with a single note. This is a bit hacky, but has become a sort of bolted-on standard to MIDI, and so a lot of software (though far from all) supports it now. Probably the most recognizable MPE controller is the ROLI seboard, which I linked back in the <a href="/music/instruments/">Instruments</a> chapter. MPE controllers tend to be on the very expensive side of things though.
 
 ### CC's
 
-MIDI **C**ontrol **C**hange messages are what they sound like. They're used to represent turning knobs or moving sliders- controls. You can then move these knobs to control whatevery you like, and optionally record these movements to play them back or edit them after the facIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIt later- just like with notes.
+MIDI **C**ontrol **C**hange messages are what they sound like. They're used to represent turning knobs or moving sliders- controls. You can then move these knobs to control whatevery you like, and optionally record these movements to play them back or edit them after the fact later- just like with notes.
 
 Generally, controls get mapped to whatever parameter you want using **MIDI Learn**. This is a feature in most software where you click the 'Learn' button, click the parameter you want to control, and then move the physical control you want to map it to. Then, click the 'Learn' button again to resume normal operation. Now that knob or slider or whatever will control the virtual knob/slider.
 
 {{< columns >}}
 
-Here I'm controlling various parameters of a patch in VCV rack using a MIDI CC →CV module, though the better way to do this is probably to use [MIDI-MAP](https://library.vcvrack.com/Core/MIDI-Map) which let's you map a virtual knob to physical knob without the wire, which is generally a bit easily to understand. I've only used the wire breakout module here as I think it makes it more clear what's going on.
+Here I'm controlling various parameters of a patch in VCV rack using a MIDI CC →CV module, though the better way to do this is probably to use [MIDI-MAP](https://library.vcvrack.com/Core/MIDI-Map) which let's you map a virtual knob to physical knob without the wire, which is generally a bit nicer to use. I've only used the wire breakout module here as I think it makes it more clear what's going on.
 
 <--->
 
@@ -223,7 +227,7 @@ MIDI CC's are, typically, a one-way commuication. For *most* controllers, this i
 
 In the above table, the Sustain on CC 64 is listed. This CC is particularly important as when it's high, notes will continue to play as if the note off message never happened until it is let go. This is really fun to play with.
 
-If you're using a pino VST, there's at least a small chance that CC's 65-68 will work as intended to emulate the pedals on a real piano as well.
+If you're using a pino VST, there's at least a small chance that CC's 65-68 will work as intended to emulate the other pedals on a real piano as well.
 
 Sometimes the sustain CC is used as a control that is assumed to be on a pedal and would only be wanted as a momentry action, such as a repeated striking of the note or enabling a very heavy effect. This is realatively common in music plugins that emulate other instruments. For example, in a guitar emulation, the sustain pedal may act as a palm mute switch instead.
 
@@ -233,11 +237,32 @@ Sometimes the sustain CC is used as a control that is assumed to be on a pedal a
 
 ### Clock & Transport
 
-MIDI clock is a fucking nightmare. At the bare basics, it just tries to 
+#### Clock
+
+Imagine you're back in the '80s designing the MIDI protocol. How would you impliment clocking? Would you send every device one message that is the tempo, followed by maybe an extra message for swing, or other different parameters? That seems pretty reasonable, though does fail if we want smooth transistions in tempo, and you'll still need to compenstate for offsets in timing from signal latency.
+
+What you probably didn't think is "Let's just send a fuck load of clock ticks down the wire".
+
+This is exactly what MIDI clocking does. By default, it's 24 pulses per quarter note (ppqn), and this is used to distribute clock around. This is a very, very stupid design. Yes, it's the 80's and even the idea of making music with computers - computers which had heavy hardware contraints mind you - was new, but come on, what the fuck?!
+
+Anyway, here we are. So, what are the implications of this:
+
+* MIDI clock does not have built in time-correction. If there's a 2ms delay coming out your computer, a 2ms delay for the device to process the midi input, and a 5ms delay on the audio from the device back into your recording interface, you'll need to offset the input by -7ms. This is extraordianly awkward, as the device now needs to know *future* inputs.
+* MIDI clock can have stability issues. If the tempo is 120BPM, that's 2 notes a second, so at 24ppqn, 48 pulses a second, which comes out to be 1 pulse every 20.833 milliseconds. This will absolutely varry a bit, if we assume the clock varries even by ±1 millisecond that will thow us off to anywhere from 45.8 to 50.4 pulses a second, which equates to about 114.5 to 126.1 BPM. That's a lot of varience for a pretty minor hickup in our clock signal. Even if it averages out, there's still a good chance some of the beats will hit at weird times, causing phasing issues. See [this video from Expert Sleepers (YouTube)](https://www.youtube.com/watch?v=qyuSIR0z-lQ) to see how this actually looks.
+
+Just be aware this may cause you problems and that none of the solutions to the problem are any fun. Also, MIDI Through only makes the problem worse- more on that in a bit
+
+#### Transport & Midi Time Code
+
+[TODO]
 
 ### Program Change
 
+[TODO]
+
 ### SysEX
+
+[TODO]
 
 ## MIDI's Phsical Connections & Throughput
 
@@ -260,6 +285,7 @@ This is the old school way that MIDI works.
 
 1. The connection is *optoisolated* this means that ground isn't sent over the cable, preventing ground loops. This may be a fix if a device offers both USB and 5-Pin DIN midi.
 2. Despite being a 5-pin cable, only 3 pins are used
+3. The cable **is not bidirectional**- if the device you're connecting needs to send data to something and get data back, you'll need two cables
 
 ### TRS-A & TRS-B & TS?
 
@@ -267,8 +293,27 @@ This is the old school way that MIDI works.
 2. Like 5-Pin DIN MIDI, MIDI over TRS is optoisolated, so you shouldn't have to worry about ground loops
 3. The standard is also often used on guitar pedals, though it shouldn't be confused with guitar pedal expression input or control voltage, which are both analog communication not digital like MIDI
 4. There are plenty of adapters out there to go between TRS MIDI and 5-Pin DIN, but again, make sure it's the right TRS Standard (A/B)
+5. The cable **is not bidirectional**- if the device you're connecting needs to send data to something and get data back, you'll need two cables
 
-### Throughput
+### MIDI Through
+
+MIDI though is a feature where there's an extra MIDI port that just passes the input data along. Say you have your computer with one USB→5-Pin DIN MIDI adapter so you send that data first to a polyponic synth, listening on channel 1, for playing chords and that synth has a midi though so you can connect that to the input of your next device, say a drum machine, and have that react to inputs on channel 2, and so on. This just allows for a much cleaner cable setup.
+
+<img src="/midithru.svg" alt=" ">
+
+MIDI though may or may not actually pass the output of the device too, so if that synth keyboard is acting as an *input* device to the computer (not playing sound as notes are sent to it *from* the computer) then it may or may not put those notes its playing out the midi-though, it just depends on the device. Here, I've shown a setup where the first device does have an input MIDI connection sending data to the computer, with a second connection. Most USB to MIDI adapters will have one MIDI input and one midi output. Meanwhile, many MIDI sound-making-device (synths, drum machines, etc) will only have an input and maybe a though, and many MIDI controllers (keyboards etc. that don't make their own sounds) will only have a MIDI output, no input. What this means is often, if you're going to be using MIDI though, you'll want to have a device that you want acting as both an input and output first in your chain, followed by devices that only need MIDI Input.
+
+Confused?
+
+Alright, so, because 5-Pin DIN and TRS MIDI are both one way, the though acts only as an output, meaning you can chain devices *but* those devices will only recieve data, not send it. Essentially, the main use of this is getting one USB→MIDI adapter to sequence many sound-making devices, and usually sharing clock among all of them.
+
+The big other use of MIDI though is when you've got a device doing MIDI over USB, but the device has a MIDI output or though such that the device can act as USB →5-Pin Din/TRS MIDI adapter for another piece of gear.
+
+In my setup I have a MIDI controller pedal that allows me to send whatever MIDI messages I want with my feet (handy when holding a guitar) and it is connected via USB to my computer, so that I can control any software effects I want to run my guitar though. This same pedal also has a 5-Pin DIN output, that will both output messages it generates and messages it recieves though USB (acting as a though) and I'm sending that signal up to a multi-effect guitar pedal. This means I can use the controller pedal as a controller for both software effects and the hardware multieffect pedal simultaniously, but even better, it means I can send data from my software, though the controller pedal, and out to the multi-effect pedal. This makes for an extraordinarly flexible setup. It's really nice for sending CC's to the hardware pedal and software simultiously, recording the CC automation, then playing it back if I want to do a second take or multi-track.
+
+There is one final issue you may have with MIDI though that you should be aware of- as previously mentioned, some devices will just pass the MIDI input to the Though unaffected, even if that device can add it's own MIDI data, others will add on their own output. In the former case, *some* devices will literally just connect the in to the though electrically, resulting in no delay, while some will buffer the midi signal digitally and output it again, this ends up adding a very slight delay. In the latter case, this delay is almost gaurenteed. The delay is really a concern as it ends up affecting the MIDI clock signal as well, which means the clocking can get more delayed with each MIDI though. This is typically not a problem in reality, as the effects are usually not perceptible, but you should still be aware of it.
+
+### Bandwidth
 
 One thing you need to be aware of that a combonation of which of these physical connections you're using and what the devices you're using have for processing power will determine the maximum rate that you can push MIDI messages to a given device.
 
@@ -298,15 +343,17 @@ MIDI 2.0 is the new spec that aims to be both backwards compatible with the MIDI
 
 **I can't belive it's not MIDI!**
 
-
+OSC is an alternative to MIDI you'll often see used when either higher resolution controls (more than the 0-127 of MIDI) or network control (using your phone as a control surface over WIFI, for example) is needed. Support is a bit all over the place, as a lot of major DAWs don't have built in support but can work with 3rd party tools, but there are very few hardware synths and controllers that use it, making it mostly useful for software controller implimentions that provide touch-screen knobs and faders - like [Touch OSC](https://hexler.net/touchosc#get) for mobile devices, speciality controllers like using the [Leap Motion](https://www.ultraleap.com) for sending control messages, or over-the network colaborative jamming - where each player can send signals  that other players can use, each from their own laptop. There are various [OSC Modules](https://library.vcvrack.com/?query=&brand=trowaSoft&tag=&license=) for VCV Rack.
 
 ## Mackie Control
 
-
+[TODO]
 
 ## Ableton Link
 
 **Alright everyone, syncronize your watches!**
+
+Ableton Link works in more than just ableton, it's a protocol for sending clock and time codes to multiple devices or software that makes syncronization realatively easy. It supports sending the clock and adding/subtracting an offset to correct for latency in whatever conection you're using. It *is not* sent over MIDI or OSC or another existing music protocol. It's its own thing that gets sent over the network. While some hardware has added support for Link, it's still largely a software thing at the time of writing. There is even a [link module](https://library.vcvrack.com/StellareModular-Link/Link2) for VCV Rack.
 
 
 
