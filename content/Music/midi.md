@@ -27,7 +27,7 @@ So, let's poke into some of the common MIDI message types, starting with the mos
 
 ### Channels
 
-While not a message in itself, it's necessary to note that MIDI connections provide 16 channels of communication, usually each device only uses one channel at a time, and you can use this for multiple things. If your keyboard makes channing the active channel easy, you may want to setup a different instrument on each channel, so you could switch between playing a piano or synth sound on channels 1 and 2 easily. The other big use is if you have multiple hardware devices that recieve MIDI messages and make sound, like synthesizers and drum machines. You can chain them together with MIDI Though (more on this later) and have each one listen for notes on it's own channel while using less cables.
+While not a message in itself, it's necessary to note that MIDI connections provide 16 channels of communication, usually each device only uses one channel at a time, and you can use this for multiple things. If your keyboard makes channing the active channel easy, you may want to setup a different instrument on each channel, so you could switch between playing a piano or synth sound on channels 1 and 2 easily. The other big use is if you have multiple hardware devices that recieve MIDI messages and make sound, like synthesizers and drum machines. You can chain them together with MIDI Through (more on this later) and have each one listen for notes on it's own channel while using less cables.
 
 ### Notes
 
@@ -170,11 +170,11 @@ word-wrap: break-word;
 
 Every MIDI note also gets sent with a corosponding velocity message. If you strike a key hard, it'll send a higher velocity value, soft, lower. If the controller doesn't support this, typically the note will be sent with a velocity of 127 (the maxium value) on every note. There's also a bit of strangeness where the note-off event (the release of a note) actually sends its own velocity as well. Typically, this is 0, though other values are possible.
 
-Not all instruments/plugins/software will respond to velocity, and some may respond in different ways. A piano emulation for example may actually try to replicate the different ways piano keys sound when hit with more or less power, while a drum sampler may only varry the volume or ignore velocity all together.
+Not all instruments/plugins/software will respond to velocity, and some may respond in different ways. A piano emulation for example may actually try to replicate the different ways piano keys sound when hit with more or less power, while a drum sampler may only vary the volume or ignore velocity all together.
 
 #### Aftertouch
 
-Aftertouch is a sort of continuous velocity message. It's not nearly as commonly supported, but the idea is to send so that the pressure of your finger over time can change something about the sound. Unfortunately, aftertouch is *usually* shared by all the notes you're holding at a given moment, and only the highest value (most pressure) is sent. Devices that send multiple aftertouch messages are significantly less common- this is part because until MIDI 2.0 becomes more common, the only good way to do it is with **M**IDI **P**olyphonic **E**xpression capable controllers, which send each note on a separate MIDI channel, and then abuse this to make each channel aftertouch message only be associated with a single note. This is a bit hacky, but has become a sort of bolted-on standard to MIDI, and so a lot of software (though far from all) supports it now. Probably the most recognizable MPE controller is the ROLI seboard, which I linked back in the <a href="/music/instruments/">Instruments</a> chapter. MPE controllers tend to be on the very expensive side of things though.
+Aftertouch is a sort of continuous velocity message. It's not nearly as commonly supported, but the idea is to send so that the pressure of your finger over time can change something about the sound. Unfortunately, aftertouch is *usually* shared by all the notes you're holding at a given moment, and only the highest value (most pressure) is sent. Devices that send multiple aftertouch messages are significantly less common- this is partly because until MIDI 2.0 becomes more common, the only good way to do it is with **M**IDI **P**olyphonic **E**xpression capable controllers, which send each note on a separate MIDI channel, and then abuse this to make each channel aftertouch message only be associated with a single note. This is a bit hacky, but has become a sort of bolted-on standard to MIDI, and so a lot of software (though far from all) supports it now. Probably the most recognizable MPE controller is the ROLI seboard, which I linked back in the <a href="/music/instruments/">Instruments</a> chapter. MPE controllers tend to be on the very expensive side of things though.
 
 ### CC's
 
@@ -211,7 +211,6 @@ Unfortunately, NRPN support is super fucked up and support for it varries pretty
 | 8 or 10 (+40 or 42) | Pan                                 | 0=Left, 127=Right, 64=Center                                 |
 | 64                  | Sustain Pedal                       | When high (>64) hold all notes played until the CC goes low. Usually a pedal for piano |
 | 65, 66, 67, 68      | Portamento, Sostenuto, Soft, Legato | These CC's aren't often supported, but provide the other pedal controls that some MIDI keyboards will have as foot pedals. **Very few VSTs will respond to these correctly.** |
-| 33                  | Mod Wheel LSB                       | *sometimes* used for extra resolution on the mod wheel, very rare though |
 | 120                 | Mute                                | Channel Mute, but sometimes acts as master mute, depends on implimentation |
 | 123                 | All Off                             | Force all MIDI notes OFF, not always supported               |
 
@@ -264,7 +263,7 @@ Just be aware this may cause you problems and that none of the solutions to the 
 
 [TODO]
 
-## MIDI's Phsical Connections & Throughput
+## MIDI's Physical Connections & Throughput
 
 So, there are multiple physical connections that MIDI data can run though- USB, TRS, and 5-pin DIN.
 
