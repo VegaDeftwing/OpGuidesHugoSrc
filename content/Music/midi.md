@@ -6,11 +6,11 @@ Sounds Great?
 
 For the most part, yeah. Everything works together and you can make all your hardware speak the same language. Let your keyboard talk to your computer and then your computer talk to your drums so that you can play the drums with your keyboard! Send automation from your computer to a parameter on your synth to vary the sound over time, whatever.
 
-The Catch? MIDI is outright ancient by technology standards, having come out in 1981. It's so damn old, that it's (mostly) a 7-bit standard. Now, ideally, a musician shouldn't have to know all this shit and the gear should stay out of the way. Unfortunately, we've been sticking with this standard for so damn long that basically everything abuses it in one way or another to the extent you sorta have to know how it works. So, 7-bit, what does that mean?
+The Catch? MIDI is outright ancient by technology standards, having come out in 1981. It's so damn old, that it's (mostly) a 7-bit standard. Now, ideally, a musician shouldn't have to know what this means and the gear should stay out of the way. Unfortunately, we've been sticking with this standard for so long that basically everything abuses it in one way or another to the extent you sorta have to know how it works. So, 7-bit, what does that mean?
 
-Well, it's talking about bits, so 1's and 0's. For each message in midi, you get 7 bit's of data. So, when you turn a knob it can range from 0000000 to 1111111, which, works out to be 0 to 127. This means each knob, even if it feels smooth to you, only has 127 distinct levels whatever it's talking to can receive. This is *really* bad. But, wait, it gets worse. This applies to *almost everything in MIDI, so how hard you hit the keys and how finely you can set the volume with a physical slider. Clearly, this blows.
+Well, it's talking about bits, so 1's and 0's. For each message in midi, you get 7 bit's of data. So, when you turn a knob it can range from 0000000 to 1111111, which, works out to be 0 to 127. This means each knob, even if it feels smooth to you, only has 128 distinct levels whatever it's talking to can receive. This is *really* bad. But, wait, it gets worse. This applies to *almost* everything in MIDI, so how hard you hit the keys and how finely you can set the volume with a physical slider. This really just isn't fine enough control.
 
-And, it so happens, everyone agrees. Because of that, there's a whole fustercluck of solutions. Some you might see include
+Because of that, there's a whole fustercluck of solutions. Some you might see include
 
 * MIDI **N**on-**R**egistered **P**art **N**umber ([NPRN](https://en.wikipedia.org/wiki/NRPN)) is one way MIDI controllers can send higher resolution signals (14bit so, 0 to 16384) by putting two, 7-bit CC's values together such that one controls the **M**ost **S**ignificant **B**yte (MSB) and the other the **L**east **S**ignificant **B**yte (LSB)
 * **O**pen **S**ound **C**ontrol (OSC) *isn't* MIDI, but rather a competing standard that's much higher resolution and can work over ip (wifi), but it's not universally supported like MIDI
@@ -21,7 +21,7 @@ And, it so happens, everyone agrees. Because of that, there's a whole fustercluc
 
 Well, it's pretty much still the only one you can sequence notes in your DAW, that all instruments interface with each other and a computer, and often the only way you can control digital instruments and effects from hardware.
 
-So, let's poke into some of the common MIDI message types, starting with the most obvious: Notes.
+So, let's dive into the details and see how MIDI actually works
 
 ## Types of Midi Messages
 
@@ -192,9 +192,9 @@ Here I'm controlling various parameters of a patch in VCV rack using a MIDI CC �
 
 {{< /columns >}}
 
-Typically, you'll also be able to record and edit your adjustments of MIDI CC's after the fact. This is *usually* done in the same place as all other automation in whatever software you're using.
+Typically, you'll also be able to record and edit your adjustments of MIDI CC's after the fact. This is *usually* done in the same place as all other automation in whatever software you're using, and typically in the same area that you place clips of MIDI note data
 
-[TODO] Ableton Automation Lane Picture
+![CCAutomationLanes](/CCAutomationLanes.svg)
 
 Because MIDI CC's are only 7-bit (like the nearly the rest of MIDI) the resolution is trash and many programs will actually interpolate (morph) between values. This prevents knobs from feeling like they're clicky with only so many positions and instead makes them behave more like you'd actually expect, though not all software does this.
 
@@ -230,9 +230,23 @@ If you're using a pino VST, there's at least a small chance that CC's 65-68 will
 
 Sometimes the sustain CC is used as a control that is assumed to be on a pedal and would only be wanted as a momentry action, such as a repeated striking of the note or enabling a very heavy effect. This is realatively common in music plugins that emulate other instruments. For example, in a guitar emulation, the sustain pedal may act as a palm mute switch instead.
 
+On most physical controllers that offer a sustain pedal, it is attached via a 1/4" TS cable on the back. You can get sustain pedals for pretty cheap that work with this both 'piano style' that look like traditional piano pedals, and synth style, that are flat switches. I've had better luck with the latter, as my [Korg PS-1 Footswitch (Amazon)](https://www.amazon.com/Single-Momentary-Pedal-Footswitch-Keyboard/dp/B000UP8S0Y/) has held up rather well
+
 ### Pitchbend
 
-[TODO] 14-bit, but often not really
+{{< columns >}}
+
+<img src="/pitchwheel.webp">
+
+<--->
+
+Pitchbend is inherently a simple idea, play a note, move this wheel and the note will 'bend' in pitch up or down, similar to a whammy bar on a guitar. There are some things you should know about how it works in MIDI though:
+
+Throughout this page I've been referencing MIDI typically only being 7-bit. MIDI pitch bend is the main reason for this "typically" as it is a 14 bit value, so it ranges from 0 to 16383 instead of the 0 to 127 of everything else. This is necessary as pitch bend is used for, well, bending the pitch of a note. If it only had 127 values, you'd be able to hear as  it snapped to particular pitches. The pitch bend can go both ways, so a value of 8192 (half of 16383) represents no pitch bend. Confusingly, the range of the pitch bend varies by the software or hardware you're sending the pitch bend message too. The 'default' range is ±2 semitones; however, I've found that both ±12 semitones (1 octave up, and 1 octave down) as well as ±24 semitones are reasonably common as well.
+
+{{< /columns >}}
+
+While the pitchbend MIDI message supports 14bits of resolution, may MIDI controllers will not actually read in 14 bits of resolution, so they will feel less smooth than the standard actually allows for. If you like to play with pitchbend a lot, this may be something you want to research before buying a MIDI controller.
 
 ### Clock & Transport
 
