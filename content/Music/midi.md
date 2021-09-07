@@ -265,15 +265,37 @@ Anyway, here we are. So, what are the implications of this:
 
 Just be aware this may cause you problems and that none of the solutions to the problem are any fun. Also, MIDI Through only makes the problem worse- more on that in a bit
 
-#### Transport & Midi Time Code
+#### Transport
 
 [TODO]
+
+#### Midi Time Code
+
+MIDI Time Code or MTC is what is used for devices to talk to each other and say what part of a song their at. Say you have a DAW playing most of your tracks and a drum machine taking care of drums, that is supposed to play different patterns at different times. You could send a midi note or program change or other message to change pattern if the device supports it, but having it change the pattern based on time code works a bit better. For example, if there's a long section playing the same pattern and you seek to it, you may not end up triggering that special message to tell it to change. With MTC the drum machine could say "Oh, We're 20 seconds in, I need to play the drums for this section now!" and, ideally, even catch up halfway though the pattern, so the drum beat doesn't get off as you seek around to a different place in the song you're working on.
+
+So, how does it work?
+
+MTC is actually based on SMPTE Timecode, so what's that? SMPTE stands for *Society of Motion Picture and Television Engineers*, so SMPTE Timecode is, unsurprisingly, for video time codes. In video, each picture shown is a frame, and there were multiple standards for how many times the frame should change per second- the frames per second or *FPS*. Unlike in gaming, this is a fixed, standard number for video *except* that the standard varied by region for older, alalog television. As such, MIDI clock is actually based on 'frames per second' and there are multiple competing standards, but let's work our way to that:
+
+If you've ever used old game consoles (like the NES) with the composite video out, you may have encountered some of these standards, namely NTSC and PAL. In North America NTSC is standard, while across the pond you'd find PAL (and SECAM, but that isn't relevant here). The biggest difference between NTSC and PAL is the frame rate - 
+
+But before we get to to framerate, we need to talk power line frequency - In most of North America the mains power from the wall is 60Hz, and pretty much everywhere else it's 50Hz. This is relevant, as NTSC and PAL video each had a frame rate that was half of the power line frequency: 30Hz for NTSC and 25Hz for PAL.
+
+So, now we're almost there, there's actually yet another complication, the time code could also be 24Hz (to match the 24FPS of film as was standard in theaters) or 29.97Hz because NTSC had to be slowed this slight amount to accommodate adding color to otherwise black and white video
+
+Alright, so all of that is to say, MIDI timecode is based on one of four *frame rates* despite not actually having frames: 24, 25, 29.97, or 30Hz.
+
+Things only get weirder though, as technically, MIDI Timecode is based on the time of day and it repeats after 24 hours, so there's a hard limit on tracks to 24 hours (not that you'd probably ever hit this anyway).
+
+Not yet satisfied with how much of a mess this is, MIDI timecode is actually broken into 8, 4-bit sized pieces that are then sent on every {{< katex >}}\frac{1}{4}{{< /katex >}} frame, but that means to send the full 32 bits for one time code, 2 frames actually have to pass, so the resolution is only to every 2 frames, or 12, 12.5, 14.985, or 15Hz depending on the video standard used. This effectively means when seeking you're limited to somewhere between 0.0833 and .0667 seconds jumps.
 
 ### Program Change
 
 [TODO]
 
 ### SysEX
+
+System Exclusive Messages- typically just called "SysEx" 
 
 [TODO]
 
