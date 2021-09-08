@@ -37,7 +37,7 @@ Given human hearing starts at about 20hz, the lowest notes are inaudible except 
 
 While MIDI does have an [extension](https://en.wikipedia.org/wiki/MIDI_tuning_standard) for supporting alternate tunings, it's rarely directly supported. As microtonal and other non-12TET (12 True Equal Temperament) scales have become common, various tools exist to use MIDI pitch to force notes to a chose scale anyway.
 
-General MIDI, one of various MIDI extensions (that often get ignored anyway) also defines a few specific instruments to belong to specific midi channels (rarely used unless listening to midi files directly with soundfonts) and a mapping for drums, which is used a bit more often, and is generally close to the normal mapping you'll see in tools like Ableton's Drum Rack. If you buy an electronic drum kit or use a drum machine, it's likely to at least try to respect this mapping.
+General MIDI, one of various MIDI extensions (that often get ignored anyway) also defines a few specific instruments to belong to specific midi channels and program change messages (rarely used unless listening to midi files directly with soundfonts) one of these is a drum setting, which is really the only one that is still commonly used, and is generally close to the normal mapping you'll see in tools like Ableton's Drum Rack. If you buy an electronic drum kit or use a drum machine, it's likely to at least try to respect this mapping.
 
 {{< details "General MIDI Drum Map" >}}
 
@@ -265,9 +265,9 @@ Anyway, here we are. So, what are the implications of this:
 
 Just be aware this may cause you problems and that none of the solutions to the problem are any fun. Also, MIDI Through only makes the problem worse- more on that in a bit
 
-#### Transport
+#### Transport & MMC
 
-[TODO]
+MIDI Machine Control or MMC is the part of the MIDI spec that defines the ability for devices to send and receive transport control messages. These include play, pause, stop, record start and stop, as well as fast-forward and rewind among others you can see [In the Wikipedia article](https://en.wikipedia.org/wiki/MIDI_Machine_Control). Technically, these are sent as SysEx messages, which I'll touch on in a bit, but unlike the broader use of SysEx messages, these messages are pretty universally supported.
 
 #### Midi Time Code
 
@@ -291,13 +291,13 @@ Not yet satisfied with how much of a mess this is, MIDI timecode is actually bro
 
 ### Program Change
 
-[TODO]
+Program change messages are generally used for switching between presets on a device. They're also used by General MIDI with some default settings for instruments to belong to a certain channel, which allows some media players to play back MIDI files with the correct instrument assigned per track, albeit these default instruments usually sound quite bad. This isn't really used anymore, though it might be of interest if you're trying to write music that's supposed to sound like it's from a 90's video game.
+
+Generally though, you'll just use program change messages to alternate between presets of a hardware or software device. Keep in mind, these changes are usually abrupt, so if you only want to adjust two knobs or something, you may be better off using CC's to smoothly transition from one state to the other.
 
 ### SysEX
 
-System Exclusive Messages- typically just called "SysEx" 
-
-[TODO]
+System Exclusive Messages- typically just called "SysEx". The name sorta says it all, these are messages that are specific to a given device (or software). It's often used for firmware updates, though may also be used for configuration, uploading presets or sounds, and even just sending control messages on some older hardware. Usually, if your device updates via SysEx it will have a nice GUI updater, but if that fails you may have to use something else. On Windows, [MIDI-OX](http://www.midiox.com) is complicated, but probably your best bet. If you want to send SysEX from your DAW for live control, it may be complicated. Ableton supports it, but only using M4L, which is expensive. For other DAWS, YMMV. Renoise, for example, has decent support with 3rd party utilities like [Guru](https://www.renoise.com/tools/guru) providing hardware mappings for some popular synths. Meanwhile, Bitwig and FL Studio can't send SysEx at all.
 
 ## MIDI's Physical Connections & Throughput
 
@@ -348,6 +348,16 @@ In my setup I have a MIDI controller pedal that allows me to send whatever MIDI 
 
 There is one final issue you may have with MIDI though that you should be aware of- as previously mentioned, some devices will just pass the MIDI input to the Though unaffected, even if that device can add it's own MIDI data, others will add on their own output. In the former case, *some* devices will literally just connect the in to the though electrically, resulting in no delay, while some will buffer the midi signal digitally and output it again, this ends up adding a very slight delay. In the latter case, this delay is almost gaurenteed. The delay is really a concern as it ends up affecting the MIDI clock signal as well, which means the clocking can get more delayed with each MIDI though. This is typically not a problem in reality, as the effects are usually not perceptible, but you should still be aware of it.
 
+### Virtual MIDI Ports
+
+Virtual MIDI ports are quite handy, as they allow you to route MIDI messages between two software programs on your computer, mix multiple midi devices together, etc.
+
+**Arch Linux** (should work in other distros too): Make a file called `snd-seq-dummp.conf` in `/etc/modprobe.d/` and put `options snd-seq-dummy ports=4` in it. You may also need to use the application `a2jmidid` with the `-e` flag to route MIDI though Jack Audio applications, though most programs can use Jack for audio and ALSA for MIDI. Restart, and now you should have more virtual ports. You can check by looking though /dev for more midi devices. 
+
+**Windows:** use [Loop MIDI](http://www.tobias-erichsen.de/software/loopmidi.html) by Tobias Erichsen
+
+**MAC:** Built in with `Audio MIDI Setup`, open that and goto 'IAC Driver' then check 'Device is Online'
+
 ### Bandwidth
 
 One thing you need to be aware of that a combonation of which of these physical connections you're using and what the devices you're using have for processing power will determine the maximum rate that you can push MIDI messages to a given device.
@@ -390,7 +400,7 @@ Human User Interface Protocol (commonly abbreviated to HUI) is a proprietary MID
 
 So, MCU and HUI are *technically* different things, but they seem to be used interchangeably. But, what is it good for? 
 
-**M**ackie **C**ontrol **U**niversal (MCU) is a fustercluck of a non-standard developed by Mackie, a particular hardware manufacture, for one of their hardware controllers. While originally MCU was made for Apple's *Logic* DAW, it eventually the control 'standard' found its way into other DAWs. It mostly provide a 'universal' mapping for common functions like mute, solo, track select, EQ and what not. It's especially nice as MCU is 10bit (1024 values) and bidirectional - the controller can show the current volume or whatever on a screen easily- though it all still runs over MIDI, so devices using it mostly use USB MIDI. The specifics of how MCU works is sort of a nightmare to dig up, [this thread](https://forum.cockos.com/showthread.php?t=101328) is probably a good starting place should you have to look into it for some reason. The main take away is that HUI is used to provide this deeper integration into your DAW than normal MIDI provides alone, and that quite a few controllers now support it, for example ['Launch' series devices from Novation](https://novationmusic.com/en/keys/launchkey), the [Studiologic Mixface](https://www.studiologic-music.com/products/mixface/), and [Behringer X-Touch](https://www.behringer.com/product.html?modelCode=P0B1X), just to name a few. Just ctrl+f on these pages for HUI or MCU and you'll see it. Most of these controllers have a focus on what would traditionally be at a large mixing console- per track volume faders, pan, transport controls, etc.
+**M**ackie **C**ontrol **U**niversal (MCU) is a fustercluck of a non-standard developed by Mackie, a particular hardware manufacture, for one of their hardware controllers. While originally MCU was made for Apple's *Logic* DAW, it eventually the control 'standard' found its way into other DAWs. It mostly provide a 'universal' mapping for common functions like mute, solo, track select, EQ and what not. It's especially nice as MCU is 10bit (1024 values) and bidirectional - the controller can show the current volume or whatever on a screen easily- though it all still runs over MIDI, so devices using it mostly use USB MIDI. The specifics of how MCU works is sort of a nightmare to dig up, [this thread](https://forum.cockos.com/showthread.php?t=101328) is probably a good starting place should you have to look into it for some reason. The main take away is that HUI is used to provide this deeper integration into your DAW than normal MIDI provides alone, and that quite a few controllers now support it, for example ['Launch' series devices from Novation](https://novationmusic.com/en/keys/launchkey), the [Studiologic Mixface](https://www.studiologic-music.com/products/mixface/), and [Behringer X-Touch](https://www.behringer.com/product.html?modelCode=P0B1X), just to name a few. Just ctrl+f on these pages for HUI or MCU and you'll see it. Most of these controllers have a focus on what would traditionally be at a large mixing console- per track volume faders, pan, eq, and track selection (which track you want to arm for recording).
 
 ## Ableton Link
 
