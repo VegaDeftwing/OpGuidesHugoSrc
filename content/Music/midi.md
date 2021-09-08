@@ -305,9 +305,9 @@ So, there are multiple physical connections that MIDI data can run though- USB, 
 
 <img src="/midipinout.svg" alt=" ">
 
-### USB MIDI
+### MIDI over USB
 
-USB Midi can run over just about any USB connection you're used to- micro, mini, USB-C, and often that chonky square one that printers still use. There are four things you should know about USB midi:
+MIDI can run over just about any USB connection you're used to- micro, mini, USB-C, and often that chonky square one that printers still use. There are four things you should know about USB midi:
 
 1. *Typically* it's two way. The usb connection will provide both MIDI *to* and *from* the connected device.
 2. USB devices have the concept of *Host* and *Device*. This means that with USB MIDI devices you can run into a situation where you may want to connect something that expects to have a USB *device* (like a keyboard) attached to it, but you want to connect a host (like your computer) and use it as a device. This may requrie you use an adapter.
@@ -352,7 +352,7 @@ There is one final issue you may have with MIDI though that you should be aware 
 
 Virtual MIDI ports are quite handy, as they allow you to route MIDI messages between two software programs on your computer, mix multiple midi devices together, etc.
 
-**Arch Linux** (should work in other distros too): Make a file called `snd-seq-dummp.conf` in `/etc/modprobe.d/` and put `options snd-seq-dummy ports=4` in it. You may also need to use the application `a2jmidid` with the `-e` flag to route MIDI though Jack Audio applications, though most programs can use Jack for audio and ALSA for MIDI. Restart, and now you should have more virtual ports. You can check by looking though /dev for more midi devices. 
+**Arch Linux** (should work in other distros too): Make a file called `snd-seq-dummp.conf` in `/etc/modprobe.d/` and put `options snd-seq-dummy ports=4` in it. You may also need to use the application `a2jmidid` with the `-e` flag to route MIDI though Jack Audio applications, though most programs can use Jack for audio and ALSA for MIDI. Restart, and now you should have more virtual ports. You can check by looking though /dev for more midi devices. There's a lot of options here, as with all things Linux, so you should probably read [some Wiki Pages](https://wiki.archlinux.org/title/Professional_audio#MIDI).
 
 **Windows:** use [Loop MIDI](http://www.tobias-erichsen.de/software/loopmidi.html) by Tobias Erichsen
 
