@@ -108,6 +108,16 @@ For example, if three of the five students with the best college grades went to 
 
 {{< /columns >}}
 
+## Sunk Cost
+
+{{< quote Wikipedia>}}
+
+**Escalation of commitment** is a human behavior pattern in which an individual or group facing increasingly negative outcomes from a decision, action, or investment nevertheless continues the behavior instead of altering course. The actor maintains behaviors that are irrational, but align with previous decisions and actions.
+
+{{< /quote >}}
+
+Basically, people get determined and don't want to feel like their prior time or money was wasted.
+
 ## Pareto Principle
 
 [Pareto Principle (Wikipedia)](https://en.wikipedia.org/wiki/Pareto_principle)

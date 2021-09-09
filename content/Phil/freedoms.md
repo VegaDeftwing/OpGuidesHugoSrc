@@ -16,6 +16,14 @@ slug: "Freedoms"
 
 {{< /attribution >}}
 
+[TODO] Hate speech?
+
+[TODO] Limits, XY plot of how much harm vs risk for shutting down 'good' speech
+
+* Don't Yell Fire
+* Don't lie to cause harm "That man punched my baby"
+* (Questionable) Don't incite violence "Let's burn down the police station"
+
 ## Freedom of Press
 
 Everyone is press, https://www.eff.org/bloggers
