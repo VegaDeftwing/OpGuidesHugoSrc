@@ -214,8 +214,8 @@ headless: true
 <dt>1 </dt><dd> <a href="/phil/basic-phil/">Basic Philosophy</a></dd>
 <dt>2 </dt><dd> <a href="/phil/fallacies/">Logical Fallacies+</a></dd>
 <dt>3 </dt><dd> <a href="/phil/arguments/">Arguments</a></dd>
-<dt>4 </dt><dd> <a href="/phil/community/">Community Efforts</a></dd>
-<dt>5 </dt><dd> <a href="/phil/idea-labs/">Community Idea Labs</a></dd>
+<dt>4 </dt><dd> <a href="/phil/idea-labs/">Community Idea Labs</a></dd>
+<dt>5 </dt><dd> <a href="/phil/community/">Community Efforts</a></dd>
 <dt>6 </dt><dd> <a href="/phil/education/">Education</a></dd>
 <dt>7 </dt><dd> <a href="/phil/labor/">Labor & Compensation</a></dd>
 <dt>8 </dt><dd> <a href="/phil/copyright/">Copyright</a></dd>
