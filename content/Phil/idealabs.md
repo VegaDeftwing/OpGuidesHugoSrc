@@ -6,7 +6,7 @@ slug: "Idea Labs"
 
 # Idea Labs
 
-This page is heavily inspired by [Idea Labs and Echo Chambers](https://waitbutwhy.com/2019/10/idea-labs-echo-chambers.html), which is Part 8 of [The Story Of Us](https://waitbutwhy.com/2019/08/story-of-us.html). It's a long read, but worth the time. Rather than try to repeat here what is put so well there, I'm going to recommend you read at least that section and come back here.
+This page is heavily inspired by [Idea Labs and Echo Chambers](https://waitbutwhy.com/2019/10/idea-labs-echo-chambers.html), which is Part 8 of [The Story Of Us](https://waitbutwhy.com/2019/08/story-of-us.html). It's a long read, but worth the time- you could read just the one part; however, I think it will be harder to understand without the previous 7 parts as context. Rather than try to repeat here what is put so well there, I'm going to recommend you read at least that section and come back here.
 
 Read it? Cool.
 
@@ -81,53 +81,141 @@ So, while we want to avoid bad ideas, we still want to generate as many novel, g
 
 **Active** - Active means more than just ongoing participation. It means events, competitions, chances to demonstarte knowledge and challage one another. Give people a time to look forward to and plan to interact in advance. Services like https://www.gather.town, https://www.calla.chat, or even using [Spacial Audio With Minecraft](https://www.highfidelity.com/blog/how-to-create-a-minecraft-mod-with-spatial-audio-voice-chat)
 
+If you're lucky, there may be a [hackerspace near you](https://wiki.hackerspaces.org/List_of_Hacker_Spaces), it's worth checking at least ↓
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/nsiYTBQpIJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+I'll touch more on community resources and what a healthy community looks like in the next page, <a href="/phil/community/">Community Efforts</a>
+
 ### Host or join a community knowledge garden
 
-A community is great, but having a community repository of ideas and knowledeg is even better. Everyone brings a different background, and with enough contributors a lot can happen. Small contributions, every day, over the course of a long time can make something much bigger than you may initally think possible.
+{{< columns >}}
+
+<img src="/groupwork.svg" alt=" ">
+
+<--->
+
+A community is great, but having a community repository of ideas and knowledge is even better. Everyone brings a different background, and with enough contributors a lot can happen. Small contributions, every day, over the course of a long time can make something much bigger than you may initially think possible.
 
 While I love OpGuides, even I acknowledge the way it is setup makes contribution less than seamless. If you're going to setup a knowledge garden of your own, make sure it's setup in a way that everyone in the community finds accessible. If everyone knows how to use git, then maybe something like a fork of this site is a good start, otherwise, something like [Wiki.js](https://js.wiki) may work better.
 
 If you can, find a way to incentivize contribution to the garden
 
+{{< /columns >}}
+
 ### Keep a *Personal* knowledge garden too
 
-As much as it's nice to have all the community pages to fall back on, having a hand pruned, personal database of links and information is immensely helpful. If you keep it private, you can associate it with your TODOs and a daily journal as well
+As much as it's nice to have all the community pages to fall back on, having a hand pruned, personal database of links and information is immensely helpful. If you keep it private, you can associate it with your TODOs and a daily journal as well. Tools like https://obsidian.md and https://github.com/zadam/trilium work well for this
 
-### Seek experiences outside your comfort zone
+### Seek experiences outside your comfort zone, <BR>Encourage Others to do so too
 
+{{< columns >}}
 
+<img src="/sarahcomfortzone.jpg">
+
+{{< attribution >}}Comic by [Sarah Scribbles](https://sarahcandersen.com/about){{< /attribution >}}
+
+<--->
+
+One of the biggest ways to *stop* gaining knowledge is to just keep doing the same thing over and over again or only tacking projects that you know you have the skills to do. It's only when pushed with new challenges that people really learn. **Try things you expect to fail at and welcome the failures**. Everyone sucks at everything the first time they try it.
+
+For me, my biggest inspiration is seeing people like [The Thought Emporium](https://www.youtube.com/c/thethoughtemporium) work on projects that just *sound* like they should only be possible when tackled by huge teams of people - like genetic engineering and detecting antimater - and turning them into projects that take a few weeks (albeit they still require some pricey equipment)
+
+Be sure to document your failures too, both in your personal and community knowledge gardens if you can. Science is largely focused on the successes, but sometimes sharing failures so that you can remind your future self and warn others about the wrong steps is worth more than a success.
+
+To some extent, all of this requires a few things that a lot of people think that they lack: Confidence and Dedication. Fortunately, both of those are things that being part of a larger community and keeping a log of your past experience will help with. 
+
+{{< /columns >}}
 
 ### Relate experiences across disciplines 
 
-
-
-### Try things you expect to fail at, and welcome the failures
-
-[TODO] ThoughtEmporium YT Channel doing crazy things that *feel* to complicated
+Pick any two interests and mix em' together. Into music and electronics? Build a synth. Into drones and art? Make a light show. Into speed running videos games and writing comics? Write a comic about the struggles of a speed runner. These intersections of interests are where magic happens.
 
 ### Realize the sources available to you
 
-[TODO] Scihub, emailing the original researchers, etc - no harm in asking, see interviews on this page
+Sometimes, it's easy to think "I just need to take a class on this" or "I can't afford the tutor" etc. But, come on. There is free information on literally every topic you could ever want to look into. With websites like SciHub, ArXiv, and LibGen you can find any academic source you'd want. Plus, YouTube has amazing presentations from experts about an ever growing list of increasingly specific topics. Even better if you ever want to talk to an expert, most would *love* to talk to you too - just send them an email. All of this is entirely free, it doesn't cost you a dime.
 
+See all those interviews on this page? The first one I published was with an engineer that worked on high speed cameras then next up was a big name security researcher - all I did was shoot them a message and say "Hey, are you interested in doing an interview for my website?". If all you want is to talk about what that person is passionate about, most will be more than willing to hang out for a bit. Yeah, sometimes you'll send an email and never get a response but more often than not you'll get the chance to chat one-on-one with someone that has a wealth of knowledge to share. Hell, you may even accidentally end up teaching them something, especially if you're applying their knowledge in a novel way.
 
+If you're willing to share what you make too, the open source community is full of amazing software and hardware projects, often with great documentation.
 
-[TODO] in the previous chapter hackerspaces, open source, etc.
+### Be aware of your own biases
+
+{{< columns >}}
+
+<img src="/propaganda.jpeg">
+
+<--->
+
+When most people think biases, they think 'racist' or 'wealthy' or something societal, but [Cognitive Biases (Wikipedia)](https://en.wikipedia.org/wiki/List_of_cognitive_biases) are just as important to recognize. Some of these biases are just human nature, some are the result of seeing repeated ads or hearing the same quotes over and over again, without really thinking about the implications of them.
+
+I highly recommend going though the list on that linked Wikipedia page, but there's a few major ones I'd like to point out that are not covered on the <a href="/phil/fallacies/">Logical Fallacies+</a> page:
+
+{{< /columns >}}
+
+{{< quote "[Wikipedia](https://en.wikipedia.org/wiki/List_of_cognitive_biases)" >}}
+
+| Bias                                                         | Description                                                  |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Curse of knowledge](https://en.wikipedia.org/wiki/Curse_of_knowledge) | When better-informed people find it extremely difficult to think about problems from the perspective of lesser-informed people. |
+| [Law of the instrument](https://en.wikipedia.org/wiki/Law_of_the_instrument) | An over-reliance on a familiar tool or methods, ignoring or under-valuing alternative approaches. "If all you have is a hammer, everything looks like a nail." |
+| [Framing effect](https://en.wikipedia.org/wiki/Framing_effect_(psychology)) | Drawing different conclusions from the same information, depending on how that information is presented. |
+| [Disposition effect](https://en.wikipedia.org/wiki/Disposition_effect) | The tendency to sell an asset that has accumulated in value and resist selling an asset that has declined in value. |
+| [Loss aversion](https://en.wikipedia.org/wiki/Loss_aversion) | The perceived disutility of giving up an object is greater than the utility associated with acquiring it. |
+| [Illusory truth effect](https://en.wikipedia.org/wiki/Illusory_truth_effect) | A tendency to believe that a statement is true if it is easier to process, or if it has been stated multiple times, regardless of its actual veracity. |
+| [Not invented here](https://en.wikipedia.org/wiki/Not_invented_here) | Aversion to contact with or use of products, research, standards, or knowledge developed outside a group. |
+
+{{< /quote >}}
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/vKA4w2O61Xo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 2. Prevent Diseased Ideas From Spreading
 
-Calling an idea 'Diseased' may sound a bit like it's a term from the Thought Police from Orwell's *1984*. Yet, I think it's a fair term as some ideas start out incorrect, yet more or less benign, but then pick up more and more malicious elements and hooks into our psyche that act as diseases that hard to shake and often chronic. They bury into our brains using tricks not of the thinking mind, but of faith or prejudice or instinct. They reaffirm what we *want* to believe or they allow us to ignore truths, often about ourselves, that we'd rather not think of. Some of these ideas, other than being false, are more or less harmless. Others, especially when used to foster action, can lead to bloodshed. There is, of course, the risk for a good idea to be labeled diseased. Maybe a culture of homophobia has become so prevalent that even thinking gay people deserve to marry is seen as a disease of the mind. This is obviously awful, yet if we let simple majority pick what ideas are okay, it is also inevitable. So when I called an idea *diseased* I mean that it has all of these qualities:
+Calling an idea 'Diseased' may sound a bit like it's a term from the Thought Police from Orwell's *1984*. Yet, I think it's a fair term. Some ideas start out incorrect, yet more or less benign, but then pick up more and more malicious elements and hooks into our psyche until they act as diseases that is hard to shake and often chronic. They bury into our brains using tricks not of the thinking mind, but of faith or prejudice or instinct. They reaffirm what we *want* to believe or they allow us to ignore truths, often about ourselves, that we'd rather not think of.
+
+Some of these ideas, other than being false, are more or less harmless. Others, especially when used to foster action, can lead to bloodshed. There is, of course, the risk for a good idea to be labeled diseased. Maybe a culture of homophobia has become so prevalent that even thinking gay people deserve to marry is seen as a disease of the mind. This is obviously awful, yet if we let simple majority pick what ideas are okay, it is also inevitable. So when I called an idea *diseased* I mean that it has all of these qualities:
 
 1. **It is false.** Not just the majority of people think it is false, but that by some *ground truth* it can be shown to be false. This is difficult when talking abortion access or homophobia, but even in those cases there is data that can be used to show the argument- such as the [rate of violent crime done to LGBT people](https://williamsinstitute.law.ucla.edu/press/ncvs-lgbt-violence-press-release/) or [Abortion rates being highest where legally restricted](https://www.scidev.net/global/news/abortion-rates-highest-where-legally-restricted-study/). It may even be that the majority of people think a diseased idea is true, that just makes it an epidemic.
 2. **It has emotional backing** - almost all ideas that are harmful but spread quickly have an emotional basis- be it abortion, homophobia, religious persecution, racism, etc.
 3. **It has good looking bullshit to back it up** - At some point someone, somewhere has put in effort to make a very convincing argument using bullshit in one way or another. Maybe P-hacking, maybe publishing in a journal that sounds good but has poor standards, maybe just getting on prime-time television with a celebrity endorsement. What matters is that this idea has something that is giving it undeserved legitimacy.  
 
-### P-hacking, Fake Science, and Academia's Bullshit
+So, how to we stop these ideas from spreading? Our only options are to **help people see the facts though their feelings** or to **remove the good looking bullshit**
+
+### Facts though the feelings
+
+**Facts do care about your feelings**
+
+In a debate, what's important *is not* the facts, but how people remember the interaction. If you're always playing defense, correcting your opponent, you'll look weak. This is how other people will remember the situation- our brains don't remember the good arguments and the minor details, they remember who spoke with conviction and made us feel things. So, how can you present facts and get past people's feelings to actually change their minds?
+
+1. Don't let them control the conversation or make you play defense
+
+   Keep the conversation on topic, even if it means letting misinformation be said. Do not interrupt to correct them.
+
+   Don't let them ask "the next question" as if you've already agreed to a premise
+
+   Keep them spending just as much time answering questions as you are
+
+2. Don't make them feel guilty, but explain how society may have let them learn something wrong
+
+   **DONT:** "Using the term gay as in insult will make LGBT people around you feel uncomfortable"
+
+   **DO:** "You heard 'gay' used as in insult in middle school over and over again- of course you picked up the association that you did - but just because society largely used derogatory words for different races for a long time didn't make that right either"
+
+3. Don't show them the correct information to start, show them how what they think may have been presented with an agenda, may be misleading, or may be from a bad source
+
+   **DONT:** "According to NOAA's 2020 Annual Climate Report the combined land and ocean temperature has increased at an average rate of 0.13 degrees Fahrenheit ( 0.08 degrees Celsius) per decade since 1880; however, the average rate of increase since 1981 (0.18°C / 0.32°F) has been more than twice that rate" ([source](https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature))
+
+   **DO:** "Every year, the world's five largest publicly owned oil and gas companies spend approximately $200 million on lobbying designed to control, delay or block binding climate-motivated policy" ([source](https://www.forbes.com/sites/niallmccarthy/2019/03/25/oil-and-gas-giants-spend-millions-lobbying-to-block-climate-change-policies-infographic/?sh=2296563f7c4f)). "Polls conducted in May 2020 showed that just 22% of Americans who vote Republican believed climate change is man-made, compared with 72% of Democrats" ([source](https://www.bbc.com/news/stories-53640382)) despite this, 98% of climate researchers agreeing that it is a problem ([source](https://www.pnas.org/content/early/2010/06/04/1003187107)) 
+
+### Good looking Bullshit: P-hacking, Fake Science, and Academia at its worst
+
+For this section, I think the best way to show you the problem is to just let you see it first hand. Here's a bunch of links and videos, I think you'll get the idea if you watch a handful of them.
 
 {{< columns3 >}}
 
 {{< best >}} [Scientific Studies (Last Week Tonight, YouTube)](https://www.youtube.com/watch?v=0Rnq1NpHdmw) {{< /best >}}
+
+[Coronavirus: Conspiracy Theories (Last Week Tonight, YouTube)](https://www.youtube.com/watch?v=0b_eHBZLM6U)
 
 <--->
 
@@ -176,3 +264,9 @@ Meanwhile, failing to let new ideas surface because they sound crazy can cause s
 We can never fully making mistakes. Some bad ideas will get though, and propagate enough to become diseased. Some good ideas will be squashed early. We should try our best though. This means encouraging people with new ideas to test them out while also helping people recognize what may make an idea dangerous - while avoiding falling into patterns that lead to not questioning our own beliefs and without going off the deep end and questioning everything that keeps society moving.
 
 Balance skepticism with openness.
+
+---
+
+## Religion?
+
+I very intentionally didn't bring religion into any of this, because I am aware of my own biases. That said, I think some may find the series "[Philosophical Failures of Christian Apologetics (AntiCitizenX, YouTube)](https://www.youtube.com/watch?v=lroKN5gdm08&list=PL3IOkNR8_9gpQa5teO1xQANB-3MiY17uk) interesting. I think it makes some interesting points and may even be interesting for readers that are currently on the fence about religion. I want to be clear, I don't see *any* religion as a "diseased idea" as I put it above; however, I do see many of the things that many religions preach as such. I think having belief in a higher power is fine, especially since mortality is scary and it can help. What I don't think is fine is claiming that higher power justifies ignoring scientific studies or hating a group of people because of a bullshit excuse provided by (or grossly grafted onto) that belief system. Your religion (or lack of) doesn't give you a right to be a dick or be ignorant.
