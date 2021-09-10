@@ -30,7 +30,7 @@ I grew up witch technology keeping pace. Right as I wanted social media, there i
 
 <--->
 
-<img src="/babymeoncomputer.jpg" alt="babymeoncomputer" style="zoom:45%;" />
+<img src="/nonfree/blog/babymeoncomputer.jpg" alt="babymeoncomputer" style="zoom:45%;" />
 
 {{< attribution >}}The full picture has the arm of the chair as a very convenient censor bar, but I thought some reading may appreciate not trying to explain that on their screen {{< /attribution >}}
 

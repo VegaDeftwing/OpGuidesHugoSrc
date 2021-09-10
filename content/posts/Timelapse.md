@@ -53,7 +53,7 @@ WantedBy=timers.target
 
 So with all of that setup, I can finally get poorly timed, slightly blurry pictures of myself drinking directly from a 2L bottle of Mello Yello automatically.
 
-![Me taking a drink of mellow yellow](/tl2021-02-03_19-15-17.jpg)
+![Me taking a drink of mellow yellow](/nonfree/blog/tl2021-02-03_19-15-17.jpg)
 
 {{< hint info>}}
 

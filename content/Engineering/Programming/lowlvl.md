@@ -456,7 +456,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id tellus ultrici
 
 <--->
 
-![awrhey](/awrhey.jpeg)
+![awrhey](/nonfree/permissiongranted/awrhey.jpeg)
 
 {{< attribution >}}
 

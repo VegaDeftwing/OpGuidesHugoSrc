@@ -18,42 +18,43 @@ So, you've got a website that you want to make use less bandwidth. Maybe you're 
     window.onload = function() {
       new SliderBar({
         el: "#slider1",
-        beforeImg: '/COMountain.jpg',
-        afterImg: '/COMountain5.jpg',
+        beforeImg: '/nonfree/blog/COMountain.jpg',
+        afterImg: '/nonfree/blog/COMountain5.jpg',
         width: "90%",
       });
       new SliderBar({
         el: "#slider2",
-        beforeImg: '/COMountain5.jpg',
-        afterImg: '/COMountain2.png',
+        beforeImg: '/nonfree/blog/COMountain5.jpg',
+        afterImg: '/nonfree/blog/COMountain2.png',
         width: "90%",
       })
       new SliderBar({
         el: "#slider3",
-        beforeImg: '/COMountain5.jpg',
-        afterImg: '/COMountain3.png',
+        beforeImg: '/nonfree/blog/COMountain5.jpg',
+        afterImg: '/nonfree/blog/COMountain3.png',
         width: "90%",
       })
       new SliderBar({
         el: "#slider4",
-        beforeImg: '/COMountain5.jpg',
-        afterImg: '/COMountain.webp',
+        beforeImg: '/nonfree/blog/COMountain5.jpg',
+        afterImg: '/nonfree/blog/COMountain.webp',
         width: "90%",
       })
       new SliderBar({
         el: "#slider5",
-        beforeImg: '/COMountain.webp',
-        afterImg: '/COMountainIM3.png',
+        beforeImg: '/nonfree/blog/COMountain.webp',
+        afterImg: '/nonfree/blog/COMountainIM3.png',
         width: "90%",
       })
       new SliderBar({
         el: "#slider6",
-        beforeImg: '/COMountain.webp',
-        afterImg: '/COMountainIM2.png',
+        beforeImg: '/nonfree/blog/COMountain.webp',
+        afterImg: '/nonfree/blog/COMountainIM2.png',
         width: "90%",
       })
     }
   </script>
+
 
 
 <div id="slider2"></div>
@@ -70,7 +71,7 @@ So, What else could we do? Well, color isn't necessarily bad, what about adding 
 
   <div id="slider3"></div>
 
-![redblue-pal](/redblue-pal.png)
+![redblue-pal](/nonfree/blog/redblue-pal.png)
 
 ```
 convert -resize 25% -remap redblue-pal.png -dither Floyd-Steinberg -colors 16 COMountain.jpg COMountain3.png
@@ -106,7 +107,12 @@ gives [this result](https://imgur.com/aJ0p7hw) at 44,369 bytes after lossless re
 Or we can go a step down in the palette size with this command (note the 2 instead of 3 on `o8x8,3`):
 
 ```
-convert COMountain.jpg -colorspace RGB -filter box -resize 25% -ordered-dither o8x8,2 -colorspace sRGB -quality 96 png24:COMountainIM2.png
+<ol hidden id="footnotes">
+	<li>According to Wikipedia, "An operating system (OS) is system software that manages computer hardware and software resources and provides common services for computer programs." put simply on your hardware this is probably Windows or Mac OS, and it's what everything else runs on top of</li>
+    <li>To partition a drive means to take all the space on the hard drive and divide it into partitions onto which you can put a file system. Most operating systems like Windows, Mac OsX, or Linux, use multiple partitions for the operating system to function. Usually a filesystem is set up on each of these partitions, in windows this is typically NTFS for Hard Drives and FAT32 for flash drives, these file systems are effectively the index for all the files you'll put on the drive, and as you may have multiple partitions and multiple file systems on one disk each will have an index to match. As complicated as it may seem this means the partition table can be seen as an 'index of indices' of sorts. Don't worry if that's a lot to understand right now, we'll come back to this topic in depth.</br>You may also need to know how your drive is formatted, this is if it is using MBR (Master Boot Record) or GPT (GUID Partition Table), again, we'll cover this. Don't stress over all the new terms.</li>
+<li>The Binary Input Output System (BIOS) or Unified Extensible Firmware Interface (UEFI) is the thing you see before you computer loads the operating system, usually prompting to press delete or f2 to change settings. This is the system that is used to change the way all the components around the computer talk to one another and at what speed.</li>
+<li>The bootloader sits at a special place on the hard drive selected for boot in the UEFI or BIOS, and is what the computer uses to load the full operating system, most will let you choose what operating system you want to boot if you have multiple installed on you computer at once</li>
+</ol>
 ```
 
 which gives [this result](https://imgur.com/kzPWeGD) for 26,163 bytes after recompression.

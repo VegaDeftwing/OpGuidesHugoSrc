@@ -5,7 +5,7 @@ bookToC = false
 
 **9/23/2018**
 
-<img src="/loial.jpg" alt="loial" height="200em">
+<img src="/nonfree/interviews/loial.jpg" alt="loial" height="200em">
 
 **Introduction:**
 

@@ -80,7 +80,7 @@ If you get into Modular music systems, like eurorack, it's really similar to pro
 
 <--->
 
-![Vega looking longigly at Mountain Dew can](/dew.png)
+![Vega looking longigly at Mountain Dew can](/nonfree/character/dew.png)
 
 {{< attribution >}}Character owned by Vega, art by [Talon Creations](https://twitter.com/Talon_Creations){{< /attribution >}}
 

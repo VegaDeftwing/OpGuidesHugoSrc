@@ -8,7 +8,7 @@ slug: "Consumerism"
 
 {{< columns >}}
 
-![VegaMaw](/VegaMaw.PNG)
+![VegaMaw](/nonfree/character/VegaMaw.PNG)
 
 {{< attribution >}}Vega's Maw, made for me by [@NewtWolfdeer](https://twitter.com/newtwolfdeer){{< /attribution >}}
 

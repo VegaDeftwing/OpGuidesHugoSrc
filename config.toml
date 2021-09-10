@@ -9,7 +9,7 @@ BookRepo = 'https://github.com/VegaDeftwing/OpGuidesHugoSrc'
 BookEditPath = 'tree/main/content'
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
-BookLogo = 'opguide2.png'
+BookLogo = '/nonfree/logo/opguide2.png'
 
 [markup.goldmark.renderer]
   unsafe = true

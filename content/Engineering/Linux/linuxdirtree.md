@@ -627,7 +627,7 @@ permissions discussed eariler, recap here
 
 <--->
 
-![rik](/rik.jpeg)
+![rik](/nonfree/permissiongranted/rik.jpeg)
 
 {{< attribution >}}
 
