@@ -10,7 +10,7 @@ When I looked into the mirror this morning, I wasn't sure who I was looking at. 
 
 {{< columns >}}
 
-<img src="/mirror2.gif" alt="glitch-y picture of Vega">
+<img src="/nonfree/blog/mirror2.gif" alt="glitch-y picture of Vega">
 
 <--->
 
@@ -28,7 +28,7 @@ Or maybe it's not the memories that burn in, but those that have fallen away,
 
 {{< columns >}}
 
-<img src="/mirror3.gif" alt="Vega Rotting In Place">
+<img src="/nonfree/blog/mirror3.gif" alt="Vega Rotting In Place">
 
 <--->
 

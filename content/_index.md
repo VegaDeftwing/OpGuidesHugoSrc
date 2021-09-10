@@ -16,7 +16,7 @@ You'll also find some other miscellaneous stuff, such as [Interviews]({{< relref
 
 The site is *mostly* maintained by me, Vega
 
-<img src="/opguidesSiplick.png" alt="opguidesSiplick" style="zoom:34%;" />
+<img src="/nonfree/character/opguidesSiplick.png" alt="opguidesSiplick" style="zoom:34%;" />
 
 {{< attribution >}}
 
@@ -86,7 +86,7 @@ There's also just a point of being utterly pissed off at the quality of my eduac
 
 {{< columns >}}
 
-<img src="/copper.svg" style="zoom:33%;" />
+<img src="/nonfree/logo/copper.svg" style="zoom:33%;" />
 
 **Copper Level Supporters**
 
@@ -104,7 +104,7 @@ Albert Wavering
 
 <--->
 
-<img src="/silver.svg" style="zoom:33%;" />
+<img src="/nonfree/logo/silver.svg" style="zoom:33%;" />
 
 **Silver Level Supporters**
 
@@ -118,7 +118,7 @@ one time contribution of  \$50+ or $10+ monthly contribution on Github Sponsors 
 
 <--->
 
-<img src="/gold.svg" style="zoom:33%;" />
+<img src="/nonfree/logo/gold.svg" style="zoom:33%;" />
 
 **Gold Level Supporters**
 
@@ -170,21 +170,49 @@ And an additional **thank you** from the bottom of my heart to **Loial Otter**, 
 
 # Copyright
 
-This guide links to a bunch of other content. If you don't want your content linked please submit an issue on github or just poke me on Twitter. I have done my best to ask for permission where necessary when other resources are used.
+This guide links to and re-hosts a bunch of other content. If you don't want your content shown here please submit an issue on github or just poke me on Twitter. I have done my best to ask for permission where necessary when other resources are used.
 
-At the same time, some images and most of the text on OpGuides is the original work of either myself or other contributors. For the text, I don't really care, but for the images, gifs, etc. I do retain my copyright; however, you -the reader- are totally free to use it as long as it is **NOT** used...
+**COPYRIGHT & LICENSE IS UNDER ACTIVE MAINTENANCE - CHECK BACK SHORTLY**
 
-* to promote racist, sexist, or other shitty views that are contrary to what I've said in other places in this guide
-  * Of course you still have fair use rights for criticism and review, but you know how those limits apply.
-  * Don't be a dick.
-* in a commercial text-book without asking permission
-  * If you're from [Pearson](https://twitter.com/Vega_DW/status/1165017179865133059) or McGraw Hill the answer is no
-  * If you're from [No Starch Press](https://nostarch.com), have at it.
-* commercially in general
-  * If you're a professor or educator, please link to me, but I swear to god if you try to make students pay for an even 1 credit hour class and just say 'Oh, here, read this' I will be livid enough to seek legal action.
+<!---
 
-If you repost content from OpGuides instead of linking to it directly it'd be very uncool of you to not at least credit the OpGuides project with a link.
+As for the license, everything on OpGuides **except** 
+
+* The images, quotes, videos, and code that are marked as being from elsewhere or are dynamically loaded from other sources (YouTube, Twitter embeds, Javascript, and the like)
+
+  {{< attribution >}}Why: Nobody has the right to re-license another person's hard work{{< /attribution >}}
+
+* The OpGuides name and Logo (Opinionated Guide, OpGuides, and all assets that use the three-hexagon shape)
+
+  {{< attribution >}}Why: To avoid confusion{{< /attribution >}}
+
+* The Interviews section (https://opguides.info/interviews/*)
+
+  {{< attribution >}}Why: Other people should have the right to know where there interviews are hosted and request they be removed{{< /attribution >}}
+
+* The Blog Section (https://opguides.info/posts/*)
+
+  {{< attribution >}}Why: Many of the posts are about my life, copying them is just weird{{< /attribution >}}
+
+* Images of the character 'Vega Deftwing'
+
+  {{< attribution >}}Why: I shouldn't have to have my likeness on a page with content I don't get a say in{{< /attribution >}}
+  
+* Resources given special permission by the artist for OpGuides (all are located in `static/nonfree/permissiongranted`)
+
+  {{< attribution >}}Why: Permission was given for OpGuides, but not for an arbitrary website{{< /attribution >}}
+
+is licensed under [CC-NC-BY-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), with the a few extra stipulations
+
+* Contributors must agree that I (Vega) can still collect donations though the site - at the moment this is though Github Sponsors and Venmo, though this may change in the future. This covers the cost of the domain, and gives me a little spending money to justify purchases that allow me to write further content.
+* Contributors also agree that I (Vega) or one other person - "The Backup" - I appoint at a time may grant this same exception to those wishing to host a fork of OpGudides themselves. In the event that I am unable to grant this exception further, the last person appointed "The Backup" becomes the copyright holder of the OpGuides name, logo, Interviews, and blog posts and may appoint a new backup.
+  * Currently Soatok Dreamseeker of https://soatok.blog is "The Backup"
+
+What this means is you are welcome to fork the project *however* if you want to host it yourself you'll need to remove the `nonfree` folder of content in the `static` folder at the base of this repo.
+
+--->
 
 ---
 
 At the bottom you'll find a fancy logo that acts as a link to the [Webring](https://en.wikipedia.org/wiki/Webring) that this site is a part of.
+

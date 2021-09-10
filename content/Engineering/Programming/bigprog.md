@@ -34,4 +34,4 @@ Development teams do need a good way to stay organized, I just think a lot of ho
 
 Yes, you should test your code. Yes, some of these methods can help. No, you shouldn't turn this shit into a bonafide religion and your workers into cultists. If in talking to others you can only think "What they're saying isn't actionable" you cease to be human.
 
-<img src="/throw.png" alt="Table Flip" height="200em">
+<img src="/nonfree/character/throw.png" alt="Table Flip" height="200em">

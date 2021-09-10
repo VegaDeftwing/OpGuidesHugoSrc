@@ -39,7 +39,7 @@ Being total garbage at foreign language, liking the experiences I'd had with Ard
 
 The story starts with move in, as I finally meet my roommate for the next year, though we'd already talked a bit on Facebook. We're both CompE's, and there's actually a few other CompSci's on the 7th floor with us. We're all excited for college, have no idea where our classes are, and have no idea what the next few years will actually have in store.
 
-<img src="/longhair.jpg" alt="longhair" style="zoom:33%;" />
+<img src="/nonfree/blog/longhair.jpg" alt="longhair" style="zoom:33%;" />
 
 {{< attribution >}}
 
@@ -129,7 +129,7 @@ I commuted to class this semester, which meant about 40 min to campus and the sa
 
 {{< columns >}}
 
-<img src="/20170920_145341.jpg" alt="20170920_145341" style="zoom:15%;" />
+<img src="/nonfree/blog/20170920_145341.jpg" alt="20170920_145341" style="zoom:15%;" />
 
 <--->
 
@@ -231,7 +231,7 @@ also as my 4th semester living in the dorms, I was growing very tired of 1-ply t
 
 <--->
 
-<img src="/20180429_231232.jpg" alt="20180429_231232" style="zoom:13%;" />
+<img src="/nonfree/blog/20180429_231232.jpg" alt="20180429_231232" style="zoom:13%;" />
 
 {{< /columns >}}
 
@@ -313,11 +313,11 @@ If the quality of my professors and classes didn't piss me off before, this is t
 
   Strangely, this lab was overseen by a different prof than the lecture, and, while I could go into the problems with the class, I think I'll let this speak for me:
 
-  ![conclusion](/conclusion.jpg)
+  ![conclusion](/nonfree/blog/conclusion.jpg)
 
 	and okay, I admit that was a bit over the line, but the rest of the lab report was written well and I did my work. I got a 90/100 on that. As is this sort of makes me look like the bad guy, I was frustrated, and I think justified, but I agree this wasn't the best way to voice that opinion. This is why I am still livid about this to this day- here's my lab partner's conclusion, he got 100/100 on this assignment.
 
-  ![otherconclusion](/otherconclusion.jpg)
+  ![otherconclusion](/nonfree/blog/otherconclusion.jpg)
 
   this is some top tier bullshit, so, I go to the prof that oversees the course.
 
@@ -409,10 +409,10 @@ This semester was entirely done online due to COVID-19. Computer Architecture, D
 
 * Into to Machine Learning
 
-  <img src="/stressedclass.png" alt="stressedclass" style="zoom:75%;" />
+  <img src="/nonfree/blog/stressedclass.png" alt="stressedclass" style="zoom:75%;" />
 
 ---
-  
+
 Right after my last final of the semester I was able to get my first dose of the COVID vaccine.
 
 # Conclusions

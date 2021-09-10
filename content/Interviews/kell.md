@@ -5,7 +5,7 @@ bookToC = false
 
 **7/27/2021**
 
-<img src="/kelltemp.svg" alt="Kell Bengal" height="200em">
+<img src="/nonfree/interviews/kelltemp.svg" alt="Kell Bengal" height="200em">
 
 **Thank you for taking the time for this interview Kell. I know you work on robots, and teach others to do so as well, and are from the continent where everything wants to kill you, but I don't know much else: How would you describe yourself? What are you passionate about and why?**
 

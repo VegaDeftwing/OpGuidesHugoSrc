@@ -124,7 +124,7 @@ Some things in markdown are a bit less obvious though, for example, images and t
 | 4    | 5    | 6     |
 | 7    | 8    | 9     |
 
-![this description helps for blind people](/box.png)
+![this description helps for blind people](/nonfree/character/box.png)
 
 <--->
 

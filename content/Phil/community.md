@@ -24,7 +24,7 @@ But, to get there, I think I need to first indoctrinate you into the furry cultu
 
 <--->
 
-![](/box.png)
+![](/nonfree/character/box.png)
 
 {{< attribution >}}
 

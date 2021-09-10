@@ -10,7 +10,7 @@ tags: personal
 
 {{< columns >}}
 
-<img src="/chain.png" alt="chain" style="display: flex;min-width: 24%;" >
+<img src="/nonfree/blog/chain.png" alt="chain" style="display: flex;min-width: 24%;" >
 
 <--->
 

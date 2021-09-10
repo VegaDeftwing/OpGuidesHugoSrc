@@ -314,7 +314,7 @@ MIDI Is a fucking shit of a standard. It's 7 bit, ancient, and the 'standard' <a
 
 This beautiful port:
 
-![](/midithru.jpg)
+![](/nonfree/permissiongranted/midithru.jpg)
 
 {{< attribution >}}
 

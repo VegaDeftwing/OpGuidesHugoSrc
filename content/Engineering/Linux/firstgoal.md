@@ -4,7 +4,7 @@ bookToC = false
 
 # Chapter 1 - The first goal
 
-![Linux Fox](/linuxfox.jpg)
+![Linux Fox](/nonfree/permissiongranted/linuxfox.jpg)
 
 {{< attribution >}}
 
