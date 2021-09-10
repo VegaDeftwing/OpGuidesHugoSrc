@@ -34,7 +34,7 @@ The key take away from the two different kinds of clipping is that while both ad
 
 {{< columns >}}
 
-Wave shaping is a a pretty broad term, but usually it refers to a method of mapping a wave onto another. It's basically just a function, like you've seen in math class, if you think y=x, that's a simple 45° slope, and that corresponds to this:
+Wave shaping is a pretty broad term, but usually it refers to a method of mapping a wave onto another. It's basically just a function, like you've seen in math class, if you think y=x, that's a simple 45° slope, and that corresponds to this:
 
 ---
 
@@ -70,7 +70,7 @@ Like any distortion, it ultimately adds in more harmonics, so it will make any s
 
 {{< /columns >}}
 
-Wavefolding eats the transition between high and low, the slopes, so with a square wave it has nothing to grab onto and so does nothing except for maybe changing the level. Because of this, you'll usually see simpiler wave forms like sines fed into wavefolders, like sines, triangles, and saws.
+Wavefolding eats the transition between high and low, the slopes, so with a square wave it has nothing to grab onto and so does nothing except for maybe changing the level. Because of this, you'll usually see sisimplerave forms like sines fed into wavefolders, like sines, triangles, and saws.
 
 If you're looking to get really crazy, check out [Befaco's Chopping Kinky](https://library.vcvrack.com/Befaco/ChoppingKinky) (available in hardware and VCV) which basically replaces the top half of the wave with one input, the bottom half the wave with another, and then lets you wavefold both of those inputs. It's absolutely nuts. [See the manual here](https://befaco.org/docs/Chopping_Kinky/Chopping%20Kinky_User_Manual.pdf) if you're still confused.
 
@@ -110,9 +110,9 @@ see: [Q. Is there a difference between clipping and limiting?](https://www.sound
 
 {{< quote "[[deleted] account on Reddit](https://www.reddit.com/r/edmproduction/comments/29tl0p/limiting_vs_clipping/ciod5zw?utm_source=share&utm_medium=web2x&context=3)" >}}
 
-The limiter says stuff like "everytime the signal gets loud, I'll gently attenuate it so that it's not TOO loud".
+The limiter says stuff like "every time the signal gets loud, I'll gently attenuate it so that it's not TOO loud".
 
-A clipper will say "everytime the signal gets too loud, I'll chop every peak that's too loud and fuck you".
+A clipper will say "evevery timehe signal gets too loud, I'll chop every peak that's too loud and fuck you".
 
 {{< /quote >}} 
 
@@ -134,11 +134,11 @@ The above is a 3 part series that explains compressors better than anything I ca
 
 Compression can mean multiple things when talking about music and sometimes this makes talking about it sometimes confusing. Usually, when talking about compression the meaning is for compression that changes the *dynamics* of the audio, making loud sounds quieter and quiet sounds louder sort of ~squishing~ the sound. The other, unrelated, definition of compression is data compression, for example .mp3 vs .wav. We'll go into that later.
 
-<p class="tip">Okay, this is sort of a lie. Compressors don't <i>technically</i> make anything louder. Only quieter. It's just that usually there's some input and/or output gain that makes it seem this way. If you first boost all your signals, then lower louder parts that's <i>nearly</i> the same thing as making the quiet stuff louder and louder stuff quiter. The reason this is worth bringing up is because not all compressors actually have that gain stage, so they will literally only make the loud sounds quieter and assume the user knows they need to compensate</p>
+<p class="tip">Okay, this is sort of a lie. Compressors don't <i>technically</i> make anything louder. Only quieter. It's just that usually there's some input and/or output gain that makes it seem this way. If you first boost all your signals, then lower louder parts that's <i>nearly</i> the same thing as making the quiet stuff louder and louder stuff qquieter The reason this is worth bringing up is because not all compressors actually have that gain stage, so they will literally only make the loud sounds quieter and assume the user knows they need to compensate</p>
 
 Usually compression has a few basic attributes that are relevant:
 
-The 'Threshold' is what level the compressor has to be over to do anything at all. 'Attack' is the time it takes for the signal to be affected. All compressors will have some minimum attack time if they're happening live (there are some compressors with 'Lookahead' that solve this problem) which lets the transients (sharp changes) of louder sounds, like the start of a drum hit, get through to some extent, but more attack will let more of the drum transient through. Tune to taste, release is similar idea, but controls how the compressor behaves as it falls below the treshold, letting the compressor fade out with a given time instead of having a sharp cut. Compressors can be used to make drums really stand out, give guitars a longer sustained sound, or just glue the mix together better.
+The 'Threshold' is what level the compressor has to be over to do anything at all. 'Attack' is the time it takes for the signal to be affected. All compressors will have some minimum attack time if they're happening live (there are some compressors with 'Lookahead' that solve this problem) which lets the transients (sharp changes) of louder sounds, like the start of a drum hit, get through to some extent, but more attack will let more of the drum transient through. Tune to taste, release is similar idea, but controls how the compressor behaves as it falls below the threshold, letting the compressor fade out with a given time instead of having a sharp cut. Compressors can be used to make drums really stand out, give guitars a longer sustained sound, or just glue the mix together better.
 
 [TODO knee, sidechain]
 
@@ -157,4 +157,3 @@ reverb, delay, pan, tremolo, overdrive, distortion
 <ol hidden id="footnotes">
     <li>See <a href="https://en.wikipedia.org/wiki/EBU_R_128">EBU R 128 (Wikipedia)</a> if you're curious how loudness is usually defined. I'll talk about this more in the mixing and mastering chapter </li>
 </ol>
-

@@ -36,7 +36,7 @@ That said, I don't want to get to in the mud of transistor physics. I really wan
 
 TODO, looks very good briefly scrolling though it: https://lcamtuf.coredump.cx/electronics/
 
-Digilent's 'Real Aanlog' course looks okay too, and I might write this guide assuming their analog parts kit: https://learn.digilentinc.com/classroom/realanalog/ 
+Digilent's 'Real Analog' course looks okay too, and I might write this guide assuming their analog parts kit: https://learn.digilentinc.com/classroom/realanalog/ 
 
 ## Semiconductors?
 
@@ -220,13 +220,13 @@ Relate back to things like ADSR, Distortion, Reverb / Echo, Decibels (audio), et
 
 [TODO]
 
-At this point I highly recommend *'Practical Electronics for Inventors'* ISBN 978-1259587542, namely chapters 2-12, and 15-16. It's a very large, detailed book that does it's best to keep things, well, practical.
+At this point I highly recommend *'Practical Electronics for Inventors'* ISBN 978-1259587542, namely chapters 2-12, and 15-16. It's a very large, detailed book that does its best to keep things, well, practical.
 
 https://taleri.files.wordpress.com/2014/02/practical_electronics_for_inventors_-_scherz_paul.pdf
 
 [Hardware isn't generally copyrightable](https://web.archive.org/web/20120114234704/http://wiki.openhardware.org/Hardware_Isn't_Generally_Copyrightable)
 
-[Hackady.io 2020 Circuit Sculuture Challange](https://hackaday.io/contest/174093-2020-circuit-sculpture-challenge)
+[Hackady.io 2020 Circuit Sculpture Challenge](https://hackaday.io/contest/174093-2020-circuit-sculpture-challenge)
 
 [RGB LED, Inductively Powered, Frequency Controlled (YouTube, Wolf Tronix)](https://www.youtube.com/watch?v=3DeOPN1Cl1Y)
 

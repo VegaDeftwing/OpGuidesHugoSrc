@@ -608,7 +608,7 @@ Further Reading: [LED History (Tedium.co)](https://tedium.co/2020/07/10/led-indi
 
 {{< columns >}}
 
-On a far less useful but neat note- I think 'ambilight' systems need to be more common, obviously user choice weather or not to use it, but yeah. 10/10 need more ambilight in my life.
+On a far less useful but neat note- I think 'ambilight' systems need to be more common, obviously user choice whether or not to use it, but yeah. 10/10 need more ambilight in my life.
 
 Basically ambilight is just a system for letting the colors from the pixels near the edge of the screen be mirrored onto some RGB leds so that the color spills onto the wall behind. It's a really neat effect for games or movies.
 
@@ -1114,7 +1114,7 @@ Well, okay, the internet is honestly fucking awesome. But some of it is designed
 
 To start with, let's look at how horribly shit was designed. As a start, I recommend reading [IPv6 Is a Total Nightmare — This is Why](https://teknikaldomain.me/post/ipv6-is-a-total-nightmare/) by Teknikal, it explains the issues with both IPv4 and IPv6 beautifully. There are other issues with the web, like the fact that neither DNS or IP were designed to be encrypted (and so private) by default, so instead we've had to patch on fixes like http**s**. Of course, there network security problems are found regularly, such as [Nat Slipstreaming](https://samy.pl/slipstream/), a nasty issue that made the rounds recently.
 
-There are also issues of access. In the US at least, most places are part of an ISP regional monopoly. Often they'll argue that you *do* have options, such as satellite internet. However, this is complete and total bull shit. You do *technically* have the option, sure, but this option is slow, usually has data caps, and just generally sucks. If you're in a rural area, you're lucky if the copper in the ground is still good enough to get you something fast enough to watch a YouTube video. Then, ontop of all this BS, the ISPs regularly get caught for doing shit to your traffic, weather it be injecting ads, terminating connections early, blocking services (often torrenting), not letting you forward ports, etc. Oh, and then they try to charge you for a modem you don't even have- thankfully that was [just made illegal](https://www.extremetech.com/internet/318570-its-finally-illegal-for-isps-to-charge-rental-fees-for-equipment-you-own).
+There are also issues of access. In the US at least, most places are part of an ISP regional monopoly. Often they'll argue that you *do* have options, such as satellite internet. However, this is complete and total bull shit. You do *technically* have the option, sure, but this option is slow, usually has data caps, and just generally sucks. If you're in a rural area, you're lucky if the copper in the ground is still good enough to get you something fast enough to watch a YouTube video. Then, on top of all this BS, the ISPs regularly get caught for doing shit to your traffic, whether it be injecting ads, terminating connections early, blocking services (often torrenting), not letting you forward ports, etc. Oh, and then they try to charge you for a modem you don't even have- thankfully that was [just made illegal](https://www.extremetech.com/internet/318570-its-finally-illegal-for-isps-to-charge-rental-fees-for-equipment-you-own).
 
 TLDR; ISPs are evil.
 

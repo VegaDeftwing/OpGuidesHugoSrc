@@ -9,7 +9,7 @@ slug: "Instruments"
 <script>
     document.getElementById("instMenu").open = true;
 </script>
-{{< tip >}}If you're going to be playing an instrument though a computer - and I mean either an instrument which makes it's own noise like a guitar or a controller like a MIDI keyboard - you'll want to adjust your audio buffer size as best you can. See [Optimising The Latency Of Your PC Audio Interface](https://www.soundonsound.com/techniques/optimising-latency-pc-audio-interface) from Sound on Sound for more info about this, but generally just set your buffer size as low as you can until it starts to sound like it's horribly broken. If you don't do this, the delay between hitting a note and sound coming out your speakers will make it **very** difficult to play.{{< /tip >}}
+{{< tip >}}If you're going to be playing an instrument though a computer - and I mean either an instrument which makes it's own noise like a guitar or a controller like a MIDI keyboard - you'll want to adjust your audio buffer size as best you can. See [Optimizing The Latency Of Your PC Audio Interface](https://www.soundonsound.com/techniques/optimising-latency-pc-audio-interface) from Sound on Sound for more info about this, but generally just set your buffer size as low as you can until it starts to sound like it's horribly broken. If you don't do this, the delay between hitting a note and sound coming out your speakers will make it **very** difficult to play.{{< /tip >}}
 
 {{< tip >}}This chapter is broken up into sub sections, check the menu and it should have expanded!{{< /tip >}}
 
@@ -37,7 +37,7 @@ Well, because assuming you know how all of the physics of those systems work *or
 
 So, what do I mean "expressiveness and control"?
 
-Well, think about the difference between a piano and a guitar. On a piano, you may have hugely more strings, but you can only vary a few things (how hard you hit them, weather or not they get muted when you release the key) but on a guitar you can bend the strings, mute them with you hand, pluck them with different intensities, slide between notes, play hammer-on notes (play the next note on the string without plucking), etc. The guitar, despite it's lack of strings, is often a much more expressive instrument than the piano.
+Well, think about the difference between a piano and a guitar. On a piano, you may have hugely more strings, but you can only vary a few things (how hard you hit them, whether or not they get muted when you release the key) but on a guitar you can bend the strings, mute them with you hand, pluck them with different intensities, slide between notes, play hammer-on notes (play the next note on the string without plucking), etc. The guitar, despite it's lack of strings, is often a much more expressive instrument than the piano.
 
 So, this may seem like a no brainer, acoustic instruments offer more hands-on control and sound better than digital ones right?
 

@@ -239,7 +239,7 @@ If I missed a language you think I should have mentioned or would like to write 
 
 Fine. I'll talk about JS. But, please. For the love of god do not use this to make an Electron App.
 
-Before going to far, I do want to mention that a chunk of my hatred for JS is solved using frameworks and that I totally acknowledge the utility of JS for making quick, often very cool, 'sketches'. The creative coding community is amazing. Further, JS, as much of a total dumpster fire as it is, is responsible for the Internet as it is today weather thats a good thing [or not](http://motherfuckingwebsite.com/).
+Before going to far, I do want to mention that a chunk of my hatred for JS is solved using frameworks and that I totally acknowledge the utility of JS for making quick, often very cool, 'sketches'. The creative coding community is amazing. Further, JS, as much of a total dumpster fire as it is, is responsible for the Internet as it is today whether thats a good thing [or not](http://motherfuckingwebsite.com/).
 
 #### CoffeeScript
 

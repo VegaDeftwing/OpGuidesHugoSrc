@@ -61,7 +61,7 @@ Alright, so it was some failed law that tried to ban porn? Well, yeah, **BUT** i
 
 In human language, this means Section 230 is what protects Facebook from being liable when some dipshit posts a pirated movie to Facebook, makes a terrorist threat, or just spreads libel. Similarly, it gives the platforms moderation privileges, that is if some nazi joins your group chat, you can give him the boot.
 
-The big problem right now is weather or not fact checking, where a little box shows up under a tweet or YouTube video to say something like "Science knows Climate Change is man made and a big fucking problem" or "Biden won the election, stop being such a little bitch" is allowed, or if it makes the site a *publisher*, there by taking away their §230 protections.
+The big problem right now is whether or not fact checking, where a little box shows up under a tweet or YouTube video to say something like "Science knows Climate Change is man made and a big fucking problem" or "Biden won the election, stop being such a little bitch" is allowed, or if it makes the site a *publisher*, there by taking away their §230 protections.
 
 Here, this video covers everything I could say a lot better than I can easily write here, so here's the two things I'd say are pretty much required reading, [Section 230 is Good Actually (EFF.org)](https://www.eff.org/deeplinks/2020/12/section-230-good-actually) and this video from DEF CON:
 
