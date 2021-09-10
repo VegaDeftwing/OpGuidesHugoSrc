@@ -5,7 +5,7 @@ bookToC = false
 
 **12/3/2020**
 
-<img src="/soatok.jpg" alt="Soatok" height="200em">
+<img src="/nonfree/interviews/soatok.jpg" alt="Soatok" height="200em">
 
 **Thank you for taking the time for this interview Soatok. Your blog at https://soatok.blog shows that you're a furry crypto nerd, but I'd like to hear how you'd put it, so, to get started, can you describe yourself?**
 

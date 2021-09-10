@@ -10,7 +10,7 @@ bookToC = false
 </style>
 **3/10/2021**
 
-<img src="/cadey1.png" alt="Cadey Ratio" height="200em">
+<img src="/nonfree/interviews/cadey1.png" alt="Cadey Ratio" height="200em">
 
 **Thank you for taking the time for this interview Cadey. Your blog at [christine.website/blog](https://christine.website/blog) shows that you really have a wide range of interests. So, to get started, what are you passionate about and why?**
 

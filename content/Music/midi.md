@@ -303,7 +303,7 @@ MIDI Time Code or MTC is what is used for devices to talk to each other and say 
 
 So, how does it work? Get ready for a wild ride.
 
-<img src="/inhale.webp" alt=" " height="160em">
+<img src="/nonfree/character/inhale.webp" alt=" " height="160em">
 
 MTC is actually based on SMPTE Timecode, so what's that? SMPTE stands for *Society of Motion Picture and Television Engineers*, so SMPTE Timecode is, unsurprisingly, for video time codes. In video, each picture shown is a frame, and there were multiple standards for how many frames should appear per second- the *FPS*. Unlike in gaming, this is a fixed, standard number for video *except* that the standard varied by region for older, analog television. As such, MIDI clock is actually based on 'frames per second' and there are multiple competing standards, but let's work our way to that:
 
