@@ -92,7 +92,7 @@ Welcome back, Hope you had fun messing around in that patch! Let's dive into per
 
 ## Your Standard Drum Kit
 
-I mentioned right at the start that theres a huge range of common percussion instruments. There's anything from the hexagonal drums on the giant drum sets of the 1980's to the marching drums you see played on the field. While there's no rules in music and I'm a huge fan of doing things in new and original ways, it still helps to have an idea of which of these drums sounds are most commonly used together.
+I mentioned right at the start that there're a huge range of common percussion instruments. There's anything from the hexagonal drums on the giant drum sets of the 1980's to the marching drums you see played on the field. While there's no rules in music and I'm a huge fan of doing things in new and original ways, it still helps to have an idea of which of these drums sounds are most commonly used together.
 
 When you think of drums, you *probably* think of the standard acoustic drum kit like is portrayed in that Wikipedia screenshot from the beginning, so let's start by breaking that down into it's parts. As we're going though this, keep in mind it's more the musical position that matters than the specific way that sound is produced, or as my friend [Neurotypique](https://www.youtube.com/channel/UC4oBI5piGMznFMZdtEC0FhA) put it:
 

@@ -4,7 +4,7 @@
 
 ## The Tools of the Trade
 
-Building, fixing, and analyzing circuitry requires the use of a few tools and appliances. While there are many more than those listed here, these are the most important ones and should be all you need for most even very advanced applications.
+Building, fixing, and analyzing circuitry requires the use of a few tools and appliances. While there are many more than those listed here, these tare the most important ones and should be all you need for most even very advanced applications.
 
 ### The Multimeter
 
@@ -38,7 +38,7 @@ In general there are two primary ways you will work with voltage- AC or DC, thes
 
 {{< columns >}}
 
-Your multimeter will likely have two different settings for measuring voltage, one for DC and one for AC. Of note, *most* inexpensive multimeters are not true RMS (Root Mean Square) meters, meaning the reading of AC voltage is not an accurate measure of how much energy the wave can deliver unless it's a clean, no DC offset sine wave. Imagine a square wave like the above, with the same height, but where the the peaks are thinner, with longer periods of rest in between (this is known as having a lower [duty cycle](https://en.wikipedia.org/wiki/Duty_cycle)), in this case the wave would still have the same Voltage Peak-to-Peak (Vpp) value but on average wouldn't be able to carry as much energy. That's where RMS comes in, it is effectively the measure of how much energy that waveform can deliver and is much, much more useful in general.  RMS is a topic we'll be covering later, but to wet your apatite, this from Wikipedia may help:
+Your multimeter will likely have two different settings for measuring voltage, one for DC and one for AC. Of note, *most* inexpensive multimeters are not true RMS (Root Mean Square) meters, meaning the reading of AC voltage is not an accurate measure of how much energy the wave can deliver unless it's a clean, no DC offset sine wave. Imagine a square wave like the above, with the same height, but where the peaks are thinner, with longer periods of rest in between (this is known as having a lower [duty cycle](https://en.wikipedia.org/wiki/Duty_cycle)), in this case the wave would still have the same Voltage Peak-to-Peak (Vpp) value but on average wouldn't be able to carry as much energy. That's where RMS comes in, it is effectively the measure of how much energy that waveform can deliver and is much, much more useful in general.  RMS is a topic we'll be covering later, but to wet your appetites from Wikipedia may help:
 
 <--->
 
@@ -60,7 +60,7 @@ If you're feeling really adventurous [Chapter 6 - Math, Section 11](https://opin
 
 ## Current and the Ammeter
 
-If voltage is the pressure in the hose, then current is how much water actually flows. This analogy holds up too, because if we use a resistor to kink the hose and the flow is restricted the current will go down. If you were to stick a wire directly into the wall outlet all the current the wall can give will try to flow though, but it can be restricted. To measure the current though a circuit we can't just probe between two points as before though. Instead the probes need to form the exclusive path that part of the circuit can flow through.
+If voltage is the pressure in the hose, then current is how much water actually flows. This analogy holds up too, because if we use a resistor to kink the hose and the flow is restricted the current will go down. If you were to stick a wire directly into the wall outlet all the current the wall can give will try to flow though, but it can be restricted. To measure the current though a circuit we can't just probe between two points as before though. Instead, the probes need to form the exclusive path that part of the circuit can flow through.
 
 In practice this means the wire you want to measure current through would need to be cut and the ammeter's probes hooked up at either end, making the meter part of the circuit.
 
@@ -68,7 +68,7 @@ Current, just like voltage, can vary, and in AC circuits usually does. This lead
 
 #### Continuity Tester
 
-The continuity tester does exactly what it's name implies, it makes sure two points are connected electrically. If you have a piece of metal and put both probes on it it should beep, but if you put the probes on rubber, they clearly will not be. The continuity tester isn't really much different from the ohm meter in operation, and many will actually display the resistance if there is any. The main use is that it beeps when the resistance is low enough to be confident two points are electrically connected.
+The continuity tester does exactly what it's name implies, it makes sure two points are connected electrically. If you have a piece of metal and put both probes on it should beep, but if you put the probes on rubber, they clearly will not be. The continuity tester isn't really much different from the ohm meter in operation, and many will actually display the resistance if there is any. The main use is that it beeps when the resistance is low enough to be confident two points are electrically connected.
 
 #### [TODO] day to day use, why you want one
 
@@ -78,13 +78,13 @@ The continuity tester does exactly what it's name implies, it makes sure two poi
 
 ### The Lab Power Supply
 
-Power Supply Units or 'PSU's are useful because unlike your phone charger which puts out a singular voltage of 5 volts (ignoring fast charging) they can have their output voltage varied usually between 1 and 35-ish volts. Furthermore, they provide current limiting, useful when you're unsure of how much current your circuit might sink or need it for safety.
+Power Supply Units or 'PSU's are useful because unlike your phone charger which puts out a singular voltage of 5 volts (ignoring fast charging) they can have their output voltage varied, usually between 1 and 35-ish volts. Furthermore, they provide current limiting, useful when you're unsure of how much current your circuit might sink or need it for safety.
 
 [TODO] add picture, mention ATX psu, current safety
 
 ### The Frequency or Waveform Generator
 
-Frequency generators can be used to output a signal that is alternating, unlike the DC signal of the Lab PSU.  Usually they'll support a range of wave shapes, frequencies, amplitudes, and DC offsets. Many support far more than this, though the applications for the more advanced modes are few. If you're just starting out you can (with precausions) actually just use the audio output of your computer or buy an inexpensive one for under \$20, unlike the expensive example below:
+Frequency generators can be used to output a signal that is alternating, unlike the DC signal of the Lab PSU.  Usually they'll support a range of wave shapes, frequencies, amplitudes, and DC offsets. Many support far more than this, though the applications for the more advanced modes are few. If you're just starting out you can (with precautions) just use the audio output of your computer or buy an inexpensive one for under \$20, unlike the expensive example below:
 
 ![Image result for arbitrary function generator](https://upload.wikimedia.org/wikipedia/commons/f/f6/BK_Precision_4078_arbitrary_waveform_generator.jpg)
 
@@ -100,7 +100,7 @@ Modern OScopes look much different than their phosphorescent green ancestors tho
 
 <img src="/modernscope.jpeg" alt="Modern Scope" height="400em">
 
-However, a decent 'Digital Storage Oscilloscope' or DSO like the one above run a minimum of \$300 at the time of writing, so many hobbyist opt for older scopes like this one:
+However, a decent 'Digital Storage Oscilloscope' or DSO like the one above run a minimum of \$300 at the time of writing, so many hobbyists opt for older scopes like this one:
 
 <img src="/oldscope.jpeg" alt="Old Scope" height="400em">
 
@@ -188,7 +188,7 @@ Motors
 
 <img src="/pipoehat.webp" alt="pi poeplus hat">
 
-{{< attribution >}}image stollen from [Raspberry Pi PoE+ Hat](https://www.raspberrypi.org/products/poe-plus-hat/) product page{{< /attribution >}}
+{{< attribution >}}image stolen from [Raspberry Pi PoE+ Hat](https://www.raspberrypi.org/products/poe-plus-hat/) product page{{< /attribution >}}
 
 {{< /columns >}}
 
