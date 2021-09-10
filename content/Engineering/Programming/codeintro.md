@@ -266,55 +266,15 @@ try/catch
 
 ### Hello World
 
-As seen in the example above, the following will print `Hello World!`:
-`print('Hello World!')`
-Lets get some input aswell: 
-
-```python
-print('What\'s your name?')
-# This prints the question. Notice the escape character \ is used to avoid stopping the string. 
-
-print('Hello ' + input()) 
-# This will pause the program and wait for user input before printing Hello <input>
-```
+[TODO]
 
 ### Even or Odd
 
-Below is an example of a Python script which checks if the input number is odd or even.
-
-```python
-# A number is even if division by 2 give a remainder of 0.
-# If remainder is 1, it is odd number.
-num = int(input("Enter a number: "))
-if (num % 2) == 0:
-   print("{} is Even".format(num))
-else:
-   print("{} is Odd".format(num))
-```
+[TODO]
 
 ### Prime Numbers
 
-Prime number is a number greater than 1 whose only factors are 1 and itself. Few instances of prime numbers include 2, 3, 5, 11. Below is an example of python function which defines whether the given input number is prime or not. 
-
-```python
-def is_prime(num):
-
-    if num > 1:
-
-        # Iterate from 2 to n / 2
-        for i in range(2, num // 2):
-
-            # If num is divisible by any number between
-            # 2 and n / 2, it is not prime
-            if (num % i) == 0:
-                print("{} is not a prime number".format(num))
-                break
-        else:
-            print("{} is a prime number".format(num))
-
-    else:
-        print("{} is not a prime number".format(num))
-```
+[TODO]
 
 ### Calculating sine and pi
 
@@ -349,24 +309,7 @@ for now, everything should be strictly command line arguments and print statment
 
 ### Lambdas
 
-A lambda expression is used to create a a small anonymous function. It can take any number of arguments, but can only have one expression.
-Below is an example of a lambda expression which can be used to compute cube of any given number.
-
-```python
->>> cube = lambda x : x**3
->>> cube(5)
-125
-```
-
-And here is the other example of a lambda expression with three arguments.
-
-```python
->>> sum = lambda a, b, c : a + b + c
->>> sum(1,2,-3)
-0
-```
-
-threads/ parrallelization(high level only), interupts (actually, let's save this until embbeded), apis,
+[TODO]
 
 ## A little more practice
 
