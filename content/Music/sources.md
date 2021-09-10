@@ -90,7 +90,7 @@ Note that some hardware may go from a digital input to a VCO internally, or take
 
 an **LFO** is a Low Frequency Oscillator, they can still be either digital or analog (DCO or VCO), but they typically have a max frequency of around a hundred hertz and are meant to be used to control other things, not make sound to hear directly. 
 
-Some oscillators, weather digital or analog, cover enough range to be either a 'normal' oscillator used for sounds you're intended to hear or an LFO, so there's not always a clear distinction.
+Some oscillators, whether digital or analog, cover enough range to be either a 'normal' oscillator used for sounds you're intended to hear or an LFO, so there's not always a clear distinction.
 
 {{< hint info>}}
 
