@@ -1,7 +1,14 @@
 # Opinionated Guides
-### Version 4, Contributions welcome
 
-https://opguides.info
+Originally written by @VegaDeftwing
+
+Edits by @jhwgh1968
+
+All edits written by me are committed to the public domain. All other text is bound by the CC-NC-SA Int'l 4.0 license.
+
+----
+
+## Original README
 
 ---
 #### Purpose:
