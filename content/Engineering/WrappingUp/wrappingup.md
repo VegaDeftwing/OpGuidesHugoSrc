@@ -1,4 +1,4 @@
-# Chapter 37 - Where To Go Frome Here?
+# Chapter 42 - Where To Go From Here?
 
 Hey, so, you made it. I can't give you a degree. But, I'm proud of you. Even if you skipped a chapter or two, you still put in work to improve yourself and learn something. That's cool.
 

@@ -58,9 +58,8 @@ headless: true
     <dt class="sub">6.5</dt><dd class="sub"> <a href="/engineering/math/diffeq"> Diff Eq</a></dd>
     <dt class="sub">6.6</dt><dd class="sub"> <a href="/engineering/math/linalg"> Linear Algebra</a></dd>
     <dt class="sub">6.7</dt><dd class="sub"> <a href="/engineering/math/numanalysis"> Numerical Analysis</a></dd>
-    <dt class="sub">6.8</dt><dd class="sub"> <a href="/engineering/math/sigandsys"> Signals & Systems</a></dd>
-    <dt class="sub">6.9</dt><dd class="sub"> <a href="/engineering/math/settheory"> Set Theory</a></dd>
-    <dt class="sub">6.10</dt><dd class="sub"> <a href="/engineering/math/probability"> Probability</a></dd>
+    <dt class="sub">6.8</dt><dd class="sub"> <a href="/engineering/math/settheory"> Set Theory</a></dd>
+    <dt class="sub">6.9</dt><dd class="sub"> <a href="/engineering/math/probability"> Probability</a></dd>
    </details> </dd>
 <dt>6½</dt><dd> <a href="/engineering/math/units/">Units</a></dd>
 <dt>7 </dt><dd> <a href="/engineering/prereq/physics/">Physics</a></dd>
@@ -68,6 +67,7 @@ headless: true
 <dt>9 </dt><dd> <a href="/engineering/prereq/othersubjects/">'The Rest'</a></dd>
 </dil>
 </div>
+
 
 <p style="color:#009CDF;margin-bottom:0px;" >    Programming</p>
 
@@ -104,30 +104,44 @@ headless: true
 </dil>
 </div>
 
+<p style="color:#009CDF;margin-bottom:0px;" >    Signal Processing</p>
+
+<div class="progress-ww">
+<dl>
+<dt>27 </dt><dd> <a href="/engineering/signals/sigandsys">Signals & Systems</a></dd>
+<dt>28 </dt><dd> <a href="/engineering/signals/commsys">Communications</a></dd>
+<dt>29 </dt><dd> <a href="/engineering/signals/dsp">DSP</a></dd>
+<dt>30 </dt><dd> <a href="/engineering/signals/controlsys">Control Systems</a></dd>
+</dil>
+</div>
+
+
 
 <p style="color:#009CDF;margin-bottom:0px;" >    Going Deeper</p>
 
 <div class="progress-ww">
 <dl>
-<dt>27 </dt><dd> <a href="/engineering/deeper/compileassemble/">Compilers & Assemblers</a></dd>
-<dt>27½</dt><dd> <a href="/engineering/deeper/reverse/">Reverse Engineering</a></dd>
-<dt>28 </dt><dd> <a href="/engineering/deeper/fpga1/">Programmable Logic</a></dd>
-<dt>29 </dt><dd> <a href="/engineering/deeper/comparch/">Let's Make our own CPU</a></dd>
+<dt>31 </dt><dd> <a href="/engineering/deeper/compileassemble/">Compilers & Assemblers</a></dd>
+<dt>32 </dt><dd> <a href="/engineering/deeper/reverse/">Reverse Engineering</a></dd>
+<dt>33 </dt><dd> <a href="/engineering/deeper/fpga1/">Programmable Logic</a></dd>
+<dt>34 </dt><dd> <a href="/engineering/deeper/comparch/">Let's Make our own CPU</a></dd>
 </dil>
 </div>
+
 
 <p style="color:#009CDF;margin-bottom:0px;" >    Networking & Servers</p>
 
 <div class="progress-ww">
 <dl>
-<dt>30 </dt><dd> <a href="/engineering/networking/networking/">Networking</a></dd>
-<dt>31 </dt><dd> <a href="/engineering/networking/servers/">Servers!</a></dd>
-<dt>31½</dt><dd> <a href="/engineering/networking/cloud/">"The Cloud"</a></dd>
-<dt>32 </dt><dd> <a href="/engineering/networking/databases/">Databases</a></dd>
-<dt>33 </dt><dd> <a href="/engineering/networking/security/">Security & Exploitation</a></dd>
-<dt>33½</dt><dd> <a href="/engineering/networking/privacy/">Privacy</a></dd>
+<dt>35 </dt><dd> <a href="/engineering/networking/networking/">Networking</a></dd>
+<dt>36 </dt><dd> <a href="/engineering/networking/servers/">Servers!</a></dd>
+<dt>36½</dt><dd> <a href="/engineering/networking/cloud/">"The Cloud"</a></dd>
+<dt>37 </dt><dd> <a href="/engineering/networking/databases/">Databases</a></dd>
+<dt>38 </dt><dd> <a href="/engineering/networking/security/">Security & Exploitation</a></dd>
+<dt>38½</dt><dd> <a href="/engineering/networking/privacy/">Privacy</a></dd>
 </dil>
 </div>
+
 
 <!--  - [24 - ]({{< relref "/Engineering/24-" >}}) -->
 
@@ -135,23 +149,25 @@ headless: true
 
 <div class="progress-ww">
 <dl>
-<dt>34 </dt><dd> <a href="/engineering/making/3dprint/">3D Printing & CNC</a></dd>
-<dt>35 </dt><dd> <a href="/engineering/making/hamradio/">Ham Radio</a></dd>
-<dt>36 </dt><dd> <a href="/engineering/making/history/">Computer History</a></dd>
+<dt>39 </dt><dd> <a href="/engineering/making/3dprint/">3D Printing & CNC</a></dd>
+<dt>40 </dt><dd> <a href="/engineering/making/hamradio/">Ham Radio</a></dd>
+<dt>41 </dt><dd> <a href="/engineering/making/history/">Computer History</a></dd>
 </dil>
 </div>
+
 
 <p style="color:#009CDF;margin-bottom:0px;" >    Wrapping Up</p>
 
 <div class="progress-ww">
 <dl>
-<dt>37 </dt><dd> <a href="/engineering/wrappingup/wrappingup/">Where next?</a></dd>
+<dt>42 </dt><dd> <a href="/engineering/wrappingup/wrappingup/">Where next?</a></dd>
 <dt>A2 </dt><dd> <a href="/engineering/wrappingup/cheat/">Cheat Sheets & Libraries</a></dd>
 <dt>A3 </dt><dd> <a href="/engineering/wrappingup/resources/">Other Great Resources</a></dd>
 <dt>A4 </dt><dd> <a href="/engineering/wrappingup/job/">Getting a Job</a></dd>
 <dt>A5 </dt><dd> <a href="/engineering/wrappingup/latex/">Markdown and LaTeX</a></dd>
 </dil>
 </div>
+
 
 ---
 

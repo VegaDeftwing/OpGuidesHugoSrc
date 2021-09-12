@@ -1,4 +1,4 @@
-# Chapter 30 - Networking
+# Chapter 35 - Networking
 
 [TODO] Add follow along making a network stack
 
@@ -362,7 +362,7 @@ Ben Eater's Networking Tutorial Series is pretty good:
 
 
 
-# Chapter 10.1 - Weird Networking, because why not!
+# Chapter 35.1 - Weird Networking, because why not!
 
 [Weird URL Protocols (YouTube, ThioJoe)](https://www.youtube.com/watch?v=WcLmMLqnKCM)
 

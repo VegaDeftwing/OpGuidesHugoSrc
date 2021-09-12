@@ -1,4 +1,4 @@
-# 8 - Signals & Systems
+# 27 - Signals & Systems
 
 When I took ECEN 304 Signals & Systems Ⅰ with the fantastic Dr. Sayood at UNL I remember how in awe I was at how he consisely he managed to describe the core idea of this class. While I can not hope to convey the same level of brilliance or inspiration, I do hope that my poor attempt at mimicing his introduction to the course may be of value:
 

@@ -1,4 +1,4 @@
-# Chapter 27 - Compilers and Assemblers
+# Chapter 31 - Compilers and Assemblers
 
 https://lee.earth/til/compiling-c-code-a-step-by-step-guide/
 
