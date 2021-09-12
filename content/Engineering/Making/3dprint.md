@@ -1,6 +1,6 @@
-# Chapter 34 - 3D printing, CNC, and making things
+# Chapter 39 - 3D printing, CNC, and making things
 
-# 34.1 - Basic making
+# 39.1 - Basic making
 
 ## Wood working
 
@@ -20,7 +20,7 @@
 
 ### Safety
 
-# 34.2 - CNC, 3D, Lasers, & Plotting
+# 39.2 - CNC, 3D, Lasers, & Plotting
 
 ## Plotting
 
@@ -110,6 +110,6 @@ https://www.3dnatives.com/en/plastics-used-3d-printing110420174/
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Started working on 3d printed foam again. This piece printed in about 7 hours (parallel printers). I have a lot to learn about actually finishing a head so I&#39;ve been printing out 1/4 and 1/2 heads for practice. Failing fast and often <a href="https://t.co/9Q5XP4Cjhw">pic.twitter.com/9Q5XP4Cjhw</a></p>&mdash; Rev (@RevitFur) <a href="https://twitter.com/RevitFur/status/1414490068975292416?ref_src=twsrc%5Etfw">July 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## 34.3 - Aluminum Extrusion
+# 39.3 - Aluminum Extrusion
 
 [Getting started with Aluminum Extrusions (Hackaday)](https://hackaday.com/2021/05/25/getting-started-with-aluminum-extrusions/)
