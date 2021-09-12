@@ -1,4 +1,4 @@
-# Chapter 33½ - Your Guide to Privacy
+# Chapter 38½ - Your Guide to Privacy
 
 {{< bigquote "Edward Snowden, in his [Reddit AMA](https://www.reddit.com/r/IAmA/comments/36ru89/just_days_left_to_kill_mass_surveillance_under/crglgh2?utm_source=share&utm_medium=web2x&context=3)">}}
 
