@@ -53,7 +53,7 @@ Going back to when cache was mentioned though, RAM's primary job is to hold bulk
 
 ## Memory Density
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/R7CO9v9rpOk?list=WL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/R7CO9v9rpOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Virtual Memory
 

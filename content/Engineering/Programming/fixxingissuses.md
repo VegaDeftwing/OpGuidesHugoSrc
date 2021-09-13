@@ -49,7 +49,3 @@ So, what does this have to do with debugging? Apply the same idea- find things y
 # 📋 Keep a list of what you've tried and what you haven't tried
 
 This is easy, just make a todo style list, if you come up with a new idea halfway though and try it real quick, add it and immediately check it off. This prevents the possibility of being 3 hours in and repeating the same 'fixes' as an exercise in insanity.
-
-[TODO]
-
-[People expect technology to suck because it actually sucks](https://tonsky.me/blog/tech-sucks/)
