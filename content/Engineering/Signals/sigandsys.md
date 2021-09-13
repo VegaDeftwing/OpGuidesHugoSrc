@@ -32,8 +32,6 @@ provides a great introduction for developing an intuition about it graphically, 
 
 [TODO] put in all notes from class here to provide a half decent resource
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/qKy98Cbcltw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 **Extra Resources:**
 
 [Intuitive Guide to Convolution](https://betterexplained.com/articles/intuitive-convolution/)
@@ -50,11 +48,6 @@ https://en.wikibooks.org/wiki/Signals_and_Systems
 
 [What does the Laplace Transform really tell us? (Zach Star, YouTube)](https://www.youtube.com/watch?v=n2y7n6jw5d0&ab_channel=ZachStar)
 
-[FFT on Algorithm Archive](https://www.algorithm-archive.org/contents/cooley_tukey/cooley_tukey.html)
-
-
-
-
 
 [What does frequency mean in an image (Stack Exchange)](https://photo.stackexchange.com/questions/40401/what-does-frequency-mean-in-an-image)
 
@@ -62,13 +55,31 @@ https://en.wikibooks.org/wiki/Signals_and_Systems
 
 [Poisson's Equation is the Most Powerful Tool not yet in your Toolbox (Matt Ferraro)](https://mattferraro.dev/posts/poissons-equation)
 
-[TODO] Basic signal transformations, shifts, scaling, etc.
+## What Is a Signal?
 
-[TODO] Properties of waves
+[TODO] Properties of waves + Discrete signals
 
-- Phase, Frequency, Wavelength, Amplitude & Db & LuFS
+- Phase, Frequency, Wavelength, Amplitude & Db & LuFS, Bandwidth
 
-[TODO] Unit Step & Impulse
+## How Do I work with signals?
+
+[TODO] Basic signal transformations, shifts, scaling, etc. sneak peak at Frequency Domain
+
+## Important Signals
+
+[TODO] Sinusoidal
+
+[TODO] Unit Step
+
+[TODO] Impulse (delta)
+
+[TODO] Triangle
+
+[TODO] Rectangle
+
+[TODO] Sinc
+
+## Properties of Signals
 
 [TODO] Memory - system is only dependent on input at the same time as the input
 
@@ -82,7 +93,7 @@ https://en.wikibooks.org/wiki/Signals_and_Systems
 
 [TODO] Linearity - if you put in A and get Y, put in B and get Z, then putting in A+B should give you Y+Z. Similarly, 2A should give you 2Y.
 
-[TODO] LTI - Linear, Time Invariant
+## LTI - Linear Time Invariant Systems
 
 - Distributive, Associative, Invertability, Stability (if summable < inf)
 
@@ -92,15 +103,13 @@ https://en.wikibooks.org/wiki/Signals_and_Systems
 
 [TODO] Filtering
 
-[TODO] Fourier Transform - Discree & Continuous
+[TODO] Fourier Transform - Discrete & Continuous
 
 [TODO] Sampling
 
 - Nyquist
 - Aliasing
 - Interpolation & Sinc fn
-
-[TODO] AM, FM, 
 
 [TODO] Laplace Transform, Region Of Convergence
 
@@ -113,12 +122,4 @@ https://en.wikibooks.org/wiki/Signals_and_Systems
 [TODO] Linear Feedback Systems
 
 [TODO] PLLs
-
----
-
-Basic DSP, maybe move to Music Chapters or find a way to link the two?
-
-[TODO] Lookup-table generators (Wavetables)
-
-[TODO] Envelopes
 
