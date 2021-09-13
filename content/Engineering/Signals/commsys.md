@@ -78,3 +78,75 @@ Finally, the **source decoder** takes the digital signal and turns it back into 
 
 Wait a second!? I hear you say, what about **encryption** and **decryption**? Those stages just do complex math on the stream of bits that is really hard to reverse unless you know a secret key. This makes it so that people eavesdropping on the channel can't get our original messages back out without permission. It should be noted that there are ways to secure a normal analog signal like this too, but the technology is just much more robust and cheaper in digital, - many analog methods of securing a signal are easy to break though - so you don't usually see analog communication systems bothering to obfuscate their messages at all.
 
+## Note on Signals & Systems
+
+You absolutely need to understand signals and systems for this page to make any sense. I'll still point out common places you can make mistakes, but you'll need to know what a Fourier transform is and how to use it
+
+## Amplitude Modulation
+
+### Double-sideband suppressed-carrier AM
+
+[Wikipedia](https://en.wikipedia.org/wiki/Double-sideband_suppressed-carrier_transmission)
+
+### Conventional Double-sideband AM
+
+[Wikipedia](https://en.wikipedia.org/wiki/Amplitude_modulation)
+
+### Single-sideband AM
+
+[Wikipedia](https://en.wikipedia.org/wiki/Single-sideband_modulation)
+
+## Transmission Power
+
+## Frequency Modulation
+
+## Phase Modulation
+
+## Digital Modulation Methods
+
+### ASK
+
+#### OOK
+
+### QAM
+
+
+
+### FSK
+
+#### MFSK
+
+### PSK
+
+### APSK
+
+### PPM
+
+
+
+## Multiplexing
+
+### TDM
+
+[Wikipedia](https://en.wikipedia.org/wiki/Time-division_multiplexing)
+
+### FDM
+
+[Wikipedia](https://en.wikipedia.org/wiki/Frequency-division_multiplexing)
+
+### Packet Switching
+
+{{< tip >}}
+
+This is how most modern networking works, see the <a href="/engineering/networking/networking/">Networking</a> chapter!
+
+{{< /tip >}}
+
+## The Problem of Noise
+
+
+
+## A Smidgen of Information Theory
+
+
+
