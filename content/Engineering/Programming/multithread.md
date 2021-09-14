@@ -1,6 +1,8 @@
 # Chapter 17 - We've got cores, let's use em'
 
-[TODO]
+[TDOO] Motivations from Moore's law, Blocking I/O, 
+
+[TODO] start with process forking via syscall - show it 
 
 https://lemire.me/blog/2020/01/30/cost-of-a-thread-in-c-under-linux/
 
