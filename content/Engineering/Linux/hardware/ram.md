@@ -55,13 +55,31 @@ Going back to when cache was mentioned though, RAM's primary job is to hold bulk
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/R7CO9v9rpOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Virtual Memory
+## Virtual Memory & Swap
 
-### Dirty bit
+[TODO] see chapters 12-24 of https://pages.cs.wisc.edu/~remzi/OSTEP/
+
+So, there's a bit of complexity between how programs see memory and what is actually availade going on that is really important to understand. You see, in ye olden days, computers were simple- you'd have a big ol' pool of available memory and each program would just be told "You get the memory between ADDRESS1 and ADDRESS2" but there wasn't actually anything checking to make sure this was upheld. If one program wanted to maliciously read another's memory values, it could! If a program decdided "You know what, I think I need more memory than this!" it could just go right out of it's allotted space and overwrite the memory of another process. Further, it was really awkward to handle the problem of a process, halfway though running, requesting more or less memory be allocated to it, as dealing with non-contiguous regions of memory would be awkward.
+
+Enter Virtual memory
+
+Each program is now given a virtual address and virtual pages of memory. These pages are mapped to physical memory by using the *Memory Management Unit* or MMU in the processor in conjunction with the OS coordinating what process gets what memory allocated to it. Put very basically, each process is essentially given what *looks to it* to be access to the real, physical memory, say, the process is told "You have access to address 0x000A to 0x000C" but the operating system and MMU know that, in reality, that the memory is actually, physically, in two segments, 0xF32C to 0xF32D and 0x3D2A and 0x3D2B. The program has no idea about this mapping and no idea that the memory isn't actually contiguous.
+
+This has another benefit- we can actually allocate more memory than we really have. Say we're working on a system with limited RAM like the Raspberry Pi 3B+ with only 1GB to go around. The operating system is going to need some of that to do it's duties, says 200Mb, and then say you open two programs- Libreoffice Writer (a word processor) and Firefox, each of which needs 500Mb of memory. That's already 1200Mb of memory, more than the 1024Mb in the 1Gb of physical memory the Pi has! So, what happens? Well, the system will start *Swapping* memory to disk (in this case the SD card) this means that whatever the OS deems what you haven't used in the longest or that you're least likely to use again soon gets taken out of RAM and is instead written to your long term storage (SD card here, but normally an SSD or HDD in a bigger computer) this is *good* because it means you can run more programs than you really have the RAM for, but *bad* because this secondary storage is very very very very very slow compared to the speed of RAM, so when you do actually need that information, it will take a long time to work its way to the processor. If we continually end up swapping memory from disk and physical memory, this is called *Thrashing* and it is extremely bad. Even when the system isn't being thrashed, the hiccup from swapping is often very noticeable to the user, so you really don't want to run out of RAM.
+
+### Faults & The Dirty Bit
+
+Alright, so, 
+
+### Locality
+
+[TODO] Temporal & Spacial Localitiy
 
 ### Pages
 
-[TODO] Huge Pages ref [this](https://www.chaoticafractals.com/manual/getting-started/enabling-large-page-support-windows)
+[TODO] What a page is, page faults. Not going into depth on Page replacment algos but at least enough to get the gist.
+
+[TODO] Huge Pages, ref [this](https://www.chaoticafractals.com/manual/getting-started/enabling-large-page-support-windows)
 
 ## Memory issues, ECC, and Memtest86
 
@@ -109,11 +127,9 @@ You're far more likely to get RAM errors if you Overclock your RAM as well, so j
 
 ## The Future of RAM
 
-[TODO]
+It may seem like RAM is simple enough as to not really have any opportunities for massive changes in the future. This is not the case. Currently, there are real, commercially available products implementing both Processing In Memory (PIM) and memory persistance (non-volatile main memory)
 
-[In-Memory Processing by UPMEM](https://www.anandtech.com/show/14750/hot-chips-31-analysis-inmemory-processing-by-upmem)
-
-[Intel Optane Persistant Memory](https://www.storagereview.com/news/intel-optane-dc-persistent-memory-module-pmm)
+This article, [In-Memory Processing by UPMEM](https://www.anandtech.com/show/14750/hot-chips-31-analysis-inmemory-processing-by-upmem), from AnandTech goes into the former, while the [Intel Optane Persistant Memory](https://www.storagereview.com/news/intel-optane-dc-persistent-memory-module-pmm) article from StorageReview and [this video from Linus Tech Tips](https://www.youtube.com/watch?v=uHAfTty9UWY) cover the latter.
 
 ## Row Hammer
 
