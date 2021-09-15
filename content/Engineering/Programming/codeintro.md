@@ -123,7 +123,17 @@ http://composingprograms.com
 
 <img class="center" src="/python.png" alt="Py Logo" height="200em">
 
-[TODO] Why start with python
+## Getting started with python
+
+You may ask, why Python? Why not any of the other languages you may have heard of?
+
+There are a couple reasons:
+
+* **It Looks Like Math**. As I said above, code is mostly math, so why not choose a language that looks like it? Python does not require a lot of typing or understanding weird characters with special meaning. The most subtle thing about it is whitespace.
+* **Accessibility**. Python was designed from the beginning to be easy to learn and read, including for non-programmers.
+* **Features**. Python has most of the features common in other languages. That makes it good for teaching the features in other languages.
+* **Popularity**. There are dozens of tutorials about how to use it to solve any problem you could imagine. Once this guide gets you started, the internet is full of paths to follow.
+* **Portability**. You can get Python running everywhere: Windows, Linux, Mac, or even [a microcontoller](https://micropython.org/).
 
 ## The building blocks of programming
 
@@ -252,6 +262,33 @@ assignment, comparison, combined ops (+=), mod, exponent, floor,
 in/not in, is/is not, data types, functions
 libraries
 
+### Functions
+
+This is a way to give code a name, and use it later. Here is an example with a loop:
+
+```python
+def f(x):
+    if x < 10:
+        string = "x is less than 10"
+    else:
+        string = "x is greater than or equal to 10"
+    return string
+
+for a in range(100):
+    print(a)
+    b = f(a)
+    print(b)
+```
+
+When you run this code, you will see that all the steps underneath `f` are run over and over again, each time through the loop.
+
+There are a couple things to understand here:
+
+* Line 10 is where the function is *called*. That is where line 2 begins to execute.
+* The function takes a *parameter* we have named `x`. The value of `x` is what was put in the parentheses at the call location, so its value is `a` for each time through the loop. The value of `x` lasts for the duration of the code in the function.
+* The `return` statement on line 6 creates a value to be sent from the function back to the caller. This is then the value of `b` when line 10 completes. If you don't put one of these, it will return a special value called `None`.
+
+You can see from this that `print` is just a function call! It takes more effort and extra syntax to create a function that can take all the parameters print can, but you can definitely write one. That's for a different tutorial, though.
 
 ## Common methods used
 
@@ -261,6 +298,81 @@ Recursion, object orientation
 while(true)
 try/catch
 
+### Recursion
+
+There is an old joke that in order to understand recursion, you must first understand recursion. If that joke makes sense, you understand it.
+
+Well, you might at least. The concept can be understood with some study, but significant percentage of professional programmers still get it wrong when they try to use it!
+
+This is something to meditate on, and do some experiments. If you don't quite get it from one reading, don't feel bad.
+
+Let's give it a try. Consider this function:
+
+```python
+def unfolded_sum(n):
+    if n == 1:
+        return n
+    else:
+        s = unfolded_sum(n-1)
+        return s + n
+```
+
+New programmers are often confused by this. How can a function refer to itself?
+
+In order to understand this, we have to get into the way that functions actually work.
+
+Think back to the previous example under functions. The program had to keep track of `a` as it went through each iteration of the for loop, and yet, `x` in the function `f` had to be kept separate.
+
+This was achieved by keeping a copy of variables within a function in a different area of memory. What the programming language actually did was to copy the value of the variable `a` into a specific context for `f`, and named it `x`. When `f` got to the end, that copy went away.
+
+In Python, you can use some special syntax to view this if you have the window open where you typed the Functions example:
+
+```python
+>>> print(f)
+<function f at 0x7fd36d4d9820>
+>>> print(f.__code__.co_varnames)
+('x','string')
+```
+
+There's `x`, the copy. The variable *belongs to* the function, which means it had to copy the value into that new slot. Every time the function was called, it had to create a new slot. Otherwise, it would clobber the value of `a`, or run with the wrong value!
+
+Given this, perhaps the code above will make more sense:
+
+```python
+>>> print(unfolded_sum.__code__.co_varnames)
+('n', 's')
+```
+
+Just like before, each time we call the function, `n` is copied in, and `s` is copied out. But what happens to `n` on line 5?
+
+The answer is the same as before: `s` is copied to `n` -- a *new n*. This "inner n" then begins at the top of the code on line 2.
+
+The result looks like this if it were called with 3:
+
+```
+z = unfolded_sum(3)
+            ↳ NEW CALL
+              n = 3
+              if n == 1 → False
+              s = unfolded_sum(3-1)
+                          ↳ NEW CALL
+                            n = 2
+                            if n == 1 → False
+                            s = unfolded_sum(2-1)
+                                        ↳ NEW CALL
+                                          n = 1
+                                          if n == 1 → True
+                                          return n
+                            s = 1        ↲
+                            return s + n
+              s = 3        ↲
+              return s + n
+z = 6        ↲
+```
+
+The series of memory spaces for these calls grow at one end, and then shrink back down. This data structure is called a "stack" when written in code, and the programming language uses a *call stack* to keep track of these copies.
+
+The call stack is very important to understand most programming languages, and Python is no exception. Even when you are not doing recursion, you will get a *call stack trace* when debugging.
 
 ## Some simple programs
 
