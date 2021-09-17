@@ -53,31 +53,6 @@ First of all, almost all modern Central Processing Units (CPUs) have multiple co
 
 Next is the vendor ID, family, model, name, and stepping. My processor is an AMD Ryzen 7 1700. There's a pretty good chance your CPU will be made by Intel, and as such the family, model, name, and what not will reflect that. AMD and Intel are practically the only two laptop and desktop CPU providers, though in the feature we'll work with boards that use CPU's made by other manufactures. Really, most of this doesn't matter. Some CPUs are nicer than others, and if you follow the market or care it's easy to get a sense of a CPU's speed just based on it's name, but let's move on for now.
 
-<div class="progress-ww">
-<dl>
-<dt>1 </dt><dd> <a href="/engineering/linux/firstgoal/">The First Goal</a></dd>
-<dt>2 </dt><dd> <a href="/engineering/linux/arch/">Installing Arch Linux</a></dd>
-   <dt>3 </dt><dd> <details id="hardwareMenu"> <summary><a href="/engineering/linux/hardware/">Into The Hardware</a></summary>
-    <dt class="sub">3.1</dt><dd class="sub"> <a href="/engineering/linux/hardware/cpu"> CPU</a></dd>
-	  <dt class="sub">3.2</dt><dd class="sub"> <a href="/engineering/linux/hardware/ram"> RAM</a></dd>
-    <dt class="sub">3.3</dt><dd class="sub"> <a href="/engineering/linux/hardware/motherboard"> Motherboard</a></dd>
-    <dt class="sub">3.4</dt><dd class="sub"> <a href="/engineering/linux/hardware/gpu"> Graphics</a></dd>
-    <dt class="sub">3.5</dt><dd class="sub"> <a href="/engineering/linux/hardware/storage"> Storage</a></dd>
-    <dt class="sub">3.6</dt><dd class="sub"> <a href="/engineering/linux/hardware/network"> Networking</a></dd>
-    <dt class="sub">3.7</dt><dd class="sub"> <a href="/engineering/linux/hardware/power"> Power</a></dd>
-    <dt class="sub">3.8</dt><dd class="sub"> <a href="/engineering/linux/hardware/cooling"> Cooling</a></dd>
-    <dt class="sub">3.9</dt><dd class="sub"> <a href="/engineering/linux/hardware/peripherals"> Peripherals</a></dd>
-    <dt class="sub">3.10</dt><dd class="sub"> <a href="/engineering/linux/hardware/biggerpicture"> The Bigger Picture</a></dd>
-    <dt class="sub">3.11</dt><dd class="sub"> <a href="/engineering/linux/hardware/buying"> What to Buy?</a></dd>
-    <dt class="sub">3.12</dt><dd class="sub"> <a href="/engineering/linux/hardware/legacy"> Legacy</a></dd>
-   </details> </dd>
-<dt>3½</dt><dd> <a href="/engineering/linux/hardware/architectures/">Architectures</a></dd>
-<dt>4 </dt><dd> <a href="/engineering/linux/linuxdirtree/">Getting Rooted in Linux</a></dd>
-<dt>5 </dt><dd> <a href="/engineering/linux/howwework/">Working on <i>How</i> we work</a></dd>
-<dt>5½</dt><dd> <a href="/engineering/linux/git/">Git</a></dd>
-<dt>A1 </dt><dd> <a href="/engineering/linux/linuxshell/">Using The Linux Shell</a></dd>
-</dil>
-</div>
 
 ```bash
 microcode       : 0x8001137
