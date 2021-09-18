@@ -12,7 +12,7 @@ If this sounds like a strange concept, it dates back to the very basics of compu
 
 ## Lambda Calculus
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/eis11j_iGMs?list=WL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/eis11j_iGMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Purity and Side Effects
 
