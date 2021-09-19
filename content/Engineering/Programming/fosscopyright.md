@@ -80,7 +80,7 @@ First, they lack the protections of the Apache 2.0 and GPL family of licenses ag
 
 If you think this sounds far fetched, it isn't. [The craziest things have been patented](https://www.eff.org/search/site/stupid%20patent%20of%20the%20month?f%5B0%5D=type%3Ablog), and patent lawyers are extremely expensive --- even by the standards of other lawyers!
 
-Second, they may be read narrowly or strangely by non-US courts. Aside from the unlicense which relies on the US public domain, the liability protections in the licenses may not have been tested with product liability law in Europe. The GPL, by contrast, has been used successfully in both the United States and Europe, and was written with international law in mind.
+Second, they may be read narrowly or strangely by non-US courts. Aside from the unlicense which relies on the US public domain, the liability protections in the licenses may not have been tested with product liability law in Europe. Meanwhile, the GPL was written with international law in mind, and has been upheld by courts in both the United States and Europe.
 
 If you still don't like any of the three recommended options, the Free Software Foundation has [given their own legal analysis of common licenses, and whether they are GPL compatible](https://www.gnu.org/licenses/license-list.html). It is worth reading before choosing anything else.
 
