@@ -15,7 +15,7 @@ So you've decided to make your project open source. Great!
 
 First, [decide on a definition of success. There is more than one.](https://dzone.com/articles/running-a-successful-open-source-project-1)
 
-Then, you have a list of concerns in that article above.
+Your next step is to decide on a license: the legal terms you will bind your users and contributors to. If you don't specify a license, it is extremely unclear and would require actual IP lawyers to untagle. Always make sure you have one.
 
 
 ## Choosing a License
@@ -28,18 +28,22 @@ There has been much internet debate around copyleft due to the strictness of its
 
 For those new to open source licensing, my approach would be to ask yourself two questions:
 
-* Does retaining control of the project and its future matter? Or do I simply want to offer it "as is"?
-* If a Fortune 500 company were to use my software in its proprietary product to make money, would I care?
+* Does my control and the future of the project matter to me? Or do I simply want to offer it "as is"?
+* If someone else (perhaps a Fortune 500 company) were to use my software in a proprietary product to make money, would I want some?
 
-These are the questions that distinguish between "strength" of copyleft licenses actually written by lawyers, and those are your best options:
+Different people have different answers. Some just want the project to be used, others want to build a community, still others have different plans.
 
-* If you care about how it is used, particularly but not only with regards to profit making, use [the GNU Affero General Public License (AGPL) v3](https://www.gnu.org/licenses/agpl.html).
-* If you care about building a community, and don't care or want to encourage profit making by users, use [the Apache 2.0 Software License](https://www.apache.org/licenses/LICENSE-2.0.html).
-* If you don't care at all, you might consider a [Creative Commons Zero Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+Based on the answers, I recommend one of these three options:
+
+* If you care about how it is used, including proprietary uses for profit, use [the GNU Affero General Public License (AGPL) v3](https://www.gnu.org/licenses/agpl.html).
+* If you want to encourage maximum adoption, use [the Apache 2.0 Software License](https://www.apache.org/licenses/LICENSE-2.0.html).
+* If you want to release it "as is", or it is in certain domains, you might consider a [Creative Commons Zero Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+
+They are explained in more detail below. In the mean time, it is important to recognize that different contributors will have different expectations (and different willingness to contribute) based on the license you choose.
 
 {{< tip >}}
 
-Why not just put a note saying it's in the public domain? Because in many countries outside the United States, there are restrictions on the public domain. For example, in Germany, an individual cannot fully dedicate something to the public domain in a way that cannot be revoked, so it cannot be trusted for software. The Creative Commons Zero license was written by lawyers, and achieves this effect in such cases.
+If you want to put it in the public domain, why not just put a note saying so? Because in some countries, there are restrictions on the public domain which make it useless or impossible to use for open source software. Creative Commons Zero acts as a license in such countries, granting tthe same terms and waivers as the United States public domain.
 
 {{< /tip >}}
 
@@ -51,44 +55,34 @@ While I mentioned making money earlier, *the GPL does not forbid profiting*. Ins
 
 The license also goes to great lengths to make sure that other areas of law -- notably, patent law in the United States -- cannot be abused by the covered software.
 
+The main drawback (and main source of pushback on the internet) is the way this license interacts with other software. Because the GPL requires that all the same rights be included in the software you distribute, creating software out of both GPL and non-GPL code binds your users to terms that may be confusing, or in the worst case, impossible to follow if it is not all open source -- or if it is open source with different restrictions.
+
+The Free Software Foundation has [given their own legal analysis of common licenses, and whether they are GPL compatible](https://www.gnu.org/licenses/license-list.html). It is worth reading to understand this.
+
 ### Weak Copyleft: Apache 2.0
 
 The Apache Software foundation exists as a charity to give its software away for the greater good. As a result, it is also a copy-left license, but unlike the GPL, it does not require as much of its downstream users. In particular, they may use it in closed source software and turn a profit.
 
-This is considered to be the least "political" license in the license debates.
+This is one of the "least political" licenses in the license debates.
 
 
 ### Other Licenses: BSD, MIT, X11, Oh My!
 
-There are other liceses, that are much shorter, that seem to be similar to the Apache 2.0 License in spirit. However, these are inferior in important respects.
+There are other liceses, that are much shorter, that seem to be similar to the Apache 2.0 License in spirit. Popular licenses include:
+* The [MIT license](https://mit-license.org/)
+* The BSD license, which comes in flavors. The most common is [the "2 clause" version](https://opensource.org/licenses/BSD-2-Clause).
+* The [ISC license](https://www.isc.org/licenses/).
+* The [Unlicense](https://unlicense.org/) (suggested by GitHub for public domain software)
 
-I will mention two famous ones. The first is [the MIT license](https://mit-license.org/):
+These licenses probably look okay to non-lawyers, and are designed to provide maximum flexibility. However, they have other problems.
 
-> Copyright © 2021 \<copyright holders>
->
-> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
->
->The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-> 
-> THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+First, they lack the protections of the Apache 2.0 and GPL family of licenses against patent trolls. In the US especially, software ideas are subject to patenting as inventions. That means *regardless of copyright law* (and licenses fall under copyright law), it is possible for you to use a patented idea in your software, or one of your users to patent an idea in the software they derived from yours. In both cases, you could be sued!
 
-The second is the "BSD" license, which comes in various flavors. The most common one is [the "2 clause" version](https://opensource.org/licenses/BSD-2-Clause):
+If you think this sounds far fetched, it isn't. [The craziest things have been patented](https://www.eff.org/search/site/stupid%20patent%20of%20the%20month?f%5B0%5D=type%3Ablog), and patent lawyers are extremely expensive --- even by the standards of other lawyers!
 
-> Copyright \<YEAR\> \<COPYRIGHT HOLDER\>
->
->Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
->
->1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
->
->2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
->
->THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Second, they may be read narrowly or strangely by non-US courts. Aside from the unlicense which relies on the US public domain, the liability protections in the licenses may not have been tested with product liability law in Europe. The GPL, by contrast, has been used successfully in both the United States and Europe, and was written with international law in mind.
 
-{{< tip >}}
-What is wrong with these licenses? They lack the ways in the GPL to prevent patent trolling, and may be read narrowly by non-US courts. The Apache 2.0 License addresses both of these concerns.
-{{< /tip >}}
-
-The Free Software Foundation has [given their own legal analysis of common licenses, and whether they are GPL compatible](https://www.gnu.org/licenses/license-list.html). It is worth reading before choosing anything except one of the three options above.
+If you still don't like any of the three recommended options, the Free Software Foundation has [given their own legal analysis of common licenses, and whether they are GPL compatible](https://www.gnu.org/licenses/license-list.html). It is worth reading before choosing anything else.
 
 ## What if I don't have a project?
 
