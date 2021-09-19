@@ -84,6 +84,16 @@ Second, they may be read narrowly or strangely by non-US courts. Aside from the 
 
 If you still don't like any of the three recommended options, the Free Software Foundation has [given their own legal analysis of common licenses, and whether they are GPL compatible](https://www.gnu.org/licenses/license-list.html). It is worth reading before choosing anything else.
 
+## Special Case: Cryptography
+
+If you are writing your own cryptography, there is special stuff you have to do before you publish it if you live in the United States. This has to do with the history of [The Crypto Wars](https://en.wikipedia.org/wiki/Crypto_Wars).
+
+But you know what? I'm not going to talk about it. It's a bit murky without actual lawyers, but more importantly, **you shouldn't be writing your own cryptography.** [Seriously. Don't do it.](https://security.stackexchange.com/questions/18197/why-shouldnt-we-roll-our-own)
+
+Just use the open source algorithms placed into the public domain already. Let Bruce Schneier, Dan Bernstein, and other famous cryptographers worry about export regulations, and just use their stuff.
+
+If you are trying to write your own cryptography to learn, I recommend [doing the Cryptopals Crypto Challenges](https://www.cryptopals.com/) instead. You will learn more, avoid regulations, and avoid facepalming (and perhaps mockery) all over the internet.
+
 ## What if I don't have a project?
 
 Simple: contribute to someone else's! That's what makes open source work!
