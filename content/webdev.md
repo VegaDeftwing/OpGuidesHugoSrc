@@ -2,9 +2,9 @@
 
 [From 3b1b:](https://www.youtube.com/watch?v=ojjzXyQCzso)
 
-* Resturcture things to go from Concrete to Abstract, not the other way around; Show patterns & exmaples, before going to the symbolic and abstract
-* Go reallly esoteric, specific - it builds a loyal auidance
-* Do not start with definitions - let people think they could have come to those definitons themselves
+* Restructure things to go from Concrete to Abstract, not the other way around; Show patterns & examples, before going to the symbolic and abstract
+* Go really esoteric and specific - it builds a loyal audience
+* Do not start with definitions - let people think they could have come to those definitions themselves
 * Start with motivating problems
 
 From [https://mastodon.social/@zensaiyuki/102683452946911475](https://mastodon.social/@zensaiyuki/102683452946911475)
@@ -16,6 +16,18 @@ From others but I forgot where:
 
 * Start with misconceptions
 * Put icons on all lists
+
+My own thoughts:
+
+* Everything should be made concrete as soon as possible, with demos
+
+  * Ideally, these demos should rely on free software or inexpensive or salvage hardware
+
+* Everything should refer back to reality- mention if something might work out mathematically but not be practical for reasons like noise, floating point precision, cost, power.
+
+* To some extent, it will always be necessary to cover trivial examples first. Call these out. Ex: If we're only making resistor networks, point out that these do literally nothing but make heat
+
+  
 
 # Tools for making OpGuides
 
