@@ -7,6 +7,8 @@
 
 Modular - Eurorack, 3U, & AE , semi-modular, software, theramin
 
+[10 Important Questions for Modular Synth Beginners (mylarmelodies, YouTube)](https://youtu.be/p2bo9boedEs)
+
 [The Design of the Roland Juno oscillators (Stargirl Flowers' Blog)](https://blog.thea.codes/the-design-of-the-juno-dco/)
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/W1cpim5EAqI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
