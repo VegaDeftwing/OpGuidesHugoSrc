@@ -1,0 +1,10 @@
+<div class="speech {{ .Get 0 }} {{ .Get 1 }}">
+    <p>
+        {{ .Inner | markdownify }}
+    </p>
+</div>
+<!-- this prevents right alligned blocks from letting text occupy the space to the left -->
+{{if eq (.Get 0) ("right") }}
+<br style="clear: both;">
+{{end}}
+
