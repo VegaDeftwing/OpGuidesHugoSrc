@@ -159,6 +159,8 @@ div.quote, tr:nth-child(2n) {
 	background-color: #00000033;
 }
 
+// Quotes
+
 div.quote {
 	border-bottom-right-radius: 2px;
 	border-left: 4px solid #777;
@@ -184,9 +186,87 @@ div.quote:before {
 	text-align: center;
 }
 
-
-
 div.quote em {
+	color: #fff
+}
+
+// Speech Bubbles
+
+div.speech, tr:nth-child(2n) {
+	background-color: #181818;
+}
+
+div.speech {
+  border-bottom-right-radius: 2px;
+  border-left: 2px solid #777;
+  border-top-right-radius: 2px;
+  margin: 2em 0;
+  padding: 12px 24px 12px 70px;
+  position: relative;
+  width: 70%;
+  border-radius: 5%;
+}
+
+div.speech.right {
+  border-bottom-right-radius: 2px;
+  border-right: 2px solid #777;
+  border-left: none;
+  border-top-right-radius: 2px;
+  margin: 2em 0;
+  padding: 12px 70px 12px 20px;
+  position: relative;
+  width: 70%;
+  border-radius: 5%;
+  float: right;
+  background-color: #333 !important;
+}
+
+div.speech:before {
+  background-color: #181818;
+  background-image: url("/nonfree/character/opguidesSiplick.png");
+  background-size: 75px;
+  border-radius: 100%;
+  border: 1px solid #777;
+  content: "";
+  left: -40px;
+  top: 4px;
+  position: absolute;
+  height: 75px;
+  width: 75px;
+}
+
+div.speech.boi:before {
+  background-color: #181818;
+  background-image: url("/nonfree/character/inhale.webp");
+  background-size: 75px;
+  border-radius: 100%;
+  content: "";
+  left: -40px;
+  top: 4px;
+  position: absolute;
+  height: 75px;
+  width: 75px;
+}
+
+div.speech.throw::before {
+  background-color: #181818;
+  background-image: url("/nonfree/character/throw.png");
+  background-size: 75px;
+  border-radius: 100%;
+  content: "";
+  left: -40px;
+  top: 4px;
+  position: absolute;
+  height: 75px;
+  width: 75px;
+}
+
+div.speech.right::before {
+  left: 92% !important;
+  text-align: right;
+}
+
+div.speech em {
 	color: #fff
 }
 

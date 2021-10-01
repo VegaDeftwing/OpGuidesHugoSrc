@@ -7,7 +7,7 @@
 * Do not start with definitions - let people think they could have come to those definitions themselves
 * Start with motivating problems
 
-From [https://mastodon.social/@zensaiyuki/102683452946911475](https://mastodon.social/@zensaiyuki/102683452946911475)
+ [source](https://mastodon.social/@zensaiyuki/102683452946911475)
 
 * 19. Don't force the user to remember things if you can help it. Humans are really bad at remembering things. This includes passwords, sms codes, sums, function names, and so on.
 * 22. show, don’t tell. lengthy tutorials and “protips” forced on the user at app start usually do nothing other than get in the way of the user’s task. if you want to teach the user about a feature, include easy to find examples.
@@ -33,7 +33,7 @@ My own thoughts:
 
 https://excalidraw.com - for 'hand drawn' svg diagrams
 
-https://detexify.kirelabs.org/classify.html - for Latex symbol lookup
+[detexify](https://detexify.kirelabs.org/classify.html) - for Latex symbol lookup
 
 http://shapecatcher.com - for unicode symbol lookup
 
@@ -96,6 +96,9 @@ Markdown can be wrapped in html to apply theming or do other things:
 
 
 
+<details>
+<summary>Bunch of Codepen Links</summary>
+
 https://vincentgarreau.com/particles.js/
 
 https://codepen.io/alexzaworski/pen/mEkvAG
@@ -110,7 +113,36 @@ https://codepen.io/lbebber/pen/EVxvWN
 
 https://codepen.io/wagerfield/pen/wftcE
 
-https://medium.com/chingu/decrypting-effect-c5fc2a071354 & https://github.com/bartobri/no-more-secrets#the-nms-library
+</details>
+
+[decrypting effect](https://medium.com/chingu/decrypting-effect-c5fc2a071354) & https://github.com/bartobri/no-more-secrets#the-nms-library
 
 > Columns2 shortcode is a very shittily done shortcode that is just a slight mod on cols, it centers the text and adds a line under each box. This works well for making pseudo-tables that don't fuckup content width or have issues with rendering on mobile
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu. Morbi neque neque, ullamcorper vel luctus et, viverra nec felis. Aliquam erat volutpat. Proin mattis sapien sapien, vitae iaculis leo rhoncus tincidunt. Nunc tincidunt mauris quis placerat aliquam. Vivamus consequat consectetur justo eu sollicitudin. Vestibulum porttitor mattis feugiat. Fusce et lacinia lacus.
+
+{{< speech boi >}}
+
+Wouldn't it be cool if I had conversation blocks?
+
+{{< /speech >}}
+
+
+{{< speech right >}}
+
+At least both left and right aligned blocks are working
+
+see?
+
+{{< /speech >}}
+
+{{< speech throw>}}
+
+Yep.
+
+And I can set the image for each one
+
+{{< /speech >}}
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu. Morbi neque neque, ullamcorper vel luctus et, viverra nec felis. Aliquam erat volutpat. Proin mattis sapien sapien, vitae iaculis leo rhoncus tincidunt. Nunc tincidunt mauris quis placerat aliquam. Vivamus consequat consectetur justo eu sollicitudin. Vestibulum porttitor mattis feugiat. Fusce et lacinia lacus.
