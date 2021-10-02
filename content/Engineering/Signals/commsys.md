@@ -12,7 +12,7 @@ For the purposes of this page, we're talking about systems that transmit signals
 
 Generally, these systems are made up of a few parts:
 
-{{< columns >}}
+<div style="float:left;width:20%;">
 
 {{< mermaid >}}
 graph TB
@@ -22,7 +22,7 @@ graph TB
     D --> E[Output]
 {{< /mermaid >}}
 
-<--->
+</div>
 
 The **source** is just whatever is making the original signal- maybe it's your voice
 
@@ -31,8 +31,6 @@ The **output** is, ideally, the same as the input signal, just on 'the other sid
 The **channel** is the medium the signal is going to travel though- so in the above examples air, vaccum of space, and water. Pretty much anything goes here. This might even be a copper wire or fiber optic- not all signals we're interested in are wireless. The channel is the whole reason this field of study exists- channels typically add problems that we need to solve. Usually, this problem is noise and distortion.
 
 That just leaves the **Transmitter** and **Reciever**:
-
-{{< /columns >}}
 
 ### The Transmitter
 
@@ -46,7 +44,7 @@ The reciever grabs the signal from the channel and undoes whatever modulation we
 
 ### What if it's Digital?
 
-{{< columns >}}
+<div style="float:left;width:25%;">
 
 {{< mermaid >}}
 graph TB
@@ -62,7 +60,9 @@ graph TB
     J --> K[Output]
 {{< /mermaid >}}
 
-<--->
+</div>
+
+<br *style*="clear: both;">
 
 This looks a lot more complicated, but it's actually not all that bad. Basically, the only differnce here is that we're taking our analog input message (our voice, for example) and turning it into a digital message - one made out of 1's and 0's.
 
@@ -71,8 +71,6 @@ So, the signal still comes in the same way at the source, then we put it through
 Moving on, the stream of bits coming out of the the channel encoder is sent though the **digital modulator**. At this stage we're treating the digital signal as analog again. Maybe we're using frequency shift keying (FSK) and that means for 0's we send a pulse at one frequency and 1's a pulse at a different frequency. Maybe we're doing amplitude modulation, so a strong signal is a 1 and a weak signal is a 0. Regardless, this method of transmission is the digital modulator's job. This signal then sent though the **channel** like normal.
 
 On the other side, we just do this process in reverse, the **digital demodulator** takes whatever way we used to represent the digital signal in an analog way and spits a stream of bits back out. The **channel decoder** undoes whatever we did to add redundancy, getting us our basic stream of bits that represent our original signal out.
-
-{{< /columns >}}
 
 Finally, the **source decoder** takes the digital signal and turns it back into the analog signal we put in.
 

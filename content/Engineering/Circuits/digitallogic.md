@@ -23,11 +23,9 @@
 
 <--->
 
-<img src="/logicloop.gif" alt="logicloop" height="800em">
+<img src="/logicloop.gif" alt="logicloop" height="760em">
 
-> lineart by https://merveilles.town/@chirrolafupa, I (Vega) filled it in and turned it into a gif. 
-
-> To access the original line art, use a [gemini](https://gemini.circumlunar.space) browser to go to gemini://caracolito.mooo.com/coloring-computers/
+{{< attribution >}}lineart by https://merveilles.town/@chirrolafupa, </br>I (Vega) filled it in and turned it into a gif.</br> To access the original line art, use a [gemini](https://gemini.circumlunar.space) browser to go to</br> gemini://caracolito.mooo.com/coloring-computers/{{< /attribution >}}
 
 {{< /columns >}}
 

@@ -1,6 +1,6 @@
 # Chapter 11 - Low Level Programming
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/Snr113r5ocY?list=FLFMnqfaTa1se1LfbCB3peJQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/Snr113r5ocY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Ashlyn Black's C Cheat Sheet](https://cheatography.com/ashlyn-black/cheat-sheets/c-reference/)
 
@@ -349,11 +349,7 @@ if __name__ == "__main__":
 If we run this code anyway, we'll see python print:
 
 ```
-Traceback (most recent call last):
-  File "/home/vega/test.py", line 5, in <module>
-    math.sin(x)
-NameError: name 'math' is not defined
-
+<div style="float: left; width: 30%;">
 ```
 
 <--->
