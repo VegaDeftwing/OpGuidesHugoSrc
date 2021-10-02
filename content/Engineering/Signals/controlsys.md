@@ -6,23 +6,41 @@ What are control systems? Well, the easiest way to answer that is to list the th
 
 ### Amplify an input:
 
-![image-20210930140057324](/amptheory.png)
+{{< columns >}}
+
+<img src="/amptheory.png" class="center">
+
+<--->
 
 **ex:** Pluck a tiny string on a guitar, get an earth shaking output from the speaker
 
+{{< /columns >}}
+
 ### Reduce the complexity of user input or change its location
 
-![image-20210930135710950](/simplifyinputtheory.png)
+{{< columns >}}
+
+<img src="/simplifyinputtheory.png" class="center">
+
+<--->
 
 **ex:** Floor button on an elevator- you don't need to input a height off the ground for what floor you want to be on, nor do you need to enter values to compensate for how quickly it should get to it's max speed or how fast it should slow down.
 
 **ex:** Literally any remote controlled device, like drones
 
+{{< /columns >}}
+
 ### Compensate for undesired input
 
-![image-20210930135652360](/compensationtheory.png)
+{{< columns >}}
+
+<img src="/compensationtheory.png" class="center">
+
+<--->
 
 **ex:** A self drone shouldn't drift just because the wind is pushing against one side
+
+{{< /columns >}}
 
 ## What are the primary concerns when making a control system?
 
