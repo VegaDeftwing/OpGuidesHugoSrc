@@ -123,6 +123,12 @@ https://codepen.io/wagerfield/pen/wftcE
 
 ## Speech
 
+{{< tip >}}
+
+these images have to be added manually in `themes/bookvega/assets/_shortcodes.scss`; however, only the one varient need be added, the `right` style is generic and can be applied as the first argument, that is: `{\{\< speech right boi >\}\}` will work, with only the varient for the `boi` picture needing added.
+
+{{< /tip >}}
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu. 
 
 {{< speech boi >}}
@@ -326,6 +332,10 @@ normal text
 danger hint
 
 {{< /hint >}}
+
+**For comparison, a markdown quote block:**
+
+> quote block.
 
 ## Tips
 
