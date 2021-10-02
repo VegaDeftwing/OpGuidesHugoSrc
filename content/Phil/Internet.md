@@ -11,7 +11,7 @@ slug: "Phil and The Internet"
 The fight for the Internet is never ending. At the time of writing, Senate Majority Leader Mitch McConnell tried to tie anti §230 legislation to the $2000 stimulus checks, and my own Congress Critter, Ben Sasse (R,Nebraska), along with Jeff Merkley (D,Oregon) are trying to push though **SISEA - the Stop Internet Sexual Exploitation Act**, which on paper sounds like it's doing good to stop the possibility of revenge porn. Unfortunately, they want to do this by **requiring that all people in porn expressly give the site written consent with identity verification**. This is exceedingly stupid for a variety of reasons: 
 
 * This is essentially a restriction on free speech as it makes it illegal for sites to host content that users would very likely *want* to be able to publish anonymously.
-* It puts established sex workers at risk, as ~~if a site were to get hacked~~, or rather when a site gets hacked as it's inevitable, that information could be used for a huge variety of horrors. 
+* It puts established sex workers at risk, as ~~if~~ when a site gets hacked as it's inevitable, that information could be used for a huge variety of horrors. 
 * It also seeks to add a 24/7 support line to report content, and limits content in violation to be taken down in under 2 hours. This will be *huge* burden for legitimate sites, and encourage users to go to much darker corners of the internet where content is freely updated, but where the sites have no incentive to comply with laws that are sensible for protecting minors or other vulnerable people.
 * It super-ultra fucks undocumented sex workers
 

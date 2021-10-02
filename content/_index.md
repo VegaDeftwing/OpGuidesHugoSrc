@@ -10,13 +10,13 @@ but that isn't to say [Opinionated Music]({{< relref "Music/gettingstarted" >}})
 
 You'll also find some other miscellaneous stuff, such as [Interviews]({{< relref "Interviews/interviews" >}}), and [blog posts]({{< relref "posts" >}}).
 
----
 
-{{< columns >}}
 
-The site is *mostly* maintained by me, Vega
+The site is *mostly* maintained by me, Vega,
 
+<div style="float: left; width: 30%;">
 <img src="/nonfree/character/opguidesSiplick.png" alt="opguidesSiplick" style="zoom:34%;" />
+
 
 {{< attribution >}}
 
@@ -24,15 +24,13 @@ Character is owned by me, art is by [Siplick](https://www.deviantart.com/siplick
 
 {{< /attribution >}}
 
-<--->
+</div>
 
-But I more than welcome contributions. Either submit a pull request or, if you're dedicated to helping a lot, I can add you as a contributor if you get in touch with me (find me most places as Vega Deftwing).
+But I more than welcome contributions! Either submit a pull request or, if you're dedicated to helping a lot, I can add you as a contributor if you get in touch with me (find me most places as Vega Deftwing).
 
-**Alright, but who are you?**
+##### Alright, but who are you?
 
 I'm Vega, a Computer and Electrical Engineering student and I'm very into music, especially guitars and eurorack. I enjoy spending my free time scouring the internet for new things to learn and falling down YouTube pits until 3 in the morning. I'm that guy that types on a split Dvorak keyboard, and that wears an old vacuum tube around my neck, but I also like long boarding around town and playing video games.
-
-{{< /columns >}}
 
 I'm pretty opinionated, but I'd like to think most of those opinions have been tested reasonably rigorously or have at the very least come from a fair amount of experience, though I know I will need to update this site based on new information over time. I will occasionally try to sway you into my camp - like getting you to use Linux - for reasons that are both practical and ideological; however, I hope that once I share my reasons for both you'll agree as well. Of course, I greatly enjoy a good debate and hearing new information too, so if you disagree, to me that's even more valuable.
 
