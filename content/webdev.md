@@ -119,7 +119,11 @@ https://codepen.io/wagerfield/pen/wftcE
 
 > Columns2 shortcode is a very shittily done shortcode that is just a slight mod on cols, it centers the text and adds a line under each box. This works well for making pseudo-tables that don't fuckup content width or have issues with rendering on mobile
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu. Morbi neque neque, ullamcorper vel luctus et, viverra nec felis. Aliquam erat volutpat. Proin mattis sapien sapien, vitae iaculis leo rhoncus tincidunt. Nunc tincidunt mauris quis placerat aliquam. Vivamus consequat consectetur justo eu sollicitudin. Vestibulum porttitor mattis feugiat. Fusce et lacinia lacus.
+# Shortcodes
+
+## Speech
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu. 
 
 {{< speech boi >}}
 
@@ -136,13 +140,375 @@ see?
 
 {{< /speech >}}
 
-{{< speech throw>}}
-
-Yep.
+{{< speech throw>}} Yep. 
 
 And I can set the image for each one
 
 {{< /speech >}}
 
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu. Morbi neque neque, ullamcorper vel luctus et, viverra nec felis. Aliquam erat volutpat. Proin mattis sapien sapien, vitae iaculis leo rhoncus tincidunt. Nunc tincidunt mauris quis placerat aliquam. Vivamus consequat consectetur justo eu sollicitudin. Vestibulum porttitor mattis feugiat. Fusce et lacinia lacus.
+
+## Spoiler
+
+This text is before a spoiler {{< spoiler >}} This is spoiler text {{< /spoiler >}} This text is after a spoiler
+
+## Attribution
+
+<img src="/nonfree/character/opguidesSiplick.png" alt="opguidesSiplick" style="zoom:34%;" />
+
+{{< attribution >}}Character is owned by me, art is by [Siplick](https://www.deviantart.com/siplick){{< /attribution >}}
+
+## Best
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu. The website {{< best >}}[Hackaday](https://hackaday.com/){{< /best >}} is pretty neat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu. 
+
+## Big Quote
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu.
+
+{{< bigquote "source" >}}
+
+Something really inspirational here.
+
+{{< /bigquote >}}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu.
+
+## Quote
+
+{{< quote "source" >}}
+
+Something still worth putting a block around here
+
+{{< /quote >}}
+
+## Button
+
+buttons can  be inline {{< button relref="/music/gettingstarted">}}Music - Getting Started{{< /button >}} and look pretty snazy.
+
+## Columns
+
+### Basic
+
+{{< columns >}}
+
+Praesent at convallis turpis. Donec vitae tincidunt turpis. Mauris sed auctor ipsum, at semper erat. Aliquam elementum enim id hendrerit vulputate. Vestibulum in enim mi. Praesent blandit vitae quam a sodales. Nunc lorem eros, efficitur quis sollicitudin non, eleifend accumsan diam. Phasellus varius nulla lorem. Nunc sem diam, posuere sit amet eros non, finibus iaculis lectus.
+
+<--->
+
+{{< quote "source" >}}
+
+Something still worth putting a block around here
+
+{{< /quote >}}
+
+In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh eget, facilisis tempus turpis. Integer sodales nisl nec mollis accumsan. Sed ut eros rutrum, vehicula enim at, accumsan sem
+
+<--->
+
+<img src="/nonfree/character/opguidesSiplick.png" alt="opguidesSiplick" style="zoom:34%;" />
+
+{{< attribution >}}Character is owned by me, art is by [Siplick](https://www.deviantart.com/siplick){{< /attribution >}}
+
+{{< /columns >}}
+
+### Varient 2 - use for tables when possible
+
+{{< columns2 >}}
+
+Praesent at convallis turpis. Donec vitae tincidunt turpis. Mauris sed auctor ipsum, at semper erat. Aliquam elementum enim id hendrerit vulputate. Vestibulum in enim mi. Praesent blandit vitae quam a sodales. Nunc lorem eros, efficitur quis sollicitudin non, eleifend accumsan diam. Phasellus varius nulla lorem. Nunc sem diam, posuere sit amet eros non, finibus iaculis lectus.
+
+<--->
+
+{{< quote "source" >}}
+
+Something still worth putting a block around here
+
+{{< /quote >}}
+
+In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh eget, facilisis tempus turpis. Integer sodales nisl nec mollis accumsan. Sed ut eros rutrum, vehicula enim at, accumsan sem
+
+<--->
+
+<img src="/nonfree/character/opguidesSiplick.png" alt="opguidesSiplick" style="zoom:34%;" />
+
+{{< attribution >}}Character is owned by me, art is by [Siplick](https://www.deviantart.com/siplick){{< /attribution >}}
+
+{{< /columns2 >}}
+
+**Note, this ends with this bottom line**
+
+### Varient 3
+
+{{< columns3 >}}
+
+Praesent at convallis turpis. Donec vitae tincidunt turpis. Mauris sed auctor ipsum, at semper erat. Aliquam elementum enim id hendrerit vulputate. Vestibulum in enim mi. Praesent blandit vitae quam a sodales. Nunc lorem eros, efficitur quis sollicitudin non, eleifend accumsan diam. Phasellus varius nulla lorem. Nunc sem diam, posuere sit amet eros non, finibus iaculis lectus.
+
+<--->
+
+{{< quote "source" >}}
+
+Something still worth putting a block around here
+
+{{< /quote >}}
+
+In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh eget, facilisis tempus turpis. Integer sodales nisl nec mollis accumsan. Sed ut eros rutrum, vehicula enim at, accumsan sem
+
+<--->
+
+<img src="/nonfree/character/opguidesSiplick.png" alt="opguidesSiplick" style="zoom:34%;" />
+
+{{< attribution >}}Character is owned by me, art is by [Siplick](https://www.deviantart.com/siplick){{< /attribution >}}
+
+{{< /columns3 >}}
+
+**Note, this has vertical bars separating content**
+
+## Details
+
+Praesent at convallis turpis. Donec vitae tincidunt turpis. Mauris sed auctor ipsum, at semper erat. Aliquam elementum enim id hendrerit vulputate.
+
+{{< details "Title" open >}}
+
+In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh eget, facilisis tempus turpis. Integer sodales nisl nec mollis accumsan. Sed ut eros rutrum, vehicula enim at, accumsan sem
+{{< /details >}}
+
+## Embed PDF
+
+{{< embed-pdf url="./nonfree/blog/ternary.pdf" >}}
+
+## Expand
+
+Praesent at convallis turpis. Donec vitae tincidunt turpis. Mauris sed auctor ipsum, at semper erat. Aliquam elementum enim id hendrerit vulputate.
+
+{{< expand >}}
+
+In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh eget, facilisis tempus turpis. Integer sodales nisl nec mollis accumsan. Sed ut eros rutrum, vehicula enim at, accumsan sem
+
+{{< /expand >}}
+
+## Hints
+
+{{< hint info >}}
+
+info hint
+
+{{< /hint >}}
+
+normal text
+
+{{< hint warning >}}
+
+warning hint
+
+{{< /hint >}}
+
+normal text
+
+{{< hint >}}
+
+default hint
+
+{{< /hint >}}
+
+normal text
+
+{{< hint gray >}}
+
+gray hint
+
+{{< /hint >}}
+
+normal text
+
+{{< hint danger >}}
+
+danger hint
+
+{{< /hint >}}
+
+## Tips
+
+{{< tip >}}
+
+this looks similar to a hint, but is more stark on the page and has the "!"
+
+{{< /tip >}}
+
+## Katex
+
+can be used to render {{< katex >}}\LaTeX{{< /katex >}}
+
+note, the 'display' option changes the look.
+
+{{< katex display >}} f(x) = \int_{-\infty}^\infty\hat f(\xi),e^{2 \pi i \xi x},d\xi {{< /katex >}}
+
+also, aligned does work to keep the equal signs aligned though each equation
+
+{{< katex display >}}
+
+\begin{aligned}
+
+3x^2+3+(2-x)(4-x)+2&=12+(3+(x*2))+2​ \\
+
+3x^2+3+(2-x)(4-x)&=12+(3+(x*2))​
+
+\end{aligned} 
+
+{{< /katex >}}
+
+## Mermaid
+
+[TODO] Not all the mermaid charts are styled nicely, but they should at least render
+
+{{< mermaid >}}
+
+sequenceDiagram
+    Alice->>+John: Hello John, how are you?
+    Alice->>+John: John, can you hear me?
+    John-->>-Alice: Hi Alice, I can hear you!
+    John-->>-Alice: I feel great!
+            
+
+{{< /mermaid >}}
+
+## Section
+
+Don't use this.
+
+## Smalltext
+
+This is {{< smalltext >}}very similar to attribution, but leaves less white space{{< /smalltext >}} and can be used inline.
+
+{{< smalltext >}}
+
+very similar to attribution, but leaves less white space
+
+{{< /smalltext >}}
+
+or not.
+
+## Tab & Tabs
+
+{{< tabs "hashing" >}}
+{{< tab "Windows" >}}
+
+# Windows
+
+open up a command prompt by pressing ctr+r and typing 'cmd' then enter, and we'll need to navigate to the location of the downloaded file it should be named something along the lines of archlinux-20xx.xx.xx-x86_64.iso and be in your Downloads folder. When you open a command prompt on Windows it should start out in your user folder (C:\Users\%username%\). To list the folders in this folder you can type 'dir' and press enter. You should, at minimum, see folders like 'Downloads' 'Desktop' and 'Documents' to enter the Downloads folder simply type 'cd Dow' and press tab, the line should auto-complete to 'cd Downloads', then press enter. Now you can type 'certutil -hashfile arch' , press tab to complete it to 'certutil -hashfile archlinux-20xx.xx.xx-x86_64.iso' then add 'sha1' on the end so the finally command looks like
+
+```bash
+certutil -hashfile archlinux-20xx.xx.xx-x86_64.iso sha1
+```
+
+> Note, if this spits out "The process cannot access the file because it is being used by another process." you'll need to close your torrent client or stop seeding the file first!
+
+So let's look at this command. The first part, certutil, is a program on your computer, '-hashfile' says the next string of text is the name of the file we want to examine, and the last part sha1 is the checksum as mentioned before. Finally, if you go back to https://www.archlinux.org/download/ and look under 'Checksums' you can compare the output of the command you just ran against the SHA1 sum provided to be sure you didn't have any errors in the file. This is mostly a security check as in theory someone could provide a 'bad' version of the OS containing malware, but such a version would produce an incorrect checksum, in practice this is extraordinarily uncommon. Though this does also serve to ensure the download wasn't corrupted in any way either.
+{{< /tab >}}
+
+{{< tab "Mac" >}}
+
+# Mac
+
+open up a terminal by going to the Utilities fore in Applications and open 'Terminal'. The mac terminal is very, very similar to what you'll use in Linux actually, and the commands here are actually identical. You should see something like
+
+```bash
+MacBook:~ username$
+```
+
+waiting for input.
+
+That `~` represents that you're in your user or 'home' folder, and assuming you downloaded Arch's install image to your downloads folder you should be able to type
+
+`MacBook:~ username$ shasum -a 1 Downloads/arch`
+
+followed by pressing tab to make that auto complete to something like
+
+`MacBook:~ username$ shasum -a 1 Downloads/archlinux-20xx.xx.xx-x86_64.iso`
+
+upon pressing enter the terminal should print out a long string of text.
+
+So let's look at this command. The first part, shasum, is a program on your computer, '-a 1' says to use the sha1 algorithm instead of something like sha256, and the last part is the filename we want to compute the checksum of. Now, if you go back to https://www.archlinux.org/download/ and look under 'Checksums' you can compare the output of the command you just ran against the SHA1 sum provided to be sure you didn't have any errors in the file. This is mostly a security check as in theory someone could provide a 'bad' version of the OS containing malware, but such a version would produce an incorrect checksum, in practice this is extraordinarily uncommon. Though this does also serve to ensure the download wasn't corrupted in any way either.
+
+{{< /tab >}}
+
+{{< /tabs >}}
+
+# Hack-y stuff:
+
+## Footnotes
+
+use <a class="ptr">(1)</a> (`<a class="ptr">(1)</a>`) to ref the first footnote, <a class="ptr">(2)</a> for the second, etc. where the footnote text is in a hidden html element
+
+<ol hidden id="footnotes">
+	<li>FOOT NOTE 1</li>
+    <li>FOOT NOTE 2</li>
+</ol>
+
+```
+<ol hidden id="footnotes">
+	<li>FOOT NOTE 1</li>
+    <li>FOOT NOTE 2</li>
+</ol>
+```
+
+
+
+## Colored Tables
+
+**NOTE the in document `<style>` block above the table.**
+
+
+
+<style>
+.models {
+    width: 100%;
+    text-align: center;
+}
+.models th {
+background: #fff3;
+word-wrap: break-word;
+text-align: center;
+}
+.models > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(-n) > td:nth-child(1) { background: #009cdf55; }
+.models > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(n+5) > td:nth-child(2) { background: #009cdf55; }
+.models > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(n+3) > td:nth-child(3) { background: #009cdf55; }
+.models > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(n) > td:nth-child(4) { background: #009cdf55; }
+</style>
+
+
+<div class="models">
+
+| Traditional:   | Infrastructure as a Service | Platform as a Service | Software as a Service |
+| -------------- | --------------------------- | --------------------- | --------------------- |
+| Applications   | Applications                | Applications          | Applications          |
+| Data           | Data                        | Data                  | Data                  |
+| Runtime        | Runtime                     | Runtime               | Runtime               |
+| Middleware     | Middleware                  | Middleware            | Middleware            |
+| OS             | OS                          | OS                    | OS                    |
+| Virtualization | Virtualization              | Virtualization        | Virtualization        |
+| Servers        | Servers                     | Servers               | Servers               |
+| Storage        | Storage                     | Storage               | Storage               |
+| Networking     | Networking                  | Networking            | Networking            |
+
+</div>
+
+Note, https://www.tablesgenerator.com/html_tables may be of use
+
+## Table Sorting
+
+Tables need to be raw html, not markdown and then use `<table id="sort" style="position:relative; width:130%; left: 0%;">` (width flag not required). Again, https://www.tablesgenerator.com/html_tables may be of use.
+
+See <a href="/music/software/plugin/">Music/software/plugin.md</a>
+
+## Image slider
+
+use `<script src="/js/slider.js"></script>` from [VincentTV](https://github.com/VincentTV/before-after-slider). See posts/lowres.md
+
+# Compression
+
+Please use the `.webp` format for new images, or at the very least run them though `optipng` or `jpegoptim`. At some point I intend to go though and convert every image on opGuides.
+
+# Easy mistakes
+
+* Youtube Embeds need to have the `list?=` part removed or they're almost always broken.
