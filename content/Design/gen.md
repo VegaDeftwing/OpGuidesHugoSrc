@@ -729,7 +729,8 @@ Realtime GPU shader editor
 "TouchDesigner is a visual development platform that equips you with the tools you need to create stunning realtime projects and rich user experiences.  Whether you're creating interactive media systems, architectural projections, live music visuals, or rapid-prototyping your latest ideas, TouchDesigner is the platform that can do it all."
 <--->
 
-<video controls width="100%">    <source src="/neurotouchdesigner.mp4"            type="video/mp4"> </video> <br><p> Video courtesy of [Neurotypique](https://www.youtube.com/channel/UC4oBI5piGMznFMZdtEC0FhA) </p>
+<video controls width="100%">    <source src="/design/neurotouchdesigner.mp4"            type="video/mp4"> </video> <br><p> Video courtesy of [Neurotypique](https://www.youtube.com/channel/UC4oBI5piGMznFMZdtEC0FhA) </p>
+
 {{< /columns2 >}}
 
 {{< columns2 >}}

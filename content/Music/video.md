@@ -60,3 +60,4 @@ I also recomend making your visuals in weirder ways. Here are some videos with v
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/HwY3R_VE6so" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [EposVox](https://www.youtube.com/c/EposVox/videos) is a great YouTube channel for learning about streaming stuff
+

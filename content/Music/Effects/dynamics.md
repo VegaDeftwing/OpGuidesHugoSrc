@@ -18,13 +18,13 @@ Clipping does exactly what it sounds like, it just chops off the wave. Usually o
 
 **Hard Clipping**
 
-![hardclip](/hardclip.png)
+![hardclip](/music/hardclip.webp)
 
 <--->
 
 **Soft Clipping**
 
-![softclip](/softclip.png)
+![softclip](/music/softclip.webp)
 
 {{< /columns >}}
 
@@ -42,11 +42,11 @@ The dashed line represents an example input and output. Because here the line is
 
 <--->
 
-![waveshaper](/waveshaper.svg)
+![waveshaper](/music/waveshaper.svg)
 
 {{< /columns >}}
 
-![waveshaping](/waveshaping.gif)
+![waveshaping](/music/waveshaping.gif)
 
 {{< attribution >}}This gif uses [Nysthi's BZ-Mapper](https://library.vcvrack.com/NYSTHI/BZ-MAPPER){{< /attribution >}}
 
@@ -60,7 +60,7 @@ explains things beautifully, and also goes into some of the other kinds of disto
 
 {{< columns >}}
 
-![](/wavefolding.gif)
+![](/music/wavefolding.gif)
 
 <--->
 

@@ -12,7 +12,7 @@ This is probably the easiest to understand audio effect. Put simply, fade the vo
 
 <--->
 
-![vcavult](/vcavult.gif)
+![vcavult](/music/vcavult.gif)
 
 {{< /columns >}}
 

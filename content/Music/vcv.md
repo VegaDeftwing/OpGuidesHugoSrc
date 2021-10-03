@@ -22,7 +22,7 @@ VCV's manual does have a page on [polyphony](https://vcvrack.com/manual/Polyphon
 
 Do keep in mind, you're still making the same patches as with mono. Just like in mono, if you don't have something to stop the signal from an oscillator when you don't want it to be playing, it will drone on. If you set 16 channel polyphony and don't have something to gate the unused channels, they will just drone on, but now with 16 channels it might be like smashing 16 keys on the piano at once, which can be an ear rupturing experience. What you *probably* want is a VCA hooked up such that only the notes you're hitting on your keyboard or using in the chord play, so make sure you hook up a VCA - the stock VCV one will divide it's green bar so you can see all the polyphonic channels in the visualizer. 
 
-![](/gatedpolyphony.png)
+![](/music/gatedpolyphony.webp)
 
 ### With a MIDI controller
 
@@ -36,7 +36,7 @@ If you want to use MPE (with like a Roli Seaboard or Artiphon Insturment One) yo
 
 Use a merge module to get the outputs into a thick, polyphonic cable. You can sequence multiple notes in a chord directly, but it's usually easier to use a chord generation module (like the [Instruō harmonàig](https://library.vcvrack.com/Instruo/harmonaig) used here)
 
-![](/chordseq.png)
+![](/music/chordseq.webp)
 
 <audio controls loop src="/ChordSeq02.mp3"></audio>
 
@@ -46,7 +46,7 @@ Something of note, Basal, the oscillator here does have a mono signal going into
 
 I like to use random modulation a lot, and [Vult's Caudal](https://library.vcvrack.com/VultModulesFree/Caudal) module is awesome for this, but it doesn't have global attenuation and offsets, if you want to add that in you can set up a patch like this, using a Merge, Split, and the [Wiqid 2at](https://library.vcvrack.com/wiqid-anomalies/2at): 
 
-![](/abusedpoly.png)
+![](/music/abusedpoly.webp)
 
 By doing this, you can either make a nice, random signal poly cable, great for keeping all the notes coming from a polyphonic source from being identical or you can run it through split, effectively just adding a global attenuator and offset to Caudal for quick control over your patch.
 
@@ -64,7 +64,7 @@ While you'll often see [Impromptu's Clocked](https://library.vcvrack.com/Impromp
 
 <--->
 
-![](/clocksyncdmod.png)
+![](/music/clocksyncdmod.webp)
 
 {{< /columns >}}
 
@@ -94,7 +94,7 @@ Stoermelder's [μMAP](https://library.vcvrack.com/Stoermelder-P1/CVMapMicro) or 
 
 [Modular Fungi Lights Off](https://library.vcvrack.com/ModularFungi/LightsOff) - right click it, set active, and drag the dim slider to whatever you want. Not all module's lights use the system it does to know what shouldn't be dimmed. While the stock VCV scope will stay dim, [Modular Fungi's Opsylloscope](https://library.vcvrack.com/ModularFungi/Opsylloscope) does work. Just be aware it uses more CPU
 
-![](/lightsout.png)
+![](/music/lightsout.webp)
 
 ## VCV runs like shit
 
