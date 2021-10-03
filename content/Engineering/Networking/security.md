@@ -801,4 +801,4 @@ Another one that you should read is *The Conscience of a Hacker* written by 'The
 
 {{< /details >}}
 
-<div hidden><img src="/irules.jpg" alt="internet rules" style="zoom:100%; display: block; margin-left: auto; margin-right: auto;" /></div>
+<div hidden><img src="/eng/irules.jpg" alt="internet rules" style="zoom:100%; display: block; margin-left: auto; margin-right: auto;" /></div>

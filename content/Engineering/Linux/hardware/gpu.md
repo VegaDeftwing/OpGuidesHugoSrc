@@ -3,7 +3,7 @@
 <script>
     document.getElementById("hardwareMenu").open = true;
 </script>
-![gcards](/gcards.jpg)
+![gcards](/eng/gcards.jpg)
 
 <!-- This image needs replaced, as it's really fuzzy -->
 

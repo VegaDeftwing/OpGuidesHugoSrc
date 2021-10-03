@@ -40,7 +40,7 @@ Let me start by lubing your brain up a little.
 
 This is [Dasher](http://www.inference.org.uk/dasher/DasherSummary2.html), a software keyboard using predictive text that should sort of blow your mind. Cool init'? Now, your thoughts probably went something like this
 
-1. What *the fuck* am I looking at?
+1. <video controls width="80%">    <source src="/eng/kahviccradio.mp4"            type="video/mp4"> </video> <br>
 2. Oh damn that's really cool, I want to try it.
 3. Oh, hmm, but honestly even with tons of practice I can still probably type faster on a normal keyboard...
 
@@ -492,7 +492,7 @@ PWM image by [Thewrightstuff](https://commons.wikimedia.org/w/index.php?title=Us
 
 So instead of just lowering the level directly, the back light is turned on and off rapidly, for a varying amount of time. This might be done really fast, sometimes it's fast enough that it really does not matter or there's a reasonable amount of capacitance to smooth this out, effectively making it look like just a DC signal again, good enough. Sometimes, the manufacture sucks and uses shitty, low frequency PWM dimming and even if you can't consciously see it, it will cause headaches and generally suck over long periods.
 
-<video width="70%" height="400" controls>  <source src="/pwm.mp4" type="video/mp4">  <source src="movie.ogg" type="video/ogg">  Your browser does not support the video tag.</video>
+<video width="70%" height="400" controls>  <source src="/hcir/pwm.mp4" type="video/mp4">  <source src="movie.ogg" type="video/ogg">  Your browser does not support the video tag.</video>
 
 > This is PWM dimming on a fourteen-segment display captured with the 'slow-mo' camera on my phone.
 

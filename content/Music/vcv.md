@@ -38,7 +38,7 @@ Use a merge module to get the outputs into a thick, polyphonic cable. You can se
 
 ![](/music/chordseq.webp)
 
-<audio controls loop src="/ChordSeq02.mp3"></audio>
+<audio controls loop src="/sounds/ChordSeq02.mp3"></audio>
 
 Something of note, Basal, the oscillator here does have a mono signal going into the *MOD1* input, this is because if a mono signal goes into a module that's running polyphonically, the mono signal will be applied to all the poly channels. You don't need to duplicated the same signal into how ever many poly channels the thick wires are carrying just to hook up modulation, unless you want that modulation to be different on every channel. Speaking of:
 
@@ -48,7 +48,7 @@ I like to use random modulation a lot, and [Vult's Caudal](https://library.vcvra
 
 ![](/music/abusedpoly.webp)
 
-By doing this, you can either make a nice, random signal poly cable, great for keeping all the notes coming from a polyphonic source from being identical or you can run it through split, effectively just adding a global attenuator and offset to Caudal for quick control over your patch.
+<audio controls loop src="/sounds/Slapback01.mp3"></audio>
 
 ## When I send clock to [Module Name] it doesn't work right! 
 

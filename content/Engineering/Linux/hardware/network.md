@@ -6,7 +6,7 @@
 
 {{< columns >}}
 
-<img src="/nics.jpg" alt="NICS" height="600em">
+<img src="/eng/nics.jpg" alt="NICS" height="600em">
 
 <!-- Replace this picture -->
 

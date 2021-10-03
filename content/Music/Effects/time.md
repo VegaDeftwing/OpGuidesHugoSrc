@@ -22,7 +22,7 @@ Some delays let you insert other things into the feedback path. This means you c
 
 Some digital delays and most analog delays (especially bucket brigade delays<a class="ptr">(1)</a>) can produce interesting sounds if you change the delay time while audio is going through the buffer, resulting in a sort of pitch shift as the delay catches up or slows down. Here's a demo of Chronoblob2, which does this sort of pitch shifting, in action:
 
-<audio controls src="/DelayModulation01.mp3"></audio>
+<audio controls src="/sounds/DelayModulation01.mp3"></audio>
 
 {{< attribution >}}There's also a demo of over unity gain at the end. I've edited the volume of that, but it's still a bit alarming!{{< /attribution >}}
 
@@ -48,7 +48,7 @@ Finally, it's worth noting that there are a few interesting features some delays
 
 Slapback delay is just a short delay with only a single echo, no feedback. It's often used on guitar, but it's nice on vocals and drums too! Here's a little example with Mutable Instruments' [Elements](https://mutable-instruments.net/modules/elements/) as the source. The first few notes are the dry signal, then I bring it in. 
 
-<audio controls loop src="/Slapback01.mp3"></audio>
+<audio controls loop src="/sounds/Slapback01.mp3"></audio>
 
 looking at a snippit of this audio, you can see just how short the delay is, with the slapback being on the notes that have the double hits.
 
