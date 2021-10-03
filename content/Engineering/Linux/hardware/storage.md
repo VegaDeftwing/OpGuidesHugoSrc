@@ -4,7 +4,7 @@
     document.getElementById("hardwareMenu").open = true;
 </script>
 
-![disks](/hdds.jpg)
+![disks](/eng/hdds.jpg)
 
 > Pictured here are 3 hard drives, 2 of which are 'full size' at 3.5" and the the other a 'laptop drive' at 2.5", the left most hard drive has been opened up, which has certainly ruined it as dust has gotten in. Below the smaller Hard drive is an NVMe ssd, a micro sd card, and a flash drive. All of which are examples of solid state storage
 
@@ -28,7 +28,7 @@ At the end of the day, for bulk media storage that you still want to be able to 
 
 Most hard drives connect though either SATA or SAS, with almost all consumer drives being SATA, and enterprise drives using a mix. SAS has some extra features and depending on the drive may be capable of writing an reading at the same time, a nifty trick SATA drives can't do without alternating between the two rapidly.
 
-For bulk storage servers you can get insane capacities, and building one yourself isn't all that hard. Here's mine:![powervault](/powervault.jpg)
+For bulk storage servers you can get insane capacities, and building one yourself isn't all that hard. Here's mine:![powervault](/eng/powervault.webp)
 
 > A modified powervault MD1000 with a hard drive poking out and the computer - being used an archive server - it connects to. It currently is only housing three, 3Tb SAS hard drives.
 
@@ -45,7 +45,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 
 Alright, so I already have the disk 62% used, let's give that a closer look by firing up `ncdu` at the mount point. This will take a little while to scan, the more files the longer it will take. After spending a few minutes to analyze the disk I'm greeted with this:
 
-![ncdu](/ncdu.png)
+![ncdu](/eng/ncdu.webp)
 
 From this you should be able to plainly see that the majority of the hard drive is taken up by Archived files, Music, Games, Videos, and Pictures. Pretty Mundane, but I could easily dive into the Archives and see why they're so big and save myself some space
 

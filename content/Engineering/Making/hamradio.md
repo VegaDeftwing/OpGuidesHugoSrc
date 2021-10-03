@@ -44,7 +44,7 @@ https://newhams.info/2017/02/17/rf-connector-types/
 
 {{< columns >}}
 
-<video controls width="80%">    <source src="/kahviccradio.mp4"            type="video/mp4"> </video> <br>
+<video controls width="80%">    <source src="/eng/kahviccradio.mp4"            type="video/mp4"> </video> <br>
 
 {{< attribution >}}
 

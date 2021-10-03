@@ -22,7 +22,7 @@ The easiest to understand sequencing method is step sequencing. You'll generally
 
 ![step sequencer in VCV Rack](/music/stepseq.webp)
 
-<audio controls loop src="/sequencerexample-003.wav"></audio>
+<audio controls loop src="/sounds/sequencerexample-003.wav"></audio>
 
 {{< attribution >}}This should automatically loop, but there may be a slight delay when it does.</br> The darker green dots just indicate the sequencer's position when I took the screenshot{{< /attribution >}}
 
@@ -30,9 +30,9 @@ Here, I've set up a simple step sequence in VCV rack, the gist is that on each c
 
 So, on that top row, we have
 
-| 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | 10   | 11   | 12   | 13   | 14   | 15   | 16   |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| X    | -    | -    | -    | X    | -    | -    | -    | X    | -    | -    | -    | X    | -    | -    | -    |
+| 1    | 2    | 3    | 4    | <audio controls loop src="/sounds/ChordSeq02.mp3"></audio> | 6    | 7    | 8    | 9    | 10   | 11   | 12   | 13   | 14   | 15   | 16   |
+| ---- | ---- | ---- | ---- | ---------------------------------------------------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| X    | -    | -    | -    | X                                                          | -    | -    | -    | X    | -    | -    | -    | X    | -    | -    | -    |
 
 Which, effectively just means the bass drum will play on the 4th beat, endlessly. This gives the bass drum a super basic, repetitive pattern. If I had done every other beat, it would just be twice as fast. You can see how the other drums have more complex patterns, and you should be able to look at the screenshot above and see how that pattern matches the sound.
 
@@ -64,7 +64,7 @@ To actually hear this in action, here's a patch demonstrating multiple sequences
 
 ![](/music/analogstepseq.webp)
 
-<audio controls loop src="/analogseq-005.wav"></audio>
+<audio controls loop src="/sounds/analogseq-005.wav"></audio>
 
 Here, I've setup two simple synth voices, one on top one on bottom. The green *Pitch 1* Sequence controls the pitch of one voice, while the blue *Pitch 2* sequence gets the pitch of the other. Similarly, each voice has a filter and there's two sequence controlling the filter's cutoff frequencies.
 
