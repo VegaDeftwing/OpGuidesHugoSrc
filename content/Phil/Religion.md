@@ -6,7 +6,7 @@ slug: "Religion"
 
 # Religion
 
-![swearingin](/swearingin.png)
+![swearingin](/phil/swearingin.webp)
 
 {{< attribution >}}
 

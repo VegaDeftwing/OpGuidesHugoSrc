@@ -14,6 +14,6 @@ slug: "Phil, Misc"
 
 # Guns
 
-| ![1](/campusguns/1.gif) | ![1](/campusguns/2.gif) | ![1](/campusguns/3.gif) |
+| ![1](/phil/campusguns/1.gif) | ![1](/phil/campusguns/2.gif) | ![1](/phil/campusguns/3.gif) |
 | ------------------------------- | ------------------------------- | ------------------------------- |
-| ![1](/campusguns/4.gif) | ![1](/campusguns/5.gif) | ![1](/campusguns/6.gif) |
+| ![1](/phil/campusguns/4.gif) | ![1](/phil/campusguns/5.gif) | ![1](/phil/campusguns/6.gif) |

@@ -185,7 +185,7 @@ But, I'm getting off topic, the point of this was to discuss and propose a solut
 
 [TODO...]
 
-![Retrograde complaining about Google](/RetrogradeMastodon.png)
+![Retrograde complaining about Google](/phil/RetrogradeMastodon.webp)
 
 {{< attribution >}}
 

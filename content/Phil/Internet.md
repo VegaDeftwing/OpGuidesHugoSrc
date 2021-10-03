@@ -35,7 +35,7 @@ If you're outside the US, this will still very likely affect you. Hell, PornHub 
 
 {{< columns >}}
 
-![](/hazbin.gif)
+![Hazbin Hotel](/phil/hazbin.gif)
 
 {{< attribution >}}
 

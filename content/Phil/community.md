@@ -84,11 +84,11 @@ ensuring that we're self moderating one another
 
 # Communal Efforts
 
-![xkcd time](/xkcdtime.jpg ':size=50%')
+![xkcd time](/xkcd/xkcdtime.webp ':size=50%')
 
 {{< attribution >}}
 
-[TODO]
+[xkcd №1205](https://xkcd.com/1205/)
 
 {{< /attribution >}}
 

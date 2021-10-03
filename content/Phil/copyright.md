@@ -85,7 +85,7 @@ Marvel, Pink Floyd, and Minecraft Vs Web comics, indie, and Minetest.
 
 Because these many of these sites are tecnically hosting illegal content, they tend to change domains a lot. One of the better ways to be sure you're not going to a [Honeypot](https://en.wikipedia.org/wiki/Honeypot_(computing)), a fake site used to catch people, is to check what domain the Wikipedia article refers to, for example for scihub:
 
-<img src="/scihubsite.jpg" alt="Scihib link on wikipedia" height="500em">
+<img src="/phil/scihubsite.webp" alt="Scihib link on wikipedia" height="500em">
 
 {{< /hint >}}
 

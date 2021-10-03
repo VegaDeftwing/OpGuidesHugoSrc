@@ -231,13 +231,13 @@ The CPU is one of the most power hungry parts of your computer, and as such it d
 
 I very strongly recommend looking into this on any system though, as by default some CPUs will run at the minimum frequency only.
 
-<img src="/cpupower.png" alt="sudo cpupower frequency-info" style="border-radius:20px;">
+<img src="/eng/cpupower.webp" alt="sudo cpupower frequency-info" style="border-radius:20px;">
 
 If you want to actually see how much power is used, `rapl` should do the trick, just be sure to actually put the system under load first- `stress-ng --cpu 16` (or whatever your thread count is) should work.
 
 {{< smalltext >}} If you are also on a Ryzen system, you may need to use [rapl-read-ryzen (github)](https://github.com/djselbeck/rapl-read-ryzen) / [(aur)](https://aur.archlinux.org/packages/rapl-read-ryzen-git/) to get this output {{< /smalltext >}}
 
-<img src="/rapl.png" alt="sudo rapl" style="border-radius:20px;">
+<img src="/eng/rapl.png" alt="sudo rapl" style="border-radius:20px;">
 
 We'll talk about delivering power to the CPU in a bit, when we talk about the Voltage Regulation Module (VRM) on the Motherboard.
 
