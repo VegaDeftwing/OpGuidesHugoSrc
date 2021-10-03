@@ -33,7 +33,7 @@ voting based on if they like the person, how he/she looks, single issue voting
 
 ## Issue 4: Gerrymandering, Fraud, and Astroturfing
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/Lq-Y7crQo44?list=FLFMnqfaTa1se1LfbCB3peJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/Lq-Y7crQo44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/A-4dIImaodQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -98,4 +98,4 @@ And sure, you can make the argument that this would just be a quick grab for lef
 
 ## Fake News & Willful Ignorance
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/jWJVMoe7OY0?list=FLFMnqfaTa1se1LfbCB3peJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/jWJVMoe7OY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

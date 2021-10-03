@@ -22,7 +22,7 @@ If you're worried the other person can't consent at the moment- don't be a douch
 
 By far I think the biggest thing not everyone realizes, especially teenagers in places with abstinence only sex ed, is that your body's response isn't consent. Getting wet or hard *is. not. consent.* 
 
-{{< attribution >}} here's a [TED talk](https://youtu.be/pZwvrxVavnQ) on that point if you need it. {{< /attribution >}}
+{{< smalltext >}} here's a [TED talk](https://youtu.be/pZwvrxVavnQ) on that point if you need it. {{< /smalltext >}}
 
 [TODO] Coersion by econominc and social pressure
 
@@ -66,16 +66,16 @@ Frankly, I think that sums it up pretty well, and truth be told I don't think I 
 
 The 'Hacking' community in particular is usually very clear on sexual liberation/freedoms and given that technically minded people tend to have statistically significantly higher amounts of LGBTQIA+ people, it's relevant to mention. I don't want to go in depth or be your source of sex education, but I do think skipping over this would be doing the community some injustice. As such I'd also like to link to some videos providing sexual education, [The truth about unwanted arousal | Emily Nagoski , YouTube](https://www.youtube.com/watch?v=L-q-tSHo9Ho&list=FLFMnqfaTa1se1LfbCB3peJQ&index=103&t=0s)
 
-![Trans-Istor](/transistor.png)
+![Trans-Istor](/phil/transistor.png)
 
 {{< attribution >}}Imge from [kokofox](https://kokoscript.com/ ) {{< /attribution >}}
 
-```
+```perl
 TypeError:
 no implicit conversion of Gender into Boolean
 ```
 
-![how is it youre not bi](/tumblrscreen.jpg)
+![how is it youre not bi](/phil/tumblrscreen.webp)
 
 {{< attribution >}}
 
@@ -91,7 +91,7 @@ TODO + flags
 
 ## Other Resources
 
-[![image-20201006135737079](/ohjoy.png ':size=50%')](https://www.ohjoysextoy.com/category/comic/education-comic/page/3/)
+[![image-20201006135737079](/phil/ohjoy.webp ':size=50%')](https://www.ohjoysextoy.com/category/comic/education-comic/page/3/)
 
 {{< attribution >}}
 
@@ -101,7 +101,7 @@ TODO + flags
 
 As a Furry myself I'm obligated to reccomend https://www.ohjoysextoy.com/furry/
 
-<img src="/creepycomments.jpg" style="zoom:50%;" />
+<img src="/phil/creepycomments.webp" style="zoom:50%;" />
 
 {{< attribution >}}
 
@@ -116,3 +116,4 @@ I also reccomend: [A Handy Guide To Internal Shots (VERY NSFW)](https://www.fura
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/L0jQz6jqQS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p hidden> <a href="https://www.youtube.com/watch?v=QyL9P1ccy-w"> Suction Cup Man 4: Business or Pleasure<p>
+

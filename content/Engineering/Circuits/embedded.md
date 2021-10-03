@@ -210,7 +210,7 @@ So, that's i2c, which is nice, but sometimes you'll want to talk to a device wit
 
 ## Project 6 - The Epochalypse
 
-<img src="/Year_2038_problem.gif" style="-webkit-filter: invert(.87);" alt=" ">
+<img src="/eng/Year_2038_problem.gif" style="-webkit-filter: invert(.87);" alt=" ">
 
 [TODO] low power (sleep states), graphics (eink), RTC
 
