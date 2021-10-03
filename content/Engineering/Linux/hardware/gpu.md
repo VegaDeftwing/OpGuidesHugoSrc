@@ -3,10 +3,11 @@
 <script>
     document.getElementById("hardwareMenu").open = true;
 </script>
-
 ![gcards](/gcards.jpg)
 
-> A wide array of graphics cards spanning multiple generations. The majority pictured are made by Nvidia
+<!-- This image needs replaced, as it's really fuzzy -->
+
+{{< smalltext >}}A wide array of graphics cards spanning multiple generations. The majority pictured are made by Nvidia{{< /smalltext >}}
 
 Most 'beefier' systems have a graphics card, but (almost) every computer that can output a video signal has dedicated graphics processing of some sort. For many lower end or low power systems (especially laptops) this graphics processing unit, or GPU, is built into the CPU and uses the systems same ram for video. For larger systems there's typically a larger graphics card (often the graphics card is called a GPU as shorthand; however, the GPU is technically just the processor on the board), which is a separate device hooked up though an expansion connection (like PCIe). Typically these cards differ from their integrated into the CPU counterparts in that they're much, much faster and drink much more power. In general the GPU is required because while CPUs are great at very fast consecutive operations like taking '1+1=a, a+1=b, b+1=c' the GPU is really good at parallel operations like '1+1=a, 2+2=b, a+b=c', where both of the first two operations can be done at the same time by different processing units before being manipulated together in the third operation. In reality, this is because the modern GPU really only treats pushing color data to the screen as a secondary operation, instead it's main purpose is to do complex matrix and vector math which is what goes into drawing polygons in a 3D scene, and these matrix operations are massively parallel. So while a CPU has  at the high end a dozen cores, a GPU may have multiple thousand. These cores are much more limited in what they can do of coarse, and typically run at a lower clock speed than the CPU, but for their purpose they absolutely shred though large data. This has given rise to GpGPU Computing, or General Purpose Graphics Processing Unit Computing, where in the GPU is used for things other than graphics, like accelerating data base searchers or training AI models.
 
@@ -28,7 +29,7 @@ Both Intel and Amd offer integrated graphics of various capability that usually 
 
 Finally, it should be noted the iGPUs share system memory for graphics memory, which is actually one of their most limiting factors- as system memory (RAM) is optimized for a different kind of access pattern, it is not nearly as fast as GDDR or HMB2, both of which are memory technologies that have been optimized for use with graphics devices. 
 
-![1900px-raven_ridge_die_(/1900px-raven_ridge_die_(annotated).png)](/1900px-raven_ridge_die_(annotated).png)
+![1900px-raven_ridge_die_(/eng/1900px-raven_ridge_die_(annotated).png)](/1900px-raven_ridge_die_(annotated).webp)
 
 {{< attribution >}}
 

@@ -104,7 +104,7 @@ Keeping the numbers simple here, lets say you want to know the probability that 
 
 {{< columns >}}
 
-![](/treediagram1.svg)
+![](/eng/treediagram1.svg)
 
 <--->
 
@@ -114,7 +114,7 @@ This diagram first helps us expose an assumption in the problem: that the initia
 
 This lets us figure out the conditional probabilities super easily, as all that's needed is to look at the respective branch. For example, in the above we can see P[Red|Box1] is 9/10. Another nice thing is by mulitplying across the branches we can get the probability of the entire 'system' easily. Note the ',' instead of a '|' in the diagram below. This is saying that these have both happened *not* implying conditional probability. That's why adding all of these up will add up to 1 (100%) as it's a look at all of the possible events.
 
-![](/treediagram2.svg)
+![](/eng/treediagram2.svg)
 
 So now we know the probability of a blue ball overall: 0.4 (.05 + .35 )<a class="ptr">(1)</a>, the probability of a bule ball in box 1 (.1), what is the probability that we actually picked from box 1? We know P[Blue|Box1], but what is P[Box1|Blue] ? Well, naturally, there's a handly formula, known as "Bayes Rule" for this situation:
 

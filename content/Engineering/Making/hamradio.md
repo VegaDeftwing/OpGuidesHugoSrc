@@ -76,4 +76,4 @@ Here OH6BPL is using the [Computer Craft](https://www.computercraft.info/downloa
 
 ?> I've actually set this up using a HackRF and Rock64. It's pretty neat. Just be aware the ADS-b, the radio signals you'll be picking up to do this, are very line-of-sight so you might need to plop the antenna on your roof or something.
 
-<img src=" /MorseDecode.png " alt="radioart" style="zoom:50%;" />
+<img src="/eng/MorseDecode.webp" alt="Morse Code" style="zoom:50%;" />

@@ -52,7 +52,7 @@ Finally, we're up to the normal number line, that is, we now have the set of all
 
 ### {{< katex >}} i {{</ katex >}} - Imaginary Numbers
 
-![](/wtf.gif)
+![WTF Gif](/eng/wtf.gif)
 
 Yep, that's pretty much everyone's first reaction. What in the hell is an imaginary number?
 
@@ -201,7 +201,7 @@ https://www.rapidtables.com/math/symbols/Basic_Math_Symbols.html
 
 {{< columns >}}
 
-![](/mathmeme.jpg)
+![Math Meme](/eng/mathmeme.jpg)
 
 {{< attribution >}}
 

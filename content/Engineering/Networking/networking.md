@@ -22,7 +22,7 @@ Links are the interconnects between two nodes. Generally these fall into two cat
 
 Not all Links can support the same bandwidth or throughput. In general, Coaxial is worse than Twisted Pair which is in turn worse than fiber.
 
-<img src="/nodes.svg" alt="nodes" style="-webkit-filter: invert(.85);">
+<img src="/eng/nodes.svg" alt="nodes">
 
 **Applications**
 
@@ -178,7 +178,7 @@ traceroute
 
 https://www.aelius.com/njh/subnet_sheet.html
 
-![devnullnetwork](/devnullnetwork.png ':size=70%')
+![devnullnetwork](/eng/devnullnetwork.webp ':size=70%')
 
 ### Static and Dynamic Routes
 
@@ -264,9 +264,9 @@ Host, user agent, accept-language, connection (keep-alive), ...?
 
 GET, POST, HEAD, PUT, DELETE
 
-![Codes](/http-status-codes.png ':size=50%')
+![Codes](/eng/http-status-codes.webp ':size=50%')
 
-> https://www.monkeyuser.com/2017/http-status-codes/
+{{< attribution >}}https://www.monkeyuser.com/2017/http-status-codes/{{< /attribution >}}
 
 http1 vs 2 v 3
 

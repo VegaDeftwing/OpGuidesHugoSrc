@@ -121,7 +121,7 @@ http://composingprograms.com
 
 -->
 
-<img class="center" src="/python.png" alt="Py Logo" height="200em">
+<img class="center" src="/eng/python.webp" alt="Py Logo" height="200em">
 
 ## Getting started with python
 

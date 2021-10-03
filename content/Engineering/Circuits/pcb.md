@@ -748,7 +748,7 @@ and technically resistors and [fuses](https://www.youtube.com/watch?v=CMlpCX0bug
 
 # Chapter 26.2 - PCB 'Badges'
 
-![badges](/badges.jpeg)
+![badges](/eng/badges.webp)
 
 {{< attribution >}}
 

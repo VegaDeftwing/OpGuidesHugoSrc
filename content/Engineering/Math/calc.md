@@ -6,7 +6,7 @@
 
 [Introduction To Calculus With Derivatives (adit.io)](https://adit.io/posts/2018-02-18-Introduction-To-Calculus-With-Derivatives.html)
 
-[] TODO limits before video
+[TODO] limits before video
 
 {{< hint info >}}
 

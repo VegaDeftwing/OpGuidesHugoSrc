@@ -21,7 +21,7 @@ Arch is what's known as a *rolling release* distribution, which means it gets th
 
 <--->
 
-<img src="/archlogo.png" alt="Arch Logo" height="180em" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="/eng/archlogo.png" alt="Arch Logo" height="180em" style="display: block; margin-left: auto; margin-right: auto;">
 
 {{< attribution >}}Arch Linux Logo from [archlinux.org](https://archlinux.org){{< /attribution >}}
 

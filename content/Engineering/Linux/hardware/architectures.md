@@ -12,9 +12,9 @@ The next thing you should know is that generally, there's two kind of insturctio
 
 Just for comparison, check out this ARM assembly code cheat sheet from [Azeria Labs](https://azeria-labs.com/assembly-basics-cheatsheet/) vs this x86 opcode cheat sheet:
 
-![cheatsheetv1.3-1920x1080](/cheatsheetv1.3-1920x1080.png)
+![cheatsheetv1.3-1920x1080](/eng/armcheat.webp)
 
-![x86_opcode_structure_and_instruction_overview](/x86_opcode_structure_and_instruction_overview.png)
+![x86_opcode_structure_and_instruction_overview](/eng/x86_opcode_structure_and_instruction_overview.webp)
 
 It's also a bit stunning just how rarely a lot of x86_64 instructions are even used:
 
@@ -62,6 +62,6 @@ https://manybutfinite.com/post/how-computers-boot-up/
 
 In case you need it, here's a SubV/RiscV ISA ref sheet:
 
-![](/risc.png)
+![](/eng/risc.webp)
 
 {{< attribution >}}[s-ol@merveilles.town](https://merveilles.town/@s_ol/106578158809590397){{< /attribution >}}
