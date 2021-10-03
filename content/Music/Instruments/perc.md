@@ -113,7 +113,7 @@ I do want to point out that it's not just the drum that matters, but also the be
 
 <--->
 
-<audio controls src="/NYC/CD2 - KCK 01.wav"></audio>
+<audio controls src="/sounds/NYC/CD2 - KCK 01.wav"></audio>
 
 {{< attribution >}}Kick Drum sample, from [NYC Drum Kit @ Soundpacks.com](https://soundpacks.com/free-sound-packs/nyc-drum-kit/){{< /attribution >}}
 
@@ -135,12 +135,11 @@ This is the shallowest drum, usually about 6 inches deep. The snare is also used
 
 <--->  
 
-
-<audio controls src="/NYC/CD2 - SNR 04.wav"></audio>
+<audio controls src="/sounds/NYC/CD2 - SNR 04.wav"></audio>
 
 {{< attribution >}}Snare drum sample, from [NYC Drum Kit @ Soundpacks.com](https://soundpacks.com/free-sound-packs/nyc-drum-kit/){{< /attribution >}}
 
-<audio controls src="/LivePercSamplePack/LPSP_RIMSHOT_79.wav"></audio>
+<audio controls src="/sounds/LivePercSamplePack/LPSP_RIMSHOT_79.wav"></audio>
 
 {{< attribution >}}Rimshot sample, from [Live Percussion Sample Pack @ Soundpacks.com](https://soundpacks.com/free-sound-packs/live-percussion-sample-pack/){{< /attribution >}}
 {{< /columns >}}
@@ -179,11 +178,11 @@ This is the shallowest drum, usually about 6 inches deep. The snare is also used
 
 <--->
 
-<audio controls src="/NYC/1.wav"></audio>
+<audio controls src="/sounds/NYC/1.wav"></audio>
 
 {{< attribution >}}Closed HiHat sample, from [NYC Drum Kit @ Soundpacks.com](https://soundpacks.com/free-sound-packs/nyc-drum-kit/){{< /attribution >}}
 
-<audio controls src="/LivePercSamplePack/LPSP_OPEN_HATS_01.WAV"></audio>
+<audio controls src="/sounds/LivePercSamplePack/LPSP_OPEN_HATS_01.WAV"></audio>
 
   {{< attribution >}}Open HiHat sample, from [Live Percussion Sample Pack @ Soundpacks.com](https://soundpacks.com/free-sound-packs/live-percussion-sample-pack/){{< /attribution >}}
 
@@ -212,7 +211,7 @@ This is the shallowest drum, usually about 6 inches deep. The snare is also used
   Don't forget the obvious! The drum sticks themselves can be tapped together.
   <--->
 
-<audio controls src="/LivePercSamplePack/LPSP_STICKS_1.wav"></audio>
+<audio controls src="/sounds/LivePercSamplePack/LPSP_STICKS_1.wav"></audio>
 
 {{< attribution >}}Sticks sample, from [Live Percussion Sample Pack @ Soundpacks.com](https://soundpacks.com/free-sound-packs/live-percussion-sample-pack/){{< /attribution >}}
 

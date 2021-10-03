@@ -148,7 +148,7 @@ Unlike python, which get's converted to something the computer can understand as
 
 This in turn gets turned into binary as can bee seen by this screenshot generated using https://godbolt.org/
 
-![godbolt](/godbolt.png)
+![godbolt](/eng/godbolt.png)
 
 {{< columns >}}
 
