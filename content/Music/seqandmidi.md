@@ -20,7 +20,7 @@ The easiest to understand sequencing method is step sequencing. You'll generally
 
 #### Drum Sequencing
 
-![step sequencer in VCV Rack](/stepseq.png)
+![step sequencer in VCV Rack](/music/stepseq.webp)
 
 <audio controls loop src="/sequencerexample-003.wav"></audio>
 
@@ -56,13 +56,13 @@ These values could control anything. The most obvious is the pitch of an oscilla
 
 <--->
 
-![](/basicanalogstep.gif)
+![](/music/basicanalogstep.gif)
 
 {{< /columns >}}
 
 To actually hear this in action, here's a patch demonstrating multiple sequences working together. In this patch, the PGMR module is a multi-lane sequencer, which really just means that at each step there's more than one knob, because there's more than one output. <a class="ptr">(3)</a> The main difference between this and just setting up four, small sequencers (like the ADDR-SEQ used in the gif) is that the steps are always locked together, you can't accidentally have one sequence run faster than the other, or get out of sync - not that either of those are bad things, you'll probably want to do both intentionally!
 
-![](/analogstepseq.png)
+![](/music/analogstepseq.webp)
 
 <audio controls loop src="/analogseq-005.wav"></audio>
 
@@ -82,7 +82,7 @@ One of the more common methods to add variety is to just to sequence your sequen
 
 <--->
 
-![](/metaseq.png)
+![](/music/metaseq.webp)
 
 {{< /columns >}}
 
@@ -96,7 +96,7 @@ Step sequencers can also get pretty crazy with a lot of built in features, so if
 
 <--->
 
-![](/crazystepseq.jpg)
+![](/music/crazystepseq.webp)
 
 {{< /columns >}}
 

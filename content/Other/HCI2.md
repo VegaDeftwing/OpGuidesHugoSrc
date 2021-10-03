@@ -20,15 +20,15 @@ Computers aren't just about software, websites, and programs. As the most powerf
 
 What the fuck is this shit?
 
-![crappy membrane keyboard](/membranekeys.jpg)
+![crappy membrane keyboard](/hci/membranekeys.webp)
 
 Well, this shit is membrane keys. They use a lil' membrane of flexible plastic to make a button that when you press completes a circuit. They feel like mush and generally suck to type on. We can do much, much better:
 
-![Mechanical keyboard](/mechanicalkeys.jpg)
+![Mechanical keyboard](/hci/mechanicalkeys.webp)
 
 Okay, cool, a mechanical keyboard. Now at least each switch is, well, mechanical. There's a spring and actual feedback to your fingers and ears when you hit a key. But the keys are still arranged horrendously and it's not at all fitting for human hands. So... What next? 
 
-![ergodone](/ergodone.jpg)
+![ergodone](/hci/ergodone.webp)
 
 Alright, so this is what I use. For me, this is great. It's still attainable and usable by mere mortals without infinitely deep wallets<a class="ptr">(1)</a> and using software as it exists today, but I think that's largely still because it's the furthest edge you can go from normal before things start being a royal pain in the ass, and don't get me wrong. It's not that there's not some PITA incurred from using this weird of a keyboard. Switching to a traditional keyboard will always feel weird, other people can't easily use your computer (not sure this is reallllly a downside...), configuration still basically requires you understand the basics of C programming, and some things that expect keys to be in certain places (games) will often be awkward.
 
@@ -36,7 +36,7 @@ But, that's not where I want to go with this blog post. There's plenty of people
 
 Let me start by lubing your brain up a little.
 
-![Dasher Gif](/largedasher.gif)
+![Dasher Gif](/hci/largedasher.gif)
 
 This is [Dasher](http://www.inference.org.uk/dasher/DasherSummary2.html), a software keyboard using predictive text that should sort of blow your mind. Cool init'? Now, your thoughts probably went something like this
 
@@ -86,7 +86,7 @@ Why are we limited to only buttons on our keyboards anyway? I have a BDN9 macro 
 
 <--->
 
-![BDN9 keypad with encoders](/bdn9.jpg)
+![BDN9 keypad with encoders](/hci/bdn9.webp)
 
 {{< /columns >}}
 
@@ -108,13 +108,13 @@ Well, There's already the Leap Motion
 
 {{< columns >}}
 
-![](/leapmotion.jpg)
+![](/hci/leapmotion.webp)
 
 The leap motion hardware is basically just two cameras without an infrared filter and some infrared leds. 
 
 <--->
 
-![](/leapplayground.jpg)
+![](/hci/leapplayground.webp)
 
 The Leap Motion software does an actually really good job of using this information to reconstruct the finger positions in software.  
 
@@ -122,7 +122,7 @@ The Leap Motion software does an actually really good job of using this informat
 
 and the Lexip 3D mouse - https://www.lexip.co
 
-![pu94](/3dmouse.gif)
+![pu94](/hci/3dmouse.gif)
 
 {{< hint warning >}}
 
@@ -144,13 +144,13 @@ Unfortunately, the drivers for configuring these options are still largely propr
 
 {{< columns >}}
 
-![](/mc6.jpg)
+![](/hci/mc6.webp)
 
 MorningStar MC6, a MIDI foot pedal that's highly customizable and has inputs for connecting analog expression pedals (the green thing on the left). 10/10 recommended
 
 <--->
 
-![](/stinky.jpg)
+![](/hci/stinky.webp)
 
 [Stinky Footboard](http://www.stinkyboard.com) - it's effectively a 4-key mechanical keyboard for your feet. The driver for this product sucks, so I swapped the controller out for a promicro running QMK. 
 
@@ -210,7 +210,7 @@ First though, for those unfamiliar, what is a MIDI controller? MIDI, or Musical 
 
 MIDI controllers come in all shapes and sizes, from a grid of RGB buttons to traditional keyboards to just a large array of knobs, so, naturally people took notice, and MIDI can therefore be used to control things it was never, ever meant for. People often try to use it to control video editors, 3D modeling software, and generally anything that Adobe<a class="ptr">(10)</a> makes.
 
-![midi controllers](/midicontrollers.jpg)
+![midi controllers](/hci/midicontrollers.webp)
 
 > Pictured here are the Novation Launch Key MkII (The big keyboard),  Launhpad MkII (the 8x8 grid), the Roli Seaboard Block, and two Roli Lightpad Blocks.  <a class="ptr">(11)</a> The Roli equipment uses MPE, a 'standard' that abuses the hell out of midi and does things with it that were never intended.
 
@@ -262,7 +262,7 @@ Want to look up {{< katex >}} \LaTeX {{< /katex >}} Symbols? [Done.](https://det
 
 Did you get a gaming, racing chair that cost about $100 off of ebay? Yeah, you'll regret that one soon enough.
 
-![](/racingchair.jpg)
+![](/hci/racingchair.webp)
 
 Even if you got a normal office chair, if it wasn't exorbitantly expensive it probably sucks. I did like two weeks of stressing about finding something good and thankfully finally got a good recommendation from a friend, but otherwise it's like $500 SteelCase chair or having a bolt poke though the seat's foam until it's leaving a permanent indentation into your butt.
 
@@ -272,7 +272,7 @@ It's not like we even *need* innovation here, (as proven by the influx of hot ga
 
 <--->
 
-![](/chair.jpg)
+![](/hci/chair.webp)
 
 {{< /columns >}}
 
@@ -290,7 +290,7 @@ I've gone though wayyyy to many desks. What I'm currently using is a nice big un
 
 I know that I can pick from pleanty of L or U shaped desks on amazon, but most will be seriously lacking in depth and be less than study, so my 2-desk concoction is the best I can do without making one- which I do intend to do at some point.
 
-![](/desk.jpg)
+![](/hci/desk.webp)
 
 And, alright, I admit, I'm not a typical computer user. I have enough devices hooked up that `lsusb` gives me 36 lines of output<a class="ptr">(15)</a>, I have 3 monitors + a pen display, and my desk is also home to a whole host of lab equipment, a eurorack setup, and other various things. 
 
@@ -367,7 +367,7 @@ More practically though, as mentioned before, it's ideal if the mouse and keyboa
 
 <--->
 
-![](/deskpullout.jpg)
+![](/hci/deskpullout.webp)
 
 {{< /columns >}}
 
@@ -420,7 +420,7 @@ Not all systems will be able to do this live without completely shitting the bed
 
 Alright, so this is mostly a dig at Windows, where everything is Garbage. Mac has CoreAudio which is pretty cool, and Linux can mostly do this for audio via [Jack Audio](https://jackaudio.org/faq/about.html) and work is being done to make something for both audio and video with [Pipewire](https://pipewire.org).
 
-![](/catia.png)
+![](/hci/catia.webp)
 
 > This is a screenshot of 'Catia' - a graphical program for audio routing with Jack Audio. Here I just have pulseaudio set to use my first two outputs as my speaker outputs (Sink -> System) , and the first input (my microphone, which is mono) set to be the input to the stereo 'virtual microphone' that pulse audio provides to applications (System->Source). All the orange and green stuff is for MIDI devices, which catia can also route.
 
@@ -532,17 +532,17 @@ Of course, other forms of more passive indication are great too: Little e-ink or
 
 Often though, they're just beautiful to look at, like this lil' Nixie clock:
 
-![nixieclock](/nixieclock.jpg)
+![nixieclock](/hci/nixieclock.webp)
 
 <--->
 
-![radiation meter](/radiation_meter.jpg)
+![radiation meter](/hci/radiation_meter.webp)
 
-![nimbus](/nimbus.jpg)
+![nimbus](/hci/nimbus.webp)
 
 {{< attribution >}}The discontinued Quirky Nimbus, a nightmare of an IOT product {{< /attribution >}}
 
-![](/eink.jpg)
+![eink](/hci/eink.webp)
 
 {{< attribution >}}my '[Powonagotchi](https://pwnagotchi.ai)' 🖤 , with its e-ink display {{< /attribution >}}
 
@@ -572,7 +572,7 @@ The problem with that color temperature isn't necessarily that it's too 'cool', 
 
 <--->
 
-<img src="/Color_temperature_black_body_800-12200K.svg" style="background-color:white;">
+<img src="/hci/Color_temperature_black_body_800-12200K.svg" style="background-color:white;">
 
 {{< attribution >}}
 
@@ -600,7 +600,7 @@ Further Reading: [LED History (Tedium.co)](https://tedium.co/2020/07/10/led-indi
 
 <--->
 
-![](/offensiveled.jpg)
+![](/hci/offensiveled.webp)
 
 > An offending LED indicator on the Mackie CR4 speakers. It's meant to illuminate the volume knob in the dark but it mostly fails at that, especially since the all-black knob relies on a bump for indication rather than a white stripe.
 
@@ -614,7 +614,7 @@ Basically ambilight is just a system for letting the colors from the pixels near
 
 <--->
 
-![](/Ambilight-2.jpg)
+![](/hci/Ambilight-2.webp)
 
 {{< attribution >}}
 
@@ -683,23 +683,23 @@ If you're like most people, you probably use Google Search, but also don't like 
 
 To some extent things have gotten better as it is gotten easier to search directly from the search bar, with more browsers supporting setting the search engine by a prefix in the url bar, so if, for example, I want to search wikipedia and directly go to an article, I can just put a 'w' before what I search:
 
-![](/wsearch.jpg)
+![](/hci/wsearch.webp)
 
 And this definitely helps, but it's also not enough.
 
 Search now regularly returns a number of results that is completely unprocessable by the human brain
 
-![](/resultcount.jpg)
+![](/hci/resultcount.webp)
 
 So, what can be done about this? Well, there's already a fair amount of advanced search options:
 
 {{< columns >}}
 
-![](/searchopts.jpg)
+![](/hci/searchopts.webp)
 
 <--->
 
-![](/advsearch.jpg)
+![](/hci/advsearch.webp)
 
 {{< /columns >}}
 
@@ -816,7 +816,7 @@ Screenshot from the homepage of [Obsidian.md](https://obsidian.md)
 
 The digital world doesn't have to be lonely pages indexed like a book, why are we treating it as such? Today each page can point to any other page in a beautiful web of interconnected information, where each topic has lines of association spanning such that no two pages are unconnected. Wikipedia sort of has the simplest form of this, but what if we had systems so capable of automatic understanding - not just tagging - of information that any new info could propagate though that web naturally. Social linkage to people in the same graph, even if anonymous, could help connect people that together, due to their very specific knowledge, drive man kind further. I should clarify to, I literally mean a web/graph, possibly in 3D, relating and indexing information, possibly like these 3D views of Wikipedia: (though the data should probably be served 'raw' so that other presentation methods can be developed, as this definitely wouldn't be ideal for actually reading the content)
 
-![](/wikigalaxy.jpg)
+![](/hci/wikigalaxy.webp)
 
 {{< attribution >}}
 
@@ -832,17 +832,17 @@ Obviously this overly linked system is something that people would need to get u
 
 This section is about how we view information, the presentation of words on a page, graphs, and information in general. To start, I want to look at something a little bit different.
 
-![](/gemini.jpg)
+![](/hci/gemini.webp)
 
 This is the home page for a project called [Gemini](https://gemini.circumlunar.space), which is a sort of alternative internet, but, wait, hang on...
 
 {{< columns >}}
 
-![](/gemini2.jpg)
+![](/hci/gemini2.webp)
 
 <--->
 
-![](/gemini3.jpg)
+![](/hci/gemini3.webp)
 
 {{< /columns >}}
 
@@ -883,7 +883,7 @@ Note here by Action I literally mean to **include the verb.** Delete. Replace. P
 
 With destructive or irreversible actions, such as deletion (not recycling), given a confirmation dialogue, and if particularly important, a dialogue that require *meaningful* user input, like this prompt when deleting a repo on GitHub
 
-<img src="/delconfirm.png" alt="DelConfirm" style="zoom:50%;" />
+<img src="/hci/delconfirm.webp" alt="DelConfirm" style="zoom:50%;" />
 
 Alright, so back to Gemini: Making more things like it wouldn't totally solve this problem, designers could still totally chose to make the text confirm shame, but by letting more elements be controlled by the user (or their browser), we could at least do a little bit better by letting that ensure options to confirm or deny are given equal weight and that they are colored appropriately.
 
@@ -925,7 +925,7 @@ Beyond that, content moderation needs improvements too - I don't even mean fake 
 
 {{< attribution >}}Yes, I see the irony in a post this long.{{< /attribution >}}
 
-<img src="/times-square.jpg" alt="Times Square" style="zoom: 33%;" />
+<img src="/hci/times-square.webp" alt="Times Square" style="zoom: 33%;" />
 
 {{< attribution >}}
 
@@ -973,13 +973,13 @@ If I have to spend more than a fraction of a second to process what is being sho
 
 **Original:**
 
-![](/adbado.jpg)
+![](/hci/adbado.webp)
 
 <--->
 
 **Edited:**
 
-![](/adbade.jpg)
+![](/hci/adbade.webp)
 
 {{< /columns >}}
 
@@ -1020,7 +1020,7 @@ Of course the same applies in other formats. .flac is replacing .wav for high en
 
 #### Bit rot?
 
-![XKCD Digital Data](/xkcddigitaldata.png)
+![XKCD Digital Data](/xkcd/xkcddigitaldata.webp)
 
 {{< attribution >}}
 
@@ -1076,7 +1076,7 @@ You can't be sure your data won't accidentally be public because of bad security
 
 <--->
 
-<img src="/yellsatcloud2.webp" alt="Old Vega Yells at Cloud">
+<img src="/nonfree/character/yellsatcloud2.webp" alt="Old Vega Yells at Cloud">
 
 {{< attribution >}}Character owned by Vega, art by [Talon Creations](https://twitter.com/Talon_Creations) and Vega {{< /attribution >}}
 
@@ -1194,7 +1194,7 @@ As far as how all of these tools should work and interact, well, I think they sh
 
 This could be done with some sort of node based programming system. While I don't actually know how to use it, I think [Luna](https://www.luna-lang.org/) demonstrates this concept fairly well:
 
- ![Luna](/luna.png)
+ ![Luna](/hci/luna.webp)
 
 though there are plenty of other examples, like the node editors used for making shaders or programming in Unreal Engine
 
@@ -1332,7 +1332,7 @@ IOT especially **needs** to be open. In 2020 alone [Wink started charging custom
 
 {{< columns >}}
 
-<video width="100%" controls src="/schultzschultzgrafik.mp4"></video>
+<video width="100%" controls src="/hci/schultzschultzgrafik.mp4"></video>
 
 {{< attribution >}}
 
@@ -1474,7 +1474,7 @@ I do very much hope to be wrong, as I think BCI has the opportunity to be the bi
 
 In all honestly I'm not exactly sure what everything I just wrote is about. Mostly it's just a lot of ranting, but hopefully it has been interesting. To round things off with a bit of a closing note though, I don't actually foresee many of the things I mentioned becoming common place or many even being possible, if not simply because they're require so many people to agree on [standards](https://xkcd.com/927/), but there is one glimmer of hope, and it's one of proof of uniformity. The terminal. Yes. This terminal:
 
-![terminal](/2019-02-08-194844_3241x2113_scrot.png)
+![terminal](/eng/proc.webp)
 
 The terminal emulator above is still compatible with the VT220 from 1983 (as are most terminal emulators) yet from it, with a good shell (like ZSH) I can do everything I can really think of: [browse the web](https://askubuntu.com/questions/29540/browsing-the-internet-from-the-command-line), [chat with friends](https://www.omgubuntu.co.uk/2016/10/use-telegram-cli-in-terminal-ubuntu),[ listen to music](https://wiki.archlinux.org/index.php/ncmpcpp), [basically anything](http://www.tuxarena.com/2014/03/20-great-terminal-replacements-for-gui-applications/). I'm not saying we should all stop using chrome, but I think part of the reason so many neck beards and sysadmins still use the terminal is you can do so much with it, everything that uses it as a common interface, and it has programming capabilities. You can automate or string together just about anything, exactly as I described above. 
 

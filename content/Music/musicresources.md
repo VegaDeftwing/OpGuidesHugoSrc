@@ -29,7 +29,7 @@ https://twitter.com/LOOKMUMNOCMPUTR
 
 https://twitter.com/electricdahliia
 
-{{< best >}}https://t.me/thePatchBay - some shameless self promo, as this is my chat.{{< /best >}}
+{{< best >}}https://t.me/thePatchBay{{< /best >}} - some shameless self promo, as this is my chat.
 
 Neurotypique https://www.youtube.com/channel/UC4oBI5piGMznFMZdtEC0FhA
 

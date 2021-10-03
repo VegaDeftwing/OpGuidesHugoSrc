@@ -14,9 +14,9 @@ Stereo delays many have additional controls as well, most commonly offering a di
 
 Some delays may also allow for unity or higher feedback, which will cause the delay to be infinite or, if above unity, infinitely grow in volume until it's just a distorted clipping mess. This can actually be a lot of fun to play with.
 
-![Chronoblob](/chronblob.jpg)
+![Chronoblob](/music/chronblob.webp)
 
-> Quick Reference Card for the Chronblob^2 from Alright Devices, http://docs.alrightdevices.com/chronoblob2-manual.pdf 
+{{< attribution >}}From the [Quick Reference Card](http://docs.alrightdevices.com/chronoblob2-manual.pdf) for the Chronoblob 2 from Alright Device {{< /attribution >}}
 
 Some delays let you insert other things into the feedback path. This means you could do things such as having each repetition be progressively more filtered, cutting out more and more high end each time or putting a delay in the delay. (yo dawg, I heard you like delay?).
 
@@ -32,15 +32,15 @@ It's also worth noting that by making delay time very short and having gain near
 
 <--->
 
-![Karplus Strong](/KarplusStrong.png)
+![Karplus Strong](/music/KarplusStrong.webp)
 
 {{< /columns >}}
 
 Finally, it's worth noting that there are a few interesting features some delays may have, such as letting the delay buffer be frozen to infinitely repeat what was playing at the time (unity gain, ignore input), reverse'd delay - having the initial sound play forward but each repeat play in reverse, pitch shifted delay- having each delay affected by a pitch shift, often done with octave up/down. Often, this pitch shifting is done via Granular Synthesis, as mentioned above. Using granular synthesis does allow for some other interesting options though, such as [Unfiltered Audio's Sandman Pro VST](https://www.unfilteredaudio.com/collections/plug-ins/products/sandman-pro).
 
-![Quadravox](/Quadravox.png)
+![Quadravox](/music/Quadravox.webp)
 
-> Screenshot of [Eventide's Quadravox VST](https://www.eventideaudio.com/products/effects/diatonic-pitch-shift/quadravox), with pitch shifted delays
+{{< attribution >}} Screenshot of [Eventide's Quadravox VST](https://www.eventideaudio.com/products/effects/diatonic-pitch-shift/quadravox), with pitch shifted delays {{< /attribution >}}
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/MNzBFgwkU0A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -52,7 +52,7 @@ Slapback delay is just a short delay with only a single echo, no feedback. It's 
 
 looking at a snippit of this audio, you can see just how short the delay is, with the slapback being on the notes that have the double hits.
 
-![slapback](/slapback.png)
+![slapback](/music/slapback.png)
 
 ### Delay at 100%(+) feedback?
 
@@ -107,11 +107,11 @@ Flanger works by taking a **very** short delay* which slowly modulated delay tim
 
 *note, that delay, in this context, means an actual time delay, just a buffer that makes sound take longer to get through if that makes sense. Of course, with feedback and mixing the original this will have the same effect as a delay in the 'echo' sense.
 
-![Flanger](/Flanger.jpg)
+![Flanger](/music/Flanger.webp)
 
-> Flanger sort of makes a comb filter sound too, as you can see in the Spectrum Analyzer on the bottom.
+Flangers sort of makes a comb filter sound too, as you can see in the Spectrum Analyzer on the bottom.
 
-![Pyramids](/Pyramids.jpg)
+![Pyramids](/music/Pyramids.webp)
 
 > The '[Pyramids](https://www.earthquakerdevices.com/pyramids)' Flanger pedal from Earthquaker Devices.
 
