@@ -1,0 +1,110 @@
+# espanso configuration file
+
+# This is the default configuration file, change it as you like it
+# You can refer to the official documentation:
+# https://espanso.org/docs/
+
+# Matches are the substitution rules, when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  # Simple text replacement
+  - trigger: ":busy"
+    replace: "Hey, sorry, I'm a bit busy at the moment. It cool if I message you back later?"
+
+  # Dates
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y"
+
+  # Shell commands
+  - trigger: ":shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo Hello from your shell"
+
+  # Markdown Stuff
+  - trigger: ":tip"
+    replace: '{{< tip >}}$|${{< /tip >}}'
+
+  - trigger: ":col"
+    replace: "{{< columns >}}$|${{< /columns >}}"
+
+  - trigger: ":hint"
+    replace: "{{< hint info warning >}}$|${{< /hint >}}"
+
+  - trigger: ":att"
+    replace: "{{< attribution >}}$|${{< /attribution >}}"
+
+  - trigger: ":ka"
+    replace: "{{< katex >}}$|${{< /katex >}}"
+
+  - trigger: ":img"
+    replace: '<img src="/f.ext" alt=" " height="80em">' 
+
+  - trigger: ":quote"
+    replace: "{{< quote \"source\" >}}$|${{< /quote >}}"
+
+  - trigger: ":butt"
+    replace: '{{< button relref=" " >}}$|${{< /button >}}'
+
+  - trigger: ":speech"
+    replace: "{{< speech >}}$|${{< /speech >}}"
+
+  - trigger: ":spoil"
+    replace: "{{< spoiler >}}$|${{< /spoiler >}}"
+
+  - trigger: ":best"
+    replace: "{{< best >}}$|${{< /best >}}"
+
+  - trigger: ":small"
+    replace: "{{< smalltext >}}$|${{< /smalltext >}}"
+
+  - trigger: ":foot"
+    replace: "<a class=\"ptr\">($|$)</a>"
+
+  - trigger: ":ffoot"
+    replace: |
+              <ol hidden id="footnotes">
+              <li>FOOT NOTE 1</li>
+              </ol>
+
+# Unicode Fun
+  - trigger: ":section"
+    replace: "§"
+
+  - trigger: ":numero"
+    replace: "№"
+
+  - trigger: ":tm"
+    replace: "™"
+
+  - trigger: ":bigbrace"
+    replace: "⎧\n⎨\n⎩"
+
+  - trigger: ":vertbrace"
+    replace: "︷\n\n︸"
+
+  - trigger: ":cright"
+    replace: "©"
+
+  - trigger: ":cleft"
+    replace: "🄯"
+
+  - trigger: ":plusminus"
+    replace: "±"
+
+  - trigger: ":inf"
+    replace: "∞"
+
+  - trigger: ":neq"
+    replace: "≠"
+
+  - trigger: ":deg"
+    replace: "°"
