@@ -430,7 +430,7 @@ Metadata can bite you in the ass
 
 <--->
 
-![phyxius](/nonfree/permissiongranted/phyxius.jpg)
+![phyxius](/nonfree/permissiongranted/phyxius.webp)
 
 {{< attribution >}}[Source](https://furrynetwork.com/artwork/1647029/hacker-dragon/), [Artist](https://www.furaffinity.net/user/halybs/) (used with permission from Phyxius){{< /attribution >}}
 

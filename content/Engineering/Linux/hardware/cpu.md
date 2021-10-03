@@ -3,7 +3,7 @@
 <script>
     document.getElementById("hardwareMenu").open = true;
 </script>
-<img class="center" src="/cpus.webp" alt="CPUS">
+<img class="center" src="/eng/cpus.webp" alt="CPUS">
 
 {{< smalltext >}}Note, there's more the a CPU on some of these boards. On the big one, only the square thing in the middle is the CPU, on the pi-0 (the board with the HDMI and USB Ports) the CPU is under the metal heatsink - and in truth the CPU is actually an SOC (System On a Chip) - more on that in a bit. Finally, on the blue board, the CPU is only the black chip in the middle, though in this case it is again the definition is blurred, as in truth this is a *microcontroller*. This will all make sense shortly!{{< /smalltext >}}
 
@@ -67,7 +67,7 @@ Each of these things is very important, but I'm going to start with cpu MHz as i
 
 ## Clock Speed
 
-<img class="center" src="/transistor.jpg" alt="Transistors" height="400em" style="border-radius:50px;">
+<img class="center" src="/eng/transistor.jpg" alt="Transistors" height="400em" style="border-radius:50px;">
 
 However, to get to transistors we've gotta go just a bit further down the rabbit hole to the relay. Relays are super simple to understand, they're just a metal switch that is pulled open or closed using another input signal (usually a magnet pulling/pushing the switch closed/open) basically imagine a light switch, where the switch itself is controlled by yet another electrical signal. Relays are slow though, they require a physical metal plate to move to change the connection. Because of this they have limited reliability and worth note they're actually loud. You can hear an audible click of the switch as they change state.
 
@@ -213,11 +213,11 @@ Hyper threading, or SMT, or whatever the new term is for it, is a way of adding 
 
 While not listed in the /proc/cpuinfo output , it's still relevant to bring up CPU interrupts, which are, fittingly, listed in /proc/interupts
 
-<img src="/procint.png" alt="procint" style="border-radius:20px;">
+<img src="/eng/procint.png" alt="procint" style="border-radius:20px;">
 
 {{< attribution >}}Output of `cat /proc/interupts` on my system{{< /attribution >}}
 
-<img src="/netdataint.png" alt="netdataint" style="border-radius:20px;">
+<img src="/eng/netdataint.webp" alt="netdataint" style="border-radius:20px;">
 
 {{< attribution >}}Output of information for the first 3 cores on my system displayed graphically using [Netdata](https://www.netdata.cloud){{< /attribution >}}
 
@@ -274,11 +274,11 @@ CPUs have to do a few things per each instruction, generally they need to FETCH 
 
 This could be done in order,
 
-<img src="/wopipe.svg" style="-webkit-filter: invert(1);">
+<img src="/eng/wopipe.svg" style="-webkit-filter: invert(1);">
 
 but because the CPU uses different parts internally, they can be pipelined, sort of like an assembly line. While one instruction is in WRITE BACK, the next instruction is being EXECUTED, the next-next instruction is being DECODED, and the next-next-next is being FETCHED.
 
-<img src="/wpipe.svg" style="-webkit-filter: invert(1);">
+<img src="/eng/wpipe.svg" style="-webkit-filter: invert(1);">
 
 Now, there's a lot more that goes into this, times where this doesn't work -like if two instructions work on the same data, have to wait for write back before that data can be executed on- but the relevant bit here is that as much as we can, we want to keep this pipe line full. That is, we want to keep each point in the assembly line busy. To do this, the above code with an `if` utilizes branch prediction, and assuming it's correct, is able to keep the pipeline full and running like normal. If it's wrong, it has to empty the pipeline, go back, and do the correct instructions instead.
 

@@ -8,9 +8,11 @@
 
 <img src="/nics.jpg" alt="NICS" height="600em">
 
+<!-- Replace this picture -->
+
 <--->
 
-Pictured here are three Network Interface cards or NICs. The three on the left are for WiFi (though some of this form factor may include bluetooth as well) while the one on the right has an ethernet port for wired access. Most computer's will not have a separate card for the wired interface though, as most motherboard's have a wired network interface built in.
+Pictured here are three **N**etwork **I**nterface **C**ards (NICs). The three on the left are for WiFi (though some of this form factor may include bluetooth as well) while the one on the right has an ethernet port for wired access. Most computer's will not have a separate card for the wired interface though, as most motherboard's have a wired network interface built in.
 
 NICs also include the wireless chipset used for connecting to a cell tower and really any radio communication device in general.
 

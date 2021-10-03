@@ -12,7 +12,7 @@ Unfortunately, "The Cloud" isn't going anywhere. AWS, Azure, and Google Cloud pr
 
 <--->
 
-<img src="/yellsatcloud2.webp" alt="Old Vega Yells at Cloud">
+<img src="/nonfree/character/yellsatcloud2.webp" alt="Old Vega Yells at Cloud">
 
 {{< attribution >}}Character owned by Vega, art by [Talon Creations](https://twitter.com/Talon_Creations) and Vega {{< /attribution >}}
 
@@ -127,17 +127,17 @@ Further separating things, while Microsoft has tried to make their development m
 
 So, while Azure effectively has the [single bullet point of visual studio](https://azure.microsoft.com/en-us/product-categories/developer-tools/), AWS has all of this
 
-<img src="/awstools.png" alt="AWS Tools" height="700em" style="-webkit-filter: invert(.85);">
+<img src="/eng/awstools.webp" alt="AWS Tools" height="700em" style="-webkit-filter: invert(.85);">
 
 As a very lazy metric, just searching Github (Which is owned by MS and hosted on Azure), we find this:
 
 {{< columns >}}
 
-<img src="/azurerepos.png">
+<img src="/eng/azurerepos.webp">
 
 <--->
 
-<img src="/awsrepos.png">
+<img src="/eng/awsrepos.webp">
 
 {{< /columns >}}
 

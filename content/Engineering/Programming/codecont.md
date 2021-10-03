@@ -40,7 +40,7 @@ Advent of Code
 
 [Obfuscated C programs: Introduction (YouTube)](https://www.youtube.com/watch?v=rwOI1biZeD8) Obvuscated C, https://www.ioccc.org/ 
 
-<img src="/ginny.png" alt="ginny" style="zoom:50%;" />
+<img src="/eng/ginny.webp" alt="ginny" style="zoom:50%;" />
 
 {{< attribution >}}
 

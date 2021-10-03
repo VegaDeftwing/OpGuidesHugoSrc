@@ -14,7 +14,7 @@ Yes, they're different, but before I talk about the shell it's easier to talk ab
 
 The Terminal is a piece of hardware, or, rather *was* a piece of hardware. For example, here's an old IBM 3151.
 
-![mergedterms](/mergedterms.jpg)
+![mergedterms](/eng/mergedterms.webp)
 
 
 Now, don't mistake this for a CRT monitor like everyone was using in the early 2000's, this is a *terminal* it has a serial connection in the back that only reciveves messages of text from the computer it's attached to, and it can only display text on it's dim green screen. Before the days of graphical computing everything was though a text only interface that you'd usually read on one of these. Fortunately, technology has gotten much, much better.
@@ -262,7 +262,7 @@ Note that not all things that seem like a good fit are a good fit for regex, for
 
 ## Performance Analysis
 
-![](/linuxperftools.png)
+![Linux Performance Tools](/eng/linuxperftools.webp)
 
 ## Aliases and customization
 
@@ -295,7 +295,7 @@ https://wiki.bash-hackers.org/
 
 <--->
 
-![b0rk bash erros](/basherrorsb0rk.jpeg ':size=70%')
+![b0rk bash erros](/eng/basherrorsb0rk.webp ':size=70%')
 
 {{< attribution >}}
 

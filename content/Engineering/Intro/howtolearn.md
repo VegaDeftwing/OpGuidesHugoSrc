@@ -12,7 +12,7 @@ To quote someone much smarted than myself:
 
 You should also constantly be looking for how to break, modify, or look into how things work. For example, try right clicking on this sentence and select `Inspect`, like this:
 
-<img src="/inspectElement.png" alt="inspectElement" style="zoom:50%; border: 5px solid #555;" />
+<img src="/eng/inspectElement.webp" alt="inspectElement" style="zoom:50%; border: 5px solid #555;" />
 
 <p hidden> <b> OwO, What's this? </b> <p>
 

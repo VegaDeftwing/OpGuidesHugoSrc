@@ -1,6 +1,6 @@
 # 29 - Digital Signal Processing
 
-<img src="/dspoverview.svg">
+<img src="/eng/dspoverview.svg">
 
 ---
 
@@ -18,7 +18,7 @@ https://zserge.com/posts/etude-in-c/ & https://zserge.com/posts/beep/
 
 [Think DSP](https://greenteapress.com/wp/think-dsp/) - DSP in Python, Free book
 
-{{< best >}}[Vult DSP Programming Language](https://www.vult-dsp.com/vult-language){{< /best >}}
+[Vult DSP Programming Language](https://www.vult-dsp.com/vult-language)
 
 **Hardware**
 
