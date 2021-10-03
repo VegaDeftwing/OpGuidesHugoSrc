@@ -34,7 +34,11 @@ From personal experiance, I can tell you the *really* cheap, like sub $200 print
 
 {{< columns >}}
 
+<<<<<<< HEAD
 <img class="center" src="/eng/ender3.webp" alt="ender3" style="zoom:32%;" />
+=======
+<img class="center" src="/ender3.jpg" alt="ender3" style="zoom:32%;" />
+>>>>>>> 712f40e8db57b9beb9e18354fc55fee6369c1d17
 
 <--->
 
