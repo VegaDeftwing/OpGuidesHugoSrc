@@ -285,6 +285,10 @@ In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh 
 
 ## Expand
 
+{{< tip >}}Technically, the Expand shortcode is deprecated and you'll get a warning saying to use details. For now I don't care as it looks significantly better. They can always be changed latter.{{< /tip >}}
+
+**also note that details tags look much better if, for some reason, you need to stack multiple**
+
 Praesent at convallis turpis. Donec vitae tincidunt turpis. Mauris sed auctor ipsum, at semper erat. Aliquam elementum enim id hendrerit vulputate.
 
 {{< expand >}}
@@ -294,6 +298,8 @@ In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh 
 {{< /expand >}}
 
 ## Hints
+
+[TODO] make a matching color varient for each section
 
 {{< hint info >}}
 
