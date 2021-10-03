@@ -34,7 +34,7 @@ From personal experiance, I can tell you the *really* cheap, like sub $200 print
 
 {{< columns >}}
 
-<img src="/ender3.jpg" alt="ender3" style="zoom:32%;" />
+<img class="center" src="/ender3.jpg" alt="ender3" style="zoom:32%;" />
 
 <--->
 

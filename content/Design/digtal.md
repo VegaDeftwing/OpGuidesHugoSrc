@@ -96,7 +96,7 @@ https://lospec.com/palette-list
 
 # The Nerdy bits
 
-![ColorBanding](/colorbanding.png)
+![ColorBanding](/design/colorbanding.webp)
 
 > [Source](https://en.wikipedia.org/wiki/Colour_banding#/media/File:Colour_banding_example01.png)
 
