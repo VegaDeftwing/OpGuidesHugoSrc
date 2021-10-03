@@ -1,10 +1,10 @@
 # Chapter 5½ - Git.
 
-![](/arrow.svg)
+![](/common/arrow.svg)
 
 {{< best >}} [./missing-semester - Version Control](https://missing.csail.mit.edu/2020/version-control/) {{< /best >}}
 
-![](/arrowthis.svg)
+![](/common/arrowthis.svg)
 
 {{< tip >}}
 
@@ -40,7 +40,7 @@ I'm going to save the nitty gritty about how public-private key based authentica
 
 After you have a key generated, you'll need to add the public key to github,
 
-<img src="/gitkeys.png" alt="keysongithub" style="zoom:50%;" />
+<img src="/eng/gitkeys.webp" alt="keysongithub" style="zoom:50%;" />
 
 you may need to change existing repo to use a git based origin rather than an https one:
 
@@ -111,9 +111,9 @@ https://onlywei.github.io/explain-git-with-d3/
 
 > generated using https://github.com/ryo-ma/github-profile-trophy, the above are the stats on my github profile
 
-<img src="/gitcontrib.png" alt="Vegas git contrib graph" style="zoom:50%;" />
+<img src="/eng/gitcontrib.png" alt="Vegas git contrib graph" style="zoom:50%;" />
 
-<img src="/badmetric.png" alt="badmetric" style="zoom:50%;" />
+<img src="/eng/badmetric.png" alt="badmetric" style="zoom:50%;" />
 
 > ahh, much better. Made using https://github.com/gelstudios/gitfiti, inspired by someone else that wrote the same thing, but I can't find the original.
 
