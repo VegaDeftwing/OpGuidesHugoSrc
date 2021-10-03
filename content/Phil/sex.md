@@ -68,7 +68,7 @@ The 'Hacking' community in particular is usually very clear on sexual liberation
 
 ![Trans-Istor](/transistor.png)
 
-> Img credit, Kokofox @ https://kokoscript.com/
+{{< attribution >}}Imge from [kokofox](https://kokoscript.com/ ) {{< /attribution >}}
 
 ```
 TypeError:
@@ -116,4 +116,3 @@ I also reccomend: [A Handy Guide To Internal Shots (VERY NSFW)](https://www.fura
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/L0jQz6jqQS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p hidden> <a href="https://www.youtube.com/watch?v=QyL9P1ccy-w"> Suction Cup Man 4: Business or Pleasure<p>
-
