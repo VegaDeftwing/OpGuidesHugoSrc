@@ -3,10 +3,11 @@
 <script>
     document.getElementById("hardwareMenu").open = true;
 </script>
+![RAM](/ram.webp)
 
-![RAM](/ram.jpg)
+{{< smalltext >}}Note, that some RAM sticks, espically the full size ones, have metal heat spreaders on top of them. In gaming computer espically it's common for these to have RGB lights as well.{{< /smalltext >}}
 
- This is RAM or Random Access Memory. The above two sticks are the normal sized used in desktop PCs, this form factor is called a DIM while the bottom two are from laptops and are called SO-DIMS, the placement of the notch is an indicator of the generation of RAM, with nearly all modern ram being a consecutive generation of the DDR standard. At the time of writing (Q2,2019) DDR4 is common in new, medium to high end devices, with many DDR3 devices still being used. Of note many more compact devices solder the ram chips directly to the board, meaning there is no form factor to consider.
+ This is RAM or Random Access Memory. The above two sticks are the normal sized used in desktop PCs, this form factor is called a DIMM (Dual In-Line Memory Module) while the bottom two are from laptops and are called SO-DIMMS, the placement of the notch is an indicator of the generation of RAM, with nearly all modern ram being a consecutive generation of the DDR standard. At the time of writing (Q2,2019) DDR4 is common in new, medium to high end devices, with many DDR3 devices still being used. Of note many more compact devices solder the ram chips directly to the board, meaning there is no form factor to consider.
 
 Just like the CPU, RAM has a speed at which it operates as well, Typically it's listed in MHz still, but speeds range from ~1.8Ghz to ~3.8Ghz at the time of writing, dependent DDR3 or 4. While DDR4 has faster clock speeds, it does typically have a higher overall latency, meaning there's a longer delay between when when data is requested to when it's delivered, albeit at a much higher total throughput. This is a massive topic in of itself, yet is also pretty niche as outside of some pretty specialized applications RAM speed and latency has a relatively minor impact, though faster is typically better.
 

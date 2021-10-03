@@ -37,7 +37,7 @@ Don't get to deep into gear envy. Effects are awesome and it's tempting to eithe
 
 <--->
 
-![pedaldragon](/pedaldragon.png)
+![pedaldragon](/pedaldragon.webp)
 
 {{< /columns >}}
 
