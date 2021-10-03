@@ -20,9 +20,9 @@ There's also a special set called the empty set, written with **∅**, which is 
 
 [TODO]
 
-![](/intersection.svg)
+![](/eng/intersection.svg)
 
-![](/difference.svg)
+![](/eng/difference.svg)
 
 ## For those that have an itch for math:
 

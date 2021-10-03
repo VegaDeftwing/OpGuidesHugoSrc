@@ -6,7 +6,7 @@
 
 {{< columns >}}
 
-![](/legacy.webp)
+![](/eng/legacy.webp)
 
 <--->
 

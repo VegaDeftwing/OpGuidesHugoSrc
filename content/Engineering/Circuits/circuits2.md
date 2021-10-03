@@ -12,7 +12,7 @@ So, let's lean how to teach some rocks.
 
 <--->
 
-![](/noisedeck1.gif)
+![](/eng/noisedeck1.gif)
 
 {{< attribution >}}
 

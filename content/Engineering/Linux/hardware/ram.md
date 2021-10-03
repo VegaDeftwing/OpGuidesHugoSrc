@@ -3,7 +3,7 @@
 <script>
     document.getElementById("hardwareMenu").open = true;
 </script>
-![RAM](/ram.webp)
+![RAM](/eng/ram.webp)
 
 {{< smalltext >}}Note, that some RAM sticks, espically the full size ones, have metal heat spreaders on top of them. In gaming computer espically it's common for these to have RGB lights as well.{{< /smalltext >}}
 
