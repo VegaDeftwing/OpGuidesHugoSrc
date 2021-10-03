@@ -16,7 +16,7 @@ The large, white square is the CPU socket. This is an older board made for an AM
 
 {{< attribution >}}
 
-[img source](https://commons.wikimedia.org/wiki/File:CPU_Socket_775_T.jpg)
+Image By [Appaloosa](http://commons.wikimedia.org/wiki/User:Appaloosa), Own work , <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=7809985">Wikipedia Image Link</a>
 
 {{< /attribution >}}
 

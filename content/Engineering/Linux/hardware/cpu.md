@@ -3,10 +3,13 @@
 <script>
     document.getElementById("hardwareMenu").open = true;
 </script>
+<img class="center" src="/cpus.webp" alt="CPUS">
 
-<img class="center" src="/cpus.jpg" alt="CPUS" height="400em">
+{{< smalltext >}}Note, there's more the a CPU on some of these boards. On the big one, only the square thing in the middle is the CPU, on the pi-0 (the board with the HDMI and USB Ports) the CPU is under the metal heatsink - and in truth the CPU is actually an SOC (System On a Chip) - more on that in a bit. Finally, on the blue board, the CPU is only the black chip in the middle, though in this case it is again the definition is blurred, as in truth this is a *microcontroller*. This will all make sense shortly!{{< /smalltext >}}
 
-These are CPUS or Central Processing Units. They're the beating heart of your computer, doing the day-to-day number crunching. The rectangular one of one of the first CPU's in the lineage leading up to CPU's like the ones used in desktop's today, with further successors shown in order from top left to the bottom right. The metal-capped one at the bottom right, while old, is visually quite representative of a modern desktop CPU, though the CPUs in a laptop or smart phone do look quite different still.
+These are **CPU**s or **C**entral **P**rocessing **U**nits. They're the beating heart of your computer, doing the number crunching. The whitle, rectangular one is of one of the first CPUs in the lineage leading up to CPUs like the ones used in desktop's today, with further successors shown in order from top left to the bottom right. The metal-capped one at the bottom right, while a tad old, is visually quite representative of a modern desktop CPU, though the CPUs in a laptop or smart phone do look quite different still.
+
+---
 
 One of the nifty things we do pretty easily in linux is get information about our hardware directly. Just as when we were installing Arch and we used `lsblk` to see an overview of the disks on the system, we can use some other tools to find out some other information about the system. Let's start off basic and see what CPU you have. Go ahead and run
 
@@ -51,7 +54,7 @@ Alright, that's a whole lot of information, let's break it down.
 
 First of all, almost all modern Central Processing Units (CPUs) have multiple cores, and as with most things in computers the're counted from 0, so on a 4 core computer you'll have cores 0, 1, 2, and 3. Multiple cores simply let your computer do things in parallel, running multiple programs or tasks at the same time
 
-Next is the vendor ID, family, model, name, and stepping. My processor is an AMD Ryzen 7 1700. There's a pretty good chance your CPU will be made by Intel, and as such the family, model, name, and what not will reflect that. AMD and Intel are practically the only two laptop and desktop CPU providers, though in the feature we'll work with boards that use CPU's made by other manufactures. Really, most of this doesn't matter. Some CPUs are nicer than others, and if you follow the market or care it's easy to get a sense of a CPU's speed just based on it's name, but let's move on for now.
+Next is the vendor ID, family, model, name, and stepping. My processor is an AMD Ryzen 7 1700. There's a pretty good chance your CPU will be made by Intel, and as such the family, model, name, and what not will reflect that. AMD and Intel are practically the only two laptop and desktop CPU providers<a class="ptr">(1)</a>, though in the future we'll work with boards that use CPU's made by other manufactures. Really, most of this doesn't matter. Some CPUs are nicer than others, and if you follow the market or care it's easy to get a sense of a CPU's speed just based on it's name, but let's move on for now.
 
 
 ```bash
@@ -64,27 +67,39 @@ Each of these things is very important, but I'm going to start with cpu MHz as i
 
 ## Clock Speed
 
-<img class="center" src="/transistor.jpg" alt="Transistors" height="400em">
+<img class="center" src="/transistor.jpg" alt="Transistors" height="400em" style="border-radius:50px;">
 
-However, to get to that we've gotta go just a bit further down the rabbit hole to the relay. Relays are super simple to understand, they're just a metal switch that is pulled open or closed using another input signal (usually a magnet pulling/pushing the switch closed/open) basically imagine a light switch, where the switch itself is controlled by yet another electrical signal. Relays are slow though, they require a physical metal plate to move to change the connection. Because of this they have limited reliability and worth note they're actually loud. You can hear an audible click of the switch as they change state.
+However, to get to transistors we've gotta go just a bit further down the rabbit hole to the relay. Relays are super simple to understand, they're just a metal switch that is pulled open or closed using another input signal (usually a magnet pulling/pushing the switch closed/open) basically imagine a light switch, where the switch itself is controlled by yet another electrical signal. Relays are slow though, they require a physical metal plate to move to change the connection. Because of this they have limited reliability and worth note they're actually loud. You can hear an audible click of the switch as they change state.
 
-> If this is already interesting to you, here's a [video](https://www.youtube.com/watch?v=k1hJoalcK68) demonstrating a relay computer you can actually buy
+{{< speech >}}
+
+If this is already interesting to you, here's a [video](https://www.youtube.com/watch?v=k1hJoalcK68) demonstrating a relay computer you can actually buy!
+
+{{< /speech >}}
 
 Enter the vacuum tube. Though rarely used today outside of high end audio and old radios, for a period of time the logic inside a computer used these tubes. Essentially theres three important parts of the tube, the Cathode, Plate and Grid. Put very simply the Cathode emits electrons and the Plate collects them. Where it gets interesting is the grid in between. By applying a voltage to the grid a signal can be controlled giving us the same ability to turn something on or off by a third wire as in the relay.
 
-> Worth note but irreverent for digital electronics, tubes and transistors can actually pass only a percentage of the input back out, based proportionally on the input. This actually means that both tubes and transistors can act as an amplifier, using a small input range to control a much larger signal. A single tube or transistor in conjunction with other supporting components can be used to make a functional amplifier.
+{{< speech right>}}
 
-Though the real break though here was the fact that this was no longer a mechanical system. With relays there was a very slow limit on the rate at which they could respond reliably, but with tubes this increased exponentially. Tubes were still expensive, large, and power hungry though. However, with their advent early computers saw a massive boost in speed with a decrease in cost
+Worth note but irreverent for digital electronics: tubes and transistors can actually pass a scalar of the input back out. This actually means that both tubes and transistors can act as an amplifier, using a small input range to control a much larger signal. This is actually one of the few places where tubes are still used- in high end audio amplifiers and guitar amps
 
-Finally, enter the transistor. The physics here isn't that far removed from the vacuum tube, only now instead of a vacuum the electrons are moving though a semiconductor - typically silicon. Again this brought a massive shrink in physical size and increase in that rate at which it could respond. Pictured above are two discrete transistors, however, this is where things get mind blowing:
+{{< /speech >}}
+
+Though the real break though here was the fact that this was *no longer a mechanical system*. With relays there was a very slow limit on the rate at which they could respond reliably, but with tubes this increased exponentially. Tubes were still expensive, large, and power hungry though. However, with their invention early computers saw a massive boost in speed with a decrease in cost.
+
+Finally, enter the **transistor**. The physics here isn't that far removed from the vacuum tube, only now instead of a vacuum the electrons are moving though a semiconductor - typically silicon. Again this brought a massive shrink in physical size and increase in that rate at which it could respond. Pictured above are two discrete transistors, however, this is where things get mind blowing:
 
 The Ryzen 1700 CPU in the computer I'm typing this on has 4,800,000,000 transistors in a package that is only 213 mm², and finally, we can refrence the number output by `cat /proc/cpuinfo`
 
-At the moment I got that output the transistors where being turned on and off at a rate of 2018Mhz. or 2Ghz. However, this system can run up to roughly 3.8Ghz. The faster this speed the faster your computer; however, your CPU will also use more power and run hotter. It's for this reason that most systems adjust the speed based on load. Doing simple things like writing this document and as seen with that output my system runs at nearly half speed which is actually the slowest it can run. Because the computer is hardly doing anything right now the majority of that switching is actually just doing nothing but using power running 'no operation instructions' the functional equivalent of just running 0+0 while it it waits for something to do.
+At the moment I got that output the transistors where being turned on and off at a rate of 2018Mhz. or 2Ghz. That's 2000000000 times per second. However, this system can run up to roughly 3.8Ghz. The faster this speed the faster your computer; however, your CPU will also use more power and run hotter. It's for this reason that most systems adjust the speed based on load. Doing simple things like writing this document and as seen with that output my system runs at nearly half speed which is actually the slowest it can run. Because the computer is hardly doing anything right now the majority of that switching is actually just doing nothing but using power running 'no operation instructions' the functional equivalent of just running 0+0 while it it waits for something to do.
+
+While not listed in this output, by googing the Ryzen 1700 we can also see it was made on a 14nm process. Put a bit reductively, this means each transistor is 14nm wide. For context, a human hair is about 70,000nm wide. This is relevant, because generally the smaller the process the faster a chip can run (max speed) while using less power.
 
 The OS itself actually tells the processor what speed it should be running at. In Windows, when you change your power plan to 'high performance' one of the major things it does is not allow the processor to run at a slower speed, and in Linux you can similarly control this using some cpu speed commands. We'll get to that later though.
 
-Finally it's worth note that on some systems, primarily high end desktops, you can actually run your processor outside of factor specifications by increasing the maximum clock rate of the processor. Doing this can lead to system stability issues and obviously leads to a higher power usage and heat output though. This process is known as 'overclocking'  as your taking the internal clock of the processor beyond it's rating. My CPU, a Ryzen 1700, has actually been over clocked in order to get 3.8Ghz at all times on all of the cores.
+Finally it's worth note that on some systems, primarily high end desktops, you can actually run your processor outside of factor specifications by increasing the maximum clock rate of the processor. Doing this can lead to system stability issues and obviously leads to a higher power usage and heat output though. This process is known as 'overclocking'  as your taking the internal clock of the processor beyond it's rating. My CPU, a Ryzen 1700, has actually been over clocked in order to get 3.8Ghz on all of the cores.
+
+Finally, I want to note that clock speed is far from the single measure of performance. Two chips that both have the same clock speed and same number of cores may still perform radically differently depending on many, many things about how the processor works. Note that I didn't say each 'tick' of this clock is a single instruction? That's because different processors have different **I**nstructions **P**er **C**lock (IPC) values. It's totally possible that a **slower** clocked CPU will outperform a faster one because it is able to execute more instructions per each tick of the clock. IPC can also varry depending on the workload, as some instructions will take more clock cylces than others and different tasks will require a different mix of instructions. If in doubt, look at benchmarks that directly compare the performance of CPUs in various workloads with their real, measured execution times.
 
 ## Microcode
 
@@ -111,7 +126,7 @@ int main() {
 
 {{< columns >}}
 
-Unlike python which get's converted to something the computer can understand as it executes C is compiled before hand. This makes it so programs written in C are much, much faster than those written in python, though obviously C code is more difficult to write. Compilation is the process of turning a program into a file full of instructions the computer actually understands. This happens in two steps, first the program is turned into assembly code, for the above code this results in the output to the right:
+Unlike python, which get's converted to something the computer can understand as it executes, C is **compiled** before hand. This makes it so programs written in C are much, much faster than those written in python, though obviously C code is more difficult to write. **Compilation** is the process of turning a program into a file full of instructions the computer actually understands. This happens in two steps, first the program is turned into assembly code, for the above code this results in the output to the right:
 
 <--->
 
@@ -127,7 +142,7 @@ Unlike python which get's converted to something the computer can understand as 
         ret
 ```
 
-As you can see, this is incredibly difficult to read to a 'normal' person, so even though we're not there yet.
+{{< attribution >}}As you can see, it is hard to determine what this does compared to just reading the C code above.{{< /attribution >}}
 
 {{< /columns >}}
 
@@ -158,11 +173,9 @@ This in turn gets turned into binary as can bee seen by this screenshot generate
 
 <--->
 
-See the weird numbers next to each instruction? like **4004b255**? That's a base 16 number or hexadecimal usually referred to as 'Hex'. Hex is what is used by most computer guys to represent numbers because computers operate in base 2, or binary- like 01001100, which is very difficult to read and type accurately, however, base 10, the normal numbering system your used to, makes translating between binary and decimal a bit uncomfortable as the common factor is 5, an number that is both odd and in turn not a factor of two, where as 16 is 2^4 (2\*2\*2\*2) so that means we can easily represent binary like this:
+See the weird numbers next to each instruction? like **4004b255**? That's a base 16 number or hexadecimal usually referred to as 'Hex'. Hex is what is used by most computer guys to represent numbers because computers operate in base 2, or binary- like 01001100, which is very difficult to read and type accurately, however, base 10, the normal numbering system your used to, makes translating between binary and decimal a bit uncomfortable as the common factor is 5, an number that is both odd and in turn not a factor of two, where as 16 is 2^4 (2\*2\*2\*2) so that means we can easily represent binary by using this conversion table here.
 
-Okay, so now those 1's and 0's are what your computer actually reads to run instructions. We'll come back to this later, but since we're here I'll drop this [link]( https://www-user.tu-chemnitz.de/~heha/viewchm.php/hs/x86.chm/x86.htm)
-
-Where you can see how these 1's and 0's are arranged to tell the computer what to do. That is super advanced for where we are now though, so let's get back on track- what the hell is micro code already?
+Okay, so now those 1's and 0's are what your computer actually reads to run instructions. We'll come back to this later, but since we're here I'll drop this [link]( https://www-user.tu-chemnitz.de/~heha/viewchm.php/hs/x86.chm/x86.htm) where you can see how these 1's and 0's are arranged to tell the computer what to do. That is super advanced for where we are now though, so let's get back on track- what the hell is micro code already?
 
 Well, it turns out that modern processors are still compatible with some really, really old code. All the way back to the first 8086 processor made by Intel in 1978. It was here that the x86 instruction set - the instructions like 'mov' , 'push', and 'add' above that define the x86 architecture were born. Originally these were 16bit CPUs, that is each instruction only had 16 1's and 0's but soon the i386 came along and used 32bits. Back when 32 bit computers were common this is what this was in reference to.
 
@@ -176,17 +189,21 @@ That update version is what you see on that line of `cat /proc/cpuinfo`
 
 Now, at the beginning of this guide I said I wouldn't provide useless information, and I'm sure that all looks pretty useless without more context. In general, this is interesting because you can (and will need to) write some assembly code by hand every now and then. Thankfully, its usually not x86 assembly which is very, very difficult to write but instead assembly on much smaller, micro controllers (basically really tiny computers), where that assembly is necessary because the system is so limited.
 
+Don't worry about what x86 means here, we'll come back to that in {{< button relref="/engineering/linux/hardware/architectures">}} Chapter 3½ - Architectures {{< /button >}}
+
 ## Cache
 
 Okay, next up is cache. Cache, just like in the real world, is a small place to store things. Most people like to think the majority of what a computer does is raw number crunching, doing hard math, but the truth is more often than not it's just moving data around. This follows a path from slowest and cheapest storage up to the fastest but most expensive. Typically this order looks a bit like
 
-Hard Drive -> Solid State Drive -> Ram -> Cache -> Registers , where the price for storage on a hard drive can be under \$0.10Gb, Ram upwards of \$10Gb, and Cache and registers, which are storage baked directly onto the CPU, cost much, much, more to implement.  It's of note that these not only are digitally faster with each jump, but also usually physically close. A hard drive can be 10's of feet of wire from the CPU while the RAM can be a few inches at best, and the cache and registers are physically in the CPU dye. Most of the data above the HDD/SSD level is actually just smaller subsets of each previous pool. In fact, on modern CPU's there are actually usually 3 levels of cache, each with a progressively smaller size but increase in proximity to the executed instruction.
+Hard Drive → Solid State Drive → Ram → Cache → Registers , where the price for storage on a hard drive can be under \$0.10Gb, Ram upwards of \$10Gb, and Cache and registers, which are storage baked directly onto the CPU, cost much, much, more to implement.  It's of note that these not only are faster with each jump - able to read and write data more quickly -, but also usually physically closer to the CPU. A hard drive can be 10's of feet of wire from the CPU while the RAM can be a few inches at best, and the cache and registers are physically part of the CPU. Most of the data above the HDD/SSD level is actually just smaller subsets of each previous pool. In fact, on modern CPU's there are actually usually 3 levels of cache, each with a progressively smaller size but increase in proximity to the executed instruction.
+
+We'll come back to this idea a bit in {{< button relref="/engineering/linux/hardware/biggerpicture">}} Chapter 3.10 - The Bigger Picture {{< /button >}}.
 
 Put simply, just as with adding more Random Access Memory (RAM) to your system, having more cache means more information can be within arm's reach of the CPU to do work on at any moment.
 
 Let's take a look. install the `hwloc` package using yay and then run `lstopo` and you should get an output that looks a bit like this
 
-![lstopo](/lstopo.png ':size=75%')
+<img src="/lstopo.png" alt="lstopo" style="border-radius:20px;">
 
 The stuff on the right are connections around the system, you can ignore those for now, but see the various cache layers, designated by L3, L2, L1d and L1i, and you can see how each core has it's own cache. Finally, you can see that each core has two processing units? Hey, wait, what's that all about?
 
@@ -196,13 +213,13 @@ Hyper threading, or SMT, or whatever the new term is for it, is a way of adding 
 
 While not listed in the /proc/cpuinfo output , it's still relevant to bring up CPU interrupts, which are, fittingly, listed in /proc/interupts
 
-![procint](/procint.png)
+<img src="/procint.png" alt="procint" style="border-radius:20px;">
 
-> Output of `cat /proc/interupts` on my system
+{{< attribution >}}Output of `cat /proc/interupts` on my system{{< /attribution >}}
 
-![netdataint](/netdataint.png)
+<img src="/netdataint.png" alt="netdataint" style="border-radius:20px;">
 
-> Output of information for the first 3 cores on my system displayed graphically using Netdata
+{{< attribution >}}Output of information for the first 3 cores on my system displayed graphically using [Netdata](https://www.netdata.cloud){{< /attribution >}}
 
 CPU interrupts are a bit confusing because the term interrupt can refer to the action itself, the code that executes, or the general concept. In general a CPU interrupt is when something needs to poke the CPU to tell it to interrupt what it's doing. This can be when physical pin in the CPU gets a signal, a timer going off, or a program dividing by 0. We'll cover this more in depth later, but from the hardware perspective what's relevant is the CPU is generally so fast compared to other actions that the rest of the system mostly just triggers an interrupt to let the CPU know that a task the CPU asked to be done has completed. The most common example is requesting data from disk (Hard drive or SSD) takes so long, even at just a few milliseconds, that the CPU can get millions of things done while it waits for the request to be fulfilled. So rather than waste that time having the CPU poke the device asking "Are you done yet? Are you done yet?" the disk (or the controller it's hooked up to, like the chipset) issues an interrupt to the CPU to let it know a task has completed. USB works in a similar way, though the really old keyboards with the circular connector (PS2) actually did interrupt the CPU directly on each key press.
 
@@ -210,15 +227,17 @@ We'll come back and explore this more later, but if you're really interested you
 
 ## Power
 
-the CPU is one of the most power hungry parts of your computer, and as such it does some interesting things to try to keep it's power usage lower. Namely, it'll turn it's clock speed to do less operations per second as previously mentioned, but theres other things like entering sleep and hibernation states the processor is also capable of. The main thing you might want to concern yourself with from a performance to power consumption stand point is how aggressive this clock speed changing is. You can go as extreme as to tell the system to never let the processor get to full speed or to say 'only run at max speed all the time'. The latter is actually quite useful as often it can take quite a few clock cycles after a heavy load is started for the processor to come up to speed, but if it's always running full steam ahead this is a non issue. This entire topic is particularly relevent to laptops, and on Arch you may want to install a program to manage some of this for you or set sane defaults to save battery. I've had good luck using the `tlp` package. the `cpupower` package is helpful for looking at how arch handles cpu scaling and it lets you directly set these min and max frequencies or pick the scaling governor to handle how aggressive the switching is.https://wiki.archlinux.org/index.php/CPU_frequency_scaling#cpupower
+The CPU is one of the most power hungry parts of your computer, and as such it does some interesting things to try to keep it's power usage lower. Most notably, it'll turn down its clock speed to do less operations per second, but theres other things like entering sleep and hibernation states the processor is also capable of. The main thing you might want to concern yourself with from a performance to power consumption stand point is how aggressive this clock speed changing is. You can go as extreme as to tell the system to never let the processor get to full speed or to say 'only run at max speed all the time'. The latter is actually quite useful as often it can take quite a few clock cycles after a heavy load is started for the processor to come up to speed, but if it's always running full steam ahead this is a non issue. This entire topic is particularly relevent to laptops, and on Arch you may want to install a program to manage some of this for you or set sane defaults to save battery. I've had good luck using the `tlp` package. The [cpupower](https://wiki.archlinux.org/index.php/CPU_frequency_scaling#cpupower) package is helpful for looking at how arch handles cpu scaling and it lets you directly set these min and max frequencies or pick the scaling governor to handle how aggressive the switching is. We'll get more into tuning the system to use less power in {{< button relref="/engineering/linux/hardware/power">}} Chapter 3.7 - Power {{< /button >}}.
 
 I very strongly recommend looking into this on any system though, as by default some CPUs will run at the minimum frequency only.
 
-![cpupower](/cpupower.png ':size=70%')
+<img src="/cpupower.png" alt="sudo cpupower frequency-info" style="border-radius:20px;">
 
 If you want to actually see how much power is used, `rapl` should do the trick, just be sure to actually put the system under load first- `stress-ng --cpu 16` (or whatever your thread count is) should work.
 
-![rapl](/rapl.png)
+{{< smalltext >}} If you are also on a Ryzen system, you may need to use [rapl-read-ryzen (github)](https://github.com/djselbeck/rapl-read-ryzen) / [(aur)](https://aur.archlinux.org/packages/rapl-read-ryzen-git/) to get this output {{< /smalltext >}}
+
+<img src="/rapl.png" alt="sudo rapl" style="border-radius:20px;">
 
 We'll talk about delivering power to the CPU in a bit, when we talk about the Voltage Regulation Module (VRM) on the Motherboard.
 
@@ -267,6 +286,10 @@ The issue with this that lead to the Spectre bug was that the assumed correct pa
 
 Meltdown is similar- you can read how it works on [Wikipedia](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)#Mechanism) (actually human readable and explained well).
 
+## SOC? Microcrontrollers?
+
+In the blurb under the CPU picture I mentioned both SOCs and Microcontrollers [TODO]
+
 ## A note on x86, vendors, and CPU politics
 
 [TODO]
@@ -286,3 +309,7 @@ If you want to know about the internals of the CPU itself, check out [Chapter 29
 [Why you should use 'nproc' and not grep /proc/cpuinfo](https://www.flamingspork.com/blog/2020/11/25/why-you-should-use-nproc-and-not-grep-proc-cpuinfo/)
 
 [Spyware at The Hardware Level - Intel ME & AMD PSP (YouTube, Mental Outlaw)](https://youtu.be/HNwWQ9zGT-8)
+
+<ol hidden id="footnotes">
+    <li>With the exception of Apple's newer hardware, which runs <a href="https://en.wikipedia.org/wiki/Apple_silicon">their own silicon</a>, and some low end devices like chromebooks which may run processors like you'd find in phones.</li>
+</ol>

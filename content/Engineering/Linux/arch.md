@@ -887,5 +887,13 @@ Frankly the answer is complicated. The gist of it is that Linux actually exposes
 
 But more than that, Linux actually exposes the system to the user and doesn't try to hide it's inner workings, rather, for many things Linux implies that you should manually edit the config files, look at how programs use various resources, and peer into how the system actually handles any given task.
 
-You'll start to see this more as we move forward though these next few chapters. Speaking of...
+You'll start to see this more as we move forward though these next few chapters.
+
+## Getting a few things you'll need
+
+You'll definitely need a web browser. I personally like Vivaldi, and it's chromium based so everything should work exactly like it would in Chrome. you can install it with `yay -S vivaldi`. Once it's installed, open it up and in the address bar type in `vivaldi:flags`, find `Override software rendering list` and set it to Enabled. You may want to set `Hardware-accelerated video decode` to Enabled as well, but don't be afraid to turn that off if it seems things aren't working correctly.
+
+In {{< button relref="/engineering/linux/howwework">}}Chapter 5 - Working on How We Work{{< /button >}} We'll get things set up enough that, depending on what you do with your computer, you could comfortably switch to using exclusively Linux. First though, with Linux up and running we can more easily dive into the hardware and really do some things to improve the performance of the system.
+
+
 
