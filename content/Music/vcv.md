@@ -48,7 +48,7 @@ I like to use random modulation a lot, and [Vult's Caudal](https://library.vcvra
 
 ![](/music/abusedpoly.webp)
 
-<audio controls loop src="/sounds/Slapback01.mp3"></audio>
+By doing this, you can either make a nice, random signal poly cable, great for keeping all the notes coming from a polyphonic source from being identical or you can run it through split, effectively just adding a global attenuator and offset to Caudal for quick control over your patch.
 
 ## When I send clock to [Module Name] it doesn't work right! 
 

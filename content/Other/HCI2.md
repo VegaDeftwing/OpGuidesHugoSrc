@@ -40,7 +40,7 @@ Let me start by lubing your brain up a little.
 
 This is [Dasher](http://www.inference.org.uk/dasher/DasherSummary2.html), a software keyboard using predictive text that should sort of blow your mind. Cool init'? Now, your thoughts probably went something like this
 
-1. <video controls width="80%">    <source src="/eng/kahviccradio.mp4"            type="video/mp4"> </video> <br>
+1. What **the fuck** am I looking at?
 2. Oh damn that's really cool, I want to try it.
 3. Oh, hmm, but honestly even with tons of practice I can still probably type faster on a normal keyboard...
 

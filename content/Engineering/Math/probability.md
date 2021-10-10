@@ -18,14 +18,14 @@ Note, that 1 isn't possible as the lowest is both die being '1'.
 
 Let's look at the probability of these outcomes,
 
-| die2↓, die1→ | <audio controls src="/sounds/DelayModulation01.mp3"></audio> | 2    | 3    | 4    | 5    | 6    |
-| ------------ | ------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- |
-| **1**        | 2                                                            | 3    | 4    | 5    | 6    | 7    |
-| **2**        | 3                                                            | 4    | 5    | 6    | 7    | 8    |
-| **3**        | 4                                                            | 5    | 6    | 7    | 8    | 9    |
-| **4**        | 5                                                            | 6    | 7    | 8    | 9    | 10   |
-| **5**        | 6                                                            | 7    | 8    | 9    | 10   | 11   |
-| **6**        | 7                                                            | 8    | 9    | 10   | 11   | 12   |
+| die2↓, die1→ | 1    | 2    | 3    | 4    | 5    | 6    |
+| ------------ | ---- | ---- | ---- | ---- | ---- | ---- |
+| **1**        | 2    | 3    | 4    | 5    | 6    | 7    |
+| **2**        | 3    | 4    | 5    | 6    | 7    | 8    |
+| **3**        | 4    | 5    | 6    | 7    | 8    | 9    |
+| **4**        | 5    | 6    | 7    | 8    | 9    | 10   |
+| **5**        | 6    | 7    | 8    | 9    | 10   | 11   |
+| **6**        | 7    | 8    | 9    | 10   | 11   | 12   |
 
 While there are 11 (2-12) unique outcomes, there are 36 possible outcomes from the two die, which are shown in the table above.
 
@@ -224,7 +224,7 @@ Tossing a coin- if the coin is fair p and q both equal 1/2. This is literally ju
 
 {{< columns2 >}}
 
-![Geometric_pmf](/eng/pmf/Geometric_pmf.svg)</br>{{< attribution >}}Original Image by Skbkekas - Own work, CC BY 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=9578506){{< /attribution >}}
+![Geometric_pmf](/pmf/Geometric_pmf.svg)</br>{{< attribution >}}Original Image by Skbkekas - Own work, CC BY 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=9578506){{< /attribution >}}
 
 <--->
 
@@ -246,7 +246,7 @@ Which of these one calls "the" geometric distribution is a matter of convention 
 
 {{< columns2 >}}
 
-![Binomial_distribution_pmf](/eng/pmf/Binomial_distribution_pmf.svg)</br>{{< attribution >}}Original Image by Tayste - Own work, Public Domain, [link](https://commons.wikimedia.org/w/index.php?curid=3646951){{< /attribution >}}
+![Binomial_distribution_pmf](/pmf/Binomial_distribution_pmf.svg)</br>{{< attribution >}}Original Image by Tayste - Own work, Public Domain, [link](https://commons.wikimedia.org/w/index.php?curid=3646951){{< /attribution >}}
 
 <--->
 
@@ -258,7 +258,7 @@ Sum of n, independent Bernoulli trials
 
 {{< columns2 >}}
 
-<img src="/eng/pmf/pascal.png" alt=" " style="-webkit-filter: invert(100%); filter: invert(100%);">{{< attribution >}}From Introduction to Probability by [Hossein Pishro-Nik](https://ece.umass.edu/faculty/hossein-pishro-nik),  [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US) ... technically I'm abusing the licence a bit, but the 'derivative' here is just a CSS invert, you can open the image in a new tab to see the 'original'{{< /attribution >}}
+<img src="/pmf/pascal.png" alt=" " style="-webkit-filter: invert(100%); filter: invert(100%);">{{< attribution >}}From Introduction to Probability by [Hossein Pishro-Nik](https://ece.umass.edu/faculty/hossein-pishro-nik),  [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US) ... technically I'm abusing the licence a bit, but the 'derivative' here is just a CSS invert, you can open the image in a new tab to see the 'original'{{< /attribution >}}
 
 <--->
 
@@ -270,7 +270,7 @@ Number of trials until k'th success. While *technically* the Pascal distribution
 
 {{< columns2 >}}
 
-![Uniform_discrete_pmf_svg](/eng/pmf/Uniform_discrete_pmf_svg.svg)</br>{{< attribution >}}Original Image by IkamusumeFan - Own work, CC BY-SA 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=27391798){{< /attribution >}}
+![Uniform_discrete_pmf_svg](/pmf/Uniform_discrete_pmf_svg.svg)</br>{{< attribution >}}Original Image by IkamusumeFan - Own work, CC BY-SA 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=27391798){{< /attribution >}}
 
 <--->
 
@@ -282,7 +282,7 @@ It's a uniform distribution. Rolling a fair dice? Great, you have 1/6 chance to 
 
 {{< columns2 >}}
 
-![Poisson_pmf](/eng/pmf/Poisson_pmf.svg)</br>{{< attribution >}}Original Image by Skbkekas - Own work, CC BY 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=9447142){{< /attribution >}}
+![Poisson_pmf](/pmf/Poisson_pmf.svg)</br>{{< attribution >}}Original Image by Skbkekas - Own work, CC BY 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=9447142){{< /attribution >}}
 
 <--->
 
