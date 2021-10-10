@@ -10,7 +10,7 @@ Set theory is pretty boring. Yes, it brings about ideas of infinity, *Sets* of n
 
 # The parts that matter:
 
-![](/base.svg)
+![](/eng/base.svg)
 
 This is the basic way we'll visualize set theory. You've got a **domain** (the box) and sets (the circles). The domain is everything relevent to the problem. Maybe it all numbers, maybe it's just the integers, maybe it's the different species of fish in the ocean. Whatever.
 
@@ -20,9 +20,9 @@ There's also a special set called the empty set, written with **∅**, which is 
 
 [TODO]
 
-![](/intersection.svg)
+![](/eng/intersection.svg)
 
-![](/difference.svg)
+![](/eng/difference.svg)
 
 ## For those that have an itch for math:
 

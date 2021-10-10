@@ -258,7 +258,7 @@ If you do, and you get hacked, it goes from being tragic to funny, and it's a hu
 
 ---
 
-![unhackable](/unhackable1.jpg ':size=50%')
+![unhackable](/eng/unhackable1.webp ':size=50%')
 
 {{< /details >}}
 
@@ -430,7 +430,7 @@ Metadata can bite you in the ass
 
 <--->
 
-![phyxius](/nonfree/permissiongranted/phyxius.jpg)
+![phyxius](/nonfree/permissiongranted/phyxius.webp)
 
 {{< attribution >}}[Source](https://furrynetwork.com/artwork/1647029/hacker-dragon/), [Artist](https://www.furaffinity.net/user/halybs/) (used with permission from Phyxius){{< /attribution >}}
 
@@ -801,4 +801,4 @@ Another one that you should read is *The Conscience of a Hacker* written by 'The
 
 {{< /details >}}
 
-<div hidden><img src="/irules.jpg" alt="internet rules" style="zoom:100%; display: block; margin-left: auto; margin-right: auto;" /></div>
+<div hidden><img src="/eng/irules.jpg" alt="internet rules" style="zoom:100%; display: block; margin-left: auto; margin-right: auto;" /></div>

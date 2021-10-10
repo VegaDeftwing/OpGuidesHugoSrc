@@ -14,7 +14,17 @@ As with all of OpGuides, please skip around as necessary. I suspect the start of
 
 <--->
 
-<img src="/mathsections.png" alt=" " height="200em">
+<dd> <details open id="mathMenu"> <summary><a href="/engineering/math/math/">Math</a></summary>
+    <dt class="sub">6.1</dt><dd class="sub"> <a href="/engineering/math/algebra"> Algebra</a></dd>
+	 <dt class="sub">6.2</dt><dd class="sub"> <a href="/engineering/math/logic"> Logic</a></dd>
+    <dt class="sub">6.3</dt><dd class="sub"> <a href="/engineering/math/geometry"> Geometry & Trig</a></dd>
+    <dt class="sub">6.4</dt><dd class="sub"> <a href="/engineering/math/calc"> Calculus</a></dd>
+    <dt class="sub">6.5</dt><dd class="sub"> <a href="/engineering/math/diffeq"> Diff Eq</a></dd>
+    <dt class="sub">6.6</dt><dd class="sub"> <a href="/engineering/math/linalg"> Linear Algebra</a></dd>
+    <dt class="sub">6.7</dt><dd class="sub"> <a href="/engineering/math/numanalysis"> Numerical Analysis</a></dd>
+    <dt class="sub">6.8</dt><dd class="sub"> <a href="/engineering/math/settheory"> Set Theory</a></dd>
+    <dt class="sub">6.9</dt><dd class="sub"> <a href="/engineering/math/probability"> Probability</a></dd>
+   </details> </dd>
 
 {{< /columns >}}
 

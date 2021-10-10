@@ -104,7 +104,7 @@ Keeping the numbers simple here, lets say you want to know the probability that 
 
 {{< columns >}}
 
-![](/treediagram1.svg)
+![](/eng/treediagram1.svg)
 
 <--->
 
@@ -114,7 +114,7 @@ This diagram first helps us expose an assumption in the problem: that the initia
 
 This lets us figure out the conditional probabilities super easily, as all that's needed is to look at the respective branch. For example, in the above we can see P[Red|Box1] is 9/10. Another nice thing is by mulitplying across the branches we can get the probability of the entire 'system' easily. Note the ',' instead of a '|' in the diagram below. This is saying that these have both happened *not* implying conditional probability. That's why adding all of these up will add up to 1 (100%) as it's a look at all of the possible events.
 
-![](/treediagram2.svg)
+![](/eng/treediagram2.svg)
 
 So now we know the probability of a blue ball overall: 0.4 (.05 + .35 )<a class="ptr">(1)</a>, the probability of a bule ball in box 1 (.1), what is the probability that we actually picked from box 1? We know P[Blue|Box1], but what is P[Box1|Blue] ? Well, naturally, there's a handly formula, known as "Bayes Rule" for this situation:
 
@@ -224,7 +224,7 @@ Tossing a coin- if the coin is fair p and q both equal 1/2. This is literally ju
 
 {{< columns2 >}}
 
-![Geometric_pmf](/pmf/Geometric_pmf.svg)</br>{{< attribution >}}Original Image by Skbkekas - Own work, CC BY 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=9578506){{< /attribution >}}
+![Geometric_pmf](/eng/pmf/Geometric_pmf.svg)</br>{{< attribution >}}Original Image by Skbkekas - Own work, CC BY 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=9578506){{< /attribution >}}
 
 <--->
 
@@ -246,7 +246,7 @@ Which of these one calls "the" geometric distribution is a matter of convention 
 
 {{< columns2 >}}
 
-![Binomial_distribution_pmf](/pmf/Binomial_distribution_pmf.svg)</br>{{< attribution >}}Original Image by Tayste - Own work, Public Domain, [link](https://commons.wikimedia.org/w/index.php?curid=3646951){{< /attribution >}}
+![Binomial_distribution_pmf](/eng/pmf/Binomial_distribution_pmf.svg)</br>{{< attribution >}}Original Image by Tayste - Own work, Public Domain, [link](https://commons.wikimedia.org/w/index.php?curid=3646951){{< /attribution >}}
 
 <--->
 
@@ -258,7 +258,7 @@ Sum of n, independent Bernoulli trials
 
 {{< columns2 >}}
 
-<img src="/pmf/pascal.png" alt=" " style="-webkit-filter: invert(100%); filter: invert(100%);">{{< attribution >}}From Introduction to Probability by [Hossein Pishro-Nik](https://ece.umass.edu/faculty/hossein-pishro-nik),  [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US) ... technically I'm abusing the licence a bit, but the 'derivative' here is just a CSS invert, you can open the image in a new tab to see the 'original'{{< /attribution >}}
+<img src="/eng/pmf/pascal.png" alt=" " style="-webkit-filter: invert(100%); filter: invert(100%);">{{< attribution >}}From Introduction to Probability by [Hossein Pishro-Nik](https://ece.umass.edu/faculty/hossein-pishro-nik),  [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US) ... technically I'm abusing the licence a bit, but the 'derivative' here is just a CSS invert, you can open the image in a new tab to see the 'original'{{< /attribution >}}
 
 <--->
 
@@ -270,7 +270,7 @@ Number of trials until k'th success. While *technically* the Pascal distribution
 
 {{< columns2 >}}
 
-![Uniform_discrete_pmf_svg](/pmf/Uniform_discrete_pmf_svg.svg)</br>{{< attribution >}}Original Image by IkamusumeFan - Own work, CC BY-SA 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=27391798){{< /attribution >}}
+![Uniform_discrete_pmf_svg](/eng/pmf/Uniform_discrete_pmf_svg.svg)</br>{{< attribution >}}Original Image by IkamusumeFan - Own work, CC BY-SA 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=27391798){{< /attribution >}}
 
 <--->
 
@@ -282,7 +282,7 @@ It's a uniform distribution. Rolling a fair dice? Great, you have 1/6 chance to 
 
 {{< columns2 >}}
 
-![Poisson_pmf](/pmf/Poisson_pmf.svg)</br>{{< attribution >}}Original Image by Skbkekas - Own work, CC BY 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=9447142){{< /attribution >}}
+![Poisson_pmf](/eng/pmf/Poisson_pmf.svg)</br>{{< attribution >}}Original Image by Skbkekas - Own work, CC BY 3.0, [link](https://commons.wikimedia.org/w/index.php?curid=9447142){{< /attribution >}}
 
 <--->
 

@@ -8,7 +8,7 @@
 
 Before I even dive into Percussion, I think it's necessary to point out how generic the term is. Just looking at the Wikipedia page for drum kit you'll see this:
 
-<img src="/drumkit.png" alt="wikipedia drum kit list" height="500em">
+<img src="/music/drumkit.webp" alt="wikipedia drum kit list" height="500em">
 
 {{< attribution >}}[Drum Kit](https://en.wikipedia.org/wiki/Drum_kit) page on Wikipedia{{< /attribution >}}
 
@@ -20,19 +20,19 @@ Wikipedia defines [Percussion Instrument](https://en.wikipedia.org/wiki/Percussi
 
 Here's that original ADSR gif again, see how the first stage, the attack can vary in time. If we imagine this as the volume of the sound, one with a more gradual fade in, instead of a vertical line, will have a smooth fade in. This is not how most percussive sounds are used. Usually, a percussive sound has a very loud **transient** and, usually, a short decay. Basically, the drum hit's hard, fast, and goes away fast.
 
-![](/adsr.gif)
+![](/music/adsr.gif)
 
 <--->
 
 Look at this view of a bass drum hit on a scope. See how there's this sharp spike, right as it first starts? Also, see how it only moves up and down a few times before fading out? Think about this like smacking the head of a drum, you get that sharp hit, then the drum head will oscillate back and forth a few times before coming to rest. What's also of note is those peaks aren't evenly spaced. It's actually gets lower pitch as it fades out (albeit not by much here). A lot of percussion does this, changing in pitch over it's short lifespan.
 
-![](/bassdrum.png)
+![](/music/bassdrum.webp)
 
 {{< /columns >}}
 
 It's also pretty common for percussion to have a noisy part to it, literally just 'polluting' the entire frequency spectrum. That's really obvious here with both the snare and open hi-hat sounds, where on the scope you can see the jittery-ness of the noise: 
 
-![](/hatbasssnare.png)
+![](/music/hatbasssnare.webp)
 
 It's also worth noting just how clean of a sine wave the bass drum is. This isn't necessarily *required* of the lower pitch drums, but most bass sounds- drums or not- tend to sound muddy if anything but a pure sine wave. 
 
@@ -42,9 +42,9 @@ If you're wondering what the difference is between the snare and the hat given h
 
 <--->
 
-![](/drumfrequencyanalysis.png)
+![](/music/drumfrequencyanalysis.webp)
 
-{{< attribution >}}Kick in green, snare in orange, hat in pink{{< /attribution >}}
+{{< smalltext >}}Kick in green, snare in orange, hat in pink{{< /smalltext >}}
 
 {{< /columns >}}
 
@@ -60,7 +60,7 @@ To open this patch, you'll need to have VCV with the packs BogAudio, Audible Ins
 
 <--->
 
-![drum patch screenshot](/drumpatchscreenshot.jpg)
+![drum patch screenshot](/music/drumpatchscreenshot.webp)
 
 The patch can be downloaded from patch storage [here](https://patchstorage.com/percussion-explainer/).
 
@@ -78,7 +78,7 @@ You might want to go back to sound sources and look at subtractive and FM synthe
 
 <--->
 
-![drum patch screenshot](/drumpatchscreenshot2.jpg)
+![drum patch screenshot](/music/drumpatchscreenshot2.jpg)
 
 The patch can be downloaded from patch storage [here](https://patchstorage.com/percussion-explainer-2/).
 
@@ -113,7 +113,7 @@ I do want to point out that it's not just the drum that matters, but also the be
 
 <--->
 
-<audio controls src="/NYC/CD2 - KCK 01.wav"></audio>
+<audio controls src="/sounds/NYC/CD2 - KCK 01.wav"></audio>
 
 {{< attribution >}}Kick Drum sample, from [NYC Drum Kit @ Soundpacks.com](https://soundpacks.com/free-sound-packs/nyc-drum-kit/){{< /attribution >}}
 
@@ -135,12 +135,11 @@ This is the shallowest drum, usually about 6 inches deep. The snare is also used
 
 <--->  
 
-
-<audio controls src="/NYC/CD2 - SNR 04.wav"></audio>
+<audio controls src="/sounds/NYC/CD2 - SNR 04.wav"></audio>
 
 {{< attribution >}}Snare drum sample, from [NYC Drum Kit @ Soundpacks.com](https://soundpacks.com/free-sound-packs/nyc-drum-kit/){{< /attribution >}}
 
-<audio controls src="/LivePercSamplePack/LPSP_RIMSHOT_79.wav"></audio>
+<audio controls src="/sounds/LivePercSamplePack/LPSP_RIMSHOT_79.wav"></audio>
 
 {{< attribution >}}Rimshot sample, from [Live Percussion Sample Pack @ Soundpacks.com](https://soundpacks.com/free-sound-packs/live-percussion-sample-pack/){{< /attribution >}}
 {{< /columns >}}
@@ -179,11 +178,11 @@ This is the shallowest drum, usually about 6 inches deep. The snare is also used
 
 <--->
 
-<audio controls src="/NYC/1.wav"></audio>
+<audio controls src="/sounds/NYC/1.wav"></audio>
 
 {{< attribution >}}Closed HiHat sample, from [NYC Drum Kit @ Soundpacks.com](https://soundpacks.com/free-sound-packs/nyc-drum-kit/){{< /attribution >}}
 
-<audio controls src="/LivePercSamplePack/LPSP_OPEN_HATS_01.WAV"></audio>
+<audio controls src="/sounds/LivePercSamplePack/LPSP_OPEN_HATS_01.WAV"></audio>
 
   {{< attribution >}}Open HiHat sample, from [Live Percussion Sample Pack @ Soundpacks.com](https://soundpacks.com/free-sound-packs/live-percussion-sample-pack/){{< /attribution >}}
 
@@ -212,7 +211,7 @@ This is the shallowest drum, usually about 6 inches deep. The snare is also used
   Don't forget the obvious! The drum sticks themselves can be tapped together.
   <--->
 
-<audio controls src="/LivePercSamplePack/LPSP_STICKS_1.wav"></audio>
+<audio controls src="/sounds/LivePercSamplePack/LPSP_STICKS_1.wav"></audio>
 
 {{< attribution >}}Sticks sample, from [Live Percussion Sample Pack @ Soundpacks.com](https://soundpacks.com/free-sound-packs/live-percussion-sample-pack/){{< /attribution >}}
 
@@ -300,7 +299,7 @@ Similarly, [Big Drums VS Small Drums (YouTube)](https://www.youtube.com/watch?v=
 
 ### Beatboxing
 
-{{< attribution >}}okay, techinaclly this might belong in wind instruments. Fight me.{{< /attribution >}}
+{{< smalltext >}} okay, techinaclly this might belong in wind instruments. Fight me. {{< /smalltext >}}
 
 ### Steelpan
 

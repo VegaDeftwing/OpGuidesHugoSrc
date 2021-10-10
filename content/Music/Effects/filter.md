@@ -10,7 +10,7 @@ https://www.perfectcircuit.com/signal/learning-synthesis-filters
 
 Low Pass filters do what you think, they let the low frequencies pass and cut out the high frequencies. As with most filters, this will typically not be a sharp cutoff but instead be a gradual fading of the higher frequencies. Despite this, there is still a point called the cut off frequency, which is defined as the point where the signal is cut by 3db (what this means is discussed below). It's also pretty common for Low pass filters to have some resonance, where the frequency right at the cut off has a bit of a bump, as can be seen in this gif:
 
-![lfofilt](/filter.gif)
+![lfofilt](/music/filter.gif)
 
 #### Slew Limiting
 
@@ -34,7 +34,7 @@ Again, as the name implies, notch filters create a notch in the sound. Often use
 
 Unlike all the filters until now which have a resonant peak, shelf filters actually boost or lower the volume all the way to the cut off frequenecy. Here, (1) is a low shelf filter, boosting all the lows (by a lot more than you'd ever actually want to) and (8) is a high-shelf set to cut the highs. for some context, (5) is a peak filter. With a normal Low/High pass filter, adding resonance, (dragging the point above the +0db line in this graph) would only make make a spike like this at the cut off point, not make a 'shelf'.
 
-![](/filtershelves.jpg)
+![](/music/filtershelves.webp)
 
 ### Comb Filters
 
@@ -112,4 +112,4 @@ Finite Impuse Response, Inifnite Impulse Response- ref Signals from Engineering
 
 ## Phaser
 
-![phase](/phase.png)
+![phase](/music/phase.webp)

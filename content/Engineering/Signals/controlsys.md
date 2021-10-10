@@ -8,7 +8,7 @@ What are control systems? Well, the easiest way to answer that is to list the th
 
 {{< columns >}}
 
-<img src="/amptheory.png" class="center">
+<img src="/eng/amptheory.png" class="center">
 
 <--->
 
@@ -20,7 +20,7 @@ What are control systems? Well, the easiest way to answer that is to list the th
 
 {{< columns >}}
 
-<img src="/simplifyinputtheory.png" class="center">
+<img src="/eng/simplifyinputtheory.png" class="center">
 
 <--->
 
@@ -34,7 +34,7 @@ What are control systems? Well, the easiest way to answer that is to list the th
 
 {{< columns >}}
 
-<img src="/compensationtheory.png" class="center">
+<img src="/eng/compensationtheory.png" class="center">
 
 <--->
 
@@ -68,13 +68,13 @@ What are control systems? Well, the easiest way to answer that is to list the th
 
 When we represent these systems, we'll typically use block diagrams that look something like this:
 
-![image-20210930132931115](/basiclinctrlsys.png)
+![basic block](/eng/basiclinctrlsys.png)
 
 Though usually we'll have to put in some work to make them this simple - often there's multiple blocks between the input and output, sometimes with non-trivial relations to one another - and we'll need to simplify it down to this form.
 
 You'll probably notice that the block that's actually working on stuff here has an argument of *s* not *t* as you'd expect for signals relating to time. This is because in control systems we're usually going to work with things after having gone though the *Laplace Transform*. I won't spend really any time going over that in this chapter, if you need a refresher, see <a href="/engineering/signals/sigandsys">Chapter 27: Signals & Systems</a>. For the most part you'll be able to get by just using tables and some clever thinking to find the transformations between the time and s-domain equations. I don't want to get bogged down in the math before we see a use for it though, so let's move on to some terminology that will make this block diagram business make some more sense:
 
-![image-20210930143112865](/controlterminologybd.png)
+![control terminology](/eng/controlterminologybd.webp)
 
 * **Input:**
 * **Input Transducer:**
@@ -109,7 +109,7 @@ As an example of negative feedback, the diagram might represent a cruise control
 
 Do note here, the reference to **negative** feedback. This is an important point, in many systems, we want the signal that's fed back in to not tame the system, not make it push harder. Of course, there are times that's helpful too, so **positive feedback** does have its place.
 
-![image-20210930132747051](/negfeedback.png)
+![Negative Feedback](/eng/negfeedback.webp)
 
 ## What about Feedforward?
 

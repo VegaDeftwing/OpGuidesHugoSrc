@@ -67,7 +67,7 @@ Heads up, not all 3d systems use the same coordinate systems. It's a bit of a pa
 
 {{< /hint >}}
 
-![CoOrd Systems](/coordinatesystems.jpeg)
+![CoOrd Systems](/eng/coordinatesystems.webp)
 
 
 

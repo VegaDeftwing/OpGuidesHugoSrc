@@ -8,9 +8,9 @@ slug: "Sound Sources"
 
 ## Samples
 
-![Audacity](/Audacity.png)
+![Audacity](/music/Audacity.webp)
 
-> a snippet of a .wav file open in audacity
+{{< smalltext >}}A snippet of a .wav file open in audacity{{< /smalltext >}}
 
 A sample is exactly as the name implies- a 'sample' of audio. Sample is a pretty broad term though, so usually some more terms are applied to help categorize them. The easiest to explain is what is usually meant by sample: a small audio file that contains one sound, like one drum hit or one piano key press. These can either be samples made or collected for the sole purpose of use in later music (like hitting record, playing one drum hit, then stopping, to create a small drum sample) or a sample lifted (with often dubious legality) from another recording. It's worth noting that fair use is really not something you can rely on here, but it's also pretty common. #notlegaladvice
 
@@ -36,13 +36,13 @@ This is particularly relevant to making music for multiple reasons:
 
 <--->
 
-![wavfile](/wavfile.png)
+![wavfile](/music/wavfile.png)
 
 > Zoomed in view of the snipped, showing the individual points in the sample
 
 {{< /columns >}}
 
-![sampler](/sampler.png)
+![sampler](/music/sampler.webp)
 
 > Bitwig Studio's Sampler. Here pitch tracking is enabled, making it so the sample can be played sped up or slowed down to pitch chromatically along the keyboard. Bitwig's Sampler is pretty similar to many other samplers in other DAWs like Ableton Live or modules like Simpliciter In VCV rack
 
@@ -56,9 +56,9 @@ Finally, you'll see below that snowflake is a RAM indicator. When lit, the sampl
 
 [TODO] Multisamples
 
-![simpliciter](/simpliciter.png ':size=50%')
+![simpliciter](/music/simpliciter.webp ':size=50%')
 
-> 'Simpliciter' module in VCV rack, a sampler with transient detection, Sound On Sound (SOS) looping, and variable speed (pitch) playback
+{{< smalltext >}}'Simpliciter' module in VCV rack, a sampler with transient detection, Sound On Sound (SOS) looping, and variable speed (pitch) playback {{< /smalltext >}}
 
 Unlike the bitwig sampler, this sampler, 'Simpliciter' in VCV Rack can take in live input to layer sounds or record the inital sample. In general you should see a lot of the same controls I talked about above exposed in this UI. There are some extra neat ones here though, including the ability to detect peaks as is enabled in the lower left in this screenshot. With this and a longer sample file with multiple drums you can just select the drum sample you want on each play-trigger.
 
@@ -123,7 +123,7 @@ Often, the square wave output has PWM or 'Pulse Width Modulation' control:
 
 Varying the pulse width over time sounds really good, to give it a shot try setting this up in VCV:
 
-![PWMosc](/PWMosc.jpg)
+![PWMosc](/music/PWMosc.webp)
 
 {{< hint info>}}
 
@@ -175,7 +175,7 @@ I'd also like to briefly mention oscillator cores. Especially in VCOs, knowing w
 
 You can think of making a saw wave as just progressively counting higher with time. So, at t=0, we start at 0, at t=1 we go to 1, etc. until at, let's say t=10, we reset back to 0, and count back up to 10. If we assume this process is continuous, that is we could look at any decimal, like at t=1.12 the wave is at 1.12, we've generated a sawtooth wave. This is our core. Now, we can say whenever that 'core' wave is less than 5, output 0 on the square output. If it's greater than 5, output 10. If the blue wave is that core oscilator, the pink wave is the result (ignore the awkward spikes at the transition points)
 
-![cores](/cores.jpg) 
+![cores](/music/cores.webp) 
 
 The core used will often change the features of the oscillator. Generally, saw core oscillators are the cheapest and most common but also the least capable. Triangle and trapezoid cores often offer extra features, such as outputs other than the common sine, tri, saw, square. 
 
@@ -212,7 +212,7 @@ Note, that not all wavetable synths have the linear FM (discussed in the next se
 
 I really recommend using [Blamsoft's XFX-Wave](https://blamsoft.com/vcv-rack/xfx-wave/) for VCV rack to try out Wavetable synthesis. Also in VCV, [Tiny Tricks Wave](https://library.vcvrack.com/TinyTricks/WAVE) is a neat way to experiment with recording your own tables- just hook up three signals and press 'capture'.
 
-![](/VCVWavetables.jpg)
+![](/music/VCVWavetables.webp)
 
 You may also hear about [XFer Serum](https://xferrecords.com/products/serum), it's the sort of EDM/Dubstep standard synth, and is a powerhouse for wavetables. It's incredibly popular, so there's a ton of great wavetable packs for it too (I particularly like the [Coda](https://www.echosoundworks.com/coda) pack). Because Serum is so popular, it's wavetable format is supported by most other wavetable synths as well, so if you're jonesn' for more wavetables, looking up free packs for serum can be a good place to start.
 
@@ -226,9 +226,9 @@ The Spherical Wavetable Navigator from 4MS is too cool to not link a video too a
 
 ## FM Synthesis
 
-<img src="/dx7.jpeg" alt="dx7" style="-webkit-filter: invert(.9);zoom:75%;">
+<img src="/music/dx7.webp" alt="dx7" style="-webkit-filter: invert(.9);zoom:75%;">
 
-> [Source (Likely originally from the Yahmaha DX7 Manual)](https://scsynth.org/t/coding-fm-synthesis-algorithms/1381)
+{{< attribution >}}[Source (Likely originally from the Yahmaha DX7 Manual)](https://scsynth.org/t/coding-fm-synthesis-algorithms/1381) {{< /attribution >}}
 
 Frequency Modulation or FM, is just the simply when you let the output of one oscillator modulate the frequency of another oscillator. Usually this is done in simple ratios and, ideals, uses linear, through zero modulation.
 

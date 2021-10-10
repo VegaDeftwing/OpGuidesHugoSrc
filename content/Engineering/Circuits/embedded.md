@@ -8,7 +8,7 @@
 
 {{< columns >}}
 
-![pos](/pos.png)
+![pos](/eng/pos.webp)
 
 {{< attribution >}}
 
@@ -48,7 +48,7 @@ It's worth noting, the μC itself is the Atmega328P- the really big black rectan
 
 <--->
 
-![](/duino.jpg)
+![](/unsplash/duino.webp)
 
 {{< attribution >}}Image by [Sahand Babali](https://unsplash.com/@sahandbabali){{< /attribution >}}
 
@@ -56,7 +56,7 @@ It's worth noting, the μC itself is the Atmega328P- the really big black rectan
 
 {{< columns >}}
 
-![](/pi.jpg)
+![](/unsplash/pi.jpg)
 
 {{< attribution >}}Image by [Vishnu Mohanan](https://unsplash.com/photos/rZKdS0wI8Ks){{< /attribution >}}
 
@@ -210,7 +210,7 @@ So, that's i2c, which is nice, but sometimes you'll want to talk to a device wit
 
 ## Project 6 - The Epochalypse
 
-<img src="/Year_2038_problem.gif" style="-webkit-filter: invert(.87);" alt=" ">
+<img src="/eng/Year_2038_problem.gif" style="-webkit-filter: invert(.87);" alt=" ">
 
 [TODO] low power (sleep states), graphics (eink), RTC
 

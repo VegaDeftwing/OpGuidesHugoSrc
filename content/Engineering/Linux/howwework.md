@@ -14,7 +14,7 @@ I'm not going to repeatedly state how to install packages on Arch, so here's you
 
 `yay` followed by the name or description of a package you want will help you find most packages. For example, running `yay i3 wm` will come up with multiple numbered results.
 
-![yayi3](/yayi3.png)
+![yayi3](/eng/yayi3.png)
 
 Here I could type 2 followed by pressing enter to install i3-wm. Note that whenever possible, you should prefer packages in core, community, or extra. (or any other repositories you've added to your `/etc/pacman.conf` file) over the AUR, as packages in the AUR are maintained to a slightly lesser standard and are often a bit more annoying to update. That said, the AUR is still *much* better than trying to download a package from some random webpage.
 
@@ -42,7 +42,7 @@ The first two are terminal based `nano` and `vim`
 
 `nano`, is the most simplistic of all the editors I'll list here. It's stupid simple to use and for quick just opening a text file and changing one line, probably the fastest. It clearly prints it's instructions at the bottom of the terminal:
 
-![nano](/nano.png)
+![nano](/eng/nano.webp)
 
 where `^` is the ctrl key, and `M` the alt key. However, you'll quickly find `nano` rather limiting. You'll still probably need to use it when you're stuck with only having command line access though. That brings me to my second recommendation, `vim` (or [ox](https://github.com/curlpipe/ox)). Unfortunately, `vim` is notoriously difficult to use, to the point that trying to exit vim is a bit of a joke (it's esc→:wq) [this tutorial](https://www.openvim.com/) is pretty good though, and if you want you can get some really nice extensions for vim, or full on plugin packs, like [spcaevim](https://spacevim.org).
 
@@ -52,7 +52,7 @@ Despite it being a Microsoft thing, I really recommend Visual Studio Code with P
 
 This gives you a pretty kick butt editor on par with most full Integrated Development Environments (IDE). I recommend you try out IDEs, especially if for some unholy reason you want to write in Java, but otherwise this will do fine.
 
-![code](/code.png)
+![code](/eng/code.webp)
 
 There are of course a ton of other options, Emacs, Atom, Eclipse ... If what I recommended doesn't suit you, feel free to look into these. Regardless, a text editor should be pretty high up on your list of things to get setup, as it will make the latter steps much easier.
 
@@ -66,7 +66,7 @@ Alright, some disclosure. I don't really use Vim. I only use nano and VSCode. Th
 
 This is the biggest change, I'm going to recommend switching from KDE, which we installed when we setup arch, to i3-wm. i3 is a tiling window manager, this means it looks something like this:
 
-![i3](/newi3.png)
+![i3](/eng/newi3.webp)
 
 This is a screenshot of i3-wm with 4 windows open: two instances of `Typora` (the program I'm writing this in), and a file manager (`Thunar`),  a terminal (`deepin-terminal-gtk`) running `ncmpcpp` which is what I use for music. The `Typora` windows are being tabbed by i3 (it's a bit hard to see, but there's two big tabs at the top of the Window).  What's cool about i3 is how it will always use space as efficiently as possible by tiling the windows, and you can navigate between the windows (or multiple monitors) entirely by keyboard (mouse still works obviously) and open multiple virtual workspaces. When programming and using a computer for advanced things it's not uncommon to have a dozen windows open and having things organized like this can be a life saver. Plus, as I showed with the typora tabs, programs can also be tabbed instead of tiled, so I could have one tab of firefox, one of typora, and one of a terminal, so they're all still maximized but I can get between them quickly, and these tabs can be mixed with the tiles, as in that screenshot.
 
@@ -201,7 +201,7 @@ If you're looking for more ways to make your setup the best it can be or config 
 
 ## The Physical Environment & Hardware
 
-![penv](/physicalenv.jpg)
+![penv](/eng/physicalenv.webp)
 
 Working on a laptop with a mushy membrane keyboard is totally fine for some people, but when you're deep into some complicated work having the best possible setup can save a lot of time, frustration, and mental overhead.
 
@@ -323,9 +323,9 @@ Another thing to mention is red-light filters. While I dont personally use one m
 
 Probably the most important thing you can do for your workspace is getting a nice keyboard. If you're rocking a rubber dome or membrane keyboard, moving to a mechanical keyboard will make a massive difference.
 
-![keycomp](/mechkey.png)
+![keycomp](/eng/mechkey.webp)
 
-([source](https://commons.wikimedia.org/wiki/File:Keyboard_Construction_Button_Press.JPG))
+{{< attribution >}}[source](https://commons.wikimedia.org/wiki/File:Keyboard_Construction_Button_Press.JPG) {{< /attribution >}}
 
 The membrane/rubber dome keyboard on the left doesn't give much physical feedback to your fingers when you press a key, compared to the mechanical key switch on the right. A decent mechanical keyboard can be found on amazon for <50 USD, though as with anything in life the more you spend the better the product. One thing to keep in mind is the color of the switch used. Above you can see that keyboard has blue switches, blue switches have a noticeable 'bump', that is the switch has a spot of higher resistance before it actually bottoms out, and the key actually presses at this point, furthermore, blue keys are clicky - they are loud and some people find this annoying. Finally, they're also pretty light, not taking too much force to push down. Generally, blues are considered the 'gold standard' among typist, but games on the other hand may prefer a brown, red, or black switch.
 
@@ -341,7 +341,7 @@ really it's all a matter of preference, I'm actually using a switch not listed h
 
 Furthermore, there are other types of switches like IBM's old Model M line which use a buckling spring, which are quite stiff and have a very unique, heavy feeling. If you don't want to use a 20 year old keyboard Unicomp makes clones that are quite nice.
 
-You should also consider they layout of your keyboard. Some people absolutely need a number pad while others are happy to omit it and have the shorted hand travel to their mouse. Even still others want an extravagant number of keys or a weird split keyboard like mine:![keeb](/splitkeeb.jpg)
+You should also consider they layout of your keyboard. Some people absolutely need a number pad while others are happy to omit it and have the shorted hand travel to their mouse. Even still others want an extravagant number of keys or a weird split keyboard like mine:![keeb](/eng/splitkeeb.webp)
 
 > This is a custom built ErgoDone keyboard, The Ergodox-ez can be purchased for ~300 USD, or you can build one like mine for a bit under 200
 

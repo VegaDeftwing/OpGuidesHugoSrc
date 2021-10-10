@@ -3,7 +3,7 @@
 <script>
     document.getElementById("hardwareMenu").open = true;
 </script>
-![RAM](/ram.webp)
+![RAM](/eng/ram.webp)
 
 {{< smalltext >}}Note, that some RAM sticks, espically the full size ones, have metal heat spreaders on top of them. In gaming computer espically it's common for these to have RGB lights as well.{{< /smalltext >}}
 
@@ -17,7 +17,7 @@ While support for this will vary depending on your motherboard, you should be ab
 
 The output will probably repeat multiple times, printing once for each physical stick of ram in your system. I actually have 4 sticks, but I'll just be showing one:
 
-<img src="/dmiram.png" alt="DMI Ram" height="600em">
+<img src="/eng/dmiram.webp" alt="DMI Ram" height="600em">
 
 You should note that many of the things mentioned above can be seen here, though I do want to look at some things here.
 

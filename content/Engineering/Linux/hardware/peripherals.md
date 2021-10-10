@@ -23,7 +23,7 @@ Alright, so we'll get to Thunderbolt in a second, but first, let's look at how w
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/4mi0kLLLAOs?list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-okay, so that's the really legacy stuff, but you may also see some FireWire <img src="/FireWire_symbol.svg" alt=" " height="20em"> (IEEE 1394) devices laying around. FireWire was *mostly* found on gear made for Apple devices but it can be found on generic hardware too. It's a bit faster than USB 2.0 but still dramatically slower than 2.0. To use it today, you'll probably need to add an expansion card to your computer, but because of that added cost sometimes you can find good deals on FireWire accessories- just be aware that drivers with FireWire are often a massive pain in the ass.
+okay, so that's the really legacy stuff, but you may also see some FireWire <img src="/common/FireWire_symbol.svg" alt=" " height="20em"> (IEEE 1394) devices laying around. FireWire was *mostly* found on gear made for Apple devices but it can be found on generic hardware too. It's a bit faster than USB 2.0 but still dramatically slower than 2.0. To use it today, you'll probably need to add an expansion card to your computer, but because of that added cost sometimes you can find good deals on FireWire accessories- just be aware that drivers with FireWire are often a massive pain in the ass.
 
 Finally then, we can get to Thunderbolt!
 

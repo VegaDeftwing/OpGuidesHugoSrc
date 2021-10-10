@@ -495,31 +495,31 @@ once it installs go ahead and open it up
 
 you should see something like this:
 
-![2019-02-08-194336_3836x2042_scrot](/2019-02-08-194336_3836x2042_scrot.png)
+![htop](/eng/htop.webp)
 
 This is a super powerful equivalent to task manager from windows. You can see the load on all 16 of my cpu threads, the memory usage on the system, uptime, loadavg, and number of tasks running here, but best of all we can see a nice tree of all the processes, and how each one of them is impacting the system. (you may need to press f5 to put it in tree mode) From here you can also see the Process's ID known as the PID, these numbers should directly corolate with those visable in /proc
 
 Leaving that windows open lets open up two more terminals, in one navigate to /proc and in the other start up python:
 
- ![2019-02-08-194844_3241x2113_scrot](/2019-02-08-194844_3241x2113_scrot.png)
+ ![proc](/eng/proc.webp)
 
 from here go back to the window running htop and use f3 to search for python if there are multiple processes that come up just keep pressing i3 until you find one that has a tree that looks like:
 
 (note your terminal will probably be named either konsole or xterm, not deepin-terminal)
 
-![2019-02-08-195158_1685x128_scrot](/2019-02-08-195158_1685x128_scrot.png)
+![pypid](/eng/pypid.webp)
 
 and look to the left to find the pid of the running python process, in my case it's 754.
 
 Go over to the terminal where you navigated to /proc and now navigate to the folder with the id of your process, in my case i'd run `cd 754`  then run 'ls' and look at everything in this folder:
 
-![2019-02-08-195440_1912x424_scrot](/2019-02-08-195440_1912x424_scrot.png)
+![looking at the pid in proc](/eng/pypiddive.webp)
 
 now, we're gonna run one more thing before we leave, and we'll come back to it later, but I want to show you now, so you can appreciate how cool it is later: go ahead and run `sudo cat stack`
 
 you should see something like:
 
- ![2019-02-08-200152_831x306_scrot](/2019-02-08-200152_831x306_scrot.png)
+ ![looking at the stack](/eng/pystack.webp)
 
 but when we run this in the python terminal:
 
@@ -530,17 +530,17 @@ while(1):
 
 and read the stack again we'll see:
 
-![2019-02-08-200307_427x115_scrot](/2019-02-08-200307_427x115_scrot.png)
+![looking at the stack](/eng/lookingatthestack.webp)
 
 Which while may not look overly interesting, I assure you will be something of interest later.
 
-One interesting processed to note in here is the process numbered '1' which, if you look back in htop, you'll see is the init process. This means it's actually possible to look at a mountain of deails about the init process, which we'll talk about in a bit.
+One interesting processed to note in here is the process numbered '1' which, if you look back in htop, you'll see is the **init** process. This means it's actually possible to look at a mountain of deails about the init process, which we'll talk about in a bit.
 
 Before we leave /proc, look back up at all the file that each process has and take note, also notice how some of these relate to what we saw in /dev
 
 **Take a breather,**
 
-As you can see, Linux gives us a lot of raw access to hardware. There are no training wheels here. While you can use Linux the exact same way you used windows: watch YouTube videos, open a graphical file manager, etc, you can also get down to the nitty gritty of the OS.
+As you can see, Linux gives us a lot of raw access to the system. There are no training wheels here. While you can use Linux the exact same way you used windows: watch YouTube videos, open a graphical file manager, etc, you can also get down to the nitty gritty of the OS.
 
 ## /bin, /sbin, /lib, /lib64
 
@@ -627,7 +627,7 @@ permissions discussed eariler, recap here
 
 <--->
 
-![rik](/nonfree/permissiongranted/rik.jpeg)
+![rik](/nonfree/permissiongranted/rik.webp)
 
 {{< attribution >}}
 

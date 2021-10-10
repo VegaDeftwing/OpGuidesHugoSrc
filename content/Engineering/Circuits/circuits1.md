@@ -42,9 +42,9 @@ Your multimeter will likely have two different settings for measuring voltage, o
 
 <--->
 
-![img](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Sine_wave_voltages.svg/400px-Sine_wave_voltages.svg.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Sine_wave_voltages.svg/400px-Sine_wave_voltages.svg.png" alt=" " style="-webkit-filter: invert(.85);">
 
-https://en.wikipedia.org/wiki/Root_mean_square
+{{< attribution >}}[RMS on Wikipedia](https://en.wikipedia.org/wiki/Root_mean_square){{< /attribution >}}
 
 {{< /columns >}}
 
@@ -52,11 +52,11 @@ https://en.wikipedia.org/wiki/Root_mean_square
 
 Of note, from a mathematical perspective all time varying signals can be represented as an infinite number of sine waves added together, this is actually used to do practical computation in many things, and what is used if you ever want to get into digital signal processing. I only mention it here because I foresee it being a rabbit hole someone could fall down when trying to gronk what RMS is. Again, we'll talk more about all of this latter, so I'm going to move on for now.
 
-![img](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Periodic_identity_function.gif/400px-Periodic_identity_function.gif)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Periodic_identity_function.gif/400px-Periodic_identity_function.gif" alt=" " width="100%" style="-webkit-filter: invert(.85);">
 
-https://en.wikipedia.org/wiki/Fourier_series#Examples
+{{< attribution >}}[Fourier Series on Wikipedia](https://en.wikipedia.org/wiki/Fourier_series#Examples){{< /attribution >}}
 
-If you're feeling really adventurous [Chapter 6 - Math, Section 11](https://opinionatedguide.github.io/engineering/11-math/#7---signals) has more resources on this topic
+If you're feeling really adventurous {{< button relref="/engineering/signals/sigandsys" >}} Chapter 27 - Signals & Systems{{< /button >}} has more resources on this topic
 
 ## Current and the Ammeter
 
@@ -94,15 +94,15 @@ https://en.wikipedia.org/wiki/Arbitrary_waveform_generator
 
 The oscilloscope (or OScope or simply Scope) allows you to see an AC signal and how it varies over time as a plot of Voltage on the Y axis and time on the X, Most OScopes will allow you to look at multiple signals at once, with one overlaid on the other. Furthermore, most support X-Y mode, where the plot is actually the voltage of one input as the X axis and the voltage of another as the Y, moving a dot and it's trail around the screen. In fact, this is how the first computer monitors worked:
 
-<img src="/oscopeastroids.jpeg" alt="Asteroids" height="400em">
+<img src="/eng/oscopeastroids.webp" alt="Asteroids" height="400em">
 
 Modern OScopes look much different than their phosphorescent green ancestors though:
 
-<img src="/modernscope.jpeg" alt="Modern Scope" height="400em">
+<img src="/eng/modernscope.webp" alt="Modern Scope" height="400em">
 
 However, a decent 'Digital Storage Oscilloscope' or DSO like the one above run a minimum of \$300 at the time of writing, so many hobbyists opt for older scopes like this one:
 
-<img src="/oldscope.jpeg" alt="Old Scope" height="400em">
+<img src="/eng/oldscope.jpeg" alt="Old Scope" height="400em">
 
 ~~or a cheap, low resolution, low speed one from Ebay. For most uses, both of these will be perfectly fine. For just starting out though I'd recommend a logic analyzer (I'll talk about that next) and oscilloscope combo tool, like the **LHT00SU1** The  which can be found on Ebay pretty easily. Be aware they can fry your USB port or worse though.~~
 
@@ -118,7 +118,7 @@ But what are these actually used for day to day, and why would you want one? [TO
 
 Logic Analyzers... analyze logic. Who knew? But what does that mean? Well, in reality they are *somewhat* similar to an oscilloscope in that they show a voltage over time, the difference is they only show either on or off over time based on the set TTL (Transistor–transistor logic) voltage. This lets you eavesdrop on the digital communication going on over a wire. Here's an example output:
 
-![logic](/logic.png)
+![logic](/eng/logic.webp)
 
 In this particular encoding, the longer high bumps represent a 1 and the short high bumps a 0, so you're looking at the binary that was sent over a wire. It's actually pretty rare that a wire sends raw high for a 1 and low for 0 so other schemes, like the one above, are used. For most schemes the software can actually be used to decode the received data into raw binary or if it was human readable characters even that.
 
@@ -186,7 +186,7 @@ Motors
 
 <--->
 
-<img src="/pipoehat.webp" alt="pi poeplus hat">
+<img src="/eng/pipoehat.webp" alt="pi poeplus hat">
 
 {{< attribution >}}image stolen from [Raspberry Pi PoE+ Hat](https://www.raspberrypi.org/products/poe-plus-hat/) product page{{< /attribution >}}
 
