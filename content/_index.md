@@ -9,7 +9,7 @@ type: docs
 
 The biggest section of this site is {{< button relref="/Engineering/engineering" >}}Opinionated Engineering{{< /button >}},but that isn't to say {{< button relref="Music/gettingstarted" color="music" >}}Opinionated Music{{< /button >}}, {{< button relref="Design/basics" color="design" >}}Opinionated Design{{< /button >}}, and {{< button relref="Phil/basic" color="phil" >}}Opinionated Philosophy{{< /button >}} aren't worth checking out too.
 
-You'll also find some other miscellaneous stuff, such as {{< button relref="Interviews/interviews" color="interview">}}Interviews{{< /button >}}, and {{< button relref="posts" color="blog" >}}Blog Posts{{< /button >}}
+You'll also find some other miscellaneous stuff, such as {{< button relref="Interviews/interviews" color="interview">}}Interviews{{< /button >}}, and {{< button relref="posts" color="gradient-border" >}}          {{< /button >}}
 
 The site is *mostly* maintained by me, Vega,
 

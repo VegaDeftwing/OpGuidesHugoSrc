@@ -169,6 +169,57 @@
     border: $padding-1 solid #42b9f3;
   }
 
+//  this is using https://codepen.io/mike-schultz/pen/NgQvGO which is MIT licenced from Mike Schultz
+
+  a.gradient-border {
+    border: #0000;
+    color: #fff;
+    --borderWidth: 1px;
+    background: #222222;
+    position: relative;
+  }
+  a.gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(4 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 5s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+  a.gradient-border::before {
+    content: 'Blog Posts';
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    position: absolute;
+    padding: 2px 0px 0px 10px;
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    animation: animatedgradient 5s ease alternate infinite;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  
+  @keyframes animatedgradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
   // {{< hint >}}
   .book-hint {
     @each $name, $color in $hint-colors {
