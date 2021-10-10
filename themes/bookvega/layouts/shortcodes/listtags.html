@@ -15,7 +15,7 @@
       {{ end }}
     {{ end }}
     </ul> -->
-
+<div style="width: 90%;margin: auto;">
         {{ range $term, $_ := .Site.Taxonomies }}
           {{ with $.Site.GetPage (printf "/%s" $term | urlize) }}
             <dl>
@@ -34,3 +34,4 @@
           </li>
           {{ end }}
         {{ end }}
+</div>
