@@ -123,8 +123,8 @@
     display: inline-block;
     font-size: $font-size-14;
     color: var(--color-link);
-    line-height: $padding-16 * 2;
-    padding: 0 $padding-16;
+    line-height: $padding-16 * 1.1;
+    padding: .05em .5em;
     border: $padding-1 solid var(--color-link);
     border-radius: $border-radius;
     cursor: pointer;
@@ -132,6 +132,41 @@
     &:hover {
       text-decoration: none;
     }
+  }
+
+  a.eng {
+    color: #42b9f3;
+    border: $padding-1 solid #42b9f3;
+  }
+
+  a.music {
+    color: #c448c7;
+    border: $padding-1 solid #c448c7;
+  }
+
+  a.phil {
+    color: #e23838;
+    border: $padding-1 solid #e23838;
+  }
+
+  a.design {
+    color: #f78200;
+    border: $padding-1 solid #f78200;
+  }
+
+  a.interview {
+    color: #ffb900;
+    border: $padding-1 solid #ffb900;
+  }
+
+  a.other {
+    color: #5ebd3e;
+    border: $padding-1 solid #5ebd3e;
+  }
+
+  a.blog {
+    color: #42b9f3;
+    border: $padding-1 solid #42b9f3;
   }
 
   // {{< hint >}}

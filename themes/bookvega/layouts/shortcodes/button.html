@@ -1,5 +1,6 @@
 {{ $ref := "" }}
 {{ $target := "" }}
+{{ $color := "" }}
 {{ with .Get "href" }}
   {{ $ref = . }}
   {{ $target = "_blank" }}
@@ -7,6 +8,7 @@
 {{ with .Get "relref" }}
   {{ $ref = relref $ . }}
 {{ end }}
-<a {{ with $ref }} href="{{.}}" {{ end }} {{ with $target }} target="{{.}}" {{ end }} class="book-btn{{ with .Get "class" }} {{ . }}{{ end }}">
+
+<a {{ with $ref }} href="{{.}}" {{ end }} {{ with $target }} target="{{.}}" {{ end }} class="book-btn{{ with .Get "class" }} {{ . }}{{ end }} {{ .Get "color" }}">
   {{ $.Inner }}
 </a>
