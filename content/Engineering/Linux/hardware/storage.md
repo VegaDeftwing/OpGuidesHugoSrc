@@ -4,9 +4,13 @@
     document.getElementById("hardwareMenu").open = true;
 </script>
 
-![disks](/eng/hdds.jpg)
+![disks](/eng/hdds.webp)
 
-> Pictured here are 3 hard drives, 2 of which are 'full size' at 3.5" and the the other a 'laptop drive' at 2.5", the left most hard drive has been opened up, which has certainly ruined it as dust has gotten in. Below the smaller Hard drive is an NVMe ssd, a micro sd card, and a flash drive. All of which are examples of solid state storage
+{{< smalltext >}}
+
+Pictured here are 3 hard drives, 2 of which are 'full size' at 3.5" and the the other a 'laptop drive' at 2.5", the right most hard drive has been opened up, which has certainly ruined it as dust has gotten in. Below the smaller Hard drive is an NVMe ssd on a carrier card. Under the CD is a micro sd card and a flash drive. The micro SD, NVMe ssd, and flash drive all use "flash storage".
+
+{{< /smalltext >}}
 
 Permanent storage is rapidly evolving, but the old guard: hard drives and tape storage aren't going anywhere either. But why use one over the other? How do you interact with them in Linux?
 

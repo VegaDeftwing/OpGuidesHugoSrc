@@ -11,7 +11,7 @@ The most obvious thing to point out is the size of the motherboard. This is a mA
 
 The large, white square is the CPU socket. This is an older board made for an AM3+ processor. The AM3+ processor line, as well as most consumer processors from AMD use a PGA or Pin Grid Array socket. these CPUs have many pins on the bottom which fall into these holes to make contact. Before the CPU is inserted the metal leaver arm, seen at the bottom of the socket if you look carefully, is raised and the CPU should smoothly plop right in, after which the arm can be lowered. Modern Intel CPUs follow a similar-ish mechanism, only instead of having a bunch of pins that go into holes the 'pins' are actually tiny springy pieces of metal on the motherboard which make contact with pads on the CPU, that socket looks a bit like this, albeit this is an old one:
 
-![CPU Socket 775](/eng/581px-CPU_Socket_775_T.jpg)
+<img src="/eng/581px-CPU_Socket_775_T.jpg" alt="CPU Socket 755" style="border-radius:50px;">
 
 {{< attribution >}}
 
@@ -19,7 +19,9 @@ Image By [Appaloosa](http://commons.wikimedia.org/wiki/User:Appaloosa), Own work
 
 {{< /attribution >}}
 
-If you're looking at a server or high end workstation you may actually run into a single motherboard with multiple CPU sockets. These are becoming less common with time, but even though there are multiple CPUs the system still operates as one larger system. For example, I have access to a system with 4, 8 core, 16 thread cpu's to give for a total of of 64 threads. Giving this beautiful sight:![64t](/eng/64thread.webp)
+If you're looking at a server or high end workstation you may actually run into a single motherboard with multiple CPU sockets. These are becoming less common with time, but even though there are multiple CPUs the system still operates as one larger system. For example, I have access to a system with 4, 8 core, 16 thread cpu's to give for a total of of 64 threads. Giving this beautiful sight:
+
+<img src="/eng/64thread.webp" alt="htop 64 threads" style="border-radius:10px;" >
 
 Clearly, a server with that much horsepower will use a lot of electricity though, and there is some overhead for the system when getting information from one physical CPU to another.
 
@@ -45,7 +47,7 @@ So, how do we get any information from the motherboard? Well, in case it wasn't 
 
 To see what your fans are doing on Linux you'll need to grab the package `lm_sensors` with yay, then you can run run `sudo sensors-decect` and mash enter until it's done. After this you should be able to run `sensors` and see an output similar to this one:
 
-<img src="/eng/sensors.webp" alt="sensors" height="500em">
+<img src="/eng/sensors.webp" alt="sensors" height="500em" style="border-radius:30px;">
 
 Of note, depending on your system, there's a small chance nothing will be detected at all or that some information will be wrong. Even in my case this is true as my CPU fan is reporting 0 RPM. Actually entering your motherboard's UEFI or BIOS settings may expose more information, but we'll talk about that more later.
 
@@ -127,7 +129,7 @@ If you continue down this list you'll see there's yet another USB controller and
 
 What's cool is this information relates back to something we saw earlier when looking at the CPU:
 
-![lstopo2](/eng/lstopo.webp)
+<img src="/eng/lstopo.webp" alt="lstopo" style="border-radius:10px;">
 
 See all those PCI ids on the right side, those directly correlate with a lot of the above.
 
@@ -196,7 +198,7 @@ For the most part, the chipset on a motherboard will match a certain CPU socket,
 
 Finally, it's notable that the chipset typically acts as a PCIe lane 'splitter' of sorts, turning (usually) 4 lanes into may more so that more devices may be attached. This can be particularly important when many high bandwidth devices are attached though, as even though these lanes are split, there's still only that original 4 lanes of bandwidth to go around.
 
-![Chipset](/eng/Chipset.webp)
+<img src="/eng/Chipset.webp" alt="Intel Z370 Chipset Block Diagram" style="border-radius:30px;">
 
 {{< attribution >}}
 
@@ -204,7 +206,7 @@ Finally, it's notable that the chipset typically acts as a PCIe lane 'splitter' 
 
 {{< /attribution >}}
 
-![chipsetamd](/eng/chipsetamd.webp)
+<img src="/eng/chipsetamd.webp" alt="AMD x399 Chipset Block Diagram" style="border-radius:30px;">
 
 {{< attribution >}}
 

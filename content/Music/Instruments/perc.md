@@ -78,7 +78,7 @@ You might want to go back to sound sources and look at subtractive and FM synthe
 
 <--->
 
-![drum patch screenshot](/music/drumpatchscreenshot2.jpg)
+![drum patch screenshot](/music/drumpatchscreenshot2.webp)
 
 The patch can be downloaded from patch storage [here](https://patchstorage.com/percussion-explainer-2/).
 
