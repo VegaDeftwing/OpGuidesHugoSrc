@@ -5,12 +5,11 @@ type: docs
 
 # Welcome to Opinionated Guides
 
-The biggest section of this site is [Opinionated Engineering]({{< relref "/Engineering/engineering" >}}),
-but that isn't to say [Opinionated Music]({{< relref "Music/gettingstarted" >}}), [Opinionated Design]({{< relref "Design/basics" >}}), and [Opinionated Philosophy]({{< relref "Phil/basic" >}}) aren't worth checking out too.
-
-You'll also find some other miscellaneous stuff, such as [Interviews]({{< relref "Interviews/interviews" >}}), and [blog posts]({{< relref "posts" >}}).
 
 
+The biggest section of this site is {{< button relref="/Engineering/engineering" >}}Opinionated Engineering{{< /button >}},but that isn't to say {{< button relref="Music/gettingstarted" color="music" >}}Opinionated Music{{< /button >}}, {{< button relref="Design/basics" color="design" >}}Opinionated Design{{< /button >}}, and {{< button relref="Phil/basic" color="phil" >}}Opinionated Philosophy{{< /button >}} aren't worth checking out too.
+
+You'll also find some other miscellaneous stuff, such as {{< button relref="Interviews/interviews" color="interview">}}Interviews{{< /button >}}, and {{< button relref="posts" color="blog" >}}Blog Posts{{< /button >}}
 
 The site is *mostly* maintained by me, Vega,
 
