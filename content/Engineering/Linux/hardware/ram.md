@@ -17,7 +17,7 @@ While support for this will vary depending on your motherboard, you should be ab
 
 The output will probably repeat multiple times, printing once for each physical stick of ram in your system. I actually have 4 sticks, but I'll just be showing one:
 
-<img src="/eng/dmiram.webp" alt="DMI Ram" height="600em">
+<img src="/eng/dmiram.webp" alt="DMI Ram" height="600em" style="border-radius:10px;">
 
 You should note that many of the things mentioned above can be seen here, though I do want to look at some things here.
 
@@ -114,7 +114,7 @@ Unfortunately, this probably means you need to buy new RAM. In the absolute wors
 
 <--->
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Memtest86%2B_15_million_errors_2017.jpg/2560px-Memtest86%2B_15_million_errors_2017.jpg" style="zoom:50%;" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Memtest86%2B_15_million_errors_2017.jpg/2560px-Memtest86%2B_15_million_errors_2017.jpg" style="zoom:50%;border-radius:50px;" />
 
 {{< attribution >}}
 

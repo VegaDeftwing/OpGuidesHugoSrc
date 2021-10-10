@@ -29,7 +29,7 @@ So, for the purposes of these pages I'll consider an instrument to be defined no
 
 *Obviously*, some interfaces are still better than others for making certain sounds. While I could detect each drum hit on a set of acoustic drums and map each to a different note on the piano, this will be far from a good way to play the piano, and may make playing chords impossible. Similarly, I could map drum sounds to each key on a keyboard (and this is often done) but it's rather awkward to play.
 
-In the first few chapters, <a href="/music/music-getting-started/">Getting Started</a> and <a href="/music/sound-sources/">Sound Sources</a>, synthesizers were explored rather deeply - so why do this before talking about the more familiar realm of acoustic instruments, like a big ol' hollow body guitar or a drum set with membrane you can hit and *feel*?
+In the first few chapters, {{< button relref="/music/gettingstarted" color="music" >}}Getting Started{{< /button >}} and {{< button relref="/music/sources" color="music" >}}Sound Sources{{< /button >}}, synthesizers were explored rather deeply - so why do this before talking about the more familiar realm of acoustic instruments, like a big ol' hollow body guitar or a drum set with membrane you can hit and *feel*?
 
 Well, because assuming you know how all of the physics of those systems work *or* have really good samples of the instruments *or* you only need to fill the same role as the sound (like needing a bass-heavy sound, but not a bass guitar) it really doesn't matter if you have the physical instrument, so long as you have a good way to play the same sounds, that lends the same amount of expressiveness and control.
 
