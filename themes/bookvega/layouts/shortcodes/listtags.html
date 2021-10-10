@@ -1,0 +1,36 @@
+<!-- 
+    <ul>
+    {{ range $term, $_ := .Site.Taxonomies }}
+      {{ with $.Site.GetPage (printf "/%s" $term | urlize) }}
+      <li class="book-section-flat">
+        <dl>
+        {{ range .Pages }}
+          <li class="flex justify-between">
+            <dd><a href="{{ .RelPermalink }}">{{ .Title }}</a><dt>
+            <dd style="color: #fff;">{{ len .Pages }}</dt>
+          </li>
+        {{ end }}
+        </dil>
+      </li>
+      {{ end }}
+    {{ end }}
+    </ul> -->
+
+        {{ range $term, $_ := .Site.Taxonomies }}
+          {{ with $.Site.GetPage (printf "/%s" $term | urlize) }}
+            <dl>
+                <li class="flex justify-between">
+                    <dd><b><a href="{{ .RelPermalink }}">TAG</a></b><dt>
+                    <b><dd style="color: #fff;">№ of Posts</dt></b>
+                  </li>
+                  <hr>
+            {{ range .Pages }}
+              <li class="flex justify-between">
+                <dd><a href="{{ .RelPermalink }}">{{ .Title }}</a><dt>
+                <dd style="color: #fff;">{{ len .Pages }}</dt>
+              </li>
+            {{ end }}
+            </dil>
+          </li>
+          {{ end }}
+        {{ end }}
