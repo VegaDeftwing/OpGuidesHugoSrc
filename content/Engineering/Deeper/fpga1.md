@@ -16,5 +16,5 @@ Finite State Machines, VHDL, Verilog, FPGA & CPLD internals
 
 [TODO] https://hasler.ece.gatech.edu/FPAA_IEEEXPlore_2020.pdf
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/2lsz9gi8Oz8?list=WL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/2lsz9gi8Oz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

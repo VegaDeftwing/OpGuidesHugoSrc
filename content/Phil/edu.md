@@ -20,7 +20,7 @@ slug: "Education"
 
 ### Individualized, shared, and student led
 
-![respect](/respect.png)
+![respect](/phil/respect.webp)
 
 {{< attribution >}}
 

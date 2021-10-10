@@ -349,7 +349,7 @@ In authoritarian countries, creators of artworks may remove material that their 
 
 ## Identity Politics:
 
-<img src="/thegays.jpg" style="zoom:50%;" />
+<img src="/phil/thegays.webp" style="zoom:50%;" />
 
 {{< attribution >}}
 
@@ -437,7 +437,7 @@ Basically, people might use protecting children an an excuse to ban all porn or 
 
 ## Schrodinger's Douchebag
 
-![](/sdbag.png)
+![](/phil/sdbag.webp)
 
 # Other Resources
 

@@ -115,7 +115,7 @@ No single best approach
 
 a vector with features x_1 to x_2 and weights w_1 to w_n
 
-<img src="/linearregression.svg" style="-webkit-filter: invert(.85);">
+<img src="/eng/linearregression.svg" style="-webkit-filter: invert(.85);">
 
 </br>
 
@@ -123,7 +123,7 @@ a vector with features x_1 to x_2 and weights w_1 to w_n
 
 b can be represnteded as {{< katex >}}w_0{{< /katex >}} instead, as is shown in the above
 
-<img src="/linregbin.svg" style="-webkit-filter: invert(.85);">
+<img src="/eng/linregbin.svg" style="-webkit-filter: invert(.85);">
 
 </br>
 
@@ -243,7 +243,7 @@ multivariate chain rule, multiple paths that can affect the output. Math gets ve
 
 $S(x)=\frac{1}{1+e^{-x}}$ squashes everything into a range from 0 to 1 (or -1 to 1), with 0 mapping to to ½. It's similar to the threshold function, for us, this is useful as $\sigma(x)=\frac{1}{1+e^{-net}}$, where $net=\sum_{i=0}^{n} w_i x_i=f(x;w,b)$
 
-<img src="/sigmoid.svg" style="-webkit-filter: invert(.85);">
+<img src="/eng/sigmoid.svg" style="-webkit-filter: invert(.85);">
 
 </br>
 
@@ -345,7 +345,7 @@ can pad to retain size, 0-padding is common
 
 can use a stride-parameter to downsample
 
-<img src="/CNNImage.svg" style="-webkit-filter: invert(.85);">
+<img src="/eng/CNNImage.svg" style="-webkit-filter: invert(.85);">
 
 <!--colors are shifted in the SVG to make the invert correct--->
 

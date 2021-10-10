@@ -334,7 +334,7 @@ https://esolangs.org
 
 [Piet](https://www.dangermouse.net/esoteric/piet.html)
 
-![](/piethw.png)
+![](/eng/piethw.png)
 
 > Hello World implimented in Piet ([Source](https://commons.wikimedia.org/wiki/File:Hello_world_piet.png))
 
@@ -402,7 +402,7 @@ v
 
 [Ziim](https://esolangs.org/wiki/Ziim)
 
-<img src="/ziimhw.png" style="zoom:50%;" />
+<img src="/eng/ziimhw.png" style="zoom:50%;" />
 
 > Hello World implimented in Ziim
 

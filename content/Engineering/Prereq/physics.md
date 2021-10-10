@@ -8,7 +8,7 @@ This is still a dumping ground for things I want to write about later, nothing o
 
 [TODO] speed vs Velocity vs Acceleration, clasicall vs realative
 
-![](/Exposure_chart-XKCD.svg)
+![](/xkcd/Exposure_chart-XKCD.svg)
 
 [Radiocarbon dating (Wikipedia)](https://en.wikipedia.org/wiki/Radiocarbon_dating)
 
@@ -37,7 +37,7 @@ This is still a dumping ground for things I want to write about later, nothing o
 
 [The Electromagnetic Radiation Spectrum (Anthony Tekatch @ Unihedron.com)](http://unihedron.com/projects/spectrum/downloads/spectrum.jpg)
 
-<img src="/maxwellequns.svg" alt="maxwell" style="-webkit-filter: invert(.85);">
+<img src="/eng/maxwellequns.png" alt="maxwell" style="-webkit-filter: invert(.85);">
 
 ## 3 - Relativity and the Quantum
 

@@ -40,7 +40,7 @@ A quick note before you read anything further: you can only hear an analog signa
 
 To start, let’s look at an all-analog signal path. Here, a guitar string is plucked, the signal is picked up by the guitar’s pickup (as the metal string causes a magnet to move, generating a weak electrical signal), the signal is amplified (twice), and then the amplified signal is used to move a speaker cone, which in turn moves the air, so you can hear it.
 
-![](/allanalog.svg)
+![](/music/allanalog.svg)
 
 ---
 
@@ -54,7 +54,7 @@ Hopefully that made sense, now let's look at a digital setup. Keep in mind even 
 
 Here, a digital keyboard is hooked up to a laptop, presumably running some sort of sound-generating software - Maybe a DAW or VCV Rack. Here I've shown the audio Interface (labeled DAC) as an external box hooked up over USB, but this could also just be internal to the computer. All computers or phones will have an internal audio interface, it's just that most musicians end up attaching their own that offer better features.
 
-![](/digitalsound.svg)
+![](/music/digitalsound.svg)
 
 Here, everything on the blue cables is digital, it's only 1's and 0's. The first cable is only carrying information about what note you're playing and knobs you're turning, while the second one (between the laptop and the the DAC) is carrying digital information that represents the audio, but it hasn't yet been turned into an analog signal. That's the job of the DAC. It takes those 1's and 0's and turns it back into an analog signal.
 
@@ -74,7 +74,7 @@ The Digitakt is a drum machine that uses samples saved internally as .wav files.
 
 <--->
 
-![](/digitakt.jpg)
+![](/music/digitakt.webp)
 
 {{< /columns >}}
 
@@ -90,7 +90,7 @@ Bit crushing, as explained back in the effects chapter, is just purposefully red
 
 This effect is inherently digital. It's really just purposely doing digital to analog conversion poorly. If we want it as a guitar pedal, that means the pedal has to first convert the analog signal to digital, then convert the digital signal back to analog.
 
-![](/bitcrusher.svg)
+![](/music/bitcrusher.svg)
 
 {{< attribution >}}note, this isn't meant to be a real schematic. It's heavily simplified.{{< /attribution >}}
 

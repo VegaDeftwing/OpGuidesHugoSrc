@@ -4,7 +4,7 @@ bookToC = false
 
 # Chapter 1 - The first goal
 
-![Linux Fox](/nonfree/permissiongranted/linuxfox.jpg)
+![Linux Fox](/nonfree/permissiongranted/linuxfox.webp)
 
 {{< attribution >}}
 
@@ -22,7 +22,7 @@ Beyond that, there's a degree of respect Linux has for the user that Windows and
 
 <--->
 
-![Bsodwindows10](/Bsodwindows10.png)
+![Bsodwindows10](/eng/Bsodwindows10.png)
 
 {{< /columns >}}
 
@@ -36,7 +36,7 @@ I mean, this was a real error message I saw when trying to upgrade my system fro
 
 <--->
 
-![somethinghappened](/somethinghappened.png)
+![somethinghappened](/eng/somethinghappened.webp)
 
 {{< attribution >}}
 
@@ -48,7 +48,11 @@ I mean, this was a real error message I saw when trying to upgrade my system fro
 
 do you really think Microsoft is at all competent anymore?
 
-> Note, for everything above, I mostly picked on Microsoft and Windows as that's what most people run. I have just as many, if not more, complaints for Apple and OSX. It's just that I suspect there will be far more Windows users reading this than Apple users.
+{{< speech >}}
+
+Note, for everything above, I mostly picked on Microsoft and Windows as that's what most people run. I have just as many, if not more, complaints for Apple and OSX. It's just that I suspect there will be far more Windows users reading this than Apple users.
+
+{{< /speech >}}
 
 <ol hidden id="footnotes">
 	<li>According to Wikipedia, "An operating system (OS) is system software that manages computer hardware and software resources and provides common services for computer programs." put simply on your hardware this is probably Windows or Mac OS, and it's what everything else runs on top of</li>

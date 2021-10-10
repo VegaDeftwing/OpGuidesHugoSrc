@@ -91,7 +91,7 @@ I'll touch more on community resources and what a healthy community looks like i
 
 {{< columns >}}
 
-<img src="/groupwork.svg" alt=" ">
+<img src="/phil/groupwork.svg" alt="Group Work">
 
 <--->
 
@@ -111,7 +111,7 @@ As much as it's nice to have all the community pages to fall back on, having a h
 
 {{< columns >}}
 
-<img src="/sarahcomfortzone.jpg">
+<img src="/phil/sarahcomfortzone.webp">
 
 {{< attribution >}}Comic by [Sarah Scribbles](https://sarahcandersen.com/about){{< /attribution >}}
 
@@ -143,7 +143,7 @@ If you're willing to share what you make too, the open source community is full 
 
 {{< columns >}}
 
-<img src="/propaganda.jpeg">
+<img src="/phil/propaganda.webp">
 
 <--->
 

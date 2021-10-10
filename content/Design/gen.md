@@ -37,7 +37,7 @@ Generative maps of how rivers meander, not the tool, but at least it's the proce
 
 <--->
 
-![Meander](/meander.jpg)
+![Meander](/design/meander.webp)
 
 {{< /columns2 >}}
 
@@ -51,7 +51,7 @@ A tool for building custom maps, envisioned for use in tabletop roleplaying game
 
 <--->
 
-![mapgen](/mapgen.png)
+![mapgen](/design/mapgen.webp)
 
 {{< /columns2 >}}
 
@@ -65,7 +65,7 @@ A tool for building custom maps, envisioned for use in tabletop roleplaying game
 
 <--->
 
-![](/gdungeon.png)
+![](/design/gdungeon.webp)
 
 {{< /columns2 >}}
 
@@ -79,7 +79,7 @@ A tool for building custom maps, envisioned for use in tabletop roleplaying game
 
 <--->
 
-![](/dungeondoodle.png)
+![](/design/dungeondoodle.webp)
 
 {{< /columns2 >}}
 
@@ -93,7 +93,7 @@ A tool for building custom maps, envisioned for use in tabletop roleplaying game
 
 <--->
 
-![](/dscrawl.png)
+![](/design/dscrawl.webp)
 
 {{< /columns2 >}}
 
@@ -107,7 +107,7 @@ This application generates a random medieval city layout of a requested size. Th
 
 <--->
 
-![](/fcitygen.jpg)
+![](/design/fcitygen.webp)
 
 {{< /columns2 >}}
 
@@ -121,7 +121,7 @@ make a map with tons of customization options including some about the culture a
 
 <--->
 
-![fmapgen](/fmapgen.jpg)
+![fmapgen](/design/fmapgen.webp)
 
 {{< /columns2 >}}
 
@@ -135,7 +135,7 @@ Make a lil' solar system
 
 <--->
 
-![space creator](/spacec.png)
+![space creator](/design/spacec.webp)
 
 {{< /columns2 >}}
 
@@ -163,7 +163,7 @@ Make a lil' solar system
 
 <--->
 
-![](/rcountryg.png)
+![](/design/rcountryg.webp)
 
 {{< /columns2 >}}
 
@@ -177,7 +177,7 @@ NOTE: This is only **free** for **non-commercial use**
 
 <--->
 
-![](/wmachine.jpg)
+![](/design/wmachine.webp)
 
 {{< /columns2 >}}
 
@@ -191,7 +191,7 @@ This one is for Minecraft, but still potentially useful
 
 <--->
 
-![worldpainterex](/worldpaint.jpg) [Image Source](https://www.reddit.com/r/ArdaCraft/comments/jaaw0v/a_lake_in_the_ered_luin/)
+![worldpainterex](/design/worldpaint.webp) [Image Source](https://www.reddit.com/r/ArdaCraft/comments/jaaw0v/a_lake_in_the_ered_luin/)
 
 {{< /columns2 >}}
 
@@ -205,7 +205,7 @@ This one is for Minecraft, but still potentially useful
 
 <--->
 
-![datacomb](/datacomb.jpg)
+![datacomb](/design/datacomb.webp)
 
 {{< /columns2 >}}
 
@@ -261,7 +261,7 @@ Import real map data into blender, cool for topograhpic maps and such
 
 <--->
 
-![](/prunes.png)
+![](/design/prunes.webp)
 
 {{< /columns2 >}}
 
@@ -271,7 +271,7 @@ Import real map data into blender, cool for topograhpic maps and such
 
 <--->
 
-![](/glpyh.png)
+![](/design/glpyh.png)
 
 {{< /columns2 >}}
 
@@ -281,7 +281,7 @@ Import real map data into blender, cool for topograhpic maps and such
 
 <--->
 
-![](/glyphgen.png)
+![](/design/glyphgen.webp)
 
 {{< /columns2 >}}
 
@@ -308,7 +308,7 @@ Check out [these(1)](https://github.com/johnalexandergreene/Geom_Kisrhombille) [
 
 <--->
 
-![forsynthia](/forsynthia.png)
+![forsynthia](/design/forsynthia.webp)
 
 {{< /columns2 >}}
 
@@ -322,11 +322,11 @@ Noise maker can make a ton of generative art pieces, as you can see at the right
 
 <--->
 
-![](/nm1.jpg ':size=25%')
+![](/design/nm1.webp ':size=25%')
 
-![](/nm2.jpg ':size=25%') 
+![](/design/nm2.webp ':size=25%') 
 
-![](/nm3.jpg ':size=25%')
+![](/design/nm3.webp ':size=25%')
 
 {{< /columns2 >}}
 
@@ -354,7 +354,7 @@ Noise maker can make a ton of generative art pieces, as you can see at the right
 
 <--->
 
-<img src="/superformula.svg" alt="superformula" style="-webkit-filter: invert(.85);">
+<img src="/design/superformula.svg" alt="superformula" style="-webkit-filter: invert(.85);">
 
 {{< /columns2 >}}
 
@@ -368,7 +368,7 @@ Use this tool to create unique, seamless, royalty-free patterns.</br>Choose a ba
 
 <--->
 
-![](/patterngen.jpg)
+![](/design/patterngen.webp)
 
 {{< /columns2 >}}
 
@@ -398,7 +398,7 @@ Has a neat code editor too, for making more complex geometry
 
 <--->
 
-![](/globsdesigner.png)
+![](/design/globsdesigner.webp)
 
 {{< /columns2 >}}
 
@@ -426,7 +426,7 @@ Convert your ascii diagram scribbles into happy little SVG
 
 <--->
 
-![](/svgbob.png)
+![](/design/svgbob.webp)
 
 {{< /columns2 >}}
 
@@ -444,7 +444,7 @@ Convert your ascii diagram scribbles into happy little SVG
 
 {{< details title="Pixel Sorting" open=false >}}
 
-![](/pixelsorting.jpg ':size=40%')
+![](/design/pixelsorting.webp ':size=40%')
 
 {{< attribution >}}[Source](https://www.reddit.com/r/pixelsorting/comments/jeor0y/just_messing_around_with_datamoshing_and_pixel/) - [u/Hunter_timeFR](https://www.reddit.com/user/Hunter_timeFR/) on Reddit{{< /attribution >}}
 
@@ -486,7 +486,7 @@ Fractal Flames
 
 <--->
 
-![](/mandelbulber.jpg)
+![](/design/mandelbulber.webp)
 
 {{< /columns2 >}}
 
@@ -510,7 +510,7 @@ Fractal Flames
 
 <--->
 
-![](/ifsfractal.png)
+![](/design/ifsfractal.webp)
 
 {{< /columns2 >}}
 
@@ -524,7 +524,7 @@ A GPU-Accelerated Fractal Flame Editor
 
 <--->
 
-![](/fractorium.jpg)
+![](/design/fractorium.webp)
 
 {{< /columns2 >}}
 
@@ -538,7 +538,7 @@ Chaotica is **free for noncommercial use**, and can render up to 1.23 megapixel 
 
 <--->
 
-![](/chaotica.png)
+![](/design/chaotica.webp)
 
 {{< /columns2 >}}
 
@@ -624,7 +624,7 @@ JS library for visulaization & creative coding
 
 <--->
 
-![](/pts.png)
+![](/design/pts.webp)
 
 {{< /columns2 >}}
 
@@ -639,7 +639,7 @@ JS library for visulaization & creative coding
 <--->
 "Set of tools for livecoding networked visuals. Inspired by analog modular synthesizers, these tools are an exploration into using streaming over the web for routing video sources and outputs in realtime. Hydra uses multiple framebuffers to allow dynamically mixing, compositing, and collaborating between connected browser-visual-streams. Coordinate and color transforms can be applied to each output via chained functions."
 <--->
-![](/hydraexample.jpg)
+![](/design/hydraexample.webp)
 {{< /columns2 >}}
 
 {{< columns2 >}}
@@ -663,7 +663,7 @@ JS library for visulaization & creative coding
 <--->
 "Gibber is a creative coding environment for audiovisual performance and composition. It contains features for audio synthesis and musical sequencing, 2d drawing, 3d scene construction and manipulation, and live-coding shaders."
 <--->
-![](/gibber.png)
+![](/design/gibber.webp)
 {{< /columns2 >}}
 
 {{< columns2 >}}
@@ -729,7 +729,8 @@ Realtime GPU shader editor
 "TouchDesigner is a visual development platform that equips you with the tools you need to create stunning realtime projects and rich user experiences.  Whether you're creating interactive media systems, architectural projections, live music visuals, or rapid-prototyping your latest ideas, TouchDesigner is the platform that can do it all."
 <--->
 
-<video controls width="100%">    <source src="/neurotouchdesigner.mp4"            type="video/mp4"> </video> <br><p> Video courtesy of [Neurotypique](https://www.youtube.com/channel/UC4oBI5piGMznFMZdtEC0FhA) </p>
+<video controls width="100%">    <source src="/design/neurotouchdesigner.mp4"            type="video/mp4"> </video> <br><p> Video courtesy of [Neurotypique](https://www.youtube.com/channel/UC4oBI5piGMznFMZdtEC0FhA) </p>
+
 {{< /columns2 >}}
 
 {{< columns2 >}}
@@ -752,7 +753,7 @@ The Cyril programming language is designed for fast prototyping of visualisation
 <--->
 "node based audio / visual composition"
 <--->
-![](/eternal.jpg)
+![](/design/eternal.webp)
 {{< /columns2 >}}
 
 {{< /details >}}
@@ -958,7 +959,7 @@ a hybrid graphics editor / programming environment for creating interactive diag
 <--->
 **Vega-Lite** is a high-level grammar of interactive graphics. It provides a concise, declarative JSON syntax to create an expressive range of visualizations for data analysis and presentation.
 <--->
-![](/vegalite.png)
+![](/design/vegalite.webp)
 {{< /columns2 >}}
 
 {{< columns2 >}}

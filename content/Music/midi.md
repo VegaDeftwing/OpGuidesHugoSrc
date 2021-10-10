@@ -16,7 +16,7 @@ This means each knob, even if it feels smooth to you, only has 128 distinct leve
 
 <--->
 
-<img src="/quantization.png" alt=" ">
+<img src="/music/quantization.webp" alt=" ">
 
 {{< attribution >}}Here, this sine wave is being forced down to 4-bits, making the discrete levels obvious. If you imagine this is what is happening to the knob as you turn it, you could see how this would limit your possibilities and might make setting the knob to a sweet spot difficult.{{< /attribution >}}
 
@@ -206,7 +206,7 @@ Here I'm controlling various parameters of a patch in VCV rack using a MIDI CC â
 
 Typically, you'll also be able to record and edit your adjustments of MIDI CC's after the fact. This is *usually* done in the same place as all other automation in whatever software you're using, and typically in the same area that you place clips of MIDI note data, in most software that will look something like this:
 
-![CCAutomationLanes](/CCAutomationLanes.svg)
+![CCAutomationLanes](/music/CCAutomationLanes.svg)
 
 Because MIDI CC's are only 7-bit (like the nearly the rest of MIDI) the resolution is trash and many programs will actually interpolate (morph) between values. This prevents knobs from feeling like they're clicky with only so many positions and instead makes them behave more like you'd actually expect, though not all software does this.
 
@@ -248,7 +248,7 @@ On most physical controllers that offer a sustain pedal, it is attached via a 1/
 
 {{< columns >}}
 
-<img src="/pitchwheel.webp">
+<img src="/music/pitchwheel.webp">
 
 <--->
 
@@ -270,7 +270,7 @@ Generally, this clock is displayed as your tempo, in Beats Per Minute, or **BPM*
 
 <--->
 
-<img src="/basicanalogstep.gif" alt=" ">
+<img src="/music/basicanalogstep.gif" alt=" ">
 
 {{< attribution >}}A clock driving a step sequencer in VCV Rack{{< /attribution >}}
 
@@ -293,7 +293,7 @@ Just be aware this may cause you problems and that none of the solutions to the 
 
 #### Transport & MMC
 
-<img src="/transport.svg" alt=" " height="80em" class="center">
+<img src="/music/transport.svg" alt=" " height="80em" class="center">
 
 MIDI Machine Control or MMC is the part of the MIDI spec that defines the ability for devices to send and receive transport control messages. These include play, pause, stop, record start and stop, as well as fast-forward and rewind among others you can see [In the Wikipedia article](https://en.wikipedia.org/wiki/MIDI_Machine_Control). Technically, these are sent as SysEx messages, which I'll touch on in a bit, but unlike the broader use of SysEx messages, these messages are pretty universally supported.
 
@@ -333,7 +333,7 @@ System Exclusive Messages- typically just called "SysEx". The name sorta says it
 
 So, there are multiple physical connections that MIDI data can run though- USB, TRS, and 5-pin DIN.
 
-<img src="/midipinout.svg" alt=" ">
+<img src="/music/midipinout.svg" alt=" ">
 
 ### MIDI over USB
 
@@ -389,7 +389,7 @@ graph LR
 
 MIDI though is a feature where there's an extra MIDI port that just passes the input data along. Say you have your computer with one USBâ†’5-Pin DIN MIDI adapter so you send that data first to a polyphonic synth, listening on channel 1, for playing chords and that synth has a midi though so you can connect that to the input of your next device, say a drum machine, and have that react to inputs on channel 2, and so on. This just allows for a much cleaner cable setup.
 
-<img src="/midithru.svg" alt=" ">
+<img src="/music/midithru.svg" alt=" ">
 
 MIDI though may or may not actually pass the output of the device too, so if that synth keyboard is acting as an *input* device to the computer (not playing sound as notes are sent to it *from* the computer) then it may or may not put those notes its playing out the midi-though, it just depends on the device. Here, I've shown a setup where the first device does have an input MIDI connection sending data to the computer, with a second connection. Most USB to 5-Pin DIN MIDI adapters will have one 5-Pin DIN Input and one 5-Pin DIN output. Meanwhile, many MIDI sound-making-device (synths, drum machines, etc) will only have an input and maybe a though, and many MIDI controllers (keyboards etc. that don't make their own sounds) will only have a MIDI output, no input. What this means is often, if you're going to be using MIDI though, you'll want to have a device that you want acting as both an input and output first in your chain, followed by devices that only need MIDI Input.
 
@@ -423,7 +423,7 @@ If you're just playing the keyboard, you have nothing to worry about. If you're 
 
 {{< columns >}}
 
-<img src="/fh-2.webp">
+<img src="/music/fh-2.webp">
 
 {{< attribution >}}The Expert Sleepers FH-2{{< /attribution >}}
 

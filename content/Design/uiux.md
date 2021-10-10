@@ -12,9 +12,9 @@ slug: "UI"
 
 ### Responsiveness
 
-![dragonphone](/dragonphone.jpeg ':size=45%')
+![dragonphone](/design/dragonphone.webp ':size=45%')
 
-> [Source](https://twitter.com/kogotsuchidark/status/1313211696677302273/photo/1)
+{{< attribution >}}[Source](https://twitter.com/kogotsuchidark/status/1313211696677302273/photo/1){{< /attribution >}}
 
 ### Power Users
 

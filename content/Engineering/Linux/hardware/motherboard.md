@@ -3,8 +3,7 @@
 <script>
     document.getElementById("hardwareMenu").open = true;
 </script>
-
-<img class="center" src="/mobo.jpg" alt="Motherboard" height="700em">
+<img class="center" src="/eng/mobo.webp" alt="Motherboard" height="700em">
 
 This is an older motherboard, but still new enough to have modern parts. Let's start by looking at the the most obvious physical features and move to smaller things from there.
 
@@ -12,7 +11,7 @@ The most obvious thing to point out is the size of the motherboard. This is a mA
 
 The large, white square is the CPU socket. This is an older board made for an AM3+ processor. The AM3+ processor line, as well as most consumer processors from AMD use a PGA or Pin Grid Array socket. these CPUs have many pins on the bottom which fall into these holes to make contact. Before the CPU is inserted the metal leaver arm, seen at the bottom of the socket if you look carefully, is raised and the CPU should smoothly plop right in, after which the arm can be lowered. Modern Intel CPUs follow a similar-ish mechanism, only instead of having a bunch of pins that go into holes the 'pins' are actually tiny springy pieces of metal on the motherboard which make contact with pads on the CPU, that socket looks a bit like this, albeit this is an old one:
 
-![CPU Socket 775](/581px-CPU_Socket_775_T.jpg)
+![CPU Socket 775](/eng/581px-CPU_Socket_775_T.jpg)
 
 {{< attribution >}}
 
@@ -20,7 +19,7 @@ Image By [Appaloosa](http://commons.wikimedia.org/wiki/User:Appaloosa), Own work
 
 {{< /attribution >}}
 
-If you're looking at a server or high end workstation you may actually run into a single motherboard with multiple CPU sockets. These are becoming less common with time, but even though there are multiple CPUs the system still operates as one larger system. For example, I have access to a system with 4, 8 core, 16 thread cpu's to give for a total of of 64 threads. Giving this beautiful sight:![64t](/64thread.png)
+If you're looking at a server or high end workstation you may actually run into a single motherboard with multiple CPU sockets. These are becoming less common with time, but even though there are multiple CPUs the system still operates as one larger system. For example, I have access to a system with 4, 8 core, 16 thread cpu's to give for a total of of 64 threads. Giving this beautiful sight:![64t](/eng/64thread.webp)
 
 Clearly, a server with that much horsepower will use a lot of electricity though, and there is some overhead for the system when getting information from one physical CPU to another.
 
@@ -46,7 +45,7 @@ So, how do we get any information from the motherboard? Well, in case it wasn't 
 
 To see what your fans are doing on Linux you'll need to grab the package `lm_sensors` with yay, then you can run run `sudo sensors-decect` and mash enter until it's done. After this you should be able to run `sensors` and see an output similar to this one:
 
-<img src="/sensors.png" alt="sensors" height="500em">
+<img src="/eng/sensors.webp" alt="sensors" height="500em">
 
 Of note, depending on your system, there's a small chance nothing will be detected at all or that some information will be wrong. Even in my case this is true as my CPU fan is reporting 0 RPM. Actually entering your motherboard's UEFI or BIOS settings may expose more information, but we'll talk about that more later.
 
@@ -128,7 +127,7 @@ If you continue down this list you'll see there's yet another USB controller and
 
 What's cool is this information relates back to something we saw earlier when looking at the CPU:
 
-![lstopo2](/lstopo.png)
+![lstopo2](/eng/lstopo.webp)
 
 See all those PCI ids on the right side, those directly correlate with a lot of the above.
 
@@ -183,7 +182,7 @@ upon looking this id up online, it appears it's used for a generic USB keyboard.
 
 For completeness I'll mention, the first part of the id, the x's in xxxx:yyyy is the vendor id, while the y's are the product id.
 
-Finally, I'd like to mention `dimdecode`. according to the manual page:
+Finally, I'd like to mention `dmidecode`. according to the manual page:
 
 > dmidecode is a tool for dumping a computer's DMI (some say SMBIOS) table contents in a human-readable format. This table contains a description of the system's hardwarecomponents, as well as other useful pieces of information such as serial numbers and BIOS revision. Thanks to this table, you can retrieve this information without having to probe for the actual hardware. While this is a good point in terms of report speed and safeness, this also makes the presented information possibly unreliable.
 
@@ -197,7 +196,7 @@ For the most part, the chipset on a motherboard will match a certain CPU socket,
 
 Finally, it's notable that the chipset typically acts as a PCIe lane 'splitter' of sorts, turning (usually) 4 lanes into may more so that more devices may be attached. This can be particularly important when many high bandwidth devices are attached though, as even though these lanes are split, there's still only that original 4 lanes of bandwidth to go around.
 
-![Chipset](/Chipset.png)
+![Chipset](/eng/Chipset.webp)
 
 {{< attribution >}}
 
@@ -205,7 +204,7 @@ Finally, it's notable that the chipset typically acts as a PCIe lane 'splitter' 
 
 {{< /attribution >}}
 
-![chipsetamd](/chipsetamd.png)
+![chipsetamd](/eng/chipsetamd.webp)
 
 {{< attribution >}}
 
@@ -215,9 +214,9 @@ Finally, it's notable that the chipset typically acts as a PCIe lane 'splitter' 
 
 ## Expansion slots
 
-<img class="center" src="/pciep.jpg" alt="pci expansion" height="500em">
+<img class="center" src="/eng/pciep.webp" alt="pci expansion" height="500em">
 
-> Two PCI-e 1x expansion cards, one for USB 3.0 and one for audio. Of note, most modern motherboards have both functions built in.
+{{< smalltext >}}Two PCI-e 1x expansion cards, one for USB 3.0 and one for audio. Of note, most modern motherboards have both functions built in.{{< /smalltext >}}
 
 Most modern expansion cards connect though the PCI Express or PCIe bus. This standard, much like DDR, has gone though multiple generations of bandwidth doubling. Currently consumer devices offer up to PCIe 3.0 but devices with both 4.0 and 5.0 should be on the market shortly.
 
@@ -243,11 +242,15 @@ Older standards such as PCI, AGP, and ISA were all used before the widespread ad
 
 Both AGP and ISA have been phased out a long time ago, but very old cards may poke up now and then. If you're into vintage computers you may want to look the standards up to learn more.
 
-![pciecards](/pciecards.jpg)
+![pciecards](/eng/pciecards.webp)
 
-> Top: a 16x pci-e graphics card and a 1x pcie networking card
->
-> Bottom: an ISA networking card and an AGP graphics card, not pictured is the PCI connector
+{{< smalltext >}}
+
+Top: a 16x pci-e graphics card and a 1x pcie networking card
+
+Bottom: an ISA networking card and an AGP graphics card, not pictured is the PCI connector
+
+{{< /smalltext >}}
 
 ## ROM/BIOS/UEFI
 

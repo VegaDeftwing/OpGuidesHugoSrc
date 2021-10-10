@@ -42,5 +42,5 @@ no debters prision
 
 # Prisions
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/6fiRDJLjL94?list=WL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/6fiRDJLjL94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
