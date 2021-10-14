@@ -160,6 +160,16 @@ https://www.mnot.net/blog/2020/08/28/for_the_users RFC8890
 
 https://medium.com/tech-thoughts-by-thegreatonion/how-the-earn-it-bill-undermines-americans-rights-online-8894d17cc427
 
+## Private Internet Policing
+
+[Credit-card firms are becoming reluctant regulators of the web (The Economist)](https://www.economist.com/finance-and-economics/credit-card-firms-are-becoming-reluctant-regulators-of-the-web/21805450)
+
+## Centralization
+
+Cloudflare, AWS, etc.
+
+[Worst Case (Tim Bray @ tbray.org)](https://www.tbray.org/ongoing/When/202x/2021/10/08/The-WOrst-Case)
+
 ### Protecting general computation
 
 ### Encryption and illegal numbers

@@ -42,6 +42,8 @@ slug: "Labor"
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/LfgSEwjAeno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[The US Is Officially A Banana Republic: The Top 1% Now Own More Wealth Than The Entire Middle Class (zerohedge.com)](https://www.zerohedge.com/markets/us-officially-banana-republic-top-1-now-own-more-wealth-entire-middle-class)
+
 ## Universal Basic Income
 
  <iframe width="100%" height="500" src="https://www.youtube.com/embed/kl39KHS07Xc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
