@@ -18,6 +18,8 @@ slug: "Digital Design"
 
 #### Pixel Art
 
+https://spritestack.io
+
 ### Vector Art
 
 inkscape

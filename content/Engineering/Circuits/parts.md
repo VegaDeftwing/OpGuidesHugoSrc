@@ -22,3 +22,6 @@ When thinking about electronics, it's easy to focus on the bits that electricity
 
 
 
+## Adapters
+
+\+ PCB footprint adapters, like SOP to DIP

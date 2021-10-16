@@ -1072,6 +1072,170 @@ See the <a href="/engineering/making/3dprint/">3D Printing & CNC</a> page from t
 
 {{< /details >}}
 
+{{< details title="Sequence Diagrams, Flow Charts, etc. (Mostly for the nerds)" >}}
+
+{{< columns2 >}}
+
+https://kroki.io
+
+<--->
+
+"Kroki provides a unified API with support for BlockDiag (BlockDiag, SeqDiag, ActDiag, NwDiag, PacketDiag, RackDiag), BPMN, Bytefield, C4 (with PlantUML), Ditaa, Erd, Excalidraw, GraphViz, Mermaid, Nomnoml, Pikchr, PlantUML, SvgBob, UMLet, Vega, Vega-Lite, WaveDrom... and more to come! "
+
+<--->
+
+<img src="/design/nerdtools/kroki.webp" alt=" ">
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Asciigrid](https://mbarkhau.keybase.pub/asciigrid/)
+
+<--->
+
+Ascii to SVG
+
+<--->
+
+<img src="/design/nerdtools/asciigrid.webp" alt=" ">
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[mscgen.js](https://mscgen.js.org)
+
+<--->
+
+Sequence Charts
+
+<--->
+
+<img src="/design/nerdtools/mscgen.webp" alt=" ">
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[SVG-Sequence-Diagram](https://sullerandras.github.io/SVG-Sequence-Diagram/){{< attribution >}}by [Andras Suller](https://github.com/sullerandras){{< /attribution >}}
+
+<--->
+
+Sequence Charts
+
+<--->
+
+<img src="/design/nerdtools/svgseqdiagram.webp" alt=" ">
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[chartmage](http://chartmage.com/index.html)
+
+<--->
+
+Sequence Diagrams & Flow Charts
+
+<--->
+
+<img src="/design/nerdtools/chartmage.webp" alt=" ">
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[state-machine-cat](https://state-machine-cat.js.org)
+
+<--->
+
+State Machines
+
+<--->
+
+<img src="/design/nerdtools/statemachinecat.webp" alt=" ">
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[xstate](https://xstate.js.org/viz/)
+
+<--->
+
+State Machines
+
+<--->
+
+<img src="/design/nerdtools/xstate.webp" alt=" ">
+
+{{< /columns >}}
+
+{{< columns2 >}}
+
+[penrose](https://github.com/penrose/penrose)
+
+<--->
+
+Set diagrams, see [building & running](https://github.com/penrose/penrose/wiki/Building-and-running)
+
+<--->
+
+<img src="/design/nerdtools/penrose.webp" alt=" ">
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[nomnoml](https://www.nomnoml.com)
+
+<--->
+
+Text to UML, actually good looking
+
+<--->
+
+<img src="/design/nerdtools/nomnoml.webp" alt=" ">
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[dbdiagram.io](https://dbdiagram.io/d)
+
+<--->
+
+database diagrams, it works
+
+<--->
+
+<img src="/design/nerdtools/dbdiagramio.webp" alt=" ">
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[wavedrom](https://wavedrom.com/editor.html)
+
+<--->
+
+Wave editor, for like showing bit patterns & such
+
+<--->
+
+<img src="/design/nerdtools/wavedrom.webp" alt=" ">
+
+{{< /columns2 >}}
+
+---
+
+{{< katex >}}\LaTeX \text{?}{{< /katex >}}
+
+If you're looking at this list, there's a good chance you're either writing up technical documentation or working on an academic paper, and so using LaTeX. First, I feel your pain. Second,  [This DSPTricksManual](https://ctan.math.illinois.edu/graphics/pstricks/contrib/dsptricks/dspTricksManual.pdf) from Paolo Prandoni may help with some graphing, as may all of the [Tikz Examples](https://texample.net/tikz/examples/) on texample.net. There's decent [Circuit](https://texample.net/tikz/examples/tag/circuitikz/) and [Block Diagram](https://texample.net/tikz/examples/tag/circuitikz/) examples, though I do still think loading in a picture from an external tool is probably in your best interest due to the PITA that is doing this in plain LaTeX.
+
+{{< /details >}}
+
 
 
 ---
@@ -1104,13 +1268,23 @@ There's a LOT more tools listed in the music chapters, but there's some more 'fo
 
 [Indra's Net (Reddit)](https://www.reddit.com/r/generative/comments/jvc93t/indras_net/)
 
-> Seriously, the three above pieces are some of my absolute favorite pieces. I think about them a lot.
+{{< speech >}}
 
-[Grant Custer's Feed](https://feed.grantcuster.com) + [Constraint.systems](https://constraint.systems)
+Seriously, the three above pieces are some of my absolute favorite pieces. I think about them a lot.
+
+{{< /speech >}}
+
+[Grant Custer's Feed](https://feed.grantcuster.com) + [Constraint.systems](https://constraint.systems) - I particularly like Grant's [Text Walk Scroller](https://observablehq.com/@grantcuster/text-walk-scroller) and [Moire](https://moire.constraint.systems)
 
 [Shadertoy](https://www.shadertoy.com/browse)
 
 [generated.space](https://generated.space)
+
+{{< speech right >}}
+
+From Generated.space, I particularly like [Marching Squares 2](https://generated.space/sketch/marching-squares-2/), [Perspective Map Trace](https://generated.space/sketch/perspective-map-trace/), [Map Trace](https://generated.space/sketch/map-trace/), [Fractal Square 2](https://generated.space/sketch/fractal-square-2/), [Noisify](https://generated.space/sketch/noisify/), and [Interactive Pixel Sorter](https://generated.space/sketch/interactive-pixel-sort/) - The latter two can really be used for original art directly even.
+
+{{< /speech >}}
 
 [Echo/printf to write images in 5 LoC with zero libraries or headers (Vidar's Blog)](https://www.vidarholen.net/contents/blog/?p=904)
 
@@ -1121,41 +1295,3 @@ There's a LOT more tools listed in the music chapters, but there's some more 'fo
 
 
 [META: Hacker News Submission on this page, with a bit of discussion](https://news.ycombinator.com/item?id=24889333)
-
-<!---
-
-https://kroki.io - "Kroki provides a unified API with support for BlockDiag (BlockDiag, SeqDiag, ActDiag, NwDiag, PacketDiag, RackDiag), BPMN, Bytefield, C4 (with PlantUML), Ditaa, Erd, Excalidraw, GraphViz, Mermaid, Nomnoml, Pikchr, PlantUML, SvgBob, UMLet, Vega, Vega-Lite, WaveDrom... and more to come! "
-
-https://mbarkhau.keybase.pub/asciigrid/ - ASCII to SVG
-
-https://mscgen.js.org - Sequence Charts
-
-https://www.websequencediagrams.com - Sequence Charts
-
-https://sullerandras.github.io/SVG-Sequence-Diagram/ - Sequence Charts
-
-http://chartmage.com/index.html - Sequence Diagrams & Flow Charts
-
-https://state-machine-cat.js.org - State Machines
-
-https://xstate.js.org/viz/ - State Machines x2
-
-https://github.com/penrose/penrose - Set diagrams, see [building & running](https://github.com/penrose/penrose/wiki/Building-and-running)
-
-https://www.nomnoml.com - Text to UML, actually good looking
-
-https://dbdiagram.io/d - database diagrams, it works
-
-https://wavedrom.com/editor.html - Wave editor, for like showing bit patterns & such
-
----
-
-https://spritestack.io
-
----
-
-https://ctan.math.illinois.edu/graphics/pstricks/contrib/dsptricks/dspTricksManual.pdf
-
-> So, using this in overleaf, exporting as pdf, then using `pdf2svg` works. It's awful to do, but it works.
-
---->

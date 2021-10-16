@@ -3,8 +3,9 @@
 <script>
     document.getElementById("mathMenu").open = true;
 </script>
-
 [Introduction To Calculus With Derivatives (adit.io)](https://adit.io/posts/2018-02-18-Introduction-To-Calculus-With-Derivatives.html)
+
+{{< best >}}[Calculus Made Easy](https://calculusmadeeasy.org){{< /best >}} by Silvanus P. Thompson
 
 [TODO] limits before video
 

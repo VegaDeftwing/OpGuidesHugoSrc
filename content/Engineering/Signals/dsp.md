@@ -20,6 +20,8 @@ https://zserge.com/posts/etude-in-c/ & https://zserge.com/posts/beep/
 
 [Vult DSP Programming Language](https://www.vult-dsp.com/vult-language)
 
+[Writing Efficent VCV Plugins](https://github.com/squinkylabs/Demo/blob/main/docs/efficient-plugins.md) from SquinkyLabs
+
 **Hardware**
 
 [A Transistor-less sound synthesizer (Hackaday, Jenny List, Dr. Cockroach)](https://hackaday.com/2020/10/24/a-transistor-less-sound-synthesizer/)
@@ -29,6 +31,8 @@ https://zserge.com/posts/etude-in-c/ & https://zserge.com/posts/beep/
 http://www.doepfer.de/DIY/a100_diy.htm
 
 > As a quick note, there are a ton of possible options when choosing what to use as hardware for devloping audio hardware. You can go full analog, work with dedicated DSP hardware, use microcontrollers with full FPUs, use single board computers, use an [FPGA (Like on the Rainmaker)](https://intellijel.com/downloads/manuals/cylonix-rainmaker_manual_v1.09-143.pdf), or try to get by on a 328P (Arduino Uno). The most important part is making something, don't stress too much about what you use to do it- but don't use something prohibitively expensive or outright garbage (like the 328P) either, unless you know what you're doing. The STM32's with FPU's are probably a good bet.
+
+[Digital Vintage Sound: Modeling Analog Synthesizers with the Wolfram Language and System Modeler](https://blog.wolfram.com/2020/07/23/digital-vintage-sound-modeling-analog-synthesizers-with-the-wolfram-language-and-system-modeler/)
 
 **Software**
 
@@ -43,6 +47,10 @@ http://www.doepfer.de/DIY/a100_diy.htm
 [Rust For DSP](https://interrupt.memfault.com/blog/rust-for-digital-signal-processing)
 
 [Learn Modern C++ by Building an Audio Plugin w/ JUCE Framework (YouTube - freeCodeCamp.org)](https://www.youtube.com/watch?v=i_Iq4_Kd7Rc)
+
+http://ajaxsoundstudio.com/software/pyo/
+
+
 
 ---
 

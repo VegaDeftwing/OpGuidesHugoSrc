@@ -42,3 +42,8 @@
 * Sensel Force Haptic Touchpad
 
   <iframe width="100%" height="500" src="https://www.youtube.com/embed/XuM2ZG_Hwjk?list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+* Furbymin Theremin SOA DC27 by [Harbinger LTD](https://www.tindie.com/stores/awkwardai/)
+
+  ![](https://cdn.tindiemedia.com/images/resize/YgU82IcM-y3AMVnFX9nsViQHsv0=/p/fit-in/1300x866/filters:fill(fff)/i/847311/products/2019-11-23T16%3A16%3A44.830Z-furbymin1.jpg?1606306133)
+
