@@ -123,6 +123,8 @@ SR, Dl, edge triggering, Dff, Tff, JKff,
 
 ### Registers
 
+\+ Shift registers
+
 ### Counters
 
 ## Memory Circuits
@@ -130,6 +132,8 @@ SR, Dl, edge triggering, Dff, Tff, JKff,
 ### Static Memory
 
 ### Dynamic Memory
+
+https://www.adafruit.com/product/1895
 
 ## Making Some Circuits
 

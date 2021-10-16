@@ -76,6 +76,8 @@ zeener, normal, bipolar
 
 [Tunnel Diodes (Wikipedia)](https://en.wikipedia.org/wiki/Tunnel_diode)
 
+Shottky
+
 [DIY Diode (Simplifier)](https://simplifier.neocities.org/diode.html) [Part 2](https://simplifier.neocities.org/diode2.html) [Part 3](https://simplifier.neocities.org/diode3.html) [Part 4: Power Diode](https://simplifier.neocities.org/powerdiode.html) 
 
 ### Diode Logic
@@ -143,6 +145,8 @@ potato semi
 
 [TODO]
 
+Opto Isolators, Vacttrols, Photoresistors
+
 ## Crystal Oscillators
 
 [TODO]
@@ -205,7 +209,26 @@ Relate back to things like ADSR, Distortion, Reverb / Echo, Decibels (audio), et
 
 [Why 10,000 Volts at altitude is a Bad Idea (YouTube, Strange Parts)](https://www.youtube.com/watch?v=MIqK45nxcTo)
 
-# Chapter 23.4 - Rare and Dangerous Componets
+TODO: Efuses
+
+# Chapter 23.4 - Parts you'll want to be aware exist
+
+* PLL
+* Logic Level Shifters
+* [LED Matrix Drivers](https://www.adafruit.com/product/2946)
+* Digipots
+* Rheostat
+* [TL431 - Programmable Refrence](https://www.youtube.com/watch?v=isutYMU2HHU)
+* Tempcos
+* PROM's
+* Regulators
+* Thyristors
+* Solenoid
+* Ferrite beads
+* Thermocouples
+* Spark Gaps
+
+# Chapter 23.5 - Rare and Dangerous Componets
 
 * Dangerous
   * Tesla coils
