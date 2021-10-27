@@ -265,6 +265,7 @@ headless: true
 <dt>1 </dt><dd> <a href="/design/basics/">Basics of Art</a></dd>
 <dt>2 </dt><dd> <a href="/design/analog-design/">Analog Art</a></dd>
 <dt>3 </dt><dd> <a href="/design/digital-design/">Digital Art</a></dd>
+<dt>3½</dt><dd> <a href="/design/dacadc/">DAC/ADC</a></dd>
 <dt>4 </dt><dd> <a href="/design/ui/">UI/UX</a></dd>
 <dt>5 </dt><dd> <a href="/design/3d/">3D</a></dd>
 <dt>6 </dt><dd> <a href="/design/generative-art/">Generative Tools</a></dd>
@@ -273,6 +274,7 @@ headless: true
 <dt>A3 </dt><dd> <a href="/design/photo/">Photo</a></dd>
 </dil>
 </div>
+
 
 ---
 
