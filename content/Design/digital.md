@@ -1,9 +1,3 @@
----
-title: "Digital Design"
-slug: "Digital Design"
-
----
-
 # Digital Art
 
 ## Raster, Vector, Pixel, Voxel, ASCII, Mesh, Fractal, Generative,
