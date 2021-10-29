@@ -213,8 +213,10 @@ headless: true
 <dt>A1 </dt><dd> <a href="/music/other-resources-music/">Other Resources</a></dd>
 <dt>A2 </dt><dd> <a href="/music/video/">Video</a></dd>
 <dt>A3 </dt><dd> <a href="/music/vcv/">VCV Tips</a></dd>
+<dt>A4 </dt><dd> <a href="/music/musicpiracy/">Piracy</a></dd>
 </dil>
 </div>
+
 
 
 
