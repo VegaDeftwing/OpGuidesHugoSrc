@@ -4,11 +4,19 @@ slug: "Foriegn"
 
 ---
 
-# War and Foreign Involvement
+# Foreign Involvement
 
-[TODO] DoD or Department of War?
+{{< bigquote "George Orwell, 1984" >}}The Ministry of Peace concerns itself with war, the Ministry of Truth with lies, the Ministry of Love with torture and the Ministry of Plenty with starvation{{< /bigquote >}}
 
-## Denuclearization
+In the US, we have the Department of Defense - the DOD. Whenever I think about that name I can't help but think about that quote from 1984. The Department of Defense is primarily concerned with war.
+
+But, literally Orwellian naming aside, what does it matter? Are there any just wars? And even beyond war, what should the role of a nation be in an international community? Should each nation look after their own first, should nations intervene when rights are not respected? Should we try to feed starving children across the world? How do we tackle climate change as underdeveloped nations start to industrialize? Should borders be open or rigidly closed - both for trade and for residance?
+
+## War & Defense
+
+### Just war theory
+
+### Denuclearization
 
 ## Localization
 
