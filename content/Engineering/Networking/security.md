@@ -1,4 +1,4 @@
-# Chapter 38 - Security & Exploitation
+# Chapter 40 - Security & Exploitation
 
 {{< hint warning >}}
 

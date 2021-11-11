@@ -1,4 +1,4 @@
-# Chapter 34 - Let's make our own CPU
+# Chapter 36 - Let's make our own CPU
 
 {{< tip >}}
 

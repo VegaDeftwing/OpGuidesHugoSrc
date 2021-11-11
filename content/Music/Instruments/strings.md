@@ -3,6 +3,10 @@
 <script>
     document.getElementById("instMenu").open = true;
 </script>
+![guitar](/nonfree/character/guitar.webp)
+
+{{< attribution >}}Picture of my character by [Alex the Nerd Bird](alexthenerdbird.weebly.com) {{< /attribution >}}
+
 ## Guitars
 
 ### Acoustic, Electric, Acoustic-Electric?
