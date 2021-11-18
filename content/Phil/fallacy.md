@@ -439,6 +439,18 @@ Basically, people might use protecting children an an excuse to ban all porn or 
 
 ![](/phil/sdbag.webp)
 
+# Fractal Wrongness
+
+{{< quote "[Rational Wiki](https://rationalwiki.org/wiki/Fractal_wrongness)" >}}
+
+**Fractal wrongness** is the state of being wrong at every conceivable scale of resolution. That is, from a distance, a fractally wrong person's worldview is incorrect; and furthermore, if you zoom in on any small part of that person's worldview, that part is just as wrong as the whole worldview.
+
+[...]
+
+Fractally wrong people are often immune to the [stopped clock rule](https://rationalwiki.org/wiki/Stopped_clock) because they are not exactly *stopped* clocks. More like clocks losing a random number of seconds a day, in the wrong time zone of the wrong planet, in the wrong solar system.
+
+{{< /quote >}}
+
 # Other Resources
 
 [Logicalfallacies.org](https://www.logicalfallacies.org) covers many of these same fallacies, plus a few I didn't touch on, and is hugely better written. Give it a look

@@ -270,3 +270,14 @@ Balance skepticism with openness.
 ## Religion?
 
 I very intentionally didn't bring religion into any of this, because I am aware of my own biases. That said, I think some may find the series [Philosophical Failures of Christian Apologetics (AntiCitizenX, YouTube)](https://www.youtube.com/watch?v=lroKN5gdm08&list=PL3IOkNR8_9gpQa5teO1xQANB-3MiY17uk) interesting. I think it makes some interesting points and may even be interesting for readers that are currently on the fence about religion. I want to be clear, I don't see *any* religion as a "diseased idea" as I put it above; however, I do see many of the things that many religions preach as such. I think having belief in a higher power is fine, especially since mortality is scary and it can help. What I don't think is fine is claiming that higher power justifies ignoring scientific studies or hating a group of people because of a bullshit excuse provided by (or grossly grafted onto) that belief system. Your religion (or lack of) doesn't give you a right to be a dick or be ignorant.
+
+---
+
+## A small exception
+
+I said the best thing you can do is to remove the platform, right? Well, there's another, risky, option: Let them look like absolute idiots on your platform without being directly malicious. Let them trip over themselves. This requires a lot of skill, a particularly poorly informed but confident individual, and an unsympathetic character. There's a lot of reasons you shouldn't try to do this, but when done well it can be a work of art. That said, this same though may well be why Trump won the 2016 election, as he was shown on every news station but not taken seriously- so proceed with caution.
+
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">There&#39;s power in understanding a position you oppose better than people who support it. You can avoid looking foolish like this. <a href="https://t.co/jTzX2lhQs7">https://t.co/jTzX2lhQs7</a></p>&mdash; Kye Fox (@KyeFox) <a href="https://twitter.com/KyeFox/status/1455519411503251463?ref_src=twsrc%5Etfw">November 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/NzDhm808oU4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+

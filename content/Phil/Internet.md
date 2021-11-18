@@ -164,11 +164,13 @@ https://medium.com/tech-thoughts-by-thegreatonion/how-the-earn-it-bill-undermine
 
 [Credit-card firms are becoming reluctant regulators of the web (The Economist)](https://www.economist.com/finance-and-economics/credit-card-firms-are-becoming-reluctant-regulators-of-the-web/21805450)
 
-## Centralization
+## Centralization & Monopoly
 
 Cloudflare, AWS, etc.
 
 [Worst Case (Tim Bray @ tbray.org)](https://www.tbray.org/ongoing/When/202x/2021/10/08/The-WOrst-Case)
+
+[Google sends anti-regulation propaganda to small businesses using Google Maps (arsTechnica)](https://arstechnica.com/gadgets/2021/11/google-sends-anti-regulation-propaganda-to-small-businesses-using-google-maps/)
 
 ### Protecting general computation
 

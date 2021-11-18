@@ -34,6 +34,8 @@ http://www.doepfer.de/DIY/a100_diy.htm
 
 [Digital Vintage Sound: Modeling Analog Synthesizers with the Wolfram Language and System Modeler](https://blog.wolfram.com/2020/07/23/digital-vintage-sound-modeling-analog-synthesizers-with-the-wolfram-language-and-system-modeler/)
 
+[Reverse-engineering the Yamaha DX7 synthesizer's sound chip from die photos (Ken Shirriff's Blog)](https://www.righto.com/2021/11/reverse-engineering-yamaha-dx7.html)
+
 **Software**
 
 [Awesome Audio Visualization (Github)](https://github.com/willianjusten/awesome-audio-visualization)

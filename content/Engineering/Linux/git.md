@@ -99,7 +99,7 @@ https://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/
 
 [What will happen when you commit secrets to a public Git repo? ](https://tinysubversions.com/spooler/?url=https://twitter.com/andrzejdyjak/status/1324360914812940293)
 
-
+http://www.ndpsoftware.com/git-cheatsheet.html#loc=index;
 
 https://onlywei.github.io/explain-git-with-d3/
 
