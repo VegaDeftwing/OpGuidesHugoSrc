@@ -10,6 +10,12 @@
 
 [Unsplash](https://unsplash.com) is a good source for '[Freely usable images](https://unsplash.com/license)' if you need some source material
 
+[TODO] Krita tutorial, including some 'advanced' things like the transfrom tool https://docs.krita.org/en/reference_manual/tools/transform.html, color fliters, seeexpr, etc.
+
+https://krita-artists.org/t/brush-pack-deevads-2021-bundle/27130
+
+
+
 #### Pixel Art
 
 https://spritestack.io

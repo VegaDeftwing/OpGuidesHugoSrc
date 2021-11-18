@@ -1,5 +1,7 @@
 # Chapter 36 - Let's make our own CPU
 
+[How To Make A CPU - A Simple Picture Based Explanation (RobertElder)](https://blog.robertelder.org/how-to-make-a-cpu/)
+
 {{< tip >}}
 
 This Chapter will be split into three parts:</br></br>Part 1, understanding the interval workings of a CPU. This is effectively just a computer architecture class, and will be by far the largest section.</br></br>Part 2, making that CPU on an FPGA.</br></br>Part 3, making that CPU do something.

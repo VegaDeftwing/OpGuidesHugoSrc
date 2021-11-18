@@ -21,9 +21,15 @@ https://erikmcclure.com/blog/factorio-is-best-interview-we-have/
 
 [10 questions to ask in a job interview that will really expose a company’s culture](https://www.fastcompany.com/90622890/10-questions-to-ask-in-a-job-interview-that-will-really-expose-a-companys-culture) (and [hacker news comments](https://news.ycombinator.com/item?id=26854130))
 
+
+
 ## Know your worth
 
 [TODO] looking up salary before hand
+
+## Making a Résumé
+
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">This is brilliant: Software engineer got tired of getting rejected by automated screeners and tested a theory.<br><br>Real resume: 0% success<br><br>Obviously fake resume stuffed with buzzwords: 90% success rate<br><br>Calls from from Notion, AirBnB, Reddit, Dropbox, Robinhood, etc <a href="https://t.co/m80GUnPsr2">pic.twitter.com/m80GUnPsr2</a></p>&mdash; Coding Career Community (@Coding_Career) <a href="https://twitter.com/Coding_Career/status/1454293034179317764?ref_src=twsrc%5Etfw">October 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 # Self Employment?
 

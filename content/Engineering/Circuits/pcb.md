@@ -746,6 +746,10 @@ and technically resistors and [fuses](https://www.youtube.com/watch?v=CMlpCX0bug
 
 0-ohm resistors to keep 1-sidded
 
+https://hackaday.com/2021/11/08/heavy-copper-pcb-hack-chat/
+
+
+
 # Chapter 26.2 - PCB 'Badges'
 
 ![badges](/eng/badges.webp)

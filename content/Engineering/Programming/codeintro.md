@@ -79,6 +79,8 @@ https://hexy.now.sh is inspired by tixy but has some extra interesting features,
 
 https://doersino.github.io/tixyz/ is the same as tixy, but add's a 3rd dimension
 
+https://play.ertdfgcvb.xyz/ is similar, but lets you write dramatically more advanced code
+
 {{< /hint >}}
 
 {{< /columns >}}

@@ -357,6 +357,8 @@ When we installed arch we actually changed the default shell from bash to zsh, b
   * alternative to echo, but significantly furrier
 * [broot](https://github.com/Canop/broot)
   * alternative to `tree`, but optimizes for available screen space, and navigate the tree and cd to it
+* [mosh](https://mosh.org)
+  * alternative to ssh, but better for unstable connections, shows local typing without the input-loop (and so is more responsive) and is just genearlly a lot better... just not standard. You can make it work with only ssh though, no root needed.
 
 ## Useful Non-Stock CLI Tools
 

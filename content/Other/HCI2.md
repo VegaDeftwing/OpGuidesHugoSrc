@@ -723,6 +723,8 @@ Google also needs to quit their shit with information cards:
 
 <blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/FPQnLW60Vt">pic.twitter.com/FPQnLW60Vt</a></p>— Randall Munroe (@xkcd) <a href="https://twitter.com/xkcd/status/1333621855001976832?ref_src=twsrc%5Etfw">December 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+And it'd be great if something could actually be done about big sites like [Pinterest and Quora gaming Google](https://www.inputmag.com/culture/pinterest-sucks-google-image-photo-search-ruining-internet) 
+
 Finally, I do want to end on a positive note: [Google is trying to show why results are ranked how they are](https://searchengineland.com/google-now-shows-why-it-ranked-a-specific-search-result-350659), and that's actuallypretty cool.
 
 #### Pay-Walls suck

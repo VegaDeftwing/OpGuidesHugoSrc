@@ -572,7 +572,9 @@ https://adamcaudill.com/2015/11/19/responsible-disclosure-is-wrong/
 
 ## Elections
 
+## Game Hacking
 
+https://gamehacking.academy/GameHackingAcademy.pdf
 
 ## Getting some practice
 
@@ -622,7 +624,7 @@ https://opensecuritytraining.info
 
 [Diabetics Are Hacking Their Own Insulin Pumps](https://www.youtube.com/watch?v=bouYRMItWnI)
 
-
+[Beg Bounties (Troy Hunt from haveibeenpwned)](https://www.inputmag.com/culture/pinterest-sucks-google-image-photo-search-ruining-internet)
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Wow. <a href="https://twitter.com/sparkfun?ref_src=twsrc%5Etfw">@sparkfun</a> made an app that searches for nearby bluetooth devices that might be ATM/gas pump skimmers.<br><br>That&#39;s some real cyberpunk shit. <a href="https://t.co/CLsI5RKxMC">pic.twitter.com/CLsI5RKxMC</a></p>&mdash; foone (@Foone) <a href="https://twitter.com/Foone/status/910217984098017281?ref_src=twsrc%5Etfw">September 19, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
