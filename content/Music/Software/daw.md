@@ -85,7 +85,27 @@ lil' aside: Ableton makes organizing VSTs a tad awkward, so you should know it w
 ---
 
 * Expensive, paid updates
-* Piano Roll sorta sucks- doesn't even have scale highlighting
+* <div class="progress-ww">
+  <dl>
+  <dt>1 </dt><dd> <a href="/design/web/jack/">Jack of all trades</a></dd>
+  <dt>2 </dt><dd> <a href="/design/web/garden/">Your own garden</a></dd>
+  </details> </dd>
+     <dt>3 </dt><dd> <details id="webMenu"> <summary><a href="/design/web/langs">HTML, CSS, JS, WUT?</a></summary>
+      <dt class="sub">3.1</dt><dd class="sub"> <a href="/design/web/langs/html/"> HTML</a></dd>
+  	  <dt class="sub">3.2</dt><dd class="sub"> <a href="/design/web/langs/css/"> CSS</a></dd>
+      <dt class="sub">3.3</dt><dd class="sub"> <a href="/design/web/langs/js/"> JS</a></dd>
+     </details> </dd>
+  <dt>4 </dt><dd> <a href="/design/web/static/">Static & Dynamic</a></dd>
+  <dt>5 </dt><dd> <a href="/design/webl/cost/">Cost?</a></dd>
+  <dt>6 </dt><dd> <a href="/design/web/setup/">Getting Setup</a></dd>
+  <dt>7 </dt><dd> <a href="/design/web/content/">Content is King</a></dd>
+  <dt>8 </dt><dd> <a href="/design/web/thinkingweb/">Thinking Web</a></dd>
+  <dt>8½</dt><dd> <a href="/design/web/access/">Accessability</a></dd>
+  <dt>A1 </dt><dd> <a href="/design/web/tools/">Web development tools</a></dd>
+  <dt>A2 </dt><dd> <a href="/design/web/resources/">Other Resources</a></dd>
+  </dil>
+  </div>
+  
   * MPE works beautifully though
 * Not as many built in devices as Ableton
 * Better multi monitor support than Ableton
