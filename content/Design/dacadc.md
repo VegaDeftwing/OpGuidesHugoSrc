@@ -1,6 +1,8 @@
 # Analog Art to Digital Art
 
-[TODO] Scanner DPI, background removal
+## Scanning in your Analog Art
+
+[TODO] Scanner DPI, etc.
 
 ## Background Removal
 
@@ -40,17 +42,19 @@ You may want to experiment with the *multiple scans* → *colors* option if you 
 <img src="/nonfree/blog/comountainsvg.svg" alt=" " width="100%">
 {{< smalltext >}}SVG result after tracing{{< /smalltext >}}
 {{< /columns >}}
-Heads up, this will take a long time on high resolution, large images, and produce much larger vector files. The input image here is a 3.2MB JPEG, the output is a 17.9Mb SVG. This is largely because this is the worst possible way to use an SVG. As for settings, this was done with multiple scans → Colors with 10, stacked scans, optimize of 5.00, smooth corners of 1.24, and spectkles of 9. Also, the output will likely have some gaps letting the background color show though- so it may look different on a dark or light background. If effect this is your goal, please just use a posterize effect. It'll be much more optimized and probably look better. So why show it? The cool thing here is that you could easily delete one color, or pull out just one as a trace.
+Heads up, this will take a long time on high resolution, large images, and produce **much** larger vector files. The input image here is a 3.2MB JPEG, the output is a <u>17.9Mb</u> SVG! This is largely because this is the worst possible way to use an SVG. So why show it? The cool thing here is that you could easily delete one color, or pull out just one as a trace.
+
+{{< smalltext >}}In Inkscape, this was done with "multiple scans → Colors" with 10, stacked scans, optimize of 5.00, smooth corners of 1.24, and spectkles of 9. Also, the output will likely have some gaps letting the background color show though- so it may look different on a dark or light background. When done, all the layers will be grouped by default in Inkscape. To get at the individual layers right click→ungroup. If this effect alone this is your goal, <u>please consider using a [posterize effect](https://en.wikipedia.org/wiki/Posterization)</u>. It'll be much more optimized and probably look better.{{< /smalltext >}}
+
 <div style="">
 {{< columns >}}
-
 <img src="/nonfree/blog/comountainsvg3.svg" alt=" " style="background-color: #fff;">
 {{< smalltext >}}SVG with only some of the cool tone layers remainig{{< /smalltext >}}
 
 <--->
 
 <div id="demoElement"></div>
-{{< smalltext >}}SVG with animation{{< /smalltext >}}
+{{< smalltext >}}SVG with animation using [pablo.js](http://pablojs.com){{< /smalltext >}}
 
 {{< /columns >}}
 </div>
@@ -75,3 +79,16 @@ Pablo(demoElement).load("/nonfree/blog/comountainsvg.svg", function(comountainsv
      }, 7000);
     });
 </script>
+# Digital Art to Analog Art
+
+[TODO]
+
+## 2D
+
+### Printing & Plotting
+
+#### Paper & Inks
+
+## 3D
+
+3D printing vs CNC
