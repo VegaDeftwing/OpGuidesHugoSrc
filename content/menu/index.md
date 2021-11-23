@@ -2,8 +2,7 @@
 headless: true
 ---
 
-<script>    document.getElementById("webMenu").open = true;</script>
-
+<div class="navbak" style="background:#009CDF;>
 
 - [**Engineering**]({{< relref "/Engineering/Engineering" >}})
 
@@ -146,11 +145,6 @@ headless: true
 <dt>40½</dt><dd> <a href="/engineering/networking/privacy/">Privacy</a></dd>
 </dil>
 </div>
-
-
-
-<!--  - [24 - ]({{< relref "/Engineering/24-" >}}) -->
-
 <p style="color:#009CDF;margin-bottom:0px;" >    Making and Hobbies</p>
 
 <div class="progress-ww">
