@@ -2,7 +2,7 @@
 
 ## What makes it 'analog'
 
-So, for OpGuides I'm going to refer to any non-digital art as analog. Traditionally, this art is called, well, traditional. I don't like this term as it implies that there's a right 'traditional' way to do things, and that's a load of shit. So, whenever I say analog, don't think about it to much. I just mean not using software and a computer, or, if a computer is used, it's minimal, like 3D printing some parts of a larger sculputure and the like.
+So, for OpGuides I'm going to refer to any non-digital art as analog. Traditionally, this art is called, well, traditional. I don't like this term as it implies that there's a right 'traditional' way to do things, and that's a load of shit. So, whenever I say analog, don't think about it to much. I just mean not using software and a computer, or, if a computer is used, it's not necessary for the end product, like 3D printing and the like.
 
 ## Pen/Pencil and Paper
 
