@@ -14,7 +14,7 @@ Before doing this, you should really know what vector art is and how it differs 
 
 1. Open Inkscape
 
-2. Drop you image in
+2. Drop your image in
 
 3. Right click the image
 
