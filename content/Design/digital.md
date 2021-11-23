@@ -1,10 +1,34 @@
 # Digital Art
 
+<img src="/unsplash/tablet.webp" alt=" ">
+
+{{< attribution >}}Photo by [cece kun](https://unsplash.com/@kucee){{< /attribution >}}
+
+## The primary tool of the digital artist ... The pen?
+
+I want to give you a heads up that making digital art without a pen tablet or pen display of some sort is pretty awful. You can get a cheap pen tablet - they're basically like a mousepad that you use a pen on - for ~$30. Or you can get a fancy pen display, where you draw directly on the screen, for about ~\$300 (similar to the one in the picture above; however, one that large is probably much more expensive)
+
+I personally find it very difficult to use the cheaper kind, but YMMV.
+
+Depending on the type of art you want to do, it may still be practical to work without a pen tablet, but if you want to do digital painting or drawing like you would on paper, this is pretty much a necessity.
+
+There are a few 'gotchas' to be aware of when shopping for a good pen display.
+
+* **The connection** - depending on your setup, you might have to run a squid of cables (HDMI, USB, and Power) or just one (Everything over USB-C) but this requires knowing if your computer's USB-C ports support both the power draw and display output and if the tablet you're getting can do that too. You might just have to live with the squid
+* **The pen** - some pens need power, and charging pens is kind of annoying. To my knowledge, powered pens are no more accurate/better than the unpowered alternatives
+* **The screen** - Beyond resolution and color accuracy, you'll also want to pay attention to the seperation between the pen and the actual display. Thicker glass or air between the glass and the actual panel make the pen feel much worse to use as there will be a visual offset between the tip of the pen and the thing your drawing.
+
+As for the cheaper pen tablets, well, I haven't really noticed a difference between the feeling of cheap and expensive ones. If someone knows better, please get in touch!
+
 ## Raster, Vector, Pixel, Voxel, ASCII, Mesh, Fractal, Generative,
 
 **Projection Mapping, Creative Code, ...**
 
 ### Raster Art
+
+When you think digital art, raster art is probably what you're thinking of. Generally, you get a big canvas, a bunch of "brushes" (which is a term used generically in digital art to mean all hand tools- pens and erasers included), a few effects, useful tools like selection masks, and almost always you can work on multiple layers. There's a seemingly infinite number of great raster art programs to choose from, but out of everything I've tried I've had the best luck with [Krita](https://krita.org), which is great because Krita is also free!
+
+So, let's dive in and explore the basics of Krita!
 
 [PhotoGIMP](https://github.com/Diolinux/PhotoGIMP) is a patch for Gimp that makes it look more like Photoshop, adds fonts and some filters.
 
@@ -18,7 +42,19 @@ https://krita-artists.org/t/brush-pack-deevads-2021-bundle/27130
 
 #### Pixel Art
 
+Okay, so *technically* pixel art is just raster art; however, there's an implication with the term that you're working with a very limited resolution.
+
 https://spritestack.io
+
+https://marmoset.co/hexels/
+
+grafx2
+
+https://www.piskelapp.com
+
+##### Isometric projections
+
+##### Non-square pixels
 
 ### Vector Art
 
