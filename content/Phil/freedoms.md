@@ -54,11 +54,19 @@ Marital Rape, Euthanasia, Abortion, AI recognition and usage, gene ownership
 
 Vaccination, local pollution
 
-### Freedom of Travel
+## Freedom of Travel
 
 Immigration, Citizenship testing
 
-### Personal Armament
+## Personal Armament
+
+{{< speech big >}}
+
+Before we talk about this at all, I want to get one thing out of the way:
+
+The 2nd amendment does not make gun ownership right or wrong. Laws - including the constitution - do not dictate morality and ethics. We all know there are unjust laws and many choose to break them because of it. So, if you use the argument "But Muh Constitution!" you've already made a bad argument.
+
+{{< /speech >}}
 
 To begin, let's suppose that self-defense were not a problem because everyone was nice. Why own a gun?
 
@@ -66,11 +74,17 @@ Basically, the only reasons left are related to sporting and hunting (which for 
 
 A laxly secured gun can be stolen, misused by friends or family, or used in a suicide rather than a homicide. Even worse are when they are unsecured around children.
 
-While the actual usability of a handgun for self-defense against burglaries is questionable (you ar e vastly more likely to be shot with your own gun by a burglar than the other way around), what about the philosophy of self-defense in general?
+{{< speech right >}}
+
+Okay, sure, you can do some advanced gun security, including using "smart guns" which can only be fired by the owner; however, that still means they could be used by the owner, most notably for domestic violence. Of course, now we've left our "Everybody is nice" scenario though.
+
+{{< /speech >}}
+
+While the actual usability of a handgun for self-defense against burglaries is questionable (you are vastly more likely to be shot with your own gun by a burglar than the other way around), what about the philosophy of self-defense in general?
 
 This comes down to two arguments, both of which are based on evidence.
 
-#### The Leviathan: The Case Against Personal Self Defense
+### The Leviathan: The Case Against Personal Self Defense
 
 In his book *The Leviathan*, Thomas Hobbes famously explains why government (in his case, a strong monarchy) should have a monopoly on the use of violence.
 
@@ -100,7 +114,7 @@ Following this bit of sociology, no one should personally own a gun unless they 
 
 However, there is a counter-argument to this.
 
-#### Anarchistic Decline: The Case Against Hobbes
+### Anarchistic Decline: The Case Against Hobbes
 
 Many anarchists believe that Thomas Hobbes was wrong, and cite modern statistics which suggest violence is driven by other things.
 
@@ -114,19 +128,41 @@ As another example, consider something else the leviathan deters against: proper
 
 These social causes, in the Anarchist view, are the real causes of all crime, including violent crime. Living under a leviathan, they argue, has shown people that it is actually in their own self-interest to arbitrate rather than reach for violence as a tool at all.
 
-Many middle-class people have learned not to rely on the police if their cars are stolen, merely their insurance company to take that risk for them pay them out. Even more than that, almost a third of murder victims did not want the state to "avenge them", and would be fine with the murderer not going to prison for decades so long as they understood who they hurt and what they did.
+Many middle-class people have learned not to rely on the police if their cars are stolen, merely their insurance company to take that risk for them pay them out. Even more than that, the majority of citizen see the current methods of "justice" as doing more harm than good, and this still holds true even for those that are victims of serious crimes: rehabilitation is preferred over long punishment like lengthy prison sentences. ([source](https://allianceforsafetyandjustice.org/wp-content/uploads/documents/Crime%20Survivors%20Speak%20Report.pdf))
 
-In addition, restorative justice programs are based on this premise: there is no need for leviathan punishment to deter crime, people see arbitration and recompense positively on their own merits.
+<!--almost a third of murder victims did not want the state to "avenge them", and would be fine with the murderer not going to prison for decades so long as they understood who they hurt and what they did.-->
+
+Restorative justice programs are based on this premise: there is no need for leviathan punishment to deter crime, people see arbitration and recompense positively on their own merits.
 
 Anarchists want to use this argument to completely get rid of the leviathan, but that is a larger topic. The main point is, under this rubric, anyone who wants a gun should get one -- because as a secular trend, very few people want one. It trusts those individuals to have a good reason, and still see themselves as part of a community.
 
-#### So What Do?
+### Other Arguments You Should Think About
 
-Read them and decide for youself. I can see them both as reasonable.
+**Assuming we agree on X, what about Y?**
+
+* *if* we agree guns are okay, what guns?
+  * Limits on firing rate?
+  * Limits on magazine size?
+* *if* we agree that some people shouldn't have guns, who?
+  * Mental health checks?
+  * Should you need a license to own any gun?
+  * How do we keep this restrictions from being racist or classist?
+* *if* we agree that guns are useful for self defense, when is shooting someone right?
+  * Is it okay to shoot strictly to defend property?
+
+### A note on statistics
+
+Many pro or anti-gun stats you read are bullshit, or at least framed into being bullshit. My favorite is anything relating to "Do gun control laws work?" because, depending on where you look, the answer varies, and like, no shit the answer will be different depending on if you're looking at an already high crime, marginalized community with distrust of the police or a low crime, wealthy white suburb.<a class="ptr">(1)</a> Really, the biggest problem here is that we're trying to work with to many variables and assumptions about what can be changed - the effectiveness of gun control will depend on an areas education level, poverty rate, culture, and *obviously* the crime rate. That said, it's also pretty obvious the homicide rate (and so crime rate) will be influenced by the number of guns- though the direction of that influence may change depending on the other factors! Basically, if you want numbers that mean anything, you need to ask more specific questions.
+
+### So What Do?
+
+Read arguments and decide for yourself. I can see both sides as reasonable <a class="ptr">(2)</a>.
 
 Oh, and don't ever tell me that you need a gun "just in case we have to overthrow the government." After January 6th, 2021, I will not tolerate that bullshit.
 
-### Right to record, Right to know
+Required viewing: [Texas Students Opt For C*cks Not Glocks: The Daily Show (YouTube)](https://www.youtube.com/watch?v=UbJKhvmshGs)
+
+## Right to record, Right to know
 
 - if it is public, there's reason to expect you may be
 - if it is private, person to person, (not b2b or p2b) there's an exception for if it only for personal or judical (to be used in trial) use.
@@ -195,3 +231,9 @@ Users have the right to inspect and modify code and content that is placed on a 
 
 In addition to inspecting and modifying code, users have the right to tell other people about their discoveries. Users have the right to teach other people how to perform similar inspections and modifications. Users also have the right to distribute software that assists other people in inspecting and modifying local code and content.
 
+
+
+<ol hidden id="footnotes">
+    <li>This also brings up the question of "Are Gun Control Laws Racist?" if they're heavily targeted at minority neighborhoods, and yeah, that's a legitimate point. in 2021, the Rittenhouse case (where a white, 17yo openly carried an AR-15 shot into a crowd that was protesting the death of Jacob Blake, a black man that was murdered by police, was ultimately fonud not guilty) makes an interesting point of the disparity between the treatment of gun ownersip based on skin color. That said, while it is possible for gun control laws to be racist directly - such as targetting specific neighboorhods - it is more likely that the law is written well intentioned but executed with prejudice, such as when MLK was denied a concealed carry permit even after his house had been firebombed. This moves the question into one about police and executive branch refrom though, which isn't the point of this section.</li>
+    <li>...sort of reasonable. Unfettered, you can buy an AR-15 at any WalMart with no background check is obviously crazy. Similarly, saying absolutely no guns ever isn't really right, as many people do enjoy them for sport, even at shooting ranges which are nutritiously incredibly safe. I really don't think many people are arguing for either extreme though, so really all I ask is that you give it some real thought and consider where you fall on that spectrum.<li>
+</ol>
