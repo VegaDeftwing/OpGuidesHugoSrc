@@ -247,7 +247,6 @@ headless: true
 <dt>15 </dt><dd> <a href="/phil/medical/">Medical</a></dd>
 <dt>16 </dt><dd> <a href="/phil/foriegn/">Foriegn Involvement</a></dd>
 <dt>17 </dt><dd> <a href="/phil/voting/">Voting</a></dd>
-<dt>18 </dt><dd> <a href="/phil/freedoms/">Freedoms & Rights</a></dd>
 <dl>
    <dt>18 </dt><dd> <details id="freedomMenu"> <summary><a href="/phil/freedoms/freedoms/">Freedoms</a></summary>
     <dt class="sub">.1 </dt><dd class="sub"> <a href="/phil/freedoms/speech/"> Speech</a></dd>
