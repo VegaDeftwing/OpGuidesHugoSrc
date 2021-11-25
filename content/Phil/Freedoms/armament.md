@@ -1,64 +1,6 @@
----
-title: "Freedoms"
-slug: "Freedoms"
+# Personal Armament
 
----
-
-# Freedoms and Rights
-
-## Freedom of Speech
-
-![](https://imgs.xkcd.com/comics/free_speech.png)
-
-{{< attribution >}}
-
-[xkcd №1357](https://xkcd.com/1357/)
-
-{{< /attribution >}}
-
-[TODO] Hate speech?
-
-[TODO] Limits, XY plot of how much harm vs risk for shutting down 'good' speech
-
-* Don't Yell Fire
-* Don't lie to cause harm "That man punched my baby"
-* (Questionable) Don't incite violence "Let's burn down the police station"
-
-## Freedom of Press
-
-Everyone is press, https://www.eff.org/bloggers
-
-[The Trump Administration Is Trying To Force BuzzFeed News To Divulge Its Sources With A Subpoena](https://www.buzzfeednews.com/article/hamedaleaziz/ice-subpoena-buzzfeed-immigration-sources)
-
-anti-SLAPP laws
-
-### Whistle Blower Protections
-
-https://en.wikipedia.org/wiki/List_of_whistleblowers
-
-## Search and Seizure
-
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/XEVlyP4_11M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/3kEpZWGgJks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Fair Trial
-
-### Court of Public Opinion
-
-## Freedom of Body
-
-Marital Rape, Euthanasia, Abortion, AI recognition and usage, gene ownership
-
-## Freedom of environmental concern
-
-Vaccination, local pollution
-
-## Freedom of Travel
-
-Immigration, Citizenship testing
-
-## Personal Armament
+<script>document.getElementById("freedomMenu").open = true;</script>
 
 {{< speech big >}}
 
@@ -84,7 +26,7 @@ While the actual usability of a handgun for self-defense against burglaries is q
 
 This comes down to two arguments, both of which are based on evidence.
 
-### The Leviathan: The Case Against Personal Self Defense
+## The Leviathan: The Case Against Personal Self Defense
 
 In his book *The Leviathan*, Thomas Hobbes famously explains why government (in his case, a strong monarchy) should have a monopoly on the use of violence.
 
@@ -114,7 +56,7 @@ Following this bit of sociology, no one should personally own a gun unless they 
 
 However, there is a counter-argument to this.
 
-### Anarchistic Decline: The Case Against Hobbes
+## Anarchistic Decline: The Case Against Hobbes
 
 Many anarchists believe that Thomas Hobbes was wrong, and cite modern statistics which suggest violence is driven by other things.
 
@@ -136,7 +78,7 @@ Restorative justice programs are based on this premise: there is no need for lev
 
 Anarchists want to use this argument to completely get rid of the leviathan, but that is a larger topic. The main point is, under this rubric, anyone who wants a gun should get one -- because as a secular trend, very few people want one. It trusts those individuals to have a good reason, and still see themselves as part of a community.
 
-### Other Arguments You Should Think About
+## Other Arguments You Should Think About
 
 **Assuming we agree on X, what about Y?**
 
@@ -150,88 +92,17 @@ Anarchists want to use this argument to completely get rid of the leviathan, but
 * *if* we agree that guns are useful for self defense, when is shooting someone right?
   * Is it okay to shoot strictly to defend property?
 
-### A note on statistics
+## A note on statistics
 
 Many pro or anti-gun stats you read are bullshit, or at least framed into being bullshit. My favorite is anything relating to "Do gun control laws work?" because, depending on where you look, the answer varies, and like, no shit the answer will be different depending on if you're looking at an already high crime, marginalized community with distrust of the police or a low crime, wealthy white suburb.<a class="ptr">(1)</a> Really, the biggest problem here is that we're trying to work with to many variables and assumptions about what can be changed - the effectiveness of gun control will depend on an areas education level, poverty rate, culture, and *obviously* the crime rate. That said, it's also pretty obvious the homicide rate (and so crime rate) will be influenced by the number of guns- though the direction of that influence may change depending on the other factors! Basically, if you want numbers that mean anything, you need to ask more specific questions.
 
-### So What Do?
+## So What Do?
 
 Read arguments and decide for yourself. I can see both sides as reasonable <a class="ptr">(2)</a>.
 
 Oh, and don't ever tell me that you need a gun "just in case we have to overthrow the government." After January 6th, 2021, I will not tolerate that bullshit.
 
 Required viewing: [Texas Students Opt For C*cks Not Glocks: The Daily Show (YouTube)](https://www.youtube.com/watch?v=UbJKhvmshGs)
-
-## Right to record, Right to know
-
-- if it is public, there's reason to expect you may be
-- if it is private, person to person, (not b2b or p2b) there's an exception for if it only for personal or judical (to be used in trial) use.
-  - I.E, can't post it online if it's unreasonable to expect being recorded
-
-## Promise of Ownership
-
-Drm, General Purpose Computation, Right to Repair, etc.
-https://www.youtube.com/watch?v=HUEvRyemKSg
-
-
-
----
-
-# Digital Manifesto
-
-**Our inalienable rights within the digital age**
-
-By Daniel Shumway- released as Public Domain.
-
-{{< hint gray>}}
-
-The following has been directly taken from https://anewdigitalmanifesto.com, where it is presented much more elegantly. I have chosen to include the full text as a sort of archival of the site.
-
-{{< /hint >}}
-
-Users and communities have the right to communicate with one another, both publicly and privately. Users have the right to encrypt or hide communications that they wish to be private. No one has the right to preemptively force a user to reveal or broadcast who they are communicating with, or even that they are communicating at all.
-
-Users have the right to publicly publish information and content, even if it is not directed at a specific person or recipient. By extension, users also have the right to access publicly published information and content.
-
-Users have the right to build systems that will allow them to communicate, publicly or privately. Users have the right to teach other people how to communicate, and to distribute software that will aid in communication.
-
-## The Right to Filter
-
-Both users and communities have the right to filter and organize the content they consume and host, and to block communications that they do not wish to receive. This can be done either manually or via automated means. No one has the right to force a user to consume content without their permission.
-
-Users and communities have the right to share filters, whether those filters take the form of software, algorithms, or manually curated blocklists and allowlists.
-
-Users have the right to subvert software and platform restrictions that would force them to consume content that they do not wish to see, and to teach other people how to subvert these restrictions. Users have the right to distribute software that circumvents technological restrictions for the purposes of personal content filtering.
-
-## The Right to Remember
-
-Users have the right to archive and index information online. Users have the right to share information with others, to share indexes of that information with others, and to tell other people that the information exists.
-
-Users have the right to break or circumvent geoblocks, DRM, and other technological mechanisms that would prevent them from discovering, viewing, and archiving information that they have lawful access to.
-
-## The Right to Hide
-
-Users have the right to take measures that hide their identity online and in real-life. Users have the right to form multiple identities, and to choose which identities they want to use to communicate, transact, publish, or consume content. Users have the right to simultaneously exercise their Right to Hide and their other digital rights.
-
-When people or platforms attempt to obtain personal information from a user or to forcibly associate them with a single identity, users have the right to lie and to subvert technologies that would unmask them.
-
-Users have the right to build and distribute software that hides their identity. Users have the right to teach other people how to subvert software and how to lie to organizations and individuals that attempt to deanonymize them.
-
-## The Right to Delegate
-
-Users have the right to authorize other users, software, and organizations to perform legal actions online on their behalf. No one has the right to compel a user to only exercise their rights in person, or through manual processes.
-
-Users have the right to build and distribute software that automates a legal action they could take. Users have the right to circumvent and subvert restrictions that would block automated or third-party agents from performing a legal action or accessing legal content on their behalf.
-
-Users have the right to teach other people how to circumvent restrictions on delegation and automation. Users have the right to distribute software that aids in circumventing these restrictions.
-
-## The Right to Modify
-
-Users have the right to inspect and modify code and content that is placed on a device or inserted into an environment that they own. Users may exercise this right regardless of whether or not they own the code/content. No one has the right to control what a user does with code/content on their own device.
-
-In addition to inspecting and modifying code, users have the right to tell other people about their discoveries. Users have the right to teach other people how to perform similar inspections and modifications. Users also have the right to distribute software that assists other people in inspecting and modifying local code and content.
-
-
 
 <ol hidden id="footnotes">
     <li>This also brings up the question of "Are Gun Control Laws Racist?" if they're heavily targeted at minority neighborhoods, and yeah, that's a legitimate point. in 2021, the Rittenhouse case (where a white, 17yo openly carried an AR-15 shot into a crowd that was protesting the death of Jacob Blake, a black man that was murdered by police, was ultimately fonud not guilty) makes an interesting point of the disparity between the treatment of gun ownersip based on skin color. That said, while it is possible for gun control laws to be racist directly - such as targetting specific neighboorhods - it is more likely that the law is written well intentioned but executed with prejudice, such as when MLK was denied a concealed carry permit even after his house had been firebombed. This moves the question into one about police and executive branch refrom though, which isn't the point of this section.</li>
