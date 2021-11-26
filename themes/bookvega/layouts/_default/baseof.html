@@ -86,6 +86,13 @@
 
 <body dir={{ .Site.Language.LanguageDirection }}>
 
+        <!-- Hack to do background on Engineering Intro Page -->
+        {{if eq .Title "Engineering"}}
+        <div id="canvasContainer">
+          <canvas id="backcanvas"></canvas>
+        </div>
+        {{ end }}
+
   <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c6f9eeb56e4645ee9ca07afbee7e0462"}'></script><!-- End Cloudflare Web Analytics -->
 
   <input type="checkbox" class="hidden toggle" id="menu-control" />
