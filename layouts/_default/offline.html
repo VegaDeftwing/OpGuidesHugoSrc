@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+
+  <head>
+    {{ partial "docs/html-head" . }}
+    {{ partial "docs/inject/head" . }}
+
+    <style>
+      .not-found {
+        text-align: center;
+      }
+      .not-found h1 {
+        margin: .1em 0 0 0;
+        opacity: .25;
+        font-size: 20vmin;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="flex justify-center not-found">
+      <div>
+        <h1>Offline</h1>
+        <h2>No internet connection</h2>
+        <p>Either you're offline or something has gone very wrong. Good luck with that.</p>
+        <h3>
+          <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
+        </h3>
+      </div>
+    </main>
+
+    {{ partial "docs/inject/body" . }}
+    {{ template "_internal/google_analytics_async.html" . }}
+  </body>
+
+  </html>
