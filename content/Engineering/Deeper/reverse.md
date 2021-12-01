@@ -26,11 +26,11 @@ the process, at least for me and most of the folks i've talked to, is one of ite
 
 So:
 
-1. go for easy wins as much as you can. Strings! I love strings (mind you I don't do malware much). See a printf("access_check: ACL rule %d check denies action %s for user %s", foo, bar, baz)? Rename that function to access_check, rename foo to "acl_rule", rename bar to "acl_action", rename baz to "user". Now follow those back as far as you can, with everything that calls access_check. Something calls access_check(woof, bark, meow)? woof is acl_rule, bark is acl_action, meow is user. if you use Binary Ninja right it'll do a lot of this for you, not sure about other tools these days.
+1. go for easy wins as much as you can. Strings! I love strings (mind you I don't do malware much). See a `printf("access_check: ACL rule %d check denies action %s for user %s", foo, bar, baz)`? Rename that function to access_check, rename foo to "acl_rule", rename bar to "acl_action", rename baz to "user". Now follow those back as far as you can, with everything that calls access_check. Something calls `access_check(woof, bark, meow)`? woof is acl_rule, bark is acl_action, meow is user. if you use Binary Ninja right it'll do a lot of this for you, not sure about other tools these days.
 
 Look for logging functions especially - not only are they helpful, often they're called by macros that pass the function name as an argument - you can set the name of hundreds of functions with a script that way.
 
-Also, symbols obviously help- not just exported/local symbols either. Use imports! if something's passed as the first argument to open, that's a filename.
+Also, symbols obviously help- not just exported/local symbols either. Use imports! if something's passed as the first argument to `open`, that's a filename.
 
 2. structs structs structs structs. again, binary ninja does really well here because it propagates type information. but for most binaries I encounter, figuring out a handful of structs and looking at how they're passed between functions pretty much makes it clear exactly what's going on.
 3. DON'T GET STUCK. if you can't figure out roughly what a function does (enough to give it a name) within a few minutes or so of looking at it, bookmark the function and move on- reverse other stuff. Very good chance that'll make it obvious what the function does. If not - remember why you are reversing this binary. If you're doing it to hunt for vulns... does the function handle user input or do security-critical things? If not, MOVE ON. 
@@ -44,7 +44,7 @@ oh also if you see a function with loads of xrefs to it that seems really compli
 
 ---
 
-[Reversing for dummies - x86 assembly and C code (Beginner/ADHD friendly) (0x41.cf)](https://0x41.cf/reversing/2021/07/21/reversing-x86-and-c-code-for-beginners.html) also looks good, but I haven't gotten the chance to go though either link yet!
+[Reversing for dummies - x86 assembly and C code (Beginner/ADHD friendly) (0x41.cf)](https://0x41.cf/reversing/2021/07/21/reversing-x86-and-c-code-for-beginners.html) and [pwn.college](https://pwn.college/modules/reversing.html) also look good, but I haven't gotten the chance to go though either link yet!
 
 ## Circuits
 
