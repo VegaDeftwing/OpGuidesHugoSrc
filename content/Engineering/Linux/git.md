@@ -38,6 +38,8 @@ I'm going to save the nitty gritty about how public-private key based authentica
 
 `ssh-keygen` 
 
+\+ adding GPG key to accout for Github verrified thing
+
 After you have a key generated, you'll need to add the public key to github,
 
 <img src="/eng/gitkeys.webp" alt="keysongithub" style="zoom:50%;" />
