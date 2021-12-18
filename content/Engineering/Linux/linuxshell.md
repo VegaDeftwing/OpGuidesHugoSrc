@@ -441,6 +441,7 @@ When we installed arch we actually changed the default shell from bash to zsh, b
 * youtube-dl
   
   * despite the name this tool can download videos or audio from almost any page on the internet, even supporting playlists in many cases too.
+  
 * [gallery-dl](https://github.com/mikf/gallery-dl) is good for grabbing albums from photo hosting websites
   
 * [rat](https://github.com/ericfreese/rat)
@@ -478,6 +479,11 @@ When we installed arch we actually changed the default shell from bash to zsh, b
 * [glow](https://github.com/charmbracelet/glow) or [mdcat](https://github.com/lunaryorn/mdcat)
 
   * display markdown files in the terminal
+  
+* nethogs
+
+  * see what applications are using your network bandwidth
+
 
 While some of these may be included, they're some of the OG addons or tools to make included things better:
 
