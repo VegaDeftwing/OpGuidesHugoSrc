@@ -94,6 +94,8 @@ Shottky
 
 tubes and how they work
 
+[Introducing Triodes  (Aaron Lanterman - GT,  YouTube)](https://www.youtube.com/watch?v=2OoL1YF7mbM)
+
 [DIY Triode (Simplifier)](https://simplifier.neocities.org/triode.html) [Part 2](https://simplifier.neocities.org/triode2.html) [Part 3](https://simplifier.neocities.org/triode3.html) [Part 4](https://simplifier.neocities.org/triode4.html) [Part 5: Power Triode](https://simplifier.neocities.org/power.html) [Part 6: Power Triode 2](https://simplifier.neocities.org/power2.html) [Part 7: Portable Triode](https://simplifier.neocities.org/portable.html), [Tetrode](https://simplifier.neocities.org/tetrode.html)
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/yMrCCx6uqcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -132,6 +134,10 @@ https://hackaday.com/2019/05/20/integrated-circuits-can-be-easy-to-understand-wi
 [Tiny Transistors' Clever TT555 Is a Pin-Compatible 555 Timer Built from Discrete Components (Hackster.io)](https://www.hackster.io/news/tiny-transistors-clever-tt555-is-a-pin-compatible-555-timer-built-from-discrete-components-40f684ef8c98)
 
 potato semi
+
+---
+
+[TODO] note on price of chips that solve bigger problems - integrated filters, PLLs, VCAs, basically everything on [this list](https://wiki.analog.com/resources/tools-software/linux-drivers-all#driver_list)
 
 # Chapter 23.2 - Op-Amps & Filters
 

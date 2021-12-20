@@ -9,3 +9,5 @@ https://lemire.me/blog/2020/01/30/cost-of-a-thread-in-c-under-linux/
 C++ coroutines
 
 not really threading, but process children
+
+SIMD, https://nullprogram.com/blog/2021/12/04/

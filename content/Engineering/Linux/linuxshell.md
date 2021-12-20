@@ -6,6 +6,8 @@
 
 [./missing-semester - Data Wrangling](https://missing.csail.mit.edu/2020/data-wrangling/)
 
+[Linux Productivity Tools Presentation PDF (Ketan M.)](https://www.usenix.org/sites/default/files/conference/protected-files/lisa19_maheshwari.pdf)
+
 ## What The Shell?
 
 Okay, first question you probably have after I've been using them interchangebly 'What is a Shell and is it different from a terminal?'
@@ -92,6 +94,7 @@ Of note, while the majority of these commands should be available on nearly any 
 - **tee** - mostly used with pipes to print output to terminal as well as put it into a file
 
 - **grep, sed, awk, tr** - the 'big four' commands used for text processing in a terminal. **grep** (and **egrep**) are used for search, for example running `ls | grep myfile` to confirm a file is indeed in a folder. **sed** is used for text/character replacement. **awk** is a programming language in it's own right, used primarily for selecting text fields by separator, for example only printing the permissions column in the output of `ls -l` 
+
 - **w** -  show who is currently logged in and what they're running, epically applicable on shared servers if you need to see if there's an active ssh connection to your system
 
 - **tar, gzip, bzip, zip** - all used for making compressed folders (like .zip files)
@@ -110,30 +113,41 @@ Of note, while the majority of these commands should be available on nearly any 
 
 - **systemctl** - literally system control, wayyy to big to cover quickly, used for everything from setting services to run on boot, shutting down/restarting the system, to viewing logs. Look up Systemd for more information. This is probably the least-universal of the tools listed here, but *most* linux systems have switched to Systemd now for better or worse.
 
-- **ip, ping, & dig** - **ip** is used to view as well as modify aspects of network configuration at the more hardware-level, such as turning on/off a networking interface.  **ping** allows you to see if you're able to reach a site/ip address, and **dig** allows you to check if you're able to turn a domain name to an ip, such as checking the ip address that archlinux.org points to with `dig archlinux.org`
+  - **[sysz](https://github.com/joehillen/sysz)** provides a decent UI to systemd functions, check it out
+
+- **ip, ping, & dig** - **ip** is used to view as well as modify aspects of network configuration at the more hardware-level, such as turning on/off a networking interface.  **ping** allows you to see if you're able to reach a site/ip address, and **dig** allows you to check if you're able to turn a domain name to an ip, such as checking the ip address that archlinux.org points to with `dig archlinux.org` along with other DNS query tasks
+
+  - Alternative recommendation: [dog](https://github.com/ogham/dog) is a nice user friendly alternative to dig
+  - See [How to use dig (Julia Evans)](https://jvns.ca/blog/2021/12/04/how-to-use-dig/)
 
 - **ps** - process management: listing processing, finding the parent of a particular process, etc.
-  
+
   - Alternative recommendation: [procs (Github)](https://github.com/dalance/procs)
-  
+
 - **free** - display information about system RAM usage
 
 - **top** - a graphical-ish view of the running processes, ram, and CPU usage
-  
-  - Alternative recommendation: **htop**
-  
+
+  - Alternative recommendation: **htop** or **[btop++](https://github.com/aristocratos/btop)**
+
+    ![](/eng/btop.png)
+
+    {{< attribution >}}btop screenshoot{{< /attribution >}}
+
 - **kill**, murder a process in various ways
+
+  - if you're running an xsession and want to kill a graphical terminal, `xkill` is useful too
 
 - **whereis** - find the location of an executable, ex `whereis ls` will tell you it's in `/usr/bin/ls`
 
 - **wget, curl** - retrieve a web page
-  
-  - Alternative recommendation: **lynx**, **w3m**, or **brow.sh**
-  
+
+  - Alternative recommendation: **lynx**, **w3m**, **brow.sh**, or **[xh](https://github.com/ducaale/xh)**
+
     {{< tip >}} Heads up, you may ocassionly see installation instructions for things on github that ask you to use `curl www.example.com/script.sh | bash` - **DON'T**. It's [not safe](https://www.idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-side/). Instead, you can curl the script, check that it's something you want to run with `cat script.sh`, and then run it with `./script.sh`. {{< /tip >}}
     
   - [Parsing HTML with w3m and awk (Joe Ferner's Blog)](https://joeferner.github.io/2015/07/15/linux-command-line-html-and-awk/)
-  
+
   - **lynx** + **fltrdr** can be paired together to read web pages super fast 
     
     ```
@@ -145,6 +159,11 @@ Of note, while the majority of these commands should be available on nearly any 
     #!/bin/bash
     lynx -dump $1 | fltrdr
     ```
+
+- **ldd** - see what dynamically linked libraries an executable uses
+
+  - Alternative recomendation: **[libtree](https://github.com/haampie/libtree)**, provides a tree output, with color
+
 
 ## Tab Completion and faster navigation
 
@@ -480,10 +499,21 @@ When we installed arch we actually changed the default shell from bash to zsh, b
 
   * display markdown files in the terminal
   
-* nethogs
+* [nethogs](https://github.com/raboof/nethogs)
 
   * see what applications are using your network bandwidth
+  
+* [exodus](https://github.com/intoli/exodus)
 
+  * "Exodus is a tool that makes it easy to successfully relocate Linux ELF binaries from one system to another. This is useful in situations where you don't have root access on a machine or where a package simply isn't available for a given Linux distribution." [...] 
+
+    With exodus, transferring a piece of software that's working on one computer to another is as simple as this.
+
+    ```
+    exodus [binary name] | ssh [server ip]
+    ```
+
+* [usbtop](https://github.com/aguinet/usbtop) - show usb device bandwidth usage, requires `sudo modprobe usbmon` first.
 
 While some of these may be included, they're some of the OG addons or tools to make included things better:
 

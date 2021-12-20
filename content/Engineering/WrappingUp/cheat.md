@@ -98,6 +98,8 @@ https://github.com/mitsuba-renderer/nanogui
 
 [MoviePy](https://pypi.org/project/moviepy/) - "a Python library for video editing: cutting, concatenations, title insertions, video compositing (a.k.a. non-linear editing), video processing, and creation of custom effects"
 
+[tqdm](https://tqdm.github.io) - "Instantly make your loops show a smart progress meter - just wrap any iterable with `tqdm(iterable)`, and you're done!"
+
 [Pint](https://pint.readthedocs.io/en/stable/) - work with units, including prefixes like kilometers
 
 > Also see pyO3 in rust above, which allows for writing python modules. Of course python modules can be written [in C or C++](https://docs.python.org/3/extending/extending.html), but doing so in Rust is safer, because, Rust.

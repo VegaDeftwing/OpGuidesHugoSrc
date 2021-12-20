@@ -6,6 +6,7 @@
 - [ ] Dangerous sounds - high voltage arc clicks, hard drive clicks, loud 60hz hum, etc.
 - [ ] Setting up a bleeding-edge system, Beedrock linux, Arcan display manager, Pipewire, etc.
 - [ ] Toki-pona post
+- [ ] List of cool, obsucre VCV and Eurorack modules
 
 # TODO
 
@@ -26,3 +27,4 @@
 - [ ] Something about hand wired keyboard
 - [ ] Something about Lyrae Modules
 - [ ] Something about capstone in general
+- [ ] https://indieweb.org/POSSE somewhere....

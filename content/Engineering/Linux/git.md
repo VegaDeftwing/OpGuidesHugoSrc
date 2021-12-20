@@ -150,3 +150,5 @@ https://radicle.xyz
 # Chapter 6¾ - Documentation
 
 [Lets talk about changelogs, or, how I loathe 'bugfixes and performance improvements' (Remy van Elst's Blog)](https://raymii.org/s/blog/Rant_Lets_talk_about_changelogs.html)
+
+https://keepachangelog.com/en/1.0.0/

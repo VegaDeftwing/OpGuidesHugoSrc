@@ -56,6 +56,23 @@ http://ajaxsoundstudio.com/software/pyo/
 
 ---
 
+[TODO] Discrete time? Nyquist? Z transform(quick review of sig & sys)
+
+[TODO] Quantization & Numerical effects
+
+[TODO] Aliasing, Upsampling, down sampling
+
+[TODO] why not use std::sin
+
 [TODO] Lookup-table generators (Wavetables)
 
 [TODO] Envelopes
+
+[TODO] Convolution reverb/cab
+
+[TODO] IIR
+
+[TODO] FIR & Windowing
+
+[TODO] Brief digression into N-dim dsp (images, etc.)
+

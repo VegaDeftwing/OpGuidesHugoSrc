@@ -47,3 +47,10 @@
 
   ![](https://cdn.tindiemedia.com/images/resize/YgU82IcM-y3AMVnFX9nsViQHsv0=/p/fit-in/1300x866/filters:fill(fff)/i/847311/products/2019-11-23T16%3A16%3A44.830Z-furbymin1.jpg?1606306133)
 
+* [Implementing a CPU Using 555 Timers and Logic Synthesis (Hackaday)](https://hackaday.com/2021/12/17/implementing-a-cpu-using-555-timers-and-logic-synthesis/)
+
+  ![](https://cdn.hackaday.io/images/1703451639230442821.PNG)
+
+* [Mercuray Arc Valve](https://en.wikipedia.org/wiki/Mercury-arc_valve)
+
+  <iframe width="100%" height="500" src="https://www.youtube.com/embed/2pDcv6g1FE0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

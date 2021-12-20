@@ -2,6 +2,8 @@
 
 [A simple guide to electronic components (YouTube)](https://www.youtube.com/watch?v=6Maq5IyHSuc&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
 
+<!-- https://heavydeck.net/project/the-kludge-schematic-editor/ might be helpful for making schematics to explain things -->
+
 ## The Tools of the Trade
 
 Building, fixing, and analyzing circuitry requires the use of a few tools and appliances. While there are many more than those listed here, these tare the most important ones and should be all you need for most even very advanced applications.

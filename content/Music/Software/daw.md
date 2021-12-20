@@ -300,6 +300,14 @@ VCV may also lead you down the path of Eurorack or a hybrid Eurorack and VCV set
 
 {{< /tab >}}
 
+{{< tab "Bespoke" >}}
+
+### Bespoke
+
+**Bespoke** [TODO]
+
+{{< /tab >}}
+
 {{< /tabs >}}
 
 ## Trackers:
@@ -393,6 +401,14 @@ Audacity, despite being FOSS, did recently change owners and they should be putt
 ### Oscistudio
 
 **Oscistudio** [TODO]
+
+{{< /tab >}}
+
+{{< tab "Blockhead" >}}
+
+### Blockhead
+
+**Blockhead** is an audio editor/DAW still in pretty early development, but supporting some really cutting edge features. See the [developer's twitter](https://twitter.com/colugomusic) for examples. It really supports some audio editing ideas I haven't seen anywhere else. Even if it's not to the point where you can make it your main DAW, it's worth looking into just for inspiration.
 
 {{< /tab >}}
 
