@@ -2,6 +2,10 @@
 
 <script>    document.getElementById("hciMenu").open = true;</script>
 
+## ML Assisted Creation
+
+[TODO] https://cleanvoice.ai / https://www.descript.com, https://magenta.tensorflow.org, https://runwayml.com, https://auphonic.com/landing, etc.
+
 ## Body Modification and Bio-Engineering
 
 Another point is the idea of biohacking and body augmentation. The most common biohacks include implanted [RFID tags](https://dangerousthings.com/) (which I actually have) and magnets for sensing electromagnetic fields, but these are still pretty mundane. This Ted Talk I think shows what might be possible a bit better:

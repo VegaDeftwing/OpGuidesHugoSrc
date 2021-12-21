@@ -218,6 +218,8 @@ Haken Audio Continuum
 
 [TODO Quadraphonic, Atmos, 5.1, etc]
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/sYaLBPUZnkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Eurorack
 
 [Modular Grid](https://www.modulargrid.net/) an online tool for dreaming about hardware setups (Eurorack, Guitar Pedals, and a few other modular formats)

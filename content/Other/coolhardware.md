@@ -54,3 +54,7 @@
 * [Mercuray Arc Valve](https://en.wikipedia.org/wiki/Mercury-arc_valve)
 
   <iframe width="100%" height="500" src="https://www.youtube.com/embed/2pDcv6g1FE0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+* Delay-Line Memory
+
+  <iframe width="100%" height="500" src="https://www.youtube.com/embed/N9cUbYII5RY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

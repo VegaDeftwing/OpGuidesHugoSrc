@@ -4,6 +4,8 @@ https://www.gameuidatabase.com/index.php
 
 https://www.riotgames.com/en/urf-academy/curriculum-guide
 
+[COMP4300 - Game Programming (David Churchill, YouTube)](https://www.youtube.com/watch?v=LpEdZbUdDe4&list=PL_xRyXins848jkwC9Coy7B4N5XTOnQZzz)
+
 ## Engines & Frameworks
 
 ### Both 2d and 3d

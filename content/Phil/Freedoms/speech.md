@@ -65,3 +65,9 @@ There's also a question of where things go to far- at what point is speech a leg
 * Don't Yell Fire
 * Don't lie to cause harm "That man punched my baby"
 * (Questionable) Don't incite violence "Let's burn down the police station"
+
+## Some edge cases
+
+https://www.theguardian.com/us-news/2021/dec/07/texas-ban-boycotting-israel
+
+https://ij.org/press-release/oregon-engineer-makes-history-with-new-traffic-light-timing-formula/

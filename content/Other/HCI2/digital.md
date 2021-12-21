@@ -62,7 +62,7 @@ Google also needs to quit their shit with information cards:
 
 And it'd be great if something could actually be done about big sites like [Pinterest and Quora gaming Google](https://www.inputmag.com/culture/pinterest-sucks-google-image-photo-search-ruining-internet) 
 
-Finally, I do want to end on a positive note: [Google is trying to show why results are ranked how they are](https://searchengineland.com/google-now-shows-why-it-ranked-a-specific-search-result-350659), and that's actuallypretty cool.
+Finally, I do want to end on a positive note: [Google is trying to show why results are ranked how they are](https://searchengineland.com/google-now-shows-why-it-ranked-a-specific-search-result-350659), and that's actuallypretty cool - though it does still seem [that search results are getting worse, at least according to Hacker News users.](https://news.ycombinator.com/item?id=29392702)
 
 ### Pay-Walls suck
 
@@ -487,6 +487,10 @@ I think Solid, a project by Prof. Time Berners-Lee, the guy behind the World Wid
 
 But the point I'm trying to convey is that right now setting up a new device or logging into a service sorta blows. The user profile needs to be secure, user-owned, and decentralized. For those that know Linux, it's what making your `~/.config` folder into a git repo *should* be like.
 
+#### Speaking of "Your Profile"...
+
+[TODO] bad gender pickers, forced "real name", etc.
+
 ### Local Backups By Default
 
 Most web pages are reasonably small, especially if you ignore java script crap. Why do browsers not just backup all web pages we go to (on desktops and laptops where storage is a non-issue) ? This would provide the benefit of being able to do a local text search of everything browsed recently as well as backups in case the page goes offline or moves.
@@ -591,6 +595,8 @@ There are also issues on ownership, for example:
 [Amazon Sued For Saying You've 'Bought' Movies That It Can Take Away From You](https://www.techdirt.com/articles/20200505/23193344443/amazon-sued-saying-youve-bought-movies-that-it-can-take-away-you.shtml)
 
 [Microsoft Is Closing Its Ebook Store and Taking the Books With It](https://www.popularmechanics.com/technology/a27021744/microsoft-ebook-store-shutdown/)
+
+Not to mention the fact that [updates keep changing how IOT devices work](https://staceyoniot.com/the-unbearable-fussiness-of-the-smart-home/), making them more "needy" as they display more notifications and interupt the user more in a plea to get used (so they can harvest even more data)
 
 <ol hidden id="footnotes">
 <li>... unless that service is based around that permission, like denying a recording app access to a microphone.</li>

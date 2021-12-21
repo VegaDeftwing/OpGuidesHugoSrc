@@ -126,9 +126,17 @@ Demos of the WIP [Blockhead DAW](https://www.patreon.com/colugomusic):
 
 Microfluid computers, diode logic, GPIO
 
-### Wasting time on stupid shit that nobody cares about
+## Wasting time on stupid shit that nobody cares about
 
 Microsoft has been spending a lot of time changing to the new UI, and their calculator has been updated like a dozen times for UI now but still [SpeedCrunch](http://speedcrunch.org) remains 1000x more usable and tools like [WolframAlpha](https://www.wolframalpha.com) remain superior yet. Stop spending time on shit literally nobody gives a shit about.
+
+## Give me a fucking physical knob
+
+[Bring Back Our Knobs: Analog vs. Digital (Popular Mechanics, 2009)](https://www.popularmechanics.com/technology/gadgets/a1531/4213770/) 
+
+{{< smalltext >}}Note, that Popular Mechancics article didn't age all that well, with "I wonder if Apple iPhone will meet with the same success, as [its touchscreen offers no tactile feedback](https://www.popularmechanics.com/technology/gadgets/a1385/4212910/). Will people get tired of having to look down every time they dial a number?" sounding funny today, still, I think the point stands{{< /smalltext >}}
+
+
 
 <ol hidden id="footnotes">
 <li>Within the normal limits of compatability, you can't drop a crazy fast graphics card in without upgrading the power supply, and often the CPU, Ram, and motherboard all need to be from the same generation.</li>

@@ -31,6 +31,12 @@ For most distros like Ubuntu or OpenSuse (feel free to look these up, this page 
 
 When we're done you'll have a system that has exactly what you need and nothing you don't. You won't find weird forcibly installed software like Win 10's Candy Crush App here, and your system will only do exactly what you tell it. Of course, this implies you know how to speak it's language and tell it what you want. Thankfully with some practice you'll get used to running Arch and you'll wonder why you ever dealt with other systems to begin with.
 
+{{< tip >}}
+
+Heads up! None of this has been reviewed for Windows 11 yet, and **there are breaking changes** to how this all works due to 11. Notably, the requirement for Secure Boot and 11's tendancy to use BitLocker by default. Both of these will cause you serious issues, and will need to be adressed before installation.
+
+{{< /tip >}}
+
 ## Preparation
 
 Install instructions will vary dependent on your hardware, but I'm going to assume you have a desktop or laptop which shipped with Windows 10 and has a UEFI system. Most laptops newer than ~2016 should be in this category. If your system uses a BIOS or Legacy boot instead, or if you have a mac, this won't apply to you, but you should be able to follow some of the resources I used to make this guide which are linked below along with some searching online to figure it out.
