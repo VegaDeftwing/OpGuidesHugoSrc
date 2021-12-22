@@ -136,7 +136,7 @@ This article, [In-Memory Processing by UPMEM](https://www.anandtech.com/show/147
 
 {{< columns >}}
 
-Row Hammer is vulnrability that arrieses due to the way memory is arranged physically and electrically on a memory stick. It let's you flip bits you shouldn't be able to by 'hammering' on the row above or below the target row, hoping that you can induce a bit flip in the target row.
+Row Hammer is vulnerability that arises due to the way memory is arranged physically and electrically on a memory stick. It let's you flip bits you shouldn't be able to by 'hammering' on the row above or below the target row, hoping that you can induce a bit flip in the target row. It's also been "fixed" multiple times, [and is *still* a problem](https://comsec.ethz.ch/research/dram/blacksmith/) {{< smalltext >}}...though it is supposed to be fixed for real this time in DDR5{{< /smalltext >}}
 
 [Row Hammer's Wikipedia Page](https://en.wikipedia.org/wiki/Row_hammer) has some a very good overview as well as some example assembly to explain the exploit
 

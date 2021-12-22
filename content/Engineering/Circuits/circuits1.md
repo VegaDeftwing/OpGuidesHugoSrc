@@ -106,11 +106,7 @@ However, a decent 'Digital Storage Oscilloscope' or DSO like the one above run a
 
 <img src="/eng/oldscope.jpeg" alt="Old Scope" height="400em">
 
-~~or a cheap, low resolution, low speed one from Ebay. For most uses, both of these will be perfectly fine. For just starting out though I'd recommend a logic analyzer (I'll talk about that next) and oscilloscope combo tool, like the **LHT00SU1** The  which can be found on Ebay pretty easily. Be aware they can fry your USB port or worse though.~~
-
-[TODO] updated recommendations with DSLogic from Ebay and a cheap scope
-
-[TODO] ... or the Analog Lab from Diglent?
+Note, a lot of hobbyist will try to get by on a really cheap new scope (less than $100), most often the really cheap under \$10 exposed red PCB one and just... don't. Either get a used scope (often around \$100) or get something good outright, as for "good" I'd really recommend the Rigol DS1054Z<a class="ptr">(1)</a>, or the [Diglent Analog Discovery 2](https://digilent.com/shop/analog-discovery-2-100ms-s-usb-oscilloscope-logic-analyzer-and-variable-power-supply/) which packs a lot of these tools all into one thing. I know it's a lot of money, but ideally this is something you can think of as an investment.
 
 But what are these actually used for day to day, and why would you want one? [TODO]
 
@@ -237,3 +233,8 @@ Passive V Active
 https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law/voltage
 
 https://en.wikipedia.org/wiki/Transmission_line
+
+<ol hidden id="footnotes">
+    <li>especially as you can easily unlock it to make it much better, using http://www.n5dux.com/ham/riglol/, albeit not 100% legally<li>
+</ol>
+

@@ -32,6 +32,10 @@ But, that's just reasons to *not* use those things, why do you actually want to 
 
    ... you can say what you, how you want- change every visual details, add animation, whatever
 
+   ... you don't need to be worried about your content disappearing suddenly or losing access
+
+   {{< smalltext >}}Though I do still recommend promoting on big platforms: see [POSSE](https://indieweb.org/POSSE) {{< /smalltext >}}
+
 5. It can be nice for organization, like I have for myself with OpGuides
 
    {{< speech big>}} I wouldn't use a website like this one as my **only** organizational tool though! Things like [Masterplan](https://solarlune.itch.io/masterplan), [Notion](https://www.notion.so), and [Obsidian](https://obsidian.md) all do that a bit better{{< /speech >}}

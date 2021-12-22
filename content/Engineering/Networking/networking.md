@@ -182,13 +182,21 @@ https://www.aelius.com/njh/subnet_sheet.html
 
 ### Static and Dynamic Routes
 
-### BGP
+### BGP - Boarder Gateway Protocol
 
-https://blog.benjojo.co.uk/post/bgp-stuck-routes-tcp-zero-window
+BGP is one of those things that you should basically never have to worry about, and if you do, it's almost certainly because *somebody else* fucked up. That said, it does still matter. In 2021, a BGP mis-configuration [took FaceBook down globally](https://www.theverge.com/2021/10/4/22709260/what-is-bgp-border-gateway-protocol-explainer-internet-facebook-outage) and in 2008 Pakistan used a BGP hijack to [take down YouTube](https://www.cnet.com/news/how-pakistan-knocked-youtube-offline-and-how-to-make-sure-it-never-happens-again/). But, uh, what is it.
 
-[EVE Online internet](https://blog.benjojo.co.uk/post/eve-online-bgp-internet) from https://blog.benjojo.co.uk, which has a ton of other really, really neat posts, like [The Speed of BGP network propagation](https://blog.benjojo.co.uk/post/speed-of-bgp-network-propagation), or [Hacking Ethernet out of Fibre Channel cards](https://blog.benjojo.co.uk/post/ip-over-fibre-channel-hack)
+Well, if you'll allow me to follow the lead of the late Alaskan Senator Ted Stevens' less-than-ideal analogy: "The Internet is a series of tubes!" and BGP is the logic that dictates where things get routed to go from one tube to the next, and tries to adapt to find the fastest, most efficient route when there are multiple available paths, but, while I could try to explain it, [This article from Cloudflare](https://www.cloudflare.com/learning/security/glossary/what-is-bgp/) will do a much better job than I ever could, so just, read that and come back here.
 
-open, update, keepalive, notification
+Hai, welcome back - so, okay, BGP is only something for the ISPs and big players, right? Well, no.
+
+First of all, you *might*, *occasionally* want to check something isn't taking a very stupid route, which means digging into BPG yourself. Julia Evans wrote a great blog post ["Tools to explore BGP"](https://jvns.ca/blog/2021/10/05/tools-to-look-at-bgp-routes/) that does a good job of showing how to poke around things. If you actually want to get hands on, you can use [GNS3](https://www.gns3.com) to simulate a network, or join https://dn42.eu/ to try something more tangible.
+
+There's some fantastic other pages I recommend reading too. Most notably, [EVE Online internet](https://blog.benjojo.co.uk/post/eve-online-bgp-internet) from https://blog.benjojo.co.uk is a really neat look at BGP and just a fun read!
+
+{{< smalltext >}}BTW, Ben Cox blog has a ton of other *really* neat posts, like [The Speed of BGP network propagation](https://blog.benjojo.co.uk/post/speed-of-bgp-network-propagation), [BGP Stuck Routes](https://blog.benjojo.co.uk/post/bgp-stuck-routes-tcp-zero-window), and [Hacking Ethernet out of Fibre Channel cards](https://blog.benjojo.co.uk/post/ip-over-fibre-channel-hack) {{< /smalltext >}}
+
+To finish things up, the [Wikipedia article](https://en.wikipedia.org/wiki/Border_Gateway_Protocol) for BGP is quite nice as well, and does a really good job of explaining the more technical operation in plain english.
 
 ## 4 - Transport Layer
 
@@ -202,15 +210,15 @@ flow and congestion control
 
 
 
-### TCP
+### TCP - Transmission Control Protocol
 
 https://research.swtch.com/tcpviz
 
 tcp header diagram
 
-#### QUIC
+### UDP - User Datagram Protocol
 
-### UDP
+### QUIC - Quick UDP Internet Connections
 
 ### Raw
 

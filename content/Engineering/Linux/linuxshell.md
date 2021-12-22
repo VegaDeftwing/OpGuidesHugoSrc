@@ -21,7 +21,11 @@ The Terminal is a piece of hardware, or, rather *was* a piece of hardware. For e
 
 Now, don't mistake this for a CRT monitor like everyone was using in the early 2000's, this is a *terminal* it has a serial connection in the back that only reciveves messages of text from the computer it's attached to, and it can only display text on it's dim green screen. Before the days of graphical computing everything was though a text only interface that you'd usually read on one of these. Fortunately, technology has gotten much, much better.
 
-So in the exact same way that you can *emulate* an old video game console to play retro games on your computer, the terminal itself is emulated on Linux. If you really wanted to you could hook up an old terminal like the above, but it's much easier to open a terminal emulator. Of course, just as there are multiple different emulators for some old consoles, there are multiple options for terminal emulation. A few different terminals are shown on the right in that picture (Cool Retro Terminal, Terminus α, and Kitty), and just as hardware may have different features, different terminals can as well. Just like the hardware however, the terminals don't do anything on their own, that is where the **shell** comes in. The shell is the program your terminal is usually running when it opens. By default on most Linux Systems it's Bash and on Windows it's CMD or Powershell, but there's many, many alternative shells. These shells all serve a few main functions
+So in the exact same way that you can *emulate* an old video game console to play retro games on your computer, the terminal itself is emulated on Linux. If you really wanted to you could hook up an old terminal like the above, but it's much easier to open a terminal emulator. Of course, just as there are multiple different emulators for some old consoles, there are multiple options for terminal emulation. A few different terminals are shown on the right in that picture (Cool Retro Terminal, Terminus α, and Kitty), and just as hardware may have different features, different terminals can as well. 
+
+{{< smalltext >}}If you're curious about how this emulation works, see [Anatomy of a Terminal Emulator (Aram Drevekein)](https://www.poor.dev/blog/terminal-anatomy/){{< /smalltext >}}
+
+Just like the hardware however, the terminals don't do anything on their own, that is where the **shell** comes in. The shell is the program your terminal is usually running when it opens. By default on most Linux Systems it's Bash and on Windows it's CMD or Powershell, but there's many, many alternative shells. These shells all serve a few main functions
 
 *  Work as a sort of dispatcher for other commands. For example, when you run `ls` the shell let's `ls` print to the terminal before taking back control)
 * Provide content redirection facilities. For example, when you run`ls > somefile` the shell is handling the `>` which tells it to take the output from the running program (ls) and put it into the file (some file).
@@ -448,7 +452,8 @@ When we installed arch we actually changed the default shell from bash to zsh, b
 * pandoc
   
   * convert between damn near any text format to any other format
-
+  * also see [pdfsandwich](http://www.tobias-elze.de/pdfsandwich/) for OCR on PDFS
+  
 * taskwarrior
   
   * keep track of To-Do's and tasks, can also be paired with timewarrior for timetracking

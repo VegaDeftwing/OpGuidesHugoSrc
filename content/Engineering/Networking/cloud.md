@@ -73,6 +73,8 @@ Obviously, for each thing done for you you've giving up more control, abstractin
 
 [TODO] Service Level Agreements, reallly cheap VPS, 
 
+[TODO] Multicloud setups
+
 ## Comparison of Vendors
 
 [TODO] Add Google Cloud to list, mention they're all sorta evil.
