@@ -384,6 +384,14 @@ Authentication != Identity
 
 https://permission.site
 
+https://www.osohq.com/post/why-authorization-is-hard
+
+https://alexolivier.me/posts/the-never-ending-product-requirements-of-user-authorization
+
+https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
+
+https://github.com/kdeldycke/awesome-iam
+
 ## Cryptography
 
 [How To Learn Cryptography as a Programmer (Soatok)](https://soatok.blog/2020/06/10/how-to-learn-cryptography-as-a-programmer/)

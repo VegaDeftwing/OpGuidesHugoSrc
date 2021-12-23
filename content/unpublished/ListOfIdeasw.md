@@ -27,4 +27,3 @@
 - [ ] Something about hand wired keyboard
 - [ ] Something about Lyrae Modules
 - [ ] Something about capstone in general
-- [ ] https://indieweb.org/POSSE somewhere....

@@ -4,27 +4,31 @@
 
 [TODO] https://iximiuz.com/en/posts/computer-networking-101/
 
-## Basics
+## The Basics
 
-**Nodes**
+To get started, let's just get some basic terminology down and take a look at the bigger picture:
 
-These are all the points in the network. There are terminal nodes and intermediate nodes.
+### Nodes
 
-Terminal nodes are things like your phone, laptop, desktop, and other user-facing devices, as well as servers, like would be used for hosting games or websites.
+These are all the points in the network. There are *terminal nodes* and *intermediate nodes*.
 
-Intermediate nodes, are things that are internal to the network: Things like modems, hubs, switches, routers, etc.
+*Terminal nodes* are things like your phone, laptop, desktop, and other user-facing devices, as well as servers, like would be used for hosting games or websites.
 
-**Links**
+*Intermediate nodes*, are things that are internal to the network: Things like modems, hubs, switches, routers, etc.
+
+### Links
 
 Links are the interconnects between two nodes. Generally these fall into two categories: **Guided and Unguided**
 
 *Guided* Links are those that only connect a few nodes (usually only two) and are typically physical, hard-wire links, often copper or fiber optic.
 
+*Unguided* Links are those that propagate to multiple devices, usually though the air, like WiFi.
+
 Not all Links can support the same bandwidth or throughput. In general, Coaxial is worse than Twisted Pair which is in turn worse than fiber.
 
 <img src="/eng/nodes.svg" alt="nodes">
 
-**Applications**
+### Applications
 
 These are the things that you want to do: Talk to someone via voice, text, or video; browse the web; download files; etc.
 
@@ -32,51 +36,103 @@ It can also refer to the specific program used to do these things, so like Chrom
 
 an [*API* (Wikipedia)](https://en.wikipedia.org/wiki/API) or 'Application Programming Interface' is what defines how two programs talk to each other. This doesn't have to be over the network, but often is.
 
-**End Systems - Hosts/Server & Clients**
+### End Systems - Hosts/Server & Clients
 
-Not everything fits the host/server and client terminology, but generally the host/server is the one that is sending data, and the client is the one receiving, or another way to look at it, the client is the one making requests and the host the one fulfilling them.
+Not everything fits the host/server and client terminology, but generally the host/server is the one that is sending data, and the client is the one receiving. Or, another way to look at it, the client is the one making requests and the host/server the one fulfilling them.
 
-**Peer to Peer**
+### Peer to Peer
+
+In a Peer-to-Peer (P2P) network, the idea of server and client break down a little, as typically all of the users (peers) are helping to share the content around. The most obvious example is torrenting.
+
+### Packets
+
+While we could just send a continual stream of data down a wire, that has a lot of issues. For one, it makes it hard to share the wire with multiple people. Of course you could split the wire so each person gets a split amount of time on the wire (Time Division Multiplexing (TDM)) or, if the wire can carry a range of frequencies give each user a small portion of those (Frequency Division Multiplexing (FDM), which limits the throughput similarly), but both of these sorta suck as they assume a user will always be using their provided channel. Instead, we do a sort of Time Division, but by packet-izing everything. Basically, each stream of data you want to send get's broken up into manageable chunks called packets, and then these packets can be sent though the network.
+
+{{< columns >}}
+
+It's worth noting, these packets typically have a *header* which carries some information about it, like what version of a protocol is being used, where it should go, and who it is from. Here, for example, is the full packet layout of an IPv4 packet, with the header being in the first 20 bytes.
+
+<--->
+
+<a href="https://commons.wikimedia.org/wiki/File:IPv4_Packet-en.svg#/media/File:IPv4_Packet-en.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/6/60/IPv4_Packet-en.svg" alt="IPv4 Packet-en.svg" width="100%" style="-webkit-filter: invert(.8);filter: invert(.8);"></a>
+
+{{< attribution >}}Image by [Michel Bakni](https://www.wikidata.org/wiki/Q81411358), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0){{< /attribution >}}
+
+{{< /columns >}}
+
+### Routers and Switches
+
+{{< speech big >}}
+
+Heads up! This is a bit confusing, as the consumer "WiFi routers" you can buy typically have both a router and switch in them internally, as well as act as a WiFi access point - all, technically, <u>three different roles</u>.
+
+{{< /speech >}}
+
+Alright, so what are these routers and switches?
+
+#### Routers
+
+A *router* is the device that can
+
+ 1. Determine where data should go by use of a *routing table*. 
+
+    Note: This includes differentiating between other, local machines and going out to the Internet
+
+ 2. Do Network Address Translation (NAT) (see [NAT traversal (Wikipedia)](https://en.wikipedia.org/wiki/NAT_traversal))
+
+    Note: This is how networks can have a bunch of internal IPv4 IPs (usually 192.168.1.xxx) all be served by one external ip. This isn't necessary for IPv6, where each device can have its own external IP.
+
+    {{< smalltext >}}... and, technically, you could have enough IPv4 addresses to not need NAT too, but that would be very expensive {{< /smalltext >}}
+
+    </br>{{< smalltext >}}... also, sometimes you'll be behind two NAT's because of [CGNAT (Wikipedia)](https://en.wikipedia.org/wiki/Carrier-grade_NAT){{< /smalltext >}}
+
+ 3. Deal with congestion (if to much data is being sent to the router, how should it be handled?)
+
+    {{< smalltext >}}... the answer is often just drop packets though.{{< /smalltext >}}
+
+ 4. Provide Quality-Of-Service (QoS) to prioritize certain applications
+
+ 5. Act as a Dynamic Host Configuration Protocol (DHCP) server to assign ip addresses to devices
+
+#### Switches
+
+A *switch* lets you connect multiple devices together, but does so a bit intelligently as the switch itself figures out what destination port an incoming packet should go to. In a typical setup the switch will have one "upper level" connection going up the network (so, in a home network, to the router that goes to the internet) and many connected devices (potentially including other switches). Except for in some weird scenarios, a connection between two devices connected to the same switch will only need to pass through the switch, not go to the router and back.
+
+Often, switches will have one or two high bandwidth ports (10Gbe, for example) along side many slower ports under the assumption that a server or the internet will be handling most requests. Sometimes, these ports may look different than the others, as they may be for [SFP modules](https://en.wikipedia.org/wiki/Small_form-factor_pluggable_transceiver) instead of the typical RJ-45 jacks seen with most ethernet cables.
+
+[TODO] Managed vs Unmanaged
+
+[TODO] store and forward - buffering vs cutthrough https://www.networkacademy.io/ccna/ethernet/store-and-forward-vs-cut-through-switching
+
+### WiFi Access Points
 
 [TODO]
 
-**Packets**
-
-While we could just send a continual stream of data down a wire, that has a lot of issues. For one, it makes it hard to share the wire with multiple people. Of course you could split the wire so each person get's a split amount of time on the wire (Time Division Multiplexing) or, if the wire can carry a range of frequencies give each user a small portion of those (Frequency Division Multiplexing, which limits the throughput similarly), but both of these sorta suck as they assume a user will always be using their provided channel. Instead, we do a sort of Time Division, but by packet-izing everything. Basically, each stream of data you want to send get's broken up into manageable chunks called packets, and then these packets can be sent though the network.
-
-[TODO] packet headers
-
-**Routers and Switches**
-
-Take data in and out, usually though bi-directional links, and can switch which link goes where. Usually with the help of a forwarding table
-
-[TODO] image here
-
-[TODO] store and forward - buffering, 
-
-**End to End Delay**
+### End to End Delay
 
 d_ECE = 2 (L/R)
 
 where L = bits per packet, R = tx rate of link
 
-**Queuing Delay**
+### Queuing Delay
 
-**Packet Loss**
+### Packet Loss
 
 Sometimes packets in the network don't reach their destination. This can be for a variety of reasons. Maybe a switch along the line was overloaded and it's buffer was full, maybe it took a bad route, maybe you have crappy wifi. ╮(─▽─)╭. It happens. Usually the percent of dropped packets is called your packet loss.
 
-**Forwarding Table**
+### Forwarding Table
 
-**Bandwidth Vs Throughput**
+### Bandwidth Vs Throughput
 
 [TODO] physcics of link vs data of link - expand on FDM vs TDM
 
-**LAN Vs WAN**
+[TODO] and bps/baud
+
+### LAN Vs WAN
 
 Local Area Network and Wide Area Network- on most home connections your LAN is the network *in your house* while the WAN is the internet at large, so the WAN port on your router is where you connect the cable from your Internet Service Provider (ISP)
 
-**Protocol**
+### Protocol
 
 Usually a network is dependent on a stack of protocols. Each protocol is just a standard for the way too things communicate. As we keep going you'll see more about IP (Internet Protocol), TCP (Transmission Control Protocol), among many others.
 
@@ -128,7 +184,7 @@ MAC and LLC
 
 ### Ethernet
 
-### PPP
+### PPP - Point-to-Point Protocol
 
 ### Switch
 
@@ -136,7 +192,7 @@ MAC and LLC
 
 ### Frames
 
-### VLAN
+### VLAN - Virtual LAN
 
 ## 3 - Network Layer/IP Layer
 
@@ -170,7 +226,9 @@ Physical: [6] <-> [6] <-> [4] <-> [4] <-> [6] <-> [6]
 
 ### MAC
 
-### ICMP, IGMP
+### ICMP - Internet Control Message Protocol
+
+### IGMP - Internet Group Management Protocol
 
 traceroute
 
@@ -240,29 +298,29 @@ tcp header diagram
 
 ### Sockets
 
-### API's
+### API - Application Programming Interface 
 
-### NetBios
+### NetBios - **Network Basic Input/Output System**
 
-### PAP
+### PAP - 
 
-### RPC
+### RPC - Remote Procedure Call
 
-### SMB
+### SMB - Server Message Block
 
-### SOCKS
+### SOCKS - Socket Secure
 
 ## 6 - Presentation Layer
 
-### TLS
+### TLS - Transport Layer Security
 
-### SSL
+### SSL - Secure Sockets Layer (Deprecated)
 
-### IMAP
+### IMAP - Internet Message Access Protocol
 
 ## 7 - Application Layer
 
-### HTTP(s) 
+### HTTP(s)  - Hypertext Transfer Protocol
 
 http://bright28677.tripod.com/proj2/httpformat.htm (both images)
 
@@ -284,11 +342,11 @@ cookies because stateless
 
 in-band
 
-### FTP
+### FTP - File Transfer Protocol
 
 still TCP, out-of-band, maintains state, passive v active mode
 
-### DNS
+### DNS - Domain Name Service
 
 **TTL?**
 
@@ -300,25 +358,25 @@ still TCP, out-of-band, maintains state, passive v active mode
 
 [72% of Smart TVs, 46% of Consoles hardcode DNS Settings](https://arxiv.org/abs/2001.08288), [(Hacker News Comments on article)](https://news.ycombinator.com/item?id=25313480)
 
-### DHCP
+### DHCP - Dynamic Host Configuration Protocol
 
 Some texts will put this in Data or Network layer or Link Layer, it's a bit ambiguous. It's not -technically- necessary, much like DNS, but it's used as a core part of the network in most networks. It does appear the [RFC 2131](https://tools.ietf.org/html/rfc2131) says it's Link Layer, but it seems most people think it belongs in Application Layer.
 
-### SSH
+### SSH - Secure Shell
 
-### IRC
+### IRC - Internet Relay Chat
 
 ### EMail (SMTP, IMAP, POP)
 
 mail servers and useragents
 
-### UPNP
+### UPNP - Universal Plug and Play
 
-### NTP
+### NTP - Network Time Protocol
 
 ### Telnet
 
-### NFS
+### NFS - Network File System
 
 ### Torrents
 
