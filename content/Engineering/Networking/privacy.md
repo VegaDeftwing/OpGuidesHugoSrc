@@ -51,3 +51,6 @@ There's also the point of not being spied on by the government, but at least for
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/XEVlyP4_11M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
+
+The [Awesome Privacy](https://github.com/pluja/awesome-privacy) list on GitHub may prove useful for find alternative tools that aren't creepy.

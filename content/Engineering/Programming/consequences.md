@@ -27,10 +27,13 @@ There's a pretty big list of considerations you should keep in mind when what yo
 
 * Does it rely on other tools or libraries that don't follow these ideals?
   * *ᶜᵒᵘᵍʰ* Windows *ᶜᵒᵘᵍʰ*
-
 * Have you given credit to any tools or libraries you depend on?
   * Have you given funding to any of those tools, if you're making money off of them?
   * Have you contributed code to any of them?
+* Do you really need to use that library?
+  * Every library is a threat vector
+  * ... at the same time, not using industry standard stuff can be bad. For example, you probably shouldn't ever use your own cryptography code.
+
 
 ---
 

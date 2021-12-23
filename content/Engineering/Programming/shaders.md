@@ -11,3 +11,7 @@ http://glsl.erogenous-tones.com/e#1341.0
 https://smoothstep.io/anim/534226b1d5ed
 
 https://acko.net/blog/frickin-shaders-with-frickin-laser-beams/
+
+https://github.com/stackgl/shader-school
+
+https://thebookofshaders.com

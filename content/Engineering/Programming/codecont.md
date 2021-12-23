@@ -20,9 +20,9 @@
 
 Modify the original python program to support a pretty cli input in a pretty way to make entries and visulize the data collected, parallelize some things, finally add a config file using yaml
 
-## Part 4, getting our toes wet with embeded systems
+## Part 4, getting our toes wet with embedded systems
 
-Finally, let's go back and add a com port to the C code and send data to an arduino (can be simulated) and a TFT to display the currently active task and time elapsed.
+Finally, let's go back and add a com port to the C code and send data to an Arduino (can be simulated) and a TFT to display the currently active task and time elapsed.
 
 # Other resources and articles:
 
@@ -33,6 +33,8 @@ Finally, let's go back and add a com port to the C code and send data to an ardu
 [Bit Tricks (GitHub)](https://github.com/kstenerud/bit-tricks)
 
 [Coding Challenge #12: The Lorenz Attractor in Processing (YouTube, The Coding Train)](https://www.youtube.com/watch?v=f0lkz2gSsIk) and [Coding in the Cabana 4: Worley Noise (YouTube, The Coding Train)](https://www.youtube.com/watch?v=4066MndcyCk)
+
+[Things unlearned (Jamie Brandon)](https://www.scattered-thoughts.net/writing/things-unlearned/)
 
 ## Coding Challanges
 

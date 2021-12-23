@@ -6,3 +6,7 @@
 
 [Why NFTs are bad: the long version (Antsstyle)](https://antsstyle.medium.com/why-nfts-are-bad-the-long-version-2c16dae145e2)
 
+
+
+[Hacker News comments on "PayPal raises fees for most domestic transaction types to 3.49% + $0.49"](https://news.ycombinator.com/item?id=28755702) 
+

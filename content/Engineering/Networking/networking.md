@@ -174,6 +174,8 @@ Physical: [6] <-> [6] <-> [4] <-> [4] <-> [6] <-> [6]
 
 traceroute
 
+<script id="asciicast-458108" src="https://asciinema.org/a/458108.js" data-speed="4" data-rows="30" async></script>
+
 ### Subnets
 
 https://www.aelius.com/njh/subnet_sheet.html

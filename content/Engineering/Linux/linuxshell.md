@@ -134,6 +134,8 @@ Of note, while the majority of these commands should be available on nearly any 
 
   - Alternative recommendation: **htop** or **[btop++](https://github.com/aristocratos/btop)**
 
+  - Also be aware of task-specific 'top' programs like [**iotop**](https://github.com/Tomas-M/iotop), **irqtop**, [**powertop**](https://wiki.archlinux.org/title/powertop), [**radeontop**](https://github.com/clbr/radeontop) (or [**nvtop**](https://github.com/Syllo/nvtop) if you have an Nvidia card) 
+
     ![](/eng/btop.png)
 
     {{< attribution >}}btop screenshoot{{< /attribution >}}
@@ -531,6 +533,7 @@ While some of these may be included, they're some of the OG addons or tools to m
 * GDB + gef
   
   * GDB, the original debugger, has it's faults. GEF, a config file for GDB on steroids, fixes many of them. While originally made for exploit developers, many people use it for everyday debugging
+  * also see [rr](https://rr-project.org) for recording a program execution so it can be replayed
 * resh
   
   * replacement for ctrl+r history seach
