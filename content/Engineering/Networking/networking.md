@@ -104,9 +104,93 @@ Often, switches will have one or two high bandwidth ports (10Gbe, for example) a
 
 [TODO] store and forward - buffering vs cutthrough https://www.networkacademy.io/ccna/ethernet/store-and-forward-vs-cut-through-switching
 
+Note, there are also Ethernet Hubs, the key difference being the *lack* of a [forwarding table](https://en.wikipedia.org/wiki/Forwarding_information_base), and (mostly) just blindly merge data: "It has multiple input/output (I/O) ports, in which a signal introduced at the input of any port appears at the output of every port except the original incoming."([Wikipedia](https://en.wikipedia.org/wiki/Ethernet_hub)) (see IEEE 802.3)
+
+### Packet Loss
+
+Sometimes packets in the network don't reach their destination. This can be for a variety of reasons. Maybe a switch along the line was overloaded and it's buffer was full, maybe it took a bad route, maybe you have crappy wifi. ╮(─▽─)╭. It happens. Usually the percent of dropped packets is called your packet loss.
+
+### Bandwidth Vs Throughput
+
+[TODO] physcics of link vs data of link - expand on FDM vs TDM
+
+[TODO] and bps/baud
+
+### LAN Vs WAN
+
+Local Area Network and Wide Area Network- on most home connections your LAN is the network *in your house* while the WAN is the internet at large, so the WAN port on your router is where you connect the cable from your Internet Service Provider (ISP)
+
+Note WAN doesn't *have to* be the internet. It can really just be any network that's broader than the LAN, that usually has multiple smaller, LANs attached.
+
+### Protocol
+
+Usually a network is dependent on a stack of protocols. Each protocol is just a standard for the way too things communicate. As we keep going you'll see more about IP (Internet Protocol), TCP (Transmission Control Protocol), among many others.
+
+Most protocols are determined by standardization bodies such as the Internet Engineering Task Force (IETF) or IEEE Standards Association (IEEE-SA)
+
+### Standards and Governance: IEEE, IETF, ICANN, W3C, ...?
+
+{{< tip >}}
+
+I'm going to be throwing a lot of acronyms in here. Don't try to look up each now- I'll cover them as we go.
+
+{{< /tip >}}
+
+Okay, yeah, so, you'll see these acronyms - among others - a lot. These can be a bit overwhelming, but the gist is there's a fair amount of bureaucracy in how communications standards are defined.
+
+Generally the **IEEE** (Institute of Electrical and Electronics Engineers) standards are more on the hardware and signaling side of things, so you'll mostly see these in the physical layer, such as IEEE 802.11 for Wi-Fi
+
+Meanwhile, the [**IETF**](https://en.wikipedia.org/wiki/Internet_Research_Task_Force) (Internet Engineering Task Force) often publishes technical documents as **RFC**s (Request for Comments) such as the ASCII standard, DNS, UTF-8, SMTP, SSH, POP, NTP, NFS, Kerberos, IRC, IPv4, IPv6, among many, many others. These each have a designated RFC number, and often multiple, such as the many associated with  [DNS](https://en.wikipedia.org/wiki/Domain_Name_System#RFC_documents). There's also the [**IRTF**](https://en.wikipedia.org/wiki/Internet_Research_Task_Force) (Internet Research Task Force) which "focuses on longer term research issues related to the Internet while the parallel organization, the IETF". The IRTF is made up of 14 research groups ranging from cryptography to quantum computing and even human rights.
+
+The **IANA** (Internet Assigned Numbers Authority), a sub group of **ICANN** (Internet Corporation for Assigned Names and Numbers) assigns blocks of IP addresses, runs the root DNS servers, and runs the main time zone database. There are regional organizations (RIR - Regional Internet registry) that the IANA delegates responsibilities to. These are the [American Registry for Internet Numbers](https://en.wikipedia.org/wiki/American_Registry_for_Internet_Numbers) (ARIN),  [Réseaux IP Européens Network Coordination Centre](https://en.wikipedia.org/wiki/RIPE_NCC) (RIPE NCC), [Asia-Pacific Network Information Centre](https://en.wikipedia.org/wiki/Asia-Pacific_Network_Information_Centre) (APNIC), [African Network Information Center](https://en.wikipedia.org/wiki/AFRINIC) (AFRINIC), and [Latin America and Caribbean Network Information Centre](https://en.wikipedia.org/wiki/Latin_America_and_Caribbean_Network_Information_Centre) (LACNIC).
+
+Then there's the **[W3C](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium)** (World Wide Web Consortium) which is probably most notable for defining the HTML,  CSS, SVG, WebAssembly, and, more recently, ActivityPub. Of note, the W3C has faced backlash recently for adding DRM-specific [Encrypted Media Extensions](https://en.wikipedia.org/wiki/Encrypted_Media_Extensions) (EME) to HTML5, a move that really really pissed of the EFF...
+
+Speaking of, the [**EFF**](https://en.wikipedia.org/wiki/Electronic_Frontier_Foundation) (Electronic Frontier Foundation) is a bit of an odd-one-out on this list, but is effectively to the internet what the ACLU is to the broader public. They regularly provide legal council to high profile cases regarding online rights and digital privacy. They've regularly stood up for the right to encrypt your shit, are anti-DRM, and are basically all-around the good guys. Seriously, please [donate to them](https://supporters.eff.org/donate) or [buy some of their actually awesome merch](https://supporters.eff.org/shop)
+
+Finally, getting pretty tangential, you'll also probably see a fair amount of stuff from the [DEFCON](https://defcon.org) computer security conference influence the web at large - I'll talk more about that in the {{< button relref="/engineering/Networking/Security" >}}Security{{< /button >}} chapter though.
+
+## A typical network
+
+[TODO]
+
+IP addresses, Ports, Default Gateway, Routes & kernel routing table, subnet mask - https://www.aelius.com/njh/subnet_sheet.html, ping, traceroute (mtr/lft), dns - resolv.conf, pihole, caching / squid, localhosts, port forwards, DHCP, private nets, firewalls, chromecast port thing, https vs no s,  rsync,scp,samba, cups, databases , pihole, BGP, RIP, OSFI, multi-zone wifi, single ap multi freq wifi, enterprise security, secured ethernet, https://blog.cloudflare.com/how-verizon-and-a-bgp-optimizer-knocked-large-parts-of-the-internet-offline-today/
+
+IETF & RFCs
+
+IEEE-SA
+
+Parallel, Pipelined, Persistance and Performance
+
+The **OSI model of networking** is the model of networking most classes will cover. It is slightly different from the one used by the internet, which is the **TCP/IP** model.
+
+In the **TCP/IP** model, the **Physical** and **Data Link** Layers are viewed as a **unified 'Network Acces Layer'**
+
+The **Network Layer** is called the **Internet Layer**
+
+The Transport Layer *stays the same*,
+
+and The **Session, Presentation, and Application** layer are all part of a **larger Application** Layer.
+
+But, because I think it's easier to cover it with things more broken up, I'll go over the **OSI** model from here:
+
+## 1 - The physical Layer
+
+**The [series of tubes](https://www.youtube.com/watch?v=R8XSo0etBC4), wireless media, etc. that you shove your information into**
+
+We've already talked about Routers, Switches, Hubs, Nodes, and Links - all of these are part of the physical layer. Let's look at some of the details though:
+
+### Ethernet
+
+Over Coax, fiber , twisted pair(+ CAT_ ratings), wet string
+
+\+ Sneakernet, Infiniband, Multigig
+
 ### Wi-Fi, Wi-Gig, ...
 
-Wi-Fi is a part of the IEEE 802.11 standard and *normally* uses 2.4Ghz and 5Ghz. However, there are varients that use 60Ghz (WiGig, CMMW) and sub 1Ghz (Wi-Fi HaLow, White-Fi)
+Wi-Fi is a part of the IEEE 802.11 standard and *normally* uses 2.4GHz and 5GHz. However, there are varients that use 60Ghz (WiGig, CMMW) and sub 1Ghz (Wi-Fi HaLow, White-Fi).
+
+Generally, the high frequency will have worse coverage but higher data throughput. Each frequency range is split up into multiple channels. It is generally good practice to not be on the same channel as your neighbor.
 
 <div class="wifi">
 
@@ -140,9 +224,27 @@ Wi-Fi is a part of the IEEE 802.11 standard and *normally* uses 2.4Ghz and 5Ghz.
 
 Also note, WiFi generally uses the same 2.4Ghz spectrum as [Bluetooth](https://en.wikipedia.org/wiki/Bluetooth) (IEEE 802.15.1) and [Bluetooth Low Energy](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE, **not from an IEEE standard**). 
 
-
-
 This is not all of the 802.11 standards. There's a bunch of extensions/application specific cases like [802.11p](https://en.wikipedia.org/wiki/IEEE_802.11p) for use in moving vechicals 
+
+#### SSIDs
+
+[TODO]
+
+#### Multiple Acccess Points, Repeaters, 
+
+
+
+#### Security
+
+WEP, WPA(v2), EAP, TKIP, RADIUS, PEAP, LEAP ---> Maybe redirect to security chapter
+
+#### Not Using Wi-Fi
+
+[Ethernet over power](https://en.wikipedia.org/wiki/G.hn), wired tethering (USB)
+
+### Other Wireless Systems
+
+Satelite, geostationary & LEO
 
 ### End to End Delay
 
@@ -151,62 +253,6 @@ d_ECE = 2 (L/R)
 where L = bits per packet, R = tx rate of link
 
 ### Queuing Delay
-
-### Packet Loss
-
-Sometimes packets in the network don't reach their destination. This can be for a variety of reasons. Maybe a switch along the line was overloaded and it's buffer was full, maybe it took a bad route, maybe you have crappy wifi. ╮(─▽─)╭. It happens. Usually the percent of dropped packets is called your packet loss.
-
-### Forwarding Table
-
-### Bandwidth Vs Throughput
-
-[TODO] physcics of link vs data of link - expand on FDM vs TDM
-
-[TODO] and bps/baud
-
-### LAN Vs WAN
-
-Local Area Network and Wide Area Network- on most home connections your LAN is the network *in your house* while the WAN is the internet at large, so the WAN port on your router is where you connect the cable from your Internet Service Provider (ISP)
-
-### Protocol
-
-Usually a network is dependent on a stack of protocols. Each protocol is just a standard for the way too things communicate. As we keep going you'll see more about IP (Internet Protocol), TCP (Transmission Control Protocol), among many others.
-
-Most protocols are determined by standardization bodies such as the Internet Engineering Task Force (IETF) or IEEE Standards Association (IEEE-SA)
-
-## A typical network
-
-[TODO]
-
-IP addresses, Ports, Default Gateway, Routes & kernel routing table, subnet mask - https://www.aelius.com/njh/subnet_sheet.html, ping, traceroute (mtr/lft), dns - resolv.conf, pihole, caching / squid, localhosts, port forwards, DHCP, private nets, firewalls, chromecast port thing, https vs no s,  rsync,scp,samba, cups, databases , pihole, BGP, RIP, OSFI, multi-zone wifi, single ap multi freq wifi, enterprise security, secured ethernet, https://blog.cloudflare.com/how-verizon-and-a-bgp-optimizer-knocked-large-parts-of-the-internet-offline-today/
-
-IETF & RFCs
-
-IEEE-SA
-
-Parallel, Pipelined, Persistance and Performance
-
-The **OSI model of networking** is the model of networking most classes will cover. It is slightly different from the one used by the internet, which is the **TCP/IP** model.
-
-In the **TCP/IP** model, the **Physical** and **Data Link** Layers are viewed as a **unified 'Network Acces Layer'**
-
-The **Network Layer** is called the **Internet Layer**
-
-The Transport Layer *stays the same*,
-
-and The **Session, Presentation, and Application** layer are all part of a **larger Application** Layer.
-
-But, because I think it's easier to cover it with things more broken up, I'll go over the **OSI** model from here:
-
-## 1 - The physical Layer
-
-**The [series of tubes](https://www.youtube.com/watch?v=R8XSo0etBC4), wireless media, etc. that you shove your information into**
-
-### Coax, Twister Pair, Fiber & More
-
-### Wireless (Terrestrial and Satellite)
-
-geostationary vs LEO
 
 ### Hubs, Repeaters, Taps
 
