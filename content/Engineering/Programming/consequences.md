@@ -109,6 +109,8 @@ Here's a nice video from TomScott on this topic:
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/LZM9YdO_QKk?list=PL96C35uN7xGLLeET0dOWaKHkAlPsrkcha" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[The Rise of User Hostile Software (Den Delimarsky)](https://den.dev/blog/user-hostile-software/) and [Hacker News Comments](https://news.ycombinator.com/item?id=28291478)
+
 [CAPTCHAs don't prove your human - They prove you're American](https://shkspr.mobi/blog/2017/11/captchas-dont-prove-youre-human-they-prove-youre-american/)
 
 [Stop over validating your forms](https://hugotunius.se/2016/01/04/stop-over-validating-your-forms.html)

@@ -104,9 +104,45 @@ Often, switches will have one or two high bandwidth ports (10Gbe, for example) a
 
 [TODO] store and forward - buffering vs cutthrough https://www.networkacademy.io/ccna/ethernet/store-and-forward-vs-cut-through-switching
 
-### WiFi Access Points
+### Wi-Fi, Wi-Gig, ...
 
-[TODO]
+Wi-Fi is a part of the IEEE 802.11 standard and *normally* uses 2.4Ghz and 5Ghz. However, there are varients that use 60Ghz (WiGig, CMMW) and sub 1Ghz (Wi-Fi HaLow, White-Fi)
+
+<div class="wifi">
+
+| Generation Name / IEEE Standard                              | Year | Frequency Range**                              | Max Rate                                       | Note                                                         |
+| ------------------------------------------------------------ | ---- | ---------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------ |
+| Wi-Fi 6E (802.11ax)                                          | 2020 | 2.401-2.495+5.030-5.990+"6Ghz"(5.925-7.125Ghz) | 9608 {{< smalltext >}}Mbit/s{{< /smalltext >}} | {{< smalltext >}}the "E" is to denote this extra spectrum{{< /smalltext >}} |
+| [Wi-Fi 6](https://en.wikipedia.org/wiki/Wi-Fi_6) (802.11ax)  | 2019 | 2.401-2.495+5.030-5.990GHz                     | 9608 {{< smalltext >}}Mbit/s{{< /smalltext >}} | {{< smalltext >}}dramatic under-the-hood changes: notably [OFDMA](https://en.wikipedia.org/wiki/Orthogonal_frequency-division_multiple_access), more spatioal streams, and **uplink** MU-MIMO{{< /smalltext >}} |
+| Wi-Fi 5 ([802.11ac](https://en.wikipedia.org/wiki/IEEE_802.11ac-2013)) | 2014 | 5.030-5.990GHz                                 | 6933 {{< smalltext >}}Mbit/s{{< /smalltext >}} | {{< smalltext >}}Allows for wider channels, [MU-MIMO](https://en.wikipedia.org/wiki/MU-MIMO), Beamforming{{< /smalltext >}} |
+| Wi-Fi 4* ([802.11n](https://en.wikipedia.org/wiki/IEEE_802.11n-2009)) | 2008 | 2.401-2.495+5.030-5.990GHz                     | 600{{< smalltext >}}Mbit/s{{< /smalltext >}}   | {{< smalltext >}}Adds basic [MIMO](https://en.wikipedia.org/wiki/Multiple-input_multiple-output), [Spatial Division Multiplexing added](https://en.wikipedia.org/wiki/Spatial_Division_Multiplexing), [frame aggregation](https://en.wikipedia.org/wiki/Frame_aggregation), and possibility for 40Mhz channels  {{< /smalltext >}} |
+| Wi-Fi 3*  ([802.11g](https://en.wikipedia.org/wiki/IEEE_802.11g-2003)) | 2003 | 2.401-2.495GHz                                 | 54 {{< smalltext >}}Mbit/s{{< /smalltext >}}   | {{< smalltext >}}Basically a speed bump from Wi-Fi 2. Runs slower if there are any Wifi 1 devices on the network.{{< /smalltext >}} |
+| Wi-Fi 2* ([802.11a](https://en.wikipedia.org/wiki/IEEE_802.11a-1999)) | 1999 | 5.030-5.990GHz                                 | 54 {{< smalltext >}}Mbit/s{{< /smalltext >}}   | {{< smalltext >}}Basically just defines the addition of the 5GHz band{{< /smalltext >}} |
+| Wi-Fi 1*  ([802.11b](https://en.wikipedia.org/wiki/IEEE_802.11b-1999)) | 1999 | 2.401-2.495GHz                                 | 11{{< smalltext >}}Mbit/s{{< /smalltext >}}    | {{< smalltext >}}Yes, b is worse than a, but was short lived- you'll mostly see b/g/n support on low end devices.{{< /smalltext >}} |
+| Wi-Fi 0*  ([802.11](https://en.wikipedia.org/wiki/IEEE_802.11_(legacy_mode))) | 1997 | 2.401-2.495GHz                                 | 2 {{< smalltext >}}Mbit/s{{< /smalltext >}}    | {{< smalltext >}}Initial spec, Extremely rare{{< /smalltext >}} |
+
+</div>
+
+{{< smalltext >}}\* Wi-Fi 0-4 are unoffical names</br>\*\* Frequencies/Channels may be limited by region: see [List of WLAN Channels](https://en.wikipedia.org/wiki/List_of_WLAN_channels){{< /smalltext >}}
+
+| Generation Name / IEEE Standard                              | Year               | Frequency Range** | Note                                                         |
+| ------------------------------------------------------------ | ------------------ | ----------------- | ------------------------------------------------------------ |
+| ([802.11y-2008](https://en.wikipedia.org/wiki/IEEE_802.11y-2008)) | 2008               | 3.65-3.7Ghz       | {{< smalltext >}}A spectrum licenseing shit storm, can run at higher power{{< /smalltext >}} |
+| ([802.11j](https://en.wikipedia.org/wiki/List_of_WLAN_channels)) | 2004               | 5Ghz only         | {{< smalltext >}}Mostly Japanese. Might(?) be used in the US by Law Enforcment?{{< /smalltext >}} |
+| WiMax ([802.16](https://en.wikipedia.org/wiki/IEEE_802.16))  | 2005</br>(802.16e) | 2-11Ghz           | {{< smalltext >}}Spectrum used may require licence. Hardware is actually available.{{< /smalltext >}} |
+| White-Fi ([802.11af](https://en.wikipedia.org/wiki/IEEE_802.11af))*** | 2014               | 755-928**Mhz**    | {{< smalltext >}}Also known as "White-Fi". Uses Licenced Spectrum. Also see [802.22](https://en.wikipedia.org/wiki/IEEE_802.22){{< /smalltext >}} |
+| Wi-Fi HaLow ([802.11ah](https://en.wikipedia.org/wiki/IEEE_802.11ah))*** | 2017               | 900**Mhz**        | {{< smalltext >}}Also known an Wi-Fi HaLow. Some consumer products available, dubious legality{{< /smalltext >}} |
+| CMMW (802.11aj)                                              | 2018               | 45Ghz             | {{< smalltext >}}Mostly used in China, CMMW = Chinna Milimeter Wave{{< /smalltext >}} |
+| ([802.11ay](https://en.wikipedia.org/wiki/IEEE_802.11ay))    | 2021               | 57.24 to 70.20Ghz | {{< smalltext >}}Extension of ad{{< /smalltext >}}           |
+| WiGig ([802.11ad](https://en.wikipedia.org/wiki/IEEE_802.11ad)) | 2012               | 57.24 to 70.20Ghz | {{< smalltext >}}Used by Dell and Lenovo for a bit, hardware compatability & drivers may be rough{{< /smalltext >}} |
+
+{{< smalltext >}}\*\*\* Also see [LoRa](https://en.wikipedia.org/wiki/LoRa), [Zigbee](https://en.wikipedia.org/wiki/Zigbee), [BLE](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy), and [Z-Wave](https://en.wikipedia.org/wiki/Z-Wave){{< /smalltext >}}
+
+Also note, WiFi generally uses the same 2.4Ghz spectrum as [Bluetooth](https://en.wikipedia.org/wiki/Bluetooth) (IEEE 802.15.1) and [Bluetooth Low Energy](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy) (BLE, **not from an IEEE standard**). 
+
+
+
+This is not all of the 802.11 standards. There's a bunch of extensions/application specific cases like [802.11p](https://en.wikipedia.org/wiki/IEEE_802.11p) for use in moving vechicals 
 
 ### End to End Delay
 
