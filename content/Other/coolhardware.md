@@ -86,6 +86,10 @@
 
 * DIY ["Blackhole 6000" warm air generator](https://frank.geekheim.de/?p=2476) (German)
 
-  
+* Ashlyn Black's Linear Feedback Shift Register board
 
+  <iframe width="100%" height="500" src="https://www.youtube.com/embed/l2Xk5hLagrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  
+  
   
