@@ -35,7 +35,7 @@ While a small community of people you can talk to 1-on-1 is better, having inspi
 
 [Hackaday.io](https://hackaday.io/)
 
-[Hackster.io](www.hackster.io/)
+[Hackster.io](https://www.hackster.io/)
 
 [Bleeping Computer](https://www.bleepingcomputer.com/)
 
