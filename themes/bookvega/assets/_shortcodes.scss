@@ -338,6 +338,19 @@ div.speech.boi:before {
   width: 75px;
 }
 
+div.speech.triode:before {
+  background-color: #181818;
+  background-image: url("/nonfree/character/triode1.webp");
+  background-size: 75px;
+  border-radius: 100%;
+  content: "";
+  left: -40px;
+  top: 4px;
+  position: absolute;
+  height: 75px;
+  width: 75px;
+}
+
 div.speech.furby:before {
   background-color: #181818;
   background-image: url("/nonfree/blog/furby.gif");

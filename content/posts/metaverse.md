@@ -2,7 +2,7 @@
 title: "A Meta-er-verse"
 slug: "Metaverse"
 author: "Vega Deftwing"
-date: 2021-12-28
+date: 2021-12-27
 tags: technical
 draft: false
 ---
