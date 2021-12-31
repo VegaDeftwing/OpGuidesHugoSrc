@@ -91,6 +91,6 @@ Of course, I'd rather the official guide be written well enough that I don't nee
 
 {{< speech big >}}
 
-Thank you for reading. I know Head-on-a-Stick was a royal ass here, but I still want everyone to take the high road. Please do not harass, abuse, dox, or otherwise be mean to him.
+Thank you for reading. I know Head-on-a-Stick was a royal ass here, but they have let me know you are free to harass, abuse, dox, or otherwise be mean to them. They think anybody who follows this blog is a gibbering moron who deserves nothing but contempt.
 
 {{< /speech >}}
