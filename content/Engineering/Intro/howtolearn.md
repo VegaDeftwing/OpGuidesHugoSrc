@@ -16,7 +16,7 @@ You should also constantly be looking for how to break, modify, or look into how
 
 <p hidden> <b> OwO, What's this? </b> <p>
 
-You should see a `<p hidden>` element, try editing it to remove the word hidden, then the text from that elment should appear above this.  (this sometimes doesn't work correctly right away, so you might have to right click and inspect twice, but then you should see the HTML source for this section of the page)
+You should see a `<p hidden>` element, try editing it to remove the word hidden, then the text from that element should appear above this.  (this sometimes doesn't work correctly right away, so you might have to right click and inspect twice, but then you should see the HTML source for this section of the page)
 
 But try to take this lesson elsewhere, try renaming a .docx (word) file to a .zip and extracting it, or looking though the ventilation of your electronics to see if you can see what makes them tick, whatever. Curiosity is my primary incentive to learn, and often taking a peak into the innards of electronics or code or machines can reveal a lot.
 
