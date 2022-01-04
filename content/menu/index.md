@@ -8,7 +8,7 @@ headless: true
 
 </div>
 
-<p style="color:#009CDF;margin-bottom:0px;" >    Introduction</p>
+<p class="navhead" style="color:#009CDF;margin-bottom:0px;" >    Introduction</p>
 
 <div class="progress-ww">
 <dl>
@@ -17,8 +17,7 @@ headless: true
 <dt>Ⅱ </dt><dd> <a href="/engineering/intro/howtolearn/">Learn How to Learn</a></dd>
 </dil>
 </div>
-
-<p style="color:#009CDF;margin-bottom:0px;" >    Linux & Your Computer</p>
+<p class="navhead" style="color:#009CDF;margin-bottom:0px;" >    Linux & Your Computer</p>
 
 <div class="progress-ww">
 <dl>
@@ -42,12 +41,13 @@ headless: true
 <dt>4 </dt><dd> <a href="/engineering/linux/linuxdirtree/">Getting Rooted in Linux</a></dd>
 <dt>5 </dt><dd> <a href="/engineering/linux/howwework/">Working on <i>How</i> we work</a></dd>
 <dt>5½</dt><dd> <a href="/engineering/linux/git/">Git</a></dd>
-<dt>A1 </dt><dd> <a href="/engineering/linux/linuxshell/">Using The Linux Shell</a></dd>
+<dt>A1</dt><dd> <a href="/engineering/linux/linuxshell/">Using The Linux Shell</a></dd>
 </dil>
 </div>
 
 
-<p style="color:#009CDF;margin-bottom:0px;" >    Prerequisites</p>
+
+<p class="navhead" style="color:#009CDF;margin-bottom:0px;" >    Prerequisites</p>
 
 <div class="progress-ww">
 <dl>
@@ -70,7 +70,7 @@ headless: true
 </div>
 
 
-<p style="color:#009CDF;margin-bottom:0px;" >    Programming</p>
+<p class="navhead" style="color:#009CDF;margin-bottom:0px;" >    Programming</p>
 
 <div class="progress-ww">
 <dl>
@@ -94,7 +94,8 @@ headless: true
 </div>
 
 
-<p style="color:#009CDF;margin-bottom:0px;" >    Circuits</p>
+
+<p class="navhead" style="color:#009CDF;margin-bottom:0px;" >    Circuits</p>
 
 <div class="progress-ww">
 <dl>
@@ -106,8 +107,7 @@ headless: true
 <dt>26 </dt><dd> <a href="/engineering/circuits/pcb/">Let's Make our own PCB</a></dd>
 </dil>
 </div>
-
-<p style="color:#009CDF;margin-bottom:0px;" >    Signal Processing</p>
+<p class="navhead" style="color:#009CDF;margin-bottom:0px;" >    Signal Processing</p>
 
 <div class="progress-ww">
 <dl>
@@ -119,8 +119,7 @@ headless: true
 <dt>32 </dt><dd> <a href="/engineering/signals/aiml/">Fine, here's AI/ML</a></dd>
 </dil>
 </div>
-
-<p style="color:#009CDF;margin-bottom:0px;" >    Going Deeper</p>
+<p class="navhead" style="color:#009CDF;margin-bottom:0px;" >    Going Deeper</p>
 
 <div class="progress-ww">
 <dl>
@@ -132,8 +131,7 @@ headless: true
 </div>
 
 
-
-<p style="color:#009CDF;margin-bottom:0px;" >    Networking & Servers</p>
+<p class="navhead" style="color:#009CDF;margin-bottom:0px;" >    Networking & Servers</p>
 
 <div class="progress-ww">
 <dl>
@@ -145,7 +143,7 @@ headless: true
 <dt>40½</dt><dd> <a href="/engineering/networking/privacy/">Privacy</a></dd>
 </dil>
 </div>
-<p style="color:#009CDF;margin-bottom:0px;" >    Making and Hobbies</p>
+<p class="navhead" style="color:#009CDF;margin-bottom:0px;" >    Making & Hobbies</p>
 
 <div class="progress-ww">
 <dl>
@@ -156,8 +154,7 @@ headless: true
 </div>
 
 
-
-<p style="color:#009CDF;margin-bottom:0px;" >    Wrapping Up</p>
+<p class="navhead" style="color:#009CDF;margin-bottom:0px;" >    Wrapping Up</p>
 
 <div class="progress-ww">
 <dl>
@@ -291,7 +288,7 @@ headless: true
 </dil>
 </div>
 
-<p style="background: linear-gradient(90deg, #F78200 0%, #FFF 50%, #009CDF 75%) ;-webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom:0px;" >    Web Development</p>
+<p class="navhead, webhead" style="background: linear-gradient(90deg, #F78200 0%, #FFF 50%, #009CDF 75%) ;-webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom:0px;" >    Web Development</p>
 
 </div>
 <div class="progress-ww">

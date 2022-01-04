@@ -8,15 +8,130 @@
 
 [Linux Productivity Tools Presentation PDF (Ketan M.)](https://www.usenix.org/sites/default/files/conference/protected-files/lisa19_maheshwari.pdf)
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+
+<style>
+	:root {
+		--body-background: linear-gradient(90deg, #121, #030, #121);
+		--text-color: #f5f5f5cc;
+		--link-color: #090;
+	}
+	body,p {
+		font-family: 'Press Start 2P', cursive;
+		font-size: 18px;
+        color: var(--text-color);
+	}
+	code{
+		font-family: 'VT323', monospace;
+		font-size: 22px !important;
+        color: var(--text-color);
+	}
+	body{
+		background: var(--body-background);
+		color: var(--text-color);
+	}
+	h1,h2,h3,h4,h5,h6,nav{
+		font-family: 'Press Start 2P', cursive !important;
+		font-size: 18px;
+	}
+	a{
+		color: var(--link-color);
+		font-family: 'Press Start 2P', cursive;
+	}
+	.book-brand{
+		img {
+			image-rendering: pixelated !important;
+		}
+	}
+	dt,dd{
+		font-size: 18px !important;
+		font-family: 'VT323', monospace;
+        color: var(--text-color);
+	}
+	dd{
+		font-size: 10px !important;
+	}
+    .blogdd{
+        font-size: 10px !important;
+        font-family: 'Press Start 2P', cursive;
+    }
+    .navhead{
+        font-size: 14px !important;
+        text-align:left;
+    }
+    aside nav ul li, .navbak{
+        font-size: 14px !important;
+        color: var(--body-background);
+    }
+    img{
+    	image-rendering: pixelated;
+    }
+    span{
+        color: var(--text-color);
+    }
+    nav{
+    	background: #0000 !important; //This makes the BG of the nav invible
+    }
+    div.speech {
+		border-bottom-right-radius: 0px !important;
+		border-left: 2px solid #777;
+		border-top-right-radius: 0px !important;
+		padding: 12px 24px 12px 70px;
+		border-radius: 0% !important;
+	}
+    div.speech:before {
+		background-color: #181818;
+		background-image: url("/nonfree/character/opguidesSiplick.png");
+		background-size: 75px;
+		border-radius: 0% !important;
+		border: 1px solid #777;
+		content: "";
+		left: -40px;
+		top: 4px;
+		position: absolute;
+		height: 75px;
+		width: 75px;
+	}
+    div.speech, tr:nth-child(2n) {
+		background-color: #151 !important;
+	}
+    div.speech.right {
+        background-color: #020 !important;
+    }
+    ::-webkit-scrollbar-thumb{
+        background: #ccc !important;
+    }
+    ::-webkit-scrollbar-track {
+    	background: #040;
+	}
+    .navbak{
+        background: #282 !important;
+    }
+    .navhead{
+        color: #0f0a !important;
+    }
+    .webhead{
+		background:linear-gradient(90deg,#050 0%,#2d2 50%,#0d0 75%) !important;
+		-webkit-background-clip:text !important;
+		-webkit-text-fill-color:transparent;
+		margin-bottom:0;
+    }
+    .markdown{
+        line-height: 1.6;
+    }
+</style>
+
 ## What The Shell?
 
 Okay, first question you probably have after I've been using them interchangebly 'What is a Shell and is it different from a terminal?'
 
 Yes, they're different, but before I talk about the shell it's easier to talk about the Terminal.
 
-The Terminal is a piece of hardware, or, rather *was* a piece of hardware. For example, here's an old IBM 3151.
+The Terminal is a piece of hardware, or, rather *was* a piece of hardware. For example, here's an old IBM 3151:
 
-![mergedterms](/eng/mergedterms.webp)
+<img src="/eng/mergedterms.webp" style="filter: grayscale(80%);filter: sepia(100%);filter: hue-rotate(90deg);">
 
 
 Now, don't mistake this for a CRT monitor like everyone was using in the early 2000's, this is a *terminal* it has a serial connection in the back that only reciveves messages of text from the computer it's attached to, and it can only display text on it's dim green screen. Before the days of graphical computing everything was though a text only interface that you'd usually read on one of these. Fortunately, technology has gotten much, much better.
