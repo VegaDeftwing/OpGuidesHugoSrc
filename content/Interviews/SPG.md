@@ -155,8 +155,7 @@ bookToC = false
 
 **What is your favorite adult game? Why?**
 
-
-Cloud Meadow. I like the pixel artstyle and I love farming games.
+> Cloud Meadow. I like the pixel artstyle and I love farming games.
 
 
 **What made you want to start making adult game reviews?**
@@ -171,7 +170,6 @@ Cloud Meadow. I like the pixel artstyle and I love farming games.
 **What do the viewership statistics of your videos look like? Is there a strong gender bias? Age?**
 
 > My current demographic is mostly millennial and gen-xers who identify as male. I expect that to change as this space continues to grow.
-
 
 **Have you gotten any hate for running an adult-content oriented channel?**
 
@@ -191,11 +189,9 @@ Cloud Meadow. I like the pixel artstyle and I love farming games.
 
 > No idea. This has been an arduous journey and I am still almost completely clueless about how anything is supposed to work. 
 
-
 **What tools/software do you use to make your videos?**
 
 > I record and edit my videos with Wondershare Filmora and I use OBS Studio when I record games or stream. I am open to other suggestions if there is something better. Like I said, I am almost completely clueless about how anything is supposed to work. 
-
 
 **Are there any big changes coming to Sex Positive Gaming in 2022?**
 
@@ -204,7 +200,6 @@ Cloud Meadow. I like the pixel artstyle and I love farming games.
 **How do you feel about YouTube removing the Dislike button?**
 
 > I have to modify so much of my personality and content to conform to YouTube that the absence of the Dislike button seems trivial in comparison. I understand it matters a lot to people who understand this space more than I do, but my current focus is in making sure that each new video I release isn’t my last.
-
 
 **Without looking at steam, do you think there's more lood furry or anime games?**
 
@@ -229,7 +224,6 @@ Cloud Meadow. I like the pixel artstyle and I love farming games.
 
 > Obviously I like video games, but I also really enjoy 80s and 90s movies and culture. I don’t get a chance to read as much anymore because the channel takes up so much time.
 
-
 **What's the best advice you've ever received? Worst?**
 
 > I got a lot of good advice before I started the channel from people in the industry, but the community has been my biggest asset towards improvement. Seriously– almost everyone has been so kind and tolerant of my mistakes and that has really allowed me to grow and learn.
@@ -239,11 +233,9 @@ Cloud Meadow. I like the pixel artstyle and I love farming games.
 
 > Aside from reviewing and playing almost every type of adult content video games? I mean seriously, I have seen things.
 
-
 **How do you stay motivated to keep doing cool things?**
 
 > The terror of having to go and get a 9-5 job where I have to interact with other humans face to face is a powerful motivator.
-
 
 **What hobby do you want to get into but haven't had a chance to dive into yet?**
 
