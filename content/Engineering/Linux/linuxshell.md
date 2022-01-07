@@ -196,7 +196,16 @@ Of note, while the majority of these commands should be available on nearly any 
 
 - **ln** - make a symbolic / hard link (shortcut)
 
-- **du & df** - Disk usage and disk free, **df** will show you how much room you have left per disk, **du** serves to help find what's using up your disk
+- <div class="progress-ww">
+  <dl>
+  <dt> </dt><dd> <a href="/interviews/loial/">Loial Otter</a></dd>
+  <dt> </dt><dd> <a href="/interviews/soatok/">Soatok Dreamseeker</a></dd>
+  <dt> </dt><dd> <a href="/interviews/cadeyratio/">Cadey Ratio</a></dd>
+  <dt> </dt><dd> <a href="/interviews/kell/">Kell Bengal</a></dd>
+  <dt> </dt><dd> <a href="/interviews/taxbadger/">Tax Badger</a></dd>
+  <dt> </dt><dd> <a href="/interviews/spg/">Sex Positive Gaming</a></dd>
+  </dil>
+  </div>
   
   - Alternative recommendation: **ncdu** and [**duf**](https://github.com/muesli/duf)
   
