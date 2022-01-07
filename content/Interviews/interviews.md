@@ -11,8 +11,9 @@ slug: "Interviews"
 - <a href="/interviews/cadeyratio/">Cadey Ratio</a>
 - <a href="/interviews/kell/">Kell Bengal</a>
 - <a href="/interviews/taxbadger/">Tax Badger</a>
+- <a href="/interviews/spg/">Sex Positive Gaming</a>
 
 # If you would like to be interviewed
 
-Well, first of all I'd like to know what makes you interesting - so shoot me a message or open an issue on github, twitter, or where ever you can find me.
+Well, first of all I'd like to know what makes you interesting - so shoot me a message or open an issue on GitHub, twitter, or where ever you can find me.
 
