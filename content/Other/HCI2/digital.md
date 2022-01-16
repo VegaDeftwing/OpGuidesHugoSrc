@@ -62,7 +62,7 @@ Google also needs to quit their shit with information cards:
 
 And it'd be great if something could actually be done about big sites like [Pinterest and Quora gaming Google](https://www.inputmag.com/culture/pinterest-sucks-google-image-photo-search-ruining-internet) 
 
-Finally, I do want to end on a positive note: [Google is trying to show why results are ranked how they are](https://searchengineland.com/google-now-shows-why-it-ranked-a-specific-search-result-350659), and that's actuallypretty cool - though it does still seem [that search results are getting worse, at least according to Hacker News users.](https://news.ycombinator.com/item?id=29392702)
+Finally, I do want to end on a positive note: [Google is trying to show why results are ranked how they are](https://searchengineland.com/google-now-shows-why-it-ranked-a-specific-search-result-350659), and that's actuallypretty cool - though it does still seem [that search results are getting worse, at least according to Hacker News users.](https://news.ycombinator.com/item?id=29392702) Fortunately, there are interesting search engines, both general purpose like [you.com](https://you.com) and more specific, like [lieu](https://lieu.cblgh.org) for searchinging the [XXIIVV webring](https://webring.xxiivv.com) or the data-orriented [WolframAlpha](https://www.wolframalpha.com).
 
 ### Pay-Walls suck
 

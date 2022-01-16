@@ -113,7 +113,11 @@ Flangers sort of makes a comb filter sound too, as you can see in the Spectrum A
 
 ![Pyramids](/music/Pyramids.webp)
 
-> The '[Pyramids](https://www.earthquakerdevices.com/pyramids)' Flanger pedal from Earthquaker Devices.
+{{< attribution >}}The '[Pyramids](https://www.earthquakerdevices.com/pyramids)' Flanger pedal from Earthquaker Devices.{{< /attribution >}}
+
+## Warping
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/AAgqMJbicac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <ol hidden id="footnotes">
     <li>Bucket Brigade Delay is essentially a bunch of capacitors acting as the 'buckets' that are figuratively passed down the chain, moving from one bucket to the next each clock cycle, of course, this clock rate can be changed while it's running. The number of stages in a BBD determines how long of a delay you can get without having a massive determent to quality.</li>

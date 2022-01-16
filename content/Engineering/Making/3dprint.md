@@ -100,6 +100,8 @@ https://www.prusaprinters.org/prints/7876-rotating-rings-toy
 
 [Fractal Vise Holds Odd-Shaped Objects Tight (Hackaday)](https://hackaday.com/2021/07/10/fractal-vise-holds-odd-shaped-objects-tight/)
 
+[3D PRINTING SEX TOYS: a quick, easy and safe method! (Billie Ruben)](https://www.billieruben.info/post/3d-printing-sex-toys-a-quick-easy-and-safe-method)
+
 ### 3D Printing Materials
 
 #### PLA, ABS, PETG, etc.

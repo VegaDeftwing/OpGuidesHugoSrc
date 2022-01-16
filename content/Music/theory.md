@@ -62,6 +62,14 @@ making instruments swap roles
 
 ### Key Changes
 
+### Sonic Space
+
+{{< quote "[Zach Comtois](https://www.youtube.com/watch?v=OswXhyPgGN4)" >}}
+
+You want to make sure you're in the right sonic space. [...] It's not so much about being louder than everyone else, it's just, like, fitting in the right space where you can be heard - I just try to stear clear of the vocal no matter what.
+
+{{< /quote >}}
+
 ## Further Reading
 
 [An Introduction to Math Rock (YouTube, Alfo Media)](https://youtu.be/MF4Fs1lgYc8)

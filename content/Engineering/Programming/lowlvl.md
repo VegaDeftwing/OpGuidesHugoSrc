@@ -498,3 +498,4 @@ https://github.com/rby90/Project-Based-Tutorials-in-C
 
 [Computer Science from the Bottom Up](https://www.bottomupcs.com)
 
+[High throughput Fizz Buzz](https://codegolf.stackexchange.com/questions/215216/high-throughput-fizz-buzz/236630#236630)

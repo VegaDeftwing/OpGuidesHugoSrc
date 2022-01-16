@@ -52,6 +52,10 @@
 
   ![](https://cdn.hackaday.io/images/1703451639230442821.PNG)
 
+* Also 555 related, there's this [Atari Punk Console](https://hackaday.com/2022/01/11/the-atari-punk-console-now-with-more-vacuum-tubes/) made using vacuum tubes
+
+* And [This project](https://hackaday.com/2022/01/01/neopixel-punk-console-drives-ws2812s-using-555-timers/) which uses 555's to drive RGB Leds in interesting patterns - No μC!
+
 * [Mercuray Arc Valve](https://en.wikipedia.org/wiki/Mercury-arc_valve)
 
   <iframe width="100%" height="500" src="https://www.youtube.com/embed/2pDcv6g1FE0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -90,6 +94,10 @@
 
   <iframe width="100%" height="500" src="https://www.youtube.com/embed/l2Xk5hLagrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+* The "WiFi Cactus"
+
+  <iframe width="100%" height="500" src="https://www.youtube.com/embed/fX_XH-09YeQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
-  
+* Also see this [PCIe -> 12x mPCIE carrier board](https://www.tindie.com/products/alftel/pci-express-carrier-board-for-x12-m2-radio-cards/)
+
   

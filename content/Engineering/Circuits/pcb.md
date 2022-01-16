@@ -732,6 +732,8 @@ https://llllllll.co/t/pcb-art-artfully-shaped-copper-traces/22027/2t
 
 [Let KiCad and Python design your PCB Coils [Hackaday]](https://hackaday.com/2020/10/19/let-kicad-and-python-make-your-coils/)
 
+[KiKit for KiCAD](https://github.com/yaqwsx/KiKit)
+
 [KiCad STM32 + RF + USB Hardware Design (YouTube, Phil's Lab)](https://www.youtube.com/watch?v=14_jh3nLSsU)
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I quite like this combination I soldered today: <a href="https://twitter.com/oshpark?ref_src=twsrc%5Etfw">@oshpark</a> &#39;s After Dark PCB with purple LEDs. This is my COPXIE project, which is inspired by PIXIE from <a href="https://twitter.com/lixielabs?ref_src=twsrc%5Etfw">@lixielabs</a> . More information can/will be also found here: <a href="https://t.co/BLMhnu95Vu">https://t.co/BLMhnu95Vu</a> <a href="https://t.co/Ssg1d1uNFN">pic.twitter.com/Ssg1d1uNFN</a></p>&mdash; Alex (@tinyledmatrix) <a href="https://twitter.com/tinyledmatrix/status/1319410599894417409?ref_src=twsrc%5Etfw">October 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

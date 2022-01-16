@@ -4,6 +4,8 @@
 
 ## Some Background
 
+<p style="font-size: 30px;text-align: center;">⬤◯◯◯◯◯◯◯◯◯</p>
+
 Unlike Windows or Mac which are primarily differentiated by versions (Windows XP, Vista, 7, 10...), Linux has two important things to look out for:
 
 * The distribution name (Arch, Ubuntu, Mint, Debian, etc.)
@@ -39,6 +41,8 @@ When we're done you'll have a system that has exactly what you need and nothing 
 So, I want to help you understand your system and the choices you'll be making, but I want to help narrow the scope at least a little bit.
 
 ## The Boring Intro Part Of The Manual That You Should Still Actually Read
+
+<p style="font-size: 30px;text-align: center;">⬤⬤◯◯◯◯◯◯◯◯</p>
 
 We'll be following along with the [Official Arch Linux Installation Guide](https://wiki.archlinux.org/title/installation_guide), so you'll see this page has a lot of quote boxes:
 
@@ -126,7 +130,11 @@ In English:
 * You'll need some room on your computer's storage to actually install Arch
 * You'll need an internet connection
 
+Finally, before we get do actually doing the thing, you might want to read [Arch Community Ethos](https://xyne.dev/notes/arch/ethos.html) by Xyne. To some extent, the *existance* of this page goes against the community ethos, but the install guide is also needlessly dense, as stated above.
+
 ## Actually Starting To Do Something - Downloading
+
+<p style="font-size: 30px;text-align: center;">⬤⬤⬤◯◯◯◯◯◯◯</p>
 
 {{< quote "[Install Guide](https://wiki.archlinux.org/title/installation_guide) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
@@ -219,6 +227,8 @@ Now, we finally have file that we can 100% trust. Realistically, this level of s
 
 ## Making The Installer
 
+<p style="font-size: 30px;text-align: center;">⬤⬤⬤⬤◯◯◯◯◯◯</p>
+
 Okay, so we have the OS, how do you install the damn thing? Well, get ready for a fun time. The first thing you'll need is a flash drive with nothing on it you care about, as it's going to be reformated, which will **wipe any data on it**. To install an OS you have to create 'bootable media' this used to be done with a CD, though mostly it's done with flash drives now. You'll actually be putting the OS on the flash drive and then using that to put it on your hard drive / SSD.
 
 Let's not get ahead of ourselves though, we need room to put the new operating system in! Thankfully Linux is small- really small. Even 50Gb should be plenty for the OS, all your programs, and tons of room to spare for data, but I typically recommend at least 100GB, and since we'll be installing a lot of development tools, it makes sense to do this right to begin with.
@@ -286,6 +296,8 @@ If you followed along, you should have already prepared the installation image o
 
 ## Booting Up The Live Environment
 
+<p style="font-size: 30px;text-align: center;">⬤⬤⬤⬤⬤◯◯◯◯◯</p>
+
 <p class="tip">☠☠☠</br>
     Seriously, <b>backup your shit.</b> I've done this countless times and have still managed to accidentally wipe a drive. There's a non-0 chance you're about to completely murder your windows install, It shouldn't happen, but it can. This is a necssary evil to learn, and I assure you'll be happy you've done all this, but this next bit is actual hell for people. I'm sorry it gets so bad so early. I promise it's worth it, okay?
 The next section requires a lot of reboots and has steps where you can't have this guide open on the computer you're working on, so you may want to have a spare system next to you to follow these insturctions on and Google if anything goes wrong.</br>☠☠☠ </p>
@@ -351,6 +363,8 @@ BIOS/UEFI → Boot loader→ OS (Windows/Linux/Mac)
 From our perspective, the biggest difference is really just that UEFI is newer and a bit easier to work with, but there are a lot of interesting changes I encourage you to read up on later. We do still need to know which we're using though. Assuming you had to deal with Secure Boot, you're using UEFI. If you didn't, you're probably using BIOS. Fortunately, we can now check by running a command. So, go ahead and get your keyboard layout set so you can comfortably type, and then run the command under "Verify the boot mode".
 
 ## Connecting to the Internet
+
+<p style="font-size: 30px;text-align: center;">⬤⬤⬤⬤⬤⬤◯◯◯◯</p>
 
 {{< quote "[Install Guide](https://wiki.archlinux.org/title/installation_guide) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
@@ -576,6 +590,8 @@ With that done, we're onto the fun bit.
 
 ## The Part Where You can Really Fuck Up
 
+<p style="font-size: 30px;text-align: center;">⬤⬤⬤⬤⬤⬤⬤◯◯◯</p>
+
 <p class="tip">☠☠☠</br>
     Seriously, <b>backup your shit.</b> Last Warning.</br>☠☠☠ </p>
 
@@ -703,6 +719,8 @@ If you created an EFI system partition, [format it](https://wiki.archlinux.org/t
 
 ## Congrats, Now you can actually install Arch.
 
+<p style="font-size: 30px;text-align: center;">⬤⬤⬤⬤⬤⬤⬤⬤◯◯</p>
+
 {{< quote "[Install Guide](https://wiki.archlinux.org/title/installation_guide) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
 ### Select the mirrors
@@ -752,6 +770,8 @@ To [install](https://wiki.archlinux.org/title/Install) other packages or package
 {{< /quote >}}
 
 ## Getting The Basics Configured
+
+<p style="font-size: 30px;text-align: center;">⬤⬤⬤⬤⬤⬤⬤⬤⬤◯</p>
 
 Technically you've installed Arch. Unfortunately, you couldn't really boot into it right now if you wanted. Plus, even if you did, it wouldn't really be set up for even basic use yet. So, there's a lot more to go.
 
@@ -868,6 +888,8 @@ Choose and install a Linux-capable [boot loader](https://wiki.archlinux.org/titl
 
 ## Finally Removing The Flash Drive
 
+<p style="font-size: 30px;text-align: center;">⬤⬤⬤⬤⬤⬤⬤⬤⬤⬤</p>
+
 {{< quote "[Install Guide](https://wiki.archlinux.org/title/installation_guide) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
 #### Reboot
@@ -881,6 +903,8 @@ Finally, restart the machine by typing `reboot`: any partitions still mounted wi
 {{< /quote >}}
 
 ## But Wait? This is worse than when we started?
+
+<p style="font-size: 30px;text-align: center;">⬢⬡⬡⬡⬡⬡⬡⬡⬡⬡</p>
 
 {{< quote "[Install Guide](https://wiki.archlinux.org/title/installation_guide) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
@@ -917,6 +941,8 @@ For a list of applications to allow running commands or starting an interactive 
 {{< /quote >}}
 
 ### Setting up System-y Stuff (Logs, Background tasks, etc.)
+
+<p style="font-size: 30px;text-align: center;">⬢⬢⬡⬡⬡⬡⬡⬡⬡⬡</p>
 
 {{< quote "[General Recommendations](https://wiki.archlinux.org/title/General_recommendations) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
@@ -963,6 +989,8 @@ Once it concludes, the screen is cleared and the login prompt appears, leaving u
 {{< /quote >}}
 
 ### Installing and Removing Software
+
+<p style="font-size: 30px;text-align: center;">⬢⬢⬢⬡⬡⬡⬡⬡⬡⬡</p>
 
 {{< quote "[General Recommendations](https://wiki.archlinux.org/title/General_recommendations) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
@@ -1014,6 +1042,8 @@ While the Arch Build System allows the ability of building software available in
 
 ### Making your mouse serve a purpose again
 
+<p style="font-size: 30px;text-align: center;">⬢⬢⬢⬢⬡⬡⬡⬡⬡⬡</p>
+
 {{< quote "[General Recommendations](https://wiki.archlinux.org/title/General_recommendations) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
 ### Graphical user interface
@@ -1050,6 +1080,8 @@ Well-known user directories like Downloads or Music are created by the `xdg-user
 
 ### Mouse and Keyboard Configuration
 
+<p style="font-size: 30px;text-align: center;">⬢⬢⬢⬢⬢⬡⬡⬡⬡⬡</p>
+
 {{< quote "[General Recommendations](https://wiki.archlinux.org/title/General_recommendations) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
 ### Input devices
@@ -1075,6 +1107,8 @@ See the [TrackPoint](https://wiki.archlinux.org/title/TrackPoint) article to con
 {{< /quote >}}
 
 ### Making your computer not drink power and run like ass
+
+<p style="font-size: 30px;text-align: center;">⬢⬢⬢⬢⬢⬢⬡⬡⬡⬡</p>
 
 {{< quote "[General Recommendations](https://wiki.archlinux.org/title/General_recommendations) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
@@ -1124,6 +1158,8 @@ See the main article: [Power management/Suspend and hibernate](https://wiki.arch
 
 ### Audio would be nice
 
+<p style="font-size: 30px;text-align: center;">⬢⬢⬢⬢⬢⬢⬢⬡⬡⬡</p>
+
 {{< quote "[General Recommendations](https://wiki.archlinux.org/title/General_recommendations) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
 ### Multimedia
@@ -1139,6 +1175,8 @@ See [Professional audio](https://wiki.archlinux.org/title/Professional_audio) fo
 {{< /quote >}}
 
 ### Networking-y Stuff
+
+<p style="font-size: 30px;text-align: center;">⬢⬢⬢⬢⬢⬢⬢⬢⬡⬡</p>
 
 {{< quote "[General Recommendations](https://wiki.archlinux.org/title/General_recommendations) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
@@ -1184,7 +1222,9 @@ See also [Category:Network sharing](https://wiki.archlinux.org/title/Category:Ne
 
 {{< /quote >}}
 
-### Making things look a hair better
+### Making things look pretty
+
+<p style="font-size: 30px;text-align: center;">⬢⬢⬢⬢⬢⬢⬢⬢⬢⬡</p>
 
 {{< quote "[General Recommendations](https://wiki.archlinux.org/title/General_recommendations) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
@@ -1207,6 +1247,8 @@ A big part of the applications with a graphical interface for Linux systems are 
 {{< /quote >}}
 
 ### Back to the Terminal
+
+<p style="font-size: 30px;text-align: center;">⬢⬢⬢⬢⬢⬢⬢⬢⬢⬢</p>
 
 {{< quote "[General Recommendations](https://wiki.archlinux.org/title/General_recommendations) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
