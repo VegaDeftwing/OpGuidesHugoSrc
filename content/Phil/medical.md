@@ -14,6 +14,8 @@ slug: "Medical"
 
 Most drugs and prostitution should be legal at the age of 18. However, trafficking obviously not, and drugs must be sold by an individual with a licence to deal and said licence may be revoked if the product is sold with a false label or is tainted.
 
+<a href="https://www.youtube.com/watch?v=kP15q815Saw">3 Arguments Why Marijuana Should Stay Illegal Reviewed</a> (great video, includes many studies)
+
 <img src="https://swordscomic.com/media/Swords420bT.png" style="zoom:33%;" />
 
 {{< attribution >}}
