@@ -19,8 +19,6 @@
 		--link-color: #090;
 	}
 	body,p {
-		font-family: 'Press Start 2P', cursive;
-		font-size: 18px;
         color: var(--text-color);
 	}
 	code{
@@ -37,6 +35,7 @@
 		font-size: 18px;
 	}
 	a{
+		font-size: 12px;
 		color: var(--link-color);
 		font-family: 'Press Start 2P', cursive;
 	}
@@ -66,7 +65,6 @@
         color: var(--body-background);
     }
     img{
-    	image-rendering: pixelated;
     }
     span{
         color: var(--text-color);
@@ -196,16 +194,8 @@ Of note, while the majority of these commands should be available on nearly any 
 
 - **ln** - make a symbolic / hard link (shortcut)
 
-- <div class="progress-ww">
-  <dl>
-  <dt> </dt><dd> <a href="/interviews/loial/">Loial Otter</a></dd>
-  <dt> </dt><dd> <a href="/interviews/soatok/">Soatok Dreamseeker</a></dd>
-  <dt> </dt><dd> <a href="/interviews/cadeyratio/">Cadey Ratio</a></dd>
-  <dt> </dt><dd> <a href="/interviews/kell/">Kell Bengal</a></dd>
-  <dt> </dt><dd> <a href="/interviews/taxbadger/">Tax Badger</a></dd>
-  <dt> </dt><dd> <a href="/interviews/spg/">Sex Positive Gaming</a></dd>
-  </dil>
-  </div>
+- **du & df** - Disk usage and disk free, **df** will show you how much room you have left per disk, **du** serves to help find what's using up your disk
+  
   
   - Alternative recommendation: **ncdu** and [**duf**](https://github.com/muesli/duf)
   
