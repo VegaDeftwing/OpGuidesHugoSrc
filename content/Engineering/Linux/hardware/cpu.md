@@ -69,7 +69,7 @@ Each of these things is very important, but I'm going to start with cpu MHz as i
 
 <img class="center" src="/eng/transistor.jpg" alt="Transistors" height="400em" style="border-radius:50px;">
 
-However, to get to transistors we've gotta go just a bit further down the rabbit hole to the relay. Relays are super simple to understand, they're just a metal switch that is pulled open or closed using another input signal (usually a magnet pulling/pushing the switch closed/open) basically imagine a light switch, where the switch itself is controlled by yet another electrical signal. Relays are slow though, they require a physical metal plate to move to change the connection. Because of this they have limited reliability and worth note they're actually loud. You can hear an audible click of the switch as they change state.
+However, to get to transistors we've gotta go just a bit further down the rabbit hole to *the relay*. Relays are super simple to understand, they're just a metal switch that is pulled open or closed using another input signal (usually a magnet pulling/pushing the switch closed/open) basically imagine a light switch, where the switch itself is controlled by yet another electrical signal. Relays are slow though, they require a physical metal plate to move to change the connection. Because of this they have limited reliability and worth note they're actually loud. You can hear an audible click of the switch as they change state.
 
 {{< speech >}}
 
@@ -91,11 +91,27 @@ Finally, enter the **transistor**. The physics here isn't that far removed from 
 
 The Ryzen 1700 CPU in the computer I'm typing this on has 4,800,000,000 transistors in a package that is only 213 mm², and finally, we can refrence the number output by `cat /proc/cpuinfo`
 
-At the moment I got that output the transistors where being turned on and off at a rate of 2018Mhz. or 2Ghz. That's 2000000000 times per second. However, this system can run up to roughly 3.8Ghz. The faster this speed the faster your computer; however, your CPU will also use more power and run hotter. It's for this reason that most systems adjust the speed based on load. Doing simple things like writing this document and as seen with that output my system runs at nearly half speed which is actually the slowest it can run. Because the computer is hardly doing anything right now the majority of that switching is actually just doing nothing but using power running 'no operation instructions' the functional equivalent of just running 0+0 while it it waits for something to do.
+At the moment I got that output the transistors where being turned on and off at a rate of 2018Mhz*. or 2Ghz. That's 2000000000 times per second.
+
+{{< smalltext >}}\* Obviously, not all the transistors are changing state off→on and on→off on every clock edge. As for the power usage, most digital electronics have two sources of power usage: static and dynamic. Dynmaic power being that used every time a transistor changes state, and static power being power that is lost due to junction leakage (more on this much later) if there's any power applied at all. In short, this means a given CPU will use more power the faster it runs, but there's a floor to how little power it can use if power is applied at all. {{< /smalltext >}}
+
+However, this system can run up to roughly 3.8Ghz. The faster this speed the faster your computer; however, your CPU will also use more power and run hotter. It's for this reason that most systems adjust the speed based on load. Doing simple things like writing this document and as seen with that output my system runs at nearly half speed which is actually the slowest it can run. Because the computer is hardly doing anything right now the majority of that switching is actually just doing nothing but using power running 'no operation instructions' the functional equivalent of just running 0+0 while it it waits for something to do.
 
 While not listed in this output, by googing the Ryzen 1700 we can also see it was made on a 14nm process. Put a bit reductively, this means each transistor is 14nm wide. For context, a human hair is about 70,000nm wide. This is relevant, because generally the smaller the process the faster a chip can run (max speed) while using less power.
 
-The OS itself actually tells the processor what speed it should be running at. In Windows, when you change your power plan to 'high performance' one of the major things it does is not allow the processor to run at a slower speed, and in Linux you can similarly control this using some cpu speed commands. We'll get to that later though.
+But, I want to put this into perspective a bit: At the top of this document, there's a white, rectangular chip which is a very old CPU: The Intel 8088 from 1979, it's only 8-bit, runs at 16Mhz, was made on a 3μm process, and has ~29,000 transistors inside. So, each individual transistor is over 200 times larger, they switch much slower, and there's a a human-understandable number of them. But why bring this up? Because I broke one open!
+
+<img class="center" src="/eng/8088.jpg" alt="photo_2022-01-28_00-40-19" style="width: 300px; height: 220px; object-fit: cover;border-radius:10%;" />
+
+What you're seeing here is the actual silicon, with the individual MOSFETs (transistors) causing the different reflections of the light and the gold wires going out to the pads which eventuall go out to the external pins, this isn't all that different from a modern CPU though. While pointing out what sections do what isn't hugely relevant, sufice to say different sections do different jobs. One block might be cache (talked about further down this page) while another might be the chain of transistors that do the logic to add two binary numbers together. At the end of the day, these tranistors are real, they're tiny, but they're real. This is the "magic" behing the fancy chip. These, therefore, have real, physical limitations. The electricity running through them can only be switched so fast before it becomes hard for the circuit to differentiate a 1 from 0, on from off.
+
+{{< speech >}}
+
+If you're particularly interested in this on-from-off test, look into [Eye Diagrams](https://en.wikipedia.org/wiki/Eye_pattern)
+
+{{< /speech >}}
+
+Back to power and speed in a modern system: The OS itself actually tells the processor what speed it should be running at. In Windows, when you change your power plan to 'high performance' one of the major things it does is not allow the processor to run at a slower speed, and in Linux you can similarly control this using some cpu speed commands. We'll get to that later though.
 
 Finally it's worth note that on some systems, primarily high end desktops, you can actually run your processor outside of factor specifications by increasing the maximum clock rate of the processor. Doing this can lead to system stability issues and obviously leads to a higher power usage and heat output though. This process is known as 'overclocking'  as your taking the internal clock of the processor beyond it's rating. My CPU, a Ryzen 1700, has actually been over clocked in order to get 3.8Ghz on all of the cores.
 
@@ -300,7 +316,25 @@ https://www.agner.org/forum/viewtopic.php?f=1&t=6
 
 ## Other things done by the CPU:
 
-The CPU has a lot of dedicated hardware inside for specific functions, for example many CPUs have a dedicated hardware random number generator.
+The CPU has a lot of dedicated hardware inside for specific functions, for example many CPUs have a dedicated hardware random number generator, a "media engine" (encoders/decoders) ([Quick Sync](https://en.wikipedia.org/wiki/Intel_Quick_Sync_Video)), Encryption, DSP
+
+## "Managment Engine"
+
+
+
+## The future
+
+### From the past: Analog Computers
+
+### Built-in Programmable Hardware
+
+### Offloading Security: The TPM, Apple's T2, Microsoft's Pluton
+
+### Yet More Acceleration
+
+TCP offloading, DSP++, Software Defined Radio?, In-Memory Processing, Tensor Cores, etc.
+
+
 
 ## Further Reading
 
