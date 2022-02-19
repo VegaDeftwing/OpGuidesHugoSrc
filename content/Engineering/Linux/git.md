@@ -1,5 +1,7 @@
 # Chapter 5½ - Git.
 
+> ... Despite the chapter name, git isn't just a Linux thing - it's actually more of a programming thing, but you'll still probably want to use it for storing your configuration files for Linux, which is why it's here.
+
 ![](/common/arrow.svg)
 
 {{< best >}} [./missing-semester - Version Control](https://missing.csail.mit.edu/2020/version-control/) {{< /best >}}
@@ -20,31 +22,128 @@ One of the first things you ~~should~~ have to do when using Github is setup aut
 
 I'm going to save the nitty gritty about how public-private key based authentication works for the <a href="/engineering/networking/security/">Security & Exploitation</a> chapter, but for now what you need to know is having a key pair will let you securely access git and ssh services on various servers, so we need to get keys setup.
 
-[TODO]
+{{< tabs >}}
 
+{{< tab "Windows" >}}
 
+Assuming you're running a somewhat recent release of Windows 10 or Windows 11, `ssh` should be installed by default. SSH is something we'll use later for it's intended purpose, but right now we need to use something included along with it, called `ssh-keygen`. If you open up a command prompt window, you should be able to run, well, exactly that- just type `ssh-keygen` and press enter. It should prompt you for where to save it - leave it the default by pressing enter. Then, it'll ask if you want to put a password on it, that's up to you, it's not strictly necessary. When done, that will make some new files for you in a folder at `C:/Users/{YourUserName}/.ssh` (note, this isn't in your documents, it's literally in your user folder, one below documents) the two files you just made are `id_rsa` and `id_rsa.pub`, these are your private and public keys respectively. 
 
----
+{{< columns >}}
 
-[Bit, an alternative git cli (Github)](https://github.com/chriswalz/bit)
+It'll also probably generate a pretty picture, something sorta like this:
 
-[learngitbranching.js.org](https://learngitbranching.js.org) (more than just branching)
+As the names imply, you should keep your private key private, while you need to share your public key - in this case that means sharing it with Github. To do so, you can open `id_rsa.pub` in a text editor (if you have office installed, it might try to open it with "Publisher" - dont. Notepad or VSCode will work though)
 
-[μGit- DIY Git in python](https://www.leshenko.net/p/ugit/)
+You should see text that looks something like this:
 
-[TODO] Show how to setup SSH keys for Git
+<--->
 
-[SSH keys article on the (Arch Wiki)](https://wiki.archlinux.org/index.php/SSH_keys)
+<pre>
++---[RSA 3072]----+
+|             ..oo|
+|            o  ++|
+|        .  + o .=|
+|       + . E= ..*|
+|      = S...   +.|
+|     o =o=o=  .  |
+|      o ooX.=.   |
+|       + =.B +.o |
+|        . +...=  |
++----[SHA256]-----+
 
-`ssh-keygen` 
+</pre>
 
-\+ adding GPG key to accout for Github verrified thing
+{{< /columns >}}
 
-After you have a key generated, you'll need to add the public key to github,
+```
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCXdDCxYNL58FFxfeDRuokZGfvmo1S7cTr7tXOjQ1oAFAF4cWNjcNsFWUVO5oHkY59yVcLM0OSe029rCIP8ecGsXQdDP9wi3sRgpWBfaEf0vTKQ8oAJN1ipw+J2e57gV+UOMIapoTPHSSp3pCyUVS9GnZHct5vorLOCdr6V6JCTMj0KzvrlF67FV8pX9/6kiRjAQuFdFkYzeXwebW2l2GSe7nF/WfkZWMK6KAYPltnWjN9sXXbv5SXyeU6UmrnmKFJAygUj24AK8eXT8wqxIJBsIMUtO1pplLM/XJUCYC8XGcAmjo+E4heWmj3PAHO3A7GltmZoBNzsYdAvYbqVWNpn [YourUserName]@[YourComputersName]
+```
+
+We need to copy that and upload it to GitHub. Just head on over to https://github.com/settings/keys and click New SSH Key and paste that text in, name it whatever you like.
+
+When done, you should see something like this:
 
 <img src="/eng/gitkeys.webp" alt="keysongithub" style="zoom:50%;" />
 
-you may need to change existing repo to use a git based origin rather than an https one:
+Now, you need to actually go install git to Windows. There's plenty of ways to do this, but since you're in the command prompt anyway. you can use `winget`, microsoft's package manager to grab it - just run `winget install -e --id Git.Git`. If you're on an older system without winget or just don't want to use it, you can [grab git for windows here](https://gitforwindows.org).
+
+{{< speech >}}
+
+By the way, `winget` is pretty awesome and has a lot of packages. Everything frome Chrome to VLC is available, and it's a nice way to quickly set up a new computer.
+
+{{< /speech >}}
+
+Now we can set up your user in a `.gitconfig` file, fortunately, you can do this directly from the same command prompt your at. Just run `git config --global user.email "YourEmail@InQuotesHere"` followed by `git config --global user.name "Your Username In Quotes Here"`. For simplicity, you might want to make sure the email and username both match the ones you use on github, though (I think?) the username can be different without issue.
+
+{{< /tab >}}
+
+{{< tab "Linux & Mac" >}}
+
+Mac OS X `ssh` should be installed by default, as should most any Linux distro, if it's not, it'll usually be in the `openssh` package, so just install that with your package manager. SSH is something we'll use later for it's intended purpose, but right now we need to use something included along with it, called `ssh-keygen`. If you open up a terminal, you should be able to run, well, exactly that- just type `ssh-keygen` and press enter. It should prompt you for where to save it - leave it the default by pressing enter. Then, it'll ask if you want to put a password on it, that's up to you, it's not strictly necessary. When done, that will make some new files for you in a folder at `~/.ssh` the two files you just made are `id_rsa` and `id_rsa.pub`, these are your private and public keys respectively. 
+
+{{< columns >}}
+
+It'll also probably generate a pretty picture, something sorta like this:
+
+As the names imply, you should keep your private key private, while you need to share your public key - in this case that means sharing it with Github. To do so, you can open `id_rsa.pub` in a text editor, such as TextEdit on Mac or VSCode/Nano/Sublime/Whatever on Linux.
+
+You should see text that looks something like this:
+
+<--->
+
+<pre>
++---[RSA 3072]----+
+|             ..oo|
+|            o  ++|
+|        .  + o .=|
+|       + . E= ..*|
+|      = S...   +.|
+|     o =o=o=  .  |
+|      o ooX.=.   |
+|       + =.B +.o |
+|        . +...=  |
++----[SHA256]-----+
+
+</pre>
+
+{{< /columns >}}
+
+```
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCXdDCxYNL58FFxfeDRuokZGfvmo1S7cTr7tXOjQ1oAFAF4cWNjcNsFWUVO5oHkY59yVcLM0OSe029rCIP8ecGsXQdDP9wi3sRgpWBfaEf0vTKQ8oAJN1ipw+J2e57gV+UOMIapoTPHSSp3pCyUVS9GnZHct5vorLOCdr6V6JCTMj0KzvrlF67FV8pX9/6kiRjAQuFdFkYzeXwebW2l2GSe7nF/WfkZWMK6KAYPltnWjN9sXXbv5SXyeU6UmrnmKFJAygUj24AK8eXT8wqxIJBsIMUtO1pplLM/XJUCYC8XGcAmjo+E4heWmj3PAHO3A7GltmZoBNzsYdAvYbqVWNpn [YourUserName]@[YourComputersName]
+```
+
+We need to copy that and upload it to GitHub. Just head on over to https://github.com/settings/keys and click New SSH Key and paste that text in, name it whatever you like.
+
+When done, you should see something like this:
+
+<img src="/eng/gitkeys.webp" alt="keysongithub" style="zoom:50%;" />
+
+Now we need Git. On Mac, `git` is *kinda* installed by default. If you go to run it, you'll get prompted to install "Command Line Developer Tools". Do that.
+
+On Linux, you proabably already have git, but if not, it's probably in your distro's repositories as `git`, so just install it as you normally would.
+
+Now we can set up your user in a `.gitconfig` file, fortunately, you can do this directly from the same command prompt your at. Just run `git config --global user.email "YourEmail@InQuotesHere"` followed by `git config --global user.name "Your Username In Quotes Here"`. For simplicity, you might want to make sure the email and username both match the ones you use on github, though (I think?) the username can be different without issue.
+
+{{< /tab >}}
+
+{{< /tabs >}}
+
+That's half the battle, you have sucessfully set up keys for your account, but GitHub has a second layer of authentication that's worth setting up too, which adds a sort of virtual signature to each change you push to GitHub as a confirmation to people that what they see was really written by you.
+
+{{< details "But I already had repos on GitHub, how do I make them use these keys?">}}
+
+There's a good chance that when you made the repo and pulled it down to your computer you used the URL of the repo on github, such as running `git clone https://github.com/VegaDeftwing/OpGuidesHugoSrc`, while this does work, it set's github to use the http protocol for authentication, which isn't what we want, instead we need to use the git protocol.
+
+<img src="/eng/gitclone.webp" alt="GitHub Code Button" style="zoom:35%;" />
+
+Like this, where the link is instead `git@github.com:VegaDeftwing/OpGuidesHugoSrc.git` (so the command you need to run might be `git clone git@github.com:VegaDeftwing/OpGuidesHugoSrc.git`) but the problem is you already cloned your repo, so what now? You don't need to delete everything and restart, you just need to change the remote. 
+
+1. Start by running `git remote -v` to see what the current URL is
+2. Copy the `git` based URL from GitHub (or wherever you host your repo)
+3. Run `git remote set-url origin git@github.com:UserName/repo.git`, using the URL you copied
+4. run `git remote -v` again to confirm it changed over.
+
+For example:
 
 ```bash
 ╭─vega@lyrae ~/git/local/opguides  ‹master› 
@@ -58,6 +157,22 @@ origin	https://github.com/VegaDeftwing/opinionatedguide (push)
 origin	git@github.com:VegaDeftwing/opinionatedguide.git (fetch)
 origin	git@github.com:VegaDeftwing/opinionatedguide.git (push)
 ```
+
+{{< /details >}}
+
+[TODO] adding GPG key to accout for Github verrified thing
+
+[Bit, an alternative git cli (Github)](https://github.com/chriswalz/bit)
+
+[learngitbranching.js.org](https://learngitbranching.js.org) (more than just branching)
+
+[μGit- DIY Git in python](https://www.leshenko.net/p/ugit/)
+
+[SSH keys article on the (Arch Wiki)](https://wiki.archlinux.org/index.php/SSH_keys)
+
+`ssh-keygen` 
+
+you may need to change existing repo to use a git based origin rather than an https one:
 
 [TODO] show graphical git tools
 

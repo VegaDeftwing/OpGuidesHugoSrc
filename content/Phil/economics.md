@@ -10,3 +10,6 @@
 
 [Hacker News comments on "PayPal raises fees for most domestic transaction types to 3.49% + $0.49"](https://news.ycombinator.com/item?id=28755702) 
 
+
+
+<!-- https://www.youtube.com/watch?v=7m1dcWlK0V8 -->

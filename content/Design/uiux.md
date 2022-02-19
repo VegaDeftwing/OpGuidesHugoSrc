@@ -26,7 +26,9 @@ slug: "UI"
 
 [Datalegeya Font](http://www.datalegreya.com/?lang=en)
 
+### Data Visualization
 
+https://bids.github.io/colormap/
 
 ### Website Design
 

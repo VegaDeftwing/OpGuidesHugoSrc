@@ -1,5 +1,7 @@
 # Chapter 20 - Game Programming & Design
 
+<!-- I've been using Unity lately, for working in VR chat. It pretty much sucks, but I can also see how it's easy in some ways? I don't think it's the best to focus on, but I lack the experiance to say "If you want to make something original, use X" -->
+
 https://www.gameuidatabase.com/index.php
 
 https://www.riotgames.com/en/urf-academy/curriculum-guide

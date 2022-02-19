@@ -757,7 +757,7 @@ The [base](https://archlinux.org/packages/?name=base) package does not include a
 - userspace utilities for the management of [file systems](https://wiki.archlinux.org/title/File_systems) that will be used on the system,
 - utilities for accessing [RAID](https://wiki.archlinux.org/title/RAID) or [LVM](https://wiki.archlinux.org/title/LVM) partitions,
 - specific firmware for other devices not included in [linux-firmware](https://archlinux.org/packages/?name=linux-firmware) (e.g. [sof-firmware](https://archlinux.org/packages/?name=sof-firmware) for [sound cards](https://wiki.archlinux.org/title/Advanced_Linux_Sound_Architecture#ALSA_firmware)),
-- software necessary for [networking](https://wiki.archlinux.org/title/Networking),
+- software necessary for [networking ](https://wiki.archlinux.org/title/Networking)(e.g. a network manager or DHCP client),
 - a [text editor](https://wiki.archlinux.org/title/Text_editor),
 - packages for accessing documentation in [man](https://wiki.archlinux.org/title/Man) and [info](https://wiki.archlinux.org/title/Info) pages: [man-db](https://archlinux.org/packages/?name=man-db), [man-pages](https://archlinux.org/packages/?name=man-pages) and [texinfo](https://archlinux.org/packages/?name=texinfo).
 

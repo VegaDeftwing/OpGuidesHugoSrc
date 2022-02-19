@@ -12,10 +12,6 @@ Despite [the mess](https://aria.dog/barks/why-i-will-never-create-modules-for-vc
 
 Put a [ZZC SC-VCA](https://library.vcvrack.com/ZZC/SC-VCA) or [Bogaudio LMTR](https://library.vcvrack.com/ZZC/SC-VCA) as the last module your sound passes though before going to the audio interface module. On the ZZC VCA, the big knob is master volume, the little knob controls at what volume it starts clipping out, limiting the volume. It actually sounds really nice as a distortion too.
 
-## When is VCV 2.0 coming out?
-
-Go to the [Rack Development Blog](https://community.vcvrack.com/t/rack-development-blog/5864/65) and scroll to the bottom. You might want to read the [2.5 months, anything new?](https://community.vcvrack.com/t/2-5-months-anything-new) thread as well, if you're curious about the drama around that situation at all. The TLDR: It hasn't been announced. I have heard whispers that the goal is September of '21, but I'm very skeptical that will happen.
-
 ## How does polyphony work in VCV?
 
 VCV's manual does have a page on [polyphony](https://vcvrack.com/manual/Polyphony) but it's kinda shit. Basically, it lets you with **some** modules carry up to 16 signals in one cable. There's also modules made for working with this, like *Merge* and *Split* which let you take a bunch of mono signals and merge them into one polyphonic cable, or split the the polyphonic cable into 16 individual outputs respectively. The polyphonic cables are easy to tell apart because they're thicc.
@@ -70,9 +66,9 @@ While you'll often see [Impromptu's Clocked](https://library.vcvrack.com/Impromp
 
 I also recommend keeping your clocking interesting. It you just have your sequencer be driven by a constant clock it might not be as interesting as you like. You can always use a gate sequencer as a 'clock' source for your sequencer and have gates be triggered more rhythmically. 
 
-If you want some random clocking, try using [Geodesics' Fate](https://library.vcvrack.com/Geodesics/Fate) (which is also amazing at adding randomness to note sequences), [Audible Instruments' Bernoulli Gate (Branches)](https://library.vcvrack.com/AudibleInstruments/Branches) or [Random Sampler (Marbles)](https://library.vcvrack.com/AudibleInstruments/Marbles), [Grayscale's Permutation](https://library.vcvrack.com/Grayscale/Permutation6),  or [SLM's Mux Freak](https://library.vcvrack.com/SLM/mux-freak). Each has it's own method of adding madness to clocking.
+If you want some random clocking, try using [Geodesics' Fate](https://library.vcvrack.com/Geodesics/Fate) (which is also amazing at adding randomness to note sequences), [Audible Instruments' Bernoulli Gate (Branches)](https://library.vcvrack.com/AudibleInstruments/Branches) or [Random Sampler (Marbles)](https://library.vcvrack.com/AudibleInstruments/Marbles),or  [Grayscale's Permutation](https://library.vcvrack.com/Grayscale/Permutation6). Each has it's own method of adding madness to clocking.
 
-{{< attribution >}}or, if you're feeling really spicy, there's [Arias Salvatrice's Darius](https://library.vcvrack.com/AriaSalvatrice/Darius), which is basically a lot of Bernoulli Gates chained together{{< /attribution >}}
+{{< attribution >}}<s>or, if you're feeling really spicy, there's [Arias Salvatrice's Darius](https://library.vcvrack.com/AriaSalvatrice/Darius), which is basically a lot of Bernoulli Gates chained together</s> Not yet avaliable in V2 {{< /attribution >}}
 
 ## CV-MIDI doesn't work
 
@@ -84,7 +80,7 @@ If you want to constantly update the note value you're sending out of a sequence
 
 ## How do I change my wire colors?
 
-[Submarine WM-101](https://library.vcvrack.com/SubmarineFree/WM-101)
+[Submarine WM-101](https://library.vcvrack.com/SubmarineFree/WM-101) or [Colour Key](https://community.vcvrack.com/t/cable-colour-key-module/)
 
 ## How do I add CV control of a knob that doesn't have a CV input?
 
@@ -92,32 +88,30 @@ Stoermelder's [μMAP](https://library.vcvrack.com/Stoermelder-P1/CVMapMicro) or 
 
 ## How do I get that fancy dimmed with bright lights effect I've seen in YouTube videos?
 
-[Modular Fungi Lights Off](https://library.vcvrack.com/ModularFungi/LightsOff) - right click it, set active, and drag the dim slider to whatever you want. Not all module's lights use the system it does to know what shouldn't be dimmed. While the stock VCV scope will stay dim, [Modular Fungi's Opsylloscope](https://library.vcvrack.com/ModularFungi/Opsylloscope) does work. Just be aware it uses more CPU
+In V1, this required using [Modular Fungi Lights Off](https://library.vcvrack.com/ModularFungi/LightsOff) - right click it, set active, and drag the dim slider to whatever you want. Not all module's lights use the system it does to know what shouldn't be dimmed. While the stock VCV scope will stay dim, [Modular Fungi's Opsylloscope](https://library.vcvrack.com/ModularFungi/Opsylloscope) does work. Just be aware it uses more CPU
 
 ![](/music/lightsout.webp)
 
+In V2, it's built in: View→Room Brightness
+
 ## VCV runs like shit
 
-VCV needs a computer with a good CPU and not totally shit graphics processing. It probably won't run super well on your laptop, especially with some of the more CPU-heavy modules, like Plateau. You might be able to get it to run better by going to Engine → Threads in the top menu, and selecting whatever says "most modules" by it. Though, in my experience, going one or two down from that can help on very powerful systems. If you've got 16 threads, 6 or 7 seems to be the sweet spot, for example.
+VCV needs a computer with a good CPU and not totally shit graphics processing. It probably won't run super well on your laptop, especially with some of the more CPU-heavy modules, like Plateau. You might be able to get it to run better by going to Engine → Threads in the top menu, and selecting whatever says "most modules" by it. Though, in my experience, going one or two down from that can help on very powerful systems. If you've got 16 threads, 6 or 7 seems to be the sweet spot, for example. Also, because reasons, sometimes only using 1 core will work better than anything else, so try that too.
 
-Also make sure you have Engine→Sample Rate set to something sane. I run at 44100 because I like to use CPU heavy modules and make big patches, but if you want a bit better sound VCV does actually benefit quite a bit from oversampling, just be aware setting this higher will absolutely tank performance.
+Also make sure you have Engine→Sample Rate set to something sane. I run at 44100 because I like to use CPU heavy modules and make big patches, but if you want a bit better sound VCV does actually benefit quite a bit from oversampling, just be aware setting this higher than 48000 will absolutely tank performance.
 
-If you're running Linux and extraordinary unlucky, you might be dealing with a bug that's causing Rack to try to render at like 3000 FPS, which tanks performance and can crash your entire graphics stack to lock up. [LibStrangle](https://gitlab.com/torkel104/libstrangle) fixes the problem.
+If you're running Linux and extraordinary unlucky, you might be dealing with a bug that's causing Rack to try to render at like 3000 FPS, which tanks performance and can crash your entire graphics stack to lock up. [LibStrangle](https://gitlab.com/torkel104/libstrangle) fixes the problem, though this seems to be fixed in V2.
 
 ## How do I interface VCV with other software?
 
-The most common way you'll see is uning VCV Bridge. Unfortunately, Bridge is sorta a pain to get, eats CPU, and just doesn't run well.
+For 2.0 you have two main options. Shell out the money for [Rack 2 Pro](https://vcvrack.com/Rack#get) or use [Cardinal](https://github.com/DISTRHO/Cardinal). Rack 2 Pro let's you use the library and comes with support, Cardinal ships with modules baked-in (can't easily add more), lacks support, but can run as a VST2, VST3, or LV2 plugin while Rack 2 Pro is limited to being a VST2 at the the time of writing.
 
-So, your options are:
+If you'd like to use VCV 1 ... at this point, don't. I realize there's some 1.0 only plugins, but every solution was always a bit hacky.
 
-* Use VCV Bridge, hope it doesn't crash or eat too much CPU
-* Wait until VCV rack 2.0 drops, and with it the $100 version that works as a VST Plugin
-* You can use [ASIO Link Pro](https://give.academy/downloads/2018/03/03/ODeusASIOLinkPro/) on Windows, or Jack on Linux (which you should be anyway). [This video from *VCV Rack Ideas*](https://www.youtube.com/watch?v=e5au-hkvnFA) explains how to setup ASIO Link Pro.
-* Use [VeeSeeVST Rack](https://github.com/bsp2/VeeSeeVSTRack), which is based on a pretty old version of Rack and has limited plugin selection
-* Use something other than VCV entirely, like [Voltage Modular](https://cherryaudio.com/voltage-modular), [Softube Modular](https://www.softube.com/modular), or maybe [Reason Rack](https://www.reasonstudios.com/en/reason/rack-plugin), 
+Finally, there are non-VCV options, like [Voltage Modular](https://cherryaudio.com/voltage-modular), [Softube Modular](https://www.softube.com/modular), or maybe [Reason Rack](https://www.reasonstudios.com/en/reason/rack-plugin).
 
 If you want to load VSTs inside of Rack, you'll have to get [VCV Host](https://library.vcvrack.com/VCV-Host/Host), which is not free. It's also not perfect about plugin support, but it's still by far the biggest bang for your buck you can add to rack, albeit the UI is a bit clunky at times.
 
 ## How do I interface VCV with Eurorack hardware?
 
-Pretty much the only way to do it directly is with either the Expert Sleepers ES-8 or ES-9 or with an audio interface that supports ADAT and the ES-3 and ES-6. Just like all things eurorack, these are expensive.
+Pretty much the only way to do it directly is with either the Expert Sleepers ES-8, ES-9, or with an audio interface that supports ADAT and the ES-3 and ES-6 or [Boredbrain Optx](https://www.perfectcircuit.com/boredbrain-optx.html). This is going to largely depend on your setup and what you're looking for - if you want to hook up normal line-level gear to normal audio in's and out's using a traditional audio interface with ADAT is proabably the better option. If you're seeing this and going "Holy shit that's expensive!" then, yep, welcome to eurorack.

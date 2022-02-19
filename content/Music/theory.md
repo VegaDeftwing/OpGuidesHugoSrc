@@ -83,3 +83,7 @@ You want to make sure you're in the right sonic space. [...] It's not so much ab
 
 
 <blockquote class="twitter-tweet"><p lang="und" dir="ltr">3/2 and 4/3 <a href="https://t.co/k56BTwYUL8">pic.twitter.com/k56BTwYUL8</a></p>&mdash; man fish (@mannfishh) <a href="https://twitter.com/mannfishh/status/1367589684021366785?ref_src=twsrc%5Etfw">March 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## Generative
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/BaqYfuLMJNU?list=WL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

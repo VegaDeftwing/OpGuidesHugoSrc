@@ -213,6 +213,8 @@ Of note, while the majority of these commands should be available on nearly any 
 
 - **grep, sed, awk, tr** - the 'big four' commands used for text processing in a terminal. **grep** (and **egrep**) are used for search, for example running `ls | grep myfile` to confirm a file is indeed in a folder. **sed** is used for text/character replacement. **awk** is a programming language in it's own right, used primarily for selecting text fields by separator, for example only printing the permissions column in the output of `ls -l` 
 
+  - Alternative recommendations: [**choose**](https://github.com/theryangeary/choose), [**sd**](https://github.com/chmln/sd), [**ripgrep**](https://github.com/BurntSushi/ripgrep)
+
 - **w** -  show who is currently logged in and what they're running, epically applicable on shared servers if you need to see if there's an active ssh connection to your system
 
 - **tar, gzip, bzip, zip** - all used for making compressed folders (like .zip files)
@@ -224,9 +226,9 @@ Of note, while the majority of these commands should be available on nearly any 
 - **sort** - sort input by a number of criteria
 
 - **uniq** - remove duplicate entries
-  
+
   - **fdupes** is recommended if the goal is to identify duplicate files 
-  
+
 - **export** - used to set environment variables, these for example use `export EDITOR=nano` to use nano as your terminal text viewer by default.
 
 - **systemctl** - literally system control, wayyy to big to cover quickly, used for everything from setting services to run on boot, shutting down/restarting the system, to viewing logs. Look up Systemd for more information. This is probably the least-universal of the tools listed here, but *most* linux systems have switched to Systemd now for better or worse.

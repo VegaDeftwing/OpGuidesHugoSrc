@@ -1,5 +1,11 @@
 # Chapter 2 - Installing Arch Linux
 
+{{< hint warning >}}
+
+I am working on a new install guide located at {{< button relref="/engineering/linux/archnew" >}}archnew{{< /button >}}, though it is still a work in progress. The new guide is based on the offical install guide, among other pages from the wiki, and adds running commentry and advice in an attempt to help new users while still sticking to some of the Arch ethos.
+
+{{< /hint >}}
+
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/ezUoiaoQCTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Some Background
