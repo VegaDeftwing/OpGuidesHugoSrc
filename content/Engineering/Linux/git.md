@@ -2,6 +2,15 @@
 
 > ... Despite the chapter name, git isn't just a Linux thing - it's actually more of a programming thing, but you'll still probably want to use it for storing your configuration files for Linux, which is why it's here.
 
+<style>
+    .cool{
+		background: #333;
+		padding-bottom: 10px;
+    }
+</style>
+
+
+
 ![](/common/arrow.svg)
 
 {{< best >}} [./missing-semester - Version Control](https://missing.csail.mit.edu/2020/version-control/) {{< /best >}}
@@ -158,9 +167,55 @@ origin	git@github.com:VegaDeftwing/opinionatedguide.git (fetch)
 origin	git@github.com:VegaDeftwing/opinionatedguide.git (push)
 ```
 
+---
+
+Note though, you probably don't want to clone *everything* as git, espcially if it's someone eles' repo you grabbing to build yourself, as sometimes it will try to authenticate with git and fail because you don't have permissons to access the repo. This is an annoying edge case and *usually* doesn't matter, but it can.
+
 {{< /details >}}
 
 [TODO] adding GPG key to accout for Github verrified thing
+
+[TODO] Github PR to OpGuides
+
+## Making A PR on GitHub
+
+1. Go to [OpGuide's GitHub Repo](https://github.com/VegaDeftwing/OpGuidesHugoSrc)
+
+2. Click "<svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" >
+    <path fill="#FFFFFF" fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
+    </svg> Fork " in the top right
+    
+3. Clone your copy of the repo, `git clone git@github.com:YouUserName/OpGuidesHugoSrc.git`
+
+4. Go to this file (content→Engineering→Linux→git.md)
+
+5. Add your name to the list below using a text editor.
+
+6. Run `git add .`, followed by `git commit -m "added [yourname] to Cool People"`
+
+6. Run `git push` to push your changes to *your* copy of the repo on GitHub
+
+7. Go back to the [OpGuide's GitHub Repo](https://github.com/VegaDeftwing/OpGuidesHugoSrc)
+
+8. You'll see a banner at the top of the page that looks something like this:
+
+    [TODO]
+
+    Click [TODO]
+
+9. You'll be prompted with the checklist that's in the [pull_request_template.md](https://github.com/VegaDeftwing/OpGuidesHugoSrc/blob/main/pull_request_template.md) file. Since you're just adding your name, please check the first box "Everything I'm contributining..." and the first box on the Public Domain option.
+
+10. Click [TODO]. Now the Pull Request has been sumbmited but should be marked as "Open". This means that I now need to either approve it or not. If it get's approved you'll see "Merged" otherwise you'll see "Closed". This may take a few days. Once I've merged the change it may not go live right away, as I still have to push it to the live version of the website.
+
+11. Optionally, once the PR is done, you may want to delete your copy of the repo from your repositorites.
+
+<div class="cool">
+
+## Cool People that Have Submitted A PR To Edit This Page
+
+1. [Your Name Here]
+
+</div>
 
 [Bit, an alternative git cli (Github)](https://github.com/chriswalz/bit)
 
