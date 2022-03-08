@@ -27,7 +27,7 @@ While I don't want to recommend specific smaller communities as to avoid them ge
 
 -->
 
-While a small community of people you can talk to 1-on-1 is better, having inspiration each day can provide a huge boost to your motivation and creativity, so I recommend following some nerdy news sites. This also helps with staying current on the cutting edge and security issues. Some sites I use nearly daily to finding good new material are:
+While a small community of people you can talk to 1-on-1 is better, having inspiration each day can provide a huge boost to your motivation and creativity, so I recommend following some nerdy news sites. This also helps with staying current on the cutting edge and security issues. Some sites I use nearly daily for finding good, new material are:
 
 {{< columns >}}
 

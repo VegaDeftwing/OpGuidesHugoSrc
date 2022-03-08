@@ -20,6 +20,12 @@ I absolutely do not have the expertice to teach about these things, so instead I
 
 ## Gears
 
+[Openscad Gears Library](https://github.com/chrisspen/gears) (or [This one](https://github.com/dpellegr/PolyGear)) 
+
+https://woodgears.ca/gear_cutting/index.html (or the better, [standalone version](https://woodgears.ca/gear/index.html))
+
+
+
 ## Springs/Dampening
 
 ## Belts
@@ -49,4 +55,10 @@ corrorision, weldability, etc.
 ## Fuels
 
 ### Lublrication
+
+
+
+# Thinking Outside the box
+
+[Big LED Matrix Becomes Tiny LED matrix Thanks to Fiber Optics (Hackaday, Elliotmade)](https://hackaday.com/2022/03/01/big-led-matrix-becomes-tiny-led-matrix-thanks-to-fiber-optics/)
 

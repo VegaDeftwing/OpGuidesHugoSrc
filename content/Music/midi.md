@@ -486,3 +486,7 @@ It is provided as a dual licensed standard, from [the Link repo](https://github.
 ## MIDI Routing Hardware
 
 [TODO] [Blookas MIDIhub](https://blokas.io/midihub/), [MRCC - MIDI Router Control Center](https://conductivelabs.com/mrcc/), [Multiclock](https://www.e-rm.de/multiclock/), [Teensy 4.1 based 8in/8out interface](https://www.ebay.com/itm/264758845793?hash=item3da4db6161:g:I38AAOSw~7le4BKS)
+
+## Hacky Bullshit
+
+[You Can Send MIDI over I2C if you Really Need To (Hackaday, DIYElectronicMusic)](https://hackaday.com/2022/02/15/you-can-send-midi-over-i2c-if-you-really-need-to/)

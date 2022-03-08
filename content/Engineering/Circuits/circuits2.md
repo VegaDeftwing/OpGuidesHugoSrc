@@ -241,6 +241,7 @@ TODO: Efuses
   * High voltage/current/hot/whatever
   * Don't pretend to be an electrician
   * Don't use ATX psus for dumb things
+  * [Some Components Are Just Bad, Like this USB-C Connector (Hackaday)](https://hackaday.com/2022/02/20/the-usb-c-connectors-you-never-knew-you-wanted-to-avoid/)
 * Rare/Expensive
   * Tubes, NOS parts, etc. - TODO: CRTs and [Aquadag](https://en.wikipedia.org/wiki/Aquadag)
 

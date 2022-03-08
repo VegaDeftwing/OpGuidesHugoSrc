@@ -124,6 +124,8 @@ Using a logic analyzer is pretty simple, most today are connected to your comput
 
 [TODO] explain when a logic analyzer is actually used, and look at a quick example decode
 
+[TODO] Evaluate [Using a pi Pico as a logic analyzer](https://hackaday.com/2022/03/02/need-a-logic-analyzer-use-your-pico/)
+
 ### Soldering
 
 https://www.digikey.com/en/maker/blogs/rohs-vs-non-rohs-soldering
@@ -237,4 +239,3 @@ https://en.wikipedia.org/wiki/Transmission_line
 <ol hidden id="footnotes">
     <li>especially as you can easily unlock it to make it much better, using http://www.n5dux.com/ham/riglol/, albeit not 100% legally<li>
 </ol>
-

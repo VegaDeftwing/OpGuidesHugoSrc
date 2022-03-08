@@ -31,10 +31,19 @@ clay + different types (water, air-dry, oil, polymer, epoxy, earthen/stone, cera
 
 [LED Hackers Jacket for EMF Camp (lochsh)](https://mcla.ug/blog/led-hackers-jacket-for-emf-camp.html)
 
+[Ink/Stich Inkscape Library](https://inkstitch.org)
+
 ## Glass
+
+While I haven't done this personally, based on the sheer amount of content on YouTube and hearing others experianec making stained glass aren't isn't nearly as hard as one would assume
+
+On the other hand, it seems that making from-scractch, hand-blowing, or re-flowing glass trinkets is exceptionally difficult.
+
+I'm not saying any of this to disuade you from trying anything, just stating where you may want to start.
 
 <div style="display: inline-block; background-color: #eee; border-radius: 10px;"><blockquote class="reddit-card" data-card-created="1609714134"><a href="https://www.reddit.com/r/furry/comments/kmzxid/the_biggest_stained_glass_commision_so_far_feels/">The biggest stained glass commision so far - feels great!</a> from <a href="http://www.reddit.com/r/furry">r/furry</a></blockquote>
     <script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script></div>
+
 
 ## Other
 

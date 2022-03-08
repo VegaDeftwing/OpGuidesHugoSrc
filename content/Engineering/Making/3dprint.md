@@ -14,6 +14,10 @@
 
 [Wood Tables Embedded with Photoluminescent Resin (Mike Warren)](https://www.thisiscolossal.com/2014/12/glow-tables-by-mike-warren/)
 
+[CAD Up Some Shoes But Don't Start From Scratch (Hackaday, DaveMakesStuff)](https://hackaday.com/2022/03/03/cad-up-some-shoes-but-dont-start-from-scratch/) + [3D Printed Shoes Make Bigfoot tracks (Hackaday, Stephan Henrich)](https://hackaday.com/2022/03/02/3d-printed-shoes-make-bigfoot-tracks/)
+
+[3D Printing Difraction Gratings (iridescent/rainbow surfaces)](https://all3dp.com/2/3d-print-a-functional-diffraction-grating/)
+
 
 
 ## Metal Working
@@ -24,7 +28,9 @@
 
 ## Plotting
 
-## Lasters
+## Laser cutting & Milling
+
+[lasercut openscad library](https://github.com/bmsleight/lasercut)
 
 ## 3D Printing
 

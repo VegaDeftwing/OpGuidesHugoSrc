@@ -42,6 +42,10 @@ Oh, and the circle of fifths is a thing [TODO]
 
 http://huygens-fokker.org/scala/downloads.html#scales
 
+### Wrong Notes?
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/meha_FCcHbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Song Structure
 
 ### Repition
