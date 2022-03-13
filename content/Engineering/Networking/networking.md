@@ -600,6 +600,8 @@ Software Defined Networking, ActivityPub
 
 [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel) - "GreenTunnel bypasses DPI (Deep Packet Inspection) systems found in many ISPs (Internet Service Providers) which block access to certain websites."
 
+[File transfer via DNS](https://github.com/leonjza/dnsfilexfer)
+
 [Alternative Internet (Github list)](https://github.com/redecentralize/alternative-internet)
 
 [Awesome Mesh (Github list)](https://github.com/moarpepes/awesome-mesh)

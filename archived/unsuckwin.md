@@ -16,7 +16,7 @@ Everything should be up to date now, so, go in to allll the control panels for y
 
 Windows Settings
 The decrappifers:
-Im'a be honest with you, weather you run a VPN -> Tor -> Freenet -> IPFS chain that hit's every country twice and masks your DNS behind 10 different walls or you manage to set up firewalls so high china wants your phone number, you won't be able to stop windows from knowing more about you than you know about you. That's just the way it is. But, It's still good to give it a shot, so, here we go:
+Im'a be honest with you, weather you run a VPN -> Tor -> Freenet -> IPFS chain that hits every country twice and masks your DNS behind 10 different walls or you manage to set up firewalls so high china wants your phone number, you won't be able to stop windows from knowing more about you than you know about you. That's just the way it is. But, It's still good to give it a shot, so, here we go:
 
 https://www.oo-software.com/en/shutup10 <--- Run this, check off the things that work best for you
 

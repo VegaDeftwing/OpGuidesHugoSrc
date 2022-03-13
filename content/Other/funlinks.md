@@ -133,7 +133,7 @@
 * [Installing Windows and Linux into the same partition (motorailgun, GitHub Gist)](https://gist.github.com/motorailgun/cc2c573f253d0893f429a165b5f851ee)
   
 * [IoT Hacking and Rickrolling My High School District (WhiteHoodHacker)](https://whitehoodhacker.net/posts/2021-10-04-the-big-rick)
-  
-  
+
+* [Oilslick Topographic Map](http://mrgris.com/projects/oilslick/)
 
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>

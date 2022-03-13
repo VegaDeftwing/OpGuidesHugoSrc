@@ -56,7 +56,7 @@ It's worth noting, the μC itself is the Atmega328P- the really big black rectan
 
 {{< columns >}}
 
-![](/unsplash/pi.jpg)
+![](/unsplash/pi.webp)
 
 {{< attribution >}}Image by [Vishnu Mohanan](https://unsplash.com/photos/rZKdS0wI8Ks){{< /attribution >}}
 
