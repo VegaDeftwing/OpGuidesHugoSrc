@@ -34,10 +34,59 @@ Then, you'll want to go through everything and just rip it out. Don't forget, Ca
 
 {{< tip >}}Update the OS before drivers - Windows likes to replace new drivers with old sometimes!{{< /tip >}}
 
+#### Drivers
+
+Okay, first up, drivers. Ideally, Windows wouldn't go grab ancient driver to begin with, but here we are. To start with, you'll want to grab the drivers for your graphics card, CPU, and chipset. Should you not know what CPU you have, just open task manager and go to the performance tab. It should say in the top right corner. There's (with some weird exceptions) four possibilities
+
+* AMD CPU with integrated graphics
+* AMD CPU without integrated graphics
+* Intel CPU with integrated graphics
+* Intel CPU without integrated graphics
+
+Now, with *any* of the four options, you *might* also have a dedicated graphics card, which will need its own drivers. This (currently) will either be an AMD or Nvidia card, and you should be able to see it listed under GPU as the last entry in the performance tab in task manager. If you see two graphics cards (GPU0 and GPU1) one of them is probably the integrated graphics. You can confirm if   it's a dedicated or integrated card by looking if there's a "Dedicated GPU memory" field under the graphs. If there is, it's a dedicated card. If there's not (so only "Shared GPU memory") then it's an integrated card. This now means there's really 12 basic system driver options, the above four, plus a variant of each with either a dedicated AMD card or dedicated Nvidia card.
+
+Fortunately, we can group these up pretty easily: 
+
+If you're on an **all AMD** system (no Intel or Nvidia), just go to [the AMD support page](https://www.amd.com/en/support), hit the big download button, run it, and set everything up. You should be good to go.
+
+If you're on an **all Intel** system, head to [the Intel Driver Support page](https://www.intel.com/content/www/us/en/support/detect.html) and download, install, and run the driver assistant. It will open a web browser page with links to the drivers for you to download and install.
+
+If you're on an **AMD CPU + Nvidia GPU** system, congrats on having a cool computer that you probably built yourself. This *might* be a bit tricky if you have an AMD CPU with integrated graphics, as sometimes the big Nvidia card and Integrated AMD graphics drivers don't get along. Ideally, you'd just turn off the integrated graphics in the BIOS. Regardless, your best bet is to do things a bit more manually, on the [the AMD support page](https://www.amd.com/en/support) go down a bit and select your particular CPU, grab its driver. Then, you'll need to know what chipset you have. On AMD systems this can be quite a few different options, so go ahead and download and install [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html#version-history). Open it up, and you'll need two pieces of information. First, your CPU socket. On the man tab this should be under "Package", on any modern system this should be "AM4", then click the mainboard tab, and look for the the "Southbridge" line. This will probably be AMD x370 or x470, etc. Now, you can head back to the driver page, and find the matching entry, for example, Chipsets→AMD Socket AM4→x370. Then just pick the latest one. You probably don't need the ones with "RAID" in the name. Now you've got the AMD part done, go grab [Nvidia's GeForce Experiance](https://www.nvidia.com/en-us/geforce/geforce-experience/) software, set it up and make an account (signing over your first born), and you can then update the Nvidia driver. Done.
+
+If you're one an **Intel CPU + AMD GPU** system, you should be good to head to [the Intel Driver Support page](https://www.intel.com/content/www/us/en/support/detect.html) and download, install, and run the driver assistant, then head over to [the AMD support page](https://www.amd.com/en/support), hit the big download button, run it, and set everything up. This is a relatively uncommon setup though, so you might want to double check this is actually what you have.
+
+Finally, if you're on an **Intel + Nvidia** system, you should be good to head to [the Intel Driver Support page](https://www.intel.com/content/www/us/en/support/detect.html) and download, install, and run the driver assistant and then grab [Nvidia's GeForce Experiance](https://www.nvidia.com/en-us/geforce/geforce-experience/) software, set it up and make an account (signing over your first born), and you can then update the Nvidia driver. Done.
+
+Okay, that's the big uns'. You may still want to go grab up to date drivers for some other things like networking, but, frankly, most of it is in "If it works, don't fuck with it" territory. Now, of course, that's assuming it works. This would be a good time to make sure the system actually does what you think it should. If something is weird (slow disks, networking dropping out, flakey USB, etc.) adjust accordingly. You'll also need to grab drivers for any peripheral drivers you want to take advantage of. Razer, Roccat, Logitech, Corsair, etc. all have their own drivers for their mice, keyboards, webcams, and what not. 
+
+#### System Utilities
+
+Task manager and Windows Settings are great and all, but they're a bit limited. Before we go getting more utilities though, you should know what you have available. 
+
+If you have a dedicated graphics card, if you right click your desktop (with nothing open) you'll probably see that you have either an option for "AMD Radeon Software" or "Nvidia Control Panel".
+
+> Note, on Windows 11, these may be behind "Show more options"!
+
+Both of these let you change settings for your graphics card. The AMD version has the driver update check built in as well, while for Nvidia that's over in GeForce Experience. You might want to poke around options here and see what's available. There's some advanced settings lurking in here, but even touching familiarity will be useful.
+
+You may want to just type "AMD" or "Intel" into the start menu search as well and see what utilities pop up.
+
+For your sanity later, I'm going to recommend a whole host of deeper utilities:
+
+* Process Explorer (or Process Hacker) can actually let you see what's going on when a particular program is misbehaving
+* 
+
+
+
 * Drivers
+
 * Better task man, etc.
-* Better volume control
+
+* EarTrumpet
+
 * WSL Arch
+
+  
 
 
 

@@ -85,10 +85,11 @@
   }
 
   code {
-    padding: 0 $padding-4;
+    //padding: 0 $padding-4;
     background: var(--gray-200);
     border-radius: $border-radius;
-    font-size: 0.875em;
+    font-size: 1.0em;
+    font-family: 'Roboto Monensed', monospace;
   }
 
   pre {
