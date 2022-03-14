@@ -10,7 +10,9 @@ Okay, so, I hate Windows for many, many reasons. Beyond the Candy Crush being bu
 
 ### X.x Update your BIOS
 
-While not Windows specific, I reccomend updating your UEFI/BIOS anyway, as occassionally it will fix random issues down the line. The process for this varies, but generally you just need to go to either the page for your specific model of computer or, if a custom system, the page for the motherboard. Download the BIOS from there and follow the update instructions provided. It'll be a little sketchy, but it should be fine. Sometimes, you can do this from within Windows Update via an 'optional update'. Don't.
+While not Windows specific, I reccomend updating your UEFI/BIOS anyway, as occassionally it will fix random issues down the line. The process for this varies, but generally you just need to go to either the page for your specific model of computer or, if a custom system, the page for the motherboard. Download the BIOS from there and follow the update instructions provided. It'll be a little sketchy, but it should be fine. Sometimes, you can do this from within Windows Update via an 'optional update'. **Don't.** This has a tendacy to break shit.
+
+While for some computer updating the UEFI/BIOS just requires running a file from within Windows, on others you'll need to actually reboot into the UEFI/BIOS interface. If the system is anything newer than ancient, you should be able to do this by going into settings and finding "Advanced Startup". In 10, this is under Update→Recovery, on 11, just search for it (it will probably show up as "change advanced start up options") and then "Restart now". After the reboot, you should see a bright blue screen with the options of "Continue", "Troubleshoot", or "Turn off your PC". Select Troubleshoot → Advanced Options → UEFI Firmware Settings. This will bring you into a different settings menu that, unfortunately, looks different on every system. Just arrow-key, tab, and enter around to see what options are there. With luck, you'll stumble into something named "UEFI BIOS Update" or similar, and the process should be fairly straight forward from there. Some systems will even download the update over the internet from within this menu directly. If you plan to run Linux, you might want to come back to this menu and turn off Secure Boot as well.
 
 ### 1.1 Removing the shit
 
@@ -24,11 +26,11 @@ Historically, I'd recomend setting up Windows with a local account for a whole m
 
 That's just the way it is. But, It's still good to give it a shot, so, here we go:
 
-First, the easy one. Just run [Shut up 10](https://www.oo-software.com/en/shutup10). This can change a bunch of settings to be much more reasonable too, like fixing the start menu search to not search the web.
+First, the easy one. Just run [Shut up 10](https://www.oo-software.com/en/shutup10). Read through each option, do what you want. This can change a bunch of settings to be much more reasonable too, like fixing the start menu search to not search the web.
 
 {{< tip >}} If some not-up-to-the-times guide says to use CCleaner, don't. It's basically a virus now! {{< /tip >}}
 
-Then, you'll want to go through everything and just rip it out. Don't forget, Candy Crush is installed with 10 by default. And there's more… so, so much more. Go digging though add/remove programs and start mashing remove until you're satisfied. If you haven't run updates yet, it's possible Windows will install yet more crap, so you might need to double check.
+Then, you'll want to go through everything and just rip the crap out. Don't forget, Candy Crush is installed with 10 by default. And there's more… so, so much more. If it's an HP, just search the start menu for "hp", Dell, "Dell", and so on. That will help you find a lot of the garbage. I also reccomend opening up task manager (Ctrl+Shift+Esc), selecting more details, clicking the Startup tab, and seeing if there's anything you don't use that you can uninstall or at least disable. From there, just go digging though add/remove programs and start mashing remove until you're satisfied. If you haven't run updates yet, it's possible Windows will install yet more crap, so you might need to double check.
 
 ### 1.2 Installing System Stuff
 
@@ -69,56 +71,59 @@ If you have a dedicated graphics card, if you right click your desktop (with not
 
 Both of these let you change settings for your graphics card. The AMD version has the driver update check built in as well, while for Nvidia that's over in GeForce Experience. You might want to poke around options here and see what's available. There's some advanced settings lurking in here, but even touching familiarity will be useful.
 
-You may want to just type "AMD" or "Intel" into the start menu search as well and see what utilities pop up.
+As for other hardware utilities, you may want to just type "AMD" or "Intel" into the start menu search as well and see what utilities pop up.
 
-For your sanity later, I'm going to recommend a whole host of deeper utilities:
+Windows also has a few application specific tools you should be aware exist, like the disk managment tool, device manager, and task scheduler, and services manager. While we're on the subject, now tould be a good time to go check each and make sure everything is sane.
 
-* Process Explorer (or Process Hacker) can actually let you see what's going on when a particular program is misbehaving
-* 
+Let's start by opening up "device manager", you should see a bunch of different caterogories ranging from "Audio Inputs and Outputs" to "Universal Serial Bus Controllers". What you shoud be looking for is a any thing showing up as "⚠ Unknown Device" as this is a sign that you have something that's unhappy about drivers. The exact method for figuring out which device this is varies, but a good portion of the time this will be a USB device. If that's the case, a good place to start is to right click the device, select *properties* then the Details tab, then select the "Hardware IDs" property. You should see something like "USB\VID_258A&PID_0013&REV_0100&MI_00" what we actually need from that is the Vendor ID (VID) and Product ID (PID), in this case that's 258A and 0013. If you search the web for these together as VendorID:DeviceID (so, 258A:0013), you'll often be able to figure out what the offending device is. For example, Googling this example "258A:0013" the first result is for a gaming keyboard, which is correct.
+
+Now, let's head over to Disk managment. Here the big thing we should be looking for is any large blocks of unallocated space or partitions you don't recognize (if you've installed Linux, Windows will see these partitions, but have no idea what they are!) - on a normal, single disk, Windows system there will probably be a ~300Mb EFI System Partition, a very large (the majority of the disk in size) "Windows C:/" partition, and one or two recovery partitions, totalling less than 30Gb.
+
+Next up, lets make sure HP/Dell/Acer/etc. didn't put any dumb things into the task scheduler or services. Open the start menu, search for "Task Scheduler" and open it. Click "Task Scheduler Library" and look through the entries, don't be afraid to web search if you don't know what some are. If there's some you know you don't need, just right click and disable them.
+
+Then, into services. While you can into services by opening the start menu and searching for it, I want to show you the Run dialog, because occasionally the start menu will break on windows and using the run dialog can be a good way to force your way into thing anyway. So, go ahead and hold the windows key and press 'r', a run dialog box should show up where you'd expect the start menu. Type "services.msc". This will bring up the service managment window.  Most of these are nammed fairly well and have good descriptions. If there's something that absolutely doesn't need to run (like the Xbox services on an office computer) it's not a bad idea to just disable it.
+
+For your sanity later, I'm going to recommend a whole host of deeper utilities & basic system improvments
+
+* [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) (or Process Hacker) can actually let you see what's going on when a particular program is misbehaving
+* [EarTrumpet](https://eartrumpet.app) unfucks the audio menu. On 11, it will mean you're stuck with 2 sound buttons, but it's worth it.
+
+* WSL Arch [TODO]
 
 
+### 1.3 Noodling with settings
 
-* Drivers
+Now, I recommend you go through literally all of your settings. Both in the old school control panel and the newer setting nightmare. There's some settings I do want to point out though:
 
-* Better task man, etc.
+First, is assigining programs to use a dedicated GPU. If you're on a laptop (or desktop, though it'd be rare) with *both* integrated and dedicated graphics, the laptop probably switches between the two to save power. Unfortunately, it might get this wrong sometimes resulting in some programs running like ass. Games are *usually* fine, but for art tools like Krita, PCB design tools like KiCad, or really any other creative tool with a resonably interactive graphical interface Windows often gets it wrong. On 10 [TODO], on 11 this if you just search "GPU" it will bring you to the graphics settings page for this. In either case, just add the program (might need to be done by file path to the .exe) and then set it to use the "High performance" card.
 
-* EarTrumpet
+Next, Windows defaults to saving power - even on desktops. In the start menu, search for "choose a power plan", select that, and switch to whatever the highest performance is called on your system ("Ultimate Performance" or whatever). On laptops this will eat more battery though. While you're here, you should see an option on the left for "Choose what the power buttons do". Click that, click "Change settings that are currently unavailable", and **un-**tick  "Turn on fast startup".
 
-* WSL Arch
+Now, onto networking. First of all, go into networking settings and dig around for "Random hardware addresses" and turn that off. It doesn't do jack shit for secutiy or privacy, and it just makes a lot of networks kick you off repeatedly. It's super annoying.
 
-  
+While we're playing with networking, you might want to use a different DNS provider. No matter who you go with, they'll track you, so it may as well be a better one than the stock one. ╮(─▽─)╭ Go to the *old* control panel → Network & Internet → Network & Sharing Center, then, on the left, click "Change Adapter Settings". Your active connection should be pretty obvious- right click whatever it is, select *properties*. You should be in the networking tab, click (But do not un-check!) the "Internet Protocol Version 4 (TCP/IPv4)" option and click *properies*. Now, at the bottom, "Obtain DNS server address automatically" is probably checked. Select "Use the followingDNS server addresses" and enter `1.1.1.1` and `8.8.8.8` as the Preferred and Alternate respectively. 
 
+Next up, let's fix the stupid file explorer settings. In the start menu, search for and open "File Explorer Options". Click the "View tab", turn on "Display the full path in the title bar", "Show hidden files, folders, and drives". Now, you can close that window and open literally any folder to view files. In the file explorer, go to the top ribon and select View→Show, and turn on "File Name Extensions"
 
+Now onto the display. First things first, open the start menu and run "Adjust ClearType Text", go through it and do what looks best to you. Then, let's go make sure you're display settings are sane. You should be able to right click in the desktop (with no window) and select "Display Settings". What you'll want to check is that the resolution is set to the displays maximum (with a few rare exceptions), and *unless you need it* that the scale is set to 100%. Then, go into the advanced options and make sure the refresh rate is set to the maximum supported by the display. Probably 60hz on most, but commonly 120 or 144hz on gaming laptops.
 
-### 1.3 Fucking with settings
+Next up, lets make it so that when a Blue Screen of Death (BSoD) does happen, we can actually figure out why. In the start menu, search for and open "Adavced System Settings", click "startup and recovery" and make sure "Automatic memory dump" is selected in the Write debugging information menu. Close out of the start up and recovery window, but not the system properties window - while we're here we can tweak some visual effects to make things feel snappier. Still on the advanced tab, click the performance button, and then under visual effects. Turn **off** all the "Fade", "Slide" animations, as well as Animate Windows when mimimizing and maximizing. 
 
-Now, I recommend you go through literally all of your settings. Both in the old school control panel and the newer setting nightmare.
+Windows really doesn't like to tell you what's going on during updates, with messages like "Getting things ready". Fuck that. Fix this by opening an admin command prompt and running `reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v verbosestatus /d 1 /t REG_DWORD /f` The messages often happen to quickly to read (espically if you have a fast computer and SSD) but it's better than what it was.
 
-[TODO] assigining programs to use GPU
+If you're on Windows 11, the new right click menus really, really suck. [Follow this to fix that](https://www.laptopmag.com/how-to/get-the-windows-10-context-menu-back-in-windows-11). 
 
-[TODO] Power profiles + fast startup
+{{< speech big throw >}}
 
-[TODO] MAC randomization
+One of my bigger gripes with Windows is that many of these settings that you'd want to change **do** exist, it's just you have to go edit the registry to change them - which means you have to know they exist and what key to add. Basically, this turns into a game of trying to web search the right term to fix the annoyance.
 
-[TODO] TrueType, Refresh rate
+{{< /speech >}}
 
-[TODO] Unix time
-
-[TODO] Hidden files, extensions
-
-[TODO] kill lock screen
-
-[TODO] dumps
-
-[TODO] Page file size
-
-[TODO] open CMD here
-
-[TODO] Verbose mode
+Finally, for the command line lovers, I *think* that just by having the newer, less shit [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab) installed you'll get a "Open In Windows Terminal" context menu added to the file browser.
 
 ### 1.4 Installing User Stuff
 
-You probably have your own prefneces in Software. Statistically, you're *probably* a Chrome user. That's cool, you do you. Regadless, I reccomend installing all of the software that you can via `winget`, as it makes it much less likely that you'll download shit, and it's just generally easier and faster.
+You probably have your own prefneces in Software. Statistically, you're *probably* a Chrome user. That's cool, you do you. (I'm a [Vivaldi](https://vivaldi.com) guy) Regadless, I reccomend installing all of the software that you can via `winget`, as it makes it much less likely that you'll download shit, and it's just generally easier and faster.
 
 [TODO]
 
@@ -131,6 +136,7 @@ You probably have your own prefneces in Software. Statistically, you're *probabl
 * Audacity
 * Typora
 * Speed crunch
+* Clink
 
 ### 1.5 Security & Backups
 
@@ -152,10 +158,19 @@ One of the most annoying things about Windows is that it's an absolute pain in t
 
 So, let's dig into some core window's stuff for just a moment. The very TL;DR version:
 
-* Window's disks are formatted as NTFS. NTFS is awful.
-* Drivers for windows tend to be a mess. Keeping them up to date is awful. Windows update will usually only install very old (or even incorrect) driver by default.
+* Windows, since Vista, is based on the NT kernel
+  * This means most low-level fixes and articles you read since then should be reasonably accurate
+
+* Window's disks are formatted as NTFS. NTFS is awful. [TODO] BTRFS
+* Windows file permissions are way weirder than linux's `*rwxrwxrwx` structure. Permissions can and will fuck you.
+  * If the user has a Microsoft account associated, the username isn't always the username. If you encounter this issue, I wish you luck in figuring out what the correct name actually is.
+
+* Drivers for windows tend to be a mess. Keeping them up to date is awful. Windows update will often install very old (or even incorrect) driver by default.
 * Windows programs install themselves all over the fucking place. Yes, there's `program files` and `program files x86`, but sometimes things wind up in `%appdata%` or `ProgramData` or put themselves somewhere else entirely.
-  * You may not be able to see these if you don't turn on `show hidden files`
+  * You may not be able to see these if you don't turn on *show hidden files*
+* Some programs are "apps" and these are sort of their own thing too
+* Windows is sort of a mess for the sake of retaining backwards compatability
+* A lot of windows programs have at least a few dependencies, like Java or Visual C++ 20xx-20xx Redistributable
 
 That said, there are some nuggets of wisdom I can provide, in no particular order:
 
@@ -207,7 +222,7 @@ That said, there are some nuggets of wisdom I can provide, in no particular orde
 
 ## 2.5 For The Dual Booters
 
-* Windows and Linux do not play together nicely. Windows will ocassionally erase shit
+Windows likes to think it's the only OS on your system even if it's not. Sometimes this means it'll just eat your bootloader (so keep a live linux disk around to fix that). Other times it's a comical yet annoying tendancy to have update-and-shutdown actually update-and-reboot-into-Linux making it so the next time you boot Windows it just immediately shuts off. Fun stuff. On top of that, Windows only supporting NTFS [TODO, BTRFS] means if you want to share data between the two, you're pretty much stuck having your data be on an NTFS partition. Finally, Windows is weird and uses a different time standard than everyone else, so if you want Windows to not fuck up your clock every reboot, open an admin command prompt and run `reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f`
 
 ## 3. For The programmers
 
