@@ -152,6 +152,66 @@ And I can set the image for each one
 
 {{< /speech >}}
 
+{{< speech halo >}}
+
+halo
+
+{{< /speech >}}
+
+{{< speech suit >}}
+
+suit
+
+{{< /speech >}}
+
+{{< speech math >}}
+
+math
+
+{{< /speech >}}
+
+{{< speech blegh >}}
+
+blegh
+
+{{< /speech >}}
+
+{{< speech hack >}}
+
+hack
+
+{{< /speech >}}
+
+{{< speech boba >}}
+
+boba
+
+{{< /speech >}}
+
+{{< speech yesbutno >}}
+
+yesbutno
+
+{{< /speech >}}
+
+{{< speech paper >}}
+
+paper
+
+{{< /speech >}}
+
+{{< speech yeet >}}
+
+yeet
+
+{{< /speech >}}
+
+{{< speech tired >}}
+
+tired
+
+{{< /speech >}}
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu. Morbi neque neque, ullamcorper vel luctus et, viverra nec felis. Aliquam erat volutpat. Proin mattis sapien sapien, vitae iaculis leo rhoncus tincidunt. Nunc tincidunt mauris quis placerat aliquam. Vivamus consequat consectetur justo eu sollicitudin. Vestibulum porttitor mattis feugiat. Fusce et lacinia lacus.
 
 ## Spoiler

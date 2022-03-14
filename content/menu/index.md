@@ -42,6 +42,7 @@ headless: true
 <dt>5 </dt><dd> <a href="/engineering/linux/howwework/">Working on <i>How</i> we work</a></dd>
 <dt>5½</dt><dd> <a href="/engineering/linux/git/">Git</a></dd>
 <dt>A1</dt><dd> <a href="/engineering/linux/linuxshell/">Using The Linux Shell</a></dd>
+<dt>A2</dt><dd> <a href="/engineering/linux/windows/">Ugh. Windows.</a></dd>
 </dil>
 </div>
 
@@ -276,7 +277,7 @@ headless: true
 <div class="progress-ww">
 <dl>
 <dt>1 </dt><dd> <a href="/design/basics/">Basics of Art</a></dd>
-<dt>2 </dt><dd> <a href="/design/analog-design/">Analog Art</a></dd>
+<dt>2 </dt><dd> <a href="/design/analog/">Analog Art</a></dd>
 <dt>3 </dt><dd> <a href="/design/digital/">Digital Art</a></dd>
 <dt>3½</dt><dd> <a href="/design/dacadc/">DAC/ADC</a></dd>
 <dt>4 </dt><dd> <a href="/design/ui/">UI/UX</a></dd>

@@ -4,9 +4,21 @@
 
 <!-- https://heavydeck.net/project/the-kludge-schematic-editor/ might be helpful for making schematics to explain things -->
 
-## The Tools of the Trade
+# The Tools of the Trade
 
-Building, fixing, and analyzing circuitry requires the use of a few tools and appliances. While there are many more than those listed here, these tare the most important ones and should be all you need for most even very advanced applications.
+{{< columns >}}
+
+Building, fixing, and analyzing circuitry requires the use of a some tools and appliances. While there are many more than those listed here, these are the most important ones and should be all you need for most applications. 
+
+Unfortunately, there will be some cost involved in getting these. I'll do my best to give you advice to keep the cost down while still getting good equipment as we go over what each is for.
+
+<--->
+
+<img src="/nonfree/character/shade/solder.webp" style="width:80%;" />
+
+{{< attribution >}}Character owned by Vega, art by [Shade](https://twitter.com/shadepiplup10){{< /attribution >}}
+
+{{< /columns >}}
 
 ### The Multimeter
 

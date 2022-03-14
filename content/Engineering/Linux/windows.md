@@ -1,10 +1,22 @@
-# Ugh. Windows.
+# Appendix 2 - Ugh. Windows.
 
-Okay, so, I hate Windows for many, many reasons. Beyond the Candy Crush being bundled and privacy concerns, it's generally just a pain in the ass. That said, you'll probably need to do some stuff with it from time to time regardless, so, in this page I want to do three things:
+**Windows? In a Linux Chapter?**
+
+---
+
+{{< columns >}} Okay, so, I hate Windows for many, many reasons. Beyond the Candy Crush being bundled and privacy concerns, it's generally just a pain in the ass- and as a Linux user, that's saying something. That said, you'll probably need to do some stuff with it from time to time regardless. So, in this page I want to do three things:
 
 1. Make it suck less.
 2. Help you understand how to fix issues
 2. Let you know how to make programming not suck
+
+<--->
+
+<img src="/nonfree/character/shade/blegh.webp" style="width:80%;" />
+
+{{< attribution >}}Character owned by Vega, art by [Shade](https://twitter.com/shadepiplup10){{< /attribution >}}
+
+{{< /columns >}}
 
 # 1. Making Windows Suck Less
 

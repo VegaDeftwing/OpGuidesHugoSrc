@@ -390,6 +390,136 @@ div.speech.throw::before {
   width: 75px;
 }
 
+div.speech.halo::before {
+  background-color: #181818;
+  background-image: url("/nonfree/character/shade/halo.webp");
+  background-size: 85px;
+  border-radius: 100%;
+  content: "";
+  left: -40px;
+  top: 4px;
+  position: absolute;
+  height: 75px;
+  width: 75px;
+}
+
+div.speech.suit::before {
+  background-color: #181818;
+  background-image: url("/nonfree/character/shade/suit.webp");
+  background-size: 85px;
+  border-radius: 30%;
+  content: "";
+  left: -40px;
+  top: 4px;
+  position: absolute;
+  height: 75px;
+  width: 75px;
+}
+
+div.speech.math::before {
+  background-color: #181818;
+  background-image: url("/nonfree/character/shade/math.webp");
+  background-size: 75px;
+  border-radius: 10%;
+  content: "";
+  left: -40px;
+  top: 4px;
+  position: absolute;
+  height: 75px;
+  width: 75px;
+}
+
+div.speech.blegh::before {
+  background-color: #181818;
+  background-image: url("/nonfree/character/shade/blegh.webp");
+  background-size: 85px;
+  border-radius: 10%;
+  content: "";
+  left: -40px;
+  top: 4px;
+  position: absolute;
+  height: 75px;
+  width: 75px;
+}
+
+div.speech.hack::before {
+  background-color: #181818;
+  background-image: url("/nonfree/character/shade/hack.webp");
+  background-size: 79px;
+  border-radius: 30%;
+  content: "";
+  left: -40px;
+  top: 4px;
+  position: absolute;
+  height: 75px;
+  width: 75px;
+}
+
+div.speech.boba::before {
+  background-color: #181818;
+  background-image: url("/nonfree/character/shade/boba.webp");
+  background-size: 80px;
+  border-radius: 30%;
+  content: "";
+  left: -40px;
+  top: 4px;
+  position: absolute;
+  height: 75px;
+  width: 75px;
+}
+
+div.speech.yesbutno::before {
+  background-color: #181818;
+  background-image: url("/nonfree/character/shade/yesbutno.webp");
+  background-size: 78px;
+  border-radius: 30%;
+  content: "";
+  left: -40px;
+  top: 4px;
+  position: absolute;
+  height: 75px;
+  width: 75px;
+}
+
+div.speech.paper::before {
+  background-color: #181818;
+  background-image: url("/nonfree/character/shade/paper.webp");
+  background-size: 85px;
+  border-radius: 100%;
+  content: "";
+  left: -40px;
+  top: 4px;
+  position: absolute;
+  height: 75px;
+  width: 75px;
+}
+
+div.speech.yeet::before {
+  background-color: #181818;
+  background-image: url("/nonfree/character/shade/yeet.webp");
+  background-size: 75px;
+  border-radius: 30%;
+  content: "";
+  left: -40px;
+  top: 4px;
+  position: absolute;
+  height: 75px;
+  width: 75px;
+}
+
+div.speech.tired::before {
+  background-color: #181818;
+  background-image: url("/nonfree/character/shade/tired.webp");
+  background-size: 85px;
+  border-radius: 100%;
+  content: "";
+  left: -40px;
+  top: 4px;
+  position: absolute;
+  height: 75px;
+  width: 75px;
+}
+
 div.speech.right::before {
   left: 92% !important;
   text-align: right;
