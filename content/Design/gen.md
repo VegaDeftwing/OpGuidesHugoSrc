@@ -1,9 +1,3 @@
----
-title: "Generative Art"
-slug: "Generative Art"
-
----
-
 # Generative Art
 
 
@@ -21,7 +15,7 @@ This page is almost completely devoid of actual educational content. Instead, I'
 
 {{< /columns >}}
 
-If you're interested in generative music and sounds as well, you may want to check out The OpGuides page on <a href="/music/music-software/">Music Software</a>.
+If you're interested in generative music and sounds as well, you may want to check out The OpGuides page on {{< button relref="Music/software/livecoding" color="music" >}}Live coding Music Software{{< /button >}}.
 
 {{< details title="World Building Tools" open=false >}}
 
@@ -557,10 +551,6 @@ Chaotica is **free for noncommercial use**, and can render up to 1.23 megapixel 
 {{< details title="Generative Eyes" open=false >}}
 
 </br>
-
-<iframe id="reddit-embed" src="https://www.redditmedia.com/user/Redditing_Enigma789/comments/m87rht/fully_procedural_irises_sclera_and_cornea_nodes/?ref_source=embed&amp;ref=share&amp;embed=true&amp;theme=dark" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="360" width="640" scrolling="no"></iframe>
-
-{{< attribution >}} [Extraordinarly realistic eyes from Blender Nodes (Reddit, u/Redditing_Enigma789)](https://www.reddit.com/user/Redditing_Enigma789/comments/m87rht/fully_procedural_irises_sclera_and_cornea_nodes/?utm_source=share&utm_medium=web2x&context=3){{< /attribution >}}
 
 [Iris (Reddit)](https://www.reddit.com/r/generative/comments/j4uati/iris/)
 
