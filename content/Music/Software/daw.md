@@ -16,8 +16,6 @@ Trackers, vs non liner, vs modular, etc.
 
 **NOTE: this list is far from exhaustive. Instead, I've tried to list the main ones and some that I think are particularly cool.** Also, you might want to see [AdmiralBumbleBee's Daw Feature Chart](https://www.admiralbumblebee.com/DAW-Chart.html) for a more analytical overview
 
-
-
 ## Session View Based:
 
 {{< tabs "Session View Daws" >}}
@@ -85,27 +83,7 @@ lil' aside: Ableton makes organizing VSTs a tad awkward, so you should know it w
 ---
 
 * Expensive, paid updates
-* <div class="progress-ww">
-  <dl>
-  <dt>1 </dt><dd> <a href="/design/web/jack/">Jack of all trades</a></dd>
-  <dt>2 </dt><dd> <a href="/design/web/garden/">Your own garden</a></dd>
-  </details> </dd>
-     <dt>3 </dt><dd> <details id="webMenu"> <summary><a href="/design/web/langs">HTML, CSS, JS, WUT?</a></summary>
-      <dt class="sub">3.1</dt><dd class="sub"> <a href="/design/web/langs/html/"> HTML</a></dd>
-  	  <dt class="sub">3.2</dt><dd class="sub"> <a href="/design/web/langs/css/"> CSS</a></dd>
-      <dt class="sub">3.3</dt><dd class="sub"> <a href="/design/web/langs/js/"> JS</a></dd>
-     </details> </dd>
-  <dt>4 </dt><dd> <a href="/design/web/static/">Static & Dynamic</a></dd>
-  <dt>5 </dt><dd> <a href="/design/webl/cost/">Cost?</a></dd>
-  <dt>6 </dt><dd> <a href="/design/web/setup/">Getting Setup</a></dd>
-  <dt>7 </dt><dd> <a href="/design/web/content/">Content is King</a></dd>
-  <dt>8 </dt><dd> <a href="/design/web/thinkingweb/">Thinking Web</a></dd>
-  <dt>8½</dt><dd> <a href="/design/web/access/">Accessability</a></dd>
-  <dt>A1 </dt><dd> <a href="/design/web/tools/">Web development tools</a></dd>
-  <dt>A2 </dt><dd> <a href="/design/web/resources/">Other Resources</a></dd>
-  </dil>
-  </div>
-  
+
   * MPE works beautifully though
 * Not as many built in devices as Ableton
 * Better multi monitor support than Ableton
@@ -113,22 +91,7 @@ lil' aside: Ableton makes organizing VSTs a tad awkward, so you should know it w
   * Less support
   * Can't use Ableton specific devices
 
-<div class="progress-ww">
-<dl>
-<dt> </dt><dd> <a href="/other/funlinks/">Interesting Links</a></dd>
-<dt> </dt><dd> <a href="/other/coolhardware/">Cool Hardware</a></dd>
-<dt> </dt><dd> <a href="/other/hci2/">The Way We Interact With Computers Sucks</a></dd>
-</details> </dd>
-   <dt></dt><dd> <details id="hciMenu"> <summary><a href="/other/hci2/intro/">The Way We Interact With Computers Sucks</a></summary>
-    <dt class="sub">1</dt><dd class="sub"> <a href="/other/hci2/physical"> The Physical</a></dd>
-	<dt class="sub">2</dt><dd class="sub"> <a href="/other/hci2/digital"> The Digital</a></dd>
-    <dt class="sub">3</dt><dd class="sub"> <a href="/other/hci2/whatelse"> What Is Needed?</a></dd>
-   <dt class="sub">4</dt><dd class="sub"> <a href="/other/hci2/contradictions"> What Contradicts?</a></dd>
-   <dt class="sub">5</dt><dd class="sub"> <a href="/other/hci2/radicallychanging"> Radically Changing</a></dd>
-   <dt class="sub">6</dt><dd class="sub"> <a href="/other/hci2/wrappingup"> Wrapping Up</a></dd>
-   </details> </dd>
-</dil>
-</div>
+{{< /columns3 >}}
 
 {{< /tab >}}
 
