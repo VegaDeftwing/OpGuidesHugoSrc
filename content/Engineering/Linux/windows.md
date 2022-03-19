@@ -91,6 +91,22 @@ Let's start by opening up "device manager", you should see a bunch of different 
 
 Now, let's head over to Disk managment. Here the big thing we should be looking for is any large blocks of unallocated space or partitions you don't recognize (if you've installed Linux, Windows will see these partitions, but have no idea what they are!) - on a normal, single disk, Windows system there will probably be a ~300Mb EFI System Partition, a very large (the majority of the disk in size) "Windows C:/" partition, and one or two recovery partitions, totalling less than 30Gb.
 
+{{< hint info >}}
+
+Heads up, the graphical disk managment utility may not let you do some things! In this case you may need to run `diskpart` in cmd.
+
+{{< /hint >}}
+
+{{< hint warning >}}
+
+Things can get weird if you're using Bitlocker for encryption or if your BIOS is set to to RAID mode (even if there's only one disk) in either case, it will be really tough to access data from Linux. This may not seem like a big deal to you if you don't intend to dual boot, but it can make data recovery or virus removal a massive pain in the ass later.
+
+{{< /hint >}}
+
+> If you're here, you might also be in need of a quick way to make a clone of a disk from within Windows, in that case, I've had luck with [RawDiskCopier (Github)](https://github.com/TalAloni/RawDiskCopier)
+
+> {{< smalltext >}}If you're feeling really adventureous, you can actually [get Windows to run on BTRFS](https://github.com/maharmstone/btrfs). Just know that here be dragons.{{< /smalltext >}}
+
 Next up, lets make sure HP/Dell/Acer/etc. didn't put any dumb things into the task scheduler or services. Open the start menu, search for "Task Scheduler" and open it. Click "Task Scheduler Library" and look through the entries, don't be afraid to web search if you don't know what some are. If there's some you know you don't need, just right click and disable them.
 
 Then, into services. While you can into services by opening the start menu and searching for it, I want to show you the Run dialog, because occasionally the start menu will break on windows and using the run dialog can be a good way to force your way into thing anyway. So, go ahead and hold the windows key and press 'r', a run dialog box should show up where you'd expect the start menu. Type "services.msc". This will bring up the service managment window.  Most of these are nammed fairly well and have good descriptions. If there's something that absolutely doesn't need to run (like the Xbox services on an office computer) it's not a bad idea to just disable it.
