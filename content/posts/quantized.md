@@ -3,7 +3,7 @@ title: "Quantization, Polarization, & Indoctrination"
 slug: "quantized"
 author: "Vega Deftwing"
 date: 2022-03-18
-tags: personal
+tags: politics
 ---
 
 {{< quote "[wikipedia](https://en.wikipedia.org/wiki/Quantization)" >}}
