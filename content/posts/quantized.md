@@ -4,7 +4,6 @@ slug: "quantized"
 author: "Vega Deftwing"
 date: 2022-03-18
 tags: personal
-draft: true
 ---
 
 {{< quote "[wikipedia](https://en.wikipedia.org/wiki/Quantization)" >}}
@@ -39,7 +38,7 @@ Crazy-Left, Mid-Left, Lean-Left, Centrist, Lean-Right, Mid-Right, Crazy-Right.
 
 But this isn't a politics post. I'm an engineer, not a politician or sociologist. Instead, it's a religion post, because any fuckwit on the internet can spew shit about religion!
 
-<img src="/memes/gods.webp" alt="Skyrim Speech 100" style="float: right;width:40%;padding:10px">
+<img src="/memes/gods.webp" alt="American Gods Quote" style="float: right;width:40%;padding:10px">
 
 In both Neil Gaiman's *American Gods* and Kevin Hearne's *Iron Druid Chronicles* there's this neat idea that the Gods (and in both, this means *all* the gods) are created by and get their power from human belief. In other words, God is created in the image of man.
 
