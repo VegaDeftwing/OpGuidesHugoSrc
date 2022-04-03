@@ -22,7 +22,7 @@
 
 ### X.x Update your BIOS
 
-While not Windows specific, I reccomend updating your UEFI/BIOS anyway, as occassionally it will fix random issues down the line. The process for this varies, but generally you just need to go to either the page for your specific model of computer or, if a custom system, the page for the motherboard. Download the BIOS from there and follow the update instructions provided. It'll be a little sketchy, but it should be fine. Sometimes, you can do this from within Windows Update via an 'optional update'. **Don't.** This has a tendacy to break shit.
+While not Windows specific, I recommend updating your UEFI/BIOS anyway, as occasionally it will fix random issues down the line. The process for this varies, but generally you just need to go to either the page for your specific model of computer or, if a custom system, the page for the motherboard. Download the BIOS from there and follow the update instructions provided. It'll be a little sketchy, but it should be fine. Sometimes, you can do this from within Windows Update via an 'optional update'. **Don't.** This has a tendency to break shit.
 
 While for some computer updating the UEFI/BIOS just requires running a file from within Windows, on others you'll need to actually reboot into the UEFI/BIOS interface. If the system is anything newer than ancient, you should be able to do this by going into settings and finding "Advanced Startup". In 10, this is under Update→Recovery, on 11, just search for it (it will probably show up as "change advanced start up options") and then "Restart now". After the reboot, you should see a bright blue screen with the options of "Continue", "Troubleshoot", or "Turn off your PC". Select Troubleshoot → Advanced Options → UEFI Firmware Settings. This will bring you into a different settings menu that, unfortunately, looks different on every system. Just arrow-key, tab, and enter around to see what options are there. With luck, you'll stumble into something named "UEFI BIOS Update" or similar, and the process should be fairly straight forward from there. Some systems will even download the update over the internet from within this menu directly. If you plan to run Linux, you might want to come back to this menu and turn off Secure Boot as well.
 
@@ -32,7 +32,7 @@ I'll be honest with you, even if you run a VPN -> Tor -> Freenet -> IPFS chain t
 
 {{< speech big >}}
 
-Historically, I'd recomend setting up Windows with a local account for a whole mess of reasons as well. Unfortuantely, Microsoft is making this more of a pain in the ass with each update, and basically removing the ability outright in Windows 11. If you haven't yet set up your computer and your coming back to this guide as a "Did I miss anything", this is something you may want to consider trying still. Just realize you'll be fighting Windows every step of the way.
+Historically, I'd recommend setting up Windows with a local account for a whole mess of reasons as well. Unfortuantely, Microsoft is making this more of a pain in the ass with each update, and basically removing the ability outright in Windows 11. If you haven't yet set up your computer and your coming back to this guide as a "Did I miss anything", this is something you may want to consider trying still. Just realize you'll be fighting Windows every step of the way.
 
 {{< /speech >}}
 
@@ -42,7 +42,7 @@ First, the easy one. Just run [Shut up 10](https://www.oo-software.com/en/shutup
 
 {{< tip >}} If some not-up-to-the-times guide says to use CCleaner, don't. It's basically a virus now! {{< /tip >}}
 
-Then, you'll want to go through everything and just rip the crap out. Don't forget, Candy Crush is installed with 10 by default. And there's more… so, so much more. If it's an HP, just search the start menu for "hp", Dell, "Dell", and so on. That will help you find a lot of the garbage. I also reccomend opening up task manager (Ctrl+Shift+Esc), selecting more details, clicking the Startup tab, and seeing if there's anything you don't use that you can uninstall or at least disable. From there, just go digging though add/remove programs and start mashing remove until you're satisfied. If you haven't run updates yet, it's possible Windows will install yet more crap, so you might need to double check.
+Then, you'll want to go through everything and just rip the crap out. Don't forget, Candy Crush is installed with 10 by default. And there's more… so, so much more. If it's an HP, just search the start menu for "hp", Dell, "Dell", and so on. That will help you find a lot of the garbage. I also recommend opening up task manager (Ctrl+Shift+Esc), selecting more details, clicking the Startup tab, and seeing if there's anything you don't use that you can uninstall or at least disable. From there, just go digging though add/remove programs and start mashing remove until you're satisfied. If you haven't run updates yet, it's possible Windows will install yet more crap, so you might need to double check.
 
 ### 1.2 Installing System Stuff
 

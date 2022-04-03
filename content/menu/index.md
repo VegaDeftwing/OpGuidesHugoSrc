@@ -87,7 +87,7 @@ headless: true
 <dt>16 </dt><dd> <a href="/engineering/programming/debugbuildtest/">Debugging, CI & CD</a></dd>
 <dt>17 </dt><dd> <a href="/engineering/programming/multithread/">We've Got Cores!</a></dd>
 <dt>18 </dt><dd> <a href="/engineering/programming/guiprog/">Graphical Programming</a></dd>
-<dt>19 </dt><dd> <a href="/engineering/programming/shaders/">Shaders?</a></dd>
+<dt>19 </dt><dd> <a href="/engineering/programming/shaders/">Shaders + GpGPU</a></dd>
 <dt>20 </dt><dd> <a href="/engineering/programming/game/">Game Programming</a></dd>
 <dt>21 </dt><dd> <a href="/engineering/programming/funcprog/">(((())(()((()(()))))))</a>
 </dd>

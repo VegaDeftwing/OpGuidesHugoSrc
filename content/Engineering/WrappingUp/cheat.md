@@ -102,6 +102,8 @@ https://github.com/mitsuba-renderer/nanogui
 
 [Pint](https://pint.readthedocs.io/en/stable/) - work with units, including prefixes like kilometers
 
+[Quarry](https://github.com/barneygale/quarry) - "Quarry is a Python library that implements the [Minecraft protocol](http://wiki.vg/Protocol). It allows you to write special purpose clients, servers and proxies."
+
 > Also see pyO3 in rust above, which allows for writing python modules. Of course python modules can be written [in C or C++](https://docs.python.org/3/extending/extending.html), but doing so in Rust is safer, because, Rust.
 
 > For Matplotlib, I do recomend looking at the aviailable [Matplotlib colormaps](https://matplotlib.org/stable/tutorials/colors/colormaps.html) and [color map normalization](https://matplotlib.org/stable/tutorials/colors/colormapnorms.html#sphx-glr-tutorials-colors-colormapnorms-py) as the colors used to view your data can make a huge difference in how readable it is

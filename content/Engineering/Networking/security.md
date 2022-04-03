@@ -342,7 +342,7 @@ That said, trying to get umpteen 9's of uptime is a bit crazy for most things an
 
 ### DO NOT trust humans
 
-Customer support exists to bypass security. Users exist to find bugs you wouldn't think possible. hackers exist to show you that you suck at programming. humans in general exist to do things that to other humans seems totally illogical.
+Customer support exists to bypass security. [Users exist to find bugs you wouldn't think possible](http://www.simonweckert.com/googlemapshacks.html). Hackers exist to show you that you suck at programming. humans in general exist to do things that to other humans seems totally illogical.
 
 Don't trust humans. [They're Made Out of Meat.](https://www.youtube.com/watch?v=7tScAyNaRdQ)
 
@@ -403,6 +403,12 @@ https://github.com/kdeldycke/awesome-iam
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/S9JGmA5_unY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Note there's general two 'classes' of hashing- hashing for cryptographic security (Passwords) and for just general usage, the cryptographic ones typically are significantly more computationally intensive to make it harder to brute force all possible keys. Also most cryptographic hashing algorithms go to much greater lengths to avoid collisions. Also, salting is relevant here: [Salting (Wikipedia)](https://en.wikipedia.org/wiki/Salt_(cryptography))
+
+If you want to dive into the math of hashing, going through [this repo](https://github.com/oconnor663/sha256_project) to make SHA-256 yourself will teach you a lot. Of course, don't ever use one you wrote yourself. Just like encryption, leave it to the battle tested libraries.
+
+Note, that some hashing algorithms are known to be broken at this point, like MD5 and SHA1. Don't use them.
+
+The Github page for [xxHash](https://github.com/Cyan4973/xxHash) has a nice table showing the speed of quite a few common algorithms.
 
 ## Security Policies
 

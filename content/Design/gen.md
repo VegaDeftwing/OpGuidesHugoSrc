@@ -1228,6 +1228,20 @@ Wave editor, for like showing bit patterns & such
 
 {{< /columns2 >}}
 
+{{< columns2 >}}
+
+[edotor.net](https://edotor.net)
+
+<--->
+
+Graphviz editor
+
+<--->
+
+... It's a graphviz editor. It looks how you'd expect.
+
+{{< /columns2 >}}
+
 ---
 
 {{< katex >}}\LaTeX \text{?}{{< /katex >}}

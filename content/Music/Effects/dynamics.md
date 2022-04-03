@@ -154,9 +154,13 @@ reverb, delay, pan, tremolo, overdrive, distortion
 
 [TODO] parallel Compression
 
-[TODO] Multipand Compression
+[TODO] Multiband Compression
 
 [TODO] Expansion
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/bxnb8cGDAzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 <ol hidden id="footnotes">
     <li>See <a href="https://en.wikipedia.org/wiki/EBU_R_128">EBU R 128 (Wikipedia)</a> if you're curious how loudness is usually defined. I'll talk about this more in the mixing and mastering chapter </li>
