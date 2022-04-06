@@ -14,7 +14,7 @@
 
 {{< details "Here for VRChat Stuff?">}}
 
-Cool! VR chat is a really neat platform to work with and it's really fun to be able to hold or walk around your art. Unfortuantely, there's some added complexity that comes with handeling VR, Unity, and even just 3D stuff outright that, all together, takes a hot minute to build up to. That said, there are some particularly good resources for getting started in VR Chat and Unity development that aren't available for anything else. So, after you've gone though the above links, in no particular order, I reccomend looking at:
+Cool! VR chat is a really neat platform to work with and it's really fun to be able to hold or walk around your art. Unfortunately, there's some added complexity that comes with handling VR, Unity, and even just 3D stuff outright that, all together, takes a hot minute to build up to. That said, there are some particularly good resources for getting started in VR Chat and Unity development that aren't available for anything else. So, after you've gone though the above links, in no particular order, I recommend looking at:
 
 * ~~This 5 hour long [Intro to Shader Coding in Unity](https://youtu.be/9WW5-0N1DsI) is pretty great~~ → Replaced by the newer [Shader Basics, Blending & Textures • Shaders for Game Devs](https://www.youtube.com/watch?v=kfM-yu0iQBk) which is a bit under 4 hours... I watched both.
 * [cnlohr's *Shadertrixx* repo](https://github.com/cnlohr/shadertrixx)
@@ -29,31 +29,47 @@ Cool! VR chat is a really neat platform to work with and it's really fun to be a
 
 {{< tab "1 - What Is?" >}}
 
-I got into shaders for a bit of a backwards goal - I'm into the art, sure, but it's more that I found the *idea* of running code on the graphics card cool, and wanted to know how to use the multi-hundred watts of computational horse power in my desktop to my advantage. However, I knew better than to dive head-first into a difficult language like Vulkan (more on that in a sec) and that it would be much easier to get to the point of running complex, not-necessarily-for-graphics code on the GPU if I went through the normal for-art path first.
+I got into shaders for a bit of a backwards goal - I'm into the art, sure, but it's more that I found the *idea* of running code on the graphics card cool, and wanted to know how to use the multi-hundred watts of computational horse power in my desktop to my advantage. However, I knew better than to dive head-first into a difficult language like Vulkan (more on that in a bit) and that it would be much easier to get to the point of running complex, not-necessarily-for-graphics code on the GPU if I went through the normal for-art path first.
 
 On top of this, I was also just getting into VR Chat, which lets users submit their own worlds and avtars made in Unity.
 
-This is where some of the confusion begins:
+This is where some of the confusion begins, as this chapter of *The Book of Shaders* introduces what shaders are, but sort of glosses over the fact that there are both multiple languages and multiple types of Shaders. *The Book* uses GLSL, but - epically for games - HLSL is significantly more common. Fortunately, the two are <u>extremely</u> similar. So, porting something written in one to the other is usually not a problem. Of course, there are other option than even these two, but these are probably the two you'll see the most.
 
-[TODO - unity's 3 pipelines, multiple languages (HLSL vs ...), multiple node editors (Amplify), and wanting to have debug, etc.]
+**Languages?**
 
-- Show an actual shader doing actual shader things
-- What else is there other than GLSL
-  - how do other things play into this, HLSL & Shader Model Version; DX9,10,11,12 vs Direct3D Metal; Cg; SPIR-V, .shader in unity
+In Unity, you'll *probably* be writing your shaders in HLSL, though there's also another option - not writing code at all! If you're only really into the artistic side of shaders, you can do *most* things pretty easily using Unity's [Shader Graph](https://unity.com/features/shader-graph) tool (or [Amplify Shader Editor](http://amplify.pt/unity/amplify-shader-editor/) should you have to use the "Bulit-in" pipeline, like VRChat uses)
+
+It's also notable that Graphics **A**pplication **P**rogramming **I**nterfaces (APIs) play a big role in all of this too. If you've ever seen a game require a graphics card with **D**irect **X** **12** (DX12) support, this is because each new version of Direct X exposes different ways for programmers to interact with the the graphics card, and this also influences what your shaders can do. You'll also see some other terms thrown around like Metal for Apple hardware, SPIR-V, and something called a Shader Model version. This quickly goes into reading documentation hell, and starts to defeat the purpose of having the abstractions that higher level shader languages, like HLSL and GLSL, provide us. Unfortunately, shaders are a pain and you will occasionally have to dive into this as you find out your shader doesn't work correctly on somebody's system because AMD or Nvidia (The two big GPU vendors) drivers act weird or that somebody want's to use an older card that doesn't *quite* support everything you used, causing things to look weird.
+
+For those that are working in Unity, you should be aware Unity's shader system has a bunch of confusion. Some of it is brought on by legacy support - For example, a lot of the Unity shader libraries use the term "CG" but that's not actually used anymore, as now everything in Unity is HLSL. Other bits come from having three different rendering backends, all of which work differently with shaders. Finally Unity also has a special format for `.shader` files for something called "ShaderLab" which actually is used along side your HLSL source to make writing complex shaders easier. Yes, it's confusing.
+
+If you look at tab "4 - Running" here, there's more information on this.
+
+**Types?**
+
+*The Book* focuses entirely on Fragment Shaders - the ones that pick what color a given pixel should be. However, there are other kinds. Vertex Shaders allow you to move the vertices of a 3D object to change it's shape. Geometry and Tessellation shaders allow for interesting performance optimizations (Though are very rarely used by artists), and Compute Shaders allow for using the graphics card to do massively parallel math that would otherwise be impractical to do on the CPU - though with the limitations imposed from using the GPU. Compute Shaders can be written in HLSL, but the concept is applicable more broadly and so there are other, more purpose built languages for the task such as OpenCL and CUDA as well. See the GpGPU section near the bottom of this page for more information.
 
 {{< /tab >}}
 
 {{< tab "2 - Hello World!" >}}
 
-* Syntax Highlighting?
-* These names aren't totally standard
+{{< tip >}}Again, I'm writing this assuming you're following along with {{< best >}} [The Book Of Shaders](https://thebookofshaders.com){{< /best >}}{{< /tip >}}
+
+As you use the web editor, you'll notice that you have syntax highlighting. That is, the important words appear in different colors. If you want to be able to edit code with this yourself, you may want to use [VS Code](https://code.visualstudio.com) and grab [Shader Languages Support for VS Code](https://marketplace.visualstudio.com/items?itemName=slevesque.shader). 
+
+I also want to note that some of the names used in *The Book* aren't totally standard. Most notably, it seems every platform calls their uniforms something else, so if you go to write shaders for Unity or Unreal or something the names won't be the same - for example, while *The Book* uses `u_time`, Unity's equivalent would be `_Time` and [is actually a Float4](https://docs.unity3d.com/Manual/SL-UnityShaderVariables.html) as the components of it contain different divisions and multiples of the global time.
 
 {{< /tab >}}
 
 {{< tab "3 - Uniforms" >}}
 
-* Other uniforms, in Unity, Shadertoy, etc.
-* Full list of functions
+This chapter is fine, but I do want to stress a point made in the very first paragraph
+
+"...we need to be able to send some inputs from the CPU to all the threads..."
+
+So while the book goes on to regularly use some of these like `u_time`, it's worth noting that in a different environment you may well want to send in your own uniforms that do something not built in. For example, while Unity [has many built in](https://docs.unity3d.com/Manual/SL-UnityShaderVariables.html), you may want to add one that simply holds the player's health amount. This is something you can do! Obviously, the specifics of *how* to do this vary from engine to engine though, and there is some overhead associated...
+
+... Also, as the name implies, it's uniform, so every thread does see the same value.
 
 {{< /tab >}}
 
@@ -61,7 +77,7 @@ This is where some of the confusion begins:
 
 While the book goes into ways to run the code written there elsewhere, I think it misses the mark for most people who are interested in using shaders for game development. If that's you, you're *probably* wanting to write shaders for Unity, Unreal, or Godot. In both cases, you may actually want to start by trying out visual shader programming, espically if you're not used to code. **However,** I do reccomend coming back to code at some point as the visual editors are usually both limited and generate kinda slow code.
 
-If you're using Unity, you'll want to use the built in [Shader Graph](https://unity.com/features/shader-graph) if you're using either the Scriptable Render Pipelines (SRP)  ( so the High Defintion Render Pipeline (HDRP) or .Universal Render Pipeline (URP)) Unfortunately, it doesn't work with the Built-In render pipeline (yes, it's confusing) - though you can use the $80 [Amplify Shader Editor](https://assetstore.unity.com/packages/tools/visual-scripting/amplify-shader-editor-68570) for Built-In. If you're doing development for VR chat, this is probably your best bet unless you want to jump right into code - which is fine! You can do it!
+If you're using Unity, you'll want to use the built in [Shader Graph](https://unity.com/features/shader-graph) if you're using either the Scriptable Render Pipelines (SRP)  ( so the High Definition Render Pipeline (HDRP) or .Universal Render Pipeline (URP)) Unfortunately, it doesn't work with the Built-In render pipeline (yes, it's confusing) - though you can use the $80 [Amplify Shader Editor](https://assetstore.unity.com/packages/tools/visual-scripting/amplify-shader-editor-68570) for Built-In. If you're doing development for VR chat, this is probably your best bet unless you want to jump right into code - which is fine! You can do it!
 
 If you're using Unreal [TODO]
 
@@ -118,9 +134,11 @@ While the RGB and HSB colorspaces mentioned on the color page of The Book of Sha
 
 {{< tab "7 - Shapes" >}}
 
+While being able to draw shapes directly in your shader is extremely useful, it's also not always the best way to do things. I fear this page in *The Book* puts some people off from writing shaders as it looks overly complicated to draw anything cool - it's not. If you want to draw anything complex, it's normal to just use a texture. For example, if you want to draw a star, you could just make a picture with a black background, a white star, and *maybe some gray pixels on the edge to [anti-alias](https://en.wikipedia.org/wiki/Spatial_anti-aliasing) a bit then you can load this texture in and simply multiply it with your existing shader. Effectively, using the picture as a mask. We'll get to actually doing this later, but I did want to point out that, no, complex shaders aren't all just using crazy functions to draw things like high schoolers with [time to waste and a graphing calculator](http://www.talljerome.com/NOLA/images/ti/grapherpics2.pdf).
+
 {{< /tab >}}
 
-{{< tab "8 - Matricies" >}}
+{{< tab "8 - Matrices" >}}
 
 This chapter is probably the first that will have math that makes you go "WTF?", espically if math with matricies and/or programming are new to you in the first place. While ideally you'd understand the math, it's not honestly a big deal if you don't. That said I think this chapter also just sort of fails to explain the rationaile behing rotation. If we look at the rotation matrix:
 
@@ -157,6 +175,11 @@ This chapter does go into YUV colorspace, see tab 6 for more about color.
 
 {{< tab "9 - Patterns" >}}
 
+This chapter is pretty to the point, just a few things to add:
+
+* If you scale rather small and have two things very similar in frequency, it's quite easy to accidentally wind up with a [Moiré pattern (Wikipedia)](https://en.wikipedia.org/wiki/Moir%C3%A9_pattern). You may be able to use this to your advantage.
+* Patterns don't have to do the same thing on every tile, you can get [really](https://www.shadertoy.com/view/7tscWs) [interesting](https://www.shadertoy.com/view/7sSfWK) [results](https://www.shadertoy.com/view/ltSczW) by doing different things in each division.
+
 {{< /tab >}}
 
 {{< /tabs >}}
@@ -167,19 +190,39 @@ This chapter does go into YUV colorspace, see tab 6 for more about color.
 
 {{< tabs "Generative Designs ">}}
 
-{{< tab "10 - Random" >}}
+{{< tab "10 & 11 - Random & Noise" >}}
+
+Clearly, from reading this chapter, `random()` in shaders is going to be deterministic. This, honestly, is pretty helpful more often than not, as it helps avoid the problems of not knowing the value of the pixel next to us- we can just look at the `-1` or `+1` index as is shown on *The Book*'s noise page for doing a bit of a blur. Still, you should know the limitations here, as it can lead to very obvious repeating patterns, as you should have noticed if you did the exercises on the page.
+
+There are odd ways around the determinism using uniforms, but regardless, it's not really a big deal. The bigger problem is that it's actually just... kinda a bad random? Like, it's not [uniform](https://en.wikipedia.org/wiki/Discrete_uniform_distribution) or [normal](https://en.wikipedia.org/wiki/Normal_distribution). This is a big part of why you can easily see the banding in the random function as you scale it. This is especially annoying for compute shaders, as there's quite a few algorithms that rely on having good, pseudo random numbers. There's ways around this, but if you need them I believe in your ability to search the web. 
 
 {{< /tab >}}
 
-{{< tab "11 - Noise" >}}
+{{< tab "12 - Cellular Noise" >}}
 
-{{< /tab >}}
+Not much to add here, but you might want to look at some of these pages:
 
-{{< tab "12 - Cellular" >}}
+[Voronoi Diagram (Wikipedia)](https://en.wikipedia.org/wiki/Voronoi_diagram)
+
+[Worsely Noise (Wikipedia)](https://en.wikipedia.org/wiki/Worley_noise)
+
+[Wavelet Noise (Pixar - PDF)](https://graphics.pixar.com/library/WaveletNoise/paper.pdf)
+
+and, mildly related:
+
+[Quadtree (Wikipedia)](https://en.wikipedia.org/wiki/Quadtree)
+
+Also, you should know the patent on Simplex noise recent expired, so go nuts if you want to use that.
 
 {{< /tab >}}
 
 {{< tab "13 - Brownian" >}}
+
+You may want to look at:
+
+[Brownian Surface (Wikipedia)](https://en.wikipedia.org/wiki/Brownian_surface)
+
+While brownian motion is cool, for similar effects you'll also probably want to dive into fractals.
 
 {{< /tab >}}
 
@@ -193,11 +236,23 @@ This chapter does go into YUV colorspace, see tab 6 for more about color.
 
 ## Beyond The Book
 
-At the time of writing, *The Book of Shaders* ends at *Chapter 13 - Fractional Brownian Motion*. Continuting where the book leaves off, I'd like to round out generative design by talking about fractals and simulation:
+At the time of writing, *The Book of Shaders* ends at *Chapter 13 - Fractional Brownian Motion*. Continuing where the book leaves off, I'd like to round out generative design by talking about fractals and simulation:
 
 ## Generative
 
 ### Fractals
+
+[TODO] https://www.youtube.com/watch?v=WWI07UQbJ9E, https://www.youtube.com/watch?v=SVj0LWmQD-E,
+
+https://www.youtube.com/watch?v=kY7liQVPQSc, https://www.youtube.com/watch?v=zmWkhlocBRY
+
+https://shawnhargreaves.com/blog/technicolor-julias.html
+
+
+
+++ Logistic Map
+
+https://www.shadertoy.com/view/ltyXD1
 
 ### Simulation
 
@@ -215,7 +270,15 @@ Diffusion
 
 ## Textures & Filters
 
+[TODO]
 
+### Aliasing & Dithering
+
+[TODO]
+
+### Feedback
+
+[TODO] using textures to read old data
 
 ## 3D Graphics
 
@@ -241,7 +304,17 @@ If you're working in Unity, you might want to grab [UVee](https://assetstore.uni
 
 ### Lighting & Shading
 
+Making realistic, performant lighting systems is complicated. It's even arguable that providing this out of the box is one of the biggest selling points of modern, good looking engines like Unreal. However, while difficult, it's not black magic - [There's even a free online book to learn how to do it.](https://www.pbr-book.org/3ed-2018/contents)
+
+However, wanting to remaking a Physically Based Rendering (PBR) lighting setup like that from scratch implies that you're already probably doing some pretty crazy things. So, outside of that there's really two "sane" ways to do lighting. 
+
+The actually-reasonable-to-use method is to use a pretty basic system with a direct, diffused light, ambient light, and specular highlight. Programming this up is relatively straight forward- This 5hr  video, [Intro to Shader Coding in Unity (Freya Holmer, YouTube)](https://www.youtube.com/watch?v=9WW5-0N1DsI) , actually does a really good job of going over this and explaining each step. Coding it live as she goes along.
+
+The other cool-but-to-slow-to-use method is to do ray tracing. This is actually easier than it sounds, though, the performance is typically garbage. [This post from Three Eyed Games](http://three-eyed-games.com/2018/05/03/gpu-ray-tracing-in-unity-part-1/) has a nice walk through of building one in Unity.
+
 ### Bump and Normal Maps
+
+[TODO]
 
 Hard vs Soft normals on vertex edges are a thing.
 
@@ -253,15 +326,35 @@ Usually, you'll have a normal map from whatever material / texture painting soft
 
 ### Kernel Convolution
 
+[TODO]
+
 ### Filtering
+
+[TODO]
 
 ### Clipspace, Worldspace, ...?
 
+So you'll often see terms like Clip Space, World Space, Object Space, Screen Space, and View Space thrown around and often as if you magically already know what they mean. This was driving me nuts until I read [Coordinate Systems](https://learnopengl.com/Getting-started/Coordinate-Systems) page on learnopengl.com, and [Coordinate Spaces and Transformations Between Them](https://www.codinblack.com/coordinate-spaces-and-transformations-between-them/) from codinBlack
+
+As a TL;DR:
+
+* Object Space → **3D** Coordinates are relative to your model
+* World Space → **3D** Coordinates are global, from the entire world
+* View Space → **3D** Coordinates depend on camera position and rotation (probably the player)
+* Clip Space → **4D**; Messy because of dealing with a "Projection Matrix", but generally this determines what verticies will be discarded because they're off screen. This also winds up being a PITA as there's a difference between the OpenGL and Direct3D standard
+* Screen Space → **2D** coordinate space that actually represents the screen's pixels. *Usually*, you won't have direct control over this.
+
+* UV Space → **2D** coordinates mapping points in a texture to the object. Weird to think of in terms of "space", so usually talked about separaetly.
+
 ### Culling, Z-test
 
+The [Unity Manual Page](https://docs.unity3d.com/2020.1/Documentation/Manual/SL-CullAndDepth.html) for culling and depth testing explains things very well. The only thing I want to add here is that you should be aware of a problem called [Z-fighting](https://en.wikipedia.org/wiki/Z-fighting) which can happen when two faces of an object are in the same plane. Basically, imagine you have two cubes, both the same size and the same shape but different colors. Which one should your computer try to render? The answer is both, and it will look awful. The easiest fix is to just never have two objects have faces that occupy the same plane.
+
+### Vertex Shaders?
+
+[TODO]
+
 ## Performance
-
-
 
 > In HLSL and Cg a ternary operator will never lead to branching. Instead both possible results are always evaluated and the not used one is being discarded. To quote the HLSL documentation:
 >
