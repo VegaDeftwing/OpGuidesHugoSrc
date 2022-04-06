@@ -182,7 +182,9 @@ Now, let's look at that MPU GY-521 Gyroscope/Accelerometer
 
 So, that's i2c, which is nice, but sometimes you'll want to talk to a device with *full duplex* communication. "*Full duplex*?" I hear you ask. Well, While {{< katex >}}\text{I}^2 \text{C}{{< /katex >}} is a great protocol and is easy to use, it's also only *half duplex* this means that, like a radio, only one side can talk at a time. *Full duplex* communication methods let both sides talk at once. While in a phone call this might be chaotic, there's often times where it's helpful to be able to send data to a device while we get data from it- for example, when working with that ethernet adapter I said we'd be using above. For ethernet, this is often necessary, as with TCP, a networking protocol I'll dive into in the programming chapter, you need to repeated send replies saying "Yep, I got what you last sent, keep em' coming" while still listening for more data.
 
-[TODO] SPI Ethernet
+[TODO] SPI Ethernet or SPI flash?
+
+* SPI has four modes, depending on CPOL and CPHA
 
 [TODO] mention UART & CAN bus
 
@@ -190,15 +192,37 @@ So, that's i2c, which is nice, but sometimes you'll want to talk to a device wit
 
 ## Project 1 - Calculator
 
-[TODO] diode matrix inputs, LED matrix outputs (7-seg), beeper, 
+[TODO] diode matrix inputs, LED matrix outputs (7-seg), beeper, what's a memory mapped register, bit-fields, structs, basic polling, no return from main, ever.
 
 ## Project 2 - MIDI Controller
 
-[TODO] Gyro + photo-resistor + a few knobs & buttons
+[TODO] Gyro + photo-resistor + a few knobs & buttons, interupts
 
 ## Project 3 - ADC to the DAC
 
-[TODO] ADC → μC →DAC , floating point
+[TODO] ADC → μC →DAC , floating point, DMA?
+
+Depending on the board you're using (not the Arduino Uno) you may have a/multiple **D**igital to **A**nalog **C**onverter(s) (DAC), as well as **A**nalog to **D**igital **C**onverters (ADCs) which... do what you think. ADCs let you take an analog signal in - like the output of a guitar or the voltage as you turn a knob. DACs let you output a signal (like audio). Assuming you have enough computational horse power and the DACs and ADCs on board are good enough, the combonation of these could let you do everything from a guitar pedal to making your own radio (On top of just being able to read knob positions)
+
+Unfortunately, DACs and ADCs are complicated and you really should know a lot about them as they're used a lot, so, without further-a-deux:
+
+> More about DACs than you probably need to know:
+>
+> * Nyquist Rate vs Oversampling DACs
+> * Decoder-based, Binary weigthed, Thermometer code, & hybrid
+> * Monotonictity & Linearity ; Integral & Derivatiove Nonlinearity (INL/DNL)
+
+Some DACs & ADCs also allow for **D**irect **M**emory **A**ccess (DMA). A DAC with DMA, for example, will let you write samples to a buffer and at a defined rate spit them back out without CPU intervention. This allows for dramatically more complicated processing as you no longer need to consistently get a new sample to the DAC before the next deadline (often this would need done 48,000 times a second!) Basically DMA let's you offload some processing from the CPU. Problem? Now you need to write memory that something else is trying to access. So, how do we fix this? Well, there's a pretty easy solution:
+
+A ping pong buffer.
+
+Essentially, we can just alternate back and forth between the DMA device "owning" half of the memory and the CPU owning half, alterating who get's what half every time the DMA indicates that it ran out of samples.
+
+{{< hint info >}}
+
+Note, here I'm talking about DMA as if they only apply to DACs and ADCs; however, they can be used for *many* other things. Commonly, this includes networking and writing to displays, though there are *many* other times they're useful. So, keep this in mind.
+
+{{< /hint >}}
 
 ## Project 4 - LEDs... again?
 
@@ -228,6 +252,15 @@ RIOT-OS, MBED, etc
 
 talk about scheduling (CFS, etc)
 
+## Intrisinc Operations & ASM
+
+Your **I**nstruction **S**et **A**rchitecture (ISA)
+
+* different opearations may take a different number of instructions
+* Pipelining may make this hard to predict, espically with interupts
+
+## Project 7: ASM Blink
+
 ## Other weird and cool projects:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">a lot of people have been mocking this video but having tried it, I can confirm this is actually the most reliable way to fake keyboard events on windows 10. <a href="https://t.co/kTz5a6YlTI">https://t.co/kTz5a6YlTI</a></p>&mdash; foone (@Foone) <a href="https://twitter.com/Foone/status/1247233159596367883?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -237,6 +270,16 @@ talk about scheduling (CFS, etc)
 ["The Simplest of Pseudo Random Number Generators" - Hackaday](https://hackaday.com/2019/04/23/the-simplest-of-pseudo-random-number-generators/)
 
 [Reverse Engineering an Unknown Microcontroller (Dmitry.GR)](https://dmitry.gr/?r=05.Projects&proj=30.%20Reverse%20Engineering%20an%20Unknown%20Microcontroller)
+
+
+
+---
+
+
+
+
+
+
 
 # Chapter 14.1 - Embedded Hardware comparison
 
