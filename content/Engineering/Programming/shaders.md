@@ -208,6 +208,8 @@ Not much to add here, but you might want to look at some of these pages:
 
 [Wavelet Noise (Pixar - PDF)](https://graphics.pixar.com/library/WaveletNoise/paper.pdf)
 
+[Prime Gradiant Noise (Taylor, Sharpe, Peethambaran - PDF)](https://link.springer.com/content/pdf/10.1007/s41095-021-0206-z.pdf)
+
 and, mildly related:
 
 [Quadtree (Wikipedia)](https://en.wikipedia.org/wiki/Quadtree)
@@ -254,6 +256,8 @@ https://shawnhargreaves.com/blog/technicolor-julias.html
 
 https://www.shadertoy.com/view/ltyXD1
 
+[Fractal Coordinates for Incremental Procedural Content Generation (Peter Mawhorter - PDF)](https://dl.acm.org/doi/pdf/10.1145/3472538.3472576)
+
 ### Simulation
 
 #### Cellular Automata & Bit manipulation
@@ -279,6 +283,12 @@ Diffusion
 ### Feedback
 
 [TODO] using textures to read old data
+
+### Convolution
+
+[TODO]
+
+https://www.taylorpetrick.com/blog/post/convolution-part1
 
 ## 3D Graphics
 
