@@ -62,9 +62,40 @@ Frankly, I think that sums it up pretty well, and truth be told I don't think I 
 
 ## Gender, LGBT, & the term Queer
 
+The 'Hacking' community in particular is usually very clear on sexual liberation/freedoms and given that technically minded people tend to have statistically significantly higher amounts of LGBTQIA+ people, it's relevant to mention. In order to really understand this, it is best to understand the way that labels are used within this community.
+
+To begin, labels are often more or less vague, depending upon their purpose. In general, different kinds of labels support the different kinds of communities and sub-communities, based on their function of [bridging and bonding](https://journals.sagepub.com/doi/10.1177/1081180X0200700301).
+
+In sociology, bridging refers to building a community based on different kinds of people who share a common interest. In this case, the interest is a social interest in rights, respect, acceptance, and so forth. On the other hand, bonding refers to building communities of similar people that are closer knit, based on shared experiences.
+
+The term "queer" is extremely vague, and intentionally so. No one can define exactly what it means, and many people who call themselves queer mean different things by it. This is fine, because it is a term designed for bridging.
+
+As a strong example, the academic discipline to investigate these issues commonly called Queer Theory. A definition:
+
+> Politically, Queer Theory may described as the theoretical wing of the gay and lesbian liberation/civil rights struggle, a struggle which comprehends more than just the sphere of sexuality. Queer Theory argues that there is beauty, power, and truth, even magic where dominant culture and its authorized language posit only ugliness, impotence and falsehood. Queer Theory's emphatic pluralizing of sexuality resists the normative dualistic economy that limits erotic activity and coerces identity into deadening confines.
+{{< attribution >}}Frederick L. Greene, "Introducing Queer Theory into the Undergraduate Classroom: Abstraction and Practical Applications", *English Education*, Vol 28, No. 4 (Dec 1996), pgs. 325-339, via [Lindsay Ellis](https://youtu.be/btbAxY6P3Oc){{< /attribution >}}
+
+This is extremely broad. It not only includes many issues of identity traditionally thought of as LGBTQIA+, but even includes experiences of some straight-identified cisgender people (e.g. what are the boundaries of masculinity or femininity).
+
+It is a perspective which can be used to analyze media or society, or even for personal self-reflection. Its increasing presence in western culture may even be partly responsible for [an increase in Americans who don't identify as straight in Gen Z, even compared to Millennials](https://news.gallup.com/poll/389792/lgbt-identification-ticks-up.aspx). (Of course there are several other explanations as well.)
+
+If you want a more specific bridging term, this is where you get to the "umbrella" letters of LGBTQIA+. Lesbian, Gay, Transgender, etc., are all terms that are mostly about bringing together socially different people (race, class, etc) based on common interest.
+
+However, they are also partially bonding terms. They are used to categorize shared experiences, and develop them into a subculture (or several). Hence the rise of the *drag race*, the *leather bar*, and so forth. These operate within the "edges" of these broader terms.
+
+Then there is another set of terms that are even more concrete, and almost purely for bonding. These are known as [*microlabels*](https://lgbtqia.fandom.com/wiki/Microlabel). These terms operate mostly within a single community, and help build shared experience and understanding through extension of language.
+
+Some examples include:
+
+* Quioromantic: a term within the asexual sub-community, which contains subtext around not having a romantic orientation
+* Galactian Alignment: a set of terms within parts of the non-binary sub-community, which are used to communicate aspects of gender without being restricted to common terms and their baggage
+* Transmedicalist: a (frequently negative) term within the transgender sub-community, which describes a belief in where that community's boundaries should be
+
+While those ignorant and bigoted may call this "inventing words to feel special", it is really inventing words for the same reason words are always invented: to improve communication between people, especially virtually. The breadth of being queer above (again, including lots of straight things!) also means there is a lot of unexplored space as people try to understand themselves.
+
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/5Hi6j2UXEZM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The 'Hacking' community in particular is usually very clear on sexual liberation/freedoms and given that technically minded people tend to have statistically significantly higher amounts of LGBTQIA+ people, it's relevant to mention. I don't want to go in depth or be your source of sex education, but I do think skipping over this would be doing the community some injustice. As such I'd also like to link to some videos providing sexual education, [The truth about unwanted arousal | Emily Nagoski , YouTube](https://www.youtube.com/watch?v=L-q-tSHo9Ho&list=FLFMnqfaTa1se1LfbCB3peJQ&index=103&t=0s)
+I don't want to go in depth or be your source of sex education, but I do think skipping over this would be doing the community some injustice. As such I'd also like to link to some videos providing sexual education, [The truth about unwanted arousal | Emily Nagoski , YouTube](https://www.youtube.com/watch?v=L-q-tSHo9Ho&list=FLFMnqfaTa1se1LfbCB3peJQ&index=103&t=0s)
 
 ![Trans-Istor](/phil/transistor.png)
 
