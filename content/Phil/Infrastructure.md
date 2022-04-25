@@ -6,8 +6,6 @@ slug: "Infrastructure"
 
 # Infrastructure
 
-[College Campuses Are Designed at Human-Scale. Our Cities Can Be Too. (StrongTowns.org)](https://www.strongtowns.org/journal/2021/1/6/college-campuses-as-a-model-for-urban-planning)
-
 ### Power
 
 [Gravity-based batteries try to beat their chemical cousins with winches, weights, and mine shafts](https://www.sciencemag.org/news/2021/04/gravity-based-batteries-try-beat-their-chemical-cousins-winches-weights-and-mine-shafts)
@@ -42,3 +40,8 @@ Where you're born determines if you have access to even basic needs
 
 {{< /attribution >}}
 
+## Human-Centric design
+
+[Patina and Intimacy (The Map is Mostly Water)](https://simonsarris.substack.com/p/patina-and-intimacy?s=r)
+
+[College Campuses Are Designed at Human-Scale. Our Cities Can Be Too. (StrongTowns.org)](https://www.strongtowns.org/journal/2021/1/6/college-campuses-as-a-model-for-urban-planning)

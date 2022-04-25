@@ -9,6 +9,8 @@
 * Make it repairable
 * Know when to do a PCB or a Perma-Proto
 * Assuming parts will only be available for so long
+* Do not assume same package = same pinout
+* Do not assume a sane pinout, even in a device family. The tab can be anything!
 
 First things first, we're going to be using Kicad, so you'll want to go grab that from the repos. While that's downloading and installing give this a watch to get the basics down:
 
@@ -752,7 +754,7 @@ https://hackaday.com/2021/11/08/heavy-copper-pcb-hack-chat/
 
 
 
-# Chapter 26.2 - PCB 'Badges'
+# Chapter 26.2 - Pretty Boards & Badges
 
 ![badges](/eng/badges.webp)
 
@@ -772,3 +774,4 @@ Source: @AkioOhtori on Twitter
 
 https://github.com/badgeek/svg2shenzhen
 
+https://mitxela.com/projects/melting_kicad

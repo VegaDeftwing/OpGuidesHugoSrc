@@ -263,7 +263,7 @@ The CPU is on a square or rectangular board that is usually covered by a large h
 
 ## Numa Nodes? Chiplets? Die Yield?
 
-[TODO] + CCX Groups and pinning processes to cores
+[TODO] + CCX Groups and pinning processes to cores - https://github.com/AdelKS/LinuxGamingGuide
 
 ## Branch Prediction & Pipelining
 
@@ -309,6 +309,8 @@ In the blurb under the CPU picture I mentioned both SOCs and Microcontrollers [T
 ## A note on x86, vendors, and CPU politics
 
 [TODO]
+
+[Intel took an AMD Zen microarchitecture presentation and turned it into a patent](https://twitter.com/Underfox3/status/1511697355145367564)
 
 china trying to make their own silicon , apple to own SOC ([Called it](https://www.reddit.com/r/assholedesign/comments/gq2nfu/adobe_slaps_you_with_an_early_cancellation_fee/frsvjxi?utm_source=share&utm_medium=web2x&context=3)), etc.
 

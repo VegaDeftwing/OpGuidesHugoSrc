@@ -1,6 +1,8 @@
 # Chapter 5½ - Git.
 
-> ... Despite the chapter name, git isn't just a Linux thing - it's actually more of a programming thing, but you'll still probably want to use it for storing your configuration files for Linux, which is why it's here.
+... Despite the chapter name, `git` isn't just a Linux thing - it's actually more of a programming thing, but you'll still probably want to use it for storing your configuration files for Linux, and it's worth learning *before* you really get into programming, which is why it's here. So, uh, what's `git`? 
+
+The ELI5 of it is that it's a **Version Control System**, which really just means it can give you the eqivilent of save states on your files, like in a video game- and just like a video game, you can save (or go back to previous save) and have two different **branches** where you make a different decesion in each. The only big point where this analogy breaks down is that you can **merge** two branches, resolving conflicts between them and that two different people can work on two different branches for them to be merged together. Rather than reivent the wheel trying to teach you the basics, you should go read
 
 <style>
     .cool{
@@ -9,9 +11,6 @@
     }
 </style>
 
-
-
-![](/common/arrow.svg)
 
 {{< best >}} [./missing-semester - Version Control](https://missing.csail.mit.edu/2020/version-control/) {{< /best >}}
 

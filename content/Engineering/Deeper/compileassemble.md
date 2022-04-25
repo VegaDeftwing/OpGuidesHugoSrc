@@ -93,3 +93,8 @@ At this point I highly recommend '[The Art of Exploitation](https://nostarch.com
 
 [Malloc Geiger (Github)](https://github.com/laserallan/malloc_geiger)
 
+[Movfuscator](https://github.com/xoreaxeaxeax/movfuscator)
+
+[Witchcraft Compiler Collection](https://github.com/endrazine/wcc)
+
+[Crinkle ](https://github.com/runestubbe/Crinkler)- "an executable file compressor (or rather, a compressing linker) for Windows for compressing small demoscene executables. As of 2020, it is the most widely used tool for compressing 1k/4k/8k intros."

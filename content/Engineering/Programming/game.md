@@ -16,6 +16,8 @@ https://www.riotgames.com/en/urf-academy/curriculum-guide
 
 [Luxe](https://luxeengine.com)
 
+[Heaps](https://heaps.io/index.html)
+
 *fine. I'll mention Unity and Unreal, but, like, I hate that the two make up such a huge chunk of the market*
 
 [Unreal Engine](https://www.unrealengine.com/en-US/)

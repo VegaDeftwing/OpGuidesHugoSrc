@@ -54,6 +54,10 @@ http://ajaxsoundstudio.com/software/pyo/
 
 
 
+I'd like to show DSP with VCV rack as much as I can, but dev sucks without debug, so this helps:
+
+https://medium.com/@tonetechnician/how-to-setup-your-windows-vs-code-environment-for-vcv-rack-plugin-development-and-debugging-6e76c5a5f115
+
 ---
 
 [TODO] Discrete time? Nyquist? Z transform(quick review of sig & sys)

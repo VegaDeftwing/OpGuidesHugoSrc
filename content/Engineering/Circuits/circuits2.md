@@ -147,6 +147,16 @@ potato semi
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/7FYHt5XviKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### These things aren't actually ideal!
+
+* Not all OpAmps are rail-to-rail, meaning if you give them -12 and +12 V rails, you may only be able to hit -10 and +10 or so.
+* OpAmps **really** need clean power. If you don't put a small cap to filter the power right at the OpAmps VCC and Gnd pins, expect noise.
+* There will almost certainly be at least a little bit of DC shift in the output
+* You do not actually have infinite gain
+* You do not have infinite bandwidth
+* They do not actually have infinite input resistance, it's just really high.
+* ... See [Real op amps, non-ideal aspects (Iowa State University : EE 230, PDF)](http://tuttle.merc.iastate.edu/ee230/topics/op_amps/non_Ideal_op_amp.pdf)
+
 ## Optical Electronics
 
 [TODO]
@@ -205,7 +215,17 @@ add motors, analog meters, various connection standards, radio, flex/pressure se
 
 Relate back to things like ADSR, Distortion, Reverb / Echo, Decibels (audio), etc. Use VCV RACK
 
-# Chapter 23.3 - Safe Circuits
+# Chapter 23.3 - Displays
+
+Ther are many [Reasons to Question Seven Segment Displays (Harold Thimbleby)](https://sci-hub.se/10.1145/2470654.2466190), espically today, as using *literally anything else* has gotten significantly easier. 
+
+[TODO] Eink, OLED, TFT, etc.
+
+[Russian nixie, VFD and numitron overview (Just another electronics blog)](https://justanotherelectronicsblog.com/?p=228)
+
+Also, you may want to be able to update your display quickly, so keep in mind if your controller/device has either a native video output, or at least [DMA that you can abuse (Just another electronics blog)](https://justanotherelectronicsblog.com/?p=201).
+
+# Chapter 23.4 - Safe Circuits
 
 {{< best >}} [10 Ways to Destroy an Arduino (Rugged Circuits)](https://www.rugged-circuits.com/10-ways-to-destroy-an-arduino) {{< /best >}}
 
@@ -217,7 +237,7 @@ Relate back to things like ADSR, Distortion, Reverb / Echo, Decibels (audio), et
 
 TODO: Efuses
 
-# Chapter 23.4 - Parts & Tools you'll want to be aware exist
+# Chapter 23.5 - Parts & Tools you'll want to be aware exist
 
 ## Tools
 
@@ -239,8 +259,9 @@ TODO: Efuses
 * Ferrite beads
 * Thermocouples
 * Spark Gaps
+* [Filter ICs](https://www.electro-smith.com/parts/2144)
 
-# Chapter 23.5 - Rare and Dangerous Componets
+# Chapter 23.6 - Rare and Dangerous Componets
 
 * Dangerous
   * Tesla coils

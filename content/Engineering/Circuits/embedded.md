@@ -303,3 +303,6 @@ I **really** want to make this clear: Arduino is a framework. Not a specific har
 
 [Getting Started in Robotics (Arthur Allshire's Blog)](https://allshire.org/getting-started-robotics/)
 
+# 14.2 - Projects I reccomend
+
+* Handwiring a keyboard: https://docs.qmk.fm/#/hand_wire?id=hand-wiring-guide

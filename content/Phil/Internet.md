@@ -8,20 +8,13 @@ slug: "Phil and The Internet"
 
 <div style="background: #111; border: solid red; width: 100%;">
 
-The fight for the Internet is never ending. At the time of writing, Senate Majority Leader Mitch McConnell tried to tie anti §230 legislation to the $2000 stimulus checks, and my own Congress Critter, Ben Sasse (R,Nebraska), along with Jeff Merkley (D,Oregon) are trying to push though **SISEA - the Stop Internet Sexual Exploitation Act**, which on paper sounds like it's doing good to stop the possibility of revenge porn. Unfortunately, they want to do this by **requiring that all people in porn expressly give the site written consent with identity verification**. This is exceedingly stupid for a variety of reasons: 
-
-* This is essentially a restriction on free speech as it makes it illegal for sites to host content that users would very likely *want* to be able to publish anonymously.
-* It puts established sex workers at risk, as ~~if~~ when a site gets hacked as it's inevitable, that information could be used for a huge variety of horrors. 
-* It also seeks to add a 24/7 support line to report content, and limits content in violation to be taken down in under 2 hours. This will be *huge* burden for legitimate sites, and encourage users to go to much darker corners of the internet where content is freely updated, but where the sites have no incentive to comply with laws that are sensible for protecting minors or other vulnerable people.
-* It super-ultra fucks undocumented sex workers
-
-The fact that they can claim "oh lookie it's bipartisan!" is really just them trying to sneak a fucking porn ban though. Fuck that.
+The fight for the Internet is never ending. At the time of writing, [Senators want to mandate anti-piracy technology across the web (ArsTechnica)](https://arstechnica.com/tech-policy/2022/04/if-you-like-youtubes-copyright-takedown-process-youll-love-this-bill/).
 
 Please call and write your congress critters, and let them know this is some stupid bullshit. Then ask your friends to do so as well. 
 
 You can use [Find My Representative (house.gov)](https://www.house.gov/representatives/find-your-representative) if you need to look up who represents you.
 
-If you're outside the US, this will still very likely affect you. Hell, PornHub is a Canadian site, but they'll still likely have to comply, so please still spread the message.
+Even if you're outside the US, this will still very likely affect you.
 
 </div>
 

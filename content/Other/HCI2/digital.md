@@ -60,7 +60,22 @@ Google also needs to quit their shit with information cards:
 
 <blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/FPQnLW60Vt">pic.twitter.com/FPQnLW60Vt</a></p>— Randall Munroe (@xkcd) <a href="https://twitter.com/xkcd/status/1333621855001976832?ref_src=twsrc%5Etfw">December 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-And it'd be great if something could actually be done about big sites like [Pinterest and Quora gaming Google](https://www.inputmag.com/culture/pinterest-sucks-google-image-photo-search-ruining-internet) 
+And it'd be great if something could actually be done about big sites like [Pinterest and Quora gaming Google](https://www.inputmag.com/culture/pinterest-sucks-google-image-photo-search-ruining-internet).
+
+There is some progress being made here, as [Google Says AI Generated Content Is Against Guidelines](https://www.searchenginejournal.com/google-says-ai-generated-content-is-against-guidelines/444916/); however, a user on Hacker News had an interesting take on this:
+
+{{< quote "[npunt](https://news.ycombinator.com/user?id=npunt) on Hacker News" >}}
+
+This internal tension between chasing AI tooling and avoiding AI-generated content is just a prelude to the bigger shift of search engines getting reinvented around generated results instead of found results.
+Fast forward 10+ years and for knowledge-related queries search is going to be more about generated results personalized to our level of understanding that at best quote pages, and more likely just reference them in footnotes as primary inputs.
+
+These knowledge-related queries are where most content farms, low quality blogs, and even many news sites get traffic from today. If the balance of power between offense (generating AI content) and defense (detecting AI content) continues to favor offense, there will be a strong incentive to just throw the whole thing out and go all-in on generated results.
+
+Big question is how incentives play out for the people gathering the knowledge about the world, which is the basis for generated results. Right now many/most make money with advertising, but so do content farms, and more generated results means more starving of that revenue source. For a portion of info that people want to know (e.g. factual info, not opinions, guidance, etc), Wikipedia is an alternative fact- and context-gathering model, but if search relies on it more, it will strain Wikipedia's governance model and become more of a single point of failure.
+
+Really interesting stuff ahead.
+
+{{< /quote >}}
 
 Finally, I do want to end on a positive note: [Google is trying to show why results are ranked how they are](https://searchengineland.com/google-now-shows-why-it-ranked-a-specific-search-result-350659), and that's actuallypretty cool - though it does still seem [that search results are getting worse, at least according to Hacker News users.](https://news.ycombinator.com/item?id=29392702) Fortunately, there are interesting search engines, both general purpose like [you.com](https://you.com) and more specific, like [lieu](https://lieu.cblgh.org) for searchinging the [XXIIVV webring](https://webring.xxiivv.com) or the data-orriented [WolframAlpha](https://www.wolframalpha.com). There's also the neat [Hypersearch](https://chrome.google.com/webstore/detail/hypersearch/feojagelicdlhnmldaiplbppfbolnnag) extension which does make google search at least a bit better. Speaking of, the author of Hypersearch has a great blog post on the subject: [If Google sucks then why is everyone still using it?](https://abhinavsharma.com/blog/google-alternatives)
 

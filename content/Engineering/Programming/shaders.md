@@ -216,6 +216,8 @@ and, mildly related:
 
 Also, you should know the patent on Simplex noise recent expired, so go nuts if you want to use that.
 
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Down to 190 characters! <a href="https://twitter.com/hashtag/%E3%81%A4%E3%81%B6%E3%82%84%E3%81%8DGLSL?src=hash&amp;ref_src=twsrc%5Etfw">#つぶやきGLSL</a><br><br>vec3 p=vec3(t/.1,cos(t+r)),d=r.x/(r.xxy-round(FC.zxy)*2.),a;for(;o.w++&lt;9e2&amp;&amp;snoise3D(a=ceil(p)/28.)+1.&gt;length(a.yz);p+=min(a=fract(-p*sign(d))*abs(d)+1e-4,min(a.y,a.z)).x/d);o.rgb=fwidth(p); <a href="https://t.co/odgQhI5Smw">pic.twitter.com/odgQhI5Smw</a></p>&mdash; Xor (@XorDev) <a href="https://twitter.com/XorDev/status/1505308218863632384?ref_src=twsrc%5Etfw">March 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 {{< /tab >}}
 
 {{< tab "13 - Brownian" >}}
@@ -243,6 +245,8 @@ At the time of writing, *The Book of Shaders* ends at *Chapter 13 - Fractional B
 ## Generative
 
 ### Fractals
+
+[What's so special about the Mandelbrot Set? - Numberphile](https://www.youtube.com/watch?v=FFftmWSzgmk)
 
 [TODO] https://www.youtube.com/watch?v=WWI07UQbJ9E, https://www.youtube.com/watch?v=SVj0LWmQD-E,
 

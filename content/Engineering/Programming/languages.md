@@ -6,7 +6,9 @@ for (🥚 = 1; 🥚 < 🐔; 🥚++){
 }
 ```
 
+Hello nerds,
 
+Before you get on my case, I know this isn't a complete list, so it's possible your favorite language isn't on it. Hell, a complete list can't even really exist. Still, there are a lot of cool languages I didn't put here, so if you're looking for some weird but not *incredibly weird* languages see [Awesome Programming Languages (GitHub)](https://github.com/ChessMax/awesome-programming-languages), though note even it doesn't include the obvious - like C and Java.
 
 [TODO] talk about to why there are so many, pros & cons per domain, etc
 
@@ -26,7 +28,7 @@ https://esoteric.codes
 
 ### Assembly
 
-Assembly code is specific to an [Instruction Set Architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture) or ISA, that means it is written for a specific family of processors. Most laptops and desktops today run on [x86_64](https://en.wikipedia.org/wiki/X86-64) processors made by either AMD or Intel, while most tablets and phones use processors that use [ARM](https://en.wikipedia.org/wiki/ARM_architecture). Of course, there are many, many other instruction sets than these two. For example, [6502](https://en.wikipedia.org/wiki/MOS_Technology_6502) assembly is particularly easy to write as it's from an era <a class="ptr">(1)</a> when programming at the assembly level was still common. On the other hand, [RISC-V](https://en.wikipedia.org/wiki/RISC-V) is a newer ISA that has been gaining a lot of traction due to it's open nature.
+Assembly code is specific to an [Instruction Set Architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture) or ISA, that means it is written for a specific family of processors. Most laptops and desktops today run on [x86_64](https://en.wikipedia.org/wiki/X86-64) processors made by either AMD or Intel, while most tablets and phones use processors that use [ARM](https://en.wikipedia.org/wiki/ARM_architecture). Of course, there are many, many other instruction sets than these two. For example, [6502](https://en.wikipedia.org/wiki/MOS_Technology_6502) assembly is particularly easy to write as it's from an era <a class="ptr">(1)</a> when programming at the assembly level was still common. On the other hand, [RISC-V](https://en.wikipedia.org/wiki/RISC-V) is a newer ISA that has been gaining a lot of traction due to it's open nature. Knowing ASM can allow you to do some black magic, like pushing out FizzBuzz at [57.2GiB/s](https://codegolf.stackexchange.com/questions/215216/high-throughput-fizz-buzz/236630#236630).
 
 #### x86 ASM:
 
@@ -278,9 +280,11 @@ If you must, you might want to check out Hack: https://hacklang.org/
 >
 > https://www.ruby-lang.org/en/
 
+### Scallop
 
+"Scallop is a neurosymbolic programming language, solver, and framework. Based on Datalog, it supports discrete, probabilistic, and differentiable modes of reasoning."
 
-
+Basically, it's really nice for AI/CV/probabiltic computations
 
 ## For the Skript Kidd3s
 
@@ -324,33 +328,42 @@ Just don't think you should use these to write efficient, safe code.
 
 ## Esolangs, the hole goes deeper
 
-https://en.wikipedia.org/wiki/Esoteric_programming_language
+{{< quote "[Wikipedia - Esoteric Programming Languages](https://en.wikipedia.org/wiki/Esoteric_programming_language)" >}}
 
-[Awesome Esolangs (Github)](https://github.com/angrykoala/awesome-esolangs)
+An esoteric programming language (sometimes shortened to esolang) is a programming language designed to test the boundaries of computer programming language design, as a proof of concept, as software art, as a hacking interface to another language (particularly functional programming or procedural programming languages), or as a joke.
 
-https://esolangs.org
+{{< /quote >}}
+
+---
 
 [Brainfuck Designer](https://antfs10.itch.io/brainfuck-designer)
 
-[Piet](https://www.dangermouse.net/esoteric/piet.html)
+As a quick tour of esolangs, here are some of my favorites:
+
+{{< columns >}}
+
+* [Piet](https://www.dangermouse.net/esoteric/piet.html)
 
 ![](/eng/piethw.png)
 
 > Hello World implimented in Piet ([Source](https://commons.wikimedia.org/wiki/File:Hello_world_piet.png))
 
-[Puddlelang](https://puddledockgames.itch.io/puddlelang)
+<--->
 
-[Blancmange](https://github.com/Welcome-To-Robins-Repo/blancmange)
+* [Puddlelang](https://puddledockgames.itch.io/puddlelang)
+* [Blancmange](https://github.com/Welcome-To-Robins-Repo/blancmange)
+* [RETURN](https://github.com/molarmanful/RETURN)
+* [Moonstroke - 3d](https://github.com/Moonstroke/3d/)
+* [Nandlang](https://github.com/Jellonator/Nandlang)
+* [bitman](https://github.com/molarmanful/bitman)
+* [SendStuff](https://esolangs.org/wiki/SendStuff) (unimplemented)
+* [PowerPoint is Turing Complete](https://www.andrew.cmu.edu/user/twildenh/PowerPointTM/Paper.pdf)
 
-[RETURN](https://github.com/molarmanful/RETURN)
+{{< /columns >}}
 
-[Moonstroke - 3d](https://github.com/Moonstroke/3d/)
+{{< columns3 >}}
 
-[Nandlang](https://github.com/Jellonator/Nandlang)
-
-[bitman](https://github.com/molarmanful/bitman)
-
-[Spiral](https://esolangs.org/wiki/Spiral)
+* [Spiral](https://esolangs.org/wiki/Spiral)
 
 ```
 0@v*v^*v^*v^*v^*v^*v^*v^*v^*v^*v^*v^*v^*v^*v^*v^*v
@@ -376,7 +389,9 @@ v
 
 > ROT13 implimented in Spiral
 
-[Tree](https://esolangs.org/wiki/Tree)
+<--->
+
+* [Tree](https://esolangs.org/wiki/Tree)
 
 ```
       ^
@@ -400,29 +415,29 @@ v
 
 > Hello World implimented in Tree
 
-[Ziim](https://esolangs.org/wiki/Ziim)
+{{< /columns3 >}}
+
+* [Ziim](https://esolangs.org/wiki/Ziim)
 
 <img src="/eng/ziimhw.png" style="zoom:50%;" />
 
 > Hello World implimented in Ziim
 
-[SendStuff](https://esolangs.org/wiki/SendStuff) (unimplemented)
+---
 
-[PowerPoint is Turing Complete](https://www.andrew.cmu.edu/user/twildenh/PowerPointTM/Paper.pdf)
+If you're looking to learn more check out [Awesome Esolangs (Github)](https://github.com/angrykoala/awesome-esolangs) and https://esolangs.org. Also the [Esoteric IDE](https://github.com/Timwi/EsotericIDE/) may be of use.
 
 ## Graphics Programming
 
-look to chapter 26 for programming involving graphics, including node based shader editors and more
+look to {{< button relref="/Engineering/programming/shaders" >}}Chapter 19: Shaders + GpGPU{{< /button >}} for programming involving graphics, including node based shader editors, general purpsose computation on the GPU, and more. As for lanugages, this includes, GLSL, HLSL, Futhark, and a few others. There are, many, many other graphics languages depending on the platfrom though.
 
 ## Functional Programming
 
-Look at Chapter 27 for Functional Programming
+Look at {{< button relref="/Engineering/programming/funcprog" >}}Chapter 21: (((())(()((()(())))))){{< /button >}} for Functional Programming. You'll probably want to look into Lisp, Haskell, and Futhark. There's a nice [tutorial for Haskell programming](http://learnyouahaskell.com/introduction) if you want to learn more.
 
-> Lisp, Haskell, Luna, 
+## Database
 
-## Database (SQL)
-
-Look at Chapter 18 for information on Databases
+Look at {{< button relref="/Engineering/networking/databases" >}}Chapter 39: Databases{{< /button >}} for information on Databases, including languages like SQL
 
 <ol hidden id="footnotes">
     <li>Popular video game consoles and computers, such as the Atari 2600, Atari 8-bit family, Apple II, Nintendo Entertainment System, Commodore 64, Atari Lynx, BBC Micro and others, use the 6502 or variations of the basic design.</br>-from that same wikipedia article</li>

@@ -54,7 +54,7 @@ oh also if you see a function with loads of xrefs to it that seems really compli
 
 ### Hardware:
 
-Most tools for reverse engineering are really tools you'd use for otheng things anyway *plus* some special sauce. For circuits, your logic analyzer, OScope, etc. are all still valid; however, you may want to add some tools like a software defined radio, [Jtagulator](http://www.grandideastudio.com/jtagulator/), [Proxmark-3](https://proxmark.com/proxmark-3-hardware/proxmark-3-easy), a Bus Pirate/Shikra, and the [ChipWhisperer](https://www.youtube.com/watch?v=FktI4qSjzaE) - and some less specialized, but abnormal for electroics work too, like a microscope, endoscope, and a current probe. Don't like race out to buy these things though - you'll know if you need them. On top of this, you'll need some actual tools - screwdrivers with those weird torx security bit, pry tools to take off a screen, etc. Hardware hacking tends to get rather crazy rather fast, so dont be suprised if you find you need some acids to get at the die in an IC, to throw a board in a freezer to get it nice and cold, or to shine a bright light on an IC to get it to crash.
+Most tools for reverse engineering are really tools you'd use for otheng things anyway *plus* some special sauce. For circuits, your logic analyzer, OScope, etc. are all still valid; however, you may want to add some tools like a software defined radio (like the HackRF with portapack running [mayhem](https://github.com/eried/portapack-mayhem)), [Jtagulator](http://www.grandideastudio.com/jtagulator/), [Proxmark-3](https://proxmark.com/proxmark-3-hardware/proxmark-3-easy) (with [iceman firmware](https://github.com/RfidResearchGroup/proxmark3)), a Bus Pirate/Shikra, and the [ChipWhisperer](https://www.youtube.com/watch?v=FktI4qSjzaE) - and some less specialized, but abnormal for electroics work too, like a microscope, endoscope, and a current probe. Don't like race out to buy these things though - you'll know if you need them. On top of this, you'll need some actual tools - screwdrivers with those weird torx security bit, pry tools to take off a screen, etc. Hardware hacking tends to get rather crazy rather fast, so dont be suprised if you find you need some acids to get at the die in an IC, to throw a board in a freezer to get it nice and cold, or to shine a bright light on an IC to get it to crash.
 
 Don't forget your search enginer either though- looking up the FCC certification, patents, and documention on anything and everything you can is likely to tell you a lot more a lot faster than you can figure it out by actually poking the thing.
 
@@ -68,7 +68,17 @@ These let you take a compiled program and work your way back to source code... s
 
 Resource hacker may be handy too.
 
-If all else fails, there's always the ever-unfriendly hex-editor at your disposal.
+{{< columns >}}
+
+If all else fails, there's always the ever-unfriendly hex-editor at your disposal, or [Hobbits (GitHub)](https://github.com/Mahlet-Inc/hobbits) if you're feeling fancy.
+
+<--->
+
+![](https://github.com/Mahlet-Inc/hobbits/raw/master/docs/hobbits_screenshot.png)
+
+{{< attribution >}}Example image from [the Hobbits Github repo](https://github.com/Mahlet-Inc/hobbits){{< /attribution >}}
+
+{{< /columns >}}
 
 #### Networking:
 

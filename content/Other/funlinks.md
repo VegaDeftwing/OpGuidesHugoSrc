@@ -128,7 +128,7 @@
   
 * [Metric Paper (YouTube)](https://www.youtube.com/watch?v=9DiHy5ZHzN0)
   
-* [Sounds of the Mandelbrot Set](https://www.youtube.com/watch?v=9DiHy5ZHzN0)
+* [Sounds of the Mandelbrot Set](https://www.youtube.com/watch?v=GiAj9WW1OfQ)
   
 * [Installing Windows and Linux into the same partition (motorailgun, GitHub Gist)](https://gist.github.com/motorailgun/cc2c573f253d0893f429a165b5f851ee)
   

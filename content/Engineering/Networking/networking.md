@@ -322,6 +322,10 @@ where L = bits per packet, R = tx rate of link
 
 ### Carrier Pidgeon, Can, etc.
 
+### Modems?
+
+[TODO] http://www.whence.com/minimodem/
+
 ## 2 - Data Link
 
 **Organize the information in the meduium into a packet, control who get's that packet**
@@ -508,6 +512,10 @@ still TCP, out-of-band, maintains state, passive v active mode
 
 [72% of Smart TVs, 46% of Consoles hardcode DNS Settings](https://arxiv.org/abs/2001.08288), [(Hacker News Comments on article)](https://news.ycombinator.com/item?id=25313480)
 
+#### Bonjour / Zeroconf
+
+Occassionally, you may find things that want a name given to them by the local system. If two systems are running Bonjour / Zeroconf, then you can have a local name that should always point to the device. This is particularly handy for setting up devices like the Raspberry Pi Zero as a USB gadget and letting it show up as a network device on the system it's plugged into- now it'll have a local name. See [Bonjour (Zeroconf) Networking for Windows and Linux (Adafruit)](https://learn.adafruit.com/bonjour-zeroconf-networking-for-windows-and-linux).
+
 ### DHCP - Dynamic Host Configuration Protocol
 
 Some texts will put this in Data or Network layer or Link Layer, it's a bit ambiguous. It's not -technically- necessary, much like DNS, but it's used as a core part of the network in most networks. It does appear the [RFC 2131](https://tools.ietf.org/html/rfc2131) says it's Link Layer, but it seems most people think it belongs in Application Layer.
@@ -568,7 +576,11 @@ https://wiki.wireshark.org/CaptureFilters
 
 ### HTTPie 
 
-[HTTPie [Github]](https://github.com/httpie/httpie) - human-friendly CLI HTTP client for the API era
+[HTTPie (Github)](https://github.com/httpie/httpie) - human-friendly CLI HTTP client for the API era
+
+### Tunnels & VPN
+
+[bore (Github)](https://github.com/ekzhang/bore) - a simple CLI tool for making tunnels to localhost
 
 ## Further Reading
 

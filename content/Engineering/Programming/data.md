@@ -1,4 +1,4 @@
-# Chapter 13½ - Data, Encodings, etc.
+# Chapter 13½ - Data, Encodings, Compression, etc.
 
 When you write code, you'll inevitably be working with input and output of some sort - even if it's just text. This is *always* more complicated than it seems. For example, text processing is easy, right?
 
@@ -22,3 +22,14 @@ Finally, you should have at least some familiratiy with the actual structure of 
 
 [PSD is not my favorite file format](https://github.com/gco/xee/blob/master/XeePhotoshopLoader.m#L108)
 
+
+
+## Names
+
+[Horrible edge cases to consider when dealing with music (Julien Voisin)](https://dustri.org/b/horrible-edge-cases-to-consider-when-dealing-with-music.html)
+
+
+
+## Compression
+
+[H.264 is Magic (Sid Bala)](https://sidbala.com/h-264-is-magic)
