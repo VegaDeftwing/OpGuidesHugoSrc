@@ -1,5 +1,9 @@
 # Chapter 24 - Digital Logic
 
+Digital logic is what it sounds like- it's doing logical operations on digital data - 1's and 0's; True and False. Chain some of (er, a lot of) these logical operations togother and you can do anything you want! Want to make your own CPU? Done. Want to make dedicated circuitry to do what your code does but hundreds of times faster? This is the way to do it.
+
+As an example, here's a rather artistic representation of a digital logic circuit that takes in a four bit binary number and outputs seven different signals coropsonding to the lights on a 7-segment LED to show the right number (in hexadecimal)
+
 {{< columns >}}
 
 | Binary (0b) | Hex (0x) | Decimal |
@@ -29,7 +33,13 @@
 
 {{< /columns >}}
 
-[Todo, insert intro about Minecraft redstone]
+Now, it's worth considering here that this circuit is probably not the most efficient way to do this. This could also be done by just using a look up table (LUT), in that case, all of those individual logic elements are skipped and the input bits are basically just used as an adress to look up a different value. The end result is the same. We'll wrap back around to this idea later.
+
+{{< speech big >}}
+
+Some of this look familiar? If you've played Minecraft before you may have gotten Redstone vibes from the GIF above. Those intutitions are correct. Many Redstone circuits are actually just clever ways of using the same binary logic ideas we're about to go over!
+
+{{< /speech >}}
 
 ## What is digital logic?
 
@@ -158,15 +168,13 @@ For two bits, most easily thought of as True if both bits are equal. More broadl
 
 {{< /columns >}}
 
-### Transmission
+### Mux & Demux
 
-### Mux
-
-### Demux
+Go read the [Multiplexer](https://en.wikipedia.org/wiki/Multiplexer) Wikipedia article. It's actually really good.
 
 ### Encoders
 
-
+[TODO] like Binary to BCD
 
 # SOP & POS
 
@@ -190,7 +198,9 @@ SR, Dl, edge triggering, Dff, Tff, JKff,
 
 \+ Shift registers
 
-### Counters
+### Clocking & Counters
+
+[TODO] dividers, multipliers, delay
 
 ## Memory Circuits
 
@@ -207,6 +217,26 @@ There's a ton of simulators out there for making simple circuits educationally, 
 > If you don't own MineCraft and can't afford it, [MineTest](https://www.minetest.net) with [mesecons](https://content.minetest.net/packages/Jeija/mesecons/) is an option. It's... not great. (sorry MineTest team, I still love what you're doing <3 ) But it is Open Source. If you're using Arch Linux (and updates haven't broken things since writing) you should be able to install `MineTest` from the community repo and `mesecons-git` from the AUR.
 
 [Minetest Circuit Challange](https://www.youtube.com/watch?v=nI8Q1bqT8QU&ab_channel=LiveOverflow)
+
+## Half Adder
+
+## Full Adder
+
+
+
+## Analog To Digital & Digital To Analog
+
+### Schmitt Triggers
+
+
+
+### ADCs
+
+[TODO] + Parallel Output vs via data bus
+
+### DACs
+
+
 
 ## More Digital Logic resources
 

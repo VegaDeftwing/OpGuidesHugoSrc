@@ -1,20 +1,36 @@
 # Chapter 26 - Let's make our own PCB
 
-[TODO]
+**P**rinted **C**ircuit **B**orads look like something reserved for only big business, but that is very much so not the case. It's suprisingly cheap to get smaller boards made, espically if you're okay with waiting a week or two on international shipping. But, let me back up- what even is a PCB?
 
-* Make it work
-* Make it not emit a ton of RF or go to shit when around it (everything is an antenna)
-* Make it pretty
-  * ref that weird russian autorouter as limits on this
-* Make it repairable
-* Pretty + Repairable means we need good, well labled silkscreen, componet spacing, etc.
-* Know when to do a PCB or a Perma-Proto
-* Assuming parts will only be available for so long
-* Do not assume same package = same pinout
-* Do not assume a sane pinout, even in a device family. The tab can be anything!
-* Expect to need to order a 2nd time
+Well, when anyone first starts with circuits, they go for the ever popular breadboard:
 
-First things first, we're going to be using Kicad, so you'll want to go grab that from the repos. While that's downloading and installing give this a watch to get the basics down:
+<img src="/unsplash/vishnu-mohanan-r98pDCvbcfM-unsplash.webp" alt=" " height="400em" style="border-radius:50px;">
+
+{{< attribution >}}Image by [Vishnu Mohanan](https://unsplash.com/photos/r98pDCvbcfM){{< /attribution >}}
+
+Then, you may decide to make a more reliable version, soldered together on a perma-proto board:
+
+<img src="/eng/filterproto.jpg" alt=" " height="400em" style="border-radius:50px;">
+
+But ultimately, the best, most reliable way to build your circuit is with a PCB:
+
+<img src="/eng/BassDrumPCB.jpg" alt=" " height="400em" style="border-radius:50px;">
+
+{{< hint warning >}}
+
+In case it's not obvious, these three images are **not** of the same circuit. So, you can't directly compare complexity between these images.
+
+{{< /hint >}}
+
+Now, there's a few things you should notice about the version on the PCB:
+
+1. It's a hell of a lot more compact
+2. The wiring is all part of the board - it's very difficult to correct a mistake at this point
+   * But it's more reliable, no risk of a lose wire or bad contact like in the breadboard
+3. The parts are much smaller
+   * This isn't required - you could use the same, through-hole parts, but generally these Surface Mount Device (SMD) components that you see are actually easier to work with and, due to their small size, keep cost down
+
+So, how do you make one? Well, software is needed obivously. For that, there's many options but for most people the free and open source tool KiCad will do everything you need. So, go grab the latest version of it from https://www.kicad.org or your repos if you're using Linux. Get that installed. Then, go ahead and watch this video which does a better job of explaining things quickly than I possibly could in text:
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/zK3rDhJqMu0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -726,6 +742,21 @@ Sorce: Foalyy @ https://forum.kicad.info/t/cheatsheet-for-kicad/5247
 
 {{< /attribution >}}
 
+[TODO] - pick a PCB design to walk though making on this page - maybe an APC?
+
+* PCB specic things - Layers, Vias, fills, silk, mask, etc.
+* Make it work
+* Make it not emit a ton of RF or go to shit when around it (everything is an antenna)
+* Make it pretty
+  * ref that weird russian autorouter as limits on this
+* Make it repairable
+* Pretty + Repairable means we need good, well labled silkscreen, componet spacing, etc.
+* Know when to do a PCB or a Perma-Proto
+* Assuming parts will only be available for so long
+* Do not assume same package = same pinout
+* Do not assume a sane pinout, even in a device family. The tab can be anything!
+* Expect to need to order a 2nd time
+
 https://llllllll.co/t/pcb-art-artfully-shaped-copper-traces/22027/2t
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">These 0.3mm PCBs are crazy flexible. Makes it difficult to evenly polish down to extract all the metal layers, but we&#39;ll fix it in post 😉 <a href="https://t.co/ylP0lc34g2">pic.twitter.com/ylP0lc34g2</a></p>&mdash; David Hulton (@0x31337) <a href="https://twitter.com/0x31337/status/1395064352785399808?ref_src=twsrc%5Etfw">May 19, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -744,7 +775,7 @@ https://llllllll.co/t/pcb-art-artfully-shaped-copper-traces/22027/2t
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The whole family - top ones are the oldest and the two test prototypes I made. There was issues with the micro I was using and I couldn&#39;t get it low enough power to run. Also assembly was really difficult. <a href="https://t.co/3mKgYs83Nr">pic.twitter.com/3mKgYs83Nr</a></p>&mdash; Loial Otter (@LoialOtter) <a href="https://twitter.com/LoialOtter/status/1250295830973534208?ref_src=twsrc%5Etfw">April 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## Chapter 26.1 - PCB Components
+# Chapter 26.1 - PCB Components
 
 [TODO] Antennas (2.4ghz mostly), [Spark gaps](https://www.youtube.com/watch?v=vfP_65gSSBU&list=PL3C5D963B695411B6&index=25), [coils](https://www.youtube.com/watch?v=3DeOPN1Cl1Y), PCB capacitor, [distributed element filters](https://en.wikipedia.org/wiki/Distributed-element_filter), flexible PCB as connectors
 
@@ -777,3 +808,7 @@ Source: @AkioOhtori on Twitter
 https://github.com/badgeek/svg2shenzhen
 
 https://mitxela.com/projects/melting_kicad
+
+# Chapter 26.3 - Alternatives to PCBs
+
+[TODO] Wirewrap, permaproto, etc.
