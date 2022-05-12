@@ -45,20 +45,26 @@ min/max terms, Don't cares, SOP/POS, multiple out
 
 ## Basic Logic Gates
 
-[TODO] truth tables, circuit symbol, discrete logic symbol for all.
-
 ### Not
+
+<img src="/eng/logic/Not-gate-en.svg" alt=" " height="80em" style="-webkit-filter: invert(1);filter: invert(1);">
+
+{{< attribution >}}Image [CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=829201), by [Heron](https://en.wikipedia.org/wiki/User:Heron) {{< /attribution >}}
 
 | Input | Output |
 | ----- | ------ |
 | 0     | 1      |
 | 1     | 0      |
 
-Truth table, transistor implementation pmos/nmos, cost, power consumption at switch
+[TODO] transistor implementation w/ cmost, cost, power consumption at switch
+
+{{< columns >}}
 
 ### AND
 
-A∧B, AB, 
+True **if** A **and** B are true, else false. Often written as A∧B or just AB
+
+<img src="/eng/logic/AND_ANSI.svg" alt=" " height="80em" style="-webkit-filter: invert(1);filter: invert(1);">
 
 | Input A | Input B | Output |
 | ------- | ------- | ------ |
@@ -67,7 +73,13 @@ A∧B, AB,
 | 1       | 0       | 0      |
 | 1       | 1       | 1      |
 
-### NAND 
+<--->
+
+### NAND (Not AND)
+
+False **if** A **and** B are true, else True. Often written as ¬(A∧B), ((¬A)∧(¬B)), or A⊼B
+
+<img src="/eng/logic/NAND_ANSI_Labelled.svg" alt=" " height="80em" style="-webkit-filter: invert(1);filter: invert(1);">
 
 | Input A | Input B | Output |
 | ------- | ------- | ------ |
@@ -76,13 +88,49 @@ A∧B, AB,
 | 1       | 0       | 1      |
 | 1       | 1       | 0      |
 
-### Or
+{{< /columns >}}
 
-### Nor
+{{< columns >}}
 
-### Exnor
+### OR
 
-### Xor
+True **if** A **or** B are true, else False. Note, this includes if both are true. Often written as A∨B or A+B
+
+<img src="/eng/logic/OR_ANSI_Labelled.svg" alt=" " height="80em" style="-webkit-filter: invert(1);filter: invert(1);">
+
+| Input A | Input B | Output |
+| ------- | ------- | ------ |
+| 0       | 0       | 0      |
+| 0       | 1       | 1      |
+| 1       | 0       | 1      |
+| 1       | 1       | 1      |
+
+<--->
+
+### NOR (Not OR)
+
+True if neither A or B are True, else False. {{< katex >}} \text{Often written } \overline{x + y}{{< /katex >}}
+
+</br>
+
+<img src="/eng/logic/NOR_ANSI_Labelled.svg" alt=" " height="80em" style="-webkit-filter: invert(1);filter: invert(1);">
+
+| Input A | Input B | Output |
+| ------- | ------- | ------ |
+| 0       | 0       | 1      |
+| 0       | 1       | 0      |
+| 1       | 0       | 0      |
+| 1       | 1       | 0      |
+
+{{< /columns >}}
+
+{{< columns >}}
+
+### XOR (Exclusive OR)
+
+True **if** A **or** B are **exclusively** True, else False. Note, this **does not** includes if both are true. Often written as A⊕B
+
+<img src="/eng/logic/XOR_ANSI.svg" alt=" " height="80em" style="-webkit-filter: invert(1);filter: invert(1);">
 
 | Input A | Input B | Output |
 | ------- | ------- | ------ |
@@ -91,9 +139,26 @@ A∧B, AB,
 | 1       | 0       | 1      |
 | 1       | 1       | 0      |
 
-### Exor
+<--->
 
-### Transmission,
+### XNOR (Exclusive Not OR ) (also known as XAND)
+
+For two bits, most easily thought of as True if both bits are equal. More broadly, it is the negation of the exclusive or logic.
+
+<img src="/eng/logic/Xnor-gate-en.svg" alt=" " height="80em" style="-webkit-filter: invert(1);filter: invert(1);">
+
+{{< attribution >}}Image [CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=829201), by [Heron](https://en.wikipedia.org/wiki/User:Heron) {{< /attribution >}}
+
+| Input A | Input B | Output |
+| ------- | ------- | ------ |
+| 0       | 0       | 1      |
+| 0       | 1       | 0      |
+| 1       | 0       | 0      |
+| 1       | 1       | 1      |
+
+{{< /columns >}}
+
+### Transmission
 
 ### Mux
 

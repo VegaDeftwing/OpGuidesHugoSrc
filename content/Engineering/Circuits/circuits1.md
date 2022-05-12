@@ -8,9 +8,9 @@
 
 {{< columns >}}
 
-Building, fixing, and analyzing circuitry requires the use of a some tools and appliances. While there are many more than those listed here, these are the most important ones and should be all you need for most applications. 
+Building, fixing, and analyzing circuitry requires the use of a some tools and appliances, so let's look at the basics of working with electricity by looking at what purpose the tools serve. While there are many more than those listed here, these are the most important ones and should be all you need for most applications. 
 
-Unfortunately, there will be some cost involved in getting these. I'll do my best to give you advice to keep the cost down while still getting good equipment as we go over what each is for.
+Unfortunately, there will be some cost involved in getting these. I'll do my best to give you advice to keep the cost down while still getting good equipment as we go over what each is for. I do really reccomend having at least the most basic version of these tools to get started.
 
 <--->
 
@@ -20,17 +20,19 @@ Unfortunately, there will be some cost involved in getting these. I'll do my bes
 
 {{< /columns >}}
 
+If you go for the absolute cheapest options and hunt for used equipment, it's reasonable to get everything for about \$175. I realize to many that's a tough pill to swollow, so if you just can't do that that's 100% okay! You can get by for a good while with just a multimeter, a the power supplied by a microcontroller, and simulation software. That brings the actual upfront cost down to around \$30. Of course, that's not counting the actual parts needed for whatever you're building, though parts tend to actually be quite inexpensive.
+
 ### The Multimeter
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/CBah3vz5b-U?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{< tip >}}
 
-note, the above video uses U=IR instead of V=IR like 'normal'. You'd think that engineers could just get along and pick consistent symbols, but, nope. The 'normal' V (voltage) = I (current) * R (Resistance) is often E=IR
+note, the above video uses U=IR instead of V=IR like 'normal'. You'd think that engineers could just get along and pick consistent symbols, but, nope. The 'normal' way to write it is V (voltage) = I (current) * R (Resistance), though you'll also often see E=IR or, less common, U=IR like here.
 
 {{< /tip >}}
 
-[TODO] textual description of all multimeter functions
+The **Multi**meter generally serves three roles: A **volt**meter, an **Am**meter, and an **Ohm**meter. These are for measuring Voltage (in Volts), Current (in Amps), and Resistance (in Ohms) respectively. Furthermore, most multimeters can do continutiy testing (checking if two points are connected).
 
 ## Resistance and the OHM meter
 
@@ -42,7 +44,7 @@ Voltage can be thought of as the 'pressure' in a hose. However, this pressure is
 
 {{< columns >}}
 
-In general there are two primary ways you will work with voltage- AC or DC, these stand for Alternating Current and Direct Current. DC is simply a constant voltage level output. AC on the other hand is any time varying signal, usually periodic (repeating) and most commonly a sine, though many other waves are used like square, triangle, saw, and any mixture of these, including the same signal with a DC offset. Not here that AC is *technically* referring to the current having this shape and not the voltage, it's just that in the basic scenario with a constant load, the current and voltage waves will look the same
+In general there are two primary ways you will work with voltage- AC or DC, these stand for Alternating Current and Direct Current. DC is simply a constant voltage level output. AC on the other hand is any time varying signal, usually (but not always!) periodic (repeating) and most commonly a sine, though many other waves are used like square, triangle, saw, and any mixture of these, including the same signal with a DC offset. Not here that AC is *technically* referring to the current having this shape and not the voltage, it's just that in the basic scenario with a constant load, the current and voltage waves will look the same
 
 <--->
 
@@ -52,7 +54,7 @@ In general there are two primary ways you will work with voltage- AC or DC, thes
 
 {{< columns >}}
 
-Your multimeter will likely have two different settings for measuring voltage, one for DC and one for AC. Of note, *most* inexpensive multimeters are not true RMS (Root Mean Square) meters, meaning the reading of AC voltage is not an accurate measure of how much energy the wave can deliver unless it's a clean, no DC offset sine wave. Imagine a square wave like the above, with the same height, but where the peaks are thinner, with longer periods of rest in between (this is known as having a lower [duty cycle](https://en.wikipedia.org/wiki/Duty_cycle)), in this case the wave would still have the same Voltage Peak-to-Peak (Vpp) value but on average wouldn't be able to carry as much energy. That's where RMS comes in, it is effectively the measure of how much energy that waveform can deliver and is much, much more useful in general.  RMS is a topic we'll be covering later, but to wet your appetites from Wikipedia may help:
+Your multimeter will likely have two different settings for measuring voltage, one for DC and one for AC. Of note, *most* inexpensive multimeters are not true RMS (Root Mean Square) meters, meaning the reading of AC voltage is not an accurate measure of how much energy the wave can deliver unless it's a clean, no DC offset sine wave. Imagine a square wave like the above, with the same height, but where the peaks are thinner, with longer periods of rest in between (this is known as having a lower [duty cycle](https://en.wikipedia.org/wiki/Duty_cycle)), in this case the wave would still have the same Voltage Peak-to-Peak (Vpp) value but on average wouldn't be able to carry as much energy. That's where RMS comes in, it is effectively the measure of how much energy that waveform can deliver and is much, much more useful in general.  RMS is a topic we'll be covering later, but to wet your appetites, this image from Wikipedia may help:
 
 <--->
 
@@ -80,23 +82,49 @@ In practice this means the wire you want to measure current through would need t
 
 Current, just like voltage, can vary, and in AC circuits usually does. This leads to some more interesting cases like power factor, but we'll get to that later.
 
-#### Continuity Tester
+## Continuity Tester
 
-The continuity tester does exactly what it's name implies, it makes sure two points are connected electrically. If you have a piece of metal and put both probes on it should beep, but if you put the probes on rubber, they clearly will not be. The continuity tester isn't really much different from the ohm meter in operation, and many will actually display the resistance if there is any. The main use is that it beeps when the resistance is low enough to be confident two points are electrically connected.
-
-#### [TODO] day to day use, why you want one
+The continuity tester does exactly what it's name implies, it makes sure two points are connected electrically. If you have a piece of metal and put both probes on it should beep, but if you put the probes on rubber, they clearly will not be. The continuity tester isn't really much different from the ohm meter in operation, and many will actually display the resistance if there is any. The main use is that it beeps when the resistance is low enough to be confident two points are electrically connected or for checking that two point's aren't connected (such as ensuring there's no short between two pins of a small part)
 
 ## OHM's Law
 
-\+ with power wheel
+{{< katex >}}V=I\times R \implies R = \frac{V}{I} \implies I = \frac{V}{R}{{< /katex >}}
 
-### The Lab Power Supply
+Repeat these over and over to yourself. Vee equals Eye Arr. Vee equals Eye Arr. Don't ever forget this. This should be stuck in your head so hard that you hear it when you sleep. This is Ohm's law and it's the relationship between voltage, resistance, and current. With a fixed resistance, if voltage goes up, current must also go up. With a fixed voltage, if resistance goes down, current goes up (within the limts of the supply to provide that current). With a fixed current, if resistance goes up, voltage goes up (within the limts of the supply to continue supplying that current).
 
-Power Supply Units or 'PSU's are useful because unlike your phone charger which puts out a singular voltage of 5 volts (ignoring fast charging) they can have their output voltage varied, usually between 1 and 35-ish volts. Furthermore, they provide current limiting, useful when you're unsure of how much current your circuit might sink or need it for safety.
+Also, less used, but also remember the relationship with power (in watts). {{< katex >}}P=I\times \implies V P=\frac{V^2}{R} \implies P = R \times I^2{{< /katex >}}
 
-[TODO] add picture, mention ATX psu, current safety
+## The Lab Power Supply
 
-### The Frequency or Waveform Generator
+Power Supply Units or 'PSU's are useful because, unlike your phone charger which puts out a singular voltage of 5 volts (ignoring fast charging), they can have their output voltage varied. Usually the range is between 1 and 35-ish volts, though if you need more there's options. Though, probably most important for a lab power supply is current limiting, useful when you're unsure of how much current your circuit might sink or need it for safety. Sometimes you may just want to hook up your freshly made circuit with the current limit very low as a method of finding if there's a short.
+
+{{< tip >}}
+
+Not all power supplies sold as lab power supplies have current limiting. 
+
+{{< /tip >}}
+
+{{< tip >}}
+
+Current kills! It *technically* only takes about 100mA or so to outright kill you, and with even less you can lose muscle control and get stuck holding the thing shocking you. Keep in mind, 100mA is really not much! Your phone charger can probably put out about 20 times this.... Sort of... What you should keep in mind is the resistance of the human body. This is massively variable (espically if your hands are wet or sweaty) but is generally so high that actually getting this much current to go *through* you is actually a bit of a challange. So, the take away? Keep shit dry, respect high voltages which can just arc right through the skin, and don't be dumb ass. Will you die using a non-current limited supply? Probably not. Should you risk it when you don't have to? Hell no.
+
+{{< /tip >}}
+
+{{< speech big >}}
+
+I do high voltage wood burning. This is an activity that kills about 30 people a year. How do I do it safely? I never get close to it while it is on - I throw the switch from a distance. Cool as it looks, it's not worth risking getting bit by the arc and having it stop my heart.
+
+{{< /speech >}}
+
+When looking for your first lab PSU, it may be overwhelming. You'll see some going for $40, and some going for $500. Generally, the cost difference get's you a few things: Multiple channels and cleaner output (undesired AC ripple in DC supply = bad). For starting out, nobody wants to spend that. Sure, having a dual supply is super nice so you can power opamps and what not, but you can get around that to start with by using a little module to generate those voltages for you from another supply. 
+
+So, while there's some downsides, I reccomend grabbing pretty much the cheapest lab power supply you can find that  allows for setting current limiting (constant current, or CC is the same thing) and one of these boost/buck converters
+
+[TODO] picture
+
+Otherwise, if you can find a dual or tripple-output power supply where each channel has adjustable voltage and current limits used at a good price, go for it.
+
+## The Frequency or Waveform Generator
 
 Frequency generators can be used to output a signal that is alternating, unlike the DC signal of the Lab PSU.  Usually they'll support a range of wave shapes, frequencies, amplitudes, and DC offsets. Many support far more than this, though the applications for the more advanced modes are few. If you're just starting out you can (with precautions) just use the audio output of your computer or buy an inexpensive one for under \$20, unlike the expensive example below:
 
@@ -104,7 +132,7 @@ Frequency generators can be used to output a signal that is alternating, unlike 
 
 https://en.wikipedia.org/wiki/Arbitrary_waveform_generator
 
-### The Oscilloscope
+## The Oscilloscope
 
 The oscilloscope (or OScope or simply Scope) allows you to see an AC signal and how it varies over time as a plot of Voltage on the Y axis and time on the X, Most OScopes will allow you to look at multiple signals at once, with one overlaid on the other. Furthermore, most support X-Y mode, where the plot is actually the voltage of one input as the X axis and the voltage of another as the Y, moving a dot and it's trail around the screen. In fact, this is how the first computer monitors worked:
 
@@ -124,7 +152,7 @@ But what are these actually used for day to day, and why would you want one? [TO
 
 [Quake on an oscilloscope (YouTube)](https://www.youtube.com/watch?v=GIdiHh6mW58&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
 
-### The Logic Analyzer
+## The Logic Analyzer
 
 Logic Analyzers... analyze logic. Who knew? But what does that mean? Well, in reality they are *somewhat* similar to an oscilloscope in that they show a voltage over time, the difference is they only show either on or off over time based on the set TTL (Transistor–transistor logic) voltage. This lets you eavesdrop on the digital communication going on over a wire. Here's an example output:
 
@@ -138,11 +166,11 @@ Using a logic analyzer is pretty simple, most today are connected to your comput
 
 [TODO] Evaluate [Using a pi Pico as a logic analyzer](https://hackaday.com/2022/03/02/need-a-logic-analyzer-use-your-pico/)
 
-### Soldering
+## Soldering Iron
 
 https://www.digikey.com/en/maker/blogs/rohs-vs-non-rohs-soldering
 
-
+## Heat Gun
 
 ## Software Simulation
 
@@ -166,7 +194,9 @@ VCV Rack?
 
 potentiometer read from arduino full range (center tap or max resistor)
 
-## Capacitors
+## LCR Meter
+
+### Capacitors
 
 [TODO]
 
@@ -180,7 +210,7 @@ potentiometer read from arduino full range (center tap or max resistor)
 
 [Capacitor Types P2: Tantalum & Film - Collin’s Lab Notes (YouTube)](https://www.youtube.com/watch?v=Th0evgETeBE)
 
-## Inductors
+### Inductors
 
 [TODO]
 
