@@ -7,10 +7,12 @@
 * Make it pretty
   * ref that weird russian autorouter as limits on this
 * Make it repairable
+* Pretty + Repairable means we need good, well labled silkscreen, componet spacing, etc.
 * Know when to do a PCB or a Perma-Proto
 * Assuming parts will only be available for so long
 * Do not assume same package = same pinout
 * Do not assume a sane pinout, even in a device family. The tab can be anything!
+* Expect to need to order a 2nd time
 
 First things first, we're going to be using Kicad, so you'll want to go grab that from the repos. While that's downloading and installing give this a watch to get the basics down:
 

@@ -93,6 +93,8 @@ Because these many of these sites are tecnically hosting illegal content, they t
 
 [Sci-hub.do](https://sci-hub.do)
 
+https://unpaywall.org
+
 ## Open Directories
 
 [TODO what is an open directory]

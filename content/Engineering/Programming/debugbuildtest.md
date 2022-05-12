@@ -170,7 +170,3 @@ Fuzzing (sandsifter), make and alts, etc.
 
 ## Continuous Deployment
 
-## Benchmarking
-
-https://github.com/sharkdp/hyperfine
-

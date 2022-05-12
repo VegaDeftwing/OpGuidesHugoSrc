@@ -308,8 +308,6 @@ Fossil
 
 ## Weird Git
 
-https://radicle.xyz 
-
 [CSS in Github READMEs](https://github.com/sindresorhus/css-in-readme-like-wat)
 
 ## Further Reading

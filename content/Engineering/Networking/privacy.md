@@ -6,7 +6,7 @@ Arguing that you don't care about the right to privacy because you have <u>nothi
 
 {{< /bigquote >}}
 
-Privacy online is a joke. No matter what you do, you're still going to be tracked so much that advertisers and the big tech companies (Facebook, Google, Microsoft, etc.) all know way more about you than you'd like. *Technically*, most of these companies will provide various opt-outs. Realistically, you shouldn't expect these to stop anyone. You can be 110% your data is being sold. So, what can you do?
+Privacy online is a joke. No matter what you do, you're still going to be tracked so much that advertisers and the big tech companies (Facebook, Google, Microsoft, etc.) all know way more about you than you'd like. [Data brokers](https://www.youtube.com/watch?v=wqn3gR1WTcA) will find out more about you than you can imagine. *Technically*, most of these companies will provide various opt-outs. Realistically, you shouldn't expect these to stop anyone. You can be 110% your data is being sold. So, what can you do?
 
 0. **Acknowledge you can not win**, but you can still fight back.
 

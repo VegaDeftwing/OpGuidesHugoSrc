@@ -31,11 +31,13 @@ https://erikmcclure.com/blog/factorio-is-best-interview-we-have/
 
 {{< /columns >}}
 
-## Know your worth
+## Know (and increase) your worth
 
 [TODO] looking up salary before hand
 
 [TODO] NEVER, EVER sign a contract that says your employer owns all of your work from outside of work
+
+[The Niche Programmer (Asko Nõom)](https://ano.ee/blog/the-niche-programmer) explains why learning a less common language may make you worth more.
 
 ## Making a Résumé
 

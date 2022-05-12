@@ -264,7 +264,7 @@ Finally, it should be noted that it's pretty easy to make your system not boot o
 
 Because this varies per motherboard there's no universal way to describe how it looks or works. Some boards will support a lot more configuration than others, with really the only nearly definite options you'll find at the time of writing being a switch to enable virtualization extensions (for running virtual machines) and a switch to turn of Secure Boot, which you likely had to do to install Arch to begin with.
 
-Further reading [How To Geek: What Is UEFI, and How Is It Different from BIOS?](https://www.howtogeek.com/56958/htg-explains-how-uefi-will-replace-the-bios/) 
+Further reading: [How To Geek: What Is UEFI, and How Is It Different from BIOS?](https://www.howtogeek.com/56958/htg-explains-how-uefi-will-replace-the-bios/) , [UEFI and why I Hate it so Much (Cheapskate's Guide)](https://cheapskatesguide.org/articles/uefi.html)
 
 ## VRM
 
@@ -279,3 +279,10 @@ You can typically tell how strong a particular uVRM is by counting the number of
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/zxGqGCtPxn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## TPM
+
+[TODO]
+
+[DIY your own TPM](https://hackaday.com/2022/05/04/tpm-module-too-expensive-diy-your-own-easily/)
+

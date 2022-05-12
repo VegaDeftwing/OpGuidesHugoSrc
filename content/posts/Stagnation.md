@@ -49,15 +49,11 @@ Why have basic pools of water in our virtual worlds when they could be teaming w
 
 Imagine a VR world, where everything is simulated and destructible. Where the life is evolving with genetic algorithms. Where some space isn't euclidean, like a scene from Inception or Dr. Strange. Imagine meeting your friends there, and one of them pulls out a strange looking orb filled with that fractals that change colors depending on what direction you look at it. Then, with an ultrasonic haptic feedback system that requires no gloves and a thin and light, view filling VR headset they're able to comfortably feel around this orb and it's internal fractals to play from it music unlike anything you've heard. Meanwhile, the far from human vocal tract simulation of the life that has evolved though genetic algorithms in our virtual world provides a responsive melody. The sounds of it all bounce off of the non-euclidean space to create a reverb that is other worldly.
 
+The programming skill required and hardware to acomplish this is, currently, not practical. But, that's my point-: we need to be doing impractical things now, so we can have goals to reach.
+
 Good science fiction has always had it's hits and misses. We don't have flying cars, but surveliance capitalism sure hit like a brick. Let's pick the absurd science fiction reality we want to create and go for it. Let's put all those SIGGRAPH research papers to use.
 
-**However,** to do absurd things and make inspirational projects you <u>absolutely do not need to be on the cutting edge</u>, have research funding, or be doing anything overly difficult. More than anything you just need an idea, and be willing to try it even if it will probably fail.
-
-[TODO] Baurer's mirror
-
-[TODO] holographic chocolate/3D prints
-
-
+**However,** to do absurd things and make inspirational projects you <u>absolutely **do not** need to be on the bleeding edge</u>, have research funding, or be doing anything overly difficult. More than anything you just need an idea, and be willing to try it even if it will probably fail.
 
 ## Make doing absurd things easier
 
@@ -73,4 +69,10 @@ Good science fiction has always had it's hits and misses. We don't have flying c
 
 ## Integrate!
 
+One way I think the open source community has been working less than ideally for a while now is in failing to library-ize literally everything. I don't like the idea of microservices, but I do like the idea of everything being written in way that it's easy to take existing, open work and drop it into a larger system. Obviously this touches on my above points about sharing work and writing good documentation, but what I'd really like to see is more projects made in a way that make cool new features able to be transplanted for the things they were made for into systems the authors didn't envision. To some extent, this means using good software engineering practices ... something that is generally expensive and timing consuming, hence it not always being done. It's also sometimes a matter of competing standards- do you support Linux, Windows, Mac? If it's something in a 3D enigne do you use Unity, Unreal, or something else? It's not practical to support everything, yet competition is good.
+
+On the flip side, the benefits of having a standard that things hook in to speak for themselves. As my favorite point of refrence, consider modular synthesizers
+
 [TODO] allude to modular system's flexability because of Merge, ES-3/6, VCV, pedals, MIDI, etc.
+
+Now imagine if all of those amazing game engine demos, and even software at large supported this. In Linux, we have the pipe (`|`) but imagine the pipe on steroids, able to pass around video, audio, files, connection, etc in a way where all your applications could act as one cohesive system. Assuming enough compute horsepower, you could have your text editor feed into your video editor to syncronize your video and your script, highlighting discrepencies. You could have your video editor's time line be the same as the one used by the audio software, changes to the sound propagating from one to the other. Have the video's color tempature effect a filter, etc. This sounds like a standards ([relevant XKCD](https://xkcd.com/927/)) nightmare because, well, it is - but if we want meaningful improvment, I think this is where it's to be found.

@@ -136,4 +136,6 @@
 
 * [Oilslick Topographic Map](http://mrgris.com/projects/oilslick/)
 
+* [Harder Drive: Hard drives we didn't want or need (suckerpinch, YouTube)](https://www.youtube.com/watch?v=JcJSW7Rprio)
+
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>
