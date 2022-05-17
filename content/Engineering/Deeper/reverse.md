@@ -64,7 +64,7 @@ Don't forget your search enginer either though- looking up the FCC certification
 
 As for software, the big one is an executable reverse engineering tool like Radare2, Cutter, Ida, BinaryNinja, etc. 
 
-These let you take a compiled program and work your way back to source code... slowly. Of course, this sometimes isn't necessary. Hell, sometimes you just need to throw `strings` at the problem. Other times, the reverse engineering tool won't be enough, and you may need to throw [DIE](https://github.com/horsicq/Detect-It-Easy), [WCC](https://github.com/endrazine/wcc), [Binwalk](https://github.com/ReFirmLabs/binwalk), etc. at the problem. Of course, you shouldn't forget about watching the actually active state about the problam either, so GDB is still your friend - and [rr](https://rr-project.org) and [gef](https://gef.readthedocs.io/en/master/) make great companions to GDB. Other times, [cheatengine](https://www.cheatengine.org) may be useful for finding an important piece of memory, Valgrind for finding when memory goes wrong, and you've always got `strace` & `ltrace` handy. Keep in mind that there may be special binary reversing tools for your platform too, like apktool or 
+These let you take a compiled program and work your way back to source code... slowly. Of course, this sometimes isn't necessary. Hell, sometimes you just need to throw `strings` at the problem. Other times, the reverse engineering tool won't be enough, and you may need to throw [DIE](https://github.com/horsicq/Detect-It-Easy), [WCC](https://github.com/endrazine/wcc), [Binwalk](https://github.com/ReFirmLabs/binwalk), [pwntools](https://docs.pwntools.com/en/stable/), etc. at the problem. Of course, you shouldn't forget about watching the actually active state about the problam either, so GDB is still your friend - and [rr](https://rr-project.org) and [gef](https://gef.readthedocs.io/en/master/) make great companions to GDB. Other times, [cheatengine](https://www.cheatengine.org) may be useful for finding an important piece of memory, Valgrind for finding when memory goes wrong, and you've always got `strace` & `ltrace` handy. Keep in mind that there may be special binary reversing tools for your platform too, like apktool or 
 
 Resource hacker may be handy too.
 
@@ -112,3 +112,9 @@ I am not a lawyer, but a lawyer would tell you "It depends".
 It'd be nice if you could do whatever you want to anything you own, but IP is a bitch and if you put Linux on your PlayStation, Sony can probably sue you and win- same for emulating a Switch on your PC, getting root on your TV, etc. 
 
 Will they? Probably not. If you're actually woried about it, talk to a lawyer. If you think this is bullshit, then join me in giving everyone the middle finger and getting root on everything you own.
+
+# 34.2 - Resources
+
+[John Hammond (YouTube)](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
+
+[LiveOverflow (YouTube)](https://www.youtube.com/c/LiveOverflow)

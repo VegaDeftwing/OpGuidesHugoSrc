@@ -1044,6 +1044,8 @@ While the Arch Build System allows the ability of building software available in
 
 <p style="font-size: 30px;text-align: center;">⬢⬢⬢⬢⬡⬡⬡⬡⬡⬡</p>
 
+Most mere mortals will prefer working in a graphical environment instead of the terminal for literally everything (though it is possible to do some crazy things so you can browse the web comfortably from one). So, that means we'll need to grab display drivers corosponding to your graphics card (AMD, Nvidia, or Intel), pick a desktop environment and/or window manager (How everything looks and feels), and set up the Display Manager (What mostly serves as a login screen).
+
 {{< quote "[General Recommendations](https://wiki.archlinux.org/title/General_recommendations) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
 ### Graphical user interface

@@ -744,7 +744,7 @@ Sorce: Foalyy @ https://forum.kicad.info/t/cheatsheet-for-kicad/5247
 
 [TODO] - pick a PCB design to walk though making on this page - maybe an APC?
 
-* PCB specic things - Layers, Vias, fills, silk, mask, etc.
+* PCB specic things - Layers, Vias, fills, silk, mask, 0-ohm resistors,
 * Make it work
 * Make it not emit a ton of RF or go to shit when around it (everything is an antenna)
 * Make it pretty
@@ -773,19 +773,27 @@ https://llllllll.co/t/pcb-art-artfully-shaped-copper-traces/22027/2t
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I quite like this combination I soldered today: <a href="https://twitter.com/oshpark?ref_src=twsrc%5Etfw">@oshpark</a> &#39;s After Dark PCB with purple LEDs. This is my COPXIE project, which is inspired by PIXIE from <a href="https://twitter.com/lixielabs?ref_src=twsrc%5Etfw">@lixielabs</a> . More information can/will be also found here: <a href="https://t.co/BLMhnu95Vu">https://t.co/BLMhnu95Vu</a> <a href="https://t.co/Ssg1d1uNFN">pic.twitter.com/Ssg1d1uNFN</a></p>&mdash; Alex (@tinyledmatrix) <a href="https://twitter.com/tinyledmatrix/status/1319410599894417409?ref_src=twsrc%5Etfw">October 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The whole family - top ones are the oldest and the two test prototypes I made. There was issues with the micro I was using and I couldn&#39;t get it low enough power to run. Also assembly was really difficult. <a href="https://t.co/3mKgYs83Nr">pic.twitter.com/3mKgYs83Nr</a></p>&mdash; Loial Otter (@LoialOtter) <a href="https://twitter.com/LoialOtter/status/1250295830973534208?ref_src=twsrc%5Etfw">April 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 # Chapter 26.1 - PCB Components
 
-[TODO] Antennas (2.4ghz mostly), [Spark gaps](https://www.youtube.com/watch?v=vfP_65gSSBU&list=PL3C5D963B695411B6&index=25), [coils](https://www.youtube.com/watch?v=3DeOPN1Cl1Y), PCB capacitor, [distributed element filters](https://en.wikipedia.org/wiki/Distributed-element_filter), flexible PCB as connectors
+It turns out that there's quite a few components which you can make into the PCB itself, basically costing no more than the price for the extra area on the PCB.
 
-and technically resistors and [fuses](https://www.youtube.com/watch?v=CMlpCX0bug8), albeit ... eh.
+Probably the most common of these to see is antennas, usually for 2.4Ghz (WiFi and Bluetooth). These require some pretty gnarly math to design and make actually compliant with radio frequency regulations, but they're still pretty sweet.
 
-0-ohm resistors to keep 1-sidded
+[TODO] picture
 
-https://hackaday.com/2021/11/08/heavy-copper-pcb-hack-chat/
+You'll also ocassionally see [PCB Spark gaps (EEVblog, YouTube)](https://www.youtube.com/watch?v=vfP_65gSSBU&list=PL3C5D963B695411B6&index=25) which are useful for protecting againt high voltage spikes. Similarly, it's possible to make a fuse by using a very thin trace. See [This video by Leaf Rex (YouTube)](https://www.youtube.com/watch?v=CMlpCX0bug8)
 
+It's also possible to impliment coils, useful for inductive coupling or transformers - see [RGB LED, Inductively Powered, Frequency Controlled (Wolf Tronix, YouTube)](https://www.youtube.com/watch?v=3DeOPN1Cl1Y).
 
+Getting a bit weirder, you can also make a capacitor by using traces on different layers; however, you'll usually only be able to get up to a few hundred pico ferrads max. It's typically not worth the complexity introduced, espically as the exact value will be variable due to manufacturing tollerances.
+
+Entering the relm of black magic fuckery, you can actually make high frequency filters by adjusting the length and gaps between traces - these are called [distributed element filters](https://en.wikipedia.org/wiki/Distributed-element_filter) and are really fucking cool.
+
+Back to being useful for normal humans, flexible PCBs, while expensive, may allow you to design some things that would otherwise be quite difficult. Typically, the flexiblity shouldn't be repeatedly stressed, but it's a good way to add small, reliable connections between things.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The whole family - top ones are the oldest and the two test prototypes I made. There was issues with the micro I was using and I couldn&#39;t get it low enough power to run. Also assembly was really difficult. <a href="https://t.co/3mKgYs83Nr">pic.twitter.com/3mKgYs83Nr</a></p>&mdash; Loial Otter (@LoialOtter) <a href="https://twitter.com/LoialOtter/status/1250295830973534208?ref_src=twsrc%5Etfw">April 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Finally, I want to mention that there's some pretty esoteric PCB manufacturing methods, though the weirder you want, the more you pay. For example, making PCBs with [Heavy copper traces (Hackaday)](https://hackaday.com/2021/11/08/heavy-copper-pcb-hack-chat/) is totally possible, but you'll pay for it.
 
 # Chapter 26.2 - Pretty Boards & Badges
 

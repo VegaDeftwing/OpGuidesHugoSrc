@@ -2,17 +2,39 @@
 
 {{< tip >}}
 
-This page is a massive work in progress
+This page is a massive work in progress. Even the things that look done may be wrong.
 
 {{< /tip >}}
 
 <script>    document.getElementById("softMenu").open = true;</script>
+
+[TODO] break list up more
+
+* Sound Sources
+  * Vintage Synths
+  * Modern Synths
+  * Bass Synths
+  * Sampled / Acoustic Modeling
+  * Percussive
+* Effects
+  * Dynamics
+  * Filter
+  * Reverb
+  * Delay
+  * Trival
+  * Weird as fuck
+  * Misc
+* Tools
+  * Organization
+  * MIDI generation
 
 {{< hint >}}
 
 This is probably where the most bias of any of the lists on this page will show as I obviously can't list every possible plugin. Instead, I'll list those that I think are particularly good both in terms of value and function. While the list below does have ranking (copper, silver, gold) **everything** I'm listing I think is good, even the 'copper' ones!
 
 You *DO NOT NEED* everything on these lists! Many of these plugins will have overlapping features, and as mentioned plenty of times before, your DAW probably has the majority of this functionality built in, as stated back in the start of the effects chapter: USE THESE FIRST. They're lighter on CPU, fit into the DAW's workflow better, and generally are good enough for most things. Check out <a href="https://www.youtube.com/watch?v=Xgm1bGh-eyM">I Made A Song Using Only Ableton Stock Plugins (YouTube, Composerily)</a> if you don't believe me.
+
+I have tried to put a pretty good mix of professional and weird, free and paid, and traditional and novel tools on this list. This means that some will absolutely not be to your taste. Some may be to sterile, or may be wacky and useless to you.
 
 {{< /hint >}}
 
@@ -39,9 +61,343 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
 
 ### Effects
 
-<!-- Fabfilter stuff, Valhalla stuff, Melodyne, Soundtoys, Polyverse, Izotope, Ignite Emissary, Guitar Rig (player), Auburn Grallion, MJUC,   -->
+<table id="sort2" style="position:relative; width:130%; left: 0%;">
+<thead>
+  <tr>
+    <th role="columnheader">Name (MFR)</th>
+    <th role="columnheader">Description</th>
+    <th role="columnheader" style="width:35%">Screenshot</th>
+    <th role="columnheader">Category</th>
+    <th role="columnheader">Price in USD (approx)</th>
+    <th role="columnheader">Vega's Rating</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <!--- FabFilter Pro Q ---> 
+    <td><a href="https://www.xlnaudio.com/products/xo">XO</a></br>(XLN)</td>
+    <td>AI based sample organization</td>
+    <td><img src="https://assets.xlnaudio.com/pages/xo/1.2/gui-screens/main_2x.png" alt=" " width="100%"></td>
+	<td>Organization</br>🎛</td>
+	<td>0 ~ 80</br>🆓🧱🧑</td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  </tr>
+  <tr>
+    <!--- Valhalla Reverbs (Supermassive, Plate) & Delay ---> 
+    <td><a href="https://www.jthorborg.com/index.html?ipage=signalizer">Signalizer</a></br>(Lynggaard Thorborg)</td>
+    <td>Oscope+++ great for finding issues in your mixs</td>
+    <td><iframe width="100%" height="220" src="https://www.youtube.com/embed/dHWDmufiohc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+	<td>Visulization</br>🎛</td>
+	<td>0 ~ 80</br>🆓🧱🧑</td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  </tr>
+<tr>
+    <!--- Peel ---> 
+    <td><a href="https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/7190-PEEL">Peel</a></br>(zplane)</td>
+    <td>Easy to use tool for isolating parts in a mix - steep, stereo filtering</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+ 	 </tr>
+    <!--- X-Noise ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+	<tr>
+    <!--- Ignite Emissary ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+	<tr>
+    <!--- Unfiltered Triad ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Triad</a></br>(Unfiltered Audio)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+	<tr>
+    <!--- Unfiltered SpecOps ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">SpecOps</a></br>(Unfiltered Audio)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+	<tr>
+    <!--- Ufiltered Sandman Pro ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Sandman Pro</a></br>(Unfiltered Audio)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Ufiltered Instant Delay ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Instant Delay</a></br>(Unfiltered Audio)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Ufiltered Dent 2 ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Dent 2</a></br>(Unfiltered Audio)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Ufiltered Fault ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Fault</a></br>(Unfiltered Audio)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Ufiltered Byome ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Byome</a></br>(Unfiltered Audio)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Output Portal ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Portal</a></br>(Output)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Output Thermal ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Thermal</a></br>(Output)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Noise Engineering Desmodus ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Desmodus</a></br>(Noise Engineering)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Noise Engineering Ruina ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">XRuina</a></br>(Noise Engineering)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Neural DSP Archetype Gojira ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Neural DSP Archetype Gojira ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Neural DSP Archetype Gojira, Nolly,  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Nectar 3 (As Pitch Shifter)  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Ghz Lohi 3  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Ghz Megaverb 3  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Ghz Trem Control 3  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Devious Machines Pitch Monster  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Baby Audio Taip  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Baby Audio Super VHS  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Aberrant DSP Digitalis  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- UVI Shade  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Puremagnetik Pastfabric  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Puremagnetik Octavlord  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Puremagnetik Clusters  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Polyverse Gatekeeper  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Gatekeeper</a></br>(Polyverse)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Polyverse Manipulator  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Manipulator</a></br>(Polyverse)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Eventide Qudra/Octavox  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Octa/Qudravox</a></br>(Eventide)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Eventide Blackhole  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Blackhole</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- D16 Decimort2  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Decimort 2</a></br>(D16 Group)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+   <!--- D16 Tekturon  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Tekturon</a></br>(D16 Group)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+   <!--- D16 Redoptor  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+ <!--- MJUC  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">MJUC</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+</tbody>
+</table>
 
-### Audio Sourcess
+<!-- Fabfilter stuff, Valhalla stuff, Melodyne, Soundtoys, Polyverse, Izotope, Ignite Emissary, Guitar Rig (player), Auburn Grallion, MJUC, U-HE Colur Copy   -->
+
+### Audio Sources
 
 <!-- Need to add Labs, Phaseplant, Reaktor, SynPlant, That ROLI one, Felt instruments,  -->
 
@@ -62,6 +418,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
 </thead>
 <tbody>
   <tr>
+    <!--- Vital ---> 
     <td><a href="https://vital.audio">Vital</a></br>(Matt Tytel)</td>
     <td>Spectral Morphing Wavetable Synth</td>
     <td><video width="100%" autoplay="" loop="" muted="" playsinline="" loading="lazy" src="https://vital.audio/videos/full_screen.mp4"></video></td>
@@ -70,6 +427,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
   </tr>
   <tr>
+    <!--- Pendulate ---> 
     <td><a href="https://www.eventideaudio.com/products/third-party-plug-ins/chaotic-generator/pendulate">Pendulate</a> & <a href="https://www.eventideaudio.com/products/third-party-plug-ins/chaotic-synth/generate">Generate</a></br>(Eventide & Newfangled Audio)</td>
     <td>Chaos Synths, Pendulate being the limited, free version</td>
     <td><img src="https://com-eventide-drupaluserfiles.s3.amazonaws.com/product/images/GenerateScreenShot.png" alt=" " width="100%"</td>
@@ -78,6 +436,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><p hidden>1</p><img src="/copper.svg" alt=" " height="40em"></td>
   </tr>
   <tr>
+    <!--- XFER Serum ---> 
     <td>Serum (XFER)</td>
     <td></td>
     <td></td>
@@ -86,6 +445,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><p hidden>1</p><img src="/copper.svg" alt=" " height="40em"></td>
   </tr>
   <tr>
+    <!--- Pigments ---> 
     <td><a href="https://vital.audio">Pigments</a></br>(Arturia)</td>
     <td>Incredibly Multifunction Synth</td>
     <td><img src="https://medias.arturia.net/images/products/pigments/pigments-image.png" alt=" " width="100%"></td>
@@ -94,6 +454,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
   </tr>
   <tr>
+    <!--- Analog Lab V ---> 
     <td><a href="https://www.arturia.com/products/analog-classics/analoglab-v/overview">Analog Lab V</a> (Arturia)</td>
       <td>Curated Presets from clasic synths.</br></br>See the much more expensive <a href="https://www.arturia.com/products/analog-classics/v-collection/overview">V collection</a> if you want to dive in to each synth directly.</td>
     <td><img src="https://medias.arturia.net/images/products/analoglab-v/analoglab-v-image.png" alt=" " width="100%"></td>
@@ -102,6 +463,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><p hidden>2</p><img src="/silver.svg" alt=" " height="40em"></td>
   </tr>
   <tr>
+    <!--- Komplete ---> 
     <td><a href="https://www.native-instruments.com/en/products/komplete/samplers/kontakt-6/">Kontakt</a></br>(Native Instruments)</br></br><b>Depends on libraries. See bottom of this page for a list of good ones!</b></td>
     <td>Sampler with huge range of libraries available, Kontakt Player is a limited free versions, you probably want <a href="https://www.native-instruments.com/en/products/komplete/bundles/komplete-start/get-komplete-start/">Komplete Start</a>, which includes Kontakt Player.</td>
     <td><img src="https://www.native-instruments.com/typo3temp/pics/img-ce-gallery-image-gallery_1-6ae0d1d0eb9eb564111025f4edf3dec2-d@2x.jpg" alt=" " width="100%"></td>
@@ -110,6 +472,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><p hidden>2</p><img src="/silver.svg" alt=" " height="40em"></td>
   </tr>
   <tr>
+    <!--- Guitarist ---> 
     <td>Guitarist</td>
     <td></td>
     <td></td>
@@ -118,7 +481,8 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td></td>
   </tr>
   <tr>
-    <td>ABL3</td>
+    <!--- ABL3 ---> 
+    <td>ABL3 or Phoscyon </td>
     <td>Emulation of the classic TB-303. You can buy a Behringer hardware clone for not much more, but this is easier to use imho, and Behringer is a horrible company so please don't support them.</td>
     <td></td>
     <td>Synth</td>
@@ -126,6 +490,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td></td>
   </tr>
   <tr>
+    <!--- APC ---> 
     <td><a href="https://plugins4free.com/plugin/3181/">APC: </br> Ample Percussion Cloudrum</a></td>
     <td>A cute lil' Cloudrum</td>
     <td><img src="https://www.amplesound.net/images/ag/apc01.jpg" alt=" " width="100%"></td>
@@ -134,6 +499,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><p hidden>1</p><img src="/copper.svg" alt=" " height="40em"></td>
   </tr>
   <tr>
+    <!--- Alter Ego ---> 
     <td>Alter Ego</td>
     <td></td>
     <td></td>
@@ -142,6 +508,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td></td>
   </tr>
   <tr>
+    <!--- Dexed ---> 
     <td>Dexed</td>
     <td>Alternatively, check out DX7 V Arturia's DX-7 Emulation with a much better UI than Dexed</td>
     <td></td>
@@ -150,6 +517,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td></td>
   </tr>
   <tr>
+    <!--- Surge ---> 
     <td>Surge</td>
     <td></td>
     <td></td>
@@ -158,6 +526,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td></td>
   </tr>
   <tr>
+    <!--- Synth 1 ---> 
     <td><a href="http://daichilab.com">Synth 1</a></br>(Daichi )</td>
     <td>Emulation of Nord Lead 2, but better. You'll probably want the preset pack</td>
     <td><img src="https://secureservercdn.net/198.71.233.109/h0y.f02.myftpupload.com/wp-content/uploads/2019/10/synth1-free-vst-synth-1.png" alt=" " width="100%"></td>
@@ -166,7 +535,116 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><p hidden>1</p><img src="/copper.svg" alt=" " height="40em"></td>
   </tr>
   <tr>
+    <!--- Massive ---> 
     <td>Massive</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <!--- Spitfire Labs ---> 
+    <td>Labs (Spitfire)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <!--- Noise Engineering Virt Vereor ---> 
+    <td>Virt Vereor (Noise Engineering)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <!--- Noise Engineering Sinc Vereor ---> 
+    <td>Sinc Vereor (Noise Engineering)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <!--- Noise Engineering Cursus Vereor ---> 
+    <td>Cursus Vereor (Noise Engineering)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <!--- Noise Engineering BIA ---> 
+    <td>Basimilus Iteritas (Noise Engineering)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <!--- Halley Labs Nuxx ---> 
+    <td>Nuxx (Halley Labs)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <!--- Halley Labs ill.logic+Maths ---> 
+    <td>ill.logic+maths (Halley Labs)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <!--- Halley Labs damascuss ---> 
+    <td>damascus (Halley Labs)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <!--- Halley Labs Ambivac ---> 
+    <td>ambiVAC (Halley Labs)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <!--- Dawesome Abyss ---> 
+    <td>Abyss (Dawesome)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <!--- Audiaire Zone ---> 
+    <td>Zone (Audiaire)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <!--- Superior Drummer 3 ---> 
+    <td>Superior Drummer 3 (?)</td>
     <td></td>
     <td></td>
     <td></td>
@@ -175,6 +653,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
   </tr>
 </tbody>
 </table>
+
 
 
 
@@ -194,23 +673,77 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
 </thead>
 <tbody>
   <tr>
+    <!--- XO ---> 
     <td><a href="https://www.xlnaudio.com/products/xo">XO</a></br>(XLN)</td>
     <td>AI based sample organization</td>
     <td><img src="https://assets.xlnaudio.com/pages/xo/1.2/gui-screens/main_2x.png" alt=" " width="100%"></td>
-	<td>Synth</br>🎛</td>
+	<td>Organization</br>🎛</td>
 	<td>0 ~ 80</br>🆓🧱🧑</td>
     <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
   </tr>
   <tr>
+    <!--- Signalizer ---> 
     <td><a href="https://www.jthorborg.com/index.html?ipage=signalizer">Signalizer</a></br>(Lynggaard Thorborg)</td>
     <td>Oscope+++ great for finding issues in your mixs</td>
     <td><iframe width="100%" height="220" src="https://www.youtube.com/embed/dHWDmufiohc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-	<td>Synth</br>🎛</td>
+	<td>Visulization</br>🎛</td>
 	<td>0 ~ 80</br>🆓🧱🧑</td>
     <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
   </tr>
+<tr>
+    <!--- Peel ---> 
+    <td><a href="https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/7190-PEEL">Peel</a>		</br>(zplane)</td>
+    <td>Easy to use tool for isolating parts in a mix - steep, stereo filtering</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+ 	</tr>
+	<tr>
+    <!--- X-Noise ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+	<tr>
+    <!--- Gullfoss (Soundtheory) ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Gullfoss</a></br>(Soundtheory)</td>
+    <td>Mastering</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Scalar 2 ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Gullfoss</a></br>(Soundtheory)</td>
+    <td>Mastering</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Polyverse Wider ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Gullfoss</a></br>(Soundtheory)</td>
+    <td>Mastering</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+    <!--- Hy-RPE2 ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Gullfoss</a></br>(Soundtheory)</td>
+    <td>Euclidean Sequencing</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
 </tbody>
 </table>
+
 
 ## Apps
 
@@ -352,6 +885,10 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
 
 [4phgp by Ferenc Vincze](https://gumroad.com/prepetuum?recommended_by=search#KHZsH) - a free 'Four Playhead Granular Player'
 
+[Mapulator](https://djtechtools.com/2012/02/16/mapulator-advanced-midi-mapping-for-ableton/) - make a macro knob with different arcs per destination
+
+[KDevices Modulators 21](https://k-devices.com/products/modulators21/) - Some really nice LFO and utility modules
+
 {{< /details >}}
 
 {{< details "Monme Norns Devices" >}}
@@ -389,3 +926,118 @@ https://sensai7.github.io/ZOIACheatsheet/
 https://patchstorage.com/platform/zoia/
 
 {{< /details >}}
+
+## Vega's Top 50 VCV Rack Modules
+
+⚠ = Not available in Library, may require compilation
+
+💵 = Not Free
+
+👉👈 = Made by me
+
+📦 = Included in VCV
+
+----
+
+1. 📦 Scope (VCV)
+
+2. ZZC Clock + Expanders
+
+3. Mixmaster + Auxpander + EqMaster (Mindmeld)
+
+4. CompⅡ (Squinky)
+
+5. Plateau (Valley)
+
+6. Chronoblob (Alright Devices)
+
+7. ⚠Quatherina’s Quality Quad Quantizer Presented by Quatherina the Quantum Duck
+
+8. 💵Shapemaster (Mindmeld)
+
+9. 💵Flame (Vult)
+
+10. [harmonàig](https://library.vcvrack.com/Instruo/harmonaig)
+
+11. Rampage (Befaco)
+
+12. Palette
+
+13. 📦 VCA (VCV)
+
+14. Digital Sequencer
+
+15. PSI OP
+
+16. Simpliciter (Nysthi)
+
+17. Tangents (Vult)
+
+18. Entropia (Geodesics)
+
+19. 📦Octave (VCV)
+
+20. Fate (Geodesics)
+
+21. Utilities (Kinks)
+
+22. 💵Parametra (VCV)
+
+23. Caudal (Vult)
+
+24. Hi-Hat (Hora)
+
+25. 💵Valerie (Lindenberg)
+
+26. Noise Plethora
+
+27. Ferox (Vult)
+
+28. 👉👈 Vega (LyraeModules)
+
+29. BZ-Mapper (Nysthi)
+
+30. 💵Knock (Vult)
+
+31. Analyzer XL (BogAudio)
+
+32. Topograph (Valley)
+
+33. ⚠Transit
+
+34. Tap Dancer
+
+35. Basal (Vult)
+
+36. Percussive Vibration
+
+37. ⚠Glue
+
+38. Arp (Bogaudio)
+
+39. Quad Algorithmic Rhythm (Frozen Wasteland)
+
+40. Energy (Geodesics)
+
+41. Terrorform (Valley)
+
+42. 💵Sangster (Lindenberg)
+
+43. 👉👈 Pink Trombone
+
+44. Cable Colour Key
+
+45. Dexter (Valley)
+
+46. Meander
+
+47. ⚠Tourette (Wrong People)
+
+48. ⚠μMap
+
+49. Dual Attenuverter (Befaco)
+
+50. slf (Wiqid)
+
+    
+

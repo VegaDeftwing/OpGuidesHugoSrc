@@ -2,7 +2,7 @@
 title: "Why did I pay to go to college?"
 slug: "whydidipay"
 author: "Vega Deftwing"
-date: 2021-05-25
+date: 2022-05-17
 draft: false
 tags:
 - personal
@@ -19,7 +19,7 @@ The Nebraska Union at UNL, photo by ensign_beedrill, [CC BY-SA 2.0](https://crea
 
 {{< /attribution >}}
 
-I am currently a student at the University of Nebraska - Lincoln, where I study Computer and Electrical Engineering as a dual major. I have a serious passion for both of these subjects, which is why I am so incredibly frustrated at how negative my experience at UNL has been, especially in the classes that directly relate to my major. This frustration is a large part of why I started OpGuides, so I thought I'd share it with the world.
+At the time of writing, I am currently a student at the University of Nebraska - Lincoln, where I study Computer and Electrical Engineering as a dual major. I have a serious passion for both of these subjects, which is why I am so incredibly frustrated at how negative my experience at UNL has been, especially in the classes that directly relate to my major. This frustration is a large part of why I started OpGuides, so I thought I'd share it with the world.
 
 This article's purpose is highlight the shortcomings of my college experience. While I am going to try to summarize each semester, there is no way I can possibly capture all of my daily struggles and frustrations or possibly mention all the great people that have helped me along the way. Nor can I possibly put into words the value of the friendships I have made, the joy that I've had at some university hosted events, and some of the amazing benefits that come with college that are not academic. I also can't fully provide context about what was going on in my life or what personal achievements or projects I was working on at any given time. This is a huge span of time to try to sum up. Despite this, I hope their are some nuggets of wisdom you can extract. I've tried to pre-bake these nuggets for you as much as I could, if you don't want the full story, you can jump straight the bulleted list of conclusions at the bottom of the page.
 
@@ -207,13 +207,15 @@ During this time UNL did have an incident with a [Racist](https://journalstar.co
 
   'Algos was odd. The class did make me a better programmer, but it had some really annoying issues. Primarily, the lectures were often repeats, sometimes up to 3 or 4 times of covering *exactly* the same material, but attendance was graded. This got old very quickly.
 
+  I sat next to a friend that had a service dog that, on multiple occasions, had to be woken up as the dog's snores were interrupting class.
+
 * Circuits Ⅱ
 
   Same prof as before, still just as monotone, but this time the class picked up in pace, possibly a bit too much, and still lacked doing things with Spice or other sim tools, lab was still very meh. Lots of focus on big, power electronics. Not my cup of tea.
 
 * Technical Communication
 
-  just.... not good? This class largely felt like busy work, and for the final presentation we had to give for the class, my partner just up n' disappeared on me, leaving me to do it myself.
+  Just.... not good? This class largely felt like busy work, and for the final presentation we had to give for the class, my partner just up n' disappeared on me, leaving me to do it myself. Ironic, given the class.
 
 * Differential Equations
 
@@ -245,7 +247,7 @@ I had a lot going on outside of school, so I intentionally took a rather chill s
 
 * Embedded System
 
-  I yet again had a professor for which it was his first semester teaching. He was... not great. We used the Arudino Uno and built a tiny wall-avoiding robot and did a few other labs, and... cool, I guess? It was the kinda thing that should be tought in high school, not college. We (mostly) didn't use the Arduino framework, instead poking registers directly, which made the class a bit more valuable, but still, I found it a bit lack luster. I often found that I knew more about the 328p CPU and it's features, debuggers and simulators that were available, etc. than the prof did. I have heard the prof has since gotten a lot better at teaching though, and one of my good friends had a really good experience taking the advanced variant of the course with him, where he used an FPGA instead of an μC.
+  I yet again had a professor for which it was his first semester teaching. He was... not great. We used the Arudino Uno and built a tiny wall-avoiding robot and did a few other labs, and... cool, I guess? It was the kinda thing that should be tought in high school, not college. We (mostly) didn't use the Arduino framework, instead poking registers directly, which made the class a bit more valuable, but still, I found it a bit lack luster. I often found that I knew more about the 328p μC and it's features, debuggers and simulators that were available, etc. than the prof did. I have heard the prof has since gotten a lot better at teaching though, and one of my good friends had a really good experience taking the advanced variant of the course with him, where he used an FPGA instead of an μC.
 
 * Physics Ⅰ (Actually taking it this time instead of withdrawing early)
 
@@ -253,7 +255,7 @@ I had a lot going on outside of school, so I intentionally took a rather chill s
 
 * Philosophy
 
-  This class? Well it was an experience. It was 5pm to 8pm iirc, and trying to force yourself to care about basic philosophy for three hours straight is a bit brutal. I did find the class interesting though and am glad I took it. Plus, the 10 minute break the prof allowed in the middle was just barely enough for me to max-speed penny board to Wendy's, grab a meal to go and scarf it down before he started teaching again.
+  This class was an *experience*. It was 5pm to 8pm iirc, and trying to force yourself to care about basic philosophy for three hours straight is a bit brutal. I did find the class interesting though and am glad I took it. Plus, the 10 minute break the prof allowed in the middle was just barely enough for me to max-speed penny board to Wendy's, grab a meal to go and scarf it down before he started teaching again.
 
 ## 7 - Senior, Fall '19
 
@@ -271,7 +273,7 @@ I had a lot going on outside of school, so I intentionally took a rather chill s
 
 * Signals and Systems
 
-  Taught by Dr. Khalid Sayood, this class was probably my **best** experience at UNL. Don't get me wrong, that class was tough, but I have never had a prof so skilled at teaching, so invested in his students, and so down to earth. Learning from Dr. Sayood will almost certainly stand out as the highlight of my time at UNL.
+  Taught by Dr. Khalid Sayood, this class was probably my **best** experience at UNL. Don't get me wrong, this class was tough, but I have never had a prof so skilled at teaching, so invested in his students, and so down to earth. Learning from Dr. Sayood will almost certainly stand out as the highlight of my time at UNL.
 
 ## 8 - Senior, Spring '20
 
@@ -285,7 +287,7 @@ If the quality of my professors and classes didn't piss me off before, this is t
 
 * Operating System Kernels
 
-  This class was a hard, the prof was very 'meh'. The prof hadn't even taught in many years, but had to take up the torch again because the guy that normally taught the class had been promoted. I did learn a lot, albeit I think that's mostly because the [textbook we used](https://pages.cs.wisc.edu/~remzi/OSTEP/) was very, very good.
+  This class was a hard, the prof was very 'meh'. The prof hadn't even taught in many years, but had to take up the torch again because the guy that normally taught the class had been promoted. I did learn a lot, albeit I think that's mostly because the [textbook we used, Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) was very, very good.
 
 * EE LabⅠ
 
@@ -409,11 +411,115 @@ This semester was entirely done online due to COVID-19. Computer Architecture, D
 
 * Into to Machine Learning
 
-  <img src="/nonfree/blog/stressedclass.png" alt="stressedclass" style="zoom:75%;" />
+  This class consumed FAR more time than any one class should,
+  
+  <img src="/nonfree/blog/stressedclass.png" alt="stressedclass" style="zoom:75%;-webkit-filter: invert(.9);filter: invert(.9);" />
+  
+  The professor was pretty cool though. In response to me asking if his class would use Respondus or Proctorio (so I could avoid it if it did) he sent what may well be my favorite email I've ever received while at UNL:
+  
+  > Short answer: no, I won't use them.
+  >
+  > Slightly longer answer: I won't use them since there will be no exams or quizzes in this course.
+  >
+  > Even longer answer: Even if I did have exams or quizzes, there's no way in hell I'd use that awful, awful software. My conscience and my son would never forgive me.
 
 ---
 
-Right after my last final of the semester I was able to get my first dose of the COVID vaccine.
+Right after my last final of the semester I was able to get my first dose of the COVID vaccine. I also, with the help of [Soatok](https://soatok.blog), [submitted an issue on Github](https://github.com/rokwire/safer-illinois-app/issues/687) for the COVID contact tracing app that UNL used.
+
+## 11 - Senior++, Fall '21
+
+* Electrical Engineering Lab II
+
+  This lab was a fucking shit show. There were supposed to be 8 labs. Labs 1,2,3,4,5 and 7 were actually assigned. Not due to lack of time, no, they just never got written for students to do in the first place. Worse, because COVID, all of this class was remote, so I had to do the labs from home with my own equipment (Though, to be fair, my own equipment is better than what is available in the labs)
+
+  So, about the labs?
+
+  Lab 1 was, for some reason in a class that is supposed to be taken by upperclassman, about Inductors. This would be fine, except they wanted 100mH and 10mH inductors and failed to actually sell the lab kit, leaving very little time to source these parts which I didn't have on hand.
+
+  Lab 2, again keeping with the "Why am I doing this circuitsⅠ level work?" theme, was about RLC filters and power factor correction.
+
+  Lab 3, rectifiers and smoothing. Again pretty lame. Didn't even talk about active rectifiers, switch mode PSUs or anything. Just your normal full bridge rectifier
+
+  Lab 4 & 5, finaly hitting something non-trival: Transistors, and basic amplifer circuits. This would have been fine, except the labs were written to be exceptionally confusing. Good times.
+
+  Finally, Lab 7, the only mildly well written one, was about active filters. It was fine.
+
+  Then, there was a finaly project. Only, due to the poor planning of the Instructor and Lab TAs (if it weren't already evidant by the lack of labs 6 & 8) there was only two weeks to do it and it was during finals week. Fortuanately, they let me count my already mostly-done work modding a Behringer TD-3 synthesiser, but this was just following a guide, so it was a bit weird to count.
+
+* Linear Control Systems
+
+  This class was half online and half in person. The biggest problems with it were pacing and MatLab. The beggining of the class was ungodly slow, then the latter half went so fast as to try to cover state-space in a week. Not ideal. The MatLab would have been fine, except that it was assumed we were all already profient in MatLab, while no of us were.
+
+  Fortuantely, the professor was very accomodating and largely made up for the issuses.
+
+* Communication Systems
+
+  Should have been called **Analog** Communitacion Systems, as digital was *almost* entirely ignored. Still, I learned a lot about the actual math of FM and AM transmission and how to quantify signal quality. Tests were written to be tricky in a way that those good at doing pencil and paper math quickly dominated those that actually understood the theory, which bothers me.
+
+* Digital Signal Processing
+
+  All the Matlab. Matlab everywhere. This class went well, professor was great. Focused mostly on filters and the FFT. No envelope generation or oscilattors here. Still, pretty neat.
+
+* Capstone Ⅰ
+
+  See bellow ↓
+
+... Between semesters I got COVID. That was very not fun.
+
+## 12 - Senior++, Spring '22
+
+* DoWTFYouWant "Research"
+
+  I needed three extra credit hours to remain a full time student for loan purposes, and there was pretty much nothing available, so, I asked a prof if I could go learn about shaders, GpGPU, and some basic Unity dev as a class. I actually think this class had me learn more than any other in my Senior++ year and I tought myself.
+
+* Embedded DSP
+
+  Used the TI C5502. The C55xx series really just needs to die IMHO. The ancient version of Code Composer Studio was the actual worst. Still, we made some FIRs and NCOs, hand optimized them with some assembly. Generally, this class did result in me becoming a better programmer, even if it was painful at times.
+
+* Advanced Embedded Systems
+
+  Used a custom RiscV μC developed by the graduate student teaching the class - even had the UNL "N" as art in the silicon. Chip also had a pretty cool programmable OpAmp section and Neural Network. Neat!
+
+  The class started with a nice overview of some deeper parts of C: The build processes, structures, bit fields, etc. Then dove into making a driver file for the onboard SPI flash chip, writing a basic blink program in RISC-V ASM, setting up DMA for an ADC and DAC, and looking at the nitty-gritty of I2C. Overall, went very well. 
+
+* Capstone Ⅱ
+
+  The Capstone / Senior Design project is supposed to be where we show what we can do with the cumulative knowledge acquired though the engineering program. Being both a CE and EE, I had the choice to do either the CS Capstone or the EE Capstone. The CS capstone would be almost entirely software and would involve doing free work (well, worse, actually paying for the credit hours) for a "sponsor" company on a project of their choosing.
+
+  Given that I value myself enough not to work for free and because I enjoy hardware too I chose the EE capstone. Fortunately, with that we also get to choose our own projects and groups. I found a group of 3 other guys that I had barely interacted with before that day but that I thought seemed capable. Fortunately, I was right. They lacked project ideas while I brought a half dozen to the table. Of these ideas, we chose to build a hybrid analog and digital drum machine. I'll spare the details here, but my part of the project was to make the sequencer, digital drums, and about half of the controller board that hooks the analog drums up to the digital ones. I did with a Raspberry Pi 3B+, some hats, some keyboards running QMK, Purr Data, and a nice smattering of Python. In the end, I think I made a pretty good looking UI and the sequencer was fun to use.
+
+  My group mostly handled the analog circuitry, which, went less-well. Many of the analog drums and the analog filter just failed to work. Not great, but in fairness, debugging code is often easier than debugging circuits, and doesn't have issues with flakey connection or hard to solder bodge wires.
+
+  In the end, we won first place across the EE projects - though I suspect that's largely because we at least had something to show. Many of the other projects didn't work at all. [Here's a video overview of the project.](https://www.youtube.com/watch?v=YwxuVqh-gg8)
+
+  The really wasn't a "class" here. Just a professor we met with once a week and chatted with, often not even about the project. Fortunately, that professor is my absolute favorite of my time at UNL and from just chatting with him I learned more than I have from many of my other classes. It's nice to just absorb some wisdom though conversation.
+
+## Graduation
+
+{{< columns >}}
+
+Graduation was not great. They did give us our actual, real diplomas on the stage. However, the ceremony itself was very poorly planned. It was in the football stadium on a nearly 90°F day around noon, while we were all wearing black robes. They even felt the need to explain the history of the robes and how the were originally to keep warm while all of us were cooking. My girl friend came out of it a lobster from the sunburn.
+
+Worse, they gave out diplomas across 4 stages but to save time didn't announce names... or display them on a screen... or even make the stage easily visible to friends and family. Nobody could really tell when the person they were there for was even walking.
+
+Still, with that it was over.
+
+After the ceremony, friends and family were set to come to my house for a little party. Unfortunately, my grandfather had a heart attack the night before and so most of my family was scrambling to help him. We had enough food for 40 with a part of 10. Oh well. I still managed to have a good time.
+
+<--->
+
+![furrygrad](/nonfree/blog/furrygrad.webp)
+
+{{< /columns >}}
+
+## What's next
+
+I have a job I'll be starting June 6th, 2022. I'll be moving to be closer to that in July. I'll be paying off my student loans until I'm dead.
+
+## What I left out
+
+I've tried to make this mostly reflective of my experiences with college, but some personal experiences and adventures I've been on wouldn't have happened if I hadn't gone to college. I've also left out some of my experiences with campus organizations like OS2G (Operating Systems and Open Source Group) and F.L.U.F.F (UNL's furry group). These are almost universally positive experiences, and I feel it's worth mentioning that these do offset some of the negatives throughout this post.
 
 # Conclusions
 
@@ -476,3 +582,26 @@ I originally had a multi page rant here, but instead, I've decided that some bul
   * If your college does a final project (often called Capstone) and they want you to do work for a corprate/business 'sponsor' for free, tell them to   *g o   f u c k   t h e m s e l v e s*.  DO. NOT. DO. WORK. FOR. FREE.
 * Colege is ᵥₑᵣᵧ, very , ᵛᵉʳʸ, extremely, ¸,ø¤º° extraordinaly °º¤ø,¸ , 𝕦𝕟𝕗𝕒𝕥𝕙𝕠𝕞𝕒𝕓𝕝𝕪, *ludicriously*, obnoxiously expensive.
 * At the end of the day, you still need that degree to get most jobs that you actually want, so if you can't avoid it- you may as well fight to make it worth something.
+
+# Data
+
+| Letter            | Count (# of Classes)    | Credit Hours          |
+| ----------------- | ----------------------- | --------------------- |
+| C-*               | 2                       | 7                     |
+| C                 | 6                       | 21                    |
+| C+                | 2                       | 7                     |
+|                   | **10** Classes with C's | **35** Credits of C's |
+| B-                | 3                       | 9                     |
+| B                 | 7                       | 18                    |
+| B+                | 5                       | 19                    |
+|                   | **15** Classes with B's | **46** Credits of B's |
+| A-                | 5                       | 13                    |
+| A                 | 11                      | 31                    |
+| A+                | 11                      | 28                    |
+|                   | **27** Classes with A's | **72** Credits of A's |
+| **GRADED TOTAL:** | **52** Graded Classes   | **153** Credit Hours  |
+| Pass/NoPass       | 5                       | 5                     |
+| Withdraw          | 1                       | 4                     |
+| **TOTAL**         | **58** Classes          | **162** Credit Hours  |
+
+\* Note, 3 credit hours of C- was retaken (CalculusⅡ), but is counted here. The retaken class resulted in 3 credit hours of B+, which is also counted.

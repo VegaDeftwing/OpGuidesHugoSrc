@@ -174,7 +174,7 @@ The default settings are still shit.
 
 On webcams you have auto-white balance, auto-focus, auto-gain, etc. and everything it tries to do is awful. On a laptop where it will legitimately be in a different setting regularly, that's some-what forgivable, but on a desktop webcam? Like, the only variable here is if there's a window letting light in. Make calibration easy and give me a white-balance slider. Please. Or just make better cameras and let the open source community make better drivers. I assure you there are plenty of rage-filled nerds willing to make your product not suck so hard.
 
-Right now, my best webcam is *my phone* running [droidcam](https://www.dev47apps.com). I have the (at time of writing) $80 logitech C920 webcam. A device which is meant to ONLY be a camera. It has one job. Yet, this awkward hack using my phone looks MUCH better.
+Right now, my best webcam is *my phone* running [droidcam](https://www.dev47apps.com). I have the (at time of writing) $80 logitech C920 webcam. A device which is meant to ONLY be a camera. It has one job. Yet, this awkward hack using my phone looks MUCH better. Otherwise, if you have money to throw at the problem you can [Use a "Proper" Camera as a Webcam (Laurence Tratt)](https://tratt.net/laurie/blog/2022/using_a_proper_camera_as_a_webcam.html)
 
 ---
 

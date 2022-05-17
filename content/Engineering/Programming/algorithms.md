@@ -172,11 +172,18 @@ Now, the take away here should *not* be that the compiler is magic and means you
 Some benchmarking tools are language dependent, some aren't. Generally, those that are will get you deeper insights but be more annoying to run. Also, keep in mind some tools actually add some time to run *because* of measuring the performance (Heisenberg style). Regardless, a pile of links to look though:
 
 * Python [Flame Graphs](https://www.brendangregg.com/flamegraphs.html)
+
 * C and C++ [Flame Graphs](https://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html)
+
+  > You may want to use [Pyroscope](https://github.com/pyroscope-io/pyroscope) or [Hotspot](https://github.com/KDAB/hotspot) instead of the tools in those links
+
 * Chrome and Firefox both have Flame graph tools built in
+
 * Using [Hyperfine (Github)](https://github.com/sharkdp/hyperfine) to measure run times is amazing
 
-Of course, you can always just `print()` the time before and after the event that you think might be eating cycles too.
+* If you really need deep insights, [Palanteer](https://github.com/dfeneyrou/palanteer) may be worth checking out (Python or C++)
+
+Of course, you can always just `print()` the time before and after the event that you think might be eating cycles too - though print debugging is pretty bad - see [Print Debugging Should Go Away (Robert O'Callahan)](https://robert.ocallahan.org/2021/04/print-debugging-should-go-away.html) which reccomends using tools like [rr](https://rr-project.org) or [TDD](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/time-travel-debugging-overview) or [replay.io](https://www.replay.io/pricing) instead. Though, even failing that, something like [icecream](https://github.com/gruns/icecream) (available for many languages) is still better than traditional printing for debug.
 
 It's also a good idea to test on multiple platforms, both in terms of hardware and operating system (assuming you're targeting more than one OS) as some functions tend to have wildly varrying performance - particularly system level functions (`print()`, I/O) and math functions like `sin()` - there's a lot of ways to compute trig functions, not all of them are fast. 
 
