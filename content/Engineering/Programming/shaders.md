@@ -268,6 +268,8 @@ https://www.shadertoy.com/view/ltyXD1
 
 https://www.shadertoy.com/view/XlcyD8
 
+https://chakazul.github.io/Lenia/JavaScript/Lenia.html
+
 #### Slime mold
 
 https://www.shadertoy.com/view/WtBcDG

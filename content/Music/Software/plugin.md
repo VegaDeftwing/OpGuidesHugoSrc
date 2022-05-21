@@ -75,20 +75,29 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
 <tbody>
   <tr>
     <!--- FabFilter Pro Q ---> 
-    <td><a href="https://www.xlnaudio.com/products/xo">XO</a></br>(XLN)</td>
-    <td>AI based sample organization</td>
-    <td><img src="https://assets.xlnaudio.com/pages/xo/1.2/gui-screens/main_2x.png" alt=" " width="100%"></td>
-	<td>Organization</br>🎛</td>
-	<td>0 ~ 80</br>🆓🧱🧑</td>
+    <td><a href="https://www.xlnaudio.com/products/xo">Pro-Q 3</a></br>(FabFilter)</td>
+    <td>Extremely powerful, user friendly equalizer.</td>
+    <td><img src="https://www.fabfilter.com/img/products/pro-q-3-screenshot.jpg" alt=" " width="100%"></td>
+	<td>Equalization</br></td>
+	<td>~180</br></td>
     <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
   </tr>
   <tr>
     <!--- Valhalla Reverbs (Supermassive, Plate) & Delay ---> 
-    <td><a href="https://www.jthorborg.com/index.html?ipage=signalizer">Signalizer</a></br>(Lynggaard Thorborg)</td>
-    <td>Oscope+++ great for finding issues in your mixs</td>
-    <td><iframe width="100%" height="220" src="https://www.youtube.com/embed/dHWDmufiohc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-	<td>Visulization</br>🎛</td>
-	<td>0 ~ 80</br>🆓🧱🧑</td>
+    <td><a href="https://www.jthorborg.com/index.html?ipage=signalizer">Various Reverbs</a></br>(Valhalla DSP)</td>
+    <td>Plate, VintageVerb, etc. Supermassive is free and blends reverb and delay in a fun, experimental but very usable way.</td>
+    <td><img src="https://valhalladsp.com/wp-content/uploads/2020/11/ValhallaSupermassive_GUI_1_2_0.png" alt=" " ></td>
+	<td>Reverb</br></td>
+	<td>0 or 50</br>🆓</td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  </tr>
+<tr>
+    <!--- Dragonfly Reverbs ---> 
+    <td><a href="https://michaelwillis.github.io/dragonfly-reverb/">Dragonfly Reverb</a></td>
+    <td>Amazing, free reverb</td>
+    <td><img src="https://michaelwillis.github.io/dragonfly-reverb/images/collage.png" alt=" " ></td>
+	<td>Reverb</br></td>
+	<td>0</br>🆓</td>
     <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
   </tr>
 <tr>
@@ -394,6 +403,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
   	</tr>
 </tbody>
 </table>
+
 
 <!-- Fabfilter stuff, Valhalla stuff, Melodyne, Soundtoys, Polyverse, Izotope, Ignite Emissary, Guitar Rig (player), Auburn Grallion, MJUC, U-HE Colur Copy   -->
 

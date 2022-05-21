@@ -3,6 +3,7 @@
 <script>
     document.getElementById("mathMenu").open = true;
 </script>
+{{< best >}}[Seeing Theory: A visual Introduction to probability and statistics](https://seeing-theory.brown.edu){{< /best >}}
 
 Why, where are these used, etc.
 

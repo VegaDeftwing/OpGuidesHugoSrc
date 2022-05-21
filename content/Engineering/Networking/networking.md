@@ -374,6 +374,8 @@ Physical: [6] <-> [6] <-> [4] <-> [4] <-> [6] <-> [6]
 
 {{< /columns >}}
 
+It's very reasonably to scan literally every IPv4 address. See [A Census of Minecraft Servers](https://blog.bithole.dev/mcmap.html) or [Harder Drive](https://www.youtube.com/watch?v=JcJSW7Rprio) for examples of this being done.
+
 ### MAC
 
 ### ICMP - Internet Control Message Protocol

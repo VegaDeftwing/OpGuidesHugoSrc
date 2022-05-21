@@ -94,6 +94,8 @@ https://github.com/mitsuba-renderer/nanogui
 
 [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - Web scraping
 
+[FuckIt.py](https://github.com/ajalt/fuckitpy) - "FuckIt.py uses state-of-the-art technology to make sure your Python code runs whether it has any right to or not. Some code has an error? Fuck it."
+
 [bokeh](https://docs.bokeh.org/en/latest/docs/user_guide/quickstart.html#userguide-quickstart) - "Bokeh is an interactive visualization library for modern web browsers" (yes, it uses python)
 
 [MoviePy](https://pypi.org/project/moviepy/) - "a Python library for video editing: cutting, concatenations, title insertions, video compositing (a.k.a. non-linear editing), video processing, and creation of custom effects"

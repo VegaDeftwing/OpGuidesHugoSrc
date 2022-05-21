@@ -136,7 +136,7 @@ Now, don't mistake this for a CRT monitor like everyone was using in the early 2
 
 So in the exact same way that you can *emulate* an old video game console to play retro games on your computer, the terminal itself is emulated on Linux. If you really wanted to you could hook up an old terminal like the above, but it's much easier to open a terminal emulator. Of course, just as there are multiple different emulators for some old consoles, there are multiple options for terminal emulation. A few different terminals are shown on the right in that picture (Cool Retro Terminal, Terminus α, and Kitty), and just as hardware may have different features, different terminals can as well. 
 
-{{< smalltext >}}If you're curious about how this emulation works, see [Anatomy of a Terminal Emulator (Aram Drevekein)](https://www.poor.dev/blog/terminal-anatomy/){{< /smalltext >}}
+{{< smalltext >}}If you're curious about how this emulation works, see [Anatomy of a Terminal Emulator (Aram Drevekein)](https://www.poor.dev/blog/terminal-anatomy/). Then, you may want to read up on the actual character sequences, see [everything you ever wanted to know about terminals (Lexi Summer Hale)](http://xn--rpa.cc/irl/term.html) and [XTerm Control Sequences (Edward Moy)](https://invisible-island.net/xterm/ctlseqs/ctlseqs.html).{{< /smalltext >}}
 
 Just like the hardware however, the terminals don't do anything on their own, that is where the **shell** comes in. The shell is the program your terminal is usually running when it opens. By default on most Linux Systems it's Bash and on Windows it's CMD or Powershell, but there's many, many alternative shells. These shells all serve a few main functions
 
@@ -673,6 +673,12 @@ While some of these may be included, they're some of the OG addons or tools to m
 ## A note on Graphical-ish terminal programs
 
 like [brow.sh](https://www.brow.sh) [TODO]
+
+### Ncurses?
+
+[TODO] why Ncurses is bad
+
+https://github.com/dankamongmen/notcurses
 
 ## How might the terminal evolve?
 

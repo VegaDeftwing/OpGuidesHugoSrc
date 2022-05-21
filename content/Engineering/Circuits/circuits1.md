@@ -148,6 +148,10 @@ However, a decent 'Digital Storage Oscilloscope' or DSO like the one above run a
 
 Note, a lot of hobbyist will try to get by on a really cheap new scope (less than $100), most often the really cheap under \$10 exposed red PCB one and just... don't. Either get a used scope (often around \$100) or get something good outright, as for "good" I'd really recommend the Rigol DS1054Z<a class="ptr">(1)</a>, or the [Diglent Analog Discovery 2](https://digilent.com/shop/analog-discovery-2-100ms-s-usb-oscilloscope-logic-analyzer-and-variable-power-supply/) which packs a lot of these tools all into one thing. I know it's a lot of money, but ideally this is something you can think of as an investment.
 
+If you absolutely want the cheapest possible option, you can go though the mild headache of setting up a [Raspberry Pi Pico](https://www.adafruit.com/product/4864) (~$4) with [Sigrok-Pico](https://github.com/pico-coder/sigrok-pico). You'll need some resistors (very cheap) and *probably* the [breadboard with the pico's pinout](https://www.adafruit.com/product/5422). Total price should be around ~\$15. These are going to be god awful analog inputs though - they're only 7-bit, so you get 128 different values out and the max sample rate is 120Msps... not awesome.
+
+
+
 But what are these actually used for day to day, and why would you want one? [TODO]
 
 [Quake on an oscilloscope (YouTube)](https://www.youtube.com/watch?v=GIdiHh6mW58&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)

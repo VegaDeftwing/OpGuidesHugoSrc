@@ -49,6 +49,8 @@ https://en.wikipedia.org/wiki/Wafer_(electronics)
 
 P/N junctions, etc.
 
+https://hackaday.com/2015/02/08/photonic-reset-of-the-raspberry-pi-2/
+
 ## Diodes, the one way road
 
 > A **diode** is a two-terminal electronic component that conducts current primarily in one direction (asymmetric conductance); it has low (ideally zero) resistance in one direction, and high (ideally infinite) resistance in the other.

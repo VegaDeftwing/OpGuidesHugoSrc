@@ -50,11 +50,19 @@ By far I think the biggest thing not everyone realizes, especially teenagers in 
 >
 > Unless we're willing to do this as a society, and put our money where our mouths are, then we don't get to decide what men and women facing this very personal, very tragic decision choose. If we do want to stop abortion, then put the ugly aborted-fetus posters down and go financially support a teenage mother, go lobby to provide birth control to teenagers, or go ask your own teenage son or daughter if he or she needs birth control. Do something useful, and be reasonable.
 
-Frankly, I think that sums it up pretty well, and truth be told I don't think I really have a right to say more than that.
+Frankly, I think that sums it up pretty well, and truth be told I don't think I really have a right to say more than that from the moral stand point; however, I think it's worth considering from the political stand point as well, that is, why are conservatives in the US so adicted to the topic? Well, I think Methodist Pastor David Barnhart pretty much hit the nail on the head for this one:
+
+{{< quote "[Pastor David Barnhart](https://twitter.com/davebarnhart/status/1467291454741663749)" >}}
+
+“The unborn” are a convenient group of people to advocate for. They never make demands of you; they are morally uncomplicated, unlike the incarcerated, addicted, or the chronically poor; they don’t resent your condescension or complain that you are not politically correct; unlike widows, they don’t ask you to question patriarchy; unlike orphans, they don’t need money, education, or childcare; unlike aliens, they don’t bring all that racial, cultural, and religious baggage that you dislike; they allow you to feel good about yourself without any work at creating or maintaining relationships; and when they are born, you can forget about them, because they cease to be unborn. It’s almost as if, by being born, they have died to you. You can love the unborn and advocate for them without substantially challenging your own wealth, power, or privilege, without re-imagining social structures, apologizing, or making reparations to anyone. They are, in short, the perfect people to love if you want to claim you love Jesus but actually dislike people who breathe.
+
+Prisoners? Immigrants? The sick? The poor? Widows? Orphans? All the groups that are specifically mentioned in the Bible? They all get thrown under the bus for the unborn.
+
+{{< /quote >}}
 
 ## Birth Control
 
-[TODO] womens right to get a historectomy
+[TODO] +womens right to get a historectomy
 
 ### Having Kids
 
@@ -147,4 +155,3 @@ I also reccomend: [A Handy Guide To Internal Shots (VERY NSFW)](https://www.fura
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/L0jQz6jqQS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p hidden> <a href="https://www.youtube.com/watch?v=QyL9P1ccy-w"> Suction Cup Man 4: Business or Pleasure<p>
-

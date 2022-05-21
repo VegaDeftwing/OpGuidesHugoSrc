@@ -1058,9 +1058,19 @@ This section provides orientation for users wishing to run graphical application
 
 [Wayland](https://wiki.archlinux.org/title/Wayland) is a newer, alternative display server protocol and the Weston reference implementation is available.
 
+{{< /quote >}}
+
+If you're wanting to dive into something very strange but very cool, you might give [Arcan](https://github.com/letoram/arcan) a shot too. Just be warned, you'll probably have to compile it from source!
+
+{{< quote "[General Recommendations](https://wiki.archlinux.org/title/General_recommendations) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
+
 #### Display drivers
 
 The default *modesetting* display driver will work with most video cards, but performance may be improved and additional features harnessed by installing the appropriate driver for [AMD](https://wiki.archlinux.org/title/Xorg#AMD) or [NVIDIA](https://wiki.archlinux.org/title/NVIDIA) products.
+
+{{< /quote >}}
+
+{{< quote "[General Recommendations](https://wiki.archlinux.org/title/General_recommendations) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
 #### Desktop environments
 
@@ -1070,9 +1080,19 @@ Although Xorg provides the basic framework for building a graphical environment,
 
 A full-fledged desktop environment provides a complete and consistent graphical user interface, but tends to consume a considerable amount of system resources. Users seeking to maximize performance or otherwise simplify their environment may opt to install a [window manager](https://wiki.archlinux.org/title/Window_manager) alone and hand-pick desired extras. Most desktop environments allow use of an alternative window manager as well. [Dynamic](https://wiki.archlinux.org/title/Category:Dynamic_WMs), [stacking](https://wiki.archlinux.org/title/Category:Stacking_WMs), and [tiling](https://wiki.archlinux.org/title/Category:Tiling_WMs) window managers differ in their handling of window placement.
 
+{{< /quote >}}
+
+{{< quote "[General Recommendations](https://wiki.archlinux.org/title/General_recommendations) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
+
 #### Display manager
 
 Most desktop environments include a [display manager](https://wiki.archlinux.org/title/Display_manager) for automatically starting the graphical environment and managing user logins. Users without a desktop environment can install one separately. Alternatively you may [start X at login](https://wiki.archlinux.org/title/Start_X_at_login) as a simple alternative to a display manager.
+
+{{< /quote >}}
+
+If you're feeling particularly weird, you might want to try [ly](https://github.com/fairyglade/ly) too.
+
+{{< quote "[General Recommendations](https://wiki.archlinux.org/title/General_recommendations) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
 #### User directories
 

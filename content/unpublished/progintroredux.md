@@ -377,6 +377,39 @@ This brings up a good question may new programmers have:
 
 ## Why are there multiple languages anyway?
 
+A little while ago I got asked
+
+{{< quote "A friend that is really, really bad at programming despite having a CS degree" >}}
+What would you say is the most widespread language to know for programming?</br></br>
+Also whats your favorite to code in and if someone is trying to learn that language or a language in general from scratch what are the best resources / academys / learning material to use for someone who has no experience? Or do you recommend any of these at all?
+
+{{< /quote >}}
+
+{{< smalltext >}}( Keep in mind this response is in context of knowing this guy already has a modicum of programming skill){{< /smalltext >}}
+
+{{< speech big >}}
+That's a tough question. It's largely application dependent. Like, if you're doing web you have to use JavaScript. AI/ML? Python. Low level? C.
+
+The best way to learn a language is to make something. Do projects.
+
+Also, widespread ≠ good or even high paying. Less common languages tend to pay more.
+
+My "favorite", again, depends on what Im doing. If it's a quick script: Python. If it needs to be performant and low level, C. If I need absolutely reliability, performance, and low level but can get away with a size increase: Rust.
+
+What you're missing though is it's really usually not a choice. If you're working with microcontrollers, it's almost always going to be C (maybe C++). Unity? C#. Web? Js. You get the idea.
+
+If you're looking for languages to learn to get broadly better at programming I'd recommend Python, GLSL, Haskell (and futhark, which is similar), and Rust. Each has their own quirks and by getting good at those you'll be good at most.
+
+But along with that, remember that programming is not about knowing a language. It's about knowing how to solve problems. If you can write code but can't use a debugger, benchmark and profile your code, test for memory issues, and integrate it with existing tools/software you're missing the point.
+
+I think a good starting point for learning about that is to make modules for https://vcvrack.com . It uses C++ but to do it well you'll need to get used to doing debugging, optimizing code for performance, and using a 3rd party API.
+
+{{< /speech >}}
+
+As for this guide, the thing I want you to take away is that you *usually* don't get to pick the language, and that different languages serve different roles. With that out of the way, why the two we're looking at here?
+
+
+
 {{< columns >}}
 
 # C
