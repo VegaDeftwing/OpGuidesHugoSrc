@@ -4,7 +4,7 @@
 
 ## Script all the things! But Not Like That™
 
-[TODO]
+[TODO] avoiding repetative tasks
 
 Visual Programming but still supporting text based programming, natural language scripting, node-red, etc.
 
@@ -128,9 +128,11 @@ Demos of the WIP [Blockhead DAW](https://www.patreon.com/colugomusic):
 
 ## Hardware for Open Experimentation
 
-[TODO]
+Micro controllers, like the infamous Arduino Uno (ATMEGA 328p) and the much nicer Raspberry Pi Pico (RP2040) are awesome for letting people experiment and make crazy contraptions. {{< button relref="/Engineering/Deeper/fpga1" >}}FPGAs{{< /button >}} are finally starting to get open source toolchains and low enough price options to allow for people to make their own soft core CPUs and custom logic. Single board computers like the Raspberry Pi 3B+ are cheap enough to be thrown at many problems. This is all awesome.
 
-Microfluid computers, diode logic, GPIO
+Unfortuantely, I see one big thing being left behind: the PC. If we really want innovation, it'd be awesome if there was an affordable PCIe FPGA card that could have bitstreams flashed onto it for specfic applications to accelerate different workloads. GpGPU programming is nice, but custom accelerators would be even better!
+
+Futhermore, I'd really like to see highspeed not-USB-based GPIO for desktops so that people could experiment with crazy ideas like using microfluidics ond diode logic for computation, playing with [FeRam](https://en.wikipedia.org/wiki/Ferroelectric_RAM), or even {{< button relref="posts/Ternay" color="gradient-border2" >}} ternary logic {{< /button >}} - Even if most of these ideas are dead ends, they're cool and I want to see more of them.
 
 ## Stop wasting time on stupid shit that nobody cares about
 
@@ -142,12 +144,26 @@ Microsoft has been spending a lot of time changing to the new UI, and their calc
 
 {{< attribution >}}↑ My eurorack setup, for making something vaugly resembling music{{< /attribution >}}
 
-[Bring Back Our Knobs: Analog vs. Digital (Popular Mechanics, 2009)](https://www.popularmechanics.com/technology/gadgets/a1531/4213770/) 
+I can keep this one brief. I love [VCV Rack](https://vcvrack.com), I've even developed [my own modules for it](https://library.vcvrack.com/?query=&brand=LyraeModules&tag=&license=) yet here you can see I have a hardware modular music setup? So, why? Because physical, real, tactile knobs make a difference <a class="ptr">(2)</a> . I'm not saying everything needs to be physical, I'm saying that even if [Popular Mechanics](https://www.popularmechanics.com/technology/gadgets/a1531/4213770/) was wrong back in 2009 when they said:
 
-{{< smalltext >}}Note, that Popular Mechancics article didn't age all that well, with "I wonder if Apple iPhone will meet with the same success, as [its touchscreen offers no tactile feedback](https://www.popularmechanics.com/technology/gadgets/a1385/4212910/). Will people get tired of having to look down every time they dial a number?" sounding funny today, still, I think the point stands{{< /smalltext >}}
+{{< quote "[Popular Mechanics](https://www.popularmechanics.com/technology/gadgets/a1385/4212910/)" >}}
 
+I wonder if Apple iPhone will meet with the same success, as its touchscreen offers no tactile feedback. Will people get tired of having to look down every time they dial a number?
 
+{{< /quote >}}
+
+We sholud be careful of getting to comfortable with our touch screens and not forget the value of having a phsical interface. Hell, in that same picture above is a ROLI Seaboard Block (a product I actually reccomend against, for various reasons) which is *Amazing* for it's ability to convey a boatload of information to the computer in a tactile way, like, seriously, look at the MIDI data from this little jam session:
+
+<img src="/eng/mpedata.webp">
+
+{{< smalltext >}}To be clear, those aren't sound waves, those lines represent the pressure of each finger on the keyboard, individually, over time. The lines in the notes represent sliding the finger after the note was held, allowing for smooth ptich transistions or vibrato on a single key.{{< /smalltext >}}
+
+There's just no way I could have programmed that in manually, and despite the chaos, I can assure you the sound of this was amazing.
+
+So, give me knobs, sliders, and buttons. I want a physical volume knob and mute button.
 
 <ol hidden id="footnotes">
 <li>Within the normal limits of compatability, you can't drop a crazy fast graphics card in without upgrading the power supply, and often the CPU, Ram, and motherboard all need to be from the same generation.</li>
+<li>Well, and there's some techniques that VCV rack can't do well, like feedback, on account of every cable incurring one sample of delay. This is getting into the weeds though.</li>
 </ol>
+

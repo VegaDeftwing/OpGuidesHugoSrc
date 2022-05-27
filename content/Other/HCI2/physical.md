@@ -276,9 +276,9 @@ But the biggest reason your chair sucks? It's a chair. I'm not advocating for a 
 
 I've gone though wayyyy to many desks. What I'm currently using is a nice big un' with a surface that is 5' x 2'4" and it's still. not. big. enough. (for reference, a 'normal' cheap desk seems to be ~3' x 1'8"). So I've had to put two desks in an L-shape.
 
-I know that I can pick from pleanty of L or U shaped desks on amazon, but most will be seriously lacking in depth and be less than study, so my 2-desk concoction is the best I can do without making one- which I do intend to do at some point.
+I know that I can pick from pleanty of L or U shaped desks on amazon, but most will be seriously lacking in depth and be less than study, ~~so my 2-desk concoction is the best I can do without making one- which I do intend to do at some point.~~
 
-![](/hci/desk.webp)
+![](/hci/desk2.webp)
 
 And, alright, I admit, I'm not a typical computer user. I have enough devices hooked up that `lsusb` gives me 36 lines of output<a class="ptr">(8)</a>, I have 3 monitors + a pen display, and my desk is also home to a whole host of lab equipment, a eurorack setup, and other various things. 
 
