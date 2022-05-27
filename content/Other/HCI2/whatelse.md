@@ -4,11 +4,48 @@
 
 ## Script all the things! But Not Like That™
 
-[TODO] avoiding repetative tasks
+Computers are, generally, really good at repetative tasks. People are, generally, really bad at telling computers what they want.
 
-Visual Programming but still supporting text based programming, natural language scripting, node-red, etc.
+This means that developers (which, I assume is a large portion of those still reading this) need to make systems that let users automate tasks in a more user friendly way than they would do it.
 
-everything is a file/folder (inc. full programs)
+Previously, I mentioned that I run backups with a little backup script:
+
+{{< details "My basic backup script" >}}
+
+```bash
+#!/bin/bash
+rsync -a --delete -P /mnt/data /run/media/vega/BigOlBackup
+rsync -a --delete -P /mnt/win/VegaProductions /run/media/vega/BigOlBackup
+rsync -a --delete -P /etc /run/media/vega/BigOlBackup
+rsync -a --delete -P --exclude={'Xilinx','intelFPGA'} /opt /run/media/vega/BigOlBackup
+rsync -a --delete -P /srv /run/media/vega/BigOlBackup
+rsync -a --delete -P /usr /run/media/vega/BigOlBackup
+rsync -a --delete -P --exclude={'.local/share/Steam'} /home/vega /run/media/vega/BigOlBackup
+rsync -a --delete -P /mnt/win/ProgramData/Ableton /run/media/vega/BigOlBackup/win
+rsync -a --delete -P /mnt/win/Users/Vega/Documents /run/media/vega/BigOlBackup/win
+rsync -a --delete -P /mnt/win/Users/Vega/Downloads /run/media/vega/BigOlBackup/win
+rsync -a --delete -P /mnt/music /run/media/vega/BigOlBackup/
+rsync -a --delete -P /run/media/vega/Archived/SD /run/media/vega/BigOlBackup
+notify-send "Backup Complete"
+```
+
+{{< /details >}}
+
+And for those that know what they're looking at, this is pretty basic. The problem is a lot of users would feel totally overwhelemd by this. The idea of reading though the [rysnc man page](https://man.archlinux.org/man/rsync.1.en) alone would make many people run away. So, one option is to just make application specific software that provides a nice GUI. And sure, that works. The problem is that prevents people from being able to do some of the more complex operations, dosen't allow for convient triggering (for example, I could put this script on a [Systemd timer](https://wiki.archlinux.org/title/Systemd/Timers) or have it trigger as soon as it dectects that my removable media has been inserted).
+
+But there's a lot more than backups at stake. There are a suprising number of people out there whose entire job could be replaced by a 100 line python script, espically if you use OpenCV or Tensorflow. These people could be doing something much more meaningful with their lives.
+
+The problem isn't that the tools don't exist to do this automation, it's that a lot of people *don't know* they exist and that they don't have the skills to apply them.
+
+How do I propose we fix this?
+
+Visual programming.
+
+Yeah. I know a lot of people hate it. But, provided it's high enough level - so, probably higher than [Pure Data](https://puredata.info) or [Node-RED](https://nodered.org) or even the [Enso language](https://enso.org/#Overview) mention in the last chapter. I think the right way forward is something that generates nodes based on a small text description and some provided examples as text, images, or other data. This would let a user, for example, scan in and manually enter the data from a form a few times, then leave the computer to do it moving forward - probably with a little output indicating if it was under a threshold of covidence in a certain transcription. 
+
+The other big necessity to make this work is using the Linux philosophy of treating everything as a file (or folder). This would make it much easier for this lanugage/interface to let users say, open a running program's 'file' and - with support - grab data out. This could be as mundane as how many browser tabs are open or as advanced as pulling the current geometry or live rotation angle out of 3D modeling software. With enough support from applications, the work flow potential is mind blowing, hence the previous mention of this in the last chapter with tool composition.
+
+My point here is that by making user friendly but open tools we could dramatically reduce the amount of repetative work done by many people and, more importantly, not just support one-off use cases with application specific software but instead empower people to make their own tools that fit their specific needs that developers could never anticipate. Will this result in some mildly horrific tools being made? Probably. But that's the beauty of it.
 
 ## Optional Security
 
@@ -160,10 +197,9 @@ We sholud be careful of getting to comfortable with our touch screens and not fo
 
 There's just no way I could have programmed that in manually, and despite the chaos, I can assure you the sound of this was amazing.
 
-So, give me knobs, sliders, and buttons. I want a physical volume knob and mute button.
+So as Bret Victor put it all the way back in 2011 in [A Brief Rant On The Future Of Interaction Design](http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/), "Our hands feel things, and our hands manipulate things. Why aim for anything less than a **dynamic medium that we can see, feel, and manipulate?**"
 
 <ol hidden id="footnotes">
 <li>Within the normal limits of compatability, you can't drop a crazy fast graphics card in without upgrading the power supply, and often the CPU, Ram, and motherboard all need to be from the same generation.</li>
 <li>Well, and there's some techniques that VCV rack can't do well, like feedback, on account of every cable incurring one sample of delay. This is getting into the weeds though.</li>
 </ol>
-

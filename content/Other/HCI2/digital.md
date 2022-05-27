@@ -724,9 +724,19 @@ Seriously. This idea just blows my mind. If we let data get re-intrepted as thin
 
 Both would and should behave in strange way, and it's this very lack of defined behavior that could lead to interesting art forms. I'd love to see a 'Master' API that works across all formats and ideas with a common data type that allows for program⟺program, program⟺extension, program⟺hardware, etc. communication even in long, complicated chains. After all, if you've taken a signals and systems course you know that basically any data can be treated as a signal.
 
-As for what this would actually look like, having an operating system which presents - as a core to the functionality - some sort of node based programming system would work. While I don't actually know how to use it, I think [Luna](https://www.luna-lang.org/) demonstrates this concept fairly well:
+{{< columns >}}
 
- ![Luna](/hci/luna.webp)
+As for what this would actually look like, having an operating system which presents - as a core to the functionality - some sort of node based programming system would work. While I don't actually know how to use it, I think [Enso](https://enso.org/#Overview) demonstrates this concept fairly well:
+
+If you'd like to try it, you'll want to watch [The tutorial video on YouTube](https://www.youtube.com/watch?v=3f6FE1dgMNw&list=PLk8NuufOVK01GhaObYr1_gqeASlkj2um0).
+
+{{< attribution >}}Image taken from the [Enso Github Repository](https://github.com/enso-org/enso){{< /attribution >}}
+
+<--->
+
+ ![Luna](/hci/enso.webp)
+
+{{< /columns >}}
 
 though there are plenty of other examples, like the node editors used for making shaders or programming in Unreal Engine.
 
