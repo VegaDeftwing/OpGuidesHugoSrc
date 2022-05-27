@@ -325,7 +325,7 @@ If you're reading this, I'd wager that you've at least thought about these thing
 
 I think we, as individuals and as business, need to invest more in our work spaces, probably well beyond what most people would even consider. I'm not talking about adding a third monitor or giving everyone an artistic environment. I'm talking about setting up a work environment that's conducive to productivity as instead of merely being the medium on which it takes place, the work environment should actively contribute to finding, accessing, retrieving/storing, consuming, and creating. - where data can be anything: art, documentation, code, whatever.
 
-**Please, throw your preconceptions about what this means right now.**
+**Please, throw out your preconceptions about what this means right now.**
 
 I absolutely do not think this means that we should all strap VR headsets to our faces, no matter how much money Facebook (or Meta, whatever.) throws at that future. I also don't think it means sticking to the normal keyboard and mouse for as much as we do now either. Maybe something like [Dynamicland]( https://dynamicland.org) is the future, but I'm also not about to bet on any particular technology. So, what is this then?
 
