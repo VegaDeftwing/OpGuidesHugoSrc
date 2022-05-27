@@ -21,13 +21,6 @@
 	<td>~$40</td>
   </tr>
   <tr>
-    <td><a href="https://www.amazon.com/dp/B07DXLZ12Y/?coliid=I2TJE77NL68IW2&colid=3ME0E74VVUMA3&psc=1&ref_=lv_ov_lig_dp_it">Musical Tesla Coil</a></td>
-    <td>Makes music with big sparks in the air</td>
-    <td><img src="https://m.media-amazon.com/images/I/81wJ-s6lA0L._AC_SL1500_.jpg" alt=" " width="100%"</td>
-    <td>Music / Electronics</td>
-	<td>~$30</td>
-  </tr>
-  <tr>
       <td><a href="https://www.amazon.com/dp/B07PGDJCMB/?coliid=I1PO4KCL28WV1U&colid=3ME0E74VVUMA3&psc=1&ref_=lv_ov_lig_dp_it">Magic Eye Tube</a></td>
     <td>Music Display using a tube</td>
     <td><img src="https://m.media-amazon.com/images/I/61iaZEFzMML._AC_SL1000_.jpg"></td>
@@ -72,10 +65,12 @@
 </tbody>
 </table>
 
+
 ## $50 to \$100
 
 <table id="sort" style="position:relative; width:100%; left: 0%;">
 <thead>
+    <!---
   <tr>
     <th role="columnheader">Name & Link</th>
     <th role="columnheader">Description</th>
@@ -92,8 +87,10 @@
 	<td>Electronics</td>
 	<td>~$90</br>IF YOU CAN GET IT USED, DO</td>
   </tr>
+  --->
 </tbody>
 </table>
+
 
 ## $100+
 
@@ -122,20 +119,6 @@
 	<td>Music</td>
 	<td>~$180</td>
   </tr>
-  </tr>
-      <tr>
-          <td><a href="https://www.perfectcircuit.com/qu-bit-data-bender.html">Data Bender </a></td>
-    <td>Glitchy, broken super fun sounding audio effect</td>
-    <td><img src="https://www.perfectcircuit.com/media/catalog/product/cache/956bc3d4a1f4832ce26f24b2860ea032/Q/u/Qu-Bit_DataBender_01.jpg"></td>
-	<td>Music</td>
-	<td>~$350</br>IF YOU CAN GET IT USED, DO</td>
-  </tr>
-      <tr>
-   <td><a href="https://www.perfectcircuit.com/noise-eng-cursus-iteritas-black.html">Cursus Iteritas </a></td>
-    <td>Audio sound source, probably the best sounding out there for what it does</td>
-    <td><img src="https://www.perfectcircuit.com/media/catalog/product/cache/956bc3d4a1f4832ce26f24b2860ea032/N/o/NoiseEngineering_CursusIteritas-Black_01.jpg"></td>
-	<td>Music</td>
-          <td>~$360</br>IF YOU CAN GET IT USED, DO</td>
   </tr>
 </tbody>
 </table>

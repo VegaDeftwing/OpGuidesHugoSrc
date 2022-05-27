@@ -2,9 +2,19 @@
 
 <script>    document.getElementById("hciMenu").open = true;</script>
 
+## Breaking Away from Silicon and Binary
+
+[TODO]
+
+* Ternary+
+* Analog computation
+  * [Reusing NAND for multiplication](https://ieeexplore.ieee.org/document/8571188)
+* FERAM
+* GaN
+
 ## ML Assisted Creation
 
-[TODO] https://cleanvoice.ai / https://www.descript.com, https://magenta.tensorflow.org, https://runwayml.com, https://auphonic.com/landing, etc.
+[TODO] https://cleanvoice.ai / https://www.descript.com, https://magenta.tensorflow.org, https://runwayml.com, https://auphonic.com/landing, https://ml.berkeley.edu/blog/posts/clip-art/, https://openai.com/dall-e-2/, https://copilot.github.com
 
 ## Body Modification and Bio-Engineering
 

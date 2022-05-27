@@ -149,15 +149,24 @@ Note, those USB security keys have updated in standard. The newer ones which sup
 
 If you really want advice on what to use for your personal, daily password storage needs I think [keepassxc](https://keepassxc.org) is probably the best option at the moment, though it's still a tad awkward.
 
-For advice on security and privacy see the <a href="/engineering/networking/security/">Security & Exploitation</a> and <a href="/engineering/networking/privacy/">Privacy</a> pages.
-
+<p>For advice on security and privacy see the {{< button relref="/Engineering/Networking/security" >}}Security & Exploitation{{< /button >}} and {{< button relref="/Engineering/Networking/privacy" >}}Privacy{{< /button >}} pages.<p>
 {{< /hint >}}
 
 #### Authorization:
 
+{{< columns >}}
+
+<img src="/nonfree/character/shade/hack.webp" alt="Vega hacking on a laptop">
+
+{{< attribution >}}Character owned by Vega, art by [Shade](https://twitter.com/shadepiplup10) {{< /attribution >}}
+
+<--->
+
 Put simply, we need easier to use, fine grain authorization settings that can't be bypassed. I should be able to tell a program, website, or app that I don't want to give it my location, and then, if it asks anyway it should be fed garbage. Refusal should also not stop access to that service<a class="ptr">(1)</a>. Similarly for storage, microphone, contacts, etc.
 
 Newer versions of Android actually do this really well, including the ability to only grant those permissions for that session. This is amazing. It's not *perfect*, far from it. Like, Bluetooth requires location permissions and, unless you're on a rooted phone, there are some permissions the user can't even give. That's a load of shit, but I'll come back to that. 
+
+{{< /columns >}}
 
 ### Content Linkage sorta sucks
 
@@ -249,15 +258,13 @@ It's not like this system couldn't be abused still of course, and there will alw
 
 ### Misleading Information
 
-> "Global warming relies on the theory that we are destroying ecosystems. There is no evidence that we could destroy ecosystems."
+{{< quote "Rush Limbaugh, recipient of the Medal Of Freedom." >}}
 
-{{< attribution >}}
+Global warming relies on the theory that we are destroying ecosystems. There is no evidence that we could destroy ecosystems.
 
-Rush Limbaugh, recipient of the Medal Of Freedom.
+{{< /quote >}}
 
-{{< /attribution >}}
-
-Yes. Misinformation online is a royal fucking shit show. There's no way to possibly preserve total free speech, [not that we should](https://en.wikipedia.org/wiki/Paradox_of_tolerance), and also have a system that doesn't spread misinformation to the extent that people stop vaccinating their kids or thinking that COVID is a hoax. I'm not trying to address that problem. If I could, I would. But I honestly think that's a genie we can't really put back in the bottle now.
+Yes. Misinformation online is a royal fucking shit show. There's no way to possibly preserve total free speech, [not that free speech is always perfect](https://en.wikipedia.org/wiki/Paradox_of_tolerance), and also have a system that doesn't spread misinformation to the extent that people stop vaccinating their kids or thinking that COVID is a hoax. I'm not trying to address that problem. If I could, I would. But I honestly think that's a genie we can't really put back in the bottle now.
 
 Instead, I think we could do some things to make it a bit harder to spread stupid, false information by making it a bit harder to present data in misleading ways. Sure, the data itself may still be bad, but, we can make an attempt to increase transparency and display data accurately. How? Well, first, go have a look at some [comically bad graphs (Statistics How To)](https://www.statisticshowto.com/misleading-graphs/). 
 
@@ -275,9 +282,9 @@ For those that still don't, it might be possible to spin up a system with some m
 
 This may not ensure the data is good, but at least it makes progress in increasing how we can trust data to some extent.
 
-This could have extra uses too. Having something that could take two 2D graphs with a common axis and turn it into one 3d graph would be incredible, particularly if that data could come from multiple sources across multiple domains. Combine this with the ability to change the type of graph and this could help expose otherwise non obvious trends.
+This could have extra uses too. Having something that could take two 2D graphs with a common axis and turn it into one 3d graph would be incredible, particularly if that data could come from multiple sources across multiple domains. Combine this with the ability to change the type of graph and this could help expose otherwise non obvious trends. After all, some of the best discoveries come from random people making cross disciplinary connections.
 
-Beyond that, content moderation needs improvements too - I don't even mean fake news or porn here (Though we could stand to have better nsfw tagging on most social media). I mean the bullshit reviews on Amazon or the fake products when shopping online (mostly fake electronics). If those services are going to be allowed to make stupid amounts of money, they should be required to do at least a tiny bit of consumer protection.
+Beyond that, content moderation needs improvements too - I don't even mean fake news or porn here (Though we could stand to have better nsfw tagging on most social media). I mean the bullshit reviews on Amazon or the fake products when shopping online (mostly fake electronics). If those services are going to be allowed to make stupid amounts of money, they should be required to do at least a tiny bit of consumer protection. Hell, Amazon was even selling [Negative Ion/Anti-5g Products Are Actually RADIOACTIVE (The Thought Emporium, YouTube)](https://www.youtube.com/watch?v=C7TwBUxxIC0).
 
 ### Information Overload
 
@@ -299,7 +306,7 @@ An example of this is Netflix's 'Are you still watching?' while this was impleme
 
 Beyond that, keeping the design minimal but powerful. I think markdown is a great example of this. Users aren't as dumb as people seem to think, we can, and do, learn the ways to make interaction with the things we use daily faster, so make the 'speed limit' as fast as it can be while lowering the need for menu diving and learning to do complex actions. Putting a frequently used option into a menu that needs to be clicked at all is much slower than assigning it a keyboard shortcut.
 
-But, okay, back to information overload: The biggest problem is still that there's just too much. I don't really think there is a solution, maybe  [Banning Outdoor Ads like Brazil's Largest City Did](https://newdream.org/blog/sao-paolo-ad-ban), would be a start. Maybe requiring that the Terms of Service for any service a user signs up to be a limited length and actually commendable would help. But I just don't know. I think the world has just simply progressed to a point where FOMO has gone from a fear of missing out has gotten to a point where missing out is just a fact of life as [500 hours of content are uploaded to YouTube every minute.](https://www.tubefilter.com/2019/05/07/number-hours-video-uploaded-to-youtube-per-minute/) 
+But, okay, back to information overload: The biggest problem is still that there's just too much. I don't really think there is a solution, maybe  [Banning Outdoor Ads like Brazil's Largest City Did](https://newdream.org/blog/sao-paolo-ad-ban), would be a start. Maybe requiring that the Terms of Service for any service a user signs up to be a limited length and actually commendable would help. But I just don't know. I think the world has just simply progressed to a point where FOMO has gotten to a point where missing out is just a fact of life as [500 hours of content are uploaded to YouTube every minute.](https://www.tubefilter.com/2019/05/07/number-hours-video-uploaded-to-youtube-per-minute/) 
 
 What I do know is that trusting the YouTube or Facebook or Twitter algorithm to decide the content I see is incredibly dangerous, but that the alternative is overwhelming.
 
@@ -343,7 +350,7 @@ If I have to spend more than a fraction of a second to process what is being sho
 
 Here the original at least has some color differentiation (Using the Boost app to view Reddit) but on the official Twitter client I actually have to stop and look to avoid accidentally clicking an ad link. That's some bull shit.
 
-Yunno what else is bullshit? The fact that all of these ads are 'personalized' to the point that collecting crazy amounts of information on individuals is expected and almost inevitable online, even with a pile of tracking blocking extensions and a DNS blackhole like [pi-hole](https://pi-hole.net). This could, and should, be a rant of it's own. Being spied on by our own devices is 100% not okay and it's one of the biggest reasons that they way we interact with computers sucks.
+Yunno what else is bullshit? The fact that all of these ads are 'personalized' to the point that collecting crazy amounts of information on individuals is expected and almost inevitable online, even with a pile of tracking blocking extensions and a DNS blackhole like [pi-hole](https://pi-hole.net). This could, and should, be a rant of it's own (and is, again, see the {{< button relref="/Engineering/Networking/privacy" >}}Privacy{{< /button >}} page) Being spied on by our own devices is 100% not okay and it's one of the biggest reasons that they way we interact with computers sucks.
 
 ## Storing Information Sucks
 
@@ -353,7 +360,15 @@ Storing your data blows. Users have to contend with backups, backups for you bac
 
 Digital archival on 'cold storage' sucks. For one, that cold storage is often either a PITA to attach in the first place, Usually using either using a slow USB interface, an expensive and far-from-universal thunderbolt one, or, if you want to go very bulk storage, requiring a specialized PCIe card which is meant for servers which brings along it's own pile of issues.
 
-But even once you have everything attached, most of the time backups are pain to run. You can always do the lazy copy-and-replace-existing method, but that's painfully slow as it has to check all the current files instead of just doing the logical thing and comparing two indexes, but, of course, most file systems don't support this index based method. Sure, there's software to add it, like Bvckup, but most that I can find is paid or not something I would trust.
+But even once you have everything attached, most of the time backups are pain to run. You can always do the lazy copy-and-replace-existing method, but that's painfully slow as it has to check all the current files instead of just doing the logical thing and comparing two indexes, but, of course, most file systems don't support this index based method. Sure, there's software to add it, like Bvckup, but most that I can find is paid or not something I would trust. Right now, the best thing I can find is using `rsync`, as I have a script with a bunch of lines like 
+
+
+
+```bash
+rsync -a --delete -P --exclude={'.local/share/Steam'} /home/vega /run/media/vega/BigOlBackup
+```
+
+ and, yeah, that works, but it requires a reasonable degree of tech-savvy-ness
 
 Using Git (or GitAnnex) is of course an option, but that has a higher barrier to entry to learn than seems reasonable. At the same time having actual file versioning needs to be a thing, something better than having `untitled.docx`, `untitled.docx`,`untitled3final.docx`, and `untitled3.5.finaler.docx`, even if it is still storing the file in full (though hopefully compressed) behind the scenes.
 
@@ -361,11 +376,13 @@ But, on the note of indexes, why are tools to provide a disk-offline index not b
 
 ### Phone ↔ PC is the fucking worst.
 
-MTP needs to die a very painful death. [USB Mass Storage](https://en.wikipedia.org/wiki/Media_Transfer_Protocol#Comparison_with_USB_Mass_Storage), that is, devices that show up the same way a flash drive does, are infinitely easier to work with. On Android, with large folders, I've found [adbfs](https://github.com/zach-klippenstein/adbfs), a tool that lets you do file transfer over Android Debugging Bridge, to be much better than MTP, but, really? No 'normal' user should be expected to use that. Hell, a lot of people are just uploading files to the cloud and then downloading them on the target device because it's easier. There's also a growing number of apps that let users to transfers over wifi by hosting an Samba server on the phone, but why would something wireless be better? It's absolutely crazy that things have gotten this bad. 
+MTP needs to die a very painful death. [USB Mass Storage](https://en.wikipedia.org/wiki/Media_Transfer_Protocol#Comparison_with_USB_Mass_Storage), that is, devices that show up the same way a flash drive does, are infinitely easier to work with. On Android, with large folders, I've found [adbfs](https://github.com/zach-klippenstein/adbfs), a tool that lets you do file transfer over Android Debugging Bridge, to be much better than MTP, but, really? No 'normal' user should be expected to use that. Hell, a lot of people are just uploading files to the cloud and then downloading them on the target device because it's easier. There's also a growing number of apps that let users to transfers over wifi by hosting an Samba server on the phone, but why would something wireless be better? It's absolutely crazy that things have gotten this bad.
+
+Also, while I'm bitching, can we *please* stop removing the SD card slot ({{< smalltext >}}and headphone jack{{< /smalltext >}})from phones? I like being able to take my full music collection with me.
 
 ### We're using ancient formats
 
-Look, jpeg and png are perfectly fine formats. For 2000. It's 2020. HEIF (or [BPG](https://bellard.org/bpg/)) really should be standard. Instead, it's a motherfucker because M$ is too damn cheap to include the HEVC extensions which it relies on it without either having the user [pay \$0.99](https://www.microsoft.com/en-us/p/hevc-video-extensions/9nmzlz57r3t7) ([or claiming to be the OEM](https://www.microsoft.com/en-us/p/hevc-video-extensions-from-device-manufacturer/9n4wgh0z6vhq)) because a collection of jackasses have it [patented so hard](https://www.hackerfactor.com/blog/index.php?/archives/833-HEIC-Yeah.html) and require licensing fees such that it may as well not exist. HEIF/HEIC or BPG I think have a good chance because of the preexisting hardware acceleration, but other formats like [hific](https://hific.github.io/), which uses GANs to do compression, look promising too.
+Look, jpeg and png are perfectly fine formats. For 2000. It's 2022. HEIF (or [BPG](https://bellard.org/bpg/)) really should be standard. Instead, it's a motherfucker because M$ is too damn cheap to include the HEVC extensions which it relies on it without either having the user [pay \$0.99](https://www.microsoft.com/en-us/p/hevc-video-extensions/9nmzlz57r3t7) ([or claiming to be the OEM](https://www.microsoft.com/en-us/p/hevc-video-extensions-from-device-manufacturer/9n4wgh0z6vhq)) because a collection of jackasses have it [patented so hard](https://www.hackerfactor.com/blog/index.php?/archives/833-HEIC-Yeah.html) and require licensing fees such that it may as well not exist. HEIF/HEIC or BPG I think have a good chance because of the preexisting hardware acceleration, but other formats like [hific](https://hific.github.io/), which uses GANs to do compression, look promising too.
 
 > As a note about why I wrote about HEIF/C in particular, most phones are capable of storing images in this format now, and IPhones do by default, which is a real PITA if an apple user emails these pictures to a Windows user.
 
@@ -392,11 +409,11 @@ This combined with more traditional [bit rot](https://en.wikipedia.org/wiki/Data
 
 Sure, tools like [Waifu-2x](https://github.com/nagadomi/waifu2x) help with the first problem, but using AI-up scaling to fix the loss of data isn't ideal. For actual bit rot, tools exist to detect bit errors in most formats and you could always use a better file system that does check summing, but both of these require more technical skill than most people have.
 
-While not exactly related, data accumulation and near-duplication (think having two pictures with one having just a 2px cropped off the top) is a big problem. Trying to sort though a mounting of images, text, or audio files can be nearly impossible if put off for too long, making good digital hygiene a must despite the fact that nobody ever tells anybody how to have good digital hygiene in the first place.
+While not exactly related, data accumulation and near-duplication (think having two pictures with one having just a 2px cropped off the top) is a big problem. Trying to sort though a mounting of images, text, or audio files can be nearly impossible if put off for too long, making good digital hygiene a must despite the fact that nobody ever tells anybody how to have good digital hygiene in the first place. {{< smalltext >}}(don't ask me!){{< /smalltext >}}
 
-AI tools to tag and identify images and audio help, but those tools are still limited and often only work well on uncompressed data, so no .jpgs or .mp3s for you.
+AI tools to tag and identify images and audio help, but those tools are still limited and often only work well on uncompressed data, so no .jpgs or .mp3s for you. Plus, a lot of them upload your data to get processed (privacy concerns) or just don't work on some data (good look tagging all the pictures in your *homework* folder)
 
-With all of this combined keeping your files in order, not corrupted, and not having duplicates becomes a growing issue.
+With all of this combined, keeping your files in order, not corrupted, and not having duplicates becomes a growing issue.
 
 ### Storage Hardware and File systems suck.
 
@@ -404,17 +421,17 @@ The hardware issue is mostly a side effect of trying to market technical differe
 
 That said, holy shit do manufactures suck at this. Everything from [Western Digital redefining 'RPM'](https://arstechnica.com/gadgets/2020/09/western-digital-is-trying-to-redefine-the-word-rpm/) to [Western Digital uses SMR on NAS drives](https://arstechnica.com/gadgets/2020/05/western-digital-gets-sued-for-sneaking-smr-disks-into-its-nas-channel/),   [DRAM-less SSDs](https://www.youtube.com/watch?v=ybIXsrLCgdM) and [Bait-and-switch in regards to SSD performance](https://youtu.be/bGY9hEVk_Bc?t=3744).
 
-> SMR, or Shielded Magnetic Recording, has a few issues that make it problematic for Network Attached Storage (NAS) systems using multiple disks, particularly if the NAS is running ZFS, a common file system made exactly for this use case.
+> SMR, or Shielded Magnetic Recording, has a few issues that make it problematic for Network Attached Storage (NAS) systems using multiple disks, particularly if the NAS is running ZFS, a common file system made exactly for this use case. So Western Digital doing this was well and truly a massive fucking problem for people needing to store a lot of data.
 
-But the issues go beyond that. While a bit controversial, I think literally any modern filesystem (BTRFS, ZFS, or even EXT4) is *much* better than the mess that is NTFS, yet, Microsoft only officially supports NTFS, FAT(/32), and ReFS- all of which sorta suck.
+But the issues go beyond that. While a bit controversial, I think literally any modern filesystem (BTRFS, ZFS, or even EXT4) is *much* better than the mess that is NTFS, yet, Microsoft only officially supports NTFS, FAT(/32), ~~and ReFS~~- all of which sorta suck.
 
 There is no fucking reason everyone - Microsoft, Apple, Linux, etc. - can't fucking agree on *something* and avoid the massive fustercluck that is using FAT32, a filesystem that can only store files up to 4GB, as the only common system that "just works". 
 
-> Note, you can use [BTRFS on Windows](https://github.com/maharmstone/btrfs (WinBtrfs)), using 3rd party tools. Technically, the same is true of EXT2/3/4 too, but I don't trust it to not eat my data.
+> Note, you can use [BTRFS on Windows](https://github.com/maharmstone/btrfs (WinBtrfs)), using 3rd party tools. This seems to be stable enough and has some real advantages for dual-booters. Technically, the same is true of EXT2/3/4 too, but I don't trust it to not eat my data.
 
 Ideally, we'd be using [Logical Volume Managment](https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)) so that the entire filesystem can have snap shots, partitions could be resized, or use multiple physical disks 
 
-I also don't get how in 2021, some system are still booting off of spinning rust? Hell, why are we really using it at all. Yes, I know the price per GB is much lower, but we're talking about something that is so sensitive to vibration that [Shouting In The Datacenter](https://www.youtube.com/watch?v=tDacjrSCeq4) is a problem. This is extra dumb when you consider a lot of computers or game consoles will be right next to speakers and subwoffers. Every time I pickup a laptop with an HDD and I can feel the inertia of the disk it makes me cringe. 
+I also don't get how in 2022, some systems are still booting off of spinning rust? Hell, why are we really using it at all. Yes, I know the price per GB is much lower, but we're talking about something that is so sensitive to vibration that [Shouting In The Datacenter](https://www.youtube.com/watch?v=tDacjrSCeq4) is a problem. This is extra dumb when you consider a lot of computers or game consoles will be right next to speakers and subwoffers. Every time I pickup a laptop with an HDD and I can feel the inertia of the disk it makes me cringe. 
 
 ### Cloud Storage is a terrible idea
 
@@ -464,7 +481,7 @@ Unfortunately, in response to criticisms, like this one, of cloud storage a lot 
 
 ## Transferring Information Sucks
 
-I mostly mean networking, but things like flash drives too.
+{{< smalltext >}}I mostly mean networking, but things like flash drives too.{{< /smalltext >}}
 
 ### The Internet Sucks
 
@@ -474,94 +491,250 @@ To start with, let's look at how horribly shit was designed. As a start, I recom
 
 There are also issues of access. In the US at least, most places are part of an ISP regional monopoly. Often they'll argue that you *do* have options, such as satellite internet. However, this is complete and total bull shit. You do *technically* have the option, sure, but this option is slow, usually has data caps, and just generally sucks. If you're in a rural area, you're lucky if the copper in the ground is still good enough to get you something fast enough to watch a YouTube video. Then, on top of all this BS, the ISPs regularly get caught for doing shit to your traffic, whether it be injecting ads, terminating connections early, blocking services (often torrenting), not letting you forward ports, etc. Oh, and then they try to charge you for a modem you don't even have- thankfully that was [just made illegal](https://www.extremetech.com/internet/318570-its-finally-illegal-for-isps-to-charge-rental-fees-for-equipment-you-own).
 
-TLDR; ISPs are evil.
+TLDR: ISPs are evil.
 
 ### Centralization Sucks
 
-https://lbry.io/
+{{< speech yesbutno big >}}
 
-https://datproject.org/
+At the time of writing, a lot of decentralized services are hopping on the cryptocurrency train. This is really fucking stupid. So, while projects like Lbry, Dat, IPFS, and the Beaker Browser are cool, until the space cools down a bit and stops thinking Crypto is a good idea I'd recommenced proceeding with extreme caution.
 
-https://ipfs.io/
+{{< /speech >}}
+
+Most services on the Internet are *Centralized*. When you get on Facebook, you're connecting to Facebook's servers. YouTube? YouTube's servers. And so on.
+
+What if, instead, when you watched a video it downloaded it to your computer (at least for a little while) and then, when the next person wanted to watch it they got it from you. As more people watch a video, the number of people who have it grows, and so it's faster for the next person to get it. This is a system that naturally scales. It's also resistant to censorship (which is both good and bad). A *slight* variation on this is the idea behind [PeerTube](https://joinpeertube.org). Similarly, there's [mastodon](https://mastodon.social/about) as an alternative to Twitter.
+
+But we can do better. With tools like [ipfs](https://ipfs.io) or [cjdns](https://github.com/cjdelisle/cjdns) we can replace the entire back-end, the internet itself, with something that is inherently decentralized and peer-to-peer.
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/SrA7XTDCtok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+↑ Note, this video has a part 2: [Decentralize 02 / VoluntaryNet: The Digital Public Square](https://www.youtube.com/watch?v=URoRVFfoGMg)
 
 ### Transferring Your Profile Sucks
 
- AnIdiotOnTheNet's Comment on [This Hacker New's Submission - 'Re-Thinking the Desktop OS'](https://news.ycombinator.com/item?id=24783387)
+Say you want to move off of Twitter and go to Mastodon, how do you do that? Well, there are options. You can run a bridge account and have toots from Mastodon get automatically posted to Twitter and just leave a pinned tweet saying you'll only reply over on Mastodon. But, wouldn't it be better if you could import all of your tweet history?
 
-> [...]
->
-> 5) Switchable "user profiles" instead of "user accounts", which are an artifact of giant shared computer systems. User profile just contains personalized settings and can be located anywhere, including removable media so you can take yours to other computers. If you want to keep things safe from others, encrypt them. Otherwise there are no permissions except those applied to applications themselves.
+What if you get a new computer, wouldn't it be nice if setting it up was as easy as just copying over a settings file that has everything you want, all your programs, configurations, accounts logged in, etc? Sure, you can get close by using a few "super accounts" like signing into Chrome, Steam, etc. but then your both trusting other services with your passwords and all your data.
 
-I think Solid, a project by Prof. Time Berners-Lee, the guy behind the World Wide Web, is a decent implementation of this if it were to gain enough traction to actually be used.
+I think this comment points to a better idea:
 
-> Solid's central focus is to enable the discovery and sharing of information in a way that preserves privacy. A user stores personal data in "pods", personal online data stores, hosted wherever the user desires. Applications that are authenticated by Solid are allowed to request data if the user has given the application permission.
+{{< quote "[AnIdiotONTheNet](https://news.ycombinator.com/user?id=AnIdiotOnTheNet) comment on the [Re-Thinking the Desktop OS](https://twitter.com/patrickc/status/1316475471203360769) Hacker News Submission" >}}
 
-{{< attribution >}}
+[...]
 
-[Solid Wikipedia Article](https://en.wikipedia.org/wiki/Solid_(web_decentralization_project))
+5) Switchable "user profiles" instead of "user accounts", which are an artifact of giant shared computer systems. User profile just contains personalized settings and can be located anywhere, including removable media so you can take yours to other computers. If you want to keep things safe from others, encrypt them. Otherwise there are no permissions except those applied to applications themselves.
 
-{{< /attribution >}}
+{{< /quote >}}
+
+For this, I think Solid, a project by Prof. Time Berners-Lee, the guy behind the World Wide Web, is a decent implementation of this if it were to gain enough traction to actually be used.
+
+{{< quote "[Solid Wikipedia Article](https://en.wikipedia.org/wiki/Solid_(web_decentralization_project))" >}}
+
+Solid's central focus is to enable the discovery and sharing of information in a way that preserves privacy. A user stores personal data in "pods", personal online data stores, hosted wherever the user desires. Applications that are authenticated by Solid are allowed to request data if the user has given the application permission.
+
+{{< /quote >}}
 
 But the point I'm trying to convey is that right now setting up a new device or logging into a service sorta blows. The user profile needs to be secure, user-owned, and decentralized. For those that know Linux, it's what making your `~/.config` folder into a git repo *should* be like.
 
 #### Speaking of "Your Profile"...
 
-[TODO] bad gender pickers, forced "real name", etc.
+While, yes, advertisers collect a bunch of information about you to advertise to you in a profile that you can't control and that sucks, others have spoken about that extensively, probably most entertaining for this [Data Brokers: Last Week Tonight with John Oliver](https://www.youtube.com/watch?v=wqn3gR1WTcA). But, most people also have some intentionally public online presence, where they have some information they've decided they want people to be able to find. The comfort with this varies from person to person, but for many it may include age, birthday, gender, name, place of work, and a few hobbies.
+
+You'd think this would be easy enough to get right.
+
+It's not.
+
+First of all, let's pick on gender selection. 
+
+If you make a website or app and do this:
+
+<form action="/action_page.php">
+  <p>Please select your gender:</p>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Male</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Female</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">Trans</label>
+</form>
+
+You can go fuck yourself. "Trans" is not a gender. If someone is trans, they are now identifying as a different gender than the one assigned at birth. If you really must know, this can be a box, but, it's also probably none of your fucking business. What you should *probably* have is something either asking for preferred pronouns, or, if you absofuckinglutly must have their gender and know if they're trans (which, uh, no, you probably don't.) then proceed with caution. Otherwise you [may end up in one](https://threadreaderapp.com/thread/1235703750448353280.html) of [@Foone's](https://twitter.com/Foone/status/1455300158271352834) many [Twitter Threads](https://twitter.com/Foone/status/977304714978062336) making [fun of bad UI choices](https://twitter.com/foone/status/1343959530321788928).
+
+Even with names, this is easy to fuck up. Like Google+ (now dead) wanting only ["real names"](https://www.forbes.com/sites/kashmirhill/2012/01/24/google-relaxes-real-name-policy-but-might-make-you-provide-proof-of-your-nickname/?sh=34c057854697) which is a privacy disaster and has real issues for some people with uncommon or long names, and it's even worse for those with either weird characters or no last name. (Different Cultures are a thing, remember.)
+
+Basically, anticipate there being *someone*, *somewhere* that doesn't fit nicely into your design. Someone will have a name with a substring that contains a curse word when interpreted in a different language. An intersex person may sign up for your website and be neither Male or Female while also not being trans or gender fluid or anything else you anticipated.
+
+As a user, this means we really, really need to be able to fully control our profiles. Let people enter their own preferred pronouns, names, etc. Don't make it a checkbox.  
 
 ### Local Backups By Default
 
 Most web pages are reasonably small, especially if you ignore java script crap. Why do browsers not just backup all web pages we go to (on desktops and laptops where storage is a non-issue) ? This would provide the benefit of being able to do a local text search of everything browsed recently as well as backups in case the page goes offline or moves.
 
-There are tools that do this already (like [Archivebox](https://archivebox.io)) which can be automated but it's still not user friendly to normies. There are also sites like [Waybak Machine](https://archive.org/web/) and [Perma.cc](https://perma.cc) that will save copies of websites for you and provide a link that should always work, even if the website goes down or the address changes, but again, this is a bit of a pain. It also can lead to copyright issues for these services.
+There are tools that do this already (like [Archivebox](https://archivebox.io)) which can be automated but it's still not user friendly to normies. There are also sites like [Wayback Machine](https://archive.org/web/) and [Perma.cc](https://perma.cc) that will save copies of websites for you and provide a link that should always work, even if the website goes down or the address changes, but again, this is a bit of a pain. It also can lead to copyright issues for these services.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Why can’t you easily search all of the text you read on any screen (desktop + mobile) over the past day?<br><br>It’s strange how much obvious, low-hanging fruit of this form still exists.</p>— Patrick Collison (@patrickc) <a href="https://twitter.com/patrickc/status/953011978217205760?ref_src=twsrc%5Etfw">January 15, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Physical Interaction
 
-I also think the boundaries of physical and digital should be more blurred. I'd love if I could set a book on my desk and search though it for an idea or concept by mere image recognition of the cover, or if it's an unknown book at least being able to digest any pages shown to it explicitly. Say a section was highlighted? It would be great if that were automatically added to a *personal journal file of sorts* for future reference, especially if related data were automatically associated with online sources, or links made to people who are interested in similar subjects.
+I also think the boundaries of physical and digital should be more blurred. I'd love if I could set a book on my desk and search though it for an idea or concept by mere image recognition of the cover, or if it's an unknown book at least being able to digest any pages shown to it explicitly. Say a section was highlighted? It would be great if that were automatically added to a *personal journal file* of sorts for future reference, especially if related data were automatically associated with online sources, or links made to people who are interested in similar subjects.
 
-[The Screenless Office (Screenl.es)](http://screenl.es/why.html) and [Dynamic Land](https://dynamicland.org) both show this idea pretty well.
+[The Screenless Office (Screenl.es)](http://screenl.es/why.html) and {{< best >}}[Dynamic Land](https://dynamicland.org){{< /best >}} both show this idea pretty well.
 
 ## Creating New Information Sucks
 
 **Or, People Will Only Make Stuff That Is As Good As The Tools They Have**
 
-{{< hint info >}}
+{{< speech boba big >}}
 
-Note the **Will** and not **Can**. A very talented musician can make [a shovel](https://youtu.be/IyQOw-_H4yE) sound good, a talented photographer [doesn't need a good camera](https://www.kenrockwell.com/tech/notcamera.htm). But in general that's setting the required bar of talent - and therefore time - higher. The better and more efficient our tools are, the better content people can make without putting in more time than they're willing to. 
+Note the "**Will**" and not "**Can**". A very talented musician **can** make [a shovel](https://youtu.be/IyQOw-_H4yE) sound good, a talented photographer [doesn't need a good camera](https://www.kenrockwell.com/tech/notcamera.htm). But in general that's setting the required bar of talent - and therefore time - higher. The better and more efficient our tools are, the better content people can make without putting in more time than they're willing to. 
 
-A better camera won't make you a photographer, but it might be the difference between unusable pictures and a saved memory
+A better camera won't make you a photographer, but it might be the difference between unusable pictures and a saved memory for someone with less skill.
 
-{{< /hint >}}
+{{< /speech >}}
 
-I think I've generally made the case that our tools suck so far, but here's where I think things can get really interesting.
+I think I've generally made the case that our tools suck so far, but here's where I think things can get really interesting. I'll break this up into multiple problems:
 
-[TODO]
+### We Need Faster Input
 
-* Faster input
-  * WYSIWYG sucks
-  * Needing to compile your views also sucks
-* Tools need to scale in complexity with the user
-  * Start by showing an intro UI, let the user add more features to the UI as needed
-  * Great in application documentation
-  * Included examples
-  * on UI help and highlighting
-* Program data type interopability
-  * Common in-progress formats for video editors, image editing, sound editing, etc.
-* Variety of formats, hard to shift between
-  * mp4 or .gif?
-* Copyright is a real pain
-* Specific Tools for specific needs - a book writing program sholud have world building, outline, and character refrence tools, as well as good revision history 
+WYSIWYG (pronounced wizzy-wig) or **W**hat **Y**ou **S**ee **I**s **W**hat **Y**ou **G**et editors (usually for text and images) are those that do their best to make sure that what you see in the software directly relates to what you'd get if you printed it out or sent it to someone else - Like Microsoft Word. Unfortunately, it's often true that WYSINWYW **W**hat **Y**ou **S**ee **I**s **N**ot **W**hat **Y**ou **W**ant. That is, controlling software like Word is a massive pain in the ass. So While WYSIWYG sounds great in theory, it's often hard to use, a menu-dive hell, and is slow compared to something more limited like Markdown. Markdown is what this website uses, in a nut shell
 
-As far as how all of these tools should work and interact, well, I think they should all use standardized file formats, even if they have to abuse them a little to do so and that they should all have a common Application Programming Interface (API) for interaction. This would hopefully mean that any extension written for one program would work for another, and any program could talk to another. For example, currently the realm of music software has a little bit of this with VSTs and MIDI. but it still leaves a lot to be desired. I'd actually like to take it a step further though and ask that all data of any kind use a common enough format that it can be processed with any extension/program written with this API in mind. Imagine if you could use a synthesizer as a static generator for image manipulation, or color management controls as an EQ. Both would and should behave in strange way, and it's this very lack of defined behavior that could lead to interesting art forms. I'd love to see a 'Master' API that works across all formats and ideas with a common data type that allows for program⟺program, program⟺extension, program⟺hardware, etc. communication even in long, complicated chains. After all, if you've taken a signals and systems course you know that basically any data can be treated as a signal.
+{{< columns >}}
 
-This could be done with some sort of node based programming system. While I don't actually know how to use it, I think [Luna](https://www.luna-lang.org/) demonstrates this concept fairly well:
+You write text like this
+
+```markdown
+# Title
+
+normal text, **something in bold**,
+and a *title* in itilics.
+
+* a bulleted list item
+* and another
+
+`some code`
+
+| and     | a    | little        |
+| ------- | ---- | ------------- |
+| table   | with | some          |
+| content | for  | demonstration |
+
+> a quote
+```
+
+
+
+<--->
+
+And it turns into this
+
+# Title
+
+normal text, **something in bold**,
+
+and a *title* in itilics.
+
+* a bulleted list item
+* and another
+
+`some code`
+
+| and     | a    | little        |
+| ------- | ---- | ------------- |
+| table   | with | some          |
+| content | for  | demonstration |
+
+> a quote
+
+{{< /columns >}}
+
+The advantage here being that once you've memorized the special characters for formatting, they're really, really fast to type. Plus, if you want to change the style of the content you can just change the way it's rendered - for this website that's defined with the CSS (the "style sheet" of a website) but in an exported document to PDF a given markdown editor probably has a dozen different themes to choose from.
+
+The biggest problem with markdown is that you need to take that text with the special formatting characters and render it. This, historically, meant that you'd have a pane of text you write in and a different pane where you see what the final document should look like. This is confusing and eats all your screen space. Fortunately, tools like [Typora](https://typora.io), [Marktext](https://github.com/marktext/marktext), and [Obsidian.md](https://obsidian.md) all have the ability to render things in the same window as you type, making it feel totally natural.
+
+But, alright, that's a lot about editing text, what about for editing pictures? Making Videos?
+
+Well, I think a large part of that comes down to having tools with AI assisted tools. If you can put in natural text saying  "Perform red eye removal", "blur the background", or "add film grain" that's already a huge leap forward, but with actual object recognition in the photo, it's reasonable to expect we may be able to say something as specific as "remove the dog in the bottom left". Plus, as full realistic image generation tools get better - see [DALL·E 2](https://openai.com/dall-e-2/) - "make this picture look like it was taken at night" may become something you can do.
+
+Even for original digital art, there's a lot that can be done, for example see [PaintingLight](https://github.com/lllyasviel/PaintingLight) which can automatically shade/light digital art.
+
+For video, the same ideas apply. Some of this is already being done by https://runwayml.com (though their pricing is a bit high given it's browser based).
+
+### We Need Tools that Scale With the User
+
+On one hand, I really hate baby sitting users that don't want to learn how to use software - espically software they use every day - on the other, I know not everyone is capable of remembering how to use the deepest features of Word (or, have mercy, Blender) and often just want to do something quickly.
+
+Right now, this problem is largely solved by just having a bunch of different products depending on what a user needs. Just need to quickly draw over an image to circle something? MS Paint will probably work fine. Want to do digital art? You probably want [Krita](https://krita.org/en/). Photo Editing? ~~Photoshop~~ [Affinity Photo](https://affinity.serif.com/en-us/photo/) will work well.
+
+This isn't great, in part because it means that work is being duplicated, but also because it means the UI for actions common to all three isn't the same. We need software that can open, initially, with the bare basic features (The MS Paint equivilant) but can have things added and removed as needed, and profiles with different configurations saved.
+
+This also comes with some responability on part of the developer to provide great documention, user extendability (Let users write their own plugins in Python!), and to have good **in-software** help. That last point is worth the hassle of development. Having the ability to hover over a button for a bit and it telling you what it does is much, much better than digging through docs to find it.
+
+### We Need Interopability
+
+Say you're working in Krita making some digital art and want to load your file into Affinity Photo to use it's lighting system on your art. Well, you *can* do this. One option would be to export the file from Krita as a final render, probably as a .PNG, trust that you wont find anything you won't have to go back and change, and do what you need to do. Another option is to ~~ab~~use the .PSD format (**P**hoto**s**hop **D**ocument) which is, uh, [not a good format](https://github.com/gco/xee/blob/4fa3a6d609dd72b8493e52a68f316f7a02903276/XeePhotoshopLoader.m#L108). This would preserve the layer structure which will allow for more advanced editing, but is clearly not great.
+
+So, I'm just arguing for standardized file formats, right?
+
+{{< columns >}}
+
+<img src="/nonfree/character/shade/yesbutno.webp" alt="Vega hacking on a laptop">
+
+{{< attribution >}}Character owned by Vega, art by [Shade](https://twitter.com/shadepiplup10) {{< /attribution >}}
+
+<--->
+
+Standardized file formats, where possible, do help. But I also realize why we don't have them. Sometimes you want a new feature that just doesn't have a place in the current format. If we wanted a generic format that worked everywhere, the format would effectively have to be able to include arbitary binaries in it to work on everything. So, uh, that doesn't work.
+
+Instead, what I'd like to see is software that does three things to work around this:
+
+**First,** actions should, as much as possible, be **non-destructive**. This means they can always be reversed and or taken out of a chain of actions performed.
+
+**Second,** software should assume that it does **not** have a lock on a file,
+
+**Third,** actions taken in software should be a log of events to recrate the final product (caching expensive actions as possible), not the actual result.
+
+{{< /columns >}}
+
+If you combine these three things, it would mean that *multiple* programs could actively work on the same file at the same time. They just have to look through the shared log file and perform their actions in order according to the log.
+
+Now, if you wanted to work on the same file in Krita and Affinity Photo, you could literally edit it simultaniously in both.  Changes would just propogate for as much of the standard the two have in common. This works best if one program supports a sub-set of the other (as in, if Affinity supported everything Krita did, and more - but not Krita supporting some things Affinity doesn't and Affinity supporting some things Krita doesn't) but even if that isn't the case, it's reasonable to just document the places the overlapp fails and still see this as a win.
+
+To be clear, I know this is a pretty utopian idea. It assumes that multiple organizations will actually standardize, that they can play nicely with interprocess comunniciation, and that people actually keep their software up to date to keep up with standards that will naturally evolve. Still, I think this is the way forward. Integartion and simultainous workflows in multiple programs just opens up so much possibility. Hell, if this was done there's no reason two artists couldn't work on the same piece simulatiously. Imiganie, two artists working on the same piece (though probably in different layers) able to work together.
+
+{{< smalltext >}}I also know copyright and patents are an issue with this idea. Let me dream.{{< /smalltext >}}
+
+### We Need Tool Composition
+
+As an alternative to the file format clusterfuck, it may be better if programs themselves composed nicely. If you're a unix nerd, you may see either of these two ideas as "The Unix Phillosophy". Regardless, my point is that if each primary task someone wanted to do (writing, photo editing, text editing, etc.) had a good, base program different vendors - both free and commercial - could focus on providing extensions to it or making bridges to their own software and allowing for them to work together.
+
+As a motivating example, say you want to write a fantasy book. You'll want something for writing the actual text (duh.), something for mapping how characters know or are related to one another, a tool for making the outline, something for generating a world (land masses, religion, history, etc) and documenting it, etc.
+
+Each of those tools could exist as independent software, sure. But they could *also* exist as plugins for a base, generic program that these tools snap into so that they can share data. For example, maybe the world generation tool could generate a map that has labeled cities, then, whenever that city is mentioned in the text or outline, it would appear as link for the author to store notes about what's happened there.
+
+Ideally, each piece of software would still be able to be function independently, but when ran together they could communicate and comfortably snap together into a better user interface with shared interactivity. 
+
+Arguably, this should actually be the job of the Operating System to provide this backend on which things can request to hook together and each program could expose generic interfaces, like a text editor saying "here's my main text box, feel free to look through it for words to turn into links", and all open programs could say "Yeah, I want to do that" - of course, provided the user wants to give programs permission to do so.
+
+All of this would hopefully mean that any extension written for one program would work for another, and any program could talk to another. For example, currently the realm of music software has a little bit of this with VSTs and MIDI. but it still leaves a lot to be desired.
+
+I'd actually like to take it a step further though and ask that all data of any kind use a common enough format that it can be processed with any extension/program written with this API in mind. Imagine if you could use a synthesizer as a static generator for image manipulation, or color management controls as an EQ. 
+
+Seriously. This idea just blows my mind. If we let data get re-intrepted as things it's not supposed to be, the options are nuts.
+
+Both would and should behave in strange way, and it's this very lack of defined behavior that could lead to interesting art forms. I'd love to see a 'Master' API that works across all formats and ideas with a common data type that allows for program⟺program, program⟺extension, program⟺hardware, etc. communication even in long, complicated chains. After all, if you've taken a signals and systems course you know that basically any data can be treated as a signal.
+
+As for what this would actually look like, having an operating system which presents - as a core to the functionality - some sort of node based programming system would work. While I don't actually know how to use it, I think [Luna](https://www.luna-lang.org/) demonstrates this concept fairly well:
 
  ![Luna](/hci/luna.webp)
 
-though there are plenty of other examples, like the node editors used for making shaders or programming in Unreal Engine
+though there are plenty of other examples, like the node editors used for making shaders or programming in Unreal Engine.
 
 Potentially this could also plug into the entire OS as well, making it so an image manipulation program's extension could for example modify anything output to the screen in real time, or an audio program could effect the output of anything. For developer's this may even offer more power, making possible things such as inter-process communication (think pipes, like `$ls -la | grep png`) a matter of connecting two nodes, or reading disk information such as activity, space, or even writeback and inode information, this would literally allow any one piece of information to be accessible to any other. This does have obvious permission issues, but unix permissions should already have this under control. If something like this could also be tied into the previously mentioned internet search and socialization 'web' without massive security concerns the potential use cases are as simple as getting color information from an image hosted online to as complicated as remote access or distributed computing.
+
+This has already been tried to some extent with [Pipeworld (GitHub)](https://github.com/letoram/pipeworld), which bills itself as a "Dataflow 'spreadsheet' desktop environment". There's a [demo of it on YouTube here](https://www.youtube.com/watch?v=FgHMU7m9-I8), though you have to be pretty nerdy to fully appriciate it.
+
+This also does already exist for some workflows. For example, video synthesis (while quite nieche) has [Syphon](http://syphon.v002.info) which many video synthesis applications support for realtime frame sharing with minimal overhead.
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Slightly more impressive from a more technical side is that you can reverse search for methods using an expected input-output pair<br><br>For example if you type in &#39;eureka&#39;, &#39;EUREKA&#39; it will return the method &quot;asUppercase&quot; which performs that string operation!<a href="https://t.co/9DpmCuV9hf">https://t.co/9DpmCuV9hf</a></p>&mdash; Azlen Elza (@azlenelza) <a href="https://twitter.com/azlenelza/status/1371612552824766477?ref_src=twsrc%5Etfw">March 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -609,11 +782,13 @@ A few notes on this video.
 
 There are also issues on ownership, for example:
 
-[Amazon Sued For Saying You've 'Bought' Movies That It Can Take Away From You](https://www.techdirt.com/articles/20200505/23193344443/amazon-sued-saying-youve-bought-movies-that-it-can-take-away-you.shtml)
+[Amazon Sued For Saying You've 'Bought' Movies That It Can Take Away From You](https://www.techdirt.com/articles/20200505/23193344443/amazon-sued-saying-youve-bought-movies-that-it-can-take-away-you.shtml) and [Microsoft Is Closing Its Ebook Store and Taking the Books With It](https://www.popularmechanics.com/technology/a27021744/microsoft-ebook-store-shutdown/)
 
-[Microsoft Is Closing Its Ebook Store and Taking the Books With It](https://www.popularmechanics.com/technology/a27021744/microsoft-ebook-store-shutdown/)
+Not to mention the fact that [updates keep changing how IOT devices work](https://staceyoniot.com/the-unbearable-fussiness-of-the-smart-home/), making them more "needy" as they display more notifications and interupt the user more in a plea to get used (so they can harvest even more data).
 
-Not to mention the fact that [updates keep changing how IOT devices work](https://staceyoniot.com/the-unbearable-fussiness-of-the-smart-home/), making them more "needy" as they display more notifications and interupt the user more in a plea to get used (so they can harvest even more data)
+## Digital Conclusion
+
+So, clearly there's room for improvment with how we interact with software and the core experiance with how we find, access, look at, store, transfer, and create digital content. Some of what I've sugessted here may seem far fetched and all but impossible, but the same feels true if we consider how advanced smart phones would seem in 1999 or some of today's AI content generation still seems, as it gets better at generating life like images and holding convincing conversations.
 
 <ol hidden id="footnotes">
 <li>... unless that service is based around that permission, like denying a recording app access to a microphone.</li>

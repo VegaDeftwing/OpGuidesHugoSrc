@@ -6,7 +6,7 @@
 
 [TODO]
 
-Visual Programming but still supporting text based programming, natural language scripting
+Visual Programming but still supporting text based programming, natural language scripting, node-red, etc.
 
 everything is a file/folder (inc. full programs)
 
@@ -14,13 +14,17 @@ everything is a file/folder (inc. full programs)
 
 [TempleOS](https://en.wikipedia.org/wiki/TempleOS) is a really weird operating system. From Wikipedia
 
-> **TempleOS** is a biblical-themed lightweight operating system designed to be the Third Temple prophesied in the Bible. It was created by the late American programmer Terry A. Davis, who developed it alone over the course of a decade after a series of manic episodes that he later described as a revelation from God.
->
-> [...] using an interface similar to a mixture of DOS and Turbo C. Davis proclaimed that the system's features, such as its 640x480 resolution, 16-color display and single audio voice, were designed according to explicit instructions from God.
+{{< quote "[Wikipedia](https://en.wikipedia.org/wiki/TempleOS)" >}}
 
-But the part that's cool to me? TempleOS gives no fucks about security, now, that's at least in part because it doesn't have networking (though there is a [fork with networking](https://github.com/minexew/Shrine)) but even then, there's no concept of an admin or 'normal' user. There's no system-protected processes. You want to flip arbitrary bits, directly send data over IO lines, whatever. The OS will not stop you. The entire thing runs in ring 0, which means you always have total control over the hardware, but it also means there's nothing stopping you from massively fucking everything up and crashing the system, corrupting everything, etc.
+**TempleOS** is a biblical-themed lightweight operating system designed to be the Third Temple prophesied in the Bible. It was created by the late American programmer Terry A. Davis, who developed it alone over the course of a decade after a series of manic episodes that he later described as a revelation from God.
 
-[TempleOS (Linus Tech Tips)](https://youtu.be/LtlyeDAJR7A)
+[...] using an interface similar to a mixture of DOS and Turbo C. Davis proclaimed that the system's features, such as its 640x480 resolution, 16-color display and single audio voice, were designed according to explicit instructions from God.
+
+{{< /quote >}}
+
+But the part that's cool to me? TempleOS gives no, and I mean absolutely zero, fucks about security, now, that's at least in part because it doesn't have networking (though there is a [fork with networking](https://github.com/minexew/Shrine)) but even then, there's no concept of an admin or 'normal' user. There's no system-protected processes. You want to flip arbitrary bits, directly send data over IO lines, whatever. The OS will not stop you. The entire thing runs in ring 0, which means you always have total control over the hardware, but it also means there's nothing stopping you from massively fucking everything up and crashing the system, corrupting everything, etc.
+
+( You may want to watch [TempleOS (Linus Tech Tips, YouTube)](https://youtu.be/LtlyeDAJR7A) if this is interesting to you)
 
 And, okay, yeah, that's obviously not ideal for *normal* use, but I think there's something to be said for having the *option* to say fuck it, slam your fist down on the manual override button, and take full control of the system. This is what I mean by optional security - no HAL 9000 in the way. No `sudo`, no 'no'. In this mode it should also be easy to turn off all networking and malware protection, so a super-fuckit No firewallls, no threat scanning, etc. switch.
 
@@ -28,33 +32,35 @@ Running as root in Linux is *almost* this. It could even be argued that it's bet
 
 ## Backwards Compatibility via Compatibility Layers
 
- AnIdiotOnTheNet's Comment on [This Hacker New's Submission - 'Re-Thinking the Desktop OS'](https://news.ycombinator.com/item?id=24783387)
+{{< quote "[AnIdiotONTheNet](https://news.ycombinator.com/user?id=AnIdiotOnTheNet) comment on the [Re-Thinking the Desktop OS](https://twitter.com/patrickc/status/1316475471203360769) Hacker News Submission" >}}
 
-> [...]
->
-> 7) Backwards compatibility should be a high priority, but accomplished via shim layers and/or emulation and/or vms when clean breaks are necessary. A wide array of such should be included with the OS from the beginning. In 2020, there is no excuse for not being able to run old software."
+[...]
+
+7) Backwards compatibility should be a high priority, but accomplished via shim layers and/or emulation and/or vms when clean breaks are necessary. A wide array of such should be included with the OS from the beginning. In 2020, there is no excuse for not being able to run old software."
+
+{{< /quote >}}
 
 And yeah, that pretty much sums it up. Currently backwards compatibility is often a choice of actually going to better technology and fixing bugs - like the Excel [leap year problem](https://docs.microsoft.com/en-us/office/troubleshoot/excel/wrongly-assumes-1900-is-leap-year) or supporting older files without them massively breaking. There's really no reason we couldn't do both using comparability layers. The cost, I think, would mostly be in accepting that the transition to those comparability layers will be rough and that some thing will just have to be upgraded until that compatibility infrastructure is in place.
 
 There's no reason we shouldn't be able to run very old software, but also no reason to use that as an excuse against moving forward.
 
-A fairly interesting solution to some of this might be to implement hardware compatibility via FPGAs, that is loading either full soft-core CPUs or instruction set translation logic onto a tightly integrated FPGA. Higher end retro console emulators are already using FPGA emulations of the original CPUs anyway, so this isn't some crazy fantasy. To add even further hope, AMD owns Xilinx and Intel own Altera, so the two biggest CPU manufactures both already own the two biggest FPGA manufactures. There's nothing stopping them from making integration standard. (well, other than cost and market segmentation)
+A fairly interesting solution to some of this might be to implement hardware compatibility via FPGAs, that is loading either full soft-core CPUs or instruction set translation logic onto a tightly integrated FPGA. Higher end retro console emulators are already using FPGA emulations of the original CPUs anyway, so this isn't some crazy fantasy. To add even further hope, AMD owns Xilinx and Intel own Altera, so the two biggest CPU manufactures both already own the two biggest FPGA manufactures (which, is a problem in some ways). There's nothing stopping them from making integration standard. (well, other than cost and market segmentation)
 
 ## Hardware Modularity, Repairability, and Customization
 
-According to Wikipedia [Right to Repair](https://en.wikipedia.org/wiki/Electronics_right_to_repair) is 
+According to Wikipedia, [Right to Repair](https://en.wikipedia.org/wiki/Electronics_right_to_repair) is 
 
 > legislation that is intended to allow consumers the ability to repair and modify their own consumer electronic devices, where otherwise the manufacturer of such devices require the consumer to use only their offered services
 
 This is a big deal, with big player like Apple and John Deer lobbying incredibly hard against it. I can't possibly explain even a fraction of all the nuance in the arguments, so instead I recommend reading [this post](https://www.eff.org/issues/right-to-repair) from the Electronic Frontier Foundation (EFF) for a quick overview.
 
-As for modularity and customization, I mean that hardware should be made such that components can be swapped out. For example, most desktop computers do a decent job o f this, where each component - the CPU, graphics card, power supply, RAM, etc. - can be upgraded individually <a class="ptr">(1)</a>. This concept desperately needs to be more widespread. It simultaneously cuts down on eWaste by increasing longevity, allows consumers to only pay for what they need, and lets consumers buy-now-upgrade-later if they can't afford what they really want to start with.
+As for modularity and customization, I mean that hardware should be made such that components can be swapped out. For example, most desktop computers do a decent job of this, where each component - the CPU, graphics card, power supply, RAM, etc. - can be upgraded individually <a class="ptr">(1)</a>. This concept desperately needs to be more widespread. It simultaneously cuts down on eWaste by increasing longevity, allows consumers to only pay for what they need, and lets consumers buy-now-upgrade-later if they can't afford what they really want to start with.
 
 The only real downside for the consumer is that the products might be hair bit thicker? Yeah, I think that's a fair trade.
 
 ## Network Transparency
 
-Network Transparency is a neat concept, basically, it means you can use a program over the network as if it were local. I think the coolest example of this is the X Window System on Linux, which lets you run graphical programs on a remote computer, even one with no screen attached, and have the window be visible on your own computer. For example, while you could always setup a file server to access file remotely, you could also just use X's network transparency to forward the entire file manager window to your computer and browse files like normal.
+Network Transparency is a neat concept, basically, it means you can use a program over the network as if it were local. I think the coolest example of this is the X Window System on Linux, which lets you run graphical programs on a remote computer, even one with no screen attached, and have the window be visible on your own computer. For example, while you could always setup a file server to access file remotely, you could also just use X's network transparency to forward the entire file manager window to your computer and browse files like normal (not that you should)
 
 I'd love to see more applications and backend software (like X) support this. 
 
@@ -126,11 +132,15 @@ Demos of the WIP [Blockhead DAW](https://www.patreon.com/colugomusic):
 
 Microfluid computers, diode logic, GPIO
 
-## Wasting time on stupid shit that nobody cares about
+## Stop wasting time on stupid shit that nobody cares about
 
-Microsoft has been spending a lot of time changing to the new UI, and their calculator has been updated like a dozen times for UI now but still [SpeedCrunch](http://speedcrunch.org) remains 1000x more usable and tools like [WolframAlpha](https://www.wolframalpha.com) remain superior yet. Stop spending time on shit literally nobody gives a shit about.
+Microsoft has been spending a lot of time changing to the new UI, and their calculator has been updated like a dozen times for UI now but still [SpeedCrunch](http://speedcrunch.org) remains 1000x more usable and tools like [WolframAlpha](https://www.wolframalpha.com) remain superior yet. Stop spending time on shit literally nobody gives a shit about and that nobody should be using. If something is dumb for the sake of being dumb, like [Harder Drive: Hard drives we didn't want or need (Tom7, YouTube)](https://www.youtube.com/watch?v=JcJSW7Rprio) sure, but otherwise, let's make things *actually* better.
 
 ## Give me a fucking physical knob
+
+<img src="/eng/modular.webp">
+
+{{< attribution >}}↑ My eurorack setup, for making something vaugly resembling music{{< /attribution >}}
 
 [Bring Back Our Knobs: Analog vs. Digital (Popular Mechanics, 2009)](https://www.popularmechanics.com/technology/gadgets/a1531/4213770/) 
 

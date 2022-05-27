@@ -6,7 +6,7 @@ I am not affiliated with VCV or the Rack software in any way.
 
 {{< /tip >}}
 
-Despite [the mess](https://aria.dog/barks/why-i-will-never-create-modules-for-vcv-rack-anymore/) in the VCV community, I've still put in a lot of time in the software and run a pretty large group chat on Telegram where it (along side hardware Eurorack) is the main focus. In that chat, there's been a feel recurring questions, this page is just some of those questions and answers.
+Despite [the mess](https://aria.dog/barks/why-i-will-never-create-modules-for-vcv-rack-anymore/) in the VCV community, I've still put in a lot of time in the software and run a pretty large group chat on Telegram where it (along side hardware Eurorack) is the main focus. In that chat, there's been a few recurring questions, this page is just some of those questions and answers.
 
 ## How do I protect my ears from loud sounds?
 
@@ -26,7 +26,7 @@ Add a MIDI-CV module, right click it, and set **Polyphony Channels** to anything
 
 If you want to play with the mode you can too, what the modes do is documented [MIDI-CV](https://vcvrack.com/manual/Core#midi-cv) official manual page.
 
-If you want to use MPE (with like a Roli Seaboard or Artiphon Insturment One) you'll probably want to use the [MoDllz Midi Poly + MPE](https://library.vcvrack.com/moDllz/MIDIpolyMPE) module instead.
+If you want to use MPE (with like a Roli Seaboard or Artiphon Insturment One) you'll probably want to ~~use the [MoDllz Midi Poly + MPE](https://library.vcvrack.com/moDllz/MIDIpolyMPE) module instead.~~ The stock MIDI module has MPE mode now, though you should note that *most* MPE controllers also send a few CC's along with the per-note aftertouch and velocity. You may need to use a second module for that.
 
 ### With a Sequencer and/or Chord Generator
 
@@ -110,8 +110,10 @@ If you'd like to use VCV 1 ... at this point, don't. I realize there's some 1.0 
 
 Finally, there are non-VCV options, like [Voltage Modular](https://cherryaudio.com/voltage-modular), [Softube Modular](https://www.softube.com/modular), or maybe [Reason Rack](https://www.reasonstudios.com/en/reason/rack-plugin).
 
-If you want to load VSTs inside of Rack, you'll have to get [VCV Host](https://library.vcvrack.com/VCV-Host/Host), which is not free. It's also not perfect about plugin support, but it's still by far the biggest bang for your buck you can add to rack, albeit the UI is a bit clunky at times.
+If you want to load VSTs inside of Rack, you'll have to get [VCV Host](https://library.vcvrack.com/VCV-Host/Host), which is not free. It's also not perfect about plugin support, but it's still by far the biggest bang for your buck you can add to rack, albeit the UI is a bit clunky at times and any module running through host will have some delay depending on the buffer size (iirc, it defaults to 128)
 
 ## How do I interface VCV with Eurorack hardware?
 
 Pretty much the only way to do it directly is with either the Expert Sleepers ES-8, ES-9, or with an audio interface that supports ADAT and the ES-3 and ES-6 or [Boredbrain Optx](https://www.perfectcircuit.com/boredbrain-optx.html). This is going to largely depend on your setup and what you're looking for - if you want to hook up normal line-level gear to normal audio in's and out's using a traditional audio interface with ADAT is proabably the better option. If you're seeing this and going "Holy shit that's expensive!" then, yep, welcome to eurorack.
+
+You'll also probably want a MIDI→CV interface. I like the FH-2, but there's a million options out there. Mutable's Yarns (or clones of it) is nice too.

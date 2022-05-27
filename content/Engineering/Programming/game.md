@@ -110,3 +110,7 @@ A very long thread on ... stairs? Yeah. Look up advice on DND level design if yo
 
 https://github.com/SebLague/Slime-Simulation
 
+## Other Resources
+
+[Xelu's FREE Controllers & Keyboard Prompts - all CC0](https://thoseawesomeguys.com/prompts/)
+

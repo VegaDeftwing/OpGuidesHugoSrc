@@ -213,6 +213,14 @@ note, there are a lot of other arguments against Utilitarianism, but I think a l
 
 ## Consequentialism
 
+{{< quote "[Wikipedia](https://en.wikipedia.org/wiki/Consequentialism)" >}}
+
+Consequentialism is a class of normative, teleological ethical theories that holds that the consequences of one's conduct are the ultimate basis for judgment about the rightness or wrongness of that conduct. Thus, from a consequentialist standpoint, a morally right act (or omission from acting) is one that will produce a good outcome. Consequentialism, along with eudaimonism, falls under the broader category of teleological ethics, a group of views which claim that the moral value of any act consists in its tendency to produce things of intrinsic value.[1] 
+
+{{< /quote >}}
+
+Which, uh, is a good thought but also - like Utilitarianism, which is itself just a specific branch of consequentialism - requries the practationer to either know the future or do moral calculus for every decesion, which is impractical.
+
 ## Rapid Fire Ideas that suck
 
 All quote blocks from https://en.wikipedia.org/wiki/Normative_ethics
@@ -239,9 +247,62 @@ The Daddy makes the money, the Mommy raises the kids, and the kids learn to wors
 
 ## Kantianism
 
+Skipping to the juicy bit:
+
+{{< quote "[Wikipedia](https://en.wikipedia.org/wiki/Kantianism)" >}}
+
+The formulations of the categorical imperative:
+
+1. Act only according to that maxim whereby you can, at the same time, will that it should become a universal law.
+2. Act in such a way that you treat humanity, whether in your own person or in the person of any other, never merely as a means to an end, but always at the same time as an end.
+3. Therefore, every rational being must so act as if he were, through his maxim, always a legislating member in the universal kingdom of ends.
+
+{{< /quote >}}
+
+Which, uh, is really a fancy way of saying treat others the way you want to be treated + don't take away other's freedoms. Now, there's more to it than that, but that's the real gist. The problems here are pretty obvious:
+
+* What if you, personally, want to feel pain?
+* What if taking away somebody's freedoms is good for society - ie, sending someone to rehab / prison.
+* There's abolutely no concern for historical or social precedent - if someone want's to walk around naked, should they be able to?
+* Kant's ethics also say lying is always wrong, which, uh. Not great. I shouldn't have to tell a cancer patient they look like they're on the edge of death if they ask "how do I look" or not be able to let kid's believe in fairy tales.
+
 ## Moral Relativism
 
-Trolley Problem, common arguments
+So, this is the philosophical framework I like the most as, while it is less *solid* in a way -  that is, some things may or may not be morally correct depdening on circumstance - it's also, in my oppinion, the most realistic.
+
+So, what is Moral Relativism? Well, it's an umbrella term for multiple ideas, so let me yoink' some text from Wikipedia:
+
+{{< quote "[Wikipedia](https://en.wikipedia.org/wiki/Moral_relativism)" >}}
+
+Meta-ethical moral relativists believe not only that people disagree about moral issues, but that terms such as "good", "bad", "right" and "wrong" do not stand subject to universal truth conditions at all; rather, they are relative to the traditions, convictions, or practices of an individual or a group of people.
+
+[...]
+
+Meta-ethical relativists are, first, descriptive relativists: they believe that, given the same set of facts, some societies or individuals will have a fundamental disagreement about what a person ought to do or prefer (based on societal or individual norms). What's more, they argue that one cannot adjudicate these disagreements using any available independent standard of evaluation—any appeal to a relevant standard would always be merely personal or at best societal.
+
+{{< /quote >}}
+
+Now, some people take this a step further and are *Normative moral relativists*, which means they think what we *ought* to do in a given situation is also culturally dependent. This, I think, is both wrong and makes everything useless to debate. If **everything** is relative, then there's no reason debating anything.
+
+For example, let's think about the Abortion debate. If we go by relativism as our standard we can establish, right away, that because of our culture, we may disagree on if it is right or wrong. Where we can still stand to debate, and where I still thing there's a right answer, is in *what do we do about it*. If we say everything is relative, that means it may be reasonable for a culture with a large enough majority of a belief that it's wrong to make it illegal, which is counter my belief. Instead, because we've already gotten the we disagree part out of the way, we can now debate what ought to be done. This means we can prioritize certain things, like other philosphical systems do, and, because we know people are likely to disagree on some things, we can immediately see that prioritizing *choice* makes sense. If you think Abortion is wrong, then don't have one!
+
+## The Melting Pot of Ideas
+
+So, relativism it is then, right?
+
+No. If we follow that line of thought, we hit another problem: if we always prioritize choice, what do we do if someone is making a choice that limits someone else's freedoms or might bring them harm?
+
+You see the problem, and how this just wraps back around to needing another framework. This is why it's good to have a mixed bag of phillosphical frameworks. Now, we can sort of mix all of these ideas together. How you do that is up to you ... I guess you could even say it's *relative* to you and your culture.
+
+Some people, after taking a philosophy class think "I have found the answer, the one **true** framework" and, I've got news for you, what you're describing is religion. In Ethics, there is no right answer, only doing the best you can - and the best we have isn't one system, it's internally digesting all of the existing ideals, filtering them, and making your own system and holding yourself to be the best you can.
+
+## Evaluating a philosphical system
+
+{{< quote "[Wikipedia](https://en.wikipedia.org/wiki/Trolley_problem)" >}}
+
+The **trolley problem** is a series of thought experiments in ethics and psychology, involving stylized ethical dilemmas of whether to sacrifice one person to save a larger number. The series usually begins with a scenario in which a runaway tram or trolley is on course to collide with and kill a number of people (traditionally five) down the track, but a driver or bystander can intervene and divert the vehicle to kill just one person on a different track. Then other variations of the runaway vehicle, and analogous life-and-death dilemmas (medical, judicial etc.) are posed, each containing the option to either do nothing, in which case several people will be killed, or intervene and sacrifice one initially "safe" person to save the others.
+
+{{< /quote >}}
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/JWb_svTrcOg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

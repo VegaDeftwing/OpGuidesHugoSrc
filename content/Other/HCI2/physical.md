@@ -480,6 +480,12 @@ PWM image by [Thewrightstuff](https://commons.wikimedia.org/w/index.php?title=Us
 
 So instead of just lowering the level directly, the back light is turned on and off rapidly, for a varying amount of time. This might be done really fast, sometimes it's fast enough that it really does not matter or there's a reasonable amount of capacitance to smooth this out, effectively making it look like just a DC signal again, good enough. Sometimes, the manufacture sucks and uses shitty, low frequency PWM dimming and even if you can't consciously see it, it will cause headaches and generally suck over long periods.
 
+{{< tip >}}
+
+WARNING! This video has a bright, flashing light
+
+{{< /tip >}}
+
 <video width="70%" height="400" controls>  <source src="/hci/pwm.mp4" type="video/mp4">  <source src="movie.ogg" type="video/ogg">  Your browser does not support the video tag.</video>
 
 > This is PWM dimming on a fourteen-segment display captured with the 'slow-mo' camera on my phone.

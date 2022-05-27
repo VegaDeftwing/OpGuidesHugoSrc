@@ -22,6 +22,8 @@ https://zserge.com/posts/etude-in-c/ & https://zserge.com/posts/beep/
 
 [Writing Efficent VCV Plugins](https://github.com/squinkylabs/Demo/blob/main/docs/efficient-plugins.md) from SquinkyLabs
 
+[Technical Papers from Cytomic](https://cytomic.com/technical-papers/)
+
 **Hardware**
 
 [A Transistor-less sound synthesizer (Hackaday, Jenny List, Dr. Cockroach)](https://hackaday.com/2020/10/24/a-transistor-less-sound-synthesizer/)

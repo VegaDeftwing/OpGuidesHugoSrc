@@ -18,6 +18,7 @@ Cool! VR chat is a really neat platform to work with and it's really fun to be a
 
 * ~~This 5 hour long [Intro to Shader Coding in Unity](https://youtu.be/9WW5-0N1DsI) is pretty great~~ → Replaced by the newer [Shader Basics, Blending & Textures • Shaders for Game Devs](https://www.youtube.com/watch?v=kfM-yu0iQBk) which is a bit under 4 hours... I watched both.
 * [cnlohr's *Shadertrixx* repo](https://github.com/cnlohr/shadertrixx)
+* [pema99's Shader Knowledge repo](https://github.com/pema99/shader-knowledge)
 
 {{< /details >}}
 
