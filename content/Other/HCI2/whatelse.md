@@ -123,6 +123,8 @@ IOT especially **needs** to be open. In 2020 alone [Wink started charging custom
 
 ## Software that breaks the mold
 
+There's endless software out there, but a lot of it does mundane tasks in a mundane way. I'd like to showcase a few things that I think really found new ways of doing things.
+
 {{< columns >}}
 
 <video width="100%" controls src="/hci/schultzschultzgrafik.mp4"></video>
@@ -135,33 +137,32 @@ IOT especially **needs** to be open. In 2020 alone [Wink started charging custom
 
 <--->
 
-{{< /columns >}}
-
-[TODO]
-
-[MasterPlan by SolarLune](https://github.com/SolarLune/masterplan)
-
-Habitica?
-
-https://www.craft.do
-
-http://audulus.com
-
-https://dag.s-ol.nu
-
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/FgHMU7m9-I8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Demos of the WIP [Blockhead DAW](https://www.patreon.com/colugomusic):
-
-{{< columns >}}
-
 <blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/QTdXqJA3TY">pic.twitter.com/QTdXqJA3TY</a></p>&mdash; Colugo (@ColugoMusic) <a href="https://twitter.com/ColugoMusic/status/1378386958817312774?ref_src=twsrc%5Etfw">April 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<--->
-
-<blockquote class="twitter-tweet"><p lang="fr" dir="ltr">bizarre envelope <a href="https://t.co/8AMZwYc1sG">pic.twitter.com/8AMZwYc1sG</a></p>&mdash; Colugo (@ColugoMusic) <a href="https://twitter.com/ColugoMusic/status/1367270893731348481?ref_src=twsrc%5Etfw">March 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< attribution >}}This is the WIP [Blockhead DAW](https://www.patreon.com/colugomusic){{< /attribution >}}
 
 {{< /columns >}}
+
+* Along with Blockhead, [Radium](https://users.notam02.no/~kjetism/radium/) is a very strange Digtal Audio Workstation with its own interesting workflow
+* [ORCΛ](https://github.com/hundredrabbits/Orca) is a really neat esoterric programming lanuge music sequencer... thing. It's so different from everything else it's hard to describe.
+  * You may want to look at the {{< button relref="/Music/Software/livecoding" color="music" >}}Live Coding Music Tools{{< /button >}} from the Music section of this website.
+* [MasterPlan by SolarLune](https://github.com/SolarLune/masterplan) is a task management program focused on Indie game development with a really need mind-map style workflow
+* [Habitica](https://habitica.com/static/home) is task and habit tracking software that gamifies things
+* [Hexels](https://marmoset.co/hexels/) is an art program where you can work with hexgons or triangles instead of big squares for "pixel" art.
+* On the note of art, [Black Ink](https://blackink.bleank.com) has some really neat brushes and support for a crazy high resolution canvas, and a node based language for making brushes or working with the layers.
+* ... Clearly this list can't be exhaustive, but I do hope this has provided at least some inspiration.
+
+For even more, you may want to check out The big list of  {{< button relref="Design/gen" color="design" >}}Generative Art Tools{{< /button >}} in the Design section of this website
+
+While all of this is cool, I do want to point out I really, really wish there was more tools that made the more mundane tasks better too. There's been very little innovation in the user interface of browsers (like, [Vivaldi](https://vivaldi.com) may have vertical tabs but Firefox has had [Tree Style Tabs](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/) for much longer) text editors, and spreadsheets<a class="ptr">(3)</a>. The was, briefly, a bit of innovation in the slideshow space with [Prezi](https://prezi.com) but it was still pretty gimmiky and not a dramatic improvment.
+
+Developers have gotten better tools pretty rapidly recently though, as there's a crazy number of replacments {{< button relref="/Engineering/Linux/Linuxshell#alternative-commands" >}}Alternatives to coreutils and other basic tools{{< /button >}} that have come out over the last few years. This gives me hope that tools for "normies" will catch up and see innovation too.
+
+{{< speech >}}
+
+If you happen to know of something else that sholud be on this list, feel free to tweet at me [@Vega_DW](https://twitter.com/Vega_DW)!
+
+{{< /speech >}}
 
 ## Hardware for Open Experimentation
 
@@ -202,4 +203,6 @@ So as Bret Victor put it all the way back in 2011 in [A Brief Rant On The Future
 <ol hidden id="footnotes">
 <li>Within the normal limits of compatability, you can't drop a crazy fast graphics card in without upgrading the power supply, and often the CPU, Ram, and motherboard all need to be from the same generation.</li>
 <li>Well, and there's some techniques that VCV rack can't do well, like feedback, on account of every cable incurring one sample of delay. This is getting into the weeds though.</li>
+    <li>There has been <i>some</i> innovation in spreadsheets, but none of it is really crazy. There's <a href="https://cubeweaver.com">Cubeweve</a> which bills itslef as a "Multidimensional" spreadsheet, but is rather lame and awkwardly mouse driven from what I can see. <a href="https://subset.so">subset.so</a> looks promising as well; however, it seems like a pretty small improvment. Getting a bit deeper, <a href="https://python.natto.dev/example/41d0697bfc63402a82e8bd6039ea3a79">natto.dev</a> and <a href="https://www.trymito.io">Mito</a> both use python in their data processing, albeit with radically different interfaces. Mito is <i>probably</i> the closest to what I'd actually consider a real improvment. </li>
 </ol>
+
