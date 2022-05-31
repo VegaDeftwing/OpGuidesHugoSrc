@@ -4,7 +4,7 @@
 
 ## Script all the things! But Not Like That™
 
-Computers are, generally, really good at repetative tasks. People are, generally, really bad at telling computers what they want.
+Computers are, generally, really good at repetitive tasks. People are, generally, really bad at telling computers what they want.
 
 This means that developers (which, I assume is a large portion of those still reading this) need to make systems that let users automate tasks in a more user friendly way than they would do it.
 
@@ -43,9 +43,9 @@ Visual programming.
 
 Yeah. I know a lot of people hate it. But, provided it's high enough level - so, probably higher than [Pure Data](https://puredata.info) or [Node-RED](https://nodered.org) or even the [Enso language](https://enso.org/#Overview) mention in the last chapter. I think the right way forward is something that generates nodes based on a small text description and some provided examples as text, images, or other data. This would let a user, for example, scan in and manually enter the data from a form a few times, then leave the computer to do it moving forward - probably with a little output indicating if it was under a threshold of covidence in a certain transcription. 
 
-The other big necessity to make this work is using the Linux philosophy of treating everything as a file (or folder). This would make it much easier for this lanugage/interface to let users say, open a running program's 'file' and - with support - grab data out. This could be as mundane as how many browser tabs are open or as advanced as pulling the current geometry or live rotation angle out of 3D modeling software. With enough support from applications, the work flow potential is mind blowing, hence the previous mention of this in the last chapter with tool composition.
+The other big necessity to make this work is using the Linux philosophy of treating everything as a file (or folder). This would make it much easier for this language/interface to let users say, open a running program's 'file' and - with support - grab data out. This could be as mundane as how many browser tabs are open or as advanced as pulling the current geometry or live rotation angle out of 3D modeling software. With enough support from applications, the work flow potential is mind blowing, hence the previous mention of this in the last chapter with tool composition.
 
-My point here is that by making user friendly but open tools we could dramatically reduce the amount of repetative work done by many people and, more importantly, not just support one-off use cases with application specific software but instead empower people to make their own tools that fit their specific needs that developers could never anticipate. Will this result in some mildly horrific tools being made? Probably. But that's the beauty of it.
+My point here is that by making user friendly but open tools we could dramatically reduce the amount of repetitive work done by many people and, more importantly, not just support one-off use cases with application specific software but instead empower people to make their own tools that fit their specific needs that developers could never anticipate. Will this result in some mildly horrific tools being made? Probably. But that's the beauty of it.
 
 ## Optional Security
 
@@ -205,4 +205,3 @@ So as Bret Victor put it all the way back in 2011 in [A Brief Rant On The Future
 <li>Well, and there's some techniques that VCV rack can't do well, like feedback, on account of every cable incurring one sample of delay. This is getting into the weeds though.</li>
     <li>There has been <i>some</i> innovation in spreadsheets, but none of it is really crazy. There's <a href="https://cubeweaver.com">Cubeweve</a> which bills itslef as a "Multidimensional" spreadsheet, but is rather lame and awkwardly mouse driven from what I can see. <a href="https://subset.so">subset.so</a> looks promising as well; however, it seems like a pretty small improvment. Getting a bit deeper, <a href="https://python.natto.dev/example/41d0697bfc63402a82e8bd6039ea3a79">natto.dev</a> and <a href="https://www.trymito.io">Mito</a> both use python in their data processing, albeit with radically different interfaces. Mito is <i>probably</i> the closest to what I'd actually consider a real improvment. </li>
 </ol>
-

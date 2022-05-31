@@ -10,15 +10,13 @@ Alright, now onto the fun stuff, I think I've established that the physical side
 * Transferring Shit 
 * Making Shit
 
-I'm not the first to think on this subject by any means, [Programs are a prison: Rethinking the fundamental building blocks of computing interfaces by Robert Lechte](https://djrobstep.com/posts/programs-are-a-prison) is a particularly good example of other thoughts on this same subject.
-
 ## Finding and Accessing Information Sucks
 
 ### Search sucks
 
 If you're like most people, you probably use Google Search, but also don't like Google Search. Google's search makes the entire top of the page ads, tracks you, and is just generally a bit invasive, but, you still probably use it instead of DuckDuckGo because the results often get you to what you're looking for faster.
 
-To some extent things have gotten better as it is gotten easier to search directly from the search bar, with more browsers supporting setting the search engine by a prefix in the url bar, so if, for example, I want to search wikipedia and directly go to an article, I can just put a 'w' before what I search:
+To some extent things have gotten better as it is gotten easier to search directly from the search bar, with more browsers supporting setting the search engine by a prefix in the url bar, so if, for example, I want to search Wikipedia and directly go to an article, I can just put a 'w' before what I search:
 
 ![](/hci/wsearch.webp)
 
@@ -77,7 +75,7 @@ Really interesting stuff ahead.
 
 {{< /quote >}}
 
-Finally, I do want to end on a positive note: [Google is trying to show why results are ranked how they are](https://searchengineland.com/google-now-shows-why-it-ranked-a-specific-search-result-350659), and that's actuallypretty cool - though it does still seem [that search results are getting worse, at least according to Hacker News users.](https://news.ycombinator.com/item?id=29392702) Fortunately, there are interesting search engines, both general purpose like [you.com](https://you.com) and more specific, like [lieu](https://lieu.cblgh.org) for searchinging the [XXIIVV webring](https://webring.xxiivv.com) or the data-orriented [WolframAlpha](https://www.wolframalpha.com). There's also the neat [Hypersearch](https://chrome.google.com/webstore/detail/hypersearch/feojagelicdlhnmldaiplbppfbolnnag) extension which does make google search at least a bit better. Speaking of, the author of Hypersearch has a great blog post on the subject: [If Google sucks then why is everyone still using it?](https://abhinavsharma.com/blog/google-alternatives)
+Finally, I do want to end on a positive note: [Google is trying to show why results are ranked how they are](https://searchengineland.com/google-now-shows-why-it-ranked-a-specific-search-result-350659), and that's actually pretty cool - though it does still seem [that search results are getting worse, at least according to Hacker News users.](https://news.ycombinator.com/item?id=29392702) Fortunately, there are interesting search engines, both general purpose like [you.com](https://you.com) and more specific, like [lieu](https://lieu.cblgh.org) for searching the [XXIIVV webring](https://webring.xxiivv.com) or the data-oriented [WolframAlpha](https://www.wolframalpha.com). There's also the neat [Hypersearch](https://chrome.google.com/webstore/detail/hypersearch/feojagelicdlhnmldaiplbppfbolnnag) extension which does make google search at least a bit better. Speaking of, the author of Hypersearch has a great blog post on the subject: [If Google sucks then why is everyone still using it?](https://abhinavsharma.com/blog/google-alternatives)
 
 ### Pay-Walls suck
 
@@ -87,7 +85,7 @@ It's no secret that access to academic articles is *fucking* expensive. JSTOR al
 
 [You Pay to Read Research You Fund. That's *Ludicrous* (WIRED)](https://www.wired.com/2016/04/stealing-publicly-funded-research-isnt-stealing/)
 
-But it's so much worse than that. Tons of information services are subscription based. So, the costs add up way worse. While it may seem like a bit of a stretch, I think it's pretty reasonable to call Netflix, Hulu, etc. all information sources as they often host documentaries, if we look at [The Cost of Every Streaming Service Per Month (TheStreet)](https://www.thestreet.com/lifestyle/best-streaming-services-cost-15166523), and assume just the most popular ones, so Netflix, Prime Video, and Hulu, it's already at **$418 a year.** Is it really any wonder why people are piracy again? Even if you subscribe to the theory that Piracy is a distribution problem and not a price problem, the pay walls are still the problem, as each service has it's own incentive to hoard as much exclusive content as possible and make their platform better than others for the price. This means that each platform runs on it's own standards and cross-compatibility is a real PITA. There are now websites and apps that specialize in just telling you which streaming service has what. Like what in the fresh fuck. 
+But it's so much worse than that. Tons of information services are subscription based. So, the costs add up way worse. While it may seem like a bit of a stretch, I think it's pretty reasonable to call Netflix, Hulu, etc. all information sources as they often host documentaries. Yet, if we look at [The Cost of Every Streaming Service Per Month (TheStreet)](https://www.thestreet.com/lifestyle/best-streaming-services-cost-15166523), and assume just the most popular ones, so Netflix, Prime Video, and Hulu, it's already at **$418 a year.** Is it really any wonder why people are piracy again? Even if you subscribe to the theory that Piracy is a distribution problem and not a price problem, the pay walls are still the problem, as each service has it's own incentive to hoard as much exclusive content as possible and make their platform better than others for the price. This means that each platform runs on it's own standards and cross-compatibility is a real PITA. There are now websites and apps that specialize in just telling you which streaming service has what. Like what in the fresh fuck. 
 
 As an aside, if you want to get around paywalls you can use [Switch your user agent](https://chrome.google.com/webstore/detail/user-agent-switcher/iojaoainolpgkpojokmeclhidjolocci) to Googlebot, and that will usually immediately let you through.
 
@@ -222,9 +220,13 @@ Put a pin in it for now though, let me jump ahead into Dark Patterns:
 
 ### 'Dark Patterns'
 
-> A **dark pattern** is "a user interface that has been carefully crafted to trick users into doing things, such as buying overpriced insurance with their purchase or signing up for recurring bills"
+{{< quote "[Wikipedia](https://en.wikipedia.org/wiki/Dark_pattern)" >}}
 
-That's the definition from from Wikipedia anyway. I think it's a bit better put as "Dark Patterns are what happens when UI designed are a bag of dicks"
+A **dark pattern** is "a user interface that has been carefully crafted to trick users into doing things, such as buying overpriced insurance with their purchase or signing up for recurring bills"
+
+{{< /quote >}}
+
+That's the definition from from Wikipedia anyway. I think it's a bit better put as "Dark Patterns are what happens when UI designers are a bag of dicks"
 
 [This Site](https://darkpatterns.org/types-of-dark-pattern.html) has a lot of really good info on Dark Patters, and I recommend heading over there and then coming back over here. 
 
@@ -527,7 +529,7 @@ I think this comment points to a better idea:
 
 {{< /quote >}}
 
-For this, I think Solid, a project by Prof. Time Berners-Lee, the guy behind the World Wide Web, is a decent implementation of this if it were to gain enough traction to actually be used.
+For this, I think Solid, a project by Sir. Tim Berners-Lee, the guy behind the World Wide Web, is a decent implementation of this if it were to gain enough traction to actually be used.
 
 {{< quote "[Solid Wikipedia Article](https://en.wikipedia.org/wiki/Solid_(web_decentralization_project))" >}}
 
@@ -799,6 +801,10 @@ Not to mention the fact that [updates keep changing how IOT devices work](https:
 ## Digital Conclusion
 
 So, clearly there's room for improvment with how we interact with software and the core experiance with how we find, access, look at, store, transfer, and create digital content. Some of what I've sugessted here may seem far fetched and all but impossible, but the same feels true if we consider how advanced smart phones would seem in 1999 or some of today's AI content generation still seems, as it gets better at generating life like images and holding convincing conversations.
+
+---
+
+I'm not the first to think on this subject by any means, [Programs are a prison: Rethinking the fundamental building blocks of computing interfaces by Robert Lechte](https://djrobstep.com/posts/programs-are-a-prison) is a particularly good example of other thoughts on this same subject.
 
 <ol hidden id="footnotes">
 <li>... unless that service is based around that permission, like denying a recording app access to a microphone.</li>

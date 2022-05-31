@@ -289,6 +289,7 @@ headless: true
 </dil>
 </div>
 
+
 <p class="navhead, webhead" style="background: linear-gradient(90deg, #F78200 0%, #FFF 50%, #009CDF 75%) ;-webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom:0px;" >    Web Development</p>
 
 </div>

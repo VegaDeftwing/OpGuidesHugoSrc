@@ -20,7 +20,7 @@ This [Input Lag (danluu)](https://danluu.com/input-lag/) article really puts int
 
 ## Customizeability vs Defaults
 
-I'm writing this at [@292.78](https://minkukel.com/en/clocks/swatch-internet-clock/) on Day 15 of [12,020](https://www.youtube.com/watch?v=czgOWmtGVGs). I'm typing on a Dvorak, split, ortholinear keyboard in a [markdown](https://www.markdownguide.org/basic-syntax/) document using [Arch Linux](https://www.archlinux.org/) instead of M$ Word on Windows.
+I'm writing this at [@292.78](https://minkukel.com/en/clocks/swatch-internet-clock/) on Day 15 of [12,022](https://www.youtube.com/watch?v=czgOWmtGVGs). I'm typing on a Dvorak, split, ortholinear keyboard in a [markdown](https://www.markdownguide.org/basic-syntax/) document using [Arch Linux](https://www.archlinux.org/) instead of M$ Word on Windows.
 
 And It's fucking awesome.
 
