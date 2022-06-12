@@ -589,6 +589,8 @@ Please use the `.webp` format for new images, or at the very least run them thou
 
 * Youtube Embeds need to have the `list?=` part removed or they're almost always broken.
 
+{{< details "expand for full code" >}}
+
 ```python
 this
 is
@@ -635,3 +637,4 @@ z
 43
 ```
 
+{{< /details >}}

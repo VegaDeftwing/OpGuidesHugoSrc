@@ -224,6 +224,12 @@ Note, here I'm talking about DMA as if they only apply to DACs and ADCs; however
 
 {{< /hint >}}
 
+---
+
+Want to know more about ADCs and DACs? Here's some links:
+
+[Retrotechtacular: The Forgotten Vacuum Tube A/D Converters of 1965 (Hackaday)](https://hackaday.com/2022/06/08/retrotechtacular-the-forgotten-vacuum-tube-a-d-converters-of-1965/)
+
 ## Project 4 - LEDs... again?
 
 [TODO] Power with transistors, filtering, PWM. Color input from temp and magnetic field sensors

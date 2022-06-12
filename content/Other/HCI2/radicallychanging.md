@@ -60,6 +60,8 @@ I don't know that BCI are really the future. Elon Musk is working on [Neuralink]
 
 I do very much hope to be wrong, as I think BCI has the opportunity to be the biggest leap humanity has ever taken. Soon, it may even be necessary to even deal with how quickly our would is changing and the amount of information we need to process every day. If you'd like to read more, the [Brain Computer Interface article on Wikipedia](https://en.wikipedia.org/wiki/Brain%E2%80%93computer_interface) is impressively deep and well cited.
 
+Though, all of this assumes it's given proper respect as an implant and gets long term support. Seeing ["Their Bionic Eyes Are Now Obsolete and Unsupported" (IEEE Spectrum)](https://spectrum.ieee.org/bionic-eye-obsolete) has me worried.
+
 ## VR
 
 VR IS THE FUTURE BRO

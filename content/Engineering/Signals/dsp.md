@@ -24,6 +24,8 @@ https://zserge.com/posts/etude-in-c/ & https://zserge.com/posts/beep/
 
 [Technical Papers from Cytomic](https://cytomic.com/technical-papers/)
 
+https://blog.demofox.org/2021/12/29/why-cant-you-design-noise-in-frequency-space/
+
 **Hardware**
 
 [A Transistor-less sound synthesizer (Hackaday, Jenny List, Dr. Cockroach)](https://hackaday.com/2020/10/24/a-transistor-less-sound-synthesizer/)
@@ -53,6 +55,8 @@ http://www.doepfer.de/DIY/a100_diy.htm
 [Learn Modern C++ by Building an Audio Plugin w/ JUCE Framework (YouTube - freeCodeCamp.org)](https://www.youtube.com/watch?v=i_Iq4_Kd7Rc)
 
 http://ajaxsoundstudio.com/software/pyo/
+
+[Magenta DDSP](https://magenta.tensorflow.org/ddsp) - ML meets DSP
 
 
 

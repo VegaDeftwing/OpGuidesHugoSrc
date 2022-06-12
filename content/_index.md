@@ -27,7 +27,7 @@ But I more than welcome contributions! Either submit a pull request or, if you'r
 
 ##### Alright, but who are you?
 
-I'm Vega, a Computer and Electrical Engineering student and I'm very into music, especially guitars and eurorack. I enjoy spending my free time scouring the internet for new things to learn and falling down YouTube pits until 3 in the morning. I'm that guy that types on a split Dvorak keyboard, and that wears an old vacuum tube around my neck, but I also like long boarding around town and playing video games.
+I'm Vega! I have both Computer and Electrical Engineering degrees and I am very into music, especially guitars and eurorack. I enjoy spending my free time scouring the internet for new things to learn and falling down YouTube pits until 3 in the morning. I'm that guy that types on a split Dvorak keyboard, and that wears an old vacuum tube around my neck, but I also like long boarding around town and playing video games.
 
 I'm pretty opinionated, but I'd like to think most of those opinions have been tested reasonably rigorously or have at the very least come from a fair amount of experience, though I know I will need to update this site based on new information over time. I will occasionally try to sway you into my camp - like getting you to use Linux - for reasons that are both practical and ideological; however, I hope that once I share my reasons for both you'll agree as well. Of course, I greatly enjoy a good debate and hearing new information too, so if you disagree, to me that's even more valuable.
 

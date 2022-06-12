@@ -53,4 +53,4 @@ There's also the point of not being spied on by the government, but at least for
 
 ---
 
-The [Awesome Privacy](https://github.com/pluja/awesome-privacy) list on GitHub may prove useful for find alternative tools that aren't creepy.
+The [Awesome Privacy](https://github.com/pluja/awesome-privacy) list on GitHub may prove useful for find alternative tools that aren't creepy, unlike [M$ Office which is starting to detect "employees colluding"](https://pupuweb.com/mc387035-microsoft-purview-additional-classifiers-communication-compliance-preview/) even.

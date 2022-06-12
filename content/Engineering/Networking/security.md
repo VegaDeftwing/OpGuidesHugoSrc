@@ -530,6 +530,8 @@ honey pots
 
 stalkerware (Should this be moved?)
 
+Looking up documents - see [Coke Freestyle Manual](https://fccid.io/XQ4-GFS-SHEAR/User-Manual/Users-Manual-1255893)
+
 ### Physical security
 
 Lock picking as a last resort

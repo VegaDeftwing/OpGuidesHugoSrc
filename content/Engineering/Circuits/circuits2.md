@@ -104,7 +104,11 @@ tubes and how they work
 
 ### PNP V NPN
 
-### tIGBT, Mosfets?
+### Mosfets?
+
+### JFETS?
+
+### IJBTs?
 
 #### Tubes
 
