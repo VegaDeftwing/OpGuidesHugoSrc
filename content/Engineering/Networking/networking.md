@@ -642,6 +642,8 @@ Software Defined Networking, ActivityPub
 
 [http-wtf](https://httptoolkit.tech/blog/http-wtf/)
 
+[Yggdrasil](https://yggdrasil-network.github.io)
+
 [TODO] Add follow along making a network stack
 
 [TODO] https://iximiuz.com/en/posts/computer-networking-101/

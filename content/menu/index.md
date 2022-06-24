@@ -277,6 +277,7 @@ headless: true
 <div class="progress-ww">
 <dl>
 <dt>1 </dt><dd> <a href="/design/basics/">Basics of Art</a></dd>
+<dt>1½</dt><dd> <a href="/design/vbasics/">Basics++</a></dd>
 <dt>2 </dt><dd> <a href="/design/analog/">Analog Art</a></dd>
 <dt>3 </dt><dd> <a href="/design/digital/">Digital Art</a></dd>
 <dt>3½</dt><dd> <a href="/design/dacadc/">DAC/ADC</a></dd>
@@ -288,6 +289,7 @@ headless: true
 <dt>A3 </dt><dd> <a href="/design/photo/">Photo</a></dd>
 </dil>
 </div>
+
 
 
 <p class="navhead, webhead" style="background: linear-gradient(90deg, #F78200 0%, #FFF 50%, #009CDF 75%) ;-webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom:0px;" >    Web Development</p>

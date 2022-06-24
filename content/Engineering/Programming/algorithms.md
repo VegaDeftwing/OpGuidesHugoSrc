@@ -235,3 +235,6 @@ Heads up, this is a 5 hour video:
 
 [Algorithmic Redistricting: Elections made-to-order](https://www.youtube.com/watch?v=9DiHy5ZHzN0)
 
+# Further Reading
+
+[The true cost of linked lists (Yassir Karroum)](http://ykarroum.com/2022/05/30/true-cost-list/)

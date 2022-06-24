@@ -15,6 +15,24 @@
 
 ### Pickups?
 
+### Strings?
+
+[TODO]
+
+Nylon vs plain vs wound, metal types, coated. Gauges. https://blog.ernieball.com/strings/what-string-gauges-should-you-be-playing/ . This page does refrece neck length so keep that in mind too!
+
+{{< speech big >}}
+
+My reccomendation, first and foremost, is **try them**. Strings are cheap, swap 'em out, try each for a month, note your experiances before and after- how they felt, sounded, if they left your fingers sore, if pitch bending was fun, etc.
+
+Still, I will say *generally* I've found Ernie Ball Slinkys (the normal, greenish-yellowish package) are a good works-for-everything bet. If you're playing something where you want more meaty low end, Ernie Ball Slinky Cobalts are worth a shot. If you're looking to get more sustain, output, and outright agression from your pickups, Ernie's M-Stell line does well. Each of those is avaliable in a varitey of gauges. I'm not being paid to promote Ernie Ball here - they're just good. 
+
+{{< /speech >}}
+
+### Tunings?
+
+Standard (EADBGe), drop D, open G, DADGAD, Ostrich, etc. Why you'd want them. 
+
 ### Picks, Slides, fingers, or... chopsticks?
 
 {{< columns >}}
@@ -44,6 +62,8 @@
 ### 12-String
 
 ### Extended Range
+
+#### Fanned-Fretts
 
 ### Fretless
 
