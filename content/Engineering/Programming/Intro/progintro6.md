@@ -1,12 +1,90 @@
+# Chapter 10.6 - ＬＯＧＩＣ
+
 ## Would you like to speak to an Operator?
 
-+,-,/,*,%,>>,<<,^,|,&,&&,||,==,>,<,<=,>=
+The very first thing to understand before we can get to more intersting things is the list of operations available to us.
+
+This includes the operations your used to - addition, subtraction, etc. - as well as bit-wise operations and comparisons.
+
+### Basic Operations
+
+I'm going to mostly skip talking about addition, subtraction, multiplication, and divsion, because, duh. Still, a few notes.
+
+* With multiplication, it's pretty easy to excede the maximum allowed by your type. For exmaple,
+
+  ```c
+  uint8_t a = 16;
+  uint8_t b = 16;
+  uint8_t c = a + b; //0, because 16*16 = 256, and unsigned 8 bits goes from 0 to 255
+  ```
+
+* Division of integrers will **truncate**. (floor)
+
+  ```c
+  int c = 11 / 4; //2, because 11/4 = 2.75, but the .75 "falls off"
+  ```
+
+* For subtraction, remumber an *unsigned* type can't go negative, but it can under-flow to a large, positive value.
+
+There's one seemingly weird operation you may not be used to that belongs to this basic set: **modulo**.
+
+Modulo just means to do division but store the remainder, not how many times the number goes into it. So, while 7/3 is two, 7 mod 3 is 1, because 3 goes into 7 twice with **1 left over**. In most programming languages modulo is written with a percent sign, so `7%3` would give you 1.
+
+### Bitwise Operations
+
+#### Gettin' Shifty: >> and <<
+
+
+
+#### AND and OR or OR and AND?
+
+
+
+#### XOR?
+
+
+
+### Comparisons
+
+#### && and ||
+
+
+
+#### > and <
+
+
+
+#### <= and >= 
+
+
+
+#### == ≠ =
+
+
 
 ## Going with the flow
+
+### If, else, else if
+
+
+
+### for
+
+
+
+### while (and do-while)
+
+
+
+### ~~goto~~
+
+
 
 if/elif/else, for, while, brief note on recussion, goto
 
 example of to small of an int on a loop
+
+Talk about asm and branching, bne, ble, etc.
 
 ## Getting Functional
 

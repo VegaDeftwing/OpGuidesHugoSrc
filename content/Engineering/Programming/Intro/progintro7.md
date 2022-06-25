@@ -1,3 +1,9 @@
+# 10.7 - Data Structures
+
+
+
+## Why not just structs?
+
 ## A New Objective
 
 objects, classes, basic OO, inheritance
