@@ -1,10 +1,10 @@
 # Chapter 10.0 - Things You Should Know
 
-Knowing how to progamm will give a you deep control over the most advanced tool mankind has ever made: The computer. More over, because we use computers as extensions of our own minds (and as a collective, with the Internet) it will literally expand your ability to process information as you're no longer limited to the inputs and computation systems that other programmers have built for you. 
+Knowing how to progam will give a you deep control over the most advanced tool mankind has ever made: The computer. More over, because we use computers as extensions of our own minds (and as a collective, with the Internet) it will literally expand your ability to process information as you're no longer limited to the inputs and computation systems that other programmers have built for you. 
 
 You'll also be able to make computers solve problems, do repetative tasks, and allow you to express artistic ideas in ways that are hard to grasp before you've started. I can't express in text how amazing some of the things I've seen thrown together in an afternoon by a single programmer are.
 
- So, yeah, programming is really fucking awesome. Unfortunately, it's also pretty hard for most people is it will make you use your brain in ways you're not used to. So, before we ever write a line of code, let's talk about why learning to program is difficult.
+So, yeah, programming is really freakin' awesome. Unfortunately, it's also pretty hard for most people is it will make you use your brain in ways you're not used to. So, before we ever write a line of code, let's talk about why learning to program is difficult.
 
 ## Why is programming hard?
 
@@ -62,7 +62,7 @@ When you bake, you don't just "make a cake". That is, the recipe doesn't say
 
 1. Make a cake.
 
-Because, well, that's not a recipe. A good recipe has a list of ingridents, will tell you how to mix them, and has lot of individual steps.
+Because, well, that's not a recipe. A good recipe has a list of ingredients, will tell you how to mix them, and has lot of individual steps.
 
 The big difference with programming is you don't know the steps going in. You have to make them up as you go! So, you need to break the problem down to a point where using math, logic, and data structures to model *that individual step* becomes obvious. You know what you want, now you have to figure out how to get there.
 
@@ -96,9 +96,10 @@ my_numbers = [42,69,420,80085]
 You could actually write a line of code to increment each one,
 
 ```
-a[0] = a[0] + 1
-a[1] = a[1] + 1
-a[2] = a[2] + 1
+my_numbers[0] = my_numbers[0] + 1
+my_numbers[1] = my_numbers[1] + 1
+my_numbers[2] = my_numbers[2] + 1
+my_numbers[3] = my_numbers[3] + 1
 ```
 
 But then if you had a list of a thousand numbers, you'd have a problem. You could do something like this,
@@ -116,25 +117,66 @@ my_numbers = [x + 1 for x in my_numbers]
 
 ### 3. Because making decesions before you know everything is hard
 
-For the above example, say you thought that list would only ever have two numbers in it, so you do go with the first solution. Then, you realize down the line, that, oh, no, that list is actually going to have 100 numbers in it, so you write it with `my_numbers = [x + 1 for x in my_numbers]`, but then, later, you find out you need to add 10 *if* the number is greater than 100. Then you find out this list might have nothing in it (just be empty) in a special case, in which case you need to put a special value in it.
+For the above example, say you thought that list would only ever have two numbers in it, so you do go with the first solution. Then, you realize down the line, that, oh, no, that list is actually going to have 100 numbers in it, so you write it with `my_numbers = [x + 1 for x in my_numbers]`, but then, later, you find out you need to add 10 *if*  the number is greater than 100. Then you find out this list might have nothing in it (just be empty) in a special case, in which case you need to put a special value in it.
+
+{{< details "How I'd do that, not that it matters right now" >}}
+
+```python
+if my_numbers:
+	my_numbers = list(map(lambda x : x + 10 if x > 100 else x + 1, my_numbers))
+else:
+    my_numbers.append(1)
+```
+
+{{< /details >}}
 
 There are many different solutions to these problems, but that's not my point.
 
-Ideally, this would never happen. It'd be great if from the start you knew everything your code had to do. Reality is that often working on a problem makes you realize small details and edge cases that weren't initially obvious. As you get better at writing code, you'll be better at seeing these before you start writing, but you'll never be perfect at it.
+Ideally, this would never happen. It'd be great if from the start you knew everything your code had to do. Reality is that often working on a problem makes you realize small details and edge cases that weren't initially obvious or that seemed absurd, so you just didn't think about them. Many of these are about input validation, for example,
+
+* Say user has to enter a name, should they be able to enter "" (no letters at all)? What about "v̸̼͙̹̮̩̳͉̩̕ḛ̸̡̲͂̈́̽̽g̴̢̠̭̗̘͎̉͝a̶̖̯̳̯̭͚̹̹̎̀͝" or "🌢" or "ᵛᵉᵍᵃ" or "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+* Say you're making an inventory system in a game, and you have the ability to use a bag in the inventory to hold more items. If you're not careful, you might add the ability to put a bag in the bag: you'd be able to hold infinite items as you stack bags into each other!
+
+Others are relevent to the design of a larger system, and require much more effort to change. For exmaple, MineCraft used to generate worlds that were 128 blocks tall, with the bottom of the world being layer 1. Then, they decided to update the worlds to be 256 blocks tall, with the change being relatively straight forward as newly generated and previously generated sections of the worlds were both just given 128 block of vertical space to build into - this could be appended to in a realatively straight forward way - just add more "air blocks" to the sky. 
+
+Then things got weird. They decided to add 64 more blocks going up **and** down. This required a few weird changes. First, the world now goes from -64 to 320, with '0' being roughly the middle of the underground before the bottom of the world (the old bottom). Strange number representation aside, there were extereme technical challanges to this as the newly added downward space needed to be blended into previously generated worlds without this room. Additionally, the newly generated space was entirely different - the look of caves and the terrain above them had been entirly overhauled. Blending the old and new to combat the priror design decesion likely required more complex and difficult work than the actual new world generation itself. 
+
+[TODO] picture of sliced MC world after updates
+
+Even before your code is released to the world and there's this potential expectation of backwards compatability you may well design yourself into a corner that requires significant back pedeling and re-work. Maybe you realize that two things you planned to run at the same time both need access to the same resource. Maybe you find out the scope of the project needs to be bigger, and that adding these new features will require old ones to change too. Shit happens.
+
+As you get better at writing code, you'll be better at seeing these before you start writing, but you'll never be perfect at it because you can never know everything. 
+
+Unfortunately, this all has security implications too. If you don't fully understand the limits of what you write, someone else will find them for you, and they may not have good intentions.
 
 ### 3½ ... Because you need to know what tool to use for the problem
 
-Yunno' the expression when you have a hammer everything is nail? It's a real problem in programming, because while you *can* use a hammer to pound in a screw, sharpen a knife, or smooth out wood, it's probably going to be a real pain in the ass. Knowing that things like a screw driver, knife sharpener, and sander even *exist* is half the battle. Of course, this can go the other way too- just because an ultra-specialized tool exits, you may still want to make do with what you have - having more tools is great, but each tool requires maintence and upkeep of its own.
+Yunno' the expression "when you have a hammer everything is nail"? It's a real problem in programming, because while you *can* use a hammer to pound in a screw, sharpen a knife, or smooth out wood, it's probably going to be a real pain in the ass. Knowing that things like a screw driver, knife sharpener, and sander even *exist* is half the battle. Of course, this can go the other way too- just because an ultra-specialized tool exits, you may still want to make do with what you have - having more tools is great, but each tool requires maintence and upkeep of its own.
+
+This is one of those things that comes with experiance and knowing what problems tend to grow into un-maintainable monsters and so should be done by using a tool that solves the problem for you. For example: time.
+
+Time sounds easy. Storing the time, reading the time, etc. Yeah, no. Time zones, daylight savings, leap years, leap seconds, date formats, etc. will all make you hate your life as soon as you start to mess with time.
+
+On the other hand, some people over-use external tools. The [is-odd](https://www.npmjs.com/package/is-odd) javascript package, which just checks if a number is odd, has **425,000** downloads this week. As you'll see later, doing this in code is as simple as 
+
+```python
+if input_number % 2 == 1:
+	return True
+```
+
+{{< smalltext >}}\* I've written this in Python here to match the rest of the page, it is *slightly* different in Javascript{{< /smalltext >}}
+
+This is extra dumb when you realize that the maintainers of the is-odd package *could* push a malacious update doing something as mundane as breaking it (making it it *always* say a number is odd, April Fools!) or making it check if a number is odd while also running code to mine cryptocurrency in the background!
 
 ## Why is *learning* programming hard?
 
-You're trying to learn how to model problems, how computers fundamentally work, how to make good solutions, and how to think ahead all at once, and on top of it all, you need to learn how to actually express your intent to the computer via text with some weird, very strict rules.
+You're trying to learn how to model problems, how computers fundamentally work, how to make good solutions, and how to think ahead all at once, and on top of it all, you need to learn how to actually express your intent to the computer via text with some weird, very strict rules that ocasionally let you express something that **looks** correct but isn't.
 
 This sorta sucks.
 
 ## There's a better way. Don't worry about "Code".
 
-At least at first, don't worry about what language you're using. That's such a minor part of programming anyway. Later we'll talk about how you really don't get to pick the languages you use anyway - the project dictates that. For now, let's build the problem solving skills to make woring with code less awful. How? Video Games!
+At least at first, don't worry about what language you're using or even how to write code. That's such a minor part of programming anyway. Later we'll talk about how you really don't get to pick the languages you use anyway - the project dictates that. For now, let's build the problem solving skills to make working with code less awful. How? Video Games!
 
 ## I Can't Believe It's Not Code!
 
