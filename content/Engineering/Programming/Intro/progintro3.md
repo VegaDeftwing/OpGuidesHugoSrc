@@ -2,6 +2,8 @@
 
 As mentioned above, you'll be learning both Python and C. This means we need to get the tools necessary for working with each. If you're following along with OpGuides as a whole and have Linux setup, this will be easy. If you're on Windows it's not *hard* but there are some annoying steps we'll need to jump through.
 
+## Getting Code To Run
+
 {{< tabs "Tools" >}}
 
 {{< tab "Arch Linux" >}}
@@ -53,6 +55,8 @@ and save it as` hello.py`. Again navigate to where it is stored and now just run
 {{< /tab >}}
 
 {{< /tabs >}}
+
+## Debugging!
 
 Alright, now that we know we can write and run code in both languages, we also need to make sure we can *debug* code. This is sort of jumping the gun a bit, but it will help to learn if you can actually see things run step-by-step.
 
@@ -138,6 +142,16 @@ You know the drill now. Press (Ctrl+F5) and see if it runs. This time, it may as
 
 Then, set a break point - this time probablyon line 13, `for (int i = 0; ...`, and run it *with* debugging and step through.
 
+## Extra Things To Make Life Easier
+
+* Ligatures
+* Code Completion
+* Linting
+* Colored brackets
+* Auto-formatting
+* TODOS
+* Transformer package
+
 # Chapter 10.π - Intermission
 
 Before we actually talk about the basic building blocks of programming - variables, for loops, etc.- I want to clear up a misconception.
@@ -147,3 +161,129 @@ Before we actually talk about the basic building blocks of programming - variabl
 The vast majority of a good programmer's time is spent reading documention, reseaching how others have solved the same or similar problems, and finding problems in the code they've written (so, testing and debugging).
 
 So, if as you're reading you're thing "But, man, this sure is a lot of reading, when do we get to the **good stuff**", then, hate to tell 'ya, this *is* the good stuff.
+
+# Chapter 10.ψ - Rant about C
+
+Like I said, we need to dive into C so you can understand how some of the lower-level things work - pointers, bit manipulations, etc.
+
+Unfortuantely, C is a massive cluster fuck and seemingly exists exclusively to make you fuck up. It is brutally difficult to write safe code in, with even it's standard library functions known to have security problems unless used very carefully. So even though I don't expect you to understand these ~~fully~~ really at all, I want to show you some of why C is hard and let you know that even people with years of experiance writting in C still ocassionaly make really stupid mistakes.
+
+## Example 1: Out-Of-Bound Doesn't Always Fail
+
+The language will happily let you write and compile code like this:
+
+```c
+int main()
+{
+    int my_array[3] = {1,2,3};
+    int my_other_array[3];
+
+    my_array[3] = 42;
+
+    return 0;
+}
+```
+
+which is **very** wrong because arrays start at 0 (so these arrays have 3 items, for example at `my_array[0]`,`my_array[1]`, and `my_array[2]`  - more on this later). This might make your code crash outright, but it might still *sort of* work, just when you write 42 to `my_array[3]` it might be clobbering the value of some other variable, maybe setting `my_other_array[0]` to 42, maybe something else entirely. 
+
+This is really, really bad. Now, modern tools try to prevent this and actually include some of their own code to try to stop you from doing this *particular* fuck up, but it's not bullet proof. In pretty much any other language you could either be 100% sure it will crash outright (again, this is better in this case) or it will just refuse to run at all.
+
+## Example 2: Strings should be Null-Terminated (Usually)
+
+Say you want to make every noob's first program, one that just says "Hello, World!", let's do that **wrong** in C:
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    char greeting[] = "Hello World!";
+
+    printf(greeting);
+
+    return 0;
+}
+```
+
+This looks fine, right? Well, mostly, yes. But it will probably not act as you want because after saying "Hello World!" there won't be a new line for the terminal to print to.
+
+It *should* be `char greeting[] = "Hello World!\n";` or `printf("%s\n",greeting);`. This is weird, and kind of annoying.
+
+## Example 3: Stupid Code is Still Valid Code
+
+Pop Quiz (for something you haven't been taught yet), which is right:
+
+{{< columns >}}
+
+```c
+if(a = b){
+	return 1;
+}
+```
+
+<--->
+
+```c
+if (a == b){
+	return 1;
+}
+```
+
+{{< /columns >}}
+
+Well, unless your intent was to check if b was anything other than 0, it's not the one on the left. As with most programming languages, C uses one equal sign to **assign** a value, and two equal signs to **compare** values. Unlike most languages, C will let you write and compile code with the assignment where the comparison sholud be, without any real, intentional comparison taking place.
+
+## But Wait, There's More!
+
+There's many other annoyances.
+
+* C only *sort of* supports variable length arrays - that is something like `int size = 12;
+  int my_array[n];` will *probably* work (it depends on your compiler), but shouldn't be used.
+
+* It's really hard to prevent something from accessing memory you don't want it to in the same program
+
+* There is no boolen (True / False) type built in, you actually have to `#include <stdbool.h>`
+
+* The compliation process requires functions be declared before they're called, basically:
+
+  ```c
+  int main(){
+      int a = 1;
+      int b = 2;
+      int c = 0;
+      c = add(a,b); // don't ever actually turn add into a function
+      return 0;
+  }
+  
+  int add(int a, int b){
+  	return a + b;
+  }
+  ```
+
+  will fail because `add()` is defined **after** main. To fix this, you're supposed to add `int add(int a, int b);` to a different file, called a header file, and then use `#include whatever.h` at the top of the `whatever.c` file. This is really annoying, and requires the programmer to change things in two places if the definition of a function ever changes.
+
+* The default types are bad. You've seen me use `int`, `int8_t`, `uint8_t`, `char`, etc. so far. These are types. C's pretty much suck. The basic `int` may varry in how big of numbers it can handle depending on the platform. `int8_t` is always 8-bits, but it requires you `#include <stdint.h>`. On top of this, there's no string type, you only get arrays of characters. This is really annoying to work with.
+
+* `a = b = c = d = e;` is valid code, for some fucking reason. 
+
+... I could keep going, and list some much more technical problems there's absolutely no chance you'd understand yet. But my point is this: **C is hard**, and you will get frustrated because of small errors that are hard to figure out what *exactly* you did wrong. Missing a single semicolon on the end of a line will cost you a few hours of your life at some point. This struggle will make you a better programmer, but you will definitely hate it.
+
+C has also been the dominant programming lanuguage for low level programming for 50 years. That's one hell of a legacy, and only now in the last few years is something *finally* starting to compete: Rust. Rust, as a language, is still really hard to write in - espically for begineers with no prior knowledge - but it at least doesn't let you make the crazy fuckups C does. I'll go into why you'd ever want to use either later, but for now, just trust me, no matter how bad is sucks, you have to learn C.
+
+{{< details "Chapter 10.ψ? ">}}
+
+ψ is a fun number a bit bigger than π. 🤷
+
+{{< quote "[Reciprocal Fibonacci Constant, Wikipedia](https://en.wikipedia.org/w/index.php?title=Reciprocal_Fibonacci_constant)" >}}
+
+The '''reciprocal Fibonacci constant''', or ψ, is defined as the sum of the Reciprocals of the Fibonacci numbers:
+
+{{< katex >}}\psi = \sum_{k=1}^{\infty} \frac{1}{F_k} = \frac{1}{1} +  \frac{1}{1} + \frac{1}{2} + \frac{1}{3} + \frac{1}{5} + \frac{1}{8} + \frac{1}{13} + \frac{1}{21} + \cdots.{{< /katex >}}
+
+The value of ψ is known to be approximately
+
+{{< katex >}}\psi = 3.359885666243177553172011302918927179688905133732\dots .{{< /katex >}}
+
+{{< /quote >}}
+
+{{< /details >}}

@@ -121,12 +121,41 @@ For the above example, say you thought that list would only ever have two number
 
 {{< details "How I'd do that, not that it matters right now" >}}
 
+The obvious way to do this is something like 
+
+```python
+if my_numbers: #if the list is NOT empty
+	for i in range(len(my_numbers)):
+        if my_numbers[i] > 100:
+            my_numbers[i] = my_numbers[i] + 10
+        else:
+            my_numbers[i] = my_numbers[i] + 1
+else:
+    my_numbers.append(1)
+```
+
+However, I like this solution a bit better:
+
 ```python
 if my_numbers:
 	my_numbers = list(map(lambda x : x + 10 if x > 100 else x + 1, my_numbers))
 else:
     my_numbers.append(1)
 ```
+
+This solution uses some less common features of Python and should look weird to you. You can probably figure out the first one, as what `range()` and `len()` do are pretty obvious, but what the hell are `map()` and `lambda`? We'll get there.
+
+Don't worry about being able to write code like this for now. Hell, you probably shouldn't *want to* yet as, espically at first, writing code you can understand is more important than writing fast or pretty code: my preferd solution is roughly twice as fast, though even with 50,000 numbers, the "slow" solution only takes .0068 seconds on my computer.
+
+Still, if there were any other edge cases I'd probably go back to the obvious way, as it would be easier to read.
+
+As one more aside, note above I said,
+
+> if  the number is greater than 100
+
+this is an easy thing to screw up in programming as this is different from
+
+> if  the number is greater than **or equal to** 100"
 
 {{< /details >}}
 
