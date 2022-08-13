@@ -1,5 +1,7 @@
 # Chapter 2 - Installing Arch Linux
 
+<!-- TODO: I'd like to have the user setup ZSH and https://zellij.dev pretty early as it makes doing stuff from a direct TTY signficantly less of a pain in the ass. Similarly, might grab sysz pretty early too. Of course, I don't want to do either until after having done it the old school way at least once. --->
+
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/ezUoiaoQCTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Some Background
@@ -9,7 +11,7 @@
 Unlike Windows or Mac which are primarily differentiated by versions (Windows XP, Vista, 7, 10...), Linux has two important things to look out for:
 
 * The distribution name (Arch, Ubuntu, Mint, Debian, etc.)
-* Kernel version number (5.15 last time this page was updated)
+* Kernel version number (5.18 last time this page was updated)
 
 So, what do each of these mean?
 
@@ -54,7 +56,7 @@ This document is a guide for installing [Arch Linux](https://wiki.archlinux.org/
 
 Okay, that's a lot, so let's break it down. By "live system" this means we're going to be booting into an operating system from our installation media - for almost all situatations, this is a flash drive. This OS is "live" in that it is a true, full, Linux operating system. It's just running directly off the flash drive. In this case, this live system is really just used so that we can install Linux to a more permanent drive. So, rather ironically, we'll be using Linux to install Linux.
 
-The "with accessibility options" page is if you need something like a screen reader or if you have a braille display. I have no experiance helping with these things. More relevant to most readers, the [Category:Installation process](https://wiki.archlinux.org/title/Category:Installation_process) page has a bunch of *very* important steps that aren't on this page. Most importantly, there's a page about [Setting up a Dual Boot system with Windows](https://wiki.archlinux.org/title/Dual_boot_with_Windows) - which I'll be going through here. I won't be covering the process if you have a Mac, but there is a page for that: [Mac Installation](https://wiki.archlinux.org/title/Mac#Installation). Note that Apple's newer computers with their own processors aren't supported.
+The "with accessibility options" page is if you need something like a screen reader or if you have a braille display. I have no experiance helping with these things. More relevant to most readers, the [Category:Installation process](https://wiki.archlinux.org/title/Category:Installation_process) page has a bunch of *very* important steps that aren't on this page. Most importantly, there's a page about [Setting up a Dual Boot system with Windows](https://wiki.archlinux.org/title/Dual_boot_with_Windows) - which I'll be going through here. I won't be covering the process if you have a Mac, but there is a page for that: [Mac Installation](https://wiki.archlinux.org/title/Mac#Installation). Note that Apple's newer computers with their own processors ~~aren't supported.~~ are still a massive pain in the ass to get working.
 
 {{< quote "[Install Guide](https://wiki.archlinux.org/title/installation_guide) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
@@ -1331,5 +1333,5 @@ Using terminal multiplexers like [tmux](https://wiki.archlinux.org/title/Tmux) o
 {{< /quote >}}
 
 <ol hidden id="footnotes">
-    <li>This video has aged a bit. Some Sata Express effectively doesn't exist now and some M.2 NVMe drives are now PCIe 4.0</li>
+    <li>This video has aged a bit. Sata Express effectively doesn't exist now and some M.2 NVMe drives are now PCIe 4.0, though the 3.0 ones are still stupid fast.</li>
 </ol>

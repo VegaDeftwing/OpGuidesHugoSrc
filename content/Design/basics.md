@@ -31,6 +31,8 @@ These are your fundamental building blocks of art, and you should get to know th
 
 [This is a black and white image. Only the lines are colored. (Reddit)](https://www.reddit.com/r/blackmagicfuckery/comments/cj4gyl/this_is_a_black_and_white_image_only_the_lines/)
 
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Has the world become less colourful?<br><br>(This graph shows the colour of objects over time) <a href="https://t.co/IIbv7uRnbN">pic.twitter.com/IIbv7uRnbN</a></p>&mdash; The Cultural Tutor (@culturaltutor) <a href="https://twitter.com/culturaltutor/status/1551976051860963333?ref_src=twsrc%5Etfw">July 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Value & Lighting
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/gJ2HOj22gDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

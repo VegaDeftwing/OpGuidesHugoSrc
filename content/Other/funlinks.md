@@ -138,4 +138,16 @@
 
 * [Harder Drive: Hard drives we didn't want or need (suckerpinch, YouTube)](https://www.youtube.com/watch?v=JcJSW7Rprio)
 
+* [The Night I Met Einstein (Jerome Weidman, Reader's Digest)](https://www.rd.com/article/the-night-i-met-einstein/)
+
+* [Simulating an Entire Car Engine - yes, it makes noise (AngeTheGreat, YouTube)](https://www.youtube.com/watch?v=RKT-sKtR970)
+
+* [Baz Luhrmann’s “Sunscreen Song” — The 90s’ Most Unlikely Hit, with Avery Trufelman (Switched On Pop)](https://switchedonpop.com/episodes/everybodys-free-to-wear-sunscreen-avery-trufelman-baz-luhrmann)
+
+* [@Foone: You Want to know how bullshit insane our brains are](https://twitter.com/Foone/status/1014267515696922624)
+
+* 
+
+  
+
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>

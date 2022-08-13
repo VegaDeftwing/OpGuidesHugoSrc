@@ -75,3 +75,6 @@ https://utcc.utoronto.ca/~cks/space/blog/web/Firefox80VideoAccelConfusion
 
 [A trip through the Graphics Pipeline 2011: Index](https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/)
 
+
+
+A note I have no better place to put: On Windows, if you press `Win+Ctrl+Shift+B` you can force your GPU driver to reset. This can get you out of some (but not all) lock ups. Handy to keep in mind.

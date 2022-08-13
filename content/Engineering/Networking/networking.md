@@ -380,6 +380,8 @@ It's very reasonably to scan literally every IPv4 address. See [A Census of Mine
 
 ### ICMP - Internet Control Message Protocol
 
+https://xkln.net/blog/icmp-ping-and-traceroute--what-i-wish-i-was-taught/
+
 ### IGMP - Internet Group Management Protocol
 
 traceroute
@@ -429,6 +431,8 @@ https://research.swtch.com/tcpviz
 tcp header diagram
 
  [Multipath TCP](https://en.wikipedia.org/wiki/Multipath_TCP)
+
+https://github.com/appneta/tcpreplay
 
 ### UDP - User Datagram Protocol
 
@@ -643,6 +647,8 @@ Software Defined Networking, ActivityPub
 [http-wtf](https://httptoolkit.tech/blog/http-wtf/)
 
 [Yggdrasil](https://yggdrasil-network.github.io)
+
+https://github.com/ValdikSS/GoodbyeDPI
 
 [TODO] Add follow along making a network stack
 

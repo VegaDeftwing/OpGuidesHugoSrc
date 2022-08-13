@@ -49,4 +49,4 @@ If you've made it this far I just want to say *thank you*. We need more people t
 * TikTok https://www.technowize.com/a-look-back-at-tiktok-controversies-and-biggest-foul-ups/
 * End Software Patents http://endsoftpatents.org
 * https://www.collaborativefund.com/blog/five-lessons-from-history/
-
+* [Humanity was born way ahead of its time. The reason is grabby aliens. (Rational Animations, YouTube)](https://www.youtube.com/watch?v=l3whaviTqqg)

@@ -1,4 +1,4 @@
-# Day 1
+# Day x
 
 
 
@@ -137,7 +137,6 @@
   position: relative;
   z-index: 1;
 }
-
 </style>
 
 ## Writing Prompt
@@ -167,6 +166,8 @@
 {{< /columns >}}
 
 ### My Work
+
+<!--- This can be digital art, analog, sculpture, generative, whatever. --->
 
 {{< columns >}}
 
@@ -210,7 +211,11 @@
 
 ## Reading
 
-test
+test2
+
+## Today's Poem
+
+
 
 
 
@@ -219,3 +224,5 @@ test
 
 
 # Today's Thoughts
+
+<!--- New toys, life events, what's been bothering me, news stories, etc.--->

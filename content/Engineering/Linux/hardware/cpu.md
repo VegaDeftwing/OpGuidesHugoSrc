@@ -113,9 +113,15 @@ If you're particularly interested in this on-from-off test, look into [Eye Diagr
 
 Back to power and speed in a modern system: The OS itself actually tells the processor what speed it should be running at. In Windows, when you change your power plan to 'high performance' one of the major things it does is not allow the processor to run at a slower speed, and in Linux you can similarly control this using some cpu speed commands. We'll get to that later though.
 
-Finally it's worth note that on some systems, primarily high end desktops, you can actually run your processor outside of factor specifications by increasing the maximum clock rate of the processor. Doing this can lead to system stability issues and obviously leads to a higher power usage and heat output though. This process is known as 'overclocking'  as your taking the internal clock of the processor beyond it's rating. My CPU, a Ryzen 1700, has actually been over clocked in order to get 3.8Ghz on all of the cores.
+Finally it's worth note that on some systems, primarily high end desktops, you can actually run your processor outside of factor specifications by increasing the maximum clock rate of the processor. Doing this can lead to system stability issues and obviously leads to a higher power usage and heat output though. This process is known as 'overclocking'  as your taking the internal clock of the processor beyond it's rating. My CPU, a Ryzen 1700 at the time of writing, has actually been over clocked in order to get 3.8Ghz on all of the cores.
 
 Finally, I want to note that clock speed is far from the single measure of performance. Two chips that both have the same clock speed and same number of cores may still perform radically differently depending on many, many things about how the processor works. Note that I didn't say each 'tick' of this clock is a single instruction? That's because different processors have different **I**nstructions **P**er **C**lock (IPC) values. It's totally possible that a **slower** clocked CPU will outperform a faster one because it is able to execute more instructions per each tick of the clock. IPC can also varry depending on the workload, as some instructions will take more clock cylces than others and different tasks will require a different mix of instructions. If in doubt, look at benchmarks that directly compare the performance of CPUs in various workloads with their real, measured execution times.
+
+{{< smalltext >}}
+
+As an aside, there were some hand-cranked, [mechanical computers even](https://mcyoung.xyz/2022/07/24/curta/). There were "computers" far before the advent of the relay. Hell, the term "Computer" was actually originally a job title of a person who ran equations all day by hand.
+
+{{< /smalltext >}}
 
 ## Microcode
 
@@ -206,6 +212,8 @@ That update version is what you see on that line of `cat /proc/cpuinfo`
 Now, at the beginning of this guide I said I wouldn't provide useless information, and I'm sure that all looks pretty useless without more context. In general, this is interesting because you can (and will need to) write some assembly code by hand every now and then. Thankfully, its usually not x86 assembly which is very, very difficult to write but instead assembly on much smaller, micro controllers (basically really tiny computers), where that assembly is necessary because the system is so limited.
 
 Don't worry about what x86 means here, we'll come back to that in {{< button relref="/engineering/linux/hardware/architectures">}} Chapter 3½ - Architectures {{< /button >}}
+
+{{< smalltext >}}If you're interested, check out the [Wikipedia article on Microcode](https://en.wikipedia.org/wiki/Microcode) and [MicrocodeDecryptor (GitHub)](https://github.com/chip-red-pill/MicrocodeDecryptor){{< /smalltext >}}
 
 ## Cache
 

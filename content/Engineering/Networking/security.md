@@ -120,6 +120,8 @@ I would hope I don't have to justify this. If the library isn't common, hasn't b
 
 Similarly, crypto is hard, unless you want to go into it (which is cool, go for it, just be prepared for a lot of math) and understand what you're getting yourself into, don't try to write crypto code yourself.
 
+Hell, even just using `random()` without knowing better is a good way to screw up: see [How to Predict Random Numbers (PwnFunction, YouTube)](https://www.youtube.com/watch?v=-h_rj2-HP2E)
+
 ### DO NOT use algorithms that are broken
 
 I would seriously hope this is a 'No Shit'. Unfortunately, it seems it's not. So, allow me:

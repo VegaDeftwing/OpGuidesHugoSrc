@@ -13,3 +13,9 @@
 
 
 <!-- https://www.youtube.com/watch?v=7m1dcWlK0V8 -->
+
+----
+
+https://basicappleguy.com/basicappleblog/999month
+
+https://thehustle.co/americas-favorite-family-outings-are-increasingly-out-of-reach/

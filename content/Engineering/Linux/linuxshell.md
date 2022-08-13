@@ -483,8 +483,8 @@ When we installed arch we actually changed the default shell from bash to zsh, b
   * alternatives to `top`, doesn't suck
 * prettyping
   * alternative to `ping`, pretty
-* diff-so-fancy, icdiff, [Delta](https://github.com/dandavison/delta), [Difftastic](https://github.com/Wilfred/difftastic)
-  * alternatives to `diff`, but with more features. Difftastic is particularly nice for having an understanding of what Syntax actually means.
+* diff-so-fancy, icdiff, [Delta](https://github.com/dandavison/delta), [Difftastic](https://github.com/Wilfred/difftastic), [pdf-diff](https://github.com/serhack/pdf-diff)
+  * alternatives to `diff`, but with more features (or different target files). Difftastic is particularly nice for having an understanding of what Syntax actually means.
 * ncdu and [dust](https://github.com/bootandy/dust)
   * while much slower than `du` it's great for finding out what's eating storage space
 * [choose](https://github.com/theryangeary/choose)

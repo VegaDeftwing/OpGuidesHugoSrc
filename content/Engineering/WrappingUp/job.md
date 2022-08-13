@@ -50,4 +50,3 @@ https://erikmcclure.com/blog/factorio-is-best-interview-we-have/
 [What I learnt roasting 200 landing pages in 12 months (Oliver Meakings Blog)](https://blog.roastmylandingpage.com/landing-page-roasts/)
 
 [Selling Tiny Internet Projects For Fun and Profit](https://tinyprojects.dev/posts/selling_tiny_internet_projects_for_fun_and_profit)
-
