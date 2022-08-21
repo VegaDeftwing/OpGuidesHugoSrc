@@ -12,7 +12,7 @@ The best fit for me would *probably* be the [Sleepy Circuit Hypno](https://sleep
 
 I'd really prefer something that, at least during live use, doesn't take me out of the flow to write a shader in {{< button relref="/Engineering/programming/shaders" >}}GLSL/HLSL{{< /button >}} or require significant work just to get *something* on screen at all. Similarly, not being a massive pain to get it to react to MIDI is a must. Ideally, direct audio input, OSC, etc. would be great too.
 
-One piece of software that immediantely stands out as an alternative is Lumen. Problem? It's MacOS only. So, while I could set up a hackintosh and go that route, that's beginning to be a larger expense and pain than getting the Hypno. Plus, looking at videos, it has sweet spots but otherwise largely looks like shit. No thanks.
+One piece of software that immediately stands out as an alternative is Lumen. Problem? It's MacOS only. So, while I could set up a hackintosh and go that route, that's beginning to be a larger expense and pain than getting the Hypno. Plus, looking at videos, it has sweet spots but otherwise largely looks like shit. No thanks.
 
 Alright, what about the bluntly named [Visual Synthesizer](https://www.imaginando.pt/products/vs-visual-synthesizer)? Well, I yoink'd it on sale and it lacks UI scaling (sucks on 4k), seemingly can't do feedback (a big part of video synthesis), but most importantly has shit documentation. So, nope.
 
