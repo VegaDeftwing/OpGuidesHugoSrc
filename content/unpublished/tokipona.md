@@ -30,7 +30,7 @@ or Dothraki* from *Game of Thrones*:
 
 {{< smalltext >}}**Translated:** The stars are charging for you</br>\* Dothraki has it's own writing system as well; however, from what I can tell there are no good fonts supporting it and I don't want to embed an image for it. {{< /smalltext >}}
 
-Constructed languages or "conlangs" tend to [come in many varieties](https://en.wikipedia.org/wiki/Constructed_language#Planned,_constructed,_artificial), ranging from the very-pretty-but-nearly-useless, to the very-ugly-but-nearly-useless. From an artistic perspective - ignoring toki pona's writing systems<a class="ptr">(1)</a>, just the actual sound and "vibe" of the words - toki pona is... middling? Like, it's not the prettiest language when spoken aloud and the vast majority of the time people just use the Latin ("normal") alphabet, so, why then am I devoting a page on my website to it?
+Constructed languages or "conlangs" tend to [come in many varieties](https://en.wikipedia.org/wiki/Constructed_language#Planned,_constructed,_artificial), ranging from the very-pretty-but-nearly-useless, to the very-ugly-but-nearly-useless. From an artistic perspective - ignoring toki pona's writing systems<a class="ptr">(1)</a>, just the actual sound and "vibe" of the words - toki pona is... middling? Like, it's not the prettiest language when spoken aloud and the majority of the time people just use the Latin ("normal") alphabet, so, why then am I devoting a page on my website to it?
 
 Well, let me answer a question with a question: if you were making a language, what would you do? How many words would it have? What sounds would the language use? For context, English has - according to multiple Google results that are all very wrong for a huge variety of reasons - 171,146 words and 44 phonemes (that is, distinct sounds).
 
@@ -38,7 +38,7 @@ toki pona? ~140 words and 14 phonemes, all of which directly correspond to a let
 
 Now I hear your eyebrows raising and your thoughts of "Wow, okay, that sounds totally useless"
 
-Well, not really. Due to some clever grammar and the general flexibility of the language - letting some words be nouns, verbs, and adjectives depending on how they're used - it's generally quite easy to describe complex thoughts with toki pona just by appending enough adjectives and using context. 
+Well, not really. Due to some clever grammar and the general flexibility of the language - letting some words be nouns, verbs, and adjectives depending on how they're used - it's generally quite easy to describe complex-ish thoughts with toki pona just by appending enough adjectives and using context. 
 
 But, okay, it's a simple language. Still who cares? There's been semi-popular intended-for-actual use languages before. [Esperanto](https://en.wikipedia.org/wiki/Esperanto) is a thing after all and has, uh, {{< smalltext >}} *checks notes*, {{< /smalltext >}} 2 million? (I call 🐂💩) speakers. <a class="ptr">(2)</a> Similarly, the internet briefly got on a [Lojban](https://en.wikipedia.org/wiki/Lojban) kick, though far as I can tell it has somewhere around 20 actually fluent speakers.
 
@@ -62,7 +62,7 @@ But while those thing are cool I don't think it quite conveys what I want to str
 
 {{< smalltext >}}(Though, it also has Esperanto. Plus it has Pirate Speak and LOLCAT among a few other joke languages too.){{< /smalltext >}}
 
-to as impressive as creating [fonts](https://github.com/ETBCOR/nasin-nanpa/releases/) ([so](https://github.com/ItMarki/linja-waso), [many](https://github.com/jackhumbert/sitelen-pona-pona), [fonts](https://github.com/pguimier/linjapitomolipu)) for a section of [unicode un-offically reserved for conlangs](https://en.wikipedia.org/wiki/ConScript_Unicode_Registry) and making custom, novel [touch keyboards](https://github.com/timeopochin/tokiponakeyboard) for input.
+to as impressive as creating [fonts](https://github.com/ETBCOR/nasin-nanpa/releases/) ([so](https://github.com/ItMarki/linja-waso), [many](https://github.com/jackhumbert/sitelen-pona-pona), [fonts](https://github.com/pguimier/linjapitomolipu). [It's nuts](https://docs.google.com/spreadsheets/d/1xwgTAxwgn4ZAc4DBnHte0cqta1aaxe112Wh1rv9w5Yk/htmlview?gid=1195574771).) for a section of [unicode un-offically reserved for conlangs](https://en.wikipedia.org/wiki/ConScript_Unicode_Registry) and making custom, novel [touch keyboards](https://github.com/timeopochin/tokiponakeyboard) for input.
 
 <!-- TODO: put something using https://cdn.discordapp.com/attachments/340307145373253642/1007846221701984296/image_20_4.png here -->
 
@@ -81,19 +81,18 @@ And, like, okay, maybe you can memorize the ~~120~~ 140-ish words that fast, but
 \* from the perspective of someone who only knows English</br>
 \** and who is still very much so a noob.
 
-* From the perspective of English, A and E's sounds are sort of swaped.
-* Vowels always make the same sound. "e" is always `/a/` and "e" always an `/e/`. Compare this to English, where vowels can sound different in each word, like how the "o" in "dog" `/dɔɡ/` is different than the "o" in "home" `/hoʊm/`. It's really hard to turn off the part of your brain that wants to apply these English vowel rules.
+* Vowels always make the same sound. "a" is always `/a/` and "e" always an `/e/`. Compare this to English, where vowels can sound different in each word, like how the "o" in "dog" `/dɔɡ/` is different than the "o" in "home" `/hoʊm/`. It's really hard to turn off the part of your brain that wants to apply these English vowel rules, though it's still easier than learning the more complex phonetic rules of most natural languages.
 * Grammar > Vocabulary. It's one thing to memorize ~~120~~ 140-ish words, it's another to be able to string them together in the agreed upon way to make an actual sentence. If in English I said "red get in car town travel" you'd rightly say what the actual fuck. So, do not gloss over **"li"**, **"e"**, **"pi"** and **"la"**.
 * You can't - not it's hard, you literally can't - convey precise, exact meanings in toki pona. The language needs context. So you need to learn by reading and talking in places with context.
 * Very minor: adjectives come after nouns - it's toki pona, not pona toki </br>
-{{< smalltext >}} (toki = language, pona = good, toki pona = good language. Though most people will translate it as language of good.) {{< /smalltext >}}
+  {{< smalltext >}} (toki = language, pona = good, toki pona = good language. Though most people will translate it as language of good.) {{< /smalltext >}}
 * Less minor: you'll be breaking up complex thoughts into many simple sentences instead of long, complex ones. If, like me, you write long, free-flowing sentences that, via prepositional phrases, extend much longer than a sentence should in any language, you'll find it difficult to switch to the short, stubby sentence structure of toki pona. 
 
 # How to learn toki pona
 
 I can not possibly stress how much I am not the person to ask this, as - and I can't repeat this enough - am a noob myself. **However,** I have read the shit out of intro materials and figured out the hard way how *not* to learn toki pona.
 
-First things first, while everyone adores Sonja Lang for making toki pona, [her original book on it (Amazon)](https://www.amazon.com/Toki-Pona-Language-Sonja-Lang/dp/0978292308), is... meh? The best guide I could find now is https://devurandom.xyz/tokipona/. If you want a video guide, that page does mention jan Misali's 12 days of toki pona lesson series, but it doesn't mention that it is currently being slowly remade and updated, so while incomplete, you can learn some from [the new series](https://www.youtube.com/playlist?list=PLuYLhuXt4HrQwIDV7FBkA8zApw0pnEJrX), and of course the [old videos are still there](https://www.youtube.com/playlist?list=PLuYLhuXt4HrQIv3xnDxZqRaLfmxB2U5rJ) .
+First things first, while everyone adores Sonja Lang for making toki pona, [her original book on it (Amazon)](https://www.amazon.com/Toki-Pona-Language-Sonja-Lang/dp/0978292308), is... meh?<a class="ptr">(4)</a> The best guide I could find now is https://devurandom.xyz/tokipona/. If you want a video guide, that page does mention jan Misali's 12 days of toki pona lesson series, but it doesn't mention that it is currently being slowly remade and updated, so while incomplete, you can learn some from [the new series](https://www.youtube.com/playlist?list=PLuYLhuXt4HrQwIDV7FBkA8zApw0pnEJrX), and of course the [old videos are still there](https://www.youtube.com/playlist?list=PLuYLhuXt4HrQIv3xnDxZqRaLfmxB2U5rJ) .
 
 While going though that, having the [one page toki pona cheat sheet](https://blinry.org/toki-pona-cheat-sheet/toki-pona-cheat-sheet.pdf) made by blinry and released under CC0(!!!) has been a massive help for me when trying to parse out sentences or needing to ctrl+f a certain word.
 
@@ -135,7 +134,7 @@ If you just dedicate yourself to the vocab and getting the grammar rules down fo
 
 Fortunately, the toki pona community is very welcoming and aware of the challenges in learning, and more than willing to check translations and that you conveyed what you intended.
 
- The next big problem is speaking it. As mentioned before, the pronunciation is a bit odd if you only speak English. For this reason plus the generally fantastic vibes of the community I recommend joining [ma pona pi toki pona](https://discord.gg/fU6u2zwF4N), the toki pona discord, right away. This will give you a chance to talk to people and ask about how to pronounce words. If you just need to hear a specific word, [the toki pona appendix on Wikitionary](https://en.wiktionary.org/wiki/Appendix:Toki_Pona) has audio samples of every word... though some of them are sub-par at the time of writing.
+ The next big problem is speaking it. As mentioned before, the pronunciation is a bit odd if you only speak English. For this reason plus the generally fantastic vibes of the community I recommend joining [ma pona pi toki pona](https://discord.gg/fU6u2zwF4N), the toki pona discord, right away. This will give you a chance to talk to people and ask about how to pronounce words. If you just need to hear a specific word, [the toki pona appendix on Wiktionary](https://en.wiktionary.org/wiki/Appendix:Toki_Pona) has audio samples of every word... though some of them are sub-par at the time of writing.
 
 Speaking of, there's also https://wikipesija.org/, the toki pona wikipedia clone, that has a fair amount of cool stuff on it.
 
@@ -148,7 +147,15 @@ toki pona is pretty neat, I guess you could even say it's a good language (🥁 
 
 
 <ol hidden id="footnotes">
-	<li>toki pona does have it's own <a href="https://en.wikipedia.org/wiki/Toki_Pona#Writing_systems"> writing system<b>s</b></a> but between the two competing standards, being mildly annoying to type, the requirement for a font to be installed, and then the requirement for that font to, yunno', actually work it's just not used <i>that</i>  much. You'll see it mostly used for places where space and style are important, such at titles of papers, album covers, etc. There's <a href="https://github.com/Id405/sitelen-pona-ucsur-guide/blob/main/README.md"> a good guide</a> for using it digitally, but that's still an extra barrier to entry.
+	<li>toki pona does have it's own <a href="https://en.wikipedia.org/wiki/Toki_Pona#Writing_systems"> writing system<b>s</b></a>. This can be input in two ways:
+
+The easier method is to use a font which converts words to their associated glyph as you type them, like <a href="https://wyub.github.io/tokipona/linjasike">linja sike</a> does.
+
+The second is by using a font that uses the ConScript Unicode Registery or <b>CSUR</b>. This is more complicated to setup, but it prevents all toki pona words being rendered as the glyphs, instead only displaying those that the author intentionally typed that way.
+
+Both methods will require a font to be installed, though the CSUR fonts will need a secondary input system as you'll need to be able to type keys that don't exist on your keyboard. This can be a mild pain to set up. Fortuantely, there's <a href="https://github.com/Id405/sitelen-pona-ucsur-guide/blob/main/README.md"> a good guide</a> for setting things up to use CSUR fonts and input.
+    
+You'll see these writing mostly used for places where space and style are important, such at titles of papers, album covers, etc.
 
 When it does work, it is very pretty though:
 
@@ -168,8 +175,8 @@ When it does work, it is very pretty though:
 <div class="conlang" style="text-align: right;padding-right: 20px;">
 󱦚 󱦛󱦀   
 </div>
-
 </li>
     <li>Sorry esperanto fans, but the language sorta sucks too. Like, it's sexist in design, is overly complex, and just ... bad. <a href="https://www.youtube.com/watch?v=Sao9mCLy3Xo">See this jan Misali video as to why</a>.</li>
     <li>This number really depends on where you draw the line of fluency. The toki pona discord has a role system, on which close to 300 people have self-identified as advanced speakers, and over 1000 as intermediate. Assuming some of those people have lost interest and so lost skill with the language (which must be the case, as there's many more reactions to the bot taking the begineer role than there are people in the server), but that there's some people who speak toki pona but aren't on the discord, I think 600 is reasonable guess.</li>
+    <li>It's not a bad book, but it has aged since being published in 2014 and there are some things the book doesn't cover super well. If you get into toki pona, I do still recomend showing your support and nabbing a copy.</li>
 </ol>
