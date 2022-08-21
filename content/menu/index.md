@@ -358,8 +358,10 @@ headless: true
    <dt class="sub">5</dt><dd class="sub"> <a href="/other/hci2/radicallychanging"> Radically Changing</a></dd>
    <dt class="sub">6</dt><dd class="sub"> <a href="/other/hci2/wrappingup"> Wrapping Up</a></dd>
    </details> </dd>
+<dt> </dt><dd> <a href="/other/tokipona/">toki pona! <span class="conlang">󱥬󱦖󱥔<span></a></dd>
 </dil>
 </div>
+
 
 
 ---
