@@ -75,7 +75,19 @@ headless: true
 
 <div class="progress-ww">
 <dl>
-<dt>10 </dt><dd> <a href="/engineering/programming/codeintro/">Let's Write Some Code</a></dd>
+<!--<dt>10 </dt><dd> <a href="/engineering/programming/codeintro/">Let's Write Some Code</a>-->
+</dd>
+    <dt>10 </dt><dd> <details id="codeMenu"> <summary><a href="/engineering/programming/intro/progintro0">Let's Write Some Code</a></summary>
+    <dt class="sub">10.1</dt><dd class="sub"> <a href="/engineering/programming/intro/progintro1"> It's Math?</a></dd>
+	  <dt class="sub">10.2</dt><dd class="sub"> <a href="/engineering/programming/intro/progintro2"> Turtles!</a></dd>
+    <dt class="sub">10.3</dt><dd class="sub"> <a href="/engineering/programming/intro/progintro3"> Getting Tools</a></dd>
+    <dt class="sub">10.4</dt><dd class="sub"> <a href="/engineering/programming/intro/progintro4"> 2 for 1</a></dd>
+    <dt class="sub">10.5</dt><dd class="sub"> <a href="/engineering/programming/intro/progintro5"> Types</a></dd>
+    <dt class="sub">10.6</dt><dd class="sub"> <a href="/engineering/programming/intro/progintro6"> logic & Functions</a></dd>
+    <dt class="sub">10.7</dt><dd class="sub"> <a href="/engineering/programming/intro/progintro7"> Data Structures</a></dd>
+    <dt class="sub">10.8</dt><dd class="sub"> <a href="/engineering/programming/intro/progintro8"> Libraries</a></dd>
+    <dt class="sub">10.9</dt><dd class="sub"> <a href="/engineering/programming/intro/progintro9"> Getting Real</a></dd>
+   </details> </dd>
 <dt>10½</dt><dd> <a href="/engineering/programming/consequences/">Consequences</a></dd>
 <dt>11 </dt><dd> <a href="/engineering/programming/lowlvl/">Low Level Programming</a></dd>
 <dt>11½</dt><dd> <a href="/engineering/programming/fosscopyright/">FOSS & Copyright</a></dd>

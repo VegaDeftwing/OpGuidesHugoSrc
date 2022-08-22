@@ -1,5 +1,9 @@
 # Chapter 10.8 - The Standard Library
 
+<script>
+    document.getElementById("codeMenu").open = true;
+</script>
+
 Yunno' how you've been using `print()` and `printf()` all over the place? Well, those are functions, but where are they from?! 
 
 Well, for C, in `printf()`'s case it's pretty obvious - you can't use it unless you have `#include <stdio.h>` at the top of the file, so, clearly your computer has that file, and the associated `.c` file, somewhere. And frankly? That's good enough for the moment. Later, you may need to learn how to download C libraries form the interent. But for now, just know you have many more than `<stdio.h>` available which cover a lot of basic functionality.

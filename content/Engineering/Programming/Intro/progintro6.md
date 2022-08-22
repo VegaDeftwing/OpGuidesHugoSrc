@@ -1,5 +1,9 @@
 # Chapter 10.6 - ＬＯＧＩＣ & Functions
 
+<script>
+    document.getElementById("codeMenu").open = true;
+</script>
+
 {{< tip >}}
 
 For this page, If you see that lines are ending with a semicolon, `;`, then that code is C. If they don't, it's Python.
@@ -550,13 +554,15 @@ again, DON'T. If you ever think "Huh, a `goto` would be a nice solution" you're 
 
 *Technically* there is some overhead with calling a function - which we're about to see - which using a `goto` avoids. Still don't.
 
-The main reason these exist is because in assembly - that is the lowest level language your computer can understand - , a `goto` is all that exists. These constructs like `for`, `if`, etc. don't exist.
+The main reason these exist is because in assembly - that is the lowest level language your computer can understand -  a `goto` is all that exists. These constructs like `for`, `if`, etc. don't exist.
 
  Instead, you get individual instructions like `beq`,`blt`, or `jmp` which mean branch-if-equal-to, branch-if-less-than, and jump, respectively. These will go to a memory address and execute code from that point if the conditon (or lack of, for `jmp`) is met.
 
 All your if's, for's, while's, etc. are built out of these. The complier (gcc, in your case) takes your C  code and turns it into these instructions and does so much more effeciently than you could by hand.
 
 By writing in the higher-level-than-assembly-but-still-pretty-low-level language of C, you get to not deal with these things. The same applies to writing **functions**. Functions are what we use as much more poweful, easier to read alternatives to direct jumping around by memory locations that is done by `goto`.
+
+Again, I can't stress this enough, don't use `goto`. Not even once. Don't try it. Don't think, "This is neat and good to know!". Unknow it. Don't go "this is a good use case!". It's not. Don't use `goto`.
 
 ## Getting Functional
 

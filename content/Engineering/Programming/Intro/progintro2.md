@@ -1,5 +1,37 @@
 # Chapter 10.2 - Turtles All The Way Down
 
+<script>
+    document.getElementById("codeMenu").open = true;
+</script>
+
+## Low Level and High Level Programming
+
+There are two types of programming, high level and low level. 
+
+High level programmers make things where the hardware doesn't matter. The code they write runs everywhere and the users directly see it and interact with it. 
+
+Low level developers write code that runs directly on the hardware. The software *inside* the controller on your mouse to the driver on your computer for responding to that input, that's all low level.
+
+I want you to be neither. Be an all level programmer. Why?
+
+Most low level devs will feel far frome home using existing code and high level functions to make a game like this. This will make a low level dev reach for building the foundations first, wasting time reinventing wheels that may not need reinvented. They also are less likely to know about - or even think to look for - common high level techniques. They're also likely to get overly wrapped up in optimization problems that don't need it. If you're making a game, it only needs to push out a frame at the monitor's refresh rate, not 10000 FPS. They're likely to over estimate how hard it is to make complex software, because they're thinking about building every little piece by hand.
+
+{{< speech tired >}}
+
+I am a low level dev, I know it, and I try to recognize when I do this.
+
+{{< /speech >}}
+
+Most high level devs would struggle to optimize a section of their game if they want to add a feature that would otherwise tank performance to the point of making things unplayable. They may lack the understanding of how the code actually runs on the hardware to know why something is bad. They also may have preconceptions about what's even possible (in either direction) because they don't know enough about what the hardware can do or how to best take advantage of it. They're also likely to reach for off the shelf solutions to easily when making something custom would actually be faster and easier to maintain.
+
+{{< speech yeet >}}
+
+I am a low level dev, and the high level devs writing slow, shitty code drives me nuts.... but, they're still making cool things faster than I can.
+
+{{< /speech >}}
+
+# Learning both
+
 I would really like to teach you programming from the top down, starting with something easy like the Python programming langauge and then talk about how things *really* work using the C Programming language. The problem is, when looking at Python code you'll occassionly need to deal with things that simply don't make sense without the context of a lower level langage like C. Meanwhile, there's some things that C just... dosen't have. This means there's three options:
 
 1. Learn C first, hate it, and think all programming is hard before learning python

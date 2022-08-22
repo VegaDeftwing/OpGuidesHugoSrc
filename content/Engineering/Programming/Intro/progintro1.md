@@ -1,4 +1,8 @@
-# Chapter 10.1
+# Chapter 10.1 - It's math?
+
+<script>
+    document.getElementById("codeMenu").open = true;
+</script>
 
 Let's talk math and look at some real code.
 

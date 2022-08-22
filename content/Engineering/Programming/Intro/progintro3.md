@@ -1,5 +1,9 @@
 # Chapter 10.3 - Getting Tools
 
+<script>
+    document.getElementById("codeMenu").open = true;
+</script>
+
 As mentioned above, you'll be learning both Python and C. This means we need to get the tools necessary for working with each. If you're following along with OpGuides as a whole and have Linux setup, this will be easy. If you're on Windows it's not *hard* but there are some annoying steps we'll need to jump through.
 
 ## Getting Code To Run
@@ -75,21 +79,21 @@ for friend in my_friends:
 
 Now, you can run this code from within VSCode by (Ctrl+F5) or going to "Run"→"Run Without Debugging". If you run it, you should notice that "WARNING: FULL OF PUNS" never prints into the terminal that opened at the bottom of your screen:
 
-![image-20220623205136950](../../../../../../home/vega/.config/Typora/typora-user-images/image-20220623205136950.png)
+![programming running in terminal](/eng/code/debug1.webp)
 
  Now, this bug is easy enough to spot, on line 5, "Soatok" is spelled incorrectly. Still, let's see what happens if we debug. This time, go ahead and run *with* debugging (F5) or "Run" → "Start Debugging". You should notice the exact same thing, the program runs and finishes. What gives! Well, we need to set a **breakpoint**. Next to line 1, click to the left of the line number and you should get a red dot. Now, start debugging again (F5) and you should see the red dot get surounded by a pentagon and some what look like music controls at the top of your screen:
 
-![image-20220623205731541](../../../../../../home/vega/.config/Typora/typora-user-images/image-20220623205731541.png)
+![debugger starting](/eng/code/debug2.webp)
 
 If you hover over the controls you'll see that, from left to right, they say "Continue (F5)", "Step Over (F10)", "Step Into (F11)", "Step Out (Shift+F11)", and "Stop (Shift+F5)". If you press Step Over (F10) (the curved arrow), you should see the pointer move to the next line:
 
-![image-20220623205756697](../../../../../../home/vega/.config/Typora/typora-user-images/image-20220623205756697.png)
+![debugger stepped](/eng/code/debug3.webp)
 
 Go ahead and click it a few more times. You should see it iterate over each name, but not ever hit the `print("WARNING: FULL OF PUNS")`
 
 You should also notice on the right, that as you step though, there's a list of variables and what their current values are. With this you can actually see the name that will be printed next before it does so.
 
-<img src="../../../../../../home/vega/.config/Typora/typora-user-images/image-20220623204834721.png" alt="image-20220623204834721" style="zoom:33%;" />
+<img src="/eng/code/debug4.webp" style="zoom:50%;" />
 
 In theory, you could watch for when friend took on the value `soatok` and you would see that it does *not* trigger that `if`. So, go ahead and change the line to `if friend == "Soatok"` and re-run the program. This time, you'll be warned that Soatok is full of puns.
 

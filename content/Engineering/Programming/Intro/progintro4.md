@@ -1,5 +1,9 @@
 # Chapter 10.4 - Leaning Two Languages At Once
 
+<script>
+    document.getElementById("codeMenu").open = true;
+</script>
+
 Back in the  {{< button relref="/Engineering/linux/hardware" >}}Into The Hardware{{< /button >}} section we looked at some of the inner workings of the CPU, and briefly looked into how the CPU only understands *machine code*, 1's and 0's that make up individual instructions. Now, there's absolutely no reason to ever think at that low of a level, the lowest you should ever care to look at, as mentioned there, is assembly. However, assemly is still awful to write and read. While if you stare at the following for long enough you may be able to figure out what  what it does
 
 ```assembly

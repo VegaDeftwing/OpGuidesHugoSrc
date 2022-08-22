@@ -1,4 +1,8 @@
-# Chapter 10.0 - Things You Should Know
+# Chapter 10.0 - Let's Write Some Code
+
+<script>
+    document.getElementById("codeMenu").open = true;
+</script>
 
 Knowing how to progam will give a you deep control over the most advanced tool mankind has ever made: The computer. More over, because we use computers as extensions of our own minds (and as a collective, with the Internet) it will literally expand your ability to process information as you're no longer limited to the inputs and computation systems that other programmers have built for you. 
 
@@ -166,7 +170,7 @@ Ideally, this would never happen. It'd be great if from the start you knew every
 * Say user has to enter a name, should they be able to enter "" (no letters at all)? What about "v̸̼͙̹̮̩̳͉̩̕ḛ̸̡̲͂̈́̽̽g̴̢̠̭̗̘͎̉͝a̶̖̯̳̯̭͚̹̹̎̀͝" or "🌢" or "ᵛᵉᵍᵃ" or "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
 * Say you're making an inventory system in a game, and you have the ability to use a bag in the inventory to hold more items. If you're not careful, you might add the ability to put a bag in the bag: you'd be able to hold infinite items as you stack bags into each other!
 
-Others are relevent to the design of a larger system, and require much more effort to change. For exmaple, MineCraft used to generate worlds that were 128 blocks tall, with the bottom of the world being layer 1. Then, they decided to update the worlds to be 256 blocks tall, with the change being relatively straight forward as newly generated and previously generated sections of the worlds were both just given 128 block of vertical space to build into - this could be appended to in a realatively straight forward way - just add more "air blocks" to the sky. 
+Others are relevent to the design of a larger system, and require much more effort to change. For example, MineCraft used to generate worlds that were 128 blocks tall, with the bottom of the world being layer 1. Then, they decided to update the worlds to be 256 blocks tall, with the change being relatively straight forward as newly generated and previously generated sections of the worlds were both just given 128 block of vertical space to build into - this could be appended to in a realatively straight forward way - just add more "air blocks" to the sky. 
 
 Then things got weird. They decided to add 64 more blocks going up **and** down. This required a few weird changes. First, the world now goes from -64 to 320, with '0' being roughly the middle of the underground before the bottom of the world (the old bottom). Strange number representation aside, there were extereme technical challanges to this as the newly added downward space needed to be blended into previously generated worlds without this room. Additionally, the newly generated space was entirely different - the look of caves and the terrain above them had been entirly overhauled. Blending the old and new to combat the priror design decesion likely required more complex and difficult work than the actual new world generation itself. 
 
@@ -196,6 +200,10 @@ if input_number % 2 == 1:
 {{< smalltext >}}\* I've written this in Python here to match the rest of the page, it is *slightly* different in Javascript{{< /smalltext >}}
 
 This is extra dumb when you realize that the maintainers of the is-odd package *could* push a malacious update doing something as mundane as breaking it (making it it *always* say a number is odd, April Fools!) or making it check if a number is odd while also running code to mine cryptocurrency in the background!
+
+To make matters worse, there's a problem of deciding what level of abstraction you want to work at. While it's possible to learn it all and be good at everything, most programmers pick a niche. Maybe you're into web dev. Maybe you want to make games. (both of which are considered high-level). Maybe you want to make hardware move and be right down at the circuit level (which is known as low level). Most good low level programmers aren't great high-level programmers, and vis-versa. Both can be a ton of fun though, and so you'll inevitebly want to do some of both.
+
+This tends to cause problems. As an extreme example, there's these things called "Game jams". These are events where programmer/artist/masochists (or small teams of masochists) will make an entire game in one weekend. The vast majority of these are going to use platfroms which already give them things like a way to render 3D or 2D objects to the screen, to handle real time user input, physics between objects, etc. Making all of that stuff from scratch, for most programmers, would take months if not years to get something even remotely functional.
 
 ## Why is *learning* programming hard?
 

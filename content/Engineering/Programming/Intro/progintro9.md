@@ -1,5 +1,9 @@
 # 10.9 - "Real" Programs 
 
+<script>
+    document.getElementById("codeMenu").open = true;
+</script>
+
 So, you now *mostly* know all the fundamental building blocks used to write basically everything out there.
 
 But... not really? 

@@ -1,5 +1,9 @@
 # 10.7 - Data Structures & Object Orientation
 
+<script>
+    document.getElementById("codeMenu").open = true;
+</script>
+
 ## Why not just structs?
 
 C is a very low level language and only lets you make `struct`s. Structs are fine, but they have some annoying properites, particularly in separating data from how you interact with it, making it difficult to make complex abstractions where you can be sure that data that should only be internal to a structure isn't exposed, or that the data can't be changed in an invalid way.

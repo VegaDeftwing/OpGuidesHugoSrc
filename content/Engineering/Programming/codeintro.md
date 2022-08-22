@@ -1,5 +1,11 @@
 # Chapter 10 - Let's write some Code
 
+{{< tip >}}
+
+Hello! If you're here, you should know you're on a deprecated page. All work has now been refocused on getting the new programming intro (Chapter 10 in the menu bar) to being much, much better than this page ever was.
+
+{{< /tip >}}
+
 ## Starting Minimal
 
 ### Code is mostly math
