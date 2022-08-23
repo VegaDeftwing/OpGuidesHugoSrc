@@ -10,7 +10,7 @@
 
 - [ ] Setting up a bleeding-edge system, Beedrock linux, Arcan display manager, Pipewire, etc.
 
-- [ ] Toki-pona post
+- [x] Toki-pona post
 
 - [ ] List of cool, obsucre VCV and Eurorack modules
 

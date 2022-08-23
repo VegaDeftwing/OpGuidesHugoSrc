@@ -25,22 +25,67 @@ Ultimately, as long as it is a personal thing and you keep it a personal thing, 
 
 Now, depeding on who you are - which, if you're on my website, I can make some good assumptions that you're probably a young, middle-class, technically incliend person, and probably either atheist or at least not-Christian - you may be thinking "Why do I care? Those old white guys have their views, I have mine. Can't change it."
 
-Well, the professional, nerdy community (engineers, programmers, etc.) is strangely divided, the 'old guard' is largely relatively conservative and religious, but as time has moved forward the younger generation taking these positions are largely liberal and not religous at all. If you're going to interact with these people, it helps to know how they think and how to identify the bullshit and call it out in a productive manner. Similarly, if you're a conservative christian (and you're still reading - which, wow, thank you, I'm glad you're putting up with my jabs. I hope you do actually take my perspectives and think on them, even if you don't agree with any when you're done.) I suspect this will help you see the "other side".
+Well, the professional, nerdy community (engineers, programmers, etc.) is strangely divided, the 'old guard' is largely relatively conservative and religious, but as time has moved forward the younger generation taking these positions are largely liberal and not religous at all. If you're going to interact with these people, it helps to know how they think and how to identify how they think and know how to debate in a productive manner. Similarly, if you're a conservative christian (and you're still reading - which, wow, thank you, I'm glad you're putting up with my jabs. I hope you do actually take my perspectives and think on them, even if you don't agree with any when you're done.) I suspect this will help you see the "other side".
 
-Furthermore, while religion itself is largely separated enough from technical fields as to not matter, politics is not. And the right wing is nothing if not united from Religion.
+Before going any futher though, I want to address a point a friend that reviewed this page for me brought up:
 
-Hell, even if single issue voters only chose their canidates because "Abortion = bad!", the same representatives are largely repsonible for legislation has negatively impacting copyright law, access to information, what is allowed to be distributed on a platform, funding for reaseach and devolpment (notably in aerospace), policy for renewable energy, and the prolification of techgiants which stiffle competition, and freedom of speech/moderation online. So, even if you don't give a shit directly, the knock on effects will matter to you.
+{{< quote "jan pona" >}}
 
-Finally, it would probably be worth your time to look into basics of most world religions, as nerdy, professional positions are increasingly held on a global field where you will have no choice but to work with people from diverse backgrounds across the globe.
+Like many people online, you blur three things I see as distinct: "religion", "religious indoctrination", and religiously-motivated action in the world. You try to separate some of the different aspects of these into what you do and don't find problematic, but it's a bit sloppy.
+
+{{< /quote >}}
+
+I actually agree with the comment that I blur these lines, but I think the lines are so blurred at this point anyway that talking about any one of them in isolation is like using a scalpal to mow a lawn: that is, it may be more percise but it will take significantly longer and make it hard to see the bigger picture, if it can even be done at all.
+
+So, before I go out painting in broad strokes, I do want to point out that, yes, their are postive instances of religion and religiously motivated action in the world. 
+
+[Evengelical environmentalism](https://en.wikipedia.org/wiki/Evangelical_environmentalism) is a thing. There's [quite a few LGBT relgious organizations](https://www.stonewall.org.uk/help-advice/information-and-resources/resources-lgbt-people-faith). I'm not trying to say these things don't exist. I'm also very aware that there's the *possability* of an effect similar to that of the vocal minority going on, where the worst people in a large group, even if they're a fraction of a fraction of a percent, can give the group a bad name.
+
+The thing is, I don't *think* it's a vocal minority. Unfortuanetly, the statistics here aren't the best, but let's piece together what we can:
+
+* According to [The Washington Post](https://www.washingtonpost.com/news/wonk/wp/2017/09/06/the-stark-racial-and-religious-divide-between-democrats-and-republicans-in-one-chart/), which, bias, obviously: “Today, roughly three-quarters (73%) of the Republican Party is white Christian, but fewer than one-third (29%) of the Democratic Party identifies this way.”
+* Put the other way, from [Good Faith Media](https://goodfaithmedia.org/race-religion-key-indicators-of-us-political-affiliation/), "More than three-quarters (78%) of white evangelicals identify as Republican / lean Republican, compared to only 17% who identify as Democrat / lean Democrat."
+* The Trump presidency *happened* and even at the end of his term - after the Jan 6th clustfuck - he was still at about 40% approval.
+* Trump - and I really didn't think this needed saying - was a very, very, very devise president. He was hated by "the left" (and some of "the right") for everythig from mocking the disabled, to his treatment of women, to his incompetence in running a country with more guidance than what Fox News would provide.
+* There's a lot of single issue voters for Abortion. About 30% of those that are pro-life will vote for someone out of two options for that reason alone. I could go find stats on that, but I think it's pretty obvious that the pro-life and the conservative crowd are a mostly overlapping venn diagram.
+
+The only conclusion I can see to this is the same one Shadi Hamid from *The Atlantic* did: [Ideological intesity is rising as the US becomes more relgiously divided](https://www.theatlantic.com/magazine/archive/2021/04/america-politics-religion/618072/).
+
+So, while, yes, in a perfect world "religion", "religious indoctrination", and "religiously-motivated action" are three different things that should be talked about independently, we live in a world where they're becoming a big melting pot of some misterious, vaugely racist smelling substance that you really don't want to step in. 
+
+I really, really want to isolate them, to be a scientist seperate the variables. Unfortuantely, that task has long since become impossible. It's a real shame too, because the result is this post coming off more insensative and less informed.
+
+I know it absolutely isn't fair to wrap up the good with the bad, but it's happening regarless of if I try to act like it isn't happening on this page or not. People are seeing religion, politics, and the amorphous blob that we call "The Right" as one thing. Worse yet, while everything I just said is about Christianity, at least for me, the mental framework I use to think about the most popular religion absolutely infects my views of others. Even if I don't want to, I see other religions and assign them a political leaning mentally, even if the two should be entirely disconected. Oddly, the same is even true of atheism itself, as it has a liberal connotation now.
+
+Of course, that ignores many gray areas to. Again, from the same friend
+
+{{< quote "jan pona" >}}
+
+You have people who are tolerant but draw the line at atheism because we "have no moral compass", and you have two Xtians I know (one in person, one on the internet) who consider Jesus Christ to be the west's Confucius: a quasi-historical figure of great wisdom to emulate, but nothing more "religous" than that (including the literalness of the Father he talked about).
+
+{{< /quote >}}
+
+But humans compartamentalize. We have prejudice. We see patterns. It's just how we work, so while we can acknowledge it as a fault and fight it - and we should - it's worth recognizing that we do this. We do assume a Christian is right wing. We assume an athesist is liberal.
+
+Here's where things take a turn.
+
+The same representatives that are getting elected because they're ~~Pro Life~~ all for forcing women to give birth are largely repsonible for legislation that has negatively impacted copyright law, access to information, what is allowed to be distributed on a platform, funding for reaseach and devolpment (notably in aerospace), policy for renewable energy, and the prolification of techgiants which stiffle competition, and hinder both our options freedom of speech and moderation online. So, even if you don't give a shit directly, the knock on effects will matter to you.
+
+So while it would probably be worth your time to look into basics of most world religions, as nerdy, professional positions are increasingly held on a global field where you will have no choice but to work with people from diverse backgrounds across the globe, that's just not something I want to cover here. Wikipedia is a thing, go nuts. Instead, let's be real and just acknowledge our inner caveman, tribalisc brains for a moment and try to discesct some of the problems with religion and why it's gotten to this point.
 
 ## Spreading The Word
 
-If you push you're regilion on **ANYONE** you're an ass. It doesn't matter if you're trying to "Save their soul". You may *think* it's harmless and you're helping them not spend eternity in Hell. Well, it's not harmless. Why?
+First thing's first,
+
+If you push you're regilion on **ANYONE** you're an ass. It doesn't matter if you're trying to "Save their soul" or you just think "Wow, I sure am more confident and happy with God in my life, you should come meet God too!". You may *think* it's harmless and you're helping them not spend eternity in Hell and/or making their life better. Unfortuantely, it's not harmless. Why?
 
 1. The person you're talking to may be a part of a group a large portion of your religion hates (LGBT, Liberal, etc.)
 2. The person you're talking to (or their family/friends) may already be of religion that has had past reasons to be fearful of your relgion - Witch hunts, anyone?
 
-Now, you *personally* may not dislike the person for who they are, hell, maybe you are LGBT or whatever along side them. Great! Then you know full well why they may be disinterested and should respect that.
+Now, you *personally* may not dislike the person for who they are, hell, maybe you are LGBT or whatever along side them. Great! Then you know full well why they may be disinterested and should respect that. Let them find your religion on their own. The only exception here is if:
+
+1. You have known the person a long time
+2. They've already expressed some interest
 
 Similarly, you *personally* probably haven't gone on any Witch hunts or killed a million Jews. Again, sure, but ya' think that *maybe* someone might hold a bit of a grudge for their incestors pain? Again, all it takes to respect that is to - and I can't state this enough - shut the fuck up.
 
@@ -74,6 +119,8 @@ So, is there an actual, reaseached moderate view? Well, clearly I'm not the guy 
 
 {{< columns >}}
 
+[TODO]
+
 <--->
 
 ![swearingin](/phil/swearingin.webp)
@@ -86,17 +133,13 @@ The Trial of the Monarch - The Venture Bros. [S01E12]
 
 {{< /columns >}}
 
-[America Without God: As Religious Faith Has Declined, Ideological Intensity Has Risen ](https://www.theatlantic.com/magazine/archive/2021/04/america-politics-religion/618072/)
-
-[TODO]
-
 ### ~~Death~~ Religion & Taxes
 
 ## Justiying Shit Things
 
 
 
-## Historical 💩iness Drives Hate
+## If You See Something, ~~Say Something~~ Call out the bullshit.
 
 From the Inquisitions to 9/11 and School Shootings; from largely supported actions to rouge actors, religion is used to justify shit things. That isn't going to stop any time soon. Each of those shit things may be a tragedy in its own right. But they also add up to people seeing eachother as the enemy. This isn't just from one religious group to another either: The Left™ is increasingly seeing not just The Right™ as an enemy, but the religious organizations - Mostly Christian - that under pin it.
 
