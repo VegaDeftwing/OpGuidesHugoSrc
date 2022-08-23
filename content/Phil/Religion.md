@@ -51,11 +51,13 @@ The thing is, I don't *think* it's a vocal minority. Unfortuanetly, the statisti
 
 The only conclusion I can see to this is the same one Shadi Hamid from *The Atlantic* did: [Ideological intesity is rising as the US becomes more relgiously divided](https://www.theatlantic.com/magazine/archive/2021/04/america-politics-religion/618072/).
 
-So, while, yes, in a perfect world "religion", "religious indoctrination", and "religiously-motivated action" are three different things that should be talked about independently, we live in a world where they're becoming a big melting pot of some misterious, vaugely racist smelling substance that you really don't want to step in. 
+Let me put it another way. My friend Soatok has a post [If You Hate Furries, You’re Anti-LGBT](https://soatok.medium.com/if-you-hate-furries-youre-anti-lgbt-cce35a948a57) where, uh, the title does the work for me. Clearly, the furry community has become so intertwined with LGBT community that saying you dislike one is a dog-whiste for the other. If we can accept that as fact, even though both straight and even nazi-furries (ugh) exist, then I don't think it's unreasonable to associate the other way. That is, we can imagine an article with the title "If You Hate Conservatives, You're Anti-Christian". Of course, you're free to reject this premise.
+
+So, while, yes, in a perfect world "religion", "religious indoctrination", "religiously-motivated action", and politics are all different things that should be talked about independently, we live in a world where they're becoming a big melting pot of some misterious, vaugely racist smelling substance that you really don't want to step in. 
 
 I really, really want to isolate them, to be a scientist seperate the variables. Unfortuantely, that task has long since become impossible. It's a real shame too, because the result is this post coming off more insensative and less informed.
 
-I know it absolutely isn't fair to wrap up the good with the bad, but it's happening regarless of if I try to act like it isn't happening on this page or not. People are seeing religion, politics, and the amorphous blob that we call "The Right" as one thing. Worse yet, while everything I just said is about Christianity, at least for me, the mental framework I use to think about the most popular religion absolutely infects my views of others. Even if I don't want to, I see other religions and assign them a political leaning mentally, even if the two should be entirely disconected. Oddly, the same is even true of atheism itself, as it has a liberal connotation now.
+I know it absolutely isn't fair to wrap up the good with the bad, but it's happening regarless of if I try to act like it isn't happening on this page or not. People are seeing religion and politics( Christianity and the amorphous blob that we call "The Right" or everything-but-Christian and "The Left") as one thing. Worse yet, while everything I just said is about Christianity, at least for me, the mental framework I use to think about the most popular religion absolutely infects my views of others. Even if I don't want to, I see other religions and assign them a political leaning mentally, even if the two should be entirely disconected. Oddly, the same is even true of atheism itself, as it has a liberal connotation now.
 
 Of course, that ignores many gray areas to. Again, from the same friend
 
@@ -70,6 +72,12 @@ But humans compartamentalize. We have prejudice. We see patterns. It's just how 
 Here's where things take a turn.
 
 The same representatives that are getting elected because they're ~~Pro Life~~ all for forcing women to give birth are largely repsonible for legislation that has negatively impacted copyright law, access to information, what is allowed to be distributed on a platform, funding for reaseach and devolpment (notably in aerospace), policy for renewable energy, and the prolification of techgiants which stiffle competition, and hinder both our options freedom of speech and moderation online. So, even if you don't give a shit directly, the knock on effects will matter to you.
+
+{{< quote "Pericles" >}}
+
+Just because you do not take an interest in politics doesn't mean politics won't take an interest in you.
+
+{{< /quote >}}
 
 So while it would probably be worth your time to look into basics of most world religions, as nerdy, professional positions are increasingly held on a global field where you will have no choice but to work with people from diverse backgrounds across the globe, that's just not something I want to cover here. Wikipedia is a thing, go nuts. Instead, let's be real and just acknowledge our inner caveman, tribalisc brains for a moment and try to discesct some of the problems with religion and why it's gotten to this point.
 
