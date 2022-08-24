@@ -134,3 +134,7 @@ Community Garden
 >I just wish more people would appreciate each other's cooking instead of eating candy all day. I want to work with people on these things, but if everyone else just stays addicted it's hard to keep going. We're inevitably social creatures and we do what our friends do, and doing things with friends is always better. Being on Facebook or Reddit, watching YouTube videos- these may trick your brain into thinking you have what you want, but being on the other side I really wish some of you would join me.
 >
 >I'm always down to hang out, to wonk together on making something cool, or talk about life, you just have to reach out not wait for me to post a funny meme for you to comment on. Lets talk about your hobbies and projects and what you care about and stop posting memes and Tumblr screenshots.
+
+---
+
+TODO: https://sambleckley.com/writing/church-of-interruption.html

@@ -71,7 +71,7 @@ But humans compartamentalize. We have prejudice. We see patterns. It's just how 
 
 Here's where things take a turn.
 
-The same representatives that are getting elected because they're ~~Pro Life~~ all for forcing women to give birth are largely repsonible for legislation that has negatively impacted copyright law, access to information, what is allowed to be distributed on a platform, funding for reaseach and devolpment (notably in aerospace), policy for renewable energy, and the prolification of techgiants which stiffle competition, and hinder both our options freedom of speech and moderation online. So, even if you don't give a shit directly, the knock on effects will matter to you.
+The same representatives that are getting elected because they're ~~Pro Life~~ all for forcing women to give birth are largely repsonible for legislation that has negatively impacted copyright law, access to information, what is allowed to be distributed on a platform, funding for reaseach and devolpment (notably in aerospace), policy for renewable energy, and the prolification of techgiants which stiffle competition, and hinder both our options freedom of speech and moderation online. So, even if you don't care about religion and how it influences politics directly, the knock on effects will matter to you.
 
 {{< quote "Pericles" >}}
 
@@ -79,31 +79,39 @@ Just because you do not take an interest in politics doesn't mean politics won't
 
 {{< /quote >}}
 
-So while it would probably be worth your time to look into basics of most world religions, as nerdy, professional positions are increasingly held on a global field where you will have no choice but to work with people from diverse backgrounds across the globe, that's just not something I want to cover here. Wikipedia is a thing, go nuts. Instead, let's be real and just acknowledge our inner caveman, tribalisc brains for a moment and try to discesct some of the problems with religion and why it's gotten to this point.
+To wrap up this intro, religion is interesting for it's own reasons, but the political ramifications of religion in modern societies is what is most likely to affect you directly. So while it would probably be worth your time to look into basics of most world religions, as nerdy, professional positions are increasingly held on a global field where you will have no choice but to work with people from diverse backgrounds across the globe, that's just not something I want to cover here. Wikipedia is a thing, go nuts. Instead, let's be real and just acknowledge our inner caveman, tribalisc brains for a moment and try to discesct some of the problems with religion and why it's gotten to this point try to see what can be done today. To do this, let's look at
 
-## Spreading The Word
+* How the church keeps its numbers
+  * How kids get brought into the church
+* How the church got brought to politics
+* How 
 
-First thing's first,
+## Spreading The Word to Children.
+
+First thing's first, I know this will be preaching to the choir, but...
 
 If you push you're regilion on **ANYONE** you're an ass. It doesn't matter if you're trying to "Save their soul" or you just think "Wow, I sure am more confident and happy with God in my life, you should come meet God too!". You may *think* it's harmless and you're helping them not spend eternity in Hell and/or making their life better. Unfortuantely, it's not harmless. Why?
 
 1. The person you're talking to may be a part of a group a large portion of your religion hates (LGBT, Liberal, etc.)
 2. The person you're talking to (or their family/friends) may already be of religion that has had past reasons to be fearful of your relgion - Witch hunts, anyone?
 
-Now, you *personally* may not dislike the person for who they are, hell, maybe you are LGBT or whatever along side them. Great! Then you know full well why they may be disinterested and should respect that. Let them find your religion on their own. The only exception here is if:
+Now, you *personally* may not dislike the person for who they are, hell, maybe you are LGBT or whatever along side them. Great! Then you know full well why they may be disinterested and should respect that. Let them find your religion on their own. The **only exception** here is if:
 
-1. You have known the person a long time
-2. They've already expressed some interest
+You have known the person a long time **AND** They've already expressed some interest
 
 Similarly, you *personally* probably haven't gone on any Witch hunts or killed a million Jews. Again, sure, but ya' think that *maybe* someone might hold a bit of a grudge for their incestors pain? Again, all it takes to respect that is to - and I can't state this enough - shut the fuck up.
 
-Finally, maybe you have kids and think "I had a GREAT time in the Church, I want them to experiance that too!" - I'm sure they would have a great time. Missions are AWESOME {{< spoiler >}}(for the people going on them, significantly less so for the places they go){{< /spoiler >}} and it's a tight nit social group. Great, until your son realizes  *oh, that boy over there is kind of cute*, and then feels repulsed by his own feelings, talks to a religious leader, supresses those feelings, then winds up in the hospital when he uses an object not made to go in his ass for anal play because he's to ashamed to buy a butt plug.
+Okay, but, what about children? If someone has kids, that family relationship definitely means they'll have known eachother a long time, and kids get curious!
+
+Well okay. Let's say you have kids and think "I had a GREAT time in the Church, I want them to experiance that too!" - I'm sure they would have a great time. Missions are AWESOME {{< spoiler >}}(for the people going on them, significantly less so for the places they go){{< /spoiler >}} and it's a tight nit social group. This is great... until your son realizes  *oh, that boy over there is kind of cute*, and then feels repulsed by his own feelings, talks to a religious leader, supresses those feelings, then winds up in the hospital when he uses an object not made to go in his ass for anal play because he's to ashamed to buy a butt plug.
 
 And, hell, maybe that's what you want. Maybe you think that shame is God's way of baking morals into us. I'm sure a large portion of the people in India would tell you the same about eating Beef.
 
 All of this amplified when you consider just how completely horrific and adult most religions are. Have you READ the bible? This isn't a book for Kids. Hell, even the centrol story of Christianity - nailing some dude to a cross -  is already pretty fucked up. So, naturally, lets have them re-enact it in a little play. I'm *sure* that won't end in some kid being actually nailed to a cross by his friends some day.
 
-This isn't meant to be an attack on Chiristianity. Wicca? Satanism? Budism? I don't care what you're going with, it probably has some pretty adult things in there
+This isn't meant to be an attack on Chiristianity. Wicca? Satanism? Budism? I don't care what you're going with, it probably has some pretty adult things in there.
+
+This will probably be one of the hottest takes on this website, but I really don't think religion is for kids.
 
 Okay, wait, I see you opening another tab and googling "child christinan indoctrination" - so let's look at one of the first results, helpfulily from [focusonthefamily.com](https://www.focusonthefamily.com/family-qa/religious-indoctrination-of-children/), I'm sure that's a fair, unbiassed source. Let's just skip to the bottom, shall we:
 

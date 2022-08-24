@@ -324,6 +324,8 @@ china trying to make their own silicon , apple to own SOC ([Called it](https://w
 
 https://www.agner.org/forum/viewtopic.php?f=1&t=6
 
+[New Intel chips won't play Blu-ray disks due to SGX deprecation (Bleeping Computer)](https://www.bleepingcomputer.com/news/security/new-intel-chips-wont-play-blu-ray-disks-due-to-sgx-deprecation/)
+
 ## Other things done by the CPU:
 
 The CPU has a lot of dedicated hardware inside for specific functions, for example many CPUs have a dedicated hardware random number generator, a "media engine" (encoders/decoders) ([Quick Sync](https://en.wikipedia.org/wiki/Intel_Quick_Sync_Video)), Encryption, DSP

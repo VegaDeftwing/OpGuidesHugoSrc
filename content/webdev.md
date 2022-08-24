@@ -638,3 +638,22 @@ z
 ```
 
 {{< /details >}}
+
+# Fairfax HD
+
+The website already has https://www.kreativekorp.com/software/fonts/fairfaxhd/#coverage for the tokipona page, so might as well use it. This gives us some fairly handy symbols too.
+
+mocktation 
+
+ question comma
+
+󿃇 powerline 󿃆
+
+  win,  pi,  apple
+
+🯰 🯱 🯲 🯳 🯴 🯵 🯶 🯷 🯸 🯹
+
+🮖🮖🮖🮖🮖🮖
+
+if you want to use a conlang, put it in a `<div class="conlang">` or it will still probably render incorrectly.
+

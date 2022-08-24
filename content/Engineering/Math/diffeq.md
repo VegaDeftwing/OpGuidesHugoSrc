@@ -3,6 +3,7 @@
 <script>
     document.getElementById("mathMenu").open = true;
 </script>
+<!-- https://web.williams.edu/Mathematics/lg5/Rota.pdf -->
 
 {{< hint info >}}
 

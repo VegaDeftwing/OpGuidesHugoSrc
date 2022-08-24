@@ -4,6 +4,8 @@
 
 <!-- https://heavydeck.net/project/the-kludge-schematic-editor/ might be helpful for making schematics to explain things -->
 
+<!-- Honestly, this is more to maintain than I'd really like to. I'd rather this be more on the tour-gide than guide-guide side, and be links with an order to explore to avoid the work. https://ultimateelectronicsbook.com/ is looking quite good for a start -->
+
 # The Tools of the Trade
 
 {{< columns >}}

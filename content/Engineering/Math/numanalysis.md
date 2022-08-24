@@ -3,6 +3,8 @@
 <script>
     document.getElementById("mathMenu").open = true;
 </script>
+<!-- I'd also like to do something about symbolic analysis with sympy, though since this chapter happens before the programming chapter, that gets awkward. I could make a really funny out-of-order symbol chapter on the website I guess? Regardless, I think I can movitate this well enough and use it as an excues to talk about Domain Specific languages by way of this -> https://thenumb.at/Autodiff/ article. Plus, it's honestly really nice to just through a CAS at a problem. -->
+
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/YIfANKRmEu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

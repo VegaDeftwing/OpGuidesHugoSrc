@@ -495,3 +495,7 @@ https://github.com/rby90/Project-Based-Tutorials-in-C
 
 
 https://en.wikipedia.org/wiki/Pragma_once vs include guards, why they exist
+
+
+
+https://embeddedartistry.com/blog/2019/04/08/a-general-overview-of-what-happens-before-main/
