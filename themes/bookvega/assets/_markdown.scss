@@ -16,7 +16,6 @@
   h5,
   h6 {
     font-family: 'Space Mono', monospace;
-    font-variant-ligatures: none;
     font-weight: normal;
     line-height: 1;
     margin-top: 1.5em;
@@ -75,6 +74,7 @@
 
   a {
     text-decoration: none;
+    font-variant-ligatures: none;
 
     &:hover {
       text-decoration: underline;

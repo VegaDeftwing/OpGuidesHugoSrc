@@ -109,7 +109,7 @@ ul.pagination {
     padding: .7em;
     background: var(--body-background);
     font-family: 'Space Mono', monospace;
-    font-variant-ligatures: none;
+    // font-variant-ligatures: none;
     color: #000000;
 
     @include fixed;
@@ -460,7 +460,6 @@ p.warn {
 
 a {
   font-family: 'Space Mono', monospace;
-  font-variant-ligatures: none;
 }
 
 .navbak{
