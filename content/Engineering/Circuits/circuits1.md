@@ -12,7 +12,7 @@
 
 Building, fixing, and analyzing circuitry requires the use of a some tools and appliances, so let's look at the basics of working with electricity by looking at what purpose the tools serve. While there are many more than those listed here, these are the most important ones and should be all you need for most applications. 
 
-Unfortunately, there will be some cost involved in getting these. I'll do my best to give you advice to keep the cost down while still getting good equipment as we go over what each is for. I do really reccomend having at least the most basic version of these tools to get started.
+Unfortunately, there will be some cost involved in getting these. I'll do my best to give you advice to keep the cost down while still getting good equipment as we go over what each is for. I do really recommend having at least the most basic version of these tools to get started.
 
 <--->
 
@@ -22,7 +22,7 @@ Unfortunately, there will be some cost involved in getting these. I'll do my bes
 
 {{< /columns >}}
 
-If you go for the absolute cheapest options and hunt for used equipment, it's reasonable to get everything for about \$175. I realize to many that's a tough pill to swollow, so if you just can't do that that's 100% okay! You can get by for a good while with just a multimeter, a the power supplied by a microcontroller, and simulation software. That brings the actual upfront cost down to around \$30. Of course, that's not counting the actual parts needed for whatever you're building, though parts tend to actually be quite inexpensive.
+If you go for the absolute cheapest options and hunt for used equipment, it's reasonable to get everything for about \$175. I realize to many that's a tough pill to swallow, so if you just can't do that, that's 100% okay! You can get by for a good while with just a multimeter, the power supplied by a microcontroller, and simulation software. That brings the actual upfront cost down to around \$30. Of course, that's not counting the actual parts needed for whatever you're building, though parts tend to actually be quite inexpensive.
 
 ### The Multimeter
 
@@ -34,7 +34,7 @@ note, the above video uses U=IR instead of V=IR like 'normal'. You'd think that 
 
 {{< /tip >}}
 
-The **Multi**meter generally serves three roles: A **volt**meter, an **Am**meter, and an **Ohm**meter. These are for measuring Voltage (in Volts), Current (in Amps), and Resistance (in Ohms) respectively. Furthermore, most multimeters can do continutiy testing (checking if two points are connected).
+The **Multi**meter generally serves three roles: A **volt**meter, an **Am**meter, and an **Ohm**meter. These are for measuring Voltage (in Volts), Current (in Amps), and Resistance (in Ohms) respectively. Furthermore, most multimeters can do continuity testing (checking if two points are connected).
 
 ## Resistance and the OHM meter
 
@@ -42,11 +42,11 @@ Resistors do one thing- resist current. Using the ohm meter function of your mul
 
 ## Voltage, Ground, and the Volt Meter
 
-Voltage can be thought of as the 'pressure' in a hose. However, this pressure is relative to another point, the point we usually take reference to is called 'ground', though this doesn't have to be the case- you can measure the voltage across a single resistor or other component too. Just remember measuring the voltage with both probes at point or along the same wire doesn't make sense because a volt meter only tells you the voltage difference between two points. This would be like seeing the pressure difference in hose between two nearby points, obviously the pressure of one point minus the other will be 0.
+Voltage can be thought of as the 'pressure' in a hose. However, this pressure is relative to another point, the point we usually take reference to is called 'ground', though this doesn't have to be the case- you can measure the voltage across a single resistor or other component too. Just remember, measuring the voltage with both probes at a point or along the same wire doesn't make sense because a volt meter only tells you the voltage difference between two points. This would be like seeing the pressure difference in hose between two nearby points, obviously the pressure of one point minus the other will be 0.
 
 {{< columns >}}
 
-In general there are two primary ways you will work with voltage- AC or DC, these stand for Alternating Current and Direct Current. DC is simply a constant voltage level output. AC on the other hand is any time varying signal, usually (but not always!) periodic (repeating) and most commonly a sine, though many other waves are used like square, triangle, saw, and any mixture of these, including the same signal with a DC offset. Not here that AC is *technically* referring to the current having this shape and not the voltage, it's just that in the basic scenario with a constant load, the current and voltage waves will look the same
+In general, there are two primary ways you will work with voltage- AC or DC, these stand for Alternating Current and Direct Current. DC is simply a constant voltage level output. AC on the other hand is any time varying signal, usually (but not always!) periodic (repeating) and most commonly a sine, though many other waves are used like square, triangle, saw, and any mixture of these, including the same signal with a DC offset. Not here that AC is *technically* referring to the current having this shape and not the voltage, it's just that in the basic scenario with a constant load, the current and voltage waves will look the same
 
 <--->
 
@@ -78,27 +78,27 @@ If you're feeling really adventurous {{< button relref="/engineering/signals/sig
 
 ## Current and the Ammeter
 
-If voltage is the pressure in the hose, then current is how much water actually flows. This analogy holds up too, because if we use a resistor to kink the hose and the flow is restricted the current will go down. If you were to stick a wire directly into the wall outlet all the current the wall can give will try to flow though, but it can be restricted. To measure the current though a circuit we can't just probe between two points as before though. Instead, the probes need to form the exclusive path that part of the circuit can flow through.
+If voltage is the pressure in the hose, then current is how much water actually flows. This analogy holds up too, because if we use a resistor to kink the hose and the flow is restricted, the current will go down. If you were to stick a wire directly into the wall outlet, all the current the wall can give will try to flow though, but it can be restricted. To measure the current though a circuit we can't just probe between two points as before though. Instead, the probes need to form the exclusive path that part of the circuit can flow through.
 
-In practice this means the wire you want to measure current through would need to be cut and the ammeter's probes hooked up at either end, making the meter part of the circuit.
+In practice, this means the wire you want to measure current through would need to be cut and the ammeter's probes hooked up at either end, making the meter part of the circuit.
 
 Current, just like voltage, can vary, and in AC circuits usually does. This leads to some more interesting cases like power factor, but we'll get to that later.
 
 ## Continuity Tester
 
-The continuity tester does exactly what it's name implies, it makes sure two points are connected electrically. If you have a piece of metal and put both probes on it should beep, but if you put the probes on rubber, they clearly will not be. The continuity tester isn't really much different from the ohm meter in operation, and many will actually display the resistance if there is any. The main use is that it beeps when the resistance is low enough to be confident two points are electrically connected or for checking that two point's aren't connected (such as ensuring there's no short between two pins of a small part)
+The continuity tester does exactly what it's name implies, it makes sure two points are connected electrically. If you have a piece of metal and put both probes on, it should beep, but if you put the probes on rubber, they clearly will not be. The continuity tester isn't really much different from the ohm meter in operation, and many will actually display the resistance if there is any. The main use is that it beeps when the resistance is low enough to be confident two points are electrically connected or for checking that two points aren't connected (such as ensuring there's no short between two pins of a small part)
 
 ## OHM's Law
 
 {{< katex >}}V=I\times R \implies R = \frac{V}{I} \implies I = \frac{V}{R}{{< /katex >}}
 
-Repeat these over and over to yourself. Vee equals Eye Arr. Vee equals Eye Arr. Don't ever forget this. This should be stuck in your head so hard that you hear it when you sleep. This is Ohm's law and it's the relationship between voltage, resistance, and current. With a fixed resistance, if voltage goes up, current must also go up. With a fixed voltage, if resistance goes down, current goes up (within the limts of the supply to provide that current). With a fixed current, if resistance goes up, voltage goes up (within the limts of the supply to continue supplying that current).
+Repeat these over and over to yourself. Vee equals Eye Arr. Vee equals Eye Arr. Don't ever forget this. This should be stuck in your head so hard that you hear it when you sleep. This is Ohm's law, and it's the relationship between voltage, resistance, and current. With a fixed resistance, if voltage goes up, current must also go up. With a fixed voltage, if resistance goes down, current goes up (within the limits of the supply to provide that current). With a fixed current, if resistance goes up, voltage goes up (within the limits of the supply to continue supplying that current).
 
 Also, less used, but also remember the relationship with power (in watts). {{< katex >}}P=I\times \implies V P=\frac{V^2}{R} \implies P = R \times I^2{{< /katex >}}
 
 ## The Lab Power Supply
 
-Power Supply Units or 'PSU's are useful because, unlike your phone charger which puts out a singular voltage of 5 volts (ignoring fast charging), they can have their output voltage varied. Usually the range is between 1 and 35-ish volts, though if you need more there's options. Though, probably most important for a lab power supply is current limiting, useful when you're unsure of how much current your circuit might sink or need it for safety. Sometimes you may just want to hook up your freshly made circuit with the current limit very low as a method of finding if there's a short.
+Power Supply Units or 'PSU's are useful because, unlike your phone charger which puts out a singular voltage of 5 volts (ignoring fast charging), they can have their output voltage varied. Usually the range is between 1 and 35-ish volts, though if you need more, there are options. Though, probably most important for a lab power supply is current limiting, useful when you're unsure of how much current your circuit might sink or need it for safety. Sometimes you may just want to hook up your freshly made circuit with the current limit very low as a method of finding if there's a short.
 
 {{< tip >}}
 
@@ -108,7 +108,7 @@ Not all power supplies sold as lab power supplies have current limiting.
 
 {{< tip >}}
 
-Current kills! It *technically* only takes about 100mA or so to outright kill you, and with even less you can lose muscle control and get stuck holding the thing shocking you. Keep in mind, 100mA is really not much! Your phone charger can probably put out about 20 times this.... Sort of... What you should keep in mind is the resistance of the human body. This is massively variable (espically if your hands are wet or sweaty) but is generally so high that actually getting this much current to go *through* you is actually a bit of a challange. So, the take away? Keep shit dry, respect high voltages which can just arc right through the skin, and don't be dumb ass. Will you die using a non-current limited supply? Probably not. Should you risk it when you don't have to? Hell no.
+Current kills! It *technically* only takes about 100mA or so to outright kill you, and with even less you can lose muscle control and get stuck holding the thing shocking you. Keep in mind, 100mA is really not much! Your phone charger can probably put out about 20 times this.... Sort of... What you should keep in mind is the resistance of the human body. This is massively variable (especially if your hands are wet or sweaty) but is generally so high that actually getting this much current to go *through* you is actually a bit of a challenge. So, the takeaway? Keep shit dry, respect high voltages which can just arc right through the skin, and don't be dumb ass. Will you die using a non-current limited supply? Probably not. Should you risk it when you don't have to? Hell no.
 
 {{< /tip >}}
 
@@ -118,9 +118,9 @@ I do high voltage wood burning. This is an activity that kills about 30 people a
 
 {{< /speech >}}
 
-When looking for your first lab PSU, it may be overwhelming. You'll see some going for $40, and some going for $500. Generally, the cost difference get's you a few things: Multiple channels and cleaner output (undesired AC ripple in DC supply = bad). For starting out, nobody wants to spend that. Sure, having a dual supply is super nice so you can power opamps and what not, but you can get around that to start with by using a little module to generate those voltages for you from another supply. 
+When looking for your first lab PSU, it may be overwhelming. You'll see some going for $40, and some going for $500. Generally, the cost difference gets you a few things: Multiple channels and cleaner output (undesired AC ripple in DC supply = bad). For starting out, nobody wants to spend that. Sure, having a dual supply is super nice so you can power opamps and what not, but you can get around that to start with by using a little module to generate those voltages for you from another supply. 
 
-So, while there's some downsides, I reccomend grabbing pretty much the cheapest lab power supply you can find that  allows for setting current limiting (constant current, or CC is the same thing) and one of these boost/buck converters
+So, while there are some downsides, I recommend grabbing pretty much the cheapest lab power supply you can find that allows for setting current limiting (constant current, or CC is the same thing) and one of these boost/buck converters
 
 [TODO] picture
 
@@ -128,7 +128,7 @@ Otherwise, if you can find a dual or tripple-output power supply where each chan
 
 ## The Frequency or Waveform Generator
 
-Frequency generators can be used to output a signal that is alternating, unlike the DC signal of the Lab PSU.  Usually they'll support a range of wave shapes, frequencies, amplitudes, and DC offsets. Many support far more than this, though the applications for the more advanced modes are few. If you're just starting out you can (with precautions) just use the audio output of your computer or buy an inexpensive one for under \$20, unlike the expensive example below:
+Frequency generators can be used to output a signal that is alternating, unlike the DC signal of the Lab PSU.  Usually they'll support a range of wave shapes, frequencies, amplitudes, and DC offsets. Many support far more than this, though the applications for the more advanced modes are few. If you're just starting out, you can (with precautions) just use the audio output of your computer or buy an inexpensive one for under \$20, unlike the expensive example below:
 
 ![Image result for arbitrary function generator](https://upload.wikimedia.org/wikipedia/commons/f/f6/BK_Precision_4078_arbitrary_waveform_generator.jpg)
 
@@ -140,7 +140,7 @@ The oscilloscope (or OScope or simply Scope) allows you to see an AC signal and 
 
 <img src="/eng/oscopeastroids.webp" alt="Asteroids" height="400em">
 
-Modern OScopes look much different than their phosphorescent green ancestors though:
+Modern OScopes look much different than their phosphorescent green ancestors, though:
 
 <img src="/eng/modernscope.webp" alt="Modern Scope" height="400em">
 
@@ -148,9 +148,9 @@ However, a decent 'Digital Storage Oscilloscope' or DSO like the one above run a
 
 <img src="/eng/oldscope.jpeg" alt="Old Scope" height="400em">
 
-Note, a lot of hobbyist will try to get by on a really cheap new scope (less than $100), most often the really cheap under \$10 exposed red PCB one and just... don't. Either get a used scope (often around \$100) or get something good outright, as for "good" I'd really recommend the Rigol DS1054Z<a class="ptr">(1)</a>, or the [Diglent Analog Discovery 2](https://digilent.com/shop/analog-discovery-2-100ms-s-usb-oscilloscope-logic-analyzer-and-variable-power-supply/) which packs a lot of these tools all into one thing. I know it's a lot of money, but ideally this is something you can think of as an investment.
+Note, a lot of hobbyists will try to get by on a really cheap new scope (less than $100), most often the really cheap under \$10 exposed red PCB one and just... don't. Either get a used scope (often around \$100) or get something good outright, as for "good" I'd really recommend the Rigol DS1054Z<a class="ptr">(1)</a>, or the [Diglent Analog Discovery 2](https://digilent.com/shop/analog-discovery-2-100ms-s-usb-oscilloscope-logic-analyzer-and-variable-power-supply/) which packs a lot of these tools all into one thing. I know it's a lot of money, but ideally this is something you can think of as an investment.
 
-If you absolutely want the cheapest possible option, you can go though the mild headache of setting up a [Raspberry Pi Pico](https://www.adafruit.com/product/4864) (~$4) with [Sigrok-Pico](https://github.com/pico-coder/sigrok-pico). You'll need some resistors (very cheap) and *probably* the [breadboard with the pico's pinout](https://www.adafruit.com/product/5422). Total price should be around ~\$15. These are going to be god awful analog inputs though - they're only 7-bit, so you get 128 different values out and the max sample rate is 120Msps... not awesome.
+If you absolutely want the cheapest possible option, you can go through the mild headache of setting up a [Raspberry Pi Pico](https://www.adafruit.com/product/4864) (~$4) with [Sigrok-Pico](https://github.com/pico-coder/sigrok-pico). You'll need some resistors (very cheap) and *probably* the [breadboard with the pico's pinout](https://www.adafruit.com/product/5422). Total price should be around ~\$15. These are going to be god awful analog inputs though - they're only 7-bit, so you get 128 different values out and the max sample rate is 120Msps... not awesome.
 
 
 
@@ -164,9 +164,9 @@ Logic Analyzers... analyze logic. Who knew? But what does that mean? Well, in re
 
 ![logic](/eng/logic.webp)
 
-In this particular encoding, the longer high bumps represent a 1 and the short high bumps a 0, so you're looking at the binary that was sent over a wire. It's actually pretty rare that a wire sends raw high for a 1 and low for 0 so other schemes, like the one above, are used. For most schemes the software can actually be used to decode the received data into raw binary or if it was human readable characters even that.
+In this particular encoding, the longer high bumps represent a 1 and the short high bumps a 0, so you're looking at the binary that was sent over a wire. It's actually pretty rare that a wire sends raw high for a 1 and low for 0 so other schemes, like the one above, are used. For most schemes the software can actually be used to decode the received data into raw binary or if it was human-readable characters even that.
 
-Using a logic analyzer is pretty simple, most today are connected to your computer over USB and then use software like Pulseview as shown above, then you just select the sample rate (how many times per second to check the wire, here 1MHz) and the number of samples to collect and hit start. You may want to setup a trigger too (speaking of, it's worthwhile to look up how triggering works on an OScope [TODO]) Most logic analyzers support 8 or more simultaneous data streams, though in the picture above I'm only using one.
+Using a logic analyzer is pretty simple, most today are connected to your computer over USB and then use software like Pulseview as shown above, then you just select the sample rate (how many times per second to check the wire, here 1MHz) and the number of samples to collect and hit start. You may want to set up a trigger too (speaking of, it's worthwhile to look up how triggering works on an OScope [TODO]) Most logic analyzers support 8 or more simultaneous data streams, though in the picture above I'm only using one.
 
 [TODO] explain when a logic analyzer is actually used, and look at a quick example decode
 
@@ -198,7 +198,7 @@ VCV Rack?
 
 [TODO]
 
-potentiometer read from arduino full range (center tap or max resistor)
+potentiometer read from Arduino full range (center tap or max resistor)
 
 ## LCR Meter
 
@@ -210,7 +210,7 @@ potentiometer read from arduino full range (center tap or max resistor)
 
 [Why electrolytic capacitors are actually kinda shitty 💩 (YouTube)](https://www.youtube.com/watch?v=WytU5uj78-4&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
 
-[Ideal Capacitor's aren't real](https://en.wikipedia.org/wiki/Two_capacitor_paradox)
+[Ideal Capacitors aren't real](https://en.wikipedia.org/wiki/Two_capacitor_paradox)
 
 [Cap Types: Electrolytic & Ceramic - Collin’s Lab Notes (YouTube)](https://www.youtube.com/watch?v=7wBMDoM7C_U)
 
@@ -250,9 +250,9 @@ Motors
 
 https://en.wikipedia.org/wiki/Relay
 
-In the next chapter, we'll look at transistors, which are what you probably think of when you think about an electrically controlled switch (that is, using one signal to turn another on and off) but if you just want to turn a signal on and off, don't need to do it very often, and need a huge ratio between the control power/voltage and the signal being switched, - for example, using a microcontroller to turn on or off an incandecent bulb - relays are awesome!
+In the next chapter, we'll look at transistors, which are what you probably think of when you think about an electrically controlled switch (that is, using one signal to turn another on and off) but if you just want to turn a signal on and off, don't need to do it very often, and need a huge ratio between the control power/voltage and the signal being switched, - for example, using a microcontroller to turn on or off an incandescent bulb - relays are awesome!
 
-Fundamentally, relays are just a a light switch with a magnet to pull the switch closed.
+Fundamentally, relays are just a light switch with a magnet to pull the switch closed.
 
 [TODO] solid state vs old school
 
@@ -272,9 +272,9 @@ How to read logarithmic first, example for why they're needed: [log-scales demo 
 
 The easiest way to understand filters is to see them in action with audio, so, well before we ever look at a circuit you should check out {{< button relref="Music/Effects/filter" color="music" >}}Opinionated Music - Filters{{< /button >}}.
 
-There are many ways to deliniate between types of filters, but initially the most convient is to differentite between **passive** filters and **active** filters. Passive filters don't need extra power supplied to them, the components used are only capacitors, resistors, and inductors (no transistors or integrated circuits like OpAmps which may may require their own power).
+There are many ways to delineate between types of filters, but initially the most convienent is to differentiate between **passive** filters and **active** filters. Passive filters don't need extra power supplied to them, the components used are only capacitors, resistors, and inductors (no transistors or integrated circuits like OpAmps which may require their own power).
 
-We'll focus on these passive filters here first then we'll check out active filters in the next chapter.
+We'll focus on these passive filters here first, then we'll check out active filters in the next chapter.
 
 ### RC Low / High Pass (Integrator/Differentiator)
 

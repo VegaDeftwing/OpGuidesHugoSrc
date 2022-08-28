@@ -19,13 +19,13 @@
 
 [TODO]
 
-Nylon vs plain vs wound, metal types, coated. Gauges. https://blog.ernieball.com/strings/what-string-gauges-should-you-be-playing/ . This page does refrece neck length so keep that in mind too!
+Nylon vs plain vs wound, metal types, coated. Gauges. https://blog.ernieball.com/strings/what-string-gauges-should-you-be-playing/ . This page does reference neck length, so keep that in mind too!
 
 {{< speech big >}}
 
-My reccomendation, first and foremost, is **try them**. Strings are cheap, swap 'em out, try each for a month, note your experiances before and after- how they felt, sounded, if they left your fingers sore, if pitch bending was fun, etc.
+My recommendation, first and foremost, is **try them**. Strings are cheap, swap 'em out, try each for a month, note your experiences before and after- how they felt, sounded, if they left your fingers sore, if pitch bending was fun, etc.
 
-Still, I will say *generally* I've found Ernie Ball Slinkys (the normal, greenish-yellowish package) are a good works-for-everything bet. If you're playing something where you want more meaty low end, Ernie Ball Slinky Cobalts are worth a shot. If you're looking to get more sustain, output, and outright agression from your pickups, Ernie's M-Stell line does well. Each of those is avaliable in a varitey of gauges. I'm not being paid to promote Ernie Ball here - they're just good. 
+Still, I will say *generally* I've found Ernie Ball Slinkys (the normal, greenish-yellowish package) are a good works-for-everything bet. If you're playing something where you want more meaty low end, Ernie Ball Slinky Cobalts are worth a shot. If you're looking to get more sustain, output, and outright aggression from your pickups, Ernie's M-Stell line does well. Each of those is available in a variety of gauges. I'm not being paid to promote Ernie Ball here - they're just good. 
 
 {{< /speech >}}
 
@@ -189,7 +189,7 @@ guitar pickups, slides, kapo, tuning (equal v just), wound, physical modeling (K
 
 https://grunfy.com/scaler.html
 
-[The History Of Guitar (Youtube, Rob Scallon)](https://youtu.be/AjK4GVR1EcE)
+[The History Of Guitar (YouTube, Rob Scallon)](https://youtu.be/AjK4GVR1EcE)
 
 [Tuning a Floyd Rose Guitar (YouTube)](https://floydrose.com/blogs/tech-talk/string-tuning-instructions)
 

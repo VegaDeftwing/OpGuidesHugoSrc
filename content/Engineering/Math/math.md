@@ -6,7 +6,7 @@
 
 {{< columns >}}
 
-{{< tip >}}This section of OpGuides is devided into sub sections for easier reading!{{< /tip >}}
+{{< tip >}}This section of OpGuides is divided into subsections for easier reading!{{< /tip >}}
 
 Just click the little arrow next to the heading to see the full list of chapters
 
@@ -32,7 +32,7 @@ As with all of OpGuides, please skip around as necessary. I suspect the start of
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/g8vHhgh6oM0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The next few chapters are, regrettably, necessary for developing your knack. Math, Physics, and Chemistry and fundamental to all engineering fields and while something about each of the three subjects finds a way to make the 16 year old high schooler in us release a long, exasperated groan. I think this is mostly due to each of these things being taught in a way that takes the fun and interesting parts out and replaces them with trying to learn skills that have largely been outdated by the advent of calculators, computers, and the internet. I'll do my best to keep this chapter interesting by showing some of the fun parts of math and linking to the most entertaining videos and 'hands on' resources that I can. So, let's get mathy!
+The next few chapters are, regrettably, necessary for developing your knack. Math, Physics, and Chemistry and fundamental to all engineering fields, and while something about each of the three subjects finds a way to make the 16-year-old high schooler in us release a long, exasperated groan. I think this is mostly due to each of these things being taught in a way that takes the fun and interesting parts out and replaces them with trying to learn skills that have largely been outdated by the advent of calculators, computers, and the internet. I'll do my best to keep this chapter interesting by showing some of the fun parts of math and linking to the most entertaining videos and 'hands on' resources that I can. So, let's get mathy!
 
 ---
 

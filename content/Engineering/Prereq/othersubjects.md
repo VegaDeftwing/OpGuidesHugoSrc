@@ -2,7 +2,7 @@
 
 ## English
 
-I'm monolingual. I got just enough Spanish in high school to graduate and never looked back. Unfortunately for those that don't speak English as a first language, the internet has developed in such a way that English is basically the go-to language online.
+I'm monolingual. I got just enough Spanish in high school to graduate and never looked back. Unfortunately, for those that don't speak English as a first language, the internet has developed in such a way that English is basically the go-to language online.
 
 {{< hint info>}}
 
@@ -56,7 +56,7 @@ EUCLID(m, k):
 
 <--->
 
-As another example the Euclidean Algorithm can be used to distribute drum hits to algorithmically make drum beats 
+As another example, the Euclidean Algorithm can be used to distribute drum hits to algorithmically make drum beats 
 
 <iframe width="100%" height="200" src="https://www.youtube.com/embed/ldCBFd5kBHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -98,9 +98,9 @@ If you get into Modular music systems, like eurorack, it's really similar to pro
 
 ## Art, Design, UI & UX
 
-I know what you're thinking "Vega, this guide is about engineering- why should I give a damn about art?"
+I know what you're thinking, "Vega, this guide is about engineering- why should I give a damn about art?"
 
-Because you'll still probably need to design enclosures, make easy to read documentation, and probably make a user interface or two, and bad design usually leads to both users not being interest in the first place *and* a poor user experience.
+Because you'll still probably need to design enclosures, make easy to read documentation, and probably make a user interface or two, and bad design usually leads to both users not being interested in the first place *and* a poor user experience.
 
 So, even if you're not super into it, give the [Design Chapters]({{< relref "Design/basics" >}}) a quick skim and look at the parts that seem relevant to you, you'll want to look at [Section 4 - UI/UX]({{< relref "Design/uiux" >}}) for sure.
 

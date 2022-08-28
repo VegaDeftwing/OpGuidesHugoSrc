@@ -6,7 +6,7 @@
 
 Computers are, generally, really good at repetitive tasks. People are, generally, really bad at telling computers what they want.
 
-This means that developers (which, I assume is a large portion of those still reading this) need to make systems that let users automate tasks in a more user friendly way than they would do it.
+This means that developers (which, I assume, is a large portion of those still reading this) need to make systems that let users automate tasks in a more user-friendly way than they would do it.
 
 Previously, I mentioned that I run backups with a little backup script:
 
@@ -31,9 +31,9 @@ notify-send "Backup Complete"
 
 {{< /details >}}
 
-And for those that know what they're looking at, this is pretty basic. The problem is a lot of users would feel totally overwhelemd by this. The idea of reading though the [rysnc man page](https://man.archlinux.org/man/rsync.1.en) alone would make many people run away. So, one option is to just make application specific software that provides a nice GUI. And sure, that works. The problem is that prevents people from being able to do some of the more complex operations, dosen't allow for convient triggering (for example, I could put this script on a [Systemd timer](https://wiki.archlinux.org/title/Systemd/Timers) or have it trigger as soon as it dectects that my removable media has been inserted).
+And for those that know what they're looking at, this is pretty basic. The problem is, a lot of users would feel totally overwhelmed by this. The idea of reading through the [rysnc man page](https://man.archlinux.org/man/rsync.1.en) alone would make many people run away. So, one option is to just make application specific software that provides a nice GUI. And sure, that works. The problem is that prevents people from being able to do some of the more complex operations, doesn't allow for convenient triggering (for example, I could put this script on a [Systemd timer](https://wiki.archlinux.org/title/Systemd/Timers) or have it trigger as soon as it detects that my removable media has been inserted).
 
-But there's a lot more than backups at stake. There are a suprising number of people out there whose entire job could be replaced by a 100 line python script, espically if you use OpenCV or Tensorflow. These people could be doing something much more meaningful with their lives.
+But there's a lot more than backups at stake. There are a surprising number of people out there whose entire job could be replaced by a 100 line python script, especially if you use OpenCV or TensorFlow. These people could be doing something much more meaningful with their lives.
 
 The problem isn't that the tools don't exist to do this automation, it's that a lot of people *don't know* they exist and that they don't have the skills to apply them.
 
@@ -41,11 +41,11 @@ How do I propose we fix this?
 
 Visual programming.
 
-Yeah. I know a lot of people hate it. But, provided it's high enough level - so, probably higher than [Pure Data](https://puredata.info) or [Node-RED](https://nodered.org) or even the [Enso language](https://enso.org/#Overview) mention in the last chapter. I think the right way forward is something that generates nodes based on a small text description and some provided examples as text, images, or other data. This would let a user, for example, scan in and manually enter the data from a form a few times, then leave the computer to do it moving forward - probably with a little output indicating if it was under a threshold of covidence in a certain transcription. 
+Yeah. I know a lot of people hate it. But, provided it's high enough level - so, probably higher than [Pure Data](https://puredata.info) or [Node-RED](https://nodered.org) or even the [Enso language](https://enso.org/#Overview) mention in the last chapter. I think the right way forward is something that generates nodes based on a small text description and some provided examples as text, images, or other data. This would let a user, for example, scan in and manually enter the data from a form a few times, then leave the computer to do it moving forward - probably with a little output indicating if it was under a threshold of confidence in a certain transcription. 
 
-The other big necessity to make this work is using the Linux philosophy of treating everything as a file (or folder). This would make it much easier for this language/interface to let users say, open a running program's 'file' and - with support - grab data out. This could be as mundane as how many browser tabs are open or as advanced as pulling the current geometry or live rotation angle out of 3D modeling software. With enough support from applications, the work flow potential is mind blowing, hence the previous mention of this in the last chapter with tool composition.
+The other big necessity to make this work is using the Linux philosophy of treating everything as a file (or folder). This would make it much easier for this language/interface to let users, say, open a running program's 'file' and - with support - grab data out. This could be as mundane as how many browser tabs are open or as advanced as pulling the current geometry or live rotation angle out of 3D modeling software. With enough support from applications, the work flow potential is mind-blowing, hence the previous mention of this in the last chapter with tool composition.
 
-My point here is that by making user friendly but open tools we could dramatically reduce the amount of repetitive work done by many people and, more importantly, not just support one-off use cases with application specific software but instead empower people to make their own tools that fit their specific needs that developers could never anticipate. Will this result in some mildly horrific tools being made? Probably. But that's the beauty of it.
+My point here is that by making user-friendly but open tools we could dramatically reduce the amount of repetitive work done by many people and, more importantly, not just support one-off use cases with application specific software but instead empower people to make their own tools that fit their specific needs that developers could never anticipate. Will this result in some mildly horrific tools being made? Probably. But that's the beauty of it.
 
 ## Optional Security
 
@@ -63,9 +63,9 @@ But the part that's cool to me? TempleOS gives no, and I mean absolutely zero, f
 
 ( You may want to watch [TempleOS (Linus Tech Tips, YouTube)](https://youtu.be/LtlyeDAJR7A) if this is interesting to you)
 
-And, okay, yeah, that's obviously not ideal for *normal* use, but I think there's something to be said for having the *option* to say fuck it, slam your fist down on the manual override button, and take full control of the system. This is what I mean by optional security - no HAL 9000 in the way. No `sudo`, no 'no'. In this mode it should also be easy to turn off all networking and malware protection, so a super-fuckit No firewallls, no threat scanning, etc. switch.
+And, okay, yeah, that's obviously not ideal for *normal* use, but I think there's something to be said for having the *option* to say fuck it, slam your fist down on the manual override button, and take full control of the system. This is what I mean by optional security - no HAL 9000 in the way. No `sudo`, no 'no'. In this mode it should also be easy to turn off all networking and malware protection, so a super-fuckit No firewalls, no threat scanning, etc. switch.
 
-Running as root in Linux is *almost* this. It could even be argued that it's better since toying with memory though `/dev/kmem` is probably easier than trying to deduce the physical memory map. That said, there's still *[some](https://stackoverflow.com/questions/21761185/is-there-a-difference-between-sudo-mode-and-kernel-mode)* restrictions on the root account compared to running directly in 'kernel mode'.
+Running as root in Linux is *almost* this. It could even be argued that it's better, since toying with memory though `/dev/kmem` is probably easier than trying to deduce the physical memory map. That said, there are still *[some](https://stackoverflow.com/questions/21761185/is-there-a-difference-between-sudo-mode-and-kernel-mode)* restrictions on the root account compared to running directly in 'kernel mode'.
 
 ## Backwards Compatibility via Compatibility Layers
 
@@ -77,11 +77,11 @@ Running as root in Linux is *almost* this. It could even be argued that it's bet
 
 {{< /quote >}}
 
-And yeah, that pretty much sums it up. Currently backwards compatibility is often a choice of actually going to better technology and fixing bugs - like the Excel [leap year problem](https://docs.microsoft.com/en-us/office/troubleshoot/excel/wrongly-assumes-1900-is-leap-year) or supporting older files without them massively breaking. There's really no reason we couldn't do both using comparability layers. The cost, I think, would mostly be in accepting that the transition to those comparability layers will be rough and that some thing will just have to be upgraded until that compatibility infrastructure is in place.
+And yeah, that pretty much sums it up. Currently, backwards compatibility is often a choice of actually going to better technology and fixing bugs - like the Excel [leap year problem](https://docs.microsoft.com/en-us/office/troubleshoot/excel/wrongly-assumes-1900-is-leap-year) or supporting older files without them massively breaking. There's really no reason we couldn't do both using comparability layers. The cost, I think, would mostly be in accepting that the transition to those comparability layers will be rough and that something will just have to be upgraded until that compatibility infrastructure is in place.
 
 There's no reason we shouldn't be able to run very old software, but also no reason to use that as an excuse against moving forward.
 
-A fairly interesting solution to some of this might be to implement hardware compatibility via FPGAs, that is loading either full soft-core CPUs or instruction set translation logic onto a tightly integrated FPGA. Higher end retro console emulators are already using FPGA emulations of the original CPUs anyway, so this isn't some crazy fantasy. To add even further hope, AMD owns Xilinx and Intel own Altera, so the two biggest CPU manufactures both already own the two biggest FPGA manufactures (which, is a problem in some ways). There's nothing stopping them from making integration standard. (well, other than cost and market segmentation)
+A fairly interesting solution to some of this might be to implement hardware compatibility via FPGAs, that is, loading either full soft-core CPUs or instruction set translation logic onto a tightly integrated FPGA. Higher end retro console emulators are already using FPGA emulations of the original CPUs anyway, so this isn't some crazy fantasy. To add even further hope, AMD owns Xilinx and Intel own Altera, so the two biggest CPU manufactures both already own the two biggest FPGA manufactures (which, is a problem in some ways). There's nothing stopping them from making integration standard. (well, other than cost and market segmentation)
 
 ## Hardware Modularity, Repairability, and Customization
 
@@ -97,13 +97,13 @@ The only real downside for the consumer is that the products might be hair bit t
 
 ## Network Transparency
 
-Network Transparency is a neat concept, basically, it means you can use a program over the network as if it were local. I think the coolest example of this is the X Window System on Linux, which lets you run graphical programs on a remote computer, even one with no screen attached, and have the window be visible on your own computer. For example, while you could always setup a file server to access file remotely, you could also just use X's network transparency to forward the entire file manager window to your computer and browse files like normal (not that you should)
+Network Transparency is a neat concept, basically, it means you can use a program over the network as if it were local. I think the coolest example of this is the X Window System on Linux, which lets you run graphical programs on a remote computer, even one with no screen attached, and have the window be visible on your own computer. For example, while you could always set up a file server to access file remotely, you could also just use X's network transparency to forward the entire file manager window to your computer and browse files like normal (not that you should)
 
 I'd love to see more applications and backend software (like X) support this. 
 
 ## The Ability to go Back In Time
 
-A lot of software already runs on an idea of 'events' or 'transactions', whatever you want to call it. What I want is for these to always be undo-able, at least for window of time or number of past events. This might mean updates, changes to a file, or just scrolling down on a screen.
+A lot of software already runs on an idea of 'events' or 'transactions', whatever you want to call it. What I want is for these to always be undo-able, at least for a window of time or number of past events. This might mean updates, changes to a file, or just scrolling down on a screen.
 
 A refresh should try to bring you to the previous state, dismissed notifications should be able to be un-dissmissed.
 
@@ -113,13 +113,13 @@ As previously mentioned, you should be able to go back to a saved copy of any we
 
 ## Open Sensors and Generators
 
-Hardware is gradually becoming more general purpose, and as this happens it would be amazing if they were opened up enough to allow for experimentation. Think using full on software defined radio chips for Wifi and Bluetooth, such that they could be reconfigured on the fly and a different antenna attached to make use of GPS, cellular, or satellite internet. There's already a mini PCI-e card SDR [on the market](https://www.crowdsupply.com/fairwaves/xtrx). like this, but it's my understanding that many wifi chipsets are effectively just limited SDRs running locked down firmware anyway. Why not open it up?
+Hardware is gradually becoming more general purpose, and as this happens, it would be amazing if they were opened up enough to allow for experimentation. Think using full on software defined radio chips for Wi-Fi and Bluetooth, such that they could be reconfigured on the fly and a different antenna attached to make use of GPS, cellular, or satellite internet. There's already a mini PCI-e card SDR [on the market](https://www.crowdsupply.com/fairwaves/xtrx). Like this, but it's my understanding that many Wi-Fi chipsets are effectively just limited SDRs running locked down firmware anyway. Why not open it up?
 
-I also want more platform to have GPIO access. On a full on desktop or laptop this would have to be done with care to avoid people straight up frying devices, but I think the [wide array of hats](https://www.adafruit.com/category/286) available for the RaspberryPi shows that having this as an option would really allow for some cool hardware to exist.
+I also want more platform to have GPIO access. On a full on desktop or laptop, this would have to be done with care to avoid people straight up frying devices, but I think the [wide array of hats](https://www.adafruit.com/category/286) available for the RaspberryPi shows that having this as an option would really allow for some cool hardware to exist.
 
 I also want senors and IOT devices to be more open and extendable. Give me a serial out, let me wire it up to my own home automation. I mentioned above that I have a CO2 meter from CO2Meter.com, but I'm looking at getting [this](https://www.adafruit.com/product/4867?utm_source=youtube&utm_medium=videodescrip&utm_campaign=newproducts) CO2 sensor just so I can get reading out of it easier.
 
-IOT especially **needs** to be open. In 2020 alone [Wink started charging customers $5/mo](https://www.consumerreports.org/smart-home/wink-tells-users-pay-up-or-we-will-disable-smart-home-hub/) for app access to IOT gear they already owned, and [Sonos bricked devices with 'Recycle Mode'](https://www.theverge.com/2019/12/30/21042871/sonos-recycle-mode-trade-up-program-controversy). 
+IOT especially **needs** to be open. In 2020 alone, [Wink started charging customers $5/mo](https://www.consumerreports.org/smart-home/wink-tells-users-pay-up-or-we-will-disable-smart-home-hub/) for app access to IOT gear they already owned, and [Sonos bricked devices with 'Recycle Mode'](https://www.theverge.com/2019/12/30/21042871/sonos-recycle-mode-trade-up-program-controversy). 
 
 ## Software that breaks the mold
 
@@ -144,7 +144,7 @@ There's endless software out there, but a lot of it does mundane tasks in a mund
 {{< /columns >}}
 
 * Along with Blockhead, [Radium](https://users.notam02.no/~kjetism/radium/) is a very strange Digtal Audio Workstation with its own interesting workflow
-* [ORCΛ](https://github.com/hundredrabbits/Orca) is a really neat esoterric programming lanuge music sequencer... thing. It's so different from everything else it's hard to describe.
+* [ORCΛ](https://github.com/hundredrabbits/Orca) is a really neat esoteric programming language music sequencer... thing. It's so different from everything else it's hard to describe.
   * You may want to look at the {{< button relref="/Music/Software/livecoding" color="music" >}}Live Coding Music Tools{{< /button >}} from the Music section of this website.
 * [MasterPlan by SolarLune](https://github.com/SolarLune/masterplan) is a task management program focused on Indie game development with a really need mind-map style workflow
 * [Habitica](https://habitica.com/static/home) is task and habit tracking software that gamifies things
@@ -154,23 +154,23 @@ There's endless software out there, but a lot of it does mundane tasks in a mund
 
 For even more, you may want to check out The big list of  {{< button relref="Design/gen" color="design" >}}Generative Art Tools{{< /button >}} in the Design section of this website
 
-While all of this is cool, I do want to point out I really, really wish there was more tools that made the more mundane tasks better too. There's been very little innovation in the user interface of browsers (like, [Vivaldi](https://vivaldi.com) may have vertical tabs but Firefox has had [Tree Style Tabs](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/) for much longer) text editors, and spreadsheets<a class="ptr">(3)</a>. The was, briefly, a bit of innovation in the slideshow space with [Prezi](https://prezi.com) but it was still pretty gimmiky and not a dramatic improvment.
+While all of this is cool, I do want to point out I really, really wish there were more tools that made the more mundane tasks better too. There's been very little innovation in the user interface of browsers (like, [Vivaldi](https://vivaldi.com) may have vertical tabs but Firefox has had [Tree Style Tabs](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/) for much longer) text editors, and spreadsheets<a class="ptr">(3)</a>. The was, briefly, a bit of innovation in the slideshow space with [Prezi](https://prezi.com) but it was still pretty gimmicky and not a dramatic improvement.
 
-Developers have gotten better tools pretty rapidly recently though, as there's a crazy number of replacments {{< button relref="/Engineering/Linux/Linuxshell#alternative-commands" >}}Alternatives to coreutils and other basic tools{{< /button >}} that have come out over the last few years. This gives me hope that tools for "normies" will catch up and see innovation too.
+Developers have gotten better tools pretty rapidly recently though, as there's a crazy number of replacements {{< button relref="/Engineering/Linux/Linuxshell#alternative-commands" >}}Alternatives to coreutils and other basic tools{{< /button >}} that have come out over the last few years. This gives me hope that tools for "normies" will catch up and see innovation too.
 
 {{< speech >}}
 
-If you happen to know of something else that sholud be on this list, feel free to tweet at me [@Vega_DW](https://twitter.com/Vega_DW)!
+If you happen to know of something else that should be on this list, feel free to tweet at me [@Vega_DW](https://twitter.com/Vega_DW)!
 
 {{< /speech >}}
 
 ## Hardware for Open Experimentation
 
-Micro controllers, like the infamous Arduino Uno (ATMEGA 328p) and the much nicer Raspberry Pi Pico (RP2040) are awesome for letting people experiment and make crazy contraptions. {{< button relref="/Engineering/Deeper/fpga1" >}}FPGAs{{< /button >}} are finally starting to get open source toolchains and low enough price options to allow for people to make their own soft core CPUs and custom logic. Single board computers like the Raspberry Pi 3B+ are cheap enough to be thrown at many problems. This is all awesome.
+Microcontrollers, like the infamous Arduino UNO (ATMEGA 328p) and the much nicer Raspberry Pi Pico (RP2040) are awesome for letting people experiment and make crazy contraptions. {{< button relref="/Engineering/Deeper/fpga1" >}}FPGAs{{< /button >}} are finally starting to get open source toolchains and low enough price options to allow for people to make their own soft core CPUs and custom logic. Single board computers like the Raspberry Pi 3B+ are cheap enough to be thrown at many problems. This is all awesome.
 
-Unfortuantely, I see one big thing being left behind: the PC. If we really want innovation, it'd be awesome if there was an affordable PCIe FPGA card that could have bitstreams flashed onto it for specfic applications to accelerate different workloads. GpGPU programming is nice, but custom accelerators would be even better!
+Unfortunately, I see one big thing being left behind: the PC. If we really want innovation, it'd be awesome if there was an affordable PCIe FPGA card that could have bitstreams flashed onto it for specific applications to accelerate different workloads. GpGPU programming is nice, but custom accelerators would be even better!
 
-Futhermore, I'd really like to see highspeed not-USB-based GPIO for desktops so that people could experiment with crazy ideas like using microfluidics ond diode logic for computation, playing with [FeRam](https://en.wikipedia.org/wiki/Ferroelectric_RAM), or even {{< button relref="posts/Ternay" color="gradient-border2" >}} ternary logic {{< /button >}} - Even if most of these ideas are dead ends, they're cool and I want to see more of them.
+Furthermore, I'd really like to see high speed not-USB-based GPIO for desktops so that people could experiment with crazy ideas like using microfluidics and diode logic for computation, playing with [FeRam](https://en.wikipedia.org/wiki/Ferroelectric_RAM), or even {{< button relref="posts/Ternay" color="gradient-border2" >}} ternary logic {{< /button >}} - Even if most of these ideas are dead ends, they're cool and I want to see more of them.
 
 ## Stop wasting time on stupid shit that nobody cares about
 
@@ -180,7 +180,7 @@ Microsoft has been spending a lot of time changing to the new UI, and their calc
 
 <img src="/eng/modular.webp">
 
-{{< attribution >}}↑ My eurorack setup, for making something vaugly resembling music{{< /attribution >}}
+{{< attribution >}}↑ My eurorack setup, for making something vaguely resembling music{{< /attribution >}}
 
 I can keep this one brief. I love [VCV Rack](https://vcvrack.com), I've even developed [my own modules for it](https://library.vcvrack.com/?query=&brand=LyraeModules&tag=&license=) yet here you can see I have a hardware modular music setup? So, why? Because physical, real, tactile knobs make a difference <a class="ptr">(2)</a> . I'm not saying everything needs to be physical, I'm saying that even if [Popular Mechanics](https://www.popularmechanics.com/technology/gadgets/a1531/4213770/) was wrong back in 2009 when they said:
 
@@ -190,11 +190,11 @@ I wonder if Apple iPhone will meet with the same success, as its touchscreen off
 
 {{< /quote >}}
 
-We sholud be careful of getting to comfortable with our touch screens and not forget the value of having a phsical interface. Hell, in that same picture above is a ROLI Seaboard Block (a product I actually reccomend against, for various reasons) which is *Amazing* for it's ability to convey a boatload of information to the computer in a tactile way, like, seriously, look at the MIDI data from this little jam session:
+We should be careful of getting too comfortable with our touch screens and not forget the value of having a physical interface. Hell, in that same picture above is a ROLI Seaboard Block (a product I actually recommend against, for various reasons) which is *Amazing* for its ability to convey a boatload of information to the computer in a tactile way, like, seriously, look at the MIDI data from this little jam session:
 
 <img src="/eng/mpedata.webp">
 
-{{< smalltext >}}To be clear, those aren't sound waves, those lines represent the pressure of each finger on the keyboard, individually, over time. The lines in the notes represent sliding the finger after the note was held, allowing for smooth ptich transistions or vibrato on a single key.{{< /smalltext >}}
+{{< smalltext >}}To be clear, those aren't sound waves, those lines represent the pressure of each finger on the keyboard, individually, over time. The lines in the notes represent sliding the finger after the note was held, allowing for smooth pitch transitions or vibrato on a single key.{{< /smalltext >}}
 
 There's just no way I could have programmed that in manually, and despite the chaos, I can assure you the sound of this was amazing.
 

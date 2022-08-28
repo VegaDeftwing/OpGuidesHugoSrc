@@ -7,11 +7,11 @@
 
 Why, where are these used, etc.
 
-bring up music things, part failure rates, tollerences, etc.
+bring up music things, part failure rates, tolerances, etc.
 
 ## Basics
 
-For the following I'll be using a dice roll example, where the events are the total of two die. The *Sample Space* of this is 
+For the following, I'll be using a die roll example, where the events are the total of two die. The *Sample Space* of this is 
 
 {{< katex >}}S = \{2,3,4,5,6,7,8,9,10,11,12\}{{< /katex >}}
 
@@ -38,7 +38,7 @@ If you follow the diagonal you can see that there is only one way to get 2 or 12
 
 Now, let's say we want the probability that we roll an even total (2,4,6,8,10,12) we can just sum their respective probabilities, so {{< katex >}}\frac{1}{36}+\frac{3}{36}+\frac{5}{36}+\frac{5}{36}+\frac{3}{36}+\frac{1}{36} = \frac{18}{36} = \frac{1}{2}{{< /katex >}}
 
-Lets go ahead and call this event A, so P[A] = 1/2
+Let's go ahead and call this event A, so P[A] = 1/2
 
 Similarly, we can define a new rule, Event B, such that the roll total is greater than 9, that comes out to be 1/6, so P[B]=1/6
 
@@ -46,11 +46,11 @@ Similarly, we can define a new rule, Event B, such that the roll total is greate
 
 Event A and event B are statistically independent if and only if (*iff*) {{< katex >}} P[AB] = P[A]P[B]{{< /katex >}}
 
-So, here, P[AB], that is the probability that a number is both greater than 9 *and* the number is even, that would be 1/9. The probability of each event multiplied together, {{< katex >}}P[A]P[B] = \frac{1}{2} * \frac{1}{6} = \frac{1}{54}{{< /katex >}} and, hopefully obviously, that's not the same as 1/9. Therefore, these events are *not* statistically independent. This makes logical sense, if you *know* that the total count of the two die is greater than 9, then you also know that there's a higher chance that the result is even - of 10,11, and 12, 2/3 of the totals are even. That is *dependance*.
+So, here, P[AB], that is the probability that a number is both greater than 9 *and* the number is even, that would be 1/9. The probability of each event multiplied together, {{< katex >}}P[A]P[B] = \frac{1}{2} * \frac{1}{6} = \frac{1}{54}{{< /katex >}} and, hopefully obviously, that's not the same as 1/9. Therefore, these events are *not* statistically independent. This makes logical sense, if you *know* that the total count of the two die is greater than 9, then you also know that there's a higher chance that the result is even - of 10,11, and 12, 2/3 of the totals are even. That is *dependence*.
 
-If instead, we asked, what is the probability that 1 die is a 6 and the the other a 2, both of those would have a probability of 1/6, that is {{< katex >}}P[A]=P[B]=\frac{1}{6} {{< /katex >}}, so now think, in the comined scenario, P[AB] would be the probability of die 1 being a 6, and die 2 being a 2, well, there's 36 different ways the die can land, and they're all unique (assuming the die are labeled somehow) so {{< katex >}}P[AB]=\frac{1}{36} = P[A]P[B] {{< /katex >}} - these events *are* statistically independent.
+If instead, we asked, what is the probability that 1 die is a 6 and the other a 2, both of those would have a probability of 1/6, that is {{< katex >}}P[A]=P[B]=\frac{1}{6} {{< /katex >}}, so now think, in the combined scenario, P[AB] would be the probability of die 1 being a 6, and die 2 being a 2, well, there are 36 different ways the die can land, and they're all unique (assuming the die are labeled somehow) so {{< katex >}}P[AB]=\frac{1}{36} = P[A]P[B] {{< /katex >}} - these events *are* statistically independent.
 
-It's worth noting, the phsical relationship is not always this clear. In a lot of situations, you'll just need to do the math and determine if {{< katex >}}P[AB] = P[A]P[B]{{< /katex >}} to check.
+It's worth noting, the physical relationship is not always this clear. In a lot of situations, you'll just need to do the math and determine if {{< katex >}}P[AB] = P[A]P[B]{{< /katex >}} to check.
 
 ### Conditional Probability
 
@@ -62,9 +62,9 @@ Sometimes, knowing something about one event tells us something about the probab
 
 Here, P[A|B] means, the probability of event A happening given event B has already happened. 
 
-{{< tip >}}NOTE: This means that P[A|B] ≠ P[B|A] (well, not usually). I like to think of it this way: Losing your keys may make you late for work, and being late for work may be from loosing your keys; however, the probability that your late for work GIVEN you've lost your keys may be higher or lower than than the probability that you lost your keys GIVEN that you're late to work.{{< /tip >}}
+{{< tip >}}NOTE: This means that P[A|B] ≠ P[B|A] (well, not usually). I like to think of it this way: Losing your keys may make you late for work, and being late for work may be from losing your keys; however, the probability that you're late for work GIVEN you've lost your keys may be higher or lower than the probability that you lost your keys GIVEN that you're late to work.{{< /tip >}}
 
-So, looking at just one side of the above equation, we have {{< katex >}}P[A|B]P[B]=P[AB]{{< /katex >}}, this reads as "The Probability of A given that B has happened *times* the Probability of B is equal to the probability of of an event that is in both A and B"
+So, looking at just one side of the above equation, we have {{< katex >}}P[A|B]P[B]=P[AB]{{< /katex >}}, this reads as "The Probability of A given that B has happened *times* the Probability of B is equal to the probability of an event that is in both A and B"
 
 The other side of this equation, is just swapping the roles of A and B.
 
@@ -94,14 +94,14 @@ So, if you lose your keys, you'll be late to work 1/3rd of the time.
 
 ---
 
-Alright, but what about a more complicated situation, one wher you have to make multiple decesions! Let's 
+Alright, but what about a more complicated situation, one where you have to make multiple decisions! Let's 
 
 | Box       | Box 1 | Box 2 |
 | --------- | ----- | ----- |
 | Red Ball  | 90    | 30    |
 | Blue Ball | 10    | 70    |
 
-Keeping the numbers simple here, lets say you want to know the probability that the ball you picked was from box1, given that you've already drawn a blue ball. This is where a Tree diagram comes in handy:
+Keeping the numbers simple here, let's say you want to know the probability that the ball you picked was from box1, given that you've already drawn a blue ball. This is where a Tree diagram comes in handy:
 
 {{< columns >}}
 
@@ -109,15 +109,15 @@ Keeping the numbers simple here, lets say you want to know the probability that 
 
 <--->
 
-This diagram first helps us expose an assumption in the problem: that the initial choice is a 50/50, split chance between which box we start with. So our first choice is really which box are we picking from. Both have a probability of 1/2. Only then do we pick our ball. This stacking of situtations gives us the term 'sub experiment' where you perform each sub experiment in order: so our first sub experiment is picking the box, the second is picking the ball.
+This diagram first helps us expose an assumption in the problem: that the initial choice is a 50/50, split chance between which box we start with. So our first choice is really which box are we picking from. Both have a probability of 1/2. Only then do we pick our ball. This stacking of situations gives us the term 'sub experiment' where you perform each sub experiment in order: so our first sub experiment is picking the box, the second is picking the ball.
 
 {{< /columns >}}
 
-This lets us figure out the conditional probabilities super easily, as all that's needed is to look at the respective branch. For example, in the above we can see P[Red|Box1] is 9/10. Another nice thing is by mulitplying across the branches we can get the probability of the entire 'system' easily. Note the ',' instead of a '|' in the diagram below. This is saying that these have both happened *not* implying conditional probability. That's why adding all of these up will add up to 1 (100%) as it's a look at all of the possible events.
+This lets us figure out the conditional probabilities super easily, as all that's needed is to look at the respective branch. For example, in the above, we can see P[Red|Box1] is 9/10. Another nice thing is by multiplying across the branches we can get the probability of the entire 'system' easily. Note the ',' instead of a '|' in the diagram below. This is saying that these have both happened, *not* implying conditional probability. That's why adding all of these up will add up to 1 (100%) as it's a look at all the possible events.
 
 ![](/eng/treediagram2.svg)
 
-So now we know the probability of a blue ball overall: 0.4 (.05 + .35 )<a class="ptr">(1)</a>, the probability of a bule ball in box 1 (.1), what is the probability that we actually picked from box 1? We know P[Blue|Box1], but what is P[Box1|Blue] ? Well, naturally, there's a handly formula, known as "Bayes Rule" for this situation:
+So now we know the probability of a blue ball overall: 0.4 (.05 + .35 )<a class="ptr">(1)</a>, the probability of a blue ball in box 1 (.1), what is the probability that we actually picked from box 1? We know P[Blue|Box1], but what is P[Box1|Blue] ? Well, naturally, there's a handy formula, known as "Bayes Rule" for this situation:
 
 [TODO] [Why Bayes Rule is nicer with odds (YouTube, 3b1b)](https://www.youtube.com/watch?v=lG4VkPoG3ko)
 
@@ -141,7 +141,7 @@ P[B|A]&=.125
 
 so, there's a 12.5% chance that the box we picked the blue ball from was Box1.
 
-Just to check outselves, what's the chance that the box was Box2?
+Just to check ourselves, what's the chance that the box was Box2?
 
 {{< katex display>}}
 
@@ -161,7 +161,7 @@ And this works out, adding to 100%.
 
 There are a few more things to note regarding conditional probability:
 
-* if P[A|B] is 0, the two events are **mutally exclusive**. This happens in dumb situations like "Given you've rolled a 2, what is the probability you rolled a 3" but also more complex events may mean that this is less obvious, so it's nice to be able to math it out.
+* if P[A|B] is 0, the two events are **mutually exclusive**. This happens in dumb situations like "Given you've rolled a 2, what is the probability you rolled a 3" but also more complex events may mean that this is less obvious, so it's nice to be able to math it out.
 
 ---
 
@@ -217,7 +217,7 @@ Types of RV's
 
 <--->
 
-Tossing a coin- if the coin is fair p and q both equal 1/2. This is literally just a true/false question and the probability of a given answer.
+Tossing a coin- if the coin is fair, p and q both equal 1/2. This is literally just a true/false question and the probability of a given answer.
 
 {{< /columns2 >}}
 
@@ -259,11 +259,11 @@ Sum of n, independent Bernoulli trials
 
 {{< columns2 >}}
 
-<img src="/eng/pmf/pascal.png" alt=" " style="-webkit-filter: invert(100%); filter: invert(100%);">{{< attribution >}}From Introduction to Probability by [Hossein Pishro-Nik](https://ece.umass.edu/faculty/hossein-pishro-nik),  [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US) ... technically I'm abusing the licence a bit, but the 'derivative' here is just a CSS invert, you can open the image in a new tab to see the 'original'{{< /attribution >}}
+<img src="/eng/pmf/pascal.png" alt=" " style="-webkit-filter: invert(100%); filter: invert(100%);">{{< attribution >}}From Introduction to Probability by [Hossein Pishro-Nik](https://ece.umass.edu/faculty/hossein-pishro-nik),  [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US) ... technically I'm abusing the license a bit, but the 'derivative' here is just a CSS invert, you can open the image in a new tab to see the 'original'{{< /attribution >}}
 
 <--->
 
-Number of trials until k'th success. While *technically* the Pascal distribution is just a specific subset of Negitive Binomial distributions, you'll probably only ever use the Pascal distribution. Be aware the more general case exists though, as someday it may pop up.
+Number of trials until k'th success. While *technically* the Pascal distribution is just a specific subset of Negative Binomial distributions, you'll probably only ever use the Pascal distribution. Be aware the more general case exists, though, as someday it may pop up.
 
 {{< /columns2 >}}
 
@@ -287,7 +287,7 @@ It's a uniform distribution. Rolling a fair dice? Great, you have 1/6 chance to 
 
 <--->
 
-Probability of a number of events occuring in a fixed amount of time (or space, or whatever) provided the events happen with a constant average rate and the events are independent.
+Probability of a number of events occurring in a fixed amount of time (or space, or whatever) provided the events happen with a constant average rate and the events are independent.
 
 {{< /columns2 >}}
 

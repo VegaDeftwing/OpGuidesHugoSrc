@@ -315,7 +315,7 @@ How do you access information?
 
 How do know that information is reliable?
 
-How do you store information in a way you can retrive it easily later?
+How do you store information in a way you can retrieve it easily later?
 
 Do you have good tools for making content?
 
@@ -335,7 +335,7 @@ These pages are about acknowledging what we're doing wrong, why we're doing it (
 
 **Human Computer Interaction** or [HCI](https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction) is an interesting topic to me. So many people spend a crazy amount of time in front of a screen , you'd think we'd have some *damn* good hardware and software to use while we further deepen the permanent butt-shaped indentation into our seats, but alas, instead most people use *ˢʰᵘᵈᵈᵉʳ* Windows.
 
-Back in late 2018 I wrote the first version of this post and basically everything in there has been restated here but better. Since then I've talked to many others about this, read *many* other blog posts, and just generally done a lot of new things with computers and learned a lot, so here's HCI2: Electric Boogaloo.
+Back in late 2018 I wrote the first version of this post and basically everything in there has been restated here but better. Since then, I've talked to many others about this, read *many* other blog posts, and just generally done a lot of new things with computers and learned a lot, so here's HCI2: Electric Boogaloo.
 
 ---
 

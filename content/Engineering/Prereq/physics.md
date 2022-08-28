@@ -6,7 +6,7 @@ This is still a dumping ground for things I want to write about later, nothing o
 
 {{< /tip >}}
 
-[TODO] speed vs Velocity vs Acceleration, clasicall vs realative
+[TODO] speed vs Velocity vs Acceleration, classical vs relative
 
 ![](/xkcd/Exposure_chart-XKCD.svg)
 

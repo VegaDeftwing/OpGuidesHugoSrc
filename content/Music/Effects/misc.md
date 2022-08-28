@@ -7,7 +7,7 @@
 
 {{< columns >}}
 
-Given it's basically a meme now, I assume you know what Auto-Tune is. What you may not realize is that not all auto-tune is, well, auto. A lot of the time it's done manually, painstakingly correcting the tuning. If the original sound is close enough, it's usually pretty easy to get it to sound natural too.
+Given it's basically a meme now, I assume you know what Auto-Tune is. What you may not realize is that not all auto-tune is, well, auto. A lot of the time it's done manually, painstakingly correcting the tuning. If the original sound is close enough, it's usually pretty easy to get it to sound natural, too.
 
 Also keep in mind pitch correction isn't just for vocals, you might want to pitch correct your guitar playing, change a note in an already recorded sequence when you change keys, or even just use it as a glitchy effect on pitch bends.
 
@@ -67,7 +67,7 @@ Rather than try to explain all of these, I'm just gonna throw a grid of videos a
 
 {{< columns >}}
 
-Spectral editing is sorta crazy, the idea is instead of working with waves in the time domain, your applying effects in the frequency domain. The idea being that you can directly select and work with chunks of frequency in a way that would be a nightmare of filters otherwise. You can even do weird things like delay only certain frequency blocks (see [MSpectralDelay](https://www.meldaproduction.com/MSpectralDelay)) 
+Spectral editing is sorta crazy, the idea is instead of working with waves in the time domain, you're applying effects in the frequency domain. The idea being that you can directly select and work with chunks of frequency in a way that would be a nightmare of filters otherwise. You can even do weird things like delay only certain frequency blocks (see [MSpectralDelay](https://www.meldaproduction.com/MSpectralDelay)) 
 
 <--->
 

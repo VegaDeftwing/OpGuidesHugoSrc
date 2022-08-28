@@ -1,16 +1,16 @@
 # Chapter 31 - Computer Vision
 
-This page is still pretty empty, in the mean time, check out [The Ancient Secrets of Computer Vision](https://pjreddie.com/courses/computer-vision/) by Joseph Redmon and Ali Farhadi
+This page is still pretty empty, in the meantime, check out [The Ancient Secrets of Computer Vision](https://pjreddie.com/courses/computer-vision/) by Joseph Redmon and Ali Farhadi
 
 {{< speech >}}
 
 As an aside, Joseph Redmon is an absolute genius, and the main brain behind [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640) which sort of revolutionized the computer vision with AI space, yet, his resume looks [like this](https://pjreddie.com/static/Redmon%20Resume.pdf)
 
-This is to say the man is an absoute badass and I could not be more confident in my recomendation of his course
+This is to say the man is an absolute badass and I could not be more confident in my recommendation of his course
 
 {{< /speech >}}
 
-The comments on [hacker news](https://news.ycombinator.com/item?id=29162650) about that page are quite insightful too:
+The comments on [hacker news](https://news.ycombinator.com/item?id=29162650) about that page are quite insightful, too:
 
 {{< quote "[MauramKilom](https://news.ycombinator.com/user?id=MauranKilom)" >}}
 

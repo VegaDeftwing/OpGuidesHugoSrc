@@ -99,7 +99,7 @@ Over 1,000 offenders "lived" there, and probation officers dropped them off, kno
 
 This illustrates the main principle: it is about where people are (or aren't) *allowed* to live.
 
-Apartments which are in middle class or better neighborhoods impose number of requirements on renters, many of which are not only invasive, but insidious. In Milwaukee, Matt witnessed a "training" class for landlords who were threatened with legal action by the city.
+Apartments which are in middle class or better neighborhoods impose a number of requirements on renters, many of which are not only invasive, but insidious. In Milwaukee, Matt witnessed a "training" class for landlords who were threatened with legal action by the city.
 
 A cornerstone of the class was to understand how to screen renters -- renters who would ensure they could avoid more problems with the city and the police. Screening criteria included:
 
@@ -107,7 +107,7 @@ A cornerstone of the class was to understand how to screen renters -- renters wh
 * Criminal history
 * Credit checks
 * Proof of employment
-* Enthusiasm: do they seem excited to live there or do they barely look at the walls because they'll take anything?
+* Enthusiasm: do they seem excited to live there, or do they barely look at the walls because they'll take anything?
 
 This is screening was surely trying to get accused or convicted slumlords out of their ways. But this screens not only for affluence, but level of desperation -- and statistically speaking, race.
 
@@ -149,7 +149,7 @@ From then up to 1968, the "standard" in American cities was racial: whites owned
 
 The Civil Right Act of 1968, aka the Fair Housing Act, was the first time people of color could not be denied based on their race alone. This began the era we still live in: where the predation became financial, from contract buying to the 2008 predatory subprime loans that caused non-white homeowners to lose their houses in 2008 much more than whites.
 
-Even in regards to eviction, privilege is a lever. In many affluent buildings or with small landlords, eviction is a last resort. Even among those who are poor, a friendly relationship between the landlords and tenants can result in a "cash and key" eviction, which is never reported formally. Even beyond that, a re-negotiation is preferable to an eviction, and is how the vast majority of white renters who cannot afford the rent leave.
+Even with regard to eviction, privilege is a lever. In many affluent buildings or with small landlords, eviction is a last resort. Even among those who are poor, a friendly relationship between the landlords and tenants can result in a "cash and key" eviction, which is never reported formally. Even beyond that, a re-negotiation is preferable to an eviction, and is how the vast majority of white renters who cannot afford the rent leave.
 
 But with modern technology and greater emotional and physical distance, "eviction by algorithm" is taking over for landlords, the use of eviction as a debt collection strategy. Matt Desmond says these buildings, on average, raise the total cost of renting by 22% when they are late -- even if they catch up in time, pay late fees and court costs, and the eviction is dismissed.
 
@@ -169,6 +169,6 @@ P.S. The Fair Housing Act itself? [It's mostly a piece of paper.](https://www.th
 
 {{< attribution >}}
 
-[@dinoman_j on twitter](https://twitter.com/dinoman_j/status/1348296472232648708/photo/1)
+[@dinoman_j on Twitter](https://twitter.com/dinoman_j/status/1348296472232648708/photo/1)
 
 {{< /attribution >}}

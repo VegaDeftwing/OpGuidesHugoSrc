@@ -90,9 +90,9 @@ A minimal logic gates playground, written in ANSI C. Made by the same developers
 
 Max is *much* friendly and more useful than Pure Data, though it's also not FOSS.
 
-Both are visual programming environments which are are rather low level (much lower level than VCV Rack, for example) and so are less useful in a live context; however, they're extraordinarily powerful for making your own instruments which you can play live.
+Both are visual programming environments which are rather low level (much lower level than VCV Rack, for example) and so are less useful in a live context; however, they're extraordinarily powerful for making your own instruments which you can play live.
 
-The reason I've grouped them together is because both Max and PD share the original author, [Miller Puckette](https://en.wikipedia.org/wiki/Miller_Puckette); however, it's very clear that PD has more or less stagnated while Max has grown
+The reason I've grouped them together is that both Max and PD share the original author, [Miller Puckette](https://en.wikipedia.org/wiki/Miller_Puckette); however, it's very clear that PD has more or less stagnated while Max has grown
 
 <--->
 
@@ -132,7 +132,7 @@ The reason I've grouped them together is because both Max and PD share the origi
 > 
 > Pattern everything
 > 
-> > Tidal Cycles allows you to make patterns with code. It includes language for describing flexible (e.g. polyphonic, polyrhythmic, generative) sequences of sounds, notes, parameters, and all kind of information.
+> > Tidal Cycles allows you to make patterns with code. It includes a language for describing flexible (e.g. polyphonic, polyrhythmic, generative) sequences of sounds, notes, parameters, and all kind of information.
 
 <--->
 
@@ -180,7 +180,7 @@ I can't find a demo! If you make one, let me know and I'll put it here!
 >
 > > **VJ Ready:**
 > >
-> > Synchronise your visuals and noise with ease. Overtone features seamless integration with both [Quil](http://github.com/quil/quil), a Clojure front-end to [Processing](http://processing.org/) and [ShaderTone](https://github.com/overtone/shadertone), a Clojure version of [ShaderToy](https://www.shadertoy.com/) an OpenGL glsl shader programming environment.
+> > Synchronize your visuals and noise with ease. Overtone features seamless integration with both [Quil](http://github.com/quil/quil), a Clojure front-end to [Processing](http://processing.org/) and [ShaderTone](https://github.com/overtone/shadertone), a Clojure version of [ShaderToy](https://www.shadertoy.com/) an OpenGL GLSL shader programming environment.
 
 <--->
 
@@ -218,7 +218,7 @@ I can't find a demo! If you make one, let me know and I'll put it here!
 
 {{< columns2 >}}
 
-[Siren (Github)](https://github.com/cannc4/Siren/)
+[Siren (GitHub)](https://github.com/cannc4/Siren/)
 
 <--->
 

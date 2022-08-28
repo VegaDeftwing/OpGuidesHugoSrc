@@ -88,7 +88,7 @@ https://linuxjourney.com
 
 [Level1Techs](https://www.youtube.com/channel/UC4w1YQAJMWOz4qtxinq55LQ)
 
-[Crash Course: Comptuer Science, from PBS](https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
+[Crash Course: Computer Science, from PBS](https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
 
 {{< /columns >}}
 
@@ -102,13 +102,13 @@ https://theamphour.com/
 
 ---
 
-## Github info pages
+## GitHub info pages
 
 {{< columns >}}
 
 [Hacker Laws](https://github.com/dwmkerr/hacker-laws)
 
-[Resilence Engineering](https://github.com/lorin/resilience-engineering)
+[Resilience Engineering](https://github.com/lorin/resilience-engineering)
 
 [What Happens When](https://github.com/alex/what-happens-when)
 
@@ -231,15 +231,15 @@ https://relevant.community/relevant/top
 
 # Articles and Ramblings I Want To Feature But Have Nowhere Else to Put:
 
-## Polygot Files
+## Polyglot Files
 
-[TODO need to find each thing I refrence here and take these out of this page]
+[TODO need to find each thing I reference here and take these out of this page]
 
 elf hacking, POC||GTFO
 
 ## Strange thought
 
-[TODO need to find each thing I refrence here and take these out of this page]
+[TODO need to find each thing I reference here and take these out of this page]
 
 Main not fn
 

@@ -53,7 +53,7 @@ Each power of ten also has a prefix in the SI system. For example, with meters:
 | 3E2 m    | Three Hectometers
 | 4E3 m    | Four Kilometers
 
-Most likely you had a science teacher in high school or college make you do this at some point. But they probably didn't explain how useful this is an aid to intuition, not just calculation.
+Most likely, you had a science teacher in high school or college make you do this at some point. But they probably didn't explain how useful this is an aid to intuition, not just calculation.
 
 ### Reading Graphs
 
@@ -94,7 +94,7 @@ The most common prefixes are not multiples of ten, but multiples of one thousand
 | 1E-12     | Picometer |
 | 1E-15     | Femptometer |
 
-Millimeters are the smallest one can possibly use in day-to-day life without special equipment. But to a nuclear physicist, the Nanometer is the the moon's orbital distance compared to our own height.
+Millimeters are the smallest one can possibly use in day-to-day life without special equipment. But to a nuclear physicist, the Nanometer is the moon's orbital distance compared to our own height.
 
 As a result, math becomes a convenient abstraction in order to hide the complexity, while guaranteeing good results. After all, if you have two numbers in scientific notation, you simply multiply the base numbers (e.g. 2.5) and then the exponents (e.g. 10^3, and in algebra, that means add their exponents).
 
@@ -102,7 +102,7 @@ Whatever you get, you get, and it will be the correct answer.
 
 ### An example problem
 
-Imagine that you are creating an embedded device that will be powered by USB. You decide to use an Arduino to start, because it's easy to program, but also it's relavitely low power.
+Imagine that you are creating an embedded device that will be powered by USB. You decide to use an Arduino to start, because it's easy to program, but also it's relatively low power.
 
 Still, you know it's low power because it does not have a very fast CPU. Perhaps a bigger board would be better. How does the power it draws compare to the power you have available?
 

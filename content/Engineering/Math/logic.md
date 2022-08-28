@@ -6,7 +6,7 @@
 
 http://discrete.openmathbooks.org/dmoi3/
 
-{{< best >}} [Math For Programmers (pdf)](https://yurichev.com/writings/Math-for-programmers.pdf) {{< /best >}}
+{{< best >}} [Math For Programmers (PDF)](https://yurichev.com/writings/Math-for-programmers.pdf) {{< /best >}}
 
 ## Notation
 

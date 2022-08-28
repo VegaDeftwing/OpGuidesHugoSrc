@@ -2,7 +2,7 @@
 
 [TODO] Content can be presented in novel ways. Text as a last resort
 
-[TODO] Because of browser differences, screen size, Fonts, JS support, etc you should check in other resolutions and browsers periodicaly
+[TODO] Because of browser differences, screen size, Fonts, JS support, etc. you should check in other resolutions and browsers periodically
 
 [FAQs: why we don’t have them (gds.blog.gov.uk)](https://gds.blog.gov.uk/2013/07/25/faqs-why-we-dont-have-them/)
 

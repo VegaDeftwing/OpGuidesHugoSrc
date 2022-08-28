@@ -1,4 +1,4 @@
-# Chapter 15½ - Programming Sytle & Patterns
+# Chapter 15½ - Programming Style & Patterns
 
 Good programmers don't just write code that works, they write code that is readable, easy to debug, and well tested. One way to get a leg up on this is to look at tips for programming patterns and styles that make your code better.
 
@@ -28,4 +28,4 @@ If you ever find yourself asking "what the hell could I even name this variable?
 
 {{< /quote >}}
 
-Though for actual deeper understanding there's these things called "Desin Patterns" - [Wikipedia has a big ol' list of 'em](https://en.wikipedia.org/wiki/Software_design_pattern#Structural_patterns) which is worth looking into, and if you just google the "software anti patterns" you'll find a huge list of things to avoid in code. A lot of these are high level and tend to miss why the *bad things* are done in the first place: time. Often, you want to make something quick as a Proof of Concept (PoC) to know it's not a dead end. The problem is, we often don't go back and clean up our mess after we get it to work.
+Though for actual deeper understanding there are these things called "Design Patterns" - [Wikipedia has a big ol' list of 'em](https://en.wikipedia.org/wiki/Software_design_pattern#Structural_patterns) which is worth looking into, and if you just google the "software antipatterns" you'll find a huge list of things to avoid in code. A lot of these are high level and tend to miss why the *bad things* are done in the first place: time. Often, you want to make something quick as a Proof of Concept (PoC) to know it's not a dead end. The problem is, we often don't go back and clean up our mess after we get it to work.

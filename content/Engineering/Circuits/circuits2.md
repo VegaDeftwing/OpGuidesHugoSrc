@@ -35,7 +35,7 @@ So, let's lean how to teach some rocks.
 
 # Chapter 23.1 - Semiconductors
 
-TODO, looks very good briefly scrolling though it: https://lcamtuf.coredump.cx/electronics/
+TODO, looks very good briefly scrolling through it: https://lcamtuf.coredump.cx/electronics/
 
 Digilent's 'Real Analog' course looks okay too, and I might write this guide assuming their analog parts kit: https://learn.digilentinc.com/classroom/realanalog/ 
 
@@ -57,11 +57,11 @@ https://hackaday.com/2015/02/08/photonic-reset-of-the-raspberry-pi-2/
 
 {{< attribution >}}
 
-[Diode page on Wikipedia](https://en.wikipedia.org/wiki/Diode) (which is actually super good)
+[Diode page on Wikipedia](https://en.wikipedia.org/wiki/Diode) (which is actually superb)
 
 {{< /attribution >}}
 
-Alright, so in very basic terms, it's a part that only lets current flow in one direction (idealy). A one-way road for current. If you put a sine wave in, you'll get a sine-wave chopped in half out. Now, this assumes everything is ideal, as you'll really get more like the top 40% of the wave out, but we'll get to those details in a bit. For now, I recomend watching these videos:
+Alright, so in very basic terms, it's a part that only lets current flow in one direction (ideally). A one-way road for current. If you put a sine wave in, you'll get a sine-wave chopped in half out. Now, this assumes everything is ideal, as you'll really get more like the top 40% of the wave out, but we'll get to those details in a bit. For now, I recommend watching these videos:
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/Ll0IOk_Ltfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -156,7 +156,7 @@ potato semi
 ### These things aren't actually ideal!
 
 * Not all OpAmps are rail-to-rail, meaning if you give them -12 and +12 V rails, you may only be able to hit -10 and +10 or so.
-* OpAmps **really** need clean power. If you don't put a small cap to filter the power right at the OpAmps VCC and Gnd pins, expect noise.
+* OpAmps **really** need clean power. If you don't put a small cap to filter the power right at the OpAmps VCC and Gnd pins, except noise.
 * There will almost certainly be at least a little bit of DC shift in the output
 * You do not actually have infinite gain
 * You do not have infinite bandwidth
@@ -223,7 +223,7 @@ Relate back to things like ADSR, Distortion, Reverb / Echo, Decibels (audio), et
 
 # Chapter 23.3 - Displays
 
-Ther are many [Reasons to Question Seven Segment Displays (Harold Thimbleby)](https://sci-hub.se/10.1145/2470654.2466190), espically today, as using *literally anything else* has gotten significantly easier. 
+Ther are many [Reasons to Question Seven Segment Displays (Harold Thimbleby)](https://sci-hub.se/10.1145/2470654.2466190), especially today, as using *literally anything else* has gotten significantly easier. 
 
 [TODO] Eink, OLED, TFT, etc.
 
@@ -256,7 +256,7 @@ TODO: Efuses
 * [LED Matrix Drivers](https://www.adafruit.com/product/2946)
 * Digipots
 * Rheostat
-* [TL431 - Programmable Refrence](https://www.youtube.com/watch?v=isutYMU2HHU)
+* [TL431 - Programmable Reference](https://www.youtube.com/watch?v=isutYMU2HHU)
 * Tempcos
 * PROM's
 * Regulators
@@ -267,7 +267,7 @@ TODO: Efuses
 * Spark Gaps
 * [Filter ICs](https://www.electro-smith.com/parts/2144)
 
-# Chapter 23.6 - Rare and Dangerous Componets
+# Chapter 23.6 - Rare and Dangerous Components
 
 * Dangerous
   * Tesla coils

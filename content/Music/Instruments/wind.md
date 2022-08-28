@@ -11,7 +11,7 @@ A **wind instrument** is a musical instrument that contains some type of resonat
 
 {{< /quote >}}
 
-Alright, I guess that's sorta helpful. I mean, we've all made a loud sound down a cardboard tube as kid, so it's basically that.
+Alright, I guess that's sorta helpful. I mean, we've all made a loud sound down a cardboard tube as a kid, so it's basically that.
 
 Okay, so what about the difference between woodwind and brass?
 
@@ -41,7 +41,7 @@ So, uh, not super helpful. Reading a bit further though:
 
 {{< quote "[Wikipedia](https://en.wikipedia.org/wiki/Brass_instrument)" >}}
 
-[T]he term "brass instrument" should be defined by the way the sound is made, as above, and not by whether the instrument is actually made of brass. Thus one finds brass instruments made of wood, like the alphorn, the cornett, the serpent and the didgeridoo, while some woodwind instruments are made of brass, like the saxophone.
+[T]he term "brass instrument" should be defined by the way the sound is made, as above, and not by whether the instrument is actually made of brass. Thus, one finds brass instruments made of wood, like the alphorn, the cornett, the serpent and the didgeridoo, while some woodwind instruments are made of brass, like the saxophone.
 
 {{< /quote >}}
 
@@ -65,7 +65,7 @@ So, let's just not give a shit, instead, let's take a look at some of the main w
 
 ### Bagpipes
 
-Bagpipes aren't just for classical scottish music, check out [The SIDH - Iridium](https://www.youtube.com/watch?v=amJ_WLmOKS0), it's a basically EDM + Bagpipes and *fucking amazing*.
+Bagpipes aren't just for classical Scottish music, check out [The SIDH - Iridium](https://www.youtube.com/watch?v=amJ_WLmOKS0), it's a basically EDM + Bagpipes and *fucking amazing*.
 
 ### Blown Bottle
 
@@ -91,11 +91,11 @@ Bagpipes aren't just for classical scottish music, check out [The SIDH - Iridium
 
 ### Organ
 
-### Recroder
+### Recorder
 
 ### Saxophone
 
-#### Alto, Tennor, Baritone, Bass, Soprano... Traffic Cone?
+#### Alto, Tenor, Baritone, Bass, Soprano... Traffic Cone?
 
 ### Sheng
 

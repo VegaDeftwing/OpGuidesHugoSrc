@@ -30,7 +30,7 @@
 
 ### C++
 
-> Keep in mind everything from the above should still work
+> Keep in mind, everything from the above should still work
 
 https://github.com/alandefreitas/matplotplusplus
 
@@ -56,7 +56,7 @@ https://github.com/alandefreitas/matplotplusplus
 
 ### Go
 
-[Lorca](https://github.com/zserge/lorca) - "A very small library to build modern HTML5 desktop apps in Go. It uses Chrome browser as a UI layer. Unlike Electron it doesn't bundle Chrome into the app package, but rather reuses the one that is already installed."
+[Lorca](https://github.com/zserge/lorca) - "A very small library to build modern HTML5 desktop apps in Go. It uses Chrome browser as a UI layer. Unlike Electron, it doesn't bundle Chrome into the app package, but rather reuses the one that is already installed."
 
 [Pixel](https://github.com/faiface/pixel) - "A hand-crafted 2D game library in Go"
 
@@ -64,9 +64,9 @@ https://github.com/alandefreitas/matplotplusplus
 
 [NumPy Illustrated: The Visual Guide to NumPy (Lev Maximov)](https://medium.com/better-programming/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d)
 
-[Full Stack Python Course, has some info on more comon libraries](https://www.fullstackpython.com/table-of-contents.html)
+[Full Stack Python Course, has some info on more common libraries](https://www.fullstackpython.com/table-of-contents.html)
 
-[Python-Cheatsheet](https://github.com/gto76/python-cheatsheet) by gto76 on github
+[Python-Cheatsheet](https://github.com/gto76/python-cheatsheet) by gto76 on GitHub
 
 > Only including the less common ones here. If you're new to python you should look into Numpy, Matplotlib, Pygame, Pandas, and Requests. Those more or less make up the
 
@@ -108,7 +108,7 @@ https://github.com/mitsuba-renderer/nanogui
 
 > Also see pyO3 in rust above, which allows for writing python modules. Of course python modules can be written [in C or C++](https://docs.python.org/3/extending/extending.html), but doing so in Rust is safer, because, Rust.
 
-> For Matplotlib, I do recomend looking at the aviailable [Matplotlib colormaps](https://matplotlib.org/stable/tutorials/colors/colormaps.html) and [color map normalization](https://matplotlib.org/stable/tutorials/colors/colormapnorms.html#sphx-glr-tutorials-colors-colormapnorms-py) as the colors used to view your data can make a huge difference in how readable it is
+> For Matplotlib, I do recommend looking at the available [Matplotlib colormaps](https://matplotlib.org/stable/tutorials/colors/colormaps.html) and [color map normalization](https://matplotlib.org/stable/tutorials/colors/colormapnorms.html#sphx-glr-tutorials-colors-colormapnorms-py) as the colors used to view your data can make a huge difference in how readable it is
 
 [nbterm: Jupyter Notebooks in the terminal](https://github.com/davidbrochart/nbterm)
 

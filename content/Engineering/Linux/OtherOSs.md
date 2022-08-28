@@ -1,8 +1,8 @@
 # A3 - Other Operating Systems
 
 * BSD
-* MACOS
-* Serinity
+* macOS
+* Serenity
 * Redox
 * React
 * TempleOS

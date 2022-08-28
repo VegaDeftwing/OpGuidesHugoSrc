@@ -21,7 +21,7 @@ This page is a massive work in progress. Even the things that look done may be w
   * Filter
   * Reverb
   * Delay
-  * Trival
+  * Trivial
   * Weird as fuck
   * Misc
 * Tools
@@ -34,7 +34,7 @@ This is probably where the most bias of any of the lists on this page will show 
 
 You *DO NOT NEED* everything on these lists! Many of these plugins will have overlapping features, and as mentioned plenty of times before, your DAW probably has the majority of this functionality built in, as stated back in the start of the effects chapter: USE THESE FIRST. They're lighter on CPU, fit into the DAW's workflow better, and generally are good enough for most things. Check out <a href="https://www.youtube.com/watch?v=Xgm1bGh-eyM">I Made A Song Using Only Ableton Stock Plugins (YouTube, Composerily)</a> if you don't believe me.
 
-I have tried to put a pretty good mix of professional and weird, free and paid, and traditional and novel tools on this list. This means that some will absolutely not be to your taste. Some may be to sterile, or may be wacky and useless to you.
+I have tried to put a pretty good mix of professional and weird, free and paid, and traditional and novel tools on this list. This means that some will absolutely not be to your taste. Some may be too sterile, or may be wacky and useless to you.
 
 {{< /hint >}}
 
@@ -44,7 +44,7 @@ VSTs are a really weird standard, for one, unlike most standards that are ratifi
 
 Generally, there are a few things you need to know:
 
-1. Some VSTs are distributed as VST2 others as VST3, obviously one is newer than the other. Unfortunately, not all DAWs support VST3 and worse, new applications by new devs have to be VST3 due to Stienberg no longer issuing new licenses. Generally, VST2 will be downloaded as `.dll` files while vst3 will be `.vst3`
+1. Some VSTs are distributed as VST2 others as VST3, obviously one is newer than the other. Unfortunately, not all DAWs support VST3 and worse, new applications by new devs have to be VST3 due to Steinberg no longer issuing new licenses. Generally, VST2 will be downloaded as `.dll` files while vst3 will be `.vst3`
    * VST3 does support a few extra features, and tend to perform better
    * Some VST3's can do neat stuff so that if multiple instances are loaded they can communicate together, this is useful for some mastering plugins.
 2. Some VSTs are 64 bit, some are 32 bit. Not all modern DAWS support running 32bit VSTs
@@ -881,11 +881,11 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
 
 [Swatches](https://patches.zone/max-for-live/swatches) - Easily recolor everything in Ableton Live
 
-[Clyphx old, free version](https://github.com/ldrolez/clyphx-live10) & [Clyphx Pro](https://isotonikstudios.com/product/clyphx-pro/) - Scripting Language for live, seriously recomend this one. Paid version is **$43.33**, not sure it supports the latest live or is getting worked on?
+[Clyphx old, free version](https://github.com/ldrolez/clyphx-live10) & [Clyphx Pro](https://isotonikstudios.com/product/clyphx-pro/) - Scripting Language for live, seriously recommend this one. Paid version is **$43.33**, not sure if it supports the latest live or is getting worked on?
 
-{{< best >}}[Magenta Studio](https://www.ableton.com/en/blog/magenta-studio-free-ai-tools-ableton-live/) - AI based MIDI generator for live. Honestly spits out some really good progressions. Can do drums, extent what you've writen for a melody, and a lot more. Tons of fun.{{< /best >}}
+{{< best >}}[Magenta Studio](https://www.ableton.com/en/blog/magenta-studio-free-ai-tools-ableton-live/) - AI based MIDI generator for live. Honestly spits out some superb progressions. Can do drums, extend what you've written for a melody, and a lot more. Tons of fun.{{< /best >}}
 
-[Various tools from Zuzuki Kentaro](https://gumroad.com/szk_1992?sort=page_layout) - these include some great complex complex modulation tools that are free, along with paid tools ranging from granular synths and reverbs.
+[Various tools from Zuzuki Kentaro](https://gumroad.com/szk_1992?sort=page_layout) - these include some great complex modulation tools that are free, along with paid tools ranging from granular synths and reverbs.
 
 {{< best >}}[Nestup](https://gumroad.com/l/nestup) - "[...] approaches rhythm in a completely new way. It embeds [Nestup](https://nestup.cutelab.nyc/)—a powerful language for expressing complex rhythms—directly into Live."{{< /best >}}
 

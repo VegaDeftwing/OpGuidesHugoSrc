@@ -35,7 +35,7 @@ https://erikmcclure.com/blog/factorio-is-best-interview-we-have/
 
 ## Know (and increase) your worth
 
-[TODO] looking up salary before hand
+[TODO] looking up salary beforehand
 
 [TODO] NEVER, EVER sign a contract that says your employer owns all of your work from outside of work
 

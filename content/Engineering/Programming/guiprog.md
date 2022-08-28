@@ -6,9 +6,9 @@ Let's start in a way that's incredibly simple, and abstract away all the hard st
 
 Alright, setup out of the way, let's code! One of my first projects in processing was to make a [Topographic Map](https://en.wikipedia.org/wiki/Topographic_map), looking generator because I just find them quite visually appealing.
 
-So, thinking about that problem, we clearly need data. probably an array of sorts with a bunch of values that have a smoothed relationship when viewing them as height map, then we'd want to look at the transition points between ranges of values.
+So, thinking about that problem, we clearly need data. Probably an array of sorts with a bunch of values that have a smoothed relationship when viewing them as a height map, then we'd want to look at the transition points between ranges of values.
 
-Looking up random data generation in python, and you should stumble upon it's noise generation, and see that it uses [Perlin Noise](https://en.wikipedia.org/wiki/Perlin_noise), which upon looking at it should be obvious that it generates exactly what we want. So, looking up an example for that in processing we get to this page: https://processing.org/examples/noise2d.html
+Looking up random data generation in python, and you should stumble upon its noise generation, and see that it uses [Perlin Noise](https://en.wikipedia.org/wiki/Perlin_noise), which upon looking at it should be obvious that it generates exactly what we want. So, looking up an example for that in processing, we get to this page: https://processing.org/examples/noise2d.html
 
 Well, that's already super close, so let's look at that code
 
@@ -49,9 +49,9 @@ void draw() {
 }
 ```
 
-Alright, so line by line, it seems that line 1 is just defining a constant. Reading the Processing docs you'll find setup() should contain size() which takes two arguments that are the size of the output window in pixels (x and y) and that draw() is an endlessly looping function that updates that window.
+Alright, so line by line, it seems that line 1 is just defining a constant. Reading the Processing docs, you'll find setup() should contain size() which takes two arguments that are the size of the output window in pixels (x and y) and that draw() is an endlessly looping function that updates that window.
 
-Before going further let's copy and paste the code into VSCode and run it:
+Before going further, let's copy and paste the code into VSCode and run it:
 
 [TODO] add picture
 

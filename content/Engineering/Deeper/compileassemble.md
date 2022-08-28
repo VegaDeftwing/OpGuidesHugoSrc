@@ -34,7 +34,7 @@ Just, read this: https://interrupt.memfault.com/blog/best-and-worst-gcc-clang-co
 
 And now we can get to fun stuff. -O is generally used in levels, here with no space, so there's `-O`, `-O2`, `-O3`, and `-Ofast` are for speed, and `-Os` is for size of the binary. (or `-Oz` for clang)
 
-> Technically, `-Ofast` can break your code. This is rather unlikely though.
+> Technically, `-Ofast` can break your code. This is rather unlikely, though.
 
 Each of these will take longer to compile but be more aggressive about optimizing the assembly code that is generated from your input. For example, let's look at the code
 
@@ -45,11 +45,11 @@ int mult(int m, int n){
 }
 ```
 
-This is a *very* stupid multiply function. Effectively, it's multiplying two numbers by making a matrix of size m by n, and then counting the number of spots in that matrix instead of just multiplying the two numbers. I've embedded a [GodBolt]() page below with this code on the left, and it'll show the assembly output on the right. At the top you should be able to see a box to type compiler options, go ahead and put in `-O`. You should see a huge long mess of assembly that used multiple `imul` (multiply) instructions be reduced to 3 lines of assembly with only a single multiply. The compiler has figured out that what we were doing was a stupid multiply and optimized it for us.
+This is a *very* stupid multiply function. Effectively, it's multiplying two numbers by making a matrix of size m by n, and then counting the number of spots in that matrix instead of just multiplying the two numbers. I've embedded a [GodBolt]() page below with this code on the left, and it'll show the assembly output on the right. At the top you should be able to see a box to type compiler options, go ahead and put in `-O`. You should see a huge, long mess of assembly that used multiple `imul` (multiply) instructions be reduced to 3 lines of assembly with only a single multiply. The compiler has figured out that what we were doing was a stupid multiply and optimized it for us.
 
 <iframe width="100%" height="500px" src="https://godbolt.org/e#g:!((g:!((g:!((h:codeEditor,i:(fontScale:14,j:1,lang:c%2B%2B,selection:(endColumn:2,endLineNumber:5,positionColumn:2,positionLineNumber:5,selectionStartColumn:2,selectionStartLineNumber:5,startColumn:2,startLineNumber:5),source:'//+Type+your+code+here,+or+load+an+example.%0Aint+mult(int+n,+int+m)%7B%0A++++char+a%5Bm%5D%5Bn%5D%3B%0A++++return(sizeof(a))%3B%0A%7D'),l:'5',n:'0',o:'C%2B%2B+source+%231',t:'0')),k:50,l:'4',n:'0',o:'',s:0,t:'0'),(g:!((h:compiler,i:(compiler:g102,filters:(b:'0',binary:'1',commentOnly:'0',demangle:'0',directives:'0',execute:'1',intel:'0',libraryCode:'1',trim:'1'),fontScale:14,j:1,lang:c%2B%2B,libs:!(),options:'',selection:(endColumn:1,endLineNumber:1,positionColumn:1,positionLineNumber:1,selectionStartColumn:1,selectionStartLineNumber:1,startColumn:1,startLineNumber:1),source:1),l:'5',n:'0',o:'x86-64+gcc+10.2+(Editor+%231,+Compiler+%231)+C%2B%2B',t:'0')),k:50,l:'4',n:'0',o:'',s:0,t:'0')),l:'2',n:'0',o:'',t:'0')),version:4"></iframe>
 
-Here there's no difference between `-O` and `O3`, but with more complex code there often is. Just keep in mind that this is a trade off, there is the upfront cost of a longer compile time.
+Here there's no difference between `-O` and `O3`, but with more complex code there often is. Just keep in mind that this is a trade-off, there is the upfront cost of a longer compile time.
 
 [TODO] [Code Size Optimization: GCC Compiler Flags (Interrupt)](https://interrupt.memfault.com/blog/code-size-optimization-gcc-flags)
 
@@ -87,7 +87,7 @@ https://medium.freecodecamp.org/the-programming-language-pipeline-91d3f449c919
 
 ## Continued Reading
 
-At this point I highly recommend '[The Art of Exploitation](https://nostarch.com/hacking2.htm)' by Jon Erickson
+At this point, I highly recommend '[The Art of Exploitation](https://nostarch.com/hacking2.htm)' by Jon Erickson
 
 ## Fun things
 

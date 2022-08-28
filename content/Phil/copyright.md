@@ -50,9 +50,9 @@ LICENCE PENDING, NOT YET APPROVED FOR PUBLISHING
 
 ## How do we fix it?
 
-I think to further address any issues we first need to look into how these issues have come to exist. In general, as a society advances new issues will arise. Computers and the Internet have shown us just how incredibly things can progress and how amazing un-hindered, open information flow can change the world. The Internet has served as an educational tool of unparalleled utility to my generation and has allowed me to learn things that I otherwise would have never had access to. Of course this also means the same for bad actors. Though acting in bad faith also now have the same unparalleled access to personal information of the masses and individuals can now use their anonymity and an Internet connection to do harm both to individuals via cyberbullying and trolling, but also to businesses as we move to a world that more heavily relies on ecommerce and the digital information they store becomes increasingly sensitive.
+I think to further address any issues, we first need to look into how these issues have come to exist. In general, as a society advances, new issues will arise. Computers and the Internet have shown us just how incredibly things can progress and how amazing unhindered, open information flow can change the world. The Internet has served as an educational tool of unparalleled utility to my generation, and has allowed me to learn things that I otherwise would have never had access to. Of course, this also means the same for bad actors. Though acting in bad faith also now have the same unparalleled access to personal information of the masses and individuals can now use their anonymity and an Internet connection to do harm both to individuals via cyberbullying and trolling, but also to businesses as we move to a world that more heavily relies on ecommerce and the digital information they store becomes increasingly sensitive.
 
-Unfortunately, the law is often far to slow or far to fast to react, leading to laws that simultaneously fail to protect our rights as smaller creators and punish many to harshly.<a class="ptr">(4)</a>
+Unfortunately, the law is often far too slow or far too fast to react, leading to laws that simultaneously fail to protect our rights as smaller creators and punish many to harshly.<a class="ptr">(4)</a>
 
 ...
 
@@ -83,7 +83,7 @@ Marvel, Pink Floyd, and Minecraft Vs Web comics, indie, and Minetest.
 
 {{< hint warning>}}
 
-Because these many of these sites are tecnically hosting illegal content, they tend to change domains a lot. One of the better ways to be sure you're not going to a [Honeypot](https://en.wikipedia.org/wiki/Honeypot_(computing)), a fake site used to catch people, is to check what domain the Wikipedia article refers to, for example for scihub:
+Because these many of these sites are technically hosting illegal content, they tend to change domains a lot. One of the better ways to be sure you're not going to a [Honeypot](https://en.wikipedia.org/wiki/Honeypot_(computing)), a fake site used to catch people, is to check what domain the Wikipedia article refers to, for example for scihub:
 
 <img src="/phil/scihubsite.webp" alt="Scihib link on wikipedia" height="500em">
 
@@ -105,7 +105,7 @@ https://the-eye.eu/public/
 
 ## For the Hackers, Makers, and Engineers
 
-Cory Dottorow is a huge name when it comes to speaking on how copyright matters to those of us that like to create with code and wires. I really recomend reading his post about why [There are no digital rights, only human rights.](https://locusmag.com/2020/09/cory-doctorow-ip/) and watching this video about the [War on General-Purpose Computing](https://www.youtube.com/watch?v=gbYXBJOFgeI).
+Cory Doctorow is a huge name when it comes to speaking on how copyright matters to those of us that like to create with code and wires. I really recommend reading his post about why [There are no digital rights, only human rights.](https://locusmag.com/2020/09/cory-doctorow-ip/) and watching this video about the [War on General-Purpose Computing](https://www.youtube.com/watch?v=gbYXBJOFgeI).
 
 # Patents
 
@@ -120,7 +120,7 @@ I joined the community in 2010, bought my own printer in 2011, and I saw the com
 
 The idea that patents promote innovation is absurd. The primary function of the patent is to stop innovation. All those thousands of people who wanted to improve 3D printers were legally prevented from innovating while the patent was in effect.
 
-I remember in 2012 people on the mailing list talking about 3D printing on to a belt that could move. Literally no one on the mailing list wanted to risk infringing on the Makerbot patent for this even though makerbot quickly stopped selling their belt printer and never sold a new one. To this day the only belt printers that are for sale is a printer with the carriage off angle from the belt to avoid infringing the makerbot patent that hasn’t been used in years.
+I remember in 2012 people on the mailing list talking about 3D printing on to a belt that could move. Literally no one on the mailing list wanted to risk infringing on the Makerbot patent for this, even though makerbot quickly stopped selling their belt printer and never sold a new one. To this day, the only belt printers that are for sale is a printer with the carriage off angle from the belt to avoid infringing the makerbot patent that hasn’t been used in years.
 
 The rate of innovation would be higher without patents. We’re hurting ourselves for the benefit of those who amassed large patent portfolios so they can charge rent on old designs instead of innovating.
 
@@ -172,7 +172,7 @@ Also in response to [Closed Species and Copyright: I Asked a Lawyer](https://www
 
 > [...] if the character still resembles Doraemon enough, you can get sued for it.”
 
-Yeah, that doesn't mean anything. You can be sued for *anything*. Weather or not a judge will agree with you is a wildly different question. While, again, IANAL, I have read *way to much* copyright law and work with people that actively push the limits of the Digital Millenium Copyright Act (DMCA) and know enough to justify my donations to the EFF.
+Yeah, that doesn't mean anything. You can be sued for *anything*. Whether or not a judge will agree with you is a wildly different question. While, again, IANAL, I have read *way too much* copyright law and work with people that actively push the limits of the Digital Millennium Copyright Act (DMCA) and know enough to justify my donations to the EFF.
 
 If someone were to trace your work. Definitely, that's copying, you're in the right, you'd win.
 
@@ -180,15 +180,15 @@ If someone were to draw what was *very* obviously your character with minor twea
 
 If someone were to draw a new character, with significantly different markings, but of the same species? Probably not. Unless your species has some *incredibly* specific details that are in of themselves a copyrightable work that the person also copies you're going to have a hard time. You do seem to get this as you say
 
-> we were mainly discussing about species with distinguishable physical features and not simple hybrids like a plain cat with wings, etc. You’d have to make the cat’s silhouette unique enough to make it its own, new thing (like scarfoxes)
+> we were mainly discussing species with distinguishable physical features and not simple hybrids like a plain cat with wings, etc. You’d have to make the cat’s silhouette unique enough to make it its own, new thing (like scarfoxes)
 
-But, really? Looking at [Scarfoxes](https://www.deviantart.com/scarfoxchronicles/art/Scarfox-Head-Chart-871694096) I'd really question the claim that there's enough copyrightable material here. Remember, *ideas* are not copyrightable. To me, this looks like you're claiming the *idea* of making a fox like character with upright ears and a stiched-style face is the copyright. If the silloute were to exactly match one of these, yeah, that's infringement, but making something that uses a similar *idea* is not. Similarly, you can't copyright a word- that would be trademark, and unless you intend to file for it you don't get it by default like you do copyright.
+But, really? Looking at [Scarfoxes](https://www.deviantart.com/scarfoxchronicles/art/Scarfox-Head-Chart-871694096) I'd really question the claim that there's enough copyrightable material here. Remember, *ideas* are not copyrightable. To me, this looks like you're claiming the *idea* of making a fox like character with upright ears and a stiched-style face is the copyright. If the silloute were to exactly match one of these, yeah, that's infringement, but making something that uses a similar *idea* is not. Similarly, you can't copyright a word- that would be trademark, and unless you intend to file for it, you don't get it by default like you do copyright.
 
 Further down you even said
 
 > To be frank, I don’t quite care about the legality of all these. It’s just that people who excuse ripping off artists and others because “duuhhh laws say I can” really annoy me.
 
-Yeah. And that's fine. But you need to realize that when you're trying to claim copyright of something so broad you're saying "This *idea* belongs to me" seemingly unaware that you're possibly infringing on the ablity of other artists to make things that honestly weren't inspried by your work, that just happen to be similar.
+Yeah. And that's fine. But you need to realize that when you're trying to claim copyright of something so broad you're saying "This *idea* belongs to me" seemingly unaware that you're possibly infringing on the ability of other artists to make things that honestly weren't inspired by your work, that just happen to be similar.
 
 At the end of the day, this comment is the one that matters:
 
@@ -202,7 +202,7 @@ At the end of the day, this comment is the one that matters:
 
 *THIS*. It's often not worth your time to sue, so unless you're *damn* sure that somebody is infringing - that is it's traced, the outlines match, the colors and markings are exactly the same - you wouldn't. That's exactly the point of **copy**right. It's in the name.
 
-This is *not* an attack on [Riipur](https://www.deviantart.com/riipurr) (seriously, I don't even know them, and their art is actually bomb as hell), rather it's a statment to the furry comunity: *Quit. Your. Bullshit.*
+This is *not* an attack on [Riipur](https://www.deviantart.com/riipurr) (seriously, I don't even know them, and their art is actually bomb as hell), rather it's a statement to the furry community: *Quit. Your. Bullshit.*
 
 Because this really bothers me, here's a list of examples I find particularly offensive:
 
@@ -212,11 +212,11 @@ Because this really bothers me, here's a list of examples I find particularly of
 
 [This "Shark-Wolf"](https://www.deviantart.com/birdywren/art/Shork-810332517) species by [Alfeddy](https://www.deviantart.com/alfeddy) speaks for itself.
 
-I could literally go though deviant-art and find these all day.
+I could literally go through deviant-art and find these all day.
 
 If you do this, as an artist, you are *harming* the furry community by claiming ownership over an idea. It deters other artists from being able to draw things they *do* have the right to, and it's really just a form of gatekeeping. I do understand the desire to claim your own work and get the value you deserve out of it, but closed species are often stepping over the line and claiming ownership of an idea, something you do not have the right to do.
 
-Yeah, our current copyright system is 300% ultra forked for small creators. I understand. And yeah, I'd be super pissed off if some nazi-fur made a dutch angel dragon and paraded it around.
+Yeah, our current copyright system is 300% ultra forked for small creators. I understand. And yeah, I'd be super pissed off if some nazi-fur made a Dutch angel dragon and paraded it around.
 
 But then we come to the real solution: If you want to have a closed species, you need to make sure it really does pass the bar where others would associate the species with you, that any creature, regardless of colors and sub-designs, is so obviously a derivative that everyone recognizes it (and as such could associate it with you). Examples of this are easy: Protogens, Sergals, and Dutch Angel Dragons (albeit the last one is hella debatable) 
 

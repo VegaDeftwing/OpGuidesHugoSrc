@@ -25,9 +25,9 @@ def fibonacci(x):
     return fibonacci(x - 1) + fibonacci(x - 2)
 ```
 
-This is a very simple function that computes the Nth fibonacci number.
+This is a very simple function that computes the Nth Fibonacci number.
 
-However, calculating `fibonacci(1000)` requires a lot CPU power -- and more importantly, memory for all the stack frames. In fact, it is such an expensive function, Python 3.9.6 can't do it for large values!
+However, calculating `fibonacci(1000)` requires a lot of CPU power -- and more importantly, memory for all the stack frames. In fact, it is such an expensive function, Python 3.9.6 can't do it for large values!
 
 ```python
 >>> fibonacci(1000)
@@ -76,11 +76,11 @@ RecursionError: maximum recursion depth exceeded while calling a Python object
 
 This is possible, because `fibonacci` is a **pure function**: the same inputs will result in the same outputs, no matter the state of the system as a whole. If you know part (or all) of the answer in advance, you can skip executing some (or all) of the code. In programming language design, this is often called **laziness** (even though it refers to other things in some other languages).
 
-While this is cool concept, sometimes it *does* matter whether you repeat work: reading from files or databases that can change between runs, input and output to the user, updating memory read by other code outside of the current scope, and so on. These secondary concerns are called **side effects**.
+While this is a cool concept, sometimes it *does* matter whether you repeat work: reading from files or databases that can change between runs, input and output to the user, updating memory read by other code outside of the current scope, and so on. These secondary concerns are called **side effects**.
 
 We were able to write this in Python, but we had to "do work" in order to "be lazy". Explicit extra code was written to create and maintain the cache, and Python always evaluated every instruction -- we simply added code paths that were *less work in total*.
 
-While [advanced compilers can sometimes do this by themselves](https://www.youtube.com/watch?v=w0sz5WbS5AM#t=2958), it is rather hit and miss because it has to be inferred. Functional languages treat laziness as a first-class feature. Their approach is this principle taken to extremes: don't do *any work at all* until it's specifically necessary.
+While [advanced compilers can sometimes do this by themselves](https://www.youtube.com/watch?v=w0sz5WbS5AM#t=2958), it is rather hit-and-miss because it has to be inferred. Functional languages treat laziness as a first-class feature. Their approach is this principle taken to extremes: don't do *any work at all* until it's specifically necessary.
 
 If we defined `fibonacci` in most functional languages, and then use it somewhere in a different calculation, it would not run! It would simply return a **thunk**: an object representing a *future* calculation.
 

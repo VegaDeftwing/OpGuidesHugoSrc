@@ -6,15 +6,15 @@ I am not affiliated with VCV or the Rack software in any way.
 
 {{< /tip >}}
 
-Despite [the mess](https://aria.dog/barks/why-i-will-never-create-modules-for-vcv-rack-anymore/) in the VCV community, I've still put in a lot of time in the software and run a pretty large group chat on Telegram where it (along side hardware Eurorack) is the main focus. In that chat, there's been a few recurring questions, this page is just some of those questions and answers.
+Despite [the mess](https://aria.dog/barks/why-i-will-never-create-modules-for-vcv-rack-anymore/) in the VCV community, I've still put in a lot of time in the software and run a pretty large group chat on Telegram where it (alongside hardware Eurorack) is the main focus. In that chat, there's been a few recurring questions, this page is just some of those questions and answers.
 
 ## How do I protect my ears from loud sounds?
 
-Put a [ZZC SC-VCA](https://library.vcvrack.com/ZZC/SC-VCA) or [Bogaudio LMTR](https://library.vcvrack.com/ZZC/SC-VCA) as the last module your sound passes though before going to the audio interface module. On the ZZC VCA, the big knob is master volume, the little knob controls at what volume it starts clipping out, limiting the volume. It actually sounds really nice as a distortion too.
+Put a [ZZC SC-VCA](https://library.vcvrack.com/ZZC/SC-VCA) or [Bogaudio LMTR](https://library.vcvrack.com/ZZC/SC-VCA) as the last module your sound passes though before going to the audio interface module. On the ZZC VCA, the big knob is master volume, the little knob controls at what volume it starts clipping out, limiting the volume. It actually sounds really nice as a distortion, too.
 
 ## How does polyphony work in VCV?
 
-VCV's manual does have a page on [polyphony](https://vcvrack.com/manual/Polyphony) but it's kinda shit. Basically, it lets you with **some** modules carry up to 16 signals in one cable. There's also modules made for working with this, like *Merge* and *Split* which let you take a bunch of mono signals and merge them into one polyphonic cable, or split the the polyphonic cable into 16 individual outputs respectively. The polyphonic cables are easy to tell apart because they're thicc.
+VCV's manual does have a page on [polyphony](https://vcvrack.com/manual/Polyphony) but it's kinda shit. Basically, it lets you with **some** modules carry up to 16 signals in one cable. There's also modules made for working with this, like *Merge* and *Split* which let you take a bunch of mono signals and merge them into one polyphonic cable, or split the polyphonic cable into 16 individual outputs respectively. The polyphonic cables are easy to tell apart because they're thicc.
 
 Do keep in mind, you're still making the same patches as with mono. Just like in mono, if you don't have something to stop the signal from an oscillator when you don't want it to be playing, it will drone on. If you set 16 channel polyphony and don't have something to gate the unused channels, they will just drone on, but now with 16 channels it might be like smashing 16 keys on the piano at once, which can be an ear rupturing experience. What you *probably* want is a VCA hooked up such that only the notes you're hitting on your keyboard or using in the chord play, so make sure you hook up a VCA - the stock VCV one will divide it's green bar so you can see all the polyphonic channels in the visualizer. 
 
@@ -26,7 +26,7 @@ Add a MIDI-CV module, right click it, and set **Polyphony Channels** to anything
 
 If you want to play with the mode you can too, what the modes do is documented [MIDI-CV](https://vcvrack.com/manual/Core#midi-cv) official manual page.
 
-If you want to use MPE (with like a Roli Seaboard or Artiphon Insturment One) you'll probably want to ~~use the [MoDllz Midi Poly + MPE](https://library.vcvrack.com/moDllz/MIDIpolyMPE) module instead.~~ The stock MIDI module has MPE mode now, though you should note that *most* MPE controllers also send a few CC's along with the per-note aftertouch and velocity. You may need to use a second module for that.
+If you want to use MPE (with like a Roli Seaboard or Artiphon Instrument One) you'll probably want to ~~use the [MoDllz Midi Poly + MPE](https://library.vcvrack.com/moDllz/MIDIpolyMPE) module instead.~~ The stock MIDI module has MPE mode now, though you should note that *most* MPE controllers also send a few CC's along with the per-note aftertouch and velocity. You may need to use a second module for that.
 
 ### With a Sequencer and/or Chord Generator
 
@@ -36,7 +36,7 @@ Use a merge module to get the outputs into a thick, polyphonic cable. You can se
 
 <audio controls loop src="/sounds/ChordSeq02.mp3"></audio>
 
-Something of note, Basal, the oscillator here does have a mono signal going into the *MOD1* input, this is because if a mono signal goes into a module that's running polyphonically, the mono signal will be applied to all the poly channels. You don't need to duplicated the same signal into how ever many poly channels the thick wires are carrying just to hook up modulation, unless you want that modulation to be different on every channel. Speaking of:
+Something of note, Basal, the oscillator here does have a mono signal going into the *MOD1* input, this is because if a mono signal goes into a module that's running polyphonically, the mono signal will be applied to all the poly channels. You don't need to duplicate the same signal into however many poly channels the thick wires are carrying just to hook up modulation, unless you want that modulation to be different on every channel. Speaking of:
 
 ### Using Polyphony For Modulation
 
@@ -48,7 +48,7 @@ By doing this, you can either make a nice, random signal poly cable, great for k
 
 ## When I send clock to [Module Name] it doesn't work right! 
 
-Different modules have different clocking standards. [Topograph](https://library.vcvrack.com/Valley/Topograph), for example, needs an input clock that's multiplied by 24 by default. You might see this written as 24ppqn which is **p**eaks **p**er **q**uarter **n**ote. Strangely, [μGraph](https://library.vcvrack.com/Valley/uGraph), the smaller version of Topograph, defaults to only 4ppqn. The advantage to the higher clock multiplier is if you change your tempo these modules can adapt to the new tempo more quickly, as they need to 'hear' at least two clicks before they can lock on.
+Different modules have different clocking standards. [Topograph](https://library.vcvrack.com/Valley/Topograph), for example, needs an input clock that's multiplied by 24 by default. You might see this written as 24ppqn which is **p**eaks **p**er **q**uarter **n**ote. Strangely, [μGraph](https://library.vcvrack.com/Valley/uGraph), the smaller version of Topograph, defaults to only 4ppqn. The advantage to the higher clock multiplier is if you change your tempo, these modules can adapt to the new tempo more quickly, as they need to 'hear' at least two clicks before they can lock on.
 
 If you're trying to send clock to external gear via CV-MIDI, you'll probably need to give it 24ppqn too. Also, racks MIDI clock out is... not great. It's pretty unstable and can make some gear unhappy.
 
@@ -66,9 +66,9 @@ While you'll often see [Impromptu's Clocked](https://library.vcvrack.com/Impromp
 
 I also recommend keeping your clocking interesting. It you just have your sequencer be driven by a constant clock it might not be as interesting as you like. You can always use a gate sequencer as a 'clock' source for your sequencer and have gates be triggered more rhythmically. 
 
-If you want some random clocking, try using [Geodesics' Fate](https://library.vcvrack.com/Geodesics/Fate) (which is also amazing at adding randomness to note sequences), [Audible Instruments' Bernoulli Gate (Branches)](https://library.vcvrack.com/AudibleInstruments/Branches) or [Random Sampler (Marbles)](https://library.vcvrack.com/AudibleInstruments/Marbles),or  [Grayscale's Permutation](https://library.vcvrack.com/Grayscale/Permutation6). Each has it's own method of adding madness to clocking.
+If you want some random clocking, try using [Geodesics' Fate](https://library.vcvrack.com/Geodesics/Fate) (which is also amazing at adding randomness to note sequences), [Audible Instruments' Bernoulli Gate (Branches)](https://library.vcvrack.com/AudibleInstruments/Branches) or [Random Sampler (Marbles)](https://library.vcvrack.com/AudibleInstruments/Marbles),or  [Grayscale's Permutation](https://library.vcvrack.com/Grayscale/Permutation6). Each has its own method of adding madness to clocking.
 
-{{< attribution >}}<s>or, if you're feeling really spicy, there's [Arias Salvatrice's Darius](https://library.vcvrack.com/AriaSalvatrice/Darius), which is basically a lot of Bernoulli Gates chained together</s> Not yet avaliable in V2 {{< /attribution >}}
+{{< attribution >}}<s>or, if you're feeling really spicy, there's [Arias Salvatrice's Darius](https://library.vcvrack.com/AriaSalvatrice/Darius), which is basically a lot of Bernoulli Gates chained together</s> Not yet available in V2 {{< /attribution >}}
 
 ## CV-MIDI doesn't work
 
@@ -104,7 +104,7 @@ If you're running Linux and extraordinary unlucky, you might be dealing with a b
 
 ## How do I interface VCV with other software?
 
-For 2.0 you have two main options. Shell out the money for [Rack 2 Pro](https://vcvrack.com/Rack#get) or use [Cardinal](https://github.com/DISTRHO/Cardinal). Rack 2 Pro let's you use the library and comes with support, Cardinal ships with modules baked-in (can't easily add more), lacks support, but can run as a VST2, VST3, or LV2 plugin while Rack 2 Pro is limited to being a VST2 at the the time of writing.
+For 2.0 you have two main options. Shell out the money for [Rack 2 Pro](https://vcvrack.com/Rack#get) or use [Cardinal](https://github.com/DISTRHO/Cardinal). Rack 2 Pro lets you use the library and comes with support, Cardinal ships with modules baked-in (can't easily add more), lacks support, but can run as a VST2, VST3, or LV2 plugin while Rack 2 Pro is limited to being a VST2 at the time of writing.
 
 If you'd like to use VCV 1 ... at this point, don't. I realize there's some 1.0 only plugins, but every solution was always a bit hacky.
 
@@ -114,6 +114,6 @@ If you want to load VSTs inside of Rack, you'll have to get [VCV Host](https://l
 
 ## How do I interface VCV with Eurorack hardware?
 
-Pretty much the only way to do it directly is with either the Expert Sleepers ES-8, ES-9, or with an audio interface that supports ADAT and the ES-3 and ES-6 or [Boredbrain Optx](https://www.perfectcircuit.com/boredbrain-optx.html). This is going to largely depend on your setup and what you're looking for - if you want to hook up normal line-level gear to normal audio in's and out's using a traditional audio interface with ADAT is proabably the better option. If you're seeing this and going "Holy shit that's expensive!" then, yep, welcome to eurorack.
+Pretty much the only way to do it directly is with either the Expert Sleepers ES-8, ES-9, or with an audio interface that supports ADAT and the ES-3 and ES-6 or [Boredbrain Optx](https://www.perfectcircuit.com/boredbrain-optx.html). This is going to largely depend on your setup and what you're looking for - if you want to hook up normal line-level gear to normal audio in's and out's using a traditional audio interface with ADAT is probably the better option. If you're seeing this and going "Holy shit that's expensive!" then, yep, welcome to eurorack.
 
 You'll also probably want a MIDI→CV interface. I like the FH-2, but there's a million options out there. Mutable's Yarns (or clones of it) is nice too.

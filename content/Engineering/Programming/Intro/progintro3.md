@@ -12,7 +12,7 @@ As mentioned above, you'll be learning both Python and C. This means we need to 
 
 {{< tab "Arch Linux" >}}
 
-Run `pacman -Syu gcc python`, then you'll want to grab `visual-studio-code-bin` from the AUR. you should have `yay` installed, so this should be as simple as `yay -S visual-studio-code-bin`. 
+Run `pacman -Syu gcc python`, then you'll want to grab `visual-studio-code-bin` from the AUR. You should have `yay` installed, so this should be as simple as `yay -S visual-studio-code-bin`. 
 
 [TODO] code plugins
 
@@ -64,7 +64,7 @@ and save it as` hello.py`. Again navigate to where it is stored and now just run
 
 Alright, now that we know we can write and run code in both languages, we also need to make sure we can *debug* code. This is sort of jumping the gun a bit, but it will help to learn if you can actually see things run step-by-step.
 
-Normally, when you run code it runs everything as fast as it can, this is great when it works, but bad when it doesn't and you need to know why. So, let's start with python. Go ahead and make a new file (ctrl+n,ctrl+s) and name it `testdebug.py`. Go ahead and put the following in that file:
+Normally, when you run code it runs everything as fast as it can, this is great when it works, but bad when it doesn't, and you need to know why. So, let's start with python. Go ahead and make a new file (ctrl+n,ctrl+s) and name it `testdebug.py`. Go ahead and put the following in that file:
 
 ```python
 my_friends = ["Kiri","Soatok","Loial","Ashlyn","Cendyne","Dusk","Saphire","Cadey","Lint"]
@@ -81,7 +81,7 @@ Now, you can run this code from within VSCode by (Ctrl+F5) or going to "Run"→"
 
 ![programming running in terminal](/eng/code/debug1.webp)
 
- Now, this bug is easy enough to spot, on line 5, "Soatok" is spelled incorrectly. Still, let's see what happens if we debug. This time, go ahead and run *with* debugging (F5) or "Run" → "Start Debugging". You should notice the exact same thing, the program runs and finishes. What gives! Well, we need to set a **breakpoint**. Next to line 1, click to the left of the line number and you should get a red dot. Now, start debugging again (F5) and you should see the red dot get surounded by a pentagon and some what look like music controls at the top of your screen:
+ Now, this bug is easy enough to spot, on line 5, "Soatok" is spelled incorrectly. Still, let's see what happens if we debug. This time, go ahead and run *with* debugging (F5) or "Run" → "Start Debugging". You should notice the exact same thing, the program runs and finishes. What gives! Well, we need to set a **breakpoint**. Next to line 1, click to the left of the line number and you should get a red dot. Now, start debugging again (F5) and you should see the red dot get surrounded by a pentagon and somewhat look like music controls at the top of your screen:
 
 ![debugger starting](/eng/code/debug2.webp)
 
@@ -91,7 +91,7 @@ If you hover over the controls you'll see that, from left to right, they say "Co
 
 Go ahead and click it a few more times. You should see it iterate over each name, but not ever hit the `print("WARNING: FULL OF PUNS")`
 
-You should also notice on the right, that as you step though, there's a list of variables and what their current values are. With this you can actually see the name that will be printed next before it does so.
+You should also notice on the right, that as you step though, there's a list of variables and what their current values are. With this, you can actually see the name that will be printed next before it does so.
 
 <img src="/eng/code/debug4.webp" style="zoom:50%;" />
 
@@ -101,7 +101,7 @@ Now, let's do the same thing with C. Again make a new file with (Ctrl+n), follow
 
 {{< speech math big >}}
 
-You're about to see code written in the C programming language for the first time. Unlike the Python you've seen up until now, it's not really digestable without having some prior experiance. I do encourage you to try, but don't get hung up on it. I'll show you how to read it in upcoming sections.
+You're about to see code written in the C programming language for the first time. Unlike the Python you've seen up until now, it's not really digestible without having some prior experience. I do encourage you to try, but don't get hung up on it. I'll show you how to read it in upcoming sections.
 
 {{< /speech >}}
 
@@ -138,13 +138,13 @@ int main(int argc, char const *argv[])
 
 {{< tip >}}
 
-Heads up! `strcmp()`, the function that compares strings (strings are what we call a sequence of characters in programming), is a bit odd in that it **doesn't** just check if they're equal and and return 1 (true) if they are and return 0 (false) if they're not. It acutally returns 0 if they **are** equal, a number greater than 0 (any number that's not 0 is "true" in C) if the first non-matching letter has a greater ASCII value, and less than 0 if it has a lower ASCII value. </br></br>Confused? Yeah, so is everyone else.</br></br>This is very counter intuitive to new programmers, but, this is why on line 17 there's an `!` (the sign for a logical `not`) which in this context basically means not-anything-other-than-zero, so `not-true`. It also would have been valid to switch the prints around, but this is just as confusing.</br></br>Anyway, don't worry about it. The gist is that this program does the same thing as the python one, it's just C and so has a lot more moving parts you'll need to lean how work.
+Heads up! `strcmp()`, the function that compares strings (strings are what we call a sequence of characters in programming), is a bit odd in that it **doesn't** just check if they're equal and return 1 (true) if they are and return 0 (false) if they're not. It actually returns 0 if they **are** equal, a number greater than 0 (any number that's not 0 is "true" in C) if the first non-matching letter has a greater ASCII value, and less than 0 if it has a lower ASCII value. </br></br>Confused? Yeah, so is everyone else.</br></br>This is very counterintuitive to new programmers, but, this is why on line 17 there's an `!` (the sign for a logical `not`) which in this context basically means not-anything-other-than-zero, so `not-true`. It also would have been valid to switch the prints around, but this is just as confusing.</br></br>Anyway, don't worry about it. The gist is that this program does the same thing as the python one, it's just C and so has a lot more moving parts you'll need to lean how work.
 
 {{< /tip >}}
 
 You know the drill now. Press (Ctrl+F5) and see if it runs. This time, it may ask you what compiler you want to use - for now, we'll just use GCC.
 
-Then, set a break point - this time probablyon line 13, `for (int i = 0; ...`, and run it *with* debugging and step through.
+Then, set a break point - this time probably on line 13, `for (int i = 0; ...`, and run it *with* debugging and step through.
 
 ## Extra Things To Make Life Easier
 
@@ -162,7 +162,7 @@ Before we actually talk about the basic building blocks of programming - variabl
 
 <u>Programming isn't about writing code.</u>
 
-The vast majority of a good programmer's time is spent reading documention, reseaching how others have solved the same or similar problems, and finding problems in the code they've written (so, testing and debugging).
+The vast majority of a good programmer's time is spent reading documentation, researching how others have solved the same or similar problems, and finding problems in the code they've written (so, testing and debugging).
 
 So, if as you're reading you're thing "But, man, this sure is a lot of reading, when do we get to the **good stuff**", then, hate to tell 'ya, this *is* the good stuff.
 
@@ -170,7 +170,7 @@ So, if as you're reading you're thing "But, man, this sure is a lot of reading, 
 
 Like I said, we need to dive into C so you can understand how some of the lower-level things work - pointers, bit manipulations, etc.
 
-Unfortuantely, C is a massive cluster fuck and seemingly exists exclusively to make you fuck up. It is brutally difficult to write safe code in, with even it's standard library functions known to have security problems unless used very carefully. So even though I don't expect you to understand these ~~fully~~ really at all, I want to show you some of why C is hard and let you know that even people with years of experiance writting in C still ocassionaly make really stupid mistakes.
+Unfortunately, C is a massive clusterfuck and seemingly exists exclusively to make you fuck up. It is brutally difficult to write safe code in, with even it's standard library functions known to have security problems unless used very carefully. So even though I don't expect you to understand these ~~fully~~ really at all, I want to show you some of why C is hard and let you know that even people with years of experience writing in C still occasionally make really stupid mistakes.
 
 ## Example 1: Out-Of-Bound Doesn't Always Fail
 
@@ -190,7 +190,7 @@ int main()
 
 which is **very** wrong because arrays start at 0 (so these arrays have 3 items, for example at `my_array[0]`,`my_array[1]`, and `my_array[2]`  - more on this later). This might make your code crash outright, but it might still *sort of* work, just when you write 42 to `my_array[3]` it might be clobbering the value of some other variable, maybe setting `my_other_array[0]` to 42, maybe something else entirely. 
 
-This is really, really bad. Now, modern tools try to prevent this and actually include some of their own code to try to stop you from doing this *particular* fuck up, but it's not bullet proof. In pretty much any other language you could either be 100% sure it will crash outright (again, this is better in this case) or it will just refuse to run at all.
+This is really, really bad. Now, modern tools try to prevent this and actually include some of their own code to try to stop you from doing this *particular* fuck up, but it's not bulletproof. In pretty much any other language, you could either be 100% sure it will crash outright (again, this is better in this case) or it will just refuse to run at all.
 
 ## Example 2: Strings should be Null-Terminated (Usually)
 
@@ -235,7 +235,7 @@ if (a == b){
 
 {{< /columns >}}
 
-Well, unless your intent was to check if b was anything other than 0, it's not the one on the left. As with most programming languages, C uses one equal sign to **assign** a value, and two equal signs to **compare** values. Unlike most languages, C will let you write and compile code with the assignment where the comparison sholud be, without any real, intentional comparison taking place.
+Well, unless your intent was to check if b was anything other than 0, it's not the one on the left. As with most programming languages, C uses one equal sign to **assign** a value, and two equal signs to **compare** values. Unlike most languages, C will let you write and compile code with the assignment where the comparison should be, without any real, intentional comparison taking place.
 
 ## But Wait, There's More!
 
@@ -246,9 +246,9 @@ There's many other annoyances.
 
 * It's really hard to prevent something from accessing memory you don't want it to in the same program
 
-* There is no boolen (True / False) type built in, you actually have to `#include <stdbool.h>`
+* There is no boolean (True / False) type built in, you actually have to `#include <stdbool.h>`
 
-* The compliation process requires functions be declared before they're called, basically:
+* The compilation process requires functions be declared before they're called, basically:
 
   ```c
   int main(){
@@ -266,17 +266,17 @@ There's many other annoyances.
 
   will fail because `add()` is defined **after** main. To fix this, you're supposed to add `int add(int a, int b);` to a different file, called a header file, and then use `#include whatever.h` at the top of the `whatever.c` file. This is really annoying, and requires the programmer to change things in two places if the definition of a function ever changes.
 
-* The default types are bad. You've seen me use `int`, `int8_t`, `uint8_t`, `char`, etc. so far. These are types. C's pretty much suck. The basic `int` may varry in how big of numbers it can handle depending on the platform. `int8_t` is always 8-bits, but it requires you `#include <stdint.h>`. On top of this, there's no string type, you only get arrays of characters. This is really annoying to work with.
+* The default types are bad. You've seen me use `int`, `int8_t`, `uint8_t`, `char`, etc. so far. These are types. C's pretty much suck. The basic `int` may vary in how big of numbers it can handle, depending on the platform. `int8_t` is always 8-bits, but it requires you `#include <stdint.h>`. On top of this, there's no string type, you only get arrays of characters. This is really annoying to work with.
 
 * `a = b = c = d = e;` is valid code, for some fucking reason. 
 
 ... I could keep going, and list some much more technical problems there's absolutely no chance you'd understand yet. But my point is this: **C is hard**, and you will get frustrated because of small errors that are hard to figure out what *exactly* you did wrong. Missing a single semicolon on the end of a line will cost you a few hours of your life at some point. This struggle will make you a better programmer, but you will definitely hate it.
 
-C has also been the dominant programming lanuguage for low level programming for 50 years. That's one hell of a legacy, and only now in the last few years is something *finally* starting to compete: Rust. Rust, as a language, is still really hard to write in - espically for begineers with no prior knowledge - but it at least doesn't let you make the crazy fuckups C does. I'll go into why you'd ever want to use either later, but for now, just trust me, no matter how bad is sucks, you have to learn C.
+C has also been the dominant programming language for low level programming for 50 years. That's one hell of a legacy, and only now in the last few years is something *finally* starting to compete: Rust. Rust, as a language, is still really hard to write in - especially for beginners with no prior knowledge - but it at least doesn't let you make the crazy fuckups C does. I'll go into why you'd ever want to use either later, but for now, just trust me, no matter how bad is sucks, you have to learn C.
 
 {{< details "Chapter 10.ψ? ">}}
 
-ψ is a fun number a bit bigger than π. 🤷
+ψ is a fun number, a bit bigger than π. 🤷
 
 {{< quote "[Reciprocal Fibonacci Constant, Wikipedia](https://en.wikipedia.org/w/index.php?title=Reciprocal_Fibonacci_constant)" >}}
 

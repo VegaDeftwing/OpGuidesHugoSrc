@@ -1,6 +1,6 @@
-# Other cool things that I want to promote but don't fit elsewhere so I'm making this list here:
+# Other cool things that I want to promote but don't fit elsewhere, so I'm making this list here:
 
-* [Brimestone Valley Mall](https://podcastaddict.com/podcast/2486564)
+* [Brimstone Valley Mall](https://podcastaddict.com/podcast/2486564)
 
   > The year is 1999. Lurking somewhere between Hot Topic and the food court, five misfit demons from Hell kill time inciting sin in a suburban shopping mall. When the lead singer of their band goes mysteriously missing, the demons only have two weeks to find him before they play the biggest gig of the millennium - or face the wrath of Satan herself.
 
@@ -12,13 +12,13 @@
 
   > "**A Space Bucket is a DIY indoor garden** that is made by stacking plastic containers alongside lighting (CFL or LED) and airflow (PC or other fans). **It is an enclosed growth chamber that can be used to garden many kinds of plants**"
   >
-  > "The [/r/SpaceBuckets subreddit](https://www.reddit.com/r/SpaceBuckets) is our main forum"
+  > "The [/r/SpaceBuckets Subreddit](https://www.reddit.com/r/SpaceBuckets) is our main forum"
   
-  * Similar, but like 100x more high tech, [Encapsulated Enviromental System](https://azumamakoto.com/3705/)
+  * Similar, but like 100x more high-tech, [Encapsulated Environmental System](https://azumamakoto.com/3705/)
   
 * [Stones on are.na (idk, I just like them okay...)](https://www.are.na/martin-murphy/stones)
 
-* [Hey, and while we're at it how about growing Moss too](http://ifyoulived.org/moss.html)
+* [Hey, and while we're at it, how about growing Moss too](http://ifyoulived.org/moss.html)
 
 * [Neat (furry) Visual Novel.](https://play.google.com/store/apps/details?id=klace.majorminor.androidmv&hl=en_US)
 
@@ -60,9 +60,9 @@
 
 * [I Spent 11 Years Working on This Line Rider Track by David Lu](https://delu.medium.com/i-spent-11-years-working-on-this-line-rider-track-96742fc0b709)
 
-* [LIFE BEYOND II: The Museum of Alien Life (Youtube, MelodySheep)](https://www.youtube.com/watch?v=ThDYazipjSI)
+* [LIFE BEYOND II: The Museum of Alien Life (YouTube, MelodySheep)](https://www.youtube.com/watch?v=ThDYazipjSI)
 
-  > A weird video with really good CGI about potential alien life
+  > A weird video with fantastic CGI about potential alien life
   
 * [Wild House Pilot](https://www.youtube.com/watch?v=fU4I79HubyM)
 
@@ -88,17 +88,17 @@
 
 * [Hexagonal Chess (tic-80, HexChess)](https://tic80.com/play?cart=1496)
 
-  > While I'm at it, there [5D Chess With Multiverse Time Travel](https://store.steampowered.com/app/1349230/5D_Chess_With_Multiverse_Time_Travel/) too.
+  > While I'm at it, their [5D Chess With Multiverse Time Travel](https://store.steampowered.com/app/1349230/5D_Chess_With_Multiverse_Time_Travel/) too.
 
-* [A weird astroids clone (tic-80, Ship'em up)](https://tic80.com/play?cart=1495) 
+* [A weird asteroids clone (tic-80, Ship'em up)](https://tic80.com/play?cart=1495) 
 
 * [I thought I made a hard game and then speedrunners totally destroyed it. Here is what that feels like. (Zukalous, Imgur)](https://imgur.com/t/speedrunning/zDoWihd)
 
-* [TEXTREME - a *juicy* text processor, with a rythm mode (Itch.io)](https://ash-k.itch.io/textreme)
+* [TEXTREME - a *juicy* text processor, with a rhythm mode (Itch.io)](https://ash-k.itch.io/textreme)
 
 * [An Orbit Map of the Solar System (Tabletop Whale)](http://tabletopwhale.com/2019/06/10/the-solar-system.html)
 
-* [A Thread from @foone about how cat girls can weard headphones](https://twitter.com/Foone/status/1338302831950921729)
+* [A Thread from @foone about how cat girls can wear headphones](https://twitter.com/Foone/status/1338302831950921729)
 
 * [A Twitter Thread about PayPal blocking all transactions with the word "Tardigrade"](https://twitter.com/ArchieMcPhee/status/1304434532293046272)
 

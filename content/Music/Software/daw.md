@@ -2,11 +2,11 @@
 
 <script>    document.getElementById("softMenu").open = true;</script>
 
-A **D**igital **A**udio **W**orkstations is software that allows you to record and edit audio, host and play digital instruments, arrange the parts in a time line, and mix the audio together. The most common DAWs you'll see are Ableton Live (Often called just "Ableton" or "Live") and FL Studio, but there are plenty of other options as well, many of which are listed below.
+A **D**igital **A**udio **W**orkstations is software that allows you to record and edit audio, host and play digital instruments, arrange the parts in a timeline, and mix the audio together. The most common DAWs you'll see are Ableton Live (Often called just "Ableton" or "Live") and FL Studio, but there are plenty of other options as well, many of which are listed below.
 
 The definition of a DAW is a bit fuzzy, as tools like VCV Rack and Audacity- both of which we've seen previously- have features that make them very DAW like and can be used to make full tracks (assuming you have hardware instruments to record into Audacity)
 
-Before you look at this list I want to stress that every DAW has its issues.
+Before you look at this list, I want to stress that every DAW has its issues.
 
 [TODO] why are none of these good
 
@@ -84,7 +84,7 @@ lil' aside: Ableton makes organizing VSTs a tad awkward, so you should know it w
 
 * Expensive, paid updates
 
-  * MPE works beautifully though
+  * MPE works beautifully, though
 * Not as many built in devices as Ableton
 * Better multi monitor support than Ableton
 * Not as popular as Ableton
@@ -107,7 +107,7 @@ lil' aside: Ableton makes organizing VSTs a tad awkward, so you should know it w
 
 **Fruity Loops Studio** is a great DAW. If you're more into hand arranging than recording your MIDI controller for writing songs: FL Studio is *perfect.* The piano roll is so damn good that it will make you hate the piano roll in everything else. Unfortunately, hardware controller support isn't as good as Ableton, the UI is a bit cluttered, and audio quantization just isn't there... well? sorta. There is a paid plugin for pitch correction that kicks the ass out of everything else because it's built into the already awesome piano roll.
 
-If we're being honest, FL is where most EDM producers get their start with a pirated copy. I'm not condoning the piracy, but I'm certainly not about to judge if you want to try before you buy. It's a damn nice DAW, and if I didn't have hardware that works particularly well with Ableton I'd probably use it.
+If we're being honest, FL is where most EDM producers get their start with a pirated copy. I'm not condoning the piracy, but I'm certainly not about to judge if you want to try before you buy. It's a damn nice DAW, and if I didn't have hardware that works particularly well with Ableton, I'd probably use it.
 
 {{< columns3 >}}
 
@@ -117,7 +117,7 @@ If we're being honest, FL is where most EDM producers get their start with a pir
 
 - One time purchase, lifetime free updates
 - FUCKING AMAZING PIANO ROLL
-- On more expensive versions espically, the built in devices are awesome
+- On more expensive versions especially, the built-in devices are awesome
 - Has a good mobile app, for working on the go
 
 <--->
@@ -142,7 +142,7 @@ If we're being honest, FL is where most EDM producers get their start with a pir
 
 ### Reaper
 
-**Reaper** is incredibly feature full and probably *technically* the best DAW but it's user interface is pretty bad and requires a lot of menu diving, to the point where in my opinion it's totally unusable. It does offer the ability to view what you've put into your piano roll as actual sheet music and It's hugely customizable, with multiple user-facing programming options- ReaScript and JSFX. If you're already a highly technical user and don't mind getting your hands dirty with code, need a sheet music view, or want something with incredibly low CPU overhead, Reaper is probably your best choice.
+**Reaper** is incredibly feature full and probably *technically* the best DAW but its user interface is pretty bad and requires a lot of menu diving, to the point where in my opinion it's totally unusable. It does offer the ability to view what you've put into your piano roll as actual sheet music and It's hugely customizable, with multiple user-facing programming options- ReaScript and JSFX. If you're already a highly technical user and don't mind getting your hands dirty with code, need a sheet music view, or want something with incredibly low CPU overhead, Reaper is probably your best choice.
 
 {{< columns3 >}}
 
@@ -168,9 +168,9 @@ If we're being honest, FL is where most EDM producers get their start with a pir
 
 * Sub menus with sub menus
 * Option overload
-* Almost total lack of built in instruments and effects
+* Almost total lack of built-in instruments and effects
 * Kinda shit piano roll
-* lack of bulit in support for common MIDI controllers
+* lack of built-in in support for common MIDI controllers
 * Kinda Ugly, even with themes
 
 {{< /columns3 >}}
@@ -211,11 +211,11 @@ If we're being honest, FL is where most EDM producers get their start with a pir
 
 ### VCV
 
-**VCV** isn't really DAW, so lacks good ways to do automation and complex sequencing, at least without work arounds. For generative music, it's still probably your best bet. That said, you can absolutely make awesome tracks in it, though they really need to be performed and recorded live. This means you may need to do multiple takes if you accidently mess something up while playing.
+**VCV** isn't really DAW, so lacks good ways to do automation and complex sequencing, at least without workarounds. For generative music, it's still probably your best bet. That said, you can absolutely make awesome tracks in it, though they really need to be performed and recorded live. This means you may need to do multiple takes if you accidentally mess something up while playing.
 
-For good performances, you'll probably want a MIDI controller with a lot of knobs, which can be epensive or large. Ideally this could be done via banks of knobs that can be changed in hardware (like the Behringer BCR2000 and X-Touch Mini or Faderfox EC4) but this has also been reported to not work totally smoothly.
+For good performances, you'll probably want a MIDI controller with a lot of knobs, which can be expensive or large. Ideally this could be done via banks of knobs that can be changed in hardware (like the Behringer BCR2000 and X-Touch Mini or Faderfox EC4) but this has also been reported to not work totally smoothly.
 
-VCV may also lead you down the path of Eurorack or a hybrid Eurorack and VCV setup, and that is stupid epensive.
+VCV may also lead you down the path of Eurorack or a hybrid Eurorack and VCV setup, and that is stupid expensive.
 
 {{< columns3 >}}
 
@@ -237,7 +237,7 @@ VCV may also lead you down the path of Eurorack or a hybrid Eurorack and VCV set
 * Paid modules needed to host VSTs
 * Less ideal for structured songs
   * unless using an external sequencer
-* Eats CPU, a lot of cool modules un-optimized
+* Eats CPU, a lot of cool modules unoptimized
 * It's not really a DAW?
 * Still no support to host VCV as a VST in a 'real' DAW
   * workarounds exist, but they're often awkward
@@ -307,7 +307,7 @@ VCV may also lead you down the path of Eurorack or a hybrid Eurorack and VCV set
 
 **Sunvox** [TODO]
 
-available for free on desktop, paid on moblie 
+available for free on desktop, paid on mobile 
 
 {{< /tab >}}
 
@@ -321,7 +321,7 @@ available for free on desktop, paid on moblie
 
 ### Audacity
 
-**Audacity**, like VCV, isn't a DAW. It's really just an audio editor. It's free and open source, and while the UI isn't great, you'll be hard pressed to find anything better for doing quick edits or recording in a few clips. Full songs *could* be made in audacity, but it's not made for that.
+**Audacity**, like VCV, isn't a DAW. It's really just an audio editor. It's free and open source, and while the UI isn't great, you'll be hard-pressed to find anything better for doing quick edits or recording in a few clips. Full songs *could* be made in audacity, but it's not made for that.
 
 {{< columns3 >}}
 
@@ -349,7 +349,7 @@ available for free on desktop, paid on moblie
 
 {{< columns >}}
 
-Audacity, despite being FOSS, did recently change owners and they should be putting a lot more work into it. There has been some missteps with the community since this change, but overall it should bring good things in the future →
+Audacity, despite being FOSS, did recently change owners and they should be putting a lot more work into it. There have been some missteps with the community since this change, but overall it should bring good things in the future →
 
 <--->
 

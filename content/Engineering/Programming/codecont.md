@@ -18,7 +18,7 @@
 
 ## Part 3, more advanced high level
 
-Modify the original python program to support a pretty cli input in a pretty way to make entries and visulize the data collected, parallelize some things, finally add a config file using yaml
+Modify the original python program to support a pretty CLI input in a pretty way to make entries and visualize the data collected, parallelize some things, finally add a config file using YAML
 
 ## Part 4, getting our toes wet with embedded systems
 
@@ -36,11 +36,11 @@ Finally, let's go back and add a com port to the C code and send data to an Ardu
 
 [Things unlearned (Jamie Brandon)](https://www.scattered-thoughts.net/writing/things-unlearned/)
 
-## Coding Challanges
+## Coding Challenges
 
 Advent of Code
 
-[Obfuscated C programs: Introduction (YouTube)](https://www.youtube.com/watch?v=rwOI1biZeD8) Obvuscated C, https://www.ioccc.org/ 
+[Obfuscated C programs: Introduction (YouTube)](https://www.youtube.com/watch?v=rwOI1biZeD8) Obfuscated C, https://www.ioccc.org/ 
 
 <img src="/eng/ginny.webp" alt="ginny" style="zoom:50%;" />
 

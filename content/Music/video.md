@@ -8,19 +8,19 @@ slug: "Video"
 
 {{< speech throw big >}}
 
-Before anythinge else, I need to crush some hopes and dreams:
+Before anything else, I need to crush some hopes and dreams:
 
-You absolutely should not expect your YouTube or Twitch channel to make it big. Even if you put in the work, invest in good eqipment, and make cool content regularly, and promote the shit out of yourself, it's still a game of luck on if you can go viral and if you can retain any viewership whatsoever after doing so. Even assuming you do, you'll always be one step away from angering the YouTube overlords and having your channel deleted or needing to take a month off to deal with life and finding that you've lost half your audience. The internet has a short attention span.
+You absolutely should not expect your YouTube or Twitch channel to make it big. Even if you put in the work, invest in good equipment, and make cool content regularly, and promote the shit out of yourself, it's still a game of luck on if you can go viral and if you can retain any viewership whatsoever after doing so. Even assuming you do, you'll always be one step away from angering the YouTube overlords and having your channel deleted or needing to take a month off to deal with life and finding that you've lost half your audience. The internet has a short attention span.
 
-On top of all of this, even if you make it big it is impossible to state just how difficult it is to make money on that success. You either need some incerdibly dedicated fans willing to support you on Patreon, to take shilling sponshorships with VPNs and Mobile Games, or try to make your own clothing brand. It's not a good spot to be in.
+On top of all of this, even if you make it big, it is impossible to state just how difficult it is to make money on that success. You either need some incredibly dedicated fans willing to support you on Patreon, to take shilling sponsorships with VPNs and Mobile Games, or try to make your own clothing brand. It's not a good spot to be in.
 
-And, look, I get it. I remember being 14 and wanting to do nothing more than be a pro gammer making money streaming. I know you're thinking:
+And, look, I get it. I remember being 14 and wanting to do nothing more than be a pro gamer making money streaming. I know you're thinking:
 
 {{< speech right furby >}}
 If they can do this, then I can too!
 {{< /speech >}}
 
-And, yeah, you could - but the number of hours it takes and drudgery of it is legitimately worse than going to school for two engieering degrees like I did. Video editing for multiple hours every day will drain your soul. Streaming to an audience of none for a year while you get started isn't any better.
+And, yeah, you could - but the number of hours it takes and drudgery of it is legitimately worse than going to school for two engineering degrees like I did. Video editing for multiple hours every day will drain your soul. Streaming to an audience of none for a year while you get started isn't any better.
 
 <u>I'm not saying you can't do it</u>, I'm saying you better have something original to bring to the table and be willing to actually put in the work. There's just not room for another Minecraft YouTuber right now.
 
@@ -28,11 +28,11 @@ And, yeah, you could - but the number of hours it takes and drudgery of it is le
 
 ## Cameras
 
-If you're like most people, the best camera you own is probably you're phone camera. You *can* use something like [DroidCam](https://www.dev47apps.com) to use your phone camera, but this actually has a multitude of negative side effects - most notably your phone may not be able to sustain having the camera open without getting uncomfortably hot. So, what should you get?
+If you're like most people, the best camera you own is probably your phone camera. You *can* use something like [DroidCam](https://www.dev47apps.com) to use your phone camera, but this actually has a multitude of negative side effects - most notably, your phone may not be able to sustain having the camera open without getting uncomfortably hot. So, what should you get?
 
 I don't want to recommend any one product or do a good / better / best with links as that will surely get out of date. What I can say is *do not* shop by resolution. A lower resolution camera with a bigger sensor and good lens will absolutely wreck a lower end camera. So, what you should really look for is video examples and see how what you're looking at actually performs.
 
-There is generally three tiers of camera setups:
+There are generally three tiers of camera setups:
 
 **Worst:** Literally any Logitech Webcam
 
@@ -58,17 +58,17 @@ This may sound obvious, but it's no as simple as "Oh! They're Phillips Hue™ Th
 
 2. Are There enough, diffused, light sources
 
-*Normally*, you'll want to have a lot of diffusion of light in your room. This means that light gets bounced around a lot and there's a lot of ways for the light to reach the subject (probably your face). This is what those big umbrella and tent looking things on old photo booth setups are for. In a bedroom-recording setup, a good middle ground is to just use a boat load of lamps and small lights. If you can get away with using diffusion material and special lights, go for it.
+*Normally*, you'll want to have a lot of diffusion of light in your room. This means that light gets bounced around a lot and there are a lot of ways for the light to reach the subject (probably your face). This is what those big umbrella and tent looking things on old photo booth setups are for. In a bedroom-recording setup, a good middle ground is to just use a boat load of lamps and small lights. If you can get away with using diffusion material and special lights, go for it.
 
 {{< speech big >}}
 
-I found hanging up some of those string light LED edison bulbs (like you'd see at a wedding) on the ceiling works well as an alternative to a softbox. It's so many point lights that it adds up to a similar effect- albeit with the downside that you can't move them around.
+I found hanging up some of those string light LED Edison bulbs (like you'd see at a wedding) on the ceiling works well as an alternative to a softbox. It's so many point lights that it adds up to a similar effect- albeit with the downside that you can't move them around.
 
 {{< /speech >}}
 
 3. Do you want lighting to set a mood {{< smalltext >}} ... and are you committed to it?{{< /smalltext >}}
 
-Breaking the rules of the above, you might want to use lighting to your benefit to change the mood. Maybe use red lighting when playing a horror game, or blue when playing a game under water. **However,** before you commit to actually recording with a different colored light, you should decide if you want to actually do it with real lights or if you'd rather just edit the video's color and tone in post.
+Breaking the rules of the above, you might want to use lighting to your benefit to change the mood. Maybe use red lighting when playing a horror game, or blue when playing a game underwater. **However,** before you commit to actually recording with a different colored light, you should decide if you want to actually do it with real lights or if you'd rather just edit the video's color and tone in post.
 
 ## Voice
 
@@ -82,7 +82,7 @@ For the people who don't want to get a full background in audio production but w
 6. You'll want a pop filter on your mic to remove the sound of 'Puh', 'Buh', 'Kuh', - the sounds that blow air out.
 7. You'll want a De-Esser to chill out the 'S' sounds.
 8. Don't over use the De-Esser or you'll end sound like you have a Lisp.
-9. You'll Want a compressor to chill out peaks and bring up quiet parts.
+9. You'll want a compressor to chill out peaks and bring up quiet parts.
 10. Don't rely on the compressor to prevent *all* peaks or handle you being further from the mic. Use a limiter if you have to.
 11. EQ. EQ. EQ. The biggest difference you can make to your sound (and to make a bad mic sound good) is to EQ.
 12. Don't over do it with the EQ.
@@ -97,10 +97,10 @@ Okay, so, what to actually do for each? First, grab the ReaPlugs VST plugin pack
 4: Be excited and talk like you're a radio talk show host.</br>
 5: Buy a mic arm. Cheap ones are like \$15.</br>
 6: Buy a pop filter - though a decent mic probably comes with one.</br>
-7 & 8: Use any De-Essing plugin you want. These can either run live or be applied in post. See [How To Remove Sibilance From Your Live Streams (YouTube, Atomic Overdrive)](https://www.youtube.com/watch?v=oAxh1mB6WUk). You can use ReaXComp if you think you know what you're doing. </br>
+7 & 8: Use any De-Essing plugin you want. These can either run live or be applied in post. See [How To Remove Sibilants From Your Live Streams (YouTube, Atomic Overdrive)](https://www.youtube.com/watch?v=oAxh1mB6WUk). You can use ReaXComp if you think you know what you're doing. </br>
 9 & 10: Compression - Use literally any compressor. Ratio of 3 to 4, threshold around -20dB, 5-ish ms attack, release around 80ms. Apply any gain needed **before** the compressor. Use ReaComp, not OBS's, as OBS's is a PITA to see if it's working.</br>
 11 & 12: EQ- See [Reaper Equalizer Obs Studio For Better Voice Quality (YouTube, PlentAZach)](https://www.youtube.com/watch?v=PoEUcT9ytYU). Use ReaEQ.</br>
-13: De-Noise - If you've used Discord, you know what the de-noising does, and that it's basically magic. In OBS there should be a built in Noise Suppression Audio Filter. Google how to set that up. Note, that if you don't have an newer Nvidia GPU that can offload this it might be sort of intense on your CPU. </br>
+13: De-Noise - If you've used Discord, you know what the de-noising does, and that it's basically magic. In OBS there should be a built-in Noise Suppression Audio Filter. Google how to set that up. Note, that if you don't have a newer Nvidia GPU that can offload this it might be sort of intense on your CPU. </br>
 14: Sidechain - See [Keep your Stream Sound BALANCED with OBS Audio Ducking (YouTube, EposVox)](https://www.youtube.com/watch?v=1Te2JERlInQ) </br>
 15: Reflections - See [3 Steps to SOUND like a PRO on Stream! (YouTube, EposVox)](https://youtu.be/6U8sXU-McL4?t=383) - but generally, just put a lot of weird shaped shit everywhere in the room. Clutter is good in this case. </br>
 
@@ -124,8 +124,8 @@ These settings aren't necessarily the best for quality, but they should prevent 
 
 | Name & Link                                                  | Description                                                  | Screenshot/Demo                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [music_visualizer (Github)](https://github.com/bradleybauer/music_visualizer) | Shader viewer / music visualizer for Windows and Linux       | Too many variations to easily show, look at the github repo. |
-| [Soundshader (Github)](https://github.com/soundshader/soundshader.github.io) | Uses fancy 'AutoCorrelation' - info on the github page       | https://soundshader.github.io                                |
+| [music_visualizer (GitHub)](https://github.com/bradleybauer/music_visualizer) | Shader viewer / music visualizer for Windows and Linux       | Too many variations to easily show, look at the GitHub repo. |
+| [Soundshader (GitHub)](https://github.com/soundshader/soundshader.github.io) | Uses fancy 'AutoCorrelation' - info on the GitHub page       | https://soundshader.github.io                                |
 | [Metagroove (Itch.io)](https://marumari.itch.io/metagroove)  |                                                              |                                                              |
 | [Signalizer VST](https://www.jthorborg.com/index.html?ipage=signalizer) | Listed above in Free VSTs, but it's so good I'm listing it here again. An amazing VST Oscilliscope, Vectorscope, and general analysis tool, looks very good too. Has full screen modes. |                                                              |
 
@@ -135,7 +135,7 @@ Some people also use hardware such as the [Sleepy Circuits 'Hypno'](https://slee
 
 On very rare occasion you may also see some outright analog video synthesis, but this is generally very, very expensive. Just search [YouTube for 'Analog Video Synthesizer'](https://www.youtube.com/results?search_query=analog+video+synthesizer).
 
-I also recomend making your visuals in weirder ways. Here are some videos with visuals I really like:
+I also recommend making your visuals in weirder ways. Here are some videos with visuals I really like:
 
 * [Max Cooper - Aleph 2 (Official Video by Martin Krzywinski)](https://www.youtube.com/watch?v=tNYfqklRehM)
 

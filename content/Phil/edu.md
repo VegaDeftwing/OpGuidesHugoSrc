@@ -40,17 +40,17 @@ slug: "Education"
 
 First and foremost, they're just *creepy*. Taking tests digitally but in person is fine with me because I know those computers are secure and dedicated to the single use. Respondus and Proctorio effectively amount to spyware that students are being asked to install onto their personal devices.
 
-Second, they're both insecure. while [this article (soatok.blog)](https://soatok.blog/2020/09/12/edutech-spyware-is-still-spyware-proctorio-edition/ ) written by a friend of mine focuses on Proctorio, just doing a tiny bit of digging will turn up plenty on Respondus as well. So now it's not just spyware, but insecure spyware.
+Second, they're both insecure. While [this article (soatok.blog)](https://soatok.blog/2020/09/12/edutech-spyware-is-still-spyware-proctorio-edition/ ) written by a friend of mine focuses on Proctorio, just doing a tiny bit of digging will turn up plenty on Respondus as well. So now it's not just spyware, but insecure spyware.
 
 Third, they're a bit hyper-sensitive ([Vice](https://www.vice.com/en/article/88anxg/students-have-to-jump-through-absurd-hoops-to-use-exam-monitoring-software), [voiceofsandiego.org](https://www.voiceofsandiego.org/topics/education/college-students-are-learning-hard-lessons-about-anti-cheating-software/)) . I've read some articles where students even talking to themselves (which a lot of people do when alone and thinking hard!) have been flagged because the system thinks they're talking to someone else in the room.
 
 This sensitivity is particularly bad when you consider many of the datasets used to train the algorithms that these programs use give the systems a [racial bias (technologyreview.com)](https://www.technologyreview.com/2020/08/07/1006132/software-algorithms-proctoring-online-tests-ai-ethics/).
 
-I also worry about my strange hardware setup. If these systems are looking for 'strange' I think my system with 30 usb devices, including 2 webcams, 2 mice, and 3 HID keyboards, would fit that bill. I don't want to have to rip my setup apart to take a test.
+I also worry about my strange hardware setup. If these systems are looking for 'strange' I think my system with 30 USB devices, including 2 webcams, 2 mice, and 3 HID keyboards, would fit that bill. I don't want to have to rip my setup apart to take a test.
 
 They also depend on a strong internet connection. If I have a brief frame drop while my webcam is on and I'm taking a test, you may notice I freeze up and then start moving again. Responds may think I'm actively tampering with my webcam and tell you I'm doing something nefarious.
 
-Fourth, all of the options I've seen (Proctorio, Respondus, etc.) are primarily available for Windows only, with some having OSx clients but none of them supporting Linux, which is the OS I normally use. Sure, I *can* boot into Windows, but some other students may be using chromebooks or only have Linux on their system.
+Fourth, all the options I've seen (Proctorio, Respondus, etc.) are primarily available for Windows only, with some having OSx clients but none of them supporting Linux, which is the OS I normally use. Sure, I *can* boot into Windows, but some other students may be using chromebooks or only have Linux on their system.
 
 Finally, there's a bit of a normalization of spyware that education using these tools can cause. This is bad for any student, but it's especially bad for CS and CE students who, lacking real ethics education at [My University], see this as an example. This makes software that has no right to exist look acceptable. For 'normies' it just further normalizes a category of software which is heavily used for domestic abuse, a stat that while I could cite a source for, I can also tell you I've seen for myself multiple times.
 
@@ -78,7 +78,7 @@ The Following is from '[Modern Universities Are An Exercise in Insanity](https:/
 >
 > Remember: this $80,000 is for private tutoring, where individual attention would give you far and away a better and more thorough education than the 300-kids-in-a-lecture-hall style of classes that dominate undergraduate education today.
 >
-> But it can get even cheaper. Let's say you take the general principle of group classes from the university. Say you can find four other people to take all of these other classes with you. Just four. Well that equals out to $680 per class, or $16,000 a person for four years of classes.
+> But it can get even cheaper. Let's say you take the general principle of group classes from the university. Say you can find four other people to take all of these other classes with you. Just four. Well, that equals out to $680 per class, or $16,000 a person for four years of classes.
 
 [How I Got a Computer Science Degree in 3 Months for Less Than $5000](https://miguelrochefort.com/blog/cs-degree/)
 

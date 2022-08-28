@@ -1,6 +1,6 @@
 # Chapter 10½ - Consequences
 
-Programming is awesome. If you get into creative coding you'll be able to use it to make art. You'll likely use it to automate tasks you find boring. If you're like me, you might use it to make your own website or start to make products you intend to sell. That's great. But there are a few things you need to consider as what you make becomes more professional. If you're just making something for you and a few friends, don't worry about it- hack it together and have fun. But as you start making things for a business or that something impact systems that are deeply meaningful in someone's life, you need to be careful.
+Programming is awesome. If you get into creative coding, you'll be able to use it to make art. You'll likely use it to automate tasks you find boring. If you're like me, you might use it to make your own website or start to make products you intend to sell. That's great. But there are a few things you need to consider as what you make becomes more professional. If you're just making something for you and a few friends, don't worry about it- hack it together and have fun. But as you start making things for a business or that something impact systems that are deeply meaningful in someone's life, you need to be careful.
 
 {{< best >}}[The Code I'm Still Ashamed Of](https://www.freecodecamp.org/news/the-code-im-still-ashamed-of-e4c021dff55e/) {{< /best >}} is great. Ever since I read it, it has come back to me every now and then. And sure, it's a pretty extreme example, but it's also a lot easier to put into that kind of situation than you'd probably like to think.
 
@@ -111,7 +111,7 @@ Here's a nice video from TomScott on this topic:
 
 [The Rise of User Hostile Software (Den Delimarsky)](https://den.dev/blog/user-hostile-software/) and [Hacker News Comments](https://news.ycombinator.com/item?id=28291478)
 
-[CAPTCHAs don't prove your human - They prove you're American](https://shkspr.mobi/blog/2017/11/captchas-dont-prove-youre-human-they-prove-youre-american/)
+[CAPTCHAs don't prove you're human - They prove you're American](https://shkspr.mobi/blog/2017/11/captchas-dont-prove-youre-human-they-prove-youre-american/)
 
 [Stop over validating your forms](https://hugotunius.se/2016/01/04/stop-over-validating-your-forms.html)
 

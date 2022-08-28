@@ -2,7 +2,7 @@
 
 Hey, so, you made it. I can't give you a degree. But, I'm proud of you. Even if you skipped a chapter or two, you still put in work to improve yourself and learn something. That's cool.
 
-But, maybe you thinking **"Okay, but now what?"**
+But, maybe you're thinking **"Okay, but now what?"**
 
 ## Integrating other interests
 
@@ -10,7 +10,7 @@ There's a lot more to life than computers and code and electronics and making an
 
 So, make something cool and find other hobbies.
 
-I'm into making music, longboarding, writing, making digital art, gaming, and a whole buncha' things. I often find ways to mix my interests though, and those are the times I have the most fun.
+I'm into making music, longboarding, writing, making digital art, gaming, and a whole buncha' things. I often find ways to mix my interests, though, and those are the times I have the most fun.
 
 Music? Make some synths or effects pedals- distortions are dead simple.
 
@@ -38,7 +38,7 @@ Work life balance is important.
 
 ## Contributing to Open Source
 
-If you do need something to work on though, I really recommend adopting an open source project and giving it some contributions. You might even make some friends along the way.
+If you do need something to work on, though, I really recommend adopting an open source project and giving it some contributions. You might even make some friends along the way.
 
 You don't have to start with something as big and as intimidating as the Linux kernel to contribute. You can do something as easy as fixing typos and adding content to a site like this one - *hint, hint* - or find some actual code repos on GitHub that are actively seeking maintainers and contributors.
 

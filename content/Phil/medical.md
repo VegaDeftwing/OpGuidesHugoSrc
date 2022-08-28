@@ -12,7 +12,7 @@ slug: "Medical"
 
 ## Drugs
 
-Most drugs and prostitution should be legal at the age of 18. However, trafficking obviously not, and drugs must be sold by an individual with a licence to deal and said licence may be revoked if the product is sold with a false label or is tainted.
+Most drugs and prostitution should be legal at the age of 18. However, trafficking obviously not, and drugs must be sold by an individual with a license to deal and said license may be revoked if the product is sold with a false label or is tainted.
 
 <a href="https://www.youtube.com/watch?v=kP15q815Saw">3 Arguments Why Marijuana Should Stay Illegal Reviewed</a> (great video, includes many studies)
 
@@ -38,7 +38,7 @@ The public health threat of COVID-19 should simply make us recognize that we nee
 
 [The MicroCovid Project](https://www.microcovid.org/) is an excellent website to help think about and assess these risks. Using [an intuitive and statistically-grounded model](https://www.microcovid.org/paper/2-riskiness), it has calculators which can model the risk of specific scenarios, and more recently, [risks for households or pods](https://www.microcovid.org/tracker/quickstart).
 
-The data are frequently updated, and the calculator is easy to use. Even if you don't have a specific scenario in mind, trying out this will also illustrate the statistical basis for public health recommendations (masking, social distancing, etc).
+The data are frequently updated, and the calculator is easy to use. Even if you don't have a specific scenario in mind, trying out this will also illustrate the statistical basis for public health recommendations (masking, social distancing, etc.).
 
 Since the guidance has changed repeatedly, and likely will continue to do so as the situation and virus evolve, I really only have one specific recommendation:
 

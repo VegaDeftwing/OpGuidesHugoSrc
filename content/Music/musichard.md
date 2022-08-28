@@ -8,7 +8,7 @@ slug: "Music Hardware"
 
 # Music Hardware
 
-While you *could* make all of your music with just computer, you’ll probably want some tools that make your life as a musician easier and let you explore ideas faster. Like I said back in the {{< button relref="music/effects" color="music" >}}Audio Effects Chapter{{< /button >}}, in my experience, making music depends on a really quick brain to input device feedback loop. Being able to turn a physical knob and mash physical keys will often lead to better results if only because you’re able to try things both faster and by physically interacting with something that you may not have thought of otherwise. It’s why guitars, MPE keyboards, and Eurorack are so great: they all give you a crazy amount of control and expression that is *literally* at your finger tips. The brain to input interface there is just so much better.
+While you *could* make all of your music with just a computer, you’ll probably want some tools that make your life as a musician easier and let you explore ideas faster. Like I said back in the {{< button relref="music/effects" color="music" >}}Audio Effects Chapter{{< /button >}}, in my experience, making music depends on a really quick brain to input device feedback loop. Being able to turn a physical knob and mash physical keys will often lead to better results if only because you’re able to try things both faster and by physically interacting with something that you may not have thought of otherwise. It’s why guitars, MPE keyboards, and Eurorack are so great: they all give you a crazy amount of control and expression that is *literally* at your fingertips. The brain to input interface there is just so much better.
 
 So, while I don't think you should go *crazy* deep into hardware and spend your life savings, there's some things that just make sense to get, like a good keyboard MIDI controller, some knobs, and at least one realllly expressive instrument like a guitar or MPE controller. Something that really lets you *feel* what you're playing.
 
@@ -50,13 +50,13 @@ Note, I’ve drawn a light gray cable along side all the analog signals. This is
 
 {{< /hint >}}
 
-Hopefully that made sense, now let's look at a digital setup. Keep in mind even the most digital of paths needs to end in analog so that there's something for you to hear.
+Hopefully that made sense, now let's look at a digital setup. Keep in mind, even the most digital of paths needs to end in analog so that there's something for you to hear.
 
-Here, a digital keyboard is hooked up to a laptop, presumably running some sort of sound-generating software - Maybe a DAW or VCV Rack. Here I've shown the audio Interface (labeled DAC) as an external box hooked up over USB, but this could also just be internal to the computer. All computers or phones will have an internal audio interface, it's just that most musicians end up attaching their own that offer better features.
+Here, a digital keyboard is hooked up to a laptop, presumably running some sort of sound-generating software - Maybe a DAW or VCV Rack. Here I've shown the audio interface (labeled DAC) as an external box hooked up over USB, but this could also just be internal to the computer. All computers or phones will have an internal audio interface, it's just that most musicians end up attaching their own that offer better features.
 
 ![](/music/digitalsound.svg)
 
-Here, everything on the blue cables is digital, it's only 1's and 0's. The first cable is only carrying information about what note you're playing and knobs you're turning, while the second one (between the laptop and the the DAC) is carrying digital information that represents the audio, but it hasn't yet been turned into an analog signal. That's the job of the DAC. It takes those 1's and 0's and turns it back into an analog signal.
+Here, everything on the blue cables is digital, it's only 1's and 0's. The first cable is only carrying information about what note you're playing and knobs you're turning, while the second one (between the laptop and the DAC) is carrying digital information that represents the audio, but it hasn't yet been turned into an analog signal. That's the job of the DAC. It takes those 1's and 0's and turns it back into an analog signal.
 
 {{< hint warning >}}
 
@@ -78,7 +78,7 @@ The Digitakt is a drum machine that uses samples saved internally as .wav files.
 
 {{< /columns >}}
 
-Though the really confusing thing to beginners is when the device is digital, but has both analog input and outputs. Just like there's a DAC (**D**igital to **A**nalog **C**onverter) for analog output you'll often be working with ADCs or **A**nalog to **D**igital **C**onverters to take your analog input and use it on your computer (or internally, like in a digital guitar pedal)
+Though, the really confusing thing to beginners is when the device is digital, but has both analog input and outputs. Just like there's a DAC (**D**igital to **A**nalog **C**onverter) for analog output, you'll often be working with ADCs or **A**nalog to **D**igital **C**onverters to take your analog input and use it on your computer (or internally, like in a digital guitar pedal)
 
 For the most basic possible example, let's look at a bit-crusher and sample rate reducer pedal. These pedals basically just hook a DAC directly into an ADC, then let you purposely mess up the conversion.
 
@@ -110,7 +110,7 @@ Some people get crazy about sample rate. For a *final recording* there is **abso
 
 {{< smalltext >}}Aliasing is can actually be used to your advantage too, see [VCV Rack Hacks | Aliasing Trick (Jakub Ciupinski, YouTube)](https://www.youtube.com/watch?v=2PZWla3iv4A){{< /smalltext >}}
 
-If you hear someone raving about tube amps, you should know that -yes- they do have a pretty distinct sound, but it's not necessarilly *better*- here's a fun video from JHS Pedals showing this: [Solid State Amps Suck](https://youtu.be/x9TYCes1lTU). For a bit more technical detail see [Tube Amp vs Solid State – What's the Difference?](https://youtu.be/QoGiW2h68k4) from Sweetwater on YouTube. I do think this video might over-sell how good tube-amps can sound and honestly today I don't think there's a huge difference. That said, I do still have a tube amp because there's something that makes the little kid in me happy about seeing a glowing tube
+If you hear someone raving about tube amps, you should know that -yes- they do have a pretty distinct sound, but it's not necessarily *better*- here's a fun video from JHS Pedals showing this: [Solid State Amps Suck](https://youtu.be/x9TYCes1lTU). For a bit more technical detail, see [Tube Amp vs Solid State – What's the Difference?](https://youtu.be/QoGiW2h68k4) from Sweetwater on YouTube. I do think this video might over-sell how good tube-amps can sound, and honestly today I don't think there's a huge difference. That said, I do still have a tube amp because there's something that makes the little kid in me happy about seeing a glowing tube
 
 <a href="https://commons.wikimedia.org/wiki/File:Solton_BV60_Bassamp.jpg#/media/File:Solton_BV60_Bassamp.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Solton_BV60_Bassamp.jpg" alt="Solton BV60 Bassamp.jpg"></a>
 
@@ -156,7 +156,7 @@ While uncommon for 3.5mm cables like most headphones, on a lot of pro audio gear
 
 #### Keys, Buttons, and Switches
 
-#### Potentiometres, Sliders, and Encoders
+#### Potentiometers, Sliders, and Encoders
 
 +Motorized, Wheels
 
@@ -168,7 +168,7 @@ While uncommon for 3.5mm cables like most headphones, on a lot of pro audio gear
 
 DIN, TRS-A, TRS-B, USB, USB host adapters, etc.
 
-clock jitter
+Clock jitter
 
 
 
@@ -176,7 +176,7 @@ clock jitter
 
 
 
-Note, there's a pretty limited number of MPE capable instruments, thankfully there's stil a decent price range between them. This list is not exhaustive, but I think gives a good sampling:
+Note, there's a pretty limited number of MPE capable instruments, thankfully there's still a decent price range between them. This list is not exhaustive, but I think gives a good sampling:
 
 {{< columns >}}
 
@@ -241,7 +241,7 @@ Haken Audio Continuum
 
 [Sixtyfour pixels 'Noodlebox' sequencer](https://six4pix.net/product/noodlebox/)
 
-[Sixtyfour pixels 'Hack-Du-Strum'](https://six4pix.net/hacks-du-strum/), a page feautring mods of their strummable controller, similar to an omnichord
+[Sixtyfour pixels 'Hack-Du-Strum'](https://six4pix.net/hacks-du-strum/), a page featuring mods of their strummable controller, similar to an omnichord
 
 [Sleepy Circuit's "Hypno" CV live visuals box](https://sleepycircuits.com/shop/hypno)
 
@@ -252,7 +252,7 @@ Haken Audio Continuum
 * The Teenage Engineering Pocket Operators are cool, fun, etc. But they're pretty fragile and have some issues. Generally, I don't think they're worth it. Here's Some alternatives (Yes, I know there's a huge price difference- remember, you get what you pay for.)
   * [Analogue Pocket](https://www.analogue.co/pocket/)
   * [DityWave M8](https://dirtywave.com)
-  * or, if you're feeling spendy, the OP-1 and OP-Z are options. Each have their own quirks though, so be sure to do your research. Regardless, I really don't recomend the TE PO's
+  * or, if you're feeling spendy, the OP-1 and OP-Z are options. Each have their own quirks, though, so be sure to do your research. Regardless, I really don't recommend the TE PO's
 * The non-mini Launchkey Series from Novation. They keybeds are absolute shit. I had to [mod](https://www.thingiverse.com/thing:3831768) my Mk2 to make the pads work, and the mod wheel has issues too. It's just... not good.
 
 ## Notes on how your hardware will be more expensive than you think

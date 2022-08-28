@@ -8,7 +8,7 @@ First thing you should worry about is the cost of hosting, but, uhh, what is hos
 
 ## Hosting?
 
-So, if you really want to you *can* run a web server off of your home internet connection. This has a few problem though: 
+So, if you really want to, you *can* run a web server off of your home internet connection. This has a few problems though: 
 
 * It means everyone will know your public IP and any attacks on your site will be attacks directly on your network
   * This isn't the end of the world, but it does mean you have to be reasonably smart and good about network security
@@ -17,12 +17,12 @@ So, if you really want to you *can* run a web server off of your home internet c
 * *Most* home internet providers charge for a static IP address (usually ~$5/mo)
   * You *can* get around this with something like dyn-DNS, but that's weird.
 * *Most* home internet connections are less reliable. If uptime matters to you, it may not be the best call
-* The hardware costs money. Even a raspberry pi isn't free, and neither is the power to run it.
+* The hardware costs money. Even a Raspberry Pi isn't free, and neither is the power to run it.
   * Even a pi 3b+ will use ~$5 of electricity a year, and the cost of the pi is ~\$40 not counting the power supply, case, SD card, etc.
 
 **TL;DR:** economies of scale will hit you here, it's cheaper, safer, and usually better for users if you host with either a **V**irtual **P**rivate **S**erver (VPS) or use a web hosting solution- either free or paid.
 
-If you're making a small-ish personal (read: non commercial / advertising) site like this one, then the best bet IMHO is to use free hosting from [Github Pages](https://pages.github.com), [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) or with a free VPS, though there are very, very cheap VPS options that may be less of a headache, see https://lowendbox.com for some. depending on your needs it's totally within reason to get well under $20 a year.
+If you're making a small-ish personal (read: non-commercial / advertising) site like this one, then the best bet IMHO is to use free hosting from [Github Pages](https://pages.github.com), [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) or with a free VPS, though there are very, very cheap VPS options that may be less of a headache, see https://lowendbox.com for some. Depending on your needs, it's totally within reason to get well under $20 a year.
 
 **HOWEVER:** If you're following this guide for the sake of learning the technical side, it's totally reasonable to want to setup your own web sever on your own hardware and network! I'm not trying to dissuade you from doing so, I just want to make sure nobody is doing it "Because it's cheaper", because it's probably not unless you're willing to make a lot of sacrifices.
 
@@ -35,7 +35,7 @@ There are some cool esoteric hosting options too!
 * "tilde sites" are basically shared servers, check out [tildeverse.org](https://tildeverse.org/members/ ) for a list of options. There is a bit of a community aspect to tilde sites though, and while you could setup a redirect URL, it's normal that your page will be a sub page of whatever domain you end up using. 
 * [Neocities](https://neocities.org) (a modern take on GeoCities)
 * Hosting via [IPFS](https://www.ipfs.com) if you're feeling like experimenting with the future
-* [Gopher](https://web.cortland.edu/flteach/methods/obj1/gopher.html) or [Gemini](https://gemini.circumlunar.space) are cool if you're nostalgic or minimal. Realize that some of these may limit your reach or impose bandwidth limits though.
+* [Gopher](https://web.cortland.edu/flteach/methods/obj1/gopher.html) or [Gemini](https://gemini.circumlunar.space) are cool if you're nostalgic or minimal. Realize that some of these may limit your reach or impose bandwidth limits, though.
 * You might also consider going REALLLY old school and running a [BBS](https://en.wikipedia.org/wiki/Bulletin_board_system), probably with [Mystic](http://www.mysticbbs.com) or [Synchronet](http://www.synchro.net)
 
 {{< /speech >}}
@@ -44,7 +44,7 @@ There are some cool esoteric hosting options too!
 
 ### VPS? - A brief detour
 
-Alright, so, what the heck is a VPS? As stated above, it's a **V**irtual **P**rivate **S**erver. This really means you're getting a **V**irtual machine (basically a fake computer running in software) that is acting as a tiny slice of a larger server (note that servers are just fancy computers) but because all the other users are on **V**irtual machines, it's **P**rivate: even though you're sharing a physical computer, you have no way of seeing anything about your neighbors and they can't see anything about you. Finally, it's a **S**erver, which usually means it's purpose is to, well, serve something, in our case a website, and is probably running an operating system that is better suited to that, likely Linux.
+Alright, so, what the heck is a VPS? As stated above, it's a **V**irtual **P**rivate **S**erver. This really means you're getting a **V**irtual machine (basically a fake computer running in software) that is acting as a tiny slice of a larger server (note that servers are just fancy computers) but because all the other users are on **V**irtual machines, it's **P**rivate: even though you're sharing a physical computer, you have no way of seeing anything about your neighbors, and they can't see anything about you. Finally, it's a **S**erver, which usually means it's purpose is to, well, serve something, in our case a website, and is probably running an operating system that is better suited to that, likely Linux.
 
 What this means is you *might* need to know at least a tiny bit about Linux and using the command line to get up and running if you go this route, but it shouldn't be all that much.
 
@@ -52,7 +52,7 @@ If you're already a tech-head, there is an advantage to the VPS route in that it
 
 ---
 
-For the actual guide on making your own website, I'll be going over all three options: Using Github Pages, Using a VPS, and self hosting, I'll come back to that though, for now, what else costs money?
+For the actual guide on making your own website, I'll be going over all three options: Using Github Pages, using a VPS, and self-hosting, I'll come back to that though, for now, what else costs money?
 
 ## The domain name
 
@@ -66,7 +66,7 @@ Well, the how to do is pretty simple to buy, a bit weird to use, but we'll get t
 
 for example, 
 
-`pleaseend.us` is a .us domain so can [only be used by US citizien or entities](https://en.wikipedia.org/wiki/.us#Restrictions_on_use_of_.us_domains)
+`pleaseend.us` is a .us domain so can [only be used by US citizen or entities](https://en.wikipedia.org/wiki/.us#Restrictions_on_use_of_.us_domains)
 
 `isholdinghands.gay` is a .gay domain, so prohibits anti LGBTQ content (and 20% of all registration revenue gets donated to LGBTQ non-profit organizations) 
 
@@ -76,7 +76,7 @@ But, assuming you want to be a normie and use `.com`, `.net`, or `.org`, it larg
 
 ### A Detour into TLS
 
-You've probably been told that you should try trust websites starting with http**s**:// more than those with just http://. Frankly, this is a bit of a failing of security nerds to explain things well. In short, the "s" just means that 
+You've probably been told that you should try to trust websites starting with http**s**:// more than those with just http://. Frankly, this is a bit of a failing of security nerds to explain things well. In short, the "s" just means that 
 
 1. Other people on your network shouldn't be able to eaves drop on what you're doing on that website (though they likely could still snoop and see that you're using that website)
 2. They can't Man-In-The-Middle your connection to the website, meaning an attacker can't change what you see on that page

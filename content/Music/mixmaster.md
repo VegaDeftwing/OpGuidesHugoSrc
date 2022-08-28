@@ -14,7 +14,7 @@ mixer front ends, preamps, etc. Software mixing, etc.
 
 https://youlean.co/youlean-loudness-meter/
 
-talk about loudness and spotify
+talk about loudness and Spotify
 
 ## Mixing
 
@@ -40,7 +40,7 @@ eq, pan, quadraphonic+
 
 <--->
 
-Here's the list of all the specs you might want to understad if you're looking to buy headphones or studio monitors. It's a tad bit overwhelming, but I want to start with this so that you can get an idea of why this is complicated:
+Here's the list of all the specs you might want to understand if you're looking to buy headphones or studio monitors. It's a tad bit overwhelming, but I want to start with this so that you can get an idea of why this is complicated:
 
 * Open Vs Closed back Headphones
   * Leakage
@@ -71,25 +71,25 @@ Here's the list of all the specs you might want to understad if you're looking t
   * Bass Traps
 * Cabinet
 * Connections
-* Amplifer Types
+* Amplifier Types
   * Class A, B, D, etc.
-  * Vaccum Tubes
+  * Vacuum Tubes
 
 {{< /columns >}}
 
 ### Headphones
 
-For headphones there's two main types: Open back, and Closed back. You may also see 'semi-open'. That's bullshit. They're open.
+For headphones, there are two main types: Open back, and Closed back. You may also see 'semi-open'. That's bullshit. They're open.
 
-Open, as the name implies, let the driver push air both ways and avoid the internal reflections. Down side? You hear everything around you, everyone around you can hear what you're listening too, and there's less bass. Up Side? The stereo imagining/soundstage (ability to hear where on a stage the instrument is ) is much better. Plus you can hear yourself talk, which can be nice at times.
+Open, as the name implies, let the driver push air both ways and avoid the internal reflections. Downside? You hear everything around you, everyone around you can hear what you're listening too, and there's less bass. Upside? The stereo imagining/soundstage (ability to hear where on a stage the instrument is ) is much better. Plus, you can hear yourself talk, which can be nice at times.
 
 Closed back are the opposite. *Most* headphones are closed back. The headphones are sealed, less outside noise gets in, and people around you shouldn't hear everything you're listening to.
 
-> Some crazy people use In Ear Monitors (IEMs - earbuds) instead of full headphones when making music. I'm not going to even consider it as an option even though there are some high end ones out there. It's just... no.
+> Some crazy people use In-Ear Monitors (IEMs - earbuds) instead of full headphones when making music. I'm not going to even consider it as an option, even though there are some high-end ones out there. It's just... no.
 
 So, which should you get? Well, if you can- both. It's good to have multiple perspectives on a mix. If not, as with most things in life, it depends.
 
-If you're in a quiet enviroment, don't need to record vocals, and care if the bass can literally rock your head, open are nice.
+If you're in a quiet environment, don't need to record vocals, and care if the bass can literally rock your head, open are nice.
 
 If you want to record vocals, have background noise, or just don't care as much about having a spot-on sound stage, get closed.
 
@@ -108,4 +108,4 @@ From this [Interview of Jeremy Blake](http://martinyammoller.com/9oddquestionsfo
 
 > #### **How do you know when a track is finished?**
 >
-> With modular and hardware it’s easy: when the performance is done and I’ve mixed and mastered it. With DAW-based stuff, it’s when I’ve gone through all my iteration passes, like idea, arrangement, mixing, re-arrangement, ear candy, and mastering. I go by a rule of three approach: if I can listen to a track 3 times and not mess with it, it’s done. If something bothers me 3 times, I change it.
+> With modular and hardware, it’s easy: when the performance is done and I’ve mixed and mastered it. With DAW-based stuff, it’s when I’ve gone through all my iteration passes, like idea, arrangement, mixing, re-arrangement, ear candy, and mastering. I go by a rule of three approach: if I can listen to a track 3 times and not mess with it, it’s done. If something bothers me 3 times, I change it.

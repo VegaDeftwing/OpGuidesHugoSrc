@@ -10,7 +10,7 @@ So, I just said you'd need to learn a bunch to do this, so, why bother?
 
    ... and they can limit your speech, ban your account, etc. 
 
-2. Site builders (Squarespace, Wix, Wordpress, etc) tend to lead to cookie-cutter websites
+2. Site builders (Squarespace, Wix, WordPress, etc.) tend to lead to cookie-cutter websites
 
    ... and are usually more expensive
 

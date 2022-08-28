@@ -15,7 +15,7 @@ Below is a 15 video series that totals a bit under 3 hours.
 
 [Linear Algebra Done Wrong - Sergei Treil @ Brown University](https://www.math.brown.edu/streil/papers/LADW/LADW_2017-09-04.pdf)
 
-[Matricies, Diagrammatically](https://graphicallinearalgebra.net/2015/06/09/matrices-diagrammatically/)
+[Matrices, Diagrammatically](https://graphicallinearalgebra.net/2015/06/09/matrices-diagrammatically/)
 
 [Linear Algebra - Jim Hefferson](http://joshua.smcvt.edu/linearalgebra/book.pdf)
 

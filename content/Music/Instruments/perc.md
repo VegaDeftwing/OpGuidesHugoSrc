@@ -6,7 +6,7 @@
 
 ## Theory
 
-Before I even dive into Percussion, I think it's necessary to point out how generic the term is. Just looking at the Wikipedia page for drum kit you'll see this:
+Before I even dive into Percussion, I think it's necessary to point out how generic the term is. Just looking at the Wikipedia page for drum kit, you'll see this:
 
 <img src="/music/drumkit.webp" alt="wikipedia drum kit list" height="500em">
 
@@ -14,7 +14,7 @@ Before I even dive into Percussion, I think it's necessary to point out how gene
 
 and clearly that's still not an exhaustive list. Just off the top of my head I can see it lacks the Cajon or Taiko as acoustic instruments, let alone anything more specific than electronic drum, which can make for a class all its own.
 
-Wikipedia defines [Percussion Instrument](https://en.wikipedia.org/wiki/Percussion_instrument) as "a musical instrument that is sounded by being struck or scraped by a beater including attached or enclosed beaters or rattles struck, scraped or rubbed by hand or struck against another similar instrument." but, frankly, I think that definition really sucks. I think a better definition would be any tool that be used to make a sound with a sharp attack, that is typically not pitched/tuned and is used to establish the tempo of the song. I confess that this definition is still bad, but hey, it's better. Generally though, I think we all have a sort of intimate knowledge of what percussion is and I'm not trying to turn this page into one on the philosophy of music or human experience, so let's jump back into my definition a bit- I said it (loosly) requires a sharp attack. What do I mean by that? Well, remember back when we looked at the ADSR in getting started?
+Wikipedia defines [Percussion Instrument](https://en.wikipedia.org/wiki/Percussion_instrument) as "a musical instrument that is sounded by being struck or scraped by a beater including attached or enclosed beaters or rattles struck, scraped or rubbed by hand or struck against another similar instrument." but, frankly, I think that definition really sucks. I think a better definition would be any tool that be used to make a sound with a sharp attack, that is typically not pitched/tuned and is used to establish the tempo of the song. I confess that this definition is still bad, but hey, it's better. Generally though, I think we all have a sort of intimate knowledge of what percussion is and I'm not trying to turn this page into one on the philosophy of music or human experience, so let's jump back into my definition a bit- I said it (loosely) requires a sharp attack. What do I mean by that? Well, remember back when we looked at the ADSR in getting started?
 
 {{< columns >}}
 
@@ -24,7 +24,7 @@ Here's that original ADSR gif again, see how the first stage, the attack can var
 
 <--->
 
-Look at this view of a bass drum hit on a scope. See how there's this sharp spike, right as it first starts? Also, see how it only moves up and down a few times before fading out? Think about this like smacking the head of a drum, you get that sharp hit, then the drum head will oscillate back and forth a few times before coming to rest. What's also of note is those peaks aren't evenly spaced. It's actually gets lower pitch as it fades out (albeit not by much here). A lot of percussion does this, changing in pitch over it's short lifespan.
+Look at this view of a bass drum hit on a scope. See how there's this sharp spike, right as it first starts? Also, see how it only moves up and down a few times before fading out? Think about this like smacking the head of a drum, you get that sharp hit, then the drum head will oscillate back and forth a few times before coming to rest. What's also of note is those peaks aren't evenly spaced. It actually gets lower pitch as it fades out (albeit not by much here). A lot of percussion does this, changing in pitch over its short lifespan.
 
 ![](/music/bassdrum.webp)
 
@@ -66,11 +66,11 @@ The patch can be downloaded from patch storage [here](https://patchstorage.com/p
 
 {{< /columns >}}
 
-So just download this patch and poke around for a while. A big part of learning music is having a sort of mental catalog of sounds that you can make and how they can work together. The best way to build up this mental catalog is to experiment, that's why while this patch is pre-wired, I encourage you to twist and turn every knob. After all, worst case you just re-open the original file and start over. So experiment! Find weird sounds!
+So just download this patch and poke around for a while. A big part of learning music is having a sort of mental catalog of sounds that you can make and how they can work together. The best way to build up this mental catalog is to experiment, that's why while this patch is pre-wired, I encourage you to twist and turn every knob. After all, worst case, you just re-open the original file and start over. So experiment! Find weird sounds!
 
 {{< columns >}}
 
-Once you've done that, go ahead and try to make your own drum sound using basic modules (Oscilators, VCAs, etc.), thinking about the characteristics of the sounds you made and what I explained above, if you need a bit of an example for that, go ahead and check out this patch.
+Once you've done that, go ahead and try to make your own drum sound using basic modules (Oscillators, VCAs, etc.), thinking about the characteristics of the sounds you made and what I explained above, if you need a bit of an example for that, go ahead and check out this patch.
 
 (if you need a little push, you might try out [Befaco's Percall](https://library.vcvrack.com/Befaco/Percall), which makes it pretty easy to get drum sounds out of any oscillator)
 
@@ -92,20 +92,20 @@ Welcome back, Hope you had fun messing around in that patch! Let's dive into per
 
 ## Your Standard Drum Kit
 
-I mentioned right at the start that there're a huge range of common percussion instruments. There's anything from the hexagonal drums on the giant drum sets of the 1980's to the marching drums you see played on the field. While there's no rules in music and I'm a huge fan of doing things in new and original ways, it still helps to have an idea of which of these drums sounds are most commonly used together.
+I mentioned right at the start that there are a huge range of common percussion instruments. There's anything from the hexagonal drums on the giant drum sets of the 1980's to the marching drums you see played on the field. While there are no rules in music and I'm a huge fan of doing things in new and original ways, it still helps to have an idea of which of these drums sounds are most commonly used together.
 
-When you think of drums, you *probably* think of the standard acoustic drum kit like is portrayed in that Wikipedia screenshot from the beginning, so let's start by breaking that down into it's parts. As we're going though this, keep in mind it's more the musical position that matters than the specific way that sound is produced, or as my friend [Neurotypique](https://www.youtube.com/channel/UC4oBI5piGMznFMZdtEC0FhA) put it:
+When you think of drums, you *probably* think of the standard acoustic drum kit like is portrayed in that Wikipedia screenshot from the beginning, so let's start by breaking that down into its parts. As we're going through this, keep in mind it's more the musical position that matters than the specific way that sound is produced, or as my friend [Neurotypique](https://www.youtube.com/channel/UC4oBI5piGMznFMZdtEC0FhA) put it:
 
 {{< quote "Neurotypique" >}}
 
-The important part about breaking down a "kit" is that a snare is everything with approximately the same harmonic content but also that you use like a snare. Any burst of mid hi frequency on expected snare hits can be the snare really
+The important part about breaking down a "kit" is that a snare is everything with approximately the same harmonic content but also that you use like a snare. Any burst of mid-hi frequency on expected snare hits can be the snare really
 
 {{< /quote >}}
 
 * **Bass Drum + Pedal**
   {{< columns >}}
 
-This is the Big Ol' drum on the floor, the one that often has the band's logo on it. Sometimes it's called the Kick Drum, and it's usally hit with a beater pedal.
+This is the Big Ol' drum on the floor, the one that often has the band's logo on it. Sometimes it's called the Kick Drum, and it's usually hit with a beater pedal.
 
 This is the main drum everyone obsesses over, because it's (usually) the one that people are going to tap along to and sets the tempo of the track.
 
@@ -257,7 +257,7 @@ Most modern drum machines actually have a bit more than drums. The Elektron Digi
 
 ## Sometimes Less is more
 
-For as much as I've gone over all the different types of drums above, and the sea of percussion that lies below, I want to take a break and appriciate that sometimes you really don't need all that much. Just poke around these videos. I tried to find the absolute best of minimal and maximal that I could.
+For as much as I've gone over all the different types of drums above, and the sea of percussion that lies below, I want to take a break and appreciate that sometimes you really don't need all that much. Just poke around these videos. I tried to find the absolute best of minimal and maximal that I could.
 
 {{< columns3 >}}
 
@@ -299,7 +299,7 @@ Similarly, [Big Drums VS Small Drums (YouTube)](https://www.youtube.com/watch?v=
 
 ### Beatboxing
 
-{{< smalltext >}} okay, techinaclly this might belong in wind instruments. Fight me. {{< /smalltext >}}
+{{< smalltext >}} okay, technically this might belong in wind instruments. Fight me. {{< /smalltext >}}
 
 ### Steelpan
 

@@ -28,7 +28,7 @@ https://esoteric.codes
 
 ### Assembly
 
-Assembly code is specific to an [Instruction Set Architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture) or ISA, that means it is written for a specific family of processors. Most laptops and desktops today run on [x86_64](https://en.wikipedia.org/wiki/X86-64) processors made by either AMD or Intel, while most tablets and phones use processors that use [ARM](https://en.wikipedia.org/wiki/ARM_architecture). Of course, there are many, many other instruction sets than these two. For example, [6502](https://en.wikipedia.org/wiki/MOS_Technology_6502) assembly is particularly easy to write as it's from an era <a class="ptr">(1)</a> when programming at the assembly level was still common. On the other hand, [RISC-V](https://en.wikipedia.org/wiki/RISC-V) is a newer ISA that has been gaining a lot of traction due to it's open nature. Knowing ASM can allow you to do some black magic, like pushing out FizzBuzz at [57.2GiB/s](https://codegolf.stackexchange.com/questions/215216/high-throughput-fizz-buzz/236630#236630).
+Assembly code is specific to an [Instruction Set Architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture) or ISA, that means it is written for a specific family of processors. Most laptops and desktops today run on [x86_64](https://en.wikipedia.org/wiki/X86-64) processors made by either AMD or Intel, while most tablets and phones use processors that use [ARM](https://en.wikipedia.org/wiki/ARM_architecture). Of course, there are many, many other instruction sets than these two. For example, [6502](https://en.wikipedia.org/wiki/MOS_Technology_6502) assembly is particularly easy to write, as it's from an era <a class="ptr">(1)</a> when programming at the assembly level was still common. On the other hand, [RISC-V](https://en.wikipedia.org/wiki/RISC-V) is a newer ISA that has been gaining a lot of traction due to its open nature. Knowing ASM can allow you to do some black magic, like pushing out FizzBuzz at [57.2GiB/s](https://codegolf.stackexchange.com/questions/215216/high-throughput-fizz-buzz/236630#236630).
 
 #### x86 ASM:
 
@@ -48,7 +48,7 @@ or
 
 or for the very adventurous
 
-[Linux-kernal-module-cheat [Github]](https://github.com/cirosantilli/linux-kernel-module-cheat#userland-assembly), has a nice guide to asm
+[Linux-kernal-module-cheat [Github]](https://github.com/cirosantilli/linux-kernel-module-cheat#userland-assembly), has a nice guide to ASM
 
 #### 6502
 
@@ -62,7 +62,7 @@ Basically, Rust doesn't let you screw up. It enforces writing code that's safe (
 
 I really recommend [A half-hour to learn Rust](https://fasterthanli.me/blog/2020/a-half-hour-to-learn-rust/) 
 
-[Nannou](https://nannou.cc/), is a creative coding framework for Rust that's pretty nifty too.
+[Nannou](https://nannou.cc/), is a creative coding framework for Rust that's pretty nifty, too.
 
 To show the maturity, just check out https://www.redox-os.org/, a full OS written in Rust!
 
@@ -81,7 +81,7 @@ You may also want to check out [CXX](https://github.com/dtolnay/cxx) for C++<-> 
 
 > Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 
-The big claim to fame for go is, well `go`, which let's you do really easy threading. (https://gobyexample.com/goroutines)
+The big claim to fame for go is, well `go`, which lets you do really easy threading. (https://gobyexample.com/goroutines)
 
 Other sources to learn Go:
 
@@ -118,7 +118,7 @@ puts "Listening on http://127.0.0.1:8080"
 server.listen(8080)
 ```
 
-Seriously check it out at https://crystal-lang.org/
+Seriously, check it out at https://crystal-lang.org/
 
 
 
@@ -144,7 +144,7 @@ Nim's syntax is python-like-ish
 
 ### Red
 
-To be honest, I'm not sure Red belongs in the low level category, as it can be ran as a JIT language. 
+To be honest, I'm not sure Red belongs in the low level category, as it can be run as a JIT language. 
 
 > **Red** is a next-gen programming language, strongly inspired by [REBOL](http://rebol.com/). Main features are:
 >
@@ -189,7 +189,7 @@ If you're interested, check out [Red's 'Getting Started' page](https://www.red-l
 
 ### Java & Kotlin
 
-!> This is Opinionated Guides, so let me be clear, I really, **really** hate Java. It's a langage that didn't even become popular on it's own merit, instead Sun Microsystem paid a [fuck ton](https://www.theregister.com/2003/06/09/sun_preps_500m_java_brand/) of money to push it- hence the **"3 Billion Devices Run Java"** Thing. I'm hopeful (albeit probably naively) that Oracle (Which bought Java from Sun) making Java a mess of licencesing as the 'main' Java Virtual Machine goes [paid (Read on Wikipedia)](https://en.wikipedia.org/wiki/Java_(programming_language)) and [suing Google](https://en.wikipedia.org/wiki/Google_LLC_v._Oracle_America,_Inc.) will be the nail in the cofin for education using it and that it will die out with time.
+!> This is Opinionated Guides, so let me be clear, I really, **really** hate Java. It's a language that didn't even become popular on its own merit, instead Sun Microsystem paid a [fuck ton](https://www.theregister.com/2003/06/09/sun_preps_500m_java_brand/) of money to push it- hence the **"3 Billion Devices Run Java"** Thing. I'm hopeful (albeit probably naively) that Oracle (Which bought Java from Sun) making Java a mess of licensing as the 'main' Java Virtual Machine goes [paid (Read on Wikipedia)](https://en.wikipedia.org/wiki/Java_(programming_language)) and [suing Google](https://en.wikipedia.org/wiki/Google_LLC_v._Oracle_America,_Inc.) will be the nail in the coffin for education using it and that it will die out with time.
 [Criticism of Java (Wikipedia)](https://en.wikipedia.org/wiki/Criticism_of_Java)
 
 don't.
@@ -207,9 +207,9 @@ https://jakewharton.com/shrinking-a-kotlin-binary/
 >
 > https://webassembly.org/
 
-While not technically a programming language, I wanted to bring it up and encourage you look into it to be used instead of JavaScript for real projects. 
+While not technically a programming language, I wanted to bring it up and encourage you to look into it to be used instead of JavaScript for real projects. 
 
-https://www.assemblyscript.org is a TypeScript varient that can generate Web asm.
+https://www.assemblyscript.org is a TypeScript variant that can generate Web ASM.
 
 https://webassembly.studio
 
@@ -229,19 +229,19 @@ If I missed a language you think I should have mentioned or would like to write 
 
 ## High Level
 
-[TODO] probably going to need to break this out into it's own chapter
+[TODO] probably going to need to break this out into its own chapter
 
 ### Python
 
 [Cython](https://cython.org)
 
-> **Cython** is an **optimising static compiler** for both the **[Python](http://www.python.org/about/)** programming language and the extended Cython programming language (based on **Pyrex**). It makes writing C extensions for Python as easy as Python itself.
+> **Cython** is an **optimizing static compiler** for both the **[Python](http://www.python.org/about/)** programming language and the extended Cython programming language (based on **Pyrex**). It makes writing C extensions for Python as easy as Python itself.
 
 ### JavaScript
 
-Fine. I'll talk about JS. But, please. For the love of god do not use this to make an Electron App.
+Fine. I'll talk about JS. But, please. For the love of god, do not use this to make an Electron App.
 
-Before going to far, I do want to mention that a chunk of my hatred for JS is solved using frameworks and that I totally acknowledge the utility of JS for making quick, often very cool, 'sketches'. The creative coding community is amazing. Further, JS, as much of a total dumpster fire as it is, is responsible for the Internet as it is today whether thats a good thing [or not](http://motherfuckingwebsite.com/).
+Before going too far, I do want to mention that a chunk of my hatred for JS is solved using frameworks and that I totally acknowledge the utility of JS for making quick, often very cool, 'sketches'. The creative coding community is amazing. Further, JS, as much of a total dumpster fire as it is, is responsible for the Internet as it is today, whether that's a good thing [or not](http://motherfuckingwebsite.com/).
 
 #### CoffeeScript
 
@@ -284,7 +284,7 @@ If you must, you might want to check out Hack: https://hacklang.org/
 
 "Scallop is a neurosymbolic programming language, solver, and framework. Based on Datalog, it supports discrete, probabilistic, and differentiable modes of reasoning."
 
-Basically, it's really nice for AI/CV/probabiltic computations
+Basically, it's really nice for AI/CV/probabilistic computations
 
 ## For the Skript Kidd3s
 
@@ -292,7 +292,7 @@ Basically, it's really nice for AI/CV/probabiltic computations
 >
 > from https://en.wikipedia.org/wiki/Script_kiddie
 
-But, really, some absolutely incredible code has been written in the following languages. They more than serve their purpose and are generally some of the fastest "I just need a quick and dirty solution" options out there. Not everything needs a blazing fast hand optimized C implementation, and code that's really just for personal use, to acomplish a one-off task, or that runs inside a bigger program (3D modeling software like Blender, Video editing software like Premier, Game development editors, etc.)  should probably be easy to read and modify quickly. Rapid prototyping certainly has it's place.
+But, really, some absolutely incredible code has been written in the following languages. They more than serve their purpose and are generally some of the fastest "I just need a quick and dirty solution" options out there. Not everything needs a blazing fast hand optimized C implementation, and code that's really just for personal use, to accomplish a one-off task, or that runs inside a bigger program (3D modeling software like Blender, Video editing software like Premier, Game development editors, etc.)  should probably be easy to read and modify quickly. Rapid prototyping certainly has its place.
 
 Just don't think you should use these to write efficient, safe code.
 
@@ -346,7 +346,7 @@ As a quick tour of esolangs, here are some of my favorites:
 
 ![](/eng/piethw.png)
 
-> Hello World implimented in Piet ([Source](https://commons.wikimedia.org/wiki/File:Hello_world_piet.png))
+> Hello World implemented in Piet ([Source](https://commons.wikimedia.org/wiki/File:Hello_world_piet.png))
 
 <--->
 
@@ -387,7 +387,7 @@ v
                                     ===@v@X
 ```
 
-> ROT13 implimented in Spiral
+> ROT13 implemented in Spiral
 
 <--->
 
@@ -413,7 +413,7 @@ v
      \|
 ```
 
-> Hello World implimented in Tree
+> Hello World implemented in Tree
 
 {{< /columns3 >}}
 
@@ -421,15 +421,15 @@ v
 
 <img src="/eng/ziimhw.png" style="zoom:50%;" />
 
-> Hello World implimented in Ziim
+> Hello World implemented in Ziim
 
 ---
 
-If you're looking to learn more check out [Awesome Esolangs (Github)](https://github.com/angrykoala/awesome-esolangs) and https://esolangs.org. Also the [Esoteric IDE](https://github.com/Timwi/EsotericIDE/) may be of use.
+If you're looking to learn more, check out [Awesome Esolangs (Github)](https://github.com/angrykoala/awesome-esolangs) and https://esolangs.org. Also, the [Esoteric IDE](https://github.com/Timwi/EsotericIDE/) may be of use.
 
 ## Graphics Programming
 
-look to {{< button relref="/Engineering/programming/shaders" >}}Chapter 19: Shaders + GpGPU{{< /button >}} for programming involving graphics, including node based shader editors, general purpsose computation on the GPU, and more. As for lanugages, this includes, GLSL, HLSL, Futhark, and a few others. There are, many, many other graphics languages depending on the platfrom though.
+look to {{< button relref="/Engineering/programming/shaders" >}}Chapter 19: Shaders + GpGPU{{< /button >}} for programming involving graphics, including node based shader editors, general purpose computation on the GPU, and more. As for languages, this includes, GLSL, HLSL, Futhark, and a few others. There are, many, many other graphics languages depending on the platform though.
 
 ## Functional Programming
 

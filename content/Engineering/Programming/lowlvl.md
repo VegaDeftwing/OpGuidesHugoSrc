@@ -8,15 +8,15 @@
 
 ## Why C?
 
-This chapter of OpGuides will be mostly C, but, why? Well, there's only really a few options for learning low level programming that make sense to start with. C, C++, Rust are the 'big three' that come to mind for me. C is awesome. It's spec is small, it's been kept minimal, and it's got a ton of tools to help you learn. It forces you to know the low level, which in this case is great. C++ has grown into behemoth where any thing can be done in about a dozen different ways and each development team is effectively writing in their own dialect of C++. 
+This chapter of OpGuides will be mostly C, but, why? Well, there's only really a few options for learning low level programming that make sense to start with. C, C++, Rust are the 'big three' that come to mind for me. C is awesome. Its spec is small, it's been kept minimal, and it's got a ton of tools to help you learn. It forces you to know the low level, which in this case is great. C++ has grown into a behemoth where anything can be done in about a dozen different ways and each development team is effectively writing in their own dialect of C++. 
 
 On the other hand, C has a lot of annoyances due to its minimalism. For example, there are no strings - only arrays of characters - and all memory management is manual.
 
-Rust is cool, but I think it's more of a language you need to grow into understand why someone would want to use it. It's very rigid and does a very good job of preventing memory mistakes and making sure the programmer has handled any errors that could come their way (What do you do if you go to open a file and it's not there, for example).
+Rust is cool, but I think it's more of a language you need to grow into to understand why someone would want to use it. It's very rigid and does a very good job of preventing memory mistakes and making sure the programmer has handled any errors that could come their way (What do you do if you go to open a file and it's not there, for example).
 
 Thankfully, C++ and C are pretty similar, as C++ is a superset of C - that is it's C with a whole wack ton of added features (for better or worse)
 
-What this really means is that should you need the added features of C++ the syntax should be at least familiar. Keep in mind though they are different languages. C++ has features that you absolutely should use if you're writing in it. Strings, abstracting out much of the memory management, 'vectors', etc.
+What this really means is that should you need the added features of C++ the syntax should be at least familiar. Keep in mind though, they are different languages. C++ has features that you absolutely should use if you're writing in it. Strings, abstracting out much of the memory management, 'vectors', etc.
 
 It's also worth considering that you can use C code in C++ projects if you need.
 
@@ -57,11 +57,11 @@ Hello World!
 
 
 
-Alright, so let's go though line by line.
+Alright, so let's go through line by line.
 
 On line **1** there's a `#include` statement, this tells the compiler we want to include some library or other code. In this case we want the `stdio` library, as well need it in a few lines, but what about this library, where is it?
 
-Well, that library is just some other code. We can look at it by navigating to `/usr/include/stdio.h`or, in VSCode you can hold control and click on the word *stdio* to go it's file, so let's look at that file:
+Well, that library is just some other code. We can look at it by navigating to `/usr/include/stdio.h`or, in VSCode you can hold control and click on the word *stdio* to go its file, so let's look at that file:
 
 ```c
 /* Define ISO C stdio on top of C++ iostreams.
@@ -102,13 +102,13 @@ __BEGIN_DECLS
 extern int printf (const char *__restrict __format, ...);
 ```
 
-okay, so it starts with a big copyright block in comments - in C `//` makes a single ling comment and `/* comment */` are for multi-line comments - then on lines 39 and 40 we can see it is in turn including three more files such as `stddef.h` on line 33.
+okay, so it starts with a big copyright block in comments - in C `//` makes a single long comment and `/* comment */` are for multi-line comments - then on lines 39 and 40 we can see it is in turn including three more files such as `stddef.h` on line 33.
 
-But lets look deeper, down on line 332 of `stdio.h` we can see `printf()` is loaded as an external function. The `extern` keyword marks this as a sort of indicator to the compiler, `gcc` in this case, that this function definition is actually implemented elsewhere, but that this is the signature to expect from it's usage. That is, when anything that imports `stdio.h` uses `printf()` it should expect to return an integer (the `int` before the word printf) and take in a pointer to a character array (the `char *` inside the parentheses)
+But let's look deeper, down on line 332 of `stdio.h` we can see `printf()` is loaded as an external function. The `extern` keyword marks this as a sort of indicator to the compiler, `gcc` in this case, that this function definition is actually implemented elsewhere, but that this is the signature to expect from its usage. That is, when anything that imports `stdio.h` uses `printf()` it should expect to return an integer (the `int` before the word printf) and take in a pointer to a character array (the `char *` inside the parentheses)
 
 So, where's the code for `printf()` that does the actual printing?
 
-Well, in it's part of **libc**. libc is the C standard library on linux, typically it's glibc in particular. This is a pre-compiled shared library so that when any program needs to use `printf()` it can just call the printf implementation from libc, which is stored in /usr/lib/libc.so.6
+Well, in its part of **libc**. libc is the C standard library on Linux, typically it's glibc in particular. This is a pre-compiled shared library so that when any program needs to use `printf()` it can just call the printf implementation from libc, which is stored in /usr/lib/libc.so.6
 
 We could go looking into the source code for this, but I think it's sufficient to say that it's simply loaded from a shared system library.
 
@@ -116,17 +116,17 @@ Another thing you should notice is the #ifndef at the start of this file, which 
 
 These are pre-processor directives, just like `#include` is, basically, it's special code that the compiler (in our case `gcc`) looks at before it complies the code. Of note there are `#if` and `#else` blocks, you might see these used for checking if a certain library is available for example, as a way to check what compiler is being used to adjust things slightly, or to check what OS the code is even being compiled for.
 
-you also might see `#define` used to either set constants such as `#define PI 3.14159` or `#define GET_SIZE(*p*)  (GET(p) & ~0x7)`
+You also might see `#define` used to either set constants such as `#define PI 3.14159` or `#define GET_SIZE(*p*)  (GET(p) & ~0x7)`
 
 This little adventure was mostly just to show you that these `#include` statements that use system libraries are not magic, and to point out that most code will end up loading shared system libraries (`.so` files on Linux, `.dll` files on Windows)
 
-Okay, so, that's done. Line **2** of our 6 line hello.c is just 'white space' or a blank line, so we can skip it. Line **3** is where things get interesting again, with `int main() {`. The `main()` function is special, as without doing something [weird](https://www.techiedelight.com/c-program-without-main-function/), it's where your code starts from. you may often see this line as `int main(int *argc*, char const **argv*[])` too, which I'll get to in a bit.
+Okay, so, that's done. Line **2** of our 6 line hello.c is just 'white space' or a blank line, so we can skip it. Line **3** is where things get interesting again, with `int main() {`. The `main()` function is special, as without doing something [weird](https://www.techiedelight.com/c-program-without-main-function/), it's where your code starts from. You may often see this line as `int main(int *argc*, char const **argv*[])` too, which I'll get to in a bit.
 
-So, lets break this down, starting with `int`.
+So, let's break this down, starting with `int`.
 
 C is a statically typed language, this means that each variable has a defined type, but also that each function has a defined type it returns and expects to be given.
 
-so, with `int main() {` we're saying the `main()` function will return an integer. skipping ahead a bit, we can see this is the case, as on line 5, `return(0)` it does exactly that, but, why?
+so, with `int main() {` we're saying the `main()` function will return an integer. Skipping ahead a bit, we can see this is the case, as on line 5, `return(0)` it does exactly that, but, why?
 
 {{< columns >}}
 
@@ -166,11 +166,11 @@ But what's with that `\n` on the end? Well, to understand this line we'll need o
 
 {{< hint info>}}
 
-On most unix based systems you can access this at any time by running `man ascii`
+On most unix based systems, you can access this at any time by running `man ascii`
 
 {{< /hint >}}
 
-ASCII is a really old way for computers to represent text. In most modern systems it's been replaced by unicode (which is what let's you use emjois 🤔) but the start of the the much larger character space of Unicode is the [same as the ASCII table](https://en.wikipedia.org/wiki/List_of_Unicode_characters) anyway. Alright, so, you'll notice some really weird characters in the ASCII table, not just the normal symbols you'd expect. The one I'd like to mention now though is at 0xA - `[LINE FEED]`
+ASCII is a really old way for computers to represent text. In most modern systems it's been replaced by unicode (which is what lets you use emojis 🤔) but the start of the much larger character space of Unicode is the [same as the ASCII table](https://en.wikipedia.org/wiki/List_of_Unicode_characters) anyway. Alright, so, you'll notice some really weird characters in the ASCII table, not just the normal symbols you'd expect. The one I'd like to mention now though is at 0xA - `[LINE FEED]`
 
 Line Feed, as well as some others like Bell and Carriage Return all date back to when computers were hooked up to [Teletype machines](https://en.wikipedia.org/wiki/Teletype_Model_33) - which were basically a mix of printer with a typewriter, so, naturally, there had to be some control characters to do things like tell the machine to move to the next line.
 
@@ -186,7 +186,7 @@ Hello World!
 Hello World![vega@lyrae ~]$
 ```
 
-see how it doesn't leave room for the prompt to be printed on a new line of it's own!
+see how it doesn't leave room for the prompt to be printed on a new line of its own!
 
 The ASCII table has some other interesting side effects too. See how a capital 'A' has an 'index' 32 higher than a lower case 'a', and the same for 'B' to 'b'. Let's use this to our advantage to make the 'd' in 'Hello World!" uppercase.
 
@@ -245,7 +245,7 @@ The Stack™
 
 ### Calculating sine and pi
 
-pseudo code, types
+pseudocode, types
 
 ### Sorting a list
 
@@ -286,7 +286,7 @@ I very, very much so recommend getting a feel for writing assembly with the [TIS
 [TODO] Interacting with the above, this program should run in the background and update the data, based on window focus events
 using libxdo
 
-This program should actually provide the VAST majority of the source code, with purposeful errors for demonstating the below
+This program should actually provide the VAST majority of the source code, with purposeful errors for demonstrating the below
 
 furthermore, the C code should check to see if there is a new article, and if so it should call a function that
 first checks a 'meta' entry to see if the python code to change a published time to be newer or the number of entries has changed to optimize:
@@ -295,15 +295,15 @@ first checks a 'meta' entry to see if the python code to change a published time
 
 - generates a template markdown file for the article if PUBLISHED is TRUE and no file for it exists,
 
-- generates a html file from the markdown if PUBLISHED is TRUE and no html exists then updates TEDIT, TPUB
+- generates a HTML file from the markdown if PUBLISHED is TRUE and no HTML exists then updates TEDIT, TPUB
 
-- remove the html file if PUBLISHED is FALSE and an html file for it exists,
+- remove the HTML file if PUBLISHED is FALSE and an HTML file for it exists,
 
 however, every time this will still need checked to monitor the md for changes, using ionotify
 
-- generates a new html from the markdwon if PUBLISHED is TRUE and md has changed then updates TEDIT
+- generates a new HTML from the markdown if PUBLISHED is TRUE and md has changed, then updates TEDIT
 
-- if markdown is removed, the html file should be as well
+- if markdown is removed, the HTML file should be as well
 
 ### What are we going to do?
 
@@ -315,7 +315,7 @@ however, every time this will still need checked to monitor the md for changes, 
 
 {{< best >}}[C Gibberish <--> English Translator](https://cdecl.org/){{< /best >}}
 
-### Pseudo code
+### Pseudocode
 
 [TODO]
 
@@ -327,11 +327,11 @@ using a code editor, header files, libraries, writing and using a Make file, std
 
 ### Debugging it
 
-So, by now you've written a fair amount of code, and I'm sure you've figured out that a bunch of tiny issues can get really annoying. Maybe you keep forgetting semicolons, maybe you wrote '=' instead of '==' when doing an equality check, whatever. Turns out, there's an easier way to catch these kind of errors and it's available for most languages. Allow me to introduce you to...
+So, by now you've written a fair amount of code, and I'm sure you've figured out that a bunch of tiny issues can get really annoying. Maybe you keep forgetting semicolons, maybe you wrote '=' instead of '==' when doing an equality check, whatever. Turns out, there's an easier way to catch these kinds of errors and it's available for most languages. Allow me to introduce you to...
 
 #### Linting:
 
-Yeah, it's literally named after the fluff you'd find in your hoodie pockets, but, it's still a super necessary tool. A 'Linter' is a [static analysis](https://en.wikipedia.org/wiki/Static_program_analysis) tool, basically it makes sure you're code is good before you run it. There's a whole bunch of linters out there. As a pretty stupid example, lets look at this python:
+Yeah, it's literally named after the fluff you'd find in your hoodie pockets, but, it's still a super necessary tool. A 'Linter' is a [static analysis](https://en.wikipedia.org/wiki/Static_program_analysis) tool, basically it makes sure your code is good before you run it. There's a whole bunch of linters out there. As a pretty stupid example, let's look at this python:
 
 {{< columns >}}
 
@@ -408,8 +408,8 @@ So, what can and can't static analysis do (with some exceptions depending on lan
 * Warn you about undeclared variables and functions
 * Warn you about some math fuckups (divide by 0, integer overflows, etc.)
 * Warn you about some out of bound accesses (accessing the k+1 element of an array with k elements
-* Warn you if you try to derefrence a null pointer
-* Tell you about *some* dead (un-reachable) code.
+* Warn you if you try to dereference a null pointer
+* Tell you about *some* dead (unreachable) code.
 * find *some* security issues
 * find *some* memory leaks
 
@@ -417,12 +417,12 @@ So, what can and can't static analysis do (with some exceptions depending on lan
 
 **STATIC ANALYSIS CAN NOT:**
 
-* Read your mind - if you write a an `add(a,b)` function as `int add(int a, int b) { return(a * b) }` it won't know you fucked up
+* Read your mind - if you write an `add(a,b)` function as `int add(int a, int b) { return(a * b) }` it won't know you fucked up
 * Know what is relevant - it's not uncommon to get a huge pile of warnings you don't care about while doing initial development. This can make for a sea of problems that is just... exhausting
 * *Always be right* - There are occasional false positives
 * Find all issues - It's in the name, it's *static* analysis. Not Dynamic. Your code is dynamic. It runs, it lives. Static Analysis is just doing a once-over to let you know if there's something super obviously wrong, not doing in depth diagnostics.
 * Stop you from writing stupid, inefficient, insecure, and otherwise shit code.
-  * You want to implement the the obnoxiously slow recursive version of the fibonacci function? It won't stop you.
+  * You want to implement the obnoxiously slow recursive version of the Fibonacci function? It won't stop you.
 
 {{< /columns >}}
 
@@ -436,7 +436,7 @@ So, what can and can't static analysis do (with some exceptions depending on lan
 
 [TODO]
 
-gdb + [gef](https://github.com/sindresorhus/css-in-readme-like-wat), [gdbfrontend](https://github.com/rohanrhu/gdb-frontend), Valgrind, https://cdecl.org/, etc. Mention Virtual v Physical adressing/translation
+gdb + [gef](https://github.com/sindresorhus/css-in-readme-like-wat), [gdbfrontend](https://github.com/rohanrhu/gdb-frontend), Valgrind, https://cdecl.org/, etc. Mention Virtual v Physical addressing/translation
 
 https://github.com/hediet/vscode-debug-visualizer/tree/master/extension
 

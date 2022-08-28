@@ -6,11 +6,11 @@
 
 <--->
 
-When we here music, we don't hear individual sine waves and sum them up. We don't hear instruments devoid of context either- a ukulele carries a different cultral meaning than a mandolin. We also don't just hear what comes out the speakers as planly as basic frequencies. Our ears process what we here. Our ears take in the reverb of the room, ignore sounds before and after drum hits, find speech in sounds that weren't meant to. All of this is to say when you make music, you're not making music for somebody's ears. You're making it for their mind.
+When we hear music, we don't hear individual sine waves and sum them up. We don't hear instruments devoid of context, either- a ukulele carries a different cultural meaning than a mandolin. We also don't just hear what comes out the speakers as plainly as basic frequencies. Our ears process what we here. Our ears take in the reverb of the room, ignore sounds before and after drum hits, find speech in sounds that weren't meant to. All of this is to say when you make music, you're not making music for somebody's ears. You're making it for their mind.
 
 {{< /columns >}}
 
-Your goal should be to make them feel something, to make someone dance, or reflect, or feel excited, or love. You don't do that by analyzing sound like a mechanical task, you do that by listening and hearing and relfecting on your art.
+Your goal should be to make them feel something, to make someone dance, or reflect, or feel excited, or love. You don't do that by analyzing sound like a mechanical task, you do that by listening and hearing and reflecting on your art.
 
 So as you read everything else on this page, keep in mind that, ultimately, what matters is not that your sound is mixed perfectly or that you have considered the effect of every possible audio format. What matters is that it conveys the emotion you want it to.
 

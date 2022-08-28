@@ -57,7 +57,7 @@ While I mentioned making money earlier, *the GPL does not forbid profiting*. Ins
 
 The license also goes to great lengths to make sure that other areas of law cannot be abused by the covered software. For example, in the United States, a patent troll could use your software, discover it contains a software "invention" they hold the rights to, and sue you and all of your users. Even though you wrote it, and don't even know who they are!
 
-If you think this sounds far fetched, it isn't. [The craziest things have been patented](https://www.eff.org/search/site/stupid%20patent%20of%20the%20month?f%5B0%5D=type%3Ablog), and patent lawyers are extremely expensive --- even by the standards of other lawyers.
+If you think this sounds far-fetched, it isn't. [The craziest things have been patented](https://www.eff.org/search/site/stupid%20patent%20of%20the%20month?f%5B0%5D=type%3Ablog), and patent lawyers are extremely expensive --- even by the standards of other lawyers.
 
 The main drawback (and main source of pushback on the internet) is the way this license interacts with other software. Because the GPL requires that all the same rights be included in the software you distribute, creating software out of both GPL and non-GPL code binds your users to terms that may be confusing, or in the worst case, impossible to follow.
 
@@ -106,7 +106,7 @@ Simple: contribute to someone else's! That's what makes open source work!
 
 [TODO]
 
-actually contribute on github, make an issue, submit a pull request, make a custom repo,
+actually contribute on GitHub, make an issue, submit a pull request, make a custom repo,
 
 ## Links
 

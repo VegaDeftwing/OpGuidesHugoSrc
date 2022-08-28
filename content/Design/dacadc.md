@@ -8,7 +8,7 @@
 
 ### Via vector art tools
 
-Before doing this, you should really know what vector art is and how it differs from the raster art you're probably used to. I've talked about this a bit in the previous chapter, {{< button relref="Design/digital" color="design" >}}Digital Art{{< /button >}}.This process requires combining the two, and it's a bit odd if you haven't use vector art tools before.
+Before doing this, you should really know what vector art is and how it differs from the raster art you're probably used to. I've talked about this a bit in the previous chapter, {{< button relref="Design/digital" color="design" >}}Digital Art{{< /button >}}. This process requires combining the two, and it's a bit odd if you haven't used vector art tools before.
 
 ![tracebitmap](/design/tracebitmap.webp)
 
@@ -16,7 +16,7 @@ Before doing this, you should really know what vector art is and how it differs 
 
 2. Drop your image in
 
-3. Right click the image
+3. Right-click the image
 
 4. Select Trace Bitmap
 
@@ -26,9 +26,9 @@ Before doing this, you should really know what vector art is and how it differs 
 
 7. Select the trace, copy it (Ctrl+C), and paste it into your art software (the following assumes Krita)
 
-8. In your art software, the pasted object will be a vector. You probably want it to be normal, editable pixels now, so you need to rasterize it like you would text. In Krita, this is done by right clicking the layer, hovering over convert, then clicking "to paint layer"![toraster](/design/toraster.webp)
+8. In your art software, the pasted object will be a vector. You probably want it to be normal, editable pixels now, so you need to rasterize it like you would text. In Krita, this is done by right-clicking the layer, hovering over convert, then clicking "to paint layer"![toraster](/design/toraster.webp)
 
-9. This will give you a single color paint layer, from here you can work as normal. Depending on the turn out of the traceing process, you might want to fix some lines, espically if you want to use the paint bucket tool.
+9. This will give you a single color paint layer, from here you can work as normal. Depending on the turn out of the tracing process, you might want to fix some lines, especially if you want to use the paint bucket tool.
 
    
 
@@ -44,7 +44,7 @@ You may want to experiment with the *multiple scans* → *colors* option if you 
 {{< /columns >}}
 Heads up, this will take a long time on high resolution, large images, and produce **much** larger vector files. The input image here is a 3.2MB JPEG, the output is a <u>17.9Mb</u> SVG! This is largely because this is the worst possible way to use an SVG. So why show it? The cool thing here is that you could easily delete one color, or pull out just one as a trace.
 
-{{< smalltext >}}In Inkscape, this was done with "multiple scans → Colors" with 10, stacked scans, optimize of 5.00, smooth corners of 1.24, and spectkles of 9. Also, the output will likely have some gaps letting the background color show though- so it may look different on a dark or light background. When done, all the layers will be grouped by default in Inkscape. To get at the individual layers right click→ungroup. If this effect alone this is your goal, <u>please consider using a [posterize effect](https://en.wikipedia.org/wiki/Posterization)</u>. It'll be much more optimized and probably look better.{{< /smalltext >}}
+{{< smalltext >}}In Inkscape, this was done with "multiple scans → Colors" with 10, stacked scans, optimize of 5.00, smooth corners of 1.24, and speckles of 9. Also, the output will likely have some gaps letting the background color show though- so it may look different on a dark or light background. When done, all the layers will be grouped by default in Inkscape. To get at the individual layers, right click→ungroup. If this effect alone this is your goal, <u>please consider using a [posterize effect](https://en.wikipedia.org/wiki/Posterization)</u>. It'll be much more optimized and probably look better.{{< /smalltext >}}
 
 <div style="">
 {{< columns >}}

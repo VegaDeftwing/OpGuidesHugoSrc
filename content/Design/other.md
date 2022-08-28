@@ -17,7 +17,7 @@ slug: "Design, Other"
 | [Fraksl](https://play.google.com/store/apps/details?id=com.workSPACE.Fraksl&hl=en_US&gl=US), [Fractal Eye](https://play.google.com/store/apps/details?id=com.selfsimilartech.fractaleye&hl=en_US&gl=US), [MandelBrowser](https://play.google.com/store/apps/details?id=pl.y0.mandelbrotbrowser&hl=en_US&gl=US) | Neat Fractal Explorers                                       |                 |
 | [Glitch Lab](https://play.google.com/store/apps/details?id=com.ilixa.glitch&hl=en_US&gl=US) | Tons of glitch effects, including some really nice pixel sorting |                 |
 |                                                              |                                                              |                 |
-| [Euclidea](https://play.google.com/store/apps/details?id=com.hil_hk.euclidea&hl=en_US&gl=US) | Not sure this one counts. It's a game about making various geometric shapes using circles. It's useful for learning some art techniques though. |                 |
+| [Euclidea](https://play.google.com/store/apps/details?id=com.hil_hk.euclidea&hl=en_US&gl=US) | Not sure this one counts. It's a game about making various geometric shapes using circles. It's useful for learning some art techniques, though. |                 |
 |                                                              |                                                              |                 |
 
 

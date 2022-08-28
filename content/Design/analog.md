@@ -2,7 +2,7 @@
 
 ## What makes it 'analog'
 
-So, for OpGuides I'm going to refer to any non-digital art as analog. Traditionally, this art is called, well, traditional. I don't like this term as it implies that there's a right 'traditional' way to do things, and that's a load of shit. So, whenever I say analog, don't think about it to much. I just mean not using software and a computer, or, if a computer is used, it's not necessary for the end product, like 3D printing and the like.
+So, for OpGuides I'm going to refer to any non-digital art as analog. Traditionally, this art is called, well, traditional. I don't like this term as it implies that there's a right 'traditional' way to do things, and that's a load of shit. So, whenever I say analog, don't think about it too much. I just mean not using software and a computer, or, if a computer is used, it's not necessary for the end product, like 3D printing and the like.
 
 ## Pen/Pencil and Paper
 
@@ -35,11 +35,11 @@ clay + different types (water, air-dry, oil, polymer, epoxy, earthen/stone, cera
 
 ## Glass
 
-While I haven't done this personally, based on the sheer amount of content on YouTube and hearing others experianec making stained glass aren't isn't nearly as hard as one would assume
+While I haven't done this personally, based on the sheer amount of content on YouTube and hearing others experience making stained-glass isn't nearly as hard as one would assume
 
 On the other hand, it seems that making from-scractch, hand-blowing, or re-flowing glass trinkets is exceptionally difficult.
 
-I'm not saying any of this to disuade you from trying anything, just stating where you may want to start.
+I'm not saying any of this to dissuade you from trying anything, just stating where you may want to start.
 
 <div style="display: inline-block; background-color: #eee; border-radius: 10px;"><blockquote class="reddit-card" data-card-created="1609714134"><a href="https://www.reddit.com/r/furry/comments/kmzxid/the_biggest_stained_glass_commision_so_far_feels/">The biggest stained glass commision so far - feels great!</a> from <a href="http://www.reddit.com/r/furry">r/furry</a></blockquote>
     <script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script></div>

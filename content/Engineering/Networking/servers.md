@@ -4,9 +4,9 @@ First of all, let's demystify the servers, they are not something to be afraid o
 
 A good example of a server is this one, in which you are reading this, the only function of the server where this content is hosted is to provide it, nothing more and nothing less. 
 
-## The DIY Homelab
+## The DIY Home lab
 
-A homelab is basically a "sandbox" where we can practice our Server-Fu (and sometimes do something useful), a homelab can be as basic or as complex as we want, the only thing we need to start with is a couple of virtual (or physical) machines. 
+A home lab is basically a "sandbox" where we can practice our Server-Fu (and sometimes do something useful), a home lab can be as basic or as complex as we want, the only thing we need to start with is a couple of virtual (or physical) machines. 
 
 ### Why?
 
@@ -18,21 +18,21 @@ Maybe you want to self-host a cloud backup for all that important files.
 
 It would be bad for all of us to start pasting commands copied from StackOverflow to perform actions on a productive or "real" server, right?
 
-This is where our small (or large) HomeLab comes in, where we can paste googled commands and learn the functionality of those commands and the worst that can happen is that we spend a day of a weekend formatting one of our servers but ... in exchange for acquiring this ability is a good exchange right? 
+This is where our small (or large) Home Lab comes in, where we can paste googled commands and learn the functionality of those commands and the worst that can happen is that we spend a day of a weekend formatting one of our servers but ... in exchange for acquiring this ability is a good exchange right? 
 
 ### Firewalls
 
-First of all a firewall is simply a system with a set of rules that dict whatever or not a network communication should be permitted, lets think of it as the "bar security" of our network or server.
+First of all a firewall is simply a system with a set of rules that dict whatever or not a network communication should be permitted, let's think of it as the "bar security" of our network or server.
 
-There are some commercial firewalls but lets be honest, we are no willing to pay ~500 USD for a commercial grade firewall only to practice right?
+There are some commercial firewalls but let's be honest, we are not willing to pay ~500 USD for a commercial grade firewall only to practice right?
 
-So there are some interesting OpenSource projects that can me implemented, my preferred one is called "PfSense" the project is much more than a firewall (And we will be looking at in other sections) but it comes with a pretty nice firewall capabilities.
+So there are some interesting Open Source projects that can me implemented, my preferred one is called "PfSense" the project is much more than a firewall (And we will be looking at in other sections) but it comes with a pretty nice firewall capabilities.
 
 ### Routing
 
-The router in a network setup is like "a set of traffic signs" to redirect some network communications trough a certain path, with routers we are stepping in a rabbit hole of network protocols, VLANs and other tings but for our purpose lest keep it simple.
+The router in a network setup is like "a set of traffic signs" to redirect some network communications through a certain path, with routers we are stepping in a rabbit hole of network protocols, VLANs and other tings but for our purpose lest keep it simple.
 
-Here as well my defecto choice for a Low cost and easy to implement solution for a HomeLab will be PfSense as It can work in a single machine as Router, Firewall, DHCP server, etc...
+Here as well my defecto choice for a Low cost and easy to implement solution for a Home Lab will be PfSense as It can work in a single machine as Router, Firewall, DHCP server, etc...
 
 ### VPN services
 
@@ -42,7 +42,7 @@ Here as well my defecto choice for a Low cost and easy to implement solution for
 
 ### Web Servers
 
-Before we get to business there's some necessary viewing: http://motherfuckingwebsite.com/
+Before we get to business, there's some necessary viewing: http://motherfuckingwebsite.com/
 
 ### File Servers and NAS
 [TODO]

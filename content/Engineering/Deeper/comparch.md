@@ -4,7 +4,7 @@
 
 {{< tip >}}
 
-This Chapter will be split into three parts:</br></br>Part 1, understanding the interval workings of a CPU. This is effectively just a computer architecture class, and will be by far the largest section.</br></br>Part 2, making that CPU on an FPGA.</br></br>Part 3, making that CPU do something.
+This chapter will be split into three parts:</br></br>Part 1, understanding the interval workings of a CPU. This is effectively just a computer architecture class, and will be by far the largest section.</br></br>Part 2, making that CPU on an FPGA.</br></br>Part 3, making that CPU do something.
 
 {{< /tip >}}
 
@@ -24,7 +24,7 @@ This Chapter will be split into three parts:</br></br>Part 1, understanding the 
 
 {{< /attribution >}}
 
-Computers, to a normal user look like magic. In previous chapters I've shown you how to harness this magic though programming, and revealed at least some of it's internal worknings in [Chapter 3, Into The Hardware]({{< relref "/Engineering/linux/hardware" >}}). But this is all low level magic, the sort the lowest level mages can handle. To truely master the craft one must dive deep into the dark arts and study the origin of magic itself and understand how we breathe life into otherwise inanimate rock. Back in [Chapter 14, Semiconductors]({{< relref "/Engineering/circuits/circuits2" >}}) I covered how the basics of the very, very low level work to form semiconductors, then in [Chapter 15, Digital Logic]({{< relref "/Engineering/circuits/digitallogic" >}}) we saw how transistors could be chained to give rise to the fundamental logic gates. Finally, last chapter we looked at the basics of FPGAs to see how they let us make large scale logic circuits quickly. That all builds to this, making complex logic circuits that actually do useful work. These can be everything from application specific tasks, like bitcoin miners or hardware encoders and decoders for video codecs to the generic CPU. For this guide, I'll focus on the CPU. However, I think this can be realatively boring without further motivation, so, before we actually get to the CPU, let me show you how and why CPUs have evolved
+Computers, to a normal user, look like magic. In previous chapters I've shown you how to harness this magic though programming, and revealed at least some of its internal workings in [Chapter 3, Into The Hardware]({{< relref "/Engineering/linux/hardware" >}}). But this is all low level magic, the sort the lowest level mages can handle. To truly master the craft, one must dive deep into the dark arts and study the origin of magic itself and understand how we breathe life into otherwise inanimate rock. Back in [Chapter 14, Semiconductors]({{< relref "/Engineering/circuits/circuits2" >}}) I covered how the basics of the very, very low level work to form semiconductors, then in [Chapter 15, Digital Logic]({{< relref "/Engineering/circuits/digitallogic" >}}) we saw how transistors could be chained to give rise to the fundamental logic gates. Finally, last chapter we looked at the basics of FPGAs to see how they let us make large scale logic circuits quickly. That all builds to this, making complex logic circuits that actually do useful work. These can be everything from application specific tasks, like bitcoin miners or hardware encoders and decoders for video codecs, to the generic CPU. For this guide, I'll focus on the CPU. However, I think this can be relatively boring without further motivation, so, before we actually get to the CPU, let me show you how and why CPUs have evolved
 
 [TODO] loop memory operations w/ godbolt, cisc/risc, chiplets, core counts, branch prediction, N/S bridge to chipset (memory controller), etc. Moore's Law ending, voltage minimums, minimum transistor sizes before quantum effects, etc.
 
@@ -38,21 +38,21 @@ Here you can see there are three memory operations(2x MOV and one ADD that have 
 
 Data-Level, Task-Level, and Instruction-Level Paralleism (Application Parrallelism)
 
-Intstruction Level Parrelism (Pipelining), Thread-Level and Request-Level Parellism (Architectural Parallelism)
+Instruction Level Parrelism (Pipelining), Thread-Level and Request-Level Parellism (Architectural Parallelism)
 
-Single Insturtion Stream, Single Data Stream (SISD)
+Single Instruction Stream, Single Data Stream (SISD)
 
 Single Instruction Stream, Multiple Data Streams (SIMD)
 
 MISD is not used commercially
 
-Multiple Instruction Streams, Multiple Data STreams (MIMD) (tightly and loosely coupled)
+Multiple Instruction Streams, Multiple Data Streams (MIMD) (tightly and loosely coupled)
 
 [In Memory Processing](https://en.wikipedia.org/wiki/In-memory_processing)
 
 [Neuromorphic Computing](https://en.wikipedia.org/wiki/Neuromorphic_engineering)
 
-Power wall, max Silicon freq, max density before tunnling 
+Power wall, max Silicon freq, max density before tunneling 
 
 [Branch predictor: How many "if"s are too many? Including x86 and M1 benchmarks! (Cloudflare Blog)](https://blog.cloudflare.com/branch-predictor/)
 
@@ -62,7 +62,7 @@ Power wall, max Silicon freq, max density before tunnling
 
 https://computersciencewiki.org/index.php/Architecture_of_the_central_processing_unit_(CPU)#Major_parts_of_a_CPU
 
-maybe Ben Eaters bread board CPU series?
+Maybe Ben Eaters bread board CPU series?
 
 ## Part 3: Making the CPU
 
@@ -78,7 +78,7 @@ Before we start, I'll warn you this isn't easy, but it's also not as bad as it s
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The DooM-chip! It will run E1M1 till the end of times (or till power runs out, whichever comes first).<br>Algorithm is burned into wires, LUTs and flip-flops on an <a href="https://twitter.com/hashtag/FPGA?src=hash&amp;ref_src=twsrc%5Etfw">#FPGA</a>: no CPU, no opcodes, no instruction counter. <br>Running on Altera CycloneV + SDRAM. (1/n) <a href="https://t.co/wd7j4JnfWn">pic.twitter.com/wd7j4JnfWn</a></p>&mdash; Sylvain Lefebvre (@sylefeb) <a href="https://twitter.com/sylefeb/status/1258808333265514497?ref_src=twsrc%5Etfw">May 8, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-[My Nor](http://www.mynor.org) - "a single board computer that does not have a CPU. Instead, the CPU consists of discrete logic gates from the 74HC series. This computer also has no ALU. Only a single NOR gate is used to perfom all computations such as addition, subtraction, AND, OR and XOR."
+[My Nor](http://www.mynor.org) - "a single board computer that does not have a CPU. Instead, the CPU consists of discrete logic gates from the 74HC series. This computer also has no ALU. Only a single NOR gate is used to perform all computations such as addition, subtraction, AND, OR and XOR."
 
 # Chapter 29.1 - FPAAs
 

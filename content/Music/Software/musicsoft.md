@@ -42,7 +42,7 @@ slug: "Music Software"
 
 {{< hint gray>}}
 
-Seriously check out [Making Sense of The Linux Audio Stack on Venam's Blog](https://venam.nixers.net/blog/unix/2021/02/07/audio-stack.html). It's a rather painfully long read, but if you're trying to do Linux audio it's probably less painful than trying to figure it all out by stumbling though it.
+Seriously, check out [Making Sense of The Linux Audio Stack on Venam's Blog](https://venam.nixers.net/blog/unix/2021/02/07/audio-stack.html). It's a rather painfully long read, but if you're trying to do Linux audio, it's probably less painful than trying to figure it all out by stumbling though it.
 
 {{< /hint >}}
 

@@ -53,7 +53,7 @@ Free and Open Source Forever!"
 
 {{< /hint >}}
 
-There's also been some neat progress in the relm of voxel engines:
+There's also been some neat progress in the realm of voxel engines:
 
 {{< columns >}}
 
@@ -100,7 +100,7 @@ https://yal.cc/preparing-your-game-for-deterministic-netcode/
 
 [Notia](https://noitagame.com) - Rougelite where every pixel is simulated
 
-[Cogmind](https://www.gridsagegames.com/cogmind/) - Ascii art game with a similarly extreme amount of environment destructibility
+[Cogmind](https://www.gridsagegames.com/cogmind/) - ASCII art game with a similarly extreme amount of environment destructibility
 
 A very long thread on ... stairs? Yeah. Look up advice on DND level design if you need general level design or architecture design n advice. The same twitter (Tommy Norberg, @the_Norberg) has **many** other good posts
 

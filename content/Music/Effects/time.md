@@ -8,9 +8,9 @@
 
 Delay is basically echo. Take a sound in, and repeat it it it. Normally the main controls on a delay are 'Time', which controls how long of a delay there is before each repeat, 'Feedback' which controls how much the level is reduced each time the delay repeats (and in turn, how many audible repetitions there are), and 'Dry/Wet' which controls how the signal is blended, entirely dry will have no delay, entirely wet may even miss the initial sound adding a weird latency before you hear what you're playing. Some delays have additional controls, obviously I can't cover every possible delay, but I'll try to cover most:
 
-Some delays instead of letting you set a delay time or 'tap' a delay tempo in actually synchronize to a clock signal input which lets the delayed repetitions always be in time with the rest of the song.
+Some delays instead of letting you set a delay time or 'tap' a delay tempo in to actually synchronize to a clock signal input which lets the delayed repetitions always be in time with the rest of the song.
 
-Stereo delays many have additional controls as well, most commonly offering a different delay time for the left and right channels. often a 'Ping Pong' mode will also be available where the left and right speaker alternate for the echo'd sound- 'ping' and 'ponging' out each side until the sound cuts out.
+Stereo delays many have additional controls as well, most commonly offering a different delay time for the left and right channels. Often a 'Ping Pong' mode will also be available where the left and right speaker alternate for the echo'd sound- 'ping' and 'ponging' out each side until the sound cuts out.
 
 Some delays may also allow for unity or higher feedback, which will cause the delay to be infinite or, if above unity, infinitely grow in volume until it's just a distorted clipping mess. This can actually be a lot of fun to play with.
 
@@ -28,7 +28,7 @@ Some digital delays and most analog delays (especially bucket brigade delays<a c
 
 {{< columns >}}
 
-It's also worth noting that by making delay time very short and having gain near unity, sending a brief trigger (impulse) can make a sound that sounds like a string being plucked. This is called [Karplus-Strong Synthesis](https://en.wikipedia.org/wiki/Karplus–Strong_string_synthesis). To the right I've shown a way to do this in VCV Rack.
+It's also worth noting that by making delay time very short and having gain near unity, sending a brief trigger (impulse) can make a sound that sounds like a string being plucked. This is called [Karplus-Strong Synthesis](https://en.wikipedia.org/wiki/Karplus–Strong_string_synthesis). To the right, I've shown a way to do this in VCV Rack.
 
 <--->
 
@@ -50,7 +50,7 @@ Slapback delay is just a short delay with only a single echo, no feedback. It's 
 
 <audio controls loop src="/sounds/Slapback01.mp3"></audio>
 
-looking at a snippit of this audio, you can see just how short the delay is, with the slapback being on the notes that have the double hits.
+looking at a snippet of this audio, you can see just how short the delay is, with the slapback being on the notes that have the double hits.
 
 ![slapback](/music/slapback.png)
 
@@ -105,7 +105,7 @@ Chorus does as the name implies, layering copies of the signal together to get a
 
 Flanger works by taking a **very** short delay* which slowly modulated delay time and mixing this back with the original signal. This will result in some phase cancellation effects and give a similar sound to a phaser. The delay time modulation rate and depth, and delay feedback are the most commonly exposed controls. Flanger is probably most commonly used as an effect on guitar.
 
-*note, that delay, in this context, means an actual time delay, just a buffer that makes sound take longer to get through if that makes sense. Of course, with feedback and mixing the original this will have the same effect as a delay in the 'echo' sense.
+*note, that delay, in this context, means an actual time delay, just a buffer that makes sound take longer to get through if that makes sense. Of course, with feedback and mixing the original, this will have the same effect as a delay in the 'echo' sense.
 
 ![Flanger](/music/Flanger.webp)
 

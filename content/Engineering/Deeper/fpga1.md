@@ -4,7 +4,7 @@
 
 ![](http://pixeljoint.com/files/icons/full/4004_simu_part.gif)
 
->  Simulation of an Intel 4004 in [TICS (The Integrated Circuit Simulator) a (abandoned?) WIP by Oni](http://onidev.fr/projet-tics.html), [Download the interpreter here](https://github.com/onidev/TICS/releases), the [repo](https://github.com/onidev/TICS) has pleanty of examples.
+>  Simulation of an Intel 4004 in [TICS (The Integrated Circuit Simulator) a (abandoned?) WIP by Oni](http://onidev.fr/projet-tics.html), [Download the interpreter here](https://github.com/onidev/TICS/releases), the [repo](https://github.com/onidev/TICS) has plenty of examples.
 >
 > Some similar pixel art simulation tools are [wired-logic](https://github.com/martinkirsche/wired-logic), [reso](https://github.com/lynnpepin/reso), [wireworld](https://en.wikipedia.org/wiki/Wireworld), 
 

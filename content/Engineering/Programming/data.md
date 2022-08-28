@@ -12,7 +12,7 @@ That said, it's likely you'll need to work with many, many other data types. You
 
 There's also the point of understanding when to load assets into your program from file (like having a folder of images to load from) or when to bake it into the code (like saving a bitmap into the source code as an array).
 
-Finally, you should have at least some familiratiy with the actual structure of the files that make up your code itself, like what 
+Finally, you should have at least some familiarity with the actual structure of the files that make up your code itself, like what 
 
 ## File formats
 

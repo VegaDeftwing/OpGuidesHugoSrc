@@ -62,7 +62,7 @@ Here OH6BPL is using the [Computer Craft](https://www.computercraft.info/downloa
 
 > Are you sure the cable is shielded? One quick way to tell is to put a continuity tester on the outside metal parts of each end. If it beeps, the cable is likely shielded. I've seen tons of cables that aren't, where there's no connection between the jack covers - even though the USB specification says there must be. If there's continuity it doesn't guarantee it's shielded, but lack of continuity is a sure sign it's not.
 >
-> If the cable is shielded you shouldn't need more than 2 ferrites, one at each end.
+> If the cable is shielded, you shouldn't need more than 2 ferrites, one at each end.
 >
 > Source: I've been down this road before...
 >

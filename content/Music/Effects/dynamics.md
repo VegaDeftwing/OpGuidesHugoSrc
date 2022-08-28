@@ -28,7 +28,7 @@ Clipping does exactly what it sounds like, it just chops off the wave. Usually o
 
 {{< /columns >}}
 
-The key take away from the two different kinds of clipping is that while both add harmonics, hard clipping adds **significantly** more. That is, it adds a lot more to the higher frequencies. Clipping often has gain to bring the signal back up to the same amplitude, but if this is done, it will usually be a few Loudness Units<a class="ptr">(1)</a> higher in volume. This is because more harmonics *sounds* louder.
+The key takeaway from the two different kinds of clipping is that while both add harmonics, hard clipping adds **significantly** more. That is, it adds a lot more to the higher frequencies. Clipping often has gain to bring the signal back up to the same amplitude, but if this is done, it will usually be a few Loudness Units<a class="ptr">(1)</a> higher in volume. This is because more harmonics *sounds* louder.
 
 ### Waveshaping
 
@@ -64,15 +64,15 @@ explains things beautifully, and also goes into some of the other kinds of disto
 
 <--->
 
-This is one of those things where while the name is pretty self descriptive, you sorta just have to see the signal on a scope and hear it to see what it does.
+This is one of those things where while the name is pretty self-descriptive, you sorta just have to see the signal on a scope and hear it to see what it does.
 
 Like any distortion, it ultimately adds in more harmonics, so it will make any sound you give it have a lot more high frequency content; however, folding in particular adds a ludicrous amount, so much so they're sort of deemed "Anti-Filters".
 
 {{< /columns >}}
 
-Wavefolding eats the transition between high and low, the slopes, so with a square wave it has nothing to grab onto and so does nothing except for maybe changing the level. Because of this, you'll usually see sisimplerave forms like sines fed into wavefolders, like sines, triangles, and saws.
+Wavefolding eats the transition between high and low, the slopes, so with a square wave it has nothing to grab onto and so does nothing except for maybe changing the level. Because of this, you'll usually see simple waves forms like sines fed into wavefolders, like sines, triangles, and saws.
 
-If you're looking to get really crazy, check out [Befaco's Chopping Kinky](https://library.vcvrack.com/Befaco/ChoppingKinky) (available in hardware and VCV) which basically replaces the top half of the wave with one input, the bottom half the wave with another, and then lets you wavefold both of those inputs. It's absolutely nuts. [See the manual here](https://befaco.org/docs/Chopping_Kinky/Chopping%20Kinky_User_Manual.pdf) if you're still confused.
+If you're looking to get really crazy, check out [Befaco's Chopping Kinky](https://library.vcvrack.com/Befaco/ChoppingKinky) (available in hardware and VCV) which basically replaces the top half of the wave with one input, the bottom half of the wave with another, and then lets you wavefold both of those inputs. It's absolutely nuts. [See the manual here](https://befaco.org/docs/Chopping_Kinky/Chopping%20Kinky_User_Manual.pdf) if you're still confused.
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/nxH6lyfpLxk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -112,7 +112,7 @@ see: [Q. Is there a difference between clipping and limiting?](https://www.sound
 
 The limiter says stuff like "every time the signal gets loud, I'll gently attenuate it so that it's not TOO loud".
 
-A clipper will say "evevery timehe signal gets too loud, I'll chop every peak that's too loud and fuck you".
+A clipper will say "every time the signal gets too loud, I'll chop every peak that's too loud and fuck you".
 
 {{< /quote >}} 
 
@@ -136,9 +136,9 @@ Compression can mean multiple things when talking about music and sometimes this
 
 <p class="tip">Okay, this is sort of a lie. Compressors don't <i>technically</i> make anything louder. Only quieter. It's just that usually there's some input and/or output gain that makes it seem this way. If you first boost all your signals, then lower louder parts that's <i>nearly</i> the same thing as making the quiet stuff louder and louder stuff qquieter The reason this is worth bringing up is because not all compressors actually have that gain stage, so they will literally only make the loud sounds quieter and assume the user knows they need to compensate</p>
 
-Usually compression has a few basic attributes that are relevant:
+Usually, compression has a few basic attributes that are relevant:
 
-The 'Threshold' is what level the compressor has to be over to do anything at all. 'Attack' is the time it takes for the signal to be affected. All compressors will have some minimum attack time if they're happening live (there are some compressors with 'Lookahead' that solve this problem) which lets the transients (sharp changes) of louder sounds, like the start of a drum hit, get through to some extent, but more attack will let more of the drum transient through. Tune to taste, release is similar idea, but controls how the compressor behaves as it falls below the threshold, letting the compressor fade out with a given time instead of having a sharp cut. Compressors can be used to make drums really stand out, give guitars a longer sustained sound, or just glue the mix together better.
+The 'Threshold' is what level the compressor has to be over to do anything at all. 'Attack' is the time it takes for the signal to be affected. All compressors will have some minimum attack time if they're happening live (there are some compressors with 'Lookahead' that solve this problem) which lets the transients (sharp changes) of louder sounds, like the start of a drum hit, get through to some extent, but more attack will let more of the drum transient through. Tune to taste, release is a similar idea, but controls how the compressor behaves as it falls below the threshold, letting the compressor fade out with a given time instead of having a sharp cut. Compressors can be used to make drums really stand out, give guitars a longer sustained sound, or just glue the mix together better.
 
 [TODO knee, sidechain]
 

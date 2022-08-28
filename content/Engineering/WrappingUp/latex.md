@@ -20,11 +20,11 @@ x = a_0 + \cfrac{1}{a_1+ \cfrac{1}{a_2 + \cfrac{1}{a_3 + \cfrac{1}{a_4} } } }
 
 {{< /columns >}}
 
-Of course, it can both be much simpler and much more complex than this. On the simple side, basic {{< katex >}}\LaTeX{{< /katex >}} supports just writing a paragraph with no special symbols or commands, just basic text, and this will be rendered normally. On the 'middling' side, you'll see {{< katex >}}\LaTeX{{< /katex >}} figures, tables, and citations, which allow you to do things like easily make a figure add `\label{fig:my_thing}`to it, then reference in the text with code like `\ref{fig:my_thing}`, making it so if you add a figure later you don't have to go back and increment all following figure references by one. The syntax can get a bit brutal though, so using tools like [tablesgenerator.com](https://www.tablesgenerator.com) and [detexify](https://detexify.kirelabs.org/classify.html) can be a life saver. There's also https://mathpix.com (or [pix2tex (GitHub)](https://github.com/lukas-blecher/LaTeX-OCR) if you have the skill to set it up) {{< smalltext >}}Related, [normcap](https://github.com/dynobo/normcap) is pretty useful too{{< /smalltext >}}
+Of course, it can both be much simpler and much more complex than this. On the simple side, basic {{< katex >}}\LaTeX{{< /katex >}} supports just writing a paragraph with no special symbols or commands, just basic text, and this will be rendered normally. On the 'middling' side, you'll see {{< katex >}}\LaTeX{{< /katex >}} figures, tables, and citations, which allow you to do things like easily make a figure add `\label{fig:my_thing}`to it, then reference in the text with code like `\ref{fig:my_thing}`, making it so if you add a figure later you don't have to go back and increment all following figure references by one. The syntax can get a bit brutal, though, so using tools like [tablesgenerator.com](https://www.tablesgenerator.com) and [detexify](https://detexify.kirelabs.org/classify.html) can be a lifesaver. There's also https://mathpix.com (or [pix2tex (GitHub)](https://github.com/lukas-blecher/LaTeX-OCR) if you have the skill to set it up) {{< smalltext >}}Related, [normcap](https://github.com/dynobo/normcap) is pretty useful too{{< /smalltext >}}
 
 You'll probably end up googling how to do most things in {{< katex >}}\LaTeX{{< /katex >}}, find that a lot of things don't really sit where you want them to ("Why is this figure in the wrong spot?"), and end up using a lot of packages to write it. Frustratingly, most of the desktop {{< katex >}}\LaTeX{{< /katex >}} clients suck, so it seems most people just use [Overleaf](https://www.overleaf.com/) now, which does have a free tier, but is a paid web-app. Fortunately, it actually works incredibly well and has very nice Google-docs like multi-user features.
 
-While writing can be hard, it's worth doing it right: I particularly like [using annotated equations](https://github.com/synercys/annotated_latex_equations) (or like [this](https://twitter.com/AndiH/status/1481170553218252804/photo/1)) and using [margin notes](https://www.overleaf.com/learn/latex/Margin_notes) though it's likely that neither would be accepted in all academic contexts. Generally, just keep in mind you're goal is convey as much information as clearly as you can in as few words as possible.
+While writing can be hard, it's worth doing it right: I particularly like [using annotated equations](https://github.com/synercys/annotated_latex_equations) (or like [this](https://twitter.com/AndiH/status/1481170553218252804/photo/1)) and using [margin notes](https://www.overleaf.com/learn/latex/Margin_notes) though it's likely that neither would be accepted in all academic contexts. Generally, just keep in mind, your goal is to convey as much information as clearly as you can in as few words as possible.
 
 {{< columns >}}
 
@@ -114,9 +114,9 @@ This is a [link](www.google.com).
 
 {{< /columns >}} 
 
-As you can see, it's pretty simple to read and write. With a markdown render, it will look pretty and formatted like it does on this page, but if you have to view it as raw, plain text, it's still totally human readable, and syntax highlighting for markdown is common.
+As you can see, it's pretty simple to read and write. With a markdown render, it will look pretty and formatted like it does on this page, but if you have to view it as raw, plain text, it's still totally human-readable, and syntax highlighting for Markdown is common.
 
-Some things in markdown are a bit less obvious though, for example, images and tables:
+Some things in Markdown are a bit less obvious though, for example, images and tables:
 
 {{< columns >}}
 
@@ -142,11 +142,11 @@ Some things in markdown are a bit less obvious though, for example, images and t
 
 {{< /columns >}}
 
-Weirder yet, a lot of markdown supports mixed in html, css, and sometimes {{< katex >}}\LaTeX{{< /katex >}}, although support for all of these is not always available. When this is available though, it's a pretty awesome way to make custom document templates and hammer out shareable html pages with embedded YouTube videos or Tweets, or make a pdf with an html header or other elements (letting you do things like centering, custom text sizes, etc. which markdown doesn't normally support) while still hammering out the body in pure text, which is super fast to type.
+Weirder yet, a lot of Markdown supports mixed in HTML, CSS, and sometimes {{< katex >}}\LaTeX{{< /katex >}}, although support for all of these is not always available. When this is available though, it's a pretty awesome way to make custom document templates and hammer out shareable HTML pages with embedded YouTube videos or Tweets, or make a PDF with a HTML header or other elements (letting you do things like centering, custom text sizes, etc. which markdown doesn't normally support) while still hammering out the body in pure text, which is super fast to type.
 
-You'll find a lot of the web actually supports markdown input, including Github, Reddit,  Disquis forums, a lot of chat clients, etc. Unfortunately, the extent to which they support the more advanced features varies.
+You'll find a lot of the web actually supports markdown input, including GitHub, Reddit,  Disquis forums, a lot of chat clients, etc. Unfortunately, the extent to which they support the more advanced features varies.
 
-For writing markdown, I generally use [Typora](https://typora.io), which is *not* FOSS. It's listed as 'Free during beta' but it's been in beta for a very long time now, and I suspect the old builds would still work even if it does go paid, so I'm comfortable recommending it.
+For writing Markdown, I generally use [Typora](https://typora.io), which is *not* FOSS. It's listed as 'Free during beta' but it's been in beta for a very long time now, and I suspect the old builds would still work even if it does go paid, so I'm comfortable recommending it.
 
 ---
 
@@ -158,4 +158,4 @@ For S&Gs, check out this StackExchange question: "[How do I make my document loo
 
 
 
-If you would like practice with at least one flavor of Markdown (with [Hugo](https://gohugo.io) 'Shortcodes', {{< katex >}}\LaTeX{{< /katex >}}, html, css, and more baked in poorly), feel free to find a page in need of love on this website and submit a pull request on GitHub.
+If you would like to practice with at least one flavor of Markdown (with [Hugo](https://gohugo.io) 'Shortcodes', {{< katex >}}\LaTeX{{< /katex >}}, HTML, CSS, and more baked in poorly), feel free to find a page in need of love on this website and submit a pull request on GitHub.

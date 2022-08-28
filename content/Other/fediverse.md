@@ -10,7 +10,7 @@ The fediverse (a portmanteau of "federation" and "universe") is an ensemble of f
 
 {{< /quote >}}
 
-Alright, that's a lot to disect, so let's break it down.
+Alright, that's a lot to dissect, so let's break it down.
 
 > interconnected servers [...] independently hosted [...] can communicate with each other
 
@@ -26,12 +26,12 @@ but this account is recognized by other servers.
 
 So, what this is getting is that you might have something that's less like Twitter where everything is on one centralized network and more like email. You can have an `@gmail.com`, an `@hotmail.com` or make your own - I could (but don't) have an `@opguides.info`.
 
-Already based on that simplified exlpanation this has a few benefits:
+Already based on that simplified explanation this has a few benefits:
 
 1. You can be host your own server if you really want, so **you** can control your data
-2. You can be a part of a server that has as tight or loose of rules as you want. Don't want rascists hanging around, then don't let them.
+2. You can be a part of a server that has as tight or loose of rules as you want. Don't want racists hanging around, then don't let them.
 
-There are many fediverse services. The most well know one being [mastodon](https://joinmastodon.org) which is basically a Twitter clone BUT the weird thing is there's multiple instances. So, like email, you might have an account at https://merveilles.town or https://chaos.social/about or something else entirely, but regardless of what you use they can communicate.
+There are many fediverse services. The most well known one being [mastodon](https://joinmastodon.org) which is basically a Twitter clone BUT the weird thing is there are multiple instances. So, like email, you might have an account at https://merveilles.town or https://chaos.social/about or something else entirely, but regardless of what you use they can communicate.
 
 Mastodon has many many great instances - more on that in a bit. The bigger picture is that federation can be used for something like a YouTube clone (which is what [PeerTube](https://joinpeertube.org) is), streaming audio (which is what [Funkwhale](https://funkwhale.audio) is), being-a-better-insta-than-insta (which is what [PixelFed](https://pixelfed.org/) is), event planning (see [Gath.io](https://gath.io/)), and quite a few other things if you go looking. The point being, for each of these, an (optionally) unified identity can be used and the server you use (or host yourself) can choose who to federate with (talk to). This means it:
 
@@ -41,7 +41,7 @@ Mastodon has many many great instances - more on that in a bit. The bigger pictu
 
 * Lets you control your data as much as you want to. 
 
-It's a win-win-win. In most systems these sound contradictory. How can something be censorship resistant, but still have communities with whatever rules they like? Well, the key word their is **communities**, and that it is plural. These communities are still separete, it's just that they can federate *if and only if* they want to.
+It's a win-win-win. In most systems, these sound contradictory. How can something be censorship resistant, but still have communities with whatever rules they like? Well, the key word there is **communities**, and that it is plural. These communities are still separate, it's just that they can federate *if and only if* they want to.
 
 If a server is full of racist jerks, nobody will federate with them. They can post all they want on their server, but their reach is limited. Yes, this makes echo chambers worse (in both directions) but, it's a hell of a lot better than the alternative.
 
@@ -59,9 +59,9 @@ Sounds exciting? Dive in!
 
 {{< /quote >}}
 
-Which, uh, I don't know if sounds exiciting so much as it sounds like a description of a rockwell automation retroencabulator.
+Which, uh, I don't know if sounds exciting so much as it sounds like a description of a Rockwell automation retroencabulator.
 
-So, in English, it's a way for services/websites to talk to each other ... which is a form of the above mentioned federation. So, basically, it's one way that things can federate. It's the protocol.
+So, in English, it's a way for services/websites to talk to each other ... which is a form of the above-mentioned federation. So, basically, it's one way that things can federate. It's the protocol.
 
 While not the best analogy, it's not totally wrong to say that ActivityPub is the language things talk to each other in (usually) while the act of talking to one another is federation. So, with the **fedi**verse being the uni**verse** of these things that are all talking together, ActivityPub is the way they (usually) talk.
 
@@ -93,7 +93,7 @@ If you're being pedantic, this means that this website isn't technically part of
 
 {{< /speech >}}
 
-Along with that, clearly a big part of the **indie**web is being **inde**pendent, so, big corprate websites, even if they fit everything else don't count.
+Along with that, clearly a big part of the **indie**web is being **inde**pendent, so, big corporate websites, even if they fit everything else don't count.
 
 ## Putting it all together
 
@@ -143,7 +143,7 @@ Huh?
 
 {{< speech right big >}}
 
-You like Twitter but not *that side* of Twitter? Then you can use Mastodon. Mastodon is part of the fediverse, which is made up of indieweb servers, which all federate with eachother. You could join a server like [eldritch.cafe](eldritch.cafe) which is 
+You like Twitter but not *that side* of Twitter? Then you can use Mastodon. Mastodon is part of the fediverse, which is made up of indieweb servers, which all federate with each other. You could join a server like [eldritch.cafe](eldritch.cafe) which is 
 
 > For queer people, feminists, anarchists and their sympathizers. Mainly French, but other languages welcome
 
@@ -189,7 +189,7 @@ Why is this terminology so confusing?
 
 {{< speech right big>}}
 
-Feckin' hell, right? In short, if you're using Mastodon you are:
+Feckin' hell, right? In short, if you're using Mastodon, you are:
 
 * On one of many websites that is interconnected in a way that is refereed to as being **federated**, where all of these federated sites together are called **the fediverse**.
 * Using **Activity Pub** behind the scenes when your mastodon instance talks to another. This happens all the time as your toot (the equivalent of a tweet) propagates though all the federated instances.
@@ -200,7 +200,7 @@ If you then go to use a PeerTube instance like ...
 
 {{< tip >}}
 
-The following link is to a specific PeerTube instance. From what I can tell, most PeerTube instances have an abundance of NSFW and unsavory content. My experiance with Mastodon has been great, peertube... ehhhhhhh.
+The following link is to a specific PeerTube instance. From what I can tell, most PeerTube instances have an abundance of NSFW and unsavory content. My experience with Mastodon has been great, peertube... ehhhhhhh.
 
 {{< /tip >}}
 
@@ -238,13 +238,13 @@ Which, is exactly what this website is a part of. Rather than put the button to 
 
 ## Decentralized networking
 
-While it's sure as hell taking it's sweet time to get there, there's some really neat projects that are trying to make the backbone of the internet decentralized. The idea here is that it's a bit weird that if you were to instant message your neighbor that it has to go over your cell carrier's or ISPs network instead of your presumably-close-enough wi-fi routers just ... talking. It's almost a little to obvious to the point that it sounds dumb it doesn't work this way already.
+While it's sure as hell taking its sweet time to get there, there's some really neat projects that are trying to make the backbone of the internet decentralized. The idea here is that it's a bit weird that if you were to instant message your neighbor that it has to go over your cell carrier's or ISPs network instead of your presumably-close-enough Wi-Fi routers just ... talking. It's almost a little too obvious to the point that it sounds dumb it doesn't work this way already.
 
 To various degrees and in different ways, project like [yggdrasil](https://yggdrasil-network.github.io), [ipfs](https://ipfs.io), [cjdns](https://github.com/cjdelisle/cjdns) + [hyperboria](https://hyperboria.net/), and [beaker](https://beakerbrowser.com) among many, many others are trying to make this future a reality.
 
 ## The not http-web
 
-When you go to a website and do (almost) anything, all of the content is severed over the **H**yper**t**ext **T**ransfer **P**rotocol (or HTTP**S**, the secure variant). HTTP is great, it's allowed us to make the bad as internet we have today. *But*, it can sometimes be a bit to freeing. That freedom is why we have a lot of websites which sucks for screen readers, are full of obnoxious ads, etc. So, there are alternatives.
+When you go to a website and do (almost) anything, all of the content is severed over the **H**yper**t**ext **T**ransfer **P**rotocol (or HTTP**S**, the secure variant). HTTP is great, it's allowed us to make the bad as internet we have today. *But*, it can sometimes be a bit too freeing. That freedom is why we have a lot of websites which sucks for screen readers, are full of obnoxious ads, etc. So, there are alternatives.
 
 The big two are **Gopher** and **Gemini**, and at risk of pissing people off by treating them like they're the same thing, they're both very limited. You can display text, images, etc. but the way those websites actually arrange the content and show it to you is up to your browser. The websites themselves only provide the content, they leave it up to the browser to decide how to display it. If you want to try out a browser, see [Castor](https://sr.ht/~julienxx/Castor/) and noodle around. (or maybe [bombadillo](https://bombadillo.colorfield.space) if you're a TUI person)
 

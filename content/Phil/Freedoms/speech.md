@@ -20,7 +20,7 @@ The freedom of speech is weird, because it's one that most of us recognize is th
 * Hate Speech <img src="/common/vs.webp" alt="vs" style="height:1em;" /> Political/Religious Opinion
 * Copyright <img src="/common/vs.webp" alt="vs" style="height:1em;" /> Parody
 * Public Health <img src="/common/vs.webp" alt="vs" style="height:1em;" /> Advertising of Sugar/Drugs
-* Public Saftey <img src="/common/vs.webp" alt="vs" style="height:1em;" /> Creating Panic
+* Public Safety <img src="/common/vs.webp" alt="vs" style="height:1em;" /> Creating Panic
 * Encryption <img src="/common/vs.webp" alt="vs" style="height:1em;" /> Self Incrimination
 * Flag Burning <img src="/common/vs.webp" alt="vs" style="height:1em;" /> National Pride
 * Gag Orders <img src="/common/vs.webp" alt="vs" style="height:1em;" /> National Security
@@ -30,7 +30,7 @@ The freedom of speech is weird, because it's one that most of us recognize is th
 
 {{< /columns >}}
 
-There's also a question of where things go to far- at what point is speech a legitimate threat, and where is the line for actions that constitute harassment vs just being an asshole? Should freedom of speech only apply to the government, or should we compel large social media platforms like Facebook and Twitter, to allow the spread of misinformation and hate or not?
+There's also a question of where things go too far- at what point is speech a legitimate threat, and where is the line for actions that constitute harassment vs just being an asshole? Should freedom of speech only apply to the government, or should we compel large social media platforms like Facebook and Twitter, to allow the spread of misinformation and hate or not?
 
 ## Government Secrets Vs Whistle blowing
 

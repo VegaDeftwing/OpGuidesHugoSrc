@@ -20,7 +20,7 @@ https://zserge.com/posts/etude-in-c/ & https://zserge.com/posts/beep/
 
 [Vult DSP Programming Language](https://www.vult-dsp.com/vult-language)
 
-[Writing Efficent VCV Plugins](https://github.com/squinkylabs/Demo/blob/main/docs/efficient-plugins.md) from SquinkyLabs
+[Writing Efficient VCV Plugins](https://github.com/squinkylabs/Demo/blob/main/docs/efficient-plugins.md) from SquinkyLabs
 
 [Technical Papers from Cytomic](https://cytomic.com/technical-papers/)
 
@@ -34,7 +34,7 @@ https://blog.demofox.org/2021/12/29/why-cant-you-design-noise-in-frequency-space
 
 http://www.doepfer.de/DIY/a100_diy.htm
 
-> As a quick note, there are a ton of possible options when choosing what to use as hardware for devloping audio hardware. You can go full analog, work with dedicated DSP hardware, use microcontrollers with full FPUs, use single board computers, use an [FPGA (Like on the Rainmaker)](https://intellijel.com/downloads/manuals/cylonix-rainmaker_manual_v1.09-143.pdf), or try to get by on a 328P (Arduino Uno). The most important part is making something, don't stress too much about what you use to do it- but don't use something prohibitively expensive or outright garbage (like the 328P) either, unless you know what you're doing. The STM32's with FPU's are probably a good bet.
+> As a quick note, there are a ton of possible options when choosing what to use as hardware for developing audio hardware. You can go full analog, work with dedicated DSP hardware, use microcontrollers with full FPUs, use single board computers, use an [FPGA (Like on the Rainmaker)](https://intellijel.com/downloads/manuals/cylonix-rainmaker_manual_v1.09-143.pdf), or try to get by on a 328P (Arduino Uno). The most important part is making something, don't stress too much about what you use to do it- but don't use something prohibitively expensive or outright garbage (like the 328P) either, unless you know what you're doing. The STM32's with FPU's are probably a good bet.
 
 [Digital Vintage Sound: Modeling Analog Synthesizers with the Wolfram Language and System Modeler](https://blog.wolfram.com/2020/07/23/digital-vintage-sound-modeling-analog-synthesizers-with-the-wolfram-language-and-system-modeler/)
 

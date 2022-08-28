@@ -14,7 +14,7 @@
 
 https://en.wikipedia.org/wiki/The_Mother_of_All_Demos
 
-[Adam Savage's Computer History Collection! (Youtube)](https://www.youtube.com/watch?v=TfwKYUmoC-k&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz&index=17)
+[Adam Savage's Computer History Collection! (YouTube)](https://www.youtube.com/watch?v=TfwKYUmoC-k&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz&index=17)
 
 ## Preserving data
 

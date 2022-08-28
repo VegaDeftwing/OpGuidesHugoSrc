@@ -12,17 +12,17 @@ The best fit for me would *probably* be the [Sleepy Circuit Hypno](https://sleep
 
 I'd really prefer something that, at least during live use, doesn't take me out of the flow to write a shader in {{< button relref="/Engineering/programming/shaders" >}}GLSL/HLSL{{< /button >}} or require significant work just to get *something* on screen at all. Similarly, not being a massive pain to get it to react to MIDI is a must. Ideally, direct audio input, OSC, etc. would be great too.
 
-One piece of software that immediately stands out as an alternative is Lumen. Problem? It's MacOS only. So, while I could set up a hackintosh and go that route, that's beginning to be a larger expense and pain than getting the Hypno. Plus, looking at videos, it has sweet spots but otherwise largely looks like shit. No thanks.
+One piece of software that immediately stands out as an alternative is Lumen. Problem? It's macOS only. So, while I could set up a hackintosh and go that route, that's beginning to be a larger expense and pain than getting the Hypno. Plus, looking at videos, it has sweet spots but otherwise largely looks like shit. No thanks.
 
 Alright, what about the bluntly named [Visual Synthesizer](https://www.imaginando.pt/products/vs-visual-synthesizer)? Well, I yoink'd it on sale and it lacks UI scaling (sucks on 4k), seemingly can't do feedback (a big part of video synthesis), but most importantly has shit documentation. So, nope.
 
-Next on the plate, what about [synesthesia.live](https://synesthesia.live)? Well, other than half the features - including the ability to pause output - being behind a $300 paywall it's not *bad*. It can import from shadertoy, which is pretty sweet. It meets all my other needs: MIDI, OSC, Audio input, etc. It doesn't have very good built in shaders for what I like - they're all a bit overly complex. So, I'd still have to go write (or find on shadertoy) some of my own shaders, which is time consuming enough to be annoying. Like, drawing basic lines and shapes should not require writing code. My biggest gripe is the lack of a good layer system, that is, there's no way to load in multiple shaders and blend them together. Between the cost and lack of good shaders (again, a minor gripe, but reflective of it's intended use case) it just doesn't seem right for me.
+Next on the plate, what about [synesthesia.live](https://synesthesia.live)? Well, other than half the features - including the ability to pause output - being behind a $300 paywall it's not *bad*. It can import from shadertoy, which is pretty sweet. It meets all my other needs: MIDI, OSC, Audio input, etc. Furthermore, it doesn't have very good built in shaders for what I like - they're all a bit overly complex. So, I'd still have to go write (or find on shadertoy) some of my own shaders, which is time-consuming enough to be annoying. Like, drawing basic lines and shapes should not require writing code. My biggest gripe is the lack of a good layer system, that is, there's no way to load in multiple shaders and blend them together. Between the cost and lack of good shaders (again, a minor gripe, but reflective of it's intended use case) it just doesn't seem right for me.
 
-Moving on, probably the biggest name in the scene is [Touch Designer](https://derivative.ca). Look, I know some people can make some really, really great things in Touch Designer. It does meet all my needs. It's no more expensive than Synesthesia.live, and, man, I fucking hate it. It has all the problems Blender has: Overly complicated UI, non-immediacy in the UI, out-dated tutorials on YouTube making it hard to learn, etc. Only, here, they're worse. Those tutorials? Yeah, the official documentation links to a lot of them as a stand in for real docs. I'm the kind of guy that likes node-based editors and visual programming (hence my love of modular synths) but holy shit is touch designer confusing and annoying to use. I want to love it... I just can't.
+Moving on, probably the biggest name in the scene is [Touch Designer](https://derivative.ca). Look, I know some people can make some really, really great things in Touch Designer. It does meet all my needs. It's no more expensive than Synesthesia.live, and, man, I fucking hate it. Not only that, but it has all the problems Blender has: Overly complicated UI, non-immediacy in the UI, out-dated tutorials on YouTube making it hard to learn, etc. Only, here, they're worse. Those tutorials? Yeah, the official documentation links to a lot of them as a stand in for real docs. I'm the kind of guy that likes node-based editors and visual programming (hence my love of modular synths) but holy shit is touch designer confusing and annoying to use. I want to love it... I just can't.
 
-Okay, I've gone though a large portion of the good options now so let me just barrel though a few
+Okay, I've gone through a large portion of the good options now, so let me just barrel though a few
 
-[vvvv](https://vvvv.org): Great for interactive art installations, not great for performance and fun noodling around. Also expensive as hell.
+[vvvv](https://vvvv.org): Great for interactive art installations, not great for performance and fun noodling around. Also, expensive as hell.
 
 [Cathodemer](https://www.hypertonal.net/cathodemer/): Runs like shit on my system and I have 32 gigs of RAM, a 3900x, and a Vega56. What the fuck. Also doesn't look great.
 
@@ -32,7 +32,7 @@ Okay, I've gone though a large portion of the good options now so let me just ba
 
 Okay, so, now I'll finally get to the good ones, the few that felt like they had potential. I'll start with what was the runner up: [Hydra](https://hydra.ojack.xyz/?sketch_id=flor_1).
 
-Hydra has a lot problems:
+Hydra has a lot of problems:
 
 * It's Web based - so, relies on a browser
 * There's no good way to record from it without using a screen recorder like OBS
@@ -42,17 +42,17 @@ Hydra has a lot problems:
 
 So why still consider it?
 
-The live code syntax is really, really, **really** good. It's high level enough to let you make things very quickly but low level enough not to be limiting in most circumstances. Clearly, you can do more in GLSL directly than in Hydra's own language, but it'll take you 10x as long (if not longer) to do it. It feels just right.
+The live code syntax is really, really, **really** good. It's high level enough to let you make things very quickly, but low level enough not to be limiting in most circumstances. Clearly, you can do more in GLSL directly than in Hydra's own language, but it'll take you 10x as long (if not longer) to do it. It feels just right.
 
 Unfortunately, those gripes about recording are major enough that I wasn't quite happy, and so there's [KodeLife](https://hexler.net/kodelife).
 
-... Yes, yes. I know I said "doesn't take me out of the flow to write a shader in {{< button relref="/Engineering/programming/shaders" >}}GLSL/HLSL{{< /button >}}" but once I have the shaders I want set up how I want I can use MIDI to control the parameters I want. Getting that set up is annoyingly tedious, but compared to shelling out $450 for Hypno and still needing to throw an increasingly-hard-to-find Raspberry Pi at it, it actually seems rather reasonable. Kode life, at least at the time of writing is \$20 so, over 20x cheaper than the Hypno, plus is not at all feature limited to try-before-you-buy other than being nag-ware. That's pretty sweet imho.
+... Yes, yes. I know I said "doesn't take me out of the flow to write a shader in {{< button relref="/Engineering/programming/shaders" >}}GLSL/HLSL{{< /button >}}" but once I have the shaders I want set up how I want I can use MIDI to control the parameters I want. Getting that set up is annoyingly tedious, but compared to shelling out $450 for Hypno and still needing to throw an increasingly-hard-to-find Raspberry Pi at it, it actually seems rather reasonable. Kode life, at least at the time of writing is \$20 so, over 20x cheaper than the Hypno, plus is not at all feature limited to try-before-you-buy other than being nag-ware. That's pretty sweet, imho.
 
 It wasn't a huge factor into my decision, but KodeLife also supports [Spout](https://spout.zeal.co) for sharing video streams between tools. This is pretty sweet if I want to use it with other software visual synths and what not, as it seems like about 3/4 of the video synthesis tools out there (including *most* of the tools on this page) support it.
 
 Anyway, with my decision made, I needed to make it work for me. Unfortunately, in this case that means taking a break from writing C during the week work by writing GLSL during the weekend, but, oh well.
 
-First part of writing code is always figuring out what you need to write:
+The first part of writing code is always figuring out what you need to write:
 
 For generators:
 
@@ -82,7 +82,7 @@ For generators:
 For effects:
 
 1. **Feedback:** I should get this "for free" by putting each generator in a buffer
-   * Should also have hue offset per repitition, as well x-y offset, rotation
+   * Should also have hue offset per repetition, as well x-y offset, rotation
 2. **"Fractalization":**  Basically just recursive (with limited depth) mirroring
    * needs axis (rotation) and number of steps to re-cur
 3. **Pixelization:** 
@@ -94,4 +94,4 @@ For effects:
 
 Some of these will be harder than others, but none of them should really be all that difficult.
 
-I do think I want each fragment shader to be in it's own pass and so rendering to it's own texture, but I'll probably only ever use a maximum of 3 generators at a time. If I do that, I can just set up each generator to have a set of associated CC's and put each one in their own rendering pass/buffer, making feedback easy. This will get a smidgen gross due to the tedious way KodeLife does MIDI mapping, but it should be fine.
+I do think I want each fragment shader to be in its own pass and so rendering to its own texture, but I'll probably only ever use a maximum of 3 generators at a time. If I do that, I can just set up each generator to have a set of associated CC's and put each one in their own rendering pass/buffer, making feedback easy. This will get a smidgen gross due to the tedious way KodeLife does MIDI mapping, but it should be fine.

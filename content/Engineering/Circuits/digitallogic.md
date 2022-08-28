@@ -1,8 +1,8 @@
 # Chapter 24 - Digital Logic
 
-Digital logic is what it sounds like- it's doing logical operations on digital data - 1's and 0's; True and False. Chain some of (er, a lot of) these logical operations togother and you can do anything you want! Want to make your own CPU? Done. Want to make dedicated circuitry to do what your code does but hundreds of times faster? This is the way to do it.
+Digital logic is what it sounds like- it's doing logical operations on digital data - 1's and 0's; True and False. Chain some of (er, a lot of) these logical operations together and you can do anything you want! Want to make your own CPU? Done. Want to make dedicated circuitry to do what your code does but hundreds of times faster? This is the way to do it.
 
-As an example, here's a rather artistic representation of a digital logic circuit that takes in a four bit binary number and outputs seven different signals coropsonding to the lights on a 7-segment LED to show the right number (in hexadecimal)
+As an example, here's a rather artistic representation of a digital logic circuit that takes in a four bit binary number and outputs seven different signals corresponding to the lights on a 7-segment LED to show the right number (in hexadecimal)
 
 {{< columns >}}
 
@@ -33,11 +33,11 @@ As an example, here's a rather artistic representation of a digital logic circui
 
 {{< /columns >}}
 
-Now, it's worth considering here that this circuit is probably not the most efficient way to do this. This could also be done by just using a look up table (LUT), in that case, all of those individual logic elements are skipped and the input bits are basically just used as an adress to look up a different value. The end result is the same. We'll wrap back around to this idea later.
+Now, it's worth considering here that this circuit is probably not the most efficient way to do this. This could also be done by just using a look up table (LUT), in that case, all of those individual logic elements are skipped and the input bits are basically just used as an address to look up a different value. The end result is the same. We'll wrap back around to this idea later.
 
 {{< speech big >}}
 
-Some of this look familiar? If you've played Minecraft before you may have gotten Redstone vibes from the GIF above. Those intutitions are correct. Many Redstone circuits are actually just clever ways of using the same binary logic ideas we're about to go over!
+Some of this look familiar? If you've played Minecraft before, you may have gotten Redstone vibes from the GIF above. Those intuitions are correct. Many Redstone circuits are actually just clever ways of using the same binary logic ideas we're about to go over!
 
 {{< /speech >}}
 
@@ -66,7 +66,7 @@ min/max terms, Don't cares, SOP/POS, multiple out
 | 0     | 1      |
 | 1     | 0      |
 
-[TODO] transistor implementation w/ cmost, cost, power consumption at switch
+[TODO] transistor implementation w/ CMOS, cost, power consumption at switch
 
 {{< columns >}}
 
@@ -138,7 +138,7 @@ True if neither A or B are True, else False. {{< katex >}} \text{Often written }
 
 ### XOR (Exclusive OR)
 
-True **if** A **or** B are **exclusively** True, else False. Note, this **does not** includes if both are true. Often written as A⊕B
+True **if** A **or** B are **exclusively** True, else False. Note, this **does not** include if both are true. Often written as A⊕B
 
 <img src="/eng/logic/XOR_ANSI.svg" alt=" " height="80em" style="-webkit-filter: invert(1);filter: invert(1);">
 
@@ -170,7 +170,7 @@ For two bits, most easily thought of as True if both bits are equal. More broadl
 
 ### Mux & Demux
 
-Go read the [Multiplexer](https://en.wikipedia.org/wiki/Multiplexer) Wikipedia article. It's actually really good.
+Go read the [Multiplexer](https://en.wikipedia.org/wiki/Multiplexer) Wikipedia article. It's actually excellent.
 
 ### Encoders
 
@@ -188,7 +188,7 @@ overflow, carry, ripple, fast, mul, shift-and-add mult, divider,
 
 ## Feedback Circuits
 
-Oscilators, Monostable, Osc if high, Bistable (contrlollable/not controlable)
+Oscillators, Monostable, Osc if high, Bistable (controllable/not controllable)
 
 ## Latches and Flip Flops
 
@@ -214,9 +214,9 @@ https://www.adafruit.com/product/1895
 
 There's a ton of simulators out there for making simple circuits educationally, but most sorta suck, so I'm going to delve right into something fun: Minecraft
 
-> If you don't own MineCraft and can't afford it, [MineTest](https://www.minetest.net) with [mesecons](https://content.minetest.net/packages/Jeija/mesecons/) is an option. It's... not great. (sorry MineTest team, I still love what you're doing <3 ) But it is Open Source. If you're using Arch Linux (and updates haven't broken things since writing) you should be able to install `MineTest` from the community repo and `mesecons-git` from the AUR.
+> If you don't own Minecraft and can't afford it, [MineTest](https://www.minetest.net) with [mesecons](https://content.minetest.net/packages/Jeija/mesecons/) is an option. It's... not great. (sorry MineTest team, I still love what you're doing <3 ) But it is Open Source. If you're using Arch Linux (and updates haven't broken things since writing) you should be able to install `MineTest` from the community repo and `mesecons-git` from the AUR.
 
-[Minetest Circuit Challange](https://www.youtube.com/watch?v=nI8Q1bqT8QU&ab_channel=LiveOverflow)
+[Minetest Circuit Challenge](https://www.youtube.com/watch?v=nI8Q1bqT8QU&ab_channel=LiveOverflow)
 
 ## Half Adder
 
