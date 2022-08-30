@@ -171,3 +171,77 @@ th[role=columnheader]:not(.no-sort):hover:after {
 	visibility: visible;
 	opacity: 1;
 }
+
+// This style has been stolen from https://codepen.io/Kosai106/pen/eZvJwY (and slightly modifed)
+// which means it is MIT Licenced according to https://blog.codepen.io/documentation/licensing/
+// The full text of the MIT licence can be found at https://opensource.org/licenses/MIT
+// So, MIT, Copyright Kevin Østerkilde. Stolen with love <3.
+
+$color1 :     #161719;
+$color2 :     #333;
+$text :       #eee;
+$highlight1 : #39505a;
+$highlight2 : #453346;
+$highlight3 : #422c2c;
+$highlight4 : #2f3f32;
+
+.foot-tooltip{
+    background-color: $color2;
+    color: $text;
+    font-size: 1em;
+    line-height: 1.4;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    cursor: default;
+
+    //  Border and arrow left
+    &:nth-child(2n) {
+        border-left: 5px solid;
+    }
+    &:nth-child(2n):after {
+        content: '';
+        margin-top: -30px;
+        padding-top: 0px;
+        position: relative;
+        bottom: -30px;
+        left: 20px;
+        border-width: 20px 0 0 10px;
+        border-style: solid;
+        border-color: $color2 transparent;
+        display: block;
+        width: 1px;
+    }
+    //  Border and arrow right
+    &:nth-child(2n+1) {
+        border-right: 5px solid;
+    }
+    &:nth-child(2n+1):after {
+        content: '';
+        margin-top: -30px;
+        padding-top: 0px;
+        position: relative;
+        bottom: -45px;
+        left: 350px;
+        border-width: 30px 30px 0 0;
+        border-style: solid;
+        border-color: $color2 transparent;
+        display: block;
+        width: 0;
+    }
+
+
+    // Randomize every 4th bubble's border color
+    &:nth-child(4n+1) {
+        //border-color: hsla(random(365), random(365), 50, 1);
+        border-color: $highlight1;
+    }
+    &:nth-child(4n+2) {
+        border-color: $highlight4;
+    }
+    &:nth-child(4n+3) {
+        border-color: $highlight2;
+    }
+    &:nth-child(4n+4) {
+        border-color: $highlight3;
+    }
+}

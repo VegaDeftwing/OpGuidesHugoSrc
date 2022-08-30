@@ -657,3 +657,6 @@ The website already has https://www.kreativekorp.com/software/fonts/fairfaxhd/#c
 
 if you want to use a conlang, put it in a `<div class="conlang">` or it will still probably render incorrectly.
 
+# Other useful tools:
+
+* https://charlesstover.github.io/rainbow-text/
