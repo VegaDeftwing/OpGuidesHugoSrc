@@ -6,6 +6,8 @@ slug: "Video"
 
 # Video & Streaming
 
+...Psst, if you're on this page, you may be interested in {{< button relref="posts/videosynth" color="gradient-border2" >}}My blog post on Video Synthesis{{< /button >}}
+
 {{< speech throw big >}}
 
 Before anything else, I need to crush some hopes and dreams:
