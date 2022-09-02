@@ -9,8 +9,6 @@ tags:
 draft: false
 ---
 
-# My Video Synthesis Journey
-
 {{< speech big >}}
 
 I'm not being paid to say any of this, I haven't spoken to any of the companies listed here *except* for 
