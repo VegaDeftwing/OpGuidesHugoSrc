@@ -146,7 +146,11 @@
 
 * [@Foone: You Want to know how bullshit insane our brains are](https://twitter.com/Foone/status/1014267515696922624)
 
-* 
+* [CSC218 - Software Precognance](https://suricrasia.online/unfiction/CSC218-Software-Precognance.pdf)
+
+* [The Cursed Computer Iceberg Meme](https://suricrasia.online/iceberg/)
+
+* [Basilisk collection (ⁿᵒᵗ Wikipedia)](https://suricrasia.online/unfiction/basilisk/)
 
   
 

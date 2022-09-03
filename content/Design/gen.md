@@ -15,6 +15,14 @@ This page is almost completely devoid of actual educational content. Instead, I'
 
 {{< /columns >}}
 
+{{< tip >}}
+
+Most will notice this page lacks AI generative art tools such as DALL·E 2, Midjourney, & Stable Diffusion. This isn't because they're not interesting, it's because the space is rapidly evolving and I don't want to maintain constantly changing lists!
+
+See [Stable Diffusion is a really big deal](https://simonwillison.net/2022/Aug/29/stable-diffusion/) by [@simonw](https://twitter.com/simonw) for how crazy things can get.
+
+{{< /tip >}}
+
 If you're interested in generative music and sounds as well, you may want to check out The OpGuides page on {{< button relref="Music/software/livecoding" color="music" >}}Live coding Music Software{{< /button >}}.
 
 {{< details title="World Building Tools" open=false >}}
@@ -1015,9 +1023,20 @@ Fills the layer with a pattern specified through Disney Animation’s [**SeExpr*
 {{< columns2 >}}
 [Waifu-2x](http://waifu2x.udp.jp)                            
 <--->
-"Image Super-Resolution for Anime-style art using Deep Convolutional Neural Networks. And it supports photo." - Works well on most things, not just anime art. The link is for a site where you can try it out online, but if you need to run it a lot you should probably run it locally. If you do I recomend [this version](https://github.com/nihui/waifu2x-ncnn-vulkan) is it's compatible with basically any modern GPU. You may also want to check out [Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI)
+"Image Super-Resolution for Anime-style art using Deep Convolutional Neural Networks. And it supports photo." - Works well on most things, not just anime art. The link is for a site where you can try it out online, but if you need to run it a lot you should probably run it locally. If you do I recomend [this version](https://github.com/nihui/waifu2x-ncnn-vulkan) is it's compatible with basically any modern GPU. You may also want to check out [Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI).
 <--->
 ![](https://raw.githubusercontent.com/nagadomi/waifu2x/master/images/slide.png)
+{{< /columns2 >}}
+
+{{< columns2 >}}
+[Upscayl](https://github.com/upscayl/upscayl)                  
+<--->
+
+Same vibe as Waifu-2x, but a different model. Tends to perform a tiny bit better.
+
+<--->
+
+<video width="100%" controls> <source src="https://user-images.githubusercontent.com/25067102/186332548-0d53f02f-d159-4804-8b0e-887d96651fdb.mp4" type="video/mp4">
 {{< /columns2 >}}
 
 {{< columns2 >}}
@@ -1169,6 +1188,20 @@ State Machines
 <--->
 
 <img src="/design/nerdtools/xstate.webp" alt=" ">
+
+{{< /columns >}}
+
+{{< columns2 >}}
+
+[D2](https://d2-lang.com/tour/intro)
+
+<--->
+
+**D2** is a domain-specific language (DSL) that stands for **Declarative Diagramming**. Declarative, as in, you write in text what you want diagrammed, we generate it.
+
+<--->
+
+<img src="https://d2-lang.com/assets/images/intro-example-a917149ff3b72afc02d0cecf703a49a3.png" alt=" ">
 
 {{< /columns >}}
 

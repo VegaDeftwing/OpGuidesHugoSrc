@@ -28,6 +28,8 @@
 
 [Protothreads](http://dunkels.com/adam/pt/index.html) - "extremely lightweight stackless threads designed for severely memory constrained systems"
 
+[hanoi](https://github.com/natelastname/hanoi) - "Library for strange integer number systems such as base -1+i, base -2, Stern-Brocot rationals"
+
 ### C++
 
 > Keep in mind, everything from the above should still work
