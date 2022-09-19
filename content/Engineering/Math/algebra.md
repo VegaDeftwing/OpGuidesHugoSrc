@@ -40,7 +40,7 @@ Well, this is easier to answer with a few examples, the most well know of which 
 
 Irrational numbers are numbers where the decimal doesn't repeat and as such can *not* be written as an integer over another integer. Because pi is a geometrically defined constant, it may be easier to look at something a bit more tangible.
 
-the square root of a number is just the number that when multiplied with itself gives the number in question, so the square root of 4 is 2 because 2*2 is 4, the square root of 9 is 3 because 3\*3 is 9, etc.
+The square root of a number is just the number that when multiplied with itself gives the number in question, so the square root of 4 is 2 because 2*2 is 4, the square root of 9 is 3 because 3\*3 is 9, etc.
 
 But what about the square root of 2? well {{< katex >}} \sqrt{2} = 1.414213562373.... {{</ katex >}} you get the idea. Like with pi, it's a number that goes on forever, with no repeating pattern.
 
@@ -56,13 +56,13 @@ Finally, we're up to the normal number line, that is, we now have the set of all
 
 Yep, that's pretty much everyone's first reaction. What in the hell is an imaginary number?
 
-Well, okay, remember before how I said a square root was just whatever number you need to multiply with itself to get the number, so {{< katex >}} \sqrt{4} = 2 {{</ katex >}}? This has a problem, a negative number times a negative number is always positive, so {{< katex >}} 3 * 3 = 9, -3 * 3 = -9, \text{ but } -3 * -3 = 9 {{</ katex >}} So, what would the square root of a negitive number be? There are no two numbers that can multiply to give us -1, so, we made one up! {{< katex >}} \sqrt{-1} = i {{</ katex >}}
+Well, okay, remember before how I said a square root was just whatever number you need to multiply with itself to get the number, so {{< katex >}} \sqrt{4} = 2 {{</ katex >}}? This has a problem, a negative number times a negative number is always positive, so {{< katex >}} 3 * 3 = 9, -3 * 3 = -9, \text{ but } -3 * -3 = 9 {{</ katex >}} So, what would the square root of a negative number be? There are no two numbers that can multiply to give us -1, so, we made one up! {{< katex >}} \sqrt{-1} = i {{</ katex >}}
 
 furthermore, {{< katex >}} \sqrt{-4} = 2i {{</ katex >}}
 
 i being equal to {{< katex >}}\sqrt{-1}{{</ katex >}} has some interesting properties with exponents. Naturally exponentiation is the inverse of a root, that is {{< katex >}} 3^2 = 9, \text{ as } \sqrt{9} = 3 \text{ implies that } \sqrt{9}^2=9{{</ katex >}},
 
-When taken to negitive numbers, we can see this effect, so {{< katex >}} \sqrt{-1}^2=-1 \text{ implies } \sqrt{-1}^2 = i^2 = i* i = -1{{</ katex >}}
+When taken to negative numbers, we can see this effect, so {{< katex >}} \sqrt{-1}^2=-1 \text{ implies } \sqrt{-1}^2 = i^2 = i* i = -1{{</ katex >}}
 
 So what if we keep taking *i* to higher powers?
 
@@ -74,7 +74,7 @@ Note, you may also see 'j' used instead 'i' to represent imaginary numbers.
 
 {{< /tip >}}
 
-While you're inital reaction may be "Who cares?", I assure you you'll see the value of this in a bit.
+While your initial reaction may be "Who cares?", I assure you you'll see the value of this in a bit.
 
 ### ℂ - Complex Numbers
 
@@ -104,7 +104,7 @@ That said, there are some things you may not be used to. For starters, multiplic
 
 Typically, the {{< katex >}} 2 \cdot 2 = 4 {{</ katex >}} and parentheses methods are used on paper, while the {{< katex >}} 2 * 2 = 4 {{</ katex >}} is used on computer screens as it's easy to type. {{< katex >}} 2 \times 2 = 4 {{</ katex >}} is generally not preferred as it can be confused with other operations you'll see later.
 
-Something to keep in mind is that addition and multiplication are both, both commutative and associative, while subtraction and division are not. What this means is that while {{< katex >}} 2 + 3 = 3 + 2 \text{ but, } 2 - 3 \neq 3 - 2 {{</ katex >}} (The Commutative Property) similarly, {{< katex >}} 2 * 3 = 3 * 2 \text{ but, } 2 \div 3 \neq 3 \div 2 {{</ katex >}}
+Something to keep in mind is that addition and multiplication are both commutative and associative, while subtraction and division are not. What this means is that while {{< katex >}} 2 + 3 = 3 + 2 \text{ but, } 2 - 3 \neq 3 - 2 {{</ katex >}} (The Commutative Property) similarly, {{< katex >}} 2 * 3 = 3 * 2 \text{ but, } 2 \div 3 \neq 3 \div 2 {{</ katex >}}
 
 Furthermore, {{< katex >}} (2 + 3) + 4 = 3 + (2 + 4) \text{ but, } (2 - 3) - 4 \neq 2 - (3 - 4) {{</ katex >}} and {{< katex >}} (2 * 3) * 4 = 3 * (2 * 4) \text{ but, } (2 \div 3) \div 4 \neq 2 \div (3 \div 4) {{</ katex >}}, by the Associative Property. 
 
@@ -132,7 +132,7 @@ This results in a few 'rules' for exponents which are fairly easy to understand,
 | Power of a Product Rule            | {{< katex >}} (a*b)^x = a^x*b^x  {{</ katex >}}              |
 | Power of a Fraction Rule           | {{< katex >}} (\frac{a}{b})^x = (\frac{a^x}{b^x}) {{</ katex >}} |
 | Fractional Exponent                | {{< katex >}} a^{\frac{x}{y}} = \sqrt[y]{a^x} {{</ katex >}} |
-| Negitive Exponent                  | {{< katex >}} a^{-x} = \frac{1}{a^x} {{</ katex >}}          |
+| Negative Exponent                  | {{< katex >}} a^{-x} = \frac{1}{a^x} {{</ katex >}}          |
 | Zero Exponent **¡easy to forget!** | {{< katex >}}  a^0 = 1 {{</ katex >}}                        |
 
 alright, so why do I say these are intuitive? Let's take the product rule for example. Let's look at {{< katex >}}  2^2 * 2^3 = 2^5 {{</ katex >}} this is true because {{< katex >}}  2^2 = 2*2 , 2^3 = 2 * 2 * 2 \text{, so multiplied together they're }(2 * 2) * (2 * 2 * 2) \text{ and as multiplication is associative that is } 2*2*2*2*2 =  2^5 {{</ katex >}}, generally, any of these rules can be figured out by just writing out examples like these, expanding the exponent out like this, and seeing what happens.
@@ -155,17 +155,17 @@ Say you have a really big number like 2,340,000,000,000,000,000 or a really smal
 
 ### =, <, >, ≤, ≥, ≠, <<, >>, ≈, ∝
 
-The equal sign is pretty obvious, it just means that what ever is on each side is equal. The implications of this will lead us deeper into algebra though as we actually solve equations. There's some really obvious equalities, those that lack variables, so things like {{< katex >}} 1 + 2 = 3 {{</ katex >}}  or any of the equalities shown to this point really. Where equality gets a bit more interesting is when there's an unknown (variable, same thing). For example, {{< katex >}} 1 + x = 3 {{</ katex >}} here we cane see pretty obviously that x must be 2. We'll go into how to actually solve for these unknowns with non-obvious equations in a bit.
+The equal sign is pretty obvious, it just means that what ever is on each side is equal. The implications of this will lead us deeper into algebra though as we actually solve equations. There's some really obvious equalities, those that lack variables, so things like {{< katex >}} 1 + 2 = 3 {{</ katex >}}  or any of the equalities shown to this point really. Where equality gets a bit more interesting is when there's an unknown (variable, same thing). For example, {{< katex >}} 1 + x = 3 {{</ katex >}} here it's pretty obvious that x must be 2. We'll go into how to actually solve for these unknowns with non-obvious equations in a bit.
 
 Less Than and Greater Than are similarly simple, they just state that one side has a bigger number than the other. The '>' or '<' symbols should always 'eat' the bigger number, that is the open side faces the bigger number, and the pointy side points to the smaller. {{< katex >}} 2 < 3 {{</ katex >}} and {{< katex >}} 4 > 3 {{</ katex >}} are examples of this. When variable are involved, it usually means there are multiple solutions. {{< katex >}} x > 3 {{</ katex >}} for example, is satisfied for any x greater than 3, right down to 3.0000000000...00001 all the way up to ∞. Similarly, there are 'or equal to' variants of less than and greater than, which are written with a bar underneath so {{< katex >}} x \geq 3 {{</ katex >}} is satisfied for x equal to 3 to ∞, so the 3 *is* included with the 'or equal to part.'
 
-≠ means 'Not Equal To', and as the name impiles it's just saying the two sides can't be equal so with {{< katex >}} x \neq 0 {{</ katex >}},  x can be any value, except for 0.
+≠ means 'Not Equal To', and as the name implies it's just saying the two sides can't be equal so with {{< katex >}} x \neq 0 {{</ katex >}},  x can be any value, except for 0.
 
-Next are MUCH greater and less than, written with a double less than or greater than sign, so {{< katex >}} \gg \text{ or } \ll {{</ katex >}} these are weird for people new to the idea, because they're sort of fluid and depend on the situation. Generally they're used to say "This number is so small that it doesn't effect the outcome" or "This number is large that it dominates the outcome"
+Next are MUCH greater and less than, written with a double less than or greater than sign, so {{< katex >}} \gg \text{ or } \ll {{</ katex >}} these are weird for people new to the idea, because they're sort of fluid and depend on the situation. Generally they're used to say "This number is so small that it doesn't affect the outcome" or "This number is large that it dominates the outcome"
 
-Next up, is ≈ or "Approximately Equal To". This is for when you know your answer is off by some amount, due to impercesion in computation but it's still close enough for whatever you need to use it for. For example {{< katex >}} \pi \approx 3.1416 {{</ katex >}}
+Next up, is ≈ or "Approximately Equal To". This is for when you know your answer is off by some amount, due to imprecision in computation but it's still close enough for whatever you need to use it for. For example {{< katex >}} \pi \approx 3.1416 {{</ katex >}}
 
-Finally, there's ∝ for 'proportional to'. This just means the two equations are only different by a multiplited constant. For example, say {{< katex >}} y = kx {{</ katex >}}, where k is a constant (some number that can't change) then {{< katex >}} y \propto x {{</ katex >}}. This is useful for when two equations are representing something massively different in scale, but we want to indicate that they have the same behavior.
+Finally, there's ∝ for 'proportional to'. This just means the two equations are only different by a multiplied constant. For example, say {{< katex >}} y = kx {{</ katex >}}, where k is a constant (some number that can't change) then {{< katex >}} y \propto x {{</ katex >}}. This is useful for when two equations are representing something massively different in scale, but we want to indicate that they have the same behavior.
 
 ### |x|, ∆, ⌊x⌋, ⌈x⌉, ±
 
@@ -177,9 +177,9 @@ Later on you'll also see something called the 'Determinate', this uses the same 
 
 {{< /tip >}}
 
-Delta, {{< katex >}} \Delta {{</ katex >}}, is the change between two things, so from 10 to 20 degrees is a delta of 10 degrees. It is usally used with real units like this, giving us the difference between the final and inital values in an experiment. So really it's just Final Value - Initial Value. You may also see {{< katex >}} \Delta t {{</ katex >}} or {{< katex >}} \Delta x {{</ katex >}}, this would be change in time and change in position (usually) respectively. Note that Δ can be negitive.
+Delta, {{< katex >}} \Delta {{</ katex >}}, is the change between two things, so from 10 to 20 degrees is a delta of 10 degrees. It is usually used with real units like this, giving us the difference between the final and inital values in an experiment. So really it's just Final Value - Initial Value. You may also see {{< katex >}} \Delta t {{</ katex >}} or {{< katex >}} \Delta x {{</ katex >}}, this would be change in time and change in position (usually) respectively. Note that Δ can be negative.
 
-{{< katex >}} \left \lfloor{x}\right \rfloor {{</ katex >}} is the 'floor' of x. Similarly, {{< katex >}} \left \lceil{x}\right \rceil {{</ katex >}} is the 'ceiling' of x. Very basically, For floor this just means to drop everything after the decmial right off, so {{< katex >}} \left \lfloor{1.534}\right \rfloor = 1 {{</ katex >}}. For ceiling, it means to go up 1 and take the decimal off. {{< katex >}} \left \lceil{1.001}\right \rceil = 1{{</ katex >}} 
+{{< katex >}} \left \lfloor{x}\right \rfloor {{</ katex >}} is the 'floor' of x. Similarly, {{< katex >}} \left \lceil{x}\right \rceil {{</ katex >}} is the 'ceiling' of x. Very basically, for floor this just means to drop everything after the decmial right off, so {{< katex >}} \left \lfloor{1.534}\right \rfloor = 1 {{</ katex >}}. For ceiling, it means to go up 1 and take the decimal off. {{< katex >}} \left \lceil{1.001}\right \rceil = 1{{</ katex >}} 
 
 Finally, for lack of a better place to put it, let's look at ±. This is 'Plus or Minus' and it just means to do both, for example 3±2 gives us 1 and 5 as answers. Usually when this symbol is used, one of the two answers ends up being thrown out as invalid, but not always. 
 
@@ -211,15 +211,15 @@ https://www.rapidtables.com/math/symbols/Basic_Math_Symbols.html
 
 <--->
 
-We've all seen these incredibly stupid memes going around social media at one point (Reason №876 to quit FaceBook), but why do people argue over the answer? The real answer is because it's a really stupid problem. It has ambuguity baked into it, because of a lack of perentheses the solution is truly a bit ambiguous. That said, the 'accepted' correct answers will either be 2/3 or 6 because of PEMDAS, which is, in itself a crappy acroynm, and sholud probably be written as (PE)(MD)(AS), let me explain.
+We've all seen these incredibly stupid memes going around social media at one point (Reason №876 to quit FaceBook), but why do people argue over the answer? The real answer is because it's a really stupid problem. It has ambiguity baked into it, because of a lack of parentheses the solution is truly a bit ambiguous. That said, the 'accepted' correct answers will either be 2/3 or 6 because of PEMDAS, which is, in itself a crappy acronym, and sholud probably be written as (PE)(MD)(AS), let me explain.
 
 {{< /columns >}}
 
-PEMDAS stands for Perentheses, Exponents, Multiplication, Division, Addition, Subtraction, and is in general the correct order to do math operations. so given a mess like {{< katex >}} \frac{4*(1 + 2)^3}{2+1} + 1 {{</ katex >}} we can solve it in order. Here though, I have to point out the first failing in the PEMDAS accronym, division *with a bar* implies perentheses, as you'll have to do the 2+1 on the bottom before you can do the divison anyway. That said, let's look at this step by step
+PEMDAS stands for Parentheses, Exponents, Multiplication, Division, Addition, Subtraction, and is in general the correct order to do math operations. so given a mess like {{< katex >}} \frac{4*(1 + 2)^3}{2+1} + 1 {{</ katex >}} we can solve it in order. Here though, I have to point out the first failing in the PEMDAS acronym, division *with a bar* implies parentheses, as you'll have to do the 2+1 on the bottom before you can do the divison anyway. That said, let's look at this step by step
 
 {{< katex display >}}
 
-\frac{4*(1 + 2)^3}{2+1} + 1 = \frac{4*(3)^3}{2+1}  + 1= \frac{4*(3)^3}{3} + 1 = \frac{4*9}{3} + 1= \frac{36}{3} +1  = 12+1 = 13
+\frac{4*(1 + 2)^3}{2+1} + 1 = \frac{4*(3)^3}{2+1}  + 1= \frac{4*(3)^3}{3} + 1 = \frac{4*27}{3} + 1= \frac{108}{3} +1  = 36+1 = 37
 
 {{< /katex >}}
 
@@ -231,7 +231,7 @@ The P for Perenthes in PEMDAS can mean really any grouping symbol, so brackets [
 
 {{< /hint >}}
 
-So, what's the problem with with the math equation in the start and why do people disagree? Well, Divison and Multiplication don't have to be done in that order, same for addition and substraction, instead they should be done all together, but going from left to right, so {{< katex >}} 1 + 2 + 3 - 4 + 1 - 2 {{</ katex >}} for example can be done in order left to right giving us 1, **not** doing this: {{< katex >}} (1 + 2 + 3) - (4 + 1) - 2 {{</ katex >}} which gives -1. Just to be crystal clear, **1 not -1** is correct here. So, applying this to the above social media meme, it's the same problem but with multiplication, implied with the 3(3) after doing the addition, and the divison. Some people interpret PEMDAS literally, meaning multiplication is done before division *always*. These people are wrong. So, with the meme the problem looks like this:
+So, what's the problem with the math equation in the start and why do people disagree? Well, Divison and Multiplication don't have to be done in that order, same for addition and substraction, instead they should be done all together, but going from left to right, so {{< katex >}} 1 + 2 + 3 - 4 + 1 - 2 {{</ katex >}} for example can be done in order left to right giving us 1, **not** doing this: {{< katex >}} (1 + 2 + 3) - (4 + 1) - 2 {{</ katex >}} which gives -1. Just to be crystal clear, **1 not -1** is correct here. So, applying this to the above social media meme, it's the same problem but with multiplication, implied with the 3(3) after doing the addition, and the divison. Some people interpret PEMDAS literally, meaning multiplication is done before division *always*. These people are wrong. So, with the meme the problem looks like this:
 
 {{< katex display >}}
 
@@ -247,7 +247,7 @@ But see what I did there? I wrote the fraction as a bar, not as **÷**, and here
 
 {{< /katex >}}
 
-And there's the problem. Now, you're probably thinking **"What fucking dipshit let math be ambiguous?"** and the answer is really that this problem is just stupid. In any real problem the ambuguity here should be fixed by whoever is writing it in the first place, and since other than in textbooks math doesn't just appear from thin air, the true order of the operations should be specified clearly with perentheses, either as 
+And there's the problem. Now, you're probably thinking **"What fucking dipshit let math be ambiguous?"** and the answer is really that this problem is just stupid. In any real problem the ambiguity here should be fixed by whoever is writing it in the first place, and since other than in textbooks math doesn't just appear from thin air, the true order of the operations should be specified clearly with parentheses, either as:
 
 {{< katex display >}}
 
@@ -261,9 +261,12 @@ where in the last option the bar implies the parentheses.
 
 [TODO] redo with https://github.com/airladon/FigureOne
 
-Before we can get to doing useful things with these operations, it helps to be proficient at simplifying an equation. For example say we have
+Before we can get to doing useful things with these operations, it helps to be proficient at simplifying an equation. For example say we have:
 
-{{< katex >}}3x^2+3+(2-x)(4-x)+2=12+(3+(x*2))+2{{< /katex >}} before we ever solve for x, we'll want to turn this into something much easier to work with. When doing this, we need to make sure to keep the equality the same, that is if we had {{< katex >}}3+x=4{{< /katex >}} we need to not accidentally change it into {{< katex >}}3+x=5{{< /katex >}}, changing the answer.
+{{< katex display>}}
+    3x^2+3+(2-x)(4-x)+2=12+(3+(x*2))+2
+{{< /katex >}}
+Before we ever solve for x, we'll want to turn this into something much easier to work with. When doing this, we need to make sure to keep the equality the same, that is if we had {{< katex >}}3+x=4{{< /katex >}} we need to not accidentally change it into {{< katex >}}3+x=5{{< /katex >}}, changing the answer.
 
 This generally means that we can only either do basic operations to get an equivalent value or do the same operation to both sides. Ironically, often simplification actually requires expansion first, that is doing math like the {{< katex >}}(2-x)(4-x){{< /katex >}} to get {{< katex >}}8-2x-4x+x^2{{< /katex >}} which can then be reduced back down to {{< katex >}}x^2-6x+8{{< /katex >}}.
 
@@ -315,7 +318,7 @@ then, we can combine like terms...
 
 {{< katex display >}}4x^2-6x+11=15+2x{{< /katex >}}
 
-and subtract $2x$ from both sides
+and subtract {{< katex >}}2x{{< /katex >}} from both sides
 
 {{< katex display >}}
 
@@ -416,9 +419,9 @@ There are a few other coordinate systems you'll likely come across though: Polar
 
 # 1¾ - Primes & Factors
 
-Alright, so maybe not something you'll use everday, but you still should know the basics of primes, espically if you want to understand [Public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography). So, what's a prime?
+Alright, so maybe not something you'll use everday, but you still should know the basics of primes, especially if you want to understand [Public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography). So, what's a prime?
 
-A prime is an number where the only two whole numbers that you can multiply to get to that number are 1 and itself.
+A prime is a number where the only two whole numbers that you can multiply to get to that number are 1 and itself.
 
 2? Prime. 1*2 is the only option.
 
@@ -428,13 +431,13 @@ A prime is an number where the only two whole numbers that you can multiply to g
 
 103801? Prime. only two numbers that can multiplied together to get it are 1 and 103801. 
 
-I think you get the gist. One of the neat applications of primes is that multiplying two prime numbers together makes for a number that's not quite prime, but whose only other fators are two two numbers that you multiplied together, so say we take 103801 * 7 to get 726607, the only two whole numbers other than 1 and itself that can be multiplied to get 726607 are 103801 and 7.
+I think you get the gist. One of the neat applications of primes is that multiplying two prime numbers together makes for a number that's not quite prime, but whose only other factors are two numbers that you multiplied together, so say we take 103801 * 7 to get 726607, the only two whole numbers other than 1 and itself that can be multiplied to get 726607 are 103801 and 7.
 
 There are also 'antiprimes' (or 'highly composite numbers'), from Wikipedia:
 
 > ... an **antiprime number**, is a [positive](https://en.wikipedia.org/wiki/Positive_number) [integer](https://en.wikipedia.org/wiki/Integer) with more [divisors](https://en.wikipedia.org/wiki/Divisor) than any smaller positive integer has
 
-so, technically 1, 2, 4, and 6 are all antiprime. But where it gets interesting is with larger numbers. For example, 360 is anti prime as you get get to it with {{< katex >}} 2*2*2*2*3*3*5​{{< /katex >}}, which is 7 primes multiplied together, more than it takes to get to any number prior. These numbers are really easy to work with because of this, and it makes it really convient for the number of degrees in a circle as it can be divided so easily.
+so, technically 1, 2, 4, and 6 are all antiprime. But where it gets interesting is with larger numbers. For example, 360 is anti prime as you get get to it with {{< katex >}} 2*2*2*2*3*3*5​{{< /katex >}}, which is 7 primes multiplied together, more than it takes to get to any number prior. These numbers are really easy to work with because of this, and it makes it really convenient for the number of degrees in a circle as it can be divided so easily.
 
 # 1⅘ - Number Bases
 
