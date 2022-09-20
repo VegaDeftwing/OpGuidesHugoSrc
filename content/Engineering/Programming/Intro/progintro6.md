@@ -20,7 +20,7 @@ This includes the operations your used to - addition, subtraction, etc. - as wel
 
 I'm going to mostly skip talking about addition, subtraction, multiplication, and divsion, because, duh. Still, a few notes.
 
-* With multiplication, it's pretty easy to excede the maximum allowed by your type. For exmaple,
+* With multiplication, it's pretty easy to exceed the maximum allowed by your type. For example,
 
   ```c
   uint8_t a = 16;
@@ -36,22 +36,24 @@ I'm going to mostly skip talking about addition, subtraction, multiplication, an
 
 * For subtraction, remumber an *unsigned* type can't go negative, but it can under-flow to a large, positive value.
 
-* Need to increment a variable? in C you can use `name++;`  (or `name--;` to decrement).
+* Need to increment a variable by 1? in C you can use `name++;`  (or `name--;` to decrement).
 
 * Need to add/substract/divide/multiply/and/xor/etc. a value with itself - like `a = a + 2;`? Just move the symbol to before the equal sign: `a += 2;` is the same thing. This works for all the others too: `a -= 2;`, `a /= 2;`, etc.
 
-  * Since Python doesn't have the `a++;` style syntax, you'll at least want to use `a += 1` there.
+  * Since Python doesn't have the `a++;` style syntax, you'll at least want to use `a += 1` there, as writing `a = a + 1` gets old quickly.
 
 
 There's one seemingly weird operation you may not be used to that belongs to this basic set: **modulo**.
 
-Modulo just means to do division but store the remainder, not how many times the number goes into it. So, while 7/3 is two, 7 mod 3 is 1, because 3 goes into 7 twice with **1 left over**. In most programming languages modulo is written with a percent sign, so `7%3` would give you 1.
+Modulo just means to do division but store the remainder, not how many times the number goes into it. So, while 7/3 is two, 7 mod 3 is 1, because 3 goes into 7 twice with **1 left over**. In most programming languages modulo is written with a percent sign, so `7%3` would give you 1. This is surprisingly handy.
+
+For example, say you want to know if a number is even or odd? Well, if you just take the number "mod" 2 you'll get 0 if it's even and 1 if it's odd. <span style="color:#AC8686">i</span><span style="color:#AC9986">s</span><span style="color:#ACAC86">n</span><span style="color:#99AC86">'</span><span style="color:#86AC86">t</span> <span style="color:#86AC99">m</span><span style="color:#86ACAC">a</span><span style="color:#8699AC">t</span><span style="color:#8686AC">h</span> <span style="color:#9986AC">f</span><span style="color:#AC86AC">u</span><span style="color:#AC8699">n</span>.
 
 ### Bitwise Operations
 
 #### Bits?
 
-Yep. Computers can only see numbers as binary, 1's and 0's. Sometimes, you do need to play with binary directly.
+Yep. Computers can only see numbers as binary, 1's and 0's. Sometimes, you do need to play with binary directly. How often this is the case really depends on what you're doing. If you're working with something that interfaces directly with hardware (like making motors move, etc.) the boards that make that possible will typically require you configure things and bring voltages high or low by setting individual bits. This may sound difficult, but it's not.
 
 Before we can look at operations on binary, you need to know how to read it, fortunately, it's pretty easy for positive numbers. First, you should know we usually pad binary numbers with zeros.
 
@@ -63,11 +65,11 @@ Second weird thing, we'll often (but not always!) prefix binary numbers with 0b,
 
 Alright, then, how do we actually read numbers, well, some people can see it right away just seeing a pattern so
 
-0 = 0000, 1 = 0001, 0010 = 2, 0011 = 3, 0100 = 4, 0101 = 5, 0110 = 6, 0111 = 7, 1000 = 8, 1001 = 9, ...
+0 = 0000, 1 = 0001, 2 = 0010 , 3 = 0011, 4= 0100, 5 = 0101, 6 = 0110, 7 = 0111, 8 = 1000, 9 = 1001, ...
 
 If that is enough for you to understand, great. If it's not think about it like this, the first digit, all the way on the right, is the 1's place - just like in decimal, the second digit, is the 2's place, the 3'rd the 4's, the 4th the 8's place, etc.
 
-so, if we have 1100 read it backwards. {{< katex >}}(0 \times 1) + (0 \times 2) + (1 \times 4) + (1 \times 8) = 12{{< /katex >}}
+so, if we have 1100 read it from the least significant (right) to most (left). For example, 1100 is {{< katex >}}(0 \times 1) + (0 \times 2) + (1 \times 4) + (1 \times 8) = 12{{< /katex >}}
 
 In case it's not obvious, that's actually  {{< katex >}}(0 \times 2^0) + (0 \times 2^1) + (1 \times 2^2) + (1 \times 2^3) = 12{{< /katex >}}. Remember, any number to the 0 power, that is {{< katex >}}x^0{{< /katex >}}, is **always** 1.
 
@@ -83,7 +85,7 @@ While binary is written with a 0b prefix, hexadecimal (often just called hex) is
 
 So, 0xFF is 0b11111111 is 255.
 
-This also gives rise to what is know as a hex editor. Very rarely, you may need to look at the binary output of something that doesn't have a better representation or meaning to you other than the actuall binary itself. In that case, you need a way to look at the hex (as a condensed view of the binary) directly. We're rapidly going off an a tagent though, so back to the point...
+This also gives rise to what is know as a hex editor. Very rarely, you may need to look at the binary output of something that doesn't have a better representation or meaning to you other than the actuall binary itself. In that case, you need a way to look at the hex (as a condensed view of the binary) directly. We're rapidly going off an a tangent though, so let's put a pin in that idea.
 
 <--->
 
@@ -146,7 +148,7 @@ uint16_t big_number              = 0xBEEF;
 // Shift the 0xBE over, -> 0x00BE
 uint8_t  most_significant_bits   = big_number >> 4;
 
-// Mask out the lower 4 bits -> 0x00EF
+// "Mask out" the lower 4 bits -> 0x00EF
 uint8_t  least_significant_bits  = big_number & 0xFF;
 ```
 
@@ -156,6 +158,7 @@ Similarly, say yo u have two halves of a big number, but need to compine them, y
 uint8_t most_significant_bits  = 0xCA;
 uint8_t least_significant_bits = 0xFE;
 uint16_t big_number =  (most_significant_bits << 4) | least_significant_bits
+// = 0xCAFE
 ```
 
 ### Beyond Bitwise: Comparisons
@@ -180,6 +183,38 @@ if((age < 13) || (age >= 100)){
 }
 ```
 
+If, in the first example, it were just a single `&`, that would be taking the result of `age >= 13` and the result of `age < 100` and give you a new number that is the bitwise and of these results. Let's think about this for a moment. If somebody was 12, they'd fail the first check but pass the second - so `age >= 13` would turn to 0 while `age < 100` would become 1. If we do `0 & 1` The answer is still `0`. So, it still works. So, why do we even have the `&&` version?
+
+Well, not all conditions you're checking will be cleanly 0 or 1. For example, you might make a function which returns an 8-bit integer where each bit is used as a flag indicating some error has happened. Let's say something in that function has gone wrong and it returns 0b00010000 (which is 16) but we only care about that function having had an error if another function returns an error at the time, but for this other function the only error it can return is 1 (true) - all successes are just 0 (false). Let's assume it also has an error, that is, our first function returns 16 and our second returns 1:
+
+```c
+if(my_function_that_retuns_an_error() && my_other_boolean_function()){
+	// This would run, as both are non-0, 
+    // so, non-0 && non-0 is true && true, which is true
+}
+
+if(my_function_that_retuns_an_error() & my_other_boolean_function()){
+	// This would not run, as 0b00010000 & 0b00000001 is 0, which is false.
+}
+```
+
+As a general rule of thumb, if you're in an `if` you *probably* want the `&&` or `||` version unless you REALLY want to be working with bits. Even if `&` would behave the same, you want your code to convey your intent to be checking a basic true/false state. To be clear, seeing the bitwise `&` and `|` operations in an `if` is very rare. Not wrong, sometimes necessary, but rare. 
+
+The notable exception to this would actually come from a scenario similar to the one above, where errors being reflected in each bit. If we wanted to check for specific errors, that could be done by using a bitwise and with the bit's in the comparison value set for the errors we want to handle. This isn't super common, but it's something you may run into.
+
+
+Note, if you're ever just checking that something is true (non-0), you can **omit the comparison outright**. 
+```c
+int a = 1;
+if(a){
+	//...
+}
+// is the same as
+if(a > 0){
+	//...
+}
+```
+
 #### > and <, >= and <= 
 
 Well, these are pretty obvious and shown above. They're just greater than, less than, greater than or equal to, and less than or equal to.
@@ -189,6 +224,15 @@ The only thing to be careful of here is that the logic actually matches what you
 ```c
 for(int i = 0; i < 4, i++){
 	print("%d",i);
+}
+// Will print 0,1,2,3 but NOT 4. Because we often want to
+// index into an array in a loop this is convient as an
+// array with 4 elements should go 0,1,2,3 as the indicies
+int my_array[4] = {10,20,30,40};
+
+for(int i = 0; i < 4, i++){
+	my_array[i] = i*20;
+    // This would replace the values with {0,10,20,30}
 }
 ```
 
@@ -208,7 +252,7 @@ if (name != "Vega"){ //not equal
 }
 ```
 
-Note, you can actually use the `!` symbol to negate anything, for example, we could have written the above as 
+Note, you can actually use the `!` symbol to negate anything, for example, we could have written the above age checking code as 
 
 ```c
 if(!(age >= 13) || !(age < 100)){
@@ -224,7 +268,13 @@ if(!((age < 13) || (age >= 100))){
 }
 ```
 
-There are times where this sort of backwards logic is actually easier to read.
+There are times where this sort of backwards logic is actually easier to read, this probably isn't one of them. More often than not, it's best when you have a chain of conditions where only one is different, that is if you needed `a` to be true, `b` to be true, but `c` to be false you could do
+
+```c
+if(a && b && !c){
+	//...
+}
+```
 
 ## Going with the flow
 
@@ -292,9 +342,55 @@ if (a == b){
 }
 ```
 
-### swich/case
+### Short-Circuiting
 
-While seemingly redundant, there's also switch case statments. Becuse reasons, switch case statments are a tad bit faster, but they're also more limited. You can only have "constant expressions" basically, this means no comparisons other than direct equality, but you can do it against many cases. This is easier if you see it:
+In C (and most languages) a logic operator will not evaluate all of it's arguments if it doesn't have to - and the order of evaluation matters. Basically, if C can go "Well, if this is true/false clearly the entire condition is true/false" it won't even run the code that would still result in the obvious result.
+
+For example in the code,
+
+```c
+if(true || my_function()){
+    //...
+}
+```
+
+`my_function()` will never run because if you read "is this true or ..." the answer is true regardless of what follows.
+
+The same applies to this code:
+
+```c
+if(false && my_function()){
+    //...
+}
+```
+
+This can never be true, so C sees that and doesn't bother checking the other conditions.
+
+Now, both of these examples are pretty stupid. You shouldn't be starting a `||` or `&&` comparison with true or false anyway, but if those were other functions that had returned true/false, the same would apply, they're evaluated left-to-right until something makes the state of the entire function clear. Normally, this is totally fine and doesn't require extra thought. It's really only a problem if you're assuming a function will run in an `if` and depending on it altering that state of things elsewhere. That is, if you're expecting the code to have "side effects". Typically, these side effects are signs that your code isn't made well as one function executing or not in an `if` shouldn't break future functions, but sometimes there's no clean way to write code and shit happens. Just knowing this short-circuiting behavior is a thing may make a future bug more obvious though.
+
+### Compound conditionals
+
+Generally, if you need to check multiple things in an if, like 
+
+```c
+if(a && b || c && d && e || f){
+	//...
+}
+```
+
+you should always group things together to convey your actual intent
+
+```c
+if((a && b) || (c && d) && (e || f)){
+	//...
+}
+```
+
+Otherwise you will have weird, hard to catch bugs. Again, short circuiting still applies, and now it applies to these groups, but it should be more clear with the added parentheses what will happen than without.
+
+### switch/case
+
+While seemingly redundant, there's also switch case statments. Becuse reasons, switch case statments are faster, but they're also more limited. You can only have "constant expressions" basically, this means no comparisons other than direct equality, but you can do it against many cases. This is easier if you see it:
 
 ```c
 switch(check_me){
@@ -342,6 +438,10 @@ for(int i = 0; i < 100; i = i + 10){
 	printf("%d\n",i);
 }
 ```
+
+Python will of course let you do the same thing too, but you have to remember (or look up) how to use the `range()` function.
+
+If you only give range one argument (so like `range(10)` ) it will use 0 as the start and step by 1 (and end before the stop). if you want to start at a different number you can use two arguments so `range(5,10)` would give you 5,6,7,8,9. If you want to change the step, use 3 arguments, so `range(0,50,10)` will give you 0,10,20,30,40.
 
 You should also know you can nest for loops, use different conditions, decrement them, etc:
 
@@ -394,18 +494,20 @@ for(int i = 0; i < 100; i++){
 }
 ```
 
+This is particularly handy for checking for an error each time a for loop runs if you think it may not error on the next iteration.
+
 ### for each
 
 {{< tip >}}C does not have a 'for each' system{{< /tip >}}
 
-Many languages have a convient system for iterating over each item in a data structure without needing to explicitly know the size of the structure before hand. This is generally really nice to read too. C doesn't have this. Oddly, python **ONLY** has for-each loops. The `range()` function previously just generates this list were iterating over internally. So, when you see `for i in range(10):` you can read it as "for each element, i, in the the range 0 though 9". The power of this comes in python's (and languages that support for each) ability to iterate over non-numeric types and ranges. For example, 
+Many languages have a convient system for iterating over each item in a data structure without needing to explicitly know the size of the structure before hand. This is generally really nice to read too. C doesn't have this. Oddly, python **ONLY** has for-each loops. The `range()` function previously just generates this list were iterating over internally. So, when you see `for i in range(10):` you can read it as "for each element, i, in the the range 0 though 9". The power of this comes in python's (and languages that support "for each") ability to iterate over non-numeric types and ranges. For example, 
 
 ```python
 for letter in "Oppinioned Guides":
 	print(letter)
 ```
 
-does exactly what you think it does - though it does put each letter on its own line. Reall, the big thing to notice here is the word **in**, which is what's making this easy. It's implying that we want to iterate over something. This get's stupidly powerful once you learn more about how to combine things in python using more functional-programming methods like `zip` or `map`, for example:
+does exactly what you think it does - though it does put each letter on its own line. Reall, the big thing to notice here is the word **in**, which is what's making this easy. It's implying that we want to iterate over something. This gets crazy powerful once you learn more about how to combine things in python using more functional-programming methods like `zip` or `map`, for example:
 
 ```python
 x = [10,20,30,40]
@@ -657,7 +759,7 @@ int set_a(void){
 }
 ```
 
-The code would work as expected...ish. That "a" inside the `set_a` function? Yeah, that a is still it's own a. It's actually making it's own `a` and setting the value.
+The code would work as expected...ish. That "a" inside the `set_a` function? Yeah, that a is still it's own a. It's actually making it's own `a`, returning the value of a, and the a = set_a(); is just applying that value to the a in main. They're both called a here, but they don't have to be and the effect would be the same.
 
 Now, there's a cheat here. We can use **global variables**. If we take the above code and move the `int a = 0;` out of `main`, we can make it global to all functions in the file:
 
@@ -678,7 +780,9 @@ void set_a(void){
 }
 ```
 
-So, this code works. Problem is, this tends to cause issues and get really messy. Being able to reuse names is actually really good and helpful. So, what if we want to pass a into our `set_a` function - not just the value that a has, but actually the variable itself so we can change it without returning a new value? Well, finally, pointers from last chaper serve a purpose. If we just pass in `a` what were doing is saying "take the value a holds and give it to the function" but if we pass in `&a` we're saying "take the address where a is at and give it to the function".
+So, this code works. Problem is, this tends to cause issues and get really messy. Being able to reuse names is actually really good and helpful. So, what if we want to pass a into our `set_a` function - not just the value that a has, but actually the variable itself so we can change it without returning a new value? 
+
+Well, finally, pointers from last chapter serve a purpose! If we just pass in `a` what were doing is saying "take the value a holds and give it to the function" but if we pass in `&a` we're saying "take the address where a is at and give it to the function".
 
 This gives rise to the two main ways to move data around "Pass by value" and "Pass by reference". Passing by value is easy. Passing by reference is useful, but a bit harder to wrap your head around.
 
@@ -711,7 +815,9 @@ If instead, I set my paper down, tell you where I set it, let you do what you wa
 
 So which is better?
 
-Neither. You need to use both. You may even need to use both in one function.
+Neither. You need to use both. You may even need to use both in one function. There are times when one pass by reference will even work though, most notably if you want to make a function that gets data from an array, you're going to have to deal with passing the pointer to the first element in the array. 
+
+{{< smalltext >}}As an aside, if you ever pass an array's pointer as an argument to something in C, you should also pass in the length of the array and check that the pointer isn't NULL. More on null checks later.{{< /smalltext >}}
 
 
 

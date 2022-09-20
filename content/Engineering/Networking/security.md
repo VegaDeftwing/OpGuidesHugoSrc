@@ -112,6 +112,8 @@ Along with sanitizing inputs, you should also sanitize output where applicable. 
 
 {{< /tip >}}
 
+<!--- [Prompt Injection Attacks against GPT-3](https://simonwillison.net/2022/Sep/12/prompt-injection/) --->
+
 ## DO NOT
 
 ### DO NOT use random crypto libraries or write your own
@@ -822,3 +824,5 @@ Another one that you should read is *The Conscience of a Hacker* written by 'The
 {{< /details >}}
 
 <div hidden><img src="/eng/irules.jpg" alt="internet rules" style="zoom:100%; display: block; margin-left: auto; margin-right: auto;" /></div>
+
+<!--- [The Sheer Terror of Pam](https://www.youtube.com/watch?v=BleS-MHLn7s) --->

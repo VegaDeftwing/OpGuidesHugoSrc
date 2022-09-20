@@ -152,6 +152,8 @@
 
 * [Basilisk collection (ⁿᵒᵗ Wikipedia)](https://suricrasia.online/unfiction/basilisk/)
 
+* [Letters About Soap](https://people.cs.ksu.edu/~schmidt/soap.txt)
+
   
 
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>

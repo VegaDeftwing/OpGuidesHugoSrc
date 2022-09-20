@@ -8,6 +8,10 @@
 
 [Linux Productivity Tools Presentation PDF (Ketan M.)](https://www.usenix.org/sites/default/files/conference/protected-files/lisa19_maheshwari.pdf)
 
+<!---
+
+Commenting out this custom style because it makes this page a pain to read.
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
@@ -121,6 +125,8 @@
     }
 </style>
 
+--->
+
 ## What The Shell?
 
 Okay, first question you probably have after I've been using them interchangebly 'What is a Shell and is it different from a terminal?'
@@ -128,8 +134,10 @@ Okay, first question you probably have after I've been using them interchangebly
 Yes, they're different, but before I talk about the shell it's easier to talk about the Terminal.
 
 The Terminal is a piece of hardware, or, rather *was* a piece of hardware. For example, here's an old IBM 3151:
-
+<!---
 <img src="/eng/mergedterms.webp" style="filter: grayscale(80%);filter: sepia(100%);filter: hue-rotate(90deg);">
+--->
+<img src="/eng/mergedterms.webp">
 
 
 Now, don't mistake this for a CRT monitor like everyone was using in the early 2000's, this is a *terminal* it has a serial connection in the back that only reciveves messages of text from the computer it's attached to, and it can only display text on it's dim green screen. Before the days of graphical computing everything was though a text only interface that you'd usually read on one of these. Fortunately, technology has gotten much, much better.

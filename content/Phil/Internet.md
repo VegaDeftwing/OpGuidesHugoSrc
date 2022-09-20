@@ -223,7 +223,13 @@ Parler V Mastodon V Twitter
 
 ### Federation
 
-[Fediverse.party](https://fediverse.party/en/miscellaneous)
+See {{< button relref="other/fediverse" color="other" >}} The post about The Fediverse, ActivityPub, & The IndieWeb {{< /button >}}.
+
+---
+
+## Other Resources
+
+[Who Controls the Internet? And should they? (bert hubert)](https://berthub.eu/articles/posts/who-controls-the-internet/)
 
 ---
 

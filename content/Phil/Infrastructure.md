@@ -45,3 +45,7 @@ Where you're born determines if you have access to even basic needs
 [Patina and Intimacy (The Map is Mostly Water)](https://simonsarris.substack.com/p/patina-and-intimacy?s=r)
 
 [College Campuses Are Designed at Human-Scale. Our Cities Can Be Too. (StrongTowns.org)](https://www.strongtowns.org/journal/2021/1/6/college-campuses-as-a-model-for-urban-planning)
+
+## Payment Systems
+
+https://twitter.com/flipper_zero/status/1567194641610465281

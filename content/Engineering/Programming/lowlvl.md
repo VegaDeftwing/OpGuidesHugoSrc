@@ -499,3 +499,5 @@ https://en.wikipedia.org/wiki/Pragma_once vs include guards, why they exist
 
 
 https://embeddedartistry.com/blog/2019/04/08/a-general-overview-of-what-happens-before-main/
+
+https://8bitworkshop.com

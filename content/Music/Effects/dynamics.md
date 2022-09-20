@@ -160,7 +160,22 @@ reverb, delay, pan, tremolo, overdrive, distortion
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/bxnb8cGDAzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Guitar Amps
 
+So, all of this sort of misses a point about how all of these things play together. The truth is you probably want your distortion to do a lot of effects all at once. You probably want some overdrive, some soft clipping, some of the dry signal, some eq applied, some filtering, some ... magic - that is, you probably want your distortion to do all the things you're thinking about when you think about what a guitar sounds like after running though the guitar amp and speaker.
+
+Calling this magic really isn't that far from the truth. The way analog circuits that are known to sound damn good do distortion is really, really, really fucking tricky to emulate digitally. It's so bad that the best emulations [are using AI to model the circuits](https://guitar.com/features/interviews/neural-dsp-doug-castro-machine-learning-amplifiers/) because humans just can't get all the weird little quirks.
+
+So, where I really want to end this page is a recommendation to know what wavefolding, waveshaping, bitcrushing, soft vs hard clipping etc. all are, but to just not care most of the time and instead focus on finding a few distortion sounds you like.
+
+I, personally, have found my go-to tools are
+
+* [Vult's "Flame" for VCV Rack](https://library.vcvrack.com/VultModules/Flame) ($25 iirc)
+* Literally any clone of the Pro Co "RAT" distortion pedal - but actually hardware, software emulations alias like hell. (clone go for ~$30)
+* [Noise Engineering Ruina VST ](https://noiseengineering.us/products/the-freequel-bundle-sinc-vereor-virt-vereor-ruina) (FREE)
+* When paired with another distortion (Rat, DS-1, whatever) the a green ringer pedal clone with **germanium diodes** (the diodes are important, as otherwise they respond like ass, imho) adds a lot of ... something. It is an octave effect, but the way it distorts with chords yields something I haven't heard in anything else. These are pretty much only available from random hand made pedal builders on Reverb, prices vary wildly. The one I have was made by [Dongeomac](https://reverb.com/shop/dongeomac), but there are others.
+
+All of these have a really nice response to varying dynamics and feel "right"
 
 <ol hidden id="footnotes">
     <li>See <a href="https://en.wikipedia.org/wiki/EBU_R_128">EBU R 128 (Wikipedia)</a> if you're curious how loudness is usually defined. I'll talk about this more in the mixing and mastering chapter </li>

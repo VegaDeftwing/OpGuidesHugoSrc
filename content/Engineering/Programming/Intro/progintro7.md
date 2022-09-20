@@ -1,4 +1,4 @@
-# 10.7 - Data Structures & Object Orientation
+# 10.7 - Data Structures, Object Orientation, & Encodings
 
 <script>
     document.getElementById("codeMenu").open = true;
@@ -44,7 +44,7 @@ The problem gets worse, too. For example, say we wanted to add something to the 
 
 Getting a bit more abstract, what if we want data to be able to inherit ideas. For example, say we want to be able to make a person, but also have a data type for employee and customer? It would make sense to make both employees and customers people. That is, we'd want these data types to *inherit* their properties and data fields from the parent data structure. What I'm beginning to describe is called "Object orientation" and it's a feature common to many languages, but notably not available in C. It generally makes it easy to model more complex data structures and limit the way you interact in them, preventing bugs.
 
-Really, the big difference here isn't that you can do something new (like inheritance, etc.) - you can do similar things in C with structures and pointers if you're clever - it's what we *can't* do. You can place limits on your code to prevent yourself from doing very stupid things, which once you've written enough code, you'll know the majority of your time goes to fixing stupid mistakes.
+Really, the big difference here isn't that you can do something new (like inheritance, etc.) - you can do similar things in C with structures and pointers if you're clever - it's what we *can't* do. We often want to limit what we can do to prevent ourselves (and hackers) from making/exploiting errors. With Object Orientated Programming (OOP) You can place limits on your code to prevent yourself from doing very stupid things, which once you've written enough code, you'll know the majority of your time goes to fixing stupid mistakes.
 
 ## A New Objective
 
@@ -145,7 +145,7 @@ class CraftingTableInteractableBlock(self,InteractableBlock)
             player.add_to_inventory(PickTool(20,"Wooden Pick",1,1))
 ```
 
-And of course, there'd be yet more code to actually let a player use the item once it's in their inventory. What you should note, though, is that when calling `PickTool(1,"Wooden Pick",1,1)` a new object of that type is made. If another one is crafted, it will still be a new item, with its own durability, name, etc. Even if they're the same, if one is used, it won't use the other.
+And of course, there'd be yet more code to actually let a player use the item once it's in their inventory. What you should note, though, is that when calling `PickTool(1,"Wooden Pick",1,1)` a new object of that type is made. If another one is crafted, it will still be a new item, with its own durability, name, etc. Even if they're the same, if one is used, it won't use the other. They are distinct **objects**.
 
 Maybe this would be easier to see with a toy example:
 
@@ -160,7 +160,7 @@ second_dog = Dog("Spot")
 
 There are two dogs being "made". If both were named "Spot" that would be fine, but it's still two different dogs. Just like how meeting someone with your same name doesn't make the two of you the same person.
 
-Another nice thing about this is it gives us a good way to organize our code, as usually it's a good call to have a file per class, though not always.
+Another nice thing about this is it gives us a good way to organize our code, as usually it's a good call to have a file per class (though not always, we don't need separate files for 10 lines of code if it fits somewhere else nicely).
 
 
 
