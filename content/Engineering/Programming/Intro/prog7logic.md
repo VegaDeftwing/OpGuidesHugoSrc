@@ -1,4 +1,4 @@
-# Chapter 10.6 - ＬＯＧＩＣ & Functions
+# Chapter 10.7 - ＬＯＧＩＣ & Functions
 
 <script>
     document.getElementById("codeMenu").open = true;

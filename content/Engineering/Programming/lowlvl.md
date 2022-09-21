@@ -8,21 +8,23 @@
 
 ## Why C?
 
-This chapter of OpGuides will be mostly C, but, why? Well, there's only really a few options for learning low level programming that make sense to start with. C, C++, Rust are the 'big three' that come to mind for me. C is awesome. Its spec is small, it's been kept minimal, and it's got a ton of tools to help you learn. It forces you to know the low level, which in this case is great. C++ has grown into a behemoth where anything can be done in about a dozen different ways and each development team is effectively writing in their own dialect of C++. 
+This chapter of OpGuides will be mostly C, but, why? Well, there's only really a few options for learning low level programming that make sense to start with. C, C++, Rust are the 'big three' that come to mind. C is what is most popular<a class="ptr">(1)</a>. Its spec is small, it's been kept minimal, and it's got a ton of tools to help you learn. It forces you to know the low level, which in this case is great. C++ has grown into a behemoth where anything can be done in about a dozen different ways and each development team is effectively writing in their own dialect of C++. Rust, while better than C for a million reasons, (see the footnote) also sort of assumes you have experience in language like C before using it, so... the answer to why C is because we sorta have to.
 
-On the other hand, C has a lot of annoyances due to its minimalism. For example, there are no strings - only arrays of characters - and all memory management is manual.
+To be clear, C has a lot of annoyances due to its minimalism. For example, there are no strings - only arrays of characters - and all memory management is manual. If you followed the programming intro chapters, you should've known that first part.
 
-Rust is cool, but I think it's more of a language you need to grow into to understand why someone would want to use it. It's very rigid and does a very good job of preventing memory mistakes and making sure the programmer has handled any errors that could come their way (What do you do if you go to open a file and it's not there, for example).
+{{< speech big >}}
 
-Thankfully, C++ and C are pretty similar, as C++ is a superset of C - that is it's C with a whole wack ton of added features (for better or worse)
+To be clear, writing low level code in C is what I do for work, so I've spent thousands of hours writing C with nothing but the standard library - so I'm not some noob that's bitching from lack of skill. There's a good reason Rust is taking over everything that was in C and it's happening so quickly. I for one welcome our new Fe₂O₃ filled future.
 
-What this really means is that should you need the added features of C++ the syntax should be at least familiar. Keep in mind though, they are different languages. C++ has features that you absolutely should use if you're writing in it. Strings, abstracting out much of the memory management, 'vectors', etc.
+{{< /speech >}}
 
-It's also worth considering that you can use C code in C++ projects if you need.
+Fortunately, once you know C picking up Rust or C++ should be easier, as they look relatively similar to C. Plus, learning C first will help you appreciate why they were made. Keep in mind though, they are different languages. C++ has features that you absolutely should use if you're writing in it. Strings, abstracting out much of the memory management, 'vectors', etc. The same goes for Rust.
+
+C also has a nice bonus for portability. You can call C code from Rust or C++ (as well as most other languages, with varying degrees of effort)
 
 ## Don't throw out everything you already know!
 
-[TODO] loops, while, etc.
+Everything from the {{< button relref="Engineering/Programming/Intro/prog0intro" >}}"Lets Write Some Code"{{< /button >}} chapters still applies. `for` and `while` and `&&` and `uint8_t` - all of that jazz. If you need to review it, that's totally fine. This page isn't going anywhere.
 
 ## Some simple programs, in C
 
@@ -501,3 +503,7 @@ https://en.wikipedia.org/wiki/Pragma_once vs include guards, why they exist
 https://embeddedartistry.com/blog/2019/04/08/a-general-overview-of-what-happens-before-main/
 
 https://8bitworkshop.com
+
+<ol hidden id="footnotes">
+<li>...because it's old and everything already uses it. There are dozens of ways it's horribly fucked, like the lack of protected data/functions, the ability to write in memory bugs that are hard to catch and lead to security problems as they're not found at compile time, the inconsistency in implementations of the standard library, ... I could go on. If you're not doing low level dev, don't use C. If you're doing low level dev and have the choice to not use C, don't use C.</li>
+</ol>

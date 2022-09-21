@@ -1,4 +1,4 @@
-# Chapter 10.5 - What's a Type? & Going Down Rabbit Holes
+# Chapter 10.6 - What's a Type? & Going Down Rabbit Holes
 
 <script>
     document.getElementById("codeMenu").open = true;
@@ -26,7 +26,7 @@ That library is accessed by using `#include <stdint.h>`, but despite my above de
 
 {{< /tip >}}
 
-So, if we look back to when we did 200+100 last chapter, while we'd *expect* 300, the place we're trying to store that number simply isn't big enough, so, we wind up wrapping around, 300-256 is indeed 44. Do keep in mind that with signed integers this wrapping around means you'll go from positive to negative if you overflow.
+So, if we look back to when we did 200+100 last chapter, while we'd *expect* 300, the place we're trying to store that number simply isn't big enough. At 8 bits, it can only store up to 2^8 = 256. So, we wind up wrapping around, 300-256 is indeed 44. Do keep in mind that with signed integers this wrapping around means you'll go from positive to negative if you overflow.
 
 ### Boolean
 
@@ -272,7 +272,7 @@ For this (and many other reasons) you may want want to declare your array's size
 
 `char my_string[100] = "Hello World\n"` 
 
-This is different from the above in that the first example made exactly enough space while this one would let us put up to 100 characters in the string.
+This is different from the above in that the first example made exactly enough space while this one would let us put up to 100 characters in the string. If we know for sure that we won't need the extra space, we don't have to do this (though, if that's the case, this should really be `const char my_string[] = "Hello World\n"` - we'll get there)
 
 Also, this lets you declare an array before you use it. For example, if you know you need a place to put data before you've actually computed it. As a sort of stupid example, this code will make an array with 10 elements and populate each element with the numbers 0, 10, 20, ... 90.
 
@@ -293,7 +293,7 @@ int a[2][4] = {
 };
 ```
 
-This can go as deep as you want, but it does get a bit confusing if you go too deep.
+This can go as deep as you want, but it does get a bit confusing if you go too deep. The page for nested arrays on [TutorialsPoint](https://www.tutorialspoint.com/cprogramming/c_multi_dimensional_arrays.htm) may help if you want to know more.
 
 Anyway, a very, very, very important take away here is that if you make an array in C and then use the variable name without an index, you're getting the address of the first element.
 
@@ -563,7 +563,7 @@ id_card triode_id;
 
 Now, there are technically some down sides to doing this in C but it's standard enough practice and the downsides confusing enough that you should just go with it. 
 
-This is particularly handy for basic types, like making a type to hold two floats for complex numbers or something application specific, like a MIDI note's pitch and velocity.Types & Performance
+This is particularly handy for basic types, like making a type to hold two floats for complex numbers or something application specific, like a MIDI note's pitch and velocity. Repeating the word struct every time can just get in the way.
 
 ## Types and Performance
 

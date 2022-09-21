@@ -1,4 +1,4 @@
-# Chapter 10.4 - Leaning Two Languages At Once
+# Chapter 10.5 - Leaning Two Languages At Once
 
 <script>
     document.getElementById("codeMenu").open = true;
@@ -6,7 +6,7 @@
 
 Back in the  {{< button relref="/Engineering/linux/hardware" >}}Into The Hardware{{< /button >}} section we looked at some of the inner workings of the CPU, and briefly looked into how the CPU only understands *machine code*, 1's and 0's that make up individual instructions. Now, there's absolutely no reason to ever think at that low of a level, the lowest you should ever care to look at, as mentioned there, is assembly. However, Assembly is still awful to write and read. While if you stare at the following for long enough you may be able to figure out what  what it does
 
-```assembly
+```c
 addi sp,sp,-32
 sd s0,24(sp)
 addi s0,sp,32
@@ -49,7 +49,11 @@ c = a + b
 print(c)
 ```
 
-A large portion of programmers will never, ever see that first example (assembly code) because of all of its downsides (hard to read and write, only works on a given instruction set, etc.). Furthermore, some people will never use C because it's rather difficult to write complex programs with it. So then, why care? Well, if you want to write fast, correct, code you have to know. While for speed you could go look up some comparisons of C and Python and see that, as a very loose rule of thumb, the python will be about 10 times slower, I think writing *correct* code is more important to most people, especially since for *most* programs, the speed difference doesn't really matter on a modern computer. Later, you'll see this too is a bit of an odd argument, as it's comically easy to write security vulnerabilities into your C code on accident - clearly that's not correct. Instead, what I mean is that you can write code that's not incorrectly using types (Coming up in a bit) or just doing things in a way that's just really inefficient for the computer to do. More over, as Aria Beingessner argues, [C Isn't A Programming Language Anymore](https://gankra.github.io/blah/c-isnt-a-language/), it's really a sort of standard on which every other language is built, and it's expected that every other language works with it... and its long history of quirks.
+A large portion of programmers will never, ever see that first example (assembly code) because of all of its downsides (hard to read and write, only works on a given instruction set, etc.). Furthermore, some people will never use C because it's rather difficult to write complex programs with it. So then, why care?
+
+Well, if you want to write fast, correct, code you have to know C, which is ironic, because C is a great language for writing slow, broken code because of just how bad it is about letting you shoot yourself in the foot, but, I digress.
+
+ While for speed you could go look up some comparisons of C and Python and see that, as a very loose rule of thumb, the python will be about 10 times slower, I think writing *correct* code is more important to most people, especially since for *most* programs, the speed difference doesn't really matter on a modern computer. Later, you'll see this too is a bit of an odd argument, as it's comically easy to write security vulnerabilities into your C code on accident - clearly that's not correct. Instead, what I mean is that you can write code that's not incorrectly using types (Coming up in a bit) or just doing things in a way that's just really inefficient for the computer to do. More over, as Aria Beingessner argues, [C Isn't A Programming Language Anymore](https://gankra.github.io/blah/c-isnt-a-language/), it's really a sort of standard on which every other language is built, and it's expected that every other language works with it... and its long history of quirks. This isn't a good thing, but it's how things are.
 
 This brings up a good question may new programmers have:
 
@@ -170,11 +174,13 @@ Notice the word `def` and lack of braces (`{ ... }`) in the Python code? Also, w
 
 ### Higher Level?
 
-Generally, you'll see that languages are either called High level (like Python) or low level (like C) - though context does matter, as C is much higher level than Assembly. This "level" isn't in regards to difficulty but rather in terms of *abstraction*, which, to simplify greatly, what we mean is that the higher the level of abstraction the less the programmer has to worry about how the underlying program actually works, just that it *does* work. For example, in C, there's no special type for a string (like "Hello") instead, you need to make an array of characters and set a max size for it ahead of time, because this is how the hardware is going to see it anyway. Meanwhile, in python, strings are just naturally a thing, and you can add more characters onto one as much as you like. These abstractions help the programmer write code faster; however, they come at a cost of speed and control.
+Generally, you'll see that languages are either called High level (like Python) or low level (like C) - though context does matter, as C is much higher level than Assembly. 
+
+This "level" isn't in regards to difficulty but rather in terms of *abstraction*, which, to simplify greatly, the higher the level of abstraction the less the programmer has to worry about how the underlying program actually works, just that it *does* work. For example, in C, there's no special type for a string (like "Hello") instead, you need to make an array of characters and set a max size for it ahead of time, because this is how the hardware is going to see it anyway. Meanwhile, in python, strings are just naturally a thing, and you can add more characters onto one as much as you like. These abstractions help the programmer write code faster; however, they come at a cost of speed and control.
 
 ### What about other languages?
 
-Oh boy. There's a nearly endless amount, each with pro and cons and times when they're the best option. Want to make something interactive on a website? You probably want JavaScript. Working in engineering and need to do some math on signals? Matlab ({{< smalltext >}}While I really dislike it{{< /smalltext >}}) is a good bet. The reason I'm starting you with Python and C is because Python is really easy to learn and actually used a lot, while C is and always will be used for low level programming (even if it sucks, which it does.).
+Oh boy. There's a nearly endless amount, each with pro and cons and times when they're the best option. Want to make something interactive on a website? You probably want JavaScript. Working in engineering and need to do some math on signals? Matlab ({{< smalltext >}}While I really dislike it{{< /smalltext >}}) is a good bet. The reason I'm starting you with Python and C is because Python is really easy to learn and actually used a lot, while C is and always will be used for low level programming (even if it sucks, which it does.) and the syntax is similar to many, many other languages.
 
 ### How do I choose which to use?
 
@@ -184,7 +190,7 @@ Now, there are some exceptions to this. If you're starting on a project that's p
 
 There are also times you can mix languages or use one language to generate another. For example, if you really wanted to you could write a python library in C and do basically everything in there, only really using python as the "glue logic" to hold everything together. Or, maybe you need to process a ton of data in a way that you can make really fast by writing massively parallel code (something we'll explore much later, in both the {{< button relref="/Engineering/Programming/multithread" >}}Multithreading{{< /button >}} and {{< button relref="/Engineering/Programming/shaders" >}}GPU Computation{{< /button >}} chapters), then maybe you'll want to use [Futhark](https://futhark-lang.org) to write code that will generate C or python code for you.
 
-There's also some situations where you will literally mix one language into another, like putting blocks of assembly code into C programs or sending multiple SQL queries to a database.
+There's also some situations where you will literally mix one language into another, like putting blocks of assembly code into C programs, sending multiple SQL queries to a database, or using regular expressions to match text to a pattern. (Don't worry if you don't know what any of that means!)
 
 ## Why will knowing C help me write good code?
 
@@ -235,4 +241,5 @@ int main(){
 
 Then, wait, what? The output is **"A is 65"**!
 
-All of the examples have to do with something called *types*. That's what we'll dive into next.
+All of the examples have to do with something called *types*. That's what we'll dive into next, and they're much more obvious in C than in Python.
+

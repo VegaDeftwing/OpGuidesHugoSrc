@@ -14,7 +14,7 @@ Low level developers write code that runs directly on the hardware. The software
 
 I want you to be neither. Be an all level programmer. Why?
 
-Most low level devs will feel far from home using existing code and high level functions to make a game like this. This will make a low level dev reach for building the foundations first, wasting time reinventing wheels that may not need reinvented. They also are less likely to know about - or even think to look for - common high level techniques. They're also likely to get overly wrapped up in optimization problems that don't need it. If you're making a game, it only needs to push out a frame at the monitor's refresh rate, not 10000 FPS. They're likely to overestimate how hard it is to make complex software, because they're thinking about building every little piece by hand.
+Most low level devs will feel far from home using existing code and high level functions to make a video game. This will make a low level dev reach for building the foundations first, wasting time reinventing wheels that may not need reinvented. They also are less likely to know about - or even think to look for - common high level techniques. They're also likely to get overly wrapped up in optimization problems that don't need it. If you're making a game, it only needs to push out a frame at the monitor's refresh rate, not 10000 FPS. They're likely to overestimate how hard it is to make complex software, because they're thinking about building every little piece by hand.
 
 {{< speech tired >}}
 
@@ -38,7 +38,7 @@ I would really like to teach you programming from the top down, starting with so
 2. Learn Python first and occasionally be tripped up by concepts like pointers and types
 3. Learn both at the same time, and risk confusion as we learn two languages at once.
 
-I'm going to go with option 3. for OpGuides, so, keep in mind as you read on that you'll be seeing two different languages and that this can be really confusing.
+I'm going to go with option 3 for OpGuides, so, keep in mind as you read on that you'll be seeing two different languages and that this can be really confusing.
 
 All this is to say, as hard as it is to *learn* to program, it's just as hard to teach it. Worse yet, learning these fundamental concepts is *really*. *fucking*. **boring**. So, while you're going to have to slog through it in a bit, I do want to at least give you some motivation first, something more exciting than calculating pi, so, I'd like to start with a Turtle. In a programming context, a Turtle is just a dot that you can move around the screen that leaves a trail.
 

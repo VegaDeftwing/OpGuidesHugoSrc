@@ -1,4 +1,4 @@
-# 10.7 - Data Structures, Object Orientation, & Encodings
+# 10.8 - Data Structures, Object Orientation, & Encodings
 
 <script>
     document.getElementById("codeMenu").open = true;

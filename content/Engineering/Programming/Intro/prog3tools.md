@@ -4,7 +4,7 @@
     document.getElementById("codeMenu").open = true;
 </script>
 
-As mentioned above, you'll be learning both Python and C. This means we need to get the tools necessary for working with each. If you're following along with OpGuides as a whole and have Linux setup, this will be easy. If you're on Windows it's not *hard* but there are some annoying steps we'll need to jump through.
+As mentioned before, you'll be learning both Python and C. This means we need to get the tools necessary for working with each. If you're following along with OpGuides as a whole and have Linux setup, this will be easy. If you're on Windows it's not *hard* but there are some annoying steps we'll need to jump through.
 
 ## Getting Code To Run
 
@@ -42,7 +42,40 @@ and save it as` hello.py`. Again navigate to where it is stored and now just run
 
 {{< tab "Windows" >}}
 
-[TODO] Win
+<div class="progress-ww">
+<dl>
+<!--<dt>10 </dt><dd> <a href="/engineering/programming/codeintro/">Let's Write Some Code</a>-->
+</dd>
+    <dt>10 </dt><dd> <details id="codeMenu"> <summary><a href="/engineering/programming/intro/prog0intro">Let's Write Some Code</a></summary>
+    <dt class="sub">10.1</dt><dd class="sub"> <a href="/engineering/programming/intro/prog1math"> It's Math?</a></dd>
+	  <dt class="sub">10.2</dt><dd class="sub"> <a href="/engineering/programming/intro/prog2turtle"> Turtles!</a></dd>
+    <dt class="sub">10.3</dt><dd class="sub"> <a href="/engineering/programming/intro/prog3tools"> Getting Tools</a></dd>
+    <dt class="sub">10.4</dt><dd class="sub"> <a href="/engineering/programming/intro/prog4comments"> Comments++</a></dd>
+    <dt class="sub">10.5</dt><dd class="sub"> <a href="/engineering/programming/intro/prog5two"> 2 for 1</a></dd>
+    <dt class="sub">10.6</dt><dd class="sub"> <a href="/engineering/programming/intro/prog6types"> Types</a></dd>
+    <dt class="sub">10.7</dt><dd class="sub"> <a href="/engineering/programming/intro/prog7logic"> logic & Functions</a></dd>
+    <dt class="sub">10.8</dt><dd class="sub"> <a href="/engineering/programming/intro/prog8oo"> Data Structures</a></dd>
+    <dt class="sub">10.9</dt><dd class="sub"> <a href="/engineering/programming/intro/prog9stdlib"> Libraries</a></dd>
+    <dt class="sub">10.10</dt><dd class="sub"> <a href="/engineering/programming/intro/prog10"> Unnamed</a></dd>
+    <dt class="sub">10.11</dt><dd class="sub"> <a href="/engineering/programming/intro/progendreal"> Getting Real</a></dd>
+   </details> </dd>
+<dt>10½</dt><dd> <a href="/engineering/programming/consequences/">Consequences</a></dd>
+<dt>11 </dt><dd> <a href="/engineering/programming/lowlvl/">Low Level Programming</a></dd>
+<dt>11½</dt><dd> <a href="/engineering/programming/fosscopyright/">FOSS & Copyright</a></dd>
+<dt>12 </dt><dd> <a href="/engineering/programming/codecont/">Yet More Programming</a></dd>
+<dt>12½</dt><dd> <a href="/engineering/programming/fixxingissuses/">Fixing Issues</a></dd>
+<dt>13 </dt><dd> <a href="/engineering/programming/languages/">Programming Languages</a></dd>
+<dt>14 </dt><dd> <a href="/engineering/programming/algorithms/">Algorithms and More</a></dd>
+<dt>15 </dt><dd> <a href="/engineering/programming/bigprog/">Writing a Big Program</a></dd>
+<dt>16 </dt><dd> <a href="/engineering/programming/debugbuildtest/">Debugging, CI & CD</a></dd>
+<dt>17 </dt><dd> <a href="/engineering/programming/multithread/">We've Got Cores!</a></dd>
+<dt>18 </dt><dd> <a href="/engineering/programming/guiprog/">Graphical Programming</a></dd>
+<dt>19 </dt><dd> <a href="/engineering/programming/shaders/">Shaders + GpGPU</a></dd>
+<dt>20 </dt><dd> <a href="/engineering/programming/game/">Game Programming</a></dd>
+<dt>21 </dt><dd> <a href="/engineering/programming/funcprog/">(((())(()((()(()))))))</a>
+</dd>
+</dil>
+</div>
 
 {{< /tab >}}
 
@@ -71,7 +104,7 @@ my_friends = ["Kiri","Soatok","Loial","Ashlyn","Cendyne","Dusk","Saphire","Cadey
 
 for friend in my_friends:
     print(friend, end='')
-    if friend == "Soatok":
+    if friend == "Sotok":
         print("\tWARNING: FULL OF PUNS")
     else:
         print()
@@ -81,7 +114,7 @@ Now, you can run this code from within VSCode by (Ctrl+F5) or going to "Run"→"
 
 ![programming running in terminal](/eng/code/debug1.webp)
 
- Now, this bug is easy enough to spot, on line 5, "Soatok" is spelled incorrectly. Still, let's see what happens if we debug. This time, go ahead and run *with* debugging (F5) or "Run" → "Start Debugging". You should notice the exact same thing, the program runs and finishes. What gives! Well, we need to set a **breakpoint**. Next to line 1, click to the left of the line number and you should get a red dot. Now, start debugging again (F5) and you should see the red dot get surrounded by a pentagon and somewhat look like music controls at the top of your screen:
+Now, this bug is easy enough to spot, on line 5, "Soatok" is spelled incorrectly. Still, let's see what happens if we debug. This time, go ahead and run *with* debugging (F5) or "Run" → "Start Debugging". You should notice the exact same thing, the program runs and finishes. What gives! Well, we need to set a **breakpoint**. Next to line 1, click to the left of the line number and you should get a red dot. Now, start debugging again (F5) and you should see the red dot get surrounded by a pentagon and somewhat look like music controls at the top of your screen:
 
 ![debugger starting](/eng/code/debug2.webp)
 
@@ -146,16 +179,6 @@ You know the drill now. Press (Ctrl+F5) and see if it runs. This time, it may as
 
 Then, set a break point - this time probably on line 13, `for (int i = 0; ...`, and run it *with* debugging and step through.
 
-## Extra Things To Make Life Easier
-
-* Ligatures
-* Code Completion
-* Linting
-* Colored brackets
-* Auto-formatting
-* TODOS
-* Transformer package
-
 # Chapter 10.π - Intermission
 
 Before we actually talk about the basic building blocks of programming - variables, for loops, etc.- I want to clear up a misconception.
@@ -164,7 +187,7 @@ Before we actually talk about the basic building blocks of programming - variabl
 
 The vast majority of a good programmer's time is spent reading documentation, researching how others have solved the same or similar problems, and finding problems in the code they've written (so, testing and debugging).
 
-So, if as you're reading you're thing "But, man, this sure is a lot of reading, when do we get to the **good stuff**", then, hate to tell 'ya, this *is* the good stuff.
+So, if as you're reading you're thing "But, man, this sure is a lot of reading, when do we get to the **good stuff**", then, hate to tell 'ya, this *is* the good stuff. Or, at least this is what doing the good stuff is like. The only difference is that, yes, we're not really making anything cool yet.
 
 # Chapter 10.ψ - Rant about C
 
@@ -192,7 +215,7 @@ which is **very** wrong because arrays start at 0 (so these arrays have 3 items,
 
 This is really, really bad. Now, modern tools try to prevent this and actually include some of their own code to try to stop you from doing this *particular* fuck up, but it's not bulletproof. In pretty much any other language, you could either be 100% sure it will crash outright (again, this is better in this case) or it will just refuse to run at all.
 
-## Example 2: Strings should be Null-Terminated (Usually)
+## Example 2: Strings should have a new line (Usually)
 
 Say you want to make every noob's first program, one that just says "Hello, World!", let's do that **wrong** in C:
 
@@ -212,6 +235,8 @@ int main()
 This looks fine, right? Well, mostly, yes. But it will probably not act as you want because after saying "Hello World!" there won't be a new line for the terminal to print to.
 
 It *should* be `char greeting[] = "Hello World!\n";` or `printf("%s\n",greeting);`. This is weird, and kind of annoying.
+
+Actually, it's a bit more complicated than that, because you actually need a `\0` at the end of the string too, but C adds that for us *usually*. Again, we'll talk about this later.
 
 ## Example 3: Stupid Code is Still Valid Code
 
@@ -235,13 +260,17 @@ if (a == b){
 
 {{< /columns >}}
 
-Well, unless your intent was to check if b was anything other than 0, it's not the one on the left. As with most programming languages, C uses one equal sign to **assign** a value, and two equal signs to **compare** values. Unlike most languages, C will let you write and compile code with the assignment where the comparison should be, without any real, intentional comparison taking place.
+Well, unless your intent was to check if b was anything other than 0, it's not the one on the left. 
+
+As with most programming languages, C uses one equal sign to **assign** a value, and two equal signs to **compare** values. 
+
+Unlike most languages, C will let you write and compile code with the assignment where the comparison should be, without any real, intentional comparison taking place. So what the first one is doing is actually setting a to have the same value as b, and then seeing if a is non-0. The second one is checking if a is equal to b.
 
 ## But Wait, There's More!
 
 There's many other annoyances.
 
-* C only *sort of* supports variable length arrays - that is something like `int size = 12;
+* C only *sort of* supports variable length arrays - that is something like `int n = 12;
   int my_array[n];` will *probably* work (it depends on your compiler), but shouldn't be used.
 
 * It's really hard to prevent something from accessing memory you don't want it to in the same program
