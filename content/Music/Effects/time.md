@@ -3,8 +3,9 @@
 <script>
     document.getElementById("effectMenu").open = true;
 </script>
-
 ## Delay
+
+<!-- There are a million ways to make a delay that's weird. Most basic? Make a ring buffer and add the signals, probably with a dry/wet mix. Less basic? IDK, add in multilpe taps on the ring buffer? Use random samples in the buffer? Change the sample rate of the buffer? Reverse the buffer occassionally? Go nuts.-->
 
 Delay is basically echo. Take a sound in, and repeat it it it. Normally the main controls on a delay are 'Time', which controls how long of a delay there is before each repeat, 'Feedback' which controls how much the level is reduced each time the delay repeats (and in turn, how many audible repetitions there are), and 'Dry/Wet' which controls how the signal is blended, entirely dry will have no delay, entirely wet may even miss the initial sound adding a weird latency before you hear what you're playing. Some delays have additional controls, obviously I can't cover every possible delay, but I'll try to cover most:
 
@@ -62,6 +63,8 @@ looking at a snippet of this audio, you can see just how short the delay is, wit
 
 ## Loopers
 
+<!-- If I have to explain what you'd have to do in code for this, there's no helping you. -->
+
 Loopers are most commonly seen in hardware and can be seen as a sort of mix between samplers and delays. Essentially you just tap in when you start playing, play what you want, then tap out, then, the loop of whatever you played will play back to you. There may be additional settings, such as a half speed effect.
 
 Often you'll see loopers used for 'Live Looping' performances, where each layer is looped and overdubbed to create a full song
@@ -71,6 +74,8 @@ Here for example is a jam using the Ditto X4 looper (the box slightly blurry, cl
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/PffyRrUEPVM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Reverb
+
+<!-- The DSP for reverb is a black magic. If you actually want to persue this, see https://www.youtube.com/watch?v=Il_qdtQKnqk then go read ALL of Valhalla DSP's blog post, then realize making a good algorithm is just thousands of hours of trial and error.-->
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/FfESec8Sy0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -87,9 +92,11 @@ You'll often see reverbs listed as 'room', 'cathedral','cave', etc. These are tr
 
 ### Convolutional
 
+Take an impulse response, convolve it with the signal. If the impulse response is long, it'll eat CPU.
+
 ### Shimmer
 
-
+Reverb + Octave up
 
 ### Internals
 

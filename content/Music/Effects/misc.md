@@ -5,6 +5,8 @@
 </script>
 ## Auto-Tune
 
+<!-- Doing autotune in code is well beyond the scope of a small comment. Outside of just throwing AI at the problem - witch is likely to sound god awful - there's no magic bullet here. It's spectral analysis hell. -->
+
 {{< columns >}}
 
 Given it's basically a meme now, I assume you know what Auto-Tune is. What you may not realize is that not all auto-tune is, well, auto. A lot of the time it's done manually, painstakingly correcting the tuning. If the original sound is close enough, it's usually pretty easy to get it to sound natural, too.
@@ -18,6 +20,8 @@ Also keep in mind pitch correction isn't just for vocals, you might want to pitc
 {{< /columns >}}
 
 ## Vocoders
+
+<!-- Traditionally, It's a lot of band pass filters with envelope followers. That's it. That said, actuall implementiton, use an FFT, not a fuck load of filters. See https://dsp.stackexchange.com/questions/1232/programming-a-vocoder -->
 
 {{< columns >}}
 
@@ -34,6 +38,8 @@ Note, that when you hear a vocoder you may confuse the sound for a talkbox, the 
 {{< /columns >}}
 
 ## Pitch, Glitch, & Granular
+
+<!-- Most of these come down to recording a buffer, ocassionally playing back from that buffer, and doing weird things with the sample rate or reversing the order. Some pitch effects, like the PitchFork+ below, are real time and are doing much crazier voodoo. If you just want to do monophonic octave up/down, that's easy though. Just use a PLL (or code to simulate one) and mulitply it for octave up or just use a digital counter and output on every-other above-threshold point for octave down. This just tends to sound like ass with polyphony. -->
 
 Rather than try to explain all of these, I'm just gonna throw a grid of videos at you. Skip around, hear some neat sounds. Get inspired.
 
@@ -79,14 +85,18 @@ Spectral editing is sorta crazy, the idea is instead of working with waves in th
 
 ## De-Noising & De-Essing
 
+<!-- De-Essing is just a dynamic EQ - which is just a compressor with a pretty narrow frequency band applied right at the evil S point-->
+
 (Make sure you didn't gloss over Noise Gates in the Dynamics Chapter)
 
 [TODO]
 
 ## Ring Modulators
 
-
+<!-- Make a bipolar OSC or LFO. Multiply it with the target signal. Profit. -->
 
 ## Talk-boxes
+
+<!-- There's really no way to emulate this, as it's less a matter of the sound and more of the interface - using a real mouth as a filter. Vocoders are basically the closest you'll get, but you lose out on the infinite sustain. Even digital has limits, I'm afraid. -->
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/h_L5v9OTSxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

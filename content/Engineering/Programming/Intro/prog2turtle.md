@@ -3,6 +3,8 @@
 <script>
     document.getElementById("codeMenu").open = true;
 </script>
+<!-- TODO: I want to rewrite all of this intro to use Zig instead of C. I think Rust is a bit too complicated to start with, and C itself is easy enough to teach at first but becomes a massive pain as soon as header files, make, etc. get introduced. Plus, because the types people actually use (uint8_t, etc.) are behind <stdint.h> it's just way more confusing to deal with byte widths than necessary. Nim would also be an option, but its too close to Python in syntax, which would be confusing and defeat the purpose of trying to teach low level stuff. As a bonus, https://gamercade.io/blog/gamercade-0-1-0/ looks pretty swick as a way to actually make a project, as I did want to do some sort of fantasy console thing but didn't want do it in python (pyxel?), or LUA (ruling out the normal suspects). As an extra bonus, Zig will still lets us bind to C later and use it's build system, avoiding at least some of the mess when I do, ultimately, have to teach C over in the Low Level Chapte -->
+
 
 ## Low Level and High Level Programming
 

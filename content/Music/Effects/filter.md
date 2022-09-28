@@ -1,5 +1,7 @@
 ## Filters (LP, HP, BP, Notch)
 
+<!-- See the signal processing chapters. If you're trying to do real time DSP and if you want to modulate the cutoff, you're probably stuck with an IIR. FWIW, the delay of an FIR means the linear phase is often worse than not anyway. If licencing isn't an issue, you'll probably want to start with at least https://www.musicdsp.org/en/latest/Filters/index.html or really any DSP library. Implimenting a well performing filter isn't that hard. Implimenting a well perofrming, variable-cutoff-filter is doable. Implimenting one better than open source libraries is a heckin' undertaking. All of that said, if you're after a particular character or Virtual Analog, you'll have to start from scratch anyway. -->
+
 <script>
     document.getElementById("effectMenu").open = true;
 </script>
@@ -38,6 +40,8 @@ Unlike all the filters until now which have a resonant peak, shelf filters actua
 
 ### Comb Filters
 
+<!-- Comb filters can be feed-forward or feedback. They sound pretty different. The actually difference equation is dumb simple and easy to impliment, since it's usually just a single delay'd sample. Here be dragons for passing into instability though. Pick your coefficents wisely. -->
+
 ### All-Pass Filters (Phaser)
 
 ### Types of Filters
@@ -62,15 +66,27 @@ CEM3320
 
 Uses Inverters as amplifiers
 
+<!-- Welcome back to virtual analog hell. The Wasp basically has a fuster-cluck of almost-hard-clipping internal to it's feedback path. This get's messy quickly. See https://dafx2020.mdw.ac.at/proceedings/papers/DAFx20in22_paper_34.pdf You might also be able to extrapolate something out of https://www.youtube.com/watch?v=DnO5sMU5DqU -->
+
 #### Formant Filters
+
+If you play with some band-pass filters for long enough, you'll accidentally make something that sounds like a human making a vowel noise. This is known. The frequencies of the peaks for each vowel can also be googled, but if you're just making music, you can usually just drop a formant filter that will let you pick (or morph!) between the vowels.
+
+<!-- https://www.musicdsp.org/en/latest/Filters/110-formant-filter.html https://ccrma.stanford.edu/~jos/fp/Formant_Filtering_Example.html -->
 
 #### Polivoks
 
+<!-- Back to VA hell. I wish you luck. -->
+
 ### Slope, Pole-Zero plots, dB
+
+<!-- I haven't written this yet, but the intent is for this to be the for-dummies version of the DSP chapters. Just skip this. -->
 
 different analog models
 
 ### Filter Resonance (Q)
+
+<!-- As above: I haven't written this yet, but the intent is for this to be the for-dummies version of the DSP chapters. Just skip this. -->
 
 #### Self Oscillation
 
@@ -100,9 +116,13 @@ an Auto Wah or Envelope filter uses an envelope follower to control a filter's c
 
 ### FIR, IIR?
 
+<!-- As above, I haven't written this yet, but the intent is for this to be the for-dummies version of the DSP chapters. Just skip this. -->
+
 Finite Impose Response, Infinite Impulse Response- ref Signals from Engineering
 
 ## Equalizers
+
+<!-- Unlike everywhere else where you probably want IIR. You may want FIR on the EQ, espically if it's going on the master as otherwise it's easy to absolutely sheck phase response and make bass sound like total crap. -->
 
 ### Parametric
 
@@ -112,6 +132,10 @@ Finite Impose Response, Infinite Impulse Response- ref Signals from Engineering
 
 ### Fixed Filter Banks
 
+<!-- Literally a bunch of filters with set coefficients. Typically, these are filters with more character than a traditional "pure" "good" filter, but not tons of character either.-->
+
 ## Phaser
+
+<!-- It's a really steep notch with an LFO on the cutoff, abusing that a filter inhertitly incurs delay at the cutoff Magic. As an aside, I really hate the term cutoff for notch and band pass filters. -->
 
 ![phase](/music/phase.webp)

@@ -20,11 +20,15 @@ Clipping does exactly what it sounds like, it just chops off the wave. Usually o
 
 ![hardclip](/music/hardclip.webp)
 
+<!-- In code, hard clipping is as easy as two comparisons. You might be able to do some SSE voodoo to accelerate this. See https://stackoverflow.com/questions/427477/fastest-way-to-clamp-a-real-fixed-floating-point-value -->
+
 <--->
 
 **Soft Clipping**
 
 ![softclip](/music/softclip.webp)
+
+<!-- Soft clipping will be more expensive than hard. Using an actually trig call like atan() will wreck you on some platforms, so probably either use a LUT or polynomial approximation. -->
 
 {{< /columns >}}
 
@@ -56,6 +60,8 @@ If you want to know more {{< best >}}[Learning Synthesis: Waveshapers](https://w
 
 explains things beautifully, and also goes into some of the other kinds of distortion and wave mangling up ahead
 
+<!-- Most obvious implemenation is a LUT, but if you have 16bit+ audio you're looking at a freakishly large LUT. Actually generating whatever function you need and doing the math is probably wise. If you know certain values are common, do a LUT for those. -->
+
 ### Wavefolding
 
 {{< columns >}}
@@ -76,9 +82,13 @@ If you're looking to get really crazy, check out [Befaco's Chopping Kinky](https
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/nxH6lyfpLxk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<!-- Wave folding is very easily done by using fmod() and compensating for the reduced signal with gain. This is realiatively effiecent, but if you need more control you can also just generate a polynomial/LUT to do the folding. That's a bit harder to add control to though. See https://ccrma.stanford.edu/~jatin/ComplexNonlinearities/Wavefolder.html -->
+
 ### Drive, and Tubes
 
 [TODO]
+
+<!-- "Drive" is usually just soft clipping with some extra non linearities. Tubes are hard to emulate because they do a bit of everything. Soft clipping, adding some harmonics, compression, some hysteresis - basically, this is entering the fustercluck that is Virtual Analog and there be dragons. See file:///home/vega/Downloads/renato,+Journal+manager,+art02.pdf  -->
 
 ### Bitcrushing & Comparators
 
@@ -92,9 +102,13 @@ Similarly, the sample rate can be reduced to cause the signal to have issues wit
 
 [Todo, fabfilter distortion video]
 
+<!-- Re sample, quantize. This is about as textbook DSP as it gets. Doing the quantiazation (bit reduction) efficiently is often as easy as just &= 0xFF00 or whatever to match the bit count you want. -->
+
 ## Noise Gating
 
 [The Animated Guide to Gates (Patches.zone)](https://patches.zone/the-animated-guide-to-gates)
+
+<!-- This will require something to do the thresholding. You'll want an envelope follower on the signal that you're detecting the threshold of, otherwise you'll cut out wayyyy to often. The follower can be as dumb as a very cheap LPF implementation. The detection may benefit from having a different on and off point for the gate too - so different rising and falling thresholds. -->
 
 ### Gating other effects with a mix
 
@@ -159,6 +173,8 @@ reverb, delay, pan, tremolo, overdrive, distortion
 [TODO] Expansion
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/bxnb8cGDAzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!-- There's so many ways to do a compressor. The most basic is to just multiply the signal with the a scaled inverse from an enevelop follower, and then multiple that with some make up gain. The enevlope follower is the tricky part, as the attack and release of that follower will make a huge difference. More over, a lot of compressors have non-linear frequency response. Things, of course, get even weirder when you're doing multi-band compression - though that is mostly just doing a LPF, BPF, and HPF with related cut-off frequencies and compressing each "band" invidiually. TL;DR: A compressor is easy to make, but hard to make good. -->
 
 ## Guitar Amps
 
