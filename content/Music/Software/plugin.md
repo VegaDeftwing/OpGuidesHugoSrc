@@ -59,6 +59,8 @@ While VST3 does have a linux SDK, most plugins aren't released for Linux. You ma
 
 You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just denote if the plugin is an instrument or effects plugin.
 
+<!-- I want to change this to a "pick one of" list to incentive people to get fewer tools and know them well. This might mean doing better categorization of effects and then using drop-downs a-la the generative tools page.-->
+
 ### Effects
 
 <table id="sort2" style="position:relative; width:130%; left: 0%;">
@@ -377,7 +379,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
 	<td>~40</br></td>
     <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
   	</tr>
-   <!--- D16 Tekturon  ---> 
+   <!--- D16 Tekturon, or NE delay, Or Chow Matrix, or Other Desert Cities.  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Tekturon</a></br>(D16 Group)</td>
     <td>Noise Removal</td>
     <td>[TODO]</td>
@@ -386,6 +388,14 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
   	</tr>
    <!--- D16 Redoptor  ---> 
+    <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
+    <td>Noise Removal</td>
+    <td>[TODO]</td>
+	<td>Repair</br>🎛</td>
+	<td>~40</br></td>
+    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+  	</tr>
+   <!--- GuitarML SmartAmp  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
     <td>Noise Removal</td>
     <td>[TODO]</td>
@@ -403,6 +413,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
   	</tr>
 </tbody>
 </table>
+
 
 
 <!-- Fabfilter stuff, Valhalla stuff, Melodyne, Soundtoys, Polyverse, Izotope, Ignite Emissary, Guitar Rig (player), Auburn Grallion, MJUC, U-HE Colur Copy   -->

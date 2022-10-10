@@ -76,6 +76,7 @@ Other sources to lean rust:
 - [Learning Rust the Dangerous Way (Cliff L. Biffle)](http://cliffle.com/p/dangerust/)
 - [Rust Performance Book](https://nnethercote.github.io/perf-book/)
 - [Rust Cheat Sheet](https://cheats.rs)
+- [Python -> Rust guide - learning Rust when you know Python (Github)](https://www.mylomusic.net/octane)
 
 You may also want to check out [CXX](https://github.com/dtolnay/cxx) for C++<-> Rust interop
 

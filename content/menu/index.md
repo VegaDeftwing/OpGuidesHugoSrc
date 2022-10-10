@@ -15,6 +15,7 @@ headless: true
 <dt>0 </dt><dd> <a href="/engineering/engineering/">What is this?</a></dd>
 <dt>Ⅰ </dt><dd> <a href="/engineering/intro/community/">Community</a></dd>
 <dt>Ⅱ </dt><dd> <a href="/engineering/intro/howtolearn/">Learn How to Learn</a></dd>
+<dt>EXT</dt><dd> <a href="https://soatok.blog/2020/06/08/furward-momentum-introduction/">Furward Momentum</a></dd>
 </dil>
 </div>
 <p class="navhead" style="color:#009CDF;margin-bottom:0px;" >    Linux & Your Computer</p>
@@ -307,28 +308,8 @@ headless: true
 <dt>A3 </dt><dd> <a href="/design/photo/">Photo</a></dd>
 </dil>
 </div>
+<p class="navhead, webhead" style="background: linear-gradient(90deg, #F78200 0%, #FFF 50%, #009CDF 75%) ;-webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom:0px;" >    Web Development</p>
 
-
-<div class="progress-ww">
-<dl>
-<dt>1 </dt><dd> <a href="/design/web/jack/">Jack of all trades</a></dd>
-<dt>2 </dt><dd> <a href="/design/web/garden/">Your own garden</a></dd>
-</details> </dd>
-   <dt>3 </dt><dd> <details id="webMenu"> <summary><a href="/design/web/langs">HTML, CSS, JS, WUT?</a></summary>
-    <dt class="sub">.1</dt><dd class="sub"> <a href="/design/web/langs/html/"> HTML</a></dd>
-	  <dt class="sub">.2</dt><dd class="sub"> <a href="/design/web/langs/css/"> CSS</a></dd>
-    <dt class="sub">.3</dt><dd class="sub"> <a href="/design/web/langs/js/"> JS</a></dd>
-   </details> </dd>
-<dt>4 </dt><dd> <a href="/design/web/static/">Static & Dynamic</a></dd>
-<dt>5 </dt><dd> <a href="/design/web/cost/">Cost?</a></dd>
-<dt>6 </dt><dd> <a href="/design/web/setup/">Getting Setup</a></dd>
-<dt>7 </dt><dd> <a href="/design/web/content/">Content is King</a></dd>
-<dt>8 </dt><dd> <a href="/design/web/thinkingweb/">Thinking Web</a></dd>
-<dt>8½</dt><dd> <a href="/design/web/access/">Accessability</a></dd>
-<dt>A1 </dt><dd> <a href="/design/web/tools/">Web development tools</a></dd>
-<dt>A2 </dt><dd> <a href="/design/web/resources/">Other Resources</a></dd>
-</dil>
-</div>
 
 </div>
 <div class="progress-ww">

@@ -908,9 +908,79 @@ Finally, restart the machine by typing `reboot`: any partitions still mounted wi
 
 <p style="font-size: 30px;text-align: center;">⬢⬡⬡⬡⬡⬡⬡⬡⬡⬡</p>
 
+Yep, as it is right now you'll have a terminal that pretty much does nothing. Great! Time to go grab all the things you want.
+
+#### Dual boot? Getting access to the other disk
+
+Before we do that though, if you're dual booting, you'll want to set up your system so that it automatically mounts your other OS's disk. The easiest way to do this is to.
+
+1. If it's not already, make sure you have ntfs-3g installed. Just do a `pacman -S ntfs-3g`.
+
+2. Run `lsblk -o name,mountpoint,label,size,fstype,uuid` 
+
+3. Figure out which Partition has Windows on it. If you have multiple disks, this may be a bit awkward. Here, for example is mine:
+
+   ```
+   nvme1n1                                            953.9G          
+   ├─nvme1n1p1 /boot                                      2G vfat     EAEC-8D86
+   ├─nvme1n1p2                                           16M          
+   ├─nvme1n1p3                                        951.2G ntfs     D00CEBCB0CEBAB24
+   └─nvme1n1p4                                          715M ntfs     DA1E14C51E149C97
+   nvme0n1                                            953.9G          
+   ├─nvme0n1p1                                            1G vfat     96EE-30CD
+   └─nvme0n1p2 /                                      952.8G ext4     629cedc3-e5bf-4496-a75b-78d6d1c30d88
+   
+   ```
+
+   What you should see is one partition that has a mount point of `/boot` (`nvme1n1p1`, in my case) and one that has a mountpoint of just `/` (`nvme0n1p2` in my case). Assuming nothing else weird about your setup, (no extra drives, etc.) you're looking  for a large (probably 250G+) ntfs partition that has no mount point. The only thing matching that above is `nvme1n1p3`. Note, your disks may start with "sd_" instead of "nvme_"
+
+   Let's see if that's the right partition
+
+4. Run `mount /dev/[partition name] /mnt/win` (for me, this would be `mount /dev/nvme1n1p3 /mnt/win`)
+
+5. Run `cd /mnt/win` then `ls -a` . You should see all the folders you'd expect to see at the base of a C drive, "Users", "Windows", "Program Files", etc.
+
+   If you don't - don't panic. Do you see anything other than `. ..`? Do you recognize the folders? It's possible you have multiple big partitions - maybe when your in Windows you also have another disk (probably D:/) - this might be that. This is good! It means we now know the partition with some of your data on it. Note this down somewhere - like `sda3 has data` and start from 1. again, pick another big NTFS partition, but when you go to mount change the path to `/mnt/win[number you increment]`, and go from there.
+
+   If you don't see anything other than `. ..` it's likely nothing got mounted at all. Re-run the big `lsblk` command and see if the partition shows up as mounted - see how this has the `/mnt/win` next to it now?
+
+   ```
+   ├─nvme1n1p3 /mnt/win                               951.2G ntfs     D00CEBCB0CEBAB24
+   ```
+
+   If `/mnt/win` is next to none of them, then the mount didn't even work. Start from 1. If you still can't get anywhere, ask around for some help.
+
+6. Okay, so your disk is mounted and you have access to your files, but you really don't want to do that every time you boot. Let's add the partition(s) (multiple, if you have a data disk) to our FSTAB. Run `nano /etc/fstab` (with `sudo`, if you've jumped ahead and made a user) and add the line:
+
+   ````
+   UUID=[Your disks UUID] /mnt/win      ntfs-3g defaults,nofail,noatime,uid=1000,umask=0011 0 0
+   ````
+
+   For example, for mine, this would be:
+
+   ```
+   UUID=D00CEBCB0CEBAB24 /mnt/win      ntfs-3g defaults,nofail,noatime,uid=1000,umask=0011 0 0
+   ```
+
+   Now, if you reboot, your disk should automatically be mounted to /mnt/win.
+
+   As a brief explanation. `ntfs-3g` sets what NTFS driver to use. `ntfs3` instead should in theory be *much* faster, but it's not super stable at the time of writing. As for the other flags:
+
+   * `defaults` just sets sane mounting options for most things based on filesystem (NTFS, in this case) type
+   * `nofail` sets it so that if it can't mount the Windows partition, Linux doesn't say "Nope!" and drop you into a "recovery shell".
+   * `noatime` sets it not to store access times. There's a not-insignificant performance impact in doing so, so may as well turn it off.
+   * `uid=1000,umask=0011` - set's it so that files are the users (well, when you make one) which should be of id 1000 and that all files are set to be able to be read, written, or executed. This is bad for security, but as your computer is *probably* single user, it's fine.
+   * The `0 0` at the end The first one should always be 0 as it's for marking if the disk should be backed up using an old back up system nobody should use, and the second if a system should be checked for file system checking, and in what order. If it's an NTFS disk and you dual boot, set it to 0. Your root `/` partition should be set to 1, if you care, you can set the others (if you have any) to 2, but, like, FS checking (fsck) is usually one of those things you'll know if you need to do, so as long as the system boots, fuck it.
+
+   
+
+   
+
+
+
 {{< quote "[Install Guide](https://wiki.archlinux.org/title/installation_guide) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
-#### Post-installation
+### Post-installation
 
 See [General recommendations](https://wiki.archlinux.org/title/General_recommendations) for system management directions and post-installation tutorials (like creating unprivileged user accounts, setting up a graphical user interface, sound or a touchpad).
 
