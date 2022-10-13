@@ -17,9 +17,7 @@ This page is almost completely devoid of actual educational content. Instead, I'
 
 {{< tip >}}
 
-Most will notice this page lacks AI generative art tools such as DALL·E 2, Midjourney, & Stable Diffusion. This isn't because they're not interesting, it's because the space is rapidly evolving and I don't want to maintain constantly changing lists!
-
-See [Stable Diffusion is a really big deal](https://simonwillison.net/2022/Aug/29/stable-diffusion/) by [@simonw](https://twitter.com/simonw) for how crazy things can get.
+Most will notice this page lacks AI generative art tools such as DALL·E 2, Midjourney, & Stable Diffusion. This isn't because they're not interesting, it's because the space is rapidly evolving and I don't want to maintain constantly changing lists!</br></br>See [Stable Diffusion is a really big deal](https://simonwillison.net/2022/Aug/29/stable-diffusion/) by [@simonw](https://twitter.com/simonw) for how crazy things can get.
 
 {{< /tip >}}
 
