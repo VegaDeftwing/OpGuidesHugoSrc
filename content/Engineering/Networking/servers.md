@@ -96,7 +96,17 @@ You will learn a lot, and you will get exactly what you want. But it's a lot of 
 
 ### Application servers
 [TODO]
-## Virtual machines and containerization
+## Virtual machines
+
+Depending on what you want to do in your Home Lab, you may not need any VMs. They have their uses:
+
+* Security: if you are playing around with suspicious software you don't trust
+* Legacy support: if you need to emulate ancient hardware to run old software
+* Experimentation: you want to build a network but don't want to risk real money yet
+
+While it is possible to use a recipe tool like [Hashicorp Vagrant](https://www.vagrantup.com/), [VirtualBox from Oracle](https://www.virtualbox.org/) will get you started much faster if all you want are a couple machines and don't mind that it is open core [rather than open source](https://opensource.com/article/21/11/open-core-vs-open-source).
+
+## Containers
 [TODO]
 ### Why don’t have it physical?
 [TODO]
