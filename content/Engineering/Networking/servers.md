@@ -109,6 +109,9 @@ While it is possible to use a recipe tool like [Hashicorp Vagrant](https://www.v
 ## Containers
 [TODO]
 ### Why don’t have it physical?
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/SCclo-eg0T8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 [TODO]
 ### Local VMs
 [TODO]
