@@ -482,6 +482,8 @@ https://github.com/appneta/tcpreplay
 
 ### HTTP(s)  - Hypertext Transfer Protocol
 
+https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for
+
 http://bright28677.tripod.com/proj2/httpformat.htm (both images)
 
 response codes - 200, 300's, 400's, etc.

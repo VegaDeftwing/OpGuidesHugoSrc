@@ -32,6 +32,8 @@ https://newhams.info/2017/02/17/rf-connector-types/
 
 [2200-meter band (Wikipedia)](https://en.wikipedia.org/wiki/2200-meter_band)
 
+[Passive Radio with SDR (Stephan Cass, IEEE)](https://spectrum.ieee.org/passive-radar-with-sdr)
+
 [Chattervox (Github)](https://github.com/brannondorsey/chattervox)
 
 [Monitor Airplane Traffic with a Raspberry Pi and SDR](https://brianchristner.io/monitor-airplane-traffic-with-a-raspberry-pi/)

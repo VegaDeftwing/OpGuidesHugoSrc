@@ -91,3 +91,7 @@ You want to make sure you're in the right sonic space. [...] It's not so much ab
 ## Generative
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/BaqYfuLMJNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# SCIENCE!
+
+https://ciechanow.ski/sound/

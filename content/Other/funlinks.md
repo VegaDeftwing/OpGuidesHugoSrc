@@ -156,6 +156,8 @@
 
 * [I don't know, Timmy, being God is a big responsibility](https://qntm.org/responsibility)
 
+* [The Magnus Archives](https://rustyquill.com/show/the-magnus-archives/)
+
   
 
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>

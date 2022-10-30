@@ -20,6 +20,10 @@ https://esoteric.codes
 
 [0-based vs. 1-based indexing (Hisham Hm)](https://hisham.hm/2021/01/18/again-on-0-based-vs-1-based-indexing/)
 
+[Stop Writing Dead Programs (YouTube)](https://www.youtube.com/watch?v=8Ab3ArE8W3s)
+
+https://cs.lmu.edu/~ray/notes/syntaxdesign/
+
 ## Low Level
 
 ### C, C++, C#, ????

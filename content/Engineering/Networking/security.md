@@ -826,3 +826,5 @@ Another one that you should read is *The Conscience of a Hacker* written by 'The
 <div hidden><img src="/eng/irules.jpg" alt="internet rules" style="zoom:100%; display: block; margin-left: auto; margin-right: auto;" /></div>
 
 <!--- [The Sheer Terror of Pam](https://www.youtube.com/watch?v=BleS-MHLn7s) --->
+
+<!-- https://monocypher.org/why/ -->

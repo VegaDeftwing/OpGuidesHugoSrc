@@ -2,6 +2,10 @@
 
 ## English
 
+<!-- TODO https://carefulwords.com -->
+
+<!-- I'd like to make a whole writing section somewhere -->
+
 Unfortunately, for those that don't speak English as a first language, the internet has developed in such a way that English is basically the go-to language online. <a class="ptr">(1)</a>
 
 I'm not going to pretend to be able to teach you English - especially not in a guide that claims to be about Engineering - but I do think communicating effectively is massively important, so I'd recommend watching some of these videos and reading these links which go over some of the nuance of communication:

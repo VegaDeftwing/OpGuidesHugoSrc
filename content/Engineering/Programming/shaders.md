@@ -504,5 +504,4 @@ And while bitshifting is sometimes black magic looking in any language, I fully 
 
 <!-- TODO: WebGL + https://observablehq.com/@rreusser/the-double-pendulum-fractal?collection=@rreusser/writeups -->
 
-
-
+<!-- TODO https://godotengine.org/article/emulating-double-precision-gpu-render-large-worlds -->

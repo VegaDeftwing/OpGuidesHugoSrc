@@ -38,7 +38,9 @@ So, let's dive in and explore the basics of Krita!
 
 https://krita-artists.org/t/brush-pack-deevads-2021-bundle/27130
 
+https://typefully.com/DanHollick/blending-modes-KrBa0JP - Blending modes
 
+https://typefully.com/DanHollick/chromatic-aberration-3rjb1Mp
 
 #### Pixel Art
 
