@@ -66,7 +66,9 @@ Prisoners? Immigrants? The sick? The poor? Widows? Orphans? All the groups that 
 
 ### Having Kids
 
-[TODO] birth rates
+[TODO] why do people have kids
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/QsBT5EQt348" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Gender, LGBT, & the term Queer
 
