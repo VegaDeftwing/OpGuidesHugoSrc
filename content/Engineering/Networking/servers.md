@@ -107,7 +107,87 @@ Depending on what you want to do in your Home Lab, you may not need any VMs. The
 While it is possible to use a recipe tool like [Hashicorp Vagrant](https://www.vagrantup.com/), [VirtualBox from Oracle](https://www.virtualbox.org/) will get you started much faster if all you want are a couple machines and don't mind that it is open core [rather than open source](https://opensource.com/article/21/11/open-core-vs-open-source).
 
 ## Containers
-[TODO]
+
+While containers provide similar benefits of a VM, they have become much more engrained in the open source ecosystem.
+
+There are better in-depth overviews than this one, but a container is best thought of as a way to package up not only a program, but the entire environment around it when it runs.
+
+While different container hypervisors have different options, usually containers get "virtual" versions of:
+
+* The file system. A container will have an isolated directory structure with what appears to be a root directory, but is separate from the rest of the system. It is similar to what [chroot](https://man7.org/linux/man-pages/man2/chroot.2.html) provides, but it is not even a subtree of anywhere else on the host.
+* The network stack. This can be anything from a full NAT, to port forwarding, to creating a Linux [network namespace](https://www.man7.org/linux/man-pages/man7/network_namespaces.7.html) and virtual packet routing. The goal here is to let software send and receive packets (usually TCP) with standardized networks, and let the hypervisor handle the weird cases.
+* Users, groups, and permissions. Most often containers run as root, but they can also be run as specific users -- including users that don't exist on the host system.
+* Environment variables. The process has a UNIX environment when it runs, and it is possible to add to this before it starts.
+
+This idea of packaging not just a binary but an environment allows all sorts of software to be shipped in containers. For open source projects, they are good not only for deployment, but CI/CD. They allow creating "Linux dev environments" to test your builds without "ruining" your machine. I have more on that in the CI/CD section once you get done with this one.
+
+### An Example Container in Docker
+
+As a concrete illustration, let's use the most common container system: docker. While there have been "desktop editions" that are non-commercial software (meaning not open-source), the original daemon (now called Moby) that ships on Linux remains open source.
+
+There are plenty of [getting started with docker](https://github.com/docker/getting-started) articles out there, and they do a better job than this. This is just an example to demo the concepts.
+
+As an example container, we'll use an open-source S3 bucket server called [minio](https://github.com/minio/minio). As noted in the project's README, doing a standalone deployment for development (rather than production use) is as simple as downloading the container and running it. So let's do that.
+
+With docker, the first step is to download an *image* from the public docker repository, DockerHub:
+
+```
+docker pull quay.io/minio/minio
+```
+
+This will go out and get a list of "layers." These are created by the instructions in the recipe file called a [Dockerfile](https://docs.docker.com/engine/reference/builder/) which define the environment.
+
+Once the image is downloaded, you can *run* it, i.e. create the process and put it into a new *container* (in docker's terminology).
+
+Here is a simple way to do that. (Don't worry about the details of the command line yet.)
+
+```
+docker run --name my_minio -p 9000:9000 -p 9001:9001 \
+  quay.io/minio/minio server /data --console-address ":9001"
+```
+
+This will generate startup output (take note of the default admin credentials for later!) ending with a link to documentation on my version, and then hang in the terminal.
+
+That's because the process is a server, and it's in the foreground. Not helpful, so press Control-C to interrupt it, and it will terminate.
+
+So what happens to the container when the process dies? The process is killed -- but the "husk" of the container is still left behind. If you try to run the exact same command line again, you get an error:
+
+` docker: Error response from daemon: Conflict. The container name "/my_minio" is already in use by container <hash string>. You have to remove (or rename) that container to be able to reuse that name.`
+
+If you type `docker ps -a` you can see it.
+
+While the process is gone, the environment is not. It would be possible, for example, to use `docker cp` to copy files out of the filesystem. Even more powerfully, you could copy a file in and then `docker restart` the container.
+
+The key understanding here is that the "environment" of a container is *persistent*. Any time you create a new container, on the other hand, it starts with the image that was downloaded. Building and managing images I leave to [the official documentation](https://docs.docker.com/get-started/02_our_app/).
+
+Now let's `docker rm my_minio` in order to make the error go away and create a new one. But this time, add a `-d` right after `docker run` (argument order matters!) when you run it again to put it in the background.
+
+Now go to a browser and visit `http://127.0.0.1:9001`. You'll get the Minio admin console!
+
+But wait a minute, how come the browser can talk to it? Wasn't networking supposed to be isolated?
+
+Because specifically the `-p` arguments said to perform listener port forwarding for TCP on those two ports behind a lightweight NAT setup (the default). If you change the number before the colon in the `-p` argument, you will change the port your browser can connect to.
+
+To conclude, let's see where the bucket storage is. Log into the UI (default credentials should be in the output from earlier), create a bucket called "test-bucket", and upload a file into it.
+
+That file has to get stored somewhere on the filesystem, which in this case is defined by a command-line argument the server was called with. I put that line-break in for a reason. It turns out that everything before the container name is arguments to docker and everything after is arguments to the process itself: its command line.
+
+So the process being run is: `/container/path/minio server /data --console-address ":9001"`
+
+As noted in the minio project's docs, the first argument is the path to storage: `/data`. But of course, that's within the "chroot" of the container itself, not the host.
+
+If we want to actually see what's there, we need to run a command inside the container's "context":
+
+```
+docker exec my_minio ls /data/test-bucket
+```
+
+It does indeed print the uploaded file.
+
+You can use either [volumes or bind mounts](https://docs.docker.com/storage/) to share parts of the filesystem between containers and/or the host, but that's more advanced. Hopefully the concepts and pointers are good enough.
+
+And once again, if you need a practical example of the power of containers, take a look at the [CI/CD section](/engineering/programming/debugbuildtest/) where I discuss an example.
+
 ### Why don’t have it physical?
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/SCclo-eg0T8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -116,8 +196,6 @@ While it is possible to use a recipe tool like [Hashicorp Vagrant](https://www.v
 ### Local VMs
 [TODO]
 ### Cloud VMs
-[TODO]
-### Containers and the convenience of not breaking things
 [TODO]
 ## The voodoo magic of… serverless?
 [TODO]
