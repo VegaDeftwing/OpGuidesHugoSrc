@@ -142,6 +142,8 @@ Now, I won't say that this is always used for evil. For example, some people are
 
 This is of course tricky. On one hand, everyone likes the idea of discounts: be it for Seniors, Students, Loyal Customers, or for showing up at the right time of day. On the other hand, almost all discounts are just an excuse to raise the price for a different group of people- those that are presumed to be able to pay more. There's a lot of complexity here, and the [Wikipedia article on Price Discrimination](https://en.wikipedia.org/wiki/Price_discrimination) covers a lot of it well, but I think the key take away should be that this is already a problem- what you buy online may well already be changing in price based on where you live, what account you're logged into, what device you're using to look at the website. Some of these practices may be of various legality depending on where you live, but good luck trying to stop it. 
 
+See: https://scastiel.dev/implement-ppp-fair-pricing-for-your-product
+
 ### Pay What You Want
 
 [TODO]

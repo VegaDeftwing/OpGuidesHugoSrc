@@ -110,6 +110,18 @@ Other sources to learn Go:
 
 [Zig, The Small Language (Serge Zaitsev)](https://zserge.com/posts/zig-the-small-language/)
 
+> If you're going to use Zig, make sure to set up the [Zig Language Server](https://github.com/zigtools/zls/wiki/Installing-for-Visual-Studio-Code)
+
+### Odin
+
+> Odin is a general-purpose programming language with distinct typing built for high performance, modern systems and data-oriented programming.
+>
+> Odin is the C alternative for the Joy of Programming
+>
+> https://odin-lang.org
+
+https://graphitemaster.github.io/odin_review/
+
 ### Crystal
 
 Crystal's big thing is a Ruby (a very fast to write language) that's compiled and fast. From the home page:

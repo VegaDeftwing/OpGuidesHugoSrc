@@ -22,6 +22,8 @@ Low Pass filters do what you think, they let the low frequencies pass and cut ou
 
 High pass filters act pretty much the same as low pass filters, except they do they cut the lows and pass the highs. High pass filters are ironically often actually used to give a bump in the bass using the resonant peak.
 
+Note, one use of high pass filters is to remove "mudd" and/or DC offset. While we may not hear it, audio content bellow 20Hz can matter: [Undetectable very-low frequency sound increases dancing at a live concert](https://www.cell.com/current-biology/fulltext/S0960-9822(22)01535-4)
+
 ### Band Pass Filters
 
 There are two kinds of bandpass filters, one, is a Lowpass and Highpass filter in series, where there's only a band left that can pass giving two potential resonant peaks, and then there's band pass filters which are more 'true' band pass filters that have a resonant peak in the middle.(need to confirm this)

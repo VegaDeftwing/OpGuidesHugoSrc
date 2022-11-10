@@ -78,6 +78,12 @@ Reading through their marketing, their dedicated box handles the storage and the
 
 However, all of this is proprietary. Sure, you can configure it to be a file sharing server and nothing else, but then you're still taking on most of the problems yourself.
 
+{{< speech big>}}
+
+After reading [“I’m totally screwed.” WD My Book Live users wake up to find their data deleted](https://arstechnica.com/gadgets/2021/06/mass-data-wipe-in-my-book-devices-prompts-warning-from-western-digital/) and [New wave of data-destroying ransomware attacks hits QNAP NAS devices](https://arstechnica.com/information-technology/2022/09/new-wave-of-data-destroying-ransomware-attacks-hits-qnap-nas-devices/) I'm less than enthusiastic to recommend this route.
+
+{{< /speech >}}
+
 #### Option 3: Buy the Hardware, Install the Software
 
 There is quite a bit of software that is designed to be focused on a data storage appliance, VM host, or certain other dedicated problems. Such software includes [unRAID](https://unraid.net/), [Synology](https://www.synology.com/en-us), and [TrueNAS](https://www.truenas.com/truenas-core/).

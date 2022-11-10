@@ -106,4 +106,6 @@
   
 * [7-color E-ink screens](https://core-electronics.com.au/guides/colour-e-ink-display-raspberry-pi/)
 
+* [Rope Core Drum Machine](https://hackaday.com/2022/11/06/rope-core-drum-machine/)
+
 * 

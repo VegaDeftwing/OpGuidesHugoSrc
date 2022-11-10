@@ -2,6 +2,8 @@
 
 <script>    document.getElementById("softMenu").open = true;</script>
 
+<!-- TODO: Add https://github.com/ldrolez/clyphx-live10 -->
+
 Before getting into this list, I also want to point out that there's an *endless* number of programmable music sequencing tools which can be found built into VST plugins, larger audio software, and even video games. I'm particularly fond of the huge number of interesting sequencers for VCV Rack, such as [Quad Algorithmic Rhythm Generator](https://library.vcvrack.com/FrozenWasteland/QuadAlgorithmicRhythm), [Entropia](https://library.vcvrack.com/Geodesics/Entropia), [Fate](https://library.vcvrack.com/Geodesics/Fate), [Marbles](https://library.vcvrack.com/AudibleInstruments/Marbles), and [Orca's Heart](https://library.vcvrack.com/scanner-darkly-collection-one/SDOrcasHeart) - just to name a few.
 
 This list absolutely can not have everything. Still, I've tried to highlight some of the more novel ideas.

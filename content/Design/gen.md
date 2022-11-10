@@ -17,9 +17,11 @@ This page is almost completely devoid of actual educational content. Instead, I'
 
 {{< tip >}}
 
-Most will notice this page lacks AI generative art tools such as DALL·E 2, Midjourney, & Stable Diffusion. This isn't because they're not interesting, it's because the space is rapidly evolving and I don't want to maintain constantly changing lists!</br></br>See [Stable Diffusion is a really big deal](https://simonwillison.net/2022/Aug/29/stable-diffusion/) by [@simonw](https://twitter.com/simonw) for how crazy things can get.
+Most will notice this page lacks AI generative art tools such as DALL·E 2, Midjourney, & Stable Diffusion. This isn't because they're not interesting, it's because the space is [rapidly evolving](https://the-decoder.com/nvidias-ediffi-is-an-impressive-alternative-to-dall-e-or-stable-diffusion/) and I don't want to maintain constantly changing lists!</br></br>See [Stable Diffusion is a really big deal](https://simonwillison.net/2022/Aug/29/stable-diffusion/) by [@simonw](https://twitter.com/simonw) for how crazy things can get.
 
 {{< /tip >}}
+
+<!-- https://github.com/invoke-ai/InvokeAI, https://github.com/AUTOMATIC1111/stable-diffusion-webui, https://github.com/carefree0910/carefree-creator -->
 
 If you're interested in generative music and sounds as well, you may want to check out The OpGuides page on {{< button relref="Music/software/livecoding" color="music" >}}Live coding Music Software{{< /button >}}.
 

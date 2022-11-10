@@ -562,63 +562,67 @@ When we installed arch we actually changed the default shell from bash to zsh, b
   
   * send a graphical system notification when a command finishes
 
-* progress
+* [ntfy.sh](https://ntfy.sh)
   
+  * Send push notifications to your phone or desktop via PUT/POST
+
+* progress
+
   * start a command and have no way to see what its doing (rsync, cp, etc)? This is your tool
 
 * figlet, toilet, banner
-  
+
   * makes big text, run `figlet Your Text Here` and see your text in big, ascii letters
 
 * no more secrets
-  
+
   * reveal text in a martix effect.. I'm streching the meaning of useful here
 
 * stress-ng
-  
+
   * stresstest your system in pretty much any super specific way you can think of, or hammer your cpu to test an overclock
 
 * pandoc
-  
+
   * convert between damn near any text format to any other format
   * also see [pdfsandwich](http://www.tobias-elze.de/pdfsandwich/) for OCR on PDFS
-  
+
 * taskwarrior
-  
+
   * keep track of To-Do's and tasks, can also be paired with timewarrior for timetracking
 
 * waifu2x (many forks available)
-  
+
   * Upscale and de-noise images zoom-and-enhance style but for real-    this ones' a bit GPU intensive because it uses AI
 
 * youtube-dl
-  
+
   * despite the name this tool can download videos or audio from almost any page on the internet, even supporting playlists in many cases too.
-  
+
 * [gallery-dl](https://github.com/mikf/gallery-dl) is good for grabbing albums from photo hosting websites
-  
+
 * [rat](https://github.com/ericfreese/rat)
-  
+
   * "Compose shell commands to build terminal applications"
 
 * magic-wormhole
-  
+
   * tool for getting a file between two systems easily and secure, just run `wormhole send` and `wormhole recive` on the respective systems
 
 * Ix, Gist
-  
+
   * Paste tools, like pastebin
 
 * DMIDecode
-  
+
   * get info from BIOS
 
 * hexyl
-  
+
   * pretty terminal based hex viewer
 
 * [UXY](https://github.com/sustrik/uxy)
-  
+
   * "UXY tool also wraps some common UNIX tools and exports their output in UXY format."
     
     "UXY is a tool to manipulate UXY format, which is a basically a two-dimenstional table that's both human- and machine-readable."
@@ -626,17 +630,17 @@ When we installed arch we actually changed the default shell from bash to zsh, b
     This gives a nice format for manipulation of commands though pipes for super complex shell scripting
 
 * lsof
-  
+
   * list what files a runnig process has open
-  
+
 * [glow](https://github.com/charmbracelet/glow) or [mdcat](https://github.com/lunaryorn/mdcat)
 
   * display markdown files in the terminal
-  
+
 * [nethogs](https://github.com/raboof/nethogs)
 
   * see what applications are using your network bandwidth
-  
+
 * [exodus](https://github.com/intoli/exodus)
 
   * "Exodus is a tool that makes it easy to successfully relocate Linux ELF binaries from one system to another. This is useful in situations where you don't have root access on a machine or where a package simply isn't available for a given Linux distribution." [...] 

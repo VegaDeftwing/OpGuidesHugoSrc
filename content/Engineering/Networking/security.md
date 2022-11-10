@@ -164,6 +164,8 @@ This is one of *many* side channel attacks on hardware directly. My point here i
 
 Along with this, you also shouldn't make to many assumptions that your code is running in a 'real' environment. The code may well be running in a virtual machine or in a container.
 
+Similarly, don't assume the hardware or gadgets your connecting themselves aren't malicious. We all know not to plug in random flash drives, but what about [USB Plasma globes?](https://hackaday.com/2022/10/10/hacking-google-with-plasma/)  
+
 ### DO NOT assume that things won't break
 
 #### Overflow

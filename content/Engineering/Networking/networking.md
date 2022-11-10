@@ -1,5 +1,15 @@
 # Chapter 37 - Networking
 
+Quick links:
+
+* [Blip](https://github.com/apenwarr/blip) - Check latency
+* [Speedtest.net](https://www.speedtest.net) - Speed test
+* [myexternalip.com](https://myexternalip.com) - See your external IP
+* [portchecker.co](https://portchecker.co) - Check if a port is open
+* [crt.sh](https://crt.sh) - Certificate search
+
+---
+
 ## The Basics
 
 To get started, let's just get some basic terminology down and take a look at the bigger picture:
@@ -655,6 +665,8 @@ https://github.com/ValdikSS/GoodbyeDPI
 [TODO] Add follow along making a network stack
 
 [TODO] https://iximiuz.com/en/posts/computer-networking-101/
+
+[TODO] https://blog.benjojo.co.uk/post/scan-ping-the-internet-hilbert-curve
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="et" dir="ltr">midi <a href="https://t.co/5zd4dWJ3U4">pic.twitter.com/5zd4dWJ3U4</a></p>&mdash; Ravarcheon (@ravarcheon) <a href="https://twitter.com/ravarcheon/status/1383045683037413376?ref_src=twsrc%5Etfw">April 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

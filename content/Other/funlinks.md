@@ -158,6 +158,8 @@
 
 * [The Magnus Archives](https://rustyquill.com/show/the-magnus-archives/)
 
+* [So long and thanks for all the bits](https://www.ncsc.gov.uk/blog-post/so-long-thanks-for-all-the-bits)
+
   
 
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>

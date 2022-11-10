@@ -1,5 +1,7 @@
 # Appendix 2 - Cheat Sheets and quick info
 
+<!-- TODO: Add licences (or emjois to represent them?) for all libraries. Probably put them in a table like the VSTs -->
+
 ## Electrical Part Tables
 
 [TODO]
@@ -12,11 +14,15 @@
 
 ## Nice Libraries & Resources
 
-### Multi-Language
+### Please don't use Electron...
 
 [Ultralight](https://github.com/ultralight-ux/Ultralight) - "Next-generation HTML renderer for apps and games"
 
-> Bit like Electron, but less shit. Supports C, C++, C#, Rust, Java, and Go
+[Muon](https://github.com/ImVexed/muon/tree/master) - "GPU based Electron on a diet"
+
+## Multi-Lang
+
+[NotCurses](https://github.com/dankamongmen/notcurses) (It's not Ncurses) - "blingful character graphics/TUI library. definitely not curses."
 
 ### C
 
@@ -49,6 +55,20 @@ https://github.com/alandefreitas/matplotplusplus
 [Interactive C++ for Data Science](https://blog.llvm.org/posts/2020-12-21-interactive-cpp-for-data-science/) - Like Jupyter Notebooks
 
 [NanoLog](https://github.com/PlatformLab/NanoLog) - "an extremely performant nanosecond scale logging system for C++ that exposes a simple printf-like API."
+
+[Moe [Old]](https://github.com/tonykero/Moe) - "Moe is a C++14 header-only dependency-free library providing generic implementations of some metaheuristic algorithms" - like genetic algorithms, differential evolution, simulated annealing, etc.
+
+[Autodiff](https://github.com/autodiff/autodiff) - "automatic differentiation made easier for C++"
+
+[Symengine](https://github.com/symengine/symengine) - "SymEngine is a fast symbolic manipulation library, written in C++"
+
+[Mach7](https://github.com/solodon4/Mach7) - "Functional programming style pattern-matching library for C++"
+
+[STB](https://github.com/nothings/stb) - "stb single-file public domain libraries for C/C++"
+
+[Darwin](https://github.com/tlemo/darwin) - "Evolutionary Algorithms Framework"
+
+[eSpinn](https://github.com/hnqiu/eSpinn) - "eSpinn -- evolving Spiking Neural Networks"
 
 ### Rust
 
@@ -107,6 +127,8 @@ https://github.com/mitsuba-renderer/nanogui
 [Pint](https://pint.readthedocs.io/en/stable/) - work with units, including prefixes like kilometers
 
 [Quarry](https://github.com/barneygale/quarry) - "Quarry is a Python library that implements the [Minecraft protocol](http://wiki.vg/Protocol). It allows you to write special purpose clients, servers and proxies."
+
+[Pyxel](https://github.com/kitao/pyxel) - "A retro game engine for Python"
 
 > Also see pyO3 in rust above, which allows for writing python modules. Of course python modules can be written [in C or C++](https://docs.python.org/3/extending/extending.html), but doing so in Rust is safer, because, Rust.
 

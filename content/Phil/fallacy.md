@@ -454,3 +454,11 @@ Fractally wrong people are often immune to the [stopped clock rule](https://rati
 # Other Resources
 
 [Logicalfallacies.org](https://www.logicalfallacies.org) covers many of these same fallacies, plus a few I didn't touch on, and is hugely better written. Give it a look
+
+---
+
+Related-ish:
+
+[Benford's Law (Wikipedia)](https://en.wikipedia.org/wiki/Benford's_law)
+
+http://www.loper-os.org/bad-at-entropy/manmach.html

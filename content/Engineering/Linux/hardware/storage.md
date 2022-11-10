@@ -151,3 +151,5 @@ Floppy, Zip, tape
 [TODO]
 
 ZFS, hardware raid, software raid, emulated hardware (bios), etc.
+
+https://mazzo.li/posts/reed-solomon.html

@@ -32,6 +32,8 @@ slug: "UI"
 
 [Datalegeya Font](http://www.datalegreya.com/?lang=en)
 
+[Almost Monospace Fonts (blakewatson.com)](https://blakewatson.com/journal/almost-monospaced-the-perfect-fonts-for-writing/)
+
 ### Data Visualization
 
 https://bids.github.io/colormap/
