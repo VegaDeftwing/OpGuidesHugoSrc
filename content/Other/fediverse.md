@@ -143,11 +143,11 @@ Huh?
 
 {{< speech right big >}}
 
-You like Twitter but not *that side* of Twitter? Then you can use Mastodon. Mastodon is part of the fediverse, which is made up of indieweb servers, which all federate with each other. You could join a server like [eldritch.cafe](eldritch.cafe) which is 
+You like Twitter but not *that side* of Twitter? Then you can use Mastodon. Mastodon is part of the fediverse, which is made up of indieweb servers, which all federate with each other. You could join a server like [eldritch.cafe](http://eldritch.cafe) which is 
 
 > For queer people, feminists, anarchists and their sympathizers. Mainly French, but other languages welcome
 
-or [sunny.garden](sunny.garden) which is 
+or [sunny.garden](http://sunny.garden) which is 
 
 > [...] a community for indie creators who draw, paint, sculpt, write, design, program, play, sing or build, their friends and family, and anyone else who thinks that sounds like a nice place to be.
 
