@@ -74,7 +74,17 @@ Need a bigger picture?
 
 ### Making GIFS
 
-No artist could reasonably do this. This is a new art form.
+{{< columns >}}
+
+![travel-00013](/nonfree/blog/ai/anim.webp)
+
+<--->
+
+No artist could reasonably do this. This is effectively a new art form.
+
+There's multiple takes on this. Some will navigate though different prompts on the same seed, some will change the seed on the same prompt (like the example here)
+
+{{< /columns >}}
 
 ### What they're not capable of (currently):
 
