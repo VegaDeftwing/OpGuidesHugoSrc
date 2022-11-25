@@ -56,6 +56,7 @@ Socks++ are always welcome too.
   </tr>
 </thead>
 <tbody>
+    <!--
       <tr>
     <td><a href="https://www.tindie.com/products/dhgoss/vfd-vacuum-fluorescent-clock-4-digit-iv-6/">VFD Clock</a></td>
     <td>It's a clock</td>
@@ -63,6 +64,7 @@ Socks++ are always welcome too.
 	<td>Electronics</td>
 	<td>~$60</td>
   </tr>
+    -->
           <tr>
     <td><a href="https://www.amazon.com/Razer-Kiyo-Streaming-Webcam-High-Performance/dp/B08T1MWX6J/ref=sr_1_3?crid=ETLBQXIRQ4E3&keywords=razer%2Bkyra%2Bpro%2Bwebcam&qid=1669404658&sprefix=razer%2Bkyra%2Bpro%2Caps%2C78&sr=8-3&th=1">Nicer Webcam</a></td>
               <td><b>A good black friday deal @90, a terrible buy otherwise!!!!!!</b></td>
