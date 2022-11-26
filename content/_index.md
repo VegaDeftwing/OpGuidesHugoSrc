@@ -75,6 +75,8 @@ There's also just a point of being utterly pissed off at the quality of my eduac
 
 <iframe width="100%" height="240" src="https://www.youtube.com/embed/YCeKBf_3T6w?t=2228" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+{{< smalltext >}}Skip to 37:08{{< /smalltext >}}
+
 {{< /columns >}}
 
 # Thank You!
@@ -93,8 +95,6 @@ one time contribution of $10+ or any monthly contribution on Github Sponsors or 
 
 ---
 
-[Nikolay Shebanov](https://github.com/killthekitten)
-
 Albert Wavering
 
 <--->
@@ -105,11 +105,15 @@ Albert Wavering
 
 {{< attribution >}}
 
-one time contribution of  \$50+ or $10+ monthly contribution on Github Sponsors or Patreon
+one time contribution of  \$50+ or $5+ monthly contribution on Github Sponsors or Patreon
 
 {{< /attribution >}}
 
 ---
+
+[Nikolay Shebanov](https://github.com/killthekitten)
+
+[Steve Phillips](https://twitter.com/elimisteve)
 
 <--->
 
@@ -119,7 +123,7 @@ one time contribution of  \$50+ or $10+ monthly contribution on Github Sponsors 
 
 {{< attribution >}}
 
-one time contribution of  \$100+ or $20+ monthly contribution on Github Sponsors or Patreon
+one time contribution of  \$100+ or $10+ monthly contribution on Github Sponsors or Patreon
 
 {{< /attribution >}}
 
@@ -156,6 +160,8 @@ Eric Pereyra ([isopropilick](https://github.com/isopropilick))
 [jhwgh1968](https://github.com/jhwgh1968)
 
 [DJ](https://github.com/exdeejay)
+
+[DocQuantum](https://github.com/docquantum)
 
 <--->
 

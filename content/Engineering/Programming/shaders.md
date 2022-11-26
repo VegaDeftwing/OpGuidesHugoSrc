@@ -345,7 +345,7 @@ Usually, you'll have a normal map from whatever material / texture painting soft
 
 ### Kernel Convolution
 
-[TODO]
+[TODO] [Convolutions in image processing (3B1B + MIT + Julia)](https://www.youtube.com/watch?v=8rrHTtUzyZA&t=0s)
 
 ### Filtering
 
