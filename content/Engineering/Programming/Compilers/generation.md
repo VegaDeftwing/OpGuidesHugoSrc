@@ -1,5 +1,9 @@
 ## Code Generation
 
+<script>
+    document.getElementById("compilersMenu").open = true;
+</script>
+
 As I said earlier, there is no way that you can write a proper compiler on your own, due to the amount of work involved.
 
 But new languages are invented by individual people all the time. How is this possible? The answer is, they use a backend framework or library for this part.
@@ -12,9 +16,11 @@ Fortunately, most of these libraries use similar concepts and representations, b
 
 A common representation of a program initially is a control-flow graph. Each node is called a *block*, and represents a single "chunk" of instructions with one entry point and multiple exits.
 
-For example, consider this psudeocode:
+For example, consider this psudeocode: 
 
-```text
+<!--- This uses python syntax highlighting because it's close enough to work. This does mildly make it appear that is valid python code, but as it's called pseudocode here, this is fine.--->
+
+```python
 while n < 10
     x = read integer from file
     array[n] = x
@@ -23,20 +29,24 @@ end while
 print array[0]
 ```
 
-This would be broken into 3 blocks:
+This would be broken into 3 blocks. Note, all the logic in the loop can be thought of as a single block, as the operations are consecutive without any conditional logic (as long as me assume "read integer from file" can't fail)
 
-```text
-start
- |
- |    --------------------------------------------------------------
- |   /                                                              \
- v  v         true                                                   \
-[ n < 10 ] ----> [ x = read integer from file; array[n] = x; n = n + 1]
-  \
-   \  false
-    ----------> [ print array[0] ] --> end
-
-```
+{{< mermaid >}}
+graph LR
+	A("Start") --> B[n < 10]
+	C --> D(End)
+	B -->|true| E
+	subgraph Loop
+	E["x = read integer from file;"]
+	E --> F["array[n] = x;"]
+	F --> G["n = n + 1;"]
+	end
+	G --> B
+	B -->|false| C["print array[0]"]
+	style A fill:#9F9
+	style D fill:#F99
+	style Loop color:#fff,fill:#333
+{{< /mermaid >}}
 
 You can perhaps see how this is useful to the compiler: when it wants to do things like eliminating dead code, rearranging conditionals, or inlining a function to its caller, it just has to move some arrows around independent of the contents.
 
@@ -57,11 +67,9 @@ While LLVM is popular, we'll use libgccgit. It is a library that ship with GCC t
 
 The reason we're picking it is not because it's more popular -- in fact, being GPL, a lot of projects don't like it. However, it does have one good feature: a C API that it is possible to bind to Python. To achieve this, we will use an FFI translation tool called [SWIG](https://swig.org/Doc4.0).
 
-First, verify your installation of GCC, and libgccjit. There may be different packages depending on your distro. The docs have a [hello world test example](https://gcc.gnu.org/onlinedocs/jit/intro/tutorial01.html) you can run to verify this.
+First, verify your installation of GCC, and libgccjit. There may be different packages depending on your distro. If you're on Arch, the package `libgccjit` is available in the core repo. The docs have a [hello world test example](https://gcc.gnu.org/onlinedocs/jit/intro/tutorial01.html) you can run to verify this.
 
-Once it works, find the path to the header file that the example used. On my system running Ubutu 20.04, it's `/usr/lib/gcc/x86_64-linux-gnu/10/include/libgccjit.h`. But it likely depends on your distro.
-
-[TODO Update for Arch Linux]
+Once it works, find the path to the header file that the example used. On my system running Arch, it's `/usr/include/libgccjit.h`. But it likely depends on your distro.
 
 SWIG is based on "interface files", which describes some properties about the library being bound. There is no point going deep into the syntax, because the library "just works" -- almost.
 
@@ -69,7 +77,9 @@ Just a few extra definitions are needed. Copy-paste this and trust me, just this
 
 {{< details "gcccjit.i" >}}
 
-{{% inccode file="content/Engineering/Programming/Compilers/swig/gccjit.i" %}}
+<a href="/Engineering/Programming/Compilers/swig/gccjit.i" download>DOWNLOAD</a>
+
+{{% inccode language="c" file="/Engineering/Programming/Compilers/swig/gccjit.i" %}}
 
 {{</details>}}
 
@@ -77,7 +87,9 @@ Between the example and the interface file, it's best to just create a GNU Makef
 
 {{< details "Makefile" >}}
 
-{{% inccode file="content/Engineering/Programming/Compilers/swig/Makefile" %}}
+<a href="/Engineering/Programming/Compilers/swig/Makefile" download>DOWNLOAD</a>
+
+{{% inccode language="makefile" file="content/Engineering/Programming/Compilers/swig/Makefile" %}}
 
 {{</details>}}
 

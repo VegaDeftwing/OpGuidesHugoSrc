@@ -1,5 +1,9 @@
 # Chapter 22 - Custom Languages
 
+<script>
+    document.getElementById("compilersMenu").open = true;
+</script>
+
 Some people like playing around with new programming languages, or concepts in Programming Language Theory (PLT). In order to do this outside of pure mathematics, anyone who does will have to learn how to write a compiler for their new language.
 
 Unfortunately, compilers are some of the most complex pieces of software out there, along with operating system kernels. Especially when talking about a common compiler for well-established language, there is no way a single guide on the internet can teach you how to write one.

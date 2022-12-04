@@ -1,5 +1,9 @@
 ### Syntax-Directed Translation
 
+<script>
+    document.getElementById("compilersMenu").open = true;
+</script>
+
 This stage is where we get an opportunity to modify and restructure the tree from a syntax point of view, into a semantic point of view.
 
 To avoid "How to Draw an Owl Step 2: Finish the Owl", we will continue with the interpteter theme for the moment. Instead of figuring out all the analyses required, let's ask: what intermediate representation can be interpreted by Python?
@@ -23,4 +27,4 @@ It applies parentheses ("brackets") to each leaf node (containing a number) base
 
 At this point `expr` is the output string above if printed. Apply that repeatedly, and we get our final code:
 
-{{% inccode file="content/Engineering/Programming/Compilers/calculator/calc_lang/eval_py.py" %}}
+{{% inccode language="python" file="content/Engineering/Programming/Compilers/calculator/calc_lang/eval_py.py" %}}

@@ -1,5 +1,10 @@
 ### Lexical analysis
 
+<script>
+    document.getElementById("compilersMenu").open = true;
+</script>
+
+
 The transformation of source code text into a series of *tokens* is the first task. Much like words in a sentence, each token has a specific meaning that will be used by later phases. It is this meaning that is is being captured, while the exact formatting or other details of the text itself are stripped away.
 
 In our calculator, *lexing* (as it is called for short) is just one operation: `line.split()`. That's it.
@@ -36,7 +41,7 @@ The syntax of regular expressions is quite complex, so if you cannot read this, 
 
 For now, though, let's build a simple test program to try them out. Rather than matching on specific characters, we will try each regular expression in the order they were in our table.
 
-{{% inccode file="content/Engineering/Programming/Compilers/lexer.py" %}}
+{{% inccode language="python" file="content/Engineering/Programming/Compilers/lexer.py" %}}
 
 And let's try some inputs:
 
@@ -88,5 +93,6 @@ Our token type is simple: a dictionary of values. It will have metadata related 
 We will make it into a stand-alone function, taking a string and parsing it into a list of tokens which are returned.
 
 {{< details "The Final Lexer" >}}
-{{% inccode file="content/Engineering/Programming/Compilers/calculator/calc_lang/lex.py" %}}
+{{% inccode language="python" file="content/Engineering/Programming/Compilers/calculator/calc_lang/lex.py" %}}
 {{</details>}}
+

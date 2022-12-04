@@ -1,5 +1,8 @@
 # Prelude: A Reverse Polish Notation Calculator
 
+<script>
+    document.getElementById("compilersMenu").open = true;
+</script>
 
 In order to get a footing, we'll start with an example: a calculator that uses postfix operator notation, sometimes called "reverse polish notation."
 
@@ -28,7 +31,9 @@ Here are some examples, with `>` marking the user input prompt:
 
 {{< details "Our Reference Implementation" >}}
 
-{{% inccode file="content/Engineering/Programming/Compilers/calculator/calc_prelude.py" %}}
+{{% inccode language="python" file="content/Engineering/Programming/Compilers/calculator/calc_prelude.py" %}}
+
+<a href="/Engineering/Programming/Compilers/calculator/calc_prelude.py" download>DOWNLOAD</a> - Note, you'll need to put spaces between each token and press enter to run a line.
 
 {{</details>}}
 

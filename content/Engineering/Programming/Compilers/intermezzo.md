@@ -1,5 +1,9 @@
 ### Intermezzo
 
+<script>
+    document.getElementById("compilersMenu").open = true;
+</script>
+
 At this point, we have something that is ugly looking, but seems like a real compiler! After all, it does the four stages as promised:
 
 1. Lexing: the splitting of whitespace and division of tokens
