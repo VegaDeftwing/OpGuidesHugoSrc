@@ -670,6 +670,9 @@ While some of these may be included, they're some of the OG addons or tools to m
   * replacement for ctrl+r history seach
 * optipng, jpegoptim
   * Each works with it's respective image format and does some trial-and-error magic to re-compress the file no-lossy-er than it was to save space. No info loss but often a large file size reduction!
+* [pup](https://github.com/ericchiang/pup)
+  * "pup is a command line tool for processing HTML. It reads from stdin, prints to stdout, and allows the user to filter parts of the page using CSS selectors."
+
 
 ## Displaying Data in the terminal
 
