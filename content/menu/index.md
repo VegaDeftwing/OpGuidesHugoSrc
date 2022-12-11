@@ -154,7 +154,11 @@ headless: true
 
 <div class="progress-ww">
 <dl>
-<dt>37 </dt><dd> <a href="/engineering/networking/networking/">Networking</a></dd>
+     <dt>37 </dt><dd> <details id="netMenu"> <summary><a href="/engineering/networking/networking/">Networking</a></summary>
+    <dt class="sub">.1</dt><dd class="sub"> <a href="/engineering/networking/howyougothere"> How You Got Here</a></dd>
+	  <dt class="sub">.2</dt><dd class="sub"> <a href="/engineering/networking/osi"> OSI</a></dd>
+    <dt class="sub">.3</dt><dd class="sub"> <a href="/engineering/networking/tools"> Tools</a></dd>
+   </details> </dd>
 <dt>38 </dt><dd> <a href="/engineering/networking/servers/">Servers!</a></dd>
 <dt>38½</dt><dd> <a href="/engineering/networking/cloud/">"The Cloud"</a></dd>
 <dt>39 </dt><dd> <a href="/engineering/networking/databases/">Databases</a></dd>
