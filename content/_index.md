@@ -67,17 +67,7 @@ OpGuides won't ever be a single resource and should never be in print. The reaso
 
 On the note of links, those that I think are a cut above the rest will have a lil' {{< best >}}{{< /best >}}  symbol next to them to mark them as being particularly good resources.
 
-{{< columns >}}
-
-There's also just a point of being utterly pissed off at the quality of my eduaction (see <a href="/posts/whydidipay/">Why did I pay to go to college?</a>) and then seeing just how poor the quality of a formal education often is when compared to what is availble from YouTubers that have perfected making entertaining education that actually sticks with you. I think this segment, starting at 37:08, from this video touches on this well.
-
-<--->
-
-<iframe width="100%" height="240" src="https://www.youtube.com/embed/YCeKBf_3T6w?t=2228" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-{{< smalltext >}}Skip to 37:08{{< /smalltext >}}
-
-{{< /columns >}}
+There's also just a point of being utterly pissed off at the quality of my education (see <a href="/posts/whydidipay/">Why did I pay to go to college?</a>) and then seeing just how poor the quality of a formal education often is when compared to what is available from YouTubers that have perfected making entertaining education that actually sticks with you. It really grinds my gears to think about how much I paid to go to college when I got more from YouTube than I did from my expensive books and the lectures I attended.
 
 # Thank You!
 

@@ -10,15 +10,53 @@ Seriously though, don't think about this to much. It usually doesn't matter and 
 
 We've already talked about Routers, Switches, Hubs, Nodes, and Links - all of these are part of the physical layer. Let's look at some of the details though:
 
-### Ethernet
+### Ethernet is not on the physical layer
 
-Over Coax, fiber , twisted pair(+ CAT_ ratings), wet string
+First, let's get a point of confusion out of the way, *Ethernet* is not the connection standard. The rectangular-ish plug with 8 wires often carries Ethernet, but the plug you're thinking of is, just 4 pairs of wires with two RJ45 connectors usually connected via Cat rated cables.
 
-\+ Sneakernet, Infiniband, Multigig
+The wire itself often has a rating such as Cat5, Cat5e, Cat6, Cat7, etc. Generally, bigger number (or +e/A) means you can get it to go further or carry higher bandwidth signals (for example, 2.5, 5, or 10 gigabit Ethernet) before the noise in the wires kills everything. See [cablek.com's handy, based on their HTML probably stolen, tables](http://www.cablek.com/technical-reference/cat-5---5e--6--6a---7--8-standards#:~:text=Category%205%20(CAT5)%20cable%20is,at%2010%20or%20100%20Mbps.).
+
+But, again, not all Ethernet signals are carried over those wires. Historically, it was often carried over Coax (same wires as you'd use for connecting a TV antenna), and in modern times you're likely to see [SFP](https://en.wikipedia.org/wiki/Small_Form-factor_Pluggable) cables used for the really high throughput stuff (100GbE+, for example.). Those may use copper, or they may be direct fiber connections - because - again - Ethernet is a layer up. We're still at the physical layer.
+
+All of that said, please still call it an Ethernet cable. 
+
+{{< details "What about PoE?" >}}
+
+Power over Ethernet, or PoE, allows network cables to carry electrical power. This means that network devices such as routers and switches can be powered through or provide power via the same cables that are used for data transmission. This can be convenient because it eliminates the need for separate power cables, which can be difficult to install. PoE is commonly used in applications where it is not practical or possible to provide power to network devices through a traditional wall outlet, such as for security cameras. The technology is also often used to power IP cameras and other networked devices that require a power source.
+
+The standard is a bit of a fustercluck. There's a decent char on the [Wikipedia page](https://en.wikipedia.org/wiki/Power_over_Ethernet) detailing the voltages, currents, cable requirements, max power, etc.
+
+{{</ details >}}
 
 ### Wi-Fi
 
-Wi-Fi is a part of the IEEE 802.11 standard and *normally* uses 2.4GHz and 5GHz. However, there are varients that use 60Ghz (WiGig, CMMW) and sub 1Ghz (Wi-Fi HaLow, White-Fi).
+Wi-Fi is a part of the IEEE 802.11 standard and *normally* uses 2.4GHz and 5GHz. Very recent developments are pushing it into 6Ghz for most uses.  There are some less common variants of WiFi that use 60Ghz (WiGig, CMMW) and sub 1Ghz (Wi-Fi HaLow, White-Fi).
+
+WiFi, like ethernet, is really a mix of being at the Physical Layer and the Data Link layer. On the physical layer, the main thing we should think about is the frequency it's running at. So, we normally call WiFi either 2.4Ghz or 5Ghz. So, it must run at those frequencies, right?
+
+Sorta. There's two gotcha's. First, no, it's actually 2.401-2.495GHz and 5.030-5.990GHz, but more importantly, you won't be using those full ranges anyway. For 2.4, that range is split up into 14 [different channels (Wikipedia)](https://en.wikipedia.org/wiki/List_of_WLAN_channels), not all of which can be used everywhere. Generally, on 2.4, you'll want to be using 1, 6, or 11 as otherwise the channels will overlapp.
+
+<img style="-webkit-filter: invert(1);
+   filter: invert(1);" alt="2.4 GHz Wi-Fi channels (802.11b,g WLAN)" src="https://upload.wikimedia.org/wikipedia/commons/8/8c/2.4_GHz_Wi-Fi_channels_(802.11b,g_WLAN).svg">
+
+{{< attribution >}}Image from Wikimedia, [CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/deed.en) by Michael Gauthier & KelleyCook{{< /attribution >}}
+
+On 5Ghz, the channel situation is dramatically more complicated. There's a who fuckload of channels (which you'd've seen on the Wikipedia channel page) but only a subset are used. Let's go grab a picture.
+
+<img src="/eng/5GHz-Unlicensed-Spectrum.png" style="-webkit-filter: invert(1);
+   filter: invert(1);">
+
+{{< attribution >}}Image stolen from https://wlanprofessionals.com/updated-unlicensed-spectrum-charts/ with love ❤️, Seriously, I can't even imagine how much of a pain in the ass this was to make.{{< /attribution >}}
+
+If you look at the smallest channel blocks available, you'll see they start at 36 and go up by 4. Each of those channels is 20MHz wide. Then, below 36 and 40 there's channel 38. That's a combined channel. Basically, it glues the two together to allow for more bandwidth (hence the name, it's a wider band) thus more data throughput, at the cost of slightly worse range and more likely to be bothered by interference. Then there's the 80Mhz band which is two of the 40Mhz bands glued together, and finally the big-boy 160Mhz which glues 8(**!!!**) regular channels together, yielding amazing throughput.
+
+Of course, each band has it's own power and licensing concerns, which are shown in that image as well.
+
+Actually, the same is true of 2.4GHz - I already mentioned that you can use all the channels in every country, but you also are limited in power depending on region too. Yay! Regulations! 
+
+As if this wasn't already complicated enough, the WiFi standard itself is evolving, supporting more physical layer features as well. Notably, these include [MU-MIMO](https://en.wikipedia.org/wiki/Multi-user_MIMO) and [OFDMA](https://en.wikipedia.org/wiki/Orthogonal_frequency-division_multiple_access) which are both black magic essentially boil down to making WiFi capable of handling more clients on a network with better speeds. Fun stuff.
+
+Oh, and Wi-Fi 6E is slowly rolling out, which adds yet another frequency band for us to get confused by. Still, it's more speed for our devices, so it's a win.
 
 <div class="wifi">
 
@@ -27,7 +65,7 @@ Wi-Fi is a part of the IEEE 802.11 standard and *normally* uses 2.4GHz and 5GHz.
 | Wi-Fi 6E (802.11ax)                                          | 2020 | 2.401-2.495+5.030-5.990+"6Ghz"(5.925-7.125Ghz) | 9608 Mbit/s | The "E" is to denote this extra spectrum                     |
 | [Wi-Fi 6](https://en.wikipedia.org/wiki/Wi-Fi_6) (802.11ax)  | 2019 | 2.401-2.495+5.030-5.990GHz                     | 9608 Mbit/s | dramatic under-the-hood changes: notably [OFDMA](https://en.wikipedia.org/wiki/Orthogonal_frequency-division_multiple_access), more spatial streams, and **uplink** MU-MIMO |
 | Wi-Fi 5 ([802.11ac](https://en.wikipedia.org/wiki/IEEE_802.11ac-2013)) | 2014 | 5.030-5.990GHz                                 | 6933 Mbit/s | Allows for wider channels, [MU-MIMO](https://en.wikipedia.org/wiki/MU-MIMO), Beamforming |
-| Wi-Fi 4* ([802.11n](https://en.wikipedia.org/wiki/IEEE_802.11n-2009)) | 2008 | 2.401-2.495+5.030-5.990GHz                     | 600 Mbit/s  | Adds basic [MIMO](https://en.wikipedia.org/wiki/Multiple-input_multiple-output), [Spatial Division Multiplexing added](https://en.wikipedia.org/wiki/Spatial_Division_Multiplexing), [frame aggregation](https://en.wikipedia.org/wiki/Frame_aggregation), and possibility for 40Mhz channels |
+| Wi-Fi 4* ([802.11n](https://en.wikipedia.org/wiki/IEEE_802.11n-2009)) | 2008 | 2.401-2.495+5.030-5.990GHz                     | 600 Mbit/s  | Adds basic [MIMO](https://en.wikipedia.org/wiki/Multiple-input_multiple-output), [Spatial Division Multiplexing](https://en.wikipedia.org/wiki/Spatial_Division_Multiplexing), [frame aggregation](https://en.wikipedia.org/wiki/Frame_aggregation), and possibility for 40Mhz channels |
 | Wi-Fi 3*  ([802.11g](https://en.wikipedia.org/wiki/IEEE_802.11g-2003)) | 2003 | 2.401-2.495GHz                                 | 54 Mbit/s   | Basically a speed bump from Wi-Fi 2. Runs slower if there are any Wifi 1 devices on the network. |
 | Wi-Fi 2* ([802.11a](https://en.wikipedia.org/wiki/IEEE_802.11a-1999)) | 1999 | 5.030-5.990GHz                                 | 54 Mbit/s   | Basically just defines the addition of the 5GHz band         |
 | Wi-Fi 1*  ([802.11b](https://en.wikipedia.org/wiki/IEEE_802.11b-1999)) | 1999 | 2.401-2.495GHz                                 | 11 Mbit/s   | Yes, b is worse than a, but was short lived- you'll mostly see b/g/n support on low end devices. |
@@ -37,11 +75,7 @@ Wi-Fi is a part of the IEEE 802.11 standard and *normally* uses 2.4GHz and 5GHz.
 
 {{< smalltext >}}\* Wi-Fi 0-4 are unoffical names{{< /smalltext >}}
 
-[TODO WIFI channels]
-
-Frequencies/Channels may be limited by region: see [List of WLAN Channels](https://en.wikipedia.org/wiki/List_of_WLAN_channels)
-
-It is generally good practice to not be on the same channel as your neighbor.
+If all of this feels really abstract, go grab the [WiFi Analyzer](https://play.google.com/store/apps/details?id=com.farproc.wifi.analyzer&hl=en_US&gl=US) app and checkout all the signals around you. You can see see what's operating on what channel and maybe move to another one so that you and your neighbor's signals aren't trying to scream over each other.
 
 {{< details "More about those weird standards:">}}
 
@@ -68,7 +102,9 @@ This is not all of the 802.11 standards. There's a bunch of extensions/applicati
 
 #### SSIDs - Service Set Identifier
 
-[TODO]
+A WiFi SSID is the name of a wireless network. It is essentially a unique identifier that allows devices to connect to the network. When you set up a wireless network, you will typically be asked to choose a name for the network, which will become the WiFi SSID. This name is then broadcast by the router so that nearby devices can detect and connect to the network. The name can only be up to 32 bytes long. You may be able to set it to use Unicode, but you proably shouldn't as it can really fuck shit up.
+
+It is possible to have a hidden network with no SSID.
 
 #### Multiple Acccess Points, Repeaters, 
 
@@ -97,6 +133,8 @@ where L = bits per packet, R = tx rate of link
 ### Hubs, Repeaters, Taps
 
 ### Carrier Pidgeon, Can, etc.
+
+\+ Sneakernet, Infiniband, Multigig
 
 ### Modems?
 
@@ -176,6 +214,8 @@ https://www.aelius.com/njh/subnet_sheet.html
 
 {{< /columns >}}
 
+https://en.wikipedia.org/wiki/Subnetwork
+
 ### Static and Dynamic Routes
 
 ### BGP - Boarder Gateway Protocol
@@ -254,11 +294,13 @@ https://github.com/appneta/tcpreplay
 
 ## 6 - Presentation Layer
 
-### TLS - Transport Layer Security
+### SSL - Secure Sockets Layer (Deprecated) & TLS - Transport Layer Security
 
-### SSL - Secure Sockets Layer (Deprecated)
+SSL and TLS are cryptographic protocols that are used to secure communications over the internet. SSL, which stands for Secure Sockets Layer, was the first widely-used security protocol, but it has since been replaced by TLS, or Transport Layer Security. Both SSL and TLS encrypt data that is transmitted over the internet. They are commonly used to secure web traffic. In order to use SSL or TLS, a web server must have an SSL/TLS certificate, which is used to authenticate the server and establish a secure connection.
 
 ### IMAP - Internet Message Access Protocol
+
+IMAP is a protocol used for accessing email messages on a remote server. It allows users to retrieve email messages from a server and manipulate them as if they were stored locally, without actually having to download the messages to the user's computer. IMAP is usually used in conjunction with a mail client, like Outlook or Thunderbird.
 
 ## 7 - Application Layer
 
@@ -300,6 +342,8 @@ still TCP, out-of-band, maintains state, passive v active mode
 
 **TTL?**
 
+DNS TTL, or Time to Live, is a value in DNS records that determines how long a DNS resolver is supposed to cache the DNS record before it expires and a new query is made to the DNS server to refresh the record. This value is set by the owner of the domain and is specified in seconds. A low DNS TTL value means that the DNS resolver will refresh the record more frequently, while a high DNS TTL value means that the record will be cached for a longer period of time before it is refreshed. This can be useful for managing the load on DNS servers and ensuring that users always have access to the most up-to-date information about a domain.
+
 [Stop Using Rediculously Low DNS TTLs (Frank Denis)](https://00f.net/2019/11/03/stop-using-low-dns-ttls/)
 
 **record types**
@@ -318,6 +362,8 @@ Some texts will put this in Data or Network layer or Link Layer, it's a bit ambi
 
 ### SSH - Secure Shell
 
+SSH is mostly used to remotely access and manage servers, as it provides a secure way to connect to the server and work via a command line. It is also often used to securely tunnel other network protocols, such as FTP, Telnet, and VNC, over an unsecured network.
+
 ### IRC - Internet Relay Chat
 
 ### EMail (SMTP, IMAP, POP)
@@ -327,6 +373,10 @@ mail servers and useragents
 ### UPNP - Universal Plug and Play
 
 ### NTP - Network Time Protocol
+
+NTP is a protocol used to synchronize the clocks of computers over a network. It allows devices on a network to maintain accurate time by periodically synchronizing their clocks with a reference time source - there's plenty of free NTP servers, [such as those run by NIST](https://tf.nist.gov/tf-cgi/servers.cgi). 
+
+Having correct time is important because many network protocols and applications require accurate time in order to function properly. For example, the correct time is needed for generating log files and for ensuring that cryptographic signatures are valid.
 
 ### Telnet
 

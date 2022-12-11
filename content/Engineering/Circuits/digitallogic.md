@@ -220,6 +220,8 @@ There's a ton of simulators out there for making simple circuits educationally, 
 
 ## Half Adder
 
+
+
 ## Full Adder
 
 
@@ -228,7 +230,23 @@ There's a ton of simulators out there for making simple circuits educationally, 
 
 ### Schmitt Triggers
 
+{{< columns >}}
 
+I like to think of a schmitt trigger as the logical equivalent of a heavy light switch. Once it's on, it takes a fair amount of force to turn off, and once it's off, it takes a fair amount of force to turn on, but in our case that force is a voltage.
+
+ This means we can say "Until you see 1V at the input, don't turn on" and "Until you see -1V at the input don't turn off". If after being turned on, it went to .5, or even -.5V, it would stay on. If it was off and we gave it input of .5V, it would stay off. We have to cross the threshold either way to change state.
+
+Of course, we can make schmitt triggers with different thresholds and output levels.
+
+<--->
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Hysteresis_sharp_curve.svg" style="-webkit-filter: invert(1);filter: invert(1);">
+
+{{< smalltext >}}The horizontal and vertical axes are input voltage and output voltage, respectively. *T* and −*T* are the switching thresholds, and *M* and −*M* are the output voltage levels.{{< /smalltext >}}
+
+{{< attribution >}}Image by Alessio Damato - CC BY-SA 3.0. [From Wikipedia](https://commons.wikimedia.org/w/index.php?curid=528681).{{< /attribution >}}
+
+{{< /columns >}}
 
 ### ADCs
 
