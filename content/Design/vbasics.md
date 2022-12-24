@@ -103,7 +103,7 @@ Also, don't mistake artsy for fun. You could have something be "artsy" but horro
 
 Making art should be something you enjoy. Yes, you may be doing it as a job, which will take some fun out of it, but your best work will always be the work you enjoyed making and felt passionate about. Good art doesn't have to take days or weeks, it just has to make someone feel the way you want them to! Making people smile doesn't take incredible talent, just a good idea:
 
-![image-20221224101356217](\fairuse\twitter\image-20221224101356217.png)
+![nilan](/fairuse/twitter/nilan.webp)
 
 {{< attribution >}} [Nilan_1999 on Twitter](https://twitter.com/Nilan_1999/status/1535853248036634625){{< /attribution >}}
 
