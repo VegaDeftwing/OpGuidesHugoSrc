@@ -10,8 +10,8 @@ So, we have the basics that any art program will focus on - **Lines, Shape, Form
 * **Math** - How much does the object repeat, branch out, spiral, and form math-y shapes.
   * **Similarity/Symmetry** - How similar are different regions of the subject? Is it like leave on a tree, or dirty stains on a pair of jeans?
   * **Patterns** - Frequency? Is there an obvious cut point, like a pattern meeting a seam?
-  * **Fractals** -
-    * **Self similar** -
+  * **Fractals** - you know what these are.
+    * **Self similar** - What you probably think of when you think fractals - the kind that keep repeating forever.
     * **Natural** - Branches of a tree
 * **Detail** - How much detail do you want to capture? Where do you sit on the spectrum of photo-realistic to iconography?
 * **Artsy-ness** - Is the subject supposed to be highly detailed and pretty, or purely functional and minimalistic? Passive or attention grabbing?
@@ -103,5 +103,7 @@ Also, don't mistake artsy for fun. You could have something be "artsy" but horro
 
 Making art should be something you enjoy. Yes, you may be doing it as a job, which will take some fun out of it, but your best work will always be the work you enjoyed making and felt passionate about. Good art doesn't have to take days or weeks, it just has to make someone feel the way you want them to! Making people smile doesn't take incredible talent, just a good idea:
 
-<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">How to draw a duck <a href="https://t.co/IcC15Zwf8U">pic.twitter.com/IcC15Zwf8U</a></p>&mdash; why you should have a duck 🦆 (@shouldhaveaduck) <a href="https://twitter.com/shouldhaveaduck/status/1538134099138707458?ref_src=twsrc%5Etfw">June 18, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+![image-20221224101356217](\fairuse\twitter\image-20221224101356217.png)
+
+{{< attribution >}} [Nilan_1999 on Twitter](https://twitter.com/Nilan_1999/status/1535853248036634625){{< /attribution >}}
 

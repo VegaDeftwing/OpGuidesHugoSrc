@@ -23,38 +23,8 @@ Okay, so, let's look at building a computer. I'm going to try to put together a 
 
 {{< tip >}}
 
-<div class="progress-ww">
-<dl>
-<!--<dt>10 </dt><dd> <a href="/engineering/programming/codeintro/">Let's Write Some Code</a>-->
-</dd>
-    <dt>10 </dt><dd> <details id="codeMenu"> <summary><a href="/engineering/programming/intro/progintro0">Let's Write Some Code</a></summary>
-    <dt class="sub">10.1</dt><dd class="sub"> <a href="/engineering/programming/intro/progintro1"> It's Math?</a></dd>
-	  <dt class="sub">10.2</dt><dd class="sub"> <a href="/engineering/programming/intro/progintro2"> Turtles!</a></dd>
-    <dt class="sub">10.3</dt><dd class="sub"> <a href="/engineering/programming/intro/progintro3"> Getting Tools</a></dd>
-    <dt class="sub">10.4</dt><dd class="sub"> <a href="/engineering/programming/intro/progintro4"> 2 for 1</a></dd>
-    <dt class="sub">10.5</dt><dd class="sub"> <a href="/engineering/programming/intro/progintro5"> Types</a></dd>
-    <dt class="sub">10.6</dt><dd class="sub"> <a href="/engineering/programming/intro/progintro6"> logic & Functions</a></dd>
-    <dt class="sub">10.7</dt><dd class="sub"> <a href="/engineering/programming/intro/progintro7"> Data Structures</a></dd>
-    <dt class="sub">3.8</dt><dd class="sub"> <a href="/engineering/programming/intro/progintro8"> Libraries</a></dd>
-    <dt class="sub">3.9</dt><dd class="sub"> <a href="/engineering/programming/intro/progintro9"> Getting Real</a></dd>
-   </details> </dd>
-<dt>10½</dt><dd> <a href="/engineering/programming/consequences/">Consequences</a></dd>
-<dt>11 </dt><dd> <a href="/engineering/programming/lowlvl/">Low Level Programming</a></dd>
-<dt>11½</dt><dd> <a href="/engineering/programming/fosscopyright/">FOSS & Copyright</a></dd>
-<dt>12 </dt><dd> <a href="/engineering/programming/codecont/">Yet More Programming</a></dd>
-<dt>12½</dt><dd> <a href="/engineering/programming/fixxingissuses/">Fixing Issues</a></dd>
-<dt>13 </dt><dd> <a href="/engineering/programming/languages/">Programming Languages</a></dd>
-<dt>14 </dt><dd> <a href="/engineering/programming/algorithms/">Algorithms and More</a></dd>
-<dt>15 </dt><dd> <a href="/engineering/programming/bigprog/">Writing a Big Program</a></dd>
-<dt>16 </dt><dd> <a href="/engineering/programming/debugbuildtest/">Debugging, CI & CD</a></dd>
-<dt>17 </dt><dd> <a href="/engineering/programming/multithread/">We've Got Cores!</a></dd>
-<dt>18 </dt><dd> <a href="/engineering/programming/guiprog/">Graphical Programming</a></dd>
-<dt>19 </dt><dd> <a href="/engineering/programming/shaders/">Shaders + GpGPU</a></dd>
-<dt>20 </dt><dd> <a href="/engineering/programming/game/">Game Programming</a></dd>
-<dt>21 </dt><dd> <a href="/engineering/programming/funcprog/">(((())(()((()(()))))))</a>
-</dd>
-</dil>
-</div>
+Even if you're reading this soon after this page has gone live (July of 2021), I'm not actually reccomending this system. This is being done as an example only. I'm not affilitated with any of the brands or products I'm listing here.
+
 
 I'm also writing this during the fucking nightmare of a GPU market caused by cryptocurrency, plus the added mess of Chia, a cryptocurrency that eats hard drives, plus a global silicon shortage. You should be able to get something better than this for this amount of money.
 

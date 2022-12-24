@@ -31,7 +31,7 @@ These are your fundamental building blocks of art, and you should get to know th
 
 [This is a black and white image. Only the lines are colored. (Reddit)](https://www.reddit.com/r/blackmagicfuckery/comments/cj4gyl/this_is_a_black_and_white_image_only_the_lines/)
 
-<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Has the world become less colourful?<br><br>(This graph shows the colour of objects over time) <a href="https://t.co/IIbv7uRnbN">pic.twitter.com/IIbv7uRnbN</a></p>&mdash; The Cultural Tutor (@culturaltutor) <a href="https://twitter.com/culturaltutor/status/1551976051860963333?ref_src=twsrc%5Etfw">July 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+https://lab.sciencemuseum.org.uk/colour-shape-using-computer-vision-to-explore-the-science-museum-c4b4f1cbd72c
 
 ## Value & Lighting
 
@@ -58,7 +58,7 @@ https://twitter.com/miyuliart/status/1337423295814176768 (NSFWish I guess?)
 
 Things like digi shoes, tail holes in clothing, tail bags, etc. really help make characters feel like they're part of an actual world.
 
-[Cat Girl Headphones (Twitter, @foone)](https://twitter.com/Foone/status/1338310670488535040)
+[Cat Girl Headphones (Twitter, @foone)](https://twitter.com/Foone/status/1338310670488535040) ([Archive.org](https://web.archive.org/web/20220824174248/https://twitter.com/Foone/status/1338310670488535040))
 
 ## Art Guides
 
