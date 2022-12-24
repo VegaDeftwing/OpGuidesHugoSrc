@@ -240,7 +240,11 @@ When talking about Linear FM, I mentioned that simple ratios are best. This isn'
 
 Becasue FM synthesis is a pretty complicated topic to wrap your head around, I recommend giving these three videos a watch:
 
+<!-- "FM Synthesis Explained & Tutorial [FM8 // Reaktor // Bass Design]" by Venus Theory - Video has been privated.
+
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/L1QZuEuMD_E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+--> 
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/P4EYqMEH6Dc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
