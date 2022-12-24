@@ -178,6 +178,7 @@
     background: #222222;
     position: relative;
   }
+
   a.gradient-border:after {
     content: '';
     position: absolute;
@@ -191,6 +192,7 @@
     animation: animatedgradient 5s ease alternate infinite;
     background-size: 300% 300%;
   }
+
   a.gradient-border::before {
     content: 'Blog Posts';
     top: calc(-1 * var(--borderWidth));
@@ -316,6 +318,7 @@ div.quote em {
 
 div.speech, tr:nth-child(2n) {
 	background-color: #181818;
+  z-index: -2;
 }
 
 div.speech {
@@ -327,6 +330,7 @@ div.speech {
   position: relative;
   width: 70%;
   border-radius: 5%;
+  z-index: -2;
 }
 
 div.speech.right {
