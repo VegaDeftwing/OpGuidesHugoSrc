@@ -40,7 +40,7 @@ It occurs to me that enough people today are growing up on a smart phone that it
 | <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">F11</span> | Make the program full screen                              |
 | <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">F5</span> | Refresh the page                                          |
 | <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">alt</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">F4</span> | Close application (In Windows, may not work in Linux/Mac) |
-| F12                                                          | Open up developer tools (Usually in a web browser)        |
+| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">F12</span> | Open up developer tools (Usually in a web browser)        |
 
 Keep in mind, the specific program you're using will almost certainly have many more than this, and may actually override some of these. As we go through this page I'll be showing you some of VSCode's shortcuts, but there's a full cheat-sheet that depends on your os - here a link to each:
 
