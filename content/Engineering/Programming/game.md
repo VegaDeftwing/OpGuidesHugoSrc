@@ -92,6 +92,8 @@ https://yal.cc/preparing-your-game-for-deterministic-netcode/
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Did you like it?<br><br>Another creature made using only Procedural Animation<br>with a focus on 3D Navigation. We call it the Tetrad.<br><br>Big Stuff Coming Soon👀👀<br><br>🧬Follow us here for more🧬: <a href="https://twitter.com/SynthSelection?ref_src=twsrc%5Etfw">@SynthSelection</a><a href="https://twitter.com/hashtag/madewithunity?src=hash&amp;ref_src=twsrc%5Etfw">#madewithunity</a> <a href="https://twitter.com/hashtag/unity?src=hash&amp;ref_src=twsrc%5Etfw">#unity</a> <a href="https://twitter.com/hashtag/indiegamedev?src=hash&amp;ref_src=twsrc%5Etfw">#indiegamedev</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://twitter.com/hashtag/indiedev?src=hash&amp;ref_src=twsrc%5Etfw">#indiedev</a> <a href="https://twitter.com/hashtag/SyntheticSelection?src=hash&amp;ref_src=twsrc%5Etfw">#SyntheticSelection</a> <a href="https://t.co/FatzMuyyc6">pic.twitter.com/FatzMuyyc6</a></p>&mdash; Makan Gilani (@Makan_Gilani) <a href="https://twitter.com/Makan_Gilani/status/1321495500575641602?ref_src=twsrc%5Etfw">October 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+{{< smalltext >}}[Archive.org link to embedded Tweet](https://web.archive.org/web/20220417131327/https://twitter.com/Makan_Gilani/status/1321495500575641602){{< /smalltext >}}
+
 ### RougeLikes
 
 [What "Rougelike" Meant](https://zenorogue.medium.com/what-roguelike-meant-fb8b0e1601a)
@@ -102,9 +104,15 @@ https://yal.cc/preparing-your-game-for-deterministic-netcode/
 
 [Cogmind](https://www.gridsagegames.com/cogmind/) - ASCII art game with a similarly extreme amount of environment destructibility
 
-A very long thread on ... stairs? Yeah. Look up advice on DND level design if you need general level design or architecture design n advice. The same twitter (Tommy Norberg, @the_Norberg) has **many** other good posts
+{{< columns >}}
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/leveldesign?src=hash&amp;ref_src=twsrc%5Etfw">#leveldesign</a> tip of the day! STAIRS 🪜<br>A Long Thread about stairs! Wohoooooo!<br><br>1/12 <a href="https://t.co/Z3TcWwOSaH">pic.twitter.com/Z3TcWwOSaH</a></p>&mdash; Tommy Norberg (@the_Norberg) <a href="https://twitter.com/the_Norberg/status/1359516288087973888?ref_src=twsrc%5Etfw">February 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<--->
+
+A very long thread on ... stairs? Yeah. Look up advice on DND level design if you need general level design or architecture design n advice. The same twitter ([Tommy Norberg, @the_Norberg](https://twitter.com/the_Norberg/status/1359516288087973888)) has **many** other good posts
+
+<img src="/fairuse/twitter/tommyNorberg.webp" alt=" " style="border-radius:25px;">
+
+{{< /columns >}}
 
 ## Game engines for non-games
 

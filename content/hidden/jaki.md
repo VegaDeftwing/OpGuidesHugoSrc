@@ -29,23 +29,23 @@ bookToC = false
 
         random_val = Math.random() * 136;
         random_char_code = parseInt(0xF1900 + random_val);
-
+    
         if((random_char_code === 0xF1909) || (random_char_code === 0xF1927) || (random_char_code === 0xF1921)){
             random_val = Math.random() * 136;
             random_char_code = parseInt(0xF1900 + random_val);
         }
-
+    
         while(random_char_code === previous_chr_code){
             random_val = Math.random() * 136;
             random_char_code = parseInt(0xF1900 + random_val);
         }
-
+    
         next_chr = fixedFromCharCode(random_char_code);
-
+    
         previous_chr_code = random_char_code;
-
+    
         // text += next_chr;
-
+    
         if(which_structure > .75){
             // la li
             if((i+7)%10 === 0){
@@ -91,9 +91,9 @@ bookToC = false
                 text += next_chr;
             }
         }
-
+    
         // text += next_chr;
-
+    
         if(i%10 === 0){
             text+=" ";
             which_structure = Math.random();

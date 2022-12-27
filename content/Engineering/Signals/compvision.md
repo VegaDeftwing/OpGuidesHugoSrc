@@ -23,3 +23,4 @@ Most CV tasks are borderline impossible if your input is acquired under uncontro
 
 <blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">hewwo ? 🤗💕✨ <a href="https://t.co/V1kYURHyWL">pic.twitter.com/V1kYURHyWL</a></p>&mdash; 🍬 𝖇𝖊𝖊𝖙𝖑𝖊 🍭 VRC BASE LAUNCHES 11/14 (@BeetleYeen) <a href="https://twitter.com/BeetleYeen/status/1459321174744354820?ref_src=twsrc%5Etfw">November 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+{{< attribution >}} [Archive.org backup of the above Tweet](https://web.archive.org/web/20220422231429/https://twitter.com/BeetleYeen/status/1459321174744354820){{< /attribution >}}

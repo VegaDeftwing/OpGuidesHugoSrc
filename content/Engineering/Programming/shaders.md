@@ -219,6 +219,8 @@ Also, you should know the patent on Simplex noise recent expired, so go nuts if 
 
 <blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Down to 190 characters! <a href="https://twitter.com/hashtag/%E3%81%A4%E3%81%B6%E3%82%84%E3%81%8DGLSL?src=hash&amp;ref_src=twsrc%5Etfw">#つぶやきGLSL</a><br><br>vec3 p=vec3(t/.1,cos(t+r)),d=r.x/(r.xxy-round(FC.zxy)*2.),a;for(;o.w++&lt;9e2&amp;&amp;snoise3D(a=ceil(p)/28.)+1.&gt;length(a.yz);p+=min(a=fract(-p*sign(d))*abs(d)+1e-4,min(a.y,a.z)).x/d);o.rgb=fwidth(p); <a href="https://t.co/odgQhI5Smw">pic.twitter.com/odgQhI5Smw</a></p>&mdash; Xor (@XorDev) <a href="https://twitter.com/XorDev/status/1505308218863632384?ref_src=twsrc%5Etfw">March 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+{{< attribution >}} [Archive.org backup of tweet](https://web.archive.org/web/20220319223106/https://twitter.com/XorDev/status/1505310197300051976) + see the <a href="https://twigl.app/?ol=true&mode=7&source=vec3%20p%3Dvec3(t/.1,cos(t%2Br)),d%3Dr.x/(r.xxy-round(FC.zxy)*2.),a%3Bfor(%3Bo.w%2B%2B%3C9e2%26%26snoise3D(a%3Dceil(p)/28.)%2B1.%3Elength(a.yz)%3Bp%2B%3Dmin(a%3Dfract(-p*sign(d))*abs(d)%2B1e-4,min(a.y,a.z)).x/d)%3Bo.rgb%3Dfwidth(p)%3B">Live version</a>{{< /attribution >}}
+
 {{< /tab >}}
 
 {{< tab "13 - Brownian" >}}
@@ -395,7 +397,8 @@ The [Unity Manual Page](https://docs.unity3d.com/2020.1/Documentation/Manual/SL-
 
 <--->
 
-<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">What started a year and a half ago as just some Vulkan <a href="https://twitter.com/hashtag/voxel?src=hash&amp;ref_src=twsrc%5Etfw">#voxel</a> ray tracing experiment has evolved into something far beyond my wildest of dreams. The sky&#39;s the limit from here, and I intend to take it beyond, so stay tuned. <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://t.co/nNwqrY7tdZ">pic.twitter.com/nNwqrY7tdZ</a></p>&mdash; John &quot;Lin&quot; (@ProgrammerLin) <a href="https://twitter.com/ProgrammerLin/status/1392808532538396678?ref_src=twsrc%5Etfw">May 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<iframe width="100%" height="250" src="https://www.youtube.com/embed/8ptH79R53c0" title="New Voxel Engine Reveal - Crystal Islands Experiment" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< attribution >}} Voxel Engine by [John "Lin"](https://twitter.com/ProgrammerLin){{< /attribution >}}
 
 {{< /columns >}}
 

@@ -216,7 +216,7 @@ TLDR: RTFM & STFW http://www.catb.org/esr/faqs/smart-questions.html#rtfm
 
 In general, I've found site specific forms and Reddit to be the best platforms for most things, with some others finding their main following in other places though. For example, I'm in a large technical chat group with Furries on Telegram and some open source tools still thrive on IRC. Also, if your reaction to that is "Furries? How can that be relevant?" Well, normally it's not. Most of what we talk about is just normal engineering-y topics, but having something else in common helps. That said, there's more cross over in any community than you might think:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Custom protogen commission auction Now up ! <br><br>watch the video for more details<a href="https://t.co/TAeAPNtVEB">https://t.co/TAeAPNtVEB</a><br><br>auction link:<a href="https://t.co/Q7ZxERjZW5">https://t.co/Q7ZxERjZW5</a> <a href="https://t.co/aq5iM2nOVE">pic.twitter.com/aq5iM2nOVE</a></p>&mdash; Expensive black cheese (@JtingF) <a href="https://twitter.com/JtingF/status/1215796334420094977?ref_src=twsrc%5Etfw">January 11, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/VWSfo0KpTMI" title="Protogen mouth sync test" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 No matter what you care about, know there's a wide range of communities that would be thrilled to have you, and you can always combine what you learn here with any of the other interests you have to make the things you're passionate about better!
 
@@ -224,7 +224,8 @@ No matter what you care about, know there's a wide range of communities that wou
 
 The maker and hacker communities tend to focus a lot on popularity and getting your name out there. While obviously it's cool to do so, don't let likes and followers be your motivation. Make cool things to make cool things, and people will come. The number one best thing to see on the internet is someone that is passionate about something sharing those passions. It's better to have a dozen good friends that share those passions, than 25k followers that just go 'oh, neat' anyway.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Popularity doesn&#39;t matter (1/2) <a href="https://t.co/ae1VV2uocc">pic.twitter.com/ae1VV2uocc</a></p>&mdash; 🝧 Wolfy Vero 🝧 (@Wonivero) <a href="https://twitter.com/Wonivero/status/1317493393631571968?ref_src=twsrc%5Etfw">October 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<img src="/nonfree/permissiongranted/twitter/woni/woniComic.webp" alt="Art by Wonivero" style="border-radius:50px;">
+{{< attribution >}} Art by [@Wonivero](https://linktr.ee/wonivero) {{< attribution >}}
 
 ## Further reading 
 

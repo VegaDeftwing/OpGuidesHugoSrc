@@ -2,7 +2,7 @@
 
 {{< tip >}}
 
-This is still a dumping ground for things I want to write about later, nothing of substance is here yet, sorry about that ╮(─▽─)╭
+This is still a dumping ground for things I want to write about later, nothing of substance is here yet, sorry about that
 
 {{< /tip >}}
 
@@ -33,7 +33,15 @@ This is still a dumping ground for things I want to write about later, nothing o
 
 ## 2 - Electromagnetism
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">in case you were wondering: yes, it works :D <a href="https://t.co/CEjK6p2cHj">pic.twitter.com/CEjK6p2cHj</a></p>&mdash; mx.qualia (@profanegeometry) <a href="https://twitter.com/profanegeometry/status/1222353743359836160?ref_src=twsrc%5Etfw">January 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< columns >}}
+
+<--->
+
+<img src="/fairuse/twitter/qualia.webp" alt="An image of an nano-second scale delay line which is actually just lengths of wire" style="border-radius:25px;">
+
+{{< attribution >}} [@qualia](https://twitter.com/profanegeometry/status/1591152342862528513) {{< /attribution >}}
+
+{{< /columns >}}
 
 [The Electromagnetic Radiation Spectrum (Anthony Tekatch @ Unihedron.com)](http://unihedron.com/projects/spectrum/downloads/spectrum.jpg)
 

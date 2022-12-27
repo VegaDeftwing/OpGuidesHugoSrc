@@ -125,9 +125,11 @@ https://hackaday.com/2019/05/20/integrated-circuits-can-be-easy-to-understand-wi
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Distortion pedal with all homemade semiconductors, only one external component (cap for AC coupling) <a href="https://t.co/M7t3Gl1m5P">pic.twitter.com/M7t3Gl1m5P</a></p>&mdash; Sam Zeloof (@szeloof) <a href="https://twitter.com/szeloof/status/1280249239495479297?ref_src=twsrc%5Etfw">July 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+{{< smalltext >}} [Archive.org backup of the above embedded tweet](https://web.archive.org/web/20220125124343/https://twitter.com/szeloof/status/1280249239495479297){{< /smalltext >}}
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Finally I learned how to do focus stacking with my macro (non-microscope) shots. 226 shots, 50µm camera shift per frame. Laowa 25mm F2.8@F4 on WeMacro rail. Stitched in Helicon Focus (pyramid, smoothing=1). 1 original photo for comparison. <a href="https://twitter.com/hashtag/WeMacro?src=hash&amp;ref_src=twsrc%5Etfw">#WeMacro</a> <a href="https://twitter.com/laowa_lens?ref_src=twsrc%5Etfw">@laowa_lens</a> <a href="https://twitter.com/hashtag/heliconfocus?src=hash&amp;ref_src=twsrc%5Etfw">#heliconfocus</a> <a href="https://t.co/yCdCIBXMRv">pic.twitter.com/yCdCIBXMRv</a></p>&mdash; Zeptobars (@Zeptobars) <a href="https://twitter.com/Zeptobars/status/1105594474036686852?ref_src=twsrc%5Etfw">March 12, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
+{{< smalltext >}} [Archive.org backup of the above embedded Tweet](https://web.archive.org/web/20220124055823/https://twitter.com/Zeptobars/status/1105594474036686852) + [Archive.org copy of the image](https://web.archive.org/web/20221227032210/https://pbs.twimg.com/media/D1fcCJMXQAIFD0-?format=jpg&name=4096x4096){{< /smalltext >}}
 
 
 

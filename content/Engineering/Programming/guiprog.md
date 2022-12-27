@@ -85,7 +85,7 @@ C++ from scratch, JS electron app, Processing creative coding, Python Kivy or si
 
 #### Web-based
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The div that looks different in every browser <a href="https://t.co/hXmxoLA8fW">https://t.co/hXmxoLA8fW</a> <a href="https://t.co/DTyOKxjhSG">pic.twitter.com/DTyOKxjhSG</a></p>&mdash; Martijn Cuppens (@Martijn_Cuppens) <a href="https://twitter.com/Martijn_Cuppens/status/1015169981368225793?ref_src=twsrc%5Etfw">July 6, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+[The Div that looks different in every browser (Martijn Cuppens)](https://codepen.io/MartijnCuppens/pen/MXojmw)
 
 #### Just plotting some data
 

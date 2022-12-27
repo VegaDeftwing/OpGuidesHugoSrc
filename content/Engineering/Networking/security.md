@@ -316,7 +316,15 @@ Also don't make your users change passwords on a schedule. We all hate it, [It's
 
 https://0l.wtf/blog/4_visual_browser_fingerprinting.html
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A quick reminder of why &quot;it&#39;s only metadata&quot; is a bad argument... <a href="https://t.co/lAG5PA1QZG">pic.twitter.com/lAG5PA1QZG</a></p>&mdash; Jake Williams (@MalwareJake) <a href="https://twitter.com/MalwareJake/status/1361022885687664646?ref_src=twsrc%5Etfw">February 14, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< columns >}}
+
+<img src="/fairuse/twitter/MalwareJake.webp" style="border-radius:25px;">
+
+{{< attribution >}}[From @MalwareJake on Twitter](https://twitter.com/MalwareJake/status/1361022885687664646){{< /attribution >}}
+
+<--->
+
+{{< /columns >}}
 
 [TODO] [The Hitchhiker's Guide to Online Anonymity](https://anonymousplanet.org/)
 
@@ -516,7 +524,7 @@ radio, rfid, etc
 
 rowhammer, Heartbleed
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Holly s**t. Keyboard tap audio keylogger 🧐<a href="https://t.co/EAzwaVMyp3">https://t.co/EAzwaVMyp3</a> <a href="https://t.co/40hzZSEVWJ">pic.twitter.com/40hzZSEVWJ</a></p>&mdash; gorelics (@gorelics) <a href="https://twitter.com/gorelics/status/1338897626109014019?ref_src=twsrc%5Etfw">December 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+https://github.com/ggerganov/kbd-audio/discussions/31
 
 ### Social Engineering
 
@@ -648,7 +656,7 @@ https://opensecuritytraining.info
 
 [Beg Bounties (Troy Hunt from haveibeenpwned)](https://www.inputmag.com/culture/pinterest-sucks-google-image-photo-search-ruining-internet)
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Wow. <a href="https://twitter.com/sparkfun?ref_src=twsrc%5Etfw">@sparkfun</a> made an app that searches for nearby bluetooth devices that might be ATM/gas pump skimmers.<br><br>That&#39;s some real cyberpunk shit. <a href="https://t.co/CLsI5RKxMC">pic.twitter.com/CLsI5RKxMC</a></p>&mdash; foone (@Foone) <a href="https://twitter.com/Foone/status/910217984098017281?ref_src=twsrc%5Etfw">September 19, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+https://learn.sparkfun.com/tutorials/gas-pump-skimmers
 
 [Does register selection matter to performance on x86 CPUs? ](https://readhacker.news/s/4hqd9)
 
