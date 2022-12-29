@@ -660,3 +660,120 @@ if you want to use a conlang, put it in a `<div class="conlang">` or it will sti
 # Other useful tools:
 
 * https://charlesstover.github.io/rainbow-text/
+
+
+
+# Rhapsodaic
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-op08{background-color:#ffffff;border-color:inherit;color:#333333;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-f3lo{background-color:#efefef;color:#333333;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-s2ud{background-color:#e4e6ff;color:#262626;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-644b{background-color:#ffccc8;color:#333333;text-align:left;vertical-align:top}
+.tg .tg-91pb{background-color:#343434;color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-c8qn{background-color:#ffffff;color:#333333;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-i34z{background-color:#e3ffe2;color:#282828;text-align:left;vertical-align:top}
+.tg .tg-442k{background-color:#343434;color:#ffffff;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-aaqy{background-color:#0000;border-color:#0000;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-5hdw{background-color:#e4e6ff;color:#262626;text-align:left;vertical-align:top}
+.tg .tg-y0wh{background-color:#ffe6e4;color:#333333;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-5d3w{background-color:#d5efd4;color:#282828;text-align:left;vertical-align:top}
+.tg .tg-6mp1{background-color:#e3ffe2;border-color:inherit;color:#282828;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-4jb6{background-color:#ffffff;color:#333333;text-align:center;vertical-align:top}
+.tg .tg-8cka{background-color:#ffffff;border-color:inherit;color:#333333;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-6v9w{background-color:#cfffce;border-color:inherit;color:#282828;text-align:left;vertical-align:top}
+.tg .tg-1nxt{background-color:#bfc4ff;color:#262626;text-align:left;vertical-align:top}
+.tg .tg-ncgp{background-color:#ffffff;border-color:inherit;color:#333333;text-align:center;vertical-align:top}
+.tg .tg-vmta{background-color:#e3ffe2;border-color:inherit;color:#282828;text-align:left;vertical-align:top}
+.tg .tg-jy8g{background-color:#ffe6e4;color:#333333;text-align:left;vertical-align:top}
+.tg .tg-c4w1{background-color:#efefef;color:#333333;text-align:center;vertical-align:top}
+.tg .tg-p38j{background-color:#f7dfdd;color:#333333;text-align:left;vertical-align:top}
+.tg .tg-zuf4{background-color:#cfd1e9;color:#262626;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-aaqy" colspan="2"></th>
+    <th class="tg-6mp1">1: Familiar:</th>
+    <th class="tg-y0wh">2: Dangerous:</th>
+    <th class="tg-s2ud">3: Wondrous: </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-8cka">Group</td>
+    <td class="tg-op08">Core Meaning</td>
+    <td class="tg-6v9w">Mundane, supportive, and/or within a given boundary</td>
+    <td class="tg-644b">Threatening, harmful, and/or crossing a given boundary</td>
+    <td class="tg-1nxt">Beautiful, transcendent, and/or beyond a given boundary</td>
+  </tr>
+  <tr>
+    <td class="tg-8cka">S1</td>
+    <td class="tg-ncgp">The discovery of something new, the comparison of facts and ideas</td>
+    <td class="tg-vmta">Curiosity, interest, realization, uncertainty, learning, contemplation</td>
+    <td class="tg-jy8g">Analysis, judgment, suspicion, skepticism, graveness, incisiveness</td>
+    <td class="tg-5hdw">Insight, clarity, understanding, recognition, wisdom, disillusionment</td>
+  </tr>
+  <tr>
+    <td class="tg-f3lo">S2</td>
+    <td class="tg-c4w1">The dissonance between what is and what could be, the stoking of longing and resistance</td>
+    <td class="tg-5d3w">Melancholy, frustration, bitterness, disappointment, loneliness, discontent</td>
+    <td class="tg-p38j">Defiance, anger, justice, fixation, obsession, resistance</td>
+    <td class="tg-zuf4">Freedom, rebellion, vigor, dynamism, possibility, strangeness</td>
+  </tr>
+  <tr>
+    <td class="tg-c8qn">S3</td>
+    <td class="tg-4jb6">The confrontation of the core of the matter, the facing of one’s fears</td>
+    <td class="tg-i34z">Fear, anxiety, insecurity, nervousness, deference, shame</td>
+    <td class="tg-jy8g">Discomfort, wrongness, horror, malice, deception, taboo</td>
+    <td class="tg-5hdw">Courage, power, influence, boldness, capacity, chutzpah</td>
+  </tr>
+  <tr>
+    <td class="tg-f3lo">SC</td>
+    <td class="tg-c4w1">The recovery from the experience, the releasing of obligation</td>
+    <td class="tg-5d3w">Hope, rest, tenderness, comfort, relaxation, recovery</td>
+    <td class="tg-p38j">Sorrow, grief, fury, injury, vulnerability, catharsis</td>
+    <td class="tg-zuf4">Compassion, care, welcoming, acceptance, warmth, empathy</td>
+  </tr>
+  <tr>
+    <td class="tg-c8qn">C1</td>
+    <td class="tg-4jb6">The journey out towards the Other, the exploration of one’s desires</td>
+    <td class="tg-i34z">Connection, intimacy, togetherness, admiration, infatuation, respect</td>
+    <td class="tg-jy8g">Indulgence, fascination, pain, intensity, intoxication, addiction</td>
+    <td class="tg-5hdw">Pride, willpower, magnetism, self-love, creativity, passion</td>
+  </tr>
+  <tr>
+    <td class="tg-f3lo">C2</td>
+    <td class="tg-c4w1">The pursuit of one’s determined goals, the drive for greater things</td>
+    <td class="tg-5d3w">Achievement, anticipation, pursuit, success, competency, effort</td>
+    <td class="tg-p38j">Exhaustion, exertion, stress, overwhelm, fatigue, pressure</td>
+    <td class="tg-zuf4">Flow, ease, inspiration, confidence, determination, enthusiasm</td>
+  </tr>
+  <tr>
+    <td class="tg-c8qn">C3</td>
+    <td class="tg-4jb6">The testing of what one has learned, the evidence of one’s strengths</td>
+    <td class="tg-i34z">Calm, perseverance, stillness, patience, persistence, readiness</td>
+    <td class="tg-jy8g">Hostility, defensiveness, stubbornness, demanding, adamance, cessation</td>
+    <td class="tg-5hdw">Faith, peace, resolution, trust, authority, conviction</td>
+  </tr>
+  <tr>
+    <td class="tg-f3lo">CS</td>
+    <td class="tg-c4w1">The retrospection on the journey thus far, the finding of value in every step</td>
+    <td class="tg-5d3w">Play, wonder, fantasy, daydreaming, imagination, nostalgia</td>
+    <td class="tg-p38j">Levity, humor, laughter, surprise, frivolity, mischief</td>
+    <td class="tg-zuf4">Presence, equanimity, fulfillment, gratitude, joy, value</td>
+  </tr>
+  <tr>
+    <td class="tg-442k">A</td>
+    <td class="tg-91pb">Attitudinal stems (these generally don’t refer to specific emotions, but rather to “amounts” of or attitudes towards those emotions)</td>
+    <td class="tg-i34z">Awareness, detachment, existence</td>
+    <td class="tg-jy8g">Aversion, rejection, excess</td>
+    <td class="tg-5hdw">Attraction, desire, lack</td>
+  </tr>
+</tbody>
+</table>
