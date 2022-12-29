@@ -2,7 +2,7 @@
 title: "Exodus"
 slug: "exodus"
 author: "Vega Deftwing"
-date: 2022-12-21
+date: 2022-12-29
 bookToC: false
 tags:
 - technical
@@ -211,6 +211,8 @@ I **think** we can make a platform where the definition of what a post is and wh
 
 {{< /smalltext >}}
 
+---
+
 Reddit absolutely lost it's shit over r/place when it first happened.
 
 Wordle happened and we all got to see this:
@@ -224,7 +226,13 @@ Wordle happened and we all got to see this:
 </pre>
 A hundred times before we had and idea what it meant.
 
-But what if r/place <a class="ptr">(2)</a> were a post from some random user. What if when you saw those box-y emoji's you could play right there, in the post - maybe with the post having saved how that user did so you could race them?
+But what if r/place <a class="ptr">(2)</a> were a post from some random user on a micro-blogging platform, where you could click to zoom in and place your pixel?
+
+What if when you saw those box-y emoji's for Wordle you could play right there, in the post - maybe with the post having saved how that user did so you could race them? 
+
+What if, like when you click a magnet link to start a torrent, you could click a Minecraft screenshot and be brought to those coordinates on the same seed?
+
+What if we actually treated the web as a true *network of ideas* instead of a place to dump pictures, text, and video?
 
 We'd see new ideas flourish. 
 
@@ -349,28 +357,13 @@ I want to make sure I acknowledge that and showcase how amazing the communities 
 
 [Kiri](https://vt.social/@ExpiredPopsicle), an absolute bad ass lamia that can throw out 6800 & x86 ASM in her sleep and has forged game engines in the depths of GPU code not meant for mere mortals. She made her 3D model, she makes games, art, and streams on Twitch. 
 
-<!-- Add a placeholder for the Twitch embed -->
-
-<div id="twitch-embed" width="100%"></div>
-
-<!-- Load the Twitch embed script -->
-<script src="https://player.twitch.tv/js/embed/v1.js"></script>
-
-<!-- Create a Twitch.Player object. This will render within the placeholder div -->
-<script type="text/javascript">
-  new Twitch.Player("twitch-embed", {
-    video: "1687999975"
-  });
-</script>
-
-
+<img src="/fairuse/twitter/kiri.webp" style="border-radius:10px;">
 
 {{< /columns3 >}}
 
-
+Of course, these are only 3 of the hundreds of amazing people I know. I'm looking forward to sharing the people that make the internet awesome more on OpGuides next year.
 
 <ol hidden id="footnotes">
     <li>I may not know the right way, but I know the wrong way: If you suggest blockchain or NFTs you're part of the problem.</li>    
     <li>BTW, there's a few r/place clones that are going strong, such as https://pxls.space/ </li>
 </ol>
-
