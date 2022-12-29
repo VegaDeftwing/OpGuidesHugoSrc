@@ -65,11 +65,15 @@ It boggles the mind that we put up with this shit.
 
 For the first time I can think of, it looks like we have a sliver of a chance to move to something better. Mastodon. Is Mastodon perfect? No. [It lacks E2E encryption (soatok.blog)](https://soatok.blog/2022/11/22/towards-end-to-end-encryption-for-direct-messages-in-the-fediverse/), it [makes discovery difficult (cendyne.dev)](https://cendyne.dev/posts/2022-12-11-twitter.html), and instances might crash and burn. But, again, that's not what this post is about. I do care about the advantages and shortcomings of Mastodon as a platform, but more than anything I care about cool people doing cool things.
 
-You probably already have a list of people - The ones you follow on Twitter. I'd advise you get those backed up so that when the lights go out and the party is over you can find them again. The best way I've found to do this is to head over to https://unflwrs.syfaro.com, export all your followers followers. Then, use Twitter's built in [Archive Download](https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive) to get you your tweets and everything else in a .zip. You can slap that into [twitter-archiver](https://github.com/dariusk/twitter-archiver) if you want it to look pretty.
+You probably already have a list of people - The ones you follow on Twitter. I'd advise you get those backed up so that when the lights go out and the party is over you can find them again. 
+
+The best way I've found to do this is to head over to https://unflwrs.syfaro.com, export all your followers followers. Then, use Twitter's built in [Archive Download](https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive) to get you your tweets and everything else in a .zip. You can slap that into [twitter-archiver](https://github.com/dariusk/twitter-archiver) if you want it to look pretty.
 
 From there, you can head over to https://www.movetodon.org and let it find anyone your following with a mastodon account link on their profile and follow them all at once.
 
-Now you can feel free to mash that delete account button or [intentionally cost Melon Husk some money (soatok.blog)](https://soatok.blog/2022/11/07/contemplating-the-future/) and probably the "collect on class action" button in a year when you find out Twitter fucked up with your data, but that's just speculation (for now).
+Now you can feel free to mash that delete account button or [intentionally cost Melon Husk some money (soatok.blog)](https://soatok.blog/2022/11/07/contemplating-the-future/) and probably the "collect on class action" button in a year ~~when you find out~~  Twitter fucked up with your data, but that's just speculation (for now).
+
+>  ... While writing this post [it already happened](https://nakedsecurity.sophos.com/2022/12/28/twitter-data-of-400-million-unique-users-up-for-sale-what-to-do/).  ಠ_ಠ
 
 But, again, none of that is the point I'm trying to make. Instead, what I really want to say is...
 
@@ -117,15 +121,19 @@ Put simply, I think we're finally getting back to seeing more things like these 
 
 <img src="/fairuse/tumblrscreens/tumblr5.webp" width="18%" alt=" ">
 
-https://www.retronator.com
+{{< attribution >}}Left to right: [ms-dos](https://ms-dos5.tumblr.com) , [meatdemon](https://meatdemon.tumblr.com/) , [wartorling](https://wartortling.tumblr.com) , [uzicopter](https://uzicopter.tumblr.com) , [retronator](https://www.retronator.com) {{< /attribution >}}
 
-https://uzicopter.tumblr.com
+... or these [NeoCities](https://neocities.org/browse) sites:
 
-... or these NeoCities sites:
+<img src="/fairuse/neocities/cinnamuff.webp" width="23%" alt=" ">
 
-https://neocities.org/browse
+<img src="/fairuse/neocities/desertjaguar.webp" width="23%" alt=" ">
 
-[TODO]
+<img src="/fairuse/neocities/mirrorteru.webp" width="24%" alt=" ">
+
+<img src="/fairuse/neocities/tarraxahum.webp" width="24%" alt=" ">
+
+{{< attribution >}}Left to right: [Cinnamuff](https://cinnamuff.neocities.org/home), [desertjaguar](https://desertjaguar.casa), [mirrorteru](https://mirrorteru.neocities.org), [tarraxahum](https://tarraxahum.neocities.org){{< /attribution >}}
 
 and less of this:
 
@@ -157,15 +165,21 @@ Dwitter.net is a challenge to see what awesomeness you can create when limited t
 
 <iframe width=500 height=570 frameBorder="0" src="https://www.dwitter.net/e/19615" allowFullScreen="true"></iframe>
 
-https://www.bbcmicrobot.com
+That's not a gif! That's actually the code in the dweet running in your browser.
 
-https://twitter.com/flamereactorbot
+Now, this isn't necessarily anything new - [@bbcmicrobot](https://www.bbcmicrobot.com) on both Twitter and Mastodon has been around for a while:
 
-https://pxls.space/
+{{< quote "[bbcmicrobot.com](https://www.bbcmicrobot.com)" >}}
 
-VRChat shaders
+BBC Micro bot is a Twitter bot that runs your tweet on an 8-bit computer emulator. Tweet-sized programs are written in BBC BASIC
 
-Flash games
+{{< /quote >}}
+
+But that required a sort of middle man - the bot account - to function. That layer, which is necessary due to the lack of native support, means less people will even think about making something like this.
+
+To me, this is a real shame, as projects like [@FlameReactorBot (Twitter)](https://twitter.com/flamereactorbot) / [flameReactor@mastodon.social](https://mastodon.social/@flameReactor) are limited by the interactivity of a tweet.
+
+Think about what could be possible if this weren't the case!
 
 Ultimately, I want people to be able to express themselves as much or as little as they want in each post they make. Is there potential for bad actors? Yes. Will it be hard to stop people from abusing the system just to talk over each other? 
 
@@ -210,18 +224,153 @@ Wordle happened and we all got to see this:
 </pre>
 A hundred times before we had and idea what it meant.
 
-But what if r/place were a post from some random user. What if when you saw those box-y emoji's you could play right there, in the post - maybe with the post having saved how that user did so you could race them?
+But what if r/place <a class="ptr">(2)</a> were a post from some random user. What if when you saw those box-y emoji's you could play right there, in the post - maybe with the post having saved how that user did so you could race them?
 
 We'd see new ideas flourish. 
 
-I think mastodon and the indie web +++ is the start of this. It's a seed for this to finally happen.
+I think mastodon and the indie web +++ is the start of this. It's a seed for this to finally happen. I think we have a real chance here to make a web that has the browsability and network effects of microblogging (Twitter, Mastodon, Cohost, etc.) combined with the expressiveness of Flash Games, VR Chat Worlds, and the indieweb. 
 
-## A commitment for the new year
+## It's about people.
 
- So here is a massive list of my favorite parasocial relationships.
+<script>
+
+function hover(num) {
+  document.querySelector("body > main > div > article > div.nerd-container >   img:nth-child(8)").setAttribute('src', "/nonfree/permissiongranted/nerd_lineup/" + num + "_a.webp");
+}
+
+function unhover(num) {
+  document.querySelector("body > main > div > article > div.nerd-container >   img:nth-child(8)").setAttribute('src', "/nonfree/permissiongranted/nerd_lineup/" + num + ".webp");
+}
+
+preloads = "red.gif,green.gif,blue.gif".split(",")
+var tempImg = []
+
+for(var x=1; x < 8;x++) {
+    tempImg[x] = new Image()
+    tempImg[x].src = "/nonfree/permissiongranted/nerd_lineup/" + x + "_a.webp"
+}
+
+</script>
+
+<!-- This height needs to depend on the image.-->
+
+<style>
+region:hover{
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 15% 15% 14% 12% 17% 13% 14%;
+  position: absolute;
+  width: 100%;
+  height: inherit;
+}
+
+
+.nerds{
+	height: inherit;
+}
+
+.nerd-container{
+width: 100%
+}
+
+.grid-item:{
+	background-color: blue;
+	z-index: 100 !important;
+}
+
+img{
+pointer-events: none;
+}
+</style>
+
+<div class="nerd-container">
+
+
+<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/1.webp" alt="Soatok" style="position: absolute;z-index: 3;">
+
+<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/2.webp" alt="Cadey" style="position: absolute;z-index: 2;">
+
+
+<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/3.webp" alt="Loial" style="position: absolute;z-index: 3;">
+
+
+<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/4.webp" alt="Vega" style="position: absolute;z-index: 1;">
+
+
+<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/5.webp" alt="Cendyne" style="position: absolute;z-index: 1;">
+
+<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/6.webp" alt="Mimir" style="position: absolute;z-index: 1;">
+
+<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/7.webp" alt="Vordex" style="position: absolute;z-index: 3;">
+
+<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/placeholder.webp" alt="Vordex" style="position: absolute;z-index: 3;">
+
+<div class="grid-container">
+  <div class="grid-item" onmouseover="hover(1);" onmouseout="unhover(1);"><img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/hoverregion.webp" alt="Placeholder" style="z-index: 3;"></div>
+  <div class="grid-item" onmouseover="hover(2);" onmouseout="unhover(2);"> </div>
+  <div class="grid-item" onmouseover="hover(3);" onmouseout="unhover(3);"> </div>
+  <div class="grid-item" onmouseover="hover(4);" onmouseout="unhover(4);"> </div>
+  <div class="grid-item" onmouseover="hover(5);" onmouseout="unhover(5);"> </div>
+  <div class="grid-item" onmouseover="hover(6);" onmouseout="unhover(6);"> </div>
+  <div class="grid-item" onmouseover="hover(7);" onmouseout="unhover(7);"> </div>
+
+  </div>
+
+  </div>
+
+  <img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/placeholder.webp" alt="Vordex" style="z-index: 3;">
+
+{{< attribution >}} Art by [Talon Creations](https://mobile.twitter.com/talon_creations). Characters from Left to Right: [Soatok](https://soatok.blog), [Cadey](https://xeiaso.net/blog), [Loial](https://www.hackster.io/news/this-vfd-clock-exquisitely-echoes-the-craftsmanship-of-its-mechanical-analog-cousins-of-yesterday-eaa73a60adb1), Vega, [Cendyne](https://cendyne.dev), [Mimir](http://meow.social/@mimir), [Vordex](http://yote.tech) {{< /attribution >}}
+
+Having a platform that allows for awesome creativity doesn't matter if nobody uses it. What matters most is making connections with people that inspire you to push boundaries, that make you laugh and enjoy life, and that you feel comfortable being yourself around.
+
+One of my big goals with OpGuides has been to make a website that can compete with full textbooks by acknowledging that the best information for a given topic can never come from a single author or live in a single medium. It takes videos, links, quotes, interactive media, and - above all - a community. Before publishing this post I spent a significant amount of time doing my best to replace or ensure there are archives of as many of the tweets that had been embedded in this website as I could. 
+
+There were nearly 100 Twitter embeds in this website.
+
+This site wouldn't be what it is without linking to and displaying the hard work of talented creators, engineers, artists, makers, and hackers from across the web.
+
+I want to make sure I acknowledge that and showcase how amazing the communities I'm in are. I plan to dramatically ramp up the number of interviews on the site in 2023 and also start posting rapid-fire community showcases where I look at what some of the amazing people in the communities I'm in. **Such as,**
+
+{{< columns3 >}}
+
+[@mylo_calibre](https://twitter.com/mylo_calibre/status/1606412768130867200), A synth obsessed tiger making Eurorack modules and noodling with FPGAs and micro controllers. He can slam out full PCB designs faster than I can make a bad sounding euororack patch.
+
+<img src="/fairuse/twitter/mylo.webp" style="border-radius:10px;">
+
+<--->
+
+[Blinry](https://blinry.org/operation-mindfuck-5/), completer of [Game Jams](https://flauschzelle.de/the-floor-is-lava/), [creator of arts](https://blinry.org/inkdiary-2021/), [speaker of toki pona](https://blinry.org/toki-pona-cheat-sheet/), [seer of colors](https://blinry.org/what-is-color/), but most importantly, **[master of HTML sliders](https://sliderland.blinry.org)!**
+
+![blinry](/fairuse/other/blinry.webp)
+
+<--->
+
+[Kiri](https://vt.social/@ExpiredPopsicle), an absolute bad ass lamia that can throw out 6800 & x86 ASM in her sleep and has forged game engines in the depths of GPU code not meant for mere mortals. She made her 3D model, she makes games, art, and streams on Twitch. 
+
+<!-- Add a placeholder for the Twitch embed -->
+
+<div id="twitch-embed" width="100%"></div>
+
+<!-- Load the Twitch embed script -->
+<script src="https://player.twitch.tv/js/embed/v1.js"></script>
+
+<!-- Create a Twitch.Player object. This will render within the placeholder div -->
+<script type="text/javascript">
+  new Twitch.Player("twitch-embed", {
+    video: "1687999975"
+  });
+</script>
+
+
+
+{{< /columns3 >}}
 
 
 
 <ol hidden id="footnotes">
     <li>I may not know the right way, but I know the wrong way: If you suggest blockchain or NFTs you're part of the problem.</li>    
+    <li>BTW, there's a few r/place clones that are going strong, such as https://pxls.space/ </li>
 </ol>
+
