@@ -111,6 +111,8 @@ As previously mentioned, you should be able to go back to a saved copy of any we
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">EVERY <br>F**IN&#39;<br>TIME<br>💢<br>🦊 <a href="https://t.co/5JGKXqxIwF">pic.twitter.com/5JGKXqxIwF</a></p>&mdash; FPV 🟡 眼鏡の狐 (@F0XnR0LL) <a href="https://twitter.com/F0XnR0LL/status/1347328703987142656?ref_src=twsrc%5Etfw">January 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+{{< smalltext >}}[Archive.org backup of the above tweet](https://web.archive.org/web/20211028012633/https://twitter.com/F0XnR0LL/status/1347328703987142656){{< /smalltext >}}
+
 ## Open Sensors and Generators
 
 Hardware is gradually becoming more general purpose, and as this happens, it would be amazing if they were opened up enough to allow for experimentation. Think using full on software defined radio chips for Wi-Fi and Bluetooth, such that they could be reconfigured on the fly and a different antenna attached to make use of GPS, cellular, or satellite internet. There's already a mini PCI-e card SDR [on the market](https://www.crowdsupply.com/fairwaves/xtrx). Like this, but it's my understanding that many Wi-Fi chipsets are effectively just limited SDRs running locked down firmware anyway. Why not open it up?
