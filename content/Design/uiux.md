@@ -56,8 +56,31 @@ https://muzzleapp.com
 
 ### Dark Patterns
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">IF YOU PROGRAM A &quot;NO&quot; BUTTON TO SAY &quot;MAYBE LATER&quot; YOU HAVE FAILED AT BOTH INTERFACE DESIGN AND BASIC CONSENT</p>&mdash; Heather ⬢ Flowers (@HTHRFLWRS) <a href="https://twitter.com/HTHRFLWRS/status/1351714324230909959?ref_src=twsrc%5Etfw">January 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< bigquote "[@HTHRFLWRS](https://cohost.org/hthrflwrs)" >}}
+
+IF YOU PROGRAM A "NO" BUTTON TO SAY "MAYBE LATER" YOU HAVE FAILED AT BOTH INTERFACE DESIGN AND BASIC CONSENT
+
+{{< /bigquote >}}
 
 ### Logos
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Alright, nerds<br><br>I filed a FOIA appeal and won the infamous NROL-39 surveillance satellite logo as a PDF.<a href="https://t.co/GypoZPnwsu">https://t.co/GypoZPnwsu</a><br><br>This ain&#39;t a scanned powerpoint. This is a resizable vector. You know what you must do. Unleash the swag. <a href="https://t.co/WZJXeBdHPi">pic.twitter.com/WZJXeBdHPi</a></p>&mdash; Ben Welsh (@palewire) <a href="https://twitter.com/palewire/status/1181611182882353152?ref_src=twsrc%5Etfw">October 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div style="background:#0003;border-radius:15px;text-align: center;">
+
+{{< smalltext >}}noun, plural lo·gos.{{< /smalltext >}}
+
+*Also called logotype. a graphic representation or symbol of a company name, trademark, abbreviation, etc., often uniquely designed for ready recognition.*
+
+{{< attribution >}}-[Dictionary.com](https://www.dictionary.com/browse/logo){{< /attribution >}}
+
+</div>
+
+{{< columns >}}
+
+<--->
+
+> One of my favorite logo designs, available in high quality thanks to [Ben Welsh/@palewire](https://twitter.com/palewire):
+>
+> <img src="https://github.com/palewire/nrol-39-logo/raw/master/nrol_39.png" style="border-radius:50%;">
+
+
+{{< columns >}}

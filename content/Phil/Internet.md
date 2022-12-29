@@ -127,7 +127,7 @@ Note, unlike the rest of the items in this list, the GDPR is NOT legislation fro
 
 <--->
 
-<img src="/fairuse/twitter/samantaz.webp" style="border-radius:25px;">
+<img src="/fairuse/twitter/samantaz.webp" alt="The Virginian-Pilot website: Unfortunately, our website is currently unavailable in most European countries. We are engaged on the issue and committed to looking at options that support our full range of digital offerings to the EU market. We continue to identify technical compliance solutions that will provide all readers with our award-winning journalism." style="border-radius:25px;">
 
 {{< attribution >}} [@SamantazFox](https://twitter.com/SamantazFox) / https://samantaz.fr{{< /attribution >}}
 

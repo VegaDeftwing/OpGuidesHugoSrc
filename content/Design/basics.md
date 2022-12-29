@@ -45,7 +45,20 @@ https://lab.sciencemuseum.org.uk/colour-shape-using-computer-vision-to-explore-t
 
 https://twitter.com/miyuliart/status/1337423295814176768 (NSFWish I guess?)
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A pet peeve of mine is this idea that taking a selfie or any other image without a filter or any post-production is somehow a more &quot;authentic&quot; presentation of the subject<br><br>A camera in its default state isn&#39;t some totally objective, neutral observer<br><br>It has its own biases <a href="https://t.co/ERozlmmBt2">pic.twitter.com/ERozlmmBt2</a></p>&mdash; Vapor Weyve (@Nymphomachy) <a href="https://twitter.com/Nymphomachy/status/1349408603715686400?ref_src=twsrc%5Etfw">January 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< columns3 >}}
+
+<--->
+
+<div>
+<img src="/fairuse/twitter/nymphomachy.webp" style="border-radius:10px 10px 0px 0px;display: block;">
+
+<video src="/fairuse/twitter/nymphomachy.mp4" width="100%" style="display: block;" controls loop></video>
+
+</div>
+
+{{< attribution >}}[@Nymphomachy](https://twitter.com/Nymphomachy/status/1349408603715686400){{< /attribution >}}
+
+{{< /columns3 >}}
 
 ## Rule of Thirds
 
@@ -53,8 +66,32 @@ https://twitter.com/miyuliart/status/1337423295814176768 (NSFWish I guess?)
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/5Tx6U5OhMDg?list=PL6haVw-BFETw13kBFhbWl6UCshzgIC7Ea" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">reuploading a few &quot;furgonomic&quot; tutorials ive made in the past <a href="https://t.co/85resjONab">pic.twitter.com/85resjONab</a></p>&mdash; sketch (@skexchs) <a href="https://twitter.com/skexchs/status/1323671914758418433?ref_src=twsrc%5Etfw">November 3, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< columns >}}
 
+<img src="/nonfree/permissiongranted/twitter/sketch/sketchhat.webp" style="border-radius:10px;">
+
+{{< smalltext >}}[FULL SIZE](/nonfree/permissiongranted/twitter/sketch/sketchhat.webp){{< /smalltext >}}
+
+<--->
+
+<img src="/nonfree/permissiongranted/twitter/sketch/sketchhood.webp" style="border-radius:10px;">
+
+{{< smalltext >}}[FULL SIZE](/nonfree/permissiongranted/twitter/sketch/sketchhood.webp){{< /smalltext >}}
+
+<--->
+
+<img src="/nonfree/permissiongranted/twitter/sketch/sketchkemonomimi.webp" style="border-radius:10px;">
+
+{{< smalltext >}}[FULL SIZE](/nonfree/permissiongranted/twitter/sketch/sketchkemonomimi.webp){{< /smalltext >}}
+
+{{< /columns >}}
+
+{{< attribution >}}Furgonomic tutorials by [**Sketch**](https://fireflufferz.carrd.co), used with permission. {{< /attribution >}}
+
+---
+
+
+{{< smalltext >}}[Archive.org backup of the above tweet](https://web.archive.org/web/20210811074813/https://twitter.com/skexchs/status/1323671914758418433) {{< /smalltext >}}
 
 Things like digi shoes, tail holes in clothing, tail bags, etc. really help make characters feel like they're part of an actual world.
 
@@ -68,4 +105,6 @@ Things like digi shoes, tail holes in clothing, tail bags, etc. really help make
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">here’s an art tutorial on some ways that i avoid “same face syndrome”! keep in mind that these tips might not work for everyone though <a href="https://t.co/qfgRNz8Anf">pic.twitter.com/qfgRNz8Anf</a></p>&mdash; harvey (@harvviies) <a href="https://twitter.com/harvviies/status/1359879055198228483?ref_src=twsrc%5Etfw">February 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-[TODO] Scale, Typography, Contrast, Balance, Emphesis
+{{< smalltext >}}[Archive.org backups of images in tweet](https://archive.org/details/karvviie3/)t {{< /smalltext >}}
+
+[TODO] Scale, Typography, Contrast, Balance, Emphasis
