@@ -36,6 +36,8 @@ But to me, the stand-out tweet is this one:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">That video earned me a visit from the DHS, who asked me about &quot;Anti-American sentiment&quot; in my videos. That was the first time I realized, wow, I guess people really are monitoring what we say and are willing to try to intimidate us, even if what we say is objectively true.</p>&mdash; JT Chapman (@_SecondThought) <a href="https://twitter.com/_SecondThought/status/1332746172570677250?ref_src=twsrc%5Etfw">November 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+{{< smalltext >}}[Archive.org link to thread](https://web.archive.org/web/20220423121336/https://twitter.com/_SecondThought/status/1332746158947635202){{< /smalltext >}}
+
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/D5YWb2CumY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
