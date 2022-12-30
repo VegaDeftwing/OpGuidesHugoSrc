@@ -127,4 +127,4 @@ https://en.wikibooks.org/wiki/Signals_and_Systems
 
 ---
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/jnxqHcObNK4?list=WL" title="Wavelets: a mathematical microscope" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/jnxqHcObNK4" title="Wavelets: a mathematical microscope" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -68,7 +68,14 @@ This video from Omri Cohen goes pretty in depth:
 
 ### Field Recordings, Tape Loops, and other sampling goodness
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Check out the tape loop labyrinths of Justin Lakes. <a href="https://t.co/b8cTReWrWg">https://t.co/b8cTReWrWg</a> <a href="https://t.co/zULT0LaZtH">pic.twitter.com/zULT0LaZtH</a></p>&mdash; Tabs Out 🧻 (@tabsout) <a href="https://twitter.com/tabsout/status/949395722008489985?ref_src=twsrc%5Etfw">January 5, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< columns >}}
+
+<img src="/fairuse/other/lakesloops-2.webp" style="border-radius:50px;">
+{{< attribution >}} Image from ["The Tape Loop Labyrinths of Justin Lakes" by Mike Haley](https://tabsout.com/?p=17050){{< /attribution >}}
+
+<--->
+
+{{< /columns >}}
 
 [TODO]
 
@@ -240,7 +247,11 @@ When talking about Linear FM, I mentioned that simple ratios are best. This isn'
 
 Becasue FM synthesis is a pretty complicated topic to wrap your head around, I recommend giving these three videos a watch:
 
+<!-- "FM Synthesis Explained & Tutorial [FM8 // Reaktor // Bass Design]" by Venus Theory - Video has been privated.
+
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/L1QZuEuMD_E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+--> 
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/P4EYqMEH6Dc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

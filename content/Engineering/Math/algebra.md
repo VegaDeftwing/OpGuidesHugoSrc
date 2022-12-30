@@ -25,6 +25,9 @@ Alright, Natural and Whole numbers are great and all, but what if we want to rep
 If you come from a programming background, do note that what programming languages call integers is ever so slightly different. Namely, mathematically integers include arbitrarily large numbers, but in programming most `int` types are bounded by how many bits they can store, for example, an 8 bit signed integer can only hold values ranging from -128 to 127.
 {{< /tip >}}
 
+### ℚ - Rational Numbers
+
+Rational numbers are any numbers which can be written as an interger over another integer.
 
 Of note, these can be written as *mixed numbers* too, that is {{< katex >}} \frac{4}{3} = 1\frac{1}{3} {{< /katex >}}, as {{< katex >}} \frac{3}{3} = 1 \text{ so the remaining } \frac{1}{3} {{< /katex >}} is just written next to it.
 

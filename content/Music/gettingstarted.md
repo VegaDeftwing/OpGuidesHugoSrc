@@ -121,8 +121,6 @@ anyway, so now the last relevant part of the above patch worth understanding is 
 
 ## A bit of an aside
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Secret Panel HERE Ã°Å¸ËœÂ¶ <a href="https://t.co/i8H7WlWRbO">https://t.co/i8H7WlWRbO</a> <a href="https://t.co/BJOfoxNzCg">pic.twitter.com/BJOfoxNzCg</a></p>&mdash; J. L. Westover (@MrLovenstein) <a href="https://twitter.com/MrLovenstein/status/1347912909465255938?ref_src=twsrc%5Etfw">January 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 Some people will try to get you to try various substances to be creative, to make better music, etc.
 
 If you want to get high or drunk, go for it- but don't let it turn into a creative crutch. You don't need it.

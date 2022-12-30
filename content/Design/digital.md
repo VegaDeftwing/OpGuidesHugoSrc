@@ -138,7 +138,7 @@ https://lospec.com/palette-list
 
 ![ColorBanding](/design/colorbanding.webp)
 
-> [Source](https://en.wikipedia.org/wiki/Colour_banding#/media/File:Colour_banding_example01.png)
+{{< attribution >}}[Source](https://en.wikipedia.org/wiki/Colour_banding#/media/File:Colour_banding_example01.png){{< /attribution >}}
 
 [Why Dark Video Is A terrible Blocky Mess (YouTube)](https://www.youtube.com/watch?v=h9j89L8eQQk&ab_channel=TomScott)
 
@@ -175,6 +175,7 @@ https://squoosh.app
 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Whenever I make foliage I always find myself hoping nobody else is as lazy as I am. I just make a bunch of random shapes and copy paste to victory... Please don&#39;t call the cops <a href="https://t.co/Vz63AOBuZo">pic.twitter.com/Vz63AOBuZo</a></p>&mdash; mog (@wtfmig) <a href="https://twitter.com/wtfmig/status/1197789438102966272?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< attribution >}}[Backup on Archive.org (The gif won't play though)](https://web.archive.org/web/20220224165315/https://twitter.com/wtfmig/status/1197789438102966272){{< /attribution >}}
 
 [Krita Brush Tips: Outline](https://docs.krita.org/en/tutorials/krita-brush-tips/outline.html)
 

@@ -759,9 +759,24 @@ Sorce: Foalyy @ https://forum.kicad.info/t/cheatsheet-for-kicad/5247
 
 https://llllllll.co/t/pcb-art-artfully-shaped-copper-traces/22027/2t
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">These 0.3mm PCBs are crazy flexible. Makes it difficult to evenly polish down to extract all the metal layers, but we&#39;ll fix it in post 😉 <a href="https://t.co/ylP0lc34g2">pic.twitter.com/ylP0lc34g2</a></p>&mdash; David Hulton (@0x31337) <a href="https://twitter.com/0x31337/status/1395064352785399808?ref_src=twsrc%5Etfw">May 19, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< columns3 >}}
 
-<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Always double check your footprints. 😬 <a href="https://t.co/BdTq9e9Byq">pic.twitter.com/BdTq9e9Byq</a></p>&mdash; Greg (@GregDavill) <a href="https://twitter.com/GregDavill/status/1252912461457420288?ref_src=twsrc%5Etfw">April 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<img src="/fairuse/twitter/greg.webp" style="border-radius:25px;">
+
+{{< attribution >}}Tweet from [@GregDavill](https://twitter.com/GregDavill/status/1252912461457420288){{< /attribution >}}
+
+<--->
+
+<div>
+<img src="/fairuse/twitter/davidHeader.webp" style="border-radius:10px 10px 0px 0px;display: block;">
+
+<video src="/fairuse/twitter/DavidHulton.mp4" width="100%" style="display: block;" controls loop></video>
+
+</div>
+
+{{< attribution >}}[David Hulton, @0x31337](https://twitter.com/0x31337/status/1395064352785399808){{< /attribution >}}
+
+{{< /columns3 >}}
 
 
 
@@ -771,7 +786,7 @@ https://llllllll.co/t/pcb-art-artfully-shaped-copper-traces/22027/2t
 
 [KiCad STM32 + RF + USB Hardware Design (YouTube, Phil's Lab)](https://www.youtube.com/watch?v=14_jh3nLSsU)
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I quite like this combination I soldered today: <a href="https://twitter.com/oshpark?ref_src=twsrc%5Etfw">@oshpark</a> &#39;s After Dark PCB with purple LEDs. This is my COPXIE project, which is inspired by PIXIE from <a href="https://twitter.com/lixielabs?ref_src=twsrc%5Etfw">@lixielabs</a> . More information can/will be also found here: <a href="https://t.co/BLMhnu95Vu">https://t.co/BLMhnu95Vu</a> <a href="https://t.co/Ssg1d1uNFN">pic.twitter.com/Ssg1d1uNFN</a></p>&mdash; Alex (@tinyledmatrix) <a href="https://twitter.com/tinyledmatrix/status/1319410599894417409?ref_src=twsrc%5Etfw">October 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+https://hackaday.io/project/174310-copxie-chainable-dual-57-tiny-led-matrix
 
 # Chapter 26.1 - PCB Components
 
@@ -789,9 +804,17 @@ Getting a bit weirder, you can also make a capacitor by using traces on differen
 
 Entering the relm of black magic fuckery, you can actually make high frequency filters by adjusting the length and gaps between traces - these are called [distributed element filters](https://en.wikipedia.org/wiki/Distributed-element_filter) and are really fucking cool.
 
+{{< columns >}}
+
 Back to being useful for normal humans, flexible PCBs, while expensive, may allow you to design some things that would otherwise be quite difficult. Typically, the flexiblity shouldn't be repeatedly stressed, but it's a good way to add small, reliable connections between things.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The whole family - top ones are the oldest and the two test prototypes I made. There was issues with the micro I was using and I couldn&#39;t get it low enough power to run. Also assembly was really difficult. <a href="https://t.co/3mKgYs83Nr">pic.twitter.com/3mKgYs83Nr</a></p>&mdash; Loial Otter (@LoialOtter) <a href="https://twitter.com/LoialOtter/status/1250295830973534208?ref_src=twsrc%5Etfw">April 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<--->
+
+<img src="/fairuse/twitter/loialotter.webp" style="border-radius:25px;">
+
+{{< attribution >}} [Tweet from @LoialOtter](https://twitter.com/LoialOtter/status/1250295830973534208){{< /attribution >}}
+
+{{< /columns >}}
 
 Finally, I want to mention that there's some pretty esoteric PCB manufacturing methods, though the weirder you want, the more you pay. For example, making PCBs with [Heavy copper traces (Hackaday)](https://hackaday.com/2021/11/08/heavy-copper-pcb-hack-chat/) is totally possible, but you'll pay for it.
 
@@ -801,7 +824,7 @@ Finally, I want to mention that there's some pretty esoteric PCB manufacturing m
 
 {{< attribution >}}
 
-Source: @AkioOhtori on Twitter
+Source: [@AkioOhtori](https://twitter.com/AkioOhtori) on Twitter
 
 {{< attribution >}}
 
@@ -809,7 +832,9 @@ Source: @AkioOhtori on Twitter
 
 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hacked <a href="https://twitter.com/DCFurs?ref_src=twsrc%5Etfw">@DCFurs</a> badges to broadcast AWOO beacons! <a href="https://t.co/6CUdRlKHn1">pic.twitter.com/6CUdRlKHn1</a></p>&mdash; caudamus (@caudamus) <a href="https://twitter.com/caudamus/status/1160112857679220736?ref_src=twsrc%5Etfw">August 10, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!--<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hacked <a href="https://twitter.com/DCFurs?ref_src=twsrc%5Etfw">@DCFurs</a> badges to broadcast AWOO beacons! <a href="https://t.co/6CUdRlKHn1">pic.twitter.com/6CUdRlKHn1</a></p>&mdash; caudamus (@caudamus) <a href="https://twitter.com/caudamus/status/1160112857679220736?ref_src=twsrc%5Etfw">August 10, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+
+https://hackaday.com/2018/08/21/all-the-badges-of-def-con-26-vol-2/
 
 [Furby Theremin Badge (Tindie, Harbinger LTD)](https://www.tindie.com/products/awkwardai/furbymin-theremin-soa-dc27-full-assembled/)
 

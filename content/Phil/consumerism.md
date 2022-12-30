@@ -74,7 +74,9 @@ Right to Repair legislation as is only seeks to make it so that businesses need 
 
 Furthermore, devices that rely on software or servers to continue running need to have that software distributed DRM free or the server software released to keep things running. It should be impossible for the vendor to make your purchase useless years later.
 
-<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Right-to-repair laws are going to be an uphill battle if corporate brainwashing already has people assuming it&#39;s illegal to buy a thing, modify it, and sell it. <a href="https://t.co/ruIMTSVUO1">https://t.co/ruIMTSVUO1</a></p>&mdash; ᴊᴀʏ ᴄᴀʀʟsoɴ (@jaydcarlson) <a href="https://twitter.com/jaydcarlson/status/1459177807100186647?ref_src=twsrc%5Etfw">November 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<img src="/fairuse/twitter/jaycarlson.webp" style="border-radius:40px;">
+
+{{< attribution >}} [@jaydcarlson on Twitter](https://twitter.com/jaydcarlson/status/1459177807100186647){{< /attribution >}}
 
 ## Anti-consumer practices
 

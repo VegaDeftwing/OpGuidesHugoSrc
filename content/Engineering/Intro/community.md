@@ -3,6 +3,97 @@ bookCollapseSection: true
 weight: 20
 ---
 
+<script>
+
+function hover(num) {
+  document.querySelector("body > main > div > article > div.nerd-container >   img:nth-child(8)").setAttribute('src', "/nonfree/permissiongranted/nerd_lineup/" + num + "_a.webp");
+}
+
+function unhover(num) {
+  document.querySelector("body > main > div > article > div.nerd-container >   img:nth-child(8)").setAttribute('src', "/nonfree/permissiongranted/nerd_lineup/" + num + ".webp");
+}
+
+preloads = "red.gif,green.gif,blue.gif".split(",")
+var tempImg = []
+
+for(var x=1; x < 8;x++) {
+    tempImg[x] = new Image()
+    tempImg[x].src = "/nonfree/permissiongranted/nerd_lineup/" + x + "_a.webp"
+}
+
+</script>
+
+<!-- This height needs to depend on the image.-->
+
+<style>
+region:hover{
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 15% 15% 14% 12% 17% 13% 14%;
+  position: absolute;
+  width: 100%;
+  height: inherit;
+}
+
+
+.nerds{
+	height: inherit;
+}
+
+.nerd-container{
+width: 100%
+}
+
+.grid-item:{
+	background-color: blue;
+	z-index: 100 !important;
+}
+
+img{
+pointer-events: none;
+}
+</style>
+
+<div class="nerd-container">
+
+
+<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/1.webp" alt="Soatok" style="position: absolute;z-index: 3;">
+
+<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/2.webp" alt="Cadey" style="position: absolute;z-index: 2;">
+
+
+<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/3.webp" alt="Loial" style="position: absolute;z-index: 3;">
+
+
+<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/4.webp" alt="Vega" style="position: absolute;z-index: 1;">
+
+
+<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/5.webp" alt="Cendyne" style="position: absolute;z-index: 1;">
+
+<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/6.webp" alt="Mimir" style="position: absolute;z-index: 1;">
+
+<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/7.webp" alt="Vordex" style="position: absolute;z-index: 3;">
+
+<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/placeholder.webp" alt="Vordex" style="position: absolute;z-index: 3;">
+
+<div class="grid-container">
+  <div class="grid-item" onmouseover="hover(1);" onmouseout="unhover(1);"><img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/hoverregion.webp" alt="Placeholder" style="z-index: 3;"></div>
+  <div class="grid-item" onmouseover="hover(2);" onmouseout="unhover(2);"> </div>
+  <div class="grid-item" onmouseover="hover(3);" onmouseout="unhover(3);"> </div>
+  <div class="grid-item" onmouseover="hover(4);" onmouseout="unhover(4);"> </div>
+  <div class="grid-item" onmouseover="hover(5);" onmouseout="unhover(5);"> </div>
+  <div class="grid-item" onmouseover="hover(6);" onmouseout="unhover(6);"> </div>
+  <div class="grid-item" onmouseover="hover(7);" onmouseout="unhover(7);"> </div>
+
+  </div>
+
+  </div>
+
+  <img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/placeholder.webp" alt="Vordex" style="z-index: 3;">
+
+{{< attribution >}} Art by [Talon Creations](https://mobile.twitter.com/talon_creations). Characters from Left to Right: [Soatok](https://soatok.blog), [Cadey](https://xeiaso.net/blog), [Loial](https://www.hackster.io/news/this-vfd-clock-exquisitely-echoes-the-craftsmanship-of-its-mechanical-analog-cousins-of-yesterday-eaa73a60adb1), Vega, [Cendyne](https://cendyne.dev), [Mimir](http://meow.social/@mimir), [Vordex](http://yote.tech) {{< /attribution >}}
+
 # Ⅰ - Community
 
 When you think engineer, what traits come to mind? If you're anything like most people, you probably thought "smart" and "antisocial". While I can't speak to how truthful that stereotype may be, I can tell you for sure that in engineering, not knowing how to make friends, ask for help, and talk with others will make you all but useless.
@@ -125,7 +216,7 @@ TLDR: RTFM & STFW http://www.catb.org/esr/faqs/smart-questions.html#rtfm
 
 In general, I've found site specific forms and Reddit to be the best platforms for most things, with some others finding their main following in other places though. For example, I'm in a large technical chat group with Furries on Telegram and some open source tools still thrive on IRC. Also, if your reaction to that is "Furries? How can that be relevant?" Well, normally it's not. Most of what we talk about is just normal engineering-y topics, but having something else in common helps. That said, there's more cross over in any community than you might think:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Custom protogen commission auction Now up ! <br><br>watch the video for more details<a href="https://t.co/TAeAPNtVEB">https://t.co/TAeAPNtVEB</a><br><br>auction link:<a href="https://t.co/Q7ZxERjZW5">https://t.co/Q7ZxERjZW5</a> <a href="https://t.co/aq5iM2nOVE">pic.twitter.com/aq5iM2nOVE</a></p>&mdash; Expensive black cheese (@JtingF) <a href="https://twitter.com/JtingF/status/1215796334420094977?ref_src=twsrc%5Etfw">January 11, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/VWSfo0KpTMI" title="Protogen mouth sync test" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 No matter what you care about, know there's a wide range of communities that would be thrilled to have you, and you can always combine what you learn here with any of the other interests you have to make the things you're passionate about better!
 
@@ -133,7 +224,8 @@ No matter what you care about, know there's a wide range of communities that wou
 
 The maker and hacker communities tend to focus a lot on popularity and getting your name out there. While obviously it's cool to do so, don't let likes and followers be your motivation. Make cool things to make cool things, and people will come. The number one best thing to see on the internet is someone that is passionate about something sharing those passions. It's better to have a dozen good friends that share those passions, than 25k followers that just go 'oh, neat' anyway.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Popularity doesn&#39;t matter (1/2) <a href="https://t.co/ae1VV2uocc">pic.twitter.com/ae1VV2uocc</a></p>&mdash; 🝧 Wolfy Vero 🝧 (@Wonivero) <a href="https://twitter.com/Wonivero/status/1317493393631571968?ref_src=twsrc%5Etfw">October 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<img src="/nonfree/permissiongranted/twitter/woni/woniComic.webp" alt="Art by Wonivero" style="border-radius:50px;">
+{{< attribution >}} Art by [@Wonivero](https://linktr.ee/wonivero) {{< attribution >}}
 
 ## Further reading 
 

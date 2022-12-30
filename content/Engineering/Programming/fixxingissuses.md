@@ -22,6 +22,8 @@ What are your conditions for success? Are you even testing for these conditions 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The author posted this video in the comments. It&#39;s a truck full of traffic lights. <a href="https://t.co/h2LwyL65ck">pic.twitter.com/h2LwyL65ck</a></p>&mdash; FSD in 6 months (@FSD_in_6m) <a href="https://twitter.com/FSD_in_6m/status/1400207129479352323?ref_src=twsrc%5Etfw">June 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+{{< smalltext >}} [Archive.org backup of Twitter embed](https://web.archive.org/web/20210604001818/https://twitter.com/FSD_in_6m/status/1400207129479352323){{< /smalltext >}}
+
 # 🐜 Actually use a debugger
 
 For some reason a ton of programmers are allergic to their debuggers. There's more to life than print debugging. Set a break point. You can do it. I believe in you.

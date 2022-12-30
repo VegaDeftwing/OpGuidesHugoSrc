@@ -222,7 +222,7 @@ But then we come to the real solution: If you want to have a closed species, you
 
 So next time you're thinking about calling your Lynx-duck hybrid a closed species, 
 
-<iframe src="https://giphy.com/embed/KYLLQg2fqs5blnO4sj" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/velma-stop-that-you-KYLLQg2fqs5blnO4sj"></a></p>
+![youstopthat](/memes/youstopthat.webp)
 
 <ol hidden id="footnotes">
 	<li>Microsoft Corporation.  “MICROSOFT VISUAL BASIC/VISUAL C++ 6.0 ENTERPRISE EDITIONS” <a href="download.microsoft.com/documents/useterms/Visual%20Basic%20Enterprise_6.0_English_11762fc4-f3b9-4bf5-a513-b4a9b76b4f60.pdf">availabe here</a>  3 Jun 2020</li>

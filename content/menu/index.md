@@ -90,7 +90,7 @@ headless: true
     <dt class="sub">.7 </dt><dd class="sub"> <a href="/engineering/programming/intro/prog7logic"> logic & Functions</a></dd>
     <dt class="sub">.8 </dt><dd class="sub"> <a href="/engineering/programming/intro/prog8oo"> Data Structures</a></dd>
     <dt class="sub">.9 </dt><dd class="sub"> <a href="/engineering/programming/intro/prog9stdlib"> Libraries</a></dd>
-    <dt class="sub">.10</dt><dd class="sub"> <a href="/engineering/programming/intro/prog10"> Unnamed</a></dd>
+    <dt class="sub">.10</dt><dd class="sub"> <a href="/engineering/programming/intro/prog10"> Rest of the Owl</a></dd>
     <dt class="sub">.11</dt><dd class="sub"> <a href="/engineering/programming/intro/progendreal"> Getting Real</a></dd>
    </details> </dd>
 <dt>10½</dt><dd> <a href="/engineering/programming/consequences/">Consequences</a></dd>
@@ -168,9 +168,13 @@ headless: true
 
 <div class="progress-ww">
 <dl>
-<dt>38 </dt><dd> <a href="/engineering/networking/networking/">Networking</a></dd>
+     <dt>38 </dt><dd> <details id="netMenu"> <summary><a href="/engineering/networking/networking/">Networking</a></summary>
+    <dt class="sub">.1</dt><dd class="sub"> <a href="/engineering/networking/howyougothere"> How You Got Here</a></dd>
+	  <dt class="sub">.2</dt><dd class="sub"> <a href="/engineering/networking/osi"> OSI</a></dd>
+    <dt class="sub">.3</dt><dd class="sub"> <a href="/engineering/networking/tools"> Tools</a></dd>
+   </details> </dd>
 <dt>39 </dt><dd> <a href="/engineering/networking/servers/">Servers!</a></dd>
-<dt>39½</dt><dd> <a href="/engineering/networking/cloud/">"The Cloud"</a></dd>
+<dt>30½</dt><dd> <a href="/engineering/networking/cloud/">"The Cloud"</a></dd>
 <dt>40 </dt><dd> <a href="/engineering/networking/databases/">Databases</a></dd>
 <dt>41 </dt><dd> <a href="/engineering/networking/security/">Security & Exploitation</a></dd>
 <dt>41½</dt><dd> <a href="/engineering/networking/privacy/">Privacy</a></dd>

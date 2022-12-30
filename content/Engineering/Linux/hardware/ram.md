@@ -132,6 +132,8 @@ It may seem like RAM is simple enough as to not really have any opportunities fo
 
 This article, [In-Memory Processing by UPMEM](https://www.anandtech.com/show/14750/hot-chips-31-analysis-inmemory-processing-by-upmem), from AnandTech goes into the former, while the [Intel Optane Persistent Memory](https://www.storagereview.com/news/intel-optane-dc-persistent-memory-module-pmm) article from StorageReview and [this video from Linus Tech Tips](https://www.youtube.com/watch?v=uHAfTty9UWY) cover the latter.
 
+It's also very likely we'll see new form factors as we run into problems with signal integrity. We're already seeing the start of this with laptop's ([CAMM Memory (Linus Tech Tips)](https://www.youtube.com/watch?v=WXp4g-KzdAI)) but given the signal integrity woes at hand and the rapid progress of stacking silicon in recent years, it's not even out of the question we'll see it be be on a silicon interposer soon- RIP upgradability, but hello speed.
+
 ## Row Hammer
 
 {{< columns >}}

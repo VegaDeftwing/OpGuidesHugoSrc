@@ -39,6 +39,6 @@ HID or Human Interface Device, is the standard over which most mice, keyboards, 
 
 [What Happens When (Github)](https://github.com/alex/what-happens-when)
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here&#39;s a terrible idea for a keyboard that I&#39;m annoyed I didn&#39;t invent first.<br>Type out morse code by closing your laptop lid! <br><br>from <a href="https://t.co/FfXB2etRUu">https://t.co/FfXB2etRUu</a> <a href="https://t.co/YMJ5XVm8io">pic.twitter.com/YMJ5XVm8io</a></p>&mdash; foone (@Foone) <a href="https://twitter.com/Foone/status/1245610381600382976?ref_src=twsrc%5Etfw">April 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<video width="100%" src="/memes/morse2-spiffyapprehensivecockerspaniel.mp4" controls></video>
 
-# 
+{{< attribution >}} by [u/veggiedefender](https://www.reddit.com/r/ProgrammerHumor/comments/ft97ie/typing_in_morse_code_by_opening_and_closing_my/) {{< /attribution >}}

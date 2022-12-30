@@ -480,7 +480,15 @@ source patching, binary patching
 
 https://github.com/rby90/Project-Based-Tutorials-in-C
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Five Seconds of Donkey Kong. <a href="https://twitter.com/hashtag/plottertwitter?src=hash&amp;ref_src=twsrc%5Etfw">#plottertwitter</a><br><br>The NES has 2048 bytes of RAM. I snapshotted the RAM at each frame (60 fps) during 5 seconds of gameplay and plotted time series of the ones that changed at least once. <a href="https://t.co/rtPT0mHiLD">pic.twitter.com/rtPT0mHiLD</a></p>&mdash; Michael Fogleman (@FogleBird) <a href="https://twitter.com/FogleBird/status/954464508705234944?ref_src=twsrc%5Etfw">January 19, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< columns >}}
+
+<--->
+
+<img src="/fairuse/twitter/foglebird.webp" alt=" " style="border-radius:25px;">
+
+{{< attribution >}} [@FogleBird](https://twitter.com/FogleBird/status/954464508705234944){{< /attribution >}}
+
+{{< /columns >}}
 
 [Fast Inverse Square Root - A Quake III Algorithm (YouTube)](https://www.youtube.com/watch?v=p8u_k2LIZyo)
 

@@ -58,6 +58,8 @@ Google also needs to quit their shit with information cards:
 
 <blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/FPQnLW60Vt">pic.twitter.com/FPQnLW60Vt</a></p>— Randall Munroe (@xkcd) <a href="https://twitter.com/xkcd/status/1333621855001976832?ref_src=twsrc%5Etfw">December 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+{{< attribution >}}[Archive.org backup of tweet](https://web.archive.org/web/20211121235409/https://twitter.com/xkcd/status/1333618685882363904){{< /attribution >}}
+
 And it'd be great if something could actually be done about big sites like [Pinterest and Quora gaming Google](https://www.inputmag.com/culture/pinterest-sucks-google-image-photo-search-ruining-internet).
 
 There is some progress being made here, as [Google Says AI Generated Content Is Against Guidelines](https://www.searchenginejournal.com/google-says-ai-generated-content-is-against-guidelines/444916/); however, a user on Hacker News had an interesting take on this:
@@ -170,6 +172,8 @@ Newer versions of Android actually do this really well, including the ability to
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Search is the biggest scam in UI now. It almost never works. How do you find stuff that is not in your top 10 results of mini snippets? We need more explorative interfaces taking advantage of context and association. <a href="https://t.co/RC1BEekf3X">pic.twitter.com/RC1BEekf3X</a></p>&mdash; Marcin Ignac (@marcinignac) <a href="https://twitter.com/marcinignac/status/1400806180797231104?ref_src=twsrc%5Etfw">June 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+{{< smalltext >}}[Archive.org backup of the above tweet](https://web.archive.org/web/20220809134626/https://twitter.com/marcinignac/status/1400806180797231104){{< /smalltext >}}
+
 ![](https://obsidian.md/images/screenshot.png)
 
 {{< attribution >}}
@@ -188,9 +192,24 @@ The digital world doesn't have to be lonely pages indexed like a book, why are w
 
 {{< /attribution >}}
 
-Obviously this overly linked system is something that people would need to get used to. Until the advent of the WWW we've read information linearly, page by page. The web has allowed this tree traversal style of navigation so that any missed topic can be reviewed, but generally this is a system where the tree only builds down, to simpler information, from the current node. It seems weird to think about an algebra book where it suddenly references multidimensional calculus, but this is exactly what I'm implying. In my education there was uncountable times I had to learn something because 'it will be used later' with no explanation as to how or why. Linking back up the tree allows for information traversal in both directions, eliminating this problem.
+{{< columns >}}
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Imagine if you could search through concept-space <a href="https://t.co/U3fSZaN8hR">pic.twitter.com/U3fSZaN8hR</a></p>&mdash; Azlen Elza (@azlenelza) <a href="https://twitter.com/azlenelza/status/1356884394628108289?ref_src=twsrc%5Etfw">February 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Obviously this overly linked system is something that people would need to get used to. Until the advent of the WWW we've read information linearly, page by page. The web has allowed this tree traversal style of navigation so that any missed topic can be reviewed, but generally this is a system where the tree only builds down, to simpler information, from the current node. 
+
+<--->
+
+<div>
+<img src="/hci/Azlen.webp" style="border-radius:10px 10px 0px 0px;display: block;">
+
+<video src="/hci/Azlen.mp4" width="100%" style="display: block;" controls loop></video>
+
+</div>
+
+{{< attribution >}}[@azlenelza](https://twitter.com/azlenelza/status/1356884394628108289){{< /attribution >}}
+
+{{< /columns >}}
+
+It seems weird to think about an algebra book where it suddenly references multidimensional calculus, but this is exactly what I'm implying. In my education there was uncountable times I had to learn something because 'it will be used later' with no explanation as to how or why. Linking back up the tree allows for information traversal in both directions, eliminating this problem.
 
 ## Presentation of Information Sucks
 
@@ -315,6 +334,8 @@ What I do know is that trusting the YouTube or Facebook or Twitter algorithm to 
 Meanwhile, legislation that has been passed to try to fix some of this often results in other issues, like all the 'Can we give you cookies?' prompts on websites: [Why The Web Is Such A Mess (Youtube - Tom Scott)](https://www.youtube.com/watch?v=OFRjZtYs3wY&ab_channel=TomScott)
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Imagine: drag to select text, pinch to summarize, vertical unpinch to generate alternatives, *inspiration*, record new sentence to replace the old one<br><br>And voilà, you&#39;ve explored multiple directions on the landscape of meaning and rewrote a sentence in just a few moments<br><br>4/4 🧵 <a href="https://t.co/LlcmcY3kpw">pic.twitter.com/LlcmcY3kpw</a></p>&mdash; Azlen Elza (@azlenelza) <a href="https://twitter.com/azlenelza/status/1331623023460421632?ref_src=twsrc%5Etfw">November 25, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+{{< smalltext >}}[Backup of thread on Archive.org](https://web.archive.org/web/20220720072949/https://twitter.com/azlenelza/status/1331623023460421632){{< /smalltext >}}
 
 ### Updates after Initial Draw
 
@@ -575,7 +596,11 @@ Most web pages are reasonably small, especially if you ignore java script crap. 
 
 There are tools that do this already (like [Archivebox](https://archivebox.io)) which can be automated but it's still not user friendly to normies. There are also sites like [Wayback Machine](https://archive.org/web/) and [Perma.cc](https://perma.cc) that will save copies of websites for you and provide a link that should always work, even if the website goes down or the address changes, but again, this is a bit of a pain. It also can lead to copyright issues for these services.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Why can’t you easily search all of the text you read on any screen (desktop + mobile) over the past day?<br><br>It’s strange how much obvious, low-hanging fruit of this form still exists.</p>— Patrick Collison (@patrickc) <a href="https://twitter.com/patrickc/status/953011978217205760?ref_src=twsrc%5Etfw">January 15, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< quote "[Patrick Collison](https://twitter.com/patrickc) (Stripe CEO)" >}}
+
+Why can’t you easily search all of the text you read on any screen (desktop + mobile) over the past day? It’s strange how much obvious, low-hanging fruit of this form still exists.
+
+{{< /quote >}}
 
 ### Physical Interaction
 

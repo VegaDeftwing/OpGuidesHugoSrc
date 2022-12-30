@@ -14,6 +14,8 @@
 
   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">turns out placing 900 resistors does not get you banned from SMD assembly service after all 😇 <a href="https://t.co/3iu3zL5TLi">pic.twitter.com/3iu3zL5TLi</a></p>&mdash; Marco Reps (@MarcoReps) <a href="https://twitter.com/MarcoReps/status/1344720545703747589?ref_src=twsrc%5Etfw">December 31, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+  {{< smalltext >}} [Backup of the above tweet on archive.org](https://web.archive.org/web/20211127065439/https://twitter.com/MarcoReps/status/1344720545703747589){{< /smalltext >}}
+
 * List of nixie tube types: https://justanotherelectronicsblog.com/?p=228
 
 * DIY Particle Detector
@@ -100,10 +102,6 @@
   
 * Also see this [PCIe -> 12x mPCIE carrier board](https://www.tindie.com/products/alftel/pci-express-carrier-board-for-x12-m2-radio-cards/)
 
-* This obnoxious use of SMD assembly service
-
-  <blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">turns out placing 900 resistors does not get you banned from SMD assembly service after all 😇 <a href="https://t.co/3iu3zL5TLi">pic.twitter.com/3iu3zL5TLi</a></p>&mdash; Marco Reps (@MarcoReps) <a href="https://twitter.com/MarcoReps/status/1344720545703747589?ref_src=twsrc%5Etfw">December 31, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  
 * [7-color E-ink screens](https://core-electronics.com.au/guides/colour-e-ink-display-raspberry-pi/)
 
 * [Rope Core Drum Machine](https://hackaday.com/2022/11/06/rope-core-drum-machine/)

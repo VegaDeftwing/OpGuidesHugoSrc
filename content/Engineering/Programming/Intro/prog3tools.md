@@ -42,40 +42,8 @@ and save it as` hello.py`. Again navigate to where it is stored and now just run
 
 {{< tab "Windows" >}}
 
-<div class="progress-ww">
-<dl>
-<!--<dt>10 </dt><dd> <a href="/engineering/programming/codeintro/">Let's Write Some Code</a>-->
-</dd>
-    <dt>10 </dt><dd> <details id="codeMenu"> <summary><a href="/engineering/programming/intro/prog0intro">Let's Write Some Code</a></summary>
-    <dt class="sub">10.1</dt><dd class="sub"> <a href="/engineering/programming/intro/prog1math"> It's Math?</a></dd>
-	  <dt class="sub">10.2</dt><dd class="sub"> <a href="/engineering/programming/intro/prog2turtle"> Turtles!</a></dd>
-    <dt class="sub">10.3</dt><dd class="sub"> <a href="/engineering/programming/intro/prog3tools"> Getting Tools</a></dd>
-    <dt class="sub">10.4</dt><dd class="sub"> <a href="/engineering/programming/intro/prog4comments"> Comments++</a></dd>
-    <dt class="sub">10.5</dt><dd class="sub"> <a href="/engineering/programming/intro/prog5two"> 2 for 1</a></dd>
-    <dt class="sub">10.6</dt><dd class="sub"> <a href="/engineering/programming/intro/prog6types"> Types</a></dd>
-    <dt class="sub">10.7</dt><dd class="sub"> <a href="/engineering/programming/intro/prog7logic"> logic & Functions</a></dd>
-    <dt class="sub">10.8</dt><dd class="sub"> <a href="/engineering/programming/intro/prog8oo"> Data Structures</a></dd>
-    <dt class="sub">10.9</dt><dd class="sub"> <a href="/engineering/programming/intro/prog9stdlib"> Libraries</a></dd>
-    <dt class="sub">10.10</dt><dd class="sub"> <a href="/engineering/programming/intro/prog10"> Unnamed</a></dd>
-    <dt class="sub">10.11</dt><dd class="sub"> <a href="/engineering/programming/intro/progendreal"> Getting Real</a></dd>
-   </details> </dd>
-<dt>10½</dt><dd> <a href="/engineering/programming/consequences/">Consequences</a></dd>
-<dt>11 </dt><dd> <a href="/engineering/programming/lowlvl/">Low Level Programming</a></dd>
-<dt>11½</dt><dd> <a href="/engineering/programming/fosscopyright/">FOSS & Copyright</a></dd>
-<dt>12 </dt><dd> <a href="/engineering/programming/codecont/">Yet More Programming</a></dd>
-<dt>12½</dt><dd> <a href="/engineering/programming/fixxingissuses/">Fixing Issues</a></dd>
-<dt>13 </dt><dd> <a href="/engineering/programming/languages/">Programming Languages</a></dd>
-<dt>14 </dt><dd> <a href="/engineering/programming/algorithms/">Algorithms and More</a></dd>
-<dt>15 </dt><dd> <a href="/engineering/programming/bigprog/">Writing a Big Program</a></dd>
-<dt>16 </dt><dd> <a href="/engineering/programming/debugbuildtest/">Debugging, CI & CD</a></dd>
-<dt>17 </dt><dd> <a href="/engineering/programming/multithread/">We've Got Cores!</a></dd>
-<dt>18 </dt><dd> <a href="/engineering/programming/guiprog/">Graphical Programming</a></dd>
-<dt>19 </dt><dd> <a href="/engineering/programming/shaders/">Shaders + GpGPU</a></dd>
-<dt>20 </dt><dd> <a href="/engineering/programming/game/">Game Programming</a></dd>
-<dt>21 </dt><dd> <a href="/engineering/programming/funcprog/">(((())(()((()(()))))))</a>
-</dd>
-</dil>
-</div>
+[TODO] Win
+
 
 {{< /tab >}}
 

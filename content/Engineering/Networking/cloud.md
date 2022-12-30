@@ -22,6 +22,8 @@ For personal stuff, well, posts like [My forgotten account has a $20,000 bill, h
 
 <blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Hey friends,<br><br>I have a panicked student in my DMs who’s accidentally racked up an $8k AWS bill. <br><br>My suggestion of “talk to Support” is no good—apparently they won’t issue a billing adjustment. Anybody got better ideas, or know someone at AWS who can help them out?<br><br>RT for reach?</p>&mdash; Alex Chan (@alexwlchan) <a href="https://twitter.com/alexwlchan/status/1399095011178958851?ref_src=twsrc%5Etfw">May 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+{{< smalltext >}} [Archive.org backup of the above tweet](https://web.archive.org/web/20211207154859/https://twitter.com/alexwlchan/status/1399095011178958851){{< /smalltext >}}
+
 None of this is to say AWS is bad. Their security is great, the API easy to use, etc. etc., it's just that *economically* it's not as if "The Cloud" is a magic solution to all your problems. If anything, it's making things worse.
 
 All of that said, "The Cloud" isn't going anywhere. AWS, Azure, and Google Cloud probably host the vast majority of websites you visit and the backends for apps you use. So we may as well understand it... if for no other reason than to be able to hold educated arguments against it.

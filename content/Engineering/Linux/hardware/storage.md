@@ -132,7 +132,17 @@ Most fixed disk enclosures (Think your normal, off the shelf portable driver) su
 
 Most off-the-shelf flash drives have ass cooling and will over-heat themselves to death when you use them for things like installing operating systems regularly, so I recommend just getting a bulk pack of cheap, low capacity ones to toss when they finally kick the bucket and a few nice USB->SATA or USB->NVMe adapter for your main portable storage needs. Failing that, you can always use your phone if you've got a nice high capacity SD card in it or plenty of spare internal storage. The problem with that is MTP or 'Media Transfer Protocol' is a buggy, slow mess, and there's no other clean way to transfer things from a phone. So ¯\\_(ツ)_/¯
 
-<blockquote class="twitter-tweet"><p lang="ro" dir="ltr">Recuperación de datos de µSD nivel: F*cking Master of the Universe. <a href="https://t.co/B9egCrW4WJ">pic.twitter.com/B9egCrW4WJ</a></p>&mdash; ChuxMan Skywalker (@MrChuxMan) <a href="https://twitter.com/MrChuxMan/status/1288054419985248257?ref_src=twsrc%5Etfw">July 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< columns >}}
+
+Of course, one thing to remember is how hard it is to recover data from your portable media should something go wrong - don't trust that SD card to never fail:
+
+<--->
+
+<img src="/fairuse/other/sdcard.webp" alt="Many pins probing an SD card" style="border-radius:25px;">
+
+{{< attribution >}}Source: [blog.acelab.eu.com](https://blog.acelab.eu.com/pc-3000-flash-spider-board-adapter-how-to-use-it.html) {{< /attribution >}}
+
+{{< /columns >}}
 
 You might also want to look into [Hard Drive Shucking](https://www.ifixit.com/News/46724/how-to-find-useful-discounted-disks-inside-an-external-hard-drive) if you're in need of as much storage as you can get your grubby lil' [r/DataHoarder](https://www.reddit.com/r/DataHoarder/) hands onto.
 

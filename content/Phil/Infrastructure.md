@@ -46,6 +46,8 @@ Where you're born determines if you have access to even basic needs
 
 [College Campuses Are Designed at Human-Scale. Our Cities Can Be Too. (StrongTowns.org)](https://www.strongtowns.org/journal/2021/1/6/college-campuses-as-a-model-for-urban-planning)
 
+[Turns Out, Mandatory Helmet Laws Make Cyclists Less Safe (bicycling.com)](https://www.bicycling.com/culture/a29802208/helmet-laws-safety/)
+
 ## Payment Systems
 
 https://twitter.com/flipper_zero/status/1567194641610465281

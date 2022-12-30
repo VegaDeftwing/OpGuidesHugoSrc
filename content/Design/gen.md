@@ -398,6 +398,8 @@ Noisedeck is a generative art synth. Still in early development. Some features r
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Five months ago, we had an idea for a simple app to make generative art accessible to everyone. It&#39;s rapidly matured into a remarkable app, and found its way into the workflow of a small (but growing!) base of talented creators.<br><br>Thank you! We&#39;re excited about what&#39;s next. ✨ <a href="https://t.co/7KpkFNjv99">pic.twitter.com/7KpkFNjv99</a></p>&mdash; noisedeck (@noisedeck) <a href="https://twitter.com/noisedeck/status/1378936586138759169?ref_src=twsrc%5Etfw">April 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+[Archive.org link to the embedded tweet](https://web.archive.org/web/20210405050500/https://twitter.com/noisedeck/status/1378936586138759169)
+
 {{< /columns2 >}}
 
 {{< columns2 >}}
@@ -422,9 +424,13 @@ Has a neat code editor too, for making more complex geometry
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Thank you!! <a href="https://t.co/XhuJw0V3n5">pic.twitter.com/XhuJw0V3n5</a></p>&mdash; Miguel Rafael (@migrafael) <a href="https://twitter.com/migrafael/status/1357024329754632194?ref_src=twsrc%5Etfw">February 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+[Archive.org backup of the above tweet (Video doesn't work)](https://web.archive.org/web/20210203175334/https://twitter.com/migrafael/status/1357024329754632194)
+
 <--->
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">楽しい<a href="https://t.co/7RAyBn2VOl">https://t.co/7RAyBn2VOl</a> <a href="https://t.co/F1CcsaHqBd">https://t.co/F1CcsaHqBd</a> <a href="https://t.co/e3tfTLsN3x">pic.twitter.com/e3tfTLsN3x</a></p>&mdash; Jun Kanomata (@jun_kanomata) <a href="https://twitter.com/jun_kanomata/status/1357021829613846532?ref_src=twsrc%5Etfw">February 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+[Archive.org backup of the above tweet (gif doesn't work)](https://web.archive.org/web/20210203174325/https://twitter.com/jun_kanomata/status/1357021829613846532)
 
 {{< /columns2 >}}
 

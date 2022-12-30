@@ -26,19 +26,11 @@ You'll probably end up googling how to do most things in {{< katex >}}\LaTeX{{< 
 
 While writing can be hard, it's worth doing it right: I particularly like [using annotated equations](https://github.com/synercys/annotated_latex_equations) (or like [this](https://twitter.com/AndiH/status/1481170553218252804/photo/1)) and using [margin notes](https://www.overleaf.com/learn/latex/Margin_notes) though it's likely that neither would be accepted in all academic contexts. Generally, just keep in mind, your goal is to convey as much information as clearly as you can in as few words as possible.
 
-{{< columns >}}
-
-You'll likely use Bibtex for citing sources in your document, fortunately, a lot of papers have built in Bibtex citations you can download and import and your sources document. [Litmaps](https://app.litmaps.co) is an awesome tool for building up research on a topic, exploring related tools, and exporting bibtex sources as well - though it is probably only free while in early access.
+You'll likely use Bibtex for citing sources in your document, fortunately, a lot of papers have built in Bibtex citations you can download and import and your sources document. [Litmaps](https://app.litmaps.co)<a class="ptr">(1)</a> is an awesome tool for building up research on a topic, exploring related tools, and exporting bibtex sources as well - though it is probably only free while in early access.
 
 You may also want to check out [Connectedpapers.com](https://www.connectedpapers.com) if you're more interested in the research side, and one of the links listed for each paper does still usually have the bibtex available.
 
 Keep in mind if you need the full text of a paper, [Sci-Hub](https://en.wikipedia.org/wiki/Sci-Hub) is an option
-
-<--->
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Litmaps lets you visualise your key literature, iteratively expand your research, and notify you as new articles connect to your maps. Try it out: <a href="https://t.co/uTwd9yHUjW">https://t.co/uTwd9yHUjW</a> <a href="https://t.co/n3lO8yQ4Jg">pic.twitter.com/n3lO8yQ4Jg</a></p>&mdash; Litmaps (@LitmapsApp) <a href="https://twitter.com/LitmapsApp/status/1384737052516765699?ref_src=twsrc%5Etfw">April 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-{{< /columns >}}
 
 ---
 
@@ -159,3 +151,7 @@ For S&Gs, check out this StackExchange question: "[How do I make my document loo
 
 
 If you would like to practice with at least one flavor of Markdown (with [Hugo](https://gohugo.io) 'Shortcodes', {{< katex >}}\LaTeX{{< /katex >}}, HTML, CSS, and more baked in poorly), feel free to find a page in need of love on this website and submit a pull request on GitHub.
+
+<ol hidden id="footnotes">
+<li>I <b>REALLY</b> like litmaps. Honestly, 11/10 for product design. The only reason it doesn't have an OpGuides best of badges is because I really don't like SAAS, but at least they have a free tier.</li>
+</ol>

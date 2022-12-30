@@ -117,13 +117,23 @@ Look, I'm not against protecting kids online, no 8-year-old should be exposed to
 
 ### GDPR (They tried)
 
+{{< columns >}}
+
 {{< tip >}}
 
 Note, unlike the rest of the items in this list, the GDPR is NOT legislation from the United States, instead it's applicable to all EU residents
 
 {{< /tip >}}
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">US websites when they don&#39;t want to comply to the GDPR:<br><br>&quot;Sorry, we want to track you, but because of EU&#39;s GDPR, we can&#39;t, so f* off, we won&#39;t show you our website&#39;s content.&quot; <a href="https://t.co/70LuYcYotH">pic.twitter.com/70LuYcYotH</a></p>&mdash; Samantaz (@SamantazFox) <a href="https://twitter.com/SamantazFox/status/1340624879234781185?ref_src=twsrc%5Etfw">December 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<--->
+
+<img src="/fairuse/twitter/samantaz.webp" alt="The Virginian-Pilot website: Unfortunately, our website is currently unavailable in most European countries. We are engaged on the issue and committed to looking at options that support our full range of digital offerings to the EU market. We continue to identify technical compliance solutions that will provide all readers with our award-winning journalism." style="border-radius:25px;">
+
+{{< attribution >}} [@SamantazFox](https://twitter.com/SamantazFox) / https://samantaz.fr{{< /attribution >}}
+
+{{< /columns >}}
+
+
 
 ### EARN IT (Breaking things more)
 

@@ -160,6 +160,10 @@
 
 * [So long and thanks for all the bits](https://www.ncsc.gov.uk/blog-post/so-long-thanks-for-all-the-bits)
 
+* [A story about Minecraft's ending story (which itself is beautiful)](https://theeggandtherock.substack.com/p/i-wrote-a-story-for-a-friend)
+
+* [Cory Doctorow talks about Big Tech, Crypto, and sci-fi (The New Yorker)](https://www.newyorker.com/culture/the-new-yorker-interview/cory-doctorow-wants-you-to-know-what-computers-can-and-cant-do)
+
   
 
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>

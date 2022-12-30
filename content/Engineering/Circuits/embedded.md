@@ -269,7 +269,9 @@ Your **I**nstruction **S**et **A**rchitecture (ISA)
 
 ## Other weird and cool projects:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">a lot of people have been mocking this video but having tried it, I can confirm this is actually the most reliable way to fake keyboard events on windows 10. <a href="https://t.co/kTz5a6YlTI">https://t.co/kTz5a6YlTI</a></p>&mdash; foone (@Foone) <a href="https://twitter.com/Foone/status/1247233159596367883?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!--- <blockquote class="twitter-tweet"><p lang="en" dir="ltr">a lot of people have been mocking this video but having tried it, I can confirm this is actually the most reliable way to fake keyboard events on windows 10. <a href="https://t.co/kTz5a6YlTI">https://t.co/kTz5a6YlTI</a></p>&mdash; foone (@Foone) <a href="https://twitter.com/Foone/status/1247233159596367883?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> This tweet is archived at https://web.archive.org/web/20220117015343/https://twitter.com/null4bl3/status/1247032404990210053 but as I can't DL the video easily and rehost here, it's just not a good experiance, so for now, it'll stay commented out --->
+
+
 
 [Of Course It Leaks!](https://groups.google.com/forum/message/raw?msg=comp.lang.ada/E9bNCvDQ12k/1tezW24ZxdAJ)
 
@@ -306,6 +308,8 @@ I **really** want to make this clear: Arduino is a framework. Not a specific har
 [The 'Black Pill' (STM32F411) is replacing the 'Blue Pill' (STM32F103) (Hackaday)](https://hackaday.com/2021/01/20/blue-pill-vs-black-pill-transitioning-from-stm32f103-to-stm32f411/)
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">First up is the brains of the operation: an STM32F103. Not a lightweight chip: It&#39;s a Cortex M3 @ 72MHz. It&#39;s got 256kB of flash and 48kB of RAM and that&#39;s a 100-pin TQFP package!<a href="https://t.co/oPCeo7XMpe">https://t.co/oPCeo7XMpe</a> <a href="https://t.co/niDPuIFBPT">pic.twitter.com/niDPuIFBPT</a></p>&mdash; Stargirl 🌠 (@theavalkyrie) <a href="https://twitter.com/theavalkyrie/status/1328555704676913153?ref_src=twsrc%5Etfw">November 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+{{< smalltext >}} [Archive.org link to Tweet](https://web.archive.org/web/20201117043019/https://twitter.com/theavalkyrie/status/1328555704676913153){{< /smalltext >}}
 
 [Getting Started in Robotics (Arthur Allshire's Blog)](https://allshire.org/getting-started-robotics/)
 
