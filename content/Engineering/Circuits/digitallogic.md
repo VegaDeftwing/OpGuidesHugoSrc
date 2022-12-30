@@ -1,4 +1,4 @@
-# Chapter 24 - Digital Logic
+# Chapter 25 - Digital Logic
 
 Digital logic is what it sounds like- it's doing logical operations on digital data - 1's and 0's; True and False. Chain some of (er, a lot of) these logical operations together and you can do anything you want! Want to make your own CPU? Done. Want to make dedicated circuitry to do what your code does but hundreds of times faster? This is the way to do it.
 

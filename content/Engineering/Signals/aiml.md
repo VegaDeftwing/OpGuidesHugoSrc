@@ -1,4 +1,4 @@
-# Chapter 32 - Fine, I'll talk about AI
+# Chapter 33 - Fine, I'll talk about AI
 
 {{< tip >}}
 

@@ -1,4 +1,4 @@
-### Lexical analysis
+# Lexical analysis
 
 <script>
     document.getElementById("compilersMenu").open = true;
@@ -21,7 +21,7 @@ syntax error: unknown token
 
 It's clear what the programmer meant, and spaces aren't meaningful except to separate numbers from each other. How can this be handled?
 
-### Creating Tokens
+## Creating Tokens
 
 The general philosophy is to group the characters from the input into *tokens*. That is, carriers of their meaning and metadata.
 
@@ -78,13 +78,13 @@ Later, we will discover a trap with this: how would you match `=` versus `==` fo
 
 But enough foreshadowing. There is one more key subject in this part.
 
-### Handling Errors
+## Handling Errors
 
 The example code just prints out the tokens, including errors. But if we are streaming our tokens to someone else, how do we handle errors?
 
 The easiest way -- and the way our code will do it -- is to create an "error token", and stop parisng any more tokens. We are relying on the code that called us to return that error to the user.
 
-### Putting it all together
+## Putting it all together
 
 Let's integrate that into our program.
 

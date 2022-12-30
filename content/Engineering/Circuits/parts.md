@@ -1,4 +1,4 @@
-# 23½ - Parts
+# 24½ - Parts
 
 When thinking about electronics, it's easy to focus on the bits that electricity actually flows though. This chapter is for everything else
 

@@ -1,5 +1,5 @@
 
-### Syntax analysis
+# Syntax analysis
 
 <script>
     document.getElementById("compilersMenu").open = true;

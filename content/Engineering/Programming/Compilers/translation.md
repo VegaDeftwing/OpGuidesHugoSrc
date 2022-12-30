@@ -1,4 +1,4 @@
-### Syntax-Directed Translation
+# Syntax-Directed Translation
 
 <script>
     document.getElementById("compilersMenu").open = true;

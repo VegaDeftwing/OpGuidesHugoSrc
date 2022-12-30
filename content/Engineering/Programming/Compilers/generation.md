@@ -1,4 +1,4 @@
-## Code Generation
+# Code Generation
 
 <script>
     document.getElementById("compilersMenu").open = true;
@@ -12,7 +12,7 @@ This is the part where the Intermediate Representation (IR) comes it. It is dete
 
 Fortunately, most of these libraries use similar concepts and representations, because they make the backends easy to implement and programs easy to optimize. In order to know what we're looking at, let's go through basic concepts first.
 
-### Basic Building Blocks: names, instructions, and blocks
+## Basic Building Blocks: names, instructions, and blocks
 
 A common representation of a program initially is a control-flow graph. Each node is called a *block*, and represents a single "chunk" of instructions with one entry point and multiple exits.
 
@@ -61,7 +61,7 @@ Remember that by the time we get to this phase, we already have our program as a
 It should be pretty easy to make one big block that contains a single rvalue each time the user presses enter. So let's do it!
 
 
-#### Setting up libgccjit
+### Setting up libgccjit
 
 While LLVM is popular, we'll use libgccgit. It is a library that ship with GCC to create an API for a [just-in-time compiler](https://en.wikipedia.org/wiki/Just-in-time_compilation), which is what we're really building here.
 
@@ -101,7 +101,7 @@ import gccjit
 
 This should then load successfully!
 
-### Use of libgccjit
+## Use of libgccjit
 
 In brief, here is the approach we should take according to the documentation. In response to each line being parsed:
 

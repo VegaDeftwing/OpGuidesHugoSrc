@@ -1,4 +1,5 @@
-GCC_INCLUDE_DIR ?= /usr/lib/gcc/x86_64-linux-gnu/10/include
+# This line may need changed depending on your distribution.
+GCC_INCLUDE_DIR ?= /usr/include
 GCC = gcc-10
 
 all: _gccjit.so

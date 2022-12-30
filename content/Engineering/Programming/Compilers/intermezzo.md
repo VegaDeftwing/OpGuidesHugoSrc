@@ -1,4 +1,4 @@
-### Intermezzo
+# Intermezzo
 
 <script>
     document.getElementById("compilersMenu").open = true;

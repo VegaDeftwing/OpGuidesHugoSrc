@@ -1,4 +1,4 @@
-# Chapter 26 - Let's make our own PCB
+# Chapter 27 - Let's make our own PCB
 
 **P**rinted **C**ircuit **B**orads look like something reserved for only big business, but that is very much so not the case. It's suprisingly cheap to get smaller boards made, espically if you're okay with waiting a week or two on international shipping. But, let me back up- what even is a PCB?
 

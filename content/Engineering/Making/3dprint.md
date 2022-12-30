@@ -1,4 +1,4 @@
-# Chapter 41 - 3D printing, CNC, and making things
+# Chapter 42 - 3D printing, CNC, and making things
 
 # 31.1 - Basic making
 

@@ -1,4 +1,4 @@
-# Chapter 23 - Circuits & Semiconductors
+# Chapter 24 - Circuits & Semiconductors
 
 {{< columns >}}
 
