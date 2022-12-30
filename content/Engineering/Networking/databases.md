@@ -1,4 +1,4 @@
-# Chapter 39 - Databases
+# Chapter 40 - Databases
 
 [TODO] Start with comparison to spreadsheet, explaining 'NoSQL' Vs 'SQL' and that this is Relational vs Non-Relational
 

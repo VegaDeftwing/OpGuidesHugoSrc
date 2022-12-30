@@ -245,3 +245,8 @@ $highlight4 : #2f3f32;
         border-color: $highlight3;
     }
 }
+
+.edgeLabel{ background-color: #333 !important; }
+.edgeLabel .label {
+    color:#fff !important;
+}
