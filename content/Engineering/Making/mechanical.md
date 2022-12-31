@@ -1,4 +1,4 @@
-# Mechanical Bits
+# Unpublished - Mechanical Bits
 
 Through all the Engineering pages I've focused on electrical and programming solutions, because those are what I know, but they are not always the right answer. For example, in [this Reddit post](https://www.reddit.com/r/arduino/comments/s0jnh9/what_kind_of_motor_can_i_use_for_this_i_need_a/) the author asks **"What kind of motor can I use for this? I need a lightweight pole to go from 0 to 90 degrees [as fast as possible]?"** and the answer really stuck out to me
 

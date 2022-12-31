@@ -1,4 +1,4 @@
-# Chapter 31 - Computer Vision
+# Chapter 32 - Computer Vision
 
 This page is still pretty empty, in the meantime, check out [The Ancient Secrets of Computer Vision](https://pjreddie.com/courses/computer-vision/) by Joseph Redmon and Ali Farhadi
 

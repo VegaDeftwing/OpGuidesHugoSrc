@@ -1,4 +1,4 @@
-# Chapter 35 - Let's try out programmable logic
+# Chapter 36 - Let's try out programmable logic
 
 {{< tip >}} Before we get started, please be sure you've read **Chapter 24 - Digital Logic** {{< /tip >}}
 

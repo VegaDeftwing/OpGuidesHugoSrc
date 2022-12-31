@@ -1,2 +1,3 @@
 .gramma.json
 .idea/
+**/__pycache__

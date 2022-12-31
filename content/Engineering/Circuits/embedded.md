@@ -1,4 +1,4 @@
-# Chapter 25 - Embedded Systems
+# Chapter 26 - Embedded Systems
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/571259885" width="100%" height="500" frameborder="0" allowfullscreen></iframe>
 
