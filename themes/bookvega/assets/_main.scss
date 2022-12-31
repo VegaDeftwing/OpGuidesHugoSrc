@@ -682,3 +682,9 @@ dt.sub, dd.sub {
 }
 
 dt.sub:after {content:':';}
+
+.iquestion {
+  padding: 1px 10px 1px 10px;
+  background: linear-gradient(90deg, #161616, #232323, #222222, #0000);
+  border-radius: 10px;
+}
