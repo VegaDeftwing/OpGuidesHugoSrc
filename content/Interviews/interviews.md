@@ -12,6 +12,7 @@ slug: "Interviews"
 - <a href="/interviews/kell/">Kell Bengal</a>
 - <a href="/interviews/taxbadger/">Tax Badger</a>
 - <a href="/interviews/spg/">Sex Positive Gaming</a>
+- <a href="/interviews/cendyne/">Cendyne</a>
 
 # If you would like to be interviewed
 

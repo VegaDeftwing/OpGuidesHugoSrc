@@ -194,9 +194,7 @@ So the companies with the best security to protect consumers fetter about in the
 
 So maybe a better model in the future is something like mastodon where the clients are studied, audited, and well understood by security professionals and anyone can host theirs and their friends data. Or even store it on github or google drive or iCloud, it does not matter. If I ran a password storage service on cloudflare KV for people, most would fit under 20KB I think and cost me less than a penny per friend. And if someone else doesn't like a client but does like the backend, they can find another or create their own.
 
-{{< iquestion >}}
 **The actual service costs to host encrypted password data is miniscule.**
-{{< /iquestion >}}
 
 What matters is having carefully vetted, carefully tested, and active offensive analysis of security tools used by people. A passwordless future is coming, but there will still be passwords.
 

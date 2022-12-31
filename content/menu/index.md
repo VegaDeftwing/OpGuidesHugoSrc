@@ -368,6 +368,7 @@ headless: true
 <dt> </dt><dd> <a href="/interviews/kell/">Kell Bengal</a></dd>
 <dt> </dt><dd> <a href="/interviews/taxbadger/">Tax Badger</a></dd>
 <dt> </dt><dd> <a href="/interviews/spg/">Sex Positive Gaming</a></dd>
+<dt> </dt><dd> <a href="/interviews/cendyne/">Cendyne</a>
 </dil>
 </div>
 
