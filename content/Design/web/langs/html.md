@@ -4,7 +4,7 @@
 
 <!--TODO: This page is fineeee but could really use a more gental introduction. I really just throw the reader to the wolves pretty quickly-->
 
-Alright, so **H**yper**T**ext **M**arkup **L**anguage is the one thing on this list I suspect everyone has at least a smidgen of familiarity with, and it's really very easy to work with, so let's just dive in.
+Alright, so **H**yper**T**ext **M**arkup **L**anguage is the one thing on this list I suspect everyone reading this page has at least a smidgen of familiarity with, and it's really very easy to work with, so let's just dive in.
 
 In general, you'll be working with a bunch of HTML **tags**, tags are these point-bracketed enclosed words that mean something special to the browser, let's actually make a HTML file right now to get started. Go ahead and open any plain text editor <a class="ptr">(1)</a>, and make a new file and name it whatever you want, just make sure to end it in `.html`
 
@@ -167,7 +167,7 @@ And, yeah, I just had to write some HTML by hand to show those, but the majority
 Also, if you dare to hit the <a href="https://github.com/VegaDeftwing/OpGuidesHugoSrc/tree/main/content//Design/web/langs/html.md" target="_blank" rel="noopener">
 <img src="/svg/edit.svg" class="book-icon" alt="Edit">
 <span>Edit this page</span>
-</a> link on this page or any other on the site, you may see that there's actually a third thing mixed in with the Markdown and HTML (well, like, 5th thing if you consider the occasional inline CSS and JS, but I digress) and that's the weird tags that look like `{{</* attribution */>}}` or `{{</* columns */>}}` or the like, these are special blocks that work with [Hugo](https://gohugo.io), the aforementioned tool I use to make OpGuides, and they basically just make it easy to reuse snippets of HTML. There's a good chance that whatever tools you use to make your website will offer something similar, as writing HTML directly can get quite cumbersome.
+</a> link on this page or any other on the site, you may see that there's actually a third thing mixed in with the Markdown and HTML (well, like, 5th thing if you consider the occasional inline CSS and JS, but I digress) and that's the weird tags that look like `{{</* attribution */>}}` or `{{</* columns */>}}` or the like, these are special blocks that work with [Hugo](https://gohugo.io), the aforementioned tool I use to make OpGuides, and they basically just make it easy to reuse snippets of HTML. There's a good chance that whatever tools you use to make your website will offer something similar, as writing HTML directly can get quite cumbersome if you're repeating the same thing over and over.
 
 <ol hidden id="footnotes">
     <li>Note, this means <b>NOT</b> Microsoft Word, but Notepad will work. If you want, now is a good time to grab https://code.visualstudio.com</li>
