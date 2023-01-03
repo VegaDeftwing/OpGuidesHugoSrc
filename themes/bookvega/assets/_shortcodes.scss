@@ -134,6 +134,20 @@
     }
   }
 
+  button {
+    display: inline-block;
+    line-height: $padding-16 * 1.1;
+    padding: .05em .5em;
+    border: $padding-1 solid white;
+    border-radius: $border-radius;
+    background:none;
+    height: 1.3em;
+    font-size: 1rem;
+    padding-top: 3px;
+    color: white;
+    border-color: white;
+  }
+
   a.eng {
     color: #42b9f3;
     border: $padding-1 solid #42b9f3;
