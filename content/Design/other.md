@@ -3,7 +3,15 @@ title: "Design, Other"
 slug: "Design, Other"
 
 ---
-# Mobile Apps for Art & Design
+# Other Resources
+
+{{< best >}} [Wonderbook](https://www.amazon.com/Wonderbook-Illustrated-Creating-Imaginative-Fiction/dp/1419704427/) {{< /best >}}
+
+![](/common/arrowthis.svg)
+
+I very rarely promote resources you have to pay to access on OpGuides. I am not paid to say this. I bought my own copy on a whim. This book is pure gold. It's about the written word, but will help any artist just as much. It is probably the most beautiful, lovingly hand crafted book I have ever read. It's full of character and art and beauty and words of wisdom that will make you think about what it means to be an Artist.
+
+## Mobile Apps for Art & Design
 
 | Name & Link                                                  | Description                                                  | Demo/Screenshot |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------- |

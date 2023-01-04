@@ -41,3 +41,8 @@ This series from Crash Course series is in progress at the time of writing, but 
 https://www.homebrewtalk.com
 
 [TODO] add nile red, cody's lab, and thought emporium specific links
+
+---
+
+[The man who tried to fake an element (BobbyBroccoli, YouTube)](https://www.youtube.com/watch?v=Qe5WT22-AO8)
+

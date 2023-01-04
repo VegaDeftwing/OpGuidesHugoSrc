@@ -228,7 +228,9 @@ As for the particulars there - maybe you are staunchly pro-life, anti-LGBT, etc.
 
 [xkcd #505](https://xkcd.com/505/)
 
+---
 
+[Absurdism | How to Party at the End of Meaning (Exurb1a, YouTube)](https://www.youtube.com/watch?v=Jv79l1b-eoI&list=FLFMnqfaTa1se1LfbCB3peJQ)
 
 <ol hidden id="footnotes">
     <li>Hint, hint - this post is a weee bit US centric. Still, this is a thing globally too.</li>
