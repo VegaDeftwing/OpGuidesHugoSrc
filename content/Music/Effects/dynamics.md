@@ -3,8 +3,9 @@
 <script>
     document.getElementById("effectMenu").open = true;
 </script>
-
 ## Distortion
+
+<!-- https://static.roland.com/assets/media/pdf/guitar_effects_guidebook_vol_20.pdf -->
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/erv4lit4aWY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
