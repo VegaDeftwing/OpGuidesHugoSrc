@@ -13,27 +13,102 @@
 
 ### Clipping (Soft & Hard)
 
-Clipping does exactly what it sounds like, it just chops off the wave. Usually on both the top and bottom. 
+Clipping does exactly what it sounds like, it just chops off the wave. While you can use it as an effect intentionally, it's origin - which you're likely to do on accident yourself - is from accidently driving a louder signal into something than it's meant to handle. When this happens, the portion of the incoming wave that is out of range is going to get chopped off no matter what, but there are mulitple ways than can happen: it can be **hard** or **soft**.
 
-{{< columns >}}
+Hard clipping will let the original signal pass though undistrubed until it crosses a threshold (positive or negative), at which point the value is snapped to that threshold. Soft clipping will start to bend the signal away as it gets close, avoiding the hard cut edges.
 
-**Hard Clipping**
-
-![hardclip](/music/hardclip.webp)
+Here, visually this should help:
 
 <!-- In code, hard clipping is as easy as two comparisons. You might be able to do some SSE voodoo to accelerate this. See https://stackoverflow.com/questions/427477/fastest-way-to-clamp-a-real-fixed-floating-point-value -->
 
-<--->
-
-**Soft Clipping**
-
-![softclip](/music/softclip.webp)
-
 <!-- Soft clipping will be more expensive than hard. Using an actually trig call like atan() will wreck you on some platforms, so probably either use a LUT or polynomial approximation. -->
 
-{{< /columns >}}
+<div id="softclip"> </div>
 
-The key takeaway from the two different kinds of clipping is that while both add harmonics, hard clipping adds **significantly** more. That is, it adds a lot more to the higher frequencies. Clipping often has gain to bring the signal back up to the same amplitude, but if this is done, it will usually be a few Loudness Units<a class="ptr">(1)</a> higher in volume. This is because more harmonics *sounds* louder.
+<div class="slidecontainer">
+  Gain: <input type="range" min="0" max="3" step="0.01" value="1" class="slider" id="softSlider">
+ Type: <button id="softButton">Hard</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+
+<script>
+var softHardSwitch = false;
+const softButton = document.getElementById('softButton');
+softButton.addEventListener('click', function() {
+	softHardSwitch = !softHardSwitch;
+	if(softHardSwitch){
+		softButton.textContent = `Soft`;
+	} else {
+		softButton.textContent = `Hard`;
+	}
+});
+var offset = 0;
+var strum = .6;
+var softSlider = document.getElementById("softSlider");
+function setup() { 
+  myCanvas = createCanvas(400, 200);
+  myCanvas.parent("softclip");
+} 
+function draw() { 
+  let softSliderVal = softSlider.value;
+  background(31);
+  stroke(100);
+  strokeWeight(4);
+  noFill();
+  vertex(0, height);
+  beginShape();
+  for(var x = -5; x < width + 10; x += 5){
+    var angle = offset + x * 0.04;
+    var xval = sin(angle) * softSliderVal
+	var y = map(xval , -strum, strum, 50, 150);
+    vertex(x, y);
+  }
+  endShape();
+  vertex(width, height);
+  stroke(196,72,199);
+  vertex(0, height);
+  beginShape();
+  for(var x = -10; x < width + 20; x += 3){
+    var angle = offset + x * 0.04;
+    var xval = sin(angle) * softSliderVal
+    if(softHardSwitch){
+        if(xval < -1){
+            xval = -2/3;
+        } else if (xval > 1){
+            xval = 2/3;
+        } else{
+            xval = xval - ((xval * xval * xval)/3);
+        }
+    } else {
+    	if(xval < -2/3){
+            xval = -2/3;
+        } else if (xval > 2/3){
+            xval = 2/3;
+        } else{
+            xval = xval;
+        }
+    }
+	var y = map(xval , -strum, strum, 50, 150);
+	endShape();
+    vertex(x, y);
+  }
+  vertex(width, height);
+  offset += 0.05;
+}
+</script>
+
+<!--- TODO: 1. Make this allow for multiple canvases. https://github.com/processing/p5.js/wiki/Global-and-instance-mode 2. Add actual audio and FFT stuff https://p5js.org/reference/#/p5.FFT --->
+
+<style>
+canvas {
+	width: 100%;
+}
+</style>
+
+The key takeaway from the two different kinds of clipping is that while both add harmonics (which is the whole point of distortion) hard clipping adds **significantly** more, furthermore, soft-clipping mostly adds even harmonics, while hard clipping will give you odd harmonics. That is, it adds a lot more to the higher frequencies. 
+
+If you inetionally use clipping, the effect will usually apply some gain to bring the signal back up to the same amplitude, but if this is done, it will usually be a few Loudness Units<a class="ptr">(1)</a> higher in volume. This is because more harmonics *sounds* louder. Mix with care.
 
 ### Waveshaping
 
@@ -50,6 +125,7 @@ The dashed line represents an example input and output. Because here the line is
 ![waveshaper](/music/waveshaper.svg)
 
 {{< /columns >}}
+
 
 ![waveshaping](/music/waveshaping.gif)
 
