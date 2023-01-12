@@ -1,6 +1,6 @@
 # Chapter 13 - Programming Languages
 
-<!-- TODO: https://pldb.com/lists/languages.html -->
+<!-- TODO: https://pldb.com/lists/languages.html , https://buttondown.email/hillelwayne/archive/microfeatures-id-like-to-see-in-more-languages/ , https://renato.athaydes.com/posts/unison-revolution.html , https://github.com/betaveros/noulith -->
 
 ```
 for (🥚 = 1; 🥚 < 🐔; 🥚++){
@@ -31,6 +31,8 @@ https://cs.lmu.edu/~ray/notes/syntaxdesign/
 [TODO] - a lot, talk about the varieties and differences of C and C++ and C# and why thery're good and bad, etc.
 
 [Best-of-C](https://blog.joren.ga/programming/best-of-c)
+
+https://www.learncpp.com
 
 ### Assembly
 
@@ -465,9 +467,3 @@ Look at {{< button relref="/Engineering/networking/databases" >}}Chapter 39: Dat
 <ol hidden id="footnotes">
     <li>Popular video game consoles and computers, such as the Atari 2600, Atari 8-bit family, Apple II, Nintendo Entertainment System, Commodore 64, Atari Lynx, BBC Micro and others, use the 6502 or variations of the basic design.</br>-from that same wikipedia article</li>
 </ol>
-
----
-
-TODO:
-
-https://github.com/betaveros/noulith

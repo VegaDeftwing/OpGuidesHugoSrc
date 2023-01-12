@@ -6,6 +6,12 @@
   {{ partial "docs/post-meta" . }}
   <p>
     {{- .Content -}}
+    {{- $jsFile := .Title | anchorize -}}
+    {{- $pathJS := (printf "%s%s%s" "js/posts/" $jsFile ".js" ) -}}
+
+    {{- if (fileExists (printf "%s%s" "static/" $pathJS)) -}}
+      <script type="text/javascript" src="{{ $pathJS | absURL }}"></script>
+    {{- end -}}
   </p>
 </article>
 {{ end }}

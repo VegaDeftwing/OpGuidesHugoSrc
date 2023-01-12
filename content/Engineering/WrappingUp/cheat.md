@@ -130,6 +130,8 @@ https://github.com/mitsuba-renderer/nanogui
 
 [Pyxel](https://github.com/kitao/pyxel) - "A retro game engine for Python"
 
+[NetworkX](https://networkx.org/documentation/stable/index.html) - "a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks"
+
 > Also see pyO3 in rust above, which allows for writing python modules. Of course python modules can be written [in C or C++](https://docs.python.org/3/extending/extending.html), but doing so in Rust is safer, because, Rust.
 
 > For Matplotlib, I do recommend looking at the available [Matplotlib colormaps](https://matplotlib.org/stable/tutorials/colors/colormaps.html) and [color map normalization](https://matplotlib.org/stable/tutorials/colors/colormapnorms.html#sphx-glr-tutorials-colors-colormapnorms-py) as the colors used to view your data can make a huge difference in how readable it is

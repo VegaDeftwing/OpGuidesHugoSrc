@@ -143,6 +143,8 @@ https://hackaday.com/2019/05/20/integrated-circuits-can-be-easy-to-understand-wi
 
 potato semi
 
+https://zeptobars.com/en/read/Ti-Texas-Instruments-LMC555CMX-555-CMOS
+
 ---
 
 [TODO] note on price of chips that solve bigger problems - integrated filters, PLLs, VCAs, basically everything on [this list](https://wiki.analog.com/resources/tools-software/linux-drivers-all#driver_list)

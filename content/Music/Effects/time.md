@@ -7,6 +7,8 @@
 
 <!-- There are a million ways to make a delay that's weird. Most basic? Make a ring buffer and add the signals, probably with a dry/wet mix. Less basic? IDK, add in multilpe taps on the ring buffer? Use random samples in the buffer? Change the sample rate of the buffer? Reverse the buffer occassionally? Go nuts.-->
 
+<!--- https://zeptobars.com/en/read/MN3207-1024-stage-analog-delay-line-CCD --->
+
 Delay is basically echo. Take a sound in, and repeat it it it. Normally the main controls on a delay are 'Time', which controls how long of a delay there is before each repeat, 'Feedback' which controls how much the level is reduced each time the delay repeats (and in turn, how many audible repetitions there are), and 'Dry/Wet' which controls how the signal is blended, entirely dry will have no delay, entirely wet may even miss the initial sound adding a weird latency before you hear what you're playing. Some delays have additional controls, obviously I can't cover every possible delay, but I'll try to cover most:
 
 Some delays instead of letting you set a delay time or 'tap' a delay tempo in to actually synchronize to a clock signal input which lets the delayed repetitions always be in time with the rest of the song.

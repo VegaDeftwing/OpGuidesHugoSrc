@@ -12,6 +12,8 @@ Don't undervalue just sitting down and listening to music, trying to figure out 
 
 # Theory
 
+<!--- https://www.smufl.org/fonts/ may be useful for this page --->
+
 I'm going to be honest. I can't read music and I don't know scales. Why, then, would I in any way think I'm qualified to write anything about music? Well, let me stop you right there, I'm not. I make music for fun. However, I like to think that people enjoy my music and I enjoy listening to it myself as I make it, and though my experience I've picked up a little here and there to make sure things don't sound awful. Furthermore, my background is primarily technical and there's actually an insane amount of overlap with the incredibly technical and music. Fundamentally music is just doing math with frequencies after all.
 
 Our ears are weird. They're incredibly good at math. We hear things logarithmically, that's why 10 watts of speaker output power is only about twice as loud as 1watt and we can tell if two notes are even slightly off a perfect ratio even if we're not thinking about it. (If you hear one tone at 220Hz and another at 441Hz, only 1hz off of correct, you'll probably be able to tell)

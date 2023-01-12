@@ -8,6 +8,8 @@ This chapter is very much a work in progress, and is really more of just a list 
 
 [TODO] https://www.asimovinstitute.org/author/fjodorvanveen/
 
+[TODO] https://playground.tensorflow.org/
+
 ## Machine Learning?
 
 You've used it today. ML is used for search engines, social media feed order (the almighty Algorithm), and predictive text systems.

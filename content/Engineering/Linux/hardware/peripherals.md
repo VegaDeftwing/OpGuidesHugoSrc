@@ -5,6 +5,10 @@
 </script>
 ## USB
 
+The below two videos do a really good job of covering USB, but there's one thing I want to add: Some cables lie! They don't have data pins at all, and instead are only carry power. This can be a massive pain when you have a box of cables and need to know which ones are "real" cables.
+
+While there are testers available on Amazon, almost all of them are USB2. While https://github.com/alvarop/usb_c_cable_tester isn't perfect - It won't tell you if cables are crossed, though that's really rare - it's pretty good. Plus, ordering it will give you experience ordering a PCB with assembly service, which will be a good experience for when you want to design your own boards. 
+
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/36CKsP9YQ1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/gShRBsahzXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -164,6 +164,8 @@
 
 * [Cory Doctorow talks about Big Tech, Crypto, and sci-fi (The New Yorker)](https://www.newyorker.com/culture/the-new-yorker-interview/cory-doctorow-wants-you-to-know-what-computers-can-and-cant-do)
 
+* [Finding Community, and Freedom, on the Virtual Dance Floor (The New York Times)](https://www.nytimes.com/2022/12/27/arts/music/vrchat-virtual-reality-clubbing.html)
+
   
 
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>

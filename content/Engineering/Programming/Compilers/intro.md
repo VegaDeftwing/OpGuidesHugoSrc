@@ -32,3 +32,5 @@ From [the Dragon Book](https://en.wikipedia.org/wiki/Compilers:_Principles,_Tech
 We will start with an example that is quite simple, and go into some depth. Our goal is to enhance it and come up with something more powerful and more "compiler like" in the course of these sections. And perhaps you can learn something along the way.
 
 Strap in and get ready for some serious coding!
+
+<!-- https://jtree.treenotation.org/designer/ and https://citw.dev/tutorial/create-your-own-compiler may be good extra resources to link to -->

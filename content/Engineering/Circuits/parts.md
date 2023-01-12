@@ -2,6 +2,13 @@
 
 When thinking about electronics, it's easy to focus on the bits that electricity actually flows though. This chapter is for everything else
 
+## Part Codes
+
+Okay, sort of still electrically relevant, but as your peruse your options for parts you'll see some patterns in how things are named, such as diodes starting with a **1N** prefix. If you want to know more about that, these links are decent:
+
+* [Reading Transistor Marknigs (Electronics Express)](https://www.eg.bucknell.edu/~dkelley/eceg350/lab/Reading_Transistor_Markings.pdf)
+* [All about circuits forum](https://forum.allaboutcircuits.com/threads/transistor-names.32827/#post-207007)
+
 ## Knobs, Key-Caps
 
 {{< columns >}}
@@ -25,3 +32,7 @@ When thinking about electronics, it's easy to focus on the bits that electricity
 ## Adapters
 
 \+ PCB footprint adapters, like SOP to DIP
+
+## Wires
+
+Stranded, enamaled, etc.

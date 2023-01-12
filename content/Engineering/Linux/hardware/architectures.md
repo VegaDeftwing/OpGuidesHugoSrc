@@ -65,3 +65,5 @@ In case you need it, here's a SubV/RiscV ISA ref sheet:
 ![](/eng/risc.webp)
 
 {{< attribution >}}[s-ol@merveilles.town](https://merveilles.town/@s_ol/106578158809590397){{< /attribution >}}
+
+<!-- TODO Endiness, non binary, non silicon: FERAM, Quantum, Optical, https://en.wikipedia.org/wiki/Stochastic_computing, Analog computers -->

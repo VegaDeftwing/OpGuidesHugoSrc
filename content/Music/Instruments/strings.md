@@ -59,6 +59,12 @@ Standard (EADBGe), drop D, open G, DADGAD, Ostrich, etc. Why you'd want them.
 
 ### Bass
 
+[TODO]
+
+* Active Pickups, 3 vs 2 band EQ, string count, picking methods, slap
+
+https://www.reddit.com/r/Guitar/comments/muwb6/learning_bass_after_guitar/
+
 ### 12-String
 
 ### Extended Range

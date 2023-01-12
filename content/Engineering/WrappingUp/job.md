@@ -15,6 +15,10 @@
 
 THIS WILL NOT BE A PLACE TO LINK TO SPECIFIC JOBS. DO NOT EVEN TRY TO SUBMIT A PR WITH THAT.
 
+## What to Expect
+
+[Things they didn’t teach you about Software Engineering (Vadim Kravcenko)](https://vadimkravcenko.com/shorts/things-they-didnt-teach-you/)
+
 ## Interviewing
 
 {{< columns >}}
