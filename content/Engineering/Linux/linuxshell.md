@@ -369,6 +369,8 @@ Note that not all things that seem like a good fit are a good fit for regex, for
 
 [Crex (Octobanana git repo)](https://octobanana.com/software/crex) - "Explore, test, and check regular expressions in the terminal."
 
+Also see https://pomsky-lang.org as an alternative to regex.
+
 ## Job Control
 
 [TODO]

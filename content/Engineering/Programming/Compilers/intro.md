@@ -33,4 +33,4 @@ We will start with an example that is quite simple, and go into some depth. Our 
 
 Strap in and get ready for some serious coding!
 
-<!-- https://jtree.treenotation.org/designer/ and https://citw.dev/tutorial/create-your-own-compiler may be good extra resources to link to -->
+<!-- https://jtree.treenotation.org/designer/ and https://citw.dev/tutorial/create-your-own-compiler may be good extra resources to link to  + https://github.com/jzimmerman/langcc , https://gnuu.org/2009/09/18/writing-your-own-toy-compiler/ , https://dev.to/evantypanski/writing-a-simple-programming-language-from-scratch-part-1-54a2 , https://dbader.org/blog/writing-a-dsl-with-python , https://mukulrathi.com/create-your-own-programming-language/llvm-ir-cpp-api-tutorial/ , -->
