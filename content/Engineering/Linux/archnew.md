@@ -1113,7 +1113,7 @@ To [install](https://wiki.archlinux.org/title/Install) other packages or package
 
 FINALLY. This is the fun command. It's called `pacstrap` because it uses `pacman` (the system package-manager) to pull the system up by it's bootstraps - We're finally getting this thing rockin`.
 
-So, lets do it. run `pacstrap /mnt base linux linux-firmware`. That'll take a hot minute and fill you screen with many lines of text. When it's done you'll have a very minimal (read: Mostly useless) Linux install done. Unfortunately, you can't even boot into it yet as you haven't even installed a boot loader.
+So, lets do it. run `pacstrap /mnt base base-devel linux linux-firmware linux-headers`. That'll take a hot minute and fill you screen with many lines of text. When it's done you'll have a very minimal (read: Mostly useless) Linux install done. Unfortunately, you can't even boot into it yet as you haven't even installed a boot loader.
 
 ## Getting The Basics Configured
 
@@ -1177,7 +1177,9 @@ To see your options you can type `ln -sf /usr/share/zoneinfo/` and press tab. Ty
 
 The second command synchronizes the computer's hardware clock.
 
-[TODO] - make sure Windows time doesn't get messed up.
+This does have an annoying side effect. When you boot back to Windows, the time will be wrong. You can fix that by next time your in windows, opening an admin command prompt and running
+
+`reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f`
 
 {{< quote "[Install Guide](https://wiki.archlinux.org/title/installation_guide) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
@@ -1259,7 +1261,45 @@ Set the root [password](https://wiki.archlinux.org/title/Password):
 
 This is effectively the admin password. Do not forget this, or you're pretty much fucked.
 
+While we're at it, let's set up the very start of a user account, as using root all the time is very unsafe. To do so run:
 
+```bash
+useradd -m -G wheel mycrappyusername
+```
+
+followed by,
+
+```bash
+passwd mycrappyusername
+```
+
+(I recommend using the same password you used for root)
+
+Now, we need to make it easy to use your account as an admin account via the `sudo` command (**s**uper **u**ser **do**).
+
+run
+
+```bash
+EDITOR=nano visudo
+```
+
+then find the line that says
+
+```bash
+# %wheel ALL=(ALL) ALL
+```
+
+and remove the '#'
+
+As an explanation, the '#' is turning that line in that file into a comment. In programming it's common practice to use comments to disable sections of code so say we had a program:
+
+```python
+for i in range(5)
+    #print(i)
+    print(i/2)
+```
+
+the `#` before `print(i)` is preventing it from actually executing so the output of this would be {1/2,1,3/2,2,5/2} instead of {1,1/2,2,1,3,3/2,4,2,5/2,5}
 
 {{< quote "[Install Guide](https://wiki.archlinux.org/title/installation_guide) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
@@ -1301,7 +1341,7 @@ Finally, restart the machine by typing `reboot`: any partitions still mounted wi
 
 [TODO] make sure the UEFI loads the new bootloader
 
-When you boot into the new system it will ask you for a username and password. The username is `root` and the password is whatever you set before. When you type the password it won't look like you're entering anything, don't worry, it's still registering the input. Just type it and press enter.
+When you boot into the new system it will ask you for a username and password. The username is and password is whatever you set before. When you type the password it won't look like you're entering anything, don't worry, it's still registering the input. Just type it and press enter.
 
 Now, we can load up networking. Run `systemctl enable NetworkManager` and `systemctl start NetworkManager`. Enabling makes it start up on each boot, starting it starts it now for this boot. You won't need to run these again. Now, we can actually configure the network - if you're wired in, it should just work, but if you're on WiFi just run `nmuti`  → "Activate a connection" → find your network, enter your password. Keep pressing escape to get back to the terminal when done.
 
