@@ -27,11 +27,9 @@ If you would like to repeatedly contribute, please open an issue and I'll hapily
 
 In order to run this site locally (and check the look and feel of your contribution) as this site is based on Hugo the first thing that you'll need is to have Hugo installed on your machine, you can [follow the docs](https://gohugo.io/getting-started/installing/).
 
-Then you need to simply run `hugo server --port=8080 -t bookvega` where:
+Then you need to simply run `hugo server --port=8080` where:
   
 * `--port=8080` attribute indicates the localhost desired port.
-  
-* `-t bookvega` indicates the theme to use, otherwise you'll be getting the `failed to extract shortcode: template for shortcode "columns" not found` error.
 
 ---
 Opguides site is hosted on Github pages and relies on Hugo using the [Hugo Book Theme](https://github.com/alex-shpak/hugo-book), so a massive thank you to all the contributors that have made OpGuides this easy to maintain!

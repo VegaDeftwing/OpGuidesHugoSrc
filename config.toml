@@ -1,6 +1,7 @@
 baseURL = "https://opguides.info/"
 languageCode = "en-us"
 title = "Opinionated Guides"
+theme = "bookvega"
 
 [params]
 
