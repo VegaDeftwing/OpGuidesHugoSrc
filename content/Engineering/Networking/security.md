@@ -98,7 +98,12 @@ See [These Lecture notes on Format String Vulnerabilities from Syracuse Universi
 
 The main thing I want you to take away from this example is this:
 
-<center><p style="font-size:4em;">
+<center><p style="font-size:4em;    text-shadow:
+      3px 3px 0 #009CDF,
+      6px 6px 0 #0059DF,
+      9px 9px 0 #1300DF,
+      12px 12px #2B00AD;
+  }">
     SANITIZE YOUR <i>FUCKING</i> INPUTS    
 </p></center>
 

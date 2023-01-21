@@ -1,4 +1,4 @@
-# Chapter 10.2 - Turtles All The Way Down
+# Chapter 10.2 - <span style="text-shadow:3px 3px 0 #254522, 6px 6px 0 #9D9765,9px 9px 0 #49614D, 11px 11px 0 #1a302e;">Turtles</span> All The Way Down
 
 <script>
     document.getElementById("codeMenu").open = true;
@@ -32,7 +32,7 @@ I am a low level dev, and the high level devs writing slow, shitty code drives m
 
 {{< /speech >}}
 
-# Learning both
+# Learning both, with a 🐢
 
 I would really like to teach you programming from the top down, starting with something easy like the Python programming language and then talk about how things *really* work using the C Programming language. The problem is, when looking at Python code you'll occasionally need to deal with things that simply don't make sense without the context of a lower level language like C. Meanwhile, there are some things that C just... doesn't have. This means there are three options:
 

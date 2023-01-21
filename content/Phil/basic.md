@@ -1,11 +1,10 @@
 ---
 title: "Basic Phil"
 slug: "Basic Phil"
-
 ---
 <div style="text-align:center;">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="450px" height="240px" xml:space="preserve">
+	 width="450px" height="120px" xml:space="preserve">
   <defs>
     <pattern id="water" width=".25" height="1.1" patternContentUnits="objectBoundingBox">
       <path fill="#000" d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.303,0.158,0.334,0.25,0C0.25,0.327,0.25,1,0.25,1z"/>

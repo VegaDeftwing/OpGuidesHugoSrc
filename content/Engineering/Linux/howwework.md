@@ -1,6 +1,18 @@
 # Chapter 5 - Working on how we work
 
-## The Terminal
+<style>
+.blink {
+  animation: blinker 1s step-start 10 forwards;
+}
+
+@keyframes blinker {
+        from { opacity: 0; }
+        50% { opacity: 1; }
+        to { opacity: 0; }
+}
+</style>
+
+## The Terminal <span class="blink"> |</span>
 
 In the world of programming, embedded development, and electrical debugging you will inevitably need to understand how to use a terminal/command line at some point. While the text only interface can look intimidating, it has some clear advantages. Namely it's significantly faster to use the cli or 'command line interface' version of many tools. Because of the nature of this guide you will be using the terminal frequently, so for convince sake information on using it effectively has been moved to Appendix A, I highly recommend you read though it after you finish this page.
 

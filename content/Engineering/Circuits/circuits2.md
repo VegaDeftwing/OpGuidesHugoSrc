@@ -12,11 +12,11 @@ So, let's lean how to teach some rocks.
 
 <--->
 
-![](/eng/noisedeck1.gif)
+<img src="/eng/noisedeck1.gif" alt=" " style="border-radius:100%;">
 
 {{< attribution >}}
 
-©Vega, made with [Noisedeck](https://noisedeck.app)
+©Vega, made with [Noisedeck](https://noisedeck.app), inspired by pictures of silicon wafers, like [this one](https://en.wikipedia.org/wiki/Wafer_(electronics)#/media/File:ICC_2008_Poland_Silicon_Wafer_1_edit.png).
 
 {{< /attribution >}}
 
@@ -33,7 +33,7 @@ So, let's lean how to teach some rocks.
 
 <!--That said, I don't want to get to in the mud of transistor physics. I really want to focus on how/when/why to use what, not how they work as the physics is both pretty hard to grasp and not super useful. Still would like to mention that switching is what uses power and like process size things, but maybe not the chemistry or electron tunneling effects, at least not in great detail-->
 
-# Chapter 23.1 - Semiconductors
+# Chapter 24.1 - Semiconductors
 
 TODO, looks very good briefly scrolling through it: https://lcamtuf.coredump.cx/electronics/
 
@@ -149,7 +149,7 @@ https://zeptobars.com/en/read/Ti-Texas-Instruments-LMC555CMX-555-CMOS
 
 [TODO] note on price of chips that solve bigger problems - integrated filters, PLLs, VCAs, basically everything on [this list](https://wiki.analog.com/resources/tools-software/linux-drivers-all#driver_list)
 
-# Chapter 23.2 - Op-Amps & Filters
+# Chapter 24.2 - Op-Amps & Filters
 
 ## Op-Amps
 
@@ -225,7 +225,7 @@ add motors, analog meters, various connection standards, radio, flex/pressure se
 
 Relate back to things like ADSR, Distortion, Reverb / Echo, Decibels (audio), etc. Use VCV RACK
 
-# Chapter 23.3 - Displays
+# Chapter 24.3 - Displays
 
 Ther are many [Reasons to Question Seven Segment Displays (Harold Thimbleby)](https://sci-hub.se/10.1145/2470654.2466190), especially today, as using *literally anything else* has gotten significantly easier. 
 
@@ -235,7 +235,7 @@ Ther are many [Reasons to Question Seven Segment Displays (Harold Thimbleby)](ht
 
 Also, you may want to be able to update your display quickly, so keep in mind if your controller/device has either a native video output, or at least [DMA that you can abuse (Just another electronics blog)](https://justanotherelectronicsblog.com/?p=201).
 
-# Chapter 23.4 - Safe Circuits
+# Chapter 24.4 - Safe Circuits
 
 {{< best >}} [10 Ways to Destroy an Arduino (Rugged Circuits)](https://www.rugged-circuits.com/10-ways-to-destroy-an-arduino) {{< /best >}}
 
@@ -247,7 +247,7 @@ Also, you may want to be able to update your display quickly, so keep in mind if
 
 TODO: Efuses
 
-# Chapter 23.5 - Parts & Tools you'll want to be aware exist
+# Chapter 24.5 - Parts & Tools you'll want to be aware exist
 
 ## Tools
 
@@ -271,7 +271,7 @@ TODO: Efuses
 * Spark Gaps
 * [Filter ICs](https://www.electro-smith.com/parts/2144)
 
-# Chapter 23.6 - Rare and Dangerous Components
+# Chapter 24.6 - Rare and Dangerous Components
 
 * Dangerous
   * Tesla coils

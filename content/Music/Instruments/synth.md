@@ -1,4 +1,4 @@
-# Synths
+# <span style="text-shadow:2px 2px 0 black,4px 4px 0 red,8px 8px 0 yellow,12px 12px 0 green,16px 16px 0 blue,20px 20px 0 indigo;">Synthesizers<span>
 
 <script>
     document.getElementById("instMenu").open = true;

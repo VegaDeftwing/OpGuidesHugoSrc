@@ -16,7 +16,7 @@ Programming is difficult for a few reasons:
 
 ### 1. Because you have to use math, logic, and data structures to model your problem. 
 
-Computers can only really do one thing: manipulate bits. There are a bunch of tools for how to do this at your disposal though, and programming languages help *abstract* the way it is done so you rarely, if ever, need to think about the bits themselves. These tools include basic math operations like addition, subtraction, multiplication, and division as well logical operations like conditions such as "**if** Ｘ **is less than** Ｙ, **then** set Ｚ to the value of Ｘ, **otherwise** set Ｚ to the value of Ｘ times Ｙ"
+Computers can only really do one thing: manipulate bits. There are a bunch of tools for how to do this at your disposal though, and programming languages help *abstract* the way it is done so you rarely, if ever, need to think about the bits themselves. These tools include basic math operations like addition, subtraction, multiplication, and division as well logical operations like conditions such as "**if** X **is less than** Y, **then** set Z to the value of X, **otherwise** set Z to the value of X times Y"
 
 ```python
 if x < y:
@@ -25,7 +25,7 @@ else:
 	z = x * y
 ```
 
-and "**While** Ｘ is less than Ｙ, decrease the value of Ｘ by Ｙ divided by Ｘ".
+and "**While** X is less than Y, decrease the value of X by Y divided by X".
 
 ```python
 while x < y:

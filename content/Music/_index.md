@@ -1,5 +1,0 @@
----
-title: "MUSIC"
-slug: "MUSIC"
-
----

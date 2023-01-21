@@ -62,7 +62,3 @@ CAS, Solvers, Sympy, https://github.com/Z3Prover/z3 → http://www.cs.toronto.ed
 
 {{< attribution >}} Tweet From [@ZillionRoss](https://twitter.com/ZillionRoss) {{< /attribution >}}
 
-
-
-
-
