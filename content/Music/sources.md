@@ -4,7 +4,9 @@ slug: "Sound Sources"
 
 ---
 
-# Methods of making noise
+# Methods of making noise*
+
+\* Excluding traditional instruments. We'll get there soon. 
 
 ## Samples
 
@@ -12,19 +14,23 @@ slug: "Sound Sources"
 
 {{< smalltext >}}A snippet of a .wav file open in audacity{{< /smalltext >}}
 
-A sample is exactly as the name implies- a 'sample' of audio. Sample is a pretty broad term though, so usually some more terms are applied to help categorize them. The easiest to explain is what is usually meant by sample: a small audio file that contains one sound, like one drum hit or one piano key press. These can either be samples made or collected for the sole purpose of use in later music (like hitting record, playing one drum hit, then stopping, to create a small drum sample) or a sample lifted (with often dubious legality) from another recording. It's worth noting that fair use is really not something you can rely on here, but it's also pretty common. #notlegaladvice
+A sample is exactly as the name implies- a 'sample' of audio. Sample is a pretty broad term though, so usually some more terms are applied to help categorize them. Still, for the generic term what is usually meant is a small audio file that contains one sound, like one drum hit or one piano key press. 
 
-The next kind of sample worth looking at is a loop. These are longer and are usually, well, loopable. If you play them on repeat they typically sound continuous. Often these will be of drums or guitar. The term 'loop' is often used broadly for audio snippets of this length though, so not all loops loop. Usually when using a loop it's best to do some mangling, swapping some beats or putting on destructive effects to transform it in some way. This prevents your audio from just sounding like layered tracks from another artist mashed together and is a good way to put creativity into what you make.  
+These can either be samples made or collected for the sole purpose of use in later music (like hitting record, playing one drum hit, then stopping, to create a small drum sample) or a sample lifted (with often dubious legality) from another recording. It's worth noting that fair use is really not something you can rely on here, but it's also pretty common. <span style="color:#fff2">#notlegaladvice</span>
 
-Another term you might hear are stems. Stems are just separate recordings of each part of a song - say the vocals as one audio file and the drums as another, these would make up the stems. 
+The next kind of sample worth looking at is a **loop**. These are longer and are usually, well, loopable - If you play them on repeat they typically sound continuous. 
+
+Often these will be of drums or guitar. The term 'loop' can be used broadly for audio snippets of this length though, so not all loops, uh, loop. Usually when using a loop it's best to do some mangling, swapping some beats or putting on destructive effects to transform it in some way. This prevents your audio from just sounding like layered tracks from another artist mashed together and is a good way to put creativity into what you make.  
+
+Another term you might hear is **stems**. Stems are just separate recordings of each part of a song - say the vocals as one audio file and the drums as another, these would make up the stems. 
 
 {{< columns >}}
 
-Samples are also, sort of ironically, made of samples. But these words mean two different things in that sentence. The sample of sound is made up digitally of a bunch of different points in a wave, usually captured ~44 thousand times a second- whatever the sampling rate is (commonly 44.1, 48, or 96 <a class="ptr">(1)</a>). This is what gives us the image above, where the originally pretty smooth looking wave, when zoomed in, we can see is made of these discrete points. 
+Samples are also, sort of confusingly, made of samples. But these words mean two different things in that sentence. The sample of sound as a whole is made up of a bunch of different points in a wave, usually captured thousand of times a second- whatever the sampling rate is (commonly 44.1, 48, or 96 <a class="ptr">(1)</a>). This is what gives us the this image, where with the originally pretty smooth looking wave, when zoomed in, we can see is made of these discrete points. 
 
 This is particularly relevant to making music for multiple reasons: 
 
-* When change the speed/pitch by a non integer value, we have to 'interpolate' extra points into this.
+* When change the speed/pitch by a non integer value, we have to 'interpolate' extra points into this.  <span style="color:#fff2">#math</span>
 * When we slow down or make a sample lower pitch there's only so much data to use, at really low pitches the wave will start to sound sort of low-fi
 * When chopping a sample to start playback at any point, we want to chop at a 0-crossing to avoid a sharp transition (which equates to high pitch sound)
 
@@ -38,33 +44,47 @@ This is particularly relevant to making music for multiple reasons:
 
 ![wavfile](/music/wavfile.png)
 
-> Zoomed in view of the snipped, showing the individual points in the sample
+{{< smalltext >}} Zoomed in view of the snipped, showing the individual points in the sample {{< /smalltext >}}
 
 {{< /columns >}}
 
 ![sampler](/music/sampler.webp)
 
-> Bitwig Studio's Sampler. Here pitch tracking is enabled, making it so the sample can be played sped up or slowed down to pitch chromatically along the keyboard. Bitwig's Sampler is pretty similar to many other samplers in other DAWs like Ableton Live or modules like Simpliciter In VCV rack
+{{< smalltext >}} Bitwig Studio's Sampler. Here pitch tracking is enabled, making it so the sample can be played sped up or slowed down to pitch chromatically along the keyboard. Bitwig's Sampler is pretty similar to many other samplers in other DAWs like Ableton Live or modules like Simpliciter In VCV rack {{< /smalltext >}}
 
-Here, we're looking at the sampler device in in Bitwig Studio, though most of this should be similar in other software. Starting with the obvious, the sample wave form in the middle. Here I have loaded a sample which has multiple drum sound in it, but I've zoomed in on one sample and placed these yellow flags to denote the start an end points. Bitwig's sampler, like many others, will try to snap these points to aforementioned zero crossings.  You'll also see next to the file name that the keyboard icon is blue and says 100% and next to that the root is set to C3. This means that if I play the C3 key on my keyboard it will play the sample as is, but if I play a different key it will slow playback down or speed playback up to match the pitch to the key I'm playing. The root being C3 is because, say I hit and recorded the A4 key on my piano- it's nice to be able to correct for the pitch of the sample in the keyboard tracking.
+Here, we're looking at the sampler device in in Bitwig Studio, though most of this should be similar in other software. Starting with the obvious, the sample wave form in the middle. I have loaded a sample which has multiple drum sound in it, but I've zoomed in on one sample and placed these yellow flags to denote the start an end points. Bitwig's sampler, like many others, will try to snap these points to aforementioned zero crossings.  You'll also see next to the file name that the keyboard icon is blue and says 100% and next to that the root is set to C3. This means that if I play the C3 key on my keyboard it will play the sample as is, but if I play a different key it will slow playback down or speed playback up to match the pitch to the key I'm playing. The reason there's a way to set the root being is because, say I hit and recorded the A4 key on my piano- it's nice to be able to correct for the pitch of the sample in the keyboard tracking - you want to tell the computer what note a sample contains.
 
-Still in the same section of the window but below the first yellow flag that denotes the start, you'll see two smaller yellow flag icons that have a time specified. These are the times in the sample where the start and end flags are placed. Left of that you'll also see an arrow with an R over it, that's the button to tell it you want to play the sample in reverse. To the right, there's some loop options. Right now it's in 'Single Shot' mode. If the button to trigger the sample is held for longer than the length of the sample, it will still only play once. The other two options are a forward repeat, the equivilent of leaving a song on loop, and a 'ping-pong' loop, where the slice will play forwards then-backwards then forwards then .... as long as the gate is held. 
+Still in the same section of the window but below the first yellow flag that denotes the start, you'll see two smaller yellow flag icons that have a time specified. These are the times in the sample where the start and end flags are placed.
+
+Left of that you'll also see an arrow with an **R** over it, that's the button to tell it you want to play the sample in reverse. To the right, there's some loop options. Right now it's in '**Single Shot**' mode. If the button to trigger the sample is held for longer than the length of the sample, it will still only play once. The other two options are a forward repeat, the equivilent of leaving a song on loop, and a 'ping-pong' loop, where the slice will play forwards then-backwards then forwards then .... as long as the gate is held. 
 
 I also want to mention the freeze ability in this sampler- the snowflake below the end-time indicator. When enabled sample playback has to be done manually - and new controls to do so become available. Think of it like a record that you have to spin yourself. This can lead to some really cool sounds. 
 
 Finally, you'll see below that snowflake is a RAM indicator. When lit, the sample is stored in RAM, not on disk. In general, this is probably what you want. It might be helpful to do otherwise though if you're either low on memory or you're trying to load some absolutely massive samples.
 
+### Let's sample!
+
+Talk is cheap, let's actually put this to use. First, we'll need some samples. To give us something fun to start with, go grab [Glitch With Friends, Vol Ⅲ.](https://www.glitch.cool/projects/glitch-with-friends-samples-vol-3) (It's free) - Note that it is a 7.23GB download, so if you're on a slow connection it might take a hot minute. Once you have it downloaded, extract the .zip somewhere.
+
+Now, we need something to play back samples. We could go grab something like like [Simpliciter](https://www.youtube.com/watch?v=bY6-Vxwdj_k) or [MusicalBox](https://library.vcvrack.com/NYSTHI/MusicalBox) to play back samples in VCV Rack, but instead I think we should broaden our horizons a bit.
+
+[TODO] Sunvox? LMMS? FL Demo? Whatever we use, it probably needs a page before this one to set it up, which sorta ruins the VCV flow. FL Probably makes the most sense, as it's the most pro for least money (long term) option, and the free trial should be enough. This probably means moving up the explanation of DAWs and their differences. I'm not sure how to handle this yet.
+
 [TODO] Multisamples
+
+{{< columns >}}
 
 ![simpliciter](/music/simpliciter.webp ':size=50%')
 
 {{< smalltext >}}'Simpliciter' module in VCV rack, a sampler with transient detection, Sound On Sound (SOS) looping, and variable speed (pitch) playback {{< /smalltext >}}
 
-Unlike the bitwig sampler, this sampler, 'Simpliciter' in VCV Rack can take in live input to layer sounds or record the inital sample. In general you should see a lot of the same controls I talked about above exposed in this UI. There are some extra neat ones here though, including the ability to detect peaks as is enabled in the lower left in this screenshot. With this and a longer sample file with multiple drums you can just select the drum sample you want on each play-trigger.
-
-This video from Omri Cohen goes pretty in depth:
+<--->
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/bY6-Vxwdj_k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /columns >}}
+
+Unlike the bitwig sampler, this sampler, 'Simpliciter' in VCV Rack can take in live input to layer sounds or record the inital sample. In general you should see a lot of the same controls I talked about above exposed in this UI. There are some extra neat ones here though, including the ability to detect peaks as is enabled in the lower left in this screenshot. With this and a longer sample file with multiple drums you can just select the drum sample you want on each play-trigger.
 
 ### Field Recordings, Tape Loops, and other sampling goodness
 

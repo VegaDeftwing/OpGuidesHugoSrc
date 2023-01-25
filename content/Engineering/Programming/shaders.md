@@ -10,7 +10,7 @@
 
 ![](/common/arrowthis.svg)
 
-
+<!-- TODO https://www.youtube.com/watch?v=i5yK56XFbrU&list=PLOunECWxELQQwayE8e3WjKPJsTGKknJ8w -->
 
 {{< details "Here for VRChat Stuff?">}}
 

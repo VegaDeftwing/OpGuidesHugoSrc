@@ -607,3 +607,27 @@ div.speech em {
   }
 
 }
+
+div.egg{
+  color: #b8dbcf;
+  background-color: black;
+  border: #b8dbcf;
+  border-style: solid;
+  border-radius: 25px;
+  padding: 1em 1em 1em 1em;
+}
+
+div.egg::before, div.egg::after {
+	content:'\A';
+	white-space: pre-wrap;
+  position:relative;
+  display:block;
+  height:10px;
+  top:-100%;
+  width: 102%;
+  left:50%;
+  z-index:1;
+  transform:translateX(-50%);
+  -webkit-transform:translateX(-50%);
+	background-image: repeating-linear-gradient(-45deg, transparent, transparent 8px, #b8dbcf 5px, #b8dbcf 10px);
+}

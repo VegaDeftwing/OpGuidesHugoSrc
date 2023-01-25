@@ -1,126 +1,216 @@
----
-title: "Music Getting Started"
-slug: "Music Getting Started"
+# Getting Our Hands Dirty
+
+Music, like any creative endeavor, requires you keep your left and right brains equally talkative.
+
+<div class="book-columns flex flex-wrap">
+  <div style="min-width: 1px; width: 1px; padding: 0 0 0 0; margin: 6px 0;background:rgba(255, 255, 255, 0.1);;"></div>
+  <div class="flex-even markdown-inner">
+      <b>Logical</b>
+      <ul>
+          <li> Mixing parts together</li>
+          <li> Studying music theory</li>
+          <li> Getting core components of the song laid out</li>
+          <li> Practicing tecnique on an instrument</li>
+          <li> Writing lyrics with good timings and structure</li>
+      </ul>
+  </div>
+  <img src="/music/Brain--Line-Art-Illustration.svg" alt=" " width="80em" style="border-radius:50px;">
+      <div class="flex-even markdown-inner">
+          <b>Creative</b>
+                <ul>
+          <li> Using weird sound sources</li>
+          <li> Combining effects </li>
+          <li> Finding inspiration outside of music</li>
+          <li> Adding fun frills to the song</li>
+          <li> Writing vivid, emotional lyrics</li>
+      </ul>
+  </div>
+</div>
+<!-- Brain SVG edited from https://freesvg.org/brain-line-art-illustration -->
+
+**If you know that you're a creative type**, try to focus on the science and math and technique of things more on these pages and as you practice. Learn how sound actually works and interacts in your environment and how knowing these things well let you make better art.
+
+**If you're deeply into math and science but want to get into music**, still learn what you need but remember to squish that voice down sometimes and to try the weirder things. Stack 14 distortions on top of each other. Use a Kazoo as core element in your song. Try things, experiment, and keep the emotion you want to convey in mind as you work.
 
 ---
 
-# Getting Started
+With that out of the way, let's actually make some music. 
 
-Here's the part where I'm supposed to explain how to read music or something boring like that. Really though, that's not why you're here. So let me start by giving you a bit of motivation. In a bit I'll be going though how to use VCV Rack, a free (with paid addons, but those aren't necessary) program for making music. But as we go though each bit is going to look so -basic- that it's hard to see the bigger picture. So, here's that bigger picture: This track was made entirely with VCV rack:
+To get started, we, uh, need something that makes sound. Now, the two of us have a bit of a conundrum here as I am to you no more than words on a page and you to me no more than a hypothetical reader. I don't know what you've got for existing musical chops, let alone gear. So, I'm going to try to make as few assumptions about you're setup as I can. This is, to put it mildly, not great.
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3503666064/size=small/bgcol=666666/linkcol=ffffff/track=3864536185/transparent=true/" seamless><a href="http://vegadeftwing.bandcamp.com/album-2">Content by Vega Deftwing</a></iframe>
+Ideally, I think you should learn music on something tactile. This could be a [cheap MIDI keyboard](https://www.amazon.com/Arturia-MINILAB-mkII-universal-Controller/dp/B01N3A9C1U) or a starter guitar, but I can't possibly write for every option you may want to start with. So, I will target something that, unless you're reading this on a phone, I know you have: a computer with a keyboard. Of course, this means we'll need some software. For this, I'm going to recommend you go download and setup https://vcvrack.com/.
 
-Alright, with motivation out of the way, let's make some noise! To do that though we're gonna need just a few things:
-Go download VCV Rack from https://vcvrack.com/ and depending on your OS you'll need some sound drivers, MAC guys, sorry, no idea. On Windows you'll want to use ASIO, if you don't know what that is just go grab http://www.asio4all.org/ and use that, on Linux you'll want to use Jack https://wiki.archlinux.org/index.php/JACK_Audio_Connection_Kit. On Linux you may need to use a tool like Catia to actually connect the jack devices together (VCV to System Out) - for more Linux info check out [Making Sense of The Linux Audio Stack on Venam's Blog](https://venam.nixers.net/blog/unix/2021/02/07/audio-stack.html).
+When it's setup you should see something like this:
 
-Go ahead and fire up VCV and a template patch should have opened up that looks some thing like this:
-![vcv1default](/music/vcv1default.webp)
+![vcv1default](/music/vcv2default.webp)
 
-Windows guys, set your sound device to ASIO and fiddle around until you have sound working, Linux people RTFM, Mac people ... Something something CoreAudio I think? IDK. Ask someone that knows apple I guess. 
-That default patch should respond to input when you mash keys so you can test your sound settings (assuming the MIDI-CV module is set to QWERTY keyboard as in the above screenshot and an audio device has been selected)
+{{< columns >}}
 
-Final note on that, sound cards and their drivers/software (asio/jack/etc.) have a few important settings you should know about. First, is the 'buffer size'. Frankly, this isn't all the important to understand from a technical perspective but the gist is the lower the buffer size the lower the latency, and higher the higher the latency (latency is how long it takes for sound to come out after you hit a key and is bad); however, the lower the buffer size the more likely you are to have audio under runs, this makes your sound do this weird robotty sound like it was recorded on an Atari2600, make nasty beeps, or cut out entirely. The size you can set your buffer to will vary depending on the hardware you have in your computer, but generally I can get away with 128 and I'll bump it up to 256 when working on large projects if I notice the above issues. You may need to try up to 512 or 1024 though.
+This has instructions, but, uh, wow point 1. assumes you know a lot from the bat. Ideally, you should be able to click the yellow text the top right, in the `AUDIO` module where it says "<span style="color:yellow;font-family: 'Space Mono', monospace;">No device</span>" and select your audio device and holy what the fuck is this:
 
-Alright, that pita outa the way, lets *actually* make some noise.
+----
 
-The reason we're starting in VCV rack is it exposes a lot of the raw ideas and fundamentals of how music works behind the scenes, raw frequencies and modulation open to see. In that default patch there we start with a MIDI (Musical Instrument Digital Interface) input which outputs a 'voltage' from the V/oct (Volt per Octave) output, which is fed into an VCO's (Voltage Controlled Oscillator) V/oct input.
+Okay, so, there's clearly a lot of options here, and this is only in Windows. The actual list and possible drivers will vary if you're on Mac or Linux.
 
-Wait. Big words. Stapphh.
+The gist is you have a list of **drivers**, **devices**, **sample rates**, and **block sizes** to choose from.
 
-Alright. I'll backup So VCV rack actually emulates real hardware systems called modular synthesizers. VCV emulates the Eurorack standard of modular synths in particular. Skipping some finer details for a moment, the standard defines one nice thing, and that's the idea of 1 Volt per Octave note control. (If you don't know anything about electronics that's fine, but it might help here) In a real eurorack system the voltage running though the wires can range from -10 to +10Volts. Any wire can really be patched into any hole to get surprising results and all the signals are technically interchangeable, but generally in eurorack there are two categories of signals CV or 'Control Voltage' and 'Audio Rate' signals. The most common form of CV is this V/oct signal, where each volt represents a one octave change. A stable 0v (the same as no input) signal is 'Middle C' or C4 where 'C' is the note and '4' is the octave number. This is only 'generally' the case, but just stick with it for now. When you strike a key on your keyboard VCV is interpreting that keypress as a MIDI event, and converting that MIDI signal to a virtual CV signal. So, if you happen to press the C note on the 4th octave, you'll get... 0v, no change, but if you were to hit the C note one octave higher (C5) the note should be noticeably higher pitch and the output from the V/oct port would be 1V. In fact because of how our music system works, an octave is exactly a doubling in frequency so while 'C4' is 261.63Hz 'C5' is 523.25Hz). If you hit a C#5 note though the output voltage will be  1.08333V because there are 12 notes per octave (A, A#, B, C, C#, D, D#, E, F, F#, G, G#) and 1/12 is .08333 which is added to the 1V from being up one octave from from middle C (C4)
+The **driver** is how the computer talks to the sound making device. Not all are made equal. On Windows, generally, ASIO is better than WASAPI is better than DirectSound. By "Better than" I mean it should be less glitchy, lower latency (latency = how long does it take for something you to hear the result of something do on screen / pressing a key ) and, in some cases, allowing you to use a micophone/line in or not (DirectSound doesn't let you.)
+
+The **device** is, well, what device you want to use. On some computers, there may only be one option, but if you have monitors connected via HDMI, they may have built in speakers so show up as an option, as may a gaming headset, your webcam (if it has a built in microphone), etc.
+
+<--->
+
+![audiodevices](/music/audiodevices.webp)
+
+{{< /columns >}}
+
+Making matters more confusing, some devices will show up multiple times with only slight variances in names. On the computer in this screenshot, the speakers are hooked up to "Speakers (Realtek(R) Audio)" and **not** "Realtek Digital Output (Realtek(R) Audio)". You may need to click a few until you find that you can get sound out. Just click one, mash some keys, see if you hear anything. If not, try another.
+
+The **Sample rate** will ultimately determine the quality of your audio, but also how hard your computer works to make the sound. In nearly all cases when using VCV rack you'll want to be using either 44.1kHz or 48kHz. When you pick a device, it should default to one of those two, just leave it on which ever it uses.
+
+The **Block Size** is the trickiest setting here. In short, your computer processes audio in chunks, this is how big those chunks can be. If you let the computer work on bigger chunks at a time, it doesn't have to work as hard *BUT* because those chunks are bigger, and so longer time-wise, there will be more latency (delay between you clicking a button and hearing the result). If you go too low, the audio will start to break up, sound robot-y, and just generally glitch out. This really means you need to keep lowering this value until it breaks, then just back off to the last setting before that happens. 
+
+If you still have issues, here's a tiny bit more info to point you in the right direction:
+
+{{< tabs "Tools" >}}
+
+{{< tab "Linux" >}}
+
+On Linux you'll want to use Jack https://wiki.archlinux.org/index.php/JACK_Audio_Connection_Kit with VCV for low latency audio. You may need to use a tool like Catia to actually connect the software to the device (VCV to System Out). Most modern distros use Pipewire, which eventually should replace Jack, but as VCV doesn't work with it directly for now you'll need to bridge Jack to PipeWire. This is bit of pain in the ass to setup, but, if you're on Linux presumably you have some idea what you're in for. 
+
+For more Linux audio info check out [Making Sense of The Linux Audio Stack on Venam's Blog](https://venam.nixers.net/blog/unix/2021/02/07/audio-stack.html).
+
+{{< /tab >}}
+
+{{< tab "Windows" >}}
+
+It's very unlikely that you won't be able to get sound out at all on Windows, but it's very likely that you won't be able to get low latency sound or sound working with audio input (microphone). If this is the case you probably need to use the ASIO driver.
+
+If you don't want to spend any money, you can try downloading and setting up either https://www.asio4all.org (easier) or https://github.com/dechamps/FlexASIO (harder to use, more flexible, you may want to use [this](https://github.com/flipswitchingmonkey/FlexASIO_GUI) with it). Setting up either is outside the scope of this page.
+
+The ideal way to solve this problem is to buy an audio interface with a good ASIO driver made by the manufacture. Interfaces by Focusrite, Presonus, Arturia, and NativeInstruments are all decent and should automatically install a stable, easy to use ASIO driver that just works. Avoid the cheap Behringer interfaces, those often don't.
+
+
+{{< /tab >}}
+
+{{< tab "Mac" >}}
+
+CoreAudio, the audio system used on Apple Devices, *should* be setup and work for everything just fine. Unfortunately,  I have no experience with Apple devices and audio. If it doesn't work, you may want to poke around the internet for help.
+
+{{< /tab >}}
+
+{{< /tabs >}}
+
+---
+
+Alright, if you've made it this far, mashing keys on your keyboard in VCV rack should make noise!
+
+First thing's first, let's learn by just experimenting. You have a huge range of knobs in front of you, don't you wanna turn em'? Go for it. <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">Z</span> is always there if you need it. Worst case, `file→new` is always an option. Just have fun. When you've gotten a vibe for what effect some knobs have or want to dive into what this chaos of virtual wires means, come back here.
+
+---
+
+The reason we're starting in VCV rack (aside from it being one of the few free options) is it exposes a lot of the raw ideas and fundamentals of how music works behind the scenes, raw frequencies and modulation open to see. 
+
+In that default patch, er, hang on -
+
+\- in VCV, the files and the project as whole is refereed to as a "patch", this is because you plug wires together into a board similar to those used in old phone system where you'd patch two people together - 
+
+We start with a **MIDI** (**M**usical **I**nstrument **D**igital **I**nterface) input which outputs a 'voltage' from the V/oct (Volt per Octave) output, which is fed into the  V/oct input of multile **VCO**'s (**V**oltage **C**ontrolled **O**scillator)
+
+That hurt to read?  Let's break it down.
+
+{{< columns >}}
+
+First, you need to know something about VCV Rack, this software. VCV rack actually **emulates real hardware systems** called modular synthesizers. 
+
+More specifically, VCV emulates the Eurorack standard of modular synths. Skipping some finer details for a moment, the standard defines one really important, and that's the idea of **1 Volt per Octave** frequency control.
+
+<--->
 
 ![Stinkbomb](/nonfree/permissiongranted/Stinkbomb.webp)
 
 {{< attribution >}}This is Stinkbomb's hardware Eurorack. Real Eurorack hardware is incredibly expensive!{{< /attribution >}}
 
+{{< /columns >}}
+
+In the real hardware, all of those wires are carrying a signals in the form of varying voltages. Some of these are varying really quickly so that they can ultimately be passed to the output and play a tone though a speaker.
+
+Others are slow, often below what you can hear, and are used to sort of act as ghost hand that you can use to turn a knob for you, automatically, perfectly timed and never getting tired. Useful for when you want to turn more knobs than you can with two hands at once and at different speeds.
+
+Others yet are carrying voltages that are mostly constant, only changing to a new value occasionally (but usually quickly), these voltages are then interpreted by a module that makes one of those moving waves to determine how fast that wave should move - it's frequency. That is, we're using these voltages to control an oscillator - hence the name **VCO** (**V**oltage **C**ontrolled **O**scillator).
+
+Now, this is where the aforementioned **1 Volt per Octave** comes into play. Remember on the last page I mentioned how each time you go up to a new octave you're doubling or halving the frequency, so we want to visually compress that in the spectrum analyzer to make it easier to see? Well, the same idea applies here. On the modular synth the system can only really use values as low as -12 volts to as high as 12V, though for practical reasons, we often only use ±5V. If we had to double the voltage for each octave and we assume the first octave is from 0 to 1V, then the second would be from 1V to 3V, and we'd already have to go higher than 5V to get a 3rd octave. From a hardware perspective this is already not ideal, but from an ease of use perspective, it's also annoying to constantly think about the doublings. It's a lot easier if we just always cram an octave into 1V. This means the complexity of doing that exponential conversion has to happen in the hardware, but it frees it up to be a lot easier to use.
+
+Of note, we can always plug any output wire into any input. We could try to listen to these slow signals. We could use one of the really fast signals to control a knob as a "ghost hand" (and you should do this, it's really fun!). This means we could use those really slow moving "ghost hand" signals to control our pitch if we wanted, it would just be interpreted as 1V/Oct.
+
+Generally, in a 1V/Oct system, a stable 0v (the same as no input) signal is 'Middle C' or C<sub>4</sub> where 'C' is the note and '4' is the octave number. This is only 'generally' the case, as almost all oscillators will have a big ol' frequency knob you can use to change what 0V means.
+
+Okay, we're almost there.
+
+So, with VCV open, when you strike a key on your keyboard it should generate a new signal using this 1V/Oct system. let's see this happen.
+
+In the default patch you have open in VCV, you should be able to drag a wire from the port labeled `in 2` on the **SCOPE** module and drop the other end on the `v/oct` port on the **MIDI ▶ CV** module. It's okay that there are already other wires there.
+
+You should now see an extra line in the **Scope** module. Even if it's not a big change, playing a higher pitch note should make this line move up and a lower pitch note should make the line move down. (if you're having a hard time seeing it, try going from `z` to `p`)
+
+Okay, this now brought up a few more questions, namely what the hell is a scope, but patience. We still haven't talked about **MIDI**. 
+
+When you strike a key on your keyboard VCV is interpreting that keypress as a MIDI event, and converting that MIDI signal to a virtual V/Oct signal. 
+
+So what's up with this MIDI business? MIDI is a ~~fucking old~~ 1981 standard for how computers should and music hardware should talk to each other. It's also often used to let multiple audio programs on your computer exchange information... very limited information though. Just which key on the keyboard (musical, not typing) was hit, how hard,  and a few extra signals for getting corse grained adjustment of a few knobs. With the exception of three important ones you really need to knob about Pitch, Mod, and Sustain - but, in time. Let's get back on track.
+
+1. You Press A Key
+2. VCV Receives this as MIDI event
+3. VCV converts this to an signal in the V/Oct standard.
+
+So, if you happen to press the C note on the 4th octave, you'll get... 0v, no change, but if you were to hit the C note one octave higher (C5) the note should be noticeably higher pitch and the output from the V/oct port would be 1V. In fact because of how our music system works, an octave is exactly a doubling in frequency so while 'C4' is 261.63Hz 'C5' is 523.25Hz). If you hit a C#5 note though the output voltage will be  1.08333V because there are 12 notes per octave (A, A#, B, C, C#, D, D#, E, F, F#, G, G#) and 1/12 is .08333 which is added to the 1V from being up one octave from from middle C (C4)
+
 Alright. Fuck that's complicated. So, to boil that into a digestible chunk, you press a higher key, a higher voltage comes out, lower key, lower voltage. Keys above C4 will output a positive voltage, keys below a negative voltage.
 
 So we hit a key, voltage comes from V/oct on the MIDI->CV interface and goes to the Voltage Controlled Oscillator, which, as it's name suggests uses these voltages to control how it oscillates (moves). The V/oct input directly manipulates the frequency, but there's also this big honking frequency knob just begging to be twisted. That knob can be used to make it so 0V corresponds to a different note. For example, if we right click the frequency knob to enter a value directly, and enter '440' Hz that would make 0V into an 'A4' note (A is a common reference pitch, as it's just multiples of 110Hz so it's easy to remember) Now each key will just be 'transposed' that is they'll all be shifted over a few notes.
 
-You can also turn this knob to something out of tune to get things completely out of the classical scale. The fine knob below does the same thing, but gives you fine control (obviously)
-
-Alright, we'll come back to the VCO later, but let's follow the signal path a bit further. The VCO has a wire coming from the Saw wave output into a VCF or 'Voltage Controlled Filter'.
-
-Filters are a huge part of making good sounding music as often you'll have a good sound but it'll have too much low or high end and you just want to cut it out. This filter actually has 2 outputs, one for a 'High Pass Filter' (HPF) and one for a 'Low Pass Filter' (LPF) as the names imply, a HPF lets high frequencies though and cuts the low end and a LPF cuts the high end but lets the low though. LPFs are generally used more as usually it's more desirable to cut the harsh highs out of a sound than the humming, thumping lows. This is exactly what has been done in the default patch here. The final basic (filters get really complicated) thing you should know about a filter is how they have have a cut-off frequency. That is the point at which the filter starts cutting the sound. This is adjustable, so say with a Low Pass Filter we could set the frequency really low and only let though the lowest frequency sounds or set in nice and open to just cut out the really hissy stuff. We'll talk about more complex stuff like resonance in a bit.
-
-The need for this may seem a bit weird at first, as if we're playing a note at exactly one frequency, say A at 220Hz, then why would we need to filter out anything? Well, most oscillators and real instruments alike will actually have multiple 'harmonics', that is it will play an A at 220, 440, 880, and so on with decreasing amplitude or even on other frequencies entirely that still have a musical influence on the signal. On the 'VCO-1' Oscillator loaded into the default patch here you can lessen these harmonics by switching the ANLG (Analog) and DIGI (Digital) switch on the right. This is because this oscillator can emulate either an 'ideal' digital oscillator which outputs a clean, sharp signal with less harmonics or an analog signal oscillator which includes a subtle amount of pitch drift and some smoothing of the output wave- of note, usually the analog characteristics, while technically flaws, are desirable.
-
-![harmonics](/music/harmonics.webp)
-
-> The top VCO is outputting an 'analog' emulating signal while the bottom is in digital mode. Look at how the Triangle output shape on the analog mode is smoothed out compared to the digital mode's sharp edges
-
-You'll also notice there's a third wire running into the filter though- into an input labeled 'freq'. This input modulates the filter's cut off frequency. You wont visually see the knob change but you will hear the filter's cut off change based on the signal applied to this input but only if the 'Freq CV' knob is turned up. The 'Freq CV' knob is what's known as an attenuverter (a portamento of 'Attenuator' and 'Inverter'). This knob, when facing dead center says 'let nothing though' while all the way right lets the full signal (from the freq input) though, and all the way left lets the full signal though but inverts it first. Leaning right but not all the way will 'Attenuate' or weaken the signal first. I think you get the idea.
-
-So say we put the big 'FREQ' knob dead center, and give the 'FREQ' input jack wire carrying a very slow sine wave that goes between 0 and 10V, and set the 'FREQ CV' knob all the way right: This will bring the cut off higher and higher from it's starting position, and then bring it back to the starting level. If we instead turn the 'FREQ CV' knob all the way left, it'll bring the cut off frequency lower before turning back around and coming to it's starting position. Putting it at a slight lean right will still do the same as we started with, but will have less of an impact, making the sound much less 'jumpy' and tame. Really, that's what attenuverter's are for, taming an input signal.
-
-Here, I'm showing modulating the filter frequency manually as well as showing what resonance is- it boots the signal right at the cut off frequency
-
-![filter](/music/filter.gif)
-
-Here, the input to the cut off frequency is modulated with an 'LFO' or Low Frequency Oscillator, which much like the VCO outputs a simple signal, but in this case the signal is low frequency, usually below human hearing range:
-
-![lfofilt](/music/lfofilt.gif)
-
-Alright, that's fine and all, but the cable going input to the 'FREQ' control on the VCF is coming from something called an 'ADSR'
-
-So the adventure continues. 'ADSR' stands for 'Attack, Decay, Sustain, Release' and it does exactly that. But before we understand the output of an ADSR we have to look at it's input- 'Gate' and 'Retrig'
-
-'Gates', in modular, are simply a positive (sometimes needing to be 5V or higher) signals that represent that something is happening. Usually, that a key is being held. And that's exactly what's going on here. When you hold a key the 'Gate' output of  the MIDI->CV module is active. When you release it, the output goes off. You can see this by looking at the green indicator light where the gate output is on the MIDI->CV module when you hold or release a key. 'Retrig' is similar, though it only outputs a short pulse every time you press a key. This is handy because you may press a second key while already holding one key, meaning the gate output should stay on, but the retrig output will have sent a pulse each time you pressed a key (once when you pressed the key your holding, another time when you press a different key while still holding the original key).
-
-So, back to the 'ADSR' an ADSR generates a signal that looks like this:
-
-![adsr](/music/adsr.gif)
-
-That is, voltage will follow this shape over time. The 'Attack' knob sets how long it takes to reach the peak point, the Decay knob set's how long it will take to reach the sustain level, the sustain knob set's at what level the sustain should be held at, and the release knob set's how long the note should take to fade out from the sustain level after the key is released. Take note, the sustain knob controls a level, while the other three control time:
-
-Alright, so when the ADSR get's a gate signal it'll go though the Attack and Decay stages and wait at the Sustain level until the Gate is released or a Retrig signal is sent telling the ADSR to repeat the Attack and Decay stages.
-
-So, this output signal is fed to two places, the first is the frequency knob we saw before. This will result in the frequency cutoff going high then coming down to a reasonable level, then cutting down to just low frequencies as a note is released. The other place the signal goes is into the mixer:
-
-The mixer in this demo patch is super simple. It has 4 inputs, with one output. The sliders let you set the level of each input, and the 'CV' input of each slider let's you externally control the slider. Because the ADSR is fed into this input and the ADSR output is at 0V unless you hit a key the mixer actually mutes the signal until a key is pressed and then lets it play, fading out over the release period. The mixer also has one big volume knob ontop to set the master output volume of all 4 channels combined. Essentially the volume follows this shape of the ADSR signal over time. In times like this, the ADSR signal is called the 'envelope' for the sound. Really, the mixer is just a combination of multiple of a simpler component though, the VCA or Voltage Controlled Amplifier. This name is a bit misleading though, as really VCAs are usually used to bring a sounds volume down, like an attenuator. To show the simplest case I'll hook up a LFO to control a VCA's level, in turn changing the level of the signal passing though:
-
-![vcavult](/music/vcavult.gif)
-
-Also, above you'll see I used a 3rd party oscillator instead of the VCO-1 you've seen so far. Pictured is 'Basal' from the 'Vult-Free' collection of modules available on the VCV library page.
-
-> To get modules from the [VCV library](https://library.vcvrack.com) you'll need to make an account on that website, add the module colections you want, sign in in the VCV rack software, and update your modules. Once the modules are done downloading you'll be promted to restart rack and they sholud be installed. If you're looking for a few packs to grab to get started, but not be overwhelmed, I recomend Valley, Bogaudio, Impromptu, Vult, Befaco, Alright Devices, Audible Instruments, Erica Synths, Hora, and MindMeld. This will still probably be enough to overwhelm you a bit, but it's a really good starting place.
->
-> When you're looking to grow a bit: Aria Salvatrice, Blamsoft, Flag, Frozen Wasteland, Lindenberg Research, Geodesics, Instruo, Nysthi, Starling Via, Stoermelder, Wiqid, and ZZC are all very good.
->
-> Of course, this list is far from exhaustive, there are a ton of other good modules in VCV, but these are the collections I find myself using the most. If yo're down to pay for some modules, I really reccomend VCV's Parametra and Host, as well as Vult's Premum and Compacts collections. Slime Child Audio's Moog Subharmonicon inspired modules are great too. If you're a fan of 808 sytle drums, Hora's analog drums collection is worth a look. If you're really itching for a better sequener and don't want to use an external program, check out ZZC's Phaseque or Geodesics+Vult Hexaquark.
->
-> Note, that a few modules are not available in the VCV library, and instead you may need to install them manually.   see [Installing plugins not available on the VCV Library](https://vcvrack.com/manual/Installing#Installing-plugins-not-available-on-the-VCV-Library) from the offical VCV manual for more information.
-
-Finally, the output of just the first channel of the mixer is fed into the scope so that when you press a key you can see the signal your generating. To understand this it's easiest to just drag the cable coming out of the VCO's 'SAW' output to the VCO's 'Sine' Output. Now when you press a key instead of seeing a saw wave you should see a sine wave.
-
-Finally, I want to mention that at least by default this setup is 'Monophonic' (Mono = One , Phonic = Voice) meaning that even if you hit 2 keys at once you'll only hear the note from the last key you pressed. We'll explore Polyphonic (Many Voice) and Paraphonic (Para = beside, or side by side) systems later.
+You can also turn this knob to something out of tune to get things completely out of the classical scale. The fine knob below does the same thing, but gives you fine control (obviously).
 
 ---
 
-Now that we have that mess out of the way let's talk shop and drop back into our rack. This time Let's start with a mostly clean slate. Make sure you can still get sound out, then remove every module except the Audio module. Alrighty, now we can get to business.
+Let's strip this down to the essentials then. 
 
-Let's make a simple generative track, to start with we'll need some drums. Here's what we'll be setting up:
+1. Hover over every module in the patch **except** for the **MIDI ▶ CV** and **AUDIO** module hit delete or backspace to remove them.
+2. Then, right click the empty space and in the menu that pops up select a **SCOPE**. Drop that in. Do it again to add a **VCO**.
+3. Now, we need to wire things together. To start, let's wire the **VCO** to the **SCOPE** so we can see the signal. Go ahead and drag a wire from the `SIN` output of the **VCO** to the `IN 1` of the **SCOPE**. On the **SCOPE** drag the `TIME` knob all the way to the right (hold click and drag your mouse up) then click the button labeled `TRIG`. 
+4. Now, try moving the `FREQ` knob on the **VCO**. You should see the wave in the **SCOPE** expand and contract to show you the frequency!
+5. But, we still can't hear anything. Let's drag a wire from the **L/MON** (left / mono) input of the **AUDIO** module to the same `SIN` output of the **VCO**. This cables should stack on top of each other.
+6. You should now hear a constant tone which you can control by changing the `FREQ` knob on the **VCO**.
+7. Connect the `V/OCT` output from **MIDI ▶ CV** to the `V/OCT` input on the **VCO**.
+8. You should now be able to press keys on your keyboard (assuming **MIDI ▶ CV** is still set to use the QWERTY keyboard) to change the frequency.
+9. The `FREQ` knob on the **VCO** still works, it's just an offset applied to whatever is coming in on the `V/OCT` input.
+10. Connect a wire from the `IN2` of the **SCOPE** to the `V/OCT` **MIDI ▶ CV**, again stacking cables.
+11. Turn up the `GAIN 2` knob on the **SCOPE** a smidgen to make changes the change in the signal the **SCOPE** is getting from `IN 2` more obvious.
 
-![drumpatch](/music/drumpatch.webp)
+![basicVcoPatch](/music/basicVcoPatch.webp)
 
-So first, let's break each module down by function. The uGraph module (2nd on left) is a generative trigger sequencer, it generates drum rhythms for us. It has it's own built in clock, but an external clock signal can be provided (turn the clock knob left until it says *Ext.* then provide a clock input that's multiplied by the rate specified in the clock res box, in this case it wants 4ppqn or peaks per quarter note, so, if you want to a 120 bpm drum line, you'll want to send a clock signal that's multiplied by 4. Some modules will sync on 1ppqn or 24ppqn, etc. So, just be aware that you may need to multiply your clock signal some times.) though here we'll use the internal clock. This module sends out 6 triggers, where the three 'accent' (Acc) triggers are a strict subset of the main trigger outputs, that is there will only be an output on Acc when there is an output on Trig, but not always. uGraph will generate the three trigger sequences such that the left most trigger output 'fires' the least often and the right most the most often. This works well for setting up a common drum machine with kick, snare, and hat sounds so that the hats are frequent, the snare less so, and the kick a steady beat, but not overpowering. Of course, this isn't how you have to use it, and you can always add more trigger output patterns in VCV simply by sending two uGraph modules the same clock. Again, for now one module is fine. Finally, it's notable that this pattern will repeat, but a new pattern can be selected with the Map X and Map Y knobs.
+After approximately half a second, this should get very, very annoying. So, let's make it only make noise when we play a key.
 
-Alright, so uGraph is generating the drum triggers, think of it like the human swinging the drum sticks, but with only uGraph in there's nothing to hit. so let's add the basics. Grab a small Nysthi Mixers as pictures 2nd to last above and hook it up to an audio module as well. Then, grab the Erica PicoDrums module and place it in. Now, hook up two of the trigger outputs to the picoDrum's TR1 and TR2 trigger inputs, take the PicoDrums output to the mixer. After turning down the mixer module's master out a bit to make sure you don't play too loud of a sound, hit 'run' on the uGraph module. Currently, both of the drum sounds on the PicoDrum are set to the same sample, so you'll want to move the big 'ctrl' knob at the top to select a different sample on drum1, then switch to drum2 with the switch, and pick a good sample for drum two as well. You should now have a good drum pattern started!
+12. Right click in the background and add a **VCA**
+13. Drag the wire connected to `L/MON` on the **AUDIO** module and move it to the middle socket, labeled `IN` on the **VCA**. You should no longer hear anything.
+14. Drag a new cable from `OUT` of the **VCA** to `L/MON` on the **AUDIO** module. You should have sound again.
+15. Try moving the yellow bars on the **VCA** up and down (it works the same as a knob). This should change the volume. Double click it when done to set the volume back to max.
+16. Connect a new wire from the `GATE` output of the **MIDI ▶ CV** module to the unlabeled, top input of the **VCA**. Note the line between this input and the yellow lines you were moving in the last step. When you do this, audio should stop again.
+17. Play some notes. You should only hear sound when a key is held, and the yellow bars are gray except for when this happens.
+18. You can still drag the now-gray bars to lower the peak volume, similar to how you can adjust the `FREQ` knob on the **VCO** even after the `V/OCT` signal was connected.
 
-The problem with the PicoDrum module is that it has some baked in drum sounds that can't be changed (well, okay, the real eurorack version they can be, which actually makes it a good value, but I digress) but the sounds are still samples, that is they're just audio files being trigged to be played back. So, why not use something where we can pick our own sample?
+![addedvca](/music/addedvca.webp)
 
-You'll need some drum samples to get started, so just to get you started here's a decent sample pack: https://soundpacks.com/free-sound-packs/nyc-drum-kit/
+Some explanation is due. The **VCA** is a **V**oltage **C**ontrolled **A**mplifier, though contrary to the name, it usually only *attenuates* signals - makes them quieter. Basically, it's a volume control where you can use another signal to set the volume. The `GATE` output of the **MIDI ▶ CV** module sends a very strong signal whenever you hold a key, so it either fully "opens" the VCA (lets all the sound though) or closes it (lets no sound though) but we could use another signal. For example, we could use slower sine wave to control it:
 
-Download, extract, etc. that folder and in VCV place the 'Player' module as pictured above. Right click the module, select 'Load Sample', and use one of the sounds in the folders. You should now be able to trigger the player module and get sound out of it the same as the PicoDrum module. You can mess with some of the controls to get a feel for what you can do with the player Module. If you're having fun with that, you may want to look at the 'Simpliciter' module from Nysthi for an even more advanced sampler (also check the "samples" section below).
+![vcavult](/music/vcavult.gif)
 
-All of this is cool and all, but we're just playing back and manipulating sound files so far, so, let's look at the next type of drum: synthesized drum. Synth drums can be made to sound very close to real drums (this is generally called physical modeling, you'll hear the term a lot more for string synth sounds though) but can give sounds that no real drum would be capable of either. In the patch above I have 'Meta' from starling generating a low bass drum sound, but you can generally tweak synth drums into whatever sound you want, albeit some module will be better at different sounds, for example Vult's 'Trummor' modules excel at kick and bass drums. You can also make synth drums from basically anything just by thinking about the sound a drum makes. Generally, a drum is just a sound with a really sharp attack and a pitch that changes at it releases, so, this, while not the best, is a decent drum sound:
+{{< hint info >}}
 
-![SynthDrum](/music/SynthDrum.webp)
+**Basal** here is just a **VCO**, it's just from a collection of 3rd party modules for VCV rack.
 
-anyway, so now the last relevant part of the above patch worth understanding is the slew is just making it so we get a nice envelope generated by the Acc output, that slew is changing the pitch decay time on the synth drum (Meta) so that on accent outputs the low drum lasts a bit longer and has a slightly different sound. Just look at the signal on a scope in VCV if you don't fully get it.
+**LFO-2** is from an older version of VCV rack, but is effectively the same as **WT LFO** in modern versions. It's a **L**ow **F**requency **O**scilator, which is just a special VCO that's specialized for making very slow signals that are usually meant to be used to control other things, not be listened to directly.
 
-## A bit of an aside
+{{< /hint >}}
 
-Some people will try to get you to try various substances to be creative, to make better music, etc.
-
-If you want to get high or drunk, go for it- but don't let it turn into a creative crutch. You don't need it.
+Why don't you give doing something similar to this a shot. Find an **LFO** and connect replace the control input on the VCA with it, like has been done in the above GIF. See what kind of sounds you can get. (Hint: To remove a wire, just drag off one end, and without putting it over something else it can plug into, let go. It'll disappear)

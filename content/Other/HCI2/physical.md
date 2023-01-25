@@ -130,6 +130,8 @@ To give credit where credit is due, there have been minor changes that are trend
 
 Unfortunately, the drivers for configuring these options are still largely proprietary and anything but standardized, meaning making integration between brands and OS built-in support all but impossible. Of everything listed up to this point, I actually think this is the biggest problem. Without a consistent, extendable interface about the best that can be exposed is awkward hacks where joysticks are mapped as if they're on a full game controller or keys just mapped to a macro of keyboard keys or existing but unused keys like the F13 though F24 keys (yes, those still exist in your OS even you can't type them) or scroll lock. This is a massive problem. More on that in a bit.
 
+{{< smalltext >}}See also: [The ThinkPad Trackpoint Mouse](https://www.theverge.com/circuitbreaker/2020/6/30/21292182/thinkpad-trackpoint-mouse-nub-button-trackpad-challenges-design-user-input){{< /smalltext >}}
+
 ### Foot Controllers
 
 {{< columns >}}
