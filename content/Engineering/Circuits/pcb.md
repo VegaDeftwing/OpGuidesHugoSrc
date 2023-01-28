@@ -842,6 +842,8 @@ https://github.com/badgeek/svg2shenzhen
 
 https://mitxela.com/projects/melting_kicad
 
+[OSH Park After Dark - Clear Solder Mask](https://blog.oshpark.com/2019/10/10/introducing-our-after-dark-black-fr-4-service/)
+
 # Chapter 26.3 - Alternatives to PCBs
 
 [TODO] Wirewrap, permaproto, etc.
