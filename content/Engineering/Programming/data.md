@@ -1,8 +1,8 @@
-# Chapter 13½ - Data, Encodings, Compression, etc.
+# Chapter 15½ - Data, Encodings, Compression, etc.
 
 When you write code, you'll inevitably be working with input and output of some sort - even if it's just text. This is *always* more complicated than it seems. For example, text processing is easy, right?
 
-🚫, 🅘🆃 🄸🄣's 🇳ot.
+🚫, 🅘🄣's 🇳ot.
 
 Even text encoding is a massive pain, unless you can ensure you only need to (and do) process basic ASCII characters, that is.
 

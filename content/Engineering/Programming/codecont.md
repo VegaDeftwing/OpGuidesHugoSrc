@@ -1,20 +1,4 @@
-# Chapter 12 - Finishing up the project
-
-{{< quote "[Hunor Karamán @ hex22.org](https://hex22.org/)">}}
-
-### Manifesto
-
-1. **Everything should be a tool.** A tool transforms data without adding to its source limitations. It's a function: returns an output for a given input.
-2. **A great tool is [ambient](https://are.na/alex-singh/ambient-product-design).** It should disappear and flow through your actions. You should never need it because it's always at your hands. You should never ignore it because it's never in your way.
-3. **Tools should be adaptable, changeable and personalisable**. If a tool does not perfectly fit your needs, you should be able to change, mix or remove its parts.
-4. **Data should be reusable, text-editable, human-readable.** Produces a higher chance that (1.) is passed.
-5. **Tools should be lightweight, available and timeless.** Computing power or internet speed shouldn't be the limitation for most tasks. It works in the past and in the future.
-
-{{< quote "Devine Lu Linvega">}}
-"Only through open sources, open standards, human-readable formats and their independencies, might they survive this fleeting age of self-destructing informatics."
-{{< /quote >}}
-
-{{< /quote >}}
+# THIS PAGE IS BEING REMOVED
 
 ## Part 3, more advanced high level
 

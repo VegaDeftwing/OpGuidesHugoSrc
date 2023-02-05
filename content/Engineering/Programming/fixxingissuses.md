@@ -1,4 +1,4 @@
-# Chapter 12½ - It Was Working Just A Second Ago...
+# Chapter 13 - Fixing Issues & Debugging 
 
 Alright, so your code/electronics/computer/life was working fine just a second ago, and now it's just not working at all. Take a deep breath, and relax. Let's work though this.
 
@@ -26,11 +26,7 @@ What are your conditions for success? Are you even testing for these conditions 
 
 # 🐜 Actually use a debugger
 
-For some reason a ton of programmers are allergic to their debuggers. There's more to life than print debugging. Set a break point. You can do it. I believe in you.
-
-see: [Print Debugging Should Go Away](https://robert.ocallahan.org/2021/04/print-debugging-should-go-away.html) and the tools recommended in it, like [rr](https://rr-project.org) - also refer back to Chapter 11, [Low Level Programming]({{< relref "/Engineering/programming/lowlvl" >}}) where tools like valgrid were mentioned.
-
-You may also want to skip ahead to Chapter 16, [Debugging, CI & CD]({{< relref "/Engineering/programming/debugbuildtest" >}}).
+For some reason a ton of programmers are allergic to their debuggers. There's more to life than print debugging. Set a break point. You can do it. I believe in you. If you want to know more about debugging, keep reading on this page.
 
 # ➗ Binary Search Debugging
 
@@ -57,3 +53,51 @@ This is easy, just make a todo style list, if you come up with a new idea halfwa
 ## Other Resources:
 
 [How Game Designers Solved These 11 Problems (Game Maker's Toolkit, YouTube)](https://www.youtube.com/watch?v=rJZyPdYIbZI&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
+
+
+
+## Debugging
+
+[./missing-semester - Debugging and Profiling](https://missing.csail.mit.edu/2020/debugging-profiling/)
+
+see: [Print Debugging Should Go Away](https://robert.ocallahan.org/2021/04/print-debugging-should-go-away.html) and the tools recommended in it, like [rr](https://rr-project.org).
+
+### Software Debugging
+
+[TODO]
+
+GDB with Gef, interpreted languages, embedded systems, non-code issues (boot problems, glitchy behavior), hardware failures, valgrind, various trace programs, print debugging extended
+
+### Debuggers
+
+[GDB Frontend](https://github.com/rohanrhu/gdb-frontend)
+
+[GDB + GEF](https://gef.readthedocs.io/en/master/)
+
+[The State of Linux Debuggers (Jamie Brandon's Blog)](https://scattered-thoughts.net/writing/the-state-of-linux-debuggers/) ← This is a decent rant about why most debuggers sort of suck. And yeah, they do. But we still sorta need them
+
+[Advanced GDB Usage (Interrupt)](https://interrupt.memfault.com/blog/advanced-gdb)
+
+https://rr-project.org
+
+\+ valgrid in here somewhere, ref 11- low level prog
+
+#### Static Analysis
+
+[CodeChecker using LLVM/Clang (GitHub)](https://github.com/Ericsson/codechecker)
+
+### Hardware Debugging
+
+common interfaces, simulation, serial/print debugging (slow), internal data logging, physical indicators of internal state, hardware to facilitate debugging (LED 'byte')
+
+[TODO] [Embedded C/C++ Unit Testing Basics (Interrupt)](https://interrupt.memfault.com/blog/unit-testing-basics)
+
+[TODO] [Faster Debugging with Watchpoints (Interrupt)](https://interrupt.memfault.com/blog/cortex-m-watchpoints)
+
+TODO: Mention looking at peripheral registers, how to handle interrupts, etc.
+
+
+<ol hidden id="footnotes">
+  <li>This may or may not be important to you. I would simply note that many platforms and CI systems have been taken over or bought by open-source hostile companies. Even formerly visionary ones that don't start with G.</li>
+  <li>Why have different versions of the same compiler? Because they default to different versions of the C++ standard. Not only will C++ "retcon" keywords, but semantics will change. Suffice to say this has caught issues in open source projects.</li>
+</ol>

@@ -1,4 +1,4 @@
-# Appendix 5 - {{< katex >}}\LaTeX{{< /katex >}} & Markdown
+# Appendix 6 - {{< katex >}}\LaTeX{{< /katex >}} & Markdown
 
 ## Like the kink?
 

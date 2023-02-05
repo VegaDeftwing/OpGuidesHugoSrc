@@ -1,4 +1,4 @@
-# Appendix 2 - Cheat Sheets and quick info
+# Appendix 3 - Cheat Sheets and quick info
 
 <!-- TODO: Add licences (or emjois to represent them?) for all libraries. Probably put them in a table like the VSTs -->
 

@@ -1,4 +1,4 @@
-# Chapter 19.0 - Shaders
+# Chapter 19 - Shaders
 
 ![](/common/arrow.svg)
 

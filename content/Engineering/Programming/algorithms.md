@@ -1,4 +1,4 @@
-# Chapter 14 - Discrete Math, Algorithms, Data Structures, and Not Sucking at Programming ™*
+# Chapter 15 - Discrete Math, Algorithms, Data Structures, and Not Sucking at Programming ™*
 
 ## Brute Force Algorithms
 

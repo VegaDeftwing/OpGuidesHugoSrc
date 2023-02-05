@@ -1,4 +1,4 @@
-# Appendix 3 - Other Great Resources
+# Appendix 4 - Other Great Resources
 
 ## Conventions
 

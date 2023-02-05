@@ -1,18 +1,18 @@
-# Chapter 15 - Writing a larger program
+# Chapter 11 - Best Practices
 
-{{< quote "[xxiivv/development](https://wiki.xxiivv.com/site/development.html)" >}}
+{{< quote "[Hunor Karamán @ hex22.org](https://hex22.org/)">}}
 
-* Prototype before polishing. Get it working before optimizing it.
-* Separate policy from mechanism, separate interfaces from engines.
-* Write simple modular parts connected by clean interfaces.
-* Design programs to be connected to other programs.
-* Write programs to write programs when you can.
-* Design for the future, because it will be here sooner than you think.
-* In interface design, always do the least surprising thing.
-* When a program has nothing surprising to say, it should say nothing.
-* When a program must fail, it should fail noisily and as soon as possible.
-* Write big programs only when it is clear by demonstration that nothing else will do.
-* Consider how you would solve your immediate problem without adding anything new.
+### Manifesto
+
+1. **Everything should be a tool.** A tool transforms data without adding to its source limitations. It's a function: returns an output for a given input.
+2. **A great tool is [ambient](https://are.na/alex-singh/ambient-product-design).** It should disappear and flow through your actions. You should never need it because it's always at your hands. You should never ignore it because it's never in your way.
+3. **Tools should be adaptable, changeable and personalisable**. If a tool does not perfectly fit your needs, you should be able to change, mix or remove its parts.
+4. **Data should be reusable, text-editable, human-readable.** Produces a higher chance that (1.) is passed.
+5. **Tools should be lightweight, available and timeless.** Computing power or internet speed shouldn't be the limitation for most tasks. It works in the past and in the future.
+
+{{< quote "Devine Lu Linvega">}}
+"Only through open sources, open standards, human-readable formats and their independencies, might they survive this fleeting age of self-destructing informatics."
+{{< /quote >}}
 
 {{< /quote >}}
 
@@ -40,6 +40,30 @@ Even if this is just `get_whatever()`, "get" is a verb. If it doesn't have a ver
 {{< smalltext >}} \*Unless it's really, really dumb, like using `i`, `j`, and `k` for loop counters {{< /smalltext >}}
 
 Don't name your variables `bool blunt_master_420`. Give it a name that actually means something in the code.
+
+{{< quote "[u/tyg13 on Reddit](https://www.reddit.com/user/Tyg13/)" >}}
+
+Smash back if the intermediate variables don't represent a meaningful value. Sometimes it makes sense to declare an intermediate, and sometimes it doesn't, e.g:
+
+```python
+price = get_price()
+tax = income_tax * price
+full_price = price + tax
+```
+
+In this situation, employing intermediate variables is fine, because each has an actual interpretation within the calculation. However, e.g:
+
+```python
+x_squared = get_x() ** 2
+y_squared = get_y() ** 2
+distance = math.sqrt(x_squared + y_squared)
+```
+
+This is bad, because `x_squared` and `y_squared` are only meaningful quantities in the context of the distance calculation, and breaking out these variables just obfuscates the computation.
+
+If you ever find yourself asking "what the hell could I even name this variable?" it's a pretty typical sign that you're trying to break things up more than is logically necessary, and just making a mess of things.
+
+{{< /quote >}}
 
 ### Peren all the things
 
@@ -208,12 +232,33 @@ When you're writing functions, if they can fail, make sure they can tell the cal
 * Autoformatters
   * Should probably pick some of the important options in clang-format and talk about them.
 
+* Static Analysis
 * Comments & Doxygen
   * Document the 'Why' not the 'How' - Future you can read code, but future you probably won't remember why it's there or why it was done this way.
 * Test your code.
 * Make your tools work for you - especially your compiler.
+* Track your TODOs
+  * Often, you want to make something quick as a Proof of Concept (PoC) to know it's not a dead end. The problem is, we often don't go back and clean up our mess after we get it to work.
 
 https://medium.com/@msandin/strategies-for-organizing-code-2c9d690b6f33
+
+---
+
+{{< quote "[xxiivv/development](https://wiki.xxiivv.com/site/development.html)" >}}
+
+* Prototype before polishing. Get it working before optimizing it.
+* Separate policy from mechanism, separate interfaces from engines.
+* Write simple modular parts connected by clean interfaces.
+* Design programs to be connected to other programs.
+* Write programs to write programs when you can.
+* Design for the future, because it will be here sooner than you think.
+* In interface design, always do the least surprising thing.
+* When a program has nothing surprising to say, it should say nothing.
+* When a program must fail, it should fail noisily and as soon as possible.
+* Write big programs only when it is clear by demonstration that nothing else will do.
+* Consider how you would solve your immediate problem without adding anything new.
+
+{{< /quote >}}
 
 ## Why You Shouldn't Write Big Programs: </br>"The Unix Philosophy"
 
@@ -272,6 +317,10 @@ Private & Public methods (also not necessarliy OOP, but make more sense in this 
 explain `this`
 
 ## Planning
+
+## Design Patterns
+
+For more advice on writing good code, are these things called "Design Patterns" - [Wikipedia has a big ol' list of 'em](https://en.wikipedia.org/wiki/Software_design_pattern#Structural_patterns) which is worth looking into, and if you just google the "software antipatterns" you'll find a huge list of things to avoid in code. A lot of these are high level and tend to miss why the *bad things* are done in the first place: time.
 
 ## Software Engineering
 
