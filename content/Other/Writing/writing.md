@@ -1,5 +1,7 @@
 # Improving Your Writing
 
+[TODO] split this up for technical, fiction, and applicable to both.
+
 {{< columns >}}
 
 <iframe width="100%" height="200" src="https://www.youtube.com/embed/eGnH0KAXhCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -22,11 +24,31 @@ And for some fun,
 
 [Catastrotivity](https://www.youtube.com/watch?v=5Tx6U5OhMDg&list=PL6haVw-BFETw13kBFhbWl6UCshzgIC7Ea), a series of short audio episodes about being an artist, while not focused on writing, proved to be quite useful too.
 
+[ShaelinWrites on YouTube](https://www.youtube.com/@ShaelinWrites/videos) is a great channel. Slap it onto 1.5x speed and injest as much as you can.
+
+Some things I took away from her videos:
+
+* Avoid the leading filter words. Don't say "She saw .... She smelled ... She wondered ..." If it's obviously from the character's perspective, the reader doesn't need to be told that it's coming from their senses or mind.
+* Earn adjectives, don't state the obvious "Feathered bird" and "Wooden acoustic guitar" - "Feathered" and "Wooden" are what you'd assume.
+* Avoid "Just" - most uses of the word are bad outside of dialogue.
+* If you start with past perfect, "they had [verd]ed [subject]", try to transition to simple past tense for the rest of the paragraph if you can. It's an exception to the typical necessity for consistent verb tenses.
+* Don't use "as" if the two things can't happen simultaneously, unless there is an intent to imply the strangeness of doing both things at once.
+* Don't use "He started to" etc. If something wasn't happening before, it's logical to assume it's just 
+
+
+
 *The Art Of Language Invention*
 
 *Game Maker's Toolkit*
 
 Any stories, books, music, TV - but the New Ablion series, 17776, Brimstone Valley Mall, Umbrella Accademy, The Magicians, Arrival
+
+Advice I heard repeated in many, many sources.
+
+* Edit on paper - it's MUCH more effective than editing on a screen
+* Don't state the obvious. Assume your readers are familiar with reality
+  * Balance stating the weird with the character's perspective. If something is normal in the character's universe, they wouldn't be commenting on it.
+  * Avoid stating things twice "Unknown stranger" or stupid "Frown on her face" "he stood up" "she sat down"
 
 ## Finding Tools
 
@@ -37,6 +59,7 @@ After seaching far longer than reasonable for good writing tools only a few real
   * [adjancey-matrix-maker](https://github.com/SkepticMystic/adjacency-matrix-maker) proides a view of how different pages relate to one another I find much more useful than the node graph
   * [TODO] https://github.com/johackim/obsidian-writing
   * [TODO] https://write.as/vanessaglau/how-i-plan-and-write-fiction-in-obsidian
+    * https://www.youtube.com/watch?v=_pZ3ZZd1mms
 * [Wavemaker, for it's "Snowflake" method](https://wavemaker.co.uk/blog/the-snowflake-method/)
 * [Prosodic](https://github.com/quadrismegistus/prosodic) for analyzing stress and meter when writing poetry or lyrics
 * [Hemmingway](https://hemingwayapp.com/desktop.html) I'm much less enthused to find useful, as like Grammarly, I think it enourages a bit too much uniformity in writing. However, I tend to write extremely long run on sentences and while I know there are other tools than can catch this (Word, obviously) I found Hemmingway catches a bit more.

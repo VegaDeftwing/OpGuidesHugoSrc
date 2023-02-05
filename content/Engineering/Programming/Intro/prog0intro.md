@@ -12,6 +12,8 @@ So, yeah, programming is really freakin' awesome. Unfortunately, it's also prett
 
 ## Why is programming hard?
 
+**(and how to programmers think)**
+
 Programming is difficult for a few reasons:
 
 ### 1. Because you have to use math, logic, and data structures to model your problem. 
@@ -119,6 +121,8 @@ However, for this particular language (Python) there's a better way:
 my_numbers = [x + 1 for x in my_numbers]
 ```
 
+Though that's only a small block of code. Most problems will be much larger and abstract, and have wildly ranging solutions. This leads in to the next point, 
+
 ### 3. Because making decisions before you know everything is hard
 
 For the above example, say you thought that list would only ever have two numbers in it, so you do go with the first solution. Then, you realize down the line, that, oh, no, that list is actually going to have 100 numbers in it, so you write it with `my_numbers = [x + 1 for x in my_numbers]`, but then, later, you find out you need to add 10 *if*  the number is greater than 100. Then you find out this list might have nothing in it (just be empty) in a special case, in which case you need to put a special value in it.
@@ -188,7 +192,7 @@ Yunno' the expression "when you have a hammer everything is nail"? It's a real p
 
 This is one of those things that comes with experience and knowing what problems tend to grow into unmaintainable monsters and so should be done by using a tool that solves the problem for you. For example: time.
 
-Time sounds easy. Storing the time, reading the time, etc. Yeah, no. Time zones, daylight savings, leap years, leap seconds, date formats, etc. will all make you hate your life as soon as you start to mess with time.
+Time sounds easy. Storing the time, reading the time, etc. Yeah, no. Time zones, daylight savings, leap years, leap seconds, date formats, etc. will all make you hate your life as soon as you start to mess with time. You absolutely should use libraries and tools other people have made if you're working with time.
 
 On the other hand, some people over-use external tools. The [is-odd](https://www.npmjs.com/package/is-odd) JavaScript package, which just checks if a number is odd, has **425,000** downloads this week. As you'll see later, doing this in code is as simple as 
 
@@ -203,7 +207,51 @@ This is extra dumb when you realize that the maintainers of the is-odd package *
 
 To make matters worse, there's a problem of deciding what level of abstraction you want to work at. While it's possible to learn it all and be good at everything, most programmers pick a niche. Maybe you're into web dev. Maybe you want to make games. (both of which are considered high-level). Maybe you want to make hardware move and be right down at the circuit level (which is known as low level). Most good low level programmers aren't great high-level programmers, and vis-versa. Both can be a ton of fun though, and so you'll inevitably want to do some of both.
 
-This tends to cause problems. As an extreme example, there's these things called "Game jams". These are events where programmer/artist/masochists (or small teams of masochists) will make an entire game in one weekend. The vast majority of these are going to use platforms which already give them things like a way to render 3D or 2D objects to the screen, to handle real time user input, physics between objects, etc. Making all of that stuff from scratch, for most programmers, would take months if not years to get something even remotely functional.
+As an extreme example, there's these things called "Game jams". These are events where programmer/artist/masochists (or small teams of masochists) will make an entire game in one weekend. The vast majority of these are going to use platforms which already give them things like a way to render 3D or 2D objects to the screen, to handle real time user input, physics between objects, etc. Making all of that stuff from scratch, for most programmers, would take months if not years to get something even remotely functional. In one weekend, they have to use everything they can to make the goals manageable.
+
+My main point though is you should kind of always have an angel and a devil on your shoulders, one asking "Is this a problem I can solve easily with what I have" and the other saying "You should go look into what exists to make this easier"
+
+Finding the right tool will occupy a lot of your time programming at first, and will take up a fair amount of time again if you ever change the kind of code you're working on. For example, at the start, you'll have a lot to learn about things that are sort of meta for programming, like what text editor to use, what tools you need to build and run your code, what a debugger is, etc. plus a few extremely common tools for the program's logic itself, like [Regex](https://en.wikipedia.org/wiki/Regular_expression) for text processing.
+
+As you dive into a project, you'll often find you need something that make specific extremely hard problems much easier, but you'll have to learn how to use that tool. For example, the math behind doing AI work is pretty damn complicated and getting it to run quickly is really important and very, very hard. Fortunately, if you google "How do I write AI code" you should pretty quickly run into mentions of "Tensorflow" and "Pytorch", both of which are incredible tools that will make AI stuff, not-quite-*easy* but it will change the bar from *nearly impossible* to "Oh, I can do that".
+
+Again, these vary from problem to problem, but it's actually insane how many really hard problem are approachable because of the existence of good, application-specific tools. 
+
+### 4. Because your code has to run on hardware (and probably an OS too)
+
+Running on hardware varies in importance. 
+
+If you're writing a quick utility that doesn't do much and runs infrequently, it can be a bit slow and it doesn't really matter. An extra few hundredth of a second won't be noticeable to anyone in that case.
+
+But what about a game or an audio effect? For a game, you probably want to get at least 60FPS, for audio you're probably processing that audio 48,000 times a second. That means for the game you need to do all your calculations in 1/60th of a second window (or faster) consistently. For audio you have 20 microseconds to process each sample.
+
+This means you need to take full advantage of your hardware to hit those targets. 
+
+This means looking into ways you can speed things up. For most games, this means using the graphics card (though usually you'd be using something that does this for you). For audio stuff, this means digging into each function call to figure out what's slowing you down. Maybe you're trying to compute `sin(x)` and `sin()` is just to slow, so you may need to dive into learning about [approximations of sine](https://datagenetics.com/blog/july12019/index.html) or figure out how to use a [look up table](https://www.daycounter.com/Calculators/Sine-Generator-Calculator.phtml). 
+
+Of course, this same concept applies to more than audio and games, you can find performance critical code in anything - though in many applications "bad" performance is relative. Users won't care if their accounting software takes an extra few hundredths of a second to finish a calculation.
+
+You'll also have to know what causes slow downs.
+
+For example, your processor and graphics card are crazy fast, but your bulk storage (SSD or HDD) isn't. If you're making a game and you try to load the next level in full between two frames you can ... it's just that those two frames are going to be a hell of a lot more than 1/60th of a second apart and the user is going to wonder if their game just froze.
+
+> This brings up a common problem in programming:
+>
+> Is it faster/better to check if something needs done, and only do it if it does, or is it faster to just do it regardless (doing something useless if it doesn't actually need done)
+>
+> The answer is a massive "It depends". It depends on the hardware. It depends on if consistent times or lowest total time is important. It depends on if doing the thing will slow other things down. It depends on how much time it takes to check vs how much time it takes to do.
+>
+> It also depends on if you care at all. Does writing the check take more code? That's also a factor. Every line of code is another line where you could accidentally introduce a bug.
+
+Deeper still, you may be writing code for an *embedded system*. These are chips that, usually, are roughly on par in power with a computer from the 80s but consume very little power (Some as little as *nano*amps when in low-power states) and let you directly send electrical signals to other parts, like LEDs, motors, etc.
+
+On these systems there is a memory address that if you write a '1' to (binary 1's and 0's, I mean) it will make a pin on the physical chip on which the processor resides output a higher voltage. Similarly, you'll have memory address you can read that will tell you if there's a signal on that pin. These devices are everywhere. In your keyboard (even if you're on a laptop) and your mouse. In your alarm clock. In your Bluetooth speakers. In industrial equipment. In your smart light bulbs. In many newer guitar pedals. In your TV. Even a normal computer (or things you'd think of as one, like a game console or SmartTV) will have multiple of these really lame computers in them.
+
+This opens an enormous can of worms. If you're working on something like this, you'll often have to make sure those signals are actually 'clean' enough for the processor to read and that when you toggle a pin, the signal you send gets to where it's going like it should, even though you might be toggling these pins a million times a second.
+
+Then there's the Operating System (Windows, Mac, Linux) that you're code - if not for an embedded system - is likely to be running on. These will provide systems for things like multi-threading (letting your program do two or more things at once), a way to access file (you can't go changing bytes on the hard drive at will - the OS will make you ask for a file to read, modify, and save), and access to networking. You can think of the OS as very beefy waiter at a bar. He'll happily take your order and get you what you need, but if you try to go into the kitchen yourself, he won't hesitate to throw you out.
+
+In short: How you use your hardware dictates performance, the OS may limit how you use your hardware, but make doing so much easier and more secure.
 
 ## Why is *learning* programming hard?
 

@@ -1,6 +1,6 @@
 # Chapter 13 - Programming Languages
 
-<!-- TODO: https://pldb.com/lists/languages.html , https://buttondown.email/hillelwayne/archive/microfeatures-id-like-to-see-in-more-languages/ , https://renato.athaydes.com/posts/unison-revolution.html , https://github.com/betaveros/noulith, https://github.com/esotericist/frf -->
+<!-- TODO: https://pldb.com/lists/languages.html , https://buttondown.email/hillelwayne/archive/microfeatures-id-like-to-see-in-more-languages/ , https://renato.athaydes.com/posts/unison-revolution.html , https://github.com/betaveros/noulith, https://github.com/esotericist/frf, https://cyberscript.dev, https://github.com/Vexu/bog -->
 
 ```
 for (🥚 = 1; 🥚 < 🐔; 🥚++){
@@ -33,6 +33,8 @@ https://cs.lmu.edu/~ray/notes/syntaxdesign/
 [Best-of-C](https://blog.joren.ga/programming/best-of-c)
 
 https://www.learncpp.com
+
+https://nedbatchelder.com/code/cog/ for making plain C suck a bit less.
 
 ### Assembly
 
