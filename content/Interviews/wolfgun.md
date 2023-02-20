@@ -51,7 +51,6 @@ input {
     margin: 0;
 }
 </style>
-
 <br style="clear: both;">
 
 <div style="float:left;padding: 0 1.5em 0 0;">
@@ -288,7 +287,7 @@ For a long while I wasn't sure how to 'be' furry. I have very specific feelings 
 
 It was everything I wanted to be, but wasn't. When I had to do things I wasn't prepared to do myself, or didn't have the strength to do myself, I would wear 'Wolfgun' instead. From this imaginary thing, I drew strength. Over the last couple years, a lot of things have happened, and my association with 'Wolfgun' is no longer that of 'Wolfgun' being a thing I need to wear - that is to say, 'Wolfgun' is a part of me, but I don't wear it for strength. I actually consider myself a Big Cat these days. 
 
-To be extremely specific about it, I feel like I have always been 'Big Cat', and 'Wolfgun' is just a thing I wore until I understood that. But I feel much more comfortable as a cat. I feel like it fits me, instead of me simply wearing it to make up for what I lack. With regard to me and my art, the aspect of my identity which can be called "Furry" helped me to more clearly define myself, understand myself, and in general, feel more like myself. In my art, this means expressing my emotions as raw and real as I can. Of course, I do that in reality, every day, as well.
+To be extremely specific about it, I feel like I have always been some kind of big cat, and ‘Wolfgun’ is just a thing I wore until I understood that. But I feel much more comfortable as a cat. I've even been working on a cat-based fursona. I feel like it fits me, instead of me simply wearing it to make up for what I lack. With regard to me and my art, the aspect of my identity which can be called “Furry” helped me to more clearly define myself, understand myself, and in general, feel more like myself. In my art, this means expressing my emotions as raw and real as I can. Of course, I do that in reality, every day, as well.
 
 {{< iquestion >}}
 **How do you feel about AI tools being used for digital art? What about for music?** 
