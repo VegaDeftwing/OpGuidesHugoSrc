@@ -57,24 +57,25 @@ input {
 <div style="float:left;padding: 0 1.5em 0 0;">
     <table>
         <tr></tr>
-        <td><input type="text" value="C0" class="pitch" /></td>
+        <td><input type="text" value="F#1" class="pitch" /></td>
+        <tr></tr>
+        <td><input type="text" value="C#2" class="pitch" /></td>
+        <tr></tr>
+        <td><input type="text" class="pitch" /></td>
         <tr></tr>
         <td><input type="text" value="F#1" class="pitch" /></td>
         <tr></tr>
-        <td><input type="text" class="pitch" /></td>
-        <tr></tr>
-        <td><input type="text" value="D2" class="pitch" /></td>
-        <tr></tr>
-        <td><input type="text" value="C0" class="pitch" /></td>
-        <tr></tr>
-        <td><input type="text" value="B2" class="pitch" /></td>
+        <td><input type="text" value="G#2" class="pitch" /></td>
         <tr></tr>
         <td><input type="text" class="pitch" /></td>
         <tr></tr>
-        <td><input type="text" value="D2" class="pitch" /></td>
+        <td><input type="text" value="F#1" class="pitch" /></td>
+        <tr></tr>
+        <td><input type="text" value="B1" class="pitch" /></td>
     </table>
     <button id="play" style="width: 4em; display: block; margin-left: 0.3em; margin-bottom: 0.5em;">Play</button>
 </div>
+
 
 Wolfgun is a space obsessed master of synthesizers with 50 albums out on Bandcamp. He primarily makes his music in Renoise, a Digital Audio Workstation (DAW) which combines an old-school tracker workflow - think the equivalent of combining spreadsheets and music software with the sequence of notes and effects entered vertically, like the example on the left - with modern production capabilities.
 
@@ -307,7 +308,18 @@ Finally, we must not undervalue artists by equating them to 'black boxes'. Neura
 **Is there any skill that you spent too much time developing that you wish you hadn't?**
 {{< /iquestion >}}
 
-No. Learning, and excelling at what you learn, is always good no matter the context. You find that as you go through life, one skill leans into another, to varying degrees. It is worth it to learn things and become better, always, because that is one of life's most noble goals.
+<div class="progress-ww">
+<dl>
+<dt> </dt><dd> <a href="/interviews/loial/">Loial Otter</a></dd>
+<dt> </dt><dd> <a href="/interviews/soatok/">Soatok Dreamseeker</a></dd>
+<dt> </dt><dd> <a href="/interviews/cadeyratio/">Cadey Ratio</a></dd>
+<dt> </dt><dd> <a href="/interviews/kell/">Kell Bengal</a></dd>
+<dt> </dt><dd> <a href="/interviews/taxbadger/">Tax Badger</a></dd>
+<dt> </dt><dd> <a href="/interviews/spg/">Sex Positive Gaming</a></dd>
+<dt> </dt><dd> <a href="/interviews/cendyne/">Cendyne</a>
+<dt> </dt><dd> <a href="/interviews/wolfgun/">Wolfgun</a>
+</dil>
+</div>
 
 {{< iquestion >}}
 **What's the most important skill that you've taught yourself?**
@@ -322,17 +334,17 @@ With regard to art, the skill to recognize new information and absorb it into my
 {{< /iquestion >}}
 
 Books: 
-* The Quadrivium. 
+* The Quadrivium
 
 Movies: 
 * Cloud Atlas (2012)
 * Beyond The Black Rainbow (2010)
 * Solaris (1972)
-* The Color of Pomegranates (1969). 
+* The Color of Pomegranates (1969)
 
 TV Shows: 
 * Star Trek: TNG
-* Star Trek: DS9.
+* Star Trek: DS9
 
 {{< iquestion >}}
 **What's the biggest 'Oh Shit' moment you've ever had, be it one you caught in time or not?**
