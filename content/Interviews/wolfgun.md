@@ -308,18 +308,7 @@ Finally, we must not undervalue artists by equating them to 'black boxes'. Neura
 **Is there any skill that you spent too much time developing that you wish you hadn't?**
 {{< /iquestion >}}
 
-<div class="progress-ww">
-<dl>
-<dt> </dt><dd> <a href="/interviews/loial/">Loial Otter</a></dd>
-<dt> </dt><dd> <a href="/interviews/soatok/">Soatok Dreamseeker</a></dd>
-<dt> </dt><dd> <a href="/interviews/cadeyratio/">Cadey Ratio</a></dd>
-<dt> </dt><dd> <a href="/interviews/kell/">Kell Bengal</a></dd>
-<dt> </dt><dd> <a href="/interviews/taxbadger/">Tax Badger</a></dd>
-<dt> </dt><dd> <a href="/interviews/spg/">Sex Positive Gaming</a></dd>
-<dt> </dt><dd> <a href="/interviews/cendyne/">Cendyne</a>
-<dt> </dt><dd> <a href="/interviews/wolfgun/">Wolfgun</a>
-</dil>
-</div>
+No. Learning, and excelling at what you learn, is always good no matter the context. You find that as you go through life, one skill leans into another, to varying degrees. It is worth it to learn things and become better, always, because that is one of life's most noble goals.
 
 {{< iquestion >}}
 **What's the most important skill that you've taught yourself?**
