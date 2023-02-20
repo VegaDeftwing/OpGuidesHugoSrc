@@ -38,6 +38,11 @@
         </div>
         {{ end }}
 
+        <!-- Hack to do background on Wolfgun's Interview Page -->
+        
+        <script src="https://unpkg.com/@h0rn0chse/night-sky/dist/bundle.min.js"></script>
+        
+
   <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c6f9eeb56e4645ee9ca07afbee7e0462"}'></script><!-- End Cloudflare Web Analytics -->
 
   <input type="checkbox" class="hidden toggle" id="menu-control" />
@@ -48,6 +53,16 @@
     </aside>
 
     <div class="book-page">
+      <!-- Hack to make the star background on wolfgun's interview page work -->
+      {{if eq .Title "Wolfgun"}}
+      <night-sky
+      id="nightSky"
+      layers="4"
+      density="30"
+      velocity="15"
+      starcolor="#461577">
+      </night-sky>
+      {{ end }}
       <header class="book-header">
         {{ template "header" . }} <!-- Mobile layout header -->
       </header>

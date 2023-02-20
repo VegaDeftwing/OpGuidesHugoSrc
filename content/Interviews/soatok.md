@@ -7,7 +7,11 @@ bookToC = false
 
 <img src="/nonfree/interviews/soatok.jpg" alt="Soatok" height="200em">
 
+{{< iquestion >}}
+
 **Thank you for taking the time for this interview Soatok. Your blog at https://soatok.blog shows that you're a furry crypto nerd, but I'd like to hear how you'd put it, so, to get started, can you describe yourself?**
+
+{{< /iquestion >}}
 
 Whenever I'm asked, I usually say something to the effect of, "I'm a security engineer with a dhole fursona that sometimes writes about cryptography on my furry blog."
 
@@ -15,7 +19,11 @@ There's actually a lot more to the story than that, but *comical understatement*
 
 Outside my fandom persona, I've written the code that helps to secure a double digit percentage of the websites on the Internet. I work on a cryptography team at an unspecified technology company. I'm very deeply immersed in this stuff, for the good of the Internet, and even if I didn't *set out* to talk about cryptography topics, it would leak out (as it often does with my dumb Twitter jokes).
 
+{{< iquestion >}}
+
 **What are some your favorite projects you've worked on?**
+
+{{< /iquestion >}}
 
 My favorite project is usually whatever I'm working on at a given moment.
 
@@ -23,7 +31,11 @@ In the past, I've implemented a full suite of [constant-time JavaScript algorith
 
 My current project involves creating a series of open source libraries to make it easier for JavaScript developers to implement end-to-end encryption in their own applications.
 
+{{< iquestion >}}
+
 **Why Javascript?**
+
+{{< /iquestion >}}
 
 Cryptographers have an orthodoxy that loosely follows the same battle lines as infosec opinions on programming languages: **PHP bad, JavaScript harmful**.
 
@@ -31,7 +43,11 @@ I think the *intent* is, if they neglect these languages, they can exert some so
 
 In practice, this just means that the programming languages that most of us use are less safe than they could be, and the ivory tower academics and infosec thought leaders just hold their nose up to the thought of meeting them halfway. This makes the Internet less secure for us all.
 
+{{< iquestion >}}
+
 **It's interesting to me that you're so openly furry and mix that in with all of your more technical posts about cryptography, much like I have here on OpGuides. Why did you make the decision to do both under one unified identity and what has the reaction to that been like?**
+
+{{< /iquestion >}}
 
 I love the furry fandom and I'm deeply fascinated by security topics, so it's an obvious cross-over for me. But there is more to it than just that!
 
@@ -48,11 +64,19 @@ Being openly and shamelessly my furry self is an easy opportunity for me to norm
 
 I hope it's clear that the end result is a net positive, even if the prospect of doing what I do is a little scary to a lot of people.
 
+{{< iquestion >}}
+
 **If you could go back and make the decision to post under two different personas, would you? at least in part?**
+
+{{< /iquestion >}}
 
 Nope! Game Theory says it's the optimal strategy.
 
+{{< iquestion >}}
+
 **Cryptography is under constant attack from the US government. Do you think there are things the US government should do related to crypto?**
+
+{{< /iquestion >}}
 
 The US government should really stop trying to give the Department of Justice a backdoor.
 
@@ -60,7 +84,11 @@ Like, I get it: Their bottoms still need a regular powdering after Edward Snowde
 
 But if they're really as interested in "protecting the children" as they like to claim, they'd invest more in end-to-end encryption and tougher privacy protections; especially but not exclusively for kids!
 
+{{< iquestion >}}
+
 **What are your thoughts on cryptocurrency? Are you concerned about the environmental cost from the electricity mining uses?**
+
+{{< /iquestion >}}
 
 Cryptocurrency is a mixed bag, and it's hard to give a succinct answer.
 
@@ -68,7 +96,11 @@ On one paw, it's one of the most reliable revenue sources for advancements in cr
 
 On the other, it's a magnet for unscrupulous hacks and ancap tech bros. You know the type: They hate the state and want governments to get off their back, but they love the hierarchies of capitalism and the privileges of private property and systemic state violence that serves the interests of the wealthy? If you see "Bitcoin maximalist" in someone's Twitter bio, 99 times out of 100, you're dealing with that beast.
 
+{{< iquestion >}}
+
 **What changes do you think should be made to social media platforms to give users the best combination of privacy, ease of use, and security?** 
+
+{{< /iquestion >}}
 
 Public messages (e.g. tweets) should have slightly more granular access controls than the current all-or-nothing approach (Is your account public or private?).
 
@@ -76,11 +108,19 @@ Public messages should be editable (with a public changelog). Replies should be 
 
 Private messages should be end-to-end encrypted, using keys that the platforms cannot access.
 
+{{< iquestion >}}
+
 **If you could go back and redesign any part of how the internet works, what would you change?**
+
+{{< /iquestion >}}
 
 I would have encrypted every packet from day one, rather than slowly bolting it on years later. For example: Email encryption is *still* opportunistic in 2020. We've only started addressing DNS privacy. (Note: DNS privacy is a good problem to solve; DNSSEC is stupid.)
 
+{{< iquestion >}}
+
 **Last week the CEO's of Facebook and Twitter just went to a congressional hearing about §230 of the CDA, where many  senators expressed concern about biases in how tweets and posts are flagged for misinformation and how accounts are suspended for Terms Of Service violations. How do you think this problem should be addressed moving forwards?**
+
+{{< /iquestion >}}
 
 Assuming they're being even mildly honest about anything (which I don't really believe), Silicon Valley needs to get over their fear of the perception of having anti-conservative bias. This fear leads to them tolerating hate speech and rallying cries for racist and transphobic violence.
 
@@ -90,7 +130,11 @@ I previously touched on [defeating coordinated inauthentic behavior at scale](ht
 
 (My Medium writing days ended because I got tired of their constant pressure to monetize my writing. I'm happy to pay for the privilege of publishing my ideas, ad-free, without a paywall.)
 
+{{< iquestion >}}
+
 **Having just gone though the 2020 election, with what seem to be mass unfounded allegations of voter fraud, do you think electronic voting, potentially over the internet, should have been used?**
+
+{{< /iquestion >}}
 
 No.
 
@@ -100,25 +144,41 @@ The threat model for elections is incompatible with the BYOB mental model of con
 
 Paper ballots. You need an audit trail that technology cannot tamper with.
 
+{{< iquestion >}}
+
 **The repository for YouTubeDL, a popular tool for downloading videos off of many more sites than just YouTube, was taken down from GitHub recently as a result of a DMCA take down notice from the RIAA, in part because they were using copyrighted videos in their test cases to ensure their method of bypassing YouTubes 'Rolling Cipher' code worked. What do you think about this?**
+
+{{< /iquestion >}}
 
 The RIAA is a blight upon the Internet and needs to be dismantled, but only after we tear down JSTOR and Elsevier. Remember Aaron Swartz.
 
 The EFF does a lot of good work to oppose tyrants like the RIAA.
 
+{{< iquestion >}}
+
 **What are your thoughts about bypassing Digital Rights Management (DRM) in general?**
+
+{{< /iquestion >}}
 
 DRM is diametrically opposed to endpoint security, transparency, and trustworthy computing. Only corporate shills that sold their soul to the intellectual property machine ever think DRM is a good idea for consumer devices.
 
 *That being said*, the notion of using DRM to run code in "the cloud" that the cloud service providers cannot understand or tamper with is very attractive. But that's an inversion of the normal power dynamic.
 
+{{< iquestion >}}
+
 **Do you think society has been negatively or positively impacted by the way the Internet and social media has changed how people interact?**
+
+{{< /iquestion >}}
 
 I think it's mildly positive. It'd be significantly more positive if tech companies took coordinated inauthentic behavior, misinformation, and propaganda more seriously 10 years ago.
 
 There's a lot to hate. But I wouldn't have known about the furry fandom--let alone ever participated in it--if it weren't for the Internet and social media.
 
+{{< iquestion >}}
+
 **As time moves on there is at least some growing public understanding of cryptographic security, like HTTPs and why someone may want their phone to be encrypted, etc. - Do you think it's necessary that the public have an even better understanding than what is currently normal? What things do you think most people miss that could be easily taught?**
+
+{{< /iquestion >}}
 
 People don't need a graduate course in number theory and CS101 descriptions of RSA, which is what the cryptography orthodoxy pawned off on the public.
 
@@ -126,7 +186,11 @@ I wrote a guide to [learning cryptography as a programmer](https://soatok.blog/2
 
 We as an industry need to spend some time talking to the UX experts, technical writers, and science communicators of the world and devise a concise and coherent public education strategy. Until that happens, we'll continue to flounder around in the dark *but* some of us will make better and easier-to-use tools, so things won't be so bad.
 
+{{< iquestion >}}
+
 **Is there any skill you wish you had developed in a formal education that you didn't?**
+
+{{< /iquestion >}}
 
 There's a lot of academic formality that I missed out on, including:
 
@@ -134,7 +198,11 @@ There's a lot of academic formality that I missed out on, including:
  * Familiarity with the mathematician jargon (especially lambda calculus) that obfuscates intuition.
  * How to not be a filthy degenerate (or so my detractors say).
 
+{{< iquestion >}}
+
 **When doing crypto stuff, what does your work environment look like?**
+
+{{< /iquestion >}}
 
 It depends what I'm doing.
 
@@ -146,11 +214,19 @@ I do find good background music indespensible to deep analytic work. [Time I by 
 
 I've worked from home for most of my career, and for the entire past 6 years, so my home computer setup is pretty sweet.
 
+{{< iquestion >}}
+
 **Is there any skill that you spent too much time developing that you wish you hadn't?**
+
+{{< /iquestion >}}
 
 Not particularly. There’s no such thing as useless knowledge; only stuff you don’t want to use, or don’t know how.
 
+{{< iquestion >}}
+
 **What's the most important skill that you've taught yourself?**
+
+{{< /iquestion >}}
 
 Active listening. Hands down.
 
@@ -158,13 +234,21 @@ The most stressful problems you will ever encounter in almost any profession is 
 
 That being said, I didn't entirely teach it to myself. My close friends (a.k.a. chosen family) were all deeply involved in those lessons. :3
 
+{{< iquestion >}}
+
 **What do you do for fun? Any books, movies, TV shows, etc. that you'd recommend?**
+
+{{< /iquestion >}}
 
 I frequently play co-op video games with my chosen family. We're currently experiencing Final Fantaxy XIV together, and looking forward to Corepunk when it comes out.
 
 (Sometimes we even stream our gameplay, but usually on [this channel](https://twitch.tv/doomalorian).)
 
+{{< iquestion >}}
+
 **What's the biggest 'Oh Shit' moment you've ever had, be it one you caught in time or not?**
+
+{{< /iquestion >}}
 
 One time I was migrating a PostgreSQL cluster at night, and I accidentally typed the `rm` command into the wrong terminal.
 
@@ -172,7 +256,11 @@ I called my boss and then we discovered the backup software had been failing for
 
 Not a fun year.
 
+{{< iquestion >}}
+
 **Who are your biggest inspirations? What creators do you think are way to underrated and deserve a shout out?**
+
+{{< /iquestion >}}
 
 There are too many people to list. I feel like I'd do everyone a disservice if I tried. Too many artists, too many musicians, too many videographers, too many photographers, too many dancers.
 
@@ -182,7 +270,11 @@ Outside of the fandom, [my best friend](https://twitter.com/Doomalorian) of 12+ 
 
 I'm very fortunate to count [@SwiftOnSecurity](https://twitter.com/SwiftOnSecurity) among my friends too.
 
+{{< iquestion >}}
+
 **What's the best advice you've ever received? Worst?**
+
+{{< /iquestion >}}
 
 Best (all from my best friend over the years):
 
@@ -194,7 +286,11 @@ Worst:
 
  * *You need to find God* -- annoying person in my high school
 
+{{< iquestion >}}
+
 **How do you stay motivated to keep doing cool things?**
+
+{{< /iquestion >}}
 
 At this point, it's a habit for me. But early on, I was motivated largely by *spite*.
 
@@ -202,6 +298,10 @@ I got my start in tech by playing with a program called RPG Maker, and I decided
 
 Years later, one of the perpetrators admitted to me what they were doing. By then, I was long over it.
 
+{{< iquestion >}}
+
 **What hobby do you want to get into but haven't had a chance to dive into yet?**
+
+{{< /iquestion >}}
 
 I have absolutely no musical talent. I'm getting a fursuit soon. Therefore, I figured learning to dance would be pretty cool :3

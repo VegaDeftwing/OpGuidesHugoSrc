@@ -230,6 +230,8 @@ And once again, if you need a practical example of the power of containers, take
 
 [Why All My Servers Have an 8GB Empty File (Brian Schrader)](https://brianschrader.com/archive/why-all-my-servers-have-an-8gb-empty-file/) (It's to buy time in case of a full disk)
 
+[Saving Energy: Home Server that Automatically Suspends to RAM and Wakes Up Again (Maximillian Golla)](https://maximiliangolla.com/blog/2022-10-wol-plex-server/)
+
 <ol hidden id="footnotes">
     <li>This device is dated, and intentionally so. It is an illustration, not a recommendation.</li>
 </ol>

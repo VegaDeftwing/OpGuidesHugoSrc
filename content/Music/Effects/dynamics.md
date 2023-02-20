@@ -11,6 +11,22 @@
 
 [How Distortion Works in Music (Ben Sheron's Blog)](https://benmosheron.gitlab.io/blog/2020/04/26/distortion.html)
 
+### Dynamics & Transients
+
+When thinking of effects, our lil' brains like to think about them as being volume and having a nice simple relationship with what comes out. Distortions are not that.
+
+First, they do sound massively different depending on how much volume and the frequency content on the input. That's why in the above video he mentions that putting an EQ before and after a distortion that would normally cancel each other out can still sound wildly different than no EQ at all.
+
+But it's still more complicated than that - Distortions also tend to massively impact transiants and your sustain. That is, if you have a lot of distortion on, the *pluck* of the guitar string may get swallowed up and the amount of time your string can ring out before it becomes inaudible will go up considerably.
+
+![distortionvolcurve](/music/distortionvolcurve.svg)
+
+Sort of like this. Here, the blue curve is the volume of a guitar though no distortion over time, and the red though a distortion. The white dashed line is the level where it fades into the background so that it can't be heard. 
+
+Because the blue has a lot more difference between the initial bump (the pluck of the string) and the fade out, that pluck will be much more noticeable. On the other hand, the blue also gets to a level where we can't hear it a lot sooner.
+
+How exactly a distortion handles that 'pluck' at the start - the initial transient - can make a huge difference in the resulting sound. Armed with this knowledge, when mixing and playing with effects you can try to tweak things intentionally to let some of the pluck through or make the sustain even longer, or kill the pluck entirely to make a controllable wall of noise. What matters is you understand there's more to distortion than just making the sound spicier and louder.
+
 ### Clipping (Soft & Hard)
 
 Clipping does exactly what it sounds like, it just chops off the wave. While you can use it as an effect intentionally, it's origin - which you're likely to do on accident yourself - is from accidently driving a louder signal into something than it's meant to handle. When this happens, the portion of the incoming wave that is out of range is going to get chopped off no matter what, but there are mulitple ways than can happen: it can be **hard** or **soft**.

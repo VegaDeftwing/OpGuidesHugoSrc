@@ -12,7 +12,11 @@ bookToC = false
 
 <img src="/nonfree/interviews/cadey1.png" alt="Cadey Ratio" height="200em">
 
+{{< iquestion >}}
+
 **Thank you for taking the time for this interview Cadey. Your blog at [christine.website/blog](https://christine.website/blog) shows that you really have a wide range of interests. So, to get started, what are you passionate about and why?**
+
+{{< /iquestion >}}
 
 I'm passionate about making computers understandable. We work with these impossibly complex mechanical creations like they are nothing. They dominate our culture. With the onset of COVID, the internet has gone from an essential part of our lives to a vital method of communication.
 
@@ -20,7 +24,11 @@ I've also been taking up fiction writing a lot in recent days. Fiction is a grea
 
 You know on second thought, I think that the real core thing I am passionate about is making _things_ in general understandable. My dayjob has me working on [social proximity networks](https://tailscale.com/blog/social-proximity-networks/). A lot of my open source code allows me to explore ideas and different ways of thinking. My technical writing has been a fantastic canvas to build my basic writing skills on top of (it's gotten me to the front page of Orange Site more than 5 times as well as a throwaway comment of mine on /r/programmingcirclejerk twice in the same day, so I'm probably doing something right, I hope). The fiction I write aims to help explain complicated moods and ideas that other forms of media struggle with (such as [Readaptation](https://christine.website/blog/readaptation-2021-02-21), which is about gender dysphoria with some dysmorphia thrown in for good measure).
 
+{{< iquestion >}}
+
 **What are some your favorite projects you've worked on?**
+
+{{< /iquestion >}}
 
 I could be here all day listing the fun things I work on but I'll list my top favorites:
 
@@ -33,7 +41,11 @@ I could be here all day listing the fun things I work on but I'll list my top fa
 - Backplane (defunct) - a reverse reverse proxy for web applications hosted behind firewalls
 - My eBook/website generation pipeline built on top of `nix-build` that I really need to write about at some point
 
+{{< iquestion >}}
+
 **What part of what project has been the most difficult and/or most rewarding thing you've ever worked on?**
+
+{{< /iquestion >}}
 
 I'm gonna break this up into two parts. 
 
@@ -41,13 +53,21 @@ First, the most difficult project I've worked on has been the WebAssembly resear
 
 By any empirical measure, my most rewarding project has been [my blog](https://christine.website/blog). It has been _the reason_ why prospective employers reach out to me. This has made job hunting _so much easier_. When you are a gender minority like I am it can be very difficult to find people willing to hire you. My blog does a _hilarious_ amount of traffic, at least 70 GB per month. My blog is mostly text save the cute sharkgirl images, so this means that my blog is _very widely enjoyed_.
 
+{{< iquestion >}}
+
 **What aspect of how the web works would you change if you could?**
+
+{{< /iquestion >}}
 
 The internet in general is no longer a human-scale network. If I had ultimate authority I would want to make the internet a superstructure for human-scale subnetworks between friends, coworkers and colleagues. I'm actually quite lucky because I have the privilege to work for a company that allows me to act on that desire.
 
 Also I'd want to probably figure out an alternative method of funding creative work. A lot of those ideas have an unfortunate habit of depending on systems like Universal Basic Income though. Artists get fucked over by capitalism.
 
+{{< iquestion >}}
+
 **On your site and though your blog posts I see that you use quite a wide array of programming languages, which ones are your favorite to work in? Least favorite? why?**
+
+{{< /iquestion >}}
 
 I work with many tools because I do many things. Every tool is not useful for every task. By knowing a variety of tools I'm able to pick the tool that is the best fit for the job. That being said though, my least favorite tool to use as of late is the [Go programming language](https://golang.org/). It's not really about the language itself. I definitely feel like I cannot really flex my muscle and express myself in Go the way I would want to because Rob Pike says we can't have nice things. The biggest problems I have with it at the moment are rooted in the tooling, specifically with how they have been handling Go modules. 
 
@@ -57,15 +77,23 @@ One of my favorite tools is [Rust](https://www.rust-lang.org/). Rust is a progra
 
 It's a shame that more people don't use Rust.
 
+{{< iquestion >}}
+
 **From [various](https://github.com/Xe/creators-code) [things](https://christine.website/blog/how-to-handle-pedophiles-in-communities-2021-03-07) [that](https://christine.website/blog/identity-model-software-2021-01-31) [you've](https://christine.website/blog/thoughts-on-community-2014-07-31) [written](https://christine.website/blog/social-media-mistake-2021-01-26) it's clear that you care about how people interact and communicate in a safe, comfortable enviroment where they can be themselves. At the same time, you have social media accounts across a variety of platforms that hold these values to different standards (twitter vs mastodon, for example).**
 
 **How do you manage your social media experience to get the most good and least bad from it?**
+
+{{< /iquestion >}}
 
 To be honest, I am probably one of the worst people to ask about this. I do not have a healthy relationship with social media and online platforms in general. I've been trying to correct it, but most of those efforts got thrown into the trash can when COVID happened. I do try to avoid the siren song of the timeline though. The addiction algorithms have a deep hook into the happy chemical part of my brain though. It's made it hard for me to focus on longer writing projects like the novel I've been planning out off and on for years.
 
 The biggest problem is chatrooms for communities. I've been in a few offshoots of the same community's chatroom for almost a decade and had the unfortunate pleasure of serving as a chat moderator. Those things can either be very boring in the best ways (with your moderator status mostly boiling down to a symbolic gesture of "hey this person is trustable and stuff") or very exciting in the worst ways (like when all the adults in the room move on to Bigger and Better Things, leaving you to play adolescent daycare). 
 
+{{< iquestion >}}
+
 **What do you think more people could do to make their social media experience online better?**
+
+{{< /iquestion >}}
 
 If you can, try to keep your circle of people you actively follow and engage with below [Dunbar's Number](https://en.wikipedia.org/wiki/Dunbar%27s_number). On bigger social platforms there is a tendency to follow hundreds if not thousands of people that you barely know. This is more people than you can really keep track of. I used to follow people back that replied to my tweets, but I recently had to stop doing that to keep my feed under control.
 
@@ -73,24 +101,40 @@ A lot of this is a sociological problem though. Humans really aren't ready for s
 
 We deal with human-scale things, not the scale that social media has become. It's difficult for us to comprehend the monsters we have created.
 
+{{< iquestion >}}
+
 **What do you think are the biggest things that social media platforms could do to improve?**
+
+{{< /iquestion >}}
 
 Stop optimizing for engagement. It's optimizing for addiction. It's optimizing for users to be angry. It's optimizing for dividing people, and they have the _audacity_ to claim that they are bringing the world closer together too! 
 
 Make your technology calm. Don't make things scroll infinitely. It's okay for people to miss notifications. Let things happen as they do.
 
+{{< iquestion >}}
+
 **Since making [The Source](https://withinstudios.itch.io/the-source) and [Mara: Sh0rk of Justice](https://withinstudios.itch.io/mara-sh0rk-justice) what advice would you give to someone that wanted to make a game of their own?**
+
+{{< /iquestion >}}
 
 Fuck it, yolo, go for it. You'll learn a bunch. There's really no risk to trying stuff out to see how you like it. The Source started as a collection of DM notes that grew out of hand. Mara: Sh0rk of Justice was done in one particularly long weekend because I was bored. There is so little risk in throwing something onto Itch.
 I plan to release all of my future paid projects on Itch.
 
+{{< iquestion >}}
+
 **As a [fellow Split-keyboard user](https://christine.website/blog/zsa-moonlander-first-impressions-2020-10-27) and non-QWERTY user, how have both been going for you? Any complaints?**
+
+{{< /iquestion >}}
 
 It was hard to adapt in the first few days. It got a lot easier though, and now I can swap between qwerty and colemak mod-dh at will. I've even had some occasions where I've had one hand on a qwerty keyboard and the other on my moonlander. This really broke me for a moment. I'm probably not going to get to the level of using steno on my keyboard to dab on the haters at 200 words per minute though.
 
 I just hate it when games don't let you rebind inputs. My Steam Controller helps with those, but it would be nice if they could just allow you to bind the keys to what you want to use. Cyberpunk 2077 is particularly bad at this because you can't rebind use from `f` to something else. I want to use frst as my wasd cluster so it's more comfortable on my Moonlander. I may end up having to make a gaming layer in addition to my qwerty layer.
 
+{{< iquestion >}}
+
 **On your blog you've talked about how tulpamancy has helped you out, care to dive into that a bit? How has it been going since your last [post about how it helps you with development](https://christine.website/blog/plurality-driven-development-2019-08-04) about two years ago?**
+
+{{< /iquestion >}}
 
 Wow, it's hard to believe that post was written almost two years ago. Time files eh?
 
@@ -124,19 +168,31 @@ Collectively, we share the username Xe and the legal name Christine. There's som
 
 Plurality isn't a magic bullet though. Sometimes the Big Sad can affect multiple of us at once. It becomes hard to work normally in those cases. Our strategy usually is to pass the baton when one of us gets stuck. Sometimes that doesn't work. It can be kinda annoying.
 
+{{< iquestion >}}
+
 **What's the most important skill that you've taught yourself?**
+
+{{< /iquestion >}}
 
 How to break things down into their component parts and tackle those piecemeal. This is a skill that is _absolutely vital_ yet seemingly nobody wants to teach it. If it is even teachable that is. A lot of it really boils down to [play](https://youtu.be/lOXrfSvfW9o) as a legitimate work strategy.
 
 Things don't have to be boring. They can be fun.
 
+{{< iquestion >}}
+
 **Is there any skill that you spent too much time developing that you wish you hadn't?**
+
+{{< /iquestion >}}
 
 How to report child abuse to authorities. It's unfortunate that I've had to do it often enough that we had to write a [CW: Pedophilia discussions] [guide for myself](https://christine.website/blog/how-to-handle-pedophiles-in-communities-2021-03-07) on how to properly report it to the right people.
 
 Other than that we try to live life without regrets. The past has happened [and can't unhappen, time is a blockchain](https://christine.website/blog/all-there-is-is-now-2019-05-25). It has been a tough pill to swallow, but overall it's helped a lot.
 
+{{< iquestion >}}
+
 **What do you do for fun? Any books, movies, TV shows, etc. that you'd recommend?**
+
+{{< /iquestion >}}
 
 We are boring nerds when it comes to having fun. Lots of YouTube, video games and absolutely atrocious Nicolas Cage movies. In terms of recommendations here's some of our top picks:
 
@@ -146,11 +202,19 @@ We are boring nerds when it comes to having fun. Lots of YouTube, video games an
 - Battlestar Galactica (2002) - This show was really influential to me while I was growing up. It is the story of good intentions taken to the worst possible extremes. Please watch it. The parts where the Cylon method of projection is used to customize the inputs they get have been instrumental in how I perceive things.
 - Star Trek: The Next Generation and Deep Space Nine - These shows together comprise what I love the most about science fiction. The worldbuilding for the Federation has been instrumental in so many other science fiction media. Deep Space Nine is why we have the concept of season-long arcs in media. The Next Generation is probably one of the best visions for a utopian ideal I've ever seen. Deep Space Nine did corrupt that ideal a bit in the more realistic setting aboard a space station that has a chronic case of exciting things happening, but overall it used that corruption as a tool. Well worth the watch.
 
+{{< iquestion >}}
+
 **What's the biggest 'Oh Shit' moment you've ever had, be it one you caught in time or not?**
+
+{{< /iquestion >}}
 
 One time at work I typoed a reboot command to run on the wrong host. The server number was transposed (AF1373 instead of AF1337 or something like that) and I accidentally rebooted a production redis server. One of the bigest redis servers with over 500 GB of ram. So much data in ram that it took 8 hours to come back up, and most of that time was spent loading things back into ram. We were so lucky that we had a replica that we could promote to the primary server. That was almost a very very bad incident. It's been a few years though, so I don't remember too many details beyond that.
 
+{{< iquestion >}}
+
 **Who are your biggest inspirations? What creators do you think are way to underrated and deserve a shout out?**
+
+{{< /iquestion >}}
 
 One of my bigger inspirations is the idea of chaos magick as a universal hammer. Distilling things down, you can reduce chaos magick to these two axioms:
 
@@ -162,20 +226,36 @@ Things can extend out from there infinitely.
 
 The [WingMakers materials](https://wingmakers.com/) have also been a huge influence on my projects and writing. It is kind of way out there for most people, but 
 
+{{< iquestion >}}
+
 **What's the best advice you've ever received? Worst?**
+
+{{< /iquestion >}}
 
 Know when to give up. This is a tough pill to swallow for me at times, as I am really really inclined to want to Make Thing Work, but sometimes I have to give up. It hurts, but sometimes you actually do need to move on to something else.
 
+{{< iquestion >}}
+
 **How do you balance doing whatever you have [the itch](https://christine.website/blog/the-itch-2020-10-11) for at the moment with doing things to unwind?**
+
+{{< /iquestion >}}
 
 Poorly! Meditation helps. The most effective method I use is to just focus my awareness on the sensations of breath. The pressure. The movement. The constant change. The inhale. The expanding. The exhale. The shrinking. The cycle of breath. The calming cool air going in my nose. The warm air coming out of my mouth. The sensations of breathing.
 
 Worst case there's tools like CBD oil. Thankfully I have managed to avoid needing to use them very often.
 
+{{< iquestion >}}
+
 **What is your favorite 'hidden gem' tool?**
+
+{{< /iquestion >}}
 
 Nix and NixOS. The most magical thing about NixOS is that you can deploy stuff to a server and then you can undo it if it messes things up. I use it to deploy everything from my blog, my git server, my ebooks, my services and just about everything I can. It's a shame the documentation is so terrible though. I've been working on making better documentation though. 
 
+{{< iquestion >}}
+
 **What hobby do you want to get into but haven't had a chance to dive into yet?**
+
+{{< /iquestion >}}
 
 At this point the only hobby I haven't gotten into yet is growing certain kinds of plants for my own private enjoyment. I've wanted to do it for a while but haven't really found a place to do it yet. I may have more luck when my fiance and I finally settle down and get a house. Every other hobby I've wanted to play with is something I've been able to play with though.
