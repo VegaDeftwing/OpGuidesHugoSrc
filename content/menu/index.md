@@ -374,8 +374,9 @@ headless: true
 <dt> </dt><dd> <a href="/interviews/kell/">Kell Bengal</a></dd>
 <dt> </dt><dd> <a href="/interviews/taxbadger/">Tax Badger</a></dd>
 <dt> </dt><dd> <a href="/interviews/spg/">Sex Positive Gaming</a></dd>
-<dt> </dt><dd> <a href="/interviews/cendyne/">Cendyne</a>
-<dt> </dt><dd> <a href="/interviews/wolfgun/">Wolfgun</a>
+<dt> </dt><dd> <a href="/interviews/cendyne/">Cendyne</a></dd>
+<dt> </dt><dd> <a href="/interviews/wolfgun/">Wolfgun</a></dd>
+<dt> </dt><dd> <a href="/interviews/paulshapera/">Paul Shapera</a></dd>
 </dil>
 </div>
 
