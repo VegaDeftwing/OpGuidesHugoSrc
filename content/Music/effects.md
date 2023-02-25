@@ -11,15 +11,7 @@ slug: "Effects"
 </script>
 {{< tip >}}This chapter is broken up into subsections, check the menu and it should have expanded!{{< /tip >}}
 
-{{< columns >}}
-
-![](/arrow.svg)
-
-<--->
-
 # Please Read This, for real
-
-{{< /columns >}}
 
 ### Automation Lanes Are Your Friend
 
@@ -49,7 +41,7 @@ Immediately contradicting myself though, don't undervalue workflow either. In my
 
 # What order should my effects be in?
 
-
+![TODO](/common/TODO.svg)
 
 # Neat tricks with effects
 

@@ -1,13 +1,21 @@
 # Strings
 
+![TODO](/common/TODO.svg)
+
 <script>
     document.getElementById("instMenu").open = true;
 </script>
-![guitar](/nonfree/character/guitar.webp)
+## Guitars
+
+{{< columns >}}
+
+<--->
+
+<img src="/nonfree/character/guitar.webp" style="border-radius:1em;">
 
 {{< attribution >}}Picture of my character by [Alex the Nerd Bird](alexthenerdbird.weebly.com) {{< /attribution >}}
 
-## Guitars
+{{< /columns >}}
 
 ### Acoustic, Electric, Acoustic-Electric?
 

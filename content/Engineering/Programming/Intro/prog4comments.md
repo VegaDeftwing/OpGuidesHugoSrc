@@ -8,7 +8,7 @@ Okay, we now have the ability to run and debug code but we still need set up and
 
 This may seem a bit out of order, but at this stage there's problems with prioritizing how much to learn about the tool versus the craft. To equate to something more tangible, it's like learning the skills to design and craft a wood working project verses learning to use a saw. Ultimately, you need to do both. While, yes, learning the tool will come with experience, you still need to know enough not to cut your fingers off - or, in this case, to not waste a ton of time and think programming is overly difficult and tedious.
 
-Most of this comes down to learning a few extra shortcuts and setting some preferences. Imagine using a computer without <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">C</span> for copy, <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">V</span> for paste, etc.? It would be really slow and annoying to copy, paste, select all, save, and other basic actions. Well, just like any other software learning how to use your text editor and related tools for writing code will make it way less awful.
+Most of this comes down to learning a few extra shortcuts and setting some preferences. Imagine using a computer without <kbd>ctrl</kbd> + <kbd>C</kbd> for copy, <kbd>ctrl</kbd> + <kbd>V</kbd> for paste, etc.? It would be really slow and annoying to copy, paste, select all, save, and other basic actions. Well, just like any other software learning how to use your text editor and related tools for writing code will make it way less awful.
 
 {{< details "Generic shortcut reference" >}}
 
@@ -16,31 +16,31 @@ It occurs to me that enough people today are growing up on a smart phone that it
 
 | Key Combo                                                    | Typical Action                                               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">C</span> | Copy                                                         |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">V</span> | Paste                                                        |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">X</span> | Cut (Copy & Remove)                                          |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">S</span> | Save                                                         |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">F</span> | Find                                                         |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">H</span> | Find & Replace                                               |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">Z</span> | Undo                                                         |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">A</span> | Select All                                                   |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">N</span>  (or  <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">T</span> , depending on the program) | Make a new document (or new tab)                             |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">+</span> </br>OR</br> <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + mouse wheel up | Zoom in / Increase font size                                 |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">-</span>  </br>OR</br> <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + mouse wheel down | Zoom out / Decrease font size                                |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">→</span> / <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">←</span> | Move one word to the right/left                              |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">backspace</span> | Delete whole word (depending on your hands, keyboard, and typing style this might be uncomfortable) |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">W</span> | Close document                                               |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">P</span> | Open print dialogue (VS code doesn't have one!)              |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">tab</span> | Change tab (works in browsers, VSCode, etc.)                 |
+| <kbd>ctrl</kbd> + <kbd>C</kbd> | Copy                                                         |
+| <kbd>ctrl</kbd> + <kbd>V</kbd> | Paste                                                        |
+| <kbd>ctrl</kbd> + <kbd>X</kbd> | Cut (Copy & Remove)                                          |
+| <kbd>ctrl</kbd> + <kbd>S</kbd> | Save                                                         |
+| <kbd>ctrl</kbd> + <kbd>F</kbd> | Find                                                         |
+| <kbd>ctrl</kbd> + <kbd>H</kbd> | Find & Replace                                               |
+| <kbd>ctrl</kbd> + <kbd>Z</kbd> | Undo                                                         |
+| <kbd>ctrl</kbd> + <kbd>A</kbd> | Select All                                                   |
+| <kbd>ctrl</kbd> + <kbd>N</kbd>  (or  <kbd>ctrl</kbd> + <kbd>T</kbd> , depending on the program) | Make a new document (or new tab)                             |
+| <kbd>ctrl</kbd> + <kbd>+</kbd> </br>OR</br> <kbd>ctrl</kbd> + mouse wheel up | Zoom in / Increase font size                                 |
+| <kbd>ctrl</kbd> + <kbd>-</kbd>  </br>OR</br> <kbd>ctrl</kbd> + mouse wheel down | Zoom out / Decrease font size                                |
+| <kbd>ctrl</kbd> + <kbd>→</kbd> / <kbd>ctrl</kbd> + <kbd>←</kbd> | Move one word to the right/left                              |
+| <kbd>ctrl</kbd> + <kbd>backspace</kbd> | Delete whole word (depending on your hands, keyboard, and typing style this might be uncomfortable) |
+| <kbd>ctrl</kbd> + <kbd>W</kbd> | Close document                                               |
+| <kbd>ctrl</kbd> + <kbd>P</kbd> | Open print dialogue (VS code doesn't have one!)              |
+| <kbd>ctrl</kbd> + <kbd>tab</kbd> | Change tab (works in browsers, VSCode, etc.)                 |
 
 ---
 
 | Function Key                                                 | Typical Action                                            |
 | ------------------------------------------------------------ | --------------------------------------------------------- |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">F11</span> | Make the program full screen                              |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">F5</span> | Refresh the page                                          |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">alt</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">F4</span> | Close application (In Windows, may not work in Linux/Mac) |
-| <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">F12</span> | Open up developer tools (Usually in a web browser)        |
+| <kbd>F11</kbd> | Make the program full screen                              |
+| <kbd>F5</kbd> | Refresh the page                                          |
+| <kbd>alt</kbd> + <kbd>F4</kbd> | Close application (In Windows, may not work in Linux/Mac) |
+| <kbd>F12</kbd> | Open up developer tools (Usually in a web browser)        |
 
 Keep in mind, the specific program you're using will almost certainly have many more than this, and may actually override some of these. As we go through this page I'll be showing you some of VSCode's shortcuts, but there's a full cheat-sheet that depends on your os - here a link to each:
 
@@ -151,7 +151,7 @@ print(c)
 
 But if we removed the `# ` from before the `c = a + b` it would run again. You can do the same thing in C, just using the different comment syntax. Sometimes, this is really helpful for debugging.
 
-In VSCode, if you want to comment out a single line, just type <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">/</span>  when on the line in question and that line will have the language's comment symbol added to it. If you select multiple lines, that'll work as you expect too. You can do this on a blank line to start typing a new comment too.
+In VSCode, if you want to comment out a single line, just type <kbd>ctrl</kbd> + <kbd>/</kbd>  when on the line in question and that line will have the language's comment symbol added to it. If you select multiple lines, that'll work as you expect too. You can do this on a blank line to start typing a new comment too.
 
 ## Autoformatting
 
@@ -213,7 +213,7 @@ do_thing_b()
 do_thing_a()
 ```
 
-You could cut and paste, or you could just do <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">alt</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">↑</span>  with the cursor on the `do_thing_b()` line or  <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">alt</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">↓</span> with the cursor on the `do_thing_a()` line. Either way, the point is you can move lines up and down as you please.
+You could cut and paste, or you could just do <kbd>alt</kbd> + <kbd>↑</kbd>  with the cursor on the `do_thing_b()` line or  <kbd>alt</kbd> + <kbd>↓</kbd> with the cursor on the `do_thing_a()` line. Either way, the point is you can move lines up and down as you please.
 
 ### Symbol renaming
 

@@ -191,7 +191,7 @@ Wave folding is very easily done by using `fmod()` and compensating for the redu
 
 ### Drive, and Tubes
 
-[TODO]
+![TODO](/common/TODO.svg)
 
 {{< devegg >}}
 
@@ -209,15 +209,175 @@ Similarly, the sample rate can be reduced to cause the signal to have issues wit
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/59Nc9pPND8A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Todo, fabfilter distortion video]
-
 {{< devegg >}}
 
 Re sample, quantize. This is about as textbook DSP as it gets. Doing the quantiazation (bit reduction) efficiently is often as easy as just &= 0xFF00 or whatever to match the bit count you want. 
 
 {{< /devegg >}}
 
+### Fuzz
+
+Describing fuzz in words without being recursive and calling it "fuzzy" is difficult. Generally, Fuzz is the dirtiest of the dirty when talking about distortions. It's the punk-rock sound. *But*, it doesn't have to be. Most fuzz effects (usually guitar pedals) can be used subtly so that they add just a bit of crunch on the hardest played notes, adding some grit that's more at home in a country song than punk or metal.
+
+Fuzz is typical done for guitar and so most of the famous ones are pedals. Of those, the most well known are: 
+
+* The Big Muff by Electro-Harmonix
+  * {{< smalltext >}}Though competitors have cloned it and [made it better](https://www.kma-machines.com/m_chief.html) {{< /smalltext >}}
+* Fuzz-Tone / Tone Bender / Fuzz-Face all have roughly the same circuit, evolved in slightly different directions
+  * {{< smalltext >}}Each has clones made by pretty much every pedal maker{{< /smalltext >}}
+* Super-Fuzz by Univox
+  * {{< smalltext >}}Also cloned by everyone{{< /smalltext >}}
+
+I do recommend looking each up and getting a vibe for how they sound. Even if you never intend to get a hardware fuzz pedal, most software fuzz effects are trying to sound like one of these.
+
+Unfortunately, there's an aspect of fuzz that makes it hard to convey over a video: It plays like a totally different instrument.
+
+All distortions *change* the dynamics of your input (See the whole first section of this page) but they also respond differently depending on the input dynamics as well. Fuzzes do this to the extreme. The difference between playing softly and playing hard is crazy, as is the difference depending on how much input gain you feed it (how much do you turn the volume up or down *before* the effect). All of this makes playing a fuzz well radically change how you have to play your instrument. At minimum it necessitates some care in thinking about your volume knob as a tone control.
+
+Many fuzzes will have an in-built analog octave effect. *Usually* this is an octave up, but down is fair game too. These  are sort of their own thing, and while they don't have much to do with dynamics or distortion, they don't really fit anywhere else either, so....
+
+## Octave & Pitch Shifter Effects
+
+Okay, from earlier in this guide we talked about how on the piano every 12 notes, the note repeats, and that's called an *octave*.
+
+Well, that also means you can play both notes at once and your ears will only really hear 1 note, it'll just be a lot *thicker*. It adds a lot of extra flavor.
+
+### Analog Octave effects
+
+{{< tip >}}
+
+These "analog" effects can be done in software too, it's just that they're well known from a pre-digital era, where they could be implemented in circuits relatively easily.
+
+{{< /tip >}}
+
+#### Octave Up
+
+There are two very super simple ways to get an octave up effect, the easiest to understand is **rectification**:
+
+{{< columns >}}
+
+What this means is to take the negative bit and flip it positive - here, the blue sine wave is rectified to make the red wave:
+
+<--->
+
+![rectification](/music/rectification.svg)
+
+{{< /columns >}}
+
+Now, remember frequnecy = pitch = how often does the signal repeat. If it repeats twice as often that's twice the frequency or up 1 octave. If it repeats 3 times as fast, that's up two octaves, and so on.  So by doing this we've made a new signal, one octave up.
+
+We can can then mix those two signals together and it'll have *roughly* the same sound as playing the same note at the same time an octave up on the instrument in the first place. The *roughly* is because there's two big differences:
+
+1. The red wave above isn't a sine wave anymore. Sure, it's an octave up, but it also has a lot more flavor than a basic sine wave too.
+2. On a anything but a synthesizer, it would be impossible to make the phase match perfectly on each octave if playing by hand. In the above picture you can see how the hills and valleys of the two waves align perfectly. That wouldn't happen if you actually struck both keys / strings / whatever. 
+
+The other way you can do it is by what the audio world calls "Ring Mod" but is really just multiplying two signals together. Now, Ring Mod can, and usually does, sound totallllllly different from an octave effect. Typically an entirely different signal is multiplied with the input, causing what's effectively a tremolo-that-can-invert-the signal effect, but really fast. Despite usually being done with analog electronics, this sounds similar to sample-rate-reduction (Some of what makes Lo-Fi sound Lo-Fi) ... anyway.... Ring Mod *can* give an octave effect if you just multiply the signal with itself.
+
+{{< columns >}}
+
+If you're wondering why that works, it's because -1 * -1 = 1. That is, we're still rectifying the signal (making the negative bits positive) but we're doing it in a different way.
+
+<--->
+
+![ringmodoctave](/music/ringmodoctave.svg)
+
+{{< /columns >}}
+
+The result is a much "cleaner" octave sound, as you can see, the output is a lot closer to the input this time. Depending on how this is done, it may also be inverted first - imagine flipping the red wave. The effect is nearly identical in sound if inverted, but may change how other effects in the chain respond.
+
+#### Octave Down
+
+{{< columns >}}
+
+The easiest way to generate a signal an octave down is to just set some threshold and flip a signal every other time that threshold is crossed. Effectively, this means counting how many peaks you see and generating a square wave at half that frequency:
+
+<--->
+
+![basicsuboctave](/music/basicsuboctave.svg)
+
+{{< /columns >}}
+
+This, uh, isn't great? If out input was a square wave, awesome, we just got a perfect square an octave down back out. If it was anything else... we also just got a square. This *can* sound good, but isn't always what you want.
+
+{{< columns >}}
+
+Another option is to use that output square wave to allow the original signal though or not: 
+
+<--->
+
+![bettersuboctave](/music/bettersuboctave.svg)
+
+{{< /columns >}}
+
+And that's getting a lot better, but most analog octave effects will be a bit fancier than this,
+
+{{< quote "[Wikipedia \"Octave Effect\"](https://en.wikipedia.org/wiki/Octave_effect)" >}}
+
+The Boss OC-2 unit generates tones at one and two octaves down from the input signal. This effect also uses flip-flops to generate square waves at 1/2 and 1/4 of the input signal frequency, but rather than simply mixing in these signals, it uses them to invert the polarity of the input signal on every other cycle (every two out of four cycles for the second octave). 
+
+This effectively amplitude modulates the input signal with a carrier at half the input signal, creating new frequency components at 1/2 and 3/2 the input signal. The 3/2 component is low-pass filtered out. This more complex approach lessens the synthetic sound of the octave tones by making them more closely associated with the original signal, and also makes the effect volume-sensitive.
+
+{{< /quote >}}
+
+### Digital Pitch Effects
+
+I don't want to go into how real-time digital pitch shifting works. If you really must know, looking up [Phase-Locked Loops (Wikipedia)](https://en.wikipedia.org/wiki/Phase-locked_loop) and the [Fast Fourier Transfrom (Wikipedia)](https://en.wikipedia.org/wiki/Fast_Fourier_transform) will give you the start of an idea, but both require a fair amount of math-y science-y engineering-y background to gronk, and it mostly doesn't matter. What does matter is unlike the analog-effects (which can also be done digitally anyway) these can:
+
+* Pitch shift to non-octave intervals (Perfect 5<sup>th</sup>s are particularly fun )
+* Handle playing multiple notes much, much better than the above
+* Allow live sweeping of the shift amount ("a digital whammy bar")
+* Produce much better reproductions of the original waveform at the new frequency
+
+{{< speech triode >}}
+
+So, digital is all around better?
+
+{{< /speech >}}
+
+{{< speech right >}}
+
+Ehhhh. I really don't want to say "better". First, some of how the analog effects - which again, can be done digitally - can misbehave sounds good.
+
+Some of this "good" sound is cultural context too. You've heard these effects, and the distortions they cause, before - even if you didn't realize they were being used. 
+
+If you want to sound like 80's metal, using a digital octave effect may sound "wrong" as they didn't have digital octave effects back then.
+
+{{< /speech >}}
+
+If you're wanting to try a digital pitch shifter in VCV Rack, [HCTIP (VCV Library)](https://library.vcvrack.com/Bidoo/HCTIP) does good enough, and is free and open source. If you need a VST Plugin for pitch shifting, the [Kilohearts Pitch Shifter](https://kilohearts.com/products/pitch_shifter) is free and does an incredibly good job.
+
+### Tracking?
+
+Tracking is how well the effect produces the correct frequency based on your input. If you play an C and you get a C# and octave up from the effect, you'll have a lot of dissonance and it'll sound weird. You want the effect to consistently produce the right tone. 
+
+Generally, all of these effects have *some* issues with *polyphony* - playing multiple notes at once. So, if you play a chord, it may not sound like playing that same chord twice, one octave up.
+
+The basic rectification, octave up tends to sound fine with polyphony, the ring-mod version ... not so much. **But**, the ring-mod does fail in really cool sounding ways so long as the chords have simple relationships, like perfect 5ths. This produces what is actually one of my absolute favorite sounds in the realm of guitar pedals, though as a general-purpose effect on other instruments that tracking failure is less useful.
+
+Digital octave ups can be all over the place. They may do the analog methods digitally, in which case they'll behave more-or-less the same, or they may use some of the black-magic DSP techniques, and so fail in weird ways, like making random tones at different frequencies, ignoring low frequency notes, or generally just sounding robotic and weird. Failure isn't always bad in music though, so see what happens.
+
+Most octave down effects are usually implemented using the basic counter / frequency divider method described above, so they all tend to fail in the same way.  There can be subtle difference though. For example, some will try to monitor the input signal and do some intelligent things to produce a cleaner octave sound - this can fail.
+
+Some digital octave downs will do as described above and get the spectrum of the sound, shift it down, and then turn it back into a waveform. This process, for technical reasons, tends to fail at lower input frequencies (~200Hz and below will sound weird). Most digital effect designers know this and will do tricks to compensate, but it's still something to look out for. 
+
+I wouldn't worry to much about the *why* it sounds weird. Unless you're trying to DIY your own effect, it doesn't really matter. What does matter is if you can make it sound cool/good, and again, its failures might be good for this.
+
+### How did we get here...
+
+Ah, right, fuzz.
+
+Octave effects and fuzz, despite on the surface having nothing to do with each other, are often paired for two reasons:
+
+1. They sound really kick ass together
+2. The circuits for doing fuzz often make adding an octave effect really, really easy.
+
+This is why you can grab the [Joyo Voodoo Octave](https://www.amazon.com/JF-12-Voodoo-Octava-Guitar-Pedal/dp/B007T8OGLK) (not my favorite pedal by any means...) for $40, which in the world of pedals, is stupidly cheap.
+
+You should note that *most* analog octave up guitar effects won't have any knobs at all, for example, the [EQD Tentacle](https://www.amazon.com/EarthQuaker-Devices-Tentacle-Analog-Effects/dp/B079X31JDV) - but this applies to the 2-in-1 Fuzz-plus-octave pedals too: Usually the octave is only on or off, no controls.
+
 ## Noise Gating
+
+![TODO](/common/TODO.svg)
 
 [The Animated Guide to Gates (Patches.zone)](https://patches.zone/the-animated-guide-to-gates)
 
@@ -271,11 +431,11 @@ Usually, compression has a few basic attributes that are relevant:
 
 The 'Threshold' is what level the compressor has to be over to do anything at all. 'Attack' is the time it takes for the signal to be affected. All compressors will have some minimum attack time if they're happening live (there are some compressors with 'Lookahead' that solve this problem) which lets the transients (sharp changes) of louder sounds, like the start of a drum hit, get through to some extent, but more attack will let more of the drum transient through. Tune to taste, release is a similar idea, but controls how the compressor behaves as it falls below the threshold, letting the compressor fade out with a given time instead of having a sharp cut. Compressors can be used to make drums really stand out, give guitars a longer sustained sound, or just glue the mix together better.
 
-[TODO knee, sidechain]
+![TODO](/common/TODO.svg)
 
-[TODO, Dynamic range compression, Parallel Compression, Multiband compression, different analog models (ie Fets v tube v optical)]
+[TODO] knee, sidechain
 
-reverb, delay, pan, tremolo, overdrive, distortion
+[TODO] Dynamic range compression, Parallel Compression, Multiband compression, different analog models (ie Fets v tube v optical)
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/j4NrWQljyso?list=PL5cGwrD7cv8jd0PSN2E8pFD97H3R5aQwN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

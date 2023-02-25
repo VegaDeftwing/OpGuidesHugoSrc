@@ -1,12 +1,10 @@
----
-title: "Sequencing and MIDI"
-slug: "Sequencing and MIDI"
-
----
-
 # Sequencing & Midi
 
-{{< tip >}} This chapter only goes over the basics of MIDI. Because MIDI is so important to music production, I'll dive much deeper into the details of MIDI in Chapter 6½ - <a href="/music/midi/">MIDI in Detail</a> {{< /tip >}}
+{{< tip >}}
+
+{{< button relref="/Music/midi" color="music" >}}MIDI In Detail{{< /button >}} covers the technical bits of MIDI in much more detail, but you'll still probably want to read this this first if you don't know what MIDI even is.
+
+ {{< /tip >}}
 
 ## Sequencing
 

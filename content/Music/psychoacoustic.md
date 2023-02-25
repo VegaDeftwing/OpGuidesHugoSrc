@@ -18,7 +18,7 @@ With that said, it does still help to know a bit about these things, as tools in
 
 ---
 
-
+![TODO](/common/TODO.svg)
 
 [TODO]
 
@@ -29,4 +29,4 @@ With that said, it does still help to know a bit about these things, as tools in
 - When out of tune is desired
 - The human ear's frequency response (what frequencies we hear with what attenuation)
 - Pitch isn't linear - side effects
-
+- The 10ms delay trick to make drums sound better

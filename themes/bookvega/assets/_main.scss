@@ -398,12 +398,12 @@ aside nav,
   }
 }
 
-p.tip,
+.tip,
 tr:nth-child(2n) {
 	background-color: #00000077;
 }
 
-p.tip {
+.tip {
 	border-bottom-right-radius: 2px;
 	border-left: 4px solid #f66;
 	border-top-right-radius: 2px;
@@ -412,7 +412,7 @@ p.tip {
 	position: relative
 }
 
-p.tip:before {
+.tip:before {
 	background-color: #f66;
 	border-radius: 20%;
 	color: #fff;
@@ -429,11 +429,11 @@ p.tip:before {
 	top: 14px
 }
 
-p.tip code {
+.tip code {
 	background-color: #efefef22;
 }
 
-p.tip em {
+.tip em {
 	color: #34495e
 }
 
@@ -688,4 +688,23 @@ dt.sub:after {content:':';}
   padding: 1px 10px 1px 10px;
   background: linear-gradient(90deg, #161616, #232323, #222222, #0000);
   border-radius: 10px;
+}
+
+//  Stolen from https://dylanatsmith.com/wrote/styling-the-kbd-element
+kbd {
+  border-radius: 0.25rem;
+  border: 1px solid #fff;
+  box-shadow: 0 2px 0 1px #555;
+  cursor: default;
+  font-size: 0.85em;
+  line-height: 1;
+  min-width: 0.75rem;
+  text-align: center;
+  padding: 2px 5px;
+  position: relative;
+  top: -1px;
+  &:hover {
+    box-shadow: 0 1px 0 0.5px #000;
+    top: 1px;
+  }
 }

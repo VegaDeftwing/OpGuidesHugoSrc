@@ -3,14 +3,19 @@
 <script>
     document.getElementById("instMenu").open = true;
 </script>
-
 ## Theory
 
+{{< columns >}}
+
 Before I even dive into Percussion, I think it's necessary to point out how generic the term is. Just looking at the Wikipedia page for drum kit, you'll see this:
+
+<--->
 
 <img src="/music/drumkit.webp" alt="wikipedia drum kit list" height="500em">
 
 {{< attribution >}}[Drum Kit](https://en.wikipedia.org/wiki/Drum_kit) page on Wikipedia{{< /attribution >}}
+
+{{< /columns >}}
 
 and clearly that's still not an exhaustive list. Just off the top of my head I can see it lacks the Cajon or Taiko as acoustic instruments, let alone anything more specific than electronic drum, which can make for a class all its own.
 
@@ -223,7 +228,7 @@ Don't forget that percussion doesn't just have to come from stretched membranes 
 
 ## The 808, 909, LinnDrum, and Oberheim DMX
 
-[TODO]
+![TODO](/common/TODO.svg)
 
 ## Modern Drum Machines
 
@@ -286,6 +291,8 @@ Similarly, [Big Drums VS Small Drums (YouTube)](https://www.youtube.com/watch?v=
 [12 Tips I Wish I Knew as a Beginner Drummer (Stephen Clark, YouTube)](https://youtu.be/gHIZELwH49k)
 
 ## Other Percussion Instruments
+
+![TODO](/common/TODO.svg)
 
 ### Bells and Carillons
 

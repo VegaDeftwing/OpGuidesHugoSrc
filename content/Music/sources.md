@@ -334,19 +334,23 @@ Finally, I want to mention Arbhar, Morphagene, and Clouds- but rather than try t
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/IjcDnax9yLY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Feedback [TODO]
+## Feedback
 
-[TODO]
+![TODO](/common/TODO.svg)
 
-## Phase Distortion [TODO]
+## Phase Distortion
 
-[TODO]
+![TODO](/common/TODO.svg)
 
-## Physical Modeling & Karplus Strong [TODO]
+## Physical Modeling & Karplus Strong
 
 \+ Waveguides
 
-## Noise? [TODO]
+![TODO](/common/TODO.svg)
+
+## Noise?
 
 Colored Noise, using it to make drums, etc
+
+![TODO](/common/TODO.svg)
 

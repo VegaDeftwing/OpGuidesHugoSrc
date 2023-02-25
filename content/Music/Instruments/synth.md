@@ -3,7 +3,7 @@
 <script>
     document.getElementById("instMenu").open = true;
 </script>
-[TODO] I've already talked about FM, additive, subtractive, etc. in Sound Sources. Here I want to go into how they fit into a song, the idea of pads, leads, bass. As well as how a lot of famous sounds have been done and what some of the most famous synths are. I'd also like to cover some of why some newer synths are exciting, like the Hydrasynth, Continumm, Norand Mono, Subharmonicon, Polygogo, 
+I've already talked about FM, additive, subtractive, etc. in Sound Sources. Here I want to go into how they fit into a song, the idea of pads, leads, bass. As well as how a lot of famous sounds have been done and what some of the most famous synths are. I'd also like to cover some of why some newer synths are exciting, like the Hydrasynth, Continumm, Norand Mono, Subharmonicon, Polygogo, 
 
 Back on the Sound Sources page you learned about the core elements of synthesis - different kinds of oscillators. Then, in the effects pages you got a good dose of filters and what makes them tick. Most synthesizers are really just a a nice oscillator, filter, some envelope generators, and a couple LFO's shoved into box - but if you get into synths enough, you'll learn there's some truly iconic sounds and rich history and cultural context that influences how we use and how we hear different synths and their most iconic sounds.
 
@@ -26,6 +26,8 @@ If you want the very, very short version
 * There are some very [notable synths (Wikipedia)](https://en.wikipedia.org/wiki/List_of_synthesizers) that have been cloned into oblivion now
 
 ## A small taste of synth history 
+
+![TODO](/common/TODO.svg)
 
 **Yes, I might have skipped your favorite**
 

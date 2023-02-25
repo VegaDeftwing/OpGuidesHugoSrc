@@ -5,9 +5,11 @@
 </script>
 ## Delay
 
-<!-- There are a million ways to make a delay that's weird. Most basic? Make a ring buffer and add the signals, probably with a dry/wet mix. Less basic? IDK, add in multilpe taps on the ring buffer? Use random samples in the buffer? Change the sample rate of the buffer? Reverse the buffer occassionally? Go nuts.-->
+{{< devegg >}}
 
-<!--- https://zeptobars.com/en/read/MN3207-1024-stage-analog-delay-line-CCD --->
+There are a million ways to make a delay that's weird. Most basic? Make a ring buffer and add the signals, probably with a dry/wet mix. Less basic? IDK, add in multilpe taps on the ring buffer? Use random samples in the buffer? Change the sample rate of the buffer? Reverse the buffer occassionally? Go nuts.
+
+{{< /devegg >}}
 
 Delay is basically echo. Take a sound in, and repeat it it it. Normally the main controls on a delay are 'Time', which controls how long of a delay there is before each repeat, 'Feedback' which controls how much the level is reduced each time the delay repeats (and in turn, how many audible repetitions there are), and 'Dry/Wet' which controls how the signal is blended, entirely dry will have no delay, entirely wet may even miss the initial sound adding a weird latency before you hear what you're playing. Some delays have additional controls, obviously I can't cover every possible delay, but I'll try to cover most:
 
@@ -59,9 +61,27 @@ looking at a snippet of this audio, you can see just how short the delay is, wit
 
 ### Delay at 100%(+) feedback?
 
+![TODO](/common/TODO.svg)
+
 [TODO] Chornoblobs infinite mode
 
 [My Secret Guitar Pad Patch from the 1990's](https://www.youtube.com/watch?v=l9uX_slwbzk) - Inversely linking volume and delay feedback
+
+### Vintage Delays
+
+![TODO](/common/TODO.svg)
+
+#### Bucket Brigade Delays
+
+<!--- https://zeptobars.com/en/read/MN3207-1024-stage-analog-delay-line-CCD --->
+
+#### Tape Delays
+
+
+
+#### Oil Can Delays
+
+
 
 ## Loopers
 
@@ -78,6 +98,8 @@ Here for example is a jam using the Ditto X4 looper (the box slightly blurry, cl
 ## Reverb
 
 <!-- The DSP for reverb is a black magic. If you actually want to persue this, see https://www.youtube.com/watch?v=Il_qdtQKnqk then go read ALL of Valhalla DSP's blog post, then realize making a good algorithm is just thousands of hours of trial and error.-->
+
+![TODO](/common/TODO.svg)
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/FfESec8Sy0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

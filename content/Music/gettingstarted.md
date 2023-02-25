@@ -105,7 +105,7 @@ CoreAudio, the audio system used on Apple Devices, *should* be setup and work fo
 
 Alright, if you've made it this far, mashing keys on your keyboard in VCV rack should make noise!
 
-First thing's first, let's learn by just experimenting. You have a huge range of knobs in front of you, don't you wanna turn em'? Go for it. <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">Z</span> is always there if you need it. Worst case, `file→new` is always an option. Just have fun. When you've gotten a vibe for what effect some knobs have or want to dive into what this chaos of virtual wires means, come back here.
+First thing's first, let's learn by just experimenting. You have a huge range of knobs in front of you, don't you wanna turn em'? Go for it. <kbd>ctrl</kbd> + <kbd>z</kbd> is always there if you need it. Worst case, `file→new` is always an option. Just have fun. When you've gotten a vibe for what effect some knobs have or want to dive into what this chaos of virtual wires means, come back here.
 
 ---
 

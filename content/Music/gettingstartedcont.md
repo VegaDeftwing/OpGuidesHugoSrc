@@ -38,7 +38,7 @@ So, let's put this to use.
 ![adsr1](/music/adsr1.webp)
 
 9. Move the cable connected to the `SIN` output of the VCO to the `SQR` (Square) output of the `VCO`.
-10. Add a second **SCOPE** module (hover over the existing one and press <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">D</span> )
+10. Add a second **SCOPE** module (hover over the existing one and press <kbd>D</kbd> )
 11. Setup the new **SCOPE**  to view a fast moving wave by cranking the `TIME` knob and engaging the `TRIG` button.
 12. Connect the `IN 1` of this second scope to the `SQR` output of the VCO.
 13. Try adjusting the `PULSE WIDTH` knob on the **VCO** and observe the view in the scope and sound while playing notes.
@@ -62,20 +62,22 @@ Okay, now that you have it installed,
 
 17. Play some notes and adjust the `PWM` and `FREQ` knobs of the **VCO** while looking at the result both on the **SCOPE** and on the **ANALYZER-XL** module. 
 
-    {{< hint info >}}If you can't see everything on your screen at once, </br><span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">+</span> & <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">-</span> OR <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">ctrl</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">scroll-wheel</span> can be used to zoom in and out.</br></br> <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">↑</span> , <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">↓</span> , <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">→</span> ,<span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">←</span> or holding the scroll wheel and dragging can be used to pan around
+    {{< hint info >}}If you can't see everything on your screen at once, </br><kbd>ctrl</kbd> + <kbd>+</kbd> & <kbd>ctrl</kbd> + <kbd>-</kbd> OR <kbd>ctrl</kbd> + <kbd>scroll-wheel</kbd> can be used to zoom in and out.</br></br> <kbd>↑</kbd> , <kbd>↓</kbd> , <kbd>→</kbd> ,<kbd>←</kbd> or holding the scroll wheel and dragging can be used to pan around
 
     {{< /hint >}}
 
 Okay, let's see how this responds if we add some vibrato. 
 
-18. Add an **LFO** and connect the `SIN` output tho the `FM` input of the **VCO** and adjust the knob above the **VCO** just enough so you can hear the pitch wobble - `FM` is Frquency Modulation, by the way, and is (skipping a few details) effectively just being added to the `V/OCT` signal internally to the **VCO**, that's why it' adds pitch-wobble.
-19. Observe how at high rates it makes the <span style="text-shadow:2px 2px 0 black, 4px 4px 2px red,6px 6px 4px orange,8px 8px 6px blue,10px 10px 8px yellow,12px 12px 8px blue,14px 14px 10px #8746DB;">spectrum analyzer</span> a bit blurry, but at low rates we can see bumps wobble with the FM.
+1.  Add an **LFO** and connect the `SIN` output tho the `FM` input of the **VCO** and adjust the knob above the **VCO** just enough so you can hear the pitch wobble - `FM` is Frquency Modulation, by the way, and is (skipping a few details) effectively just being added to the `V/OCT` signal internally to the **VCO**, that's why it' adds pitch-wobble.
+2.  Observe how at high rates it makes the <span style="text-shadow:2px 2px 0 black, 4px 4px 2px red,6px 6px 4px orange,8px 8px 6px blue,10px 10px 8px yellow,12px 12px 8px blue,14px 14px 10px #8746DB;">spectrum analyzer</span> a bit blurry, but at low rates we can see bumps wobble with the FM.
 
 ---
 
-So far we've done everything with a basic VCO which can only output either a Sine, Triangle, Sawtooth, or Square wave - and you should experiment with those outputs and see how each sounds - but there's a whole world of other sound sources out there for us to explore, so now that you've gotten your toes wet with VCV and hopefully understand the fundamentals, lets move on to  {{< button relref="Music/sources" color="music" >}}Sound Sources{{< /button >}}.
+![TODO](/common/TODO.svg)
 
 [TODO] The music chapters are actively being rewritten (Jan, 2023)
+
+So far we've done everything with a basic VCO which can only output either a Sine, Triangle, Sawtooth, or Square wave - and you should experiment with those outputs and see how each sounds - but there's a whole world of other sound sources out there for us to explore, so now that you've gotten your toes wet with VCV and hopefully understand the fundamentals, lets move on to  {{< button relref="Music/sources" color="music" >}}Sound Sources{{< /button >}}.
 
 * Replace the VCO with a WT-VCO
 * Get Some modules from the library

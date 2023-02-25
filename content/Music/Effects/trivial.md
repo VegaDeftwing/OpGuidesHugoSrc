@@ -44,3 +44,31 @@ Panning in general is just setting the side (left/right) that a sound is balance
 While not trivial in *how* it works, the concept of widening is pretty simple- if you have a mono or otherwise very 'centered' signal that you want to make feel bigger or just don't want the same sound to come out of both speakers, widening is a good option. You may also want to consider using more extreme time based effects like delay and reverb though!
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/mwaZ85VeUoU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Changing Phase
+
+{{< columns >}}
+
+Here are four sine waves. They're the same frequency (pitch/note) and the same amplitude (volume) **but** they don't line up. That is, the peak of one doesn't happen at the same time as another. The alignment of the waves is called their **phase**. 
+
+<--->
+
+![phase](/music/phase.svg)
+
+{{< /columns >}}
+
+If the peak of one wave perfectly aligns with the valley of another, those are 180° out of phase.
+
+Okay. Why does this matter?
+
+Well, if you have a bass line and a kick drum, and the two are roughly in the same frequency space, they might be 180° out of phase and cancel out - at least somewhat. That's not going to sound good.
+
+Now, that is a bit of a contrived example, but the gist is, phase *does* matter, and all you have to do to change is it use a very, very tiny delay.
+
+{{< hint info warning >}} 
+
+Delay in an audio context can either mean just time between things or an echo effect. I just mean the time between things in this context!
+
+{{< /hint >}}
+
+There are plenty of audio tools which will let you add fractions of a millisecond of delay for this purpose. It seems like something only the pros would care about, but it can make a big difference.
