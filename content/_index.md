@@ -5,11 +5,28 @@ type: docs
 
 # Welcome to Opinionated Guides
 
-The biggest section of this site is {{< button relref="/Engineering/engineering" >}}Opinionated Engineering{{< /button >}},but that isn't to say {{< button relref="Music/gettingstarted" color="music" >}}Opinionated Music{{< /button >}}, {{< button relref="Design/basics" color="design" >}}Opinionated Design{{< /button >}}, and {{< button relref="Phil/basic" color="phil" >}}Opinionated Philosophy{{< /button >}} aren't worth checking out too.
 
-You'll also find some other miscellaneous stuff, such as {{< button relref="Interviews/interviews" color="interview">}}Interviews{{< /button >}}, and {{< button relref="posts" color="gradient-border" >}}          {{< /button >}}
+{{< button relref="/Engineering/engineering" >}}Opinionated Engineering{{< /button >}} makes up the majority of this site, and aims to bring you from normie to ~~neckbeard~~ technomancer.
 
-The site is *mostly* maintained by me, Vega,
+{{< button relref="Music/gettingstarted" color="music" >}}Opinionated Music{{< /button >}} will take you on a journey of sound design and artistic expression via sonic exploration. Buckle up bois, it'll teach you all about 𝓂𝑜𝒹𝓊𝓁𝒶𝓇 𝓈𝓎𝓃𝓉𝒽𝑒𝓈𝒾𝓈𝑒𝓇𝓈 while we're at it.
+
+{{< button relref="Design/basics" color="design" >}}Opinionated Design{{< /button >}} is split into two sections. The first aims to help you not suck at art™ and the second is a stroll though making a website like this one.
+
+{{< button relref="Phil/basic" color="phil" >}}Opinionated Philosophy{{< /button >}} is ~~a place for me to screm my oppinions into the void~~  an attempt to apply philisophical ideas and reasoning to modern problems. 
+
+The {{< button relref="Interviews/interviews" color="interview">}}Interviews{{< /button >}} section will introduce you to some kick ass engineers, musicians, and kool kids from all walks of life.
+
+If you're interested in what I have to say, there's some{{< button relref="posts" color="gradient-border" >}}          {{< /button >}} too.
+
+Finally, there's some {{< button relref="Other/hci2/intro" color="other" >}}Other {{< /button >}} miscellaneous pages too. Content in this section ranges from discussions of conlangs like toki pona to 10,000 word rants about technology.
+</br>
+
+Note that this website is *[mostly](#copyright)* open source and I really appriciate contributions ❤️
+
+The site is hosted though GitHub Pages, so all you have to do is [submit a PR on GitHub](https://github.com/VegaDeftwing/OpGuidesHugoSrc).
+
+---
+
 
 <div style="float: left; width: 30%;">
 <img src="/nonfree/character/opguidesSiplick.png" alt="opguidesSiplick" style="zoom:34%;" />
@@ -23,11 +40,14 @@ Character is owned by me, art is by [Siplick](https://www.deviantart.com/siplick
 
 </div>
 
-But I more than welcome contributions! Either submit a pull request or, if you're dedicated to helping a lot, I can add you as a contributor if you get in touch with me (find me most places as Vega Deftwing).
 
 ##### Alright, but who are you?
 
-I'm Vega! I have both Computer and Electrical Engineering degrees and I am very into music, especially guitars and eurorack. I enjoy spending my free time scouring the internet for new things to learn and falling down YouTube pits until 3 in the morning. I'm that guy that types on a split Dvorak keyboard, and that wears an old vacuum tube around my neck, but I also like long boarding around town and playing video games.
+I'm Vega! 
+
+I have degrees in both Computer and Electrical Engineering. I am very into music, especially guitars and modular synths. I enjoy spending my free time scouring the internet for new things to learn and falling down YouTube pits until 3 in the morning.
+
+I'm one of those people that types on a split Dvorak keyboard. I love old technology that predates me so much that I wear an old vacuum tube as a necklace. I like long boarding around town and playing video games.
 
 I'm pretty opinionated, but I'd like to think most of those opinions have been tested reasonably rigorously or have at the very least come from a fair amount of experience, though I know I will need to update this site based on new information over time. I will occasionally try to sway you into my camp - like getting you to use Linux - for reasons that are both practical and ideological; however, I hope that once I share my reasons for both you'll agree as well. Of course, I greatly enjoy a good debate and hearing new information too, so if you disagree, to me that's even more valuable.
 
@@ -37,15 +57,22 @@ I'm pretty opinionated, but I'd like to think most of those opinions have been t
 
 Why write Opinionated Guides?
 
-Honestly, the answer changes from time to time.
+<p style="text-align: center;">The answer changes from time to time,<p>
 
-At first, I had this grandiose idea that I could offer something akin to a college education for Comp Sci, Comp Eng, and Electrical Engineering.
+At first, I had this grandiose idea that I could offer something akin to a college education for computer science and engineering, with a good dose of electrical engineering for good measure.
 
 And maybe that's possible still, maybe over the course of a decade OpGuides will still end up as that. But I don't think that's even what I want anymore. I don't want this to be Vega's Opinionated Big Ass Book To Give You An All-In-One Education, both because VegaOpBABTGYAAIOEdu is far less catchy, and because I don't even think it's possible. The more I write on this the more I value input of others and other resources I find, and the more happy I am that I called this project Opinionated Guides.
 
-*A Guide*. That's what I want this to be. I want OpGuides to be a resource that's like your friend you can come back to for advice on where to go next, and I think that's something the internet really needs. Search engines ~~are~~ were awesome for finding information, but only when you know what to look for, so I figure OpGuides can be a sort of curated information source, with the crappy results filtered out, the best resources I know of included, and a healthy mix of entertainment in the education so that it's not a chore to read.
+***A Guide***. That's what I want this to be. I want OpGuides to be a resource that's like your friend you can come back to for advice on where to go next, and I think that's something the internet really needs. 
 
-But that's what I want, not the why. Why am I doing it? I'm deeply passionate about what I write about and I really, really just want to share my passions with others. The idea that much of the information for the topics I care about is either:
+Search engines ~~are~~ were awesome for finding information, but only when you know what to look for, so I figure OpGuides can be a sort of curated information source, with the crappy results filtered out, the best resources I know of included, and a healthy mix of entertainment in the education so that it's not a chore to read.
+
+But that's what I want, not the why.
+
+<p style="text-align: center;">Why am I doing it?</p>
+
+I'm deeply passionate about what I write about and I really, really just want 
+to share my passions with others. The idea that much of the information for the topics I care about is either:
 
 * Being behind the ever growing pay wall of college education
 
@@ -53,21 +80,23 @@ But that's what I want, not the why. Why am I doing it? I'm deeply passionate ab
 
 * Or being glossed over as people get a poor excuse of an engineering (or other technical) education that misses out on so much of both the really important stuff and the really, really fucking cool stuff 
 
-is crazy to me. Like somehow what we have right now is expensive, boring, low quality, and isn't even worth it.
+is crazy to me. 
 
-Seriously, look at how poor of a value even a technical education is becoming as college prices sky rocket, the dream of a graduate with work-life balance is imploding, and the big employers of computer engineers and computer scientists being generally fucking evil and I just don't get why anyone* would do it.
+Because of everything from an abusive text book industry to capitalism as a whole what we have right now is expensive, boring, low quality, and isn't even worth it.
 
-*except for 18y/o high school graduates that have been fed the line that college is necessary for them to have a fulfilling life and that their parents expect it from them
+Seriously, look at how poor of a value even a technical education is becoming! College prices have sky rocketed, the dream of finding a career with decent work-life balance is imploding, and the big employers of computer engineers and computer scientists are being generally fucking evil and I just don't get why anyone would want to do it....
 
-I fell down that trap. College isn't worth it. But maybe I can use that education to give anyone who finds these guides a better one. Because of my college experience I do know what college gets right and wrong, what is covered and isn't. And, while I think I could have done a lot better on my own, it did serve as the catalyst. It gave me the terms to search, it pulled the curtain back just enough so that I could see some of the options. 
+...except for 18 year old high school graduates that have been fed the line that college is necessary for them to have a fulfilling life and have been repeatedly told how much it's expected of them to go to college.
 
-If you are going to college, I hope that OpGuides can supplement your college education, that I can finish the job of opening the curtains to give you the full stage, to show you the things you missed or re-light that spark of passion for the same things that I'm passionate about yet college managed to turn into a dull delve into cryptic and dead yet far too expensive text books.
+I fell down that trap. College is not worth it today. Sure, I have a good paying job, but I taught myself nearly everything I know via YouTube, not by going to class.
 
-OpGuides won't ever be a single resource and should never be in print. The reason I know I can do better is because instead of shying away from the internet and other resources for the sake of selling a book, I want to show them off and link to them. That's why I think I stand a chance of making something that can compete with college: I'm not alone, I'm a guide, showing you around the internet and introducing your to my other ~~totally not para-social relationships~~ friends.
+Because of my college experience I do know what college gets right and wrong, what is covered and isn't. So, while I think I could have done a lot better on my own, it did serve as the catalyst. It gave me the terms to search, it pulled the curtain back just enough so that I could see some of the options. I think that's all that's really need for someone with enough motivation to be able to succeed, so that's what I want OpGuides to do.
+
+If you are going to college, I hope that OpGuides can supplement your college education. I hope that I can finish the job of opening the curtains to show you the full stage, to show you the things you missed or re-light that spark of passion.
+
+OpGuides won't ever be a single resource and should never be in print. The reason I know I can do better than what most existing higher education provides is because instead of shying away from the internet and other resources for the sake of selling a book, I want to show them off and link to them. That's why I think I stand a chance of making something that can compete with college: I'm not alone, I'm a guide, showing you around the internet and introducing your to my other ~~totally not para-social relationships~~ friends.
 
 On the note of links, those that I think are a cut above the rest will have a lil' {{< best >}}{{< /best >}}  symbol next to them to mark them as being particularly good resources.
-
-There's also just a point of being utterly pissed off at the quality of my education (see <a href="/posts/whydidipay/">Why did I pay to go to college?</a>) and then seeing just how poor the quality of a formal education often is when compared to what is available from YouTubers that have perfected making entertaining education that actually sticks with you. It really grinds my gears to think about how much I paid to go to college when I got more from YouTube than I did from my expensive books and the lectures I attended.
 
 # Thank You!
 
