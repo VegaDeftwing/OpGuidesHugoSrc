@@ -184,7 +184,7 @@ Oh boy. There's a nearly endless amount, each with pro and cons and times when t
 
 ### How do I choose which to use?
 
-For anything but trivial programs, the choice is usually made for you before you start. If you're doing AI/ML stuff and want to use Tensorflow, you're stuck in Python (or C++, though that's uncommon). If you're writing code a small embedded system, you're probably stuck with C or maybe C++. If you're making a game in Unity, you're pretty much stuck with C#. If you're doing web development, you're probably going to be using JavaScript. Doing work on an ancient program for government/banking, it was probably written in Fortran or Cobal, so you're now stuck with Fortran or Cobal. 
+For anything but trivial programs, the choice is usually made for you before you start. If you're doing AI/ML stuff and want to use Tensorflow, you're stuck in Python (or C++, though that's uncommon). If you're writing code a small embedded system, you're probably stuck with C or maybe C++. If you're making a game in Unity, you're pretty much stuck with C#. If you're doing web development, you're probably going to be using JavaScript. Doing work on an ancient program for government/banking, it was probably written in Fortran or Cobol, so you're now stuck with Fortran or Cobol. 
 
 Now, there are some exceptions to this. If you're starting on a project that's pretty weird in the first place and wanting to do things from scratch (like making your own game engine) then of course you can choose whatever you like. Some will definitely make more sense than others, though, and you'll come to recognize these choices as you gain experience.
 
