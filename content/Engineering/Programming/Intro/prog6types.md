@@ -394,9 +394,67 @@ int main()
 
 [TODO] function pointers
 
-### Const, Volatile, Static
+### Const, Volatile, Static, and #define
+
+#### Const
 
 [TODO]
+
+#### Static
+
+I don't love Geeks For Geeks, but this article is decent: https://www.geeksforgeeks.org/static-variables-in-c/
+
+#### Volatile
+
+In computers we sometimes need to interact with the real world. For example, say you have a button hooked up to your computer - and I don't mean through USB or anything else, instead I mean, it's a button wired directly into the processor. Now, this may sound weird, but in reality, this is how things actually work ... sort of.
+
+Any keyboard will have a tiny, really lame computer built into it that only runs code that checks to see if those buttons have been pressed, but, it's still a computer - so what I'm talking about is programming that tiny, lame computer.
+
+So, how does it know if a button has been pressed? Well, usually, that button will be hooked up to a **G**eneral **P**urpose **I**nput **O**utput or GPIO pin. Internally, the processor has hardware that will detect if this pin is high and change a bit at a fixed memory address. So, this means that at this specific point in memory (RAM) along side all the other values we can store and read, theres this special address that we can read from and the bits will be changed not from software, but by hardware.
+
+When you write code, normally it will be optimized in way where it assumes a value it's read before won't change unless it you write to it somewhere else. This should make sense. It's basically just the computer having a sense of object-permanence and not expecting someone else to move things around without telling it.
+
+The thing is, this is a problem with our button example. Say we want to wait until that button is pressed to continue...
+
+```c
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdint.h>
+
+bool check_if_button_is_pressed(void){
+    // This address is random, but in real life it would be pulled from the 
+    // technical refrence manual (TRM) of the processor you're using.
+    // This mildly weird code is convincing C that we actually want to treat
+    // this value as a pointer directly. 
+    uint8_t *value = (uint8_t*)0x00108000;
+    
+    // Usually each bit at this address would be a different pin we're reading
+    // from. So this line picks out one bit in particular and checks if it's a 1;
+    if (*value & 0x40){
+        return true;
+    }
+    
+    return false;
+}
+
+int main(void){
+	while(!check_if_button_is_pressed()){
+		// wait until the button is pressed.
+	}
+          
+    printf("You pressed the button!\r\n");
+}
+```
+
+This won't actually work because we're missing the word `volatile`. What will happen is the code will read the value at `value` once, and then assume it won't change, so even if we press the button and the value at that address changes, our code won't *actually* re-read it because it's assuming, for performance reasons, that a value won't be changed without its knowledge.
+
+All that has to be done to fix it is add the word `volatile` before `uint8_t *value = (uint8_t*)0x00108000;` to tell the compiler that, hey, no, actually this value might actually change between reads.
+
+The other major use of `volatile` is effectively the same thing - just instead of the memory changing because of some of some other hardware, it's changing because of a CPU with multiple cores. Both cores have access to the same memory, but if one changes a value both want to read and write, both need to see re-read that variable each time they use it, since they can't be sure the other didn't just change it.
+
+#### #define
+
+This has the potential to open up a huge can of worms, but generally anything you see in a C file that starts with a `#` is a pre
 
 ## More on Types
 
