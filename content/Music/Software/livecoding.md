@@ -86,7 +86,7 @@ A minimal logic gates playground, written in ANSI C. Made by the same developers
 
 {{< columns2 >}}
 
-[Pure-Data,](https://puredata.info) [Purr Data (a better fork),](https://agraef.github.io/purr-data/) and [Max](https://cycling74.com/products/max) (the one everyone uses in Ableton)
+[Pure-Data,](https://puredata.info) [Purr Data (a better fork),](https://agraef.github.io/purr-data/) [Plugdata (another fork)](https://plugdata.org/index.html) and [Max](https://cycling74.com/products/max) (the one everyone uses in Ableton)
 
 <--->
 

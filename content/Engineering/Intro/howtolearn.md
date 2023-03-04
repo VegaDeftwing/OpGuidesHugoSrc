@@ -8,7 +8,7 @@ Break things. Make mistakes. By the end of this, you should know what a burning 
 
 This struggle is part of learning and proof that you're doing well. These experiences should teach you things in their own right. The smell of burning electronics may help you diagnose a future circuit, the lesson to not fall into a pit of technical debt may help when a bug has engulfed your code, and the late night of terminal only based work as you try to get your computer working again will teach you more than this book ever can.
 
-To quote someone much smarted than myself→
+To quote someone much smarter than myself→
 
 <--->
 

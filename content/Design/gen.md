@@ -1349,4 +1349,4 @@ From Generated.space, I particularly like [Marching Squares 2](https://generated
 
 [META: Hacker News Submission on this page, with a bit of discussion](https://news.ycombinator.com/item?id=24889333)
 
-<!--- TODO: https://graphite.rs, https://ossia.io, https://makham.itch.io/pixel-composer --->
+<!--- TODO: https://graphite.rs, https://ossia.io, https://makham.itch.io/pixel-composer, https://aatishb.com/patterncollider/ + editing HTML "hack", https://github.com/inconvergent/weird, https://meodai.github.io/poline/, https://github.com/Auburn/FastNoise2, https://github.com/GirkovArpa/calligrapher-ai --->

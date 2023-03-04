@@ -36,6 +36,8 @@ https://www.learncpp.com
 
 https://nedbatchelder.com/code/cog/ for making plain C suck a bit less.
 
+https://arobenko.github.io/bare_metal_cpp/
+
 ### Assembly
 
 Assembly code is specific to an [Instruction Set Architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture) or ISA, that means it is written for a specific family of processors. Most laptops and desktops today run on [x86_64](https://en.wikipedia.org/wiki/X86-64) processors made by either AMD or Intel, while most tablets and phones use processors that use [ARM](https://en.wikipedia.org/wiki/ARM_architecture). Of course, there are many, many other instruction sets than these two. For example, [6502](https://en.wikipedia.org/wiki/MOS_Technology_6502) assembly is particularly easy to write, as it's from an era <a class="ptr">(1)</a> when programming at the assembly level was still common. On the other hand, [RISC-V](https://en.wikipedia.org/wiki/RISC-V) is a newer ISA that has been gaining a lot of traction due to its open nature. Knowing ASM can allow you to do some black magic, like pushing out FizzBuzz at [57.2GiB/s](https://codegolf.stackexchange.com/questions/215216/high-throughput-fizz-buzz/236630#236630).
@@ -261,6 +263,8 @@ If I missed a language you think I should have mentioned or would like to write 
 [Cython](https://cython.org)
 
 > **Cython** is an **optimizing static compiler** for both the **[Python](http://www.python.org/about/)** programming language and the extended Cython programming language (based on **Pyrex**). It makes writing C extensions for Python as easy as Python itself.
+
+https://github.com/exaloop/codon
 
 ### JavaScript
 

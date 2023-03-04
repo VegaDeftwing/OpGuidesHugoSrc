@@ -54,6 +54,8 @@ Figma
 
 https://muzzleapp.com
 
+https://mannhowie.com/ui-design-web
+
 ### Dark Patterns
 
 {{< bigquote "[@HTHRFLWRS](https://cohost.org/hthrflwrs)" >}}

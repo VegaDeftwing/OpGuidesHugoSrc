@@ -666,6 +666,12 @@ By writing in the higher-level-than-assembly-but-still-pretty-low-level language
 
 Again, I can't stress this enough, don't use `goto`. Not even once. Don't try it. Don't think, "This is neat and good to know!". Unknow it. Don't go "this is a good use case!". It's not. Don't use `goto`.
 
+{{< hint info >}}
+
+... Okay, so, there are some legitimate reasons to use GOTO but they are exceptionally rare. [GOTOphobia considered harmful (in C)" by Jorengarenar](https://blog.joren.ga/gotophobia-harmful) does a good job of explaining these times - but even unless you're already a quite experienced programmer ... just don't.
+
+{{< /hint >}}
+
 ## Getting Functional
 
 In most programming languages, we have the concept of **Functions**. Functions let us break up code into digestable sections and reuse things. When we call `print()` in python or `printf()` in C we're actually using a function that's built in (well, sorta, printf is part of a library ... we'll get there).

@@ -41,7 +41,28 @@ Immediately contradicting myself though, don't undervalue workflow either. In my
 
 # What order should my effects be in?
 
-![TODO](/common/TODO.svg)
+That's up to you!
+
+For guitar pedals, a pretty typical order looks like this,
+
+{{< mermaid >}}
+graph LR
+    A("Signal In") --> B["Compression"]
+    B --> C["Distortion/Drive/Fuzz"] 
+    C --> D["Delay"]
+    D --> E["Some modulations (Chorus, Tremmelo, etc.)"]
+    E --> F["Reverb"]
+    F --> H["Other modulations (Phaser, Wah, etc)"]
+    H --> Z("Signal Out")
+{{< /mermaid >}}
+
+and there are a few reasons for this. 
+
+If you put a reverb before your distortion, it tends to get a bit muddy. If you put delay after your reverb, you're delaying the reverb tails, not adding reverb to the dealy tails (which is fine, but weird) etc. 
+
+So, I would consider the above order pretty "normal" but I really cant stress this enough: <span style="color:#FFB8B8">T</span><span style="color:#FFD4B8">H</span><span style="color:#FFF1B8">E</span><span style="color:#F1FFB8">R</span><span style="color:#D4FFB8">E</span> <span style="color:#B8FFB8">A</span><span style="color:#B8FFD4">R</span><span style="color:#B8FFF1">E</span> <span style="color:#B8F1FF">N</span><span style="color:#B8D4FF">O</span> <span style="color:#B8B8FF">R</span><span style="color:#D4B8FF">U</span><span style="color:#F1B8FF">L</span><span style="color:#FFB8F1">E</span><span style="color:#FFB8D4">S</span>
+
+If you want to put reverb after distortion, knock yourself out. Hell, almost every time I've done so I've fallen in love with the result. More than anything you should try different orders to understand why this order is common and figure out where you can bend it.
 
 # Neat tricks with effects
 
