@@ -16,7 +16,7 @@ type: docs
 
 The {{< button relref="Interviews/interviews" color="interview">}}Interviews{{< /button >}} section will introduce you to some kick ass engineers, musicians, and kool kids from all walks of life.
 
-If you're interested in what I have to say, there's some{{< button relref="posts" color="gradient-border" >}}          {{< /button >}} too.
+If you're interested in what I have to say, there's some{{< button relref="posts" color="gradient-border" >}}⠀ ⠀⠀  ⠀ ⠀⠀ {{< /button >}} too.
 
 Finally, there's some {{< button relref="Other/hci2/intro" color="other" >}}Other {{< /button >}} miscellaneous pages too. Content in this section ranges from discussions of conlangs like toki pona to 10,000 word rants about technology.
 </br>

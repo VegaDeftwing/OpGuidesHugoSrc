@@ -1,5 +1,11 @@
 # The Fediverse, ActivityPub, & The IndieWeb
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/css_overrides/neon.css">
+
 If you're as active in the same nerdy online circles I am, you've probably heard all three of these terms. There's also a good chance you're confused how they're all related. Well, let's fix that:
 
 ## The Fediverse
@@ -99,49 +105,49 @@ Along with that, clearly a big part of the **indie**web is being **inde**pendent
 
 Let's go backwards then, by letting me pretend this is an FAQ between two of my characters:
 
-{{< speech triode >}}
+{{< speech right triode >}}
 
 Why would I want my site/service to be on the IndieWeb?
 
 {{< /speech >}}
 
-{{< speech right >}}
+{{< speech>}}
 
 You want your site/service to be able to interact with other sites services
 
 {{< /speech >}}
 
-{{< speech triode >}}
+{{< speech right triode >}}
 
 Why would I want my site to be able to do that?
 
 {{< /speech >}}
 
-{{< speech right big >}}
+{{< speech big >}}
 
 See how at the bottom of this page reactions to it on Twitter, Lobste.rs, various mastodon services, etc. all show up? That's using something called [Webmentions](https://indieweb.org/Webmention) which is something that's part of the indieweb movement. It lets things be connected without me needing to post it in any one of those places directly. This means I'm still in full control of this website, you're still in full control of your accounts, but you can talk about this website and people can see that conversation regardless of the platform you're using <a class="ptr">(2)</a>.
 
 {{< /speech >}}
 
-{{< speech triode >}}
+{{< speech right triode >}}
 
 Why would I care if I don't have a website/server?
 
 {{< /speech >}}
 
-{{< speech right big >}}
+{{< speech big >}}
 
 Even if you're not making your own content on your own platform, it still means you can interact with other people's content without needing to use their platform, that you can join a community that better suits you, and that you don't have to miss out on anything or be discussing things in a bubble.
 
 {{< /speech >}}
 
-{{< speech triode >}}
+{{< speech right triode >}}
 
 Huh?
 
 {{< /speech >}}
 
-{{< speech right big >}}
+{{< speech big >}}
 
 You like Twitter but not *that side* of Twitter? Then you can use Mastodon. Mastodon is part of the fediverse, which is made up of indieweb servers, which all federate with each other. You could join a server like [eldritch.cafe](http://eldritch.cafe) which is 
 
@@ -157,37 +163,37 @@ Same concept, different target for the other things listed in the first part of 
 
 {{< /speech >}}
 
-{{< speech triode >}}
+{{< speech right triode >}}
 
 Wait, you just talked about the indieweb and the fediverse, but not activity pub.
 
 {{< /speech >}}
 
-{{< speech right >}}
+{{< speech >}}
 
 Yep. That's because it (usually) doesn't matter to a user. Yes, a good-portion of the time the fediverse works using ActivityPub, but this is transparent to the user.
 
 {{< /speech >}}
 
-{{< speech triode >}}
+{{< speech right triode >}}
 
 Then why bring it up?
 
 {{< /speech >}}
 
-{{< speech right >}}
+{{< speech >}}
 
 Because ActivityPub and Federation are becoming synonymous. So, if you see a site/platform say it supports ActivityPub that's probably the same thing as supporting federation. Basically, it's because people will talk about it and if you don't know you'll just be confused.
 
 {{< /speech >}}
 
-{{< speech triode >}}
+{{< speech right triode >}}
 
 Why is this terminology so confusing?
 
 {{< /speech >}}
 
-{{< speech right big>}}
+{{< speech big>}}
 
 Feckin' hell, right? In short, if you're using Mastodon, you are:
 
@@ -208,13 +214,13 @@ The following link is to a specific PeerTube instance. From what I can tell, mos
 
 {{< /speech >}}
 
-{{< speech triode >}}
+{{< speech right triode >}}
 
 I'm still confused.
 
 {{< /speech >}}
 
-{{< speech right big>}}
+{{< speech big>}}
 
  Reading [An Introduction to the IndieWeb (Chris Aldrich)](https://boffosocko.com/2017/07/28/an-introduction-to-the-indieweb/) and [Why ActivityPub is the future (blog.joinmastodon.org)](https://blog.joinmastodon.org/2018/06/why-activitypub-is-the-future/) may help you gronk some of it, but, yeah, it's a bit confusing, especially since it's a pretty radical change in the entire way we thing about the internet working. 
 

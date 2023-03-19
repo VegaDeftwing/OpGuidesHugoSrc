@@ -289,7 +289,7 @@ Plus, you should experiment with how having a smaller browser window breaks this
 
 {{< /columns >}}
 
-To work smarter not harder, you may want to use the browser's development window and try changing things live - nothing you do there will save after a refresh - just press <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">F12</span>,  {{< smalltext >}} (You may need to press <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">fn</span> + <span style="border: 1px solid #fff;border-radius: 3px;padding: 4px;">F12</span> depending on your keyboard){{< /smalltext >}} or right click on the page and click "Inspect Element" to look at the HTML and CSS for a specific item on the page. On the Styles tab you should be able to change things and see what they do live. If you want, you can ever try it on this page!
+To work smarter not harder, you may want to use the browser's development window and try changing things live - nothing you do there will save after a refresh - just press <kbd>F12</kbd>,  {{< smalltext >}} (You may need to press <kbd>fn</kbd> + <kbd>F12</kbd> depending on your keyboard){{< /smalltext >}} or right click on the page and click "Inspect Element" to look at the HTML and CSS for a specific item on the page. On the Styles tab you should be able to change things and see what they do live. If you want, you can ever try it on this page!
 
 ![image-20221231121600624](/design/inspectelement.webp)
 

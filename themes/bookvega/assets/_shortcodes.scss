@@ -208,7 +208,7 @@
   }
 
   a.gradient-border::before {
-    content: 'Blog Posts';
+    content: "Blog\00a0Posts";
     top: calc(-1 * var(--borderWidth));
     left: calc(-1 * var(--borderWidth));
     height: calc(100% + var(--borderWidth) * 2);
