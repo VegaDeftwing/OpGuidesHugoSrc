@@ -116,6 +116,8 @@ Other sources to learn Go:
 
 [Zig, The Small Language (Serge Zaitsev)](https://zserge.com/posts/zig-the-small-language/)
 
+[When Zig is safer and faster than Rust (Zachoverflow)](https://zackoverflow.dev/writing/unsafe-rust-vs-zig/)
+
 > If you're going to use Zig, make sure to set up the [Zig Language Server](https://github.com/zigtools/zls/wiki/Installing-for-Visual-Studio-Code)
 
 ### Odin

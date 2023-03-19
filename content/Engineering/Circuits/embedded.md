@@ -4,6 +4,12 @@
 
 {{< attribution >}}By [Make It With Me](https://www.instructables.com/Cheapest-Plug-Play-Room-Automation-Setup/){{< /attribution >}}
 
+{{< tip >}}
+
+If you're reading this page, it's expected that you're either pretty comfortable with C and programming on a normal computer already or that you've at least read though both the programming intro chapter starting with {{< button relref="Engineering/Programming/Intro/prog0intro" >}}"Lets Write Some Code"{{< /button >}} and the {{< button relref="Engineering/Programming/lowlvl" >}}"Low Level Programming"{{< /button >}} page
+
+{{< /tip >}}
+
 ## What is an Embedded System?
 
 {{< columns >}}
@@ -20,13 +26,13 @@
 
 These little devices are *Pocket Operators* made by Teenage Engineering, they're relatively inexpensive synths that can be chained together, and I think they're a great example of what an embedded system is, but for the sake of clarity, here's how Wikipedia defines it:
 
+{{< /columns >}}
+
 {{< quote Wikipedia>}}
 
 An embedded system is a computer system—a combination of a computer processor, computer memory, and input/output peripheral devices—that has a dedicated function within a larger mechanical or electronic system.
 
 {{< /quote >}}
-
-{{< /columns >}}
 
 Alright, so how do these pocket operators show this well? Well, the pocket operators have a *Microcontroller* on them as well as a fair amount of things connects to it, but let's hang on for a second- Microcontroller? Microcontrollers, sometimes written as *μC*, *MCU*, or just *micro* are the heart of most embeded projects
 
@@ -38,7 +44,9 @@ Microcontrollers are used in automatically controlled products and devices, such
 
 {{< /quote >}}
 
-Alright, so that's a lot of words. The gist of it is you're getting a tiny computer that's roughly comprable in specs to a computer from the 80's, but is inexpensive (usually under $0.25, especially in bulk) and that has a ton of pins that you can connect other things to- LEDs, motors, buttons, etc. These computers (usually) don't run a full operating system, and instead (usually) just run a loop of your code forever. They also usually have some special pins that can do things like read analog voltages, communicate over SPI or {{< katex >}}\text{I}^2 \text{C}{{< /katex >}}, trigger interrupts, or be used for PWM (Puse Width Modulation).
+Alright, so that's a lot of words. The gist of it is you're getting a tiny computer that's roughly comprable in specs to a computer from the 80's, but is inexpensive (usually under $2.00, especially in bulk) and that has a ton of pins that you can connect other things to- LEDs, motors, buttons, etc.
+
+These computers *usually* don't run a full operating system, and instead *usually* just run a loop of your code forever. They also usually have some special pins that can do things like read analog voltages, communicate over SPI or {{< katex >}}\text{I}^2 \text{C}{{< /katex >}}, trigger interrupts, or be used for PWM (Puse Width Modulation).
 
 {{< columns >}}
 
@@ -62,13 +70,17 @@ It's worth noting, the μC itself is the Atmega328P- the really big black rectan
 
 <--->
 
-Sometimes the lines for what's a microcontroller or embedded system can get blurry. This is especially the case when using a development board on a finished product or when a full computer that runs a desktop OS is involved.
-
-For example, the Raspberry Pi, pictured here, is an embeded system; *however*, it has a full blow ARM System On a Chip (SoC) that can run Linux and be used as a full desktop computer. More confusing still, the Pi itself has multiple embedded systems *in* the embedded system- for example the dedicated chip on the Pi3b+ that provides the Ethernet connectivity could be considered part of its own embedded system. Yet, the Pi has General Purpose Input Output (GPIO) pins like most microcontrollers.
+Sometimes the lines for what's a microcontroller or embedded system can get blurry. This is especially the case when using a development board on a finished product or when a full computer that runs a desktop OS is involved. For example, the Raspberry Pi, pictured here, is an embeded system; *however*, it has a full blow ARM System On a Chip (SoC) that can run Linux and be used as a full desktop computer.
 
 {{< /columns >}}
 
+More confusing still, the Pi itself has multiple embedded systems *in* the embedded system- for example the dedicated chip on the Pi3b+ that provides the Ethernet connectivity could be considered part of its own embedded system. Yet, the Pi has General Purpose Input Output (GPIO) pins like most microcontrollers.
+
 All of this is to say, don't worry about it too much. As you work with it more, you'll learn the differences. This is all just jargon anyway, and sometimes not everything fits cleanly under a single label. Instead, you should focus on what matters: Knowing what parts to use, what features they offer, and how to program them to do what you want.
+
+---
+
+For the rest of this page, I'm going to be talking about embedded systems that *don't* have processors beefy enough to run Linux - those are usually called "Single Board Computers" or SBC's anyway, just because they're really in an entirelly different weight class and price bracket. If you know how to work on the classic μC embedded systems as I'll dicuss going forward *and* you know how to do general desktop development, making software for a Single Board Computer, such as the Pi, is really just a blend of the two and should come pretty naturally.
 
 ## Playing around - Hello World and blink
 
@@ -91,7 +103,11 @@ Connect your board, press upload, and if you go to *Tools → Serial Monitor* yo
 But, there are a few things I want to address first:
 
 1. The Arduino IDE is fucking garbage (for now, it should be getting better with Version 2.0)
-2. This code leaves a lot obscured. Where is `Serial` from? What's up with `setup()` and `loop()` instead of `main()`? Why `9600`?
+2. This code leaves a lot obscured. 
+   * Where is `Serial` from? 
+   * Why are we not just using `printf()`?
+   * What's up with `setup()` and `loop()` instead of `main()`?
+   *  Why `9600`?
 
 So, to answer 1. - Yeah, don't use the Arduino IDE. For now, the best option is [PlatformIO](https://platformio.org) on VSCode.
 
@@ -119,13 +135,42 @@ int main(void)
 }
 ```
 
-which, while may look a bit weird, you'll see does contain our typical `main()` and just executes `setup()` once then whatever we put in `loop()` in an infinite for loop. Really, this abstraction is just in our way. There's no need for these libraries to sit between us and the code!
+which, while may look a bit weird, you'll see does contain our typical `main()` and just executes `setup()` once then whatever we put in `loop()` in an infinite for loop. It also contains `#include <arduino.h>` which will include if you dive into you'd see includes the Serial library too.
 
-Finally, just to be though, that `9600` which may seem like a magic number, is the baudrate the board was sending data to the computer at. `9600` is stupidly slow, yet is the default that many programs with the Arduino framework will use- most boards can do `115200`, which is 12 times faster.
+{{< speech left triode >}}Okay, but WTF is "Serial"? Why not just use `printf()`{{< /speech >}}
 
-All of this is to say, a lot of "Makers" will only learn to use the Arduino functions and way of doing things. Yeah, they might make some things easier, but long term they'll seriously limit what you can do. There's often nothing wrong with this! Sometimes, a quick n' dirty solution will work. If you just want to make some LEDs blink or switch a relay to turn something on and off, sure. The problem is, sooner or later you'll find something where you need fast response times and need to use interrupts, or where you need to get fine control over PWM and need to twiddle bits, and the Arduino library will make doing so a massive pain in the ass.
+Okay, so, there's a few things here.
 
-So, let's try this again, this time, don't use the Arduino IDE, but grab PlatformIO and make a new project. I'll assume that most people reading this are- *despite how much of a massive pile of shit they are*- using an Arduino Uno (or clone). If that's all you have, frankly, the Arduino library is still your best bet for *some* things, so when you make a new project because it does provide some things that are a total pain to do by hand, like setup aforementioned `Serial`. That said, the other library that works in PlatfromIO for the Uno, [Simba](https://simba-os.readthedocs.io/en/latest/index.html) is pretty cool and will abstract out a lot of that mess too. The biggest reason to use the Arduino framework is that there's a mountain of libraries written for it, so if you get a little board for RFID or temperature sensing or GPS or whatever, there's probably already a drop in library with example code. But, frankly, the 328P is so under powered and old that I just can not justify learning on it. Instead, I'm going to recommend the STM32F411CE - or, as it's more commonly known, the "Black Pill"
+First, the "arduino" framework isn't actually C it's *C++* and the standard way printing is done in C++ is a bit different anyway - yes, you can use `printf()` in normal desktop programs in C++, but you usually want to use a syntax closer to this
+
+`cout << "Hello World!";`
+
+But, more improtantly, C++ is also object oriented, so we're calling the `println()` function from the `Serial` class - it's an entirely different language. Again, not a big deal to think about right now. There are two take aways you need to really answer your question
+
+1. `println` is basically just a `printf` that add's the newline for us
+2. `Serial` is a class that gives provides us functions for working with the serial interface *hardware* on the board
+
+Now, 2. Is the more important and more confusing point and requires a smidgen of historical context. 
+
+You connected the board to your computer over USB or **U**niversal **S**erial **B**us. Prior to USB we also had ... Serial. Just... Serial. USB can (with a lot of hand waving to what is actually going on) let devices show up as old school Serial devices though. If you're on Windows, these will show up as com ports (COM4 or whatever) on Linux, they'll show up as `/dev/ttyACM0` or `/dev/ttyUSB0` (with the number incrementing depending on the number of devices)  - this old school serial connection is pretty damn slow but basically just gives us a way to send data (usually text) back and forth to a device - allowing us to print that data to a terminal or send data from a terminal. 
+
+This is why we can't just use `printf()` - where would that text even show up?! **There's no screen on the board!** no terminal. We need to send the data back to the computer over the serial interface to have a way to read it!
+
+Finally, just to be though, that `9600` which may seem like a magic number, is the baudrate the board was sending data to the computer over Serial. `9600` is stupidly slow, yet is the default that many programs with the Arduino framework will use- most boards can do `115200`, which is 12 times faster.
+
+Really, most of this abstraction is just in our way. This isn't C++'s fault, the `Serial` class providing functions like println and having encasulated functions for setup - great, that's well made. Not including `serial.h` ourselves or having a convient tool for looking at how the underlying libraries tie together? That is a dumpster fire.
+
+There's no need for all of that to sit between us and the code!
+
+A lot of "Makers" will only learn to use the Arduino functions and way of doing things. Yeah, they might make some things easier, but long term they'll seriously limit what you can do. I love "Makers" and "Hackers" and consider myself one, but if you use the title as an excuse to not learn how shit works, you're doing it wrong.
+
+Sometimes, a quick n' dirty solution will work. If you just want to make some LEDs blink or switch a relay to turn something on and off, sure. The problem is, sooner or later you'll find something where you need fast response times and need to use interrupts, or where you need to get fine control over PWM and need to twiddle bits, and the Arduino library will make doing so a massive pain in the ass.
+
+So, let's try this again, this time, don't use the Arduino IDE, but grab PlatformIO and make a new project. 
+
+I'll assume that most people reading this are- *despite how much of a massive pile of shit they are*- using an Arduino Uno (or clone). If that's all you have, frankly, the Arduino library is still your best bet for *some* things, so when you make a new project because it does provide some things that are a total pain to do by hand, like setup aforementioned `Serial`. That said, the other library that works in PlatfromIO for the Uno, [Simba](https://simba-os.readthedocs.io/en/latest/index.html) is pretty cool and will abstract out a lot of that mess too. 
+
+The biggest reason to use the Arduino framework is that there's a mountain of libraries written for it, so if you get a little board for RFID or temperature sensing or GPS or whatever, there's probably already a drop in library with example code. But, frankly, the 328P is so under powered and old that I just can not justify learning on it. Instead, I'm going to recommend the STM32F411CE - or, as it's more commonly known, the "Black Pill"
 
 {{< tip >}}
 
@@ -148,7 +193,11 @@ But, I hear you asking, **"why?"**
 
 {{< attribution >}}*The STM32F4**0**1CE boards are a smidgen worse, but honestly, they're both so good it probably won't matter to you. Get whatever is cheaper.{{< /attribution >}}
 
-If that doesn't convince you, then I don't know what will. Oh, and it still supports the Arduino framework. Now, to be fair, there's a lot more to this than these specs. The 328p will almost certainly have better library support than the BlackPill, the Uno has a bunch of snap-on accessories, and some things do actually work better with the 5V i/o of the Uno. You'd also want to consider what protocols and inputs the boards can handle. In this case, the BlackPill is basically better in every way in that front too. If you were looking at other options though, some boards may not have analog input pins, for example, and that might be a dealbreaker for some projects. I'll talk more about how to find the right μC / Devboard for your project later, for now, let's move on assuming you have the BlackPill in front of you.
+Even if *most* of these specs don't mean anything to you and whatever projects you have in mind don't need a beefy processor, while learning espcially you don't want to be constantly running out of RAM or room to store your code.
+
+If that doesn't convince you, then I don't know what will. Oh, and the BlackPill still supports the Arduino framework, if you do actually need it. Now, to be fair, there's a lot more to this than these specs. The 328p will almost certainly have better library support than the BlackPill, the Uno has a bunch of snap-on accessories, and some things do actually work better with the 5V i/o of the Uno. It's just... sort of dumb to start on something so old and so far removed from modern practices.
+
+You'd also want to consider what protocols and inputs the boards can handle. In this case, the BlackPill is basically better in every way in that front too. If you were looking at other options though, some boards may not have analog input pins, for example, and that might be a dealbreaker for some projects. I'll talk more about how to find the right μC / Devboard for your project later, for now, let's move on assuming you have the BlackPill in front of you.
 
 So, let's try making our `Hello World!` again.
 

@@ -1,4 +1,11 @@
+---
+aliases:
+    /other/tokipona/
+---
+
 # toki pona! <span class="conlang" style="font-size:1em">󱥬󱦖󱥔<span>
+
+<link rel="stylesheet" href="/css_overrides/light.css">
 
 {{< tip >}} This page will test your UTF-8 support and ability to load in weird fonts. It works on my computer ╮(─▽─)╭{{< /tip >}}
 
@@ -56,7 +63,9 @@ toki pona's community is <span style="font-size:1.3em;">freakin'</span>   <span 
 * Every year, toki pona day rolls around and it's a huge event, [here's a recording of this year's](https://www.youtube.com/watch?v=D2ljYoosH9M).
 * I remember fighting to defend our place on the [r/place canvas](https://www.reddit.com/r/place/?cx=765&cy=340&px=21&ts=1649112460185).
 
-But while those things are cool I don't think it quite conveys what I want to stress more than anything: the toki pona community is full of the brightest, most passionate, deeply quirky, esoteric, and just full of life people I have ever had the pleasure of hanging out with. Being in voice chat with them feels like I'm with *my people*. The community is full of nerds (in the endearing way) pushing the boundaries, and - being nerds pushing boundaries - , they're directly influencing culture and making new technology. This can be as technically-mundane-but-still-really-cool as Minecraft's built in toki pona support (!!!),
+But while those things are cool I don't think it quite conveys what I want to stress more than anything: the toki pona community is full of the brightest, most passionate, deeply quirky, esoteric, and just full of life people I have ever had the pleasure of hanging out with. 
+
+Being in voice chat with them feels like I'm with *my people*. The community is full of nerds (in the endearing way) pushing the boundaries, and - being nerds pushing boundaries - , they're directly influencing culture and making new technology. This can be as technically-mundane-but-still-really-cool as Minecraft's built in toki pona support (!!!),
 
 <img src="/other/tokiponamc.png" alt="Mincraft language menu with toki pona selected" width="40%"></br>
 

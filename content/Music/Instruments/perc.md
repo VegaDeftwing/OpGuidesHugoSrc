@@ -5,6 +5,8 @@
 </script>
 ## Theory
 
+<!-- https://www.youtube.com/watch?v=Ez8Q68h9i4M -->
+
 {{< columns >}}
 
 Before I even dive into Percussion, I think it's necessary to point out how generic the term is. Just looking at the Wikipedia page for drum kit, you'll see this:

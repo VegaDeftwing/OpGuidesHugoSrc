@@ -12,7 +12,23 @@ slug: "Infrastructure"
 
 ### Light Pollution
 
+{{< columns >}}
+
+<pre style="background-color: #2220 !important;overflow: hidden;">
+    ˚    ·           .          .   ✦  
+               ✵ .      .   
+         . *       ⊹       ˚    ·        
+.         ⊹  ✵     .             ⊹      .  
+    .   ✦                   ✦      
+ ·  .     *  ·    ˚ 
+    .  ˚                 ⊹          . 
+</pre>
+
+<--->
+
 [International Dark Sky Association](https://www.darksky.org)
+
+{{< /columns >}}
 
 ## Air Quality
 
@@ -25,6 +41,8 @@ slug: "Infrastructure"
 [Car-Free Neighborhoods in the US](https://culdesac.com)
 
 [The People the Suburbs Were Built for Are Gone (Vice)](https://www.vice.com/en/article/y3gx5b/the-people-the-suburbs-were-built-for-are-gone)
+
+[Maybe Treating Housing as an Investment was a Colossal, Society-Shattering Mistake](https://goodreason.substack.com/p/maybe-treating-housing-as-an-investment)
 
 ### Land Value Tax?
 
@@ -47,6 +65,8 @@ Where you're born determines if you have access to even basic needs
 [College Campuses Are Designed at Human-Scale. Our Cities Can Be Too. (StrongTowns.org)](https://www.strongtowns.org/journal/2021/1/6/college-campuses-as-a-model-for-urban-planning)
 
 [Turns Out, Mandatory Helmet Laws Make Cyclists Less Safe (bicycling.com)](https://www.bicycling.com/culture/a29802208/helmet-laws-safety/)
+
+[There Stupid Trucks Are Literally Killing Us (YouTube, Not Just Bikes)](https://www.youtube.com/watch?v=jN7mSXMruEo)
 
 ## Payment Systems
 

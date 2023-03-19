@@ -191,6 +191,8 @@ Wave folding is very easily done by using `fmod()` and compensating for the redu
 
 ### Drive, and Tubes
 
+<!-- TODO, explain how you can get better distortions by turning the volume *down* "you can't really distort a square wave, it's already maximally distorted" -->
+
 ![TODO](/common/TODO.svg)
 
 {{< devegg >}}

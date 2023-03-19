@@ -56,6 +56,18 @@
 	src: local("Fairfax HD"), url(fonts/fairfaxhd.ttf) format("truetype");
 }
 
+@font-face {
+	font-family: "Edu NSW ACT Foundation";
+	src: url(fonts/Edu_NSW_ACT_Foundation/EduNSWACTFoundation-VariableFont_wght.eot);
+	src: local("Edu NSW ACT Foundation"), url(fonts/Edu_NSW_ACT_Foundation/EduNSWACTFoundation-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "Julius Sans One";
+	src: url(fonts/Julius_Sans_One/Julius_Sans_One.eot);
+	src: local("Julius Sans One"), url(fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf) format("truetype");
+}
+
 .conlang {
 	font-family: "Fairfax HD", Fairfax;
 	font-size: 16px;

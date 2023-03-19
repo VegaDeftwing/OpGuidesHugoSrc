@@ -96,6 +96,12 @@ If you are going to college, I hope that OpGuides can supplement your college ed
 
 OpGuides won't ever be a single resource and should never be in print. The reason I know I can do better than what most existing higher education provides is because instead of shying away from the internet and other resources for the sake of selling a book, I want to show them off and link to them. That's why I think I stand a chance of making something that can compete with college: I'm not alone, I'm a guide, showing you around the internet and introducing your to my other ~~totally not para-social relationships~~ friends.
 
+{{< smalltext >}}
+
+As an added reason, it really annoys me how much knowledge is lost due to poor indexing. See [Discord, or the Death of Lore (Jason Scott)](http://ascii.textfiles.com/archives/5509)
+
+{{< /smalltext >}}
+
 On the note of links, those that I think are a cut above the rest will have a lil' {{< best >}}{{< /best >}}  symbol next to them to mark them as being particularly good resources.
 
 # Thank You!

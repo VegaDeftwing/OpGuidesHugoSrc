@@ -1,5 +1,7 @@
 # Improving Your Writing
 
+<link rel="stylesheet" href="/css_overrides/light.css">
+
 [TODO] split this up for technical, fiction, and applicable to both.
 
 {{< columns >}}

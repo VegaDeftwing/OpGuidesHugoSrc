@@ -38,7 +38,7 @@ Everything from the {{< button relref="Engineering/Programming/Intro/prog0intro"
 
 ### Hello World!
 
-It's traditional to start in any language by writing a program that just outputs the words "Hello World!" to the terminal, so let's start there in C++
+It's traditional to start in any language by writing a program that just outputs the words "Hello World!" to the terminal, so let's start there in C:
 
 ```c
 #include <stdio.h>
@@ -49,7 +49,7 @@ int main() {
 }
 ```
 
-To run this code, save it to a file named `hello.cpp` and then open a terminal, navigate to that folder and run `gcc hello.cpp -o hello`, then you can run your program with `./hello`, that should give you something like this:
+To run this code, save it to a file named `hello.c` and then open a terminal, navigate to that folder and run `gcc hello.c -o hello`, then you can run your program with `./hello`, that should give you something like this:
 
 ```
 [vega@lyrae ~]$ gcc hello.c -o hello
@@ -57,13 +57,11 @@ To run this code, save it to a file named `hello.cpp` and then open a terminal, 
 Hello World!
 ```
 
-
-
 Alright, so let's go through line by line.
 
 On line **1** there's a `#include` statement, this tells the compiler we want to include some library or other code. In this case we want the `stdio` library, as well need it in a few lines, but what about this library, where is it?
 
-Well, that library is just some other code. We can look at it by navigating to `/usr/include/stdio.h`or, in VSCode you can hold control and click on the word *stdio* to go its file, so let's look at that file:
+Well, that library is just some other code. Assuming you followed along with the rest of this site and are now running Linux, we can look at it by navigating to `/usr/include/stdio.h`or, in VSCode you can hold control and click on the word *stdio* to go its file, so let's look at that file:
 
 ```c
 /* Define ISO C stdio on top of C++ iostreams.
@@ -106,7 +104,47 @@ extern int printf (const char *__restrict __format, ...);
 
 okay, so it starts with a big copyright block in comments - in C `//` makes a single long comment and `/* comment */` are for multi-line comments - then on lines 39 and 40 we can see it is in turn including three more files such as `stddef.h` on line 33.
 
-But let's look deeper, down on line 332 of `stdio.h` we can see `printf()` is loaded as an external function. The `extern` keyword marks this as a sort of indicator to the compiler, `gcc` in this case, that this function definition is actually implemented elsewhere, but that this is the signature to expect from its usage. That is, when anything that imports `stdio.h` uses `printf()` it should expect to return an integer (the `int` before the word printf) and take in a pointer to a character array (the `char *` inside the parentheses)
+But let's look deeper, down on line 332 of `stdio.h` we can see `printf()` is loaded as an external function. The `extern` keyword marks this as a sort of indicator to the compiler, `gcc` in this case, that this function definition is actually implemented elsewhere, but that this is the signature to expect from its usage. That is, when anything that imports `stdio.h` uses `printf()` it should expect to return an integer (the `int` before the word printf) and take in a pointer to a character array (the `char *` inside the parentheses) as well as a second argument of `...` which is for a variable number of arguments 
+
+{{< speech right triode >}}
+
+Woah, hold up, variable arguments?
+
+{{< /speech >}}
+
+{{< speech big >}}
+
+Okay, yeah, this is a bit tangential but C does actually support functions with a variable number of arguments. You can recognize them by their declaration using an ellipsis (...) as their last argument. 
+
+For example,
+
+````c
+int a = 1;
+int b = 2;
+inc c = 3;
+
+printf("a is %d and b is %d", a, b); // The "format string" + 2 variable arguments
+printf("c is %d", c); // The format string + 1 argument
+printf("Hello!") // The format string + no arguments
+````
+
+These aren't used super commonly outside of functions like printf/scanf but it is possible to write functions that use them yourself - it's not magic. It's just that normally you wouldn't want to because there's a lot of complexity in conveying type. 
+
+Because the arguments are variable, they can be whatever type they want but C doesn't actually inform the function what type each argument is.
+
+> This is actually probably my biggest gripe about C. It makes writing type-generic functions require either:
+>
+> * Duplicating code
+> * Using weird compiler macros like [typeof()]() (which doesn't do work how you'd want it to)
+> * Making an enum of valid types and passing a extra variable of that enum type in to indicate the type of the argument
+>
+> All of these options are awful.
+
+ In printf the order of the different format characters like `%d` tells printf how to interpret each arg, but because it really has no idea what type you're actually passing it there's nothing stopping you from doing something weird like `printf(%s, 3.14);` - printing a float as a string (this has the potential to go very bad, actually).
+
+varargs could easily be a whole page, but you're better off just searching the web and reading up on them if you want to know more.
+
+{{< /speech >}}
 
 So, where's the code for `printf()` that does the actual printing?
 
@@ -118,7 +156,7 @@ Another thing you should notice is the #ifndef at the start of this file, which 
 
 These are pre-processor directives, just like `#include` is, basically, it's special code that the compiler (in our case `gcc`) looks at before it complies the code. Of note there are `#if` and `#else` blocks, you might see these used for checking if a certain library is available for example, as a way to check what compiler is being used to adjust things slightly, or to check what OS the code is even being compiled for.
 
-You also might see `#define` used to either set constants such as `#define PI 3.14159` or `#define GET_SIZE(*p*)  (GET(p) & ~0x7)`
+We've already talked about this a bit before when we discussed `#define` which is used to either set constants such as `#define PI 3.14159` or `#define GET_SIZE(*p*)  (GET(p) & ~0x7)`
 
 This little adventure was mostly just to show you that these `#include` statements that use system libraries are not magic, and to point out that most code will end up loading shared system libraries (`.so` files on Linux, `.dll` files on Windows)
 

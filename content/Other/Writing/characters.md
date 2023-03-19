@@ -1,5 +1,7 @@
 # Making Characters
 
+<link rel="stylesheet" href="/css_overrides/light.css">
+
 
 
 ## Relationships

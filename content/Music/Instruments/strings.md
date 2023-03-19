@@ -7,6 +7,8 @@
 </script>
 ## Guitars
 
+<!-- Normally I wouldn't even click something like this, but this one is actually good: https://www.youtube.com/watch?v=LnJkVg3Es2o -->
+
 {{< columns >}}
 
 <--->
