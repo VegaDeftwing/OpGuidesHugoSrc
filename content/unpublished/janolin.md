@@ -1,14 +1,16 @@
 # Thoughts on olin, Part 1
 
-{{< attribution >}}Post by jan Usawi{{< /attribution >}}
+<link rel="stylesheet" href="/css_overrides/light.css">
+
+>  **Written by jan Usawi**
 
 {{< columns >}}
 
 So. Can you olin a potato?
 
-Tonight <a class="ptr">(1)</a>, myself and a few others in the ma pona server got talking about the usage of the word **olin** (**󱥅**) towards actions, and whether or not olin can refer to love for anything other than a person. And my brain, in its normal spiderweb-weaving fashion, went running. 
+Tonight <a class="ptr">(1)</a>, myself and a few others in the ma pona server got talking about the usage of the word **olin** (<span class="conlang" style="font-size:1em">󱥅</span>) towards actions, and whether or not olin can refer to love for anything other than a person. And my brain, in its normal spiderweb-weaving fashion, went running. 
 
-As much as I love using the odd preverb here and there (sike (**󱥜**) especially), olin preverb is one I’ve never gotten on board with—I love writing, but “mi olin sitelen” is not how I’d express that passion.
+As much as I love using the odd preverb here and there (sike (<span class="conlang" style="font-size:1em">**󱥜**</span>) especially), olin preverb is one I’ve never gotten on board with—I love writing, but “mi olin sitelen” is not how I’d express that passion.
 
 <--->
 
@@ -16,7 +18,7 @@ As much as I love using the odd preverb here and there (sike (**󱥜**) especial
 
 {{< /columns >}}
 
-kili pan (**󱤚󱥋**) (a sensible enough translation for potato?) li pona tawa mi (󱤴󱥅󱥠󱤧󱥔󱥩󱤴), taso that’s not olin. That much we all more or less agreed upon. But restricting olin to “people”—that seemed too limiting, too prone to the kind of semantic fuckery I’m not such a fan of (as opposed to the kind I love, because again, this is an essay on toki pona (󱥬󱦖󱥔). 
+kili pan (<span class="conlang" style="font-size:1em">**󱤚󱥋**</span>) (a sensible enough translation for potato?) li pona tawa mi (<span class="conlang" style="font-size:1em">󱤴󱥅󱥠󱤧󱥔󱥩󱤴</span>), taso that’s not olin. That much we all more or less agreed upon. But restricting olin to “people”—that seemed too limiting, too prone to the kind of semantic fuckery I’m not such a fan of (as opposed to the kind I love, because again, this is an essay on toki pona (<span class="conlang" style="font-size:1em">󱥬󱦖󱥔</span>). 
 
 So it seems I can’t olin potatoes, not by my nasin. The question quickly got posed, then—can one olin a potato? A specific one? How intense does one’s love for a potato have to get for it to be olin? How intense does one’s love for a person have to get for it to be olin?
 
@@ -56,7 +58,7 @@ So, currently, my thoughts on olin are that it has less to do with anything uniq
 
 Can I olin potatoes🥔🥔🥔? Not as a concept, no, not as a food that tastes good or provides nutrition or is fun to cook or represents something about luck or humble resourcefulness or even love. These things are conditional, they’re material, they’re hinged upon my own narrative and benefit. But the potato🫱🥔🫲   {{< spoiler >}}in my hand I wish, I’m writing this section from a small restaurant just off my college campus and I’m not sure? {{< /spoiler >}} that they make anything that has potatoes in it), that exists, that is a full being in its own right? Who’s to say there can’t be olin there?
 
-Language is by necessity vague, but the word “<span style="color:#E8B5B5">l</span><span style="color:#CFE8B5">o</span><span style="color:#B5E8E8">v</span><span style="color:#CFB5E8">e</span>” is almost painfully so, loaded as it is with multiple, sometimes contradictory, implications and contexts. But my experience with toki pona, a language that’s readily arguably much more vague, is entirely different. This is a language where I can say that tomo mi li lete lili and a plain response of “o kepeken len” reads as kind and sweet with no need for additional clarifiers; the fact that we are speaking in toki pona is the clarifier. This is a language where “sina pona tawa mi” is no less loving (in the colloquial English-language sense) than “mi olin e sina.” And so, I feel more freedom to get clear on what exactly I mean by olin, to make space within my usage of the language for personal philosophy and experience, and to communicate these distinctions in a pona manner.
+Language is by necessity vague, but the word "<span style="color:#713838">l</span><span style="color:#547138">o</span><span style="color:#387171">v</span><span style="color:#543871">e</span>" is almost painfully so, loaded as it is with multiple, sometimes contradictory, implications and contexts. But my experience with toki pona, a language that’s readily arguably much more vague, is entirely different. This is a language where I can say that tomo mi li lete lili and a plain response of “o kepeken len” reads as kind and sweet with no need for additional clarifiers; the fact that we are speaking in toki pona is the clarifier. This is a language where “sina pona tawa mi” is no less loving (in the colloquial English-language sense) than “mi olin e sina.” And so, I feel more freedom to get clear on what exactly I mean by olin, to make space within my usage of the language for personal philosophy and experience, and to communicate these distinctions in a pona manner.
 
 I can love writing because of what role it plays in me and my life, but I can only really olin the potato 🥔 (or anyone/thing else, for that matter) because it is, and so am I. 
 

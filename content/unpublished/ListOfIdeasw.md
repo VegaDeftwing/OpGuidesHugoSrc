@@ -36,7 +36,7 @@
   
 - [ ] Work on VST list
 
-- [ ] Webdev chapter somewhere, a bit meta, but go into JS, (S)CSS, can use codepen embeds
+- [x] Webdev chapter somewhere, a bit meta, but go into JS, (S)CSS, can use codepen embeds
 
 - [ ] Implant to HCI2
 
