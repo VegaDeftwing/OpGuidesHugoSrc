@@ -826,7 +826,7 @@ Finally, I want to mention that there's some pretty esoteric PCB manufacturing m
 
 Source: [@AkioOhtori](https://twitter.com/AkioOhtori) on Twitter
 
-{{< attribution >}}
+{{< /attribution >}}
 
 
 

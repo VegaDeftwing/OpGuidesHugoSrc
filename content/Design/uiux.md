@@ -85,4 +85,4 @@ IF YOU PROGRAM A "NO" BUTTON TO SAY "MAYBE LATER" YOU HAVE FAILED AT BOTH INTERF
 > <img src="https://github.com/palewire/nrol-39-logo/raw/master/nrol_39.png" style="border-radius:50%;">
 
 
-{{< columns >}}
+{{< /columns >}}

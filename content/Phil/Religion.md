@@ -228,6 +228,8 @@ As for the particulars there - maybe you are staunchly pro-life, anti-LGBT, etc.
 
 [xkcd #505](https://xkcd.com/505/)
 
+{{< /attribution >}}
+
 ---
 
 [Absurdism | How to Party at the End of Meaning (Exurb1a, YouTube)](https://www.youtube.com/watch?v=Jv79l1b-eoI&list=FLFMnqfaTa1se1LfbCB3peJQ)

@@ -6,8 +6,6 @@ Javascript is hard to talk about. Fundamentally, it's a language for adding inte
 
 Want to make a button that increments a counter?
 
-{{< columns >}}
-
 <button id="countButton">Click me</button>
 
 <script>

@@ -225,7 +225,7 @@ No matter what you care about, know there's a wide range of communities that wou
 The maker and hacker communities tend to focus a lot on popularity and getting your name out there. While obviously it's cool to do so, don't let likes and followers be your motivation. Make cool things to make cool things, and people will come. The number one best thing to see on the internet is someone that is passionate about something sharing those passions. It's better to have a dozen good friends that share those passions, than 25k followers that just go 'oh, neat' anyway.
 
 <img src="/nonfree/permissiongranted/twitter/woni/woniComic.webp" alt="Art by Wonivero" style="border-radius:50px;">
-{{< attribution >}} Art by [@Wonivero](https://linktr.ee/wonivero) {{< attribution >}}
+{{< attribution >}} Art by [@Wonivero](https://linktr.ee/wonivero) {{< /attribution >}}
 
 ## Further reading 
 
