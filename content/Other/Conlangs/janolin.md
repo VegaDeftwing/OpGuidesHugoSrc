@@ -77,5 +77,5 @@ Feelings accompany the metaphysical and metapsychical fact of love, but they do 
 {{< /speech >}}
 
 <ol hidden id="footnotes">
-<li>as of starting to write this, I’ve just crossed over into August 29th</li>
+<li>as of starting to write this, I’ve just crossed over into August 29th, 2022</li>
 </ol>
