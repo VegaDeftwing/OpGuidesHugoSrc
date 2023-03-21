@@ -395,6 +395,7 @@ headless: true
 
 <dl>
 <dt> </dt><dd> <a href="/other/funlinks/">Interesting Links</a></dd>
+<dt> </dt><dd> <a href="/other/advice/">Advice</a></dd>
 <p class="navhead" style="color:#5EBD3E;margin-bottom:0px;" >   Technical</p>
 <dt></dt><dd>
       <details id="hciMenu"> <summary> <a href="/other/hci2/intro/">The Way We Interact With Computers Sucks</a></summary>

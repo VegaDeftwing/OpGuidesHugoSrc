@@ -96,7 +96,11 @@ pointer-events: none;
 
 # Ⅰ - Community
 
-When you think engineer, what traits come to mind? If you're anything like most people, you probably thought "smart" and "antisocial". While I can't speak to how truthful that stereotype may be, I can tell you for sure that in engineering, not knowing how to make friends, ask for help, and talk with others will make you all but useless.
+When you think engineer, what traits come to mind? 
+
+If you're anything like most people, you probably thought "smart" and "antisocial". 
+
+While I can't speak to how truthful that stereotype may be, I can tell you for sure that in engineering, not knowing how to make friends, ask for help, and talk with others will make you all but useless.
 
 The only way to be successful in this journey is to make friends along the way. Some of this gets really, really difficult. You *will* get stuck. Having friends to help makes it possible. Find group chats on telegram, join IRC channels, get on some forums, and ask questions on Reddit. Working with people is a lot more fun, and you'll learn so much more.
 
@@ -146,7 +150,13 @@ While much less active, I've found some of these to have great information as we
 
 (There are many more links in Appendix A3 - 'Other Great Resources'
 
-Oh, and to mention it now
+{{< columns >}}
+
+You don't need to be great at everything to participate, plus you probably know more than you think.
+
+Yes, there is always a relevant XKCD, and yes, you will always feel like everyone knows more than you. Don't stress about asking stupid questions:
+
+<--->
 
 ![Image result for dunning kruger effect xkcd](https://imgs.xkcd.com/comics/impostor_syndrome.png)
 
@@ -156,7 +166,9 @@ Oh, and to mention it now
 
 {{< /attribution >}}
 
-Yes, there is always a relevant XKCD, and yes, you will always feel like everyone knows more than you. Don't stress about asking stupid questions:
+{{< /columns >}}
+
+## Advice for communication
 
 {{< quote "https://bad.pet/q/" >}}
 
@@ -178,7 +190,10 @@ Instead, share:
 - The goal - "Trying to query for a list of tags on a post" - See [The XY Problem](http://xyproblem.info/)
 - The problem - "I'm getting back these results"
 - The expectation - "but it should be these results"
-- Any context or previous research you've done
+- <ol hidden id="footnotes">
+  <li>as of starting to write this, I’ve just crossed over into August 29th, 2022</li>
+  </ol>
+
 - If possible, a simplified example. 3v4l for php, jsfiddle for html/js/css, etc. are great, otherwise a paste site.
 - What you've already tried
 
@@ -206,17 +221,90 @@ On the note of point Ⅲ...
 
 ![Standards](https://imgs.xkcd.com/comics/standards.png)
 
-Though the one I was stressing here was really Ⅳ, you should **always** check the internet before asking in chat. It's not that we're being rude, it's just a matter of courtesy. If you're unsure of the answer, or it's validity in your case, by all means ask, but asking good questions, and only when necessary, will quickly help you make friends in chat much faster. Note, there is one exception: if chat is currently talking about something that you don't know about and it's already relevant to the conversation, it's totally reasonable to interject and ask for a super quick primer on what's going on or a relevant link. This may seem obvious, but a good number of technical chats die because of exactly the aforementioned problems. (or gatekeeping, but that's a whole different matter...) so please don't ask things a search engine can already answer (but don't feel bad asking a question when the all mighty Google can't)
+Though the one I was stressing here was really **Ⅳ**. 
+
+You should **always** check the internet before asking in chat. 
+
+It's not that we're being rude, it's just a matter of courtesy. If you're unsure of the answer, or it's validity, by all means ask! But asking **good** questions, and only when necessary, will quickly help you make friends in chat much faster. 
+
+Note, there is one exception: if chat is currently talking about something that you don't know about and it's already relevant to the conversation, it's totally reasonable to interject and ask for a super quick primer on what's going on or a relevant link. 
+
+This may seem obvious, but a good number of technical chats die because of exactly the aforementioned problems. (or gatekeeping, but that's a whole different matter...) so please don't ask things a search engine can already answer (but don't feel bad asking a question when the all mighty Google can't)
 
 TLDR: RTFM & STFW http://www.catb.org/esr/faqs/smart-questions.html#rtfm
 
-<img src="/xkcd/xkcdtime.webp" alt="XKCD Time" height="400em">
+## Balancing Interests
 
-**Finally,** and I can't stress this enough, I think balancing your creativity among other interests and looking for ties between them can lead to more good than any of the things mentioned above. I enjoy playing music, reading, and writing, so I find inspiration in these media. There are countless electrical hardware and software tools that use hands on programming when playing music. In books, I find ideas for what an author may have thought only futuristic when written. I never know when my mind will strike similar gold when writing for myself. Find a hobby and bend it to this as you go along. Like photography? Learn about the internals of a camera. Like cars? Look up how the ODB2 interface actually works. Nothing is magic and the internet will likely have answers and give you ways to apply this knowledge that you care about.
+I think balancing your creativity among other interests and looking for ties between them can lead to more good than any of the things mentioned above. 
 
-In general, I've found site specific forms and Reddit to be the best platforms for most things, with some others finding their main following in other places though. For example, I'm in a large technical chat group with Furries on Telegram and some open source tools still thrive on IRC. Also, if your reaction to that is "Furries? How can that be relevant?" Well, normally it's not. Most of what we talk about is just normal engineering-y topics, but having something else in common helps. That said, there's more cross over in any community than you might think:
+To drive this point home, here's a little idea generator with some data baked in from various hobbies of mine:
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/VWSfo0KpTMI" title="Protogen mouth sync test" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<button id="concatenateButton">GIMME AN IDEA!</button> 
+
+<h4 id="output" style="border-image: linear-gradient(to bottom, #2b68c4 0%,#cf2d6e 100%)1;"></h4>
+
+<!-- TODO: Make this higher effort with a list of adjectives / verb / nouns to mostly make good sentences -->
+
+<script>
+const button = document.getElementById("concatenateButton");
+const output = document.getElementById("output");
+
+
+// Adj or Nouns work here.
+const adjectives = ["Dynamic methods of", "Using binaural audio for", "Strange ways of", "Parametric", "Analog signals", "Freakin' Lasers", "Background noise", "Using video for",, "Using planar magnetic drivers for", "Reverse", "Intentional intermodulation", "Microtonal methods for", "High quality ways of",  "Matrix based methods of", "Using projection for", "Genetic Engineering for", "Using Software Defined Radio (SDR) for ", "Conway's Game of life for", "Using an esoteric programming language for", "Using Ferroelectric RAM for", "Using the OKLAB color space for", "Using the piezo electric effect for ", "Using full body tracking for",  "Using depth cameras (Kinect, Leap Motion, or even DIY) for ", "Using Unicode for", "Mesh networking for", "Using pressure for"];
+
+const verbs = ["designing", "generating", "modulating", "routing", "mapping", "bending", "monitoring", "removing", "mapping", "repairing", "sensing"];
+
+const nouns = ["audio", "lighting", "magnet implants","RFID Implants" "computers", "tubes", "tracking", "synthesier", "unicode", "equalizer", "3D Audio",  "transducer", "Antenna" , "Lithium-Ion Capacitors", "Lighting", "Pulse Width Modulation (PWM)","Bi-directional (2 color) LEDs","PCB inductor coils", "high voltage", "renewable power generation", "Constructed languages",  "Mechanical keyboards",  "Rhythm games",  "Roguelike games",  "Puzzle games",  "Strange 3D printer filaments",  "3D Printing",  "Pen plotters",  "Generative art",  "Parametric 3D modeling",  "Ternary computers",  "Analog computers",  "Nixie tubes",  "Vacuum tubes",  "Freakin' lasers","Cosplay/Fursuits",  "Cluster computing",  "Hydroponics",  "Data bending",  "Pressure sensitive input devices",  "Radiation monitoring",  "CO2 Monitoring",  "Video game moding", "Application reverse engineering", "Mesh networks",  "Retro gaming",  "Haptic feedback",  "Cryptography",  "Smart home automation",  "Neural networks",  "Solar panels",  "Video synthesis",  "Glass blowing",  "Beer brewing",  "Growing mushrooms",  "CNC",  "VR Chat", "Fractals", "Biological computing", "Fursuits", "Skateboarding", "Cameras", "Audio effects" ];
+
+// Function to generate a random element from an array
+function getRandomElement(array) {
+  const randomIndex = Math.floor(Math.random() * array.length);
+  return array[randomIndex];
+}
+
+// Generate a random idea
+function generateIdea() {
+  const adjective = getRandomElement(adjectives);
+  const verb = getRandomElement(verbs);
+  const noun = getRandomElement(nouns);
+  return `${adjective} ${verb} ${noun}`;
+}
+
+// Example usage: generate a new idea
+console.log(generateIdea());
+
+button.addEventListener("click", () => {
+  // const randomIndex1 = Math.floor(Math.random() * strings.length);
+  // const randomIndex2 = Math.floor(Math.random() * strings.length);
+  // const randomString1 = strings[randomIndex1];
+  // const randomString2 = strings[randomIndex2];
+  //const concatenatedString = randomString1 + " " + randomString2;
+  output.textContent = generateIdea();
+});
+</script>
+
+I enjoy playing music, reading, and writing, so I find inspiration in these media. There are countless electrical hardware and software tools that use hands on programming when playing music. In books, I find ideas for what an author may have thought only futuristic when written. I never know when my mind will strike similar gold when writing for myself. 
+
+Find a hobby and bend it to this as you go along. 
+
+Like photography? Learn about the internals of a camera.
+
+Like cars? Look up how the ODB2 interface actually works. 
+
+Nothing is magic and the internet will likely have answers and give you ways to apply this knowledge that you care about.
+
+In general, I've found site specific forms and Reddit to be the best platforms for most things, with some others finding their main following in other places though. For example, I'm in a large technical chat group with Furries on Telegram and some open source tools still thrive on IRC. 
+
+{{< columns >}}
+
+Also, if your reaction to that is "Furries? How can that be relevant?" Well, normally it's not. Most of what we talk about is just normal engineering-y topics, but having something else in common helps. That said, there's more cross over in any community than you might think:
+
+<--->
+
+<iframe width="100%" height="250" src="https://www.youtube.com/embed/VWSfo0KpTMI" title="Protogen mouth sync test" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /columns >}}
 
 No matter what you care about, know there's a wide range of communities that would be thrilled to have you, and you can always combine what you learn here with any of the other interests you have to make the things you're passionate about better!
 

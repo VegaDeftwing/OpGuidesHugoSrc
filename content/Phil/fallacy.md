@@ -439,7 +439,15 @@ Basically, people might use protecting children an an excuse to ban all porn or 
 
 ![](/phil/sdbag.webp)
 
-# Fractal Wrongness
+## Cunningham's Law
+
+{{< quote "[Cunningham's Law](https://meta.wikimedia.org/wiki/Cunningham's_Law) on Wikipedia" >}}
+
+**Cunningham's Law** states, "the best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer." ([source](https://meta.wikimedia.org/wiki/Cunningham's_Law))
+
+{{< /quote >}}
+
+## Fractal Wrongness
 
 {{< quote "[Rational Wiki](https://rationalwiki.org/wiki/Fractal_wrongness)" >}}
 

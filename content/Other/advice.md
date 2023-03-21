@@ -2,8 +2,6 @@
 
 <link rel="stylesheet" href="/css_overrides/light.css">
 
-<!-- TODO: This page needs images to break up the walls of text -->
-
 Over the last few weeks I've joined a few new communities online, made a few new friends in meat space, and had a repeated conversation with my SO all about the same thing: "How can I be more like you?" {{< smalltext >}}(or, in one case "How can I be you" ... yikes.) {{< /smalltext >}}
 
 This is a really weird question to get. It is simultaneously asking for life advice, placing me on a pedestal as some sort of ideal, and sort of diminishes both my personal quirks and personality and the beauty in everyone's uniqueness.
@@ -88,11 +86,8 @@ There's already a learn-how-to-learn page on OpGuides, but to add to it:
 
 * **Constantly fail**. There's this Edison quote "I have not failed 10,000 times—I've successfully found 10,000 ways that will not work.” and I think it's really close to being profound, but misses the mark. I'd put it as "“I have failed 10,000 times, but I've found 100,000 hints to the correct solution". They **are** failures, it's just that failing is awesome and while the entire system doesn't work, each time you probably made it so more of it does or gotten it to work more reliably. 
 
-* Have the **"If that fucker can do it, then I can do it too!"** attitude. This will come into the confidence point in a bit, but being able to see someone do a thing, think it's impressive, and say "huh, fuck it, let's try it!" and having the mental fortitude to get over the being-a-total-noob bump will go a long ways. What I'm tying to say here is that it requires more than just confidence, but intentional overconfidence. Trick your brain into being able to look at somebody doing something at a pro level with years of training and go "Yeah, I can learn that in a weekend." and into not being disappointed when you fail but going "Hell yeah, I'm already getting there!" when you do even the first step.
-  * If you struggle with this, just take the advice of [Baz Luhrmann - Everybody's Free To Wear Sunscreen](https://www.youtube.com/watch?v=LZmi7InKU0I)* and "Do one thing every day that scares you" </br>{{< smalltext >}}*Yes, this is a remix, I like it more ╮(─▽─)╭{{< /smalltext >}}
-
 * **Know what you don't want to know.** Part of learning many skills is to try a lot of things and for some say "Yeah, this isn't for me". Yes, every thing you may want to learn will have a skill bump where the first little bit is extra difficult, but being able to say "Wow, yeah, I thought I'd be into this but I'm absolutely not" and bail is important too.
-
+  
 * **Have enough interests to rotate.** Life is weird. At only roughly 80 trips around the sun, you'd think any interest should have enough to not get bored, but the simple fact is if you do something every day you'll start to question if you even care about it anymore. "Should I just sell my all my guitars?", "Do I even want to write code?", etc. These thoughts will go through even the most confident person's mind. While they can be healthy to consider occasionally (see the above point) they can also be tickets to the depression express. Having multiple interests to rotate between does two things:
   * First, it gives you the opportunity to put something down when you're not feeling it.
   * Second, it lets you get cross-interest ideas. I like to program synthesizer software, write about my other interests, etc. Doing something for one interest will often provide interest for another in a positive feedback loop.
@@ -118,4 +113,36 @@ It gives purpose to the consumption and the rewards of creation - the victories 
 
 ## Confidence
 
-Trust your body, skateboard anecdote
+I'm very confident as a person, but I also know that saying "HEY KID HAVE YOU TRIED JUST BEING CONFIDENT?" is about as useful as a therapist asking "Have you tried just being less depressed?"
+
+Still, I want to share how *I* stay confident.
+
+### Being amazed by own body
+
+I'm not really in great shape, I had to get Lasik to have even remotely useful vision without glasses, and like, humans are kinda derpy looking, right? Like, we're just this big ol' fur-less sack of bones. It's mildly gross.
+
+But dude. Our bodies are fucking awesome!
+
+I can absolutely fly on a longboard, keeping balance, and stop on a dime trusting myself to slam a foot down and pull the board out from underneath myself.
+
+What our brains are capable of is fucking nuts. Just think about all of the amazing power to create that sits a few inches behind your eyes.
+
+When we **trust** our bodies - the complete and total trust that's required to maintain balance on a bike or skateboard, or reliably hit notes on an instrument at high speeds - they're capable of incredible feats.
+
+You may think "But I'm [suboptimal in some way]" but even if that's the case, your body is still doing some crazy shit - from your immune system to your eyes or ears. Even if one of them doesn't work quite right for you, the ones that do, man, they're awesome, right?
+
+### If that fucker can do it, then I can do it too!
+
+Having an **"If [he/she/they], then I can do it too!"** attitude goes a long way. 
+
+Being able to see someone do a thing, think it's impressive, and say "huh, fuck it, let's try it!" and having the mental fortitude to get over the being-a-total-noob bump will go a long ways. 
+
+To some extent, I'm advocating for intentional overconfidence. Trick your brain into being able to look at somebody doing something at a pro level with years of training and go "Yeah, I can learn that in a weekend." and into not being disappointed when you fail but going "Hell yeah, I'm already getting there!" when you do even the first step.
+
+{{< tip >}}
+
+This has absolutely lead me to do some very dangerous things. I'm glad I did them, but, yunno' - don't be too stupid.
+
+{{< /tip >}}
+
+If you struggle with this, just take the advice of [Baz Luhrmann - Everybody's Free To Wear Sunscreen](https://www.youtube.com/watch?v=LZmi7InKU0I)* and "Do one thing every day that scares you" </br>{{< smalltext >}}*Yes, this is a remix, I like it more ╮(─▽─)╭{{< /smalltext >}}
