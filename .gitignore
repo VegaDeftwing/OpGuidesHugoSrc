@@ -1,3 +1,4 @@
 .gramma.json
 .idea/
 **/__pycache__
+.DS_Store
