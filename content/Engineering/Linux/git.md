@@ -1,8 +1,92 @@
 # Chapter 5½ - Git.
 
-... Despite the chapter name, `git` isn't just a Linux thing - it's actually more of a programming thing, but you'll still probably want to use it for storing your configuration files for Linux, and it's worth learning *before* you really get into programming, which is why it's here. So, uh, what's `git`? 
+{{< quote "[Wikipedia](https://en.wikipedia.org/wiki/Git)" >}}
 
-The ELI5 of it is that it's a **Version Control System**, which really just means it can give you the equivalent of save states on your files, like in a video game- and just like a video game, you can save (or go back to a previous save) and have two different **branches** where you make a different decision in each. The only big point where this analogy breaks down is that you can **merge** two branches, resolving conflicts between them and that two different people can work on two different branches for them to be merged together. Rather than reinvent the wheel trying to teach you the basics, you should go read
+Git is a distributed **version control system**  that tracks changes in any set of computer files, usually used for coordinating work among programmers collaboratively developing source code during software development.
+
+{{< /quote >}}
+
+{{< speech right triode >}}
+So it's a way of versioning my files? Why not just click `save-as` and give it a new name?
+{{< /speech >}}
+
+{{< speech >}}
+You could. It's just that git can do a lot more!
+{{< /speech >}}
+
+Namely, it's really good at:
+1. Letting multiple people work together where real-time (Google Docs style) colaboration doesn't work well.
+2. Allowing for changes to be reverted later
+3. Allowing for branches
+
+If it helps, think of it like saving in a video game. You can save - or go back to a previous save -and have two different **branches** where you make a different decision in each. The only big point where this analogy breaks down is that you can **merge** two branches, resolving conflicts between them and that two different people can work on two different branches for them to be merged together. 
+
+{{< hint info >}}
+
+Technically, Git isn't the only version control system out there. There's also Subversion, Mercurial, CVS, & Fossil to name a few. It's just that git has a supermajority of the market share because it's really damn good.
+
+{{< /hint >}}
+
+## 1. Letting multiple people work together
+
+Say you have a file with the single sentence `Bob has a dog` in it. You want to change Bob's name to `Dave` and your friend wants to change the dog to a `cat`
+
+So, you both make the changes to your versions of the file, each on your own computers.
+You have `Dave has a dog`, your friend has `Bob has a cat`.
+
+Now, you both go submit your changes. Naturally, one of you has to go first. Let's assume you make it first, the file now says `Dave has a dog`. Then, your friend goes to do their changes. Keep in mind, their version they were based on doesn't have the name changed to Dave yet. Now, git is smart enough to realize that you *only* changed Dave's name and your friend *only* changed the dog to a cat, so, it merges the two for you and you get `Dave has a cat`
+
+Sometimes, the changes can't be resolved so easily and you will have what's called a **merge conflict**. These are fine, but does require some human intervention. In the above, if both of you had changed the persons name, the latter person would have to select which name to keep. Usually, each change is reviewed by multiple people working on the project, and if there's a conflict the preson the conflict is with would help get it resolved - in this case, picking which name to actually use.
+
+## 2. Allowing changes to be reverted later
+
+Say you're working alone on the project and are working with two files
+
+```
+FILE A: The Rockwell Engineering Retroencabultor is neat.
+FILE B: Usuage Guide: Don't.
+```
+
+and you make some changes
+
+```
+FILE A: The Aperture Science Retroencabultor is neat.
+FILE B: Usuage Guide: Lick it.
+```
+
+and some more,
+
+```
+FILE A: The Aperture Science Retroencabultor is dangerous.
+FILE B: Instructions: Lick it.
+```
+
+But you realize you realize the middle edit was in error. Git will let you revert one or both files, plucking just the changes you made in that single "commit" (basically a project snapshot). If we wanted to revert the changes just to File B in the second change, we could:
+
+```
+FILE A: The Aperture Science Retroencabultor is dangerous.
+FILE B: Instructions: Don't.
+```
+
+Again, sometimes this will fail. If you've made changes where reverting like this is nonsensical or there's just to many changes for it to understand what has actually changed, it won't work. But, generally, it'll do a decent job. 
+
+Even if it doesn't work, it'll let you pluck it out manually and ask you to fix all the changes after it to make sense based on removing that change - a bit tedious, but better than any alternative in complex situations.
+
+### 3. Allowing for branches
+
+Motivating this outside of Git's intended purpose (code) is a bit awkward, but branches generally serve two uses:
+1. Letting multiple people make a series of changes without constantly breaking eachother's work
+2. Keeping a large project organized
+
+<span>1.</span> should sort of make sense intuitively. If multiple people on a team are working on a series of complex changes, a change to one thing while someone works might temporarily break something else. It's easier if you can take a snapshot, work off of that **branch**, and then submit those changes when they're ready, not constantly keeping up with everyone else's changes. 
+
+Sure, sometimes someone else's changes will conflict with yours, but espically if you're mostly adding entirely new files, it usually just works - no conflicts.
+
+<span>2.</span> is roughly the same idea. Say you're working on a program and you want to add a feature to do X. All of the changes to make X work should be self contained. When the feature is fully ready, then you merge the branch in as one big "add this feature" to the project merge. This is done because otherwise half-finished ideals will have code just hanging around.
+
+---
+
+With that context, I really reccomend you go watch & read:
 
 <style>
     .cool{
@@ -16,19 +100,25 @@ The ELI5 of it is that it's a **Version Control System**, which really just mean
 
 ![](/common/arrowthis.svg)
 
-{{< tip >}}
+---
 
-The above link does a better job of covering the vast majority of what I'd say than I could hope to put here. Just check it out. But do come back here!
+Done with that page? Cool, welcome back.
 
-{{< /tip >}}
+There are a few extra things I want to mention:
 
-Oh, hai! Welcome back.
+A lot of people conflate Git and Github
 
-So, a lot of people conflate Git and Github, the largest git cloud service on the internet. This isn't totally without reason: Github is actually super nice to use, and is often the only way a lot of people use git. For better or worse, you'll probably want to know how to use it and use it well.
+**GIT** is the protocol. **GITHUB** is a provider of git services. You can use git using Github's platform, but you could also use Gitlab, Gitea, or about 10000 other hosting provides - or host your own git server.
 
-One of the first things you ~~should~~ have to do when using Github is set up authentication, that is a method for logging in from the command line so that you can push your changes in your code to Github's servers. For security reasons, you can't just use a password (This is a good thing) and instead need to set up key based authentication.
+Still, you may want to use Github. It's nice to use and is often the only way a lot of people use git. It does add a fair amount of extra features on top of git too. So, for better or worse, you'll probably want to know how to use it and those extra features too.
 
-I'm going to save the nitty-gritty about how public-private key based authentication works for the <a href="/engineering/networking/security/">Security & Exploitation</a> chapter, but for now what you need to know is having a key pair will let you securely access git and ssh services on various servers, so we need to get keys setup.
+# Setting up a GitHub account
+
+If you haven't already, go though the usual steps to make an account on https://github.com.
+
+One of the first things you ~~should~~ have to do when using Github is set up a secure method to send your changes to GitHub's servers. For security reasons, you can't just use a password (This is a good thing) and instead need to set up **key based authentication**.
+
+I'm going to save the nitty-gritty about how public-private key based authentication works for the {{< button relref="/Engineering/Networking/security" >}}Security{{< /button >}} chapter, but for now what you need to know is having a key pair will let you securely access git (and ssh, when we get to that) services on various servers, so we need to get keys setup.
 
 {{< tabs >}}
 
@@ -136,7 +226,11 @@ Now we can set up your user in a `.gitconfig` file, fortunately, you can do this
 
 {{< /tabs >}}
 
-That's half the battle, you have successfully set up keys for your account, but GitHub has a second layer of authentication that's worth setting up too, which adds a sort of virtual signature to each change you push to GitHub as a confirmation to people that what they see was really written by you.
+You have successfully set up keys for your account!
+
+## Even more security...
+
+GitHub has a second layer of authentication that's worth setting up too, which adds a sort of virtual signature to each change you push to GitHub as a confirmation to people that what they see was really written by you.
 
 {{< details "But I already had repos on GitHub, how do I make them use these keys?">}}
 
@@ -183,30 +277,32 @@ Note though, you probably don't want to clone *everything* as git, especially if
 2. Click "<svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" >
     <path fill="#FFFFFF" fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
     </svg> Fork " in the top right
-    
+
 3. Clone your copy of the repo, `git clone git@github.com:YouUserName/OpGuidesHugoSrc.git`
 
 4. Go to this file (content→Engineering→Linux→git.md)
 
 5. Add your name to the list below using a text editor.
 
-6. Run `git add .`, followed by `git commit -m "added [yourname] to Cool People"`
+6. Run `git add .` to stage your changes. (The `.` character means all files)
 
-6. Run `git push` to push your changes to *your* copy of the repo on GitHub
+7.  Then `git commit -m "added [yourname] to Cool People"` To put put those staged files into a commit.
 
-7. Go back to the [OpGuide's GitHub Repo](https://github.com/VegaDeftwing/OpGuidesHugoSrc)
+8. Run `git push` to push your changes to *your* copy of the repo on GitHub
 
-8. You'll see a banner at the top of the page that looks something like this:
+9. Go back to the [OpGuide's GitHub Repo](https://github.com/VegaDeftwing/OpGuidesHugoSrc)
+
+10. You'll see a banner at the top of the page that looks something like this:
 
     [TODO]
 
     Click [TODO]
 
-9. You'll be prompted with the checklist that's in the [pull_request_template.md](https://github.com/VegaDeftwing/OpGuidesHugoSrc/blob/main/pull_request_template.md) file. Since you're just adding your name, please check the first box "Everything I'm contributing..." and the first box on the Public Domain option.
+11. You'll be prompted with the checklist that's in the [pull_request_template.md](https://github.com/VegaDeftwing/OpGuidesHugoSrc/blob/main/pull_request_template.md) file. Since you're just adding your name, please check the first box "Everything I'm contributing..." and the first box on the Public Domain option.
 
-10. Click [TODO]. Now the Pull Request has been summited but should be marked as "Open". This means that I now need to either approve it or not. If it gets approved you'll see "Merged" otherwise you'll see "Closed". This may take a few days. Once I've merged the change, it may not go live right away, as I still have to push it to the live version of the website.
+12. Click [TODO]. Now the Pull Request has been summited but should be marked as "Open". This means that I now need to either approve it or not. If it gets approved you'll see "Merged" otherwise you'll see "Closed". This may take a few days. Once I've merged the change, it may not go live right away, as I still have to push it to the live version of the website.
 
-11. Optionally, once the PR is done, you may want to delete your copy of the repo from your repositories.
+13. Optionally, once the PR is done, you may want to delete your copy of the repo from your repositories.
 
 <div class="cool">
 
@@ -216,39 +312,63 @@ Note though, you probably don't want to clone *everything* as git, especially if
 
 </div>
 
-[Bit, an alternative git CLI (Github)](https://github.com/chriswalz/bit)
 
-[learngitbranching.js.org](https://learngitbranching.js.org) (more than just branching)
+
+## Actually learning to use Git correctly:
+
+{{< best >}} [learngitbranching.js.org](https://learngitbranching.js.org) {{< /best >}}
+
+![](/common/arrowthis.svg)
+
+## Git User Interfaces
+
+### Graphical
+
+There are graphical user interfaces that can be used to make working with git dramatically easier. If you're using GitHub, [Github Desktop](https://desktop.github.com) is a decent option.
+
+You may want to dig through these if that doesn't work well for you:
+
+* https://extrawurst.itch.io/gitui
+* https://aurees.com
+* https://gitfiend.com
+* http://cong.tools (Windows only)
+* https://github.com/FredrikNoren/ungit
+* https://gitextensions.github.io (Windows only)
+* https://tortoisegit.org/download/ (Windows only)
+
+## Command Line Interface
+
+Some tools also exist to make the command line interface to git better.
+
+Again, GitHub has their own tool, https://cli.github.com
+
+But you may also want to check out [Bit, an alternative git CLI (Github)](https://github.com/chriswalz/bit)
+
+The basic `git` command really isn't bad though. [This Cheatsheet](http://www.ndpsoftware.com/git-cheatsheet.html#loc=index;) may help you if you want to learn it better.
+
+## A Note on GitHub and competition
+
+Many people will use a fleshed out, consistent timeline of git-commits as a high point in their resume. While having this is good, it's also really easy to abuse and shouldn't be used as some golden metric. See [Stop using number of git commits as any metric (u/Sajjon on Reddit)](https://www.reddit.com/r/CryptoCurrency/comments/cub9c2/stop_using_number_of_git_commits_as_any_metric/)
+
+Still, I do understand taking pride in your work and have this [auto-generating trophy thing](https://github.com/ryo-ma/github-profile-trophy) on my profile:
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=vegadeftwing)](https://github.com/ryo-ma/github-profile-trophy)
+
+So, while it's okay to brag a bit, don't think that someone not doing so - or using Git in a way that looks less flashy or consistent - means they're a bad programmer. Some people have workflows that result in them intentionally pushing as few commits as possible. It's quality, not sheer quantity, that matters.
+
+<img src="/eng/gitcontrib.png" alt="Vegas git contrib graph" style="zoom:50%;" />
+
+Plus, you can totally cheat the graph. It's really a ＢＡＤ ＭＥＴＲＩＣ.
+
+<img src="/eng/badmetric.png" alt="badmetric" style="zoom:50%;" />
+
+{{< attribution >}}https://github.com/gelstudios/gitfiti {{< /attribution >}}
+
+## TODO:
 
 [μGit- DIY Git in python](https://www.leshenko.net/p/ugit/)
 
 [SSH keys article on the (Arch Wiki)](https://wiki.archlinux.org/index.php/SSH_keys)
-
-`ssh-keygen` 
-
-you may need to change the existing repo to use a git based origin rather than a HTTPS one:
-
-[TODO] show graphical git tools
-
-https://desktop.github.com
-
-https://extrawurst.itch.io/gitui
-
-https://aurees.com
-
-https://gitfiend.com
-
-http://cong.tools (Windows only)
-
-https://gitahead.github.io/gitahead.com/
-
-https://github.com/FredrikNoren/ungit
-
-https://gitextensions.github.io (Windows only)
-
-https://tortoisegit.org/download/ (Windows only)
-
-[TODO] comparison of Bit, Git, GithubCLI
 
 [TODO] .gitignores
 
@@ -270,41 +390,7 @@ https://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/
 
 [What will happen when you commit secrets to a public Git repo? ](https://tinysubversions.com/spooler/?url=https://twitter.com/andrzejdyjak/status/1324360914812940293)
 
-http://www.ndpsoftware.com/git-cheatsheet.html#loc=index;
-
 https://onlywei.github.io/explain-git-with-d3/
-
-## Notes on GitHub and competition
-
-[Stop using number of git commits as any metric (u/Sajjon on Reddit)](https://www.reddit.com/r/CryptoCurrency/comments/cub9c2/stop_using_number_of_git_commits_as_any_metric/)
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=vegadeftwing)](https://github.com/ryo-ma/github-profile-trophy)
-
-> generated using https://github.com/ryo-ma/github-profile-trophy, the above are the stats on my GitHub profile
-
-<img src="/eng/gitcontrib.png" alt="Vegas git contrib graph" style="zoom:50%;" />
-
-<img src="/eng/badmetric.png" alt="badmetric" style="zoom:50%;" />
-
-> ahh, much better. Made using https://github.com/gelstudios/gitfiti, inspired by someone else that wrote the same thing, but I can't find the original.
-
-## Other Version Control Systems
-
-{{< tip >}}
-
-Git is by far the most used VCS out there. If you want to use something else I encourage you to try it and learn it, but realize if the point is to work with others it might be a pain
-
-{{< /tip >}}
-
-[TODO]
-
-Subversion
-
-Mercurial
-
-CVS
-
-Fossil
 
 ## Weird Git
 
