@@ -32,11 +32,11 @@ In an I-Thou relationship, two individuals meet. It’s subject-to-subject—no 
 
 The tree is no impression, no play of my imagination, no value depending on my mood; but it is bodied over against me and has to do with me, as I with it—only in a different way.
 
-{{< /quote >}}
-
 Let no attempt be made to sap the strength from the meaning of the relation: relation is mutual.
 
 The tree will have a consciousness, then, similar to our own? Of that I have no experience. But do you wish, through seeming to succeed in it with yourself, once again to disintegrate what which cannot be disintegrated? I encounter no soul or dryad of the tree, but the tree itself.
+
+{{< /quote >}}
 
 {{< quote "Martin Buber" >}}
 
@@ -56,7 +56,7 @@ It’s this that makes me hesitant to say that olin is a matter of personhood, o
 
 So, currently, my thoughts on olin are that it has less to do with anything unique to personhood and more to do with the proximity to or potential for an I-Thou relationship. Actual I-Thou experiences tend to be rare, as Buber describes them, owing to the fact that actively pursuing one with something or someone tends to it-ify that entity, so I wouldn’t say that for me, olin is only I-Thou connection. But my understanding of olin is definitely colored by this framework. 
 
-Can I olin potatoes🥔🥔🥔? Not as a concept, no, not as a food that tastes good or provides nutrition or is fun to cook or represents something about luck or humble resourcefulness or even love. These things are conditional, they’re material, they’re hinged upon my own narrative and benefit. But the potato🫱🥔🫲   {{< spoiler >}}in my hand I wish, I’m writing this section from a small restaurant just off my college campus and I’m not sure? {{< /spoiler >}} that they make anything that has potatoes in it), that exists, that is a full being in its own right? Who’s to say there can’t be olin there?
+Can I olin potatoes 🥔🥔🥔? Not as a concept, no, not as a food that tastes good or provides nutrition or is fun to cook or represents something about luck or humble resourcefulness or even love. These things are conditional, they’re material, they’re hinged upon my own narrative and benefit. But the potato 🫱🥔🫲 {{< spoiler >}}in my hand I wish, I’m writing this section from a small restaurant just off my college campus and I’m not sure? {{< /spoiler >}} that they make anything that has potatoes in it), that exists, that is a full being in its own right? Who’s to say there can’t be olin there?
 
 Language is by necessity vague, but the word "<span style="color:#713838">l</span><span style="color:#547138">o</span><span style="color:#387171">v</span><span style="color:#543871">e</span>" is almost painfully so, loaded as it is with multiple, sometimes contradictory, implications and contexts. But my experience with toki pona, a language that’s readily arguably much more vague, is entirely different. This is a language where I can say that tomo mi li lete lili and a plain response of “o kepeken len” reads as kind and sweet with no need for additional clarifiers; the fact that we are speaking in toki pona is the clarifier. This is a language where “sina pona tawa mi” is no less loving (in the colloquial English-language sense) than “mi olin e sina.” And so, I feel more freedom to get clear on what exactly I mean by olin, to make space within my usage of the language for personal philosophy and experience, and to communicate these distinctions in a pona manner.
 
