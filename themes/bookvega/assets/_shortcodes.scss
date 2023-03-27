@@ -457,6 +457,33 @@ div.speech.throw::before {
   width: 75px;
 }
 
+div.speech.ai {
+  width: 100% !important;
+  background: linear-gradient(90deg, rgba(28, 36, 42, 0.9) 0%, rgba(30, 28, 23, 0.9) 100%), url(/common/texturebg2.webp) center center repeat;
+}
+
+div.speech.ai::before {
+  background-image: url("/common/aichan2.webp");
+  background-size: 75px;
+  border-radius: 100%;
+  content: "";
+  left: -40px;
+  top: 4px;
+  position: absolute;
+  height: 75px;
+  width: 75px;
+}
+
+div.speech.ai::after {
+  content: "AI GENERATED";
+  font-family: Dosis, Source Sans Pro, Helvetica Neue, Arial, sans-serif;
+  color: #515151;
+  left: 25px;
+  top: -12px;
+  position: absolute;
+  width: 15em;
+}
+
 div.speech.halo::before {
   background-color: #181818;
   background-image: url("/nonfree/character/shade/halo.webp");
