@@ -1,4 +1,11 @@
-# Does it still count as a tool?
+---
+title: "Does it still count as a tool?"
+slug: "ai2"
+author: "Vega Deftwing"
+date: 2023-03-26
+tags:
+- technical
+---
 
 I previously wrote  {{< button relref="/posts/aiartpanic" color="gradient-border2">}} AI Art Panic {{< /button >}} about how this image generation stuff isn't going to displace artists much if at all, but, uh, it didn't age well.
 
@@ -220,7 +227,7 @@ Instead of outright barring or filtering specific topics, AI tools can implement
 
 I'm immensely grateful that I'm not the one working on these systems.
 
-Of course, there are other points of customization. There's the obvious like language and speech patterns - something https://beta.character.ai is already showing off quite well - to the interface itself. 
+Of course, there are other points of customization. There's the obvious, like language and speech patterns - something https://beta.character.ai is already showing off quite well - to the interface itself. 
 
 For example, I'm not a huge fan of the linear chat style interface. I'd love to have a sort of branch tree of a conversation where I can get multiple responses and follow where they lead, generating new leaves in the conversation's history, sort of like [Chartodon](https://mathstodon.xyz/@Chartodon/with_replies) - see [this example](/fairuse/other/chat.svg) (note, you'll probably need to zoom out)
 
@@ -276,4 +283,3 @@ The human spirit still prevails, a beacon burning bright.</br>
 <ol hidden id="footnotes">
 <li>Not that it's not a concern at all. Obviously something like a self driving car has the ability to kill someone if it goes wrong. That's just not what I want to talk about here.</li>
 </ol>
-
