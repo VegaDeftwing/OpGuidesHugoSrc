@@ -6,6 +6,8 @@
 
 ['C Programming' on badd10de.dev](https://badd10de.dev/notes/c-programming.html)
 
+<!-- https://www.youtube.com/playlist?list=PL3GWPKM6L17H0RyU2o7p9gCnepjSTaHia looks decent -->
+
 ## Why C?
 
 This chapter of OpGuides will be mostly C, but, why? Well, there's only really a few options for learning low level programming that make sense to start with. C, C++, Rust are the 'big three' that come to mind. C is what is most popular<a class="ptr">(1)</a>. Its spec is small, it's been kept minimal, and it's got a ton of tools to help you learn. It forces you to know the low level, which in this case is great. C++ has grown into a behemoth where anything can be done in about a dozen different ways and each development team is effectively writing in their own dialect of C++. Rust, while better than C for a million reasons, (see the footnote) also sort of assumes you have experience in language like C before using it, so... the answer to why C is because we sorta have to.

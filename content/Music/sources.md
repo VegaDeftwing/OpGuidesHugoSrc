@@ -88,6 +88,8 @@ One thing I do want to stress is that this workflow of right clicking the module
 
 [TODO] Multisamples
 
+https://github.com/verdog/renoise-hardware-sampler & SampleRobot
+
 ### Field Recordings, Tape Loops, and other sampling goodness
 
 While you may not be able to do anything with the knowledge at the moment, I do want to note a few other things related to samples.

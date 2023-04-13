@@ -4,13 +4,13 @@ title = "Opinionated Guides"
 theme = "bookvega"
 
 [params]
-
 BookMenuBundle = '/menu'
 BookRepo = 'https://github.com/VegaDeftwing/OpGuidesHugoSrc'
 BookEditPath = 'tree/main/content'
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 BookLogo = '/nonfree/logo/opguide2.png'
+BookSearch = false
 
 [markup.goldmark.renderer]
   unsafe = true
