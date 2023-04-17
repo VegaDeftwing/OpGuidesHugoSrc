@@ -17,11 +17,11 @@ This page is almost completely devoid of actual educational content. Instead, I'
 
 {{< tip >}}
 
-Most will notice this page lacks AI generative art tools such as DALL·E 2, Midjourney, & Stable Diffusion. This isn't because they're not interesting, it's because the space is [rapidly evolving](https://the-decoder.com/nvidias-ediffi-is-an-impressive-alternative-to-dall-e-or-stable-diffusion/) and I don't want to maintain constantly changing lists!</br></br>See [Stable Diffusion is a really big deal](https://simonwillison.net/2022/Aug/29/stable-diffusion/) by [@simonw](https://twitter.com/simonw) for how crazy things can get.
+You may notice this page lacks AI generative art tools such as DALL·E 2, Midjourney, & Stable Diffusion. This isn't because they're not interesting, it's because the space is [rapidly evolving](https://the-decoder.com/nvidias-ediffi-is-an-impressive-alternative-to-dall-e-or-stable-diffusion/) and I don't want to maintain constantly changing lists!</br></br>If you're totally new to AI Art, see [Stable Diffusion is a really big deal](https://simonwillison.net/2022/Aug/29/stable-diffusion/) by [@simonw](https://twitter.com/simonw), but even that is relatively old now and new features are coming rapidly, like the ability to pose characters in the scene.
 
 {{< /tip >}}
 
-<!-- https://github.com/invoke-ai/InvokeAI, https://github.com/AUTOMATIC1111/stable-diffusion-webui, https://github.com/carefree0910/carefree-creator -->
+<!-- https://github.com/invoke-ai/InvokeAI, https://github.com/AUTOMATIC1111/stable-diffusion-webui, https://github.com/carefree0910/carefree-creator, https://github.com/sail-sg/EditAnything -->
 
 If you're interested in generative music and sounds as well, you may want to check out The OpGuides page on {{< button relref="Music/software/livecoding" color="music" >}}Live coding Music Software{{< /button >}}.
 
@@ -306,6 +306,8 @@ Some more cool examples, but lacking code:
 [Pentagonal Glyphs (Reddit)](https://www.reddit.com/r/generative/comments/d5284l/pentagonal_glyphs/)
 [Generative Glyphs (Reddit)](https://www.reddit.com/r/generative/comments/d5zeca/generative_glyphs/)
 
+If you just want cursive hand writing: https://github.com/GirkovArpa/calligrapher-ai should do the trick.
+
 {{< /details >}}
 
 {{< details title="Generative Textures and Geometry" open=false >}}
@@ -445,6 +447,34 @@ Convert your ascii diagram scribbles into happy little SVG
 <--->
 
 ![](/design/svgbob.webp)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Pattern Collider](https://aatishb.com/patterncollider/?)
+
+<--->
+
+Test different penrose tilings. If you edit the HTML you increase the slider limits.
+
+<--->
+
+![](/design/theball.svg)
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[FastNoise2](https://github.com/Auburn/FastNoise2)
+
+<--->
+
+Modular node based noise generation library
+
+<--->
+
+![NoiseTool](https://user-images.githubusercontent.com/1349548/90967950-4e8da600-e4de-11ea-902a-94e72cb86481.png)
 
 {{< /columns2 >}}
 
@@ -1313,6 +1343,10 @@ There's a LOT more tools listed in the music chapters, but there's some more 'fo
 
 [Making Perlin Planets (vinaybhaip.com)](https://vinaybhaip.com/blog/2021/01/26/perlin-planets)
 
+## Creative Coding libraries
+
+* https://github.com/inconvergent/auxin
+
 ## Some inspiration
 
 [Python + Quantum Research = Art + Saving 1000s hours of CPU time (Reddit)](https://www.reddit.com/r/dataisbeautiful/comments/eaap3p/python_quantum_research_art_saving_1000s_hours_of/)
@@ -1349,4 +1383,4 @@ From Generated.space, I particularly like [Marching Squares 2](https://generated
 
 [META: Hacker News Submission on this page, with a bit of discussion](https://news.ycombinator.com/item?id=24889333)
 
-<!--- TODO: https://graphite.rs, https://ossia.io, https://makham.itch.io/pixel-composer, https://aatishb.com/patterncollider/ + editing HTML "hack", https://github.com/inconvergent/weird, https://meodai.github.io/poline/, https://github.com/Auburn/FastNoise2, https://github.com/GirkovArpa/calligrapher-ai --->
+<!--- TODO: https://graphite.rs, https://ossia.io, https://makham.itch.io/pixel-composer, https://github.com/facebookresearch/AnimatedDrawings, https://github.com/OIRNOIR/WackyWebM --->

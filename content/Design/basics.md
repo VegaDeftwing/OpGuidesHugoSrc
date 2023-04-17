@@ -62,9 +62,7 @@ https://twitter.com/miyuliart/status/1337423295814176768 (NSFWish I guess?)
 
 ## Rule of Thirds
 
-## Some good advice,
-
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/5Tx6U5OhMDg?list=PL6haVw-BFETw13kBFhbWl6UCshzgIC7Ea" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Art guides I like:
 
 {{< columns >}}
 
@@ -108,3 +106,9 @@ Things like digi shoes, tail holes in clothing, tail bags, etc. really help make
 {{< smalltext >}}[Archive.org backups of images in tweet](https://archive.org/details/karvviie3/)t {{< /smalltext >}}
 
 [TODO] Scale, Typography, Contrast, Balance, Emphasis
+
+## Palettes
+
+https://meodai.github.io/poline/
+
+https://doodad.dev/dither-me-this/

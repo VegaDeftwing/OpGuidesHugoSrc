@@ -1,6 +1,6 @@
 # Appendix 3 - Programming Languages
 
-<!-- TODO: https://pldb.com/lists/languages.html , https://buttondown.email/hillelwayne/archive/microfeatures-id-like-to-see-in-more-languages/ , https://renato.athaydes.com/posts/unison-revolution.html , https://github.com/betaveros/noulith, https://github.com/esotericist/frf, https://cyberscript.dev, https://github.com/Vexu/bog -->
+<!-- TODO: https://pldb.com/lists/languages.html , https://buttondown.email/hillelwayne/archive/microfeatures-id-like-to-see-in-more-languages/ , https://renato.athaydes.com/posts/unison-revolution.html , https://github.com/betaveros/noulith, https://github.com/esotericist/frf, https://cyberscript.dev, https://github.com/Vexu/bog, https://github.com/m-ender/hexagony (https://hexagony.net), https://www.roc-lang.org, https://koka-lang.github.io/koka/doc/index.html, https://ianthehenry.com/posts/why-janet/ -->
 
 ```
 for (🥚 = 1; 🥚 < 🐔; 🥚++){
@@ -26,9 +26,17 @@ https://cs.lmu.edu/~ray/notes/syntaxdesign/
 
 ## Low Level
 
-### C, C++, C#, ????
+### The C Family
 
 [TODO] - a lot, talk about the varieties and differences of C and C++ and C# and why thery're good and bad, etc.
+
+#### C
+
+[TODO] Briefly mention that compliers are effectively dilects - GCC vs [Clang](https://clang.llvm.org/docs/AttributeReference.html#diagnose-if) vs MSVC vs TCC due to their varied support for different preprocessor macros and library functions.
+
+#### C++
+
+#### C#
 
 [Best-of-C](https://blog.joren.ga/programming/best-of-c)
 
@@ -71,6 +79,8 @@ or for the very adventurous
 > Rust’s rich type system and ownership model guarantee memory-safety and thread-safety — enabling you to eliminate many classes of bugs at compile-time.
 
 Basically, Rust doesn't let you screw up. It enforces writing code that's safe (except when you specify you want to do something unsafe). It has a lot of other really nice features and makes using efficient data structures easy. Another really nifty thing about Rust is that it has a sort of at compile time garbage collection of sorts, for lack of a better way to put it. Read more on that [here](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#memory-and-allocation).
+
+While I think Rust is great for desktop programs, for embedded, [When Zig is safer and faster than Rust](https://zackoverflow.dev/writing/unsafe-rust-vs-zig/) from ZackOverflow makes a good argument for why you may want to oxidize everything.
 
 I really recommend [A half-hour to learn Rust](https://fasterthanli.me/blog/2020/a-half-hour-to-learn-rust/) 
 

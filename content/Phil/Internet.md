@@ -241,6 +241,9 @@ See {{< button relref="other/fediverse" color="other" >}} The post about The Fed
 
 [Who Controls the Internet? And should they? (bert hubert)](https://berthub.eu/articles/posts/who-controls-the-internet/)
 
+<a href="https://sadgrl.online/cyberspace/internet-manifesto">sadgrl's Manifesto</a>,
+<a href="https://thewebisfucked.com">The Web Is Fucked</a>
+
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/k1BneeJTDcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
