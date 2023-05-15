@@ -248,6 +248,8 @@ That said, there are some nuggets of wisdom I can provide, in no particular orde
 
 * Running out of space? → run "Disk Cleanup → Clean up System Files", and then use [windirstat](https://windirstat.net) to find the offending files
 
+* Can't get a program to install? → Try extracting it with 7Zip or [UniExtract2](https://github.com/Bioruebe/UniExtract2) and running the executable directly. It works
+
 ## 2.5 For The Dual Booters
 
 Windows likes to think it's the only OS on your system even if it's not. Sometimes this means it'll just eat your bootloader (so keep a live linux disk around to fix that). Other times it's a comical yet annoying tendancy to have update-and-shutdown actually update-and-reboot-into-Linux making it so the next time you boot Windows it just immediately shuts off. Fun stuff. On top of that, Windows only supporting NTFS [TODO, BTRFS] means if you want to share data between the two, you're pretty much stuck having your data be on an NTFS partition. Finally, Windows is weird and uses a different time standard than everyone else, so if you want Windows to not fuck up your clock every reboot, open an admin command prompt and run `reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f`

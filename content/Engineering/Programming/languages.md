@@ -321,6 +321,12 @@ If you must, you might want to check out Hack: https://hacklang.org/
 >
 > https://www.ruby-lang.org/en/
 
+### Perl
+
+> "Perl" is a family of languages, "Raku" (formerly known as "Perl 6") is part of the family, but it is a separate language which has its own development team.
+
+... I'm not a big Perl fan, but I have to mention it only because of how bizzare it is that they used the [⚛ character for atomics ](https://p6weekly.wordpress.com/2017/08/21/2017-34-going-atomic/). (Though that, among other choices, lead to it being split into another language, [raku](https://www.raku.org) )
+
 ### Scallop
 
 "Scallop is a neurosymbolic programming language, solver, and framework. Based on Datalog, it supports discrete, probabilistic, and differentiable modes of reasoning."

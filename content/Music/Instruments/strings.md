@@ -69,6 +69,8 @@ Standard (EADBGe), drop D, open G, DADGAD, Ostrich, etc. Why you'd want them.
 
 ### Bass
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/qxIHAGzb6lc" title="RESPECT THE BASS!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 [TODO]
 
 * Active Pickups, 3 vs 2 band EQ, string count, picking methods, slap

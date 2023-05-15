@@ -130,4 +130,6 @@ My favorite example is playing harmonics on a guitar, which [this video (YouTube
 <script>
     document.getElementById("effectMenu").open = true;
 </script>
+## Double Tracking
 
+One common trick is to hard pan two takes of playing the same instrument. Metal does this commonly with two guitars playing the line (again, hard panned L & R) + a bass playing an octave down. There are plugins to fake this with one take (Search "Artificial Double Tracking") but most sound sorta meh.

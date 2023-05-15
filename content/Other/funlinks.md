@@ -107,9 +107,6 @@
 * [Letters About Soap](https://people.cs.ksu.edu/~schmidt/soap.txt)
 * [Operation Mindfuck Vol. 4, a video from rC3 (YouTube)](https://www.youtube.com/watch?v=ywYBT0xM7so)
 * [The Best Things and Stuff of 2020 (Fogus' Blog)](http://blog.fogus.me/2020/12/31/the-best-things-and-stuff-of-2020/)
-
-  
-
-
+* [Floor796](https://floor796.com/)
 
 <p hidden>uwu, are you looking at my source https://www.youtube.com/watch?v=o9l4EiYFZjg</p>

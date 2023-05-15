@@ -9,6 +9,12 @@ Okay, sort of still electrically relevant, but as your peruse your options for p
 * [Reading Transistor Marknigs (Electronics Express)](https://www.eg.bucknell.edu/~dkelley/eceg350/lab/Reading_Transistor_Markings.pdf)
 * [All about circuits forum](https://forum.allaboutcircuits.com/threads/transistor-names.32827/#post-207007)
 
+## Potentiometers
+
+including sliders, motoriszed, dual, lin, exp, log, etc.
+
+## 
+
 ## Knobs, Key-Caps
 
 {{< columns >}}
@@ -36,3 +42,13 @@ Okay, sort of still electrically relevant, but as your peruse your options for p
 ## Wires
 
 Stranded, enamaled, etc.
+
+## Buttons
+
+## Switches
+
+SPST DPST etc
+
+## Encoders
+
+vs a pot, w/ a button

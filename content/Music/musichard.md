@@ -10,6 +10,12 @@ slug: "Music Hardware"
 
 While you *could* make all of your music with just a computer, you’ll probably want some tools that make your life as a musician easier and let you explore ideas faster. Like I said back in the {{< button relref="music/effects" color="music" >}}Audio Effects Chapter{{< /button >}}, in my experience, making music depends on a really quick brain to input device feedback loop. Being able to turn a physical knob and mash physical keys will often lead to better results if only because you’re able to try things both faster and by physically interacting with something that you may not have thought of otherwise. It’s why guitars, MPE keyboards, and Eurorack are so great: they all give you a crazy amount of control and expression that is *literally* at your fingertips. The brain to input interface there is just so much better.
 
+There are also a few things that do simply work better when done via analog hardware vs digital tools. Namely distortions and compression/limiting - Distortions because of limited bandwidth and compression/limiting because you can't fix a signal that's already clipped digitally.
+
+Similarly, it's possible if you're doing complex processing that you'll push the limits of what computers can even practically do. If you can offload some of that work to other equipment, you can use that processing power on something else.
+
+Finally, it might be that there's just annoying limits with routing in your tools. For example, a lot of streamers will use vocal processing units like the [DBX 286s](https://dbxpro.com/en/products/286s) since it can sometimes be difficult to get the software to route though effects before being recorded/streamed.
+
 So, while I don't think you should go *crazy* deep into hardware and spend your life savings, there's some things that just make sense to get, like a good keyboard MIDI controller, some knobs, and at least one realllly expressive instrument like a guitar or MPE controller. Something that really lets you *feel* what you're playing.
 
 ---

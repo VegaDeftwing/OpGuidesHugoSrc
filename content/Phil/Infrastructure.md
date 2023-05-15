@@ -68,6 +68,10 @@ Where you're born determines if you have access to even basic needs
 
 [There Stupid Trucks Are Literally Killing Us (YouTube, Not Just Bikes)](https://www.youtube.com/watch?v=jN7mSXMruEo)
 
+### Racial Discrimination
+
+[The Absolute State of the Union (by Narcissist Cookbook)](https://www.youtube.com/watch?v=9IX7ZgvZlGQ)
+
 ## Payment Systems
 
 https://twitter.com/flipper_zero/status/1567194641610465281

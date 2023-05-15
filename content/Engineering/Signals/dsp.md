@@ -58,7 +58,7 @@ http://ajaxsoundstudio.com/software/pyo/
 
 [Magenta DDSP](https://magenta.tensorflow.org/ddsp) - ML meets DSP
 
-
+[ColorChords Music-Optimized DFT Algorithm](https://www.colorchord.net/blog/colorchords-music-optimized-dft-algorithm/)
 
 I'd like to show DSP with VCV rack as much as I can, but dev sucks without debug, so this helps:
 

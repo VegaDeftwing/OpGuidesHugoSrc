@@ -505,6 +505,12 @@ And while bitshifting is sometimes black magic looking in any language, I fully 
 
 
 
+## Some of my favorite shaders
+
+[The Screen by Xor](https://www.shadertoy.com/view/fstfR8)
+
+
+
 
 
 <!-- TODO: Look into [halide](https://halide-lang.org), [emu](https://github.com/calebwin/emu) --> 
