@@ -1,64 +1,73 @@
 # Appendix 3 - Programming Languages
 
-<!-- TODO: https://pldb.com/lists/languages.html , https://buttondown.email/hillelwayne/archive/microfeatures-id-like-to-see-in-more-languages/ , https://renato.athaydes.com/posts/unison-revolution.html , https://github.com/betaveros/noulith, https://github.com/esotericist/frf, https://cyberscript.dev, https://github.com/Vexu/bog, https://github.com/m-ender/hexagony (https://hexagony.net), https://www.roc-lang.org, https://koka-lang.github.io/koka/doc/index.html, https://ianthehenry.com/posts/why-janet/ -->
+<!-- https://renato.athaydes.com/posts/unison-revolution.html , https://github.com/betaveros/noulith, https://github.com/esotericist/frf, https://cyberscript.dev, https://github.com/Vexu/bog, https://github.com/m-ender/hexagony (https://hexagony.net), https://www.roc-lang.org, https://koka-lang.github.io/koka/doc/index.html, https://ianthehenry.com/posts/why-janet/, futhark, This page really needs functional - Haskell, Lisp, etc. + Matlab, Dart, F#, R, Scheme Powershell, Smalltalk, Swift, scala, GLSL/HLSL, V, VHDL, Verilog  -->
 
-```
-for (🥚 = 1; 🥚 < 🐔; 🥚++){
-   //whatever
+```c
+for (🥚 = 0; 🥚 < 🐔; 🥚++){
+   hatch(🥚);
 }
 ```
 
-Hello nerds,
+Why hello,
 
-Before you get on my case, I know this isn't a complete list, so it's possible your favorite language isn't on it. Hell, a complete list can't even really exist. Still, there are a lot of cool languages I didn't put here, so if you're looking for some weird but not *incredibly weird* languages see [Awesome Programming Languages (GitHub)](https://github.com/ChessMax/awesome-programming-languages), though note even it doesn't include the obvious - like C and Java.
+If you've found this page, it's likely your curiosity is getting the better of you and you're killing time gawking at the weird syntax and features of a variety of languages. I know I have been guilty of doing so. 
 
-[TODO] talk about to why there are so many, pros & cons per domain, etc
+This page is meant to give you a taste, not a full list. There's so many niche languages, [esolangs](https://esolangs.org/wiki/Main_Page), and outright jokes gone to far (like [emojicode](https://www.emojicode.org)) to possibly make this list exhaustive.
 
-https://esoteric.codes
+This also means it's quite possible your favorite language isn't here. Depending on how esoteric it is, it may not even be on [pldb](https://pldb.com/lists/languages.html) or [Awesome Programming Languages (GitHub)](https://github.com/ChessMax/awesome-programming-languages), in which case, congrats, you've truly found something strange.
 
-[Why OO Sucks (Joe Armstrong)](http://harmful.cat-v.org/software/OO_programming/why_oo_sucks)
+Still though, you may be here just to get a better idea of the answer to the questions all people learning their first language begin to wonder: 
 
-[0-based vs. 1-based indexing (Hisham Hm)](https://hisham.hm/2021/01/18/again-on-0-based-vs-1-based-indexing/)
+1. What do the other languages do that the one I'm using doesn't?
+2. Why have all these languages instead of one do-it-all language everyone uses
 
-[Stop Writing Dead Programs (YouTube)](https://www.youtube.com/watch?v=8Ab3ArE8W3s)
+Well, those are big questions, and hopefully as you browse this page you'll begin to understand, but in general the answers are
 
-https://cs.lmu.edu/~ray/notes/syntaxdesign/
+1. Nothing - but it can make some things a whole hell of a lot easier.
+2. Different logical representations making solving different problems easier
+
+Before we look at each language though I want to get your brain in the right receptive place, so please enjoy these links first:
+
+* https://esoteric.codes
+* [Object Oriented Programming is Bad (Brian Will)](https://www.youtube.com/watch?v=QM1iUe6IofM)
+* [0-based vs. 1-based indexing (Hisham Hm)](https://hisham.hm/2021/01/18/again-on-0-based-vs-1-based-indexing/)
+* [Stop Writing Dead Programs (YouTube)](https://www.youtube.com/watch?v=8Ab3ArE8W3s)
+* https://cs.lmu.edu/~ray/notes/syntaxdesign/
+* [Microfeatures I'd like to see in more languages (Hillel Wayne)](https://buttondown.email/hillelwayne/archive/microfeatures-id-like-to-see-in-more-languages/)
+
+Now let's actually see what each language has to offer.
 
 ## Low Level
 
-### The C Family
-
-[TODO] - a lot, talk about the varieties and differences of C and C++ and C# and why thery're good and bad, etc.
-
-#### C
-
-[TODO] Briefly mention that compliers are effectively dilects - GCC vs [Clang](https://clang.llvm.org/docs/AttributeReference.html#diagnose-if) vs MSVC vs TCC due to their varied support for different preprocessor macros and library functions.
-
-#### C++
-
-#### C#
-
-[Best-of-C](https://blog.joren.ga/programming/best-of-c)
-
-https://www.learncpp.com
-
-https://nedbatchelder.com/code/cog/ for making plain C suck a bit less.
-
-https://arobenko.github.io/bare_metal_cpp/
+In the intro to programming chapters we looked at some of the differences between low level and high level languages, and how at the very bottom of the layers of abstraction there's assembly, so let's start there.
 
 ### Assembly
 
-Assembly code is specific to an [Instruction Set Architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture) or ISA, that means it is written for a specific family of processors. Most laptops and desktops today run on [x86_64](https://en.wikipedia.org/wiki/X86-64) processors made by either AMD or Intel, while most tablets and phones use processors that use [ARM](https://en.wikipedia.org/wiki/ARM_architecture). Of course, there are many, many other instruction sets than these two. For example, [6502](https://en.wikipedia.org/wiki/MOS_Technology_6502) assembly is particularly easy to write, as it's from an era <a class="ptr">(1)</a> when programming at the assembly level was still common. On the other hand, [RISC-V](https://en.wikipedia.org/wiki/RISC-V) is a newer ISA that has been gaining a lot of traction due to its open nature. Knowing ASM can allow you to do some black magic, like pushing out FizzBuzz at [57.2GiB/s](https://codegolf.stackexchange.com/questions/215216/high-throughput-fizz-buzz/236630#236630).
+```asm
+.LC0:
+  .ascii "hello world!\015\000"
+main:
+  push {r3, lr}
+  movw r0, #:lower16:.LC0
+  movt r0, #:upper16:.LC0
+  bl puts
+  movs r0, #0
+  pop {r3, pc}
+```
 
-#### x86 ASM:
+
+
+Assembly code is specific to an [Instruction Set Architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture) or ISA, that means it is written for a specific family of processors. Most laptops and desktops today run on [x86_64](https://en.wikipedia.org/wiki/X86-64) processors made by either AMD or Intel, while most tablets and phones use processors that use [ARM](https://en.wikipedia.org/wiki/ARM_architecture). Of course, there are many, many other instruction sets than these two. For example, [6502](https://en.wikipedia.org/wiki/MOS_Technology_6502) assembly is particularly easy to write, as it's from an era <a class="ptr">(1)</a> when programming at the assembly level was still common. On the other hand, [RISC-V](https://en.wikipedia.org/wiki/RISC-V) is a newer ISA that has been gaining a lot of traction due to its open nature. 
+
+Knowing ASM can allow you to do some black magic, like pushing out FizzBuzz at [57.2GiB/s](https://codegolf.stackexchange.com/questions/215216/high-throughput-fizz-buzz/236630#236630) or may even be required to mundane tasks on micro controllers.
+
+There's only really a handful of instruction sets you're likely to encounter today though, and of them the two most common by far are x86_64 and ARM. x86_64 (often, incorrectly, called just x86 - though I'll do that often here as well) is very, very annoying to read because it is a CISC (Complex Instruction Set Computer) design. Complex is no joke, while the most complex variant of ARM has ~60 instructions (many of which won't be available on all processors), x86_64 has (due to a myriad of extensions onto the instruction set) has roughly 1,000 depending on how you count them.
+
+This could derail into a whole conversation about ISA, but you should really go read [TODO] for that.
 
 [x86 Assembly: Hello World! (YouTube, John Hammond)](https://www.youtube.com/watch?v=HgEGAaYdABA)
 
-
-
 [Say hello to x86_64 Assembly 1-8](https://0xax.github.io/archive/) by 0xAX 
-
-or
 
 [Let's Learn x86-64 Assembly! Part 0 - Setup and First Steps](https://gpfault.net/posts/asm-tut-0.txt.html)
 
@@ -66,31 +75,98 @@ or
 
 [Part 2 - We're Writing a Virtual Machine](https://gpfault.net/posts/asm-tut-2.txt.html)
 
-or for the very adventurous
+[Linux-kernal-module-cheat [Github]](https://github.com/cirosantilli/linux-kernel-module-cheat#userland-assembly) has a nice guide to ASM
 
-[Linux-kernal-module-cheat [Github]](https://github.com/cirosantilli/linux-kernel-module-cheat#userland-assembly), has a nice guide to ASM
+['Furby' Source Code](https://github.com/gnomon-/furby-source) is in 6502 assembly
 
-#### 6502
+[TODO] - a lot, talk about the varieties and differences of C and C++ and C# and why thery're good and bad, etc.
 
-['Furby' Source Code](https://github.com/gnomon-/furby-source)
+### C
+
+```c
+#include <stdio.h>
+
+int main(void){
+	printf("Hello World!\r\n");
+}
+```
+
+The next stop is the language that simultaneously gets the "most used by embedded" and "most hated for embedded" awards.
+
+You've already seen C if you followed along with the intro to programming chapters, and really, by following those you've seen most of what it has to offer. It's a pretty minimalist language with a small standard library. It's both beautiful and immensely frustrating in its simplicity, mostly because of just how much it lacks in terms of safety, code organization systems, and portability.
+
+You see, for as much as everyone likes to shout from the rooftops that C supports any and all processors ever made, they're only half telling the truth. The problem is, [C isn't a programming language anymore (Aria Beingessner)](https://faultlore.com/blah/c-isnt-a-language/).
+
+As that article argues, it's turned into more of a "*lingua franca* of programming" but I'd also argue it's not even **one** language anymore, because each compiler (GCC, Clang, MSVC, TCC, IAR, ...) all support different prepossessing macros and language revisions, be it ANSI C, C89, C99, C11, or C23, witch each compiler and C version having a non insignificant amount of compatibility fusterclucks between one another.
+
+Still, it's a language that pretty much every programmer should know and know well and setting the above aside, it does still port to most platforms with lower effort than anything else.
+
+So you really should dive into it. Learn pointers, macros, include guards, bounds safe function variants, memory alignment issues, `asm()`, and all. It'll make you a better programmer.
+
+Just, if you're going to write in C, at least unit test your code. If you do that - if you care - [C can be the safest option](https://blog.joren.ga/best-of-c#safety).
+
+If you're really looking to make C easier to work with - albeit in a way that'll likely annoy others working on the code - [Cog](https://nedbatchelder.com/code/cog/) may come in handy.
+
+### C++
+
+```c++
+#include <iostream>
+
+int main() {
+    std::cout << "Hello World!";
+    return 0;
+}
+```
+
+If you want to increment C by one, you'd write C++.
+
+C++ has a reputation for being overly complicated, throwing in everything and the kitchen sink worse than Python does, changing every 5 years, and being a little too flexible.
+
+It has absolutely earned all of those criticisms. It's also one of the most commonly used programming languages exactly because of all of those things. If you like some of C's close-to-the-metal nature, but want a bit more functionality to be included so you're not always reinventing the wheel or fighting things to have some semblance of type safety, C++ is probably a good bet.
+
+Just know that while it's possible to become a good C programmer than can read any C code and know what it's doing ([outside of intentionally obfuscated code](https://www.ioccc.org)), C++ is nearly a different language to each project which uses it. It's object oriented, it's heavier, and it still lets you shoot yourself in the foot, but now with a rube Goldberg machine filled with gunpowder instead of a pistol loaded with uninitialized memory.
+
+If C is a desert, C++ is the Amazon. Both can be deadly and beautiful in their own ways.
+
+If you're looking to learn C++, https://www.learncpp.com is a decent bet. https://arobenko.github.io/bare_metal_cpp/ may prove helpful too.
+
+### C#
+
+```c#
+namespace HelloWorld
+{
+    class Hello {         
+        static void Main(string[] args)
+        {
+            System.Console.WriteLine("Hello World!");
+        }
+    }
+}
+```
+
+
+
+[TODO]: Get someone else to write this
 
 ### Rust
 
+```rust
+fn main() {
+    println!("Hello, world!");
+}
+```
+
 > Rust’s rich type system and ownership model guarantee memory-safety and thread-safety — enabling you to eliminate many classes of bugs at compile-time.
 
-Basically, Rust doesn't let you screw up. It enforces writing code that's safe (except when you specify you want to do something unsafe). It has a lot of other really nice features and makes using efficient data structures easy. Another really nifty thing about Rust is that it has a sort of at compile time garbage collection of sorts, for lack of a better way to put it. Read more on that [here](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#memory-and-allocation).
+Basically, Rust doesn't let you screw up the №1 thing that causes bugs.
 
-While I think Rust is great for desktop programs, for embedded, [When Zig is safer and faster than Rust](https://zackoverflow.dev/writing/unsafe-rust-vs-zig/) from ZackOverflow makes a good argument for why you may want to oxidize everything.
+It enforces writing code that's safe (except when you specify you want to do something unsafe). It has a lot of other really nice features and makes using efficient data structures easy.
 
-I really recommend [A half-hour to learn Rust](https://fasterthanli.me/blog/2020/a-half-hour-to-learn-rust/) 
+While I think Rust is great for desktop programs, for embedded, [When Zig is safer and faster than Rust](https://zackoverflow.dev/writing/unsafe-rust-vs-zig/) from ZackOverflow makes a good argument for why you may want to oxidize *everything* - especially if you're working on embedded hardware.
 
-[Nannou](https://nannou.cc/), is a creative coding framework for Rust that's pretty nifty, too.
+If you are working on desktop software though, I can not stress strong enough how much better of a choice Rust is than C or C++ for the vast majority of programs now.
 
-To show the maturity, just check out https://www.redox-os.org/, a full OS written in Rust!
-
-Also, it's worth noting Rust can be used to generate Web Assembly (more about that below)
-
-Other sources to lean rust:
+If you'd like to learn Rust, I recommend [A half-hour to learn Rust](https://fasterthanli.me/blog/2020/a-half-hour-to-learn-rust/) as well as
 
 - https://doc.rust-lang.org/book/foreword.html
 - [Learning Rust the Dangerous Way (Cliff L. Biffle)](http://cliffle.com/p/dangerust/)
@@ -98,39 +174,72 @@ Other sources to lean rust:
 - [Rust Cheat Sheet](https://cheats.rs)
 - [Python -> Rust guide - learning Rust when you know Python (Github)](https://www.mylomusic.net/octane)
 
-You may also want to check out [CXX](https://github.com/dtolnay/cxx) for C++<-> Rust interop
+Rust isn't a "new" language anymore, but it's certainly not as battle tested as C or C++, so to show the maturity, just check out https://www.redox-os.org/, a full OS written in Rust!
+
+Also, it's worth noting Rust can be used to generate Web Assembly (more about that below). This means you can (in a roundabout way) use it on the Web. This isn't unique to Rust by any means, but Rust is heavily used for it and has good resources for doing so.
+
+You may also want to check out [CXX](https://github.com/dtolnay/cxx) for C++ ⟷ Rust interop. If you're looking for some fun projects to get started in Rust, you may want to use [Nannou](https://nannou.cc/), a creative coding framework for Rust.
 
 ### Go
 
-> Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+```go
+package main
 
-The big claim to fame for go is, well `go`, which lets you do really easy threading. (https://gobyexample.com/goroutines)
+import "fmt"
 
-Other sources to learn Go:
+func main() {
+    fmt.Println("Hello, World!")
+}
+```
 
-- https://tour.golang.org/welcome/1
+The big claim to fame for go is its `go` keyword, which lets you do really easy threading. (https://gobyexample.com/goroutines). This has made it a favorite among those writing networking utilities and servers - just look at the list of programs that use it on its [Wikipedia page](https://en.wikipedia.org/wiki/Go_(programming_language)#Applications).
 
-
+If you're wanting to learn go, you should go to https://tour.golang.org/welcome/1 as your first stop.
 
 ### Zig
+
+```zig
+const print = @import("std").debug.print;
+
+pub fn main() void {
+    print("Hello, world!\n", .{});
+}
+```
 
 > A general-purpose programming language and toolchain for maintaining **robust**, **optimal**, and **reusable** software.
 >
 > https://ziglang.org/
 
-[Zig: A programming language designed for robustness, optimality, and clarity – Andrew Kelley (YouTube)](https://www.youtube.com/watch?v=Z4oYSByyRak)
+If Rust is the next logical progression for the majority of C++ programmers, Zig is the future for C programmers. We need unsafe code to be productive, so we have it. We need good ways to write compile time code for our targets with limited memory, and so we have it. Zig fits very nicey as an upgrade to C without throwing everything and the kitchen sink in at the same time.
 
-[Writing a small ray tracer in Rust and Zig](https://nelari.us/post/raytracer_with_rust_and_zig/)
+For a proficient C programmer,  the bullet points on the homepage should say everything you need to hear. Seriously, go read it: https://ziglang.org/
 
-[A Half hour to Learn Zig (Github Gist)](https://gist.github.com/ityonemo/769532c2017ed9143f3571e5ac104e50)
+I highly recommend checking out each of these:
 
-[Zig, The Small Language (Serge Zaitsev)](https://zserge.com/posts/zig-the-small-language/)
+*  [A Half hour to Learn Zig (Github Gist)](https://gist.github.com/ityonemo/769532c2017ed9143f3571e5ac104e50)
+* [Zig, The Small Language (Serge Zaitsev)](https://zserge.com/posts/zig-the-small-language/)
+* [Zig: A programming language designed for robustness, optimality, and clarity – Andrew Kelley (YouTube)](https://www.youtube.com/watch?v=Z4oYSByyRak)
 
-[When Zig is safer and faster than Rust (Zachoverflow)](https://zackoverflow.dev/writing/unsafe-rust-vs-zig/)
+Additionally,
 
-> If you're going to use Zig, make sure to set up the [Zig Language Server](https://github.com/zigtools/zls/wiki/Installing-for-Visual-Studio-Code)
+* [Writing a small ray tracer in Rust and Zig](https://nelari.us/post/raytracer_with_rust_and_zig/)
+* [When Zig is safer and faster than Rust (Zachoverflow)](https://zackoverflow.dev/writing/unsafe-rust-vs-zig/)
+
+are interesting reads.
+
+Zig is also particularly nice to develop in, thanks to the [Zig Language Server](https://github.com/zigtools/zls/wiki/Installing-for-Visual-Studio-Code). If you try Zig, make sure to set it up.
 
 ### Odin
+
+```Go
+package main
+
+import "core:fmt"
+
+main :: proc() {
+	fmt.println("Hellope!")
+}
+```
 
 > Odin is a general-purpose programming language with distinct typing built for high performance, modern systems and data-oriented programming.
 >
@@ -142,26 +251,26 @@ https://graphitemaster.github.io/odin_review/
 
 ### Crystal
 
-Crystal's big thing is a Ruby (a very fast to write language) that's compiled and fast. From the home page:
-
-```ruby
-# A very basic HTTP server
-require "http/server"
-
-server = HTTP::Server.new do |context|
-  context.response.content_type = "text/plain"
-  context.response.print "Hello world, got #{context.request.path}!"
-end
-
-puts "Listening on http://127.0.0.1:8080"
-server.listen(8080)
+```crystal
+puts "Hello World!"
 ```
 
-Seriously, check it out at https://crystal-lang.org/
+Crystal's big thing is that it's similar to Ruby (a very fast to write language) that's compiled and so quite fast. Additionally, it makes some sane choices to check for common problems at compile time. It also has good C interop. Check it out at https://crystal-lang.org/.
 
-
+It may not be well suited to every task due to how abstracted it can be, but for quick solutions with decent performance, it's a good option and fairly mature compared to other languages (Such as Nim) which aim to do similar things.
 
 ### D
+
+```D
+import std.stdio;
+
+void main()
+{
+    writeln("Hello World!");
+}
+```
+
+
 
 A lesser used competitor to C++ mostly. It's very syntactically similar. Might be worth looking at.
 
@@ -170,6 +279,10 @@ https://dlang.org
 
 
 ### Nim
+
+```nim
+echo("hello world")
+```
 
 > Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula.
 >
@@ -183,42 +296,33 @@ Nim's syntax is python-like-ish
 
 ### Red
 
-To be honest, I'm not sure Red belongs in the low level category, as it can be run as a JIT language. 
+```python
+print "Hello World!"
+```
+
+To be honest, I'm not sure Red belongs in the low level category, as it can be run as a [JIT](https://en.wikipedia.org/wiki/Just-in-time_compilation) language, but ╮(─▽─)╭.
+
+I'm not sure I'd actually reach for this language for anything - it tries to do everything, instead of being good at one thing first. That's not necessarily a bad thing (see Python) but Red isn't super mature yet. Still, it has some net enough features that I think it's worth mentioning. From the home page:
 
 > **Red** is a next-gen programming language, strongly inspired by [REBOL](http://rebol.com/). Main features are:
 >
-> 
+> [...]
 >
-> - **Human-friendly** [syntax](https://pointillistic.com/ren/)
-> - **[Homoiconic](http://en.wikipedia.org/wiki/Homoiconicity)** (Red is its own meta-language and own **[data-format](http://www.rebol.com/rebolsteps.html)**)
-> - **Functional**, imperative, **[reactive](http://www.red-lang.org/2016/06/061-reactive-programming.html)** and **symbolic** programming
-> - **Prototype**-based object support
-> - **Gradual and multi-**typing
-> - **[Macros](http://www.red-lang.org/2016/12/entering-world-of-macros.html)** system
-> - **Rich** set of built-in datatypes (50+)
-> - Both **statically** and **JIT**-**compiled** to native code
-> - **Cross-compilation** [done](https://github.com/red/red/blob/master/usage.txt) [right](https://github.com/red/red/blob/master/system/config.r)
-> - Produces executables of **less than 1MB**, with **no dependencies**
-> - **Concurrency** and **parallelism** strong support (actors, parallel collections)
-> - Low-level **system programming** abilities through the built-in Red/System [DSL](http://en.wikipedia.org/wiki/Domain-specific_language)
 > - Powerful **PEG [parser ](http://www.red-lang.org/2013/11/041-introducing-parse.html)**[DSL](http://www.red-lang.org/2013/11/041-introducing-parse.html) included
 > - **Cross-platform native [GUI ](http://www.red-lang.org/2016/03/060-red-gui-system.html)**[system](http://www.red-lang.org/2016/03/060-red-gui-system.html), with a [UI DSL](http://doc.red-lang.org/gui/VID.html) and [drawing DSL](http://doc.red-lang.org/gui/Draw.html)
 > - **Bridging** [to the JVM](https://github.com/red/red/blob/master/bridges/java/hello.red)
-> - High-level **scripting** and [**REPL**](http://en.wikipedia.org/wiki/Read-eval-print_loop) console included
-> - Visual Studio Code **[plugin](https://marketplace.visualstudio.com/items?itemName=red-auto.red)**, with many helpful features
-> - Highly **[embeddable](http://www.red-lang.org/2017/03/062-libred-and-macros.html)**
-> - **Low** memory footprint, **garbage collected**
-> - **[Single-file](http://www.red-lang.org/p/download.html)** (~1MB) contains whole toolchain, full standard library and REPL.
-> - **No install, no setup**
-> - **Fun** guaranteed!
->
-> https://www.red-lang.org/p/about.html
 
 If you're interested, check out [Red's 'Getting Started' page](https://www.red-lang.org/p/getting-started.html).
 
-
-
 ### Haxe
+
+```Haxe
+class HelloWorld {
+  static public function main():Void {
+    trace("Hello World");
+  }
+}
+```
 
 > Haxe is an open source high-level strictly-typed programming language with a fast optimizing cross-compiler.
 >
@@ -226,18 +330,47 @@ If you're interested, check out [Red's 'Getting Started' page](https://www.red-l
 
 
 
-### Java & Kotlin
+### Java
+```java
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
+    }
+}
+```
 
-!> This is Opinionated Guides, so let me be clear, I really, **really** hate Java. It's a language that didn't even become popular on its own merit, instead Sun Microsystem paid a [fuck ton](https://www.theregister.com/2003/06/09/sun_preps_500m_java_brand/) of money to push it- hence the **"3 Billion Devices Run Java"** Thing. I'm hopeful (albeit probably naively) that Oracle (Which bought Java from Sun) making Java a mess of licensing as the 'main' Java Virtual Machine goes [paid (Read on Wikipedia)](https://en.wikipedia.org/wiki/Java_(programming_language)) and [suing Google](https://en.wikipedia.org/wiki/Google_LLC_v._Oracle_America,_Inc.) will be the nail in the coffin for education using it and that it will die out with time.
+{{< tip >}}This is Opinionated Guides, so let me be clear, I really, **really** hate Java. 
+
+It's a language that didn't even become popular on its own merit, instead Sun Microsystem paid a [fuck ton](https://www.theregister.com/2003/06/09/sun_preps_500m_java_brand/) of money to push it- hence the **"3 Billion Devices Run Java"** Thing.
+
+I'm hopeful (albeit probably naively) that Oracle (Which bought Java from Sun) making Java a mess of licensing as the 'main' Java Virtual Machine goes [paid (Read on Wikipedia)](https://en.wikipedia.org/wiki/Java_(programming_language)) and [suing Google](https://en.wikipedia.org/wiki/Google_LLC_v._Oracle_America,_Inc.) will be the nail in the coffin for education using it and that it will die out with time. See
 [Criticism of Java (Wikipedia)](https://en.wikipedia.org/wiki/Criticism_of_Java)
 
-don't.
-but, here's why not to use Java:
+So, frankly, I'm not even going to give Java an honest effort here. Use literally anything else.
+{{< /tip >}} 
+
+There are a few things you should know about Java only because at one point or another, it may become relevant.
+
+* Java code compiles to "java bytecode" which runs on the "java virtual machine" (JVM).
+  * This means (in theory) any platform with the JVM should be able to run Java programs with no incompatabilities.
+* Java programs could once be made into "applets". That's dead now.
+* Java source code is stored in .java files
+* The compiled code becomes java bytecode in .class files
+* These class files can be collected into a .jar, which is the final executable program *if* the user has a JVM installed.
+* Sometimes, the .jars are wrapped into an executable which bundles the JVM
+* Java used to be the goto for Android development, now Kotlin (see below) is better for that in most cases.
+* Java Jars are often relatively easy to de-compile compared to other programs in complied languages
+
+And, no, there's no connection between Java and Javascript.
+
+### Kotlin
+```kotlin
+fun main(args : Array<String>) {
+    println("Hello, World!")
+}
+```
 
 https://jakewharton.com/shrinking-a-kotlin-binary/
-
-
-
 
 
 ### WebAssembly
@@ -246,25 +379,15 @@ https://jakewharton.com/shrinking-a-kotlin-binary/
 >
 > https://webassembly.org/
 
-While not technically a programming language, I wanted to bring it up and encourage you to look into it to be used instead of JavaScript for real projects. 
+While not technically a programming language, I wanted to bring it up and encourage you to look into it to be used instead of JavaScript for real projects. You can use a large portion of the languages mentioned above to write Webassembly.
 
-https://www.assemblyscript.org is a TypeScript variant that can generate Web ASM.
-
-https://webassembly.studio
+Additionally, there are languages where WebAssembly is the primary target, such as https://www.assemblyscript.org, a TypeScript variant.
 
 ### Vult
 
 [Vult Language Homepage](https://www.vult-dsp.com/vult-language)
 
 "The Vult Language is a transcompiler to write high-performance DSP code"
-
-
-
-### Call for Contribution
-
-If I missed a language you think I should have mentioned or would like to write a nice guide to your language of choice to be included in this Opinionated Guide please submit a pull request. I'd love to expand the Rust, Go, and Zig sections significantly!
-
----
 
 ## High Level
 
@@ -306,12 +429,37 @@ https://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks
 
 
 
-
 ### PHP
 
-don't.
-but, here's why not to use PHP:
-If you must, you might want to check out Hack: https://hacklang.org/
+```html
+<html>
+<head>
+<title>PHP Test</title>
+</head>
+<body>
+<?php echo '<p>Hello World</p>'; ?>
+</body>
+</html>
+```
+
+PHP is a language focused on making websites with sever side logic (process on the server, instead of JS in the browser). While a large portion of the web has moved to Javascript frameworks PHP is still a good option for many tasks, and i[sn't very hard to read.](https://themsaid.com/go-with-php)
+
+PHP as a language is hated on, a lot. This is mostly because of historical decisions to not use typing, but type hints have been added for a while and it's actually quite nice today. It's not many people's language of choice, but it works. Still, I wouldn't fully recommend it. As mentioned above, Go is doing quite well in the networking space due to it's ease of parallelism and abundant libraries for tasks that would've classically been PHP's job.
+
+Another option is Hack,
+
+### Hack
+
+```php
+use namespace HH\Lib\IO;
+
+<<__EntryPoint>>
+async function main(): Awaitable<void> {
+  await IO\request_output()->writeAllAsync("Hello World!\n");
+}
+```
+
+Hack, https://hacklang.org/, is Facebook's (🤮) answer to PHP. They needed something safer, salable, and designed in this century. It's syntax is PHP like, but it has easy async like Go. It also includes more intelligent ways of writing UI code to avoid XSS & Injection attacks. 
 
 
 
@@ -335,9 +483,15 @@ Basically, it's really nice for AI/CV/probabilistic computations
 
 ## For the Skript Kidd3s
 
-> In programming and hacking cultures, a **script kiddie**, **skiddie**, or **skid** is an unskilled individual who uses [scripts](https://en.wikipedia.org/wiki/Scripting_language) or programs developed by others to attack computer systems and networks and [deface websites](https://en.wikipedia.org/wiki/Website_defacement), such as a [web shell](https://en.wikipedia.org/wiki/Web_shell). It is generally assumed that most script kiddies are juveniles who lack the ability to write sophisticated programs or exploits on their own and that their objective is to try to impress their friends or gain credit in computer-enthusiast communities. However, the term does not relate to the actual age of the participant. The term is considered to be derogatory.
->
-> from https://en.wikipedia.org/wiki/Script_kiddie
+{{< quote "https://en.wikipedia.org/wiki/Script_kiddie" >}}
+
+In programming and hacking cultures, a **script kiddie**, **skiddie**, or **skid** is an unskilled individual who uses [scripts](https://en.wikipedia.org/wiki/Scripting_language) or programs developed by others to attack computer systems and networks and [deface websites](https://en.wikipedia.org/wiki/Website_defacement), such as a [web shell](https://en.wikipedia.org/wiki/Web_shell). 
+
+It is generally assumed that most script kiddies are juveniles who lack the ability to write sophisticated programs or exploits on their own and that their objective is to try to impress their friends or gain credit in computer-enthusiast communities. However, the term does not relate to the actual age of the participant. 
+
+The term is considered to be derogatory.
+
+{{< /quote >}}
 
 But, really, some absolutely incredible code has been written in the following languages. They more than serve their purpose and are generally some of the fastest "I just need a quick and dirty solution" options out there. Not everything needs a blazing fast hand optimized C implementation, and code that's really just for personal use, to accomplish a one-off task, or that runs inside a bigger program (3D modeling software like Blender, Video editing software like Premier, Game development editors, etc.)  should probably be easy to read and modify quickly. Rapid prototyping certainly has its place.
 
@@ -355,7 +509,7 @@ https://github.com/phil294/AHK_X11
 
 ### CMD.exe
 
-### Bash, ZSH, Fish, Xonsh, wut?
+### Bash, ZSH, Fish, Xonsh, Elvish, wut?
 
 ### Node-Red
 
@@ -475,6 +629,70 @@ v
 ---
 
 If you're looking to learn more, check out [Awesome Esolangs (Github)](https://github.com/angrykoala/awesome-esolangs) and https://esolangs.org. Also, the [Esoteric IDE](https://github.com/Timwi/EsotericIDE/) may be of use.
+
+## The Old Guard
+
+### Forth
+
+```forth
+: hello   ." Hello World!" CR ;
+```
+
+
+
+### Cobol
+
+```cobol
+000100  IDENTIFICATION DIVISION. 
+000200  PROGRAM-ID. MFPROG1.     
+000300  PROCEDURE DIVISION.      
+000400  MAIN-PARA.               
+000500      DISPLAY 'HELLO WORLD'
+000600      STOP RUN.
+```
+
+{{< attribution >}}From  [mainframebug.com](https://www.mainframebug.com/tuts/COBOL/module2/Top3COBOLsimpleProgram.php){{< /attribution >}}
+
+
+
+### Fortran
+
+```fortran
+program hello
+  ! This is a comment line; it is ignored by the compiler
+  print *, 'Hello, World!'
+end program hello
+```
+
+
+
+### Pascal
+
+```groovy
+program Hello;
+begin
+  writeln ('Hello, world.');
+end.
+```
+
+
+
+### BASIC
+
+```basic
+10 PRINT "Hello World!"
+20 GOTO 10
+```
+
+
+
+### Objective C
+
+
+
+### APL
+
+
 
 ## Graphics Programming
 
