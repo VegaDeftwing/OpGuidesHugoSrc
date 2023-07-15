@@ -1,6 +1,6 @@
 # Hugo Book Theme
 
-[![Hugo](https://img.shields.io/badge/hugo-0.68-blue.svg)](https://gohugo.io)
+[![Hugo](https://img.shields.io/badge/hugo-0.79-blue.svg)](https://gohugo.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Build with Hugo](https://github.com/alex-shpak/hugo-book/workflows/Build%20with%20Hugo/badge.svg)
 
@@ -33,21 +33,46 @@
 
 ## Requirements
 
-- Hugo 0.68 or higher
+- Hugo 0.79 or higher
 - Hugo extended version, read more [here](https://gohugo.io/news/0.48-relnotes/)
 
 ## Installation
 
+### Install as git submodule
 Navigate to your hugo project root and run:
 
 ```
-git submodule add https://github.com/alex-shpak/hugo-book themes/book
+git submodule add https://github.com/alex-shpak/hugo-book themes/hugo-book
 ```
 
-Then run hugo (or set `theme = "book"`/`theme: book` in configuration file)
+Then run hugo (or set `theme = "hugo-book"`/`theme: hugo-book` in configuration file)
 
 ```
-hugo server --minify --theme book
+hugo server --minify --theme hugo-book
+```
+
+### Install as hugo module
+
+You can also add this theme as a Hugo module instead of a git submodule.
+
+Start with initializing hugo modules, if not done yet:
+```
+hugo mod init github.com/repo/path
+```
+
+Navigate to your hugo project root and add [module] section to your `config.toml`:
+
+```toml
+[module]
+[[module.imports]]
+path = 'github.com/alex-shpak/hugo-book'
+```
+
+Then, to load/update the theme module and run hugo:
+
+```sh
+hugo mod get -u
+hugo server --minify
 ```
 
 ### Creating site from scratch
@@ -57,12 +82,12 @@ Below is an example on how to create a new site from scratch:
 ```sh
 hugo new site mydocs; cd mydocs
 git init
-git submodule add https://github.com/alex-shpak/hugo-book themes/book
-cp -R themes/book/exampleSite/content .
+git submodule add https://github.com/alex-shpak/hugo-book themes/hugo-book
+cp -R themes/hugo-book/exampleSite/content.en/* ./content
 ```
 
 ```sh
-hugo server --minify --theme book
+hugo server --minify --theme hugo-book
 ```
 
 ## Menu
@@ -72,7 +97,7 @@ hugo server --minify --theme book
 By default, the theme will render pages from the `content/docs` section as a menu in a tree structure.  
 You can set `title` and `weight` in the front matter of pages to adjust the order and titles in the menu.
 
-### Leaf bundle menu
+### Leaf bundle menu (Deprecated, to be removed in June 2022)
 
 You can also use leaf bundle and the content of its `index.md` file as menu.  
 Given you have the following file structure:
@@ -102,7 +127,7 @@ headless = true
 
 And Enable it by setting `BookMenuBundle: /menu` in Site configuration.
 
-- [Example menu](https://github.com/alex-shpak/hugo-book/blob/master/exampleSite/content/menu/index.md)
+- [Example menu](https://github.com/alex-shpak/hugo-book/blob/master/exampleSite/content.en/menu/index.md)
 - [Example config file](https://github.com/alex-shpak/hugo-book/blob/master/exampleSite/config.yaml)
 - [Leaf bundles](https://gohugo.io/content-management/page-bundles/)
 
@@ -154,6 +179,7 @@ disableKinds = ['taxonomy', 'taxonomyTerm']
 
   # (Optional, default none) Set leaf bundle to render as side menu
   # When not specified file structure and weights will be used
+  # Deprecated, to be removed in June 2022
   BookMenuBundle = '/menu'
 
   # (Optional, default docs) Specify section of content to render as menu
@@ -163,6 +189,13 @@ disableKinds = ['taxonomy', 'taxonomyTerm']
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
   BookRepo = 'https://github.com/alex-shpak/hugo-book'
+
+  # Specifies commit portion of the link to the page's last modified commit hash for 'doc' page
+  # type.
+  # Required if 'BookRepo' param is set.
+  # Value used to construct a URL consisting of BookRepo/BookCommitPath/<commit-hash>
+  # Github uses 'commit', Bitbucket uses 'commits'
+  BookCommitPath = 'commit'
 
   # Enable 'Edit this page' links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
@@ -228,21 +261,28 @@ bookComments = true
 
 # (Optional) Set to 'false' to exclude page from search index.
 bookSearchExclude = true
+
+# (Optional) Set explicit href attribute for this page in a menu (if BookMenuBundle not set)
+bookHref = ''
 ```
 
 ### Partials
 
-There are few empty partials you can override in `layouts/partials/`
+There are layout partials available for you to easily override components of the theme in `layouts/partials/`.
 
-| Partial                                            | Placement                              |
-| -------------------------------------------------- | -------------------------------------- |
-| `layouts/partials/docs/inject/head.html`           | Before closing `<head>` tag            |
-| `layouts/partials/docs/inject/body.html`           | Before closing `<body>` tag            |
-| `layouts/partials/docs/inject/footer.html`         | After page footer content              |
-| `layouts/partials/docs/inject/menu-before.html`    | At the beginning of `<nav>` menu block |
-| `layouts/partials/docs/inject/menu-after.html`     | At the end of `<nav>` menu block       |
-| `layouts/partials/docs/inject/content-before.html` | Before page content                    |
-| `layouts/partials/docs/inject/content-after.html`  | After page content                     |
+In addition to this, there are several empty partials you can override to easily add/inject code.
+
+| Empty Partial                                      | Placement                                   |
+| -------------------------------------------------- | ------------------------------------------- |
+| `layouts/partials/docs/inject/head.html`           | Before closing `<head>` tag                 |
+| `layouts/partials/docs/inject/body.html`           | Before closing `<body>` tag                 |
+| `layouts/partials/docs/inject/footer.html`         | After page footer content                   |
+| `layouts/partials/docs/inject/menu-before.html`    | At the beginning of `<nav>` menu block      |
+| `layouts/partials/docs/inject/menu-after.html`     | At the end of `<nav>` menu block            |
+| `layouts/partials/docs/inject/content-before.html` | Before page content                         |
+| `layouts/partials/docs/inject/content-after.html`  | After page content                          |
+| `layouts/partials/docs/inject/toc-before.html`     | At the beginning of table of contents block |
+| `layouts/partials/docs/inject/toc-after.html`      | At the end of table of contents block       |
 
 ### Extra Customisation
 
@@ -252,6 +292,7 @@ There are few empty partials you can override in `layouts/partials/`
 | `assets/_custom.scss`    | Customise or override scss styles                                                     |
 | `assets/_variables.scss` | Override default SCSS variables                                                       |
 | `assets/_fonts.scss`     | Replace default font with custom fonts (e.g. local files or remote like google fonts) |
+| `assets/mermaid.json`    | Replace Mermaid initialization config                                                 |
 
 ### Plugins
 
@@ -271,15 +312,21 @@ There are a few hugo templates inserted in `<head>`
 - [Google Analytics](https://gohugo.io/templates/internal/#google-analytics)
 - [Open Graph](https://gohugo.io/templates/internal/#open-graph)
 
+To disable Open Graph inclusion you can create your own empty file `\layouts\_internal\opengraph.html`.
+In fact almost empty not quite empty because an empty file looks like absent for HUGO. For example:
+```
+<!-- -->
+```
+
 ## Shortcodes
 
-- [Buttons](https://themes.gohugo.io/theme/hugo-book/docs/shortcodes/buttons/)
-- [Columns](https://themes.gohugo.io/theme/hugo-book/docs/shortcodes/columns/)
-- [Expand](https://themes.gohugo.io/theme/hugo-book/docs/shortcodes/expand/)
-- [Hints](https://themes.gohugo.io/theme/hugo-book/docs/shortcodes/hints/)
-- [KaTeX](https://themes.gohugo.io/theme/hugo-book/docs/shortcodes/katex/)
-- [Mermaid](https://themes.gohugo.io/theme/hugo-book/docs/shortcodes/mermaid/)
-- [Tabs](https://themes.gohugo.io/theme/hugo-book/docs/shortcodes/tabs/)
+- [Buttons](https://hugo-book-demo.netlify.app/docs/shortcodes/buttons/)
+- [Columns](https://hugo-book-demo.netlify.app/docs/shortcodes/columns/)
+- [Details](https://hugo-book-demo.netlify.app/docs/shortcodes/details/)
+- [Hints](https://hugo-book-demo.netlify.app/docs/shortcodes/hints/)
+- [KaTeX](https://hugo-book-demo.netlify.app/docs/shortcodes/katex/)
+- [Mermaid](https://hugo-book-demo.netlify.app/docs/shortcodes/mermaid/)
+- [Tabs](https://hugo-book-demo.netlify.app/docs/shortcodes/tabs/)
 
 By default, Goldmark trims unsafe outputs which might prevent some shortcodes from rendering. It is recommended to set `markup.goldmark.renderer.unsafe=true` if you encounter problems.
 

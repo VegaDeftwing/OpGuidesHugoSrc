@@ -44,12 +44,11 @@
         
 
   <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c6f9eeb56e4645ee9ca07afbee7e0462"}'></script><!-- End Cloudflare Web Analytics -->
-
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
     <aside class="book-menu">
-      {{ template "menu" . }} <!-- Left menu Content -->
+        {{ template "menu" . }} <!-- Left menu Content -->
     </aside>
 
     <div class="book-page">
@@ -83,14 +82,14 @@
 
     {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
     <aside class="book-toc">
-      {{ template "toc" . }} <!-- Table of Contents -->
+      <div class="book-toc-content">
+        {{ template "toc" . }} <!-- Table of Contents -->
+      </div>
     </aside>
     {{ end }}
   </main>
-
   {{ partial "docs/inject/body" . }}
 </body>
-
 </html>
 
 {{ define "menu" }}

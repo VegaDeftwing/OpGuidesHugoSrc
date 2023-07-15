@@ -10,7 +10,7 @@ BookEditPath = 'tree/main/content'
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 BookLogo = '/nonfree/logo/opguide2.png'
-BookSearch = false
+BookSearch = true
 
 [markup.goldmark.renderer]
   unsafe = true

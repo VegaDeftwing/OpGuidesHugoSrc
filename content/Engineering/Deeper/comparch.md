@@ -1,5 +1,7 @@
 # Chapter 37 - Let's make our own CPU
 
+<!-- http://www.visual6502.org -->
+
 [How To Make A CPU - A Simple Picture Based Explanation (RobertElder)](https://blog.robertelder.org/how-to-make-a-cpu/)
 
 {{< tip >}}

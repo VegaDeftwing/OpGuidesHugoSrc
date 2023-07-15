@@ -1,18 +1,10 @@
 {{ define "main" }}
 <article class="markdown">
   <h1>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <a href="{{ .RelPermalink }}">{{ partial "docs/title.html" . }}</a>
   </h1>
   {{ partial "docs/post-meta" . }}
-  <p>
-    {{- .Content -}}
-    {{- $jsFile := .Title | anchorize -}}
-    {{- $pathJS := (printf "%s%s%s" "js/posts/" $jsFile ".js" ) -}}
-
-    {{- if (fileExists (printf "%s%s" "static/" $pathJS)) -}}
-      <script type="text/javascript" src="{{ $pathJS | absURL }}"></script>
-    {{- end -}}
-  </p>
+  {{- .Content -}}
 </article>
 {{ end }}
 

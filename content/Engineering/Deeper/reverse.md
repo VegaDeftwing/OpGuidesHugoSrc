@@ -78,6 +78,8 @@ If all else fails, there's always the ever-unfriendly hex-editor at your disposa
 
 {{< attribution >}}Example image from [the Hobbits Github repo](https://github.com/Mahlet-Inc/hobbits){{< /attribution >}}
 
+There's also [fq](https://github.com/wader/fq) which is a super nice tool for working with binary formats. Or maybe [Poke](http://www.jemarch.net/poke).
+
 {{< /columns >}}
 
 #### Networking:

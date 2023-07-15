@@ -88,6 +88,8 @@ Software Defined Networking, ActivityPub
 
 https://github.com/ValdikSS/GoodbyeDPI
 
+[I may be the only evil (bit) user on the internet (Ben Cox)](https://blog.benjojo.co.uk/post/evil-bit-RFC3514-real-world-usage)
+
 [TODO] Add follow along making a network stack
 
 [TODO] https://iximiuz.com/en/posts/computer-networking-101/

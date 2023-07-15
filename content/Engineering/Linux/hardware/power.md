@@ -20,3 +20,4 @@ Main takeaway here, if someone is talking about an ATX PSU they're talking about
 
 [TODO]
 
+<!-- TODO https://github.com/RRZE-HPC/likwid has some stuff that might be nice for power profiling -->

@@ -1,5 +1,9 @@
 # Appendix 1 - Using the Linux Shell
 
+<!-- TODO: Add xprop, xev, xrandr, xinput to command list -->
+
+<!-- Alt + <num> + . shortcut, and other navigation tricks grouped together -->
+
 [./missing-semester - The Shell](https://missing.csail.mit.edu/2020/course-shell/)
 
 [./missing-semester - Shell Tools and Scripting](https://missing.csail.mit.edu/2020/shell-tools/)

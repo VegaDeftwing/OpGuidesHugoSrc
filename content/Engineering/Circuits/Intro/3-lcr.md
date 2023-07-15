@@ -20,6 +20,8 @@ potentiometer read from Arduino full range (center tap or max resistor)
 
 [TODO]
 
+[Kemet Capacitor Simulator](https://ksim3.kemet.com/capacitor-simulation)
+
 [True, Reactive, Apparent & Deformed Power](https://www.youtube.com/watch?v=cxXmWZDwNEs&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
 
 [Why electrolytic capacitors are actually kinda shitty 💩 (YouTube)](https://www.youtube.com/watch?v=WytU5uj78-4&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)

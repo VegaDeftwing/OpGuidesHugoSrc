@@ -1,6 +1,18 @@
 
 
-# Neography:<br>Information Exchange, Language, Optimization, & Tradition
+# Neography:<br>Information Exchange & Optimization
+
+TODO: Papers from https://modlang.unl.edu/dr-isabel-vel%C3%A1zquez, https://modlang.unl.edu/dr-patricia-simpson, 
+
+Complete reading Art of Language Invention
+
+Mention intonantinon - how does that work in written text?
+
+I want to make all of this less English centric.
+
+
+
+
 
 <link rel="stylesheet" href="/css_overrides/light.css">
 
@@ -8,53 +20,189 @@ I would like to exchange information with you about the exchange of information.
 
 ---
 
-I already have a page on this website about {{< button relref="Other/conlangs/tokipona" >}} toki pona {{< /button >}} , one **con**structed **lan**guage or "conlang" that I particularly enjoy. Being in its community, I've been introduced to many interesting ideas in the conlang and the adjacent **con**structed **scripts** (conscript) communities. 
+Broadly speaking, what is the purpose of language?
 
-{{< smalltext >}}Also sometimes called "neoscript", I assume to avoid the existing usage of the term meaning to enlist in the armed services{{< /smalltext >}}
+To communicate ideas and knowledge.
 
-In these communities, I have seen some absolutely crazy shit:
+Now, *usually*, the intent is to do this:
 
-[Burgerscript here]
+* As accurately as possible
+* As succinctly as possible 
+* As unambiguously as possible 
+* In a way that humans can pronounce
 
-Of course, most of what's on display here isn't this ridiculous (or frankly low effort). Some of these conscripts are for conlangs - fully new languages that need their own writing system as no existing system would even work.
+Now, some of those can interfere. If we strive for absolute accuracy and no ambiguity, we increase verbosity. 
 
-Some only make new symbols for existing alphabets - yes, like BurgerScript - 
+We could make a sentence as simple as "Get in my car" into "Get into the blue with four doors car which I own contingent upon paying off the loan". One has way to much detail and makes you wonder about my level of concern with my financials and if I have another blue car but with less doors.
+
+On the other hand, if I just say "Get in a car", you might wonder which car.
+
+Similar thoughts, with analogues concerns, apply to written characters and symbols.
+
+So, here's the question: For what we desire to communicate, what do our systems of writing and speaking lack.
+
+---
+
+I already have a page on this website about {{< button relref="Other/conlangs/tokipona" color="other" >}} toki pona {{< /button >}} , one **con**structed **lan**guage or "conlang" that I particularly enjoy. Being in its community I've been introduced to many interesting ideas in the conlang and the adjacent **con**structed **scripts** (conscript) communities - also sometimes called "**neoscript**", I assume to avoid the existing usage of the term meaning to enlist in the armed services
+
+{{< columns >}}
+
+In these communities, I have seen some absolutely unhinged ideas:
+
+<img src="/other/burgerscript.webp" style="border-radius:1em;">
+
+<--->
+
+</br>
+
+Of course, most of what's on display here isn't this ridiculous. Some of these neoscripts are for conlangs - fully new languages that need their own writing system as no existing system would even work.
+
+Some only make new symbols for existing alphabets - like BurgerScript. 
 
 Some dramatically challenge the idea of what it means to "write" something. 
 
-Some are used for building a world and culture in a fictional story - like Elvish in Lord Of The Rings
+Some are used for building a world and culture in a fictional story: like Elvish in Lord Of The Rings.
 
-Some as a form of artistic expression, 
+Some serve as a form of artistic expression.
 
-Some in an attempt to make a writing system that [fits an existing language better](https://www.omniglot.com/conscripts/finnishscript.htm) than system used today. 
+{{< /columns >}}
+
+Some are an attempt to make a writing system that [fits an existing language better](https://www.omniglot.com/conscripts/finnishscript.htm) than system used today. 
 
 Some are made to allow for sharing or concealing messages in mediums that wouldn't normally be thought of as places thoughts could be recorded at all.
 
 So, let's look at some scripts, what makes them interesting, and talk about what we can learn from them.
 
-To get started, I want to look at scripts that have particularly interesting applications - that is, scripts which exist because the typical writing systems don't work well for their applications
+{{< tip >}}
 
-* https://www.curseforge.com/minecraft/mc-mods/hexcasting (or https://www.omniglot.com/conscripts/gridika.htm or https://www.omniglot.com/conscripts/gernreich.htm)
-* Nail Script
-* https://omniglot.com/conscripts/pixelscript.htm (or https://www.omniglot.com/conscripts/kfg.htm)
+I'm going to try to focus on scripts and not languages, but trying to separate the two is difficult as scripts serve no purpose if they have no language in which to convey that meaning.
 
-There's some that are well suited to hiding messages
+{{< /tip >}}
 
-* https://www.omniglot.com/conscripts/baduk.htm
-* Mention steganography as a whole
+To get started, I want to look at scripts that have particularly interesting applications - that is, scripts which exist because the typical writing systems don't work well where they're used.
 
-Intriguingly, some use an existing language, but instead of just mapping the letters to new symbols change the way  we think about a 'character' all together. Of these, I particularly like [fontok](https://www.omniglot.com/conscripts/fontok.htm) which adds a significant number of characters as each *sound* (not character) in English is given its own symbol.
+## (Somewhat) Practical Neoscripts
 
-Next, I'd like to look at some scripts that stood out to me as having a strong "for non-humans this would be good" flavor,
+There's one of these you probably already know of, as you've probably seen a fair number of 7-segment displays in your life.
 
-* https://www.omniglot.com/conscripts/scar.htm
-* https://www.omniglot.com/conscripts/12480.htm
+<span class="conlang" style="font-size:1.2em;">󿜿 󿜆 󿝛 󿝏 󿝦 󿝭 󿝽 󿜧 󿝿 󿝯 󿝷 󿝼 󿜹 󿝞 󿝹 󿝱 󿜽 󿝶 󿜅 󿜞 󿝴 󿜸 󿜫 󿜷 󿝫 󿝳 󿝧 󿜱 󿜭 󿜇 󿜾 󿝪 󿝾 󿝉 󿝮 󿜛 󿝙<span>
 
-In programming, there's this idea of domain specific languages. These are programming languages that don't really do everything - instead they do one thing really well. The most famous two are regex and SQL. I think you can apply that idea can apply in other niches too. If you think about *speech* vs *writing* vs *signing* vs *braille* and how each can have multiple co-existing (or competing) standards / systems, it's really not a stretch 
+Now, you could probably debate if this is a new script or just a font, since clearly the intent is to show Latin characters - but because of the limitation being so severe, I think it counts.
 
-* Rhapsodaic (emotions)
+But, more true to the actual spirit, lets start with [HexCasting](https://www.curseforge.com/minecraft/mc-mods/hexcasting), a Minecraft mod which requires the user learn to write spells into this hexagonal grid,
+
+![](https://media.forgecdn.net/attachments/456/342/screenshot1.png)
+
+Okay, neat, but maybe that's a contrived example - it's solving a problem that could've been done by just letting the user type out commands (albeit that would be less fun). So, what about working around a real limitation...
+
+[Pixelscript](https://omniglot.com/conscripts/pixelscript.htm) exists for people working on pixel art. At extremely low resolutions, there's just not room to add a normal signature and have it be legible anyway <a class="ptr">(1)</a>. Unlike with the 7-segment display Script/Font, this doesn't try to look like an existing alphabet.
+
+![img](https://omniglot.com/images/langsamples/udhr_pixelscript.gif)
+
+{{< attribution >}}From [omniglot.com](https://omniglot.com/conscripts/pixelscript.htm). Text is *"All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood."* which is Article 1 of the Universal Declaration of Human Rights{{< /attribution >}}
+
+Of course, there are other cases of fitting in writing when the tools or space for doing so are limited. I particularly like [Nailscript](https://omniglot.com/conscripts/nailscript.htm) for its simplicity in construction, compactness, and use of the 3rd dimension as nails lay over one another. 
+
+When I tried writing my name I did realize you might want to wear ear protection when using this script!
+
+![NailScript for English - Single Row Version](https://omniglot.com/images/writing/nailscript1.gif)
+
+![Sample text in the Nail Script - Rats Nest style](https://omniglot.com/images/langsamples/udhr_nailscript4.gif)
+
+{{< attribution >}}Again from [omniglot.com](https://omniglot.com/conscripts/nailscript.htm), and again this is Article 1 of the Universal Declaration of Human Rights {{< /attribution >}} 
+
+As you can imagine, there's many more of these, but maybe Nailscript got you thinking, there's another use here - hiding messages!
+
+## Hiding Messages
+
+Hiding messages is an art form of itself, and can have a myriad of different requirements:
+
+* Maybe you want any onlooker in the know to be able to decode the message
+* Maybe you want it to be difficult to see there's a message at all
+* Maybe you want it to be obvious there's a message and make it difficult to decode
+* etc. etc.
+
+This does start to go into a conversation about [steganography (Wikipedia)](https://en.wikipedia.org/wiki/Steganography). <a class="ptr">(2)</a>
+
+{{< quote "[Wikipedia](https://en.wikipedia.org/wiki/Steganography)" >}}
+
+**Steganography** is the practice of representing information within another message or physical object, in such a manner that the presence of the information is not evident to human inspection. In computing/electronic contexts, a computer file, message, image, or video is concealed within another file, message, image, or video.
+
+{{< /quote >}}
+
+{{< columns >}}
+
+I have even made a tool for hiding binary data into the least significant bits of .WAV files (and it's even GPU accelerated!), and I suppose that means you could do something like stack ideas, using one of the few-pixel fonts with a binary data visualization tool like hobbits (pictured) but that's a bit meta.
+
+<--->
+
+![](https://github.com/Mahlet-Inc/hobbits/raw/master/docs/hobbits_screenshot.png)
+
+{{< attribution >}}Example image from [the Hobbits Github repo](https://github.com/Mahlet-Inc/hobbits){{< /attribution >}}
+
+{{< /columns >}}
+
+To avoid losing the topic of this page, let's look at a few scripts that fill this function:
+
+* [Babuk](https://www.omniglot.com/conscripts/baduk.htm) can be used to hide messages in a game of Go
+
+## Same language, new system
+
+Intriguingly, some neoscripts use an existing language but instead of just mapping the letters to new symbols change the way we think about a 'character' all together. 
+
+<div style="float: right; width: 30%;">
+<img src="https://www.omniglot.com/images/langsamples/udhr_fontok.gif" style="border-radius:.4em;filter: sepia(40%) hue-rotate(-50deg);">
+
+{{< attribution >}}Example text in Fontok. Again, this image is from [omniglot](https://www.omniglot.com) and is Article 1 of the Universal Declaration of Human Rights{{< /attribution >}}
+
+</div>
+
+Of these, I particularly like [fontok](https://www.omniglot.com/conscripts/fontok.htm) which adds a significant number of characters as each *sound* (not character) in English is given its own symbol. Of course it doesn't hurt that text written in fontok is breathtakingly beautiful.
+
+<br style="clear: both;">
+
+## World Building
+
+Getting into the more artistic uses, in *[The Art of Language Invention](https://www.amazon.com/Art-Language-Invention-Horse-Lords-World-Building/dp/0143126466)* by David J. Peterson - the guy who made Dothraki for *A Song of Ice and Fire* / *Game of Thrones* - discusses how Dothraki wasn't just a jumble of foreign looking language ideas but was informed by the culture of its fictional speakers and built up around their ideas and values. This same attitude applies to the script [which is on omniglot as well](https://omniglot.com/conscripts/dothraki.htm). 
+
+Perusing omniglot there were some scripts that stood out to me as having a strong "for non-humans this would be good" flavor - these really make sense if you want to make a world feel alive for more than just the humans in it.
+
+* [Scar](https://www.omniglot.com/conscripts/scar.htm) looks to be a good option for creatures lacking the dexterity afforded by fingers
+* [12480](https://www.omniglot.com/conscripts/12480.htm) looks well suited to something which would communicate with binary but need a way for it to be legible to meat-based creatures if necessary.
+
+There are many, many more that have been used for creating fictional fantasy or sci-fi stories of course. The most obvious that everyone knows is Tolkien's various languages from the *Lord of the Rings* trilogy and related works, such as Quenya (which is written in Tengwar),
+
+<div class="conlang">
+    <blockquote>             </blockquote>
+</div>
+
+{{< attribution >}}This font is [Fairfax HD](https://www.kreativekorp.com/software/fonts/fairfaxhd/) by [KreativeKorp](www.kreativekorp.com), which is licensed under the [open font license](https://github.com/kreativekorp/open-relay/blob/master/FairfaxHD/OFL.txt) It is used for all of the conlang displays on this page which are not static images. Some of the examples on this page are also copied directly from that page. {{< /attribution >}}
+
+Of course, even for humans just having a new script and language alone can go a long way. 
+
+## Domain Specific ~*Languages*~
+
+In programming, there's this idea of domain specific languages. These are programming languages that don't really do everything - instead they do one thing really well. The most famous two are [regex (Wikipedia)](https://en.wikipedia.org/wiki/Regular_expression) and [SQL (Wikipedia)](https://en.wikipedia.org/wiki/SQL). I think you can apply that idea can apply in other niches too. If you think about *speech* vs *writing* vs *signing* vs *braille* and how each can have multiple co-existing (or competing) standards / systems, it's really not a stretch of the imagination.
+
+My friend jan Usawi recently made a fantastic language called {{< button relref="Other/conlangs/rhapsodaic" color="other" >}} Rhapsodaic {{< /button >}} which is detailed on this website, but as a TL;DR: Rhapsodaic, as a core design philosophy, values preserving emotional meaning over all else... and I mean all. It means the actual meaning <s>might</s> will be ambiguous, but you'll definitely know how the speaker is feeling and it can be said more accurately than in most any other language. It's also very pretty as a script.
+
+Where I see it as particularly interesting is using it along side a native language to either add context or clarity to something that's already written or have it be intermixed, mid sentence, with the native language as necessary - similar to how Regex and SQL are used in programming, sprinkled into other code written in a more capable but less in specific purpose language.
+
+This really got me thinking about what else we could do to make specific languages for talking or writing about different subjects. I mean, to some extent this is already extremely common. From musical notation to circuit diagrams we've agreed on symbols to use as a short hand and each has their own grammar for making sensible structures.
+
+
 
 But, I do want to wrap back around to that programming idea briefly. There are some programming languages that are pretty radically different in the way we input and output information, so while they may not be "writing systems" in the traditional sense, I think they're worth a look in this list.
+
+
+
+Open SCAD
+
+Orca
+
+Geometry Nodes
+
+
 
 
 
@@ -63,6 +211,8 @@ If you're into DSLs,
 https://www.omniglot.com/conscripts/conway.htm
 
 Ligatures? Old school ascii art fonts. Emoji + unicode, Visual programming (node based)
+
+Zoia, VCV
 
 
 
@@ -81,7 +231,6 @@ Finally, there's some really, really bizzare ones I want to mention
 
 * Pipeline 3D
 * Conway Script
-* [Burgerscript](https://www.reddit.com/r/neography/comments/x4134o/guide_to_writing_with_burgerscript/)
 * https://www.omniglot.com/conscripts/alfakinetix.php
 * https://www.omniglot.com/conscripts/betamaze.htm (also see https://www.omniglot.com/conscripts/patternscript.htm and https://www.omniglot.com/conscripts/spintype.php)
 * https://www.omniglot.com/conscripts/6color.php
@@ -89,13 +238,69 @@ Finally, there's some really, really bizzare ones I want to mention
 
 ---
 
-* Music - Trackers? Hummingbird Dodeka Clairmore
+## Music
 
-https://www.hummingbirdnotation.com
+Sometimes people will say that "Musical notation is a universal language among musicians"
 
-https://www.dodekamusic.com
+and, uh, I have to call BS. It's <s>great</s> fine if you want to convey the idea as expressible by the instruments of western traditions for classical arrangements, but it's not universal. Its popularity sure helps, but that popularity does mean many ideas which probably shouldn't be written or evaluated with the script are stuck using it. So, what else is there?
 
-https://clairnote.org
+Well, most any guitarist will be familiar with tabs,
+
+<pre>
+e|---------------------------------------------------------------|
+B|---------------------------------------------------------------|
+G|-----------------------------------2---------------------------|
+D|------------------2------4---5--4-------5---4--------2---------|
+A|---------------------------------------------------------------|
+E|---------------------------------------------------------------|
+
+
+e|---------------------------------------------------------------| 
+B|----2--3--2--2-0-----------------------------------------------| 
+G|--4--------2-------------0--2------0---------------------------| 
+D|-------------------0---2------4--2---4--2-4--------------------| 
+A|-----------------2--------------------------5---7--------------| 
+E|---------------------------------------------------------------|
+
+</pre>
+
+{{< attribution >}}
+
+Part of the theme for the Halo games, ripped from ultimate-guitar.com, which is a dumpster fire of a website which I will not link directly to.
+
+{{< /attribution >}}
+
+Which can have various flavors of markings, including using `~` for vibrato, putting `X`'s above the lines for palm mutes, `/` for sliding from one fret to another, etc. It's a bit crude compared to sheet music and requires your guitar's tuning match the one listed, but it's quite easy to read.
+
+But music today is often made in a piano roll,
+
+[TODO] picture
+
+and has historically been made in trackers,
+
+[TODO] picture
+
+In either case, the notes can carry a lot of added information - pitch bend (now sometimes per-note) and multiple data streams to represent the virtual turning of knobs. That interface is a writing system of sorts - you could even argue different input devices and instruments, as long as they're just giving a computer digital data, are really just different writing utensils.
+
+There have been some efforts to make new music notation systems [Hummingbird](https://www.hummingbirdnotation.com) and [Clairnote](https://clairnote.org) both make moderate improvements (depending on who you ask) to the existing common music notation system, but don't really attempt to totally reinvent the wheel. [Dodeka](https://www.dodekamusic.com) goes a bit further, but mostly feels like an advert for a piano that just flattens the keybed.
+
+{{< columns >}}
+
+Where things can get more interesting is in attempts to use microtonality, (more than 12 notes per scale), but, again, most implementations are just modifications to common notation.
+
+<--->
+
+<iframe width="100%" height="250" src="https://www.youtube.com/embed/y_nQgNKSl5Y" title="Rare Chords: Supermothrian Polychords | Maj7b4b8♮13‡14⇂16b23 (harmony in 31-edo)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+{{< /columns >}}
+
+{{< speech >}}
+
+This I find frustrating. Musical notation, I feel, needs some help to convey information as our musical ideas become more dependent on the changes in timber and tonality that are possible with effects and synthesizers in a way the notation that is so old just can't keep up with.
+
+{{< /speech >}}
+
+I should also point out there are other musical notation systems from cultures I am less familiar with. The [Musical Notation Wikipedia page](https://en.wikipedia.org/wiki/Musical_notation) shows some of these, but I'm not even sure how to go about research most of these in depth.
 
 https://ofb.net/~elaforge/karya/doc/overview.md.html
 
@@ -103,7 +308,7 @@ microtonal stuff
 
 Orca + that hex one
 
-
+## Everyday use, Emoji, Math, ...
 
 {{< speech triode >}}
 
@@ -145,13 +350,15 @@ Yet, there is still some fun to be had in this line of thought. If I type out
 
 "Hello World"
 
-That string of text is being stored, transferred across the great series of tubes, and being understood by your computer as Binary. Does that make binary - or any base for that matter - it's own language? What if we display it in an interesting way like Hobbits does:
+That string of text is being stored, transferred across the great series of tubes, and being understood by your computer as Binary. Does that make binary - or any base for that matter - it's own language? What if we display it in an interesting way like Hobbits does, as shown above.
 
 
 
-Does showing an audio spectogram qualify as a writing system? I think it can. Someone trained to do so could absolutely look at waveform or spectogram of a recording to understand what was being said.
+Does showing an audio spectogram qualify as a writing system? I think it can. Someone trained to do so could absolutely look at waveform or spectogram of a recording to understand what was being said - this idea has been taken further, see [Elektrum (omniglot.com)](https://omniglot.com/conscripts/elektrum.htm).
 
-This quickly devolves into interpreting encodings as their own "language" which, like, I *guessssss* could have an argument made for, but it's a stretch. Still, I think there's value in the metaphor, and especially for the technically inclined, thinking about encodings and APIs as forms of communication and taking inspiration from the conlang and conscript community can only stand to bring about clever, innovative ideas in storage, compressing, representation, and elegance. I think that's worth being open to. But lets come back to that - 
+
+
+This quickly devolves into interpreting encodings as their own "language" which, like, I *guessssss* could have an argument made for, but it's a stretch. Still, I think there's value in the metaphor, and especially for the technically inclined, thinking about encodings and APIs as forms of communication and taking inspiration from the conlang and conscript/neoscript community can only stand to bring about clever, innovative ideas in storage, compressing, representation, and elegance. I think that's worth being open to. But lets come back to that - 
 
 {{< speech triode >}}
 
@@ -167,9 +374,60 @@ tools of communication - keyboards, hand gestures, voice, graphs, braille, etc. 
 
 Encodings
 
-How does this tie in to the current AI boom
+## Tone markers & txting styl 
 
-How does culture affect things- meme culture vs business culture. Expectactions of attention span. Goals: Persausion and adversion to it.
+If I'm in the car with someone and they ask me to send a text for them, I get uncomfortable because I don't know *how* they text.
+
+Think about texting someone young that you've texted every day for years, they *probably* don't normally put full stops/periods at the end of sentences, so when they text
+
+> Hey. We need to talk.
+
+That's a different text from
+
+> Hey we NEED to talk
+
+Which is different from
+
+> hey. we need 2 talk
+
+I mean, most people would find any of the above alarming, but 1. probably has you going "Ah shit." while 2. has you frantically trying to figure out why and hoping that it's not something you did, while 3. might have you concerned about their happiness.
+
+Related, usage of `\s` and other [tone markers could be better](https://www.youtube.com/watch?v=3bYXy1jT3m8).
+
+So, what if we just had some additions to the way we represent text? I'm not going to pretend to have any good ideas for what this would be, but 🤷‍♂️ it's a thought.
+
+Somewhat related, I really wish emoji would display consistently on different platforms. It boggles my mind that it's a crap shoot for if 🏳️‍⚧️ is a trans flag, or a trans symbol followed by a white flag (⚧️🏳️). Pride or surrender? 
+
+## How does this tie in to the current AI boom?
+
+I don't know if tools like ChatGPT will be something we all use every day. I also don't know if I *like* it. I have a big ol' blog post about it, {{< button relref="/posts/ai2" color="gradient-border2">}} Does It Still Count As A Tool? {{< /button >}} ,
+of which the TL;DR is that I like computers to be deterministic and to feel in control, but using natural language makes me feel like I'm losing some of that, but I also appreciate its utility.
+
+I do wonder if there's room (or necessity) for changes to languages and scripts to fill in some gaps here? 
+
+Would it be good to have a sort of water-mark font that is used to say "An AI wrote this" - maybe having a reserved space in Unicode for it?
+
+Obviously, this would depend on people not intentionally putting it back into the "human use" fonts, which would absolutely happen anyway. There might be some cryptographic way this could be done, but that assumes nobody will just run the generators locally to avoid this and that nobody would want to only partially alter the output - so not a great call. Plus this does sound like a massive pain, doubly so for users with accessibility needs.
+
+What about putting tone indication or other elements into the UI or responses?
+
+{{< speech ai >}}
+
+AI systems could incorporate symbols or icons to indicate the tone of their responses. For example, a thumbs-up symbol could represent a positive or affirmative tone, while a warning sign could indicate caution or a serious tone. These visual cues help users quickly grasp the intended tone of the AI's message, even without relying on punctuation or writing style variations.
+
+{{< /speech >}}
+
+I think applying this the other way could be interesting too. What if we had bots to tell us what the tone of a received message probably is? As an accessibility tool that could be useful. Going a little into black-mirror territory, this could even be used to intentionally filter things. If the text to be shown is interpreted as being overly persuasive and so likely to be advertising, it could be rendered in a different font so the user can be trained to know to take it with a gain (or heaping pile of) salt. This could get pretty nuts.
+
+## Use in Art
+
+Conglangs and Neoscripts both have an obvious use in art, be it for stories, poetry, images, or music.
+
+Interestingly, even the discussion of language itself can be moving and artistic, as anybody who has seen Arrival (2016) can attest to,
+
+<img src="/other/arrival.webp" style="border-radius:.4em;filter: sepia(70%);">
+
+
 
 Art - espically obviously political pieces? Music performance?
 
@@ -218,5 +476,19 @@ Simple, Fast, Expressive, Style points (does it look good)
 
 Before we wrap up, I want to say there's an *insane* number of scripts I was unable to link here that I thought were more than deserving of being featured. It's also notable that the only language I speak fluently is English, so my ability to even appreciate the scripts and conlangs more heavily rooted in other cultures is significantly more limited. This has lead me to not feature any of the beautiful scripts that are heavily inspired by existing, natural Arabic, Asian, or braille scripts. If you'd like to see more, I highly encourage you to dive into this yourself and take a stroll though the conscript world without my biases filtering it.
 
-Two great places to get started are  https://www.omniglot.com , [r/neography](https://www.reddit.com/r/neography/), http://www.skyknowledge.com/perssonsscripts , 
+## Resources
+
+Obviously this page is littered with links to [omniglot.com](https://www.omniglot.com) and I can not express enough gratitude to Simon Ager for all the effort that must go into maintaining such an incredibly large resource.
+
+Additionally, [r/neography](https://www.reddit.com/r/neography/) has some great posts and is awe inspiring to scroll through.
+
+Other links you may want to check out include:
+
+* http://www.skyknowledge.com/perssonsscripts
+
+<ol hidden id="footnotes">
+    <li>FWIW, I think <a href="https://www.omniglot.com/conscripts/kfg.htm">KFG</a> may be a better choice if you're working at only a moderately low resolution, as while it's still not a text anybody can read super easily, it's more recognizably text at all, and the differention between glyphs makes it a hair easier to read.</li>
+    <li>Not to be confused with Stenography, which is the process of writing in shorthand. Most commonly today this term is used to talk about how court reporters use special keyboards.</br>Also not to be confused with Stegography, the process of writitng with the tail of a Stegosaurus.</li>
+</ol>
+
 
