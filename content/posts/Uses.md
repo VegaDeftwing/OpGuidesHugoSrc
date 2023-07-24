@@ -2,7 +2,7 @@
 title: "/Uses - Vega Deftwing"
 slug: "uses"
 author: "Vega Deftwing"
-date: 2023-07-15
+date: 2023-07-23
 draft: false
 tags:
 - music
@@ -14,7 +14,7 @@ tags:
 
 This is a [uses](https://uses.tech) page.
 
-I want to preface everything by saying I am very fortunate to have all of the *stuff* I have. I like my *stuff*. But, ultimately, it's just *stuff*. I know I do not use any of it to it's maximum potential. It makes me happy to have it, but I also don't *need* the vast, vast majority of it to accomplish the majority of what I want to accomplish.  If you have less money, less *stuff*, then do not feel bad. It's what *you do* with *what you have* that matters. I do a lot less with a lot more than some of the people that inspire me the most.
+I want to preface everything by saying I am very fortunate to have all of the *stuff* I have. I like my *stuff*. But, ultimately, it's just *stuff*. I know I do not use any of it to its maximum potential. It makes me happy to have it, but I also don't *need* the vast, vast majority of it to accomplish the majority of what I want to accomplish.  If you have less money, less *stuff*, then do not feel bad. It's what *you do* with *what you have* that matters. I do a lot less with a lot more than some of the people that inspire me the most.
 
 Ultimately, this is effectively a list of my toys.
 
@@ -44,17 +44,19 @@ For displays, I have a 3 x 4k setup. All 60Hz. All 27". All in one horizontal ro
 
 To go with the monoprice tablet, I have a [BDN9](https://keeb.io/collections/bdn9-collection/products/bdn9-rev-2-3x3-9-key-macropad-rotary-encoder-and-rgb) macropad with 7 switches and two encoders. I have this mapped to a plethora of function in Krita. Having physical knobs for some controls makes digital art much more enjoyable.
 
-I also have an Oculus Quest2 that has 3D printed adapters to turn it into a "FrakenQuest" using the HTC Vive's Audio Strap. I'm quite happy with this, though it does have some problems. Honestly, the worst part of the setup is Meta's insistence on updates that frequently cause me issues and make me sign back in, taking hours everytime I just want to play VRChat through SteamLink.
+I also have an Oculus Quest2 that has 3D printed adapters to turn it into a "FrakenQuest" using the HTC Vive's Audio Strap. I'm quite happy with this, though it does have some problems. Honestly, the worst part of the setup is Meta's insistence on updates that frequently cause me issues and make me sign back in, taking hours every time I just want to play VRChat through SteamVR.
+
+Rounding out the displays, I often play games with friends over a SteamLink connected to cheap projector.
 
 <img src="/hci/ergodone.webp" style="border-radius:1em;">
 
-I use an Ergodone, a clone of the Ergodox, with Kalith Box White switches. They feel similar-ish to Cherry Blues, but a bit chonkier. I'd like to get a nice SA profile keyset for it, but, $$$. I type in <kbd>D</kbd><kbd>V</kbd><kbd>O</kbd><kbd>R</kbd><kbd>A</kbd><kbd>K</kbd> instead of QWERTY. [My keymap](https://github.com/qmk/qmk_firmware/blob/master/keyboards/ktec/ergodone/keymaps/vega/keymap.c) has lots of extra goodies to let me type a lot of unicode characters directly. I also have a numpad between the two halves for the very occasional Blender usage (not pictured)
+I use an Ergodone, a clone of the Ergodox, with Kailh Box White switches. They feel similar-ish to Cherry Blues, but a bit chonkier. I'd like to get a nice SA profile keyset for it, but, $$$. I type in <kbd>D</kbd><kbd>V</kbd><kbd>O</kbd><kbd>R</kbd><kbd>A</kbd><kbd>K</kbd> instead of QWERTY. [My keymap](https://github.com/qmk/qmk_firmware/blob/master/keyboards/ktec/ergodone/keymaps/vega/keymap.c) has lots of extra goodies to let me type a lot of unicode characters directly. I also have a numpad between the two halves for the very occasional Blender usage (not pictured)
 
 My mouse at home is a Roccat Tyon. I love the lil' fin on it and have a mapping that lets me very easily navigate and control i3WM when I'm in Linux. It's also fantastic for gaming... mostly. The "analog stick" on the side is a legitimately useful idea, but occasionally it will make some games very determined to think you're using a controller and not mouse + keyboard. Still, when it works it's fantastic. At work I use an MX Master like everyone else, as well as an Ergodox with Cherry Browns, which is the loudest switch type my employer allows.
 
 For game controllers I use a Steam Controller for anything where it wants to work and a cheap XBox controller when it complains.
 
-I also have USB foot controller attached to my computer both at work and at home. At home I use a Stinky Footboard that I gutted and replaced the microcontroller in so that it runs QMK, like my keyboard. At work I only needed one extra key so I bought [this pedal](https://www.amazon.com/gp/product/B00EF9D2DY) and threw a Raspberry Pi Pico in there running an HID device program. This is convenient because it shows up as a flash drive, making it easy to change what the pedals does compared to the pain of setting up QMK.
+I also have USB foot controller attached to my computer both at work and at home. At home I use a [Stinky Footboard](https://www.kickstarter.com/projects/289858283/stinky-the-gaming-footboard-step-up-your-game) that I gutted and replaced the microcontroller in so that it runs QMK, like my keyboard. At work I only needed one extra key so I bought [this pedal](https://www.amazon.com/gp/product/B00EF9D2DY) and threw a Raspberry Pi Pico in there running an HID device program. This is convenient because it shows up as a flash drive, making it easy to change what the pedals does compared to the pain of setting up QMK.
 
 I use a [Razer Kiyo Pro](https://www.razer.com/streaming-cameras/razer-kiyo-pro) as my main webcam sitting atop my middle monitor. Aside from Razer's insistence on installing their shitty software, it's great.
 
@@ -78,7 +80,7 @@ For a mic, I use the AT2020 like everyone else. I got tired of trying to get a v
 
 ![286Sfront_lg_full_width](/fairuse/other/286Sfront_lg_full_width.webp)
 
-For headphones, I almost always use the [Beyerdynamic DT770](https://north-america.beyerdynamic.com/dt-770-pro.html)'s. They're not a million bucks, but sound great.
+For headphones, I almost always use the [Beyerdynamic DT770](https://north-america.beyerdynamic.com/dt-770-pro.html)'s. They're not a million bucks, but sound great. If you pay attention to musicians on YouTube, you'll probably see the same headphones atop most of their heads.
 
 When I just want to listen and am in the mood for something really fun, I'll bust out the [Grado SR125](https://gradolabs.com/headphones/prestige-series/item/129-sr125x)'s which have enough impact in the percussion and a fun enough character to make rock sound really pump me up. My set is modified with removable cables and I've replaced some of the plastic bits with metal - adding to the weight a smidge, but dramatically improving my comfort in bringing them literally anywhere. The mods were pretty in depth though, and not something I'd recommend due to the high risk of breaking something. I've also had problems with hair getting through the mesh and stuck ratting next to the drivers, which is super annoying to fix.
 
@@ -439,7 +441,7 @@ You can never have too many VCAs.
 
 * [Patching Panda Particles](https://patchingpanda.com/particles)
 
-  [TODO]
+  I haven't really decided if I like this module yet, but the idea is that it'll let me do ratchets and drum trigger effects easily.
 
 #### Filters
 
@@ -593,7 +595,7 @@ I ordered a set of [USB cable testers](https://github.com/alvarop/usb_c_cable_te
 
 Because I have some [Dangerous Things](https://dangerousthings.com) in my hands, having a [Proxmark3 Easy](https://dangerousthings.com/product/proxmark3-easy/) *on hand* (pun intended) has proven quite *handy*.
 
-Binders for parts
+While most of my bigger parts live in those big arrays of slide-out plastic boxes, the small ones (resistors, transistors, diodes, most caps, etc.) live in antistatic bags inserted into baseball card sleeves in 3-ring binders. This is beautifully space efficient and by keeping things sorted by value it makes finding parts a breeze.
 
 ### Misc
 
@@ -648,11 +650,31 @@ I went through a ton of wallets before getting a Mighty Wallet. Now each one las
 
 ## Clothes
 
-  To complete the look of punk teenager / hackerman even though I'm well into my 20's, I wear my jacket any time I get the chance:
+{{< columns >}}
 
-[TODO] picture here.
+To complete the look of punk teenager / hackerman even though I'm well into my 20's, I wear my jacket any time I get the chance.
+
+<--->
+
+<img src="/nonfree/blog/jacket.webp" style="border-radius:1em;">
+
+{{< /columns >}}
 
 # Software
+
+Before I get into the software list, I want to talk about the type of software I've struggled with the most over the years: Task management. I have tried
+
+* [Masterplan](https://solarlune.itch.io/masterplan)
+* [Condution](https://www.condution.com)
+* [Habitica](https://habitica.com/static/home)
+* Taskwarrior + [taskwarrior-web](https://github.com/theunraveler/taskwarrior-web)
+* [obsidian.md](https://obsidian.md)
+* [do it tomorrow](https://www.tomorrow.do)
+* … and probably a dozen others I'm forgetting
+
+Along with about every combination of the above and even just simple task lists or bullet journaling. They all ultimately end up not really working out for me. Some of the above worked for months or even years before falling into disuse for one reason or another that I don't think can be attributed to simply lack of use. Some had broken functionality, some lacked a good UI for tracking process, etc. 
+
+Currently I'm back on the sub-optimal but easy solution of just spamming myself messages in my saved-messages chat with myself in Telegram. I do intend to at least go back to one of the above again, but I'm still not totally thrilled with any of the options. 
 
 ## Multi Platform
 
@@ -669,63 +691,59 @@ I went through a ton of wallets before getting a Mighty Wallet. Now each one las
 
 * **Markdown:** [Typora](https://typora.io)
   * I'm used to Typora after years of use, but really [Obsidian](https://obsidian.md) will be better for the majority of users.
-
 * **General Office:** LibreOffice
-* **Pen Tablet Explainers:** [Xournal++](https://xournalpp.github.io)
+* **Quick Pen Tablet Explainers:** [Xournal++](https://xournalpp.github.io)
   * I also did a large number of assignments in Xournal and printed them out in College.
-
+* **Semi-Quick Visual Documentation:** [Exclidraw](https://excalidraw.com) or [ASCIIflow Infinity](https://asciiflow.com/legacy/)
 * **PDFs:** [Sioyek](https://sioyek.info) for it's wicked fast keyboard driven interface
 * **Text Epansion:** [Espanso](https://espanso.org)
+* **KVM:** [Barrier](https://github.com/debauchee/barrier)
 
 ### Communication
 
-* Telegram because that's where all the furries are.
+* **Telegram** because that's where all the furries are.
   * There's also some good "channels" in Telegram. For example, there's a telegram bot for Hacker News that I use.
-
-* Discord because that's where all the voice chats are.
-* Mastodon because that's where I find the best inspiration.
+* **Discord** because that's where all the voice chats are.
+* **Mastodon** because that's where I find the best inspiration.
 * Gmail for most, Protonmail for the important stuff.
 
 ### Art
 
 * **Image Compression:** https://squoosh.app
-
 * **Raster Art:** [Krita](https://krita.org)
 * **Getting a headache:** Blender
   * I've also been toying with using some VR programs for sculpting
-
 * **Fighting with changing UI:** Inkscape
 
 ### Video
 
 * **Recording:** OBS
 * **Editing:** Davinci Resolve
+* **Watching:** VLC
 
 ### Engineering + Development
 
 * **Calculator:** [Speedcrunch](https://heldercorreia.bitbucket.io/speedcrunch/)
   * Or my TI Nspire CAS
-
 * **Electrical CAD:** [KiCad](https://www.kicad.org)
 * **Git:** [Github Desktop](https://desktop.github.com) at home, Sublime Merge at work
 * **Editor:** VSCode, like everyone else.
 
 ## Linux Specific
 
-I mostly use Linux for development, writing, and web browsing.
+I mostly use Linux for development, writing, and web browsing. Depending on what I'm working on there's a million different tools I'm familiar with enough to get the job done, but those really specific tools for one task you probably already know if you need and listing them all here doesn't make as much sense as putting each on a better fitting page elsewhere on this website.
 
 ### Desktop Environment
 
-[i3wm](https://i3wm.org) + [polybar](https://github.com/polybar/polybar) + [rofi](https://github.com/davatorium/rofi)
+[i3wm](https://i3wm.org) + [polybar](https://github.com/polybar/polybar) + [rofi](https://github.com/davatorium/rofi) + [wpgtk](https://github.com/deviantfero/wpgtk)
 
-I wouldn't really call my setup "riced" (in part because I don't like the term), but I think it would pretty much fit in on r/unixporn. 
+I wouldn't really call my setup "riced" (in part because I don't like the term), but I think it would pretty much fit in on r/unixporn. I mostly like it because it's stupid fast to use across many monitors and mostly keyboard driven.
 
 ### Command Line
 
 * **Terminal:** [Kitty](https://sw.kovidgoyal.net/kitty/)
 * **Shell:** [Elvish](https://elv.sh)
   * I've been meaning to try [xon.sh](https://xon.sh) again. I actually like it the most of any shell I've tried for its ease of use, but last time I used it was very slow to load each time it was opened.
-
 * **Prompt:** [Starship](https://starship.rs)
 
 I also have a few commands aliased to nicer alternatives
@@ -743,17 +761,13 @@ Some CLI tools I frequently use that are a bit lesser known include:
 
 Though I also use `ripgrep`, `pandoc`, `fzf` etc just like every other Linux user.
 
-I also use
-
-* `rsync` for backups.
+I also use  `rsync` for backups to a big ol USB DAS box with 2 4TB + 1 8TB HDD in it. I try to backup monthly, but really do so more like quarterly.
 
 ### Graphical
 
-[TODO]
-
-* Peek
-* Deepin-Screenshot
-* Thunar
+* Peek - for when loading OBS is overkill, but I need a quick GIF.
+* Deepin-Screenshot - the least bad screenshot utility I can find
+* Thunar - It's a really fast to load and fast to use graphical file manager
 
 ## Windows Specific
 
@@ -762,21 +776,13 @@ I mostly used Windows for music production, gaming, and giving up on Discord's s
 ### Music Software
 
 * Ableton
-
   Ableton is the least-bad option for me. FL has a much better piano roll, but lacks MPE support. Bitwig is missing a few QoL things. And, most importantly, with the Ableton Push, I have hardware integration that makes it the best *feeling* DAW to use - though the lock in hurts. If you don't need MPE, get FL. 
-
 * [VCV Rack](https://vcvrack.com)
-
-  I really enjoy modular, and VCV is all the fun at a fraction the cost. I got into VCV well before hardware modular and now see the two as almost entirely distinct tools.
-
+  I really enjoy modular, and VCV is all the fun at a fraction the cost. I got into VCV well before hardware modular and now see the two as almost entirely distinct tools.</br>
   Note, VCV runs in Linux too, but getting (and keeping) Jack audio working for it to be low latency is a pain.
-
 * [KodeLife](https://hexler.net/kodelife/)
-
   Not directly for music stuff, but I've been trying to get into video synthesis and I have a pretty nice shader setup in KodeLife that takes MIDI input.
-
-* [Synthesire V Studio](https://dreamtonics.com/synthesizerv/)
-
+* [Synth V Studio](https://dreamtonics.com/synthesizerv/)
   Similar to Vocaloid. It's really nice to be able to try out vocal lines and get them somewhat right before I try to copy them with my real, less than trained voice - and it's good enough to just use a lot.
 
 On top of this I use about a gajillion different VST plugins. There are a few I want to highlight as lesser known gems:
@@ -786,11 +792,13 @@ On top of this I use about a gajillion different VST plugins. There are a few I 
 * [Kuassa Efektor Ginia Preamps](https://www.kuassa.com/portfolio-type/efektor/), and unlike NeuralDSP, they don't use iLok and they're priced well.
 * (FREE) [Lese Codec](https://lese.io/plugin/codec/). Of all the digitial degradation plugins I've heard, this one sounds the best. It may not have all the knobs and dials of [Digitalis](https://aberrantdsp.com/plugins/digitalis/), but man does it sound good.
 
+I also use a variety of M4L devices for Ableton. [Modulators 21](https://k-devices.com/products/modulators21/), [Opal](https://opal.fors.fm), [Mapul8tor](https://maxforlive.com/library/device/6779/mapul8tor), among others. I also occasionally make my own M4L devices for personal use - usually MIDI control surfaces, as lame as that is.
+
 Seriously though, I have hundreds of plugins installed, I couldn't possibly list them all here in a way that actually reflects what I use.
 
-### Utilities
+### Art Software
 
-[TODO]
+* Affinity Photo
 
 ### Gaming
 
@@ -799,7 +807,6 @@ I'm not going to list all my games or game stores, mod loaders, etc. I do want t
 * Golf Gang, Golf With Friends, Golf It - all of these are **mini golf games**. My SO and I will play these with friend a few times a week. They're brain dead enough that it's possible to maintain fun conversations while still all keeping busy with a mutual focus.
   * They're all not terribly unfun even for anybody even when there's a significant skill gap between different players.
 * Risk of Rain 2, Noita, 20 Minutes Until Dawn, Hades, ... - All **rouge likes**. As an adult with a billion interests and things to do, I like the lack of commitment that rouge likes offer makes me enjoy them a lot more.
-* 
 
 ## Android Specific
 
@@ -821,12 +828,11 @@ I'm not going to list all my games or game stores, mod loaders, etc. I do want t
   * [pablo.js](http://pablojs.com)
   * [tablesort](http://tristen.ca/tablesort/demo/)
   * [pdf.js](https://mozilla.github.io/pdf.js/)
-
 * [webmention.io](https://webmention.io)
 * I mostly do the writing in Typora
   * I use Espanso to make writing the Hugo shortcodes less awful
-
-*  I use squoosh or `convert` to make all the images .webp before uploading
+* I use squoosh or `convert` to make all the images .webp before uploading
+* Various spell checking tools that I don't really use often enough. Most recently I threw [vale.sh](https://vale.sh) at the site and caught a bunch of duplicate words words.
 
 If you're interested in the other things I've tried along the way, check out {{< button relref="posts/howimakeopguides" color="gradient-border2" >}} How I make OpGuides {{< /button >}}.
 
