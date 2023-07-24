@@ -5,7 +5,7 @@
 </script>
 
 
-The transformation of source code text into a series of *tokens* is the first task. Much like words in a sentence, each token has a specific meaning that will be used by later phases. It is this meaning that is is being captured, while the exact formatting or other details of the text itself are stripped away.
+The transformation of source code text into a series of *tokens* is the first task. Much like words in a sentence, each token has a specific meaning that will be used by later phases. It is this meaning that is being captured, while the exact formatting or other details of the text itself are stripped away.
 
 In our calculator, *lexing* (as it is called for short) is just one operation: `line.split()`. That's it.
 

@@ -45,7 +45,7 @@ But the fact of the matter is I've already used ChatGPT to write code I wouldn't
 
 This stands to be as big as the internet - if your company doesn't respond to it coming, you could get plowed over and be the next Sears. If you personally don't learn how to use it, you could wind up dramatically less capable than others in society.
 
-I haven't the slightest idea where we'll end up with this. Tom Scott has [a fantastic video](https://www.youtube.com/watch?v=jPhJbKBuNnA) where he explains that what scares him about AI right now is not knowing how good it'll get - are we near near the end of this AI explosion or only at the beginning? Yeah, I'm not about to answer that.
+I haven't the slightest idea where we'll end up with this. Tom Scott has [a fantastic video](https://www.youtube.com/watch?v=jPhJbKBuNnA) where he explains that what scares him about AI right now is not knowing how good it'll get - are we near the end of this AI explosion or only at the beginning? Yeah, I'm not about to answer that.
 
 But there's one thing which bothers me more than anything about this change, something which I got a good blurb out from ChatGPT itself:
 
@@ -63,7 +63,7 @@ I like knowing that each tool has rules and how to influence those rules. I like
 
 These new programs don't feel like **tools** they feel like an **assistant** - albeit one that is, for now, mildly drugged up.
 
-I realize why to some some people, that sounds like the ultimate upgrade to their computer. But for someone like me it sounds terrible. I want to control my own files and data and the way I work with it. I don't want something making decisions for me or making choices for reasons I can't understand.
+I realize why to some people, that sounds like the ultimate upgrade to their computer. But for someone like me it sounds terrible. I want to control my own files and data and the way I work with it. I don't want something making decisions for me or making choices for reasons I can't understand.
 
 If I use Google to look up places to vacation, most of them are going to be advertisements, but I may be able to stumble across some less biases travel blogs or something. If I ask ChatGPT I haven't the slightest idea if it's just parroting an advertisement back to me or not.
 
@@ -105,7 +105,7 @@ Okay, so, clearly I'm not actually worried about the old ways being inaccessible
 
 I'll ignore ChatGPT's response leaving out a whole lot of why **№5** is going to be a shit storm - nobody will want to learn the basics in the first place - as that's been covered to death elsewhere.
 
-So, okay, back the the prior point:</br> I'm conflicted because for the first time computers are a tool which we lack total control over.
+So, okay, back the prior point:</br> I'm conflicted because for the first time computers are a tool which we lack total control over.
 
 I don't mean control in the sense that it may do so something unexpected and hurt someone,<a class="ptr">(1)</a> I mean in the sense of mathematical control and predictability. It bothers me the same way I'm bothered when my Amazon Alexa device, unprompted, informs me it has a new skill or a video game has an unskippable tutorial. It's a mixed feeling of powerlessness and annoyance that stems from a lack of control.
 

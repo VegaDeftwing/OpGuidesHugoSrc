@@ -14,7 +14,7 @@ That said, there are some tips that I've found useful for making better content 
 
    * If you're writing about something, it's probably because you care about it, but you may think that others don't follow everything you're saying 
 
-     > "Ohh, I'd love to mention {{< spoiler >}}how the QMK keyboard firmware lets you set up multiple unicode layers{{< /spoiler >}} but most people have no idea about {{< spoiler >}}mechanical keyboards, let alone Unicode or the QMK firmware{{< /spoiler >}} so I need to cover that first...."
+     > "Ohh, I'd love to mention {{< spoiler >}}how the QMK keyboard firmware lets you set up multiple unicode layers{{< /spoiler >}} but most people have no idea about {{< spoiler >}}mechanical keyboards, let alone Unicode or the QMK firmware{{< /spoiler >}} so I need to cover that first…"
 
      **BE YOURSELF**. If you think it's cool, others will enjoy your passion - even if they only follow half of what you're saying. If nothing else, put something in to interrupt the flow of the rest of the page, like how I have my little speech bubbles and footnotes <a class="ptr">(1)</a>
 

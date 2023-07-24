@@ -147,7 +147,7 @@ To start with, most ethics arguments depend on an ethical framework, this is the
 
 ## Utilitarianism
 
-[Utilitarianism](https://en.wikipedia.org/wiki/Utilitarianism) is the most dead simple philosophical theory. Basically, do whatever you can that brings the most happiness to the world (or, if all options are a negative, do the the least-worst option).
+[Utilitarianism](https://en.wikipedia.org/wiki/Utilitarianism) is the most dead simple philosophical theory. Basically, do whatever you can that brings the most happiness to the world (or, if all options are a negative, do the least-worst option).
 
 The most common example for which utilitarianism is applied is the trolley problem:
 

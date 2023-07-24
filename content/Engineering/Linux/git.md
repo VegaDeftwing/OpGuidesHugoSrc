@@ -228,7 +228,7 @@ Now we can set up your user in a `.gitconfig` file, fortunately, you can do this
 
 You have successfully set up keys for your account!
 
-## Even more security...
+## Even more security…
 
 GitHub has a second layer of authentication that's worth setting up too, which adds a sort of virtual signature to each change you push to GitHub as a confirmation to people that what they see was really written by you.
 
@@ -286,7 +286,7 @@ Note though, you probably don't want to clone *everything* as git, especially if
 
 6. Run `git add .` to stage your changes. (The `.` character means all files)
 
-7.  Then `git commit -m "added [yourname] to Cool People"` To put put those staged files into a commit.
+7.  Then `git commit -m "added [yourname] to Cool People"` To put those staged files into a commit.
 
 8. Run `git push` to push your changes to *your* copy of the repo on GitHub
 
@@ -298,7 +298,7 @@ Note though, you probably don't want to clone *everything* as git, especially if
 
     Click [TODO]
 
-11. You'll be prompted with the checklist that's in the [pull_request_template.md](https://github.com/VegaDeftwing/OpGuidesHugoSrc/blob/main/pull_request_template.md) file. Since you're just adding your name, please check the first box "Everything I'm contributing..." and the first box on the Public Domain option.
+11. You'll be prompted with the checklist that's in the [pull_request_template.md](https://github.com/VegaDeftwing/OpGuidesHugoSrc/blob/main/pull_request_template.md) file. Since you're just adding your name, please check the first box "Everything I'm contributing…" and the first box on the Public Domain option.
 
 12. Click [TODO]. Now the Pull Request has been summited but should be marked as "Open". This means that I now need to either approve it or not. If it gets approved you'll see "Merged" otherwise you'll see "Closed". This may take a few days. Once I've merged the change, it may not go live right away, as I still have to push it to the live version of the website.
 

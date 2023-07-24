@@ -76,7 +76,7 @@ How to read logarithmic first, example for why they're needed: [log-scales demo 
 
 The easiest way to understand filters is to see them in action with audio, so, well before we ever look at a circuit you should check out {{< button relref="Music/Effects/filter" color="music" >}}Opinionated Music - Filters{{< /button >}}.
 
-There are many ways to delineate between types of filters, but initially the most convienent is to differentiate between **passive** filters and **active** filters. Passive filters don't need extra power supplied to them, the components used are only capacitors, resistors, and inductors (no transistors or integrated circuits like OpAmps which may require their own power).
+There are many ways to delineate between types of filters, but initially the most convenient is to differentiate between **passive** filters and **active** filters. Passive filters don't need extra power supplied to them, the components used are only capacitors, resistors, and inductors (no transistors or integrated circuits like OpAmps which may require their own power).
 
 We'll focus on these passive filters here first, then we'll check out active filters in the next chapter.
 

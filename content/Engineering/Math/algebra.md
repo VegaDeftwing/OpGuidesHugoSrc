@@ -15,11 +15,11 @@ To get started, let's look at 'Number Systems'. Essentially, there are a variety
 
 ### ℕ - Natural Numbers
 
-Natural Numbers are the dead basic set of numbers, 1, 2, 3, 4, 5, etc. note, this this doesn't include fractions, decimals, etc. or the number 0. **Whole Numbers** is the set of natural numbers *and* the number 0, so 0, 1, 2, 3...
+Natural Numbers are the dead basic set of numbers, 1, 2, 3, 4, 5, etc. note, this doesn't include fractions, decimals, etc. or the number 0. **Whole Numbers** is the set of natural numbers *and* the number 0, so 0, 1, 2, 3…
 
 ### ℤ - Integers
 
-Alright, Natural and Whole numbers are great and all, but what if we want to represent a deficit or debt? Negative numbers would definitely be nice- introducing *Integers*, this is just the set of Whole numbers *and* the their inverses, so .... -3, -2, -1, 0, 1, 2, 3 ...
+Alright, Natural and Whole numbers are great and all, but what if we want to represent a deficit or debt? Negative numbers would definitely be nice- introducing *Integers*, this is just the set of Whole numbers *and* the their inverses, so  -3, -2, -1, 0, 1, 2, 3 …
 
 {{< tip >}}
 If you come from a programming background, do note that what programming languages call integers is ever so slightly different. Namely, mathematically integers include arbitrarily large numbers, but in programming most `int` types are bounded by how many bits they can store, for example, an 8 bit signed integer can only hold values ranging from -128 to 127.
@@ -39,7 +39,7 @@ Alright then, what's an irrational number?
 
 Well, this is easier to answer with a few examples, the most well know of which is {{< katex >}} \pi = 3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679821480865132823066470938446095505822317253594081284811174502841027019385211055596446229489549303819644288109756659334461284756482337867831652712019091456485669234603486104543266482133936072602491412737245870066063155881748815209209628292540917153643678925903600113305305488204665213841469519415116094330572703657595919530921861173819326117931051185480744623799627495673518857527248912279381830119491298336733624406566430860213949463952247371907021798609437027705392171762931767523846748184676694051320005681271452635608277857713427577896091736371787214684409012249534301465495853710507922796892589235420199561121290219608640344181598136297747713099605187072113499999983729780499... {{< /katex >}}
 
-... I think you get the idea.
+… I think you get the idea.
 
 Irrational numbers are numbers where the decimal doesn't repeat and as such can *not* be written as an integer over another integer. Because pi is a geometrically defined constant, it may be easier to look at something a bit more tangible.
 
@@ -317,7 +317,7 @@ with that done, we can get rid of some of those parentheses
 
 {{< katex display >}}3x^2+3+x^2-6x+8=12+3+2x{{< /katex >}}
 
-then, we can combine like terms...
+then, we can combine like terms,
 
 {{< katex display >}}4x^2-6x+11=15+2x{{< /katex >}}
 
@@ -440,7 +440,7 @@ There are also 'antiprimes' (or 'highly composite numbers'), from Wikipedia:
 
 > ... an **antiprime number**, is a [positive](https://en.wikipedia.org/wiki/Positive_number) [integer](https://en.wikipedia.org/wiki/Integer) with more [divisors](https://en.wikipedia.org/wiki/Divisor) than any smaller positive integer has
 
-so, technically 1, 2, 4, and 6 are all antiprime. But where it gets interesting is with larger numbers. For example, 360 is anti prime as you get get to it with {{< katex >}} 2*2*2*2*3*3*5​{{< /katex >}}, which is 7 primes multiplied together, more than it takes to get to any number prior. These numbers are really easy to work with because of this, and it makes it really convenient for the number of degrees in a circle as it can be divided so easily.
+so, technically 1, 2, 4, and 6 are all antiprime. But where it gets interesting is with larger numbers. For example, 360 is anti prime as you get to it with {{< katex >}} 2*2*2*2*3*3*5​{{< /katex >}}, which is 7 primes multiplied together, more than it takes to get to any number prior. These numbers are really easy to work with because of this, and it makes it really convenient for the number of degrees in a circle as it can be divided so easily.
 
 # 1⅘ - Number Bases
 

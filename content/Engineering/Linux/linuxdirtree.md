@@ -125,7 +125,7 @@ With all of that out of the way let's finally look at /dev !
 
 ## /dev, the devices folder
 
-Alrighty then, first, a heads up. My /dev folder will have some things yours wont. I'm on a desktop with a lot of hardware, drives, input devices, etc. And I've installed hundreds of programs, some of which interface with the system at a low enough level to necessitate extra files in here. For that reason some are going to be skipped over. I'll be breaking up the ouput of `ls /dev` into a bunch of code blocks below because of how ludicously large this output is.
+Alrighty then, first, a heads up. My /dev folder will have some things yours wont. I'm on a desktop with a lot of hardware, drives, input devices, etc. And I've installed hundreds of programs, some of which interface with the system at a low enough level to necessitate extra files in here. For that reason some are going to be skipped over. I'll be breaking up the output of `ls /dev` into a bunch of code blocks below because of how ludicrously large this output is.
 
 ```bash
 drwxr-xr-x  22 root root         4600 Feb  8 06:03 .
@@ -269,7 +269,7 @@ crw-rw----   1 root disk      10, 237 Feb  8 06:03 loop-control
 
 'log' no shit, access using `sudo journalctl`
 
-'loop-contol' - http://man7.org/linux/man-pages/man4/loop.4.html, effectively used to mount images or or other file systems to be read as a separate block device
+'loop-contol' - http://man7.org/linux/man-pages/man4/loop.4.html, effectively used to mount images or other file systems to be read as a separate block device
 
 ```bash
 drwxr-xr-x   2 root root           60 Feb  8 06:03 mapper

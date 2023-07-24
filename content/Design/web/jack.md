@@ -63,10 +63,10 @@ text **bold text** more text
 2. **How to write CSS - MODERATE**
 
    * CSS is what stylize your website. CSS is what *usually* defines the colors, font sizes, arrangement of content, etc. but, strangely, now sometimes does animations and other relatively complicated things
-   * Unfortunately sometimes CSS can be pretty hard to work with, with things sometimes [interacting in](http://wtfhtmlcss.com) [weird ways](https://css-tricks.com/css-is-awesome/). Worse, more and more (legitimately useful) features have been added to CSS over the years, some of which are now the right way to do things, but are still hard to learn (... fucking [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/))
+   * Unfortunately sometimes CSS can be pretty hard to work with, with things sometimes [interacting in](http://wtfhtmlcss.com) [weird ways](https://css-tricks.com/css-is-awesome/). Worse, more and more (legitimately useful) features have been added to CSS over the years, some of which are now the right way to do things, but are still hard to learn (… fucking [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/))
    * It's really, really hard to make a website not break when viewed on both a phone and a normal monitor
    * You *might* want to use frameworks here, like https://tailwindcss.com, https://www.bonsaicss.com, https://getbootstrap.com, https://picturepan2.github.io/spectre/index.html
-   * ... and you might want to use something that added extra features to CSS then gets turned back into CSS, the most common of these is [SCSS](https://github.com/sass/sass), but https://lesscss.org is neat too.
+   * … and you might want to use something that added extra features to CSS then gets turned back into CSS, the most common of these is [SCSS](https://github.com/sass/sass), but https://lesscss.org is neat too.
    
    Here's a neat example of using CSS to make some nice looking background stars, a fairly complex example
    
@@ -107,7 +107,7 @@ text **bold text** more text
 4. How to setup a domain
 
    * You'll probably want to buy a domain name "mycoolsitename.com" or whatever, and you'll need to know how to buy that and actually use it
-   * ... and probably make it HTTPS
+   * … and probably make it HTTPS
 
 5. How to setup hosting
 

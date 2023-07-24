@@ -2,7 +2,7 @@
 
 {{< devegg >}}
 
-See the signal processing chapters. If you're trying to do real time DSP and if you want to modulate the cutoff, you're probably stuck with an IIR. FWIW, the delay of an FIR means the linear phase is often worse than not anyway. If licencing isn't an issue, you'll probably want to start with at least https://www.musicdsp.org/en/latest/Filters/index.html or really any DSP library. Implimenting a well performing filter isn't that hard. Implimenting a well perofrming, variable-cutoff-filter is doable. Implimenting one better than open source libraries is a heckin' undertaking. All of that said, if you're after a particular character or Virtual Analog, you'll have to start from scratch anyway.
+See the signal processing chapters. If you're trying to do real time DSP and if you want to modulate the cutoff, you're probably stuck with an IIR. FWIW, the delay of an FIR means the linear phase is often worse than not anyway. If licensing isn't an issue, you'll probably want to start with at least https://www.musicdsp.org/en/latest/Filters/index.html or really any DSP library. Implementing a well performing filter isn't that hard. Implementing a well performing, variable-cutoff-filter is doable. Implementing one better than open source libraries is a heckin' undertaking. All of that said, if you're after a particular character or Virtual Analog, you'll have to start from scratch anyway.
 
 {{< /devegg >}}
 
@@ -34,7 +34,7 @@ So, what does this have to do with synths and filters? Well, a really basic tool
 
 {{< /columns >}}
 
-In synthesizers, we can can use slew to our advantage for a lot of things. For audio, it can be used as a very strange kind of filter, sure, but for control signals it can be used for much more.
+In synthesizers, we can use slew to our advantage for a lot of things. For audio, it can be used as a very strange kind of filter, sure, but for control signals it can be used for much more.
 
 One common use is legato - how long it takes to go to a new note when you press a different key on the piano. If you use a slew limited with individual controls, you can make it really neat slow rise to a higher pitch but an instantaneous fall back to a lower pitch (or vis-versa)
 
@@ -69,7 +69,7 @@ Additionally, <span style="color:red;">(5)</span> is a peak filter.
 
 Contrast this to a normal Low/High pass filter, adding resonance, (dragging the point above the +0db line in this graph) would only make a spike like this at the cut off point, before falling off, not make a shelf. To clarify, in the image below, <span style="color:red;">(1)</span> has been changed to a low-**pass** filter with the same settings, with the line being a different color. 
 
-This new <span style="color:#CCCCFF;"><b>(1)</b></span>, where the line before it is still centered around 0 and it peak up to the 'dot' and then falls off quickly, makes the frequencies after after it silent so that <span style="color:red;">(5)</span> and <span style="color:red;">(8)</span> do nothing - the lines falls off far before it gets to <span style="color:red;">(5)</span>.
+This new <span style="color:#CCCCFF;"><b>(1)</b></span>, where the line before it is still centered around 0 and it peak up to the 'dot' and then falls off quickly, makes the frequencies after it silent so that <span style="color:red;">(5)</span> and <span style="color:red;">(8)</span> do nothing - the lines falls off far before it gets to <span style="color:red;">(5)</span>.
 
 Obviously, This is dramatically different than the low-**shelf** at the same point.
 

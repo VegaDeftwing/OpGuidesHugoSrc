@@ -43,9 +43,9 @@ If you need anything more complicated than that, here's [Splitting Code Into Mul
 
 ## C
 
-Multiple files in C is much weirder, because it actually makes you double the amount of files you should need because of design decisions that made sense 60 years ago but are very stupid today. Regardless, in C lets say you have your main file with your `main()` function...
+Multiple files in C is much weirder, because it actually makes you double the amount of files you should need because of design decisions that made sense 60 years ago but are very stupid today. Regardless, in C lets say you have your main file with your `main()` function…
 
-... er, side note, the function called `main()` is very important in C, as it's the entry point to the program. It's where it starts.
+… er, side note, the function called `main()` is very important in C, as it's the entry point to the program. It's where it starts.
 
 And we call that file myProgram.c and it looks like this
 
@@ -116,7 +116,7 @@ int main()
 }
 ```
 
-and the code should compile and run... almost. Now we get to deal with the joy of getting C to compile and link multiple files, 
+and the code should compile and run… almost. Now we get to deal with the joy of getting C to compile and link multiple files, 
 
 {{< speech triode right >}}
 
@@ -132,7 +132,7 @@ Object files are the individual chunks of complied code from each file. They exi
 
 As an analogy, imagine you're working with Legos and you're building a plane. You might have instructions for building a wing, engines, the main body, the nose, and the tail.
 
-The wings may say they need you to attach the engines, and the body the wings (with the engines on them), the nose, and the the tail. When you're done, you'll have a plane.
+The wings may say they need you to attach the engines, and the body the wings (with the engines on them), the nose, and the tail. When you're done, you'll have a plane.
 
 The **instructions** for each piece are the .c files, but the places in those instructions where it says to attach one assembled unit to another (like a wing to the body) is sort of like a header (.h) file. Importantly though, at this point, you've only got instructions.
 
@@ -172,7 +172,7 @@ Both of these mention **.o** files along side the **.c** and **.h** you've seen.
 
 As an analogy, imagine you're working with Legos and you're building a plane. You might have instructions for building a wing, engines, the main body, the nose, and the tail.
 
-The wings may say they need you to attach the engines, and the body the wings (with the engines on them), the nose, and the the tail. When you're done, you'll have a plane.
+The wings may say they need you to attach the engines, and the body the wings (with the engines on them), the nose, and the tail. When you're done, you'll have a plane.
 
 The **instructions** for each piece are the .c files, but the places in those instructions where it says to attach one assembled unit to another (like a wing to the body) is sort of like a header (.h) file. Importantly though, at this point, you've only got instructions.
 

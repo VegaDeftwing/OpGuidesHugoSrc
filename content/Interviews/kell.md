@@ -5,7 +5,7 @@ bookToC = false
 
 **7/27/2021**
 
-<img src="/nonfree/interviews/kelltemp.svg" alt="Kell Bengal" height="200em">
+<img src="/nonfree/interviews/kelltemp.svg" alt="Kell Bengal" style="height:10em">
 
 {{< iquestion >}}
 
@@ -21,7 +21,7 @@ I would describe myself as an engineer, first and foremost.  I put great stock i
 
 {{< /iquestion >}}
 
-By far, my favourite project is my bipedal robot.  I've had a love of walking robotic war machines since I was quite young and that passion has never waned.  I'm slowly putting together giant walking robot which which to crush my enemies... at 1/50th scale, due to budget limitations.  As a project, it combines difficult control theory, demanding electrical design, hard mechanical design, and an absolutely horrendous integration problem.  It's a hell of a challenge and I'm loving it.
+By far, my favourite project is my bipedal robot.  I've had a love of walking robotic war machines since I was quite young and that passion has never waned.  I'm slowly putting together giant walking robot with which to crush my enemies... at 1/50th scale, due to budget limitations.  As a project, it combines difficult control theory, demanding electrical design, hard mechanical design, and an absolutely horrendous integration problem.  It's a hell of a challenge and I'm loving it.
 
 {{< iquestion >}}
 

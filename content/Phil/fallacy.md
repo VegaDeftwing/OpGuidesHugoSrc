@@ -34,7 +34,7 @@ Inflation of conflict – arguing that, if experts in a field of knowledge disag
 
 For example, if most of science says there's 31 elementary particles, but some fringe scientists claim there are 42, that doesn't mean the answer has to be somewhere in between.
 
-Similarly, if most people think the Earth is flat, and some small fringe group of heathens think the earth is round, that doesn't make make the popular opinion right. 
+Similarly, if most people think the Earth is flat, and some small fringe group of heathens think the earth is round, that doesn't make the popular opinion right. 
 
 ## Slippery slope
 
@@ -172,7 +172,7 @@ For example "Bob says that being gay is okay, but Bob is an atheist, so clearly 
 
 {{< /quote >}}
 
-This fallacy, is a bit different from the others as it's not so much a breaking of logical rules so much as willful ignorance and stupidity. It's often used to end arguments to avoid further conflict, which one one thing, but other times it's used outright to stop decent and encourage people to stick to views without letting them be challenged, which is incredibly dangerous. It's exactly what lets hate like homophobia and bad ideas, like anti-vax, spread.
+This fallacy, is a bit different from the others as it's not so much a breaking of logical rules so much as willful ignorance and stupidity. It's often used to end arguments to avoid further conflict, which *can* be a good thing, but other times it's used outright to stop decent and encourage people to stick to views without letting them be challenged, which is incredibly dangerous. It's exactly what lets hate like homophobia and bad ideas, like anti-vax, spread.
 
 ## Straw man
 
@@ -311,7 +311,7 @@ The simplest explanation is usually the right one
 Okay, so technically, this is a misquote. See the Wikipedia article: [Occam's Razor (Wikipedia)](https://en.wikipedia.org/wiki/Occam's_razor) for more information on this. Regardless, this is what everybody means when they talk about Occam's Razor
 {{< /hint >}}
 
-There's a bit of a problem: "simplest" here is a bit crude. Does it mean simplest to describe or simplest to justify? For example, saying 'God created the universe' is very easily described, but to justify requires the proof that a supreme being exists, that it's a singular supreme being, and if you mean the Christian God, that it's that God specifically, then that that being didn't exist prior to the universe. You get the idea.
+There's a bit of a problem: "simplest" here is a bit crude. Does it mean simplest to describe or simplest to justify? For example, saying 'God created the universe' is very easily described, but to justify requires the proof that a supreme being exists, that it's a singular supreme being, and if you mean the Christian God, that it's that God specifically, then that being didn't exist prior to the universe. You get the idea.
 
 If the question is more mundane, like "where is my phone?" the answer of 'in your pocket' is both much easier to describe and much easier to justify than 'In the 5th dimension which may only be entered by accidental entry from between the couch cushions on the eve of a solstice'.
 
@@ -333,7 +333,7 @@ This scales up too, everything from CO2 emissions causing climate change to vacc
 
 {{< hint info>}}
 
-Vaccines do have some side effects, usually just a low fever and a sore arm, and **very** rarely something serious. It's just that by having a high enough population vaccinated we can be safe from much much more likely threats like polio. Vaccinate your fucking kids, Karen. Don't contribute to the tragedy of the commons.
+Vaccines do have some side effects, usually just a low fever and a sore arm, and **very** rarely something serious. It's just that by having a high enough population vaccinated we can be safe from much more likely threats like polio. Vaccinate your fucking kids, Karen. Don't contribute to the tragedy of the commons.
 
 {{< /hint >}} 
 
@@ -433,7 +433,7 @@ There is a whole class of fallacies in this group, as appeals to emotions like f
 "**Think of the children**" (also "**What about the children?**") is a [cliché](https://en.wikipedia.org/wiki/Cliché) that evolved into a [rhetorical](https://en.wikipedia.org/wiki/Rhetoric) tactic. Literally, it refers to [children's rights](https://en.wikipedia.org/wiki/Children's_rights) (as in discussions of [child labor](https://en.wikipedia.org/wiki/Child_labor)). In debate, however, it is a [plea for pity](https://en.wikipedia.org/wiki/Appeal_to_pity) that is used as an [appeal to emotion](https://en.wikipedia.org/wiki/Appeal_to_emotion), and therefore it becomes a [logical fallacy](https://en.wikipedia.org/wiki/Formal_fallacy).
 {{< /quote >}}
 
-Basically, people might use protecting children an an excuse to ban all porn or some other extreme measure under the assumption that if you try to disagree with their view you'll look awful because you're *not* thinking of the children. 
+Basically, people might use protecting children an excuse to ban all porn or some other extreme measure under the assumption that if you try to disagree with their view you'll look awful because you're *not* thinking of the children. 
 
 ## Schrodinger's Douchebag
 

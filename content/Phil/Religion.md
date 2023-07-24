@@ -115,7 +115,7 @@ Similarly, you *personally* probably haven't gone on any Witch hunts or killed a
 
 Okay, ranting aside, this really doesn't do that much for conversion. Statistics are, unsurprisingly, basically non existent. 
 
-Still, it's pretty safe to assume (See the the big box above pointing at the lack of data) that the majority of people don't come to a new religion by having random conversations with single people *unless* it's their family or very close friends. And even then, it's not common. So, it's probably safe to assume the majority of people don't come to their religion via door knocking or conversations with strangers. Friends and Family, maybe, but the impact will still be limited.
+Still, it's pretty safe to assume (See the big box above pointing at the lack of data) that the majority of people don't come to a new religion by having random conversations with single people *unless* it's their family or very close friends. And even then, it's not common. So, it's probably safe to assume the majority of people don't come to their religion via door knocking or conversations with strangers. Friends and Family, maybe, but the impact will still be limited.
 
 The one exception I see to this is in relationships, that is, while it's more common for two people to be together if they already share religious views, if they don't it's not unlikely that they will with time.
 

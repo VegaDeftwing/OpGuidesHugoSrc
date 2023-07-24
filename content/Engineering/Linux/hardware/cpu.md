@@ -95,11 +95,11 @@ At the moment I got that output the transistors where being turned on and off at
 
 {{< smalltext >}}\* Obviously, not all the transistors are changing state off→on and on→off on every clock edge. As for the power usage, most digital electronics have two sources of power usage: static and dynamic. Dynmaic power being that used every time a transistor changes state, and static power being power that is lost due to junction leakage (more on this much later) if there's any power applied at all. In short, this means a given CPU will use more power the faster it runs, but there's a floor to how little power it can use if power is applied at all. {{< /smalltext >}}
 
-However, this system can run up to roughly 3.8Ghz. The faster this speed the faster your computer; however, your CPU will also use more power and run hotter. It's for this reason that most systems adjust the speed based on load. Doing simple things like writing this document and as seen with that output my system runs at nearly half speed which is actually the slowest it can run. Because the computer is hardly doing anything right now the majority of that switching is actually just doing nothing but using power running 'no operation instructions' the functional equivalent of just running 0+0 while it it waits for something to do.
+However, this system can run up to roughly 3.8Ghz. The faster this speed the faster your computer; however, your CPU will also use more power and run hotter. It's for this reason that most systems adjust the speed based on load. Doing simple things like writing this document and as seen with that output my system runs at nearly half speed which is actually the slowest it can run. Because the computer is hardly doing anything right now the majority of that switching is actually just doing nothing but using power running 'no operation instructions' the functional equivalent of just running 0+0 while it waits for something to do.
 
 While not listed in this output, by googing the Ryzen 1700 we can also see it was made on a 14nm process. Put a bit reductively, this means each transistor is 14nm wide. For context, a human hair is about 70,000nm wide. This is relevant, because generally the smaller the process the faster a chip can run (max speed) while using less power.
 
-But, I want to put this into perspective a bit: At the top of this document, there's a white, rectangular chip which is a very old CPU: The Intel 8088 from 1979, it's only 8-bit, runs at 16Mhz, was made on a 3μm process, and has ~29,000 transistors inside. So, each individual transistor is over 200 times larger, they switch much slower, and there's a a human-understandable number of them. But why bring this up? Because I broke one open!
+But, I want to put this into perspective a bit: At the top of this document, there's a white, rectangular chip which is a very old CPU: The Intel 8088 from 1979, it's only 8-bit, runs at 16Mhz, was made on a 3μm process, and has ~29,000 transistors inside. So, each individual transistor is over 200 times larger, they switch much slower, and there's a human-understandable number of them. But why bring this up? Because I broke one open!
 
 <img class="center" src="/eng/8088.jpg" alt="photo_2022-01-28_00-40-19" style="width: 300px; height: 220px; object-fit: cover;border-radius:10%;" />
 
@@ -351,6 +351,8 @@ TCP offloading, DSP++, Software Defined Radio?, In-Memory Processing, Tensor Cor
 ## Further Reading
 
 If you want to know about the internals of the CPU itself, check out [Chapter 29 - Let's Make our own CPU]({{< relref "/Engineering/deeper/comparch" >}}) which goes into the componets of the CPU, why they're made the way they are, and what the future of CPU architecture may look like.
+
+{{< best >}}[Putting the "You" in CPU (Lex Mattick & Hack Club)](https://cpu.land){{< /best>}}
 
 [Why you should use 'nproc' and not grep /proc/cpuinfo](https://www.flamingspork.com/blog/2020/11/25/why-you-should-use-nproc-and-not-grep-proc-cpuinfo/)
 

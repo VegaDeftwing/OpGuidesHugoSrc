@@ -100,7 +100,7 @@ bookToC = false
 
 <!-- if there are any questions you prefer not to answer, that's fine! Just put comment tags like this around the question. -->
 
-<img src="/nonfree/interviews/SPG.jpg" alt="Sex Positive Gaming Logo" height="250em">
+<img src="/nonfree/interviews/SPG.jpg" alt="Sex Positive Gaming Logo" style="height:15em">
 
 <!-- feel free to edit this intro blurb: -->
 

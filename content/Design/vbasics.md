@@ -14,7 +14,7 @@ So, we have the basics that any art program will focus on - **Lines, Shape, Form
     * **Self similar** - What you probably think of when you think fractals - the kind that keep repeating forever.
     * **Natural** - Branches of a tree
 * **Detail** - How much detail do you want to capture? Where do you sit on the spectrum of photo-realistic to iconography?
-* **Artsy-ness** - Is the subject supposed to be highly detailed and pretty, or purely functional and minimalistic? Passive or attention grabbing?
+* **Artsy-ness** - Is the subject supposed to be highly detailed and pretty, or purely functional and minimalist? Passive or attention grabbing?
 * **Culture** - Where is the subject supposed to be from, and what is the culture like there?
 * **Emotion** - Is the subject supposed to elicit an emotional response?
   * **Subversion** - Is the subject supposed to be misleading? Like a mimic (chest monster) or little girl demon.

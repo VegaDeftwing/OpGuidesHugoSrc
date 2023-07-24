@@ -76,7 +76,7 @@ neat, alright, well there's an interesting printf sequence, %n, which ouputs the
 ╰─➤  ./ploit "%n"
 ```
 
-There's no output... but that should tip you off to what's about to happen
+There's no output… but that should tip you off to what's about to happen
 
 ```bash
 ╭─vega@lyrae ~  
@@ -303,7 +303,7 @@ main: # @main
 
 Notice it's not actually doing any math? It's just storing the result as a constant in the program. The compiler did some magic, realized the programmer was being lazy and not doing math ahead of time, so did the math once. This is normal. Don't make the assumption that the code you write will necessarily be the code the machine runs.
 
-### DO NOT assume that your users give a half a shit about security...
+### DO NOT assume that your users give a half a shit about security…
 
 They don't. Maybe a small fraction do. Maybe a few will even have fancy USB authentication keys, be generating random 64 character long passwords filled with symbols. The majority though? The majority will be using some standard password they use everywhere else that has already been compromised, which they'd know if they bothered to check https://haveibeenpwned.com
 
@@ -315,7 +315,7 @@ There's a reason torrent clients verify the hash automatically, that browsers sh
 
 Also don't make your users change passwords on a schedule. We all hate it, [It's not even recomended anymore](https://pages.nist.gov/800-63-FAQ/#q-b05), and it's just a royal PITA. 
 
-### ...Or that they have a single clue about privacy
+### …Or that they have a single clue about privacy
 
 [TODO]
 
@@ -339,7 +339,7 @@ https://0l.wtf/blog/4_visual_browser_fingerprinting.html
 
 ### DO NOT think that Old ≠ Good & New ≠ Good
 
-... Middleaged doesn't mean good either I guess.
+… Middleaged doesn't mean good either I guess.
 
 Basically, just because something is new and shiny and claims to be 200% as fast and 4x as secure, doesn't mean it's safe. Similarly, just because something is old and well vetted, doesn't mean it is perfect either. Code that's been living in the Linux Kernel for decades or even in the [sudo binary](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3156) can have bugs.
 

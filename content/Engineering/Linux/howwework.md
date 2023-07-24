@@ -66,7 +66,7 @@ This gives you a pretty kick butt editor on par with most full Integrated Develo
 
 ![code](/eng/code.webp)
 
-There are of course a ton of other options, Emacs, Atom, Eclipse ... If what I recommended doesn't suit you, feel free to look into these. Regardless, a text editor should be pretty high up on your list of things to get setup, as it will make the latter steps much easier.
+There are of course a ton of other options, Emacs, Atom, Eclipse… If what I recommended doesn't suit you, feel free to look into these. Regardless, a text editor should be pretty high up on your list of things to get setup, as it will make the latter steps much easier.
 
 {{< hint gray>}}
 
@@ -82,7 +82,7 @@ This is the biggest change, I'm going to recommend switching from KDE, which we 
 
 This is a screenshot of i3-wm with 4 windows open: two instances of `Typora` (the program I'm writing this in), and a file manager (`Thunar`),  a terminal (`deepin-terminal-gtk`) running `ncmpcpp` which is what I use for music. The `Typora` windows are being tabbed by i3 (it's a bit hard to see, but there's two big tabs at the top of the Window).  What's cool about i3 is how it will always use space as efficiently as possible by tiling the windows, and you can navigate between the windows (or multiple monitors) entirely by keyboard (mouse still works obviously) and open multiple virtual workspaces. When programming and using a computer for advanced things it's not uncommon to have a dozen windows open and having things organized like this can be a life saver. Plus, as I showed with the typora tabs, programs can also be tabbed instead of tiled, so I could have one tab of firefox, one of typora, and one of a terminal, so they're all still maximized but I can get between them quickly, and these tabs can be mixed with the tiles, as in that screenshot.
 
-Alright, so i3-wm is great, right? Well yes, but...
+Alright, so i3-wm is great, right? Well yes, but…
 
 i3, when first installed, is very, very minimal, it will greet you with a plain black bar and clicking with either mouse button anywhere will do nothing. You should, however, be able to open a terminal by using your modkey (probably the windows or alt key) and enter.
 
@@ -150,7 +150,7 @@ I'm going to give the list of what I want when I get a system set up, you probab
 | thunar                | file manager                                                 |
 | nautilus              | another file manager, a bit slower to use but handles remote connections well |
 | mpd                   | the 'sever' side of the music player I like                  |
-| ncmpcpp               | the 'client' side of the music music player I like           |
+| ncmpcpp               | the 'client' side of the music player I like                 |
 | evince                | pdf++ viewer                                                 |
 | vivaldi               | my web browser of choice                                     |
 | vivaldi-ffmpeg-codecs | lets you watch youtube videos without the browser shitting itself |
@@ -231,7 +231,7 @@ Unfortunately, there is no magic rule for how far away your monitor should be fr
 
 > on this note, you'll often hear monitors described by their dots per inch, this is a measure of the number of pixels in a square inch on the screen, the higher this is the finer the details, but the smaller any given element on screen will be. Apple's Retina displays for example have a high DPI rating, which is a large part of the reason they look so good
 
-I personally have my three, 4k (that's 3840x2160, or 4 times the resolution of 1080p) monitors positioned approximately 30 inches from my eyes.
+I personally have my three, 4k (that's 3840×2160, or 4 times the resolution of 1080p) monitors positioned approximately 30 inches from my eyes.
 
 Before moving forward though, I think it would make sense to talk about some of this display terminology. With that, I present far too much information condensed into one box:
 
@@ -247,7 +247,7 @@ Sizing of displays is a bit odd. A 27" 16:9 display, is not the same size as a 2
 
 {{< tab "Resolution" >}}
 
-**Resolution** of a display refers to the number of pixels, HD technically starts at 720p, or 720 pixels across, though this is generally rather low by modern standards, with acceptable usually considered 1080p, which is technically 1920x1080. You may also see 1080i, this is a strange concept, not actually related to resolution, but more to refresh rate. [Interlaced Video (Wikipedia)](https://en.wikipedia.org/wiki/Interlaced_video)
+**Resolution** of a display refers to the number of pixels, HD technically starts at 720p, or 720 pixels across, though this is generally rather low by modern standards, with acceptable usually considered 1080p, which is technically 1920×1080. You may also see 1080i, this is a strange concept, not actually related to resolution, but more to refresh rate. [Interlaced Video (Wikipedia)](https://en.wikipedia.org/wiki/Interlaced_video)
 
 QHD is 1440p and 4k (ignoring the mess of naming there) is usually 2160p. I recommenced against 1440p unless the system is mostly for gaming, as scaling from most content that is in 1080p to 1440p is awkward compared to the direct 2x scaling with 1080p to 2160p
 

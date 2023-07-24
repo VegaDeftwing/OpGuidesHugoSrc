@@ -4,7 +4,7 @@
 
 {{< attribution >}}Photo by [cece kun](https://unsplash.com/@kucee){{< /attribution >}}
 
-## The primary tool of the digital artist ... The pen?
+## The primary tool of the digital artist… The pen?
 
 I want to give you a heads-up that making digital art without a pen tablet or pen display of some sort is pretty awful. You can get a cheap pen tablet - they're basically like a mouse pad that you use a pen on - for ~$30. Or you can get a fancy pen display, where you draw directly on the screen, for about ~\$300 (similar to the one in the picture above; however, one that large is probably much more expensive)
 
@@ -22,7 +22,7 @@ As for the cheaper pen tablets, well, I haven't really noticed a difference betw
 
 ## Raster, Vector, Pixel, Voxel, ASCII, Mesh, Fractal, Generative,
 
-**Projection Mapping, Creative Code, ...**
+**Projection Mapping, Creative Code,…**
 
 ### Raster Art
 

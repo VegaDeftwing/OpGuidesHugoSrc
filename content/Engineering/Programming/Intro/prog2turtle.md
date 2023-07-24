@@ -28,13 +28,13 @@ Most high level devs would struggle to optimize a section of their game if they 
 
 {{< speech yeet >}}
 
-I am a low level dev, and the high level devs writing slow, shitty code drives me nuts.... but, they're still making cool things faster than I can.
+I am a low level dev, and the high level devs writing slow, shitty code drives me nuts…. but, they're still making cool things faster than I can.
 
 {{< /speech >}}
 
 # Learning both, with a 🐢
 
-I would really like to teach you programming from the top down, starting with something easy like the Python programming language and then talk about how things *really* work using the C Programming language. The problem is, when looking at Python code you'll occasionally need to deal with things that simply don't make sense without the context of a lower level language like C. Meanwhile, there are some things that C just... doesn't have. This means there are three options:
+I would really like to teach you programming from the top down, starting with something easy like the Python programming language and then talk about how things *really* work using the C Programming language. The problem is, when looking at Python code you'll occasionally need to deal with things that simply don't make sense without the context of a lower level language like C. Meanwhile, there are some things that C just… doesn't have. This means there are three options:
 
 1. Learn C first, hate it, and think all programming is hard before learning python
 2. Learn Python first and occasionally be tripped up by concepts like pointers and types
@@ -143,4 +143,4 @@ Write code. Write more code. Keep writing code.
 
 Reading a book or guide like this website can only help so much.
 
-... that said, do stick around, I haven't even told you any of the basics yet!
+… that said, do stick around, I haven't even told you any of the basics yet!

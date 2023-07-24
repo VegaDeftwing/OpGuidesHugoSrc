@@ -217,7 +217,7 @@ The technical community can be ruthless with it comes to expecting people to hav
 
 † within practicality, trade secrets are obviously a thing, and I'm not crazy. I mean, like publicly funded research and what not. While the specifics of this rule vary among engineering types, it is generally a core belief.
 
-On the note of point Ⅲ...
+On the note of point Ⅲ…
 
 ![Standards](https://imgs.xkcd.com/comics/standards.png)
 
@@ -229,7 +229,7 @@ It's not that we're being rude, it's just a matter of courtesy. If you're unsure
 
 Note, there is one exception: if chat is currently talking about something that you don't know about and it's already relevant to the conversation, it's totally reasonable to interject and ask for a super quick primer on what's going on or a relevant link. 
 
-This may seem obvious, but a good number of technical chats die because of exactly the aforementioned problems. (or gatekeeping, but that's a whole different matter...) so please don't ask things a search engine can already answer (but don't feel bad asking a question when the all mighty Google can't)
+This may seem obvious, but a good number of technical chats die because of exactly the aforementioned problems. (or gatekeeping, but that's a whole different matter…) so please don't ask things a search engine can already answer (but don't feel bad asking a question when the all mighty Google can't)
 
 TLDR: RTFM & STFW http://www.catb.org/esr/faqs/smart-questions.html#rtfm
 

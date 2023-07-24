@@ -48,9 +48,9 @@ Using the ohm meter function of your multimeter you can find out the amount of t
 
 But, uh, why should you care.
 
-Well, reistors on their own are mostly useless - well, except for making heat. In most circuits though waste heat is something we want to avoid.
+Well, resistors on their own are mostly useless - well, except for making heat. In most circuits though waste heat is something we want to avoid.
 
-The reason you should care is because we can use ristance for doing important things in a circuit. For example, 
+The reason you should care is because we can use resistance for doing important things in a circuit. For example, 
 
 ![resistordivider](/eng/circuits/resistordivider.svg)
 
@@ -130,7 +130,7 @@ As for what it actually means: that is, Voltage = Current * Resistance
 
 {{< smalltext >}}or, Resistance = Voltage / Current{{< /smalltext >}} </br>{{< smalltext >}}or, Current = Voltage / Resistance{{< /smalltext >}}
 
-I can not in words convey how important this equation is. If there is any single equation you should have related to electricity committed to memory, it is this one - though, before you commit it independently, you should consider how it relates to the the power equation from the start, and how you can substitute in ohm's law.
+I can not in words convey how important this equation is. If there is any single equation you should have related to electricity committed to memory, it is this one - though, before you commit it independently, you should consider how it relates to the power equation from the start, and how you can substitute in ohm's law.
 
 {{< katex >}}P=I\times V \implies P = I \times I \times R \implies P =  I^2 \times R{{< /katex >}}
 
@@ -178,7 +178,7 @@ Not all power supplies sold as lab power supplies have current limiting. If it d
 
 {{< tip >}}
 
-It *technically* only takes about 100mA or so to outright kill you, and with even less you can lose muscle control and get stuck holding the thing shocking you. Keep in mind, 100mA is really not much! Your phone charger can probably put out about 20 times this.... Sort of... What you should keep in mind is the resistance of the human body. This is massively variable (especially if your hands are wet or sweaty) but is generally so high that actually getting this much current to go *through* you is actually a bit of a challenge. So, the takeaway? Keep shit dry, respect high voltages which can just arc right through the skin, and don't be dumb ass. Will you die using a non-current limited supply? Probably not. Should you risk it when you don't have to? Hell no.
+It *technically* only takes about 100mA or so to outright kill you, and with even less you can lose muscle control and get stuck holding the thing shocking you. Keep in mind, 100mA is really not much! Your phone charger can probably put out about 20 times this…. Sort of… What you should keep in mind is the resistance of the human body. This is massively variable (especially if your hands are wet or sweaty) but is generally so high that actually getting this much current to go *through* you is actually a bit of a challenge. So, the takeaway? Keep shit dry, respect high voltages which can just arc right through the skin, and don't be dumb ass. Will you die using a non-current limited supply? Probably not. Should you risk it when you don't have to? Hell no.
 
 {{< /tip >}}
 
@@ -244,9 +244,9 @@ However, a decent 'Digital Storage Oscilloscope' or DSO like the one above run a
 
 Note, a lot of hobbyists will try to get by on a really cheap new scope (less than $100).
 
-There's a particularly popular really cheap (often under \$10) exposed red PCB one and just... don't. Either get a used scope (often around \$100) or get something good outright, as for "good" I'd really recommend the Rigol DS1054Z<a class="ptr">(1)</a>, or the [Diglent Analog Discovery 2](https://digilent.com/shop/analog-discovery-2-100ms-s-usb-oscilloscope-logic-analyzer-and-variable-power-supply/) which packs a lot of these tools all into one thing. I know it's a lot of money, but ideally this is something you can think of as an investment.
+There's a particularly popular really cheap (often under \$10) exposed red PCB one and just… don't. Either get a used scope (often around \$100) or get something good outright, as for "good" I'd really recommend the Rigol DS1054Z<a class="ptr">(1)</a>, or the [Diglent Analog Discovery 2](https://digilent.com/shop/analog-discovery-2-100ms-s-usb-oscilloscope-logic-analyzer-and-variable-power-supply/) which packs a lot of these tools all into one thing. I know it's a lot of money, but ideally this is something you can think of as an investment.
 
-If you absolutely want the cheapest possible option, you can go through the mild headache of setting up a [Raspberry Pi Pico](https://www.adafruit.com/product/4864) (~$4) with [Sigrok-Pico](https://github.com/pico-coder/sigrok-pico). You'll need some resistors (very cheap) and *probably* the [breadboard with the pico's pinout](https://www.adafruit.com/product/5422). Total price should be around ~\$15. These are going to be god awful analog inputs though - they're only 7-bit, so you get 128 different values out and the max sample rate is 120Msps... not awesome, but maybe you don't need much.
+If you absolutely want the cheapest possible option, you can go through the mild headache of setting up a [Raspberry Pi Pico](https://www.adafruit.com/product/4864) (~$4) with [Sigrok-Pico](https://github.com/pico-coder/sigrok-pico). You'll need some resistors (very cheap) and *probably* the [breadboard with the pico's pinout](https://www.adafruit.com/product/5422). Total price should be around ~\$15. These are going to be god awful analog inputs though - they're only 7-bit, so you get 128 different values out and the max sample rate is 120Msps… not awesome, but maybe you don't need much.
 
 Regardless, this still hasn't really told you why you'd want one.
 
@@ -268,7 +268,7 @@ For most modern scopes, this is only scratching the surface. For example, they'l
 
 ## The Logic Analyzer
 
-Logic Analyzers... analyze logic. Who could've guessed?
+Logic Analyzers… analyze logic. Who could've guessed?
 
 But what does that mean? Well, in reality they are *somewhat* similar to an oscilloscope in that they show a voltage over time, the difference is they only show either on or off over time based on the set TTL (Transistor–transistor logic) voltage. This lets you eavesdrop on the digital communication going on over a wire. Here's an example output:
 

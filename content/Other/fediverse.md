@@ -39,7 +39,7 @@ Already based on that simplified explanation this has a few benefits:
 
 There are many fediverse services. The most well known one being [mastodon](https://joinmastodon.org) which is basically a Twitter clone BUT the weird thing is there are multiple instances. So, like email, you might have an account at https://merveilles.town or https://chaos.social/about or something else entirely, but regardless of what you use they can communicate.
 
-Mastodon has many many great instances - more on that in a bit. The bigger picture is that federation can be used for something like a YouTube clone (which is what [PeerTube](https://joinpeertube.org) is), streaming audio (which is what [Funkwhale](https://funkwhale.audio) is), being-a-better-insta-than-insta (which is what [PixelFed](https://pixelfed.org/) is), event planning (see [Gath.io](https://gath.io/)), and quite a few other things if you go looking. The point being, for each of these, an (optionally) unified identity can be used and the server you use (or host yourself) can choose who to federate with (talk to). This means it:
+Mastodon has many great instances - more on that in a bit. The bigger picture is that federation can be used for something like a YouTube clone (which is what [PeerTube](https://joinpeertube.org) is), streaming audio (which is what [Funkwhale](https://funkwhale.audio) is), being-a-better-insta-than-insta (which is what [PixelFed](https://pixelfed.org/) is), event planning (see [Gath.io](https://gath.io/)), and quite a few other things if you go looking. The point being, for each of these, an (optionally) unified identity can be used and the server you use (or host yourself) can choose who to federate with (talk to). This means it:
 
 * Is censorship resistant
 

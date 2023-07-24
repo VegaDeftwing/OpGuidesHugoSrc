@@ -50,7 +50,7 @@ These computers *usually* don't run a full operating system, and instead *usuall
 
 {{< columns >}}
 
-Probably the most commonly recommend microcontroller for beginners is the ATMEGA328P on the Arduino Uno. The 328P and Uno are both... not awesome. But, for first learning and getting your toes wet they're fine.
+Probably the most commonly recommend microcontroller for beginners is the ATMEGA328P on the Arduino Uno. The 328P and Uno are both… not awesome. But, for first learning and getting your toes wet they're fine.
 
 It's worth noting, the μC itself is the Atmega328P- the really big black rectangular chip. The board that breaks these pins out to the headers for you to plug wires into, provides the USB connection, power filtering, reset button, etc. is the Development Board- in this case it's been named the Arduino Uno.
 
@@ -152,7 +152,7 @@ But, more improtantly, C++ is also object oriented, so we're calling the `printl
 
 Now, 2. Is the more important and more confusing point and requires a smidgen of historical context. 
 
-You connected the board to your computer over USB or **U**niversal **S**erial **B**us. Prior to USB we also had ... Serial. Just... Serial. USB can (with a lot of hand waving to what is actually going on) let devices show up as old school Serial devices though. If you're on Windows, these will show up as com ports (COM4 or whatever) on Linux, they'll show up as `/dev/ttyACM0` or `/dev/ttyUSB0` (with the number incrementing depending on the number of devices)  - this old school serial connection is pretty damn slow but basically just gives us a way to send data (usually text) back and forth to a device - allowing us to print that data to a terminal or send data from a terminal. 
+You connected the board to your computer over USB or **U**niversal **S**erial **B**us. Prior to USB we also had … Serial. Just… Serial. USB can (with a lot of hand waving to what is actually going on) let devices show up as old school Serial devices though. If you're on Windows, these will show up as com ports (COM4 or whatever) on Linux, they'll show up as `/dev/ttyACM0` or `/dev/ttyUSB0` (with the number incrementing depending on the number of devices)  - this old school serial connection is pretty damn slow but basically just gives us a way to send data (usually text) back and forth to a device - allowing us to print that data to a terminal or send data from a terminal. 
 
 This is why we can't just use `printf()` - where would that text even show up?! **There's no screen on the board!** no terminal. We need to send the data back to the computer over the serial interface to have a way to read it!
 
@@ -195,7 +195,7 @@ But, I hear you asking, **"why?"**
 
 Even if *most* of these specs don't mean anything to you and whatever projects you have in mind don't need a beefy processor, while learning espcially you don't want to be constantly running out of RAM or room to store your code.
 
-If that doesn't convince you, then I don't know what will. Oh, and the BlackPill still supports the Arduino framework, if you do actually need it. Now, to be fair, there's a lot more to this than these specs. The 328p will almost certainly have better library support than the BlackPill, the Uno has a bunch of snap-on accessories, and some things do actually work better with the 5V i/o of the Uno. It's just... sort of dumb to start on something so old and so far removed from modern practices.
+If that doesn't convince you, then I don't know what will. Oh, and the BlackPill still supports the Arduino framework, if you do actually need it. Now, to be fair, there's a lot more to this than these specs. The 328p will almost certainly have better library support than the BlackPill, the Uno has a bunch of snap-on accessories, and some things do actually work better with the 5V i/o of the Uno. It's just… sort of dumb to start on something so old and so far removed from modern practices.
 
 You'd also want to consider what protocols and inputs the boards can handle. In this case, the BlackPill is basically better in every way in that front too. If you were looking at other options though, some boards may not have analog input pins, for example, and that might be a dealbreaker for some projects. I'll talk more about how to find the right μC / Devboard for your project later, for now, let's move on assuming you have the BlackPill in front of you.
 
@@ -213,7 +213,7 @@ For this, you'll probably actually want a few devices to experiment with. Unless
 
 {{< /tip >}}
 
-Alright, so making the board send text to the computer or blink an LED is cool and all, but, that's not really all that interesting. Let's go further, lets... uh... blink a **different** LED!
+Alright, so making the board send text to the computer or blink an LED is cool and all, but, that's not really all that interesting. Let's go further, lets… uh… blink a **different** LED!
 
 [TODO] LED pull up/down
 
@@ -251,7 +251,7 @@ So, that's i2c, which is nice, but sometimes you'll want to talk to a device wit
 
 [TODO] ADC → μC →DAC, floating point, DMA?
 
-Depending on the board you're using (not the Arduino Uno) you may have a/multiple **D**igital to **A**nalog **C**onverter(s) (DAC), as well as **A**nalog to **D**igital **C**onverters (ADCs) which... do what you think. ADCs let you take an analog signal in - like the output of a guitar or the voltage as you turn a knob. DACs let you output a signal (like audio). Assuming you have enough computational horsepower and the DACs and ADCs on board are good enough, the combination of these could let you do everything from a guitar pedal to making your own radio (On top of just being able to read knob positions)
+Depending on the board you're using (not the Arduino Uno) you may have a/multiple **D**igital to **A**nalog **C**onverter(s) (DAC), as well as **A**nalog to **D**igital **C**onverters (ADCs) which… do what you think. ADCs let you take an analog signal in - like the output of a guitar or the voltage as you turn a knob. DACs let you output a signal (like audio). Assuming you have enough computational horsepower and the DACs and ADCs on board are good enough, the combination of these could let you do everything from a guitar pedal to making your own radio (On top of just being able to read knob positions)
 
 Unfortunately, DACs and ADCs are complicated, and you really should know a lot about them as they're used a lot, so, without further-a-deux:
 
@@ -279,7 +279,7 @@ Want to know more about ADCs and DACs? Here are some links:
 
 [Retrotechtacular: The Forgotten Vacuum Tube A/D Converters of 1965 (Hackaday)](https://hackaday.com/2022/06/08/retrotechtacular-the-forgotten-vacuum-tube-a-d-converters-of-1965/)
 
-## Project 4 - LEDs... again?
+## Project 4 - LEDs… again?
 
 [TODO] Power with transistors, filtering, PWM. Color input from temp and magnetic field sensors
 

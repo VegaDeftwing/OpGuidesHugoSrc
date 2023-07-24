@@ -135,7 +135,7 @@ Sometimes packets in the network don't reach their destination. This can be for 
 
 One thing a lot of people confuse is **bandwidth** and **throughput**. The two are related, but they're not the same.
 
-**Throughput** is how many bits of useful information you're actually getting out per second. This is the number you *probably* actually want. **Bandwidth** (quite literally how much of a frequency range you're using) is how much information the the connection can <u>*theoretically*</u> transmit.
+**Throughput** is how many bits of useful information you're actually getting out per second. This is the number you *probably* actually want. **Bandwidth** (quite literally how much of a frequency range you're using) is how much information the connection can <u>*theoretically*</u> transmit.
 
 The easiest example of the difference here is a bad WiFi connection. You might have a good amount of bandwidth if you're using a nice silce of spectrum up near 5GHz, but if you're far away from the transmitter, near a running microwave, and your neighbor is using the same specturm for their Wi-Fi, you'll obviously have a lower throughput.
 
@@ -150,7 +150,7 @@ However, let's say you're transmitting that signal over radio, and the wave you 
 
 <img src="/eng/baud.svg" alt=" " width="30%">
 
-This does show the same binary, we've just taken groups of two bits at a time and represented each as a different level in the wave. If you want to think of it another way, say we take that that binary and make a little look up table:
+This does show the same binary, we've just taken groups of two bits at a time and represented each as a different level in the wave. If you want to think of it another way, say we take that binary and make a little look up table:
 
 00 = ░,
 01 = ▒,
@@ -203,7 +203,7 @@ Meanwhile, the [**IETF**](https://en.wikipedia.org/wiki/Internet_Research_Task_F
 
 The **IANA** (Internet Assigned Numbers Authority), a sub group of **ICANN** (Internet Corporation for Assigned Names and Numbers) assigns blocks of IP addresses, runs the root DNS servers, and runs the main time zone database. There are regional organizations (RIR - Regional Internet registry) that the IANA delegates responsibilities to. These are the [American Registry for Internet Numbers](https://en.wikipedia.org/wiki/American_Registry_for_Internet_Numbers) (ARIN),  [Réseaux IP Européens Network Coordination Centre](https://en.wikipedia.org/wiki/RIPE_NCC) (RIPE NCC), [Asia-Pacific Network Information Centre](https://en.wikipedia.org/wiki/Asia-Pacific_Network_Information_Centre) (APNIC), [African Network Information Center](https://en.wikipedia.org/wiki/AFRINIC) (AFRINIC), and [Latin America and Caribbean Network Information Centre](https://en.wikipedia.org/wiki/Latin_America_and_Caribbean_Network_Information_Centre) (LACNIC).
 
-Then there's the **[W3C](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium)** (World Wide Web Consortium) which is probably most notable for defining the standards for HTML,  CSS, SVG, WebAssembly, and, more recently, ActivityPub. Of note, the W3C has faced backlash recently for adding DRM-specific [Encrypted Media Extensions](https://en.wikipedia.org/wiki/Encrypted_Media_Extensions) (EME) to HTML5, a move that really really pissed of the EFF...
+Then there's the **[W3C](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium)** (World Wide Web Consortium) which is probably most notable for defining the standards for HTML,  CSS, SVG, WebAssembly, and, more recently, ActivityPub. Of note, the W3C has faced backlash recently for adding DRM-specific [Encrypted Media Extensions](https://en.wikipedia.org/wiki/Encrypted_Media_Extensions) (EME) to HTML5, a move that really *really* pissed of the EFF...
 
 Speaking of, the [**EFF**](https://en.wikipedia.org/wiki/Electronic_Frontier_Foundation) (Electronic Frontier Foundation) is a bit of an odd-one-out on this list, but is effectively to the internet what the ACLU is to the broader public. They regularly provide legal council to high profile cases regarding online rights and digital privacy. They've regularly stood up for the right to encrypt your shit, are anti-DRM, and are basically all-around the good guys. Seriously, please [donate to them](https://supporters.eff.org/donate) or [buy some of their actually awesome merch](https://supporters.eff.org/shop). They're the bad asses protecting your rights online.
 

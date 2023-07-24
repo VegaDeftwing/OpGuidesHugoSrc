@@ -309,7 +309,7 @@ MTC is actually based on SMPTE Timecode, so what's that? SMPTE stands for *Socie
 
 If you've ever used old game consoles (like the NES) with the composite video out, you may have encountered some of these standards, namely NTSC and PAL. In North America NTSC is standard, while across the pond you'd find PAL (and SECAM, but that isn't relevant here). The biggest difference between NTSC and PAL is the frame rate - 
 
-But before we get to to frame rate, we need to talk power line frequency - In most of North America the mains power from the wall is 60Hz, and pretty much everywhere else it's 50Hz. This is relevant, as NTSC and PAL video each had a frame rate that was half of the power line frequency: 30Hz for NTSC and 25Hz for PAL.
+But before we get to frame rate, we need to talk power line frequency - In most of North America the mains power from the wall is 60Hz, and pretty much everywhere else it's 50Hz. This is relevant, as NTSC and PAL video each had a frame rate that was half of the power line frequency: 30Hz for NTSC and 25Hz for PAL.
 
 So, now we're almost there, there's actually yet another complication, the time code could also be 24Hz (to match the 24FPS of film as was standard in theaters) or 29.97Hz because NTSC had to be slowed this slight amount to accommodate adding color to otherwise black and white video.
 

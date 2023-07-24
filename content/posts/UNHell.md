@@ -303,7 +303,7 @@ If the quality of my professors and classes didn't piss me off before, this is t
 
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/TBjfojgqGho" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-  Alright, so, why complain about this class? Well, for one, neither of the TA's knew their heads from their asses. One of them insisted the the Arduino Uno (AtMega 328P) was a perfectly fine, modern μC. (It's not.) and the other had *never even used a micro controller*. I ended up gifting her an arduino nano and a few parts from my stash so she could learn (that TA had no influence on my grade). I'm not saying either was dumb, or saying anything bad about them directly, but they sure as hell should not have been the TAs for this this class. (There was no professor)
+  Alright, so, why complain about this class? Well, for one, neither of the TA's knew their heads from their asses. One of them insisted the Arduino Uno (AtMega 328P) was a perfectly fine, modern μC. (It's not.) and the other had *never even used a micro controller*. I ended up gifting her an arduino nano and a few parts from my stash so she could learn (that TA had no influence on my grade). I'm not saying either was dumb, or saying anything bad about them directly, but they sure as hell should not have been the TAs for this class. (There was no professor)
 
   Also, when all classes were force to go online this lab lost a lot of its value. I was fortunate enough to have an Oscilloscope, multiple lab PSUs, logic analyzer, etc. all on hand, but many other students got a much worse education for it.
 
@@ -568,7 +568,7 @@ I originally had a multi page rant here, but instead, I've decided that some bul
 
 * While directly contrary to what I've done in this post, generally I don't recommend burning bridges, you never know when the flames may come back to bite you.
 * There *is* such thing as a stupid question, just they're more often on quizzes and tests than brought up by students
-  * *Nobody* in a crypto class cares about the the three names that make up the accronym RSA
+  * *Nobody* in a crypto class cares about the three names that make up the acronym RSA
   * *Nobody* in a networking class needs to know about [NCP](https://en.wikipedia.org/wiki/Network_Control_Program)
   * Most classes are about 15 weeks. These profs have 45 hours over 15 weeks (assuming a 3 credit hour class) to take you from presumably zero knowledge on a topic to being competent. There's just not time for trivia questions on tests or quizzes, and they're a good sign the prof is adding filler and depriving you of more valuable content.
 * Most classes shy away from ethics, keep in mind how what you're learning could be used for good and evil

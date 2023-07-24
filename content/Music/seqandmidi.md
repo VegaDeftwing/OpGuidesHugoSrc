@@ -2,7 +2,7 @@
 
 {{< tip >}}
 
-{{< button relref="/Music/midi" color="music" >}}MIDI In Detail{{< /button >}} covers the technical bits of MIDI in much more detail, but you'll still probably want to read this this first if you don't know what MIDI even is.
+{{< button relref="/Music/midi" color="music" >}}MIDI In Detail{{< /button >}} covers the technical bits of MIDI in much more detail, but you'll still probably want to read this first if you don't know what MIDI even is.
 
  {{< /tip >}}
 

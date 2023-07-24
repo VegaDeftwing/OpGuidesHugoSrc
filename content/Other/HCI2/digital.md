@@ -48,7 +48,7 @@ Often, I find what I'm looking for faster by just going to as close of a topic a
 
 It'd also be nice to have the ability to just set a list of bad sites. Like, please never ever show me any results from Pintrest.
 
-Thinking more into the future, I would very much like to see a world where data searching is context aware. For example, say I'm searching for a data sheet for an old vacuum tube and I have a schematic of an old amplifier open in another tab, I would love if the browser saw the context and changed the label in the schematic into a link to this datasheet. Furthermore, it would be great if it crawled the web and finished finding datasheets and linking them, possibly well before I even even got to that page in the first place. I know we don't have the tech to do this yet, especially not as a general purpose tool, but I like to think about the future. ¯\\\_(ツ)\_/¯
+Thinking more into the future, I would very much like to see a world where data searching is context aware. For example, say I'm searching for a data sheet for an old vacuum tube and I have a schematic of an old amplifier open in another tab, I would love if the browser saw the context and changed the label in the schematic into a link to this datasheet. Furthermore, it would be great if it crawled the web and finished finding datasheets and linking them, possibly well before I even got to that page in the first place. I know we don't have the tech to do this yet, especially not as a general purpose tool, but I like to think about the future. ¯\\\_(ツ)\_/¯
 
 Another point is the summery of information and omission of the irrelevant info. Say I were to look up bits in a byte, I don't necessarily need the historical context as to why bits are named bits and bytes, bytes, though even though I didn't search it, presenting that a nybble is 4 bits, and how to tell endinan-ness is more relevant, unless I had recently searched historical information or stated I wanted that explicitly. In my opinion we should be less concerned with finding relevant results and more concerned with discarding the irrelevant, though making the verbose available.
 
@@ -245,7 +245,7 @@ A **dark pattern** is "a user interface that has been carefully crafted to trick
 
 {{< /quote >}}
 
-That's the definition from from Wikipedia anyway. I think it's a bit better put as "Dark Patterns are what happens when UI designers are a bag of dicks"
+That's the definition from Wikipedia anyway. I think it's a bit better put as "Dark Patterns are what happens when UI designers are a bag of dicks"
 
 [This Site](https://darkpatterns.org/types-of-dark-pattern.html) has a lot of really good info on Dark Patters, and I recommend heading over there and then coming back over here. 
 

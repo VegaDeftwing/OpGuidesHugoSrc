@@ -17,8 +17,6 @@ draft: false
 
 One of the bigger points of the metaverse is the idea of owning a slice of digital property. This is a weird mix of the scarcity and value from real life property and the domain name (like `myfancyname.com`) market. It also makes no god damn sense in this context, and is really just artificially putting limitations into a system for the sake of making yet another crypto currency.
 
-<!--Need Kalli to make a fake NFT furby-->
-
 <div style="margin:auto;width:60%;">
 
 {{< speech furby big >}}
@@ -48,7 +46,7 @@ Let me address point 2 first: There's no reason any area should be any more acce
 
 {{< /columns >}}
 
-Bringing that point further, there's also no reason the space joining these virtual worlds needs to even be euclidean or that each land plot needs to be on the same scale. If you realllllly insist on having a system of land "ownership" that makes some some land more valuable, then that will quickly lead to the scale hack anyway, where land owners just scale down users avatars upon entering the plot so the space feels bigger. This makes land value based on point 1. really weird, and goes a good step towards fixing the accessibility issue.
+Bringing that point further, there's also no reason the space joining these virtual worlds needs to even be euclidean or that each land plot needs to be on the same scale. If you realllllly insist on having a system of land "ownership" that makes some land more valuable, then that will quickly lead to the scale hack anyway, where land owners just scale down users avatars upon entering the plot so the space feels bigger. This makes land value based on point 1. really weird, and goes a good step towards fixing the accessibility issue.
 
 <div style="margin:auto;width:70%;">
 

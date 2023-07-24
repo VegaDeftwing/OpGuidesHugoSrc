@@ -30,3 +30,7 @@ The biggest reason knowing how legacy hardware works is important is because it 
 
 --->
 
+## History
+
+Computing as a field has some interesting history dating back to the 1800's. I really recommend reading [A Brief History of Computers (lesswrong.com)](https://www.lesswrong.com/posts/vfRpzyGsikujm9ujj/a-brief-history-of-computers) if this interests you.
+

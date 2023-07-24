@@ -1,10 +1,10 @@
 # ? - Making Something
 
-As I'm writing these, it's occurring to me I'm really leaving out the practical. If somebody really wants to lean how to do electornics stuff, even at the hobbiest level, they need to be able to 
+As I'm writing these, it's occurring to me I'm really leaving out the practical. If somebody really wants to lean how to do electronics stuff, even at the hobbiest level, they need to be able to 
 
 * Know how to pick parts
 * Know how and where to order parts
-* How to actually assemble things (a bit of mechincial know-how)
+* How to actually assemble things (a bit of mechanical know-how)
 * Feel comfortable making things that do things
 
 Beginner projects then are a bit of a problem. Doing it Shu Ha Ri style, we need something to start with to just blindly follow (Shu) and get a taste for it. The problem is, most options at this stage pretty much suck for either being

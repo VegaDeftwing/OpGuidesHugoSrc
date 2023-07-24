@@ -89,7 +89,7 @@ https://play.ertdfgcvb.xyz/ is similar, but lets you write dramatically more adv
 
 {{< /speech >}}
 
-<!-- [TODO] I want to start here instead of python, need to research which one to start with. I like pico-8, but it's paid and I'd like to keep OpGuides accessible. Tic-80 appears to be the most common otherwise? Pyxel looks good too though and would lead into python nicely? ... ╮(─▽─)╭
+<!-- [TODO] I want to start here instead of python, need to research which one to start with. I like pico-8, but it's paid and I'd like to keep OpGuides accessible. Tic-80 appears to be the most common otherwise? Pyxel looks good too though and would lead into python nicely? … ╮(─▽─)╭
 
 http://zenithsal.com/assets/documents/tic-80_cheatsheet.png
 
@@ -385,7 +385,7 @@ result = myInt + myFloat
 print(result)
 ```
 
-the answer is still 1.5, beceause python saw that we were adding an int to a float and took care of this for us. This isn't always so cut and dry though, and sometimes you may actually want to keep things in one type or another. Because of this you can *typecast*. This means forcing one type to another. In python at least, this has limits. For example, it makes sense to go from the string "3" into an integer, but the string "test" into an integer is... less obvious, and so python says no. To do this conversion, just use the type as if it were a function. Here are some examples:
+the answer is still 1.5, because python saw that we were adding an int to a float and took care of this for us. This isn't always so cut and dry though, and sometimes you may actually want to keep things in one type or another. Because of this you can *typecast*. This means forcing one type to another. In python at least, this has limits. For example, it makes sense to go from the string "3" into an integer, but the string "test" into an integer is… less obvious, and so python says no. To do this conversion, just use the type as if it were a function. Here are some examples:
 
 ```python
 myFloat = 123.456
@@ -405,7 +405,7 @@ Furthermore, in python theres a variety of ways you may run into more types, or 
 
 [TODO]
 
-## When writing code...
+## When writing code…
 
 One helpful thing when writing code is to '**comment out**' some code, this is a big deal when trying to figure out why something doesn't work. Here, for example, the `a = a + 1` line never happens because it's been put into a comment. It could be made to run again by removing the `#`
 
@@ -447,7 +447,7 @@ c = 3
 
 When we do this, the computer has to store them somewhere in it's memory. We can (kinda) see this location in memory by using the `id()` command. The first weird thing you'll notice is that while `id(a)` will stay the same if you run it repeatedly, if you close python, set `a=1` again, and rerun `id(a)` the number will change. That's because this 'id' is really where in memory the data is being stored, and each time to run python the computer is going to put it somewhere else<a class="ptr">(3)</a>. The `is` command is python is actually checking if these id's are the same, not if the value is the same. This harkens back to object orientation- remember, we could make a bunch of objects, lets say cows, we could have two cows with the same name, same color, same age, etc. but if they're two different cows, they're still two different cows, and is will reflect this. They make be equal in every other regard, but one cow is not the other cow, they're still distinct *objects*.
 
-This can get really fucking weird. One of the weirdest things about python in regards to this is (usually) python will pre-allocate a place to store low integer numbers, so, if you make two variables with low integer numbers, they'll actually point to the same memory location at first...
+This can get really fucking weird. One of the weirdest things about python in regards to this is (usually) python will pre-allocate a place to store low integer numbers, so, if you make two variables with low integer numbers, they'll actually point to the same memory location at first…
 
 ```python
 a = 1
@@ -455,7 +455,7 @@ b = 1
 a is b #This is true
 ```
 
-but, if we make these really big...
+but, if we make these really big…
 
 ```python
 a = 12345

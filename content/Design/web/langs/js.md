@@ -36,7 +36,7 @@ button.addEventListener('click', function() {
 });
 ```
 
-This code, even if you've never read code before, sholud make sense.
+This code, even if you've never read code before, should make sense.
 
 So, why is JS hard to talk about?
 
@@ -50,7 +50,7 @@ So, uh, how do you learn to do that?
 
 ## Learning JS
 
-Well, to start with you can follow the Programming Into section on this website. This uses a mix of Python and C, which, you'll note, are not JavaScript. Fortunately, for the most part if you can program in Python and C, you can program in anything. ... sort of. JS is weird because it ties in to the HTML and CSS on the page, the whole point is that it can be used to tie in with the page elements. You can modify, add, or delete elements and their style with Javascript with code.
+Well, to start with you can follow the Programming Into section on this website. This uses a mix of Python and C, which, you'll note, are not JavaScript. Fortunately, for the most part if you can program in Python and C, you can program in anything … sort of. JS is weird because it ties in to the HTML and CSS on the page, the whole point is that it can be used to tie in with the page elements. You can modify, add, or delete elements and their style with Javascript with code.
 
 Let me say this again. **You can modify, add, or delete elements and their style with Javascript with code.** This is super fucking cool. It makes JS (and otherwise kinda shit language) awesome.
 

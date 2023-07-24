@@ -4,19 +4,19 @@ So, I just said you'd need to learn a bunch to do this, so, why bother?
 
 1. Platforms like Facebook, Tumblr, etc. - Social Media - don't let you really customize the look of your page
 
-   ... and they track you
+   … and they track you
 
-   ... and they make the experience bad for those without accounts
+   … and they make the experience bad for those without accounts
 
-   ... and they can limit your speech, ban your account, etc. 
+   … and they can limit your speech, ban your account, etc. 
 
 2. Site builders (Squarespace, Wix, WordPress, etc.) tend to lead to cookie-cutter websites
 
-   ... and are usually more expensive
+   … and are usually more expensive
 
-   ... and have vendor lock in
+   … and have vendor lock in
 
-   ... and usually cost significantly more
+   … and usually cost significantly more
 
    {{< smalltext >}}\* I will however concede that they're nice if you want to have a store front!{{< /smalltext >}}
 
@@ -30,9 +30,9 @@ But, that's just reasons to *not* use those things, why do you actually want to 
 
 4. It's **yours**
 
-   ... you can say what you, how you want- change every visual details, add animation, whatever
+   … you can say what you, how you want- change every visual details, add animation, whatever
 
-   ... you don't need to be worried about your content disappearing suddenly or losing access
+   … you don't need to be worried about your content disappearing suddenly or losing access
 
    {{< smalltext >}}Though I do still recommend promoting on big platforms: see [POSSE](https://indieweb.org/POSSE) {{< /smalltext >}}
 

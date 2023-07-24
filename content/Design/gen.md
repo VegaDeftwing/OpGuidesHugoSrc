@@ -721,7 +721,7 @@ JS library for visulaization & creative coding
 {{< columns2 >}}
 [The Force (Github)](https://github.com/shawnlawson/The_Force)
 <--->
-... this one basically lacks all description. Best you'll get is the [api docs in the wiki](https://github.com/shawnlawson/The_Force/wiki/API)
+… this one basically lacks all description. Best you'll get is the [api docs in the wiki](https://github.com/shawnlawson/The_Force/wiki/API)
 <--->
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/184863637" width="100%" height="150" frameborder="0" allowfullscreen></iframe>
@@ -1085,7 +1085,7 @@ Dain-App is a free app that let you take any form of media like movies, stop-mot
 {{< columns2 >}}
 [Neat auto lighting/shading software (Github pages site)](htt://lllyasviel.github.io/PaintingLight/)
 <--->
-"[...]. Based on this observation, we design an algorithm to both estimate the density of strokes in a digital painting using color geometry, and then generate novel lighting effects by mimicking artists' coarse-to-fine workflow."
+"[…]. Based on this observation, we design an algorithm to both estimate the density of strokes in a digital painting using color geometry, and then generate novel lighting effects by mimicking artists' coarse-to-fine workflow."
 <--->
 ![](https://lllyasviel.github.io/PaintingLight/index_files/paintlight_title.jpg) artwork traced by ToS2P from an artwork by David Revoy under CC-BY license, www.peppercarrot.com
 {{< /columns2 >}}
@@ -1135,7 +1135,7 @@ https://kroki.io
 
 <--->
 
-"Kroki provides a unified API with support for BlockDiag (BlockDiag, SeqDiag, ActDiag, NwDiag, PacketDiag, RackDiag), BPMN, Bytefield, C4 (with PlantUML), Ditaa, Erd, Excalidraw, GraphViz, Mermaid, Nomnoml, Pikchr, PlantUML, SvgBob, UMLet, Vega, Vega-Lite, WaveDrom... and more to come! "
+"Kroki provides a unified API with support for BlockDiag (BlockDiag, SeqDiag, ActDiag, NwDiag, PacketDiag, RackDiag), BPMN, Bytefield, C4 (with PlantUML), Ditaa, Erd, Excalidraw, GraphViz, Mermaid, Nomnoml, Pikchr, PlantUML, SvgBob, UMLet, Vega, Vega-Lite, WaveDrom… and more to come! "
 
 <--->
 
@@ -1307,7 +1307,7 @@ Graphviz editor
 
 <--->
 
-... It's a graphviz editor. It looks how you'd expect.
+… It's a graphviz editor. It looks how you'd expect.
 
 {{< /columns2 >}}
 

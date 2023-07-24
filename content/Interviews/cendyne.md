@@ -7,7 +7,7 @@ bookToC = false
 
 **12/30/2022**
 
-<img src="/nonfree/interviews/cendyne_pixel.png" alt="Cendyne" height="200em">
+<img src="/nonfree/interviews/cendyne_pixel.png" alt="Cendyne" style="height:15em">
 
 
 {{< iquestion >}}

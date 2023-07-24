@@ -97,5 +97,6 @@ If you want to go through a really gentle introduction to a lot of what this gui
 
 
 <ol hidden id="footnotes">
-    <li>Well, sort of. The way it works doesn't <b>ensure</b> you're getting the shortest path, but then, doing so would require checking every possible combonation, which is the extremely inefficent task this simulation helps avoid</li>
+    <li>Well, sort of. The way it works doesn't <b>ensure</b> you're getting the shortest path, but then, doing so would require checking every possible cobination, which is the extremely inefficent task this simulation helps avoid</li>
 </ol>
+

@@ -22,7 +22,7 @@ Line 5 takes the picture and saves it with the current date and time in the `/mn
 
 Then, to trigger the script I have a systemd timer and service setup.
 
-I have the timer and service files named fifteen.timer and fifteen.service respectively, and the script above is named fifteen.sh and is stored in `~/.config/fifteen.sh` This is so that I can add extra things do do on fifteen minute intervals if needed super easily. I also have an hourly.sh with a similar setup.
+I have the timer and service files named fifteen.timer and fifteen.service respectively, and the script above is named fifteen.sh and is stored in `~/.config/fifteen.sh` This is so that I can add extra things do on fifteen minute intervals if needed super easily. I also have an hourly.sh with a similar setup.
 
 **fifteen.service**
 

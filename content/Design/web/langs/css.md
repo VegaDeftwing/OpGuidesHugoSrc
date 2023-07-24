@@ -70,7 +70,7 @@ For example, lets say you have a bunch of images on your website,
 
 {{< /columns >}}
 
-and you decide they'd all look better with rounded corners, so you make a CSS rule to apply rounded cornerns to ALL images on the site:
+and you decide they'd all look better with rounded corners, so you make a CSS rule to apply rounded corners to ALL images on the site:
 
 ```css
 img{
@@ -92,13 +92,13 @@ img{
 
 {{< /columns >}}
 
-That looks good, does what we want, great, right...
+That looks good, does what we want, great, right…
 
 <img class="center" src="/design/brokenlogo.webp" style="border-radius:20px;">
 
-... Oops, we broke the logo.
+… Oops, we broke the logo.
 
-Unitended consquences are the bane of your existance when working on CSS because you really want to (and should) apply style to the most generic class that it applies to, but it's easy to accidentally go one step too far and break other things. This problem could technically be resolved in two ways:
+Unintended consequences are the bane of your existence when working on CSS because you really want to (and should) apply style to the most generic class that it applies to, but it's easy to accidentally go one step too far and break other things. This problem could technically be resolved in two ways:
 
 From the **microscopic** side the logo image could be assigned a class where it is used
 
@@ -136,7 +136,7 @@ Now, if we did decide to round the logo we could add the rounded class on, (Yes,
 <img class="logo rounded" src="mylogo.svg">
 ```
 
-but if we just left the logo alone alone and didn't specify a class at all, it should be fine, because the defaults we apply to all  `img`  elements shouldn't break it.
+but if we just left the logo alone and didn't specify a class at all, it should be fine, because the defaults we apply to all  `img`  elements shouldn't break it.
 
 If you have something like our situation here, where you have two things which are derived from the same class - here, "rounded images" and "logo images" are both of type `img`, you should never make a change to the parent of both (`img` in this case) for one type of child if it will require an undo of that change in another - just make the change where it belongs in the first place!
 
@@ -198,7 +198,7 @@ The tough part about that is realizing when you need to make a new class and wha
 
 That said, you should probably not do to crazy of shit. Not all browsers behave the same or support everything. While nearly everything should work, you will find weird edge cases. For example, this website used to have a nice gradient for the background, but it had awful banding on Firefox and completely broke on the default browser on Samsung phones.
 
-In general though, if you have an idea for a simple animation in mind, you can probably make it work with just CSS... ish. The limitation is if you want to actually change the content, that's a job better suited to javascript, which we'll look at next, though, as a teaser:
+In general though, if you have an idea for a simple animation in mind, you can probably make it work with just CSS… ish. The limitation is if you want to actually change the content, that's a job better suited to javascript, which we'll look at next, though, as a teaser:
 
 <script>
     function getRandomUnicodeLetter() {

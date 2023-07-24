@@ -13,7 +13,7 @@ bookToC = false
 
 <!-- if there are any questions you prefer not to answer, that's fine! Just put comment tags like this around the question. -->
 
-<img src="/nonfree/interviews/LagunaTaxBadger_Window.png" alt="Laguna of Tax Badger, LLC" height="250em">
+<img src="/nonfree/interviews/LagunaTaxBadger_Window.png" alt="Laguna of Tax Badger, LLC" style="height:15em">
 
 <!-- feel free to edit this intro blurb: -->
 

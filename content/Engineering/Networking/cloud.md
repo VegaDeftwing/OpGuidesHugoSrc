@@ -109,7 +109,7 @@ AWS appears to only offer Nvidia GPUs, buying into the Nvidia CUDA ecosystem whi
 
 ### Storage
 
-AWS-S3, EBS, EFS, Glacier, ... There's a lot here. There's flexibility among offerings that suit various needs, from 'object storage', network file systems, and long term backups on cheap, bulk storage.
+AWS-S3, EBS, EFS, Glacier,… There's a lot here. There's flexibility among offerings that suit various needs, from 'object storage', network file systems, and long term backups on cheap, bulk storage.
 
 Azure offers similar (and much better named) flexibility, with options like Azure Disks for bulk storage attached to a VM, 'Azure Blobs' for an S3 equivalent, and "Azure Files" for a network file system.
 

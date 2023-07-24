@@ -8,7 +8,7 @@
 
 <p style="font-size: 30px;text-align: center;">⬤◯◯◯◯◯◯◯◯◯</p>
 
-Unlike Windows or Mac which are primarily differentiated by versions (Windows XP, Vista, 7, 10...), Linux has two important things to look out for:
+Unlike Windows or Mac which are primarily differentiated by versions (Windows XP, Vista, 7, 10…), Linux has two important things to look out for:
 
 * The distribution name (Arch, Ubuntu, Mint, Debian, etc.)
 * Kernel version number (5.18 last time this page was updated)
@@ -37,7 +37,7 @@ When we're done you'll have a system that has exactly what you need and nothing 
 
 <p style="font-size: 22px;display:inline;">However,</p> and I really can't stress this enough, <p style="font-size: 22px;display:inline;">Arch Linux expects you to fully understand your system</p>. This is "enforced" by making the installation process DIY with relatively little guidance. You're expected to research everything and understand the differences, pros & cons, of each choice.</br></br>
 
-<p style="font-size: 22px;display:inline;">TLDR; STFW:</p> Arch is a distro that really expects you to put in the effort. The community, while typically fine, can be a bit... <i>unsavory</i> if you ask questions that are easily answered by google (STFW = Search The Fucking Web) or reading a wiki page.</br></br> That said...
+<p style="font-size: 22px;display:inline;">TLDR; STFW:</p> Arch is a distro that really expects you to put in the effort. The community, while typically fine, can be a bit… <i>unsavory</i> if you ask questions that are easily answered by google (STFW = Search The Fucking Web) or reading a wiki page.</br></br> That said…
 
 <p style="font-size: 22px;display:inline;">You shouldn't have to R <u>all</u> TFMs.</p> (RTFM = Read The Fucking Manual) The problem with this is Linux (and everything with computers) is complicated and getting more complicated by the year. Not that it's the best way of looking at things, but for context, back when I was first getting started with Arch Linux in 2014, the kernel had about 13 million lines of code. Now it has almost 30 million lines. In that time there have been countless additions and changes to the number of options for low level configurations.</br></br>
 So, I want to help you understand your system and the choices you'll be making, but I want to help narrow the scope at least a little bit.
@@ -166,7 +166,7 @@ Regardless, once you have the torrent client installed you *should* be able to b
 
 ---
 
-Once that's done downloading your torrent client should automatically confirm the image by by using PGP, but as this is a good learning opportunity let's do a manual double check as well.
+Once that's done downloading your torrent client should automatically confirm the image by using PGP, but as this is a good learning opportunity let's do a manual double check as well.
 
 {{< tabs "hashing" >}}
 {{< tab "Windows" >}}
@@ -204,7 +204,7 @@ gpg:          There is no indication that the signature belongs to the owner.
 Primary key fingerprint: 3E80 CA1A 8B89 F69C BA57  D98A 76A5 EF90 5444 9A5C
 </pre>
 
-Which should concern you, right? `This key is not certified with a trusted signature!` sounds bad? Well, if we look back on the download page, there's a link with some hex characters ( looks like 0xABCEDF ) that, if you go to, you should see the same long string of numbers as that last line on the top of the page (Search results for '0x3E80CA..., in this case.). Congrats, while that was incredibly tedious and more-or-less unnecessary, you should at least somewhat understand there's some cryptographic systems at play to ensure what you've downloaded is what you think it is and signed to be from the person it says it's from. 
+Which should concern you, right? `This key is not certified with a trusted signature!` sounds bad? Well, if we look back on the download page, there's a link with some hex characters ( looks like 0xABCEDF ) that, if you go to, you should see the same long string of numbers as that last line on the top of the page (Search results for '0x3E80CA…, in this case.). Congrats, while that was incredibly tedious and more-or-less unnecessary, you should at least somewhat understand there's some cryptographic systems at play to ensure what you've downloaded is what you think it is and signed to be from the person it says it's from. 
 
 Why do you care? Because Linux will do this automatically for almost all software you install in the future. This gives us trust. Could someone still do something malicious / make a virus? Sure. It's just much, much, much harder for it to wind up on your computer.
 
@@ -252,7 +252,7 @@ Primary key fingerprint: 3E80 CA1A 8B89 F69C BA57  D98A 76A5 EF90 5444 9A5C
 </pre>
 
 
-Which should concern you, right? `This key is not certified with a trusted signature!` sounds bad? Well, if we look back on the download page, there's a link with some hex characters ( looks like 0xABCEDF ) that, if you go to, you should see the same long string of numbers as that last line on the top of the page (Search results for '0x3E80CA..., in this case.). Congrats, while that was incredibly tedious and more-or-less unnecessary, you should at least somewhat understand there's some cryptographic systems at play to ensure what you've downloaded is what you think it is and signed to be from the person it says it's from. 
+Which should concern you, right? `This key is not certified with a trusted signature!` sounds bad? Well, if we look back on the download page, there's a link with some hex characters ( looks like 0xABCEDF ) that, if you go to, you should see the same long string of numbers as that last line on the top of the page (Search results for '0x3E80CA…, in this case.). Congrats, while that was incredibly tedious and more-or-less unnecessary, you should at least somewhat understand there's some cryptographic systems at play to ensure what you've downloaded is what you think it is and signed to be from the person it says it's from. 
 
 Why do you care? Because Linux will do this automatically for almost all software you install in the future. This gives us trust. Could someone still do something malicious / make a virus? Sure. It's just much, much, much harder for it to wind up on your computer.
 
@@ -354,7 +354,7 @@ To be fair, you should probably be doing backups anyway. We'll talk about this a
 
 {{< /speech >}}
 
-Okay, so we're finally ready to enter Arch Linux's installation environment, which as previously mentioned, is actually itself Arch Linux.....
+Okay, so we're finally ready to enter Arch Linux's installation environment, which as previously mentioned, is actually itself Arch Linux…
 
 {{< quote "[Install Guide](https://wiki.archlinux.org/title/installation_guide) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
@@ -364,7 +364,7 @@ Okay, so we're finally ready to enter Arch Linux's installation environment, whi
 
 {{< /quote >}}
 
-.... or we would be, if Microsoft didn't try to shove Secure Boot mess down our throats. This is the most in-flux part of this guide, as it's a bit unclear what the implications of Windows 11 requiring Secure Boot will be. This mess is in part described in [This article (nerdschalk.com)](https://nerdschalk.com/can-you-disable-tpm-and-secure-boot-after-installing-windows-11-what-happens/) but the TL;DR is Microsoft is really doing their best to turn a "security feature" into an Antitrust lawsuit. 
+… or we would be, if Microsoft didn't try to shove Secure Boot mess down our throats. This is the most in-flux part of this guide, as it's a bit unclear what the implications of Windows 11 requiring Secure Boot will be. This mess is in part described in [This article (nerdschalk.com)](https://nerdschalk.com/can-you-disable-tpm-and-secure-boot-after-installing-windows-11-what-happens/) but the TL;DR is Microsoft is really doing their best to turn a "security feature" into an Antitrust lawsuit. 
 
 {{< speech >}}
 
@@ -400,7 +400,7 @@ For now, I'm going to assume option 1. as upon asking others, you can still disa
 
 With secure boot disabled (or the modified installation image) you should, finally, be able to reboot your computer into the installation image. Mash the whatever key is required to get to the boot menu on your system (F11,Delete,F12,F7, and F2 are common). Do this and select the flash drive from the list.
 
-You *might* have a system that makes the time in the UEFI loading screen to short to be able to get to a boot menu. As recommended on the the disabling secure boot page, you can also do `Settings > Update & Security > Recovery > Advanced startup (Restart now) > Troubleshoot > Advanced options > UEFI Firmware settings` and *hopefully* you can find a setting to change to give yourself some time on load to change boot device, but you'll almost certainly see a boot order or boot override option. Chance things as necessary so that the next boot will be off of the flash drive.
+You *might* have a system that makes the time in the UEFI loading screen to short to be able to get to a boot menu. As recommended on the disabling secure boot page, you can also do `Settings > Update & Security > Recovery > Advanced startup (Restart now) > Troubleshoot > Advanced options > UEFI Firmware settings` and *hopefully* you can find a setting to change to give yourself some time on load to change boot device, but you'll almost certainly see a boot order or boot override option. Chance things as necessary so that the next boot will be off of the flash drive.
 
 {{< tip >}}
 
@@ -559,7 +559,7 @@ while on a little tablet of mine which doesn't work right away, I get:
 
 So, I'll walk you through how I tackled that one:
 
-The ArchWiki is actually (at the time of writing) out of date for Atheros Wi-Fi adapters, with this chip currently using the `ath10k_pci` driver. This was determined by running  `lspci -v`. While the  [Network Configuration: Troubleshooting Drivers and Firmware](https://wiki.archlinux.org/title/Network_configuration/Wireless#Troubleshooting_drivers_and_firmware)  page only mentions `ath5k` and `ath9k` drivers. Let this be a lesson: The Arch Wiki is great. It's also not perfect. So, now we need to get more information. Let's start by running `dmesg | grep -i ath`, this goes though the system diagnostic messages and searches for the the letters "ath". The '-i' is to make it case-insensitive. This shows us, that yes, the `ath10k_pci` driver is trying to load, but failing to do so. The full output is this:
+The ArchWiki is actually (at the time of writing) out of date for Atheros Wi-Fi adapters, with this chip currently using the `ath10k_pci` driver. This was determined by running  `lspci -v`. While the  [Network Configuration: Troubleshooting Drivers and Firmware](https://wiki.archlinux.org/title/Network_configuration/Wireless#Troubleshooting_drivers_and_firmware)  page only mentions `ath5k` and `ath9k` drivers. Let this be a lesson: The Arch Wiki is great. It's also not perfect. So, now we need to get more information. Let's start by running `dmesg | grep -i ath`, this goes though the system diagnostic messages and searches for the letters "ath". The '-i' is to make it case-insensitive. This shows us, that yes, the `ath10k_pci` driver is trying to load, but failing to do so. The full output is this:
 
 ```
 ath10k_pci 0000:01:00.0: board_file api 2 bmi_id N/A crc 32 318825bf
@@ -584,11 +584,11 @@ The latter of those two links is from https://patchwork.kernel.org - a page for 
 
 Alright, so, failing that, I just googled the laptop name + Linux. Eventually, I wound up at [this GitHub repo](https://github.com/infernix/samsung_tabpro_s) with a folder of files for Wi-Fi, labeled as being for Linux 4.7 (Current arch installer is using 5.15) and a script for controlling the screen brightness. Okay, let's see what we can do with this.
 
-In that folder is a board.bin and firmware-4.bin file. These seem to be actual device specific drivers, probably yoinked out of the Windows driver. So, we can loading these. Without Wi-Fi to load the file, we can either plug in a second USB stick and copy from it, or, just shut down and place them onto the installer drive from another computer. I loaded them up, and checked if the files were even different from those currently in `/lib/firmware/ath10k/QCA6174` and... the firmware-4.bin file was exactly the same. Still, the board.bin file was different. Tried swapping them out, still no dice.
+In that folder is a board.bin and firmware-4.bin file. These seem to be actual device specific drivers, probably yoinked out of the Windows driver. So, we can loading these. Without Wi-Fi to load the file, we can either plug in a second USB stick and copy from it, or, just shut down and place them onto the installer drive from another computer. I loaded them up, and checked if the files were even different from those currently in `/lib/firmware/ath10k/QCA6174` and… the firmware-4.bin file was exactly the same. Still, the board.bin file was different. Tried swapping them out, still no dice.
 
-Okay, what now? ... Now we call it a day. This driver *will not* work on Linux without some serious work. Maybe it'll be working in a future version, but this should still be a lesson: Not everything is going to work on Linux. I tried as hard as I'm willing to before the number of hours put in just isn't worth it to me. So, what options do I have?
+Okay, what now? … Now we call it a day. This driver *will not* work on Linux without some serious work. Maybe it'll be working in a future version, but this should still be a lesson: Not everything is going to work on Linux. I tried as hard as I'm willing to before the number of hours put in just isn't worth it to me. So, what options do I have?
 
-* I could just... not use this laptop. It's severely under powered with a CPU that only goes to like 1GHz and it's just not fun to use
+* I could just… not use this laptop. It's severely under powered with a CPU that only goes to like 1GHz and it's just not fun to use
 
   * Yes, I know this is a privileged option, but seriously, while this laptop is sleek and good looking, it runs like a potato. A cheap, used laptop from some tech recycling place will massively outperform this. 
   * Yes, I know this doesn't apply as well if you're actually on something like an expensive gaming laptop
@@ -645,7 +645,7 @@ With that done, we're onto the fun bit.
 <p class="tip">☠☠☠</br>
     Seriously, <b>backup your shit.</b> Last Warning.</br>☠☠☠ </p>
 
-This is the part where we need to partition the disks. Remember before how I told you you needed to make free space on your hard drive in the Windows Disk Management utility? This is where that comes into play.
+This is the part where we need to partition the disks. Remember before how I told you needed to make free space on your hard drive in the Windows Disk Management utility? This is where that comes into play.
 
 {{< quote "[Install Guide](https://wiki.archlinux.org/title/installation_guide) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
@@ -698,15 +698,15 @@ Well, uh, that was a lot of words that didn't say much, we have to go deeper. MB
 
 A master boot record (MBR) is a special type of boot sector at the very beginning of partitioned computer mass storage devices like fixed disks or removable drives intended for use with IBM PC-compatible systems and beyond.
 
-[...]
+[…]
 
 The MBR holds the information on how the disc's sectors are divided into partitions, each partition notionally containing a file system. The MBR also contains executable code to function as a loader for the installed operating system—usually by passing control over to the loader's second stage, or in conjunction with each partition's volume boot record (VBR). This MBR code is usually referred to as a boot loader.
 
-[...]
+[…]
 
 The organization of the partition table in the MBR limits the maximum addressable storage space of a partitioned disk to 2 TiB
 
-[...]
+[…]
 
 Therefore, the MBR-based partitioning scheme is in the process of being superseded by the GUID Partition Table (GPT) scheme in new computers.
 
@@ -735,9 +735,9 @@ While there's literally hundreds of file systems in existence, only some are use
 * **FAT32, exFAT** - Old, shit, but it works on everything easily. The default for SD cards and flash drives.
 * **EXT3, EXT4** - Common on Linux. Stable, does the job. Very annoying to mount on Windows.
 * **HFS, HFS+, APFS** - 🍎, Think Different.
-* **ZFS** - Need to store an ever living fuck load of data across a boat load of drives? ZFS will do that, make sure some drives can fail without loosing anything, let you speed it up by using an SSD or RAM for cache, and do some crazy voodoo to ensure data never gets corrupted + snapshotting (file history) + automaticly using spare disks if one fails + per-user limits... Awesome, right? Yep. And also a true pain in the ass to setup, a RAM hog, etc. Basically, ZFS is *perfect* for a file server and not worth the pain & RAM use at all in a normal setup. 
+* **ZFS** - Need to store an ever living fuck load of data across a boat load of drives? ZFS will do that, make sure some drives can fail without loosing anything, let you speed it up by using an SSD or RAM for cache, and do some crazy voodoo to ensure data never gets corrupted + snapshotting (file history) + automaticly using spare disks if one fails + per-user limits… Awesome, right? Yep. And also a true pain in the ass to setup, a RAM hog, etc. Basically, ZFS is *perfect* for a file server and not worth the pain & RAM use at all in a normal setup. 
 * **BTRFS** - Somewhere between ZFS and EXT4. A sane option for most personal Linux setups. Has had broken RAID 5 for a long time, don't use that and you're fine.
-* **F2FS** - I have a NEED, A NEED FOR SPEED ... and data corruption... Shit. For SSDs, the new kid on the block, and ready to eat your data if you have to hard shutdown. Only use this if you know what you're doing. But, it do zoom.
+* **F2FS** - I have a NEED, A NEED FOR SPEED … and data corruption… Shit. For SSDs, the new kid on the block, and ready to eat your data if you have to hard shutdown. Only use this if you know what you're doing. But, it do zoom.
 
 For setting up your system to dual boot Linux and Windows, you'll need to use NTFS to read your existing data, FAT for the boot partition (more on that soon), and I'll be showing setting up the Linux root using BTRFS, but using EXT4 is also a fine choice.
 
@@ -949,7 +949,7 @@ What you should do is first make 10GB SWAP partition. To do this, arrow-key down
 
 Alright, that should have made the partition, but it'll say "Linux Filesystem" on the right. We want this to be swap. With it highlighted, go over to "Type" and press enter. That'll bring up a big dialog, select "Linux Swap".
 
-Now, arrow down to your remaining free space and hit New. Leave it with all your remaining space. Press enter. This new partition should say Linux Filesystem, it should be at least 100GB in size, and conveniently, if we hover over it it sholud say at the bottom `Filesystem: BTRFS` - it's making a BTRFS file system on the partition for us. Sweet.
+Now, arrow down to your remaining free space and hit New. Leave it with all your remaining space. Press enter. This new partition should say Linux Filesystem, it should be at least 100GB in size, and conveniently, if we hover over it should say at the bottom `Filesystem: BTRFS` - it's making a BTRFS file system on the partition for us. Sweet.
 
 Okay, that's done, we can now use the arrow keys to select "Write" and press enter. It'll warn you this is where shit can hit the fan. Type "yes" to say you want to do it, to which it should respond with "The partition table has been altered."
 
@@ -1321,7 +1321,7 @@ then actually install grub with
 
 `grub-install --efi-directory=/boot --bootloader-id=GRUB`
 
-In it's output it should say `os-prober will be executed...` somewhere.
+In it's output it should say `os-prober will be executed…` somewhere.
 
 ## Finally Removing The Flash Drive
 

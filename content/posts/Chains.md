@@ -24,7 +24,7 @@ My old name, ▒▒▒▒▒▒▒▒▒, is a chain.
 
 It holds me to a past. It's a Christian name, a common name. In highschool there were three other people with my same name at my lunch table.
 
-My mom told me she nammed me ▒▒▒▒▒▒▒▒ *because* it was normal. She thought it might stop me from getting teased or bullied at school.
+My mom told me she named me ▒▒▒▒▒▒▒▒ *because* it was normal. She thought it might stop me from getting teased or bullied at school.
 
 <p style="text-align: center;">It didn't.</p>
 
@@ -48,7 +48,7 @@ Alright, some points I think need clearing up:
 
 The *chain* is full of abusive assholes, but my parents themselves have actually done a really good job of breaking their own chains, better than I think I could have done if put in their shoes. They're not perfect, but they are pretty damn close and I love them despite their faults. My Mother has been a true inspiration to me and is my best friend.
 
-I've found going by Vega difficult for a number of reasons, not the least of which is those familial ties. Unsurprisingly, not everybody is willing to to call me by the name I like (*cough* ᵐʸ ᵈᵃᵈ *cough*). It's sorta ironic, because I think if I was trans they'd actually respect it more? Then again, from the way they've talked about my one trans family member I'm not so sure. It's... complicated. I suppose things always are.
+I've found going by Vega difficult for a number of reasons, not the least of which is those familial ties. Unsurprisingly, not everybody is willing to call me by the name I like (*cough* ᵐʸ ᵈᵃᵈ *cough*). It's sorta ironic, because I think if I was trans they'd actually respect it more? Then again, from the way they've talked about my one trans family member I'm not so sure. It's... complicated. I suppose things always are.
 
 I also typed the word 'Christian' above with some bitterness, but that isn't because I have anything against Chirstians outright. I have everything against the crazy, abusive, kidde-diddling (directly or just turning a blind eye), emotionally and physically abusive fucks that make up the ~~church~~ cult that my mother was raised in. That has nothing to do with being Christian. I have the utmost respect for people that find something meaningful in the Bible that inpsires them to do good - love thy neighbor and all that jazz. It's just not my cup of jesus-flavored tea, so I espically don't want my name to be of that religion.
 

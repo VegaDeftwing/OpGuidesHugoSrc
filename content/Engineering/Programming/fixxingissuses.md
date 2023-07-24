@@ -10,7 +10,7 @@ This won't always be applicable, but assuming it's a system- code, or electronic
 
 Did you actually check *all* of your assumptions? Compilers aren't always perfect. Your oscilloscope probe might need calibrated. Don't dive into the weeds until you've double checked everything first, but if you still can't figure it out, dig for what assumptions you're making. Did something actually change between now and when it was last working? Is something else giving you false readings?
 
-... just make sure to stop short of questioning your own sanity.
+… just make sure to stop short of questioning your own sanity.
 
 # 👀 Fix by working comparison
 

@@ -3,7 +3,7 @@ bookToC = false
 title = "Wolfgun"
 +++
 
-<img src="/nonfree/interviews/wolfgun.jpg" alt="Wolfgun" height="200em" style="float:right;padding: 0 1.5em 1em 0;">
+<img src="/nonfree/interviews/wolfgun.jpg" alt="Wolfgun" style="float:right;padding: 0 1.5em 1em 0;height:12em">
 
 # An Interview With Wolfgun
 

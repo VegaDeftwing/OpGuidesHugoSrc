@@ -165,7 +165,7 @@ https://zeptobars.com/en/read/Ti-Texas-Instruments-LMC555CMX-555-CMOS
 * You do not actually have infinite gain
 * You do not have infinite bandwidth
 * They do not actually have infinite input resistance, it's just really high.
-* ... See [Real op amps, non-ideal aspects (Iowa State University : EE 230, PDF)](http://tuttle.merc.iastate.edu/ee230/topics/op_amps/non_Ideal_op_amp.pdf)
+* … See [Real op amps, non-ideal aspects (Iowa State University : EE 230, PDF)](http://tuttle.merc.iastate.edu/ee230/topics/op_amps/non_Ideal_op_amp.pdf)
 
 ## Optical Electronics
 
@@ -227,7 +227,7 @@ Relate back to things like ADSR, Distortion, Reverb / Echo, Decibels (audio), et
 
 # Chapter 24.3 - Displays
 
-Ther are many [Reasons to Question Seven Segment Displays (Harold Thimbleby)](https://sci-hub.se/10.1145/2470654.2466190), especially today, as using *literally anything else* has gotten significantly easier. 
+There are many [Reasons to Question Seven Segment Displays (Harold Thimbleby)](https://sci-hub.se/10.1145/2470654.2466190), especially today, as using *literally anything else* has gotten significantly easier. 
 
 [TODO] Eink, OLED, TFT, etc.
 

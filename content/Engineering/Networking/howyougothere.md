@@ -4,12 +4,12 @@ So that we have some context through this chapter, lets look at what happens whe
 
 0. You've already connected to your home network. Let's make some assumptions about your setup:
 
-   * This is over twisted pair wire (Ethernet), just to keep things simple for now. (Not using Wi-Fi)
-   * Let's also assume IPv4, since IPv6 still isn't used everywhere.
+    * This is over twisted pair wire (Ethernet), just to keep things simple for now. (Not using Wi-Fi)
+    * Let's also assume IPv4, since IPv6 still isn't used everywhere.
 
-   * Your router, at 192.168.1.1, has used DHCP to assign your device a local ip address of 192.168.1.123
+    * Your router, at 192.168.1.1, has used DHCP to assign your device a local ip address of 192.168.1.123
 
-   * Your router is connected to the internet on it's WAN port, probably though a modem of some sort that takes care of the "translation" to whatever analog signaling carries your data to your ISP. If you're in a city, this is probably a fiber connection, so the modem translates the electrical signals in twisted pair cable to light to go down a fiber line.
+    * Your router is connected to the internet on it's WAN port, probably though a modem of some sort that takes care of the "translation" to whatever analog signaling carries your data to your ISP. If you're in a city, this is probably a fiber connection, so the modem translates the electrical signals in twisted pair cable to light to go down a fiber line.
 
 1. You enter the URL (Uniform Resource Locator) into your browser's address bar and press enter
 
@@ -53,7 +53,7 @@ So that we have some context through this chapter, lets look at what happens whe
 
        Of note, these IPs are not just for opguides. OpGuides is hosted through Github Pages, which hosts many other websites on the same IPs. Speaking of, there are multiple IPs for backup servers, distributing the sver load, and optimizing for different regions. 
 
-       You should note, if you just went to 185.199.110.153 you would not get to opguides.info though. This is remedied by the part of the the HTTP request itself, which has a [host header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Host) to specify which site you want to go to in particular - That then ultimately gets you to this website.
+       You should note, if you just went to 185.199.110.153 you would not get to opguides.info though. This is remedied by the part of the HTTP request itself, which has a [host header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Host) to specify which site you want to go to in particular - That then ultimately gets you to this website.
 
    * If you entered http://opguides.info, I have DNS set up to redirect you to the http**s** varient of the site. Even if I didn't, most modern browsers will check to see if https:// is available and redirect you automatically.
 
@@ -61,10 +61,10 @@ So that we have some context through this chapter, lets look at what happens whe
 
    * This is also cached, so if it's been done recently, it doesn't need to be done again
    * The routing table is looked up, to see if the Target IP address is on any of the subnets on the local route table.
-     * This isn't a local IP, so you have to go to the the <span style="color:#CFA5A5">I</span><span style="color:#CFACA5">N</span><span style="color:#CFB3A5">T</span><span style="color:#CFBAA5">E</span><span style="color:#CFC1A5">R</span><span style="color:#CFC8A5">N</span><span style="color:#CFCFA5">E</span><span style="color:#C8CFA5">T</span><span style="color:#C1CFA5">.</span> <span style="color:#BACFA5">T</span><span style="color:#B3CFA5">H</span><span style="color:#ACCFA5">E</span> <span style="color:#A5CFA5">I</span><span style="color:#A5CFAC">N</span><span style="color:#A5CFB3">F</span><span style="color:#A5CFBA">O</span><span style="color:#A5CFC1">R</span><span style="color:#A5CFC8">M</span><span style="color:#A5CFCF">A</span><span style="color:#A5C8CF">T</span><span style="color:#A5C1CF">I</span><span style="color:#A5BACF">O</span><span style="color:#A5B3CF">N</span> <span style="color:#A5ACCF">S</span><span style="color:#A5A5CF">U</span><span style="color:#ACA5CF">P</span><span style="color:#B3A5CF">E</span><span style="color:#BAA5CF">R</span> <span style="color:#C1A5CF">H</span><span style="color:#C8A5CF">I</span><span style="color:#CFA5CF">G</span><span style="color:#CFA5C8">H</span><span style="color:#CFA5C1">W</span><span style="color:#CFA5BA">A</span><span style="color:#CFA5B3">Y</span><span style="color:#CFA5AC">.</span>
+     * This isn't a local IP, so you have to go to the <span style="color:#CFA5A5">I</span><span style="color:#CFACA5">N</span><span style="color:#CFB3A5">T</span><span style="color:#CFBAA5">E</span><span style="color:#CFC1A5">R</span><span style="color:#CFC8A5">N</span><span style="color:#CFCFA5">E</span><span style="color:#C8CFA5">T</span><span style="color:#C1CFA5">.</span> <span style="color:#BACFA5">T</span><span style="color:#B3CFA5">H</span><span style="color:#ACCFA5">E</span> <span style="color:#A5CFA5">I</span><span style="color:#A5CFAC">N</span><span style="color:#A5CFB3">F</span><span style="color:#A5CFBA">O</span><span style="color:#A5CFC1">R</span><span style="color:#A5CFC8">M</span><span style="color:#A5CFCF">A</span><span style="color:#A5C8CF">T</span><span style="color:#A5C1CF">I</span><span style="color:#A5BACF">O</span><span style="color:#A5B3CF">N</span> <span style="color:#A5ACCF">S</span><span style="color:#A5A5CF">U</span><span style="color:#ACA5CF">P</span><span style="color:#B3A5CF">E</span><span style="color:#BAA5CF">R</span> <span style="color:#C1A5CF">H</span><span style="color:#C8A5CF">I</span><span style="color:#CFA5CF">G</span><span style="color:#CFA5C8">H</span><span style="color:#CFA5C1">W</span><span style="color:#CFA5BA">A</span><span style="color:#CFA5B3">Y</span><span style="color:#CFA5AC">.</span>
    * Your "Router" probably has an internal switch, probably with some other devices wired in, so:
      * The switch will check its local CAM/MAC table to see which connection has the MAC address we are looking for. If the switch has no entry for the MAC address it will rebroadcast the ARP request to all other ports.
-       * Assuming this is the switch built into the router, one of the MAC addresses will be the MAC address of the the router - so this is used: the switch sends the ARP request to the connection that has the correct MAC address. Note, that this connection is internal, but acts the same as having a separate real-router and real-switch (not the combo unit) wired together.
+       * Assuming this is the switch built into the router, one of the MAC addresses will be the MAC address of the router - so this is used: the switch sends the ARP request to the connection that has the correct MAC address. Note, that this connection is internal, but acts the same as having a separate real-router and real-switch (not the combo unit) wired together.
 
 4. Being a website with http**s** your browser requests your operating system to open a socket on port 443
 

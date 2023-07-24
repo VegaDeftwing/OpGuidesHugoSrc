@@ -10,7 +10,7 @@ bookToC = false
 </style>
 **3/10/2021**
 
-<img src="/nonfree/interviews/cadey1.png" alt="Cadey Ratio" height="200em">
+<img src="/nonfree/interviews/cadey1.png" alt="Cadey Ratio">
 
 {{< iquestion >}}
 

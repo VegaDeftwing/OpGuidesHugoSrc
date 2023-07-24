@@ -103,7 +103,7 @@ The DSP for reverb is a black magic. If you actually want to persue this, see ht
 
 {{< /devegg >}}
 
-Reverb is the sound of a space. It's the the reflections of the sound waves off of everything around you - be it your shower's walls as you sing or the vastness of a cathedral. It's why [singing into a well can sound beautiful (YouTube)](https://www.youtube.com/watch?v=QehpWi_tvio).
+Reverb is the sound of a space. It's the reflections of the sound waves off of everything around you - be it your shower's walls as you sing or the vastness of a cathedral. It's why [singing into a well can sound beautiful (YouTube)](https://www.youtube.com/watch?v=QehpWi_tvio).
 
 It used to be that to get good reverb in studios required literally playing in these spaces or recording the sound, piping it into a room made to have good reverb with a carefully placed speaker and mic, and recording the result.
 
@@ -146,7 +146,7 @@ Okay, now let's really zoom in:
 
 ![wavfile](/music/wavfile.png)
 
-We have all these tiny dots indicating the volume at that moment. In most recording we'll have ~44 thousnad of these dots **per second**. These are the values we're telling the speaker to move to to produce the waves. Cool, right?
+We have all these tiny dots indicating the volume at that moment. In most recording we'll have ~44 thousand of these dots **per second**. These are the values we're telling the speaker to move to produce the waves. Cool, right?
 
 Now, I want you to imagine we have only one little stem and dot. That's a super brief "click!" though the speaker. This click is usually called an **Impulse**.
 

@@ -276,7 +276,7 @@ It also serves to allow projects that would otherwise be blocked due the costs o
 
 If I hadn't had an AI model available to me, it would've just gotten worse art or a basic, solid color background.
 
-This situation, where the AI is generating art for places that would otherwise have little or none, is something I think will be quite common. Talking to [Xe Iaso](https://xeiaso.net) about this prior to publishing, xe mentioned that on xer blog that xe has has used AI generated artwork frequently. This apparently lead to some friends having gotten a bit uppity about it being generated, until xe pointed out that xe wouldn't have paid for human made art anyway. It wasn't AI art being used as an alternative to human-made art, it was AI art being used as an alternative to an otherwise plain page.
+This situation, where the AI is generating art for places that would otherwise have little or none, is something I think will be quite common. Talking to [Xe Iaso](https://xeiaso.net) about this prior to publishing, xe mentioned that on xer blog that xe has used AI generated artwork frequently. This apparently lead to some friends having gotten a bit uppity about it being generated, until xe pointed out that xe wouldn't have paid for human made art anyway. It wasn't AI art being used as an alternative to human-made art, it was AI art being used as an alternative to an otherwise plain page.
 
 ## It's far from "replacing" anyway, yet
 

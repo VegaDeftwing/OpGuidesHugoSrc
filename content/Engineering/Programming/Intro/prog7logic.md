@@ -500,7 +500,7 @@ This is particularly handy for checking for an error each time a for loop runs i
 
 {{< tip >}}C does not have a 'for each' system{{< /tip >}}
 
-Many languages have a convient system for iterating over each item in a data structure without needing to explicitly know the size of the structure before hand. This is generally really nice to read too. C doesn't have this. Oddly, python **ONLY** has for-each loops. The `range()` function previously just generates this list were iterating over internally. So, when you see `for i in range(10):` you can read it as "for each element, i, in the the range 0 though 9". The power of this comes in python's (and languages that support "for each") ability to iterate over non-numeric types and ranges. For example, 
+Many languages have a convient system for iterating over each item in a data structure without needing to explicitly know the size of the structure before hand. This is generally really nice to read too. C doesn't have this. Oddly, python **ONLY** has for-each loops. The `range()` function previously just generates this list were iterating over internally. So, when you see `for i in range(10):` you can read it as "for each element, i, in the range 0 though 9". The power of this comes in python's (and languages that support "for each") ability to iterate over non-numeric types and ranges. For example, 
 
 ```python
 for letter in "Oppinioned Guides":
@@ -862,7 +862,7 @@ We do this with a **Stack**, in this case, *The* Stack. If someone says *The Sta
 * Each function call adds its own section to the stack
 * Each stack section contains two types of data:
   * The Return Address from the caller
-  * The local variables used by the the currently executing function
+  * The local variables used by the currently executing function
   * Arguemnts to the function
 * When the function returns it's section is reoved from the stack
 * This keeps the amount of memory on the stack at a minimum

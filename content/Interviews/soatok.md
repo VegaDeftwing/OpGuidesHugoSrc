@@ -5,7 +5,7 @@ bookToC = false
 
 **12/3/2020**
 
-<img src="/nonfree/interviews/soatok.jpg" alt="Soatok" height="200em">
+<img src="/nonfree/interviews/soatok.jpg" alt="Soatok" style="height:15em">
 
 {{< iquestion >}}
 

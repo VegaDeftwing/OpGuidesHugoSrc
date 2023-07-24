@@ -17,7 +17,7 @@ While there are testers available on Amazon, almost all of them are USB2. While 
 
 {{< attribution >}}
 
-... but for the really nerdy that want more, see [USB3: why it's a bit harder than USB2](https://lab.ktemkin.com/post/why-is-usb3-harder/), [How Does A USB Keyboard Work? (Ben Eater, YouTube)](https://www.youtube.com/watch?v=wdgULBpRoXk), and [How does USB device discovery work? (Ben Eater, YouTube)](https://www.youtube.com/watch?v=N0O5Uwc3C0o)
+… but for the really nerdy that want more, see [USB3: why it's a bit harder than USB2](https://lab.ktemkin.com/post/why-is-usb3-harder/), [How Does A USB Keyboard Work? (Ben Eater, YouTube)](https://www.youtube.com/watch?v=wdgULBpRoXk), and [How does USB device discovery work? (Ben Eater, YouTube)](https://www.youtube.com/watch?v=N0O5Uwc3C0o)
 
 {{< /attribution >}}
 

@@ -75,7 +75,7 @@ Oh, and Wi-Fi 6E is slowly rolling out, which adds yet another frequency band fo
 
 {{< smalltext >}}\* Wi-Fi 0-4 are unoffical names{{< /smalltext >}}
 
-If all of this feels really abstract, go grab the [WiFi Analyzer](https://play.google.com/store/apps/details?id=com.farproc.wifi.analyzer&hl=en_US&gl=US) app and checkout all the signals around you. You can see see what's operating on what channel and maybe move to another one so that you and your neighbor's signals aren't trying to scream over each other.
+If all of this feels really abstract, go grab the [WiFi Analyzer](https://play.google.com/store/apps/details?id=com.farproc.wifi.analyzer&hl=en_US&gl=US) app and checkout all the signals around you. You can see what's operating on what channel and maybe move to another one so that you and your neighbor's signals aren't trying to scream over each other.
 
 {{< details "More about those weird standards:">}}
 
@@ -314,7 +314,7 @@ response codes - 200, 300's, 400's, etc.
 
 In header lines
 
-Host, user agent, accept-language, connection (keep-alive), ...?
+Host, user agent, accept-language, connection (keep-alive), …?
 
 GET, POST, HEAD, PUT, DELETE
 
@@ -411,4 +411,3 @@ Real time clocks, timezones, utc, etc.
 <script>
     document.getElementById("netMenu").open = true;
 </script>
-

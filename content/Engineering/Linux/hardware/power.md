@@ -10,7 +10,7 @@ Also note that the power supply itself may be of varying quality, with the volta
 
 Most PC PSU's are in the ATX format, the same specification used to size motherboards, and the majority of desktops use a standard ATX power supply, though smaller systems may opt for one of the smaller standards such as SFX. Servers typically have their own power supplies which look a bit strange as they're basically the shape of an elongated brick, but they're like that so they can be easily swapped in and out. Often server power supplies are redundant so a new one could be put in while the system is still on in many cases.
 
-Main takeaway here, if someone is talking about an ATX PSU they're talking about the power supply in a desktop. Often they're (less than safely...) used in other applications, as they're cheap and often easy to find used or salvaged from old systems.
+Main takeaway here, if someone is talking about an ATX PSU they're talking about the power supply in a desktop. Often they're (less than safely…) used in other applications, as they're cheap and often easy to find used or salvaged from old systems.
 
 [TODO] add pictures, ATX 12VO, don't use ATX for lab purposes, please. See battery/psu stuff from Linux, `powertop`, [Power Managment on Arch Wiki](https://wiki.archlinux.org/title/Power_management)
 

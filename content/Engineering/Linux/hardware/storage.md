@@ -118,7 +118,7 @@ It's also worth mentioning that new flash types, controllers, and methods to mak
 
 ## Cloud Storage (Someone else's drives)
 
-This is an opinioned guide, so now that's about to show: Don't do it. All cloud storage is someone else's disks. If you want to use it as a backup sure, but I don't see why- it's much less expensive to just back up the reallly important stuff to a hosted server continually and periodically (weekly, monthly, whatever) backup to some external disks that you keep somewhere else. Not to mention the privacy concerns. Like, really? You want to put allllll your family pictures under the all seeing eyes of Google or Microsoft. Nah. I'll pass.
+This is an opinionated guide, so now that's about to show: Don't do it. All cloud storage is someone else's disks. If you want to use it as a backup sure, but I don't see why- it's much less expensive to just back up the reallly important stuff to a hosted server continually and periodically (weekly, monthly, whatever) backup to some external disks that you keep somewhere else. Not to mention the privacy concerns. Like, really? You want to put allllll your family pictures under the all seeing eyes of Google or Microsoft. Nah. I'll pass.
 
 If you reallllly insist, then check out https://www.backblaze.com/cloud-backup.html (I'm not affiliated in any way, nor do I use the service) as it's probably the safest option, and they have good recovery options, like sending you a physical hard drive with your data on it.
 

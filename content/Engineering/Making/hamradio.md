@@ -68,7 +68,7 @@ Here OH6BPL is using the [Computer Craft](https://www.computercraft.info/downloa
 >
 > If the cable is shielded, you shouldn't need more than 2 ferrites, one at each end.
 >
-> Source: I've been down this road before...
+> Source: I've been down this road before…
 >
 > Edit: Here are some fun articles to read:
 >
@@ -76,7 +76,7 @@ Here OH6BPL is using the [Computer Craft](https://www.computercraft.info/downloa
 >
 > https://www.totalphase.com/blog/2020/05/what-are-the-guidelines-for-testing-ground-and-shield-resistance-of-usb-cables/
 >
-> You can get a lot more in depth with the testing if you want... or just buy a higher quality cable :D
+> You can get a lot more in depth with the testing if you want… or just buy a higher quality cable :D
 
 ?> I've actually set this up using a HackRF and Rock64. It's pretty neat. Just be aware the ADS-b, the radio signals you'll be picking up to do this, are very line-of-sight so you might need to plop the antenna on your roof or something.
 

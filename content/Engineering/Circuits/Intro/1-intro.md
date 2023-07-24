@@ -48,7 +48,7 @@ To get started on that journey, let's establish a baseline. There's some things 
     * Tiny hose with lots of pressure Vs fire hose with low pressure could both move the same amount of water = use the same amount of power
 
   * Power = Voltage * Current ( {{< katex >}}P=I\times V{{< /katex >}} )
-    * We use A for the unit (Amps) but I for equations... for reasons.
+    * We use A for the unit (Amps) but I for equations… for reasons.
 * To much voltage, and things blow up (lightning strike, power surge, etc.)
 * To much current draw, and things blow up (accidental short, phone in toilet, etc.)
   * Usually, a short will blow the breaker

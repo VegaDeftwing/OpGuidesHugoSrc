@@ -355,7 +355,7 @@ I don't feel comfortably calling anyone out on bad videos, though I have noticed
 
 3. Philips 278E1A - 4k 27" monitor
 
-   It burnt in in under 72 hours. It's a monitor, how do you fuck this up?
+   It burnt in under 72 hours. It's a monitor, how do you fuck this up?
    
 4. Audio Interfaces
 

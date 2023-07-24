@@ -2,7 +2,7 @@
 bookToC = false
 +++
 
-<img src="/nonfree/interviews/PaulShapera.jpg" alt="Paul Shapera" height="200em" style="float:right;padding: 0 1.5em 1em 0;">
+<img src="/nonfree/interviews/PaulShapera.jpg" alt="Paul Shapera" style="float:right;padding: 0 1.5em 1em 0;height:12em;">
 
 # An Interview With Paul Shapera
 
@@ -88,7 +88,7 @@ This makes sense if you think about it. A book writer has an idea for a book. Ma
 
 The trick of lyric writing for me is this: what do i want this verse to say and how do i make it rhyme? The themes to be explored are already suggested by the story itself. When it comes to just the words to the song, either i am getting across plot information, character information, or character feelings. Character feelings are the hardest. For plot and character information, i’m more likely to know what i need to say. It's usually in the outline. (I write outlines for the albums. First i write a short story. Then i break the story down into songs. Then i start making the album.)
 
-Character feelings are tough because i don’t want them to come across like lyrical cliches you’ve heard a thousand times before. Love songs are a particular hell. You have heard a gazillion love songs. What possibility do i have to say in a way you haven't heard before. But okay, tough or not, i've sat down to write the lyrics. Here i am with a blank page that needs a verse. I ahve either four or eight lines. What am i going to say in it, and how do i make it rhyme? Are there times i’ve had to change what i wanted to to say because i couldn’t find a way to make it rhyme? Yes. I hate that. But it has definitely happened. Not so much in recent years as i’ve gotten better as i’ve gone.
+Character feelings are tough because i don’t want them to come across like lyrical cliches you’ve heard a thousand times before. Love songs are a particular hell. You have heard a gazillion love songs. What possibility do i have to say in a way you haven't heard before. But okay, tough or not, i've sat down to write the lyrics. Here i am with a blank page that needs a verse. I have either four or eight lines. What am i going to say in it, and how do i make it rhyme? Are there times i’ve had to change what i wanted to say because i couldn’t find a way to make it rhyme? Yes. I hate that. But it has definitely happened. Not so much in recent years as i’ve gotten better as i’ve gone.
 
 {{< iquestion >}}
 **Your albums use a mix of traditional musical elements, clear vocal delivery, and sound effects. Clearly, balancing each requires some skill to keep the words understandable. How do you approach deciding which should be the most important to the listener at any given moment? How, technically, do you do it - I imagine there's a bit more fines than just adjusting the volume on each track?**

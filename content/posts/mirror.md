@@ -66,7 +66,7 @@ I don't want that to be the case. I want to find a lot more Opal.
 
 Seriously, I'm okay. Not going though a mental breakdown, not in danger. I'm fine. I just needed some time to reflect and thought doing so publicly might mean something to others.
 
-On the other hand, if you're reading this and tearing up or having a hard time yourself, I encourage you to try to make those reflections positive, to talk to the people you care about most, and find ways to make more of your own days into opals too. We can all make positive change. You just just need to see [hope in every box.](https://www.youtube.com/watch?v=K9KLZ8C9DrY)
+On the other hand, if you're reading this and tearing up or having a hard time yourself, I encourage you to try to make those reflections positive, to talk to the people you care about most, and find ways to make more of your own days into opals too. We can all make positive change. You just need to see [hope in every box.](https://www.youtube.com/watch?v=K9KLZ8C9DrY)
 
 {{< /hint >}}
 

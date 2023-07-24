@@ -268,7 +268,7 @@ What this means is to take the negative bit and flip it positive - here, the blu
 
 Now, remember frequnecy = pitch = how often does the signal repeat. If it repeats twice as often that's twice the frequency or up 1 octave. If it repeats 3 times as fast, that's up two octaves, and so on.  So by doing this we've made a new signal, one octave up.
 
-We can can then mix those two signals together and it'll have *roughly* the same sound as playing the same note at the same time an octave up on the instrument in the first place. The *roughly* is because there's two big differences:
+We can then mix those two signals together and it'll have *roughly* the same sound as playing the same note at the same time an octave up on the instrument in the first place. The *roughly* is because there's two big differences:
 
 1. The red wave above isn't a sine wave anymore. Sure, it's an octave up, but it also has a lot more flavor than a basic sine wave too.
 2. On a anything but a synthesizer, it would be impossible to make the phase match perfectly on each octave if playing by hand. In the above picture you can see how the hills and valleys of the two waves align perfectly. That wouldn't happen if you actually struck both keys / strings / whatever. 
@@ -381,7 +381,7 @@ You should note that *most* analog octave up guitar effects won't have any knobs
 
 Some effects, especially if you're using hardware, will add a lot of noise to your signal.
 
-There are two ways to handle this, the simplest is to to use a *noise gate*. The idea is simple, that noise should be a lot quieter than your normal signal, so whenever you drop below a certain threshold, just cut the signal. You're not really removing the noise, but you are only letting it get though when there's something else to cover it up.
+There are two ways to handle this, the simplest is to use a *noise gate*. The idea is simple, that noise should be a lot quieter than your normal signal, so whenever you drop below a certain threshold, just cut the signal. You're not really removing the noise, but you are only letting it get though when there's something else to cover it up.
 
 This obviously has it's limits. If your **S**ignal to **N**oise **R**ation (SNR) is to low (that is, the sound you want to hear isn't much louder than the noise) then the gate may be to set to aggressive to actually cut the noise, causing the intended signal to fade out to quickly, missing the tail-end of each note (or string pluck, as this is most commonly a guitar problem). 
 
