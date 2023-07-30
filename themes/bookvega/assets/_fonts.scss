@@ -63,6 +63,11 @@
 }
 
 @font-face {
+	font-family: "London Underground Regular";
+	src: local("London Underground Regular"), url(fonts/LondonUndergroundRegular.ttf) format("truetype");
+}
+
+@font-face {
 	font-family: "Julius Sans One";
 	src: url(fonts/Julius_Sans_One/Julius_Sans_One.eot);
 	src: local("Julius Sans One"), url(fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf) format("truetype");

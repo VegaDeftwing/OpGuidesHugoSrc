@@ -14,33 +14,72 @@
 
 ## The Terminal <span class="blink"> |</span>
 
-In the world of programming, embedded development, and electrical debugging you will inevitably need to understand how to use a terminal/command line at some point. While the text only interface can look intimidating, it has some clear advantages. Namely it's significantly faster to use the cli or 'command line interface' version of many tools. Because of the nature of this guide you will be using the terminal frequently, so for convince sake information on using it effectively has been moved to Appendix A, I highly recommend you read though it after you finish this page.
+In the world of programming, embedded development, and electrical debugging you will inevitably need to understand how to use a terminal/command line at some point. While the text only interface can look intimidating, it has some clear advantages. Namely it's significantly faster to use the cli or 'command line interface' version of many tools. Because of the nature of this guide you will be using the terminal frequently, so for convince sake a large amount of information on using it effectively has been moved to Appendix A, I highly recommend you read though it after you finish this page. 
 
-For now, at bare minimum, I recommend getting autojump (`j`) setup early as it makes navigating around the terminal much faster, `bat` makes reading code though `cat` not suck, and `tldr` will save you time when you forget how to use `tar`. Set these up early if nothing else. But really, there's a lot in Appendix A that I think is really cool. Do check it out.
+Take particular care to get used to the navigation shortcuts, such as <kbd>ctrl</kbd>+<kbd>←/→</kbd> and <kbd>tab</kbd> completion.
 
-## Heads up,
+I can not recommend getting [autojump](https://github.com/wting/autojump) (or something equivalent) setup early strongly enough, as it makes navigating around the terminal much faster.
 
-With that out of the way, I want to preface this chapter with a big warning: Getting used to everything we're about to do will be a pretty big leap. There's a good chance you've never used a computer that works in a way like we're going to be setting up, but it's what I and many of my friends use daily and for good reason. This is probably where more opinions are going to show than anywhere else.
+## A bumpy road
 
-I'm not going to repeatedly state how to install packages on Arch, so here's your lil' guide:
+With that out of the way, I want to preface this chapter with a big warning: Getting used to everything we're about to do will be a pretty big leap. There's a good chance you've never used a computer that works in a way like we're going to be setting up.
 
-`yay` followed by the name or description of a package you want will help you find most packages. For example, running `yay i3 wm` will come up with multiple numbered results.
+You might, rightfully, be asking
 
-![yayi3](/eng/yayi3.png)
+{{< speech triode>}}
 
-Here I could type 2 followed by pressing enter to install i3-wm. Note that whenever possible, you should prefer packages in core, community, or extra. (or any other repositories you've added to your `/etc/pacman.conf` file) over the AUR, as packages in the AUR are maintained to a slightly lesser standard and are often a bit more annoying to update. That said, the AUR is still *much* better than trying to download a package from some random webpage.
+Then why would I do any of this?
 
-Also keep in mind `yay` is a wrapper for `pacman` and can download AUR packages (`pacman` itself can't), but you can always still use `pacman` directly. Just keep in mind that while `yay` will call `sudo` for you internally to request your password, `pacman` requires it up front, so to do most operations you'll actually need to use `sudo pacman`.
+{{< /speech >}}
 
-Speaking of, the basic operations you'll need to do with pacman:
+To which there's only one answer:
 
-`sudo pacman -Syu` will run an update, but just using `yay` is usually better as it will update things in the AUR as well.
+{{< speech >}}
 
-`pacman -F name-of-program-here` will let you know what package provides what program. For example `pacman -F lsblk` will tell me that the `lsblk` command comes from the `util-linux` package.
+# GOTTA GO FAST
 
-`sudo pacman -R name-of-package` will let you remove a package
+{{< /speech >}}
+
+While there's about a billion skills that are relevant being good at using a computer, programming, etc. chief among them is being able to get what is in your head into the computer and get stuff from the computer into your head as quickly as possible. Because of this, you need to make the interface as fast as possible. Generally, this comes down to making your keyboard be the ultimate data input and navigation weapon. How can you do this?
+
+1. Knowing shortcuts
+2. Using tools with even more shortcuts
+3. Typing fast
+
+The enemy of input speed is your mouse. This may sound counter intuitive given how quickly and accurately you're probably capable of whipping your mouse around your screen, but then think about just how much using on on screen keyboard with a mouse is!
+
+Almost all of my suggestions about gaining this speed and improving the bandwidth between your brain and your computer come down to using your mouse as little as possible. 
+
+## A quick reminder for those following along with this guide,
+
+{{< details "How do I install packages on Arch again?" >}}
+
+If you've been following along with this guide, you should now have a functional Arch Linux setup; however, it may have been some time since you did those steps, so as quick reminder for how to install programs:
+
+* `yay` followed by the name or description of a package you want will help you find most packages. 
+  * For example, running `yay i3 wm` will come up with multiple numbered results.
+	  ![yayi3](/eng/yayi3.png)
+	  Here I could type 2 followed by pressing enter to install i3-wm. 
+	* Whenever possible, you should prefer packages in core, community, or extra. (or any other repositories you've added to your `/etc/pacman.conf` file) over the AUR, as packages in the AUR are maintained to a slightly lesser standard and are often a bit more annoying to update. 
+	  * The AUR is still *much* better than trying to download a package from some random webpage.
+	* Keep in mind `yay` is a wrapper for `pacman` and can download AUR packages (`pacman` itself can't), but you can always still use `pacman` directly. 
+	  *  `yay` will call `sudo` for you internally to request your password, `pacman` requires it up front, so to do most operations you'll actually need to use `sudo pacman`.
+* To update, just run `yay`
+* `pacman -F name-of-program-here` will let you know what package provides what program. 
+  * For example `pacman -F lsblk` will tell me that the `lsblk` command comes from the `util-linux` package.
+
+
+* `sudo pacman -R name-of-package` will let you remove a package/program.
 
 For more info, read the ArchWiki page on [Pacman](https://wiki.archlinux.org/index.php/Pacman) and the [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository). 
+
+{{< /details>}}
+
+## Keyboard driven applications
+
+The most obvious thing to make more keyboard driven is your web browser. You can go all in on this with something like [nyxt](https://itsfoss.com/nyxt-browser/) but unless you really want to have a bad time with compatibility, I wouldn't actually advise that. Instead knowing normal browser shortcuts (<kbd>ctrl</kbd>+<kbd>t</kbd> to open a tab, <kbd>ctrl</kbd>+ <kbd>shift</kbd>+<kbd>t</kbd> to restore the last closed tab,  <kbd>ctrl</kbd>+<kbd>w</kbd> to close a tab, etc.), using a browser with a command pallet (like Vivalid's Quick command - but bind it to a good shortcut) and setting up [vimium](https://vimium.github.io) is a much better bet. Once you get used to it you'll wonder how you lived without it.
+
+
 
 ## Code editors
 
@@ -60,13 +99,13 @@ where `^` is the ctrl key, and `M` the alt key. However, you'll quickly find `na
 
 Of course, you *probably* don't want to always use a terminal-based text editor (though you should be able to when you have to) so what's good graphically?
 
-Despite it being a Microsoft thing, I really recommend Visual Studio Code with Platform IO<a class="ptr">(1)</a>, Bracket Pair Colorizer 2, and GitLens. If you're looking for more extensions than that, there's also a version of Asciiflow for VSCode, and plenty of extensions for live rendering graphical code (live-p5, glsl-canvas, Processing Language). If you're not okay with Microsoft living in your editor, you can grab [vscodium](https://vscodium.com) instead.
+Despite it being a Microsoft thing, I really recommend Visual Studio Code. It's slowly becoming the default for development for many languages and for good reason. It's fast, extensible, and very configurable. Plus if you put in the time to learn the short cuts, nicely keyboard driven. If you're not okay with Microsoft living in your editor, you can grab [vscodium](https://vscodium.com) instead.
 
-This gives you a pretty kick butt editor on par with most full Integrated Development Environments (IDE). I recommend you try out IDEs, especially if for some unholy reason you want to write in Java, but otherwise this will do fine.
+While VSCode is nice, it's still rather different from the Integrated Development Environments (IDE) that have been common for many years. I recommend you try out a few IDEs, especially if for some unholy reason you want to write in Java. It's relatively common to be stuck in some specialty IDE for a given processor if you get into embedded development. 
 
 ![code](/eng/code.webp)
 
-There are of course a ton of other options, Emacs, Atom, Eclipse… If what I recommended doesn't suit you, feel free to look into these. Regardless, a text editor should be pretty high up on your list of things to get setup, as it will make the latter steps much easier.
+There are of course a ton of other options, Emacs, Eclipse, Clion, PyCharm, etc… If what I recommended doesn't suit you, feel free to look into these. Regardless, a text editor should be pretty high up on your list of things to get setup, as it will make the latter steps much easier. I can't stress enough how important it is that you learn your text editor well though, as mentioned in {{< button relref="/engineering/programming/intro/prog4comments" >}}10.4 - Getting to know our tools{{< /button >}}
 
 {{< hint gray>}}
 

@@ -669,3 +669,14 @@ if you want to use a conlang, put it in a `<div class="conlang">` or it will sti
 * https://charlesstover.github.io/rainbow-text/
 
 <kbd> test </kbd>
+
+
+
+<div class="egg">
+<p style="font-family:London Underground Regular;">This is a test</p>
+</div>
+</br>
+
+<div class="scifi">
+<p>WARNING: Test test test</p>
+</div>

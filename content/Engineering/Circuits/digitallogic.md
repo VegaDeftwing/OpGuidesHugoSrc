@@ -98,6 +98,8 @@ False **if** A **and** B are true, else True. Often written as ¬(A∧B), ((¬A)
 | 1       | 0       | 1      |
 | 1       | 1       | 0      |
 
+Bitwise `AND` is often used in programming to make a mask of which bits you want to select from another value or to clear a specific bit or set of bits.
+
 {{< /columns >}}
 
 {{< columns >}}
@@ -114,6 +116,8 @@ True **if** A **or** B are true, else False. Note, this includes if both are tru
 | 0       | 1       | 1      |
 | 1       | 0       | 1      |
 | 1       | 1       | 1      |
+
+Bitwise `OR` is often used in programming to set a bit or set of bits without changing the other bits in the value.
 
 <--->
 
@@ -177,6 +181,8 @@ Go read the [Multiplexer](https://en.wikipedia.org/wiki/Multiplexer) Wikipedia a
 [TODO] like Binary to BCD
 
 # SOP & POS
+
+\+ Kmaps
 
 ## Basic combinational logic
 

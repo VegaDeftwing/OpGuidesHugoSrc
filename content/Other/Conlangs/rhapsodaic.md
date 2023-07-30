@@ -1,6 +1,22 @@
 # Rhapsodaic
 
+{{< speech big usawi >}}
+
+Rhapsodaic is a personal philosophical conlang where the morphemes are few, the analogies are many, and the pronouns are sometimes also adverbs. 
+
+It’s a language that prioritizes conceptual content over material content; all its root words refer to emotions, and anything else can only be described in relation to those emotions. It’s a tool I’ve made and used to process hard feelings, find novel ways of conveying hard-to-phrase experiences, gain new perspectives on things I’ve taken for granted, and connect with others over the radically different ways we see ourselves and the world(s) we occupy. It’s a language I used to keep to myself, before teaching and sharing it at length with a small group of friends as part of a presentation for the 10th Language Creation Conference. And now, it’s out on the internet for anyone to learn, use, and explore. I hope you have fun doing so—though more specifically, the S1F-S2W-A3 kind of fun, which you'll have to read on to learn more about...
+
+{{< attribution >}}-jan Usawi{{< /attribution >}}
+
+{{< /speech >}}
+
 <link rel="stylesheet" href="/css_overrides/light.css">
+
+## Presentation at lcc10
+
+This video is jan Usawi's presentation from the 10th Language Creation Conference. They showcase the basics of Rhapsodaic, speak about a translation and language-teaching experiment they conducted with friends of theirs using the language, share their takeaways from the whole experience, and respond to some questions and comments:
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/-DIHajWkgnc" title="#lcc10  Natanya Norry - Experiments in Divergent Translation: A Showcase and Test Run of Rhapsodaic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Language Reference
 
@@ -262,7 +278,7 @@ As a reminder, here are the **A1**, **A2**, and **A3** stems respectively:
    * “I’m feeling too angry.”
    * “I’m more angry at this than I thought I’d be.”
 2. <u>⠀⠀</u>, which does exist and which the referent or author does not approve of
-and/or wishes to end or decrease
+   and/or wishes to end or decrease
    * “I’m angry, but I don’t like it.” 
    * “I shouldn’t be feeling angry, but I am.”
 
@@ -271,7 +287,7 @@ and/or wishes to end or decrease
    * “I’m not feeling angry enough.”
    * “I want to be angry.”
 1. <u>⠀⠀</u>, which does exist and which the referent or author approves of and/or
-wishes to maintain or increase
+   wishes to maintain or increase
    * “I’m angry, and I think this is a good thing.”
    * “I want to keep feeling angry.”
 
@@ -353,4 +369,81 @@ With all these rules set aside, there’s still plenty of room for nuance and va
 
 ## Example Sentences
 
-[TODO] - keep the color coding, maybe make a toggle for color.
+<style>
+  #toggleBtn {
+    padding: 10px 10px 10px 10px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #toggleBtn:focus {
+    outline: none;
+  }
+
+  /* Additional style when the button is clicked */
+  #toggleBtn.clicked {
+    background-color: #333; /* Change to orange when clicked */
+  }
+</style>
+
+<style>
+#svg-container {
+  width: 100vw; /* 100% of the viewport width */
+  height: auto;
+}
+#my-svg {
+  width: 100%;
+  height: 12.9em; /* Allow the SVG to adjust its height based on the aspect ratio */
+}
+#my-svg.desaturated {
+  filter: contrast(100%) grayscale(100%) contrast(0%) brightness(10%);
+}
+</style>
+
+<div id="svg-container">
+  <svg id="my-svg">
+    <!-- Paths will be loaded dynamically -->
+  </svg>
+</div>
+
+<script>
+function toggleSaturation() {
+  const svg = document.getElementById('my-svg');
+  const toggleBtn = document.getElementById('toggleBtn');
+  let isDesaturated = false;
+  toggleBtn.addEventListener('click', function () {
+    isDesaturated = !isDesaturated;
+    if (isDesaturated) {
+      svg.classList.add('desaturated');
+    } else {
+      svg.classList.remove('desaturated');
+    }
+    toggleBtn.classList.toggle('clicked', isDesaturated);
+  });
+}
+fetch('/nonfree/permissiongranted/rhapsodaic_gravity.svg')
+  .then(response => response.text())
+  .then(svgString => {
+    const div = document.createElement('div');
+    div.innerHTML = svgString;
+    const externalSvg = div.querySelector('svg');
+    const containerSvg = document.getElementById('my-svg');
+    containerSvg.innerHTML = '';
+    containerSvg.appendChild(externalSvg);
+    toggleSaturation();
+  })
+  .catch(error => console.error('Error loading SVG:', error));
+</script>
+
+<button id="toggleBtn">Toggle Saturation</button>
+
+Original Text: {{< spoiler >}}"I’m a shooting star leaping through the sky like a tiger, defying the laws of gravity" {{< /spoiler >}}
+
+Alt: {{< spoiler >}}I, the freshman who everyone thinks looks like a bully for some reason, am giving a speech on following your dreams in the school auditorium, and it’s jostling everyone’s sense of defensiveness and commitment to this idea that they have to respect the authority they feel their peers have over them{{< /spoiler >}}
+
+Lit. {{< spoiler >}}"I, of enthusiastic joy, and related to a being of furious strength, act in a determined but playful way in a place characterized by curious possibilities, and act in a way that evokes a sense of mischievous rebellion, towards the source of a sensation of calm and wise firmness that evokes a similarly acted-upon experience of trust in connections."{{< /spoiler >}}
+
+</br>

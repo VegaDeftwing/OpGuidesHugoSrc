@@ -398,7 +398,6 @@ headless: true
 </div>
 
 <div class="progress-ww">
-
 <dl>
 <dt> </dt><dd> <a href="/other/funlinks/">Interesting Links</a></dd>
 <dt> </dt><dd> <a href="/other/advice/">Advice</a></dd>
@@ -417,7 +416,8 @@ headless: true
 <dt> </dt><dd> <a href="/other/fediverse/">The Fediverse, ActivityPub, & The IndieWeb </a></dd>
 <p class="navhead" style="color:#5EBD3E;margin-bottom:0px;" >   Conlangs & Neography</p>
 <dt> </dt><dd> <a href="/other/conlangs/tokipona/">toki pona! <span class="conlang">󱥬󱦖󱥔</span> </a></dd>
-    <dt> </dt><dd> <a href="/other/conlangs/janolin/">Thoughts on olin</a> <span style="font-size:.4rem;">by jan Usawi</span></dd>
+    <dt> </dt><dd> <a href="/other/conlangs/janolin/">Thoughts on olin</a> <span style="font-size:.4rem;">by jan Usawi</span>
+    <dt> </dt><dd> <a href="/other/conlangs/rhapsodaic/">Rhapsodaic</a> <span style="font-size:.4rem;">by jan Usawi</span></dd>
 <!--
 <dt> </dt><dd> <a href="/other/conlangs/neography/">Neography </a></dd>
 <dt> </dt><dd> <a href="/other/conlangs/rhapsodaic/">Rhapsodaic </a></dd>
@@ -433,6 +433,7 @@ headless: true
 <dt>A1</dt><dd> <a href="/other/writing/poetry">Poetry</a></dd>
 --->
 </dil>
+
 
 </div>
 

@@ -658,3 +658,41 @@ div.egg::before, div.egg::after {
   -webkit-transform:translateX(-50%);
 	background-image: repeating-linear-gradient(-45deg, transparent, transparent 8px, #b8dbcf 5px, #b8dbcf 10px);
 }
+
+div.scifi_warning{
+  color: #dbd822;
+  background: 
+  repeating-conic-gradient(#11110f 0 0.0001%,#000000 0 0.00015%) 
+   220% 300%/400px 300px,
+   repeating-conic-gradient(#0a0b04 0 0.00002%,#151408 0.34% 0.005%) 
+   400% 30%/4100px 20px;
+ background-blend-mode:difference;
+  border: #676511;
+  font-family:London Underground Regular;
+  text-shadow: 0 0 2em #ebff34,
+  0 0 3em #584c14,
+  0 0 4em #ccd295a9;
+  border-style: solid;
+  border-radius: .3em;
+  box-shadow: 5px 5px #FFFFFF19 inset;
+  padding: 0em 1em 0em 1em;
+}
+
+div.scifi{
+  color: #dbd822;
+  background: 
+  repeating-conic-gradient(#11110f 0 0.0001%,#000000 0 0.00015%) 
+   220% 300%/400px 300px,
+   repeating-conic-gradient(#0a0b04 0 0.00002%,#151408 0.34% 0.005%) 
+   400% 30%/4100px 20px;
+ background-blend-mode:difference;
+  border: #676511;
+  font-family:London Underground Regular;
+  text-shadow: 0 0 2em #ebff34,
+  0 0 3em #584c14,
+  0 0 4em #ccd295a9;
+  border-style: solid;
+  border-radius: .3em;
+  box-shadow: 5px 5px #FFFFFF19 inset;
+  padding: 0em 1em 0em 1em;
+}
