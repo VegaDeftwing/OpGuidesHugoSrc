@@ -190,10 +190,6 @@ Instead, share:
 - The goal - "Trying to query for a list of tags on a post" - See [The XY Problem](http://xyproblem.info/)
 - The problem - "I'm getting back these results"
 - The expectation - "but it should be these results"
-- <ol hidden id="footnotes">
-  <li>as of starting to write this, I’ve just crossed over into August 29th, 2022</li>
-  </ol>
-
 - If possible, a simplified example. 3v4l for php, jsfiddle for html/js/css, etc. are great, otherwise a paste site.
 - What you've already tried
 
