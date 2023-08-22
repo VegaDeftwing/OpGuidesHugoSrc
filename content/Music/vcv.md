@@ -88,11 +88,11 @@ Stoermelder's [μMAP](https://library.vcvrack.com/Stoermelder-P1/CVMapMicro) or 
 
 ## How do I get that fancy dimmed with bright lights effect I've seen in YouTube videos?
 
+In V2, it's built in: View→Room Brightness
+
 In V1, this required using [Modular Fungi Lights Off](https://library.vcvrack.com/ModularFungi/LightsOff) - right click it, set active, and drag the dim slider to whatever you want. Not all module's lights use the system it does to know what shouldn't be dimmed. While the stock VCV scope will stay dim, [Modular Fungi's Opsylloscope](https://library.vcvrack.com/ModularFungi/Opsylloscope) does work. Just be aware it uses more CPU
 
 ![](/music/lightsout.webp)
-
-In V2, it's built in: View→Room Brightness
 
 ## VCV runs like shit
 

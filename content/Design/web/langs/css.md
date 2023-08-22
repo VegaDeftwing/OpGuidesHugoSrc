@@ -313,6 +313,8 @@ https://betterprogramming.pub/10-common-css-mistakes-that-web-developers-often-m
 
 If you have literal hours to kill, start going though everything on https://css-tricks.com/almanac/
 
+https://fffuel.co/css-selectors/
+
 
 
 <ol hidden id="footnotes">
