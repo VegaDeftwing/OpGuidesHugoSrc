@@ -20,14 +20,6 @@ slug: "Education"
 
 ### Individualized, shared, and student led
 
-![respect](/phil/respect.webp)
-
-{{< attribution >}}
-
-[TODO]
-
-{{< /attribution >}}
-
 ### Faster, lower standards
 
 ### Better testing
@@ -103,3 +95,61 @@ Apps, GoogleClassroom, etc
 
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/mJBlgIA3K24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Shedding Rights At The School Gate
+
+In 1965 a group of students wore armbands protesting the continuation of the Vietnam War. The school administration in retaliation, created a rule saying that armbands were not allowed, in effect stifling the speech of the students under threat of suspension (and, presumably, worse with repeated offense).
+
+This ultimately was appealed, lawyers involved, and a significant amount of effort, made it's way to the all the way to U.S. Supreme Court  which 5-7 in the favor of the students. From [Tinker v. Des Moines Independent Community School District (1969)](https://supreme.justia.com/cases/federal/us/393/503/#506):
+
+{{< bigquote "Mr. Justice Fortas" >}}
+
+It can hardly be argued that either students or teachers shed their constitutional rights to freedom of speech or expression at the schoolhouse gate.
+
+{{< /bigquote >}}
+
+So, provided that these rights surely include the U.S. Constitution, I'd think that both the Fourth Amendment,
+
+{{< quote "" >}}
+
+The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.
+
+{{< /quote >}}
+
+and the idea that we are innocent until proven guilty should apply. Two ideas that, even ignoring their basis in law, it's fair to say most people agree with.
+
+If this is the case, how could it possibly make sense that [some public schools are doing random drug tests](https://www.1011now.com/2023/08/07/crete-implementing-randomized-drug-testing-policy-middle-high-school-students/).
+
+Now, I'm not saying I want teens to be on drugs, have access to drugs, be pressured into drugs, etc. I'm not even saying that they should have the right to do drugs. Society has some interest in developing minds not being permanently hampered by drugs. 
+
+My point is that responsibility, and respect, are not a one-way road. If you want teens to show responsibility and respect, you have to earn it. You can't do that with fear of punishment or even by punishment directly,
+
+![respect](/phil/respect.webp)
+
+If we want the teens to continue having a reason to not do drugs as an adult, to not either have a wild, self-destructive phase when they suddenly gain more freedom or be totally dependent and never live their own lives then we need to trust them.
+
+So, a natural argument here may be "Trust but Test!", to which the obvious retort is that if you test, it's obvious you don't trust - but this could be argued endlessly. Instead, I'll bring up a question similar to one many pro-choice arguments propose:
+
+If someone does break the rules, how will the punishment help them?
+
+Presumably, teens doing drugs are in need of help, so, let's look at that above link, what are the consequences: 
+
+>  If a student tests positive, they cannot compete in extracurricular activities for 10 to 60 days,
+
+Okay, but a parent should be able to opt-out their kid if they don't agree with the rule, right? right?
+
+> [...] parents must sign a consent form, allowing their student to be drug tested to be able to participate in sports, competitive extracurricular activities, and park at the school
+
+At this point I could talk about statistics, how it's more likely for people of color to be in homes where marijuana use is common, how there are links between socioeconomic status, drug use, depression, anxiety, domestic abuse, etc. I don't think I need to pull those up for it be common sense that at least some teens will being drugs as an *escape*.
+
+You know what else teen's do as an escape from their stressors? 
+
+Play sports.
+
+So fucking naturally, when a teen is already struggling, turning to drugs, let's take away one of their freedoms and ways they unwind. Punish them. Make them an outcast and paint them with an "drug offender" label. 
+
+In the course of 25 years the rate of teen deaths from suicide is up 35%, predominately young men who already feel like they don't have a support group.
+
+The mental health pandemic is out of control and we wonder why? Maybe it's because we simultaneously want to take kids autonomy away, deprive them of natural stress outlets (see [Play Deprivation Is A Major Cause of the Teen Mental Health Crisis](https://jonathanhaidt.substack.com/p/the-play-deficit)) and then we just make the cycle worse anytime they final reach a breaking point. Prescribing the legal drugs instead of addressing the issue, giving them some autonomy, trust, and support.
+
+We should be helping kids up when they fall, and watching them run to their goals - not holding them down and making them watch their step.
