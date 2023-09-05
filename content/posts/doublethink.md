@@ -53,4 +53,4 @@ Also, can we *please* stop indoctrinating kids into our religions? It's just cre
 
 ---
 
-I'll probably write the {{< button relref="/phil/religion" color="phil"  >}}Religion{{< /button >}} chapter soonish, but I want that to be less about me, and more about how world religions interact, influence politics, and go a bit into metaphysics. If you've got experience talking about that sort of thing, please feel free to submit a PR on Github for that page!
+I'll probably write the {{< button relref="/phil/religion" color="phil"  >}}Religion{{< /button >}} chapter soonish, but I want that to be less about me, and more about how world religions interact, influence politics, and go a bit into metaphysics. If you've got experience talking about that sort of thing, please feel free to submit a PR on GitHub for that page!

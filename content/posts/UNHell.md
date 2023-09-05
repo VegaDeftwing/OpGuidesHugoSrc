@@ -425,7 +425,7 @@ This semester was entirely done online due to COVID-19. Computer Architecture, D
 
 ---
 
-Right after my last final of the semester I was able to get my first dose of the COVID vaccine. I also, with the help of [Soatok](https://soatok.blog), [submitted an issue on Github](https://github.com/rokwire/safer-illinois-app/issues/687) for the COVID contact tracing app that UNL used.
+Right after my last final of the semester I was able to get my first dose of the COVID vaccine. I also, with the help of [Soatok](https://soatok.blog), [submitted an issue on GitHub](https://github.com/rokwire/safer-illinois-app/issues/687) for the COVID contact tracing app that UNL used.
 
 ## 11 - Senior++, Fall '21
 

@@ -77,7 +77,7 @@ C++ from scratch, JS electron app, Processing creative coding, Python Kivy or si
 
 ## Libraries
 
-[Nanogui (Github)](https://github.com/mitsuba-renderer/nanogui)
+[Nanogui (GitHub)](https://github.com/mitsuba-renderer/nanogui)
 
 
 
@@ -89,7 +89,7 @@ C++ from scratch, JS electron app, Processing creative coding, Python Kivy or si
 
 #### Just plotting some data
 
-[μPlot (Github)](https://leeoniya.github.io/uPlot/)
+[μPlot (GitHub)](https://leeoniya.github.io/uPlot/)
 
 
 

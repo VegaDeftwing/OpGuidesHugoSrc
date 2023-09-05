@@ -16,7 +16,7 @@ Often when we think about Exploitation, better known as hacking, we conjure imag
 
 {{< attribution >}}
 
-[XKCD #2166](https://xkcd.com/2166/)
+[xkcd #2166](https://xkcd.com/2166/)
 
 {{< /attribution >}}
 
@@ -373,7 +373,7 @@ Don't trust humans. [They're Made Out of Meat.](https://www.youtube.com/watch?v=
 
 {{< attribution >}}
 
-[XKCD #2365](https://xkcd.com/2365/)
+[xkcd #2365](https://xkcd.com/2365/)
 
 {{< /attribution >}}
 
@@ -427,7 +427,7 @@ If you want to dive into the math of hashing, going through [this repo](https://
 
 Note, that some hashing algorithms are known to be broken at this point, like MD5 and SHA1. Don't use them.
 
-The Github page for [xxHash](https://github.com/Cyan4973/xxHash) has a nice table showing the speed of quite a few common algorithms.
+The GitHub page for [xxHash](https://github.com/Cyan4973/xxHash) has a nice table showing the speed of quite a few common algorithms.
 
 ## Security Policies
 
@@ -671,7 +671,7 @@ https://learn.sparkfun.com/tutorials/gas-pump-skimmers
 
 [Diabetics Are Hacking Their Own Insulin Pumps (YouTube)](https://www.youtube.com/watch?v=bouYRMItWnI)
 
-[Big List of Naughty Strings (Github)](https://github.com/minimaxir/big-list-of-naughty-strings)
+[Big List of Naughty Strings (GitHub)](https://github.com/minimaxir/big-list-of-naughty-strings)
 
 [Widevine L3 Decryptor](https://github.com/tomer8007/widevine-l3-decryptor)
 

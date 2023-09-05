@@ -16,7 +16,7 @@ slug: "UI"
 
 <--->
 
-![dragonphone](/design/dragonphone.webp ':size=45%')
+{{< vale >}}![dragonphone](/design/dragonphone.webp ':size=45%'){{< /vale >}}
 
 {{< attribution >}}[Source](https://twitter.com/kogotsuchidark/status/1313211696677302273/photo/1){{< /attribution >}}
 
@@ -48,7 +48,7 @@ https://bids.github.io/colormap/
 
 [Scrollbar Blindness (Sven Kadak's Blog)](https://svenkadak.com/blog/scrollbar-blindness)
 
-[Github Dark Mode is too Dark. (Karen ying's blog)](https://blog.karenying.com/posts/github-darkmode-sucks)
+[GitHub Dark Mode is too Dark. (Karen ying's blog)](https://blog.karenying.com/posts/github-darkmode-sucks)
 
 Figma
 

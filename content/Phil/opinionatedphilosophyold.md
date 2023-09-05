@@ -46,7 +46,7 @@ Education, college, prices, highschool homework and personal time, Drugs,
 
 [RationalWiki](https://rationalwiki.org/wiki/Main_Page)
 
-[Interactive Media Bias Chart](https://www.adfontesmedia.com/interactive-media-bias-chart/) (Javascript heavy)
+[Interactive Media Bias Chart](https://www.adfontesmedia.com/interactive-media-bias-chart/) (JavaScript heavy)
 
 [r/TheMotte (Reddit)](https://www.reddit.com/r/TheMotte/) - Seems like a good place to test ideas,haven't looked into it yet
 

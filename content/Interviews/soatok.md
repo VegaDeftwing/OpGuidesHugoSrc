@@ -33,7 +33,7 @@ My current project involves creating a series of open source libraries to make i
 
 {{< iquestion >}}
 
-**Why Javascript?**
+**Why JavaScript?**
 
 {{< /iquestion >}}
 
@@ -206,7 +206,7 @@ There's a lot of academic formality that I missed out on, including:
 
 It depends what I'm doing.
 
-Most of my open source security work over the years involved a web browser with Github.com on one monitor, and Notepad++ in the other. Nothing too fancy.
+Most of my open source security work over the years involved a web browser with GitHub.com on one monitor, and Notepad++ in the other. Nothing too fancy.
 
 If I'm reverse engineering (e.g. Android apps), I'll boot up a Virtualbox machine and fullscreen it on one of the monitors.
 

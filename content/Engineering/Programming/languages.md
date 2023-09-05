@@ -75,7 +75,7 @@ This could derail into a whole conversation about ISA, but you should really go 
 
 [Part 2 - We're Writing a Virtual Machine](https://gpfault.net/posts/asm-tut-2.txt.html)
 
-[Linux-kernal-module-cheat [Github]](https://github.com/cirosantilli/linux-kernel-module-cheat#userland-assembly) has a nice guide to ASM
+[Linux-kernal-module-cheat [GitHub]](https://github.com/cirosantilli/linux-kernel-module-cheat#userland-assembly) has a nice guide to ASM
 
 ['Furby' Source Code](https://github.com/gnomon-/furby-source) is in 6502 assembly
 
@@ -172,7 +172,7 @@ If you'd like to learn Rust, I recommend [A half-hour to learn Rust](https://fas
 - [Learning Rust the Dangerous Way (Cliff L. Biffle)](http://cliffle.com/p/dangerust/)
 - [Rust Performance Book](https://nnethercote.github.io/perf-book/)
 - [Rust Cheat Sheet](https://cheats.rs)
-- [Python -> Rust guide - learning Rust when you know Python (Github)](https://www.mylomusic.net/octane)
+- [Python -> Rust guide - learning Rust when you know Python (GitHub)](https://www.mylomusic.net/octane)
 
 Rust isn't a "new" language anymore, but it's certainly not as battle tested as C or C++, so to show the maturity, just check out https://www.redox-os.org/, a full OS written in Rust!
 
@@ -216,7 +216,7 @@ For a proficient C programmer,  the bullet points on the homepage should say eve
 
 I highly recommend checking out each of these:
 
-*  [A Half hour to Learn Zig (Github Gist)](https://gist.github.com/ityonemo/769532c2017ed9143f3571e5ac104e50)
+*  [A Half hour to Learn Zig (GitHub Gist)](https://gist.github.com/ityonemo/769532c2017ed9143f3571e5ac104e50)
 * [Zig, The Small Language (Serge Zaitsev)](https://zserge.com/posts/zig-the-small-language/)
 * [Zig: A programming language designed for robustness, optimality, and clarity – Andrew Kelley (YouTube)](https://www.youtube.com/watch?v=Z4oYSByyRak)
 
@@ -361,7 +361,7 @@ There are a few things you should know about Java only because at one point or a
 * Java used to be the goto for Android development, now Kotlin (see below) is better for that in most cases.
 * Java Jars are often relatively easy to de-compile compared to other programs in complied languages
 
-And, no, there's no connection between Java and Javascript.
+And, no, there's no connection between Java and JavaScript.
 
 ### Kotlin
 ```kotlin
@@ -442,7 +442,7 @@ https://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks
 </html>
 ```
 
-PHP is a language focused on making websites with sever side logic (process on the server, instead of JS in the browser). While a large portion of the web has moved to Javascript frameworks PHP is still a good option for many tasks, and i[sn't very hard to read.](https://themsaid.com/go-with-php)
+PHP is a language focused on making websites with sever side logic (process on the server, instead of JS in the browser). While a large portion of the web has moved to JavaScript frameworks PHP is still a good option for many tasks, and i[sn't very hard to read.](https://themsaid.com/go-with-php)
 
 PHP as a language is hated on, a lot. This is mostly because of historical decisions to not use typing, but type hints have been added for a while and it's actually quite nice today. It's not many people's language of choice, but it works. Still, I wouldn't fully recommend it. As mentioned above, Go is doing quite well in the networking space due to it's ease of parallelism and abundant libraries for tasks that would've classically been PHP's job.
 
@@ -628,7 +628,7 @@ v
 
 ---
 
-If you're looking to learn more, check out [Awesome Esolangs (Github)](https://github.com/angrykoala/awesome-esolangs) and https://esolangs.org. Also, the [Esoteric IDE](https://github.com/Timwi/EsotericIDE/) may be of use.
+If you're looking to learn more, check out [Awesome Esolangs (GitHub)](https://github.com/angrykoala/awesome-esolangs) and https://esolangs.org. Also, the [Esoteric IDE](https://github.com/Timwi/EsotericIDE/) may be of use.
 
 ## The Old Guard
 

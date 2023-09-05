@@ -154,7 +154,7 @@ While much less active, I've found some of these to have great information as we
 
 You don't need to be great at everything to participate, plus you probably know more than you think.
 
-Yes, there is always a relevant XKCD, and yes, you will always feel like everyone knows more than you. Don't stress about asking stupid questions:
+Yes, there is always a relevant xkcd, and yes, you will always feel like everyone knows more than you. Don't stress about asking stupid questions:
 
 <--->
 
@@ -321,7 +321,7 @@ The maker and hacker communities tend to focus a lot on popularity and getting y
 
 [Death to Bullshit](https://deathtobullshit.com/) [(mirror)](https://web.archive.org/web/20191217003321/http://deathtobullshit.com/)
 
-[Hacker-Laws (Github)](https://github.com/dwmkerr/hacker-laws)
+[Hacker-Laws (GitHub)](https://github.com/dwmkerr/hacker-laws)
 
 [Proof of X](https://julian.digital/2020/08/06/proof-of-x/)
 

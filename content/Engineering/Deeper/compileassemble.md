@@ -91,7 +91,7 @@ At this point, I highly recommend '[The Art of Exploitation](https://nostarch.co
 
 ## Fun things
 
-[Malloc Geiger (Github)](https://github.com/laserallan/malloc_geiger)
+[Malloc Geiger (GitHub)](https://github.com/laserallan/malloc_geiger)
 
 [Movfuscator](https://github.com/xoreaxeaxeax/movfuscator)
 

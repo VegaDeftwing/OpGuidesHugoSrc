@@ -442,7 +442,7 @@ Noise isolation both electrical and physical, headphone types (over, on, in), am
 
 [TODO]
 
-Marktext, Typora, colabrative editing, Github markup, etc
+Marktext, Typora, colabrative editing, GitHub markup, etc
 
 **Taskwarrior & Timewarrior**
 

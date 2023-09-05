@@ -159,7 +159,7 @@ Let me introduce you to https://www.dwitter.net, it's about page says:
 
 {{< quote "[dwitter.net](https://www.dwitter.net/about)" >}}
 
-Dwitter.net is a challenge to see what awesomeness you can create when limited to only 140 characters of javascript and a canvas. Give it a go!
+Dwitter.net is a challenge to see what awesomeness you can create when limited to only 140 characters of JavaScript and a canvas. Give it a go!
 
 {{< /quote >}}
 

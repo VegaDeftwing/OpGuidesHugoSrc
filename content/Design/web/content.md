@@ -2,7 +2,7 @@
 
 At the end of the day, you can make a cool looking fancy website, but you still have to have something to say, a story to tell, a tutorial, videos, something to play. *something*. This isn't a print book, you can come back and edit it later. The important thing is to just *make something*.
 
-It really doesn't have to be good at first, it just has to exist. You'll get better with practice, regardless of what part you're bad it - the writing, the presentation, whatever. Just put in a little time every day.
+It doesn't have to be good at first, it just has to exist. You'll get better with practice, regardless of what part you're bad it - the writing, the presentation, whatever. Just put in a little time every day.
 
 That said, there are some tips that I've found useful for making better content faster
 
@@ -14,9 +14,9 @@ That said, there are some tips that I've found useful for making better content 
 
    * If you're writing about something, it's probably because you care about it, but you may think that others don't follow everything you're saying 
 
-     > "Ohh, I'd love to mention {{< spoiler >}}how the QMK keyboard firmware lets you set up multiple unicode layers{{< /spoiler >}} but most people have no idea about {{< spoiler >}}mechanical keyboards, let alone Unicode or the QMK firmware{{< /spoiler >}} so I need to cover that first…"
+     > {{< vale >}}"Ohh, I'd love to mention {{< spoiler >}}how the QMK keyboard firmware lets you set up multiple unicode layers{{< /spoiler >}} but most people have no idea about {{< spoiler >}}mechanical keyboards, let alone Unicode or the QMK firmware{{< /spoiler >}} so I need to cover that first…"{{< /vale >}}
 
-     **BE YOURSELF**. If you think it's cool, others will enjoy your passion - even if they only follow half of what you're saying. If nothing else, put something in to interrupt the flow of the rest of the page, like how I have my little speech bubbles and footnotes <a class="ptr">(1)</a>
+     **BE YOURSELF**. If you think it's cool, others will enjoy your passion - even if they {{< vale >}}only{{< /vale >}} follow half of what you're saying. If nothing else, put something in to interrupt the flow of the rest of the page, like how I have my little speech bubbles and footnotes <a class="ptr">(1)</a>
 
      {{< speech >}}Hi there!{{< /speech >}}
      
@@ -39,7 +39,7 @@ That said, there are some tips that I've found useful for making better content 
 
 3. Visuals are worth a lot {{< smalltext >}}... and animated visuals are worth even more{{< /smalltext >}}
 
-   * If explaining something, everything should be made concrete as soon as possible, with demos
+   * If explaining something, show everything concretely as soon as possible, with demos
 
 4. Balance consumption with creation
 

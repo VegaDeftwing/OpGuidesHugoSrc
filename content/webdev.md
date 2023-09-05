@@ -129,7 +129,7 @@ these images have to be added manually in `themes/bookvega/assets/_shortcodes.sc
 
 {{< /tip >}}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu. 
+This is filler text.
 
 {{< speech boi >}}
 
@@ -212,7 +212,7 @@ tired
 
 {{< /speech >}}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu. Morbi neque neque, ullamcorper vel luctus et, viverra nec felis. Aliquam erat volutpat. Proin mattis sapien sapien, vitae iaculis leo rhoncus tincidunt. Nunc tincidunt mauris quis placerat aliquam. Vivamus consequat consectetur justo eu sollicitudin. Vestibulum porttitor mattis feugiat. Fusce et lacinia lacus.
+{{< vale >}}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu. Morbi neque neque, ullamcorper vel luctus et, viverra nec felis. Aliquam erat volutpat. Proin mattis sapien sapien, vitae iaculis leo rhoncus tincidunt. Nunc tincidunt mauris quis placerat aliquam. Vivamus consequat consectetur justo eu sollicitudin. Vestibulum porttitor mattis feugiat. Fusce et lacinia lacus.{{< /vale >}}
 
 ## Spoiler
 
@@ -226,11 +226,11 @@ This text is before a spoiler {{< spoiler >}} This is spoiler text {{< /spoiler 
 
 ## Best
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu. The website {{< best >}}[Hackaday](https://hackaday.com/){{< /best >}} is pretty neat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu. 
+{{< vale >}}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu. The website {{< best >}}[Hackaday](https://hackaday.com/){{< /best >}} is pretty neat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu. {{< /vale >}}
 
 ## Big Quote
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu.
+{{< vale >}}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu.{{< /vale >}}
 
 {{< bigquote "source" >}}
 
@@ -238,7 +238,7 @@ Something really inspirational here.
 
 {{< /bigquote >}}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu.
+{{< vale >}}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra arcu tortor, et mattis erat tempor in. Sed ipsum eros, lacinia at efficitur vitae, tempus sed arcu.{{< /vale >}}
 
 ## Quote
 
@@ -258,7 +258,7 @@ buttons can  be inline {{< button relref="/music/gettingstarted">}}Music - Getti
 
 {{< columns >}}
 
-Praesent at convallis turpis. Donec vitae tincidunt turpis. Mauris sed auctor ipsum, at semper erat. Aliquam elementum enim id hendrerit vulputate. Vestibulum in enim mi. Praesent blandit vitae quam a sodales. Nunc lorem eros, efficitur quis sollicitudin non, eleifend accumsan diam. Phasellus varius nulla lorem. Nunc sem diam, posuere sit amet eros non, finibus iaculis lectus.
+{{< vale >}}Praesent at convallis turpis. Donec vitae tincidunt turpis. Mauris sed auctor ipsum, at semper erat. Aliquam elementum enim id hendrerit vulputate. Vestibulum in enim mi. Praesent blandit vitae quam a sodales. Nunc lorem eros, efficitur quis sollicitudin non, eleifend accumsan diam. Phasellus varius nulla lorem. Nunc sem diam, posuere sit amet eros non, finibus iaculis lectus.{{< /vale >}}
 
 <--->
 
@@ -268,7 +268,7 @@ Something still worth putting a block around here
 
 {{< /quote >}}
 
-In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh eget, facilisis tempus turpis. Integer sodales nisl nec mollis accumsan. Sed ut eros rutrum, vehicula enim at, accumsan sem
+{{< vale >}}In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh eget, facilisis tempus turpis. Integer sodales nisl nec mollis accumsan. Sed ut eros rutrum, vehicula enim at, accumsan sem{{< /vale >}}
 
 <--->
 
@@ -282,7 +282,7 @@ In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh 
 
 {{< columns2 >}}
 
-Praesent at convallis turpis. Donec vitae tincidunt turpis. Mauris sed auctor ipsum, at semper erat. Aliquam elementum enim id hendrerit vulputate. Vestibulum in enim mi. Praesent blandit vitae quam a sodales. Nunc lorem eros, efficitur quis sollicitudin non, eleifend accumsan diam. Phasellus varius nulla lorem. Nunc sem diam, posuere sit amet eros non, finibus iaculis lectus.
+{{< vale >}}Praesent at convallis turpis. Donec vitae tincidunt turpis. Mauris sed auctor ipsum, at semper erat. Aliquam elementum enim id hendrerit vulputate. Vestibulum in enim mi. Praesent blandit vitae quam a sodales. Nunc lorem eros, efficitur quis sollicitudin non, eleifend accumsan diam. Phasellus varius nulla lorem. Nunc sem diam, posuere sit amet eros non, finibus iaculis lectus.{{< /vale >}}
 
 <--->
 
@@ -292,7 +292,7 @@ Something still worth putting a block around here
 
 {{< /quote >}}
 
-In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh eget, facilisis tempus turpis. Integer sodales nisl nec mollis accumsan. Sed ut eros rutrum, vehicula enim at, accumsan sem
+{{< vale >}}In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh eget, facilisis tempus turpis. Integer sodales nisl nec mollis accumsan. Sed ut eros rutrum, vehicula enim at, accumsan sem{{< /vale >}}
 
 <--->
 
@@ -308,7 +308,7 @@ In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh 
 
 {{< columns3 >}}
 
-Praesent at convallis turpis. Donec vitae tincidunt turpis. Mauris sed auctor ipsum, at semper erat. Aliquam elementum enim id hendrerit vulputate. Vestibulum in enim mi. Praesent blandit vitae quam a sodales. Nunc lorem eros, efficitur quis sollicitudin non, eleifend accumsan diam. Phasellus varius nulla lorem. Nunc sem diam, posuere sit amet eros non, finibus iaculis lectus.
+{{< vale >}}Praesent at convallis turpis. Donec vitae tincidunt turpis. Mauris sed auctor ipsum, at semper erat. Aliquam elementum enim id hendrerit vulputate. Vestibulum in enim mi. Praesent blandit vitae quam a sodales. Nunc lorem eros, efficitur quis sollicitudin non, eleifend accumsan diam. Phasellus varius nulla lorem. Nunc sem diam, posuere sit amet eros non, finibus iaculis lectus.{{< /vale >}}
 
 <--->
 
@@ -318,7 +318,7 @@ Something still worth putting a block around here
 
 {{< /quote >}}
 
-In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh eget, facilisis tempus turpis. Integer sodales nisl nec mollis accumsan. Sed ut eros rutrum, vehicula enim at, accumsan sem
+{{< vale >}}In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh eget, facilisis tempus turpis. Integer sodales nisl nec mollis accumsan. Sed ut eros rutrum, vehicula enim at, accumsan sem{{< /vale >}}
 
 <--->
 
@@ -332,11 +332,11 @@ In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh 
 
 ## Details
 
-Praesent at convallis turpis. Donec vitae tincidunt turpis. Mauris sed auctor ipsum, at semper erat. Aliquam elementum enim id hendrerit vulputate.
+{{< vale >}}Praesent at convallis turpis. Donec vitae tincidunt turpis. Mauris sed auctor ipsum, at semper erat. Aliquam elementum enim id hendrerit vulputate.{{< /vale >}}
 
 {{< details "Title" open >}}
 
-In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh eget, facilisis tempus turpis. Integer sodales nisl nec mollis accumsan. Sed ut eros rutrum, vehicula enim at, accumsan sem
+{{< vale >}}In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh eget, facilisis tempus turpis. Integer sodales nisl nec mollis accumsan. Sed ut eros rutrum, vehicula enim at, accumsan sem{{< /vale >}}
 {{< /details >}}
 
 ## Embed PDF
@@ -349,11 +349,11 @@ In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh 
 
 **also note that details tags look much better if, for some reason, you need to stack multiple**
 
-Praesent at convallis turpis. Donec vitae tincidunt turpis. Mauris sed auctor ipsum, at semper erat. Aliquam elementum enim id hendrerit vulputate.
+{{< vale >}}Praesent at convallis turpis. Donec vitae tincidunt turpis. Mauris sed auctor ipsum, at semper erat. Aliquam elementum enim id hendrerit vulputate.{{< /vale >}}
 
 {{< expand >}}
 
-In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh eget, facilisis tempus turpis. Integer sodales nisl nec mollis accumsan. Sed ut eros rutrum, vehicula enim at, accumsan sem
+{{< vale >}}In posuere orci id malesuada pharetra. Cras odio augue, imperdiet accumsan nibh eget, facilisis tempus turpis. Integer sodales nisl nec mollis accumsan. Sed ut eros rutrum, vehicula enim at, accumsan sem{{< /vale >}}
 
 {{< /expand >}}
 

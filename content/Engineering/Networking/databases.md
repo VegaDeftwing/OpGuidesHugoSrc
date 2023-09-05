@@ -30,7 +30,7 @@ This is Opinionated Guides, so let me be clear, I really, **really** hate SQL. I
 
 ## Sanitizing Inputs
 
-![XKCD Drop Tables](/eng/xkcddrop.webp)
+![xkcd Drop Tables](/eng/xkcddrop.webp)
 
 {{< attribution >}}
 

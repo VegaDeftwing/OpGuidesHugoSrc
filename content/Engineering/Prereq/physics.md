@@ -8,7 +8,7 @@ This is still a dumping ground for things I want to write about later, nothing o
 
 [TODO] speed vs Velocity vs Acceleration, classical vs relative
 
-![](/xkcd/Exposure_chart-XKCD.svg)
+![](/xkcd/Exposure_chart-xkcd.svg)
 
 [Radiocarbon dating (Wikipedia)](https://en.wikipedia.org/wiki/Radiocarbon_dating)
 

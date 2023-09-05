@@ -41,7 +41,7 @@ HID or Human Interface Device, is the standard over which most mice, keyboards, 
 
 5pin din, PS2, USB
 
-[What Happens When (Github)](https://github.com/alex/what-happens-when)
+[What Happens When (GitHub)](https://github.com/alex/what-happens-when)
 
 <video width="100%" src="/memes/morse2-spiffyapprehensivecockerspaniel.mp4" controls></video>
 

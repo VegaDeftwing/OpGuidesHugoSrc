@@ -177,7 +177,7 @@ Some benchmarking tools are language dependent, some aren't. Generally, those th
 
 * Chrome and Firefox both have Flame graph tools built in
 
-* Using [Hyperfine (Github)](https://github.com/sharkdp/hyperfine) to measure run times is amazing
+* Using [Hyperfine (GitHub)](https://github.com/sharkdp/hyperfine) to measure run times is amazing
 
 * If you really need deep insights, [Palanteer](https://github.com/dfeneyrou/palanteer) may be worth checking out (Python or C++)
 

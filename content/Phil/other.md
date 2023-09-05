@@ -38,7 +38,7 @@ If you've made it this far, I just want to say *thank you*. We need more people 
 
 ![](https://imgs.xkcd.com/comics/free_speech.png)
 
-* XKCD Free Speech https://xkcd.com/1357/
+* xkcd Free Speech https://xkcd.com/1357/
 * List of Trump Quotes https://www.reddit.com/r/politics/comments/ff54xc/trump_flatly_admits_hed_leave_americans_stranded/fjwpqub/
 * List of Rush Limbaugh Quotes https://www.reddit.com/r/news/comments/eyd0mb/rush_limbaugh_announces_he_has_lung_cancer/fggkmdg/
 * Harry Potter Removed Book https://www.independent.co.uk/news/world/americas/harry-potter-banned-school-library-nashville-tennessee-exorcist-a9087676.html?utm_source=reddit.com

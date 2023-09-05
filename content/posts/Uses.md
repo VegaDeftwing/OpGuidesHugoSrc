@@ -40,9 +40,9 @@ I exclusively use full towers (ATX) because I like to throw a bunch of disks in 
 
 For a case, this means something old school, with 5.25" and 3.25" bays to spare. In my *case* (pun intended) this is the [Phanteks Enthoo Pro](https://www.phanteks.com/Enthoo-Pro.html). This also allows me to use big ol' air coolers which, in my experience, are more reliable, make less annoying noise (I really, really hate pump noise and bubble noise) and are less of a pain to get working correctly (I'm looking at you, NZXT, requiring software control).
 
-For displays, I have a 3 x 4k setup. All 60Hz. All 27". All in one horizontal row for a glorious 11520×2160. Additionally, I have a cheap monoprice drawing tablet. Do not buy a cheap monoprice drawing tablet. The drivers suck.
+For displays, I have a 3 x 4k setup. All 60Hz. All 27". All in one horizontal row for a glorious 11520×2160. Additionally, I have a cheap Monoprice drawing tablet. Do not buy a cheap Monoprice drawing tablet. The drivers suck.
 
-To go with the monoprice tablet, I have a [BDN9](https://keeb.io/collections/bdn9-collection/products/bdn9-rev-2-3x3-9-key-macropad-rotary-encoder-and-rgb) macropad with 7 switches and two encoders. I have this mapped to a plethora of function in Krita. Having physical knobs for some controls makes digital art much more enjoyable.
+To go with the Monoprice tablet, I have a [BDN9](https://keeb.io/collections/bdn9-collection/products/bdn9-rev-2-3x3-9-key-macropad-rotary-encoder-and-rgb) macropad with 7 switches and two encoders. I have this mapped to a plethora of function in Krita. Having physical knobs for some controls makes digital art much more enjoyable.
 
 I also have an Oculus Quest2 that has 3D printed adapters to turn it into a "FrakenQuest" using the HTC Vive's Audio Strap. I'm quite happy with this, though it does have some problems. Honestly, the worst part of the setup is Meta's insistence on updates that frequently cause me issues and make me sign back in, taking hours every time I just want to play VRChat through SteamVR.
 
@@ -705,7 +705,7 @@ Currently I'm back on the sub-optimal but easy solution of just spamming myself 
   * There's also some good "channels" in Telegram. For example, there's a telegram bot for Hacker News that I use.
 * **Discord** because that's where all the voice chats are.
 * **Mastodon** because that's where I find the best inspiration.
-* Gmail for most, Protonmail for the important stuff.
+* Gmail for most, Proton Mail for the important stuff.
 
 ### Art
 
@@ -726,7 +726,7 @@ Currently I'm back on the sub-optimal but easy solution of just spamming myself 
 * **Calculator:** [Speedcrunch](https://heldercorreia.bitbucket.io/speedcrunch/)
   * Or my TI Nspire CAS
 * **Electrical CAD:** [KiCad](https://www.kicad.org)
-* **Git:** [Github Desktop](https://desktop.github.com) at home, Sublime Merge at work
+* **Git:** [GitHub Desktop](https://desktop.github.com) at home, Sublime Merge at work
 * **Editor:** VSCode, like everyone else.
 
 ## Linux Specific

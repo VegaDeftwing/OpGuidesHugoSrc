@@ -47,7 +47,7 @@ I have more free time than those that accidentally spend a 4 hours of their week
 
 {{< columns >}}
 
-A while back I read [Programmers, Teach Non-Geeks The True Cost of Interruptions (By Erik Dietrich)](https://daedtech.com/programmers-teach-non-geeks-the-true-cost-of-interruptions/) and I think it covers half of what I mean here, but the other half is not human interruption, but interruption from your tools. This can be as obvious as long delays as tools work (video rendering, program compilation, etc.) to as subtle as just being a slow typist. Identify and squish these interruptions with extreme prejudice. They don't just slow you down by the cost of the task like this [XKCD](https://daedtech.com/programmers-teach-non-geeks-the-true-cost-of-interruptions/) Implies:
+A while back I read [Programmers, Teach Non-Geeks The True Cost of Interruptions (By Erik Dietrich)](https://daedtech.com/programmers-teach-non-geeks-the-true-cost-of-interruptions/) and I think it covers half of what I mean here, but the other half is not human interruption, but interruption from your tools. This can be as obvious as long delays as tools work (video rendering, program compilation, etc.) to as subtle as just being a slow typist. Identify and squish these interruptions with extreme prejudice. They don't just slow you down by the cost of the task like this [xkcd](https://daedtech.com/programmers-teach-non-geeks-the-true-cost-of-interruptions/) Implies:
 
 <--->
 

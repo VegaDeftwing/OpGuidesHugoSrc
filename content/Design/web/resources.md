@@ -1,14 +1,8 @@
 # Other Resources
 
-
-
 ## Blog Posts
 
-[Only 90s Web Developers Remember This](https://zachholman.com/posts/only-90s-developers/)
-
-
-
-
+{{< vale >}}[Only 90s Web Developers Remember This](https://zachholman.com/posts/only-90s-developers/){{< /vale >}}
 
 https://www.learnui.design/tools/gradient-generator.html
 

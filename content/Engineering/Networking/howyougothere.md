@@ -51,7 +51,7 @@ So that we have some context through this chapter, lets look at what happens whe
        ;; MSG SIZE  rcvd: 106
        ```
 
-       Of note, these IPs are not just for opguides. OpGuides is hosted through Github Pages, which hosts many other websites on the same IPs. Speaking of, there are multiple IPs for backup servers, distributing the sver load, and optimizing for different regions. 
+       Of note, these IPs are not just for opguides. OpGuides is hosted through GitHub Pages, which hosts many other websites on the same IPs. Speaking of, there are multiple IPs for backup servers, distributing the sver load, and optimizing for different regions. 
 
        You should note, if you just went to 185.199.110.153 you would not get to opguides.info though. This is remedied by the part of the HTTP request itself, which has a [host header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Host) to specify which site you want to go to in particular - That then ultimately gets you to this website.
 

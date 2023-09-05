@@ -20,15 +20,15 @@ https://wiki.wireshark.org/CaptureFilters
 
 ### HTTPie 
 
-[HTTPie (Github)](https://github.com/httpie/httpie) - human-friendly CLI HTTP client for the API era
+[HTTPie (GitHub)](https://github.com/httpie/httpie) - human-friendly CLI HTTP client for the API era
 
 ### Tunnels & VPN
 
-[bore (Github)](https://github.com/ekzhang/bore) - a simple CLI tool for making tunnels to localhost
+[bore (GitHub)](https://github.com/ekzhang/bore) - a simple CLI tool for making tunnels to localhost
 
 ## Further Reading
 
-[What happens when... [Github]](https://github.com/alex/what-happens-when) - An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?"
+[What happens when... [GitHub]](https://github.com/alex/what-happens-when) - An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?"
 
 Ben Eater's Networking Tutorial Series is pretty good:
 
@@ -58,9 +58,9 @@ Software Defined Networking, ActivityPub
 
 [File transfer via DNS](https://github.com/leonjza/dnsfilexfer)
 
-[Alternative Internet (Github list)](https://github.com/redecentralize/alternative-internet)
+[Alternative Internet (GitHub list)](https://github.com/redecentralize/alternative-internet)
 
-[Awesome Mesh (Github list)](https://github.com/moarpepes/awesome-mesh)
+[Awesome Mesh (GitHub list)](https://github.com/moarpepes/awesome-mesh)
 
 [List of tools in the BlackArch repo](https://blackarch.org/tools.html), meant mostly for security research, though obviously many of these are network related and so might give some inspiration or lead to interesting rabbit holes
 
@@ -68,7 +68,7 @@ Software Defined Networking, ActivityPub
 
 [Why do we use the Linux Kernel's TCP Stack (Julia Evans Blog)](https://jvns.ca/blog/2016/06/30/why-do-we-use-the-linux-kernels-tcp-stack/)
 
-[A smol tcp stack (Github)](https://github.com/smoltcp-rs/smoltcp)
+[A smol tcp stack (GitHub)](https://github.com/smoltcp-rs/smoltcp)
 
 [The Cost of CPU Networking on a Host (David Ahern's Blog)](https://people.kernel.org/dsahern/the-cpu-cost-of-networking-on-a-host)
 
@@ -78,7 +78,7 @@ Software Defined Networking, ActivityPub
 
 ['Nerfnet' tunnells TCP/IP over cheap NRF24L01 Radios (Hackaday, Tom Nardi) ](https://hackaday.com/2020/12/04/nerfnet-tunnels-tcp-ip-over-nrf24l01-radios/)
 
-[RFC for 700 HTTP Status Codes (Github, Joho)](https://github.com/joho/7XX-rfc)
+[RFC for 700 HTTP Status Codes (GitHub, Joho)](https://github.com/joho/7XX-rfc)
 
 [Fun with IP address parsing (David Anderson's Blog)](https://blog.dave.tf/post/ip-addr-parsing/)
 

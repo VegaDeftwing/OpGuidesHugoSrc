@@ -106,17 +106,17 @@ Done with that page? Cool, welcome back.
 
 There are a few extra things I want to mention:
 
-A lot of people conflate Git and Github
+A lot of people conflate Git and GitHub
 
-**GIT** is the protocol. **GITHUB** is a provider of git services. You can use git using Github's platform, but you could also use Gitlab, Gitea, or about 10000 other hosting provides - or host your own git server.
+**GIT** is the protocol. **GITHUB** is a provider of git services. You can use git using GitHub's platform, but you could also use Gitlab, Gitea, or about 10000 other hosting provides - or host your own git server.
 
-Still, you may want to use Github. It's nice to use and is often the only way a lot of people use git. It does add a fair amount of extra features on top of git too. So, for better or worse, you'll probably want to know how to use it and those extra features too.
+Still, you may want to use GitHub. It's nice to use and is often the only way a lot of people use git. It does add a fair amount of extra features on top of git too. So, for better or worse, you'll probably want to know how to use it and those extra features too.
 
 # Setting up a GitHub account
 
 If you haven't already, go though the usual steps to make an account on https://github.com.
 
-One of the first things you ~~should~~ have to do when using Github is set up a secure method to send your changes to GitHub's servers. For security reasons, you can't just use a password (This is a good thing) and instead need to set up **key based authentication**.
+One of the first things you ~~should~~ have to do when using GitHub is set up a secure method to send your changes to GitHub's servers. For security reasons, you can't just use a password (This is a good thing) and instead need to set up **key based authentication**.
 
 I'm going to save the nitty-gritty about how public-private key based authentication works for the {{< button relref="/Engineering/Networking/security" >}}Security{{< /button >}} chapter, but for now what you need to know is having a key pair will let you securely access git (and ssh, when we get to that) services on various servers, so we need to get keys setup.
 
@@ -130,7 +130,7 @@ Assuming you're running a somewhat recent release of Windows 10 or Windows 11, `
 
 It'll also probably generate a pretty picture, something sorta like this:
 
-As the names imply, you should keep your private key private, while you need to share your public key - in this case that means sharing it with Github. To do so, you can open `id_rsa.pub` in a text editor (if you have office installed, it might try to open it with "Publisher" - don't. Notepad or VSCode will work though)
+As the names imply, you should keep your private key private, while you need to share your public key - in this case that means sharing it with GitHub. To do so, you can open `id_rsa.pub` in a text editor (if you have office installed, it might try to open it with "Publisher" - don't. Notepad or VSCode will work though)
 
 You should see text that looks something like this:
 
@@ -183,7 +183,7 @@ Mac OS X `ssh` should be installed by default, as should almost any Linux distro
 
 It'll also probably generate a pretty picture, something sorta like this:
 
-As the names imply, you should keep your private key private, while you need to share your public key - in this case that means sharing it with Github. To do so, you can open `id_rsa.pub` in a text editor, such as TextEdit on Mac or VSCode/Nano/Sublime/Whatever on Linux.
+As the names imply, you should keep your private key private, while you need to share your public key - in this case that means sharing it with GitHub. To do so, you can open `id_rsa.pub` in a text editor, such as TextEdit on Mac or VSCode/Nano/Sublime/Whatever on Linux.
 
 You should see text that looks something like this:
 
@@ -266,9 +266,9 @@ Note though, you probably don't want to clone *everything* as git, especially if
 
 {{< /details >}}
 
-[TODO] adding GPG key to account for Github verified thing
+[TODO] adding GPG key to account for GitHub verified thing
 
-[TODO] Github PR to OpGuides
+[TODO] GitHub PR to OpGuides
 
 ## Making A PR on GitHub
 
@@ -324,7 +324,7 @@ Note though, you probably don't want to clone *everything* as git, especially if
 
 ### Graphical
 
-There are graphical user interfaces that can be used to make working with git dramatically easier. If you're using GitHub, [Github Desktop](https://desktop.github.com) is a decent option.
+There are graphical user interfaces that can be used to make working with git dramatically easier. If you're using GitHub, [GitHub Desktop](https://desktop.github.com) is a decent option.
 
 You may want to dig through these if that doesn't work well for you:
 
@@ -342,7 +342,7 @@ Some tools also exist to make the command line interface to git better.
 
 Again, GitHub has their own tool, https://cli.github.com
 
-But you may also want to check out [Bit, an alternative git CLI (Github)](https://github.com/chriswalz/bit) and [gut](https://gut-cli.dev)
+But you may also want to check out [Bit, an alternative git CLI (GitHub)](https://github.com/chriswalz/bit) and [gut](https://gut-cli.dev)
 
 The basic `git` command really isn't bad though. [This Cheatsheet](http://www.ndpsoftware.com/git-cheatsheet.html#loc=index;) may help you if you want to learn it better.
 
@@ -394,7 +394,7 @@ https://onlywei.github.io/explain-git-with-d3/
 
 ## Weird Git
 
-[CSS in Github READMEs](https://github.com/sindresorhus/css-in-readme-like-wat)
+[CSS in GitHub READMEs](https://github.com/sindresorhus/css-in-readme-like-wat)
 
 ## Further Reading
 

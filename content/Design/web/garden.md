@@ -1,8 +1,8 @@
 # Your Own Garden
 
-So, I just said you'd need to learn a bunch to do this, so, why bother?
+I just said you'd need to learn a bunch to do this, so, why bother?
 
-1. Platforms like Facebook, Tumblr, etc. - Social Media - don't let you really customize the look of your page
+1. Platforms like Facebook, Tumblr, etc. - Social Media - don't let you customize the look of your page
 
    … and they track you
 
@@ -12,11 +12,11 @@ So, I just said you'd need to learn a bunch to do this, so, why bother?
 
 2. Site builders (Squarespace, Wix, WordPress, etc.) tend to lead to cookie-cutter websites
 
-   … and are usually more expensive
+   … and are (typically) more expensive
 
    … and have vendor lock in
 
-   … and usually cost significantly more
+   … and (typically) cost more
 
    {{< smalltext >}}\* I will however concede that they're nice if you want to have a store front!{{< /smalltext >}}
 
@@ -32,13 +32,13 @@ But, that's just reasons to *not* use those things, why do you actually want to 
 
    … you can say what you, how you want- change every visual details, add animation, whatever
 
-   … you don't need to be worried about your content disappearing suddenly or losing access
+   … you don't need to worry about your content disappearing or losing access
 
    {{< smalltext >}}Though I do still recommend promoting on big platforms: see [POSSE](https://indieweb.org/POSSE) {{< /smalltext >}}
 
 5. It can be nice for organization, like I have for myself with OpGuides
 
-   {{< speech big>}} I wouldn't use a website like this one as my **only** organizational tool though! Things like [Masterplan](https://solarlune.itch.io/masterplan), [Notion](https://www.notion.so), and [Obsidian](https://obsidian.md) all do that a bit better{{< /speech >}}
+   {{< speech big>}} I wouldn't use a website like this one as my {{< vale >}}**only**{{< /vale >}} organizational tool though! Things like [Masterplan](https://solarlune.itch.io/masterplan), [Notion](https://www.notion.so), and [Obsidian](https://obsidian.md) all do that a bit better.{{< /speech >}}
 
 <style>
 @import url("//fonts.googleapis.com/css?family=Pacifico&text=Pure");
@@ -161,7 +161,7 @@ But, that's just reasons to *not* use those things, why do you actually want to 
 }
 </style>
 
-6. Seriously,
+6. 
 
 <div class="stage">
   <div class="animlayer"></div>

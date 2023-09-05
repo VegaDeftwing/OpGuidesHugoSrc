@@ -48,7 +48,7 @@ var scriptActiveSlime=!0,decay_slime=.1,sensor_slime=4,abs_speed_slime=3,angle_p
 
 I know there are plenty of tutorials and ways to learn online, be it on YouTube, SkillShare, or online classes provided for free by various universities. The difference here is I've tried to cut out the boring parts, make things a bit more entertaining than a textbook, and drenched the content in my own personal opinion that has been built up by my experiences. My views on things like what programming languages are bad or what hardware you should buy to learn on will be expressed directly and bluntly. This isn't to say I won't explain my reasoning, just that I'm not going to be apologetic when I say PHP, Java, Arduino (at least the 328p), and Windows 10 are trash - though I will still likely talk about all of these things.
 
-<!-- I had Javascript listed as trash too, but https://daitarou.info has convinced me otherwise, begrudgingly -->
+<!-- I had JavaScript listed as trash too, but https://daitarou.info has convinced me otherwise, begrudgingly -->
 
 I by no means expect you to share my same biases, in fact, I hope you do not and that at one point or another we can discuss why you think I am wrong, as that is the only way I can learn.
 

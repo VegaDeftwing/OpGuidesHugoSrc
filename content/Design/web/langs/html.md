@@ -2,11 +2,11 @@
 
 <script>    document.getElementById("webMenu").open = true;</script>
 
-<!--TODO: This page is fineeee but could really use a more gental introduction. I really just throw the reader to the wolves pretty quickly-->
+<!--TODO: This page is fine but could use a more gental introduction. I just throw the reader to the wolves as is.-->
 
-Alright, so **H**yper**T**ext **M**arkup **L**anguage is the one thing on this list I suspect everyone reading this page has at least a smidgen of familiarity with, and it's really very easy to work with, so let's just dive in.
+{{< vale >}}**H**yper**T**ext **M**arkup **L**anguage{{< /vale >}} is the one thing on this list I suspect everyone reading this page has at least a smidgen of familiarity with.
 
-In general, you'll be working with a bunch of HTML **tags**, tags are these point-bracketed enclosed words that mean something special to the browser, let's actually make a HTML file right now to get started. Go ahead and open any plain text editor <a class="ptr">(1)</a>, and make a new file and name it whatever you want, just make sure to end it in `.html`
+To write HTML you'll be working with a bunch of HTML **tags**. Tags are these point-bracketed enclosed words that mean something special to the browser, let's actually make a HTML file right now to get started. Go ahead and open any plain text editor <a class="ptr">(1)</a>, and make a new file and name it whatever you want, just make sure to end it in `.html`
 
 now, go ahead and type this into that document, 
 
@@ -18,23 +18,30 @@ now, go ahead and type this into that document,
 </html>
 ```
 
-and then, hopefully, you should be able to double click that file and it will open into your browser, and it should be pretty basic black text on a white background, with a big heading and the term HTML in bold, and if you look at the code you wrote, that should make sense. The only weird part is the `<!DOCTYPE html>` and `<html>` bits, but those are pretty much just standard stuff that just defines the start and end of the page.
+and then, hopefully, you should be able to double click that file and it will open into your browser, and it should be pretty basic black text on a white background, with a big heading and the term HTML in bold, and if you look at the code you wrote, that should make sense. The strange bits to you are probably the `<!DOCTYPE html>` and `<html>` bits, but those are pretty much just standard stuff that just defines the start and end of the page.
 
-## So, what else can this do?
+## What else can HTML do?
 
-Frankly, it's pretty much more of the same from here, just a bunch more tags that you should look into and understand how to use. There's all the `<h1>` though `<h6>` variants for headings of decreasing size, `<a>` for links, `<ol>` and `<ul>` for ordered and unordered lists, which then contain list items with `<li>`, and so on. Honestly, it's reasonable to just go through every tag listed on [W3 School's HTML Element Reference Page](https://www.w3schools.com/TAGS/), or follow their [HTML Tutorial](https://www.w3schools.com/html/html_intro.asp) - though you might want to read through this page first.
+It's pretty much more of the same from here. Just a bunch more tags that you should look into and understand how to use. There's all the `<h1>` though `<h6>` variants for headings of decreasing size, `<a>` for links, `<ol>` and `<ul>` for ordered and unordered lists, which then contain list items with `<li>`, and so on. It's reasonable to just go through every tag listed on [W3 School's HTML Element Reference Page](https://www.w3schools.com/TAGS/), or follow their [HTML Tutorial](https://www.w3schools.com/html/html_intro.asp) - though you might want to read through this page first.
 
-There's not really that much complexity in using plain HTML, it's how it interacts with CSS and JS that make it interesting. Still, don't underestimate how much you can do, basic HTML, with just `<img>` tags for images, `<a>` for links and so on can still get you really far. HTML is really the foundation of your website<a class="ptr">(2)</a>, so give it thought as you write it. Generally, I think you should try to do whatever it is you want in HTML as much as you can *before* resorting to adding CSS or JS, but also don't try to get HTML to do things it's not designed for if CSS or JS is a better fit. Hopefully I can give you a better idea of what should be used when in the coming chapters, though to some extent this just requires experience. Still, it's good to know where doing something hack-y is okay and where it's not.
+There's not much complexity in using plain HTML, it's how it interacts with CSS and JS that make it interesting. Still, don't underestimate how much you can do, basic HTML, with just `<img>` tags for images, `<a>` for links and so on can still get you quite far. HTML is the foundation of your website<a class="ptr">(2)</a>, so give it thought as you write it. Generally, I think you should try to make what you have in mind in HTML as much as you can *before* resorting to adding CSS or JS, but also don't try to get HTML to do things it's not designed for if CSS or JS is a better fit. Hopefully I can give you a better idea of what should to use when in the coming chapters, though to some extent this just requires experience. Still, it's good to know where doing something hack-y is okay and where it's not.
 
 A good example of this is tables.
 
-A lot of web dev noobs (myself included) will try to use tables for things that probably shouldn't be in basic tables, and instead need something more custom and responsive. If you try to put big pictures and lots of text in a table, you're probably doing something wrong, they're really better treated as basic spreadsheet like elements.
+A lot of web dev noobs (myself included) will try to use tables for things that probably shouldn't be in basic tables, and instead need something more custom and responsive. If you try to put big pictures and lots of text in a table, you're probably doing something wrong, they're better treated as basic spreadsheet like elements.
 
-<p>Meanwhile, doing something hacky like using a lot of <code>&ampnbsp;</code> tags in your html to move &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; text (like is done here, before the word "text"), while hacky, is still semi-reasonable, and part of how I've gotten the chapter numbers to align in the left side bar<p>
+<p>Meanwhile, doing something hacky like using a lot of <code>&ampnbsp;</code> tags in your html to move &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; text (like done here, before the word "text"), while hacky, is still semi-reasonable, and part of how I've gotten the chapter numbers to align in the left side bar<p>
 Okay, so, then, how should you learn HTML?
 
 
-Well, I think it's worth asking how much you need to know in the first place. While you could write your entire website in raw HTML, it's a massive pain in the butt, and probably not necessary. There's a good chance you'll be using a tool of some sort that lets you write in something a bit more user-friendly and converts it to HTML in the end- in the case of OpGuides, that tool is [Hugo](https://gohugo.io) and the format I write in is Markdown. Both of these are pretty common. That said, you'll still probably want to know some of the common HTML stuff and have enough familiarity to understand things when looking things up as occasionally you'll need to actually dive in and do something more manually, such as putting in complex tables, inserting pre-formatted text (See the ASCII Art below), or, if the tool your using doesn't make it easy, load in an audio or video clip, just to name a few examples.
+
+I think it's worth asking how much you need to know in the first place. While you could write your entire website in raw HTML, it's a massive headache, and probably not necessary. There's a good chance you'll be using a tool of some sort that lets you write in something a bit more user-friendly and converts it to HTML in the end.
+
+For OpGuides, that tool is [Hugo](https://gohugo.io) and the format I write in is Markdown. Both of these are pretty common. 
+
+On occasion, you'll need to actually dive in and do something more manually. This might be putting in complex tables, inserting pre-formatted text (See the ASCII Art below), or, if the tool your using doesn't make it easy, inserting in an audio or video clip, etc.
+
+Because of this, you'll still probably want to know some of the common HTML stuff and have enough familiarity to understand what you're looking at when looking things up for these rare uses.
 
 {{< columns >}}
 
@@ -52,7 +59,7 @@ Well, I think it's worth asking how much you need to know in the first place. Wh
   <tr>
     <td>would</td>
     <td>ever</td>
-    <td colspan="3" rowspan="2">want a table that is formatted</td>
+    <td colspan="3" rowspan="2">want a table formatted</td>
   </tr>
   <tr>
     <td>like</td>
@@ -72,7 +79,8 @@ Well, I think it's worth asking how much you need to know in the first place. Wh
   </tr>
 </tbody>
 </table>
-{{< smalltext >}}I made the table using https://www.tablesgenerator.com/html_tables as it makes doing things like this much less of a pain in the ass{{< /smalltext >}}
+
+{{< smalltext >}}I made the table using https://www.tablesgenerator.com/html_tables as it makes doing things like this much easier{{< /smalltext >}}
 
 <hr>
 
@@ -156,20 +164,20 @@ Well, I think it's worth asking how much you need to know in the first place. Wh
 
 {{< attribution >}}
 
-Character is owned by me, art is by [Siplick](https://www.deviantart.com/siplick), but ran through an ASCII art tool - note, this is text, not an image!
+Character owned by me, art is by [Siplick](https://www.deviantart.com/siplick), but ran through an ASCII art tool - note, this is text, not an image!
 
 {{< /attribution >}}
 
  {{< /columns >}}
 
-And, yeah, I just had to write some HTML by hand to show those, but the majority of this page is still being written in Markdown so that I don't have to write every `<p>` and line break and what not. See the {{< button relref="/Engineering/wrappingup/latex" >}}LaTeX and Markdown{{< /button >}} page for a quick overview (feel free to skip the {{< katex >}}\LaTeX{{< /katex >}} Section)
+And, yeah, I just had to write some HTML by hand to show those, but the majority of this page is still written in Markdown so that I don't have to write every `<p>` and line break and what not. See the {{< button relref="/Engineering/wrappingup/latex" >}}LaTeX and Markdown{{< /button >}} page for a quick overview (feel free to skip the {{< katex >}}\LaTeX{{< /katex >}} Section)
 
 Also, if you dare to hit the <a href="https://github.com/VegaDeftwing/OpGuidesHugoSrc/tree/main/content//Design/web/langs/html.md" target="_blank" rel="noopener">
 <img src="/svg/edit.svg" class="book-icon" alt="Edit">
 <span>Edit this page</span>
-</a> link on this page or any other on the site, you may see that there's actually a third thing mixed in with the Markdown and HTML (well, like, 5th thing if you consider the occasional inline CSS and JS, but I digress) and that's the weird tags that look like `{{</* attribution */>}}` or `{{</* columns */>}}` or the like, these are special blocks that work with [Hugo](https://gohugo.io), the aforementioned tool I use to make OpGuides, and they basically just make it easy to reuse snippets of HTML. There's a good chance that whatever tools you use to make your website will offer something similar, as writing HTML directly can get quite cumbersome if you're repeating the same thing over and over.
+</a> link on this page or any other on the site, you may see that there's actually a third thing mixed in with the Markdown and HTML (well, like, 5th thing if you consider the occasional inline CSS and JS, but I digress) and that's the weird tags that look like `{{</* attribution */>}}` or `{{</* columns */>}}` or the like, these are special blocks that work with [Hugo](https://gohugo.io), the tool I use to make OpGuides, and they basically just make it easy to reuse snippets of HTML. There's a good chance that whatever tools you use to make your website will offer something similar, as writing HTML directly can get quite cumbersome if you're repeating the same thing over and over.
 
 <ol hidden id="footnotes">
     <li>Note, this means <b>NOT</b> Microsoft Word, but Notepad will work. If you want, now is a good time to grab https://code.visualstudio.com</li>
-    <li>Usually. In some cases a website will have very, very little html but still be quite complex, but those tend to start going into web app teritory, like https://squoosh.app where you can press f12→Elements and see there's really not much there, because almost everything is being done in JavaScript. There's nothing wrong with doing webdev this way, but it's significantly more advanced! For the vast majority of websites, the HTML really is the foundation.</li>
+    <li>In some cases a website will have little to no html but still be quite complex, but those tend to start going into web app territory, like https://squoosh.app where you can press f12→Elements and see there's not much there, because almost everything displayed uses JavaScript. There's nothing wrong with doing webdev this way, but it's more advanced! For the vast majority of websites, the HTML is the foundation.</li>
 </ol>

@@ -8,7 +8,7 @@
 
 [The Scientist and Engineer's Guide to Digital Signal Processing](http://www.dspguide.com/pdfbook.htm)  By Steven W. Smith, Ph.D.
 
-[Awesome MusicDSP (Github)](https://github.com/olilarkin/awesome-musicdsp)
+[Awesome MusicDSP (GitHub)](https://github.com/olilarkin/awesome-musicdsp)
 
 [Tom Erbe, Design the Erbe Verb (YouTube)](https://www.youtube.com/watch?v=Il_qdtQKnqk)
 
@@ -42,9 +42,9 @@ http://www.doepfer.de/DIY/a100_diy.htm
 
 **Software**
 
-[Awesome Audio Visualization (Github)](https://github.com/willianjusten/awesome-audio-visualization)
+[Awesome Audio Visualization (GitHub)](https://github.com/willianjusten/awesome-audio-visualization)
 
-[Kord (Github)](https://github.com/synestematic/kord) - a music theory development framework in python
+[Kord (GitHub)](https://github.com/synestematic/kord) - a music theory development framework in python
 
 [Tutorial: Programming Modules for VCV Rack - Part 1 (YouTube, Leonardo Laguna Ruiz)](https://www.youtube.com/watch?v=7Z7LHAnIIac) (This might be out of date)
 

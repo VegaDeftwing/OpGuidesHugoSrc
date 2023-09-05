@@ -18,7 +18,7 @@ The next iteration of OpGuides used [Docsify](https://docsify.js.org/#/). If you
 
 Unfortunately, docsify really couldn't cleanly be expanded to handle some of what I wanted to do on OpGuides, so after trying out a few other static site generators ([Zola](https://www.getzola.org) being the most interesting) I settled on [Hugo](https://gohugo.io). In part this was because of the absolutely incredible [Hugo Book](https://github.com/alex-shpak/hugo-book) theme on which the theme for OpGuides is derived from.
 
-The site is still hosted on GithubPages, which makes my anual fee for hosting OpGuides just the price of the domain, though if you're willing to stick with an .github.io domain or grab a free .tk or other weird tld name you can get around that too.
+The site is still hosted on GitHubPages, which makes my anual fee for hosting OpGuides just the price of the domain, though if you're willing to stick with an .github.io domain or grab a free .tk or other weird tld name you can get around that too.
 
 ## Actually making OpGuides
 

@@ -418,11 +418,11 @@ Of course the same applies in other formats. .flac is replacing .wav for high en
 
 ### Bit rot?
 
-![XKCD Digital Data](/xkcd/xkcddigitaldata.webp)
+![xkcd Digital Data](/xkcd/xkcddigitaldata.webp)
 
 {{< attribution >}}
 
-[XKCD #1683](https://xkcd.com/1683/)
+[xkcd #1683](https://xkcd.com/1683/)
 
 {{< /attribution >}}
 
@@ -757,7 +757,7 @@ As for what this would actually look like, having an operating system which pres
 
 If you'd like to try it, you'll want to watch [The tutorial video on YouTube](https://www.youtube.com/watch?v=3f6FE1dgMNw&list=PLk8NuufOVK01GhaObYr1_gqeASlkj2um0).
 
-{{< attribution >}}Image taken from the [Enso Github Repository](https://github.com/enso-org/enso){{< /attribution >}}
+{{< attribution >}}Image taken from the [Enso GitHub Repository](https://github.com/enso-org/enso){{< /attribution >}}
 
 <--->
 
@@ -785,7 +785,7 @@ The bigger issue is with AI. There have been a ton of stories now where facial r
 
 ### Special Needs?
 
-Well, yeah. How often do you see more common needs like color blindness accounted for, let alone issues like screen readers. If anything, some of these things are getting *worse*. For example, web design is becoming more and more javascript heavy, which can often result in screen readers just not being able to process much of the text on screen. Meanwhile, applications that everyone is expected to use are becoming complex enough, with more and more rarely used features being shoved into sub-menus that it's harder to interact with them in non traditional ways.
+Well, yeah. How often do you see more common needs like color blindness accounted for, let alone issues like screen readers. If anything, some of these things are getting *worse*. For example, web design is becoming more and more JavaScript heavy, which can often result in screen readers just not being able to process much of the text on screen. Meanwhile, applications that everyone is expected to use are becoming complex enough, with more and more rarely used features being shoved into sub-menus that it's harder to interact with them in non traditional ways.
 
 Sure, we're making better hardware to tackle these issues, but a lot of it is pretty expensive.
 

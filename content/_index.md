@@ -114,7 +114,7 @@ On the note of links, those that I think are a cut above the rest will have a li
 
 {{< attribution >}}
 
-one time contribution of $10+ or any monthly contribution on Github Sponsors or Patreon
+one time contribution of $10+ or any monthly contribution on GitHub Sponsors or Patreon
 
 {{< /attribution >}}
 
@@ -130,7 +130,7 @@ Albert Wavering
 
 {{< attribution >}}
 
-one time contribution of  \$50+ or $5+ monthly contribution on Github Sponsors or Patreon
+one time contribution of  \$50+ or $5+ monthly contribution on GitHub Sponsors or Patreon
 
 {{< /attribution >}}
 
@@ -148,7 +148,7 @@ one time contribution of  \$50+ or $5+ monthly contribution on Github Sponsors o
 
 {{< attribution >}}
 
-one time contribution of  \$100+ or $10+ monthly contribution on Github Sponsors or Patreon
+one time contribution of  \$100+ or $10+ monthly contribution on GitHub Sponsors or Patreon
 
 {{< /attribution >}}
 
@@ -158,7 +158,7 @@ one time contribution of  \$100+ or $10+ monthly contribution on Github Sponsors
 
 ---
 
-If you would like to sponsor this work, please do so on Github Sponsors → <iframe src="https://github.com/sponsors/VegaDeftwing/button" title="Sponsor VegaDeftwing" height="35" width="116" style="border: 0;"></iframe>
+If you would like to sponsor this work, please do so on GitHub Sponsors → <iframe src="https://github.com/sponsors/VegaDeftwing/button" title="Sponsor VegaDeftwing" height="35" width="116" style="border: 0;"></iframe>
 
 or tip me on Venmo, @vegadeftwing
 
@@ -192,7 +192,7 @@ Eric Pereyra ([isopropilick](https://github.com/isopropilick))
 
 ----
 
-Want your name on this list? [Sumbit a PR on Github](https://github.com/VegaDeftwing/OpGuidesHugoSrc)
+Want your name on this list? [Sumbit a PR on GitHub](https://github.com/VegaDeftwing/OpGuidesHugoSrc)
 
 {{< /columns >}}
 
@@ -204,7 +204,7 @@ This guide links to and re-hosts a bunch of other content. If you don't want you
 
 As for the license, everything on OpGuides **except** 
 
-* The images, quotes, videos, and code that are marked as being from elsewhere or are dynamically loaded from other sources (YouTube, Twitter embeds, Javascript, and the like)
+* The images, quotes, videos, and code that are marked as being from elsewhere or are dynamically loaded from other sources (YouTube, Twitter embeds, JavaScript, and the like)
 
   {{< smalltext >}}**Why:** Nobody has the right to re-license another person's hard work{{< /smalltext>}}
 
@@ -230,7 +230,7 @@ As for the license, everything on OpGuides **except**
 
 is licensed under [CC-NC-BY-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), with the a few extra stipulations
 
-* Contributors must agree that I (Vega) can still collect donations though the site - at the moment this is though Github Sponsors and Venmo, though this may change in the future. This covers the cost of the domain, and gives me a little spending money to justify purchases that allow me to write further content.
+* Contributors must agree that I (Vega) can still collect donations though the site - at the moment this is though GitHub Sponsors and Venmo, though this may change in the future. This covers the cost of the domain, and gives me a little spending money to justify purchases that allow me to write further content.
 * Contributors also agree that I (Vega) or one other person - "The Backup" - I appoint at a time may grant this same exception to those wishing to host a fork of OpGudides themselves. In the event that I am unable to grant this exception further, the last person appointed "The Backup" becomes the copyright holder of the OpGuides name, logo, Interviews, and blog posts and may appoint a new backup.
   * Currently Soatok Dreamseeker of https://soatok.blog is "The Backup"
 

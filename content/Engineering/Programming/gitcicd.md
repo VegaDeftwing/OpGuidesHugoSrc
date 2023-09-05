@@ -49,7 +49,7 @@ This is a subject that many people have written books about, and in a small-to-m
 First, there is the total time savings. If you consider everything it takes to make correct and clean code -- not only compiling, but linting, testing, etc -- then it is definitely worth automating for yourself. And if it's worth automating for yourself, it's worth automating for others.
 
 ![](https://imgs.xkcd.com/comics/is_it_worth_the_time.png)
-{{< attribution >}}[XKCD №1205](https://xkcd.com/1205/){{< /attribution >}}
+{{< attribution >}}[xkcd №1205](https://xkcd.com/1205/){{< /attribution >}}
 
 Second, there is consistency. Again, if you want *all* of your code to compile, you have to gate committing code to a successful compile (or at least syntax check). If you want *all* your code to have a certain format, then you have to gate committing code to passing lints. This will become a headache much faster than you think -- even for a simple project!
 

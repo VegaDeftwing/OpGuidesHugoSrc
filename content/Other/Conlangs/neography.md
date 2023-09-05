@@ -345,7 +345,7 @@ I have even made a tool for hiding binary data into the least significant bits o
 
 ![](https://github.com/Mahlet-Inc/hobbits/raw/master/docs/hobbits_screenshot.png)
 
-{{< attribution >}}Example image from [the Hobbits Github repo](https://github.com/Mahlet-Inc/hobbits){{< /attribution >}}
+{{< attribution >}}Example image from [the Hobbits GitHub repo](https://github.com/Mahlet-Inc/hobbits){{< /attribution >}}
 
 {{< /columns >}}
 

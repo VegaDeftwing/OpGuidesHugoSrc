@@ -2,17 +2,17 @@
 
 <script>    document.getElementById("webMenu").open = true;</script>
 
-Let me start by saying that **C**ascading **S**tyle **S**heets - CSS - is not a hard language to write. The problem is not the language<a class="ptr">(1)</a>, but with how humans don't think about style and art in a linear way and dealing with the complexities of different devices.
+Let me start by saying that {{< vale >}}**C**ascading **S**tyle **S**heets{{< /vale >}} - CSS - is not a hard language to write. The problem is not the language<a class="ptr">(1)</a>, but with how humans don't think about style and art in a linear way and dealing with the complexities of different devices.
 
 ## How we think about style
 
-Look around this website, there are things that have been made stylistically cohesive - the color theme,  the way I indicate that something is a local link by {{< button relref="/design/web/langs/css" color="design" >}} putting it in a button {{< /button >}} with a color that matches where it goes. That makes sense to the part of our brains that wants to see the full overview and look at the completed picture. We like to think of art from the **macroscopic scale**.
+Look around this website, there are things that are stylistically cohesive - the color theme,  the way I indicate that something is a local link by {{< button relref="/design/web/langs/css" color="design" >}} putting it in a button {{< /button >}} with a color that matches where it goes. That makes sense to the part of our brains that wants to see the full overview and look at the completed picture. We like to think of art from the **macroscopic scale**.
 
-In the vast majority of contexts, this line of thought works. Think about digital art - you put pixels on layers and stack those layers. The only thing you have to worry about is color on each pixel. Sure, if you're stacking layers with weirder blend modes it can start to get more complicated but it's almost always easy to think about what the change you're making will look like before you make it. There is a convenient 1:1 relationship between you and the content on the screen.
+In the vast majority of contexts, this line of thought works. Think about digital art - you put pixels on layers and stack those layers. The one thing you have to worry about is color on each pixel. Sure, if you're stacking layers with weirder blend modes it can start to get more complicated but it's almost always easy to think about what the change you're making will look like before you make it. There is a convenient 1:1 relationship between you and the content on the screen.
 
-We absolutely do not want to have to think about styling every. single. element. on our web page. You would not want to have to set the background color, font sizes, line height, etc. etc. each time you made a new element. You need to be able to set defaults for each type of thing on the page.
+We do not want to have to think about styling every. single. element. on our web page. You would not want to have to set the background color, font sizes, line height, etc. etc. each time you made a new element. You need to be able to set defaults for each {{< vale >}}type of{{< /vale >}} thing on the page.
 
-At the same time, it's necessary to think about individual elements sometimes and give special attention to one thing on a page. For example, in a few places on this website I have tables where things need color applied to make them easier to read.
+At the same time, it's necessary to think about individual elements sometimes and give special attention to one thing on a page. For example on this website I have tables where things need color applied to make them easier to read.
 
 For example, over on the {{< button relref="engineering/networking/cloud" >}}"The Cloud"{{< /button >}} page I have this table:
 
@@ -50,9 +50,9 @@ text-align: center;
 
 </div>
 
-Clearly, I wouldn't want *EVERY* table to have that stair-cased highlight to it. It makes sense where it is used, but that alteration **extends** the style that is applied to all tables on the website. It doesn't replace it.
+I wouldn't want *EVERY* table to have that stair-cased highlight to it. It makes sense where used, but that alteration **extends** the style applied to all tables on the website. It doesn't replace it.
 
-This is the first problem: We have to think about **microscopic** changes as how they **extend** the behavior of the macroscopic. Normally in art, we can just zoom in, change a few pixels, and know that the sum of these small changes will result in a better picture as a whole - yes, even in normal art you'd have to keep the entire composition in mind - but In CSS, you need to think in both directions and be sure you understand what you want to applied on a macroscopic scale and what you want to be microscopic, and decide what you want to be "default".
+This is the first problem: We have to think about **microscopic** changes as how they **extend** the behavior of the macroscopic. In most digital art, we can just zoom in, change a some pixels, and know that the sum of these small changes will result in a better picture as a whole - yes, even in normal art you'd have to keep the entire composition in mind - but In CSS, you need to think in both directions and be sure you understand what you want to applied on a macroscopic scale and what you want to be microscopic, and decide what you want to be "default".
 
 For example, lets say you have a bunch of images on your website,
 
@@ -98,39 +98,39 @@ That looks good, does what we want, great, right…
 
 … Oops, we broke the logo.
 
-Unintended consequences are the bane of your existence when working on CSS because you really want to (and should) apply style to the most generic class that it applies to, but it's easy to accidentally go one step too far and break other things. This problem could technically be resolved in two ways:
+Unintended consequences are the bane of your existence when working on CSS because you want to (and should) apply style to the most generic class that it applies to, but it's easy to go one step too far and break other things. There are two ways to address this problem:
 
-From the **microscopic** side the logo image could be assigned a class where it is used
+From the **microscopic** side, we can assign a class to the logo image:
 
 ```html
 <img class="logo" src="mylogo.svg">
 ```
 
-and it should specify, in it's style, that it should have no border radius
+and it should specify, in it's style, that it should have no border radius:
 
 ```css
-.logo{
+.logo {
 	border-radius: 0rem;
 }
 ```
 
-This is probably the wrong way to do this. Unless you know that the logo is going to be the one and only exception to this rounded corner rule, you're going to be playing wackamole to un-round corners on images from here on out if you do this.
+This is probably the wrong way to do this. Unless you know that the logo is going to be the one exception to this rounded corner rule, you're going to be playing Whac-A-Mole to un-round corners on images from here on out if you do this.
 
-The better solution is just to make a new class for rounded corners
+The better solution, in most cases, is just to make a new class for rounded corners:
 
 ```css
-.rounded{
+.rounded {
 	border-radius: 1rem;
 }
 ```
 
-and then when you insert the images you want to be rounded you can specify their class:
+and then when you insert the images you set them as a member of the `rounded` class:
 
 ```html
 <img class="rounded" src="meme.jpeg">
 ```
 
-Now, if we did decide to round the logo we could add the rounded class on, (Yes, you can use more than one class)
+Now, if we did decide to round the logo we could add the rounded class on, (Yes, you can use more than one class):
 
 ```html
 <img class="logo rounded" src="mylogo.svg">
@@ -138,11 +138,13 @@ Now, if we did decide to round the logo we could add the rounded class on, (Yes,
 
 but if we just left the logo alone and didn't specify a class at all, it should be fine, because the defaults we apply to all  `img`  elements shouldn't break it.
 
-If you have something like our situation here, where you have two things which are derived from the same class - here, "rounded images" and "logo images" are both of type `img`, you should never make a change to the parent of both (`img` in this case) for one type of child if it will require an undo of that change in another - just make the change where it belongs in the first place!
+If you have something like our situation here, where you have two things which derive from the same class - here, "rounded images" and "logo images" are both of type `img`, you should never make a change to the parent of both (`img` in this case) for one child if it will require you undo that change in another - just make the change where it belongs in the first place!
 
-The tough part about that is realizing when you need to make a new class and what those classes are. Above I made a `rounded` class, but that may not be sufficient. Maybe you need multiple variants for setting the amounts of rounding, ranging from subtle to full-on-circle. What would you call those classes? You also don't want to go to nuts with different classes, otherwise each element would have a whole pile of classes assigned to it. There is art in organization and picking the right amount of abstraction here. That's an art that's much harder to teach.
+The tough part about that is realizing when you need to make a new class and what those classes are. Above I made a `rounded` class, but that may not be {{< vale >}}sufficient{{< /vale >}}. Maybe you need variants for setting the amounts of rounding, ranging from subtle to full-on-circle. What would you call those classes? You also don't want to go to nuts with different classes, otherwise each element would have a whole pile of classes assigned to it. There is art in organization and picking the right amount of abstraction here. That's an art that's much harder to teach.
 
 ## What can CSS do?
+
+{{< vale >}}
 
 <div class="stage">
   <div class="animlayer"></div>
@@ -195,10 +197,12 @@ The tough part about that is realizing when you need to make a new class and wha
   }
 }
 </style>
+{{< /vale >}}
 
-That said, you should probably not do to crazy of shit. Not all browsers behave the same or support everything. While nearly everything should work, you will find weird edge cases. For example, this website used to have a nice gradient for the background, but it had awful banding on Firefox and completely broke on the default browser on Samsung phones.
 
-In general though, if you have an idea for a simple animation in mind, you can probably make it work with just CSS… ish. The limitation is if you want to actually change the content, that's a job better suited to javascript, which we'll look at next, though, as a teaser:
+That said, you should probably not do to crazy of shit. Not all browsers behave the same or support everything. While nearly everything should work, you will find weird edge cases. For example, this website used to have a nice gradient for the background, but it had awful banding on Firefox and was unusable on the default browser on Samsung phones.
+
+In general though, if you have an idea for a simple animation in mind, you can probably make it work with just {{< vale >}}CSS… ish{{< /vale >}}. The limitation is if you want to actually change the content, that's a job better suited to JavaScript, which we'll look at next. Here, as a teaser:
 
 <script>
     function getRandomUnicodeLetter() {
@@ -252,9 +256,9 @@ setInterval(updateUnicodeLetters, 70); // Update the letters every 70 millisecon
 
 ## Okay, so how do I actually learn it?
 
-Same way as everything else: RTFM, experiment, and get your hands dirty. You've seen enough examples on this page that you've probably accidentally gotten a grasp for some of the syntax.
+Same way as everything else: RTFM, experiment, and get your hands dirty. You've seen enough examples on this page that you've probably gotten a grasp for some of the syntax.
 
-To start, you'll just need a basic html page with some elements on it, so make a file like `mytest.html` and fill it with some content:
+To start, you'll just need a basic HTML page with some elements on it, so make a file like `mytest.html` and fill it with some content:
 
 ```html
 <!DOCTYPE html>
@@ -281,7 +285,7 @@ As some homework, I'd recommend trying to get
 
 {{< columns >}}
 
-columns of text to work, as it it's a good test of your ability to correctly handle padding, grids, etc.
+columns of text to work, as it it's a good test of your ability to handle padding, grids, etc.
 
 <--->
 
@@ -299,7 +303,7 @@ TODO why you shouldn't use them, but why you might want to anyway.
 
 ## Units.
 
-px vs rm vs rem
+`px` vs `vh`/`vw`  vs `rem` vs `em` vs `%`
 
 ## Further Reading
 
@@ -315,7 +319,7 @@ If you have literal hours to kill, start going though everything on https://css-
 
 https://fffuel.co/css-selectors/
 
-
+{{< vale >}}
 
 <ol hidden id="footnotes">
 <li>Mostly. If you're doing something complex, such as working with animations, the syntax can get a bit weird.</li>
@@ -365,5 +369,7 @@ https://fffuel.co/css-selectors/
 </span></span><span style="display:flex"><span>  }
 </span></span><span style="display:flex"><span>}
 </span></span></code>
-    </li>
+   </li>
 </ol>
+
+{{< /vale >}}

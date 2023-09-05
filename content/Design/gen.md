@@ -1,9 +1,28 @@
 # Generative Art
 
+{{< tip >}}
+
+AI tools, and to a lesser extend non-AI based generative art tools, have been contentious among artists for a while now. While the reasons for the apprehension vary, two common threads come up a lot:
+
+* Is it ethical, and should it be legal, to train these systems on existing images with out consent from the artists?
+
+  This **way** out of scope for this page, but if you think no, that doesn't exclude you from using all generative tools - most don't use AI at all.
+
+* How can artists can prove they drew a piece instead of using an AI tool?
+
+  One solution to this is to post a each piece with a WIP from earlier in the process or a time lapse of the creation process. This is something a lot of viewers already appreciate anyway, and, depending on your workflow, may be low effort.
+
+{{< /tip >}}
+
+{{< tip >}}
+
+Due to the copy right office deciding on the un-copyright-ability of AI generated images with tools like DALL·E 2, Midjourney, and Stable Diffusion, there's some questions about how this will affect the copyright-ability of other generative tools. I don't want to comment if that's good or bad on this page, but you should at least be aware of it.
+
+{{< /tip >}}
 
 {{< columns >}}
 
-This page is almost completely devoid of actual educational content. Instead, I've tried to make the most complete list of generative art tools and libraries on the internet. Of course, I can't actually make an exhaustive list and may be missing some of the newest tools and ideals, so please check out these other communities for more:
+This page is almost entirely devoid of actual educational content. Instead, I've tried to make the most complete list of generative art tools and libraries on the internet. Of course, I can't actually make an exhaustive list and may be missing some of the newest tools and ideals, so please check out these other communities for more:
 
 <--->
 
@@ -17,7 +36,7 @@ This page is almost completely devoid of actual educational content. Instead, I'
 
 {{< tip >}}
 
-You may notice this page lacks AI generative art tools such as DALL·E 2, Midjourney, & Stable Diffusion. This isn't because they're not interesting, it's because the space is [rapidly evolving](https://the-decoder.com/nvidias-ediffi-is-an-impressive-alternative-to-dall-e-or-stable-diffusion/) and I don't want to maintain constantly changing lists!</br></br>If you're totally new to AI Art, see [Stable Diffusion is a really big deal](https://simonwillison.net/2022/Aug/29/stable-diffusion/) by [@simonw](https://twitter.com/simonw), but even that is relatively old now and new features are coming rapidly, like the ability to pose characters in the scene.
+You may notice this page lacks AI generative art tools such as DALL·E 2, Midjourney, & Stable Diffusion. This isn't because they're not interesting, it's because the space is {{< vale >}}[rapidly evolving](https://the-decoder.com/nvidias-ediffi-is-an-impressive-alternative-to-dall-e-or-stable-diffusion/){{< /vale >}} and I don't want to maintain constantly changing lists!</br></br>If you're totally new to AI Art, see {{< vale >}}[Stable Diffusion is a really big deal](https://simonwillison.net/2022/Aug/29/stable-diffusion/){{< /vale >}} by [@simonw](https://twitter.com/simonw) but even that is getting old now as new features and extensions come out, like the ability to pose characters in the scene.
 
 {{< /tip >}}
 
@@ -31,7 +50,7 @@ If you're interested in generative music and sounds as well, you may want to che
 
 {{< columns2 >}}
 
-[roberthodgin - meander](http://roberthodgin.com/project/meander)
+{{< vale >}}[roberthodgin - meander](http://roberthodgin.com/project/meander){{< /vale >}}
 
 <--->
 
@@ -346,7 +365,7 @@ Noise maker can make a ton of generative art pieces, as you can see at the right
 
 {{< columns2 >}}
 
-[Noisey-Shapes (Github)](https://github.com/cnfrancis/noisey-shapes)
+[Noisey-Shapes (GitHub)](https://github.com/cnfrancis/noisey-shapes)
 
 <--->
 
@@ -364,7 +383,7 @@ Noise maker can make a ton of generative art pieces, as you can see at the right
 
 <--->
 
-[Github repo](https://github.com/jasonwebb/SuperformulaSVG-for-web)
+[GitHub repo](https://github.com/jasonwebb/SuperformulaSVG-for-web)
 
 <--->
 
@@ -466,7 +485,7 @@ Test different penrose tilings. If you edit the HTML you increase the slider lim
 
 {{< columns2 >}}
 
-[FastNoise2](https://github.com/Auburn/FastNoise2)
+[FastNoise2 (GitHub)](https://github.com/Auburn/FastNoise2)
 
 <--->
 
@@ -486,7 +505,7 @@ Modular node based noise generation library
 
 
 
-[Themer (Live Demo)](https://themer.dev/?colors.dark.accent0=#F59597&colors.dark.accent1=#F2B494&colors.dark.accent2=#F2DB94&colors.dark.accent3=#C8F29D&colors.dark.accent4=#94F2DD&colors.dark.accent5=#94CEF2&colors.dark.accent6=#DB9CF7&colors.dark.accent7=#F79CE0&colors.dark.shade0=#44484F&colors.dark.shade7=#C7F3FF&colors.light.accent0=#E11418&colors.light.accent1=#E0530D&colors.light.accent2=#D2A623&colors.light.accent3=#61AB16&colors.light.accent4=#06B38B&colors.light.accent5=#34A4E7&colors.light.accent6=#A549CD&colors.light.accent7=#CC52AD&colors.light.shade0=#DBF7FF&colors.light.shade7=#3E444F&activeColorSet=dark&calculateIntermediaryShades.dark=true&calculateIntermediaryShades.light=true) [(Github)](https://github.com/mjswensen/themer), meant for making themes for Linux environments, but makes good textures in general
+[Themer (Live Demo)](https://themer.dev/?colors.dark.accent0=#F59597&colors.dark.accent1=#F2B494&colors.dark.accent2=#F2DB94&colors.dark.accent3=#C8F29D&colors.dark.accent4=#94F2DD&colors.dark.accent5=#94CEF2&colors.dark.accent6=#DB9CF7&colors.dark.accent7=#F79CE0&colors.dark.shade0=#44484F&colors.dark.shade7=#C7F3FF&colors.light.accent0=#E11418&colors.light.accent1=#E0530D&colors.light.accent2=#D2A623&colors.light.accent3=#61AB16&colors.light.accent4=#06B38B&colors.light.accent5=#34A4E7&colors.light.accent6=#A549CD&colors.light.accent7=#CC52AD&colors.light.shade0=#DBF7FF&colors.light.shade7=#3E444F&activeColorSet=dark&calculateIntermediaryShades.dark=true&calculateIntermediaryShades.light=true) [(GitHub)](https://github.com/mjswensen/themer), meant for making themes for Linux environments, but makes good textures in general
 
 {{< /details >}}
 
@@ -498,15 +517,15 @@ Modular node based noise generation library
 
 [r/pixelsorting (Reddit)](https://www.reddit.com/r/pixelsorting/)
 
-[PixelSorting using Processing (Github)](https://github.com/jeffThompson/PixelSorting)
+[PixelSorting using Processing (GitHub)](https://github.com/jeffThompson/PixelSorting)
 
-[python pixelsort, with masks (Github)](https://github.com/satyarth/pixelsort)
+[python pixelsort, with masks (GitHub)](https://github.com/satyarth/pixelsort)
 
-[Python again, but with animation support (Github)](https://github.com/rkargon/pixelsorter)
+[Python again, but with animation support (GitHub)](https://github.com/rkargon/pixelsorter)
 
 [Pixsort for Adobe After Effects (15 USD)](https://wunkolo.itch.io/pixsort)
 
-[GenerateMe (Github)](https://github.com/tsulej/GenerateMe) - lots of glitch effects
+[GenerateMe (GitHub)](https://github.com/tsulej/GenerateMe) - lots of glitch effects
 
 {{< /details >}}
 
@@ -648,7 +667,7 @@ Chaotica is **free for noncommercial use**, and can render up to 1.23 megapixel 
 {{< /columns2 >}}
 
 {{< columns2 >}}
-[p5-live (Github)](https://github.com/yangsu/p5-live)
+[p5-live (GitHub)](https://github.com/yangsu/p5-live)
 <--->
 live coding for p5.js - you'll probably want the VS Code Extension
 <--->
@@ -676,7 +695,7 @@ JS library for visulaization & creative coding
 
 {{< best >}}
 
-[Hydra (Github)](https://github.com/ojack/hydra)
+[Hydra (GitHub)](https://github.com/ojack/hydra)
 
 {{< /best >}}
 
@@ -695,7 +714,7 @@ JS library for visulaization & creative coding
 {{< /columns2 >}}
 
 {{< columns2 >}}
-[Thixels by Ramsey Nasser (Github, Linux Only)](https://github.com/nasser/thixels)
+[Thixels by Ramsey Nasser (GitHub, Linux Only)](https://github.com/nasser/thixels)
 <--->
 "[PICO8](https://www.lexaloffle.com/pico-8.php) inspired live coding visual instrument."
 <--->
@@ -711,15 +730,16 @@ JS library for visulaization & creative coding
 {{< /columns2 >}}
 
 {{< columns2 >}}
-[Ronin (Github)](https://github.com/hundredrabbits/Ronin)
+[Ronin (GitHub)](https://github.com/hundredrabbits/Ronin)
 <--->
 "Ronin is a procedural graphics tool designed to automate simple graphical tasks, like resizing, cropping, coloring, and generating algorithmic images. It interprets a minimal dialect of LISP, look at the examples to better understand how this all works."
 <--->
+
 <iframe width="100%" height="150" src="https://www.youtube.com/embed/SgAWGh1s9zg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
 {{< /columns2 >}}
 
 {{< columns2 >}}
-[The Force (Github)](https://github.com/shawnlawson/The_Force)
+[The Force (GitHub)](https://github.com/shawnlawson/The_Force)
 <--->
 … this one basically lacks all description. Best you'll get is the [api docs in the wiki](https://github.com/shawnlawson/The_Force/wiki/API)
 <--->
@@ -752,7 +772,7 @@ Realtime GPU shader editor
 {{< /columns2 >}}
 
 {{< columns2 >}}
-[Nimp (Github)](https://github.com/dan335/nimp)
+[Nimp (GitHub)](https://github.com/dan335/nimp)
 <--->
 "Node-Based Image Manipulation Program"
 <--->
@@ -762,7 +782,7 @@ Realtime GPU shader editor
 {{< columns2 >}}
 [vvvv](https://vvvv.org) - Heads up VVVV requires a licence for comercial use that is rather expensive
 <--->
-"vvvv is a hybrid visual/textual live-programming environment for easy prototyping and development. It is designed to facilitate the handling of large media environments with physical interfaces, real-time motion graphics, audio and video that can interact with many users simultaneously."
+{{< vale >}}"vvvv is a hybrid visual/textual live-programming environment for easy prototyping and development. It is designed to facilitate the handling of large media environments with physical interfaces, real-time motion graphics, audio and video that can interact with many users simultaneously."{{< /vale >}}
 <--->
 ![vvvv](https://vvvv.org/sites/default/files/imagecache/large/images/vvvv_Propaganda_NEU_00_1.png)
 {{< /columns2 >}}
@@ -785,7 +805,7 @@ Realtime GPU shader editor
 {{< /columns2 >}}
 
 {{< columns2 >}}
-[Cyril (Github)](https://github.com/cyrilcode/cyril) [(Main site)](http://cyrilcode.com)
+[Cyril (GitHub)](https://github.com/cyrilcode/cyril) [(Main site)](http://cyrilcode.com)
 <--->
 The Cyril programming language is designed for fast prototyping of visualisations and live coding visuals.
 <--->
@@ -957,7 +977,7 @@ is all that's needed to generate this shape:
 {{< columns2 >}}
 [ShaderGif](https://github.com/antoineMoPa/shadergif)       
 <--->
-You can make gifs with shaders (glsl) and Javascript (either with raw canvas or with the coder-friendly p5.js library).
+You can make gifs with shaders (glsl) and JavaScript (either with raw canvas or with the coder-friendly p5.js library).
 <--->
 ![](https://github.com/antoineMoPa/shadergif/raw/master/public/screenshot.png?v=1)
 {{< /columns2 >}}
@@ -1083,7 +1103,7 @@ Dain-App is a free app that let you take any form of media like movies, stop-mot
 {{< /columns2 >}}
 
 {{< columns2 >}}
-[Neat auto lighting/shading software (Github pages site)](htt://lllyasviel.github.io/PaintingLight/)
+[Neat auto lighting/shading software (GitHub pages site)](htt://lllyasviel.github.io/PaintingLight/)
 <--->
 "[…]. Based on this observation, we design an algorithm to both estimate the density of strokes in a digital painting using color geometry, and then generate novel lighting effects by mimicking artists' coarse-to-fine workflow."
 <--->

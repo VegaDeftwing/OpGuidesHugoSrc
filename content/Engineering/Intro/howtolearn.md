@@ -52,5 +52,5 @@ If you're looking for some more advice, see this page, {{< button relref="Other/
 
 ![](https://imgs.xkcd.com/comics/average_familiarity.png)
 
-{{< attribution >}}[XKCD №2501](https://xkcd.com/2501/){{< /attribution >}}
+{{< attribution >}}[xkcd №2501](https://xkcd.com/2501/){{< /attribution >}}
 

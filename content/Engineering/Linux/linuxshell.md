@@ -254,7 +254,7 @@ Of note, while the majority of these commands should be available on nearly any 
 
 - **ps** - process management: listing processing, finding the parent of a particular process, etc.
 
-  - Alternative recommendation: [procs (Github)](https://github.com/dalance/procs)
+  - Alternative recommendation: [procs (GitHub)](https://github.com/dalance/procs)
 
 - **free** - display information about system RAM usage
 
