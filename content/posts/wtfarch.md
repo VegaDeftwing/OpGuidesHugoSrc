@@ -7,6 +7,14 @@ tags: technical
 draft: false
 ---
 
+I removed this post due to it being a downer. If you view the page source, you can un-comment it, but I have decided the hate from strangers doesn't matter.
+
+![chatswithvoid](/other/chatswithvoid.webp)
+
+[Comic by Chats With The Void (@skullbird) on Twitter](https://twitter.com/skullbird/status/1215695749662429184/photo/1)
+
+<!--
+
 ## The Background
 
 I'm going to jump straight to the point, after my last post, somebody saw the Arch install guide on OpGuides and decided they didn't like it, and so opened a [PR deleting the file](https://github.com/VegaDeftwing/OpGuidesHugoSrc/pull/24):
@@ -94,3 +102,5 @@ Of course, I'd rather the official guide be written well enough that I don't nee
 Thank you for reading. I know Head-on-a-Stick was a royal ass here, but I still want everyone to take the high road. Please do not harass, abuse, dox, or otherwise be mean to him.
 
 {{< /speech >}}
+
+-->

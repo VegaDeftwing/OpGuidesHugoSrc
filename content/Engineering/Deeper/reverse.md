@@ -80,6 +80,8 @@ If all else fails, there's always the ever-unfriendly hex-editor at your disposa
 
 There's also [fq](https://github.com/wader/fq) which is a super nice tool for working with binary formats. Or maybe [Poke](http://www.jemarch.net/poke).
 
+If you happen to need to diff two binary files, [biodiff](https://github.com/8051Enthusiast/biodiff) may help. It will try to align the two if a section is missing or added.
+
 {{< /columns >}}
 
 #### Networking:
