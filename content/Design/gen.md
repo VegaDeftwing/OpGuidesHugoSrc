@@ -36,7 +36,7 @@ This page is almost entirely devoid of actual educational content. Instead, I've
 
 {{< tip >}}
 
-You may notice this page lacks AI generative art tools such as DALL·E 2, Midjourney, & Stable Diffusion. This isn't because they're not interesting, it's because the space is {{< vale >}}[rapidly evolving](https://the-decoder.com/nvidias-ediffi-is-an-impressive-alternative-to-dall-e-or-stable-diffusion/){{< /vale >}} and I don't want to maintain constantly changing lists!</br></br>If you're totally new to AI Art, see {{< vale >}}[Stable Diffusion is a really big deal](https://simonwillison.net/2022/Aug/29/stable-diffusion/){{< /vale >}} by [@simonw](https://twitter.com/simonw) but even that is getting old now as new features and extensions come out, like the ability to pose characters in the scene.
+You may notice this page lacks AI generative art tools such as DALL·E 2, Midjourney, & Stable Diffusion. This isn't because they're not interesting, it's because the space is {{< vale >}}[rapidly evolving](https://the-decoder.com/nvidias-ediffi-is-an-impressive-alternative-to-dall-e-or-stable-diffusion/){{< /vale >}} and I don't want to maintain constantly changing lists!</br></br>If you're totally new to AI Art, see [Stable Diffusion is a really big deal](https://simonwillison.net/2022/Aug/29/stable-diffusion/) by [@simonw](https://twitter.com/simonw) but even that is getting old now as new features and extensions come out, like the ability to pose characters in the scene.
 
 {{< /tip >}}
 
@@ -96,7 +96,7 @@ A tool for building custom maps, envisioned for use in tabletop roleplaying game
 
 <--->
 
-"Dungeon Map Doodler is a new, free to use drawing tool accessible from any web browser. Easily create maps for your favourite tabletop RPGs in minutes!"
+{{< vale >}}"Dungeon Map Doodler is a new, free to use drawing tool accessible from any web browser. Easily create maps for your favourite tabletop RPGs in minutes!"{{< /vale >}}
 
 <--->
 
@@ -152,7 +152,7 @@ make a map with tons of customization options including some about the culture a
 
 <--->
 
-Make a lil' solar system
+Make a {{< vale >}}lil'{{< /vale >}} solar system
 
 <--->
 
@@ -194,7 +194,7 @@ Make a lil' solar system
 
 <--->
 
-NOTE: This is only **free** for **non-commercial use**
+NOTE: This is **free** for **non-commercial use**
 
 <--->
 
@@ -236,7 +236,7 @@ This one is for Minecraft, but still potentially useful
 
 <--->
 
-Import real map data into blender, cool for topograhpic maps and such
+Import real map data into blender, cool for topographic maps and such
 
 <--->
 
@@ -250,7 +250,7 @@ Import real map data into blender, cool for topograhpic maps and such
 
 <--->
 
-"World Anvil is a set of worldbuilding tools that helps you create, organize and store your world setting. With wiki-like articles, interactive maps, historical timelines, an RPG Campaign Manager and a full novel-writing software, we have all the tools you’ll need to run your RPG Campaign or write your novel!"
+"World Anvil is a set of world-building tools that helps you create, organize and store your world setting. With wiki-like articles, interactive maps, historical timelines, an RPG Campaign Manager and a full novel-writing software, we have all the tools you’ll need to run your RPG Campaign or write your novel!"
 
 <--->
 
@@ -264,7 +264,7 @@ Import real map data into blender, cool for topograhpic maps and such
 
 <--->
 
-"LDtk is a modern and open-source 2D level editor, specifically designed for indie devs."
+{{< vale >}}"LDtk is a modern and open-source 2D level editor, specifically designed for indie devs."{{< /vale >}}
 
 <--->
 
@@ -351,7 +351,7 @@ Check out [these(1)](https://github.com/johnalexandergreene/Geom_Kisrhombille) [
 
 <--->
 
-Noise maker can make a ton of generative art pieces, as you can see at the right, this is a small sampling using a few of the included presets. Can be a pain to get to run as it needs Tensorflow
+Noise maker can make a ton of generative art pieces, as you can see at the right, this is a small sampling using some of the included presets. It can be a pain to get to run as it needs Tensorflow.
 
 <--->
 
@@ -417,7 +417,11 @@ Noisedeck is a generative art synth. Still in early development. Some features r
 
 <--->
 
+{{< vale >}}
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Five months ago, we had an idea for a simple app to make generative art accessible to everyone. It&#39;s rapidly matured into a remarkable app, and found its way into the workflow of a small (but growing!) base of talented creators.<br><br>Thank you! We&#39;re excited about what&#39;s next. ✨ <a href="https://t.co/7KpkFNjv99">pic.twitter.com/7KpkFNjv99</a></p>&mdash; noisedeck (@noisedeck) <a href="https://twitter.com/noisedeck/status/1378936586138759169?ref_src=twsrc%5Etfw">April 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+{{< /vale >}}
 
 [Archive.org link to the embedded tweet](https://web.archive.org/web/20210405050500/https://twitter.com/noisedeck/status/1378936586138759169)
 
@@ -461,7 +465,7 @@ Has a neat code editor too, for making more complex geometry
 
 <--->
 
-Convert your ascii diagram scribbles into happy little SVG
+Convert your ASCII diagram scribbles into happy little SVG
 
 <--->
 
@@ -681,7 +685,7 @@ live coding for p5.js - you'll probably want the VS Code Extension
 
 <--->
 
-JS library for visulaization & creative coding 
+JS library for visualization & creative coding 
 
 [demo](https://ptsjs.org/demo/edit/?name=circle.intersectCircle2D)
 
@@ -700,7 +704,7 @@ JS library for visulaization & creative coding
 {{< /best >}}
 
 <--->
-"Set of tools for livecoding networked visuals. Inspired by analog modular synthesizers, these tools are an exploration into using streaming over the web for routing video sources and outputs in realtime. Hydra uses multiple framebuffers to allow dynamically mixing, compositing, and collaborating between connected browser-visual-streams. Coordinate and color transforms can be applied to each output via chained functions."
+{{< vale >}}"Set of tools for livecoding networked visuals. Inspired by analog modular synthesizers, these tools are an exploration into using streaming over the web for routing video sources and outputs in realtime. Hydra uses multiple framebuffers to allow dynamically mixing, compositing, and collaborating between connected browser-visual-streams. Coordinate and color transforms can be applied to each output via chained functions."{{< /vale >}}
 <--->
 ![](/design/hydraexample.webp)
 {{< /columns2 >}}
@@ -780,7 +784,7 @@ Realtime GPU shader editor
 {{< /columns2 >}}
 
 {{< columns2 >}}
-[vvvv](https://vvvv.org) - Heads up VVVV requires a licence for comercial use that is rather expensive
+[vvvv](https://vvvv.org) - Heads up vvvv requires a licence for comercial use that is rather expensive
 <--->
 {{< vale >}}"vvvv is a hybrid visual/textual live-programming environment for easy prototyping and development. It is designed to facilitate the handling of large media environments with physical interfaces, real-time motion graphics, audio and video that can interact with many users simultaneously."{{< /vale >}}
 <--->
@@ -842,7 +846,7 @@ The Cyril programming language is designed for fast prototyping of visualisation
 <--->
 "This is a collection of processing.org classes that performs heavy lifting tasks while using a minimal amount of code writing"
 <--->
-This site is really weird? It seems to be emedding vimeo videos of static images, regardless, still worth checking out
+This site is weird? It seems to be embedding Vimeo videos of static images, regardless, still worth checking out
 {{< /columns2 >}}
 
 {{< columns2 >}}
@@ -906,7 +910,7 @@ openFrameworks is an open source C++ toolkit for creative coding.
 <--->
 "In short, OPENRNDR is a tool to create tools. It is an open source framework for creative coding, written in Kotlin for the Java VM that simplifies writing real-time interactive software"
 <--->
-pleanty of examples on the site
+plenty of examples on the site
 {{< /columns2 >}}
 
 {{< columns2 >}}
@@ -914,7 +918,7 @@ pleanty of examples on the site
 <--->
 "Cinder is a free and open source library for professional-quality creative coding in C++."
 <--->
-pleanty of examples on the site                              |
+plenty of examples on the site                              |
 {{< /columns2 >}}
 
 {{< columns2 >}}
@@ -922,7 +926,7 @@ pleanty of examples on the site                              |
 <--->
 "Context Free is a program that generates images from written instructions called a grammar. The program follows the instructions in a few seconds to create images that can contain millions of shapes."
 <--->
-![](https://glyphic.s3.amazonaws.com/cfa/gallery/uploads/81/0d/810d02128464264536b6e3b71bff7332//full_3498.jpg?5)<img alt="creative commons icon" src="https://i.creativecommons.org/l/by-nc-sa/3.0//88x31.png" style="image-rendering: pixelated;"> **Agneya** by [**thijs**](https://www.contextfreeart.org/gallery/search.php?by=thijs)
+![](https://glyphic.s3.amazonaws.com/cfa/gallery/uploads/81/0d/810d02128464264536b6e3b71bff7332//full_3498.jpg?5)<img alt="creative commons icon" src="https://i.creativecommons.org/l/by-nc-sa/3.0//88x31.png" style="image-rendering: pixelated;"> **Agneya** by {{< vale >}}[**thijs**](https://www.contextfreeart.org/gallery/search.php?by=thijs){{< /vale >}}
 {{< /columns2 >}}
 
 {{< columns2 >}}
@@ -977,7 +981,7 @@ is all that's needed to generate this shape:
 {{< columns2 >}}
 [ShaderGif](https://github.com/antoineMoPa/shadergif)       
 <--->
-You can make gifs with shaders (glsl) and JavaScript (either with raw canvas or with the coder-friendly p5.js library).
+You can make gifs with shaders (GLSL) and JavaScript (either with raw canvas or with the coder-friendly p5.js library).
 <--->
 ![](https://github.com/antoineMoPa/shadergif/raw/master/public/screenshot.png?v=1)
 {{< /columns2 >}}
@@ -1029,7 +1033,7 @@ a hybrid graphics editor / programming environment for creating interactive diag
 {{< columns2 >}}
 [Talso](https://github.com/rockbite/talos) 
 <--->
-Node based, open source VFX Editor with powerfull interface and a ready to use libGDX runtime.
+Node based, open source VFX Editor with powerful interface and a ready to use libGDX runtime.
 <--->
 ![](https://camo.githubusercontent.com/f5e36d15a2a35cfc792491fa23c103950f38e2af11a74bb78882ee60f9e4c8d1/68747470733a2f2f692e696d6775722e636f6d2f4b5970796e7a422e706e67)
 {{< /columns2 >}}
@@ -1169,7 +1173,7 @@ https://kroki.io
 
 <--->
 
-Ascii to SVG
+ASCII to SVG
 
 <--->
 
@@ -1327,7 +1331,7 @@ Graphviz editor
 
 <--->
 
-… It's a graphviz editor. It looks how you'd expect.
+… It's a Graphviz editor. It looks how you'd expect.
 
 {{< /columns2 >}}
 
@@ -1359,7 +1363,7 @@ There's a LOT more tools listed in the music chapters, but there's some more 'fo
 
 [Noise in Creative Coding (Varun Vachhar)](https://varun.ca/noise/)
 
-> As an aside, [Simplex Noise](https://en.wikipedia.org/wiki/Simplex_noise#Legal_status) is technically patented until Jan 8, 2022 (which is really fucking stupid) 
+> As an aside, [Simplex Noise](https://en.wikipedia.org/wiki/Simplex_noise#Legal_status) is technically patented until Jan 8, 2022 (which is fucking stupid) 
 
 [Making Perlin Planets (vinaybhaip.com)](https://vinaybhaip.com/blog/2021/01/26/perlin-planets)
 
@@ -1381,7 +1385,7 @@ Seriously, the three above pieces are some of my absolute favorite pieces. I thi
 
 {{< /speech >}}
 
-[Grant Custer's Feed](https://feed.grantcuster.com) + [Constraint.systems](https://constraint.systems) - I particularly like Grant's [Text Walk Scroller](https://observablehq.com/@grantcuster/text-walk-scroller) and [Moire](https://moire.constraint.systems)
+[Grant Custer's Feed](https://feed.grantcuster.com) + [Constraint.systems](https://constraint.systems) - Grant's [Text Walk Scroller](https://observablehq.com/@grantcuster/text-walk-scroller) and [Moire](https://moire.constraint.systems) are some of my favorites.
 
 [Shadertoy](https://www.shadertoy.com/browse)
 
@@ -1389,7 +1393,7 @@ Seriously, the three above pieces are some of my absolute favorite pieces. I thi
 
 {{< speech right >}}
 
-From Generated.space, I particularly like [Marching Squares 2](https://generated.space/sketch/marching-squares-2/), [Perspective Map Trace](https://generated.space/sketch/perspective-map-trace/), [Map Trace](https://generated.space/sketch/map-trace/), [Fractal Square 2](https://generated.space/sketch/fractal-square-2/), [Noisify](https://generated.space/sketch/noisify/), and [Interactive Pixel Sorter](https://generated.space/sketch/interactive-pixel-sort/) - The latter two can really be used for original art directly even.
+From Generated.space I like [Marching Squares 2](https://generated.space/sketch/marching-squares-2/), [Perspective Map Trace](https://generated.space/sketch/perspective-map-trace/), [Map Trace](https://generated.space/sketch/map-trace/), [Fractal Square 2](https://generated.space/sketch/fractal-square-2/), [Noisify](https://generated.space/sketch/noisify/), and [Interactive Pixel Sorter](https://generated.space/sketch/interactive-pixel-sort/) - The latter two can be used for original art directly even.
 
 {{< /speech >}}
 

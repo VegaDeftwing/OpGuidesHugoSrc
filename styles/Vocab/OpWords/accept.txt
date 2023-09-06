@@ -1,5 +1,6 @@
 [Cc]onlang
 [Dd]emux
+[Dd]onut
 [Ee]urorack
 [Mm]iddleware
 [Mm]ux
@@ -51,6 +52,7 @@ EEPROMs
 Elektron
 Ergodox
 Espanso
+Exclidraw
 fbx
 Figma
 Focusrite
@@ -59,6 +61,7 @@ FPAA
 FPAAs
 FPGA
 FPGAs
+framebuffer
 fretless
 furries
 Fuzzly
@@ -67,6 +70,7 @@ gif
 gifs
 GitHub
 GLSL
+Graphviz
 hacky
 Hazbin
 heckin'
@@ -79,6 +83,7 @@ Hugo
 Hulu
 ICs
 iirc
+iLok
 Inkscape
 Intel
 IPFS
@@ -137,6 +142,7 @@ PDF
 PDFs
 Phanteks
 Photoshop
+pixelsort
 Pixlr
 polyfill
 Powervault
@@ -145,6 +151,7 @@ Prok
 PSU
 PSUs
 quantizer
+rasterize
 Razer
 repo
 Roccat
@@ -153,6 +160,7 @@ Roli
 Saleae
 Schecter
 Sectograph
+SeExpr
 shortcode
 shortcodes
 shortcodes
@@ -201,6 +209,4 @@ Xaoc
 XBox
 xkcd
 Xournal
-iLok
-Exclidraw
 Zoia

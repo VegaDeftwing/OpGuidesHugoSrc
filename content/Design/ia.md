@@ -8,11 +8,13 @@ slug: "ia"
 
 {{< tip >}}
 
-Unfortunately, this page is nearly entirely Twitter embeds. If you have something in your browser blocking these from working, this page won't be all that useful. Sorry!
+This page is nearly entirely Twitter embeds. If you have something in your browser blocking these from working, this page won't be all that useful. Sorry!
 
 {{< /tip >}}
 
 {{< columns >}}
+
+{{< vale >}}
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Added a lot of minor improvements, like camera limits, subtle lighting, dust particles and more <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://twitter.com/hashtag/pixelart?src=hash&amp;ref_src=twsrc%5Etfw">#pixelart</a> <a href="https://twitter.com/hashtag/screenshotsaturday?src=hash&amp;ref_src=twsrc%5Etfw">#screenshotsaturday</a> <a href="https://t.co/KmSYW3iHml">pic.twitter.com/KmSYW3iHml</a></p>&mdash; Luis Moreno Jimenez (@more8bit) <a href="https://twitter.com/more8bit/status/904107654196469761?ref_src=twsrc%5Etfw">September 2, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -25,7 +27,7 @@ Unfortunately, this page is nearly entirely Twitter embeds. If you have somethin
 
 ---
 
-* [Some really cool pixel art gifs by Mark Ferrari](https://elosilla.tumblr.com/post/84414400172/pixel-art-by-mark-ferrari)
+* [Some cool pixel art gifs by Mark Ferrari](https://elosilla.tumblr.com/post/84414400172/pixel-art-by-mark-ferrari)
 * https://twitter.com/halphelt (NSFW)
 * https://twitter.com/Hushabye_Valley (NSFW-ish)
 * https://twitter.com/koidrake (Like kinda lood I guess?)
@@ -80,3 +82,5 @@ Unfortunately, this page is nearly entirely Twitter embeds. If you have somethin
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Work ↓ <a href="https://t.co/P6AwlNJGcU">https://t.co/P6AwlNJGcU</a><br>Using only the pixels from the rendered to text to render the image <a href="https://t.co/FYR6OIfouQ">pic.twitter.com/FYR6OIfouQ</a></p>&mdash; grant (@GrantCuster) <a href="https://twitter.com/GrantCuster/status/1280238732176535552?ref_src=twsrc%5Etfw">July 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 {{< /columns >}}
+
+{{< /vale >}}

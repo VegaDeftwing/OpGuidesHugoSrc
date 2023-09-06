@@ -82,7 +82,7 @@ text **bold text** more text
 
    {{< /vale >}}
 
-   {{< attribution >}}Code by [Saransh Sinha](https://codepen.io/saransh){{< /attribution >}}
+   {{< attribution >}}Code by {{< vale >}}[Saransh Sinha](https://codepen.io/saransh){{< /vale >}}{{< /attribution >}}
 
 3. How to write JavaScript - IT DEPENDS
 
@@ -100,7 +100,7 @@ text **bold text** more text
 
    {{< /vale >}}
 
-   {{< attribution >}}Code by [Ali Ammar](https://codepen.io/AliAmmarDev){{< /attribution >}}
+   {{< attribution >}}Code by {{< vale >}}[Ali Ammar](https://codepen.io/AliAmmarDev){{< /vale >}}{{< /attribution >}}
 
    But something like this is a lot harder 
 
@@ -115,7 +115,7 @@ text **bold text** more text
 
    {{< /vale >}}
 
-   {{< attribution >}}Code by [Yannick Brandt](https://codepen.io/Coderesting){{< /attribution >}}
+   {{< attribution >}}Code by {{< vale >}}[Yannick Brandt](https://codepen.io/Coderesting){{< /vale >}}{{< /attribution >}}
 
 4. How to setup a domain
 
