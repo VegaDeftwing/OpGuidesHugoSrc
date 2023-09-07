@@ -411,7 +411,7 @@ Use this tool to create unique, seamless, royalty-free patterns.</br>Choose a ba
 
 <--->
 
-Noisedeck is a generative art synth. Still in early development. Some features require a license.
+Noisedeck is a generative art synth. Still in {{< vale >}}early{{< /vale >}} development. Some features require a license.
 
 <iframe width="100%" height="200" src="https://www.youtube.com/embed/pKlowAvANMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -479,7 +479,7 @@ Convert your ASCII diagram scribbles into happy little SVG
 
 <--->
 
-Test different penrose tilings. If you edit the HTML you increase the slider limits.
+Test different {{< vale >}}penrose{{< /vale >}} tilings. If you edit the HTML you increase the slider limits.
 
 <--->
 
@@ -605,7 +605,7 @@ A GPU-Accelerated Fractal Flame Editor
 
 <--->
 
-Chaotica is **free for noncommercial use**, and can render up to 1.23 megapixel images (e.g. 1280x960 resolution) and up to 30 second 480p animations without a licence. A **Chaotica HD (45 USD)** licence for casual users who want to create high quality desktop wallpapers up to 4 megapixels (e.g. 2560x1600) and 720p animations up to 3 minutes long is available at a very low price point. The professional **Chaotica Studio (109 USD)** licence has no still image or animation limitations at all. *prices are from time of writing
+Chaotica is **free for noncommercial use**, and can render up to 1.23 megapixel images (e.g. 1280x960 resolution) and up to 30 second 480p animations without a licence. A **Chaotica HD (45 USD)** licence for casual users who want to create high quality desktop wallpapers up to 4 megapixels (e.g. 2560x1600) and 720p animations up to 3 minutes long is available at a low price point. The professional **Chaotica Studio (109 USD)** license has no still image or animation limitations at all. *prices are from time of writing
 
 <--->
 
@@ -712,7 +712,7 @@ JS library for visualization & creative coding
 {{< columns2 >}}
 [LiveCodeLab](https://livecodelab.net)
 <--->
-"Livecodelab is a special secret place where you can make fancy "on-the-fly" 3d visuals and play awesomely offbeat (literally) sounds. "On-the-fly" meaning: as you type. Type just three letters: "box", and boom! a box appears. No clicking play, no waiting, no nothing."
+{{< vale >}}"Livecodelab is a special secret place where you can make fancy "on-the-fly" 3d visuals and play awesomely offbeat (literally) sounds. "On-the-fly" meaning: as you type. Type just three letters: "box", and boom! a box appears. No clicking play, no waiting, no nothing."{{< /vale >}}
 <--->
 ![](https://livecodelab.net/images/screenshots/ScreenShot7.png)
 {{< /columns2 >}}
@@ -736,7 +736,8 @@ JS library for visualization & creative coding
 {{< columns2 >}}
 [Ronin (GitHub)](https://github.com/hundredrabbits/Ronin)
 <--->
-"Ronin is a procedural graphics tool designed to automate simple graphical tasks, like resizing, cropping, coloring, and generating algorithmic images. It interprets a minimal dialect of LISP, look at the examples to better understand how this all works."
+{{< vale >}}"Ronin is a procedural graphics tool designed to automate simple graphical tasks, like resizing, cropping, coloring, and generating algorithmic images. It interprets a minimal dialect of LISP, look at the examples to better understand how this all works."{{< /vale >}}
+
 <--->
 
 <iframe width="100%" height="150" src="https://www.youtube.com/embed/SgAWGh1s9zg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
@@ -745,7 +746,7 @@ JS library for visualization & creative coding
 {{< columns2 >}}
 [The Force (GitHub)](https://github.com/shawnlawson/The_Force)
 <--->
-… this one basically lacks all description. Best you'll get is the [api docs in the wiki](https://github.com/shawnlawson/The_Force/wiki/API)
+… this one basically lacks all description. Best you'll get is the [API docs in the wiki](https://github.com/shawnlawson/The_Force/wiki/API).
 <--->
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/184863637" width="100%" height="150" frameborder="0" allowfullscreen></iframe>
@@ -770,7 +771,7 @@ Realtime GPU shader editor
 {{< columns2 >}}
 [Cables.gl (beta)](https://cables.gl)
 <--->
-"Cables is a tool for creating beautiful interactive content. With an easy to navigate interface and real time visuals, it allows for rapid prototyping and fast adjustments." --- Because this seems to be so 'beta' and I don't see code or any indication on future pricing it's probably not the best option at the moment
+{{< vale >}}"Cables is a tool for creating beautiful interactive content. With an easy to navigate interface and real time visuals, it allows for rapid prototyping and fast adjustments." --- Because this seems to be so 'beta' and I don't see code or any indication of future pricing it's probably not the best option at the moment.{{< /vale >}}
 <--->
 ![](https://cables.gl/landing/ui.mp4.gif)
 {{< /columns2 >}}
@@ -784,7 +785,7 @@ Realtime GPU shader editor
 {{< /columns2 >}}
 
 {{< columns2 >}}
-[vvvv](https://vvvv.org) - Heads up vvvv requires a licence for comercial use that is rather expensive
+[vvvv](https://vvvv.org) - Heads up vvvv requires a license for commercial use that is rather expensive
 <--->
 {{< vale >}}"vvvv is a hybrid visual/textual live-programming environment for easy prototyping and development. It is designed to facilitate the handling of large media environments with physical interfaces, real-time motion graphics, audio and video that can interact with many users simultaneously."{{< /vale >}}
 <--->
@@ -811,7 +812,7 @@ Realtime GPU shader editor
 {{< columns2 >}}
 [Cyril (GitHub)](https://github.com/cyrilcode/cyril) [(Main site)](http://cyrilcode.com)
 <--->
-The Cyril programming language is designed for fast prototyping of visualisations and live coding visuals.
+{{< vale >}}"The Cyril programming language is designed for fast prototyping of visualisations and live coding visuals."{{< /vale >}}
 <--->
 ![](https://miro.medium.com/max/1400/1*4SaWjEs62NUN_Ti-FU_Iwg.png)
 {{< /columns2 >}}
@@ -860,7 +861,7 @@ This site is weird? It seems to be embedding Vimeo videos of static images, rega
 {{< columns2 >}}
 [three.js](https://threejs.org)                             
 <--->
-"Three.js is a lightweight cross-browser JavaScript library/API used to create and display animated 3D computer graphics on a Web browser. Three.js scripts may be used in conjunction with the HTML5 canvas element, SVG or WebGL."
+{{< vale >}}"Three.js is a lightweight cross-browser JavaScript library/API used to create and display animated 3D computer graphics on a Web browser. Three.js scripts may be used in conjunction with the HTML5 canvas element, SVG or WebGL."{{< /vale >}}
 <--->
 [Three.js examples from Free Frontend](https://freefrontend.com/three-js-examples/) and [on the Three.js site itself](https://threejs.org/examples/)
 {{< /columns2 >}}
@@ -884,7 +885,7 @@ Move your mouse over the image on the homepage
 {{< columns2 >}}
 [rough.js](https://roughjs.com)                             
 <--->
-"a small (<9kB gzipped) graphics library that lets you draw in a *sketchy*, *hand-drawn-like*, style."
+{{< vale >}}"A small (<9kB gzipped) graphics library that lets you draw in a *sketchy*, *hand-drawn-like*, style."{{< /vale >}}
 <--->
 ![roughjs example](https://roughjs.com/images/cap.png)
 {{< /columns2 >}}
@@ -900,15 +901,16 @@ Move your mouse over the image on the homepage
 {{< columns2 >}}
 [OpenFrameworks](https://openframeworks.cc)                 
 <--->
-openFrameworks is an open source C++ toolkit for creative coding.
+{{< vale >}}"openFrameworks is an open source C++ toolkit for creative coding."{{< /vale >}}
 <--->
+
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/74124094" width="100%" height="150" frameborder="0" allowfullscreen></iframe>
 {{< /columns2 >}}
 
 {{< columns2 >}}
-[openrndr](https://openrndr.org)                            
+[OPENRNDR](https://openrndr.org)                            
 <--->
-"In short, OPENRNDR is a tool to create tools. It is an open source framework for creative coding, written in Kotlin for the Java VM that simplifies writing real-time interactive software"
+{{< vale >}}"In short, OPENRNDR is a tool to create tools. It is an open source framework for creative coding, written in Kotlin for the Java VM that simplifies writing real-time interactive software"{{< /vale >}}
 <--->
 plenty of examples on the site
 {{< /columns2 >}}
@@ -924,9 +926,9 @@ plenty of examples on the site                              |
 {{< columns2 >}}
 [Context Free](https://www.contextfreeart.org)              
 <--->
-"Context Free is a program that generates images from written instructions called a grammar. The program follows the instructions in a few seconds to create images that can contain millions of shapes."
+{{< vale >}}"Context Free is a program that generates images from written instructions called a grammar. The program follows the instructions in a few seconds to create images that can contain millions of shapes."{{< /vale >}}
 <--->
-![](https://glyphic.s3.amazonaws.com/cfa/gallery/uploads/81/0d/810d02128464264536b6e3b71bff7332//full_3498.jpg?5)<img alt="creative commons icon" src="https://i.creativecommons.org/l/by-nc-sa/3.0//88x31.png" style="image-rendering: pixelated;"> **Agneya** by {{< vale >}}[**thijs**](https://www.contextfreeart.org/gallery/search.php?by=thijs){{< /vale >}}
+![](https://glyphic.s3.amazonaws.com/cfa/gallery/uploads/81/0d/810d02128464264536b6e3b71bff7332//full_3498.jpg?5)<img alt="creative commons icon" src="https://i.creativecommons.org/l/by-nc-sa/3.0//88x31.png" style="image-rendering: pixelated;"> {{< vale >}}**Agneya** by **thijs**](https://www.contextfreeart.org/gallery/search.php?by=thijs){{< /vale >}}
 {{< /columns2 >}}
 
 {{< columns2 >}}
@@ -942,13 +944,14 @@ a creative coding frame work for Rust, you may want to look at the work by [MacT
 <--->
 Another creative coding framework for Rust
 <--->
-![](https://gblobscdn.gitbook.com/assets%2F-Lw1VWDRh9_wPSAWr8kv%2F-M51LUdWgcmABW_iSJDI%2F-M51LaXRFO0JLuIVbJfo%2Fimage.png?alt=media&token=1e4f8e4b-da2e-4dc3-af67-61d1d0d15fe7)[curtain](https://paytonturnage.gitbook.io/valora/gallery) by turnage, 2020
+![](https://gblobscdn.gitbook.com/assets%2F-Lw1VWDRh9_wPSAWr8kv%2F-M51LUdWgcmABW_iSJDI%2F-M51LaXRFO0JLuIVbJfo%2Fimage.png?alt=media&token=1e4f8e4b-da2e-4dc3-af67-61d1d0d15fe7)[curtain](https://paytonturnage.gitbook.io/valora/gallery) by {{< vale >}}turnage, 2020{{< /vale >}}
 {{< /columns2 >}}
 
 {{< columns2 >}}
 [immense](https://github.com/turnage/immense)               
 <--->
-A Rust library for describing 3D meshes with simple composable rules. 
+A Rust library for describing 3D meshes with simple {{< vale >}}composable{{< /vale >}} rules. 
+
 ```rust
 rule![
     tf![
@@ -1065,7 +1068,7 @@ procedural modeling node-based system for Blender
 {{< columns2 >}}
 [Krita SeExpr](https://docs.krita.org/en/reference_manual/layers_and_masks/fill_layer_generators/seexpr.html?highlight=seexpr)
 <--->
-Fills the layer with a pattern specified through Disney Animation’s [**SeExpr** expression language](https://wdas.github.io/SeExpr). - note that this is for **FILL layers** in krita
+Fills the layer with a pattern specified through Disney Animation’s [**SeExpr** expression language](https://wdas.github.io/SeExpr). - note that this is for **FILL layers** in Krita
 <--->
 ![Kritas SeExpr](https://docs.krita.org/en/_images/SeExpr_editor.png)
 {{< /columns2 >}}
@@ -1083,7 +1086,7 @@ Fills the layer with a pattern specified through Disney Animation’s [**SeExpr*
 {{< columns2 >}}
 [Waifu-2x](http://waifu2x.udp.jp)                            
 <--->
-"Image Super-Resolution for Anime-style art using Deep Convolutional Neural Networks. And it supports photo." - Works well on most things, not just anime art. The link is for a site where you can try it out online, but if you need to run it a lot you should probably run it locally. If you do I recomend [this version](https://github.com/nihui/waifu2x-ncnn-vulkan) is it's compatible with basically any modern GPU. You may also want to check out [Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI).
+"Image Super-Resolution for Anime-style art using Deep Convolutional Neural Networks. And it supports photo." - Works well on most things, not just anime art. The link is for a site where you can try it out online, but if you need to run it a lot you should probably run it locally. If you do I recommend [this version](https://github.com/nihui/waifu2x-ncnn-vulkan) is it's compatible with basically any modern GPU. You may also want to check out [Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI).
 <--->
 ![](https://raw.githubusercontent.com/nagadomi/waifu2x/master/images/slide.png)
 {{< /columns2 >}}
@@ -1098,11 +1101,10 @@ Same vibe as Waifu-2x, but a different model. Tends to perform a tiny bit better
 
 <video width="100%" controls> <source src="https://user-images.githubusercontent.com/25067102/186332548-0d53f02f-d159-4804-8b0e-887d96651fdb.mp4" type="video/mp4">
 {{< /columns2 >}}
-
 {{< columns2 >}}
 [Drain-App](https://grisk.itch.io/dain-app)                  
 <--->
-Dain-App is a free app that let you take any form of media like movies, stop-motion, anime, cartoons, sprites, etc and interpolate new frames, generating a bigger frame-rate from the original file. **NOTE: drain-app only runs on systems with an NVDIA GPU**
+Dain-App is a free app that let you take any form of media like movies, stop-motion, anime, cartoons, sprites, etc and interpolate new frames, generating a bigger frame-rate from the original file. {{< vale >}}**NOTE: drain-app only runs on systems with an NVDIA GPU**{{< /vale >}}
 <--->
 {{< /columns2 >}}
 
@@ -1111,7 +1113,7 @@ Dain-App is a free app that let you take any form of media like movies, stop-mot
 <--->
 "[…]. Based on this observation, we design an algorithm to both estimate the density of strokes in a digital painting using color geometry, and then generate novel lighting effects by mimicking artists' coarse-to-fine workflow."
 <--->
-![](https://lllyasviel.github.io/PaintingLight/index_files/paintlight_title.jpg) artwork traced by ToS2P from an artwork by David Revoy under CC-BY license, www.peppercarrot.com
+![](https://lllyasviel.github.io/PaintingLight/index_files/paintlight_title.jpg) artwork traced by ToS2P from an artwork by {{< vale >}}David Revoy{{< /vale >}} under CC-BY license, www.peppercarrot.com
 {{< /columns2 >}}
 
 {{< columns2 >}}
@@ -1123,9 +1125,9 @@ convert 'normal' art into pixel art
 {{< /columns2 >}}
 
 {{< columns2 >}}
-[picbreeder](http://picbreeder.org)                          
+[Picbreeder](http://picbreeder.org)                          
 <--->
-"Picbreeder is a collaborative art application based on an idea called *evolutionary art*, which is a technique that allows pictures to be bred almost like animals. For example, you can evolve a butterfly into a bat by selecting parents that look like bats"
+{{< vale >}}"Picbreeder is a collaborative art application based on an idea called *evolutionary art*, which is a technique that allows pictures to be bred almost like animals. For example, you can evolve a butterfly into a bat by selecting parents that look like bats"{{< /vale >}}
 <--->
 {{< /columns2 >}}
 
@@ -1147,7 +1149,7 @@ See the <a href="/engineering/making/3dprint/">3D Printing & CNC</a> page from t
 
 ---
 
-[vpype](https://github.com/abey79/vpype) - aims to be the one-stop-shop, Swiss Army knife for producing plotter-ready vector graphics. Here are, for illustration, a few examples of what it can do:
+{{< vale >}}[vpype](https://github.com/abey79/vpype) - aims to be the one-stop-shop, Swiss Army knife for producing plotter-ready vector graphics. Here are, for illustration, a few examples of what it can do:{{< /vale >}}
 
 {{< /details >}}
 
@@ -1159,7 +1161,7 @@ https://kroki.io
 
 <--->
 
-"Kroki provides a unified API with support for BlockDiag (BlockDiag, SeqDiag, ActDiag, NwDiag, PacketDiag, RackDiag), BPMN, Bytefield, C4 (with PlantUML), Ditaa, Erd, Excalidraw, GraphViz, Mermaid, Nomnoml, Pikchr, PlantUML, SvgBob, UMLet, Vega, Vega-Lite, WaveDrom… and more to come! "
+{{< vale >}}"Kroki provides a unified API with support for BlockDiag (BlockDiag, SeqDiag, ActDiag, NwDiag, PacketDiag, RackDiag), BPMN, Bytefield, C4 (with PlantUML), Ditaa, Erd, Excalidraw, GraphViz, Mermaid, Nomnoml, Pikchr, PlantUML, SvgBob, UMLet, Vega, Vega-Lite, WaveDrom… and more to come!"{{< /vale >}}
 
 <--->
 
@@ -1211,7 +1213,7 @@ Sequence Charts
 
 {{< columns2 >}}
 
-[chartmage](http://chartmage.com/index.html)
+[Chart Mage](http://chartmage.com/index.html)
 
 <--->
 
@@ -1267,7 +1269,7 @@ State Machines
 
 {{< columns2 >}}
 
-[penrose](https://github.com/penrose/penrose)
+[Penrose](https://github.com/penrose/penrose)
 
 <--->
 
@@ -1281,7 +1283,7 @@ Set diagrams, see [building & running](https://github.com/penrose/penrose/wiki/B
 
 {{< columns2 >}}
 
-[nomnoml](https://www.nomnoml.com)
+[Nomnoml](https://www.nomnoml.com)
 
 <--->
 
@@ -1295,7 +1297,7 @@ Text to UML, actually good looking
 
 {{< columns2 >}}
 
-[dbdiagram.io](https://dbdiagram.io/d)
+[DBdiagram.io](https://dbdiagram.io/d)
 
 <--->
 
@@ -1309,7 +1311,7 @@ database diagrams, it works
 
 {{< columns2 >}}
 
-[wavedrom](https://wavedrom.com/editor.html)
+[Wavedrom](https://wavedrom.com/editor.html)
 
 <--->
 
@@ -1323,7 +1325,7 @@ Wave editor, for like showing bit patterns & such
 
 {{< columns2 >}}
 
-[edotor.net](https://edotor.net)
+[Edotor.net](https://edotor.net)
 
 <--->
 
@@ -1339,7 +1341,7 @@ Graphviz editor
 
 {{< katex >}}\LaTeX \text{?}{{< /katex >}}
 
-If you're looking at this list, there's a good chance you're either writing up technical documentation or working on an academic paper, and so using LaTeX. First, I feel your pain. Second,  [This DSPTricksManual](https://ctan.math.illinois.edu/graphics/pstricks/contrib/dsptricks/dspTricksManual.pdf) from Paolo Prandoni may help with some graphing, as may all of the [Tikz Examples](https://texample.net/tikz/examples/) on texample.net. There's decent [Circuit](https://texample.net/tikz/examples/tag/circuitikz/) and [Block Diagram](https://texample.net/tikz/examples/tag/circuitikz/) examples, though I do still think loading in a picture from an external tool is probably in your best interest due to the PITA that is doing this in plain LaTeX.
+If you're looking at this list, there's a good chance you're either writing up technical documentation or working on an academic paper, and so using LaTeX. First, I feel your pain. Second,  [This DSPTricksManual](https://ctan.math.illinois.edu/graphics/pstricks/contrib/dsptricks/dspTricksManual.pdf) from {{< vale >}}Paolo Prandoni{{< /vale >}} may help with some graphing, as may the [Tikz Examples](https://texample.net/tikz/examples/) on texample.net. There's decent [Circuit](https://texample.net/tikz/examples/tag/circuitikz/) and [Block Diagram](https://texample.net/tikz/examples/tag/circuitikz/) examples, though I do still think loading in a picture from an external tool is probably in your best interest due to the PITA that is doing this in plain LaTeX.
 
 {{< /details >}}
 
@@ -1357,7 +1359,7 @@ There's a LOT more tools listed in the music chapters, but there's some more 'fo
 
 {{< /tip >}}
 
-[rfxgen](https://raylibtech.itch.io/rfxgen)
+{{< vale >}}[rFXGen](https://raylibtech.itch.io/rfxgen){{< /vale >}}
 
 ## Resources to learn Creative Coding
 
@@ -1381,7 +1383,7 @@ There's a LOT more tools listed in the music chapters, but there's some more 'fo
 
 {{< speech >}}
 
-Seriously, the three above pieces are some of my absolute favorite pieces. I think about them a lot.
+The three above pieces are some of my absolute favorite pieces!
 
 {{< /speech >}}
 
@@ -1393,7 +1395,7 @@ Seriously, the three above pieces are some of my absolute favorite pieces. I thi
 
 {{< speech right >}}
 
-From Generated.space I like [Marching Squares 2](https://generated.space/sketch/marching-squares-2/), [Perspective Map Trace](https://generated.space/sketch/perspective-map-trace/), [Map Trace](https://generated.space/sketch/map-trace/), [Fractal Square 2](https://generated.space/sketch/fractal-square-2/), [Noisify](https://generated.space/sketch/noisify/), and [Interactive Pixel Sorter](https://generated.space/sketch/interactive-pixel-sort/) - The latter two can be used for original art directly even.
+From Generated.space I like [Marching Squares 2](https://generated.space/sketch/marching-squares-2/), [Perspective Map Trace](https://generated.space/sketch/perspective-map-trace/), [Map Trace](https://generated.space/sketch/map-trace/), [Fractal Square 2](https://generated.space/sketch/fractal-square-2/), [Noisify](https://generated.space/sketch/noisify/), and [Interactive Pixel Sorter](https://generated.space/sketch/interactive-pixel-sort/) - I could see using the latter two for original art directly.
 
 {{< /speech >}}
 
