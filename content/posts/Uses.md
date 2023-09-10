@@ -848,24 +848,29 @@ Speaking of high voltage burning,
 
 DO NOT DO HIGH VOLTAGE BURNING.
 
-I burnt these boards myself. I have done a fair amount of burning with high voltage, to the point you might call me reasonably experienced.
+Seriously. I cannot overstate how dangerous this is.
 
-I have an electrical engineering degree and that, still, isn't even the slightest bit of qualification to be doing this. It's exceptionally stupid to even try this. It can and will kill you. I have had the high voltage go through me twice now and while I don't believe I suffered any lasting injuries, it goes to show just how easy this is to screw up.
+I burnt these boards myself. I have an electrical engineering degree and that, still, isn't even the slightest bit of qualification to be doing this. Veterans with far more experience have been killed.
+
+It is so dangerous, [you cannot show off your work at professional woodworking events](https://www.woodturner.org/Woodturner/Woodturner/Resources/Safety-Materials/Safety-Fractal-Burning-Lichtenburg-Burning.aspx).
+
+The plans to build these are only available on the internet because none could retail while passing common electrical safety standards. If you are an aspiring EE or maker, that sentence should strike terror into your heart.
+
+It's exceptionally stupid to even try this. It can and will kill you.
 
 {{< details "But I really want to though....">}}
 
 </br>
 
-If you absolutely must:
+I'm not going to give you directions for this, sorry. But if you absolutely must, here are my tips:
 
-* Stand a good ways away when you flip the switch
-* Watch from that distance
+* Use good high voltage testing and safety equipment. If you don't know how to check that, or what ratings to look for when buying things, then don't
+* Make sure you're using high voltage rated components, especially wire
+* Fully understand the circuit diagram of the device you are using/building inside and out. That includes all of its failure modes and what can short or overload
+* Stand a good ways away when you flip the switch. Watch from that distance
 * Completely unplug it every time you go to move the contact points
-* Make sure you're using high voltage rated wire
 
-
-
-But seriously, don't. I don't know why I'm stupid enough to keep doing it, and I sure as hell question the sanity of anyone else I see doing it.
+But please, just don't even.
 
 {{< /details >}}
 
