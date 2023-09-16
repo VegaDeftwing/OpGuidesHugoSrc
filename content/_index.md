@@ -200,7 +200,7 @@ And an additional **thank you** from the bottom of my heart to **Loial Otter**, 
 
 # Copyright
 
-This guide links to and re-hosts a bunch of other content. If you don't want your content shown here please submit an issue on github or just poke me on Twitter. I have done my best to ask for permission where necessary when other resources are used.
+This guide links to and re-hosts a bunch of other content. If you don't want your content shown here please submit an issue on GitHub or just poke me on Twitter. I have done my best to ask for permission where necessary when other resources are used.
 
 As for the license, everything on OpGuides **except** 
 

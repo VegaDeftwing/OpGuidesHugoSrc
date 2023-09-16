@@ -278,7 +278,7 @@ Of note, while the majority of these commands should be available on nearly any 
 
   - Alternative recommendation: **lynx**, **w3m**, **brow.sh**, or **[xh](https://github.com/ducaale/xh)**
 
-    {{< tip >}} Heads up, you may ocassionly see installation instructions for things on github that ask you to use `curl www.example.com/script.sh | bash` - **DON'T**. It's [not safe](https://www.idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-side/). Instead, you can curl the script, check that it's something you want to run with `cat script.sh`, and then run it with `./script.sh`. {{< /tip >}}
+    {{< tip >}} Heads up, you may ocassionly see installation instructions for things on GitHub that ask you to use `curl www.example.com/script.sh | bash` - **DON'T**. It's [not safe](https://www.idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-side/). Instead, you can curl the script, check that it's something you want to run with `cat script.sh`, and then run it with `./script.sh`. {{< /tip >}}
     
   - [Parsing HTML with w3m and awk (Joe Ferner's Blog)](https://joeferner.github.io/2015/07/15/linux-command-line-html-and-awk/)
 

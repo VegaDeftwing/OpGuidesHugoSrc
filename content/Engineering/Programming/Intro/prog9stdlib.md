@@ -95,7 +95,7 @@ And, yunno, that's pretty much the only ones you'll use for at least a good whil
 
 Now, you're probably seeing that and thinking "Wow, compared to python that's not much!"
 
-Yep. Now, there **are** third party libraries - here's a "awesome" list on github of quite a few useful ones: https://github.com/oz123/awesome-c.
+Yep. Now, there **are** third party libraries - here's a "awesome" list on GitHub of quite a few useful ones: https://github.com/oz123/awesome-c.
 
 One thing worth noting, some libraries will say they're "header only". These libraries tend to be much easier to use. It's not always the case, but, it's often a win if you see it. We'll talk about headers soon, because if you're going to write anything remotely complicated in C, you have to use them.
 

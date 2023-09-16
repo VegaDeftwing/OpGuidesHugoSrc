@@ -378,7 +378,7 @@ Plus, you can totally cheat the graph. It's really a ＢＡＤ ＭＥＴＲＩ�
 
 https://github.com/dandavison/delta
 
-[TODO] Git on not-github, DIY hosting
+[TODO] Git on not-GitHub, DIY hosting
 
 https://dhwthompson.com/2019/my-favourite-git-commit
 

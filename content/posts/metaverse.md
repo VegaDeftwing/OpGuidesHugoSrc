@@ -415,7 +415,7 @@ A little housekeeping: if at some point someone tries to patent these ideas or u
 
 Btw, the glitchy-furby gif used here to represent the NFT/Cryptocurrency shill is made by me, and not a real NFT. If you'd like to use the gif in your own post that needs a profile picture to depict and a cryptocurrency shill, poke me and I'll almost certainly give you permission.
 
-Finally, if you liked this post, please consider donating by throwing me cash on venmo @vegadeftwing, [paypal](https://github.com/sponsors/VegaDeftwing), or sponsoring my work with GitHub Sponsors:
+Finally, if you liked this post, please consider donating by throwing me cash on Venmo @vegadeftwing, [paypal](https://github.com/sponsors/VegaDeftwing), or sponsoring my work with GitHub Sponsors:
 
 <iframe src="https://github.com/sponsors/VegaDeftwing/button" title="Sponsor VegaDeftwing" height="35" width="116" style="border: 0;"></iframe>
 

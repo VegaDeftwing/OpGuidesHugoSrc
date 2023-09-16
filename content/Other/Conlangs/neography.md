@@ -10,6 +10,8 @@ https://psychomotorischetherapie.info/website/wp-content/uploads/2015/10/LMA-Wor
 
 https://sozysozbot.github.io/akrantiain2/manuals/introduction/introduction_en.html
 
+TODO: Parts of speech, IPA - embed https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#/media/File:IPA_chart_2020.svg
+
 -->
 
 <link rel="stylesheet" href="/css_overrides/light.css">
@@ -38,11 +40,11 @@ Additionally, natural languages will:
 * Have non-conformities in spelling and pronunciation
 * Have a writing system that is capable of being written by humans
 
-Now, some of those can interfere. If we strive for absolute accuracy and no ambiguity, we increase verbosity. Requiring humans to write them may limit how well machines can read them. Of course there are many other factors at play to, but for the most part natural languages are the result of a slow, Darwinian process, not the result of a craft. But what if we do try to construct a language?
+Now, some of those can interfere. If we strive for absolute accuracy and no ambiguity, we increase verbosity. Not all writing systems that are easily written by humans may be easy to encode digitally. Culture may change, requiring language to adapt (Ex: Neo-pronouns). Of course there are many other factors at play to, but for the most part natural languages are the result of a slow, Darwinian process, not the result of a craft. But what if we do try to construct a language or script?
 
 What I want to explore on this page is what others have done, limitations of and hacks used in languages today, why someone might want to make their own language and/or script, and what we can learn from prior work. This includes everything from scripts and languages made for fantasy novels to programming languages, musical notation, and other fields that rely heavily on symbolic input methods.
 
-## Some Natural Language Context
+## Some Linguistics Context 
 
 At risk of turning this page into a linguistics lesson, I want to provide just a *tiny* bit of context and a mental nudge to recall that, yeah, language is freakin' weird.
 
@@ -51,7 +53,6 @@ Sure, some languages may order things differently (orange<sub>adj.</sub> cat<sub
 * What *sounds* are in the language?
 * Does the language convey information in pitch or tone? (Like asking a question in English)
   * Is this conveyed in the [writing system (vietnamesetypography.com)](https://vietnamesetypography.com/tone-marks/#:~:text=Vietnamese%20is%20a%20tonal%20language,-heavy%E2%80%9D%20(n%E1%BA%B7ng).)?
-
 * How many words for different colors are there?
 * How precisely is time conveyed grammatically? 
   * Past, Present, Future?
@@ -61,6 +62,22 @@ Sure, some languages may order things differently (orange<sub>adj.</sub> cat<sub
 * Is the language written left to right, top to bottom?
 
 Obviously, this is glossing over whole subjects and intricacies that linguists have spent lifetimes on and that I am absofuckinglutly (Hey, look at that, an *infix*) not qualified to talk about. My point is that there's a lot of ground to be covered and explored for conlangs and neoscripts - so, uh, what are those?
+
+{{< columns >}}
+
+Additionally, I want to stress (pun intended) how important the **I**nternational **P**honetic **A**lphabet is. For the uninitiated, the IPA is the weird symbols you've seen in dictionaries that tell you how to pronounce a word. For example, the word "knife" would be represented with `/nīf/`. This can be useful for everything from differentiating between accents and hetronyms (for example "tear", like from your eye, is `/tɪɚ/` while a "tear" like in fabric is `/tɛɚ/` (at least for most English speakers)). Like any skill, it takes practice to be able to read ... sounds? words? ... This is hard to talk about ... written in the IPA, but it's absolutely worth learning.
+
+If you want to get into conlanging, neoscripting, linguistics, or even just want to learn a new natural language, understanding the IPA will make your life easier.
+
+The fantastic YouTube channel languagejones has just started [a series about how to learn the IPA](https://www.youtube.com/watch?v=ZDG-S4x_R0I) at the time of writing.
+
+<--->
+
+ ![IPA_chart_2020](/fairuse/other/IPA_chart_2020.svg)
+
+{{< attribution >}}The official chart of the IPA from the [International Phonetic Association](https://www.internationalphoneticassociation.org/IPAcharts/IPA_chart_orig/IPA_charts_E.html), CC BY-SA 3.0 {{< /attribution >}}
+
+{{< /columns >}}
 
 ## Exploring Existing work
 
@@ -88,7 +105,7 @@ Some serve as a form of artistic expression.
 
 {{< /columns >}}
 
-Some are an attempt to make a writing system that [fits an existing language better](https://www.omniglot.com/conscripts/finnishscript.htm) than system used today. 
+Some are an attempt to make a writing system that [fits an existing language better](https://www.omniglot.com/conscripts/finnishscript.htm) than systems used today. 
 
 Some are made to allow for sharing or concealing messages in mediums that wouldn't normally be thought of as places thoughts could be recorded at all.
 
@@ -100,20 +117,49 @@ There are a few categories of conlangs:
 * "Engineered Languages" usually try to make a language that's all about making it as good as possible given some restrictions or intended use case. Arguably, IALs fall into this category.
 * "Artistic languages" are those made primarily for their aesthetics or making a world feel more fantastical. Usually these are used for TV, novels, comics, or other entertainment media.
 
-For the purposes of this page, I think engineered languages are the most interesting. I'll still talk about art langs
+You're probably familiar with more art langs than you realized, some of the more commonly recognized include:
 
-[TODO conlang critic]
+* Quenya (Elvish), Sindarin (Elvish), and Khuzdul (Dwarvish) were made by J. R. R. Tolkien and used in *The Lord of the Rings.*
 
-I think I need to talk about a few interesting conlangs and what makes them interesting. 
+  <div class="conlang">
+      <blockquote>             </blockquote>
+  </div>
 
-* Toki Pona - 
-* Esparanto -
-* Kēlen - https://www.terjemar.net/kelen/lajathin.php
-* Lojban - 
+* [Dothraki and Valyrian](https://dothraki.org) by David J. Peterson, made for *Game of Thrones*, expanded into a full language from the bits in George R. R. Martin's *A Song of Ice and Fire*.
 
-So, let's look at some scripts, what makes them interesting, and talk about what we can learn from them.
+* [Klingon](https://www.kli.org) by Marc Okrand, made for *Star Trek*
 
-To get started, I want to look at scripts that have particularly interesting applications - that is, scripts which exist because the typical writing systems don't work well where they're used.
+* [Naʼvi](https://learnnavi.org) by Paul Frommer, made for *Avatar*
+
+Of course, those only account for the the very highest tip of the iceberg.
+
+For the purposes of this page, I'll *mostly* talk about engineered languages as it's harder to talk about what makes a given art lang interesting without turning into an art snob.
+
+Let's look at a few languages quickly, just to see what exists:
+
+* {{< button relref="Other/conlangs/tokipona" color="other" >}} toki pona {{< /button >}} - The language with only ~130 words. It puts all of its points into minimalism and works much better for real conversations than you'd think.
+* [Esparanto](https://en.wikipedia.org/wiki/Esperanto) - The grand daddy of all International auxiliary languages, it now has [60,000 speakers](https://www.liberafolio.org/2017/02/13/nova-takso-60-000-parolas-esperanton/).
+* [Kēlen](https://www.terjemar.net/kelen/lajathin.php) - An attempt at a verb-less language. It also has a beautiful ceremonial alphabet which is more woven than it is written.
+* [Lojban](https://mw.lojban.org/index.php?title=Lojban&setlang=en-US) -  An attempt to make a language without syntactic ambiguity - that is, any sentence can only mean one thing. Fixing the *[Lesbian Vampire Killers](https://en.wikipedia.org/wiki/Lesbian_Vampire_Killers)* problem. Are they?
+  - Lesbians that kill vampires.
+  - Killers of lesbian vampires.
+  - Lesbian vampires that are killers.
+
+Of course, I can't reasonably explain how each of these languages works or why they're interesting in only a few sentences, so I encourage you to click on those links!
+
+Moving on, let's look at some scripts. To get started, I want to explain what kinds of writing systems exist then look at scripts that have particularly interesting applications - that is, scripts which exist because the typical writing systems don't work well where they're used.
+
+## Types of Writing Systems
+
+Imagine you've sat down to make a writing system for a spoken language, but you know nothing about other writing systems. There's a few approaches you might take. You might assume:
+
+* Each sound should have a symbol (A *Segmental* system)
+* Each Syllable should have a symbol (A *Syllabic* system)
+* Each word should have a symbol (A *Logographic* system)
+
+You could, of course, mix some of the above - many natural languages do. You also might decide to leave some things out all together. For example, an *Abjad* is a writing system where the alphabet omits vowels. Ths wrks bttr thn yu mght thnk, and some natural languages do this (Arabic, Hebrew, Syriac).
+
+If you want more in depth reading, see https://neography.info/writing-systems/.
 
 ### (Somewhat) Practical Neoscripts
 
@@ -153,15 +199,13 @@ As you can imagine, there's many more of these, but maybe Nailscript got you thi
 
 ## Limitations & Hacks
 
-So, language isn't perfect. Natural languages especially so, but almost all languages suffer from a variety of problems. For example:
+No language isn't perfect. Natural languages especially so, but almost all languages suffer from a variety of problems. For example:
 
 * Flexability - Can you say what you actually mean?
   * This can be a lack of vocabulary
 * Ambiguity - Can what you've said mean more than one thing?
   * This includes everything from the existence of sarcasm to homophones
 * Cultural differences - Will someone from a different culture still get the same meaning?
-
-So, lets pick on a language to look at why these can be a problem:
 
 ### Flexibility: Western Music Notation
 
@@ -242,7 +286,7 @@ https://jird.readthedocs.io/en/latest/index.html
 
 https://academo.org/demos/19-tet-keyboard/
 
-### Ambiguity: Emoji
+### Ambiguity: Emoji + Dialects
 
 {{< speech triode >}}
 
@@ -284,7 +328,7 @@ Which is different from
 
 > hey we need 2 talk...
 
-I mean, most people would find any of the above alarming, but 1. probably has you going "Ah shit." while 2. has you frantically trying to figure out why and hoping that it's not something you did, while 3. might have you concerned about their happiness.
+I think most people would find any of the above alarming, but 1. probably has you going "Ah shit." while 2. has you frantically trying to figure out why and hoping that it's not something you did, while 3. might have you concerned about their happiness.
 
 Related, usage of `\s` and other [tone markers could be better](https://www.youtube.com/watch?v=3bYXy1jT3m8). 
 
