@@ -4,13 +4,19 @@
 
 <!--
 
-TODO: Explain why are there multiple programming languages in the DSL bit
-
 https://psychomotorischetherapie.info/website/wp-content/uploads/2015/10/LMA-Workshop-Sheet-Laban.pdf - ask jan Usawi about this.
 
 https://sozysozbot.github.io/akrantiain2/manuals/introduction/introduction_en.html
 
-TODO: Parts of speech, IPA - embed https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#/media/File:IPA_chart_2020.svg
+TODO: Parts of speech
+
+TODO: Try that one research tool
+
+[TODO] historical notes Obelos (†) and Metobelos (‡), bring in standards for marking up text for correction, 
+
+tools of communication - keyboards, hand gestures, voice, graphs, braille, etc. What weird ones exist?
+
+Encodings
 
 -->
 
@@ -42,7 +48,7 @@ Additionally, natural languages will:
 
 Now, some of those can interfere. If we strive for absolute accuracy and no ambiguity, we increase verbosity. Not all writing systems that are easily written by humans may be easy to encode digitally. Culture may change, requiring language to adapt (Ex: Neo-pronouns). Of course there are many other factors at play to, but for the most part natural languages are the result of a slow, Darwinian process, not the result of a craft. But what if we do try to construct a language or script?
 
-What I want to explore on this page is what others have done, limitations of and hacks used in languages today, why someone might want to make their own language and/or script, and what we can learn from prior work. This includes everything from scripts and languages made for fantasy novels to programming languages, musical notation, and other fields that rely heavily on symbolic input methods.
+What I want to explore on this page is what others have done, limitations of and hacks used in languages today, why someone might want to **Con**struct their own **lang**uage - a conlang - and/or make a new - or I guess you might say *neo* - script, and what we can learn from prior work. This includes everything from scripts and languages made for fantasy novels to programming languages, musical notation, and other fields that rely heavily on symbolic input methods.
 
 ## Some Linguistics Context 
 
@@ -61,15 +67,15 @@ Sure, some languages may order things differently (orange<sub>adj.</sub> cat<sub
   * Does the language go full German or Icelandic, or are words short and rarely to never compounded?
 * Is the language written left to right, top to bottom?
 
-Obviously, this is glossing over whole subjects and intricacies that linguists have spent lifetimes on and that I am absofuckinglutly (Hey, look at that, an *infix*) not qualified to talk about. My point is that there's a lot of ground to be covered and explored for conlangs and neoscripts - so, uh, what are those?
+Obviously, this is glossing over whole subjects and intricacies that linguists have spent lifetimes on and that I am absofuckinglutly (Hey, look at that, an *infix*) not qualified to talk about. My point is that there's a lot of ground to be covered and explored for conlangs and neoscripts.
 
 {{< columns >}}
 
-Additionally, I want to stress (pun intended) how important the **I**nternational **P**honetic **A**lphabet is. For the uninitiated, the IPA is the weird symbols you've seen in dictionaries that tell you how to pronounce a word. For example, the word "knife" would be represented with `/nīf/`. This can be useful for everything from differentiating between accents and hetronyms (for example "tear", like from your eye, is `/tɪɚ/` while a "tear" like in fabric is `/tɛɚ/` (at least for most English speakers)). Like any skill, it takes practice to be able to read ... sounds? words? ... This is hard to talk about ... written in the IPA, but it's absolutely worth learning.
+Additionally, I want to stress (pun intended) how important the **I**nternational **P**honetic **A**lphabet is. For the uninitiated, the IPA is the weird symbols you've seen in dictionaries that tell you how to pronounce a word. For example, the word "knife" would be represented with `/nīf/`. This can be useful for everything from differentiating between accents and hetronyms (for example "tear", like from your eye, is `/tɪɚ/` while a "tear" like in fabric is `/tɛɚ/` (at least for most English speakers)). Like any skill, it takes practice to be able to read ... sounds? words? [Mouth positions?](https://pink-trombone-demos.glitch.me/pink-trombone) ... This is hard to talk about ... written in the IPA, but it's absolutely worth learning.
 
 If you want to get into conlanging, neoscripting, linguistics, or even just want to learn a new natural language, understanding the IPA will make your life easier.
 
-The fantastic YouTube channel languagejones has just started [a series about how to learn the IPA](https://www.youtube.com/watch?v=ZDG-S4x_R0I) at the time of writing.
+The fantastic YouTube channel languagejones has just started [a series about how to learn the IPA](https://www.youtube.com/watch?v=ZDG-S4x_R0I) at the time of writing, and if you're here I imagine you'd enjoy following along.
 
 <--->
 
@@ -81,7 +87,7 @@ The fantastic YouTube channel languagejones has just started [a series about how
 
 ## Exploring Existing work
 
-I already have a page on this website about {{< button relref="Other/conlangs/tokipona" color="other" >}} toki pona {{< /button >}} , one **con**structed **lan**guage or "conlang" that I particularly enjoy. Being in its community I've been introduced to many interesting ideas in the conlang and the adjacent **con**structed **scripts** (conscript) communities - also sometimes called "**neoscript**", I assume to avoid the existing usage of the term meaning to enlist in the armed services
+I already have a page on this website about {{< button relref="Other/conlangs/tokipona" color="other" >}} toki pona {{< /button >}} , one **con**structed **lang**uage or "conlang" that I particularly enjoy. Being in its community I've been introduced to many interesting ideas in the conlang and the adjacent **con**structed **scripts** (conscript) communities - also sometimes called "**neoscript**", I assume to avoid the existing usage of the term meaning to enlist in the armed services
 
 {{< columns >}}
 
@@ -199,7 +205,7 @@ As you can imagine, there's many more of these, but maybe Nailscript got you thi
 
 ## Limitations & Hacks
 
-No language isn't perfect. Natural languages especially so, but almost all languages suffer from a variety of problems. For example:
+No language is perfect. Natural languages especially so, but almost all languages suffer from a variety of problems. For example:
 
 * Flexability - Can you say what you actually mean?
   * This can be a lack of vocabulary
@@ -208,8 +214,6 @@ No language isn't perfect. Natural languages especially so, but almost all langu
 * Cultural differences - Will someone from a different culture still get the same meaning?
 
 ### Flexibility: Western Music Notation
-
-[TODO] {{< smalltext >}}[SMuFL](https://www.smufl.org/fonts/) is used to display this music on the web - it's basically just a really clever way of (ab)using fonts.{{< /smalltext >}}
 
 Sometimes people will say that "Musical notation is a universal language among musicians"
 
@@ -236,15 +240,12 @@ A|---------------------------------------------------------------|
 E|---------------------------------------------------------------|
 
 
-
 e|---------------------------------------------------------------| 
 B|----2--3--2--2-0-----------------------------------------------| 
 G|--4--------2-------------0--2------0---------------------------| 
 D|-------------------0---2------4--2---4--2-4--------------------| 
 A|-----------------2--------------------------5---7--------------| 
-E|---------------------------------------------------------------|
-
-</pre>
+E|---------------------------------------------------------------|</pre>
 
 {{< attribution >}}
 
@@ -256,35 +257,28 @@ Which can have various flavors of markings, including using `~` for vibrato, put
 
 But music today is often made in a piano roll,
 
-[TODO] picture
+<img src="/fairuse/other/Computer_music_piano_roll.png" alt="Piano Roll" width="50%">
 
 and has historically been made in trackers,
 
-[TODO] picture
+![tracker](/fairuse/other/tracker.png)
 
 In either case, the notes can carry a lot of added information - pitch bend (now sometimes per-note) and multiple data streams to represent the virtual turning of knobs. That interface is a writing system of sorts - you could even argue different input devices and instruments, as long as they're just giving a computer digital data, are really just different writing utensils.
 
-There have been some efforts to make new music notation systems [Hummingbird](https://www.hummingbirdnotation.com) and [Clairnote](https://clairnote.org) both make moderate improvements (depending on who you ask) to the existing common music notation system, but don't really attempt to totally reinvent the wheel. [Dodeka](https://www.dodekamusic.com) goes a bit further, but mostly feels like an advert for a piano that just flattens the keybed.
+There have been some efforts to make new music notation systems [Hummingbird](https://www.hummingbirdnotation.com) and [Clairnote](https://clairnote.org) both make moderate improvements (depending on who you ask) to the existing common music notation system, but don't really attempt to totally reinvent the wheel. [Dodeka](https://www.dodekamusic.com) goes a bit further, but mostly feels like an advert for a piano that just flattens the keybed. Regardless, I think there is value in at least trying to make a system easier to read and write even if it doesn't improve the overall flexibility.
 
 To avoid loosing the thread here though, there's still a problem here. The only *true* writing system for modern music production that caries the information about the tracks is now whatever interface the software provides.
 
-I should also point out there are other musical notation systems from cultures I am less familiar with. The [Musical Notation Wikipedia page](https://en.wikipedia.org/wiki/Musical_notation) shows some of these, but I'm not even sure how to go about research most of these in depth.
+I should also point out there are other musical notation systems from cultures I am less familiar with. The [Musical Notation Wikipedia page](https://en.wikipedia.org/wiki/Musical_notation) shows some of these, but I'm not even sure how to go about research most of these in depth. This also ties into how the term "music theory" isn't very good at describing modern music so much as [the harmonic style of 18th century European musicians (Adam Neely, YouTube)](https://www.youtube.com/watch?v=Kr3quGh7pJA).  
 
-https://ofb.net/~elaforge/karya/doc/overview.md.html
+It seems like the shared, universal language isn't all that shared or all that universal - let alone flexible enough to convey what we need.
 
-microtonal stuff
+I'm not sure what a new language for expression music would like nor do I know how software for writing it would maintain a reasonable degree of usability, but I did find some interesting existing tools that give it a good shot:
 
-Orca + that hex one
+* [Karya](https://ofb.net/~elaforge/karya/doc/overview.md.html) "One way to look at it is a 2D language for expressing music along with an editor for that language."
+* [Jird](https://jird.readthedocs.io/en/latest/index.html) "Jird is a little language for writing and hearing music in just intonation. It uses ratios to express frequencies, durations, and volumes."
 
-https://www.anaphoria.com/centaur.html
-
-https://en.wikipedia.org/wiki/Numbered_musical_notation
-
-https://github.com/skarukas/springs
-
-https://jird.readthedocs.io/en/latest/index.html 
-
-https://academo.org/demos/19-tet-keyboard/
+Somewhat related, [SMuFL](https://www.smufl.org/fonts/) is standard used to display musical notation - it's basically just a really clever way of (ab)using fonts and I think it's neat. 
 
 ### Ambiguity: Emoji + Dialects
 
@@ -310,10 +304,6 @@ We can more-or-less equate this with dialects or jargon. If you read the word "B
 
 ### Cultural Differences: Tone markers & txting styl 
 
-[TODO] couldn't a conlang integrate this into the punctuation better?
-
-[TODO] historical notes Obelos (†) and Metobelos (‡), bring in standards for marking up text for correction, 
-
 If I'm in the car with someone and they ask me to send a text for them, I get uncomfortable because I don't know *how* they text.
 
 Think about texting someone young that you've texted every day for years, they *probably* don't normally put full stops/periods at the end of sentences, so when they text
@@ -328,15 +318,41 @@ Which is different from
 
 > hey we need 2 talk...
 
-I think most people would find any of the above alarming, but 1. probably has you going "Ah shit." while 2. has you frantically trying to figure out why and hoping that it's not something you did, while 3. might have you concerned about their happiness.
+I think most people would find any of the above alarming, but 1. probably has you going "Ah shit." while 2. has you frantically trying to figure out why and hoping that it's not something you did, while 3. might have you concerned about their happiness. [Tom Scott](https://youtu.be/fS4X1JfX6_Q) has a good video on this.
 
-Related, usage of `\s` and other [tone markers could be better](https://www.youtube.com/watch?v=3bYXy1jT3m8). 
+Some languages do have honorifics and formality - such as tú vs usted in Spanish or how [Korean can even change verb conjugation](https://en.wikipedia.org/wiki/Korean_honorifics), 
 
-So, what if we just had some additions to the way we represent text? I'm not going to pretend to have any good ideas for what this would be, but 🤷‍♂️ it's a thought.
+{{< speech yesbutno  >}}
+
+I really hate languages that do this in this particular way. The common rule of this traditionalist respect your elders attitude directly conflicts with my strongly held beliefs that people earn respect independently of position of power or age. Hell, I'm likely to respect some one in a position of power **less** than one without it unless they've proven to me that they've earned that position rightfully. 
+
+{{< /speech >}}
+
+but a conlang could do something new and instead encode something like the speaker's view of the listener into the verb. For example, there could be a new punctuation mark, lets make these up real quick as a very low effort bodge onto English:
+
+* 𑙧 → The speaker is experiencing a high energy negative, emotion in relation to the primary action
+* ⁝ → The speaker is experiencing a low energy negative emotion in relation to the primary action
+* ᥄ → The speaker is experiencing a low energy positive emotion in relation to the primary action
+* ! → The speaker is experiencing a high energy positive emotion in relation to the primary action
+
+Now, let's make some new sentences:
+
+* I woke up late this morning𑙧
+  * The speaker is grumpy, presumably having missed something by over sleeping
+* I woke up late this morning⁝ 
+  * The speaker is bummed to have lost part of the day
+* I woke up late this morning᥄
+  * The speaker is thankful to have slept in
+* I woke up late this morning!
+  * The speaker has more energy than usual and has extra for the day some "bring it on" attitude.
+
+Could there be ambiguity in these? Of course. It's also likely people would either be lazy and not use them (defaulting to just a period) or would use other  "hacks" like we already do to imply sarcasm or tone, ranging from the less-than-ideal tone markers ([Which work absolutely perfectly](https://www.youtube.com/watch?v=3bYXy1jT3m8) /s) or just quoting out a word like in "You sure do have 'interesting' taste in romantic partners". These also don't cover every option or even fully fix the problem in the "Need to talk" example - to do that we'd probably need to double or triple the number of punctuation options to indicate if it's directed at the listener, a 3rd party, or strictly internal - at which point it probably makes more sense to make verb conjugations instead of attaching it the sentence as a whole…
+
+… have I mentioned that language is complicated?
 
 ### Cultural Differences Bonus Round: Gender
 
-He/Him She/Her Xe/Xyr Ze/Sir Fae/Faer They/Their ...
+He/Him She/Her Xe/Xem/Xyr Ze/Sir Fae/Faer They/Their ...
 
 Different people have a different level of acceptance of different pronouns... because something-something culture war? Regardless, conlangs may provide different pronouns, often either adding one for non-binary individuals or just using a unified, un-gendered pronoun. <a class="ptr">(1)</a>
 
@@ -344,21 +360,7 @@ If this sounds difficult, just remember, the correct way to refer to someone in 
 
 If you want a deep dive into pronouns, I recommend [this video from Language Jones (YouTube)](https://www.youtube.com/watch?v=Kh22m1QG6i4).
 
-# TODO
-
-{{< speech triode >}}
-
-What about fonts?
-
-{{< /speech >}}
-
-Note on fonts being this but baby steps, with some being pretty wild - espically with ligatures
-
-Music fonts... I forgot what these are called.
-
-tools of communication - keyboards, hand gestures, voice, graphs, braille, etc. What weird ones exist?
-
-Encodings
+If you're interested in some of the data relating to how these pronouns are used check out https://www.gendercensus.com/results/2022-worldwide/
 
 ## Why Someone Would Make Their Own Language (or script)
 
@@ -477,7 +479,32 @@ On top of this, some tools which effectively have their own language for interac
 
 ### Domain Specific ~*Languages*~
 
-In programming, there's this idea of domain specific languages. These are programming languages that don't really do everything - instead they do one thing really well. The most famous two are [regex (Wikipedia)](https://en.wikipedia.org/wiki/Regular_expression) and [SQL (Wikipedia)](https://en.wikipedia.org/wiki/SQL). I think you can apply that idea can apply in other niches too. If you think about *speech* vs *writing* vs *signing* vs *braille* and how each can have multiple co-existing (or competing) standards / systems, it's really not a stretch of the imagination.
+In programming, there's this idea of domain specific languages. These are programming languages that don't really do everything - instead they do one thing really well. 
+
+{{< details "Why are there different programming languages anyway?" >}}
+
+I realize that not everyone reading this may know a programming language so you be be a bit confused as to what makes a language "domain specific" or even what it would mean for a programming language to *not* be domain specific.
+
+For general-purpose programming languages - that is, languages which are meant to be able to be used to solve most any problem there's a whole host of reasons a programmer may pick one over the other, but more often than not the reason that dominates is *where* will the code be running. 
+
+For example, if you want to write code that runs on the web, you're more-or-less stuck using JavaScript because it's the only language that can modify elements on the page. If you're writing code to run on a small microprocessor like would be in a smart-lightbulb or in your mouse or keyboard, that will probably be written in C because it's likely the only one that has official support for generating instructions the processor understands.
+
+Assuming you still have more than one option after deciding *where* the code will run, you might be limited by other restrictions such as:
+
+* How fast does it need to run? 
+  * For example, you may have to use a harder-to-write but faster-when-running language like C, C++, Rust, or Go because you need to crunch a lot of data.
+* Do you need to use code written by others? 
+  * For example, AI stuff is mostly stuck in Python because other AI stuff is in Python
+
+All of this is to say there are different languages because there's trade off to be made. Some prioritize speed of execution, some prioritize being easy to write and read, some prioritize compatibility with many systems.
+
+What makes *domain specific* languages different is they're focused not on where they run or how fast they run (although they're usually quite fast) but instead on what data they process. There are DSLs for checking if text matches a given pattern, drawing diagrams, describing how hardware logic should be wired up, or - as mentioned above - [describing a musical compositions](https://jird.readthedocs.io/en/latest/index.html) so that it can be rendered to sheet music.
+
+Typically - but now always - DSLs are embedded into a general purpose programming language to do the heavy-lifting where doing it with the more general purpose language would be much more work.
+
+{{< /details >}}
+
+The most famous two are [regex (Wikipedia)](https://en.wikipedia.org/wiki/Regular_expression) for processing text and [SQL (Wikipedia)](https://en.wikipedia.org/wiki/SQL) for working with databases. I think you can apply that idea can apply in other niches too. If you think about *speech* vs *writing* vs *signing* vs *braille* and how each can have multiple co-existing (or competing) standards / systems, it's really not a stretch of the imagination.
 
 My friend jan Usawi recently made a fantastic language called {{< button relref="Other/conlangs/rhapsodaic" color="other" >}} Rhapsodaic {{< /button >}} which is detailed on this website, but as a TL;DR: Rhapsodaic, as a core design philosophy, values preserving emotional meaning over all else... and I mean all. It means the actual meaning <s>might</s> will be ambiguous, but you'll definitely know how the speaker is feeling and it can be said more accurately than in most any other language. It's also very pretty as a script.
 
@@ -497,23 +524,38 @@ But if we think about each of those, there are tools for working with them to ma
 * Musicians can use digital audio workstations or musical composition software which allows them to playback the music as they alter the composition.
 
 * Electrical engineers will use schematic entry software and simulation software such as [circuitjs](https://www.falstad.com/circuit/circuitjs.html)
-* Chemists have various tools for entry, like [chemdraw](chemdrawdirect.perkinelmer.cloud)
+* Chemists have various tools for entry, like [chemdraw](https://chemdrawdirect.perkinelmer.cloud/js/sample/index.html)
 
 Of course, there are many tools out there and I don't think it's unreasonable to consider each a different dialect, some more closely related than others.
 
 Bringing this back around, what if we made software packages for language entry? Something that does more than just grammar and spell check but rather helps us consider how to think about complex ideas. Definitely not like Grammarly, sorta like Chat-GPT, but really I'm thinking about more tools like [prosodic (GitHub)](https://github.com/quadrismegistus/prosodic)
+<div class="scifi">
+<pre>
+################################################
+## welcome to prosodic!                  v1.5 ##
+################################################
+>> [0.0s] prosodic:en$ When I was a young boy
+000001	when                	P:'wɛn                             	S:P	W:H
+000002	i                   	P:'aɪ                              	S:P	W:L
+000003	was                 	P:wɑz                              	S:U	W:L
+000004	a                   	P:eɪ                               	S:U	W:L
+000005	young               	P:'jʌŋ                             	S:P	W:H
+000006	boy                 	P:'bɔɪ                             	S:P	W:L
+>> [7.43s] prosodic:en$ /parse
+text                     parse                      meter
+When I was a young boy   when|I|was.a|YOUNG|boy     wswwsw
+</pre>
+</div>
 
-[TODO] screenshot
 
-More than that though, imagine if we we could have a sort of "craft an emotion" dialogue that can help people write Rhapsodic?
+Or [Catala](https://catala-lang.org) which is more-or-less used the other way around: to translate legal documents into an intermediate semi-human readable format for verification of the ideals behind the law that can then spit out code in typical for working with data as outlined by the laws. The obvious use case being for taxation.
+
+
+I think there's still a lot of room for advancement here. For example, imagine if we we could have a sort of "craft an emotion" dialogue that can help people write Rhapsodic?
 
 But, I do want to wrap back around to that programming idea briefly. There are some programming languages that are pretty radically different in the way we input and output information, so while they may not be "writing systems" in the traditional sense, I think they're worth a look in this list.
 
-
-
-Open SCAD
-
-Orca
+* Open SCAD is a tool for making 3D models (typically for later 3D printing) that uses code to define the shapes
 
 Geometry Nodes
 
@@ -543,6 +585,12 @@ Finally, there's some really, really bizzare ones I want to mention
 * https://www.omniglot.com/conscripts/betamaze.htm (also see https://www.omniglot.com/conscripts/patternscript.htm and https://www.omniglot.com/conscripts/spintype.php)
 * https://www.omniglot.com/conscripts/6color.php
 * https://www.omniglot.com/conscripts/eganes.htm (maybe move this one)
+
+I think it would be a disservice to my readers not to mention just how unhinged some of these can get. My favorite domain-specific and definitely cursed conlang has to be Mpiua Tiostouea:
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/J0rUtiy4m0Y" title="Mpiua Tiostouea, a Language for Time Travelers | Cursed Conlang Circus 2 Entry" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+
+ 
 
 ### Math
 
@@ -593,7 +641,9 @@ Would it be good to have a sort of water-mark font that is used to say "An AI wr
 
 Obviously, this would depend on people not intentionally putting it back into the "human use" fonts, which would absolutely happen anyway. There might be some cryptographic way this could be done, but that assumes nobody will just run the generators locally to avoid this and that nobody would want to only partially alter the output - so not a great call. Plus this does sound like a massive pain, doubly so for users with accessibility needs.
 
-What about putting tone indication or other elements into the UI or responses?
+I think a more interesting consideration is how we can use new language ideas to get more utility out of the models.
+
+One idea that comes to mind for me is putting tone indication or other elements into the UI, that way the model can convey at least some of the emotional and facial cues that are so important to face-to-face communication. 
 
 {{< speech ai >}}
 
@@ -603,9 +653,13 @@ AI systems could incorporate symbols or icons to indicate the tone of their resp
 
 I think applying this the other way could be interesting too. What if we had bots to tell us what the tone of a received message probably is? As an accessibility tool that could be useful. Going a little into black-mirror territory, this could even be used to intentionally filter things. If the text to be shown is interpreted as being overly persuasive and so likely to be advertising, it could be rendered in a different font so the user can be trained to know to take it with a gain (or heaping pile of) salt. This could get pretty nuts.
 
-[TODO] I don't like this section. I think thinking about how LLMs can acutally understand new langs or help invent them is more interesting. It's also possible LLMs could on-the-fly make a reasonable language that no human knows but which could be analyzed from context to try to learn on the fly. This could be useful for a video game, for example, so that it's a different language every play through.
+It's also worth considering how conlangs can be used to abuse large language models. For example, my friend {{< button relref="/interviews/CadeyRatio" color="interview" >}}Cadey Ratio{{< /button >}}  [went to DefCon31](https://xeiaso.net/blog/dc31) and figured out xe could get the model to repeat misinformation by talking to in toki pona or Esperanto.
 
-[TODO] Section from Cadey about using conlangs to abuse LLMs
+There could be some neat ideas that spring from using LLMs for creating new conlangs or understanding nearly-dead nat-langs. One idea that I really like is having an LLM make a reasonable language that no human knows but which could be analyzed from context to try to learn on the fly. This could be useful for a video game, for example, so that it's a different language every play through. I think this could a great way to make rougelikes more fun.
+
+While I don't want this to devolve into a why LLMs are cool/not-cool, I think it's notable that they are allowing people to do things they may otherwise lack the skill to do or do quickly - like what the [BlenderGPT](https://github.com/gd3kr/BlenderGPT) or [Spellburst](https://arxiv.org/pdf/2308.03921.pdf) can do. While these are interesting, I think there's a lot more to come, if people can open up to using it for more than a chat bot , search, summarization, and essay writing utility. That is, if people can come up with more actually *new* ideals for how to use them, and I think exploring using conlangs and neoscripts with LLMs might at least be a baby-step in that direction.
+
+Finally, ignoring the conlang-centric-ness of this page for a moment, [Maggle Appleton's LM Sketchbook](https://maggieappleton.com/lm-sketchbook) concepts are the first things I've seen where an LLM could really actually make even non-fiction writing significantly better and really acts like a tool instead of trying to replace the author outright.
 
 ### Completely new forms of expression
 
@@ -616,8 +670,6 @@ I've already mentioned Rhapsodic allowing for much more emotional expression tha
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/DHYL9hojUTQ" title="bequa la froth ~ armadillidiids" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ... something about 5D chess may fit here, since we can sort of think of chess as a language?
-
-### Radically enhanced expressiveness
 
 ### More powerful tools
 
@@ -631,10 +683,6 @@ There are a huge number of tools with their own in-built languages and a
 * Geometry nodes
 * KodeLife
 * SonicPi
-
-### Easier to understand standards
-
-* The music ones
 
 ### Inteopability
 
@@ -661,9 +709,29 @@ Simple, Fast, Expressive, Style points (does it look good)
 
 Before we wrap up, I want to say there's an *insane* number of scripts I was unable to link here that I thought were more than deserving of being featured. It's also notable that the only language I speak fluently is English, so my ability to even appreciate the scripts and conlangs more heavily rooted in other cultures is significantly more limited. This has lead me to not feature any of the beautiful scripts that are heavily inspired by existing, natural Arabic, Asian, or braille scripts. If you'd like to see more, I highly encourage you to dive into this yourself and take a stroll though the conscript world without my biases filtering it.
 
-### Thinking about communication as a complete system
+## Conclusions
 
-Language + Writing system + Font + Input methods + AI assistance + DSLs
+{{< columns >}}
+
+![conlangsneat](/memes/conlangsneat.webp)
+
+<--->
+
+I wrote this page both as an introduction to conlangs and as a "here's what is possible if we think about language holistically" thing, the former point is really summarized by this meme. They stand on their own merits as incredibly works of artistic expression and that is independently more than enough to motivate their study I think.
+
+Still, I want to put a bow on the more technical point I was trying to make:
+
+{{< /columns >}}
+
+When we think about language as any expression starting in the mind of one person and being passed to another and the influence of each choice along the way we can think about it a system instead of disparate parts. 
+
+Each language has a syntax that prescribes word order and sentence structure, a writing system (or multiple), a script (or multiple), and a way the script is written (be it by hand or into a computer).
+
+A language may be for conveying general purpose ideas (English, Spanish, what you think of when someone says "language") or it might be for a specific purpose - be it programming, music, etc.
+
+While languages themselves are tools, the tooling for using the language is just as important to its usefulness. 
+
+Our tools are not perfect and, especially given the rise of large language models and developments in user interfaces (such as the proliferation of node-based editors), may be seeing significant changes soon.
 
 ## Resources
 
