@@ -1,5 +1,3 @@
-
-
 # Neography & Conlangs:<br>Constructed Information Exchange
 
 <!--
@@ -665,7 +663,7 @@ Finally, ignoring the conlang-centric-ness of this page for a moment, [Maggle Ap
 
 Language and the symbols we use to communicate influence the way we think and how we approach problems. If we think of instruments as a writing utensil of sorts, the difference between a guitar and a piano are more than just their sound it's how we interact with them leading to some expressions being easier and harder.
 
-I've already mentioned Rhapsodic allowing for much more emotional expression than existing languages (albeit at the cost of other functions) but I also love how the musical sequencing programming language [ORCΛ](https://github.com/hundredrabbits/Orca) pushes boundaries of creative expression.
+I've already mentioned Rhapsodic allowing for much more emotional expression than existing languages (albeit at the cost of other functions) but I also love how the musical sequencing programming language [ORCΛ](https://github.com/hundredrabbits/Orca) pushes boundaries of creative expression in music. I'd love to see more tools like this applied to other interests and artistic endeavors.
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/DHYL9hojUTQ" title="bequa la froth ~ armadillidiids" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -673,18 +671,33 @@ I've already mentioned Rhapsodic allowing for much more emotional expression tha
 
 ### More powerful tools
 
-Already mentioned Orca
+If I can get you to buy the idea that programming languages are just domain specific languages in the context of broader human language, that would mean that we can consider weird not-what-you-normally-think-of-when-you-think-about-programming-languages-languages as languages too, at least if you squint a little.
 
-There are a huge number of tools with their own in-built languages and a 
+By this I mean things like Blender's Geometry Nodes or Pure Data,
 
-* Open SCAD
-* Regex
-* Teletype
-* Geometry nodes
-* KodeLife
-* SonicPi
+
+
+Additionally, there are countless tools that allow events to be scripted with Lua or another embedded programming language. What would it look like to apply concepts from natural languages (and maybe a little LLM magic) to these tools?
+
+In programming, one thing engineers have to deal with a lot is naming functions and data. We sort of end up creating our own little languages for each project, where a `foo_bar_comparator` takes in a `foo` and `bar`. What a `foo` and `bar` even are, as a concept, is defined by the programmer and eventually we end up abstracting these ideas so much that new things just ... exist. We accept the names as new terms. 
+
+Take things like "the internet" or "a CD" - even if we know what CD stands for (Compact Disc) we don't think of it as that anymore. It's just... a CD. The internet isn't some vast network of inter connected computers it's just the internet. We've abstracted these ideas to the point we just accept them as broad concepts, becoming new words in their own right.
+
+If we lets users do this as they work calling groups of complex ideas a new term and letting them work with these components, we can expand upon this natural process of levels of abstraction. 
+
+[TODO nested PD, Geometry Nodes screen shots]
+
+Taking this further, each user can optimize their typing
+
+[TODO text expansion]
+
+By allowing users to really dig in and extend the functionality of programs by defining new concepts that make sense in their workflow and then letting them reuse those ideas later tools that are made to be general purpose can evolve with the user's needs and experiance to become more powerful for exactly how they use it - this is what "power users" of most any program always want.
 
 ### Inteopability
+
+text mode of terminals being ""univerval""
+
+make sharing of user defined terms easier
 
 The ORCA + Ronin + etc system (+ their themes)
 
@@ -701,6 +714,8 @@ Making the situation better for all users, including those of other natural lang
 ## Why are we **not** pushing boundaries?
 
 * Our input methods have become relatively static (keyboards and the keys on them)
+  * It's already annoying to type most special characters
+
 * Our systems are designed for rendering plain text and have a hard time with implied style (AST aware syntax highlighting, language servers)
 * Legacy compatability - show Arcan/Lash/Cat9
 * Some of these are just hard to learn and retain
