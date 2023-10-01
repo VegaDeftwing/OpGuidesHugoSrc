@@ -151,7 +151,7 @@ Finally, for the command line lovers, I *think* that just by having the newer, l
 
 ### 1.4 Installing User Stuff
 
-You probably have your own prefneces in Software. Statistically, you're *probably* a Chrome user. That's cool, you do you. (I'm a [Vivaldi](https://vivaldi.com) guy) Regadless, I reccomend installing all of the software that you can via `winget`, as it makes it much less likely that you'll download shit, and it's just generally easier and faster.
+You probably have your own prefneces in Software. Statistically, you're *probably* a Chrome user. That's cool, you do you. (I'm a [Vivaldi](https://vivaldi.com) guy) Regadless, I recommend installing all of the software that you can via `winget`, as it makes it much less likely that you'll download shit, and it's just generally easier and faster.
 
 [TODO]
 

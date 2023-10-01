@@ -79,7 +79,7 @@ You can usually make something cool by just entering a bunch of trig and making 
 
 {{< speech big >}}
 
-At risk of going off on a pretty big tangent, I reccomend checking out some tixyland-like sites
+At risk of going off on a pretty big tangent, I recommend checking out some tixyland-like sites
 
 https://hexy.now.sh is inspired by tixy but has some extra interesting features, if you're having fun with tixy.land it's worth checking out.
 

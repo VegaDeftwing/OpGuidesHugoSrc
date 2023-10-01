@@ -438,7 +438,7 @@ Prevents any node from becoming too specialized sorta distributes the work load
 
 {{< tip >}} 
 
-I've tried to divide these into academic and artistic, but there is a ton of overlap. I reccomend looking at everything here though!
+I've tried to divide these into academic and artistic, but there is a ton of overlap. I recommend looking at everything here though!
 
 {{< /tip >}}
 

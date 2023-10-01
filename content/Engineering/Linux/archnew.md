@@ -117,7 +117,7 @@ A little self referential here, but good advice- the ArchWiki is really awesome 
 
 To install Linux, you'll have to use a lot of commands. For example running `ls` from the terminal will list your files, while `cd` can be used to change what folder you're working with. But these commands have other, more complex uses which you can read about from the terminal itself by running `man ls` or `man cd`. Generally, if you want a manual for any command, you can just put the word man before it.
 
-The latter two reccomendations are ways to get live help from real people. IRC is a really, really old chat platform that is still heavily used by tech-heads, but can be a bit difficult to get setup. The forums are what you expect, but I've noticed they're not all that welcoming of new users. There's not many good options though, so if you do need more help, there's really either the [Arch Linux Telegram Chat](https://t.me/archlinuxgroup) or you'll have to figure out how to use IRC.
+The latter two recommendations are ways to get live help from real people. IRC is a really, really old chat platform that is still heavily used by tech-heads, but can be a bit difficult to get setup. The forums are what you expect, but I've noticed they're not all that welcoming of new users. There's not many good options though, so if you do need more help, there's really either the [Arch Linux Telegram Chat](https://t.me/archlinuxgroup) or you'll have to figure out how to use IRC.
 
 {{< quote "[Install Guide](https://wiki.archlinux.org/title/installation_guide) - [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html)" >}}
 
@@ -154,7 +154,7 @@ This has the advantage of verifying the PGP signarute for us, which is what that
 
 So, to download this then you'll need a *Torrent client*.
 
-Torrenting is type of download that runs over distributed peer to peer connections, this means you're directly downloading the file from multiple people rather than from one large server. For projects like Arch this is important as they don't really have the cash to put up to host centralized servers. Popular programs for downloading torrents on Windows include uTorrent, qBittorrent, and Deluge. I personally use [Deluge](https://deluge-torrent.org) on Windows, so it's what I'll reccomend if you don't already use something else. If you're on a Mac, here's a link to [qBittorrent](https://www.qbittorrent.org/download.php).
+Torrenting is type of download that runs over distributed peer to peer connections, this means you're directly downloading the file from multiple people rather than from one large server. For projects like Arch this is important as they don't really have the cash to put up to host centralized servers. Popular programs for downloading torrents on Windows include uTorrent, qBittorrent, and Deluge. I personally use [Deluge](https://deluge-torrent.org) on Windows, so it's what I'll recommend if you don't already use something else. If you're on a Mac, here's a link to [qBittorrent](https://www.qbittorrent.org/download.php).
 
 Regardless, once you have the torrent client installed you *should* be able to back to that [download](https://archlinux.org/download/) page and click the magnet link - which *should* open up whatever torrent client you installed and prompt you to start the Download.
 
@@ -1311,7 +1311,7 @@ Choose and install a Linux-capable [boot loader](https://wiki.archlinux.org/titl
 
 This gets to be all kinds of fun, because this is where some computers just say "Nah, fuck you." And you'll have to either debug from hell to figure out why something isn't working or you'll have to try another option.
 
-If you're computer is UEFI (so, not ancient) [systemd-boot](https://wiki.archlinux.org/title/Systemd-boot) has historically work quite well for me, but because I want to be 100% sure if you're following this guide that your computer will actually work, I'm going to reccomend the ol' reliable: [Grub](https://wiki.archlinux.org/title/GRUB).
+If you're computer is UEFI (so, not ancient) [systemd-boot](https://wiki.archlinux.org/title/Systemd-boot) has historically work quite well for me, but because I want to be 100% sure if you're following this guide that your computer will actually work, I'm going to recommend the ol' reliable: [Grub](https://wiki.archlinux.org/title/GRUB).
 
 To do so, first actually install the packages `pacman -S grub efibootmgr os-prober` 
 

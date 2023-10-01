@@ -7,15 +7,15 @@
 
 {{< devegg >}}
 
-There are a million ways to make a delay that's weird. Most basic? Make a ring buffer and add the signals, probably with a dry/wet mix. Less basic? IDK, add in multilpe taps on the ring buffer? Use random samples in the buffer? Change the sample rate of the buffer? Reverse the buffer occassionally? Go nuts.
+There are a million ways to make a delay that's weird. Most basic? Make a ring buffer and add the signals, probably with a dry/wet mix. Less basic? IDK, add in multiple taps on the ring buffer? Use random samples in the buffer? Change the sample rate of the buffer? Reverse the buffer occasionally? Go nuts.
 
 {{< /devegg >}}
 
-Delay is basically echo. Take a sound in, and repeat it it it. Normally the main controls on a delay are 'Time', which controls how long of a delay there is before each repeat, 'Feedback' which controls how much the level is reduced each time the delay repeats (and in turn, how many audible repetitions there are), and 'Dry/Wet' which controls how the signal is blended, entirely dry will have no delay, entirely wet may even miss the initial sound adding a weird latency before you hear what you're playing. Some delays have additional controls, obviously I can't cover every possible delay, but I'll try to cover most:
+Delay is basically echo. Take a sound in, and repeat {{< vale >}}it it it{{< /vale >}}. Normally the main controls on a delay are 'Time', which controls how long of a delay there is before each repeat, 'Feedback' which controls how much the level is reduced each time the delay repeats (and in turn, how many audible repetitions there are), and 'Dry/Wet' which controls how the signal is blended, entirely dry will have no delay, entirely wet may even miss the initial sound adding a weird latency before you hear what you're playing. Some delays have additional controls, obviously I can't cover every possible delay, but I'll try to cover most:
 
 Some delays instead of letting you set a delay time or 'tap' a delay tempo in to actually synchronize to a clock signal input which lets the delayed repetitions always be in time with the rest of the song.
 
-Stereo delays many have additional controls as well, most commonly offering a different delay time for the left and right channels. Often a 'Ping Pong' mode will also be available where the left and right speaker alternate for the echo'd sound- 'ping' and 'ponging' out each side until the sound cuts out.
+Stereo delays many have additional controls as well, most commonly offering a different delay time for the left and right channels. Often a 'Ping Pong' mode will also be available where the left and right speaker alternate for the repeated sound- 'ping' and 'ponging' out each side until the sound cuts out.
 
 Some delays may also allow for unity or higher feedback, which will cause the delay to be infinite or, if above unity, infinitely grow in volume until it's just a distorted clipping mess. This can actually be a lot of fun to play with.
 
@@ -61,7 +61,7 @@ looking at a snippet of this audio, you can see just how short the delay is, wit
 
 ### Delay at 100%(+) feedback?
 
-Most delays will let you adjust the number of repeats but usually what you're doing is adjusting how much volume each repeat should go down by. If you set each repeat to not loose any volume at all, the delay will go on forever. (Which can be very bad if you're adding new stuff to the delay - this gets really loud, really fast!!) but it can be a really fun sound to explore. I reccomend giving this one a shot. Try some different delays and see what happens as you max out the "repeats" or "feedback" knob. 
+Most delays will let you adjust the number of repeats but usually what you're doing is adjusting how much volume each repeat should go down by. If you set each repeat to not loose any volume at all, the delay will go on forever. (Which can be very bad if you're adding new stuff to the delay - this gets really loud, really fast!!) but it can be a really fun sound to explore. I recommend giving this one a shot. Try some different delays and see what happens as you max out the "repeats" or "feedback" knob. 
 
 Some will ever let you go above 100% to make each repeat get *louder*. This can get really crazy, so be prepared to quickly go "oh shit!" and turn it back down!
 
@@ -152,7 +152,7 @@ Now, I want you to imagine we have only one little stem and dot. That's a super 
 
 When you hear this click in your room, it will cause the room to echo a bit, and even if your brain mostly filters it out - you'll hear the various things the room (and the speakers, for that matter) are doing to that "click".
 
-Now, if we make the assumption that the response to that click - what is really called an **impulse respnose** is:
+Now, if we make the assumption that the response to that click - what is really called an **impulse response** is:
 
 * **Linear** - There's a nice input-to-output relationship with regards to amplitude - A quieter input would just make the same reverb, but quiter
 * **Time-Invariant** - The response to that impulse will be the same (or at least close enough, for reverb anyway) whever me make it
@@ -167,23 +167,23 @@ But, note I bolded **"speakers"** that's because the amp itself absolutely is no
 
 Okay, so, we have our impulse response. Usually, these will look (and sound) a bit like a drum hit if played normally, but they're not intended to be played normally, the intent is to use them with **convolution**
 
-The idea is you can take this new signal you've generated and scale it by the amplitude of each of those little points in your original recording and then keep adding these together. Basically, take your recorded impluse response and layer it on top of each point, scaled by the amplitude of that point.
+The idea is you can take this new signal you've generated and scale it by the amplitude of each of those little points in your original recording and then keep adding these together. Basically, take your recorded impulse response and layer it on top of each point, scaled by the amplitude of that point.
 
-If you recorded the impluse response of a room, it should sound like that room, and by adjusting how much you scale it you can choose how much of the effect of the room to apply. Of course, it doesn't have to be the room you're in. Somebody could send you the response for a cathedral, or a cave, or a parking garage. They could also send you the response of a guitar amp's speaker. Or, someone could hand-craft a fake response to make a fancy delay. So long as the effect doesn't have something in it that changes in time (like a phaser, modulated delay, vibrato, etc.) it can be recreated this way.
+If you recorded the impulse response of a room, it should sound like that room, and by adjusting how much you scale it you can choose how much of the effect of the room to apply. Of course, it doesn't have to be the room you're in. Somebody could send you the response for a cathedral, or a cave, or a parking garage. They could also send you the response of a guitar amp's speaker. Or, someone could hand-craft a fake response to make a fancy delay. So long as the effect doesn't have something in it that changes in time (like a phaser, modulated delay, vibrato, etc.) it can be recreated this way.
 
 Of course, this also opens up a really weird option: you can use any recording (as long as it's reasonably short) for this. You can use the sound of a drum hit as a reverb! It actually works surprisingly well sometimes!
 
 But - I did just say "(as long as it's reasonably short)" - what's up with that?
 
-Well, this if you're making music with a sample rate of 44kHz (pretty typical) and the impulse response has 300 samples in it (still quite short) your're asking your computer to do 13200000 multiplations a second. Now, that's still not *awful*, but clearly, the longer the response, the worse it gets. If you have a 1 second response, that will be 44,000 * 44,000 = 1936000000 multiplations a second - again, on a modern computer its doable, just know it'll eat your CPU.
+Well, this if you're making music with a sample rate of 44kHz (pretty typical) and the impulse response has 300 samples in it (still quite short) you're asking your computer to do 13200000 multiplications a second. Now, that's still not *awful*, but clearly, the longer the response, the worse it gets. If you have a 1 second response, that will be 44,000 * 44,000 = 1936000000 multiplications a second - again, on a modern computer its doable, just know it'll eat your CPU.
 
 This is one of the reasons why even if we technically *could* do a lot of effects via convolution, we often don't.
 
-But, even this isn't totally true - if the response is long enough there's a fancier way to do the convolution by using something called the FFT and transforming the both the impulse response and input signal into the frequency domain and then simply adding them together - don't worry if you no idea what that means - The point is, we can replace all of that multiplations with a single addition! Sort of...
+But, even this isn't totally true - if the response is long enough there's a fancier way to do the convolution by using something called the FFT and transforming the both the impulse response and input signal into the frequency domain and then simply adding them together - don't worry if you no idea what that means - The point is, we can replace all of that multiplications with a single addition! Sort of...
 
-In reality, this is how it will be done for any remotely large impluse responses, but it's not all sunshine and rainbows, that FFT bit actually pretty expensive for a computer to do too, espically at high quality. Plus, to keep latency down, the FFT has to be done pretty rapidly, so, even with the fancy-math to avoid it being out right infesibale amount of computations, convolutional reverbs still tend to be on the computationally expensive side - if you're working on a laptop and want to run a bunch of virtual synths and other effects to, you may not have the heavy lifting required to run one.
+In reality, this is how it will be done for any remotely large impulse responses, but it's not all sunshine and rainbows, that FFT bit actually pretty expensive for a computer to do too, espically at high quality. Plus, to keep latency down, the FFT has to be done pretty rapidly, so, even with the fancy-math to avoid it being out right infesibale amount of computations, convolutional reverbs still tend to be on the computationally expensive side - if you're working on a laptop and want to run a bunch of virtual synths and other effects to, you may not have the heavy lifting required to run one.
 
-Still, if you can get away with them, they do often sound extremely good. Usually you won't get much control over them though as the reverb (or guitar amp speaker, or delay, or whatever) is basically baked into that recorded impulse respnose.
+Still, if you can get away with them, they do often sound extremely good. Usually you won't get much control over them though as the reverb (or guitar amp speaker, or delay, or whatever) is basically baked into that recorded impulse response.
 
 ### Shimmer
 
@@ -195,7 +195,7 @@ There's a fancy way to use this where you shove the octave up effect into the fe
 
 ### Internals
 
-If you're feeling particularly interested in this and want to learn more, I strongly reccomend checking out this video which explains a bit about how algorithmic (basically any digital but not convolutional) reverbs are made:
+If you're feeling particularly interested in this and want to learn more, I strongly recommend checking out this video which explains a bit about how algorithmic (basically any digital but not convolutional) reverbs are made:
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/Il_qdtQKnqk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -203,7 +203,7 @@ If you're feeling particularly interested in this and want to learn more, I stro
 
 Chorus does as the name implies, layering copies of the signal together to get a 'denser' sound. To be a chorus (and not just increase the volume) the copies are slightly pitch shifted, delayed, or otherwise modulated relative to one another. 
 
-Chorus tend to come in a lot of different flavors, so even if you try one at first and don't love it, try some others. [Magic Switch](https://babyaud.io/freebies) from Baby Audio is free and sound absolutely fantastic. I also reccomend checking out Boss's Dimension C pedal - or a clone of it. [It has a particularly nice sound](https://www.youtube.com/watch?v=GZs63IUgTw0).
+Chorus tend to come in a lot of different flavors, so even if you try one at first and don't love it, try some others. [Magic Switch](https://babyaud.io/freebies) from Baby Audio is free and sound absolutely fantastic. I also recommend checking out Boss's Dimension C pedal - or a clone of it. [It has a particularly nice sound](https://www.youtube.com/watch?v=GZs63IUgTw0).
 
 See [Time-Varying Delay Effects](https://www.dsprelated.com/freebooks/pasp/Time_Varying_Delay_Effects.html) on DSPRelated.com for more about how this works.
 

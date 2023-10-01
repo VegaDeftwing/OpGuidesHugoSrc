@@ -59,7 +59,7 @@ Linux CLI usage and programming. Between the tow I feel like I can actually use 
 
 I really suck at letting myself have fun. I like to play video games and wach anime, usually the really cheesy, aimed at teenagers Isekai anime - just not SAO. I do have taste. Out of choice paralysis and falling into "If I just watch this one YouTube video it's not so bad" I end up watching an unhealthy amount of YouTube instead of actually recharging by doing things that I really enjoy. Quality > Quantity, but I suck at taking my own advice.
 
-As for what I reccomend: Whatever you can walk away from and not feel like you just marathoned it unhealithy. If you're not excited enough to want to share it with others, it's probably not good enough to keep watching. Don't fall into a sunk cost falacy on your entertainment- that's the mindset that leads to watching all 15 seasons of Supernatural. Trust me. I know.
+As for what I recommend: Whatever you can walk away from and not feel like you just marathoned it unhealithy. If you're not excited enough to want to share it with others, it's probably not good enough to keep watching. Don't fall into a sunk cost falacy on your entertainment- that's the mindset that leads to watching all 15 seasons of Supernatural. Trust me. I know.
 
 But okay, a few real recomendations: BVM, Future Football, Wait But Why: The Sick Giant, Snowden
 

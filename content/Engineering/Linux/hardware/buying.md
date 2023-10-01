@@ -23,7 +23,7 @@ Okay, so, let's look at building a computer. I'm going to try to put together a 
 
 {{< tip >}}
 
-Even if you're reading this soon after this page has gone live (July of 2021), I'm not actually reccomending this system. This is being done as an example only. I'm not affilitated with any of the brands or products I'm listing here.
+Even if you're reading this soon after this page has gone live (July of 2021), I'm not actually recommending this system. This is being done as an example only. I'm not affilitated with any of the brands or products I'm listing here.
 
 
 I'm also writing this during the fucking nightmare of a GPU market caused by cryptocurrency, plus the added mess of Chia, a cryptocurrency that eats hard drives, plus a global silicon shortage. You should be able to get something better than this for this amount of money.

@@ -22,7 +22,7 @@ And for some fun,
 
 ## Finding Inspiration & Advice
 
-{{< best >}} [Wonderbook](https://www.amazon.com/Wonderbook-Illustrated-Creating-Imaginative-Fiction/dp/1419704427/) {{< /best >}} has been by far the most useful thing I have read for improving my skills, and I can't reccomend it enough.
+{{< best >}} [Wonderbook](https://www.amazon.com/Wonderbook-Illustrated-Creating-Imaginative-Fiction/dp/1419704427/) {{< /best >}} has been by far the most useful thing I have read for improving my skills, and I can't recommend it enough.
 
 [Catastrotivity](https://www.youtube.com/watch?v=5Tx6U5OhMDg&list=PL6haVw-BFETw13kBFhbWl6UCshzgIC7Ea), a series of short audio episodes about being an artist, while not focused on writing, proved to be quite useful too.
 

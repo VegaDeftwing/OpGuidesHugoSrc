@@ -20,11 +20,11 @@ Low Pass filters do what you think, they let the low frequencies pass and cut ou
 
 Slew, in a circuits, is usually a bad thing. When working with digital circuits - circuits that operate on binary values, 1's and 0's - we want our voltages to be either high or low, so we really, really want clean square waves.
 
-Unfortunately, in reality we can't get perfect square waves. When transitioning from a low signal to a high signal or a high signal to a low signal, there's a bit of a curve. In digital circuit a lower slew - so longer transitions - is almost universally bad.
+Unfortunately, in reality we can't get perfect square waves. When transitioning from a low signal to a high signal or a high signal to a low signal, there's a bit of a curve. In digital circuit a lower slew - longer transitions - is almost universally bad.
 
 {{< columns >}}
 
-So, what does this have to do with synths and filters? Well, a really basic tool for making the slew rate lower (longer transitions) is... a low pass filter. They're the same thing.
+What does this have to do with synths and filters? Well, a basic tool for making the slew rate lower (longer transitions) is... a low pass filter. They're the same thing.
 
 **But,** some slew rate limiters can let us set the <u>rise</u> and <u>fall</u> times independently!
 
@@ -101,7 +101,7 @@ So... it's not really a "filter" in the traditional sense. Rather, it just chang
 
 The [Phaser (Effect)](https://en.wikipedia.org/wiki/Phasear_(effect)) Wikipedia page has some nice audio examples of this.
 
-Famous examples of phasor effects include the MXR Phase 90 pedal and the EHX Small Stone and Bad Stone. 
+Famous examples of phaser effects include the MXR Phase 90 pedal and the EHX Small Stone and Bad Stone. 
 
 ## Filter Circuits
 
@@ -129,7 +129,7 @@ At high resonance values, the two poles sometimes are obviously separated, causi
 
 State variable filters 
 
-They tend to sound a smidgen brighten and smoother than sallen key filters. They have a 12dB slope, so nice and gentle still.
+They tend to sound a smidgen brighten and smoother than Sallen–Key filters. They have a 12dB slope, so nice and gentle still.
 
 ### Transistor Ladder
 
@@ -161,7 +161,7 @@ If you're into electronics, see [Designing a diode ladder filter from scratch (M
 
 CEM3320
 
-### Chebbychev
+### Chebyshev
 
 ### SEM
 
@@ -181,7 +181,7 @@ Again, a famous filter from a particular synth, and again just another State Var
 
 {{< quote "[u/erroneousbosh](https://www.reddit.com/user/erroneousbosh/)" >}}
 
-The Polivox filter is just an SVF but the integrator capacitor is actually the stabilising capacitor right there inside the OTA (it's a funny implementation of an OTA at that).
+The Polivoks filter is just an SVF but the integrator capacitor is actually the stabilising capacitor right there inside the OTA (it's a funny implementation of an OTA at that).
 
 {{< /quote >}}
 

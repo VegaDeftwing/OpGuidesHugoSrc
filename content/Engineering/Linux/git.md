@@ -86,7 +86,7 @@ Sure, sometimes someone else's changes will conflict with yours, but espically i
 
 ---
 
-With that context, I really reccomend you go watch & read:
+With that context, I really recommend you go watch & read:
 
 <style>
     .cool{

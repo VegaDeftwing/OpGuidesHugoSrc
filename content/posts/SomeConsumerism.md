@@ -33,7 +33,7 @@ I bitch about consumerism a lot, yet, I like *things*. So that's what this post 
 
 1. The Launchpad Pro Mk3.
 
-   I had a Launchpad Mk2 before this, and while it was *fine* it wasn't even really something I'd reccomend. Meanwhile, the LP Pro Mk3, with velocity sensative pads and after touch is *almost* the only controller I need. It doesn't have a way to hook up a sustain pedal, and the lack of pitch and mod wheels means It can't take over synth control duties entirely, but in general it made playing music a lot more fun - espically with scale mode turned on since I'm ass at music theory
+   I had a Launchpad Mk2 before this, and while it was *fine* it wasn't even really something I'd recommend. Meanwhile, the LP Pro Mk3, with velocity sensative pads and after touch is *almost* the only controller I need. It doesn't have a way to hook up a sustain pedal, and the lack of pitch and mod wheels means It can't take over synth control duties entirely, but in general it made playing music a lot more fun - espically with scale mode turned on since I'm ass at music theory
 
 2. 7-String, nice guitar
 
@@ -73,8 +73,8 @@ I bitch about consumerism a lot, yet, I like *things*. So that's what this post 
 
    1. DataVac - No more using, and running out of, canned air!
    2. Autoranging, decent multi-meter - Fast componet identification, just nicer to use
-   3. Rigol DS1054Z - Ha4kz to unlock features, 10000x nicer than the $20 arduino scopes
-   4. DSLogic Logic Analyzer - I don't even use it that much, but it's so much nicer than those dirt cheap 8 channel Salae clones or the slightly more expenive 16 channel clones.
+   3. Rigol DS1054Z - Ha4kz to unlock features, 10000x nicer than the $20 Arduino scopes
+   4. DSLogic Logic Analyzer - I don't even use it that much, but it's so much nicer than those dirt cheap 8 channel Salae clones or the slightly more expensive 16 channel clones.
    
 6. Steam Controller
 
@@ -84,7 +84,7 @@ I bitch about consumerism a lot, yet, I like *things*. So that's what this post 
 
 1. Oculus Quest 2
 
-   Literally purchased almost exclusively for beatsaber. Such an incredible step up from the OSVR HDK2 I had before. I did find it absolutely necessary to replace the face plate and strap, as well as add controller grips. This adds to the cost, but the content available does get me moving. PC connectivity to play Risk Of Rain 2 with a VR mod is pretty sweet too. Facebook being shoved down my throat still makes me unhappy though. - Note, because Facebook can go eat a dick, I'm still refusing to link to this.
+   Literally purchased almost exclusively for Beat Saber. Such an incredible step up from the OSVR HDK2 I had before. I did find it absolutely necessary to replace the face plate and strap, as well as add controller grips. This adds to the cost, but the content available does get me moving. PC connectivity to play Risk Of Rain 2 with a VR mod is pretty sweet too. Facebook being shoved down my throat still makes me unhappy though. - Note, because Facebook can go eat a dick, I'm still refusing to link to this.
 
 2. Chill Games
 
@@ -249,7 +249,7 @@ I bitch about consumerism a lot, yet, I like *things*. So that's what this post 
 
 4. Pwnagotchi
 
-   Expensive, bulky, but cute and educational. I wouldn't really reccomend others build one, but the parts can always be repurposed anyway.
+   Expensive, bulky, but cute and educational. I wouldn't really recommend others build one, but the parts can always be repurposed anyway.
 
 ### Life Stuff
 
@@ -281,7 +281,7 @@ I don't feel comfortably calling anyone out on bad videos, though I have noticed
 
 1. Mindhunters, Beastars, The Magicians, The Order, Erased, Blood Of Zeus
 
-   Predictable, Cheesy, Getting Depressing, Characters lack depth, Cheesy, Unremarkable. Am I still glad I saw all of them? Sure. But none really went into reccomend to friends territory. 
+   Predictable, Cheesy, Getting Depressing, Characters lack depth, Cheesy, Unremarkable. Am I still glad I saw all of them? Sure. But none really went into recommend to friends territory. 
 
 ### Music
 
