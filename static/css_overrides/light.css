@@ -193,6 +193,9 @@ blockquote {
   -webkit-filter: invert(1);
   filter: invert(1);
 }
+.quote {
+  background-color: #fffa!important;
+}
 .book-tabs {
   margin-top: $padding-16;
   margin-bottom: $padding-16;

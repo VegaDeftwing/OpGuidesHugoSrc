@@ -8,13 +8,13 @@ https://sozysozbot.github.io/akrantiain2/manuals/introduction/introduction_en.ht
 
 TODO: Parts of speech
 
-TODO: Try that one research tool
+[TODO] I'd really like to find a deaf and a blind person to talk about this with.
 
 [TODO] historical notes Obelos (†) and Metobelos (‡), bring in standards for marking up text for correction, 
 
 tools of communication - keyboards, hand gestures, voice, graphs, braille, etc. What weird ones exist?
 
-Encodings
+TODO: Pull in what feels relevant from the digital/physical HCI2 pages
 
 -->
 
@@ -61,6 +61,7 @@ Sure, some languages may order things differently (orange<sub>adj.</sub> cat<sub
 * How precisely is time conveyed grammatically? 
   * Past, Present, Future?
   * Far Past, Past, Immediately Past, Present, Immediately following, This day, This week, In this lifetime, Far Future?
+* Are there any weird [grammatical cases](https://en.wikipedia.org/wiki/List_of_grammatical_cases)?
 * Word length / Compounding
   * Does the language go full German or Icelandic, or are words short and rarely to never compounded?
 * Is the language written left to right, top to bottom?
@@ -393,9 +394,9 @@ I have even made a tool for hiding binary data into the least significant bits o
 
 {{< /columns >}}
 
-To avoid losing the topic of this page, let's look at a few scripts that fill this function:
+To avoid losing the topic of this page though, there are a few scripts which fill this function. [Babuk](https://www.omniglot.com/conscripts/baduk.htm), for example, can be used to hide messages in a game of Go.
 
-* [Babuk](https://www.omniglot.com/conscripts/baduk.htm) can be used to hide messages in a game of Go
+Arguably Morse code could be lumped into the "for hiding messages" category too, but it's often pretty obvious.
 
 ### Better Serving Disability
 
@@ -403,27 +404,47 @@ To avoid losing the topic of this page, let's look at a few scripts that fill th
 
 ##### Screen readers
 
+I don't have much to say about screen readers as I have little experience with them; however, it's notable that text-to-speech engines are rapidly advancing and this may make them better at handling weird inputs and conveying emotion or stress, especially when content authors properly mark up their content to support it. The AI boom may have its downsides, but I'm all for better assistive tech!
+
 ##### Braille
 
-[TODO] I really need to find someone who uses braille for this.
-
-Clearly, people don't always want to have their ears occupied by whatever they're reading or be listening out loud and potentially disturbing others. Also, it's not exactly practical to have every sign include an embedded speaker repeating the same word forever. So, braille:
+It's not reasonable to expect that people with vision disabilities always have their ears occupied by whatever they're reading or be listening out loud and potentially disturbing others. Also, it's not exactly practical to have every sign include an embedded speaker repeating the same word forever. So, braille exists.
 
 Braille is *mostly* just a font, but there are some special rules, mostly for contractions to make common words shorter. 
 
 a-z0-9: ⠁ ⠃ ⠉ ⠙ ⠑ ⠋ ⠛ ⠓ ⠊ ⠚ ⠅ ⠇ ⠍ ⠝ ⠕ ⠏ ⠟ ⠗ ⠎ ⠞ ⠥ ⠧ ⠺ ⠭ ⠽ ⠵ ⠚ ⠁ ⠃ ⠉ ⠙ ⠑ ⠋ ⠛ ⠓ ⠊
 
-Being that I'm not vision impaired and that I can't read braille, it's hard for me to know what is good or bad about it, but, I do know there's a real problem with the cost of braille displays. Even the least expensive option I could find was ~$700, but that one only displays 20 characters at a time. I also don't know if there are programs to make these devices more affordable.
+Being that I'm not vision impaired and that I can't read braille, it's hard for me to know what is good or bad about it, but, I do know there's a real problem with the cost of braille displays. Even the least expensive option I could find was ~$700, but that one only displays 20 characters at a time. I also don't know if there are programs to make these devices more affordable. If you know more, please reach out to me! I'd love to hear about your experience.
 
-Question: Why not single character that changes under the finger or let it encode to each finger, resting on the keyboard, like "bumping" the key in the home row? https://www.cs.unc.edu/~gb/blog/2007/01/22/an-inexpensive-tactile-braille-display-and-keyboard-with-reciprocity/
+I had the probably-too-obvious question of why not just not use a single character "display" that changes under the finger - or even better - let it encode to each finger, resting on the keyboard, like "bumping" the key in the home row? From what I gather, it's a bit too hard to feel it when it changes dynamically compared to being swiped across the finger?  I did find someone else had the same idea [back in 2007](https://www.cs.unc.edu/~gb/blog/2007/01/22/an-inexpensive-tactile-braille-display-and-keyboard-with-reciprocity/), but it doesn't look like it went anywhere.
 
-https://mymodernmet.com/braille-neue-typeface-kosuke-takahashi/
-
-Holy shit the marketing for braille tech is slimy
-
-
+While I don't think it's overly practical, I do like the concept behind [this typeface which can be read as braille or Latin characters](https://mymodernmet.com/braille-neue-typeface-kosuke-takahashi/).
 
 #### Deaf: Sign Languages
+
+{{< quote "[Sign Language on Wikipedia](https://en.wikipedia.org/wiki/Sign_language)" >}}
+
+There is a common misconception that sign languages are somehow dependent on spoken languages: that they are spoken language expressed in signs, or that they were invented by hearing people. [...] Instead, sign languages, like all natural languages, are developed by the people who use them, in this case, deaf people, who may have little or no knowledge of any spoken language.
+
+As a sign language develops, it sometimes borrows elements from spoken languages, just as all languages borrow from other languages that they are in contact with. [...]
+
+On the whole, though, sign languages are independent of spoken languages and follow their own paths of development. For example, British Sign Language (BSL) and American Sign Language (ASL) are quite different and mutually unintelligible, even though the hearing people of the United Kingdom and the United States share the same spoken language. The grammars of sign languages do not usually resemble those of spoken languages used in the same geographical area; in fact, in terms of syntax, ASL shares more with spoken Japanese than it does with English.
+
+{{< /quote >}}
+
+Of course, there are constructed languages with sign languages where there is a stronger tie though. The example I'm most familiar with, and have seen people conversing in, is [luka pona](https://sona.pona.la/wiki/luka_pona) by jan Olipija which is derived from the previously mentioned {{< button relref="Other/conlangs/tokipona" color="other" >}} toki pona {{< /button >}}.
+
+And, just like with non-sign based conlangs, there's attempts to make an [International Sign Language](https://en.wikipedia.org/wiki/International_Sign) which looks about as successful. International Sign isn't *totally* a conlang though, as it's more of a Pidgin. 
+
+\- oh, right, Pidgin:
+
+{{< quote "[Pidgin on Wikipedia](https://en.wikipedia.org/wiki/Pidgin)" >}}
+
+Fundamentally, a pidgin is a simplified means of linguistic communication, as it is constructed impromptu, or by convention, between individuals or groups of people. A pidgin is not the native language of any speech community, but is instead learned as a second language.
+
+{{< /quote >}}
+
+Bridging the worlds of conlangs and sign languages a bit further, the most fully developed equivalent to the IPA for sign languages - the [Sign Language International Phonetic Alphabet](https://dedalvs.com/slipa.html), or SLIPA - was developed by David Peterson, the same David Peterson as Dothraki and Valyrian.
 
 ### Same language, new system
 
@@ -442,22 +463,32 @@ Of these, I particularly like [fontok](https://www.omniglot.com/conscripts/fonto
 
 ### World Building & Art
 
-[TODO] mention newspeak here too.
-
-Getting into the more artistic uses, in *[The Art of Language Invention](https://www.amazon.com/Art-Language-Invention-Horse-Lords-World-Building/dp/0143126466)* by David J. Peterson - the guy who made Dothraki for *A Song of Ice and Fire* / *Game of Thrones* - discusses how Dothraki wasn't just a jumble of foreign looking language ideas but was informed by the culture of its fictional speakers and built up around their ideas and values. This same attitude applies to the script [which is on omniglot as well](https://omniglot.com/conscripts/dothraki.htm). 
-
-Perusing omniglot there were some scripts that stood out to me as having a strong "for non-humans this would be good" flavor - these really make sense if you want to make a world feel alive for more than just the humans in it.
-
-* [Scar](https://www.omniglot.com/conscripts/scar.htm) looks to be a good option for creatures lacking the dexterity afforded by fingers
-* [12480](https://www.omniglot.com/conscripts/12480.htm) looks well suited to something which would communicate with binary but need a way for it to be legible to meat-based creatures if necessary.
-
-There are many, many more that have been used for creating fictional fantasy or sci-fi stories of course. The most obvious that everyone knows is Tolkien's various languages from the *Lord of the Rings* trilogy and related works, such as Quenya (which is written in Tengwar),
+I suspect that almost all who stumble into the world of conlangs and neoscripts is first introduced to their existence though works of fiction where a constructed language plays a big part - be it on of J. R. R. Tolkien's from the *Lord of the Rings* trilogy and related works, such as Quenya (which is written in Tengwar),
 
 <div class="conlang">
     <blockquote>             </blockquote>
 </div>
 
+
 {{< attribution >}}This font is [Fairfax HD](https://www.kreativekorp.com/software/fonts/fairfaxhd/) by [KreativeKorp](www.kreativekorp.com), which is licensed under the [open font license](https://github.com/kreativekorp/open-relay/blob/master/FairfaxHD/OFL.txt) It is used for all of the conlang displays on this page which are not static images. Some of the examples on this page are also copied directly from that page. {{< /attribution >}}
+
+or Orwell's [Newspeak](https://en.wikipedia.org/wiki/Newspeak). 
+
+In *[The Art of Language Invention](https://www.amazon.com/Art-Language-Invention-Horse-Lords-World-Building/dp/0143126466)* by David J. Peterson - the guy who made Dothraki for *A Song of Ice and Fire* / *Game of Thrones* - discusses how Dothraki wasn't just a jumble of foreign looking language ideas but was informed by the culture of its fictional speakers and built up around their ideas and values. This same attitude applies to the script [which is on omniglot as well](https://omniglot.com/conscripts/dothraki.htm). This is a pretty common among nearly all languages made for world building: like natural languages, they're influenced by the culture of the people they're invented to be used by.
+
+I find it interesting that this can be true for both scripts and languages.
+
+Languages can evoke cultural context in many ways, but some of the easier to consider points include:
+
+* How are different classes of people portrayed?
+  * Are any/all genders and species treated equally in language?
+  * Are classes of people (slaves? kings?) given less expression (ex: no gender for slaves)
+* Are there words for specific good or bad things that don't exist in natural because they're not very common?
+  * For example, in a story with zombies saying "He's turning into a zombie" is quite the long phrase compared to something like "He rots"
+* Has the language adapted around some large event as a time base?
+  * For example, an extra tense could be added that's specifically for before, after, or during some major war.
+
+Scripts can be reflective of the culture's priorities. Do they value something easy to write due to a lack of easy tool use? [Scar](https://www.omniglot.com/conscripts/scar.htm), for example, looks to be a good option for creatures lacking the dexterity afforded by fingers. Does the language need to be used by both machines and biological life? [12480](https://www.omniglot.com/conscripts/12480.htm) might work for that.
 
 Of course, even for humans just having a new script and language alone can go a long way. 
 
@@ -465,7 +496,9 @@ Interestingly, even the discussion of language itself can be moving and artistic
 
 <img src="/other/arrival.webp" style="border-radius:.4em;filter: sepia(70%);">
 
-More fundamentally though, a script with meaning only to the author can still be beautiful. The calligraphy and attention to detail can still be inspiring even if the viewer doesn't know the full meaning. Hell, sometimes not knowing the meaning can be a statement in itself - making a script that looks like an existing language for commentary on a culture isn't unheard of. It's also not uncommon to hear songs using words in a meaningless (or at least grammatically incorrect) way for how they sound in any language's music - think phrases like "La, La, La", "Do-Wop", etc. - so it's only natural that some people would love the way that some conlangs sound and the different forms of expression that may be possible in the lyrics when using conlangs. 
+More fundamentally though, a script with meaning only to the author can still be beautiful. The calligraphy and attention to detail can still be inspiring even if the viewer doesn't know the full meaning. Hell, sometimes not knowing the meaning can be a statement in itself - making a script that looks like an existing language for commentary on a culture isn't unheard of. Some artistic pieces will use a new writing system just because it's beautiful, and that's enough.
+
+Conlangs aren't restricted to use in the pages of stories or on the screen either. If you look for it there is an astonishing amount of incredibly well produced music made in many different conlangs.
 
 My favorite conlanging musician is jan Usawi. They release some absolute bops that are sung in toki pona:
 
@@ -584,11 +617,25 @@ Finally, there's some really, really bizzare ones I want to mention
 * https://www.omniglot.com/conscripts/6color.php
 * https://www.omniglot.com/conscripts/eganes.htm (maybe move this one)
 
-I think it would be a disservice to my readers not to mention just how unhinged some of these can get. My favorite domain-specific and definitely cursed conlang has to be Mpiua Tiostouea:
+{{< columns3 >}}
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/J0rUtiy4m0Y" title="Mpiua Tiostouea, a Language for Time Travelers | Cursed Conlang Circus 2 Entry" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+I think it would be a disservice to my readers not to mention just how unhinged some of these can get. Some of the most interesting I've seen are:
 
- 
+* **Mpiua Tiostouea**: "The language of time travelers"
+* **tiduna,xal**: A language with only adjectives where speakers require a potentially infinite amount of mouths.
+
+Both of which I've embedded the video showcases for here. Additionally, I thought these were quite neat:
+
+* <b><a style="font-family:'Fairfax HD'" href="https://www.youtube.com/watch?v=QF1ZMhnaaLc">G̊riǵe T̊s'́ê'êt̊i</a></b>: A language spoken that can be spoken without a voice box
+* <b><a style="font-family:'Fairfax HD'" href="https://www.youtube.com/watch?v=NIKSQF0pNnk">θͬæͬɐ̃ͬχ̓ɤ̞̃ɐ̃ͬlͬ</a></b>: 🥐🥖
+
+<--->
+
+<iframe width="100%" height="250" src="https://www.youtube.com/embed/J0rUtiy4m0Y" title="Mpiua Tiostouea, a Language for Time Travelers | Cursed Conlang Circus 2 Entry" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+
+<iframe width="100%" height="250" src="https://www.youtube.com/embed/ADIleIaMdZ4" title="tiduna,xalAn | A submission to Agma Schwa&#39;s Cursed Conlang Circus" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+{{< /columns3 >}}
 
 ### Math
 
@@ -616,6 +663,8 @@ is comparatively simple.
 
 
 
+[TODO]
+
 like the {{< katex >}}\LaTeX{{< /katex >}} above - have the fun of being a language which is has another language used to write it. I don't think that disqualifies them as languages (or at least writing systems) after all, if you have Google Translate translate something from English to Spanish, (and it works) it's not as if we think of the result as just "modified English" - it's Spanish.
 
 Yet, there is still some fun to be had in this line of thought. If I type out 
@@ -626,20 +675,14 @@ That string of text is transferred across the great series of tubes in a binary 
 
 Does showing an audio spectogram qualify as a writing system? I think it can. Someone trained to do so could absolutely look at waveform or spectogram of a recording to understand what was being said - this idea has been taken further, see [Elektrum (omniglot.com)](https://omniglot.com/conscripts/elektrum.htm) but, say you literally show the raw spectrum, should that count as a script if others were trained to write it by hand? Is having others be able to write it by hand necessary for that definition?
 
-This quickly devolves into interpreting encodings as their own "language" which, like, I *guessssss* could have an argument made for, but it's a stretch. Still, I think there's value in the metaphor, and especially for the technically inclined, thinking about encodings and APIs as forms of communication and taking inspiration from the conlang and conscript/neoscript community can only stand to bring about clever, innovative ideas in storage, compressing, representation, and elegance. I think that's worth being open to. But lets come back to that - 
+This quickly devolves into interpreting encodings as their own "language" which, like, I *guessssss* could have an argument made for, but it's a stretch. Still, I think there's value in the metaphor, and especially for the technically inclined, thinking about encodings and APIs as forms of communication and taking inspiration from the conlang and conscript/neoscript community can only stand to bring about clever, innovative ideas in storage, compressing, representation, and elegance. I think that's an idea worth being open to.
 
 ### How does this tie in to the current AI boom?
 
 I don't know if tools like ChatGPT will be something we all use every day. I also don't know if I *like* it. I have a big ol' blog post about it, {{< button relref="/posts/ai2" color="gradient-border2">}} Does It Still Count As A Tool? {{< /button >}} ,
 of which the TL;DR is that I like computers to be deterministic and to feel in control, but using natural language makes me feel like I'm losing some of that, but I also appreciate its utility.
 
-I do wonder if there's room (or necessity) for changes to languages and scripts to fill in some gaps here? 
-
-Would it be good to have a sort of water-mark font that is used to say "An AI wrote this" - maybe having a reserved space in Unicode for it?
-
-Obviously, this would depend on people not intentionally putting it back into the "human use" fonts, which would absolutely happen anyway. There might be some cryptographic way this could be done, but that assumes nobody will just run the generators locally to avoid this and that nobody would want to only partially alter the output - so not a great call. Plus this does sound like a massive pain, doubly so for users with accessibility needs.
-
-I think a more interesting consideration is how we can use new language ideas to get more utility out of the models.
+I do wonder if there's room (or necessity) for changes to languages and scripts to fill in some gaps here? Maybe we could use new language ideas to get more utility out of the models.
 
 One idea that comes to mind for me is putting tone indication or other elements into the UI, that way the model can convey at least some of the emotional and facial cues that are so important to face-to-face communication. 
 
