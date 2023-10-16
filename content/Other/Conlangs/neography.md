@@ -256,7 +256,7 @@ Which can have various flavors of markings, including using `~` for vibrato, put
 
 But music today is often made in a piano roll,
 
-<img src="/fairuse/other/Computer_music_piano_roll.png" alt="Piano Roll" width="50%">
+<img src="/eng/mpedata.webp" alt="Piano Roll" width="50%">
 
 and has historically been made in trackers,
 
@@ -768,8 +768,14 @@ Now imagine you have a whole suite of more intersecting commands, ones that let 
 
 ## Why are we **not** pushing boundaries?
 
-* Our input methods have become relatively static (keyboards and the keys on them)
-  * It's already annoying to type most special characters
+Defaults are powerful. It's why [*United States v. Microsoft Corp.*](https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.) in 2001 was a problem in the first place. It's why making it take even one more click to not accept cookie on a website works. The easiest, quickest option is what most people use, and when more people use it, it becomes harder to justify trying something new. Is QWERTY the best keyboard layout? I use [Dvorak](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout), so *for me* the answer is no, but every time I sit down at somebody else's computer and try to type it's incredibly disorienting. That's the cost of not using the default.
+
+So, while there are quite a few reasons things aren't changing all the rapidly, the biggest is defaults. When it became easy to type Emoji, people used them. If there were a dedicated key for `≠` or `±` on your keyboard, you'd probably use them more and programming languages wouldn't have to use `!=` for "not equal". This goes for many other symbols (‽,←, →,√,°,¡, all come to mind) and I know it to be true because I *can* directly type those symbols on my keyboard. For input devices, I've already written a good amount on this though, see {{< button color="other" relref="Other/HCI2/Physical#our-input-methods-suck" >}}The Way We Interact With Computers Sucks: The Physical{{< /button >}}. Of course, this assumes people even know there's alternative options in the first place. If a default is really ingrained then you may not even recognize it as something that *could* have an alternative.
+
+Similarly, for many things not using the default would break compatibility with *something*. There are millions of computers out there that still today are running Windows 98 because they're driving some industrial or medical equipment manufactured 20 years ago. Would it work on Windows 11? Maybe. Does anyone want to risk the downtime of trying? Hell no. Similarly, there are many cases when someone has made something that is miles ahead of everything else, but breaks all compatibility assumptions in the process. I'd love to run a Linux system using [Cat9](https://github.com/letoram/cat9) and [Durden](https://github.com/letoram/durden), but the early adopter cost is too high.
+
+[TODO]
+
 
 * Our systems are designed for rendering plain text and have a hard time with implied style (AST aware syntax highlighting, language servers)
 * Legacy compatability - show Arcan/Lash/Cat9
