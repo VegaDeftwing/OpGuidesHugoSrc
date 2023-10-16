@@ -64,7 +64,7 @@ Sure, some languages may order things differently (orange<sub>adj.</sub> cat<sub
 * Are there any weird [grammatical cases](https://en.wikipedia.org/wiki/List_of_grammatical_cases)?
 * Word length / Compounding
   * Does the language go full German or Icelandic, or are words short and rarely to never compounded?
-* Is the language written left to right, top to bottom?
+* Is the language written left to right, top to bottom?<a class="ptr">(1)</a>
 
 Obviously, this is glossing over whole subjects and intricacies that linguists have spent lifetimes on and that I am absofuckinglutly (Hey, look at that, an *infix*) not qualified to talk about. My point is that there's a lot of ground to be covered and explored for conlangs and neoscripts.
 
@@ -180,7 +180,7 @@ So, more true to the actual spirit, lets start with [HexCasting](https://www.cur
 
 Okay, neat, sure, but maybe it's a contrived example. It's solving a problem that could've been done by just letting the user type out commands (albeit that would be less fun). So, what about working around a real limitation...
 
-[Pixelscript](https://omniglot.com/conscripts/pixelscript.htm) exists for people working on pixel art. At extremely low resolutions, there's just not room to add a normal signature and have it be legible anyway <a class="ptr">(1)</a>. Unlike with the 7-segment display Script/Font, this doesn't try to look like an existing alphabet.
+[Pixelscript](https://omniglot.com/conscripts/pixelscript.htm) exists for people working on pixel art. At extremely low resolutions, there's just not room to add a normal signature and have it be legible anyway <a class="ptr">(2)</a>. Unlike with the 7-segment display Script/Font, this doesn't try to look like an existing alphabet.
 
 ![img](https://omniglot.com/images/langsamples/udhr_pixelscript.gif)
 
@@ -295,7 +295,7 @@ Is a pretty clear message.
 
 Clearly talking in only emoji wouldn't really be ideal, but it's still wrong to discount it outright as a conlang/writing system (or would it be a natlang?)
 
-But, it does have a massive fucking problem: it doesn't display consistently on different platforms. It boggles my mind that it's a crap shoot for if 🏳️‍⚧️ is a trans flag, or a trans symbol followed by a white flag (⚧️🏳️). Pride or surrender? Similarly, the Windows operating system is cool with gay pirates, 🏳️‍🌈🏴‍☠️, but no country flags will render correctly (though it is possible your browser will compensate, here's a US flag: 🇺🇸). More complicated yet, will the Taiwan flag (🇹🇼) render if you're in China? Doubtful. 
+But, it does have a massive problem: it doesn't display consistently on different platforms. It boggles my mind that it's a crap shoot for if 🏳️‍⚧️ is a trans flag, or a trans symbol followed by a white flag (⚧️🏳️). Pride or surrender? Similarly, the Windows operating system is cool with gay pirates, 🏳️‍🌈🏴‍☠️, but no country flags will render correctly (though it is possible your browser will compensate, here's a US flag: 🇺🇸). More complicated yet, will the Taiwan flag (🇹🇼) render if you're in China? Doubtful. 
 
 This means the medium itself isn't reliable.
 
@@ -353,7 +353,7 @@ Could there be ambiguity in these? Of course. It's also likely people would eith
 
 He/Him She/Her Xe/Xem/Xyr Ze/Sir Fae/Faer They/Their ...
 
-Different people have a different level of acceptance of different pronouns... because something-something culture war? Regardless, conlangs may provide different pronouns, often either adding one for non-binary individuals or just using a unified, un-gendered pronoun. <a class="ptr">(1)</a>
+Different people have a different level of acceptance of different pronouns... because something-something culture war? Regardless, conlangs may provide different pronouns, often either adding one for non-binary individuals or just using a unified, un-gendered pronoun. <a class="ptr">(3)</a>
 
 If this sounds difficult, just remember, the correct way to refer to someone in any language is whatever they want you to use, just like in English!
 
@@ -372,9 +372,8 @@ Hiding messages is an art form of itself, and can have a myriad of different req
 * Maybe you want any onlooker in the know to be able to decode the message
 * Maybe you want it to be difficult to see there's a message at all
 * Maybe you want it to be obvious there's a message and make it difficult to decode
-* etc. etc.
 
-This does start to go into a conversation about [steganography (Wikipedia)](https://en.wikipedia.org/wiki/Steganography). <a class="ptr">(2)</a>
+This does start to go into a conversation about [steganography (Wikipedia)](https://en.wikipedia.org/wiki/Steganography). <a class="ptr">(4)</a>
 
 {{< quote "[Wikipedia](https://en.wikipedia.org/wiki/Steganography)" >}}
 
@@ -444,20 +443,27 @@ Fundamentally, a pidgin is a simplified means of linguistic communication, as it
 
 {{< /quote >}}
 
-Bridging the worlds of conlangs and sign languages a bit further, the most fully developed equivalent to the IPA for sign languages - the [Sign Language International Phonetic Alphabet](https://dedalvs.com/slipa.html), or SLIPA - was developed by David Peterson, the same David Peterson as Dothraki and Valyrian.
+Bridging the worlds of conlangs and sign languages a bit further, the most fully developed equivalent to the IPA for sign languages - the [Sign Language International Phonetic Alphabet](https://dedalvs.com/slipa.html), or SLIPA - was developed by David Peterson, the same David Peterson that made Dothraki and Valyrian.
 
 ### Same language, new system
 
 Intriguingly, some neoscripts use an existing language but instead of just mapping the letters to new symbols change the way we think about a 'character' all together. 
 
-<div style="float: right; width: 30%;">
+<div style="float: right; width: 30%;padding-left: 1em;">
 <img src="https://www.omniglot.com/images/langsamples/udhr_fontok.gif" style="border-radius:.4em;filter: sepia(40%) hue-rotate(-50deg);">
 
 {{< attribution >}}Example text in Fontok. Again, this image is from [omniglot](https://www.omniglot.com) and is Article 1 of the Universal Declaration of Human Rights{{< /attribution >}}
 
 </div>
 
-Of these, I particularly like [fontok](https://www.omniglot.com/conscripts/fontok.htm) which adds a significant number of characters as each *sound* (not character) in English is given its own symbol. Of course it doesn't hurt that text written in fontok is breathtakingly beautiful.
+Of these, I particularly like [fontok](https://www.omniglot.com/conscripts/fontok.htm) which adds a significant number of characters as each *sound* (not character) in English is given its own symbol. Of course it doesn't hurt that text written in fontok is breathtakingly beautiful. Similarly, I'm a big fan of [this unnammed script by u/mastefka](https://www.reddit.com/r/neography/comments/8qjd5r/another_english_alternative_script_54/) <a class="ptr">(5)</a>:
+
+
+<div style="width: 65%;">
+<img src="/fairuse/other/mastefka.webp" style="border-radius:.4em;filter: sepia(40%) hue-rotate(-50deg);">
+</div>
+
+Of course, if you go looking you'll find many others. These vary in their intent. Some writing systems aim to be be international, mostly by giving a symbol to every letter in the IPA. Clearly, this comes at the cost of adjustments that best suit any given language. 
 
 <br style="clear: both;">
 
@@ -639,8 +645,6 @@ Both of which I've embedded the video showcases for here. Additionally, I though
 
 ### Math
 
-[TODO] this section still needs a lot of help
-
 Knowing the audience for my website, you were probably mentally screaming above that I didn't mention the most obvious domain with it's own language: Math.
 
 Personally, I think the definition of what should be considered language should be pretty board. It clearly includes this text itself and most of the writing systems above. It obviously includes speech, braille, sign language, and I think most would agree that both math and music constitute "language".
@@ -661,11 +665,7 @@ I would think most people would have to write it down to have the slightest idea
 
 is comparatively simple.
 
-
-
-[TODO]
-
-like the {{< katex >}}\LaTeX{{< /katex >}} above - have the fun of being a language which is has another language used to write it. I don't think that disqualifies them as languages (or at least writing systems) after all, if you have Google Translate translate something from English to Spanish, (and it works) it's not as if we think of the result as just "modified English" - it's Spanish.
+Going a bit meta, the math above is rendered with {{< katex >}}\LaTeX{{< /katex >}}. This means we have a pseudo-programming language, so depending on how you look at it this is language used to write a different language. I don't think that disqualifies either as languages (or at least writing systems) after all, if you have Google Translate translate something from English to Spanish, (and it works) it's not as if we think of the result as just "modified English" - it's Spanish. 
 
 Yet, there is still some fun to be had in this line of thought. If I type out 
 
@@ -675,7 +675,7 @@ That string of text is transferred across the great series of tubes in a binary 
 
 Does showing an audio spectogram qualify as a writing system? I think it can. Someone trained to do so could absolutely look at waveform or spectogram of a recording to understand what was being said - this idea has been taken further, see [Elektrum (omniglot.com)](https://omniglot.com/conscripts/elektrum.htm) but, say you literally show the raw spectrum, should that count as a script if others were trained to write it by hand? Is having others be able to write it by hand necessary for that definition?
 
-This quickly devolves into interpreting encodings as their own "language" which, like, I *guessssss* could have an argument made for, but it's a stretch. Still, I think there's value in the metaphor, and especially for the technically inclined, thinking about encodings and APIs as forms of communication and taking inspiration from the conlang and conscript/neoscript community can only stand to bring about clever, innovative ideas in storage, compressing, representation, and elegance. I think that's an idea worth being open to.
+This quickly devolves into interpreting encodings as their own "language" which, like, I *guessssss* could have an argument made for, but it's a stretch. Still, I think there's value in the metaphor, and especially for the technically inclined, thinking about encodings and APIs as forms of communication and taking inspiration from the conlang and conscript/neoscript community can only stand to bring about clever, innovative ideas in storage, compressing, representation, and elegance. I think that's an idea worth being open to, even if only in some double-think way where you don't actually believe it.
 
 ### How does this tie in to the current AI boom?
 
@@ -736,15 +736,27 @@ Taking this further, each user can optimize their typing
 
 By allowing users to really dig in and extend the functionality of programs by defining new concepts that make sense in their workflow and then letting them reuse those ideas later tools that are made to be general purpose can evolve with the user's needs and experiance to become more powerful for exactly how they use it - this is what "power users" of most any program always want.
 
-### Inteopability
+### Languages For Interopability
 
-text mode of terminals being ""univerval""
+While I've beaten the "universal language" dead horse already (music, math) I do think language can serve as a method of allowing for interoperability so long as you restrict it enough - like programming languages or configuration languages (JSON, YAML, etc) do. A good example of this is is the [Theme Format](https://github.com/hundredrabbits/Themes) from Hundred Rabbits where a simple SVG is used as a drag & drop color theme system for most of the applications they have developed and a growing list from others. This is particularly clever because it means the list of colors for the computer is also an image format that can be displayed in any browser, making for already built in previews.
 
-make sharing of user defined terms easier
+Hundred Rabbits also often makes their applications speak amongst each other, usually over UDP, allowing for creative applications such as using their music sequencer, [ORCΛ](https://github.com/hundredrabbits/Orca) (as shown above) to control their vector act tool, [Dotgrid](https://github.com/hundredrabbits/Dotgrid) <a class="ptr">(6)</a> where you just send the same command you'd normally run, but over the network. Making these sort of languages of communication between applications that are meant to be human readable I think is an idea more software could stand to take to heart, and is the same reason why so many Linux users feel so at home in the terminal: text is used as a common way to exchange data quickly between programs and it does use a learned vocabulary of command commands, like any other language.
 
-The ORCA + Ronin + etc system (+ their themes)
+{{< details "Huh?" >}}
 
-Making the situation better for all users, including those of other natural languages, by having better tools - see ligatures and RTL or TtB
+I realize I got very technical there, so let me explain. Imagine you have a program called `read`. All this program does it output the text of the file provided to the display, so you could run the command 
+
+`read my_short_story.txt`
+
+Now imagine you have a command called `replace` which replaces one word with another in any text **piped** into it. By piping, I mean it can take the output of a previous command and pass it to the next one. To do this operation, lets use the `|` character. So, we could run
+
+ `read my_short_story.txt | replace teh the` 
+
+to correct any mistyped "teh" into the word "the".
+
+Now imagine you have a whole suite of more intersecting commands, ones that let you look for patterns like using `[bc]at` to find the word "bat" or "cat" but not "rat", or letting you count the number of lines, or convert the file into a PDF. You can make these large chains out of existing programs, which is pretty sweet. This is more-or-less how using a command line on a MacOS or Linux system works.  
+
+{{< /details >}}
 
 ### Better exploration of data and connection
 
@@ -809,9 +821,22 @@ Other links you may want to check out include:
 
 
 <ol hidden id="footnotes">
-    <li>FWIW, I think <a href="https://www.omniglot.com/conscripts/kfg.htm">KFG</a> may be a better choice if you're working at only a moderately low resolution, as while it's still not a text anybody can read super easily, it's more recognizably text at all, and the differention between glyphs makes it a hair easier to read.</li>
-    <li>Not to be confused with Stenography, which is the process of writing in shorthand. Most commonly today this term is used to talk about how court reporters use special keyboards.</br>Also not to be confused with Stegography, the process of writitng with the tail of a Stegosaurus.</li>
+<li>Digital interopability with natural languages that arent Left-to-Right, Top-to-Bottom is spotty. Many programs and websites struggle with support, which is unfortunate.</li>
+<li>FWIW, I think <a href="https://www.omniglot.com/conscripts/kfg.htm">KFG</a> may be a better choice if you're working at only a moderately low resolution, as while it's still not a text anybody can read super easily, it's more recognizably text at all, and the differention between glyphs makes it a hair easier to read.</li>
+<li>Not to be confused with Stenography, which is the process of writing in shorthand. Most commonly today this term is used to talk about how court reporters use special keyboards.</br>Also not to be confused with Stegography, the process of writitng with the tail of a Stegosaurus.</li>
 <li>Some natural languages have more than two genders for pronouns too!</li>
+<li>
+Notes for use (By u/mastefka):
+</br>
+There are two forms for each vowel: a diacritic mark and a letter form:
+• The diacritic mark always precedes the consonant that it appears above.</br>
+• As well, only two vowels can stack over a consonant; in words like “beautiful,” the “ea” are written as diacritics and the “u” is written in its letter form under them.</br>
+• Words that end in a vowel must be written in letter form as the don’t have a vowel to precede. Likewise if a word ends in two vowels, such as “free” a diacritic can be written above the letter form to finish out the word.</br>
+• Words that begin with a capitalized vowel, are written with the letter form, such as the first word of a sentence. Words that begin with a vowel anywhere else in a sentence can be written as a diacritic over the consonant that follows it.</br>
+• Proper nouns that begin with a vowel use the letter form, but there’s no change to any proper nouns that begin with a consonant.</br>
+• Consonants that double (little, bubble, barrel, summer, etc) simply have a line draw under it, or through the tail of the letter has one.
+</li>
+<li>I can't seem to find documentation on doing this anymore, but I know I've done it before ¯\_(ツ)_/¯</li>
 </ol>
 
 
