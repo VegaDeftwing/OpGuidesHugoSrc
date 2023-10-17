@@ -4,17 +4,9 @@
 
 https://psychomotorischetherapie.info/website/wp-content/uploads/2015/10/LMA-Workshop-Sheet-Laban.pdf - ask jan Usawi about this.
 
-https://sozysozbot.github.io/akrantiain2/manuals/introduction/introduction_en.html
-
-TODO: Parts of speech
-
 [TODO] I'd really like to find a deaf and a blind person to talk about this with.
 
-[TODO] historical notes Obelos (†) and Metobelos (‡), bring in standards for marking up text for correction, 
-
 tools of communication - keyboards, hand gestures, voice, graphs, braille, etc. What weird ones exist?
-
-TODO: Pull in what feels relevant from the digital/physical HCI2 pages
 
 -->
 
@@ -496,6 +488,16 @@ Languages can evoke cultural context in many ways, but some of the easier to con
 
 Scripts can be reflective of the culture's priorities. Do they value something easy to write due to a lack of easy tool use? [Scar](https://www.omniglot.com/conscripts/scar.htm), for example, looks to be a good option for creatures lacking the dexterity afforded by fingers. Does the language need to be used by both machines and biological life? [12480](https://www.omniglot.com/conscripts/12480.htm) might work for that.
 
+Or, a script can intentionally mislead for artistic reasons:
+
+{{< quote "[Chiri](https://www.omniglot.com/conscripts/chiri.htm) on Omniglot.com" >}}
+
+Chiri was invented by Jay Tamar for the webcomic "Passing Human". [...] The language juxtaposes a flowing script with a harsh sound to represent the beautiful surface but deadly interior of the Chiri society.
+
+![](https://www.omniglot.com/images/langsamples/udhr_chiri.gif)
+
+{{< /quote >}}
+
 Of course, even for humans just having a new script and language alone can go a long way. 
 
 Interestingly, even the discussion of language itself can be moving and artistic, as anybody who has seen Arrival (2016) can attest to,
@@ -601,27 +603,6 @@ Geometry Nodes
 Ligatures? Old school ascii art fonts. Emoji + unicode, Visual programming (node based)
 
 Zoia, VCV
-
-
-
-
-
-Within the realm of what we'd still call language, there's some I want to showcase just for being beautiful
-
-* https://www.reddit.com/r/neography/comments/pj8xw4/griddy_script_font_finally_see_comment/
-* https://www.omniglot.com/conscripts/sticks.htm
-* https://www.omniglot.com/conscripts/beringin.htm
-* https://www.omniglot.com/conscripts/chiri.htm
-* https://www.omniglot.com/conscripts/keble.htm
-
-Finally, there's some really, really bizzare ones I want to mention
-
-* Pipeline 3D
-* Conway Script
-* https://www.omniglot.com/conscripts/alfakinetix.php
-* https://www.omniglot.com/conscripts/betamaze.htm (also see https://www.omniglot.com/conscripts/patternscript.htm and https://www.omniglot.com/conscripts/spintype.php)
-* https://www.omniglot.com/conscripts/6color.php
-* https://www.omniglot.com/conscripts/eganes.htm (maybe move this one)
 
 {{< columns3 >}}
 
@@ -730,9 +711,7 @@ If we lets users do this as they work calling groups of complex ideas a new term
 
 [TODO nested PD, Geometry Nodes screen shots]
 
-Taking this further, each user can optimize their typing
-
-[TODO text expansion]
+Taking this further, each user can optimize their typing using text expansion software. This means doing things like replacing commonly typed words and phrases with smaller strings of letters. For example, you could make it so that typing "brb" replaces those letters with "be right back". This can be taken to extremes like the [Compress](https://github.com/eschluntz/compress) tool from Erik Schluntz helps you do. Or you could go all in and and learn [Stenography](https://www.youtube.com/watch?v=nRp_1S7cj6A), which is more-or-less the same idea on steroids
 
 By allowing users to really dig in and extend the functionality of programs by defining new concepts that make sense in their workflow and then letting them reuse those ideas later tools that are made to be general purpose can evolve with the user's needs and experiance to become more powerful for exactly how they use it - this is what "power users" of most any program always want.
 
@@ -758,32 +737,46 @@ Now imagine you have a whole suite of more intersecting commands, ones that let 
 
 {{< /details >}}
 
-### Better exploration of data and connection
-
-[TODO] Still not sure if I can make this relevant?
-
-* The Hyperlink + Obsidian
-* https://docs.kanaries.net/rath/explore-data/data-painter
-  * link to Computers Suck section about making web data exposed and rendered locally 
-
 ## Why are we **not** pushing boundaries?
 
 Defaults are powerful. It's why [*United States v. Microsoft Corp.*](https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.) in 2001 was a problem in the first place. It's why making it take even one more click to not accept cookie on a website works. The easiest, quickest option is what most people use, and when more people use it, it becomes harder to justify trying something new. Is QWERTY the best keyboard layout? I use [Dvorak](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout), so *for me* the answer is no, but every time I sit down at somebody else's computer and try to type it's incredibly disorienting. That's the cost of not using the default.
 
-So, while there are quite a few reasons things aren't changing all the rapidly, the biggest is defaults. When it became easy to type Emoji, people used them. If there were a dedicated key for `≠` or `±` on your keyboard, you'd probably use them more and programming languages wouldn't have to use `!=` for "not equal". This goes for many other symbols (‽,←, →,√,°,¡, all come to mind) and I know it to be true because I *can* directly type those symbols on my keyboard. For input devices, I've already written a good amount on this though, see {{< button color="other" relref="Other/HCI2/Physical#our-input-methods-suck" >}}The Way We Interact With Computers Sucks: The Physical{{< /button >}}. Of course, this assumes people even know there's alternative options in the first place. If a default is really ingrained then you may not even recognize it as something that *could* have an alternative.
+So, while there are quite a few reasons things aren't changing all the rapidly, the biggest is defaults. When it became easy to type Emoji, people used them. If there were a dedicated key for `≠` or `±` on your keyboard, you'd probably use them more and programming languages wouldn't have to use `!=` for "not equal"<a class="ptr">(7)</a>. This goes for many other symbols (‽,←, →,√,°,¡, all come to mind) and I know it to be true because I *can* directly type those symbols on my keyboard. For input devices, I've already written a good amount on this though, see {{< button color="other" relref="Other/HCI2/Physical#our-input-methods-suck" >}}The Way We Interact With Computers Sucks: The Physical{{< /button >}}. Of course, this assumes people even know there's alternative options in the first place. If a default is really ingrained then you may not even recognize it as something that *could* have an alternative.
 
 Similarly, for many things not using the default would break compatibility with *something*. There are millions of computers out there that still today are running Windows 98 because they're driving some industrial or medical equipment manufactured 20 years ago. Would it work on Windows 11? Maybe. Does anyone want to risk the downtime of trying? Hell no. Similarly, there are many cases when someone has made something that is miles ahead of everything else, but breaks all compatibility assumptions in the process. I'd love to run a Linux system using [Cat9](https://github.com/letoram/cat9) and [Durden](https://github.com/letoram/durden), but the early adopter cost is too high.
 
-[TODO]
+For conlangs or anything requiring more than simple character rendering, there has to be application support. While some things Unicode becoming standard more-or-less everywhere has helped (We can finally, reliably, know that using the ◌́ for Résumé will actually work almost everywhere) some natural scripts and many, many conlangs need features that are either difficult to implement such as:
 
+* Having previous characters change depending on the next [Like Arabic does](https://www.lebanesearabicinstitute.com/arabic-alphabet/#:~:text=In%20Arabic%20script%2C%20letters%20take,i.e.%20to%20the%20subsequent%20letter): هذه جملة مثال
+* Using a variable height line to connect words, like [Sticks](https://www.omniglot.com/conscripts/sticks.htm)
+* Having each word in a sentence being drawn on a line so that a space is not a space, like in [Ogham](https://en.wikipedia.org/wiki/Ogham): ᚛ᚁᚔᚃᚐᚔᚇᚑᚅᚐᚄᚋᚐᚊᚔᚋᚒᚉᚑᚔ᚜
+* Combining some characters (or whole words) into single characters
+* Being animated, like [Timescript](https://www.omniglot.com/conscripts/timescript.htm)
+* Using color for meaning, like [ColorHoney](https://www.omniglot.com/conscripts/colorhoney.php)
+* Using a grid, like [Eganes](https://www.omniglot.com/conscripts/eganes.htm), [Griddy Script](https://www.reddit.com/r/neography/comments/pj8xw4/griddy_script_font_finally_see_comment/), or [Betamaze](https://www.omniglot.com/conscripts/betamaze.htm)
 
-* Our systems are designed for rendering plain text and have a hard time with implied style (AST aware syntax highlighting, language servers)
-* Legacy compatability - show Arcan/Lash/Cat9
-* Some of these are just hard to learn and retain
+Among many other, much weirder things. Not all text fields will support everything. If someone is writing a novel and they don't have an easy way to make a font for their conlang that can render nicely in the text editor they're using - or, worse, something the publisher can't print - they might choose to use something that's easier.
 
-Simple, Fast, Expressive, Style points (does it look good)
+If natural languages aren't even supported very well, asking for good conlang support is obviously not going to be a priority for anybody. Computers may be amazing, but the success of standards does sometimes limit innovation.
 
-Before we wrap up, I want to say there's an *insane* number of scripts I was unable to link here that I thought were more than deserving of being featured. It's also notable that the only language I speak fluently is English, so my ability to even appreciate the scripts and conlangs more heavily rooted in other cultures is significantly more limited. This has lead me to not feature any of the beautiful scripts that are heavily inspired by existing, natural Arabic, Asian, or braille scripts. If you'd like to see more, I highly encourage you to dive into this yourself and take a stroll though the conscript world without my biases filtering it.
+{{< speech triode >}}
+
+You know pen and paper still exists, right?
+
+{{< /speech >}}
+
+Well, yeah, no shit. But humans like sharing their art and especially for relatively small communities with little to no local groups being able to inteface digitally is a big deal. Obviously this is true for conlanging and neography communities. To do that they need tools with support for making complicated scripts that use lesser-used features you might find in various font and rendering standards like OpenType in a way that is affordable (font creation software ranges from awful and free to mediocre and expensive as hell) and intuitive. There are some tools out there for conlanging ([PolyGlot](http://draquet.github.io/PolyGlot/readme.html), [akrantiain](https://github.com/sozysozbot/akrantiain2), [lexifer](https://lingweenie.org/conlang/lexifer.html), etc.) but many are either abandoned, extremely difficult for the less technically inclined to setup and use, or very limited.
+
+## Reflecting on change
+
+I think it can be easy to see conlangs as useless beyond art (Which, again, is enough to justify them on its own). Sure, if we count some programming languages as conlangs and consider some of the scripts that have specific applications - like for pixel art - we could salvage a few as "useful" but I think it's also important to remember that all languages evolve pretty rapidly and we just sort of accept it. Some of what we're used to now looks almost conlang-like if you squint at it right:
+
+* Emoji
+* Hashtags
+* tone markers (/s)
+* memes
+
+These things aren't really any one language - many of them keep their meaning regardless of the language they're mixed in with. They're conlangs used as domain specific languages that we sprinkle into our conversations. I don't see how using a little toki pona or Rhapsodaic should be any different, if we could do so as easily and create enough cultural awareness for their meaning.
 
 ## Conclusions
 
@@ -809,6 +802,12 @@ While languages themselves are tools, the tooling for using the language is just
 
 Our tools are not perfect and, especially given the rise of large language models and developments in user interfaces (such as the proliferation of node-based editors), may be seeing significant changes soon.
 
+The conlangs and neoscript communities have been thinking about these things for a lot longer than the AI Large Language Model crowd and almost all creative endeavors could benefit from trying to absorb even a fraction of what conlangers and neographers have to offer.
+
+---
+
+Before I wrap up, I want to say there's an *insane* number of scripts I was unable to link here that I thought were more than deserving of being featured. It's also notable that the only language I speak fluently is English, so my ability to even appreciate the scripts and conlangs more heavily rooted in other cultures is significantly more limited. This has lead me to not feature many of the beautiful scripts that are heavily inspired by existing, natural Arabic, Asian, or braille scripts because I may not be the best judge of their quality. If you'd like to see more, I highly encourage you to dive into this yourself and take a stroll though the conscript world without my biases filtering it.   
+
 ## Resources
 
 Obviously this page is littered with links to [omniglot.com](https://www.omniglot.com) and I can not express enough gratitude to Simon Ager for all the effort that must go into maintaining such an incredibly large resource.
@@ -823,8 +822,6 @@ Other links you may want to check out include:
 
 * http://www.skyknowledge.com/perssonsscripts
 * [neography.com](https://neography.info/writing-systems/)
-
-
 
 <ol hidden id="footnotes">
 <li>Digital interopability with natural languages that arent Left-to-Right, Top-to-Bottom is spotty. Many programs and websites struggle with support, which is unfortunate.</li>
@@ -843,6 +840,8 @@ There are two forms for each vowel: a diacritic mark and a letter form:
 • Consonants that double (little, bubble, barrel, summer, etc) simply have a line draw under it, or through the tail of the letter has one.
 </li>
 <li>I can't seem to find documentation on doing this anymore, but I know I've done it before ¯\_(ツ)_/¯</li>
+<li>Some languages do use extra symbols. Notable examples are <a href="https://en.wikipedia.org/wiki/APL_(programming_language)">APL</a> and languages that decended from it, like <a href="https://www.uiua.org">Uiua</a>. Others are a bit less extreme, like <a href="https://andrewshitov.com/2018/03/01/66-atomic-operations-in-perl-6/">how you use atomics in Raku</a>. Uiua is particularly notable for having a reasonable way for writing the weird symbols.</li>
 </ol>
+
 
 
