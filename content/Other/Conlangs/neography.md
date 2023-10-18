@@ -62,7 +62,7 @@ Obviously, this is glossing over whole subjects and intricacies that linguists h
 
 {{< columns >}}
 
-Additionally, I want to stress (pun intended) how important the **I**nternational **P**honetic **A**lphabet is. For the uninitiated, the IPA is the weird symbols you've seen in dictionaries that tell you how to pronounce a word. For example, the word "knife" would be represented with `/nīf/`. This can be useful for everything from differentiating between accents and hetronyms (for example "tear", like from your eye, is `/tɪɚ/` while a "tear" like in fabric is `/tɛɚ/` (at least for most English speakers)). Like any skill, it takes practice to be able to read ... sounds? words? [Mouth positions?](https://pink-trombone-demos.glitch.me/pink-trombone) ... This is hard to talk about ... written in the IPA, but it's absolutely worth learning.
+Additionally, I want to stress (pun intended) how important the **I**nternational **P**honetic **A**lphabet is. For the uninitiated, the IPA is the weird symbols you've seen in dictionaries that tell you how to pronounce a word. For example, the word "knife" would be represented with `/nīf/`. This can be useful for everything from differentiating between accents and heteronyms (for example "tear", like from your eye, is `/tɪɚ/` while a "tear" like in fabric is `/tɛɚ/` (at least for most English speakers)). Like any skill, it takes practice to be able to read ... sounds? words? [Mouth positions?](https://pink-trombone-demos.glitch.me/pink-trombone) ... This is hard to talk about ... written in the IPA, but it's absolutely worth learning.
 
 If you want to get into conlanging, neoscripting, linguistics, or even just want to learn a new natural language, understanding the IPA will make your life easier.
 
@@ -128,7 +128,7 @@ You're probably familiar with more art langs than you realized, some of the more
 
 * [Naʼvi](https://learnnavi.org) by Paul Frommer, made for *Avatar*
 
-Of course, those only account for the the very highest tip of the iceberg.
+Of course, those only account for the very highest tip of the iceberg.
 
 For the purposes of this page, I'll *mostly* talk about engineered languages as it's harder to talk about what makes a given art lang interesting without turning into an art snob.
 
@@ -198,7 +198,7 @@ As you can imagine, there's many more of these, but maybe Nailscript got you thi
 
 No language is perfect. Natural languages especially so, but almost all languages suffer from a variety of problems. For example:
 
-* Flexability - Can you say what you actually mean?
+* Flexibility - Can you say what you actually mean?
   * This can be a lack of vocabulary
 * Ambiguity - Can what you've said mean more than one thing?
   * This includes everything from the existence of sarcasm to homophones
@@ -212,7 +212,7 @@ and, uh, I have to call BS. It might be true that most musicians can read it, bu
 
 {{< columns >}}
 
-For example, here's a track that uses microtonality. This look incredibly visually noisy. To some extent that level of visual noise is going to be present in any system with this level of flexability, but that also doesn't mean we couldn't do a lot better.
+For example, here's a track that uses microtonality. This look incredibly visually noisy. To some extent that level of visual noise is going to be present in any system with this level of flexibility, but that also doesn't mean we couldn't do a lot better.
 
 <--->
 
@@ -455,7 +455,7 @@ Of these, I particularly like [fontok](https://www.omniglot.com/conscripts/fonto
 <img src="/fairuse/other/mastefka.webp" style="border-radius:.4em;filter: sepia(40%) hue-rotate(-50deg);">
 </div>
 
-Of course, if you go looking you'll find many others. These vary in their intent. Some writing systems aim to be be international, mostly by giving a symbol to every letter in the IPA. Clearly, this comes at the cost of adjustments that best suit any given language. 
+Of course, if you go looking you'll find many others. These vary in their intent. Some writing systems aim to be international, mostly by giving a symbol to every letter in the IPA. Clearly, this comes at the cost of adjustments that best suit any given language. 
 
 <br style="clear: both;">
 
@@ -522,7 +522,7 @@ In programming, there's this idea of domain specific languages. These are progra
 
 {{< details "Why are there different programming languages anyway?" >}}
 
-I realize that not everyone reading this may know a programming language so you be be a bit confused as to what makes a language "domain specific" or even what it would mean for a programming language to *not* be domain specific.
+I realize that not everyone reading this may know a programming language so you be a bit confused as to what makes a language "domain specific" or even what it would mean for a programming language to *not* be domain specific.
 
 For general-purpose programming languages - that is, languages which are meant to be able to be used to solve most any problem there's a whole host of reasons a programmer may pick one over the other, but more often than not the reason that dominates is *where* will the code be running. 
 
@@ -590,7 +590,7 @@ When I was a young boy   when|I|was.a|YOUNG|boy     wswwsw
 Or [Catala](https://catala-lang.org) which is more-or-less used the other way around: to translate legal documents into an intermediate semi-human readable format for verification of the ideals behind the law that can then spit out code in typical for working with data as outlined by the laws. The obvious use case being for taxation.
 
 
-I think there's still a lot of room for advancement here. For example, imagine if we we could have a sort of "craft an emotion" dialogue that can help people write Rhapsodic?
+I think there's still a lot of room for advancement here. For example, imagine if we could have a sort of "craft an emotion" dialogue that can help people write Rhapsodic?
 
 But, I do want to wrap back around to that programming idea briefly. There are some programming languages that are pretty radically different in the way we input and output information, so while they may not be "writing systems" in the traditional sense, I think they're worth a look in this list.
 
@@ -600,7 +600,7 @@ Geometry Nodes
 
 
 
-Ligatures? Old school ascii art fonts. Emoji + unicode, Visual programming (node based)
+Ligatures? Old school ASCII art fonts. Emoji + unicode, Visual programming (node based)
 
 Zoia, VCV
 
@@ -654,7 +654,7 @@ Yet, there is still some fun to be had in this line of thought. If I type out
 
 That string of text is transferred across the great series of tubes in a binary encoding. Does that make binary - or any base for that matter - it's own language? What if we have some agreed upon meaning for the binary, like we do for Unicode for text? Is it a writing system, a language in itself, or neither?
 
-Does showing an audio spectogram qualify as a writing system? I think it can. Someone trained to do so could absolutely look at waveform or spectogram of a recording to understand what was being said - this idea has been taken further, see [Elektrum (omniglot.com)](https://omniglot.com/conscripts/elektrum.htm) but, say you literally show the raw spectrum, should that count as a script if others were trained to write it by hand? Is having others be able to write it by hand necessary for that definition?
+Does showing an audio spectrogram qualify as a writing system? I think it can. Someone trained to do so could absolutely look at waveform or spectrogram of a recording to understand what was being said - this idea has been taken further, see [Elektrum (omniglot.com)](https://omniglot.com/conscripts/elektrum.htm) but, say you literally show the raw spectrum, should that count as a script if others were trained to write it by hand? Is having others be able to write it by hand necessary for that definition?
 
 This quickly devolves into interpreting encodings as their own "language" which, like, I *guessssss* could have an argument made for, but it's a stretch. Still, I think there's value in the metaphor, and especially for the technically inclined, thinking about encodings and APIs as forms of communication and taking inspiration from the conlang and conscript/neoscript community can only stand to bring about clever, innovative ideas in storage, compressing, representation, and elegance. I think that's an idea worth being open to, even if only in some double-think way where you don't actually believe it.
 
@@ -675,7 +675,7 @@ AI systems could incorporate symbols or icons to indicate the tone of their resp
 
 I think applying this the other way could be interesting too. What if we had bots to tell us what the tone of a received message probably is? As an accessibility tool that could be useful. Going a little into black-mirror territory, this could even be used to intentionally filter things. If the text to be shown is interpreted as being overly persuasive and so likely to be advertising, it could be rendered in a different font so the user can be trained to know to take it with a gain (or heaping pile of) salt. This could get pretty nuts.
 
-It's also worth considering how conlangs can be used to abuse large language models. For example, my friend {{< button relref="/interviews/CadeyRatio" color="interview" >}}Cadey Ratio{{< /button >}}  [went to DefCon31](https://xeiaso.net/blog/dc31) and figured out xe could get the model to repeat misinformation by talking to in toki pona or Esperanto.
+It's also worth considering how conlangs can be used to abuse large language models. For example, my friend {{< button relref="/interviews/CadeyRatio" color="interview" >}}Cadey Ratio{{< /button >}}  [went to DefCon31](https://xeiaso.net/blog/dc31) and figured out xe could get the model to repeat misinformation by talking to it in toki pona or Esperanto.
 
 There could be some neat ideas that spring from using LLMs for creating new conlangs or understanding nearly-dead nat-langs. One idea that I really like is having an LLM make a reasonable language that no human knows but which could be analyzed from context to try to learn on the fly. This could be useful for a video game, for example, so that it's a different language every play through. I think this could a great way to make rougelikes more fun.
 
@@ -711,13 +711,13 @@ If we lets users do this as they work calling groups of complex ideas a new term
 
 [TODO nested PD, Geometry Nodes screen shots]
 
-Taking this further, each user can optimize their typing using text expansion software. This means doing things like replacing commonly typed words and phrases with smaller strings of letters. For example, you could make it so that typing "brb" replaces those letters with "be right back". This can be taken to extremes like the [Compress](https://github.com/eschluntz/compress) tool from Erik Schluntz helps you do. Or you could go all in and and learn [Stenography](https://www.youtube.com/watch?v=nRp_1S7cj6A), which is more-or-less the same idea on steroids
+Taking this further, each user can optimize their typing using text expansion software. This means doing things like replacing commonly typed words and phrases with smaller strings of letters. For example, you could make it so that typing "brb" replaces those letters with "be right back". This can be taken to extremes like the [Compress](https://github.com/eschluntz/compress) tool from Erik Schluntz helps you do. Or you could go all in and learn [Stenography](https://www.youtube.com/watch?v=nRp_1S7cj6A), which is more-or-less the same idea on steroids
 
-By allowing users to really dig in and extend the functionality of programs by defining new concepts that make sense in their workflow and then letting them reuse those ideas later tools that are made to be general purpose can evolve with the user's needs and experiance to become more powerful for exactly how they use it - this is what "power users" of most any program always want.
+By allowing users to really dig in and extend the functionality of programs by defining new concepts that make sense in their workflow and then letting them reuse those ideas later tools that are made to be general purpose can evolve with the user's needs and experience to become more powerful for exactly how they use it - this is what "power users" of most any program always want.
 
-### Languages For Interopability
+### Languages For Interoperability
 
-While I've beaten the "universal language" dead horse already (music, math) I do think language can serve as a method of allowing for interoperability so long as you restrict it enough - like programming languages or configuration languages (JSON, YAML, etc) do. A good example of this is is the [Theme Format](https://github.com/hundredrabbits/Themes) from Hundred Rabbits where a simple SVG is used as a drag & drop color theme system for most of the applications they have developed and a growing list from others. This is particularly clever because it means the list of colors for the computer is also an image format that can be displayed in any browser, making for already built in previews.
+While I've beaten the "universal language" dead horse already (music, math) I do think language can serve as a method of allowing for interoperability so long as you restrict it enough - like programming languages or configuration languages (JSON, YAML, etc) do. A good example of this is the [Theme Format](https://github.com/hundredrabbits/Themes) from Hundred Rabbits where a simple SVG is used as a drag & drop color theme system for most of the applications they have developed and a growing list from others. This is particularly clever because it means the list of colors for the computer is also an image format that can be displayed in any browser, making for already built in previews.
 
 Hundred Rabbits also often makes their applications speak amongst each other, usually over UDP, allowing for creative applications such as using their music sequencer, [ORCΛ](https://github.com/hundredrabbits/Orca) (as shown above) to control their vector act tool, [Dotgrid](https://github.com/hundredrabbits/Dotgrid) <a class="ptr">(6)</a> where you just send the same command you'd normally run, but over the network. Making these sort of languages of communication between applications that are meant to be human readable I think is an idea more software could stand to take to heart, and is the same reason why so many Linux users feel so at home in the terminal: text is used as a common way to exchange data quickly between programs and it does use a learned vocabulary of command commands, like any other language.
 
@@ -765,7 +765,7 @@ You know pen and paper still exists, right?
 
 {{< /speech >}}
 
-Well, yeah, no shit. But humans like sharing their art and especially for relatively small communities with little to no local groups being able to inteface digitally is a big deal. Obviously this is true for conlanging and neography communities. To do that they need tools with support for making complicated scripts that use lesser-used features you might find in various font and rendering standards like OpenType in a way that is affordable (font creation software ranges from awful and free to mediocre and expensive as hell) and intuitive. There are some tools out there for conlanging ([PolyGlot](http://draquet.github.io/PolyGlot/readme.html), [akrantiain](https://github.com/sozysozbot/akrantiain2), [lexifer](https://lingweenie.org/conlang/lexifer.html), etc.) but many are either abandoned, extremely difficult for the less technically inclined to setup and use, or very limited.
+Well, yeah, no shit. But humans like sharing their art and especially for relatively small communities with little to no local groups being able to interface digitally is a big deal. Obviously this is true for conlanging and neography communities. To do that they need tools with support for making complicated scripts that use lesser-used features you might find in various font and rendering standards like OpenType in a way that is affordable (font creation software ranges from awful and free to mediocre and expensive as hell) and intuitive. There are some tools out there for conlanging ([PolyGlot](http://draquet.github.io/PolyGlot/readme.html), [akrantiain](https://github.com/sozysozbot/akrantiain2), [lexifer](https://lingweenie.org/conlang/lexifer.html), etc.) but many are either abandoned, extremely difficult for the less technically inclined to setup and use, or very limited.
 
 ## Reflecting on change
 

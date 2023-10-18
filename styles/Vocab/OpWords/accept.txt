@@ -23,6 +23,12 @@
 [Ww]avefolders
 [Ww]avefolding
 [Ww]aveshaping
+[Nn]eography
+[Cc]onlang
+[Nn]eoscript
+[Cc]onscripting
+Uiua
+Rau
 Ableton
 ADC
 ADSR
