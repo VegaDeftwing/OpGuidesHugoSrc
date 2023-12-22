@@ -156,7 +156,7 @@ But, because nothing can ever be simple, that's not always the case. Enter, bala
 
 While uncommon for 3.5mm cables like most headphones, on a lot of pro audio gear that uses the much beefier ¼ inch jacks will use a TRS cable to carry a mono signal.  
 
-[TODO] Balanced, XLR, 
+[TODO] Balanced, XLR, Phantom 48V
 
 ### Types of Hardware Controls
 
@@ -188,7 +188,7 @@ Note, there's a pretty limited number of MPE capable instruments, thankfully the
 
 **Small:**
 
-Artiphon Orba
+Keith McMillen KBoard
 
 Roli Lightpad Blocks
 

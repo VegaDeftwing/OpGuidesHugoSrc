@@ -358,6 +358,8 @@ If you want to know about the internals of the CPU itself, check out [Chapter 29
 
 [Spyware at The Hardware Level - Intel ME & AMD PSP (YouTube, Mental Outlaw)](https://youtu.be/HNwWQ9zGT-8)
 
+[Cascade: CPU Fuzzing via Intricate Program Generation](https://comsec.ethz.ch/research/hardware-design-security/cascade-cpu-fuzzing-via-intricate-program-generation/)
+
 <ol hidden id="footnotes">
     <li>With the exception of Apple's newer hardware, which runs <a href="https://en.wikipedia.org/wiki/Apple_silicon">their own silicon</a>, and some low end devices like chromebooks which may run processors like you'd find in phones.</li>
 </ol>

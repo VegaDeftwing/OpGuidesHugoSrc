@@ -1,5 +1,7 @@
 # Chapter 20 - (((())(()((()(()))))))
 
+<!-- https://koka-lang.github.io/koka/doc/index.html + Lisp, Haskell, and Futhark-->
+
 ## What is Functional Programming?
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/0if71HOyVjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

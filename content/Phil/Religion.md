@@ -234,6 +234,8 @@ As for the particulars there - maybe you are staunchly pro-life, anti-LGBT, etc.
 
 [Absurdism | How to Party at the End of Meaning (Exurb1a, YouTube)](https://www.youtube.com/watch?v=Jv79l1b-eoI&list=FLFMnqfaTa1se1LfbCB3peJQ)
 
+[We Are the Other People (Oberon (Otter) Zell)](https://www.paganlibrary.com/fundies/other_people.php)
+
 <ol hidden id="footnotes">
     <li>Hint, hint - this post is a weee bit US centric. Still, this is a thing globally too.</li>
     <li>it would probably be worth your time to look into the basics of most world religions, as nerdy, professional positions are increasingly held on a global field where you will have no choice but to work with people from diverse backgrounds across the globe, that's just not something I want to cover here. Wikipedia is a thing, go nuts.</li>

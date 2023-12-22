@@ -1,6 +1,6 @@
 # Appendix 3 - Programming Languages
 
-<!-- https://renato.athaydes.com/posts/unison-revolution.html , https://github.com/betaveros/noulith, https://github.com/esotericist/frf, https://cyberscript.dev, https://github.com/Vexu/bog, https://github.com/m-ender/hexagony (https://hexagony.net), https://www.roc-lang.org, https://koka-lang.github.io/koka/doc/index.html, https://ianthehenry.com/posts/why-janet/, futhark, This page really needs functional - Haskell, Lisp, etc. + Matlab, Dart, F#, R, Scheme Powershell, Smalltalk, Swift, scala, GLSL/HLSL, V, VHDL, Verilog, https://github.com/rxi/fe https://www.youtube.com/watch?v=pq1k5USZZ9A -->
+<!-- https://renato.athaydes.com/posts/unison-revolution.html , https://cyberscript.dev, https://github.com/Vexu/bog, https://github.com/m-ender/hexagony (https://hexagony.net), https://www.roc-lang.org, https://koka-lang.github.io/koka/doc/index.html, https://ianthehenry.com/posts/why-janet/, + Matlab, Dart, F#, R, Scheme Powershell, Smalltalk, Swift, scala, GLSL/HLSL, V, VHDL, Verilog, https://github.com/rxi/fe https://www.youtube.com/watch?v=pq1k5USZZ9A, https://github.com/berry-lang/berry, https://github.com/dbohdan/embedded-scripting-languages -->
 
 ```c
 for (🥚 = 0; 🥚 < 🐔; 🥚++){
@@ -106,6 +106,8 @@ So you really should dive into it. Learn pointers, macros, include guards, bound
 Just, if you're going to write in C, at least unit test your code. If you do that - if you care - [C can be the safest option](https://blog.joren.ga/best-of-c#safety).
 
 If you're really looking to make C easier to work with - albeit in a way that'll likely annoy others working on the code - [Cog](https://nedbatchelder.com/code/cog/) may come in handy.
+
+If you're looking for a good reference guide to come back to when needed, bookmark [Beej's Guide to C Programming](https://beej.us/guide/bgc/html/).
 
 ### C++
 
@@ -481,6 +483,14 @@ Hack, https://hacklang.org/, is Facebook's (🤮) answer to PHP. They needed som
 
 Basically, it's really nice for AI/CV/probabilistic computations
 
+### Noulith
+
+> *slaps roof of [programming language]* this bad boy can fit so much [syntax sugar] into it
+
+https://github.com/betaveros/noulith
+
+https://blog.vero.site/post/noulith
+
 ## For the Skript Kidd3s
 
 {{< quote "https://en.wikipedia.org/wiki/Script_kiddie" >}}
@@ -634,11 +644,13 @@ If you're looking to learn more, check out [Awesome Esolangs (GitHub)](https://g
 
 ### Forth
 
+Forth is probably the most well known "stack-oriented" language. Skipping a lot of the details, this means that you list argument and then the operand. To add 1 + 2 you would write `1 2 +`.
+
 ```forth
 : hello   ." Hello World!" CR ;
 ```
 
-
+There are other stack oriented languages, but today most of them are esolangs - If you want to actually try stack based programming with a modern, not intentionally convoluted syntax check out [Factor](https://factorcode.org).
 
 ### Cobol
 

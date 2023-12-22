@@ -38,9 +38,41 @@ This setup for a step sequencer is almost painfully simple, and doesn't leave a 
 
 Before moving on, I do want to help you actually make these simple step/gate sequences. For as simple as it sounds to make basic drum sequences, it's *really* not. You'll often end up making just really basic 4-on-the-floor techno (with exactly the bass drum as in the demo sequence above) or something that has at least one percussion hit on every step and gets too busy<a class="ptr">(2)</a>. The normal recommendation for this is [this 260 Drum Machine Patterns](https://www.amazon.com/Drum-Machine-Patterns-Leonard-Corp/dp/0881888877) book (that you can probably find PDFs of online) but [Beat Dissected from Attack Magazine](https://www.attackmagazine.com/technique/beat-dissected/) and this [$10 physical / FREE .PDF Drum patterns book](https://shittyrecording.studio) I think are better.
 
-##### Fills
+##### Velocity is a big deal
 
-[TODO]
+If you trying to sequence drums the *velocity* (how hard/loud) of each hit matters more than you might think. A pattern that might sound outright terrible without velocity variation can sound great with it. If you think your drums are missing something, try changing up the velocity before you reach for adding more sounds.
+
+As an example, here's a simple drum pattern where the only difference is the velocity being constant or sequenced for the snare part.
+
+{{< columns >}}
+
+<audio controls loop>
+  <source src="/sounds/snareline_no_velocity.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<--->
+
+<audio controls loop id="with_velocity">
+  <source src="/sounds/snareline_with_velocity.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<script>
+  <!--- Try to normalize the volume a bit --->
+  var audio = document.getElementById("with_velocity");
+  audio.volume = 0.5;
+</script>
+
+{{< /columns >}}
+
+##### More info on drum sequencing
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/FoMmVlAvjmM" title="How to Write Drum Parts (for non drummers)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+There's a *lot* of good info on drum sequencing on YouTube. Watch, practice, repeat.
+
+* [How to humanize Hi-Hats on any Drum Machine (Captain Pikant)](https://www.youtube.com/watch?v=Qw7SlGbj838)
 
 #### Note and Value Sequencing
 

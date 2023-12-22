@@ -32,7 +32,7 @@ slug: "UI"
 
 [Datalegeya Font](http://www.datalegreya.com/?lang=en)
 
-[Almost Monospace Fonts (blakewatson.com)](https://blakewatson.com/journal/almost-monospaced-the-perfect-fonts-for-writing/)
+[Almost Monospace Fonts (blakewatson.com)](https://blakewatson.com/journal/almost-monospaced-the-perfect-fonts-for-writing/) (Also see [monaspace](https://github.com/githubnext/monaspace))
 
 ### Data Visualization
 

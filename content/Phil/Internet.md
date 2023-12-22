@@ -4,19 +4,15 @@ slug: "Phil and The Internet"
 
 ---
 
+# Let me pass the mic,
+
+* https://sadgrl.online/cyberspace/internet-manifesto
+* https://yesterweb.org/#manifesto
+* https://sanya.gay/#manifesto
+* https://oekeiko.neocities.org/blog/lawofhouse
+* https://dheinemann.com/posts/2022-01-09-this-is-not-the-web-ive-known
 
 
-<div style="background: #111; border: solid red; width: 100%;">
-
-The fight for the Internet is never ending. At the time of writing, [Senators want to mandate anti-piracy technology across the web (ArsTechnica)](https://arstechnica.com/tech-policy/2022/04/if-you-like-youtubes-copyright-takedown-process-youll-love-this-bill/).
-
-Please call and write your congress critters, and let them know this is some stupid bullshit. Then ask your friends to do so as well. 
-
-You can use [Find My Representative (house.gov)](https://www.house.gov/representatives/find-your-representative) if you need to look up who represents you.
-
-Even if you're outside the US, this will still very likely affect you.
-
-</div>
 
 # Politics and The Internet
 

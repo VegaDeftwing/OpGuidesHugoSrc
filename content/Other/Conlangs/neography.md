@@ -256,13 +256,15 @@ and has historically been made in trackers,
 
 In either case, the notes can carry a lot of added information - pitch bend (now sometimes per-note) and multiple data streams to represent the virtual turning of knobs. That interface is a writing system of sorts - you could even argue different input devices and instruments, as long as they're just giving a computer digital data, are really just different writing utensils.
 
-There have been some efforts to make new music notation systems [Hummingbird](https://www.hummingbirdnotation.com) and [Clairnote](https://clairnote.org) both make moderate improvements (depending on who you ask) to the existing common music notation system, but don't really attempt to totally reinvent the wheel. [Dodeka](https://www.dodekamusic.com) goes a bit further, but mostly feels like an advert for a piano that just flattens the keybed. Regardless, I think there is value in at least trying to make a system easier to read and write even if it doesn't improve the overall flexibility.
+There have been some efforts to make new music notation systems [Hummingbird](https://www.hummingbirdnotation.com) and [Clairnote](https://clairnote.org) both make changes (which may be good or bad, depending on who you ask) to the existing common music notation system, but don't really attempt to totally reinvent the wheel. [Dodeka](https://www.dodekamusic.com) goes a bit further, but mostly feels like an advert for a piano that just flattens the keybed. Regardless, I think there is value in at least trying to make a system easier to read and write even if it doesn't improve the overall flexibility.
 
 To avoid loosing the thread here though, there's still a problem here. The only *true* writing system for modern music production that caries the information about the tracks is now whatever interface the software provides.
 
 I should also point out there are other musical notation systems from cultures I am less familiar with. The [Musical Notation Wikipedia page](https://en.wikipedia.org/wiki/Musical_notation) shows some of these, but I'm not even sure how to go about research most of these in depth. This also ties into how the term "music theory" isn't very good at describing modern music so much as [the harmonic style of 18th century European musicians (Adam Neely, YouTube)](https://www.youtube.com/watch?v=Kr3quGh7pJA).  
 
 It seems like the shared, universal language isn't all that shared or all that universal - let alone flexible enough to convey what we need.
+
+I'm also not going to pretend that I know enough to take my own crack at making something that's better outside of maybe one nieche use case. [Tantacrul recently made a video](https://www.youtube.com/watch?v=Eq3bUFgEcb4) where he very persusaviely arguess that while what we have has it's flaws, it's currently pretty much the best option there is. He rightfully pointing out that while a lot of digital music is produced in a piano roll today, no musician would want to try to read that as notation live to perform a piece, and has similar rebuttles for other points I've made. He also points out that many, many, many tech bros have thought "Hey, I can do better" without actually understanding why things are the way they are often resulting in them making notation systems which are dramatically less flexible or usable.
 
 I'm not sure what a new language for expression music would like nor do I know how software for writing it would maintain a reasonable degree of usability, but I did find some interesting existing tools that give it a good shot:
 
@@ -699,7 +701,7 @@ If I can get you to buy the idea that programming languages are just domain spec
 
 By this I mean things like Blender's Geometry Nodes or Pure Data,
 
-
+[TODO nested PD, Geometry Nodes screen shots]
 
 Additionally, there are countless tools that allow events to be scripted with Lua or another embedded programming language. What would it look like to apply concepts from natural languages (and maybe a little LLM magic) to these tools?
 
@@ -708,8 +710,6 @@ In programming, one thing engineers have to deal with a lot is naming functions 
 Take things like "the internet" or "a CD" - even if we know what CD stands for (Compact Disc) we don't think of it as that anymore. It's just... a CD. The internet isn't some vast network of inter connected computers it's just the internet. We've abstracted these ideas to the point we just accept them as broad concepts, becoming new words in their own right.
 
 If we lets users do this as they work calling groups of complex ideas a new term and letting them work with these components, we can expand upon this natural process of levels of abstraction. 
-
-[TODO nested PD, Geometry Nodes screen shots]
 
 Taking this further, each user can optimize their typing using text expansion software. This means doing things like replacing commonly typed words and phrases with smaller strings of letters. For example, you could make it so that typing "brb" replaces those letters with "be right back". This can be taken to extremes like the [Compress](https://github.com/eschluntz/compress) tool from Erik Schluntz helps you do. Or you could go all in and learn [Stenography](https://www.youtube.com/watch?v=nRp_1S7cj6A), which is more-or-less the same idea on steroids
 
@@ -842,6 +842,5 @@ There are two forms for each vowel: a diacritic mark and a letter form:
 <li>I can't seem to find documentation on doing this anymore, but I know I've done it before ¯\_(ツ)_/¯</li>
 <li>Some languages do use extra symbols. Notable examples are <a href="https://en.wikipedia.org/wiki/APL_(programming_language)">APL</a> and languages that decended from it, like <a href="https://www.uiua.org">Uiua</a>. Others are a bit less extreme, like <a href="https://andrewshitov.com/2018/03/01/66-atomic-operations-in-perl-6/">how you use atomics in Raku</a>. Uiua is particularly notable for having a reasonable way for writing the weird symbols.</li>
 </ol>
-
 
 
