@@ -1,4 +1,4 @@
-# 10 - Probability/Stats
+# 9 - Probability/Stats
 
 <script>
     document.getElementById("mathMenu").open = true;

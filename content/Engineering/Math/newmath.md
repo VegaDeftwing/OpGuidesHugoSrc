@@ -1,4 +1,4 @@
-# It's NEW math!
+# 10 - It's NEW math!
 
 Math, as I've tried to convey though these chapters, is more about problem-solving than actual mechanical operations. Part of solving *really* hard problems is having even weirder intuitions and tools.
 

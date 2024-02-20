@@ -24,6 +24,7 @@ As with all of OpGuides, please skip around as necessary. I suspect the start of
     <dt class="sub">6.7</dt><dd class="sub"> <a href="/engineering/math/numanalysis"> Numerical Analysis</a></dd>
     <dt class="sub">6.8</dt><dd class="sub"> <a href="/engineering/math/settheory"> Set Theory</a></dd>
     <dt class="sub">6.9</dt><dd class="sub"> <a href="/engineering/math/probability"> Probability</a></dd>
+    <dt class="sub">6.10</dt><dd class="sub"> <a href="/engineering/math/newmath"> New Math</a></dd>
    </details> </dd>
 
 {{< /columns >}}

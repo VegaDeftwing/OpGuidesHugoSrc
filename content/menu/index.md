@@ -64,6 +64,7 @@ headless: true
     <dt class="sub">.7</dt><dd class="sub"> <a href="/engineering/math/numanalysis"> Numerical Analysis</a></dd>
     <dt class="sub">.8</dt><dd class="sub"> <a href="/engineering/math/settheory"> Set Theory</a></dd>
     <dt class="sub">.9</dt><dd class="sub"> <a href="/engineering/math/probability"> Probability</a></dd>
+    <dt class="sub">.10</dt><dd class="sub"> <a href="/engineering/math/newmath"> New Math</a></dd>
    </details> </dd>
 <dt>6½</dt><dd> <a href="/engineering/math/units/">Units</a></dd>
 <dt>7 </dt><dd> <a href="/engineering/prereq/physics/">Physics</a></dd>
@@ -132,7 +133,7 @@ headless: true
 <div class="progress-ww">
 <dl>
     <dl>
-<dt>22 </dt><dd> <details id="Circuits1Menu"> <summary><a href="/engineering/circuits/intro/1-intro/">Circuits!</a></summary>
+<dt>23 </dt><dd> <details id="Circuits1Menu"> <summary><a href="/engineering/circuits/intro/1-intro/">Circuits!</a></summary>
 	<dt class="sub">.1 </dt><dd class="sub"> <a href="/engineering/circuits/intro/2-tools/"> Tools</a></dd>
     <dt class="sub">.2 </dt><dd class="sub"> <a href="/engineering/circuits/intro/3-lcr/"> ⅏ ⟛ Ω</a></dd>
     <dt class="sub">.3 </dt><dd class="sub"> <a href="/engineering/circuits/intro/4-sim/"> Simulation</a></dd>
@@ -165,8 +166,10 @@ headless: true
 <dt>35 </dt><dd> <a href="/engineering/deeper/reverse/">Reverse Engineering</a></dd>
 <dt>36 </dt><dd> <a href="/engineering/deeper/fpga1/">Programmable Logic</a></dd>
 <dt>37 </dt><dd> <a href="/engineering/deeper/comparch/">Let's Make our own CPU</a></dd>
+<dt>37½</dt><dd> <a href="/engineering/deeper/nonsilicon/">Why Just Silicon?</a></dd>
 </dil>
 </div>
+
 
 
 
@@ -193,8 +196,10 @@ headless: true
 <dt>42 </dt><dd> <a href="/engineering/making/3dprint/">3D Printing & CNC</a></dd>
 <dt>43 </dt><dd> <a href="/engineering/making/hamradio/">Ham Radio</a></dd>
 <dt>44 </dt><dd> <a href="/engineering/making/history/">Computer History</a></dd>
+<dt>45 </dt><dd> <a href="/engineering/making/mechanical/">Mechanical</a></dd>
 </dil>
 </div>
+
 
 
 
@@ -202,7 +207,7 @@ headless: true
 
 <div class="progress-ww">
 <dl>
-<dt>45 </dt><dd> <a href="/engineering/wrappingup/wrappingup/">Where next?</a></dd>
+<dt>46 </dt><dd> <a href="/engineering/wrappingup/wrappingup/">Where next?</a></dd>
 <dt>A3 </dt><dd> <a href="/engineering/wrappingup/cheat/">Cheat Sheets & Libraries</a></dd>
 <dt>A4 </dt><dd> <a href="/engineering/wrappingup/resources/">Other Great Resources</a></dd>
 <dt>A5 </dt><dd> <a href="/engineering/wrappingup/job/">Getting a Job</a></dd>
@@ -255,6 +260,8 @@ headless: true
 <dt>9 </dt><dd> <a href="/music/music-hardware/">Hardware</a></dd>
 <dt>10 </dt><dd> <a href="/music/theory/">Theory</a></dd>
 <dt>11 </dt><dd> <a href="/music/mix-and-master/">Mixing & Mastering</a></dd>
+<dt>12 </dt><dd> <a href="/music/lyrics/">Lyrics</a></dd>
+<dt>13 </dt><dd> <a href="/music/psychoacoustic/">Psychoacoustics</a></dd>
 <dt>A1 </dt><dd> <a href="/music/other-resources-music/">Other Resources</a></dd>
 <dt>A2 </dt><dd> <a href="/music/video/">Video</a></dd>
 <dt>A3 </dt><dd> <a href="/music/vcv/">VCV Tips</a></dd>
@@ -310,10 +317,13 @@ headless: true
    </details> </dd>
 <dt>19 </dt><dd> <a href="/phil/duties/">Duties</a></dd>
 <dt>20 </dt><dd> <a href="/phil/phil-and-the-internet/">Internet</a></dd>
+<dt>21 </dt><dd> <a href="/phil/economics/">Economics</a></dd>
+<dt>22 </dt><dd> <a href="/phil/history/">History</a></dd>
 <dt>21 </dt><dd> <a href="/phil/phil-misc/">Misc</a></dd>
 <dt>A1 </dt><dd> <a href="/phil/phil-other/">Other Resources</a></dd>
 </dil>
 </div>
+
 
 
 ---
@@ -335,6 +345,7 @@ headless: true
 <dt>4 </dt><dd> <a href="/design/ui/">UI/UX</a></dd>
 <dt>5 </dt><dd> <a href="/design/3d/">3D</a></dd>
 <dt>6 </dt><dd> <a href="/design/gen/">Generative Tools</a></dd>
+<dt>7 </dt><dd> <a href="/design/animation/">Animation</a></dd>
 <dt>A1 </dt><dd> <a href="/design/design-other/">Other Resources</a></dd>
 <dt>A2 </dt><dd> <a href="/design/ia/">Inspirational Art</a></dd>
 <dt>A3 </dt><dd> <a href="/design/photo/">Photo</a></dd>

@@ -10,7 +10,7 @@
 
 <--->
 
-# Legacy Hardware?
+# 12 - Legacy Hardware?
 
 There's some old hardware almost everyone is familiar with: Floppy disks and big ol' CRT monitors became a big part of what defined a computer, and became recognizable enough that the shape of a floppy disk is still the standard save icon today. But still, why care?
 

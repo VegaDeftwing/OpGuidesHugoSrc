@@ -1,4 +1,4 @@
-## 9 - Set Theory
+# 8 - Set Theory
 
 {{< attribution >}}The, uh, study of sets. It's not as boring as it sounds, I swear.{{< /attribution >}}
 

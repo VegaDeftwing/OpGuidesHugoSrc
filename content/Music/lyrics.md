@@ -1,4 +1,4 @@
-# Lyrics & Vocals
+# 12 - Lyrics & Vocals
 
 {{< quote "Some moron that has never made music" >}}
 
@@ -115,4 +115,3 @@ Sing.
              Write.
 <b>Sing.</b>
 </pre>
-

@@ -413,6 +413,8 @@ this looks similar to a hint, but is more stark on the page and has the "!"
 
 ## Katex
 
+$ \LaTeX $ this syntax can be enabled if I end up doing a lot of math again: https://gohugo.io/content-management/mathematics/
+
 can be used to render {{< katex >}}\LaTeX{{< /katex >}}
 
 note, the 'display' option changes the look.

@@ -24,6 +24,8 @@
 
 [NotCurses](https://github.com/dankamongmen/notcurses) (It's not Ncurses) - "blingful character graphics/TUI library. definitely not curses."
 
+[SimSIMD](https://github.com/ashvardanian/SimSIMD) - "Vector Similarity Functions 3x-200x Faster than SciPy and NumPy — for Python, JavaScript, and C 11, supporting f64, f32, f16, i8, and binary vectors using SIMD for both x86 AVX2 & AVX-512 and Arm NEON & SVE"
+
 ### C
 
 [Awesome-C](https://github.com/oz123/awesome-c) - "A curated list of awesome C frameworks, libraries, resources and other shiny things. Inspired by all the other awesome-... projects out there."

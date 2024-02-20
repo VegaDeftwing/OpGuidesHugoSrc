@@ -1,6 +1,6 @@
 # Appendix 3 - Programming Languages
 
-<!-- https://renato.athaydes.com/posts/unison-revolution.html , https://cyberscript.dev, https://github.com/Vexu/bog, https://github.com/m-ender/hexagony (https://hexagony.net), https://www.roc-lang.org, https://koka-lang.github.io/koka/doc/index.html, https://ianthehenry.com/posts/why-janet/, + Matlab, Dart, F#, R, Scheme Powershell, Smalltalk, Swift, scala, GLSL/HLSL, V, VHDL, Verilog, https://github.com/rxi/fe https://www.youtube.com/watch?v=pq1k5USZZ9A, https://github.com/berry-lang/berry, https://github.com/dbohdan/embedded-scripting-languages -->
+<!-- https://renato.athaydes.com/posts/unison-revolution.html , https://cyberscript.dev, https://github.com/Vexu/bog, https://github.com/m-ender/hexagony (https://hexagony.net), https://www.roc-lang.org, https://koka-lang.github.io/koka/doc/index.html, https://ianthehenry.com/posts/why-janet/, + Matlab, Dart, F#, R, Scheme Powershell, Smalltalk, Swift, scala, GLSL/HLSL, V, VHDL, Verilog, https://github.com/rxi/fe https://www.youtube.com/watch?v=pq1k5USZZ9A, https://github.com/berry-lang/berry, https://github.com/dbohdan/embedded-scripting-languages, + Editors and language servers: https://github.com/kneasle/sapling -->
 
 ```c
 for (🥚 = 0; 🥚 < 🐔; 🥚++){
@@ -108,6 +108,8 @@ Just, if you're going to write in C, at least unit test your code. If you do tha
 If you're really looking to make C easier to work with - albeit in a way that'll likely annoy others working on the code - [Cog](https://nedbatchelder.com/code/cog/) may come in handy.
 
 If you're looking for a good reference guide to come back to when needed, bookmark [Beej's Guide to C Programming](https://beej.us/guide/bgc/html/).
+
+<!-- Investigate later: https://www.philipzucker.com/cbmc_tut/ -->
 
 ### C++
 

@@ -1,4 +1,4 @@
-# 10 - How to Know What to Buy
+# 11 - How to Know What to Buy
 
 <script>
     document.getElementById("hardwareMenu").open = true;
