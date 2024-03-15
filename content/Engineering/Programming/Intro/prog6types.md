@@ -55,6 +55,8 @@ int main() {
 
 Will print out 65536.00000000000000000000  - our .000000000001 was lost!
 
+For all this complexity... it usually doesn't matter. For normal calculations, you probably won't even have to worry about this. If you do have to worry about it, check out [Herbie](https://herbie.uwplse.org).
+
 {{< smalltext >}} I have had bugs from this bite me, see [this code](https://github.com/VegaDeftwing/PinkTromboneVCV/commit/41a93446888babff5235344b06957ec00e6c1232#r73908588) for example, where I fixed a bug because once a value reached 512 I was adding so little to it that it no longer incremented.{{< /smalltext >}}
 
 {{< smalltext >}}</br></br>If for some reason this is your shit, you might want to look into [Unum/Posits](https://en.wikipedia.org/wiki/Unum_(number_format)), as they stand to become more common in the coming years and will probably become more frequently used as an alternative to the good ol' IEEE floating point. For now they're more an interesting look into the far future than useful to know about.{{< /smalltext >}}

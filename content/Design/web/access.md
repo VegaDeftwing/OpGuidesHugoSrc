@@ -118,3 +118,5 @@ And, yeah, ｏｏｆ. That's not a good experience. It's worth trying to balance
 
 ## Not being a dick™
 TODO: Facebook putting each letter of sponsored in a different div breaking things.
+
+https://btxx.org/posts/Please_Make_Your_Table_Headings_Sticky/

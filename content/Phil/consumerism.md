@@ -4,6 +4,13 @@ slug: "Consumerism"
 
 ---
 
+<style>
+    body{
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='1000' height='100' viewBox='0 0 400 1' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3ctext x='0' y='0' fill='rgb(35, 35, 35)'%3eIF BUYING ISN'T OWNERSHIP, PIRACY ISN'T THEFT%3c/text%3e%3c/svg%3e ");
+    background-repeat: repeat;
+    }
+</style>
+
 # Consumerism
 
 {{< columns >}}
@@ -85,6 +92,8 @@ https://dvt.name/2020/02/24/rfc-lets-disrupt-dating-apps/
 [A classic Silicon Valley tactic — losing money to crush rivals — comes in for scrutiny (Washington Post)](https://www.washingtonpost.com/technology/2021/07/06/facebook-bulletin-antitrust/)
 
 [Uber doubles price if your battery is low](https://twitter.com/NerdyAndNatural/status/1427614996738068485)
+
+[Diseconomies of scale in fraud, spam, support, and moderation (Dan Luu)](https://danluu.com/diseconomies-scale/)
 
 ### Hurting the paying customer, rewarding the pirate?
 

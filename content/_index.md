@@ -122,6 +122,8 @@ one time contribution of $10+ or any monthly contribution on GitHub Sponsors or 
 
 Albert Wavering
 
+[Simon Grunwald](https://simongrunwald.de)
+
 <--->
 
 <img src="/nonfree/logo/silver.svg" style="zoom:33%;" />

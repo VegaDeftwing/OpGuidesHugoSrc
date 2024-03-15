@@ -319,6 +319,10 @@ Just drop two of them down, route the `OUT` from the one on the right into the `
 
 ![](/music/fmop.webp)
 
+## Phase Distortion
+
+[TODO]
+
 
 ## Granular Synthesis
 

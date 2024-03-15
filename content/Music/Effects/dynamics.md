@@ -465,7 +465,7 @@ There's an infinite number of ways to make a compressor. The most basic is to ju
 
 {{< /devegg >}}
 
-## Guitar Amps
+## Recommendations
 
 While we can look at what make a distortion on the microscopic scale as we have though this page: this sort of misses a point about how these things play together. The truth is you probably want your distortion to do a lot of effects all at once. You probably want some overdrive, some soft clipping, some of the dry signal, some eq applied, some filtering, some ... magic - that is, you probably want your distortion to do all the things you're thinking about when you think about what a guitar sounds like after running though the guitar amp and speaker.
 
@@ -480,6 +480,7 @@ I, personally, have found my go-to tools are
 * [Noise Engineering Ruina VST ](https://noiseengineering.us/products/the-freequel-bundle-sinc-vereor-virt-vereor-ruina) (FREE)
 * {{< vale >}}Kuassa's{{< /vale >}} [Gainia preamp](https://www.kuassa.com/products/efektor-gainia-preamp-bundle/) VSTs
 * When paired with another distortion (Rat, DS-1, whatever) the a green ringer pedal clone with **germanium diodes** (the diodes are important, as otherwise the response doesn't feel great, in my opinion) adds a lot of ... something. It is an octave effect, but the way it distorts with chords yields something I haven't heard in anything else. These are pretty much only available from random hand made pedal builders on Reverb, so prices vary. The one I have was made by [Dongeomac](https://reverb.com/shop/dongeomac), but there are others.
+* [Evantide's CrushStation](https://www.eventideaudio.com/plug-ins/crushstation/)
 
 These have a nice response to varying dynamics and feel "right" to me.
 

@@ -121,3 +121,4 @@ https://vaclavkosar.com/ml/PID-controller-control-loop-mechanism
 
 https://pidtuner.com/#/
 
+https://www.wescottdesign.com/articles/pid/pidWithoutAPhd.pdf

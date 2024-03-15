@@ -203,7 +203,7 @@ If you're feeling particularly interested in this and want to learn more, I stro
 
 Chorus does as the name implies, layering copies of the signal together to get a 'denser' sound. To be a chorus (and not just increase the volume) the copies are slightly pitch shifted, delayed, or otherwise modulated relative to one another. 
 
-Chorus tend to come in a lot of different flavors, so even if you try one at first and don't love it, try some others. [Magic Switch](https://babyaud.io/freebies) from Baby Audio is free and sound absolutely fantastic. I also recommend checking out Boss's Dimension C pedal - or a clone of it. [It has a particularly nice sound](https://www.youtube.com/watch?v=GZs63IUgTw0).
+Chorus tend to come in a lot of different flavors, so even if you try one at first and don't love it, try some others. [Magic Switch](https://babyaud.io/freebies) from Baby Audio is free and sound absolutely fantastic. I also recommend checking out Boss's Dimension C pedal - or a clone of it. [It has a particularly nice sound](https://www.youtube.com/watch?v=GZs63IUgTw0). Eventide's TriceraChorus - available as both a pedal and a VST - is also quite go
 
 See [Time-Varying Delay Effects](https://www.dsprelated.com/freebooks/pasp/Time_Varying_Delay_Effects.html) on DSPRelated.com for more about how this works.
 

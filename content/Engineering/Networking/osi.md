@@ -340,6 +340,8 @@ still TCP, out-of-band, maintains state, passive v active mode
 
 ### DNS - Domain Name Service
 
+[Not All TLDs Are Created Equal (Matt Palmer)](https://www.hezmatt.org/~mpalmer/blog/2024/02/13/not-all-tlds-are-created-equal.html)
+
 **TTL?**
 
 DNS TTL, or Time to Live, is a value in DNS records that determines how long a DNS resolver is supposed to cache the DNS record before it expires and a new query is made to the DNS server to refresh the record. This value is set by the owner of the domain and is specified in seconds. A low DNS TTL value means that the DNS resolver will refresh the record more frequently, while a high DNS TTL value means that the record will be cached for a longer period of time before it is refreshed. This can be useful for managing the load on DNS servers and ensuring that users always have access to the most up-to-date information about a domain.

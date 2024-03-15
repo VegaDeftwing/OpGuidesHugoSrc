@@ -1,3 +1,9 @@
+
+
+![Mushrooms_feathered_small](/nonfree/character/Mushrooms_feathered_small.webp)
+
+{{< attribution >}}Character owned by Vega, art by [Primorde Designs](https://twitter.com/AurumAMoo) {{< /attribution >}}
+
 # Environmental Protection
 
 {{< columns >}}

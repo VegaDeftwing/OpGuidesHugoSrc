@@ -24,7 +24,7 @@ This is Opinionated Guides, so let me be clear, I really, **really** hate SQL. I
 
 [Generating SQL Code with Blocks](https://www.dbinf.informatik.uni-wuerzburg.de/google-blockly-4efa0da/sql/index.html) - Scratch Like Programming for SQL
 
-
+https://pql.dev
 
 ### SQL Servers (MySQL)
 
