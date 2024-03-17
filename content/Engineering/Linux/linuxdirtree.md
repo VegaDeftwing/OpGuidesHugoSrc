@@ -214,13 +214,8 @@ crw-rw-rw-   1 root root      10, 229 Feb  8 06:03 fuse
 crw-------   1 root root     254,   0 Feb  8 06:03 gpiochip0
 crw-------   1 root root     254,   1 Feb  8 06:03 gpiochip1
 crw-------   1 root root     240,   0 Feb  8 06:03 hidraw0
-------------------------------------------------------------------------------------
-to make this output shorter I stripped out hidraw 1-5,10-12
-------------------------------------------------------------------------------------
-crw-rw----+  1 root root     240,   6 Feb  8 06:03 hidraw6
-------------------------------------------------------------------------------------
-to make this output shorter I stripped out hidraw 7-9
-------------------------------------------------------------------------------------
+[...]
+crw-rw----+  1 root root     240,   6 Feb  8 06:03 hidraw12
 ```
 
 'fb0' is your framebuffer - I can't do this justice https://www.kernel.org/doc/Documentation/fb/framebuffer.txt, in practice you're unlikely to ever use this, but it's very good to know

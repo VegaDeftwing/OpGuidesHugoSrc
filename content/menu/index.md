@@ -102,7 +102,7 @@ headless: true
 <dt>15 </dt><dd> <a href="/engineering/programming/algorithms/">Algorithms and More</a></dd>
 <dt>15½</dt><dd> <a href="/engineering/programming/data/">Data is hard</a></dd>
 <dt>16 </dt><dd> <a href="/engineering/programming/gitcicd/">Git, Testing, CI & CD</a></dd>
-<dt>17 </dt><dd> <a href="/engineering/programming/multithread/">We've Got Cores!</a></dd>
+<dt>17 </dt><dd> <a href="/engineering/programming/optimization/">Optimization</a></dd>
 <dt>18 </dt><dd> <a href="/engineering/programming/guiprog/">Graphical Programming</a></dd>
 <dt>19 </dt><dd> <a href="/engineering/programming/shaders/">Shaders + GpGPU</a></dd>
 <dt>20 </dt><dd> <a href="/engineering/programming/funcprog/">(((())(()((()(()))))))</a></dd>

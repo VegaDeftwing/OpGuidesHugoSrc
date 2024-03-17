@@ -2,7 +2,29 @@
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/KmfdeWd0RMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
+
+
+
 {{< columns >}}
+
+Units are a really big deal. A single missed unit conversion in [The Mars Climate Orbiter](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure) made the mission a failure which cost $327 million in 1998.
+
+Or it could just mean you're overpaying on your phone bill, since it seems nobody at [Verizon knows the difference between .002¢ and .002$](https://www.youtube.com/watch?v=zN9LZ3ojnxY).
+
+I could dig around and find more funny examples, but on a serious note, you'll end up dealing with units a *lot* in pretty much engineering discipline.
+
+You probably have at least some practical experience with unit convesion for the few things most people see commonly:
+
+C ↔ °F
+
+Ft ↔ M
+
+Mi ↔ Km
+
+To deal with those, it's almost always what you're used to, just multiply or divide by some number. For *some* units you also have to add or subtract a constant - like doing C ↔ °F
+
+The other thing you're likely to see though is converting between scales of units. So, lets dig inot that:
 
 <--->
 
@@ -19,7 +41,7 @@ By 42CrMo4 and Christoph Päper [English units of Length](https://en.wikipedia.o
 
 ## Scaling, Logarithms and Scientific Notation
 
-Before we get into units, we need to get into *scale*. That is, the idea of how big or how small something is, usually relative to something else.
+Many units have a scale attached. For example, the meter - you have killometers (1000 meters) and centimeters (.01 meters) - so we need to discuss *scale*. That is, the idea of how big or how small something is, usually relative to something else.
 
 In elementary school, you were taught to write the powers of 10 like this:
 
@@ -85,14 +107,14 @@ But with this system of units and powers, you don't have to. You only need to kn
 
 The most common prefixes are not multiples of ten, but multiples of one thousand -- and with EE, usually in the smaller direction:
 
-| Quantity | Prefix (meters) |
-|----------|------|
-| 1E0     | Meter|
-| 1E-3     | Millimeter |
-| 1E-6     | Micrometer |
-| 1E-9     | Nanometer |
-| 1E-12     | Picometer |
-| 1E-15     | Femptometer |
+| Quantity | Prefix (meters) | Shorthand |
+|----------|------|------|
+| 1E0     | Meter| m |
+| 1E-3     | Millimeter | mm |
+| 1E-6     | Micrometer | μm |
+| 1E-9     | Nanometer | nm |
+| 1E-12     | Picometer | pm |
+| 1E-15     | Femptometer | fm |
 
 Millimeters are the smallest one can possibly use in day-to-day life without special equipment. But to a nuclear physicist, the Nanometer is the moon's orbital distance compared to our own height.
 

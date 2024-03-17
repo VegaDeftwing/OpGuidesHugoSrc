@@ -1,9 +1,5 @@
 # Chapter 9 - 'The Rest'
 
-## Finance
-
-[TODO] because making and engineering are expensive, and you probably want to make money, and spend less money.
-
 ## Music
 
 Music? In a chapter on Engineering? Well, yeah. Hear me out, music is a combination of math and signals.
@@ -44,11 +40,38 @@ If you get into Modular music systems, like eurorack, it's really similar to pro
 
 ## Health
 
+{{< tip >}}
 
+I'm not a healthcare professional.
+
+{{< /tip >}}
+
+I'm going to keep this exceptionally brief, but to be a good hacker/engineer/maker/whatever-you-want-to-be you need to be capable (physically able) and motivated (mentally able) and you should aim to make both as good as you can.
+
+{{< columns3 >}}
+
+### Mental
+
+* Don't become a total work-a-holic
+
+* Keep friendships
+
+* Have hobies that aren't engineering-y
+  * And don't force them all of them to be engineering-y. If you spend more time getting it to work in Linux than actually enjoying it, Linux is your hobby. Get a hobby that's not Linux.
+
+<--->
+
+### Physical
 
 {{< columns >}}
 
-[TODO] Mental & Physical, because nerds typically suck at this.
+* Limit caffine intake
+
+* Brush yo' fuckin' teath
+
+* Actually walk around a park and get fresh air
+
+  (Touch grass)
 
 <--->
 
@@ -57,6 +80,8 @@ If you get into Modular music systems, like eurorack, it's really similar to pro
 {{< attribution >}}Character owned by Vega, art by [Talon Creations](https://twitter.com/Talon_Creations){{< /attribution >}}
 
 {{< /columns >}}
+
+{{< /columns3 >}}
 
 ## World Studies
 
@@ -79,11 +104,5 @@ So, even if you're not super into it, give the [Design Chapters]({{< relref "Des
 If you'd like a good laugh, check out this video from Tantacrul roasting the poor design of *Sibelius*, a popular program for music notation
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/dKx1wnXClcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-There's also this gallery of bad volume controls:</ol>
-
-
-
-<blockquote class="imgur-embed-pub" lang="en" d
 
 

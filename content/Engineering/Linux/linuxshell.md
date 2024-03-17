@@ -150,10 +150,10 @@ So in the exact same way that you can *emulate* an old video game console to pla
 
 {{< smalltext >}}If you're curious about how this emulation works, see [Anatomy of a Terminal Emulator (Aram Drevekein)](https://www.poor.dev/blog/terminal-anatomy/). Then, you may want to read up on the actual character sequences, see [everything you ever wanted to know about terminals (Lexi Summer Hale)](http://xn--rpa.cc/irl/term.html) and [XTerm Control Sequences (Edward Moy)](https://invisible-island.net/xterm/ctlseqs/ctlseqs.html).{{< /smalltext >}}
 
-Just like the hardware however, the terminals don't do anything on their own, that is where the **shell** comes in. The shell is the program your terminal is usually running when it opens. By default on most Linux Systems it's Bash and on Windows it's CMD or Powershell, but there's many, many alternative shells. These shells all serve a few main functions
+Just like the hardware however, the terminals don't do anything on their own, that is where the **shell** comes in. The shell is the program your terminal is usually running when it opens. By default on most Linux Systems it's Bash and on Windows it's CMD or Powershell, but there's many, many alternative shells. These shells all serve a few main functions.
 
-*  Work as a sort of dispatcher for other commands. For example, when you run `ls` the shell let's `ls` print to the terminal before taking back control)
-* Provide content redirection facilities. For example, when you run`ls > somefile` the shell is handling the `>` which tells it to take the output from the running program (ls) and put it into the file (some file).
+*  Provide sort of dispatcher for other commands. For example, when you run `ls` the shell let's `ls` print to the terminal before taking back control)
+* Provide content redirection facilities. For example, when you run `ls > somefile` the shell is handling the `>` which tells it to take the output from the running program (`ls`) and put it into the file (`somefile`).
 * Provide scripting capability. Allowing for programming by chaining other commands. We'll look at this more in a bit.
 * Provide basic niceities (history, tab completion, automatic suggestions, etc.)
 
