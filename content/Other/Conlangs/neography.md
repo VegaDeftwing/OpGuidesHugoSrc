@@ -289,7 +289,7 @@ Is a pretty clear message.
 
 Clearly talking in only emoji wouldn't really be ideal, but it's still wrong to discount it outright as a conlang/writing system (or would it be a natlang?)
 
-But, it does have a massive problem: it doesn't display consistently on different platforms. It boggles my mind that it's a crap shoot for if 🏳️‍⚧️ is a trans flag, or a trans symbol followed by a white flag (⚧️🏳️). Pride or surrender? Similarly, the Windows operating system is cool with gay pirates, 🏳️‍🌈🏴‍☠️, but no country flags will render correctly (though it is possible your browser will compensate, here's a US flag: 🇺🇸). More complicated yet, will the Taiwan flag (🇹🇼) render if you're in China? Doubtful. 
+But, it does have a massive problem: it doesn't display consistently on different platforms. It boggles my mind that it's a crap shoot for if 🏳️‍⚧️ is a trans flag, or a trans symbol followed by a white flag (⚧️🏳️). Pride or surrender? Similarly, the Windows operating system is cool with gay pirates, 🏳️‍🌈🏴‍☠️, but no country flags will render correctly (though it is possible your browser will compensate, here's a US flag: 🇺🇸). More complicated yet, will the Taiwan flag (🇹🇼) render if you're in China? [Doubtful.](https://www.taiwannews.com.tw/en/news/4690197) 
 
 This means the medium itself isn't reliable **AND** everything that's said has to go though a sort of extra look-up in the reciving party's brain to try to parse the intended meaning of the message.
 
