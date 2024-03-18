@@ -33,15 +33,14 @@ slug: "Basic Phil"
 </svg>
 </div>
 
+
+Before anything else, I think it's necessary to point out this is **opinionated** guides. 
+
+Philosophy involves looking at the world around us and asking ourselves 'why', then making arguments for how things should be different and what moral frameworks work best to come to conclusions that optimize for something like happiness or 'goodness' in the world. Given that both morals and 'goodness' are not absolutes, the best way for me to write this guide and actually be of service to you as a reader is to provide my **opinion** and talk about why I believe what believe both from a researched 'here are the facts' sense and from a 'here is the moral framework that, with these facts, brought me to this conclusion' sense. You don't have to agree with my opinions, I'd rather you didn't actually, as agreement means talking to you doesn't expose me to new ideas.<a class="ptr">(1)</a> Instead it's my hope that reading my opinion, seeing how I present arguments, and seeing the research that goes into them will show you how to think about how to apply facts to moral frameworks.
+
 {{< tip >}}
 
-Before anything else, I think it's necessary to point out this is **opinionated** guides. Philosophy involves looking at the world around us and asking ourselves 'why', then making arguments for how things should be different and what moral frameworks work best to come to conclusions that optimize for something like happiness or 'goodness' in the world. Given that both morals and 'goodness' are not absolutes, the best way for me to write this guide and actually be of service to you as a reader is to provide my **opinion** and talk about why I believe what believe both from a researched 'here are the facts' sense and from a 'here is the moral framework that, with these facts, brought me to this conclusion' sense. You don't have to agree with my opinions, I'd rather you didn't actually, as agreement means talking to you doesn't expose me to new ideas.<a class="ptr">(1)</a> Instead it's my hope that reading my opinion, seeing how I present arguments, and seeing the research that goes into them will show you how to think about how to apply facts to moral frameworks.
-
-{{< /tip >}}
-
-{{< tip >}}
-
-I also want to toss up a **content warning**, for, like, everything. We're gonna get messy. This means assisted suicide, abortion, religion, gun rights, war, labor rights, etc. Just look at the chapters on the left and it reads as a shopping list of topics not to bring up at a family gathering.
+I want to toss up a **content warning**, for, like, everything. We're gonna get messy. This means assisted suicide, abortion, religion, gun rights, war, labor rights, etc. Just look at the chapters on the left and it reads as a shopping list of topics not to bring up at a family gathering.
 
 {{< /tip >}}
 
@@ -89,7 +88,13 @@ If you want to know why, let's start with a different branch of philosophy: Epis
 
 The classical division by the ancient Greeks created a branch of philosophy known as *epistemology*. This branch is focused on the question of what constitutes knowledge and how we gain it. In other words, *how do we know* what we know?
 
-There have been many answers to this question in western thought, but the dominant answer is a rubric created by Plato: the justified true belief. It is a simple three part test: is it an explainable and actionable belief, is that belief justified by evidence, and is it true (in a logical or absolute sense)? If so, that's knowledge. A true belief without justification is vacuous logic, not knowledge. A justified belief that is untrue is pure sophistry or an error, not knowledge. An observation about the world without any belief about it is a fact, not knowledge.
+There have been many answers to this question in western thought, but the dominant answer is a rubric created by Plato: the justified true belief. It is a simple three part test: 
+
+1. Is it an explainable and actionable belief?
+2. Is that belief justified by evidence?
+3.  is it true (in a logical or absolute sense)?
+
+If so, that's knowledge. A true belief without justification is vacuous logic, not knowledge. A justified belief that is untrue is pure sophistry or an error, not knowledge. An observation about the world without any belief about it is a fact, not knowledge.
 
 This rubric has held sway for over two millennia, and remains at the foundation of a lot of western culture. It is the way lots of people think they know things, and is hiding underneath popular philosophies and ideologies. It is also used in theology and religious studies extensively.
 
@@ -135,13 +140,9 @@ That mismatch in epistemology leaves no room for any genuine debate. It is why n
 
 With that out of the way let's stick to (mostly) moral philosophy (often just called Ethics) then. What does that entail?
 
-> **Ethics** or **moral philosophy** is a branch of philosophy that "involves systematizing, defending, and recommending concepts of right and wrong behavior".
-
-{{< attribution >}}
-
-https://en.wikipedia.org/wiki/Ethics
-
-{{< /attribution >}}
+{{< quote "https://en.wikipedia.org/wiki/Ethics" >}}
+**Ethics** or **moral philosophy** is a branch of philosophy that "involves systematizing, defending, and recommending concepts of right and wrong behavior".
+{{< /quote >}}
 
 To start with, most ethics arguments depend on an ethical framework, this is the set of ideals/rules/principals that establish how to make decisions. To get started, let's look at some of these ethical frameworks:
 
@@ -151,18 +152,14 @@ To start with, most ethics arguments depend on an ethical framework, this is the
 
 The most common example for which utilitarianism is applied is the trolley problem:
 
->  There is a runaway trolley barrelling down the railway tracks. Ahead, on the tracks, there are five people tied up and unable to move. The trolley is headed straight for them. You are standing some distance off in the train yard, next to a lever. If you pull this lever, the trolley will switch to a different set of tracks. However, you notice that there is one person on the side track. You have two options:
->
-> 1. Do nothing and allow the trolley to kill the five people on the main track.
-> 2. Pull the lever, diverting the trolley onto the side track where it will kill one person.
->
-> Which is the more ethical option? Or, more simply: What is the right thing to do?
+{{< quote "https://en.wikipedia.org/wiki/Trolley_problem" >}}
+There is a runaway trolley barrelling down the railway tracks. Ahead, on the tracks, there are five people tied up and unable to move. The trolley is headed straight for them. You are standing some distance off in the train yard, next to a lever. If you pull this lever, the trolley will switch to a different set of tracks. However, you notice that there is one person on the side track. You have two options:
 
-{{< attribution >}}
+1. Do nothing and allow the trolley to kill the five people on the main track.
+2. Pull the lever, diverting the trolley onto the side track where it will kill one person.
 
-https://en.wikipedia.org/wiki/Trolley_problem
-
-{{< /attribution >}}
+Which is the more ethical option? Or, more simply: What is the right thing to do?
+{{< /quote >}}
 
 The basic idea being, that, assuming there's not some special circumstances or that you simply don't have a way to know those circumstances, the moral option is to pull the switch, because it saves the most lives.
 
@@ -170,13 +167,10 @@ Utilitarianism is a neat idea that, in my opinion, fails almost immediately for 
 
 ### Moral Calculus
 
-> The **felicific calculus** is an algorithm formulated by utilitarian philosopher Jeremy Bentham (1747–1832) for calculating the degree or amount of pleasure that a specific action is likely to cause. Bentham, an ethical hedonist, believed the moral rightness or wrongness of an action to be a function of the amount of pleasure or pain that it produced.
+{{< quote "https://en.wikipedia.org/wiki/Felicific_calculus" >}}
+The **felicific calculus** is an algorithm formulated by utilitarian philosopher Jeremy Bentham (1747–1832) for calculating the degree or amount of pleasure that a specific action is likely to cause. Bentham, an ethical hedonist, believed the moral rightness or wrongness of an action to be a function of the amount of pleasure or pain that it produced.
 
-{{< attribution >}}
-
-https://en.wikipedia.org/wiki/Felicific_calculus
-
-{{< /attribution >}}
+{{< /quote >}}
 
 The Wikipedia article goes on to explain this algorithm and the things that should be taken into account. 
 
@@ -196,13 +190,11 @@ Say 90% of the population would be *much* happier if all of *insert religion her
 
 Or, the argument about Baby Farming:
 
-> A critic of utilitarianism, in *Innocence and Consequentialism* (1996), [Jacqueline Laing](https://en.wikipedia.org/wiki/Jacqueline_Laing) argues that utilitarianism has insufficient conceptual apparatus to comprehend the very idea of innocence, a feature central to any comprehensive ethical theory. In particular, [Peter Singer](https://en.wikipedia.org/wiki/Peter_Singer) on her view, cannot without contradicting himself reject [baby farming](https://en.wikipedia.org/wiki/Baby_farming) (a thought experiment that involves mass-producing deliberately brain-damaged children for live birth for the greater good of organ harvesting) and at the same time hold on to his "personism" a term coined by [Jenny Teichman](https://en.wikipedia.org/wiki/Jenny_Teichman) to describe his fluctuating (and Laing says, irrational and discriminatory) theory of human moral value. His explanation that baby farming undermines attitudes of care and concern for the very young, can be applied to babies and the unborn (both 'non-persons' who may be killed, on his view) and contradicts positions that he adopts elsewhere in his work.
+{{< quote "https://en.wikipedia.org/wiki/Utilitarianism#Baby_farming" >}}
+A critic of utilitarianism, in *Innocence and Consequentialism* (1996), [Jacqueline Laing](https://en.wikipedia.org/wiki/Jacqueline_Laing) argues that utilitarianism has insufficient conceptual apparatus to comprehend the very idea of innocence, a feature central to any comprehensive ethical theory. In particular, [Peter Singer](https://en.wikipedia.org/wiki/Peter_Singer) on her view, cannot without contradicting himself reject [baby farming](https://en.wikipedia.org/wiki/Baby_farming) (a thought experiment that involves mass-producing deliberately brain-damaged children for live birth for the greater good of organ harvesting) and at the same time hold on to his "personism" a term coined by [Jenny Teichman](https://en.wikipedia.org/wiki/Jenny_Teichman) to describe his fluctuating (and Laing says, irrational and discriminatory) theory of human moral value.
 
-{{< attribution >}}
-
-https://en.wikipedia.org/wiki/Utilitarianism#Baby_farming
-
-{{< /attribution >}}
+His explanation that baby farming undermines attitudes of care and concern for the very young, can be applied to babies and the unborn (both 'non-persons' who may be killed, on his view) and contradicts positions that he adopts elsewhere in his work.
+{{< /quote >}}
 
 So, uh, depending on how you look at it, it might justify genocide. Maybe not the best ¯\\_(ツ)_/¯
 
@@ -226,19 +218,25 @@ All quote blocks from https://en.wikipedia.org/wiki/Normative_ethics
 
 ### Egoism
 
-> [Egoism](https://en.wikipedia.org/wiki/Ethical_egoism) [is] the belief that the moral person is the self-interested person, holds that an action is right if it maximizes *good for the self*.
+{{< quote "" >}}
+[Egoism](https://en.wikipedia.org/wiki/Ethical_egoism) [is] the belief that the moral person is the self-interested person, holds that an action is right if it maximizes *good for the self*.
+{{< /quote >}}
 
 I shall kill my enemies and dispose of the bodies so that no one ever knows... 
 
 ### Intellectualism
 
-> [Intellectualism](https://en.wikipedia.org/wiki/Intellectualism) dictates that the best action is the one that best fosters and promotes *[knowledge](https://en.wikipedia.org/wiki/Knowledge)*.
+{{< quote "" >}}
+[Intellectualism](https://en.wikipedia.org/wiki/Intellectualism) dictates that the best action is the one that best fosters and promotes *[knowledge](https://en.wikipedia.org/wiki/Knowledge)*.
+{{< /quote >}}
 
 Yeah, you don't mind if I experiment on you, do you?
 
 ### Role Ethics
 
-> [Role ethics](https://en.wikipedia.org/wiki/Role_ethics) is based on the concept of family roles.
+{{< quote "" >}}
+[Role ethics](https://en.wikipedia.org/wiki/Role_ethics) is based on the concept of family roles.
+{{< /quote >}}
 
 The Daddy makes the money, the Mommy raises the kids, and the kids learn to worship God! Just as it should be!
 
@@ -283,7 +281,12 @@ Meta-ethical relativists are, first, descriptive relativists: they believe that,
 
 Now, some people take this a step further and are *Normative moral relativists*, which means they think what we *ought* to do in a given situation is also culturally dependent. This, I think, is both wrong and makes everything useless to debate. If **everything** is relative, then there's no reason debating anything.
 
-For example, let's think about the Abortion debate. If we go by relativism as our standard we can establish, right away, that because of our culture, we may disagree on if it is right or wrong. Where we can still stand to debate, and where I still thing there's a right answer, is in *what do we do about it*. If we say everything is relative, that means it may be reasonable for a culture with a large enough majority of a belief that it's wrong to make it illegal, which is counter my belief. Instead, because we've already gotten the we disagree part out of the way, we can now debate what ought to be done. This means we can prioritize certain things, like other philosphical systems do, and, because we know people are likely to disagree on some things, we can immediately see that prioritizing *choice* makes sense. If you think Abortion is wrong, then don't have one!
+For example, let's think about the Abortion debate. If we go by relativism as our standard we can establish, right away, that because of our culture, we may disagree on if it is right or wrong.
+
+Where we can still stand to debate, and where I still thing there's a right answer, is in *what do we do about it*. If we say everything is relative, that means it may be reasonable for a culture with a large enough majority of a belief that it's wrong to make it illegal, which is counter my belief.
+
+Instead, because we've already gotten the we disagree part out of the way, we can now debate what ought to be done. This means we can prioritize certain things, like other philosphical systems do, and, because we know people are likely to disagree on some things, we can immediately see that prioritizing *choice* makes sense. If you think Abortion is wrong, then don't have one!
+
 
 ## The Melting Pot of Ideas
 
@@ -295,25 +298,17 @@ You see the problem, and how this just wraps back around to needing another fram
 
 Some people, after taking a philosophy class think "I have found the answer, the one **true** framework" and, I've got news for you, what you're describing is religion. In Ethics, there is no right answer, only doing the best you can - and the best we have isn't one system, it's internally digesting all of the existing ideals, filtering them, and making your own system and holding yourself to be the best you can.
 
-## Evaluating a philosphical system
+Utilitarianism with some added baggage regarding not doing things that are horendously offputting (A bit of relativism) and an assumption that we just do the moral calculus the best we can is a pretty good place to work from, and, unless otherwise stated, the point I'll be working off of for all the other pages as I *think* it's pretty much in line with what most people believe so long as they haven't been sucked into a deeply cultural system like Egoism, Role Ethics, or something religion based.
 
-{{< quote "[Wikipedia](https://en.wikipedia.org/wiki/Trolley_problem)" >}}
+What this means is I'll be mostly making utilitarianism arguments, addressing some of the opposing views, and providing data to try to go with the moral calculus.
 
-The **trolley problem** is a series of thought experiments in ethics and psychology, involving stylized ethical dilemmas of whether to sacrifice one person to save a larger number. The series usually begins with a scenario in which a runaway tram or trolley is on course to collide with and kill a number of people (traditionally five) down the track, but a driver or bystander can intervene and divert the vehicle to kill just one person on a different track. Then other variations of the runaway vehicle, and analogous life-and-death dilemmas (medical, judicial etc.) are posed, each containing the option to either do nothing, in which case several people will be killed, or intervene and sacrifice one initially "safe" person to save the others.
-
-{{< /quote >}}
-
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/JWb_svTrcOg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Political Compas
+## Political Compass
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/ULYWIDcUOY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Some other terms you might hear
 
 [BreadTube](https://en.wikipedia.org/wiki/BreadTube)
-
-
 
 [TODO] [Ask HN: Learning Philosophy (Hacker News)](https://news.ycombinator.com/item?id=25312681)
 

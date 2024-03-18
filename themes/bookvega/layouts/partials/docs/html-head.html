@@ -4,66 +4,55 @@
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark">
 
-<!-- Thank you https://moonbooth.com/hugo/sections/ !! -->
-{{if eq .Section "Engineering"}}
+{{ $url := .Page.RelPermalink }}
+{{ $urlParts := split $url "/" }}
+{{ $folderName := index $urlParts 1 }}
+
+{{ if eq $folderName "Engineering" }}
 <style>
-  a{color:  #42b9f3;}
-  a:active{color: #42b9f3;}
-  ::-webkit-scrollbar-thumb {background: #009CDF !important;}
-  ::-webkit-scrollbar-thumb {background: #009CDF !important;}
+  a { color: #42b9f3; }
+  a:active { color: #42b9f3; }
+  ::-webkit-scrollbar-thumb { background: #009CDF !important; }
 </style>
-{{ else if eq .Section "Music"}}
+{{ else if eq $folderName "music" }}
 <style>
-  a{color:  #c448c7;}
-  a:active{color: #c448c7;}
-  ::-webkit-scrollbar-thumb {background: #973999 !important;}
-  ::-webkit-scrollbar-thumb {background: #973999 !important;}
+  a { color: #d14cd4; }
+  a:active { color: #d14cd4; }
+  ::-webkit-scrollbar-thumb { background: #973999 !important; }
 </style>
-{{ else if eq .Section "Phil"}}
+{{ else if eq $folderName "phil" }}
 <style>
-  a{color:  #E23838;}
-  a:active{color: #E23838;}
-  ::-webkit-scrollbar-thumb {background: #E23838 !important;}
-  ::-webkit-scrollbar-thumb {background: #E23838 !important;}
+  a { color: #E23838; }
+  a:active { color: #E23838; }
+  ::-webkit-scrollbar-thumb { background: #E23838 !important; }
 </style>
-{{ else if eq .Section "Design"}}
+{{ else if eq $folderName "design" }}
 <style>
-  a{color:  #F78200;}
-  a:active{color: #F78200;}
-  ::-webkit-scrollbar-thumb {background: #F78200 !important;}
-  ::-webkit-scrollbar-thumb {background: #F78200 !important;}
+  a { color: #F78200; }
+  a:active { color: #F78200; }
+  ::-webkit-scrollbar-thumb { background: #F78200 !important; }
 </style>
-{{ else if eq .Section "Interviews"}}
+{{ else if eq $folderName "interviews" }}
 <style>
-  a{color:  #FFB900;}
-  a:active{color: #FFB900;}
-  ::-webkit-scrollbar-thumb {background: #FFB900 !important;}
-  ::-webkit-scrollbar-thumb {background: #FFB900 !important;}
+  a { color: #FFB900; }
+  a:active { color: #FFB900; }
+  ::-webkit-scrollbar-thumb { background: #FFB900 !important; }
 </style>
-{{ else if eq .Section "Other"}}
+{{ else if eq $folderName "other" }}
 <style>
-  a{color:  #5EBD3E;}
-  a:active{color: #5EBD3E;}
-  ::-webkit-scrollbar-thumb {background: #5EBD3E !important;}
-  ::-webkit-scrollbar-thumb {background: #5EBD3E !important;}
-</style>
-{{ else if eq .Section "posts"}}
-<!-- This is the colors on the blog section -->
-<style>
-  a{color:  #42b9f3;}
-  a:active{color: #42b9f3;}
-  ::-webkit-scrollbar-thumb {background: #009CDF !important;}
-  ::-webkit-scrollbar-thumb {background: #009CDF !important;}
+  a { color: #5EBD3E; }
+  a:active { color: #5EBD3E; }
+  ::-webkit-scrollbar-thumb { background: #5EBD3E !important; }
 </style>
 {{ else }}
-<!-- This is the 'catch all' and does the main OpGuides intro page -->
+<!-- Default styles here -->
 <style>
-  a{color:  #42b9f3;}
-  a:active{color: #42b9f3;}
-  ::-webkit-scrollbar-thumb {background: #009CDF !important;}
-  ::-webkit-scrollbar-thumb {background: #009CDF !important;}
+  a { color: #42b9f3; }
+  a:active { color: #42b9f3; }
+  ::-webkit-scrollbar-thumb { background: #009CDF !important; }
 </style>
 {{ end }}
+
 
 {{- with .Page.Params.BookHref -}}
   <meta http-equiv="Refresh" content="0; url='{{ . }}'" />

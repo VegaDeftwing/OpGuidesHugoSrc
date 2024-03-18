@@ -10,6 +10,8 @@ This page is heavily inspired by [Idea Labs and Echo Chambers](https://waitbutwh
 
 Read it? Cool.
 
+---
+
 The big take away is free speech & spread of ideas = good, echo chambers = bad. And, like, yeah? That's pretty hard to disagree with. However, it reminds me of the often repeated line "There's no such thing as a stupid idea!" and that quote really, really drives me nuts.
 
 Unfortunately, some ideas, even when we can make well thought out arguments for why the idea itself is absolute bunk and the supposed evidence for their idea is also bunk, still persist. Obviously, this is on a spectrum: Flat Earthers? Idiots. Those that think there has been extraterrestrial life on earth before? Maybe worth listening to. Those that think aliens built the pyramids and that someday they'll send beams of light into the sky to call down our gray skinned, big headed overlords to provide us with infinite energy, end hunger, and cure cancer? Back to idiots. Extraordinary claims require extraordinary evidence and all that jazz.    
@@ -40,7 +42,9 @@ There's a lot of debate around this too, [Mozilla published "We Need More than D
 1. Should speech that harms others be "free"?
 2. Should a given venue/platform be required to let you say whatever you want there?
 
-The answer to 2. seems to be of more importance again, now, in the internet era. Strangely, It seems this has largely been decided for physical spaces, where if I walk into a business and start going on about how "all these damn ░░░░░ keep making ░░░░░ worse for us and they should go back where they came from!" I'm going to get kicked out, and everyone is fine with that. Meanwhile, if Facebook or Twitter kick me out, some people will argue I have a *right* to be there. Personally, I think this is a load of shit. If you want to post your hate, go post it on your own site. Nobody is obligated to give you the platform on which to preach your shit from. I think the larger argument comes when lower-level infrastructure providers choose whether or not you can use their services for given speech. Should Amazon have the right to say "If you post hate speech we won't let you host your website on AWS?" (Amazon Web Services is a common server platform on which you could put your own, custom made website). On one hand, Amazon is a private business and should be able to refuse service, on the other hand, there's a limited number of hosting providers that could allow you to deploy a large website with lots of traffic. Is this the same as limiting more traditional infrastructure, like roads, to only those we think deserve a voice?
+The answer to 2. seems to be of more importance again, now, in the internet era. Strangely, It seems this has largely been decided for physical spaces, where if I walk into a business and start going on about how "all these damn ░░░░░ keep making ░░░░░ worse for us and they should go back where they came from!" I'm going to get kicked out, and everyone is fine with that. 
+
+Meanwhile, if Facebook or Twitter kick me out, some people will argue I have a *right* to be there. Personally, I think this is a load of shit. If you want to post your hate, go post it on your own site. Nobody is obligated to give you the platform on which to preach your shit from. I think the larger argument comes when lower-level infrastructure providers choose whether or not you can use their services for given speech. Should Amazon have the right to say "If you post hate speech we won't let you host your website on AWS?" (Amazon Web Services is a common server platform on which you could put your own, custom made website). On one hand, Amazon is a private business and should be able to refuse service, on the other hand, there's a limited number of hosting providers that could allow you to deploy a large website with lots of traffic. Is this the same as limiting more traditional infrastructure, like roads, to only those we think deserve a voice?
 
 As for 1. - IMHO, yeah, free speech should probably be free *from government retaliation*, even if it's hate speech. Otherwise, there's a huge risk of abuse and the loss of the free exchange of good ideas. This is my opinion though, and this opinion is deserving of a page in this chapter of OpGuides all its own. Suffice to say, there are good arguments on both sides. Obviously, some limits should apply no matter what- the "don't yell fire in a crowded theater" rules still apply. 
 
@@ -51,7 +55,9 @@ All of that said, to some extent, **deplatforming is necessary** because a lot o
 3. By talking about their points publicly, they manage to go [Mainstream (YouTube, The Alt-Right Playbook by Innuendo Studios)](https://www.youtube.com/watch?v=Gq0ZHgKT2tc)
 4. By stretching the meaning of something, in a way that's not *technically* false - see [The Ship of Theseus (YouTube, The Alt-Right Playbook by Innuendo Studios)](https://www.youtube.com/watch?v=Ui-ArJRqEvU)
 
-The **only way** to stop this is to *not debate them* and to *remove their platform*. If you play fair and want to actually question ideas, you're good. If you're here to spread hate, hurt people, and (intentionally or not) use tactics that prevent real debate, you should lose your platform. I think, as a society, we're pretty good at knowing where this line is. The issue of false-positives is real and platforms still need to be careful to avoid over moderation and turning into echo chambers or not allowing honestly, good faith criticism. Still, most platform are actually on the opposite side of this: Twitter for example is still full of people saying extreme threats towards trans people. 
+The **only way** to stop this is to *not debate them* and to *remove their platform*. If you play fair and want to actually question ideas, you're good. If you're here to spread hate, hurt people, and (intentionally or not) use tactics that prevent real debate, you should lose your platform. 
+
+I think, as a society, we're pretty good at knowing where this line is. The issue of false-positives is real and platforms still need to be careful to avoid over moderation and turning into echo chambers or not allowing honestly, good faith criticism. Still, most platform are actually on the opposite side of this: Twitter for example is still full of people saying extreme threats towards trans people. 
 
 ---
 
@@ -85,7 +91,7 @@ If you're lucky, there may be a [hackerspace near you](https://wiki.hackerspaces
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/nsiYTBQpIJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-I'll touch more on community resources and what a healthy community looks like in the next page, <a href="/phil/community/">Community Efforts</a>
+I'll touch more on community resources and what a healthy community looks like in the next page, {{< button relref="Phil/community" color="phil" >}}Community Efforts{{< /button >}} .
 
 ### Host or join a community knowledge garden
 
