@@ -84,9 +84,9 @@ Following along will require a few things. The first of which is dedication and 
 
 Before we get started, there are a few things I recommend reading and watching first. These should give you a bit of an overview of some of the things that will be covered, to give you at least a tiny bit of familiarity as each concept comes up.
 
-While I will be covering a lot more than just Computer Science, I recommend this overview of the topics covered in CS: [Map of Computer Science](https://www.youtube.com/watch?v=SzJ46YA_RaA) by Dominic Walliman
+While I will be covering a lot more than just Computer Science, I recommend this overview of the topics covered in CS: <img src="/common/youtube_social_icon_red.webp" style="height:0.8em"> [Map of Computer Science](https://www.youtube.com/watch?v=SzJ46YA_RaA) by Dominic Walliman
 
-If you want to go through a really gentle introduction to a lot of what this guide will cover, [This Crash Course: Computer Science](https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&ab_channel=CrashCourse) series on YouTube is pretty good too.
+If you want to go through a gentle introduction to a lot of what this guide will cover, <img src="/common/youtube_social_icon_red.webp" style="height:0.8em"> [This Crash Course: Computer Science](https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&ab_channel=CrashCourse) series on YouTube is pretty good too.
 
 ---
 
@@ -99,4 +99,3 @@ If you want to go through a really gentle introduction to a lot of what this gui
 <ol hidden id="footnotes">
     <li>Well, sort of. The way it works doesn't <b>ensure</b> you're getting the shortest path, but then, doing so would require checking every possible cobination, which is the extremely inefficent task this simulation helps avoid</li>
 </ol>
-

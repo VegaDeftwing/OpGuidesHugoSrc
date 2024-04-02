@@ -1,10 +1,20 @@
 # Chapter 7 - Physics
 
+{{< columns >}}
+
+![skate](/nonfree/character/skate.avif)
+
+{{< attribution >}}Art by [awesome_o.possum (Instagram)](https://www.instagram.com/awesome_o.possum) Character owned by Vega.{{< /attribution >}}
+
+<--->
+
 {{< tip >}}
 
 This is still a dumping ground for things I want to write about later, nothing of substance is here yet, sorry about that
 
 {{< /tip >}}
+
+{{< /columns >}}
 
 [TODO] speed vs Velocity vs Acceleration, classical vs relative
 

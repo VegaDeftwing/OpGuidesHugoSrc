@@ -22,27 +22,27 @@ potentiometer read from Arduino full range (center tap or max resistor)
 
 [Kemet Capacitor Simulator](https://ksim3.kemet.com/capacitor-simulation)
 
-[True, Reactive, Apparent & Deformed Power](https://www.youtube.com/watch?v=cxXmWZDwNEs&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
+<img src="/common/youtube_social_icon_red.webp" style="height:0.8em"> [True, Reactive, Apparent & Deformed Power](https://www.youtube.com/watch?v=cxXmWZDwNEs&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
 
-[Why electrolytic capacitors are actually kinda shitty 💩 (YouTube)](https://www.youtube.com/watch?v=WytU5uj78-4&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
+<img src="/common/youtube_social_icon_red.webp" style="height:0.8em"> [Why electrolytic capacitors are actually kinda shitty 💩](https://www.youtube.com/watch?v=WytU5uj78-4&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
 
-[Ideal Capacitors aren't real](https://en.wikipedia.org/wiki/Two_capacitor_paradox)
+ <span style="font-family: Arial">𝐖</span> [Ideal Capacitors aren't real](https://en.wikipedia.org/wiki/Two_capacitor_paradox)
 
-[Cap Types: Electrolytic & Ceramic - Collin’s Lab Notes (YouTube)](https://www.youtube.com/watch?v=7wBMDoM7C_U)
+<img src="/common/youtube_social_icon_red.webp" style="height:0.8em"> [Cap Types: Electrolytic & Ceramic - Collin’s Lab Notes](https://www.youtube.com/watch?v=7wBMDoM7C_U)
 
-[Capacitor Types P2: Tantalum & Film - Collin’s Lab Notes (YouTube)](https://www.youtube.com/watch?v=Th0evgETeBE)
+<img src="/common/youtube_social_icon_red.webp" style="height:0.8em"> [Capacitor Types P2: Tantalum & Film - Collin’s Lab Notes](https://www.youtube.com/watch?v=Th0evgETeBE)
 
 ### Inductors
 
 [TODO]
 
-[RGB LED, Inductively Powered, Frequency Controlled (YouTube)](https://www.youtube.com/watch?v=3DeOPN1Cl1Y&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
+<img src="/common/youtube_social_icon_red.webp" style="height:0.8em"> [RGB LED, Inductively Powered, Frequency Controlled (Wolf Tronix)](https://www.youtube.com/watch?v=3DeOPN1Cl1Y&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
 
 Motors
 
 ## Transformers, Variacs
 
-[World's Most Powerful Pancake Slayer Tesla Coil? Melts Copper! (YouTube, Plasma Channel)](https://www.youtube.com/watch?v=TT4QolzknC0)
+<img src="/common/youtube_social_icon_red.webp" style="height:0.8em"> [World's Most Powerful Pancake Slayer Tesla Coil? Melts Copper! (Plasma Channel)](https://www.youtube.com/watch?v=TT4QolzknC0)
 
 {{< columns >}}
 
@@ -62,7 +62,7 @@ Motors
 
 [TODO]
 
-How to read logarithmic first, example for why they're needed: [log-scales demo in uPlot (github)](https://leeoniya.github.io/uPlot/demos/log-scales.html)
+How to read logarithmic first, example for why they're needed: <img src="/common/github-mark-white.svg" style="height:0.8em"> [log-scales demo in uPlot (github)](https://leeoniya.github.io/uPlot/demos/log-scales.html)
 
 
 
@@ -82,17 +82,17 @@ We'll focus on these passive filters here first, then we'll check out active fil
 
 ### RC Low / High Pass (Integrator/Differentiator)
 
-https://en.wikipedia.org/wiki/RC_circuit
+<span style="font-family: Arial">𝐖</span> https://en.wikipedia.org/wiki/RC_circuit
 
 ### RL Low / High Pass
 
-https://en.wikipedia.org/wiki/RL_circuit
+<span style="font-family: Arial">𝐖</span> https://en.wikipedia.org/wiki/RL_circuit
 
 ### RLC Low, High, Band Pass & Band Stop
 
 {{< smalltext >}}Now with Resonance!{{< /smalltext >}}
 
-https://en.wikipedia.org/wiki/RLC_circuit
+<span style="font-family: Arial">𝐖</span> https://en.wikipedia.org/wiki/RLC_circuit
 
 ### Why go Active?
 
@@ -100,15 +100,15 @@ Passive filters have some limitations, most notably their cutoff is pretty shall
 
 
 
-[RC Low Pass Filter (YouTube - All About Electronics)](https://www.youtube.com/watch?v=_2L0l-E1Wx0)
+<img src="/common/youtube_social_icon_red.webp" style="height:0.8em"> [RC Low Pass Filter (All About Electronics)](https://www.youtube.com/watch?v=_2L0l-E1Wx0)
 
-[Series Resonance in RLC Circuit (YouTube - All About Electronics)](https://www.youtube.com/watch?v=YLGrugmDvc0)
+<img src="/common/youtube_social_icon_red.webp" style="height:0.8em"> [Series Resonance in RLC Circuit (All About Electronics)](https://www.youtube.com/watch?v=YLGrugmDvc0)
 
-[Transient Analysis of the RLC Circuit (YouTube - All About Electronics)](https://www.youtube.com/watch?v=B4TezoTORYA)
+<img src="/common/youtube_social_icon_red.webp" style="height:0.8em"> [Transient Analysis of the RLC Circuit (All About Electronics)](https://www.youtube.com/watch?v=B4TezoTORYA)
 
 ## Relays
 
-https://en.wikipedia.org/wiki/Relay
+ <span style="font-family: Arial">𝐖</span> https://en.wikipedia.org/wiki/Relay
 
 In the next chapter, we'll look at transistors, which are what you probably think of when you think about an electrically controlled switch (that is, using one signal to turn another on and off) but if you just want to turn a signal on and off, don't need to do it very often, and need a huge ratio between the control power/voltage and the signal being switched, - for example, using a microcontroller to turn on or off an incandescent bulb - relays are awesome!
 
