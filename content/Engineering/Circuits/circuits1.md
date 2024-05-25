@@ -13,7 +13,3 @@
 https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law/voltage
 
 https://en.wikipedia.org/wiki/Transmission_line
-
-<ol hidden id="footnotes">
-    <li>especially as you can easily unlock it to make it much better, using http://www.n5dux.com/ham/riglol/, albeit not 100% legally<li>
-</ol>

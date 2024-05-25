@@ -2,7 +2,7 @@
 
 <script>    document.getElementById("webMenu").open = true;</script>
 
-Let me start by saying that {{< vale >}}**C**ascading **S**tyle **S**heets{{< /vale >}} - CSS - is not a hard language to write. The problem is not the language<a class="ptr">(1)</a>, but with how humans don't think about style and art in a linear way and dealing with the complexities of different devices.
+Let me start by saying that {{< vale >}}**C**ascading **S**tyle **S**heets{{< /vale >}} - CSS - is not a hard language to write. The problem is not the language<footnote>Mostly. If you're doing something complex, such as working with animations, the syntax can get a bit weird</footnote>, but with how humans don't think about style and art in a linear way and dealing with the complexities of different devices.
 
 ## How we think about style
 
@@ -148,7 +148,51 @@ The tough part about that is realizing when you need to make a new class and wha
 
 <div class="stage">
   <div class="animlayer"></div>
-    <a class="ptr" style="z-index:1;float:right;">(2)</a>
+    <footnote><code class="language-css" data-lang="css"><span style="display:flex"><span>.<span style="color:#a6e22e">stage</span> {
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">margin</span>: <span style="color:#66d9ef">auto</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">relative</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">right</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">bottom</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">left</span>: <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">perspective</span>: <span style="color:#ae81ff">9999</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">transform-style</span>: <span style="color:#66d9ef">preserve-3d</span>;
+</span></span><span style="display:flex"><span>}
+</span></span><span style="display:flex"><span>.<span style="color:#a6e22e">animlayer</span> {
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">transform-style</span>: <span style="color:#66d9ef">preserve-3d</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">animation</span>: effect <span style="color:#ae81ff">5</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">infinite</span> <span style="color:#66d9ef">alternate</span> <span style="color:#66d9ef">ease-in-out</span> <span style="color:#ae81ff">-7.5</span><span style="color:#66d9ef">s</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">animation-fill-mode</span>: <span style="color:#66d9ef">forwards</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">transform</span>: rotateY(<span style="color:#ae81ff">40</span><span style="color:#66d9ef">deg</span>) rotateX(<span style="color:#ae81ff">33</span><span style="color:#66d9ef">deg</span>) translateZ(<span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex"><span>}
+</span></span><span style="display:flex"><span>.<span style="color:#a6e22e">animlayer</span>:<span style="color:#a6e22e">after</span> {
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">font</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">px</span><span style="color:#f92672">/</span><span style="color:#ae81ff">0.65</span> <span style="color:#e6db74">"Roboto"</span>, <span style="color:#e6db74">"Trebuchet MS"</span>, <span style="color:#66d9ef">sans-serif</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">content</span>: <span style="color:#e6db74">"some pretty crazy shit"</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">center</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;
+</span></span><span style="display:flex"><span>}
+</span></span><span style="display:flex"><span>.<span style="color:#a6e22e">animlayer</span>:<span style="color:#a6e22e">nth-child</span><span style="color:#f92672">(</span><span style="color:#f92672">1</span><span style="color:#f92672">)</span>:<span style="color:#a6e22e">after</span> {
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">transform</span>: translateZ(<span style="color:#ae81ff">0</span><span style="color:#66d9ef">px</span>);
+</span></span><span style="display:flex"><span>}
+</span></span><span style="display:flex"><span>.<span style="color:#a6e22e">animlayer</span>:<span style="color:#a6e22e">nth-child</span><span style="color:#f92672">(</span><span style="color:#f92672">2</span><span style="color:#f92672">)</span>:<span style="color:#a6e22e">after</span> {
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">transform</span>: translateZ(<span style="color:#ae81ff">-1.5</span><span style="color:#66d9ef">px</span>);
+</span></span><span style="display:flex"><span>}
+</span></span><span style="display:flex"><span>.<span style="color:#a6e22e">animlayer</span>:<span style="color:#a6e22e">first-child</span>:<span style="color:#a6e22e">after</span> {
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#fff</span>;
+</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">text-shadow</span>: <span style="color:#66d9ef">none</span>;
+</span></span><span style="display:flex"><span>}
+</span></span><span style="display:flex"><span>@<span style="color:#66d9ef">keyframes</span> <span style="color:#f92672">effect</span> {
+</span></span><span style="display:flex"><span>  <span style="color:#f92672">100</span><span style="color:#f92672">%</span> {
+</span></span><span style="display:flex"><span>    <span style="color:#66d9ef">transform</span>: rotateY(<span style="color:#ae81ff">-30</span><span style="color:#66d9ef">deg</span>) rotateX(<span style="color:#ae81ff">-43</span><span style="color:#66d9ef">deg</span>);
+</span></span><span style="display:flex"><span>  }
+</span></span><span style="display:flex"><span>}
+</span></span></code></footnote>
 </div>
 
 <style>
@@ -318,58 +362,3 @@ https://betterprogramming.pub/10-common-css-mistakes-that-web-developers-often-m
 If you have literal hours to kill, start going though everything on https://css-tricks.com/almanac/
 
 https://fffuel.co/css-selectors/
-
-{{< vale >}}
-
-<ol hidden id="footnotes">
-<li>Mostly. If you're doing something complex, such as working with animations, the syntax can get a bit weird.</li>
-<li>
-    <code class="language-css" data-lang="css"><span style="display:flex"><span>.<span style="color:#a6e22e">stage</span> {
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">px</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">margin</span>: <span style="color:#66d9ef">auto</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">relative</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">right</span>: <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">bottom</span>: <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">left</span>: <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">perspective</span>: <span style="color:#ae81ff">9999</span><span style="color:#66d9ef">px</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">transform-style</span>: <span style="color:#66d9ef">preserve-3d</span>;
-</span></span><span style="display:flex"><span>}
-</span></span><span style="display:flex"><span>.<span style="color:#a6e22e">animlayer</span> {
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">transform-style</span>: <span style="color:#66d9ef">preserve-3d</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">animation</span>: effect <span style="color:#ae81ff">5</span><span style="color:#66d9ef">s</span> <span style="color:#66d9ef">infinite</span> <span style="color:#66d9ef">alternate</span> <span style="color:#66d9ef">ease-in-out</span> <span style="color:#ae81ff">-7.5</span><span style="color:#66d9ef">s</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">animation-fill-mode</span>: <span style="color:#66d9ef">forwards</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">transform</span>: rotateY(<span style="color:#ae81ff">40</span><span style="color:#66d9ef">deg</span>) rotateX(<span style="color:#ae81ff">33</span><span style="color:#66d9ef">deg</span>) translateZ(<span style="color:#ae81ff">0</span>);
-</span></span><span style="display:flex"><span>}
-</span></span><span style="display:flex"><span>.<span style="color:#a6e22e">animlayer</span>:<span style="color:#a6e22e">after</span> {
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">font</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">px</span><span style="color:#f92672">/</span><span style="color:#ae81ff">0.65</span> <span style="color:#e6db74">"Roboto"</span>, <span style="color:#e6db74">"Trebuchet MS"</span>, <span style="color:#66d9ef">sans-serif</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">content</span>: <span style="color:#e6db74">"some pretty crazy shit"</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">center</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;
-</span></span><span style="display:flex"><span>}
-</span></span><span style="display:flex"><span>.<span style="color:#a6e22e">animlayer</span>:<span style="color:#a6e22e">nth-child</span><span style="color:#f92672">(</span><span style="color:#f92672">1</span><span style="color:#f92672">)</span>:<span style="color:#a6e22e">after</span> {
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">transform</span>: translateZ(<span style="color:#ae81ff">0</span><span style="color:#66d9ef">px</span>);
-</span></span><span style="display:flex"><span>}
-</span></span><span style="display:flex"><span>.<span style="color:#a6e22e">animlayer</span>:<span style="color:#a6e22e">nth-child</span><span style="color:#f92672">(</span><span style="color:#f92672">2</span><span style="color:#f92672">)</span>:<span style="color:#a6e22e">after</span> {
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">transform</span>: translateZ(<span style="color:#ae81ff">-1.5</span><span style="color:#66d9ef">px</span>);
-</span></span><span style="display:flex"><span>}
-</span></span><span style="display:flex"><span>.<span style="color:#a6e22e">animlayer</span>:<span style="color:#a6e22e">first-child</span>:<span style="color:#a6e22e">after</span> {
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#fff</span>;
-</span></span><span style="display:flex"><span>  <span style="color:#66d9ef">text-shadow</span>: <span style="color:#66d9ef">none</span>;
-</span></span><span style="display:flex"><span>}
-</span></span><span style="display:flex"><span>@<span style="color:#66d9ef">keyframes</span> <span style="color:#f92672">effect</span> {
-</span></span><span style="display:flex"><span>  <span style="color:#f92672">100</span><span style="color:#f92672">%</span> {
-</span></span><span style="display:flex"><span>    <span style="color:#66d9ef">transform</span>: rotateY(<span style="color:#ae81ff">-30</span><span style="color:#66d9ef">deg</span>) rotateX(<span style="color:#ae81ff">-43</span><span style="color:#66d9ef">deg</span>);
-</span></span><span style="display:flex"><span>  }
-</span></span><span style="display:flex"><span>}
-</span></span></code>
-   </li>
-</ol>
-
-{{< /vale >}}

@@ -39,7 +39,7 @@ print(double_and_add_one(1))
 
 also works.
 
-If you need anything more complicated than that, here's [Splitting Code Into Multiple Files (teclado - 30 Days of Python)](https://teclado.com/30-days-of-python/python-30-day-21-multiple-files/). <a class="ptr">(1)</a>
+If you need anything more complicated than that, here's [Splitting Code Into Multiple Files (teclado - 30 Days of Python)](https://teclado.com/30-days-of-python/python-30-day-21-multiple-files/). <footnote>This 30 days of python series is decent, but paced a little weird and wants you to use web tools instead of running it locally on your computer - basically, if you're going to look at more of it, ignore "day 1" and go get python setup on your actual computer (like we did back in the programming intro) and expect to do like 6 days at a time at first.</footnote>
 
 ## C
 
@@ -207,7 +207,3 @@ Okay, so you've just leaned Make - here's a little secret - like C itself, many 
 But, again, the problems of 1976 aren't today's problems, so it's actually more fucked than this, mostly because Make is a massive pain if you want to support more than one OS or architecture, and hand-writing make files is a recipe for making stupid, small mistakes, so, naturally, we made yet another language for generating code for our language to compile code written in C. This language (er, it's more a set of tools with their own language) is Automake and, because anything involving C is at minimum 20 years behind, it was released in 1996.
 
 Still, if we don't at least acknowledge that there may be better tools out there, then we'll never stop using the ones made back in the 70's. So, of all the modern Make alternatives, the most notable are probably SCons, [Waf](https://waf.io), Bazel, 
-
-<ol hidden id="footnotes">
-<li>This 30 days of python series is decent, but paced a little weird and wants you to use web tools instead of running it locally on your computer - basically, if you're going to look at more of it, ignore "day 1" and go get python setup on your actual computer (like we did back in the programming intro) and expect to do like 6 days at a time at first.</li>
-</ol>

@@ -162,7 +162,7 @@ If you really want advice on what to use for your personal, daily password stora
 
 <--->
 
-Put simply, we need easier to use, fine grain authorization settings that can't be bypassed. I should be able to tell a program, website, or app that I don't want to give it my location, and then, if it asks anyway it should be fed garbage. Refusal should also not stop access to that service<a class="ptr">(1)</a>. Similarly for storage, microphone, contacts, etc.
+Put simply, we need easier to use, fine grain authorization settings that can't be bypassed. I should be able to tell a program, website, or app that I don't want to give it my location, and then, if it asks anyway it should be fed garbage. Refusal should also not stop access to that service<footnote>... unless that service is based around that permission, like denying a recording app access to a microphone.</footnote>. Similarly for storage, microphone, contacts, etc.
 
 Newer versions of Android actually do this really well, including the ability to only grant those permissions for that session. This is amazing. It's not *perfect*, far from it. Like, Bluetooth requires location permissions and, unless you're on a rooted phone, there are some permissions the user can't even give. That's a load of shit, but I'll come back to that. 
 
@@ -799,7 +799,7 @@ I'm not the best to talk on these issues to begin with though as for the most pa
 
 ### Access
 
-While not an issue strictly pertaining to race or disability, there's certainly a bias for those groups to also be poor or in worse circumstances that limit their internet connection or hardware's speed. The solution? Stop making shit so fucking bloated. If you're developing on a high end computer with umpteen cores and enough ram to store the English-only copy of Wikipedia <a class="ptr">(2)</a> make sure to at least *try* it on something else and see if it still works.
+While not an issue strictly pertaining to race or disability, there's certainly a bias for those groups to also be poor or in worse circumstances that limit their internet connection or hardware's speed. The solution? Stop making shit so fucking bloated. If you're developing on a high end computer with umpteen cores and enough ram to store the English-only copy of Wikipedia <footnote>Currently 17.5Gb - <a href="https://dumps.wikimedia.org/enwiki/20201001/"> https://dumps.wikimedia.org/enwiki/20201001/ </a></footnote> make sure to at least *try* it on something else and see if it still works.
 
 ## We basically don't even own our computers anymore
 
@@ -830,8 +830,3 @@ So, clearly there's room for improvment with how we interact with software and t
 ---
 
 I'm not the first to think on this subject by any means, [Programs are a prison: Rethinking the fundamental building blocks of computing interfaces by Robert Lechte](https://djrobstep.com/posts/programs-are-a-prison) is a particularly good example of other thoughts on this same subject.
-
-<ol hidden id="footnotes">
-<li>... unless that service is based around that permission, like denying a recording app access to a microphone.</li>
-<li>Currently 17.5Gb - <a href="https://dumps.wikimedia.org/enwiki/20201001/"> https://dumps.wikimedia.org/enwiki/20201001/ </a></li>
-</ol>

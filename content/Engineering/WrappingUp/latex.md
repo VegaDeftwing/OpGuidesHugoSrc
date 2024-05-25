@@ -26,7 +26,7 @@ You'll probably end up googling how to do most things in {{< katex >}}\LaTeX{{< 
 
 While writing can be hard, it's worth doing it right: I particularly like [using annotated equations](https://github.com/synercys/annotated_latex_equations) (or like [this](https://twitter.com/AndiH/status/1481170553218252804/photo/1)) and using [margin notes](https://www.overleaf.com/learn/latex/Margin_notes) though it's likely that neither would be accepted in all academic contexts. Generally, just keep in mind, your goal is to convey as much information as clearly as you can in as few words as possible.
 
-You'll likely use Bibtex for citing sources in your document, fortunately, a lot of papers have built in Bibtex citations you can download and import and your sources document. [Litmaps](https://app.litmaps.co)<a class="ptr">(1)</a> is an awesome tool for building up research on a topic, exploring related tools, and exporting bibtex sources as well - though it is probably only free while in early access.
+You'll likely use Bibtex for citing sources in your document, fortunately, a lot of papers have built in Bibtex citations you can download and import and your sources document. [Litmaps](https://app.litmaps.co)<footnote>I <b>REALLY</b> like litmaps. Honestly, 11/10 for product design. The only reason it doesn't have an OpGuides best of badges is because I really don't like SAAS, but at least they have a free tier.</footnote> is an awesome tool for building up research on a topic, exploring related tools, and exporting bibtex sources as well - though it is probably only free while in early access.
 
 You may also want to check out [Connectedpapers.com](https://www.connectedpapers.com) if you're more interested in the research side, and one of the links listed for each paper does still usually have the bibtex available.
 
@@ -151,7 +151,3 @@ For S&Gs, check out this StackExchange question: "[How do I make my document loo
 
 
 If you would like to practice with at least one flavor of Markdown (with [Hugo](https://gohugo.io) 'Shortcodes', {{< katex >}}\LaTeX{{< /katex >}}, HTML, CSS, and more baked in poorly), feel free to find a page in need of love on this website and submit a pull request on GitHub.
-
-<ol hidden id="footnotes">
-<li>I <b>REALLY</b> like litmaps. Honestly, 11/10 for product design. The only reason it doesn't have an OpGuides best of badges is because I really don't like SAAS, but at least they have a free tier.</li>
-</ol>

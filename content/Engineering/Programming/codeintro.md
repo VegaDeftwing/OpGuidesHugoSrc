@@ -135,7 +135,7 @@ You may ask, why Python? Why not any of the other languages you may have heard o
 
 There are a couple reasons:
 
-* **It Looks Like Math**. As I said above, code is mostly math, so why not choose a language that looks like it? Python does not require a lot of typing or understanding weird characters with special meaning. The most subtle thing about it is whitespace. <a class="ptr">(1)</a>
+* **It Looks Like Math**. As I said above, code is mostly math, so why not choose a language that looks like it? Python does not require a lot of typing or understanding weird characters with special meaning. The most subtle thing about it is whitespace. <footnote>whitespace literally means the 'blank' characters - like spaces and tabs, which do actually matter in python.</footnote>
 * **Accessibility**. Python was designed from the beginning to be easy to learn and read, including for non-programmers.
 * **Features**. Python has most of the features common in other languages. That makes it good for teaching the features in other languages.
 * **Popularity**. There are dozens of tutorials about how to use it to solve any problem you could imagine. Once this guide gets you started, the internet is full of paths to follow.
@@ -163,7 +163,7 @@ you should notice a few weird things here though, namely, on line 5 we used two 
 
 You'll also see there's normal english after the `#` character. In python `#` means the following text is a comment.
 
-If you follow the logic here, `a` and `b` are both 1, so line 5 checks that both are equal, and this is true, so line 6 does happen. Now 'c' which previously held the value '1' is now equal to 'a-3', where 'a' is '1', so 'c' becomes '-2'. on line 8 we check if `c` is less than '0', and because it is we print the word 'hello'. Here, you'll notice 'hello' is in quotes. This is because if it were not, that is if it were `print(hello)` it would try to print the value of the variable 'hello' which since hello isn't defined, <a class="ptr">(2)</a>wouldn't work. Let's try this in the Python interpreter. You can find install instructions for your operating system here: https://www.python.org/downloads/. If you're on Linux simply type `python` into the terminal. 
+If you follow the logic here, `a` and `b` are both 1, so line 5 checks that both are equal, and this is true, so line 6 does happen. Now 'c' which previously held the value '1' is now equal to 'a-3', where 'a' is '1', so 'c' becomes '-2'. on line 8 we check if `c` is less than '0', and because it is we print the word 'hello'. Here, you'll notice 'hello' is in quotes. This is because if it were not, that is if it were `print(hello)` it would try to print the value of the variable 'hello' which since hello isn't defined, <footnote>meaning we didn't make a varible called 'hello' and give it a value</footnote>wouldn't work. Let's try this in the Python interpreter. You can find install instructions for your operating system here: https://www.python.org/downloads/. If you're on Linux simply type `python` into the terminal. 
 
 With the Python interpreter open try without quotes: 
 
@@ -445,7 +445,7 @@ c = 3
 ...
 ```
 
-When we do this, the computer has to store them somewhere in it's memory. We can (kinda) see this location in memory by using the `id()` command. The first weird thing you'll notice is that while `id(a)` will stay the same if you run it repeatedly, if you close python, set `a=1` again, and rerun `id(a)` the number will change. That's because this 'id' is really where in memory the data is being stored, and each time to run python the computer is going to put it somewhere else<a class="ptr">(3)</a>. The `is` command is python is actually checking if these id's are the same, not if the value is the same. This harkens back to object orientation- remember, we could make a bunch of objects, lets say cows, we could have two cows with the same name, same color, same age, etc. but if they're two different cows, they're still two different cows, and is will reflect this. They make be equal in every other regard, but one cow is not the other cow, they're still distinct *objects*.
+When we do this, the computer has to store them somewhere in it's memory. We can (kinda) see this location in memory by using the `id()` command. The first weird thing you'll notice is that while `id(a)` will stay the same if you run it repeatedly, if you close python, set `a=1` again, and rerun `id(a)` the number will change. That's because this 'id' is really where in memory the data is being stored, and each time to run python the computer is going to put it somewhere else<footnote>There's a lot of "uhm, actually" to be said here, but go with it.</footnote>. The `is` command is python is actually checking if these id's are the same, not if the value is the same. This harkens back to object orientation- remember, we could make a bunch of objects, lets say cows, we could have two cows with the same name, same color, same age, etc. but if they're two different cows, they're still two different cows, and is will reflect this. They make be equal in every other regard, but one cow is not the other cow, they're still distinct *objects*.
 
 This can get really fucking weird. One of the weirdest things about python in regards to this is (usually) python will pre-allocate a place to store low integer numbers, so, if you make two variables with low integer numbers, they'll actually point to the same memory location at first…
 
@@ -646,13 +646,3 @@ http://feed.grantcuster.com/
 [Coding Adventure: Marching Cubes(Youtube)](https://www.youtube.com/watch?v=M3iI2l0ltbE)
 
 [Coding Adventure: Portals (YouTube)](https://www.youtube.com/watch?v=cWpFZbjtSQg&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
-
-
-
-
-
-<ol hidden id="footnotes">
-    <li>whitespace literally means the 'blank' characters - like spaces and tabs, which do actually matter in python.</li>    
-    <li>meaning we didn't make a varible called 'hello' and give it a value</li>
-    <li>There's a lot of "uhm, actually" to be said here, but go with it.<li>
-</ol>

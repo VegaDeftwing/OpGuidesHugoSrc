@@ -10,7 +10,7 @@
 
 ## Why C?
 
-This chapter of OpGuides will be mostly C, but, why? Well, there's only really a few options for learning low level programming that make sense to start with. C, C++, Rust are the 'big three' that come to mind. C is what is most popular<a class="ptr">(1)</a>. Its spec is small, it's been kept minimal, and it's got a ton of tools to help you learn. It forces you to know the low level, which in this case is great. C++ has grown into a behemoth where anything can be done in about a dozen different ways and each development team is effectively writing in their own dialect of C++. Rust, while better than C for a million reasons, (see the footnote) also sort of assumes you have experience in language like C before using it, so... the answer to why C is because we sorta have to.
+This chapter of OpGuides will be mostly C, but, why? Well, there's only really a few options for learning low level programming that make sense to start with. C, C++, Rust are the 'big three' that come to mind. C is what is most popular<footnote>...because it's old and everything already uses it. There are dozens of ways it's horribly fucked, like the lack of protected data/functions, the ability to write in memory bugs that are hard to catch and lead to security problems as they're not found at compile time, the inconsistency in implementations of the standard library, ... I could go on. If you're not doing low level dev, don't use C. If you're doing low level dev and have the choice to not use C, don't use C.</footnote>. Its spec is small, it's been kept minimal, and it's got a ton of tools to help you learn. It forces you to know the low level, which in this case is great. C++ has grown into a behemoth where anything can be done in about a dozen different ways and each development team is effectively writing in their own dialect of C++. Rust, while better than C for a million reasons, (see the footnote) also sort of assumes you have experience in language like C before using it, so... the answer to why C is because we sorta have to.
 
 To be clear, C has a lot of annoyances due to its minimalism. For example, there are no strings - only arrays of characters - and all memory management is manual. If you followed the programming intro chapters, you should've known that first part.
 
@@ -551,7 +551,3 @@ https://en.wikipedia.org/wiki/Pragma_once vs include guards, why they exist
 https://embeddedartistry.com/blog/2019/04/08/a-general-overview-of-what-happens-before-main/
 
 https://8bitworkshop.com
-
-<ol hidden id="footnotes">
-<li>...because it's old and everything already uses it. There are dozens of ways it's horribly fucked, like the lack of protected data/functions, the ability to write in memory bugs that are hard to catch and lead to security problems as they're not found at compile time, the inconsistency in implementations of the standard library, ... I could go on. If you're not doing low level dev, don't use C. If you're doing low level dev and have the choice to not use C, don't use C.</li>
-</ol>

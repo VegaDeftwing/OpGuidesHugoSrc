@@ -118,7 +118,7 @@ Controversial hot take: I think they’re handling self-employed/gig workers jus
 
 {{< iquestion >}}
 
-**I've seen some online vendors implementing Purchasing Power Parity (PPP)<a class="ptr">(1)</a>, where the price will change depending on the purchasing power of country where you're buying from. What do you think about this: is it good or bad?**
+**I've seen some online vendors implementing Purchasing Power Parity (PPP)** <footnote>Notably for my readers both <a href="https://draculatheme.com/pro">Dracula Theme Pro</a> and <a href="https://wizardzines.com">Wizard Zines</a> do this.</footnote> **, where the price will change depending on the purchasing power of country where you're buying from. What do you think about this: is it good or bad?**
 
 {{< /iquestion >}}
 
@@ -213,7 +213,3 @@ I think being a badger on the internet would have to be the most obscure interes
 {{< /iquestion >}}
 
 Miniature painting. I’ve painted a couple, but when I had just gotten all the resources to really start painting as a hobby, Tax Badger took off and I had no time!
-
-<ol hidden id="footnotes">
-    <li>Notably for my readers both <a href="https://draculatheme.com/pro">Dracula Theme Pro</a> and <a href="https://wizardzines.com">Wizard Zines</a> do this.</li>
-</ol>

@@ -823,7 +823,6 @@ I'm not going to list all my games or game stores, mod loaders, etc. I do want t
 * [Hugo Book Theme](https://github.com/alex-shpak/hugo-book)
 * A bunch of JS utilities
   * [egg.js](https://mikeflynn.github.io/egg.js/)
-  * footnotes from [rauschma](https://github.com/rauschma/html_demos) on github
   * [slider.js](https://github.com/VincentTV/before-after-slider)
   * [pablo.js](http://pablojs.com)
   * [tablesort](http://tristen.ca/tablesort/demo/)

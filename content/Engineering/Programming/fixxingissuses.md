@@ -95,9 +95,3 @@ common interfaces, simulation, serial/print debugging (slow), internal data logg
 [TODO] [Faster Debugging with Watchpoints (Interrupt)](https://interrupt.memfault.com/blog/cortex-m-watchpoints)
 
 TODO: Mention looking at peripheral registers, how to handle interrupts, etc.
-
-
-<ol hidden id="footnotes">
-  <li>This may or may not be important to you. I would simply note that many platforms and CI systems have been taken over or bought by open-source hostile companies. Even formerly visionary ones that don't start with G.</li>
-  <li>Why have different versions of the same compiler? Because they default to different versions of the C++ standard. Not only will C++ "retcon" keywords, but semantics will change. Suffice to say this has caught issues in open source projects.</li>
-</ol>

@@ -122,3 +122,4 @@ https://github.com/SebLague/Slime-Simulation
 
 [Xelu's FREE Controllers & Keyboard Prompts - all CC0](https://thoseawesomeguys.com/prompts/)
 
+[2D Rigid Body Collision Resolution (sassnow.ski)](https://www.sassnow.ski/rigid-body-collisions/1)

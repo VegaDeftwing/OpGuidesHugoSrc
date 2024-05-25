@@ -516,28 +516,7 @@ So let's look at this command. The first part, shasum, is a program on your comp
 
 ## Footnotes
 
-use <a class="ptr">(1)</a> (`<a class="ptr">(1)</a>`) to ref the first footnote, <a class="ptr">(2)</a> for the second, etc. where the footnote text is in a hidden html element
-
-<ol hidden id="footnotes">
-<li>FOOT NOTE 1</li>
-<li>FOOT NOTE 2</li>
-</ol>
-
-
-```
-<ol hidden id="footnotes">
-	<li>FOOT NOTE 1</li>
-    <li>FOOT NOTE 2</li>
-</ol>
-```
-
-
-
-<ol hidden id="footnotes">
-
-</ol>
-
-
+The following should be in a footnote: <footnote>This is a test footnote</footnote> cont. 
 
 ## Colored Tables
 

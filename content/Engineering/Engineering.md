@@ -72,7 +72,7 @@ A beam of electrons deflected in a circle by a magnetic field</br></br>Marcin Bi
 
 {{< /columns >}}
 
-While I'm at it, I also want to inspire you to see beauty in these devices and the algorithms that make them run. For example, the background for this page is running a simulation of *Physarum polycephalum* or slime mold. Beyond being beautiful, the simulation is actually useful because the way slime mold looks for food happens to be a very efficient way of finding the shortest path<a class="ptr">(1)</a> visiting many points - a problem I'm sure the developers of Google Maps would tell you is very important!
+While I'm at it, I also want to inspire you to see beauty in these devices and the algorithms that make them run. For example, the background for this page is running a simulation of *Physarum polycephalum* or slime mold. Beyond being beautiful, the simulation is actually useful because the way slime mold looks for food happens to be a very efficient way of finding the shortest path<footnote>Well, sort of. The way it works doesn't <b>ensure</b> you're getting the shortest path, but then, doing so would require checking every possible cobination, which is the extremely inefficent task this simulation helps avoid</footnote> visiting many points - a problem I'm sure the developers of Google Maps would tell you is very important!
 
 ---
 
@@ -91,11 +91,3 @@ If you want to go through a gentle introduction to a lot of what this guide will
 ---
 
 {{< attribution >}}Slime mold code modified from [TheBugStudio's Code on CodePen](https://codepen.io/TheBugStudio/pen/zYqyJvZ){{< /attribution >}}
-
-
-
-
-
-<ol hidden id="footnotes">
-    <li>Well, sort of. The way it works doesn't <b>ensure</b> you're getting the shortest path, but then, doing so would require checking every possible cobination, which is the extremely inefficent task this simulation helps avoid</li>
-</ol>

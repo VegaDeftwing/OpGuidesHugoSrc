@@ -25,7 +25,7 @@ Some delays may also allow for unity or higher feedback, which will cause the de
 
 Some delays let you insert other things into the feedback path. This means you could do things such as having each repetition be progressively more filtered, cutting out more and more high end each time or putting a delay in the delay. (yo dawg, I heard you like delay?).
 
-Some digital delays and most analog delays (especially bucket brigade delays<a class="ptr">(1)</a>) can produce interesting sounds if you change the delay time while audio is going through the buffer, resulting in a sort of pitch shift as the delay catches up or slows down. Here's a demo of Chronoblob2, which does this sort of pitch shifting, in action:
+Some digital delays and most analog delays (especially bucket brigade delays<footnote>Bucket Brigade Delay is essentially a bunch of capacitors acting as the 'buckets' that are figuratively passed down the chain, moving from one bucket to the next each clock cycle, of course, this clock rate can be changed while it's running. The number of stages in a BBD determines how long of a delay you can get without having a massive determent to quality.</footnote>) can produce interesting sounds if you change the delay time while audio is going through the buffer, resulting in a sort of pitch shift as the delay catches up or slows down. Here's a demo of Chronoblob2, which does this sort of pitch shifting, in action:
 
 <audio controls src="/sounds/DelayModulation01.mp3"></audio>
 
@@ -224,7 +224,3 @@ Flangers sort of makes a comb filter sound too, as you can see in the Spectrum A
 ## Warping
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/AAgqMJbicac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<ol hidden id="footnotes">
-    <li>Bucket Brigade Delay is essentially a bunch of capacitors acting as the 'buckets' that are figuratively passed down the chain, moving from one bucket to the next each clock cycle, of course, this clock rate can be changed while it's running. The number of stages in a BBD determines how long of a delay you can get without having a massive determent to quality.</li>
-</ol>

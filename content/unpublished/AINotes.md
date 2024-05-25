@@ -41,3 +41,7 @@ Upscaling can bring an image from good to great.
 The best way right now is to manual send the picture to Img2Img first and doubling the resolution and play with the denoising strength then send it through [UltraSharp](https://openmodeldb.info/models/4x-UltraSharp)
 
 For a 1-pass upscale (not doing an Img2Img pass) using just LDSR, ESRGAN, or SwinIR may give you better results, depending on the style you want. 
+
+---
+
+https://github.com/paul-gauthier/aider

@@ -6,7 +6,7 @@
 
 {{< vale >}}**H**yper**T**ext **M**arkup **L**anguage{{< /vale >}} is the one thing on this list I suspect everyone reading this page has at least a smidgen of familiarity with.
 
-To write HTML you'll be working with a bunch of HTML **tags**. Tags are these point-bracketed enclosed words that mean something special to the browser, let's actually make a HTML file right now to get started. Go ahead and open any plain text editor <a class="ptr">(1)</a>, and make a new file and name it whatever you want, just make sure to end it in `.html`
+To write HTML you'll be working with a bunch of HTML **tags**. Tags are these point-bracketed enclosed words that mean something special to the browser, let's actually make a HTML file right now to get started. Go ahead and open any plain text editor <footnote>Note, this means <b>NOT</b> Microsoft Word, but Notepad will work. If you want, now is a good time to grab https://code.visualstudio.com</footnote>, and make a new file and name it whatever you want, just make sure to end it in `.html`
 
 now, go ahead and type this into that document, 
 
@@ -24,7 +24,7 @@ and then, hopefully, you should be able to double click that file and it will op
 
 It's pretty much more of the same from here. Just a bunch more tags that you should look into and understand how to use. There's all the `<h1>` though `<h6>` variants for headings of decreasing size, `<a>` for links, `<ol>` and `<ul>` for ordered and unordered lists, which then contain list items with `<li>`, and so on. It's reasonable to just go through every tag listed on [W3 School's HTML Element Reference Page](https://www.w3schools.com/TAGS/), or follow their [HTML Tutorial](https://www.w3schools.com/html/html_intro.asp) - though you might want to read through this page first.
 
-There's not much complexity in using plain HTML, it's how it interacts with CSS and JS that make it interesting. Still, don't underestimate how much you can do, basic HTML, with just `<img>` tags for images, `<a>` for links and so on can still get you quite far. HTML is the foundation of your website<a class="ptr">(2)</a>, so give it thought as you write it. Generally, I think you should try to make what you have in mind in HTML as much as you can *before* resorting to adding CSS or JS, but also don't try to get HTML to do things it's not designed for if CSS or JS is a better fit. Hopefully I can give you a better idea of what should to use when in the coming chapters, though to some extent this just requires experience. Still, it's good to know where doing something hack-y is okay and where it's not.
+There's not much complexity in using plain HTML, it's how it interacts with CSS and JS that make it interesting. Still, don't underestimate how much you can do, basic HTML, with just `<img>` tags for images, `<a>` for links and so on can still get you quite far. HTML is the foundation of your website<footnote>In some cases a website will have little to no html but still be quite complex, but those tend to start going into web app territory, like https://squoosh.app where you can press f12→Elements and see there's not much there, because almost everything displayed uses JavaScript. There's nothing wrong with doing webdev this way, but it's more advanced! For the vast majority of websites, the HTML is the foundation.</footnote>, so give it thought as you write it. Generally, I think you should try to make what you have in mind in HTML as much as you can *before* resorting to adding CSS or JS, but also don't try to get HTML to do things it's not designed for if CSS or JS is a better fit. Hopefully I can give you a better idea of what should to use when in the coming chapters, though to some extent this just requires experience. Still, it's good to know where doing something hack-y is okay and where it's not.
 
 A good example of this is tables.
 
@@ -176,8 +176,3 @@ Also, if you dare to hit the <a href="https://github.com/VegaDeftwing/OpGuidesHu
 <img src="/svg/edit.svg" class="book-icon" alt="Edit">
 <span>Edit this page</span>
 </a> link on this page or any other on the site, you may see that there's actually a third thing mixed in with the Markdown and HTML (well, like, 5th thing if you consider the occasional inline CSS and JS, but I digress) and that's the weird tags that look like `{{</* attribution */>}}` or `{{</* columns */>}}` or the like, these are special blocks that work with [Hugo](https://gohugo.io), the tool I use to make OpGuides, and they basically just make it easy to reuse snippets of HTML. There's a good chance that whatever tools you use to make your website will offer something similar, as writing HTML directly can get quite cumbersome if you're repeating the same thing over and over.
-
-<ol hidden id="footnotes">
-    <li>Note, this means <b>NOT</b> Microsoft Word, but Notepad will work. If you want, now is a good time to grab https://code.visualstudio.com</li>
-    <li>In some cases a website will have little to no html but still be quite complex, but those tend to start going into web app territory, like https://squoosh.app where you can press f12→Elements and see there's not much there, because almost everything displayed uses JavaScript. There's nothing wrong with doing webdev this way, but it's more advanced! For the vast majority of websites, the HTML is the foundation.</li>
-</ol>

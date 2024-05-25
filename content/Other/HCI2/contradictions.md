@@ -50,10 +50,6 @@ Or why **"I wish everybody used Linux!"** is probably not the wisest thing to sa
 
 To keep this short, if everybody used Linux, there'd be less incentive for Linux to compete with Windows. If everybody used Windows, M$ wouldn't have incentive to further their OS. Boiled down, competition is a good thing.
 
-That said, there are limits to how much diversity (in the context of computing) is a good thing, too. If I search the Arch User Repository for "i3lock" there are  28 results + original they're all forked <a class="ptr">(1)</a> from. And, okay, not all 28 of those are actual forks, but you get the point. There's a lot of work being duplicated on open source projects, instead of just everybody working together to make one, really good thing.
+That said, there are limits to how much diversity (in the context of computing) is a good thing, too. If I search the Arch User Repository for "i3lock" there are  28 results + original they're all forked <footnote>for the non-technical people: A fork is just when you take an existing project and add your own features on top, usually with a rename. If I don't also keep my project up to date with the original, they'll diverge in features even more significantly with time.</footnote> from. And, okay, not all 28 of those are actual forks, but you get the point. There's a lot of work being duplicated on open source projects, instead of just everybody working together to make one, really good thing.
 
 And, yeah, this provides more choices, but does *anybody* want to research 28 choices for anything to figure out which is best? Especially when most of them are super similar? With desktop environments on Linux at least each is typically novel enough to fun to look at, but if it's something boring, like the given screen-locker example, really?
-
-<ol hidden id="footnotes">
-<li>for the non-technical people: A fork is just when you take an existing project and add your own features on top, usually with a rename. If I don't also keep my project up to date with the original, they'll diverge in features even more significantly with time.</li>
-</ol>

@@ -16,7 +16,7 @@ That said, there are some tips that I've found useful for making better content 
 
      > {{< vale >}}"Ohh, I'd love to mention {{< spoiler >}}how the QMK keyboard firmware lets you set up multiple unicode layers{{< /spoiler >}} but most people have no idea about {{< spoiler >}}mechanical keyboards, let alone Unicode or the QMK firmware{{< /spoiler >}} so I need to cover that first…"{{< /vale >}}
 
-     **BE YOURSELF**. If you think it's cool, others will enjoy your passion - even if they {{< vale >}}only{{< /vale >}} follow half of what you're saying. If nothing else, put something in to interrupt the flow of the rest of the page, like how I have my little speech bubbles and footnotes <a class="ptr">(1)</a>
+     **BE YOURSELF**. If you think it's cool, others will enjoy your passion - even if they {{< vale >}}only{{< /vale >}} follow half of what you're saying. If nothing else, put something in to interrupt the flow of the rest of the page, like how I have my little speech bubbles and footnotes <footnote>Hello!</footnote>
 
      {{< speech >}}Hi there!{{< /speech >}}
      
@@ -45,11 +45,3 @@ That said, there are some tips that I've found useful for making better content 
 
    * Inspiration is incredibly valuable
    * Despite everything, a good, actual text book (paper or screen) tends to provide more food for thought than any other medium
-
-</ol>
-
-
-
-<ol hidden id="footnotes">
-    <li>Hello!</li>
-</ol>

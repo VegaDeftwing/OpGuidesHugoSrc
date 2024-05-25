@@ -128,7 +128,7 @@ canvas {
 
 The key takeaway from the two different kinds of clipping is that while both add harmonics (which is the whole point of distortion) hard clipping adds {{< vale >}}**significantly**{{< /vale >}} more, furthermore, soft-clipping {{< vale >}}mostly{{< /vale >}} adds even harmonics, while hard clipping will give you odd harmonics. That is, it adds a lot more to the higher frequencies. 
 
-If you intentionally use clipping as a distortion and not for limiting the signal, the effect will need to apply some gain to bring the signal back up to the same amplitude, but if this {{< vale >}}is done, it will usually be a few{{< /vale >}} Loudness Units<a class="ptr">(1)</a> higher in volume. This is because more harmonics *sounds* louder. Mix with care.
+If you intentionally use clipping as a distortion and not for limiting the signal, the effect will need to apply some gain to bring the signal back up to the same amplitude, but if this {{< vale >}}is done, it will usually be a few{{< /vale >}} Loudness Units<footnote>See <a href="https://en.wikipedia.org/wiki/EBU_R_128">EBU R 128 (Wikipedia)</a> if you're curious how loudness is usually defined. I'll talk about this more in the mixing and mastering chapter</footnote> higher in volume. This is because more harmonics *sounds* louder. Mix with care.
 
 ### Waveshaping
 
@@ -483,7 +483,3 @@ I, personally, have found my go-to tools are
 * [Evantide's CrushStation](https://www.eventideaudio.com/plug-ins/crushstation/)
 
 These have a nice response to varying dynamics and feel "right" to me.
-
-<ol hidden id="footnotes">
-    <li>See <a href="https://en.wikipedia.org/wiki/EBU_R_128">EBU R 128 (Wikipedia)</a> if you're curious how loudness is usually defined. I'll talk about this more in the mixing and mastering chapter </li>
-</ol>

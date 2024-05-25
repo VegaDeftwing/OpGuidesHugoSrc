@@ -1,55 +1,46 @@
-/* You can add custom styles here. */
-
-a.footptr {
-    vertical-align: super;
-    font-size: .83em;
-    text-decoration: none;
-}
-a.refptr {
-    text-decoration: none;
-}
-.foot-tooltip {
-    background-color: #AAAAAA22;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 1em;
-    opacity: 0;
-	-webkit-transition: opacity 0.3s linear;
-	-moz-transition: opacity 0.3s linear;
-	-o-transition: opacity 0.3s linear;
-	-ms-transition: opacity 0.3s linear;
-	transition: opacity 0.3s linear;
+// For the footnotes
+footnote {
+    display: none;
 }
 
-li:target {
-    background-color: #BFEFFF;
+.footnote-index {
+    cursor: pointer;
+    text-decoration: underline;
+    position: relative;
 }
 
-ol#references {
-    list-style:none;
-	margin-left: 0;
-	padding-left: 1.8em;
-	text-indent: -1.8em;
+.popover {
+    position: absolute;
+    background: #333;
+    border: 1px solid #555;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: none;
+    max-width: 100ch;
+    word-wrap: break-word;
+}
 
-    counter-reset: refcounter;
-}
-ol#references > li:before {
-  content: "[" counter(refcounter) "] ";
-  counter-increment: refcounter;
+.popover::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    border-width: 0 10px 10px 10px;
+    border-style: solid;
+    border-color: transparent transparent #555 transparent;
 }
 
-ol#footnotes {
-    list-style:none;
-	margin-left: 0;
-	padding-left: 1.8em;
-	text-indent: -1.8em;
+.popover::before {
+    content: '';
+    position: absolute;
+    top: -11px;
+    left: 11px;
+    border-width: 0 11px 11px 11px;
+    border-style: solid;
+    border-color: transparent transparent #333 transparent;
+}
 
-    counter-reset: footcounter;
-}
-ol#footnotes > li:before {
-  content: "(" counter(footcounter) ") ";
-  counter-increment: footcounter;
-}
 // For the webmentions
 #webmentions {
     margin: 0;

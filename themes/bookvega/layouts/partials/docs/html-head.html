@@ -13,36 +13,42 @@
   a { color: #42b9f3; }
   a:active { color: #42b9f3; }
   ::-webkit-scrollbar-thumb { background: #009CDF !important; }
+  .footnote-index { color: #42b9f3; }
 </style>
 {{ else if eq $folderName "music" }}
 <style>
   a { color: #d14cd4; }
   a:active { color: #d14cd4; }
   ::-webkit-scrollbar-thumb { background: #973999 !important; }
+  .footnote-index { color: #d14cd4; }
 </style>
 {{ else if eq $folderName "phil" }}
 <style>
   a { color: #E23838; }
   a:active { color: #E23838; }
   ::-webkit-scrollbar-thumb { background: #E23838 !important; }
+  .footnote-index { color: #e23838; }
 </style>
 {{ else if eq $folderName "design" }}
 <style>
   a { color: #F78200; }
   a:active { color: #F78200; }
   ::-webkit-scrollbar-thumb { background: #F78200 !important; }
+  .footnote-index { color: #F78200; }
 </style>
 {{ else if eq $folderName "interviews" }}
 <style>
   a { color: #FFB900; }
   a:active { color: #FFB900; }
   ::-webkit-scrollbar-thumb { background: #FFB900 !important; }
+  .footnote-index { color: #FFB900; }
 </style>
 {{ else if eq $folderName "other" }}
 <style>
   a { color: #5EBD3E; }
   a:active { color: #5EBD3E; }
   ::-webkit-scrollbar-thumb { background: #5EBD3E !important; }
+  .footnote-index { color: #5EBD3E; }
 </style>
 {{ else }}
 <!-- Default styles here -->
@@ -50,6 +56,7 @@
   a { color: #42b9f3; }
   a:active { color: #42b9f3; }
   ::-webkit-scrollbar-thumb { background: #009CDF !important; }
+  .footnote-index { color: #42b9f3; }
 </style>
 {{ end }}
 
@@ -85,8 +92,6 @@
   {{- $swJS := resources.Get "sw-register.js" | resources.ExecuteAsTemplate "sw.js" . | resources.Minify | resources.Fingerprint }}
   <script defer src="{{ $swJS.RelPermalink }}" {{ template "integrity" $swJS }}></script>
 {{ end -}}
-
-{{- template "_internal/google_analytics.html" . -}}
 
 <!-- RSS -->
 {{- with .OutputFormats.Get "rss" -}}

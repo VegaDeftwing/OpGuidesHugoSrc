@@ -199,7 +199,7 @@ Once upon a time, famous C programmer Eric Raymond [wrote](http://vadeker.net/ar
 
 In other words, as a more accessible member of the functional languages family, it will teach you *concepts* that imperative languages would never teach.
 
-I would argue the same about Rust. It is a steep curve, especially in the middle, and especially for certain problems. But it is still worth it. <a class="ptr">(1)</a>
+I would argue the same about Rust. It is a steep curve, especially in the middle, and especially for certain problems. But it is still worth it. <footnote>Similar to functional languages, sometimes the only solution is <i>completely rethink your approach to your problem</i>. Learning when this is the case, and what to do about it, is the difference between an intermediate and a skilled Rust programmer.</footnote>
 
 [Rust](https://www.rust-lang.org/) is an imperative programming language originally developed at Mozilla Research. The idea behind Rust was to take the concepts of functional languages -- laziness, type theory, etc. -- and make them accessible in an imperative language as a replacement for C or C++.
 
@@ -225,7 +225,3 @@ At the same time, the compiler has already statically proven your code is a lot 
 Even if you don't spend a lot of time in Rust, writing programs in it -- and getting caught by the compiler for things you cannot do -- will change the way you think about code. While this is especially for similar low-level languages like C++, it can even affect the way you look at Python.
 
 It is definitely worth learning for that experience.
-
-<ol hidden id="footnotes">
-        <li>Similar to functional languages, sometimes the only solution is <i>completely rethink your approach to your problem</i>. Learning when this is the case, and what to do about it, is the difference between an intermediate and a skilled Rust programmer.</li>
-</ol>

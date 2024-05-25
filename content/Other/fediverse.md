@@ -95,7 +95,7 @@ Which is basically a fancy way of saying when you do something on your own websi
 
 {{< speech big math>}}
 
-If you're being pedantic, this means that this website isn't technically part of the indieweb in full, as it doesn't post links out automatically, it only fetches replies via [webmentions](https://indieweb.org/Webmention) using [brid.gy](https://brid.gy). <a class="ptr">(1)</a>
+If you're being pedantic, this means that this website isn't technically part of the indieweb in full, as it doesn't post links out automatically, it only fetches replies via [webmentions](https://indieweb.org/Webmention) using [brid.gy](https://brid.gy). <footnote>Webmentions don't always use ActivityPub but often do. This is enough into the weeds that I don't know all the details. If you do and want to submit something explaining it on this page it would be welcome.</footnote>
 
 {{< /speech >}}
 
@@ -125,7 +125,7 @@ Why would I want my site to be able to do that?
 
 {{< speech big >}}
 
-See how at the bottom of this page reactions to it on Twitter, Lobste.rs, various mastodon services, etc. all show up? That's using something called [Webmentions](https://indieweb.org/Webmention) which is something that's part of the indieweb movement. It lets things be connected without me needing to post it in any one of those places directly. This means I'm still in full control of this website, you're still in full control of your accounts, but you can talk about this website and people can see that conversation regardless of the platform you're using <a class="ptr">(2)</a>.
+See how at the bottom of this page reactions to it on Twitter, Lobste.rs, various mastodon services, etc. all show up? That's using something called [Webmentions](https://indieweb.org/Webmention) which is something that's part of the indieweb movement. It lets things be connected without me needing to post it in any one of those places directly. This means I'm still in full control of this website, you're still in full control of your accounts, but you can talk about this website and people can see that conversation regardless of the platform you're using <footnote>...ish. The way Webmentions work is weird. Generally anything using ActivityPub will work, but some things that don't can also be made to work and that's still called a WebMention. This post isn't meant to get to technical about how they work, and frankly I don't know.</footnote>.
 
 {{< /speech >}}
 
@@ -255,10 +255,3 @@ When you go to a website and do (almost) anything, all of the content is severed
 The big two are **Gopher** and **Gemini**, and at risk of pissing people off by treating them like they're the same thing, they're both very limited. You can display text, images, etc. but the way those websites actually arrange the content and show it to you is up to your browser. The websites themselves only provide the content, they leave it up to the browser to decide how to display it. If you want to try out a browser, see [Castor](https://sr.ht/~julienxx/Castor/) and noodle around. (or maybe [bombadillo](https://bombadillo.colorfield.space) if you're a TUI person)
 
 If you want to know more in a not incorrect and at least less-simplified way, give [Gopher, Gemini and The Smol Internet (Tales From The Dork Web #22, Steve Lord) ](https://thedorkweb.substack.com/p/gopher-gemini-and-the-smol-internet)a read.
-
-
-
-<ol hidden id="footnotes">
-    <li>Webmentions don't always use ActivityPub but often do. This is enough into the weeds that I don't know all the details. If you do and want to submit something explaining it on this page it would be welcome.</li>
-    <li>...ish. The way Webmentions work is weird. Generally anything using ActivityPub will work, but some things that don't can also be made to work and that's still called a WebMention. This post isn't meant to get to technical about how they work, and frankly I don't know.</li>
-</ol>

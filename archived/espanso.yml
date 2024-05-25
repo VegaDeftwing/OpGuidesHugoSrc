@@ -31,7 +31,7 @@ matches:
 
   # Markdown Stuff
   - trigger: ":tip"
-    replace: '{{< tip >}}$|${{< /tip >}}'
+    replace: "{{< tip >}}$|${{< /tip >}}"
 
   - trigger: ":col"
     replace: "{{< columns >}}$|${{< /columns >}}"
@@ -46,10 +46,10 @@ matches:
     replace: "{{< katex >}}$|${{< /katex >}}"
 
   - trigger: ":img"
-    replace: '<img src="/f.ext" alt=" " height="80em">' 
+    replace: '<img src="/f.ext" alt=" " height="80em">'
 
   - trigger: ":quote"
-    replace: "{{< quote \"source\" >}}$|${{< /quote >}}"
+    replace: '{{< quote "source" >}}$|${{< /quote >}}'
 
   - trigger: ":butt"
     replace: '{{< button relref=" " >}}$|${{< /button >}}'
@@ -67,15 +67,9 @@ matches:
     replace: "{{< smalltext >}}$|${{< /smalltext >}}"
 
   - trigger: ":foot"
-    replace: "<a class=\"ptr\">($|$)</a>"
+    replace: "<footnote>($|$)</footnote>"
 
-  - trigger: ":ffoot"
-    replace: |
-              <ol hidden id="footnotes">
-              <li>FOOT NOTE 1</li>
-              </ol>
-
-# Unicode Fun
+  # Unicode Fun
   - trigger: ":section"
     replace: "§"
 

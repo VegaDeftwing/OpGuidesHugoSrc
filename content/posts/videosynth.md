@@ -115,7 +115,7 @@ Some of these will be harder than others, but none of them should really be all 
 
 <--->
 
-Most of these have been done<a class="ptr">(1)</a>; however, many were done with the help of friends and some I'm-not-allowed-to-redistribute code, so, the best I can do is tell you that this journey was a successful one. While it's not the best demo,  I did slam this together with it. Keep in mind, all of the visuals are being made live, reacting to MIDI input:
+Most of these have been done<footnote>I didn't get pixel sorting, fractals, metaballs, or bit patterns in. I also skipped Webcam input and screen capture because, assuming I don't want to apply crazy effects to them, I can just record everything through OBS. This gives me those anyway and with all the "normal" blending modes and filters I could ever want - as in the below video.</footnote>; however, many were done with the help of friends and some I'm-not-allowed-to-redistribute code, so, the best I can do is tell you that this journey was a successful one. While it's not the best demo,  I did slam this together with it. Keep in mind, all of the visuals are being made live, reacting to MIDI input:
 
  {{< /columns >}}
 
@@ -147,12 +147,6 @@ One more thing,
 
 This page is focused on **live, video synthesis** but there are other options: 
 
-Using clips, triggering them, and manipulating them or generating visuals after the fact in something like After Effects<a class="ptr">(2)</a>.
+Using clips, triggering them, and manipulating them or generating visuals after the fact in something like After Effects<footnote>Fuck Adobe.</footnote>.
 
-This of this as the difference between a DJ remixing songs and an EDM artist cranking out beats on a synths and drum machines live. I want the latter, but the former has it's place. I haven't looked into tools for this anywhere near as much as it doesn't really interest me, but https://www.zwobotmax.com looks pretty neat, for those that use Ableton Live. Otherwise, everything looks like the same UI clusterfuck, with both [Modul8](https://www.garagecube.com/modul8/) and [VDMX](https://vdmx.vidvox.net) looking like they're competing for worst UI while still costing hundreds of dollars. [Resolume's "Avenue" and "Arena"](https://resolume.com/software/avenue_arena) look to be a bit better, but targeted more at people trying to put on a full stage show for big crowds than for consumers making YouTube videos without resorting to using After Effects<a class="ptr">(3)</a> or [Natron](https://natrongithub.github.io).
-
-<ol hidden id="footnotes">
-    <li>I didn't get pixel sorting, fractals, metaballs, or bit patterns in. I also skipped Webcam input and screen capture because, assuming I don't want to apply crazy effects to them, I can just record everything through OBS. This gives me those anyway and with all the "normal" blending modes and filters I could ever want - as in the below video. </li>
-<li>Fuck Adobe.</li>
-<li>Seriously, Fuck. Adobe.</li>
-</ol>
+This of this as the difference between a DJ remixing songs and an EDM artist cranking out beats on a synths and drum machines live. I want the latter, but the former has it's place. I haven't looked into tools for this anywhere near as much as it doesn't really interest me, but https://www.zwobotmax.com looks pretty neat, for those that use Ableton Live. Otherwise, everything looks like the same UI clusterfuck, with both [Modul8](https://www.garagecube.com/modul8/) and [VDMX](https://vdmx.vidvox.net) looking like they're competing for worst UI while still costing hundreds of dollars. [Resolume's "Avenue" and "Arena"](https://resolume.com/software/avenue_arena) look to be a bit better, but targeted more at people trying to put on a full stage show for big crowds than for consumers making YouTube videos without resorting to using After Effects<footnote>Seriously, Fuck. Adobe.</footnote> or [Natron](https://natrongithub.github.io).

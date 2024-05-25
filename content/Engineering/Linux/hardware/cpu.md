@@ -54,7 +54,7 @@ Alright, that's a whole lot of information, let's break it down.
 
 First of all, almost all modern Central Processing Units (CPUs) have multiple cores, and as with most things in computers the're counted from 0, so on a 4 core computer you'll have cores 0, 1, 2, and 3. Multiple cores simply let your computer do things in parallel, running multiple programs or tasks at the same time
 
-Next is the vendor ID, family, model, name, and stepping. My processor is an AMD Ryzen 7 1700. There's a pretty good chance your CPU will be made by Intel, and as such the family, model, name, and what not will reflect that. AMD and Intel are practically the only two laptop and desktop CPU providers<a class="ptr">(1)</a>, though in the future we'll work with boards that use CPU's made by other manufactures. Really, most of this doesn't matter. Some CPUs are nicer than others, and if you follow the market or care it's easy to get a sense of a CPU's speed just based on it's name, but let's move on for now.
+Next is the vendor ID, family, model, name, and stepping. My processor is an AMD Ryzen 7 1700. There's a pretty good chance your CPU will be made by Intel, and as such the family, model, name, and what not will reflect that. AMD and Intel are practically the only two laptop and desktop CPU providers<footnote>With the exception of Apple's newer hardware, which runs <a href="https://en.wikipedia.org/wiki/Apple_silicon">their own silicon</a>, and some low end devices like chromebooks which may run processors like you'd find in phones.</footnote>, though in the future we'll work with boards that use CPU's made by other manufactures. Really, most of this doesn't matter. Some CPUs are nicer than others, and if you follow the market or care it's easy to get a sense of a CPU's speed just based on it's name, but let's move on for now.
 
 
 ```bash
@@ -361,7 +361,3 @@ If you want to know about the internals of the CPU itself, check out [Chapter 29
 <img src="/common/youtube_social_icon_red.webp" style="height:0.8em">  [Spyware at The Hardware Level - Intel ME & AMD PSP (Mental Outlaw)](https://youtu.be/HNwWQ9zGT-8)
 
 [Cascade: CPU Fuzzing via Intricate Program Generation](https://comsec.ethz.ch/research/hardware-design-security/cascade-cpu-fuzzing-via-intricate-program-generation/)
-
-<ol hidden id="footnotes">
-    <li>With the exception of Apple's newer hardware, which runs <a href="https://en.wikipedia.org/wiki/Apple_silicon">their own silicon</a>, and some low end devices like chromebooks which may run processors like you'd find in phones.</li>
-</ol>

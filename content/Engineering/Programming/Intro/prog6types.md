@@ -175,7 +175,7 @@ It's weird, but - to spoil the mystery - it's because C really wants you to thin
 
 You see, in C, if you were to just set a variable equal to `my_array` you wouldn't actually be copying the data, you'd actually only be setting the variable to hold the address of the first element in the array. C arrays are really just allocating a bunch of consecutive places in memory for you. So, if you think about it as address and offsets from a base address, starting at 0 - that is, no offset - makes a lot of sense.
 
-By the way, while we'll get to it later, if you did actually want to copy the data. In C at least, you'd actually have to use a function called `memcpy()` <a class="ptr">(1)</a>which is literally for copying memory from one place to another. In Python, you can do it by directly doing the assignment as you'd expect.
+By the way, while we'll get to it later, if you did actually want to copy the data. In C at least, you'd actually have to use a function called `memcpy()` <footnote>Well, okay, not "have to". You could make a loop to iterate over every element in the array. But, memcpy will likely be dramatically faster because some really smart people have optimized the hell out of it.</footnote>which is literally for copying memory from one place to another. In Python, you can do it by directly doing the assignment as you'd expect.
 
 > Err, okay, this is confusing. What I mean is in C if you have this:
 >
@@ -804,9 +804,3 @@ This video is pretty in depth. I don't really expect someone new to programming 
 ---
 
 Okay, we're getting there. We've gone over some of the mind set of programming, you've now ran some code in two different languages, stepped though it, and have learned a lot about data types - next up, we'll finally look at actual logic and doing stuff on these data types.
-
-<ol hidden id="footnotes">
-    <li>Well, okay, not "have to". You could make a loop to iterate over every element in the array. But, memcpy will likely be dramatically faster because some really smart people have optimized the hell out of it.</li>
-</ol>
-
-

@@ -25,6 +25,14 @@
 
 ### Pickups?
 
+### Frets?
+
+Some guitars used "fanned" or multi-scale frets. This is most common on extended range (7+ string) guitars. The intent is that the scale length can be longer for the thick string and shorter for the thin so that the tension on all of them is reasonable (it avoids the low string being floppy). Different guitars may use a different fret as the "straight fret" where it changes from being fanned up vs down, and this can alter what chords are comfortable. They also should have better intonation.
+
+You won't find many old guitars with fanned frets as the patent for them on guitars only expired in 2009.
+
+In addition to multi-scale, you may happen across a [true temperament neck](https://truetemperament.com/products/) where the frets are all a bit squiggly. This makes it so each note is actually correct in a 12TET scale, instead of the standard imperfections inherit to guitar. This makes chords sound more stable/accurate as you move closer to the body. [These are still patented](https://patents.google.com/patent/US7728210B2/en) with it not set to expire until 2027.
+
 ### Strings?
 
 [TODO]

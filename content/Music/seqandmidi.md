@@ -34,9 +34,9 @@ So, on that top row, we have
 
 Which, effectively, just means the bass drum will play on the 4th beat, endlessly. This gives the bass drum a super basic, repetitive pattern. If I had done every other beat, it would just be twice as fast. You can see how the other drums have more complex patterns, and you should be able to look at the screenshot above and see how that pattern matches the sound.
 
-This setup for a step sequencer is almost painfully simple, and doesn't leave a ton of options. Probably the biggest missing thing here is velocity, which means there's not a way in this patch to adjust the volume of each hit<a class="ptr">(1)</a>. Rather than make this all about VCV, I recommend you take a look at the step sequencer in the Elektron Digitakt, which is almost obnoxiously powerful. My point here isn't to convince you to run out and buy hardware, but rather to show that simple step sequencing, when done with care, can go a long way. For this, I recommend watching [Beats From Scratch / Elektron Digitakt Minimal Techno Jam](https://www.youtube.com/watch?v=g5bHONbDXDI) from Ihor on YouTube, which was feature on the percussion page as well. You almost certainly won't follow everything going on, but you should see that he can adjust certain parameters and 'lock' them to a step, like choosing only one step in a sequence to be a higher pitch. 
+This setup for a step sequencer is almost painfully simple, and doesn't leave a ton of options. Probably the biggest missing thing here is velocity, which means there's not a way in this patch to adjust the volume of each hit<footnote>Velocity is technically more than just volume, in a lot of circumstances it will actually change the tone too, in an attempt to emulate the difference in sound when you hit a drum head or pluck a string harder or softer.</footnote>. Rather than make this all about VCV, I recommend you take a look at the step sequencer in the Elektron Digitakt, which is almost obnoxiously powerful. My point here isn't to convince you to run out and buy hardware, but rather to show that simple step sequencing, when done with care, can go a long way. For this, I recommend watching [Beats From Scratch / Elektron Digitakt Minimal Techno Jam](https://www.youtube.com/watch?v=g5bHONbDXDI) from Ihor on YouTube, which was feature on the percussion page as well. You almost certainly won't follow everything going on, but you should see that he can adjust certain parameters and 'lock' them to a step, like choosing only one step in a sequence to be a higher pitch. 
 
-Before moving on, I do want to help you actually make these simple step/gate sequences. For as simple as it sounds to make basic drum sequences, it's *really* not. You'll often end up making just really basic 4-on-the-floor techno (with exactly the bass drum as in the demo sequence above) or something that has at least one percussion hit on every step and gets too busy<a class="ptr">(2)</a>. The normal recommendation for this is [this 260 Drum Machine Patterns](https://www.amazon.com/Drum-Machine-Patterns-Leonard-Corp/dp/0881888877) book (that you can probably find PDFs of online) but [Beat Dissected from Attack Magazine](https://www.attackmagazine.com/technique/beat-dissected/) and this [$10 physical / FREE .PDF Drum patterns book](https://shittyrecording.studio) I think are better.
+Before moving on, I do want to help you actually make these simple step/gate sequences. For as simple as it sounds to make basic drum sequences, it's *really* not. You'll often end up making just really basic 4-on-the-floor techno (with exactly the bass drum as in the demo sequence above) or something that has at least one percussion hit on every step and gets too busy<footnote>As with all things music, this isn't some hard and fast rule. If you want at least one sound on every step that's totally fine, but it's good to remember that empty space in a drum loop has its own character</footnote>. The normal recommendation for this is [this 260 Drum Machine Patterns](https://www.amazon.com/Drum-Machine-Patterns-Leonard-Corp/dp/0881888877) book (that you can probably find PDFs of online) but [Beat Dissected from Attack Magazine](https://www.attackmagazine.com/technique/beat-dissected/) and this [$10 physical / FREE .PDF Drum patterns book](https://shittyrecording.studio) I think are better.
 
 ##### Velocity is a big deal
 
@@ -90,7 +90,7 @@ These values could control anything. The most obvious is the pitch of an oscilla
 
 {{< /columns >}}
 
-To actually hear this in action, here's a patch demonstrating multiple sequences working together. In this patch, the PGMR module is a multi-lane sequencer, which really just means that at each step there's more than one knob, because there's more than one output. <a class="ptr">(3)</a> The main difference between this and just setting up four, small sequencers (like the ADDR-SEQ used in the gif) is that the steps are always locked together, you can't accidentally have one sequence run faster than the other, or get out of sync - not that either of those are bad things, you'll probably want to do both intentionally!
+To actually hear this in action, here's a patch demonstrating multiple sequences working together. In this patch, the PGMR module is a multi-lane sequencer, which really just means that at each step there's more than one knob, because there's more than one output. <footnote>You'll also see PGMRX, which is just an expander adding steps. PGMR only has 4 steps by default, but that's not really enough for most things. You can chain as many PGMRX module as you like to get more steps.</footnote> The main difference between this and just setting up four, small sequencers (like the ADDR-SEQ used in the gif) is that the steps are always locked together, you can't accidentally have one sequence run faster than the other, or get out of sync - not that either of those are bad things, you'll probably want to do both intentionally!
 
 ![](/music/analogstepseq.webp)
 
@@ -108,7 +108,7 @@ One thing you should notice pretty quick once you start playing with sequencers 
 
 {{< columns >}}
 
-One of the more common methods to add variety is too just to sequence your sequences (usually this is called scenes) which, while *can* be done by putting multiple sequences <a class="ptr">(4)</a> through and sequencing that switch, is a bit tedious to set up.
+One of the more common methods to add variety is too just to sequence your sequences (usually this is called scenes) which, while *can* be done by putting multiple sequences <footnote>...or a multi-lane sequencer like the Bogaudio PGMR sequencer that was used above</footnote> through and sequencing that switch, is a bit tedious to set up.
 
 <--->
 
@@ -120,7 +120,7 @@ Instead, you'll probably want to run something which does it more natively. Most
 
 {{< columns >}}
 
-Step sequencers can also get pretty crazy with a lot of built-in features, so if you're in need of some inspiration, there are plenty of options. Some will feature randomization and probability, others will feature per-step ratcheting/repeats, some will let you select steps on a grid with up, down, left, and right instead of just forwards and backwards<a class="ptr">(5)</a>. Step sequencing doesn't have to be boring!
+Step sequencers can also get pretty crazy with a lot of built-in features, so if you're in need of some inspiration, there are plenty of options. Some will feature randomization and probability, others will feature per-step ratcheting/repeats, some will let you select steps on a grid with up, down, left, and right instead of just forwards and backwards<footnote>These are actually cartesian sequencers, but they're still basically step sequencers</footnote>. Step sequencing doesn't have to be boring!
 
 {{< attribution >}}Pictured, L→R, T→B: [Geodesics Entropia](https://library.vcvrack.com/Geodesics/Entropia), [Bidoo dTrOY](https://library.vcvrack.com/Bidoo/dTrOY), [Mog Network](https://library.vcvrack.com/Mog/Network), [Impromptu Phrase Seq 16](https://library.vcvrack.com/ImpromptuModular/Phrase-Seq-16), [Aria Salvatrice Darius](https://library.vcvrack.com/AriaSalvatrice/Darius), [JW GridSeq](https://library.vcvrack.com/JW-Modules/GridSeq), [ZZC Phaseque](https://library.vcvrack.com/ZZC-Phaseque/Phaseque) (non-free), [Slime Child Audio Polyrhythm Sequencer](https://library.vcvrack.com/SlimeChild-Substation/SlimeChild-Substation-PolySeq) (non-free) all running in [VCV Rack](https://vcvrack.com) {{< /attribution >}}
 
@@ -211,11 +211,3 @@ Arp, velocity, pitch bend, mod, sustain, generative, legato
 ## Multitracking
 
 [Multitracking Synthesizers for Fun and Profit (YouTube, RedMeansRecording)](https://www.youtube.com/watch?v=7EipTdTy8hM)
-
-<ol hidden id="footnotes">
-	<li>Velocity is technically more than just volume, in a lot of circumstances it will actually change the tone too, in an attempt to emulate the difference in sound when you hit a drum head or pluck a string harder or softer.</li>
-    <li>As with all things music, this isn't some hard and fast rule. If you want at least one sound on every step that's totally fine, but it's good to remember that empty space in a drum loop has its own character</li>
-    <li> You'll also see PGMRX, which is just an expander adding steps. PGMR only has 4 steps by default, but that's not really enough for most things. You can chain as many PGMRX module as you like to get more steps.</li>
-    <li>...or a multi-lane sequencer like the Bogaudio PGMR sequencer that was used above</li>
-    <li>These are actually cartesian sequencers, but they're still basically step sequencers</li>
-</ol>

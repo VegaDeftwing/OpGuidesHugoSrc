@@ -18,7 +18,7 @@ Okay, cool, a mechanical keyboard. Now at least each switch is, well, mechanical
 
 ![ergodone](/hci/ergodone.webp)
 
-Alright, so this is what I use. For me, this is great. It's still attainable and usable by mere mortals without infinitely deep wallets<a class="ptr">(1)</a> and using software as it exists today, but I think that's largely still because it's the furthest edge you can go from normal before things start being a royal pain in the ass, and don't get me wrong, It's not that there's not some PITA incurred from using this weird of a keyboard. Switching to a traditional keyboard will always feel weird, other people can't easily use your computer (not sure this is reallllly a downside...), configuration still basically requires you understand the basics of C programming, and some things that expect keys to be in certain places (games) will often be awkward.
+Alright, so this is what I use. For me, this is great. It's still attainable and usable by mere mortals without infinitely deep wallets<footnote>alright, so, yes they're still expensive as all hell, but like if you go DIY then I think they're mostly attainable to most people. I'm sure there's a bit of privlidge talking there, but ╮(─▽─)╭</footnote> and using software as it exists today, but I think that's largely still because it's the furthest edge you can go from normal before things start being a royal pain in the ass, and don't get me wrong, It's not that there's not some PITA incurred from using this weird of a keyboard. Switching to a traditional keyboard will always feel weird, other people can't easily use your computer (not sure this is reallllly a downside...), configuration still basically requires you understand the basics of C programming, and some things that expect keys to be in certain places (games) will often be awkward.
 
 But, that's not where I want to go with this blog post. There's plenty of people that have gone on for like 20 pages about how amazing [QMK](https://qmk.fm) and the Ergodox are, I want to go **deeper**.
 
@@ -62,11 +62,11 @@ A: Now I'm asking myself a hard question. It's easy to list off good qualities o
 
 **No.**
 
-That's why this topic is so interesting. My hands are not your hands. I play music, make art, write stories (and blog posts) and code. Part of the reason I got an Ergodone keyboard (the spit keyboard shown above) in the first place is because I was starting to experience some nasty hand cramps that were particularly bad if I was switching between guitar and typing a lot. I was willing to try just about anything, which I did. I switched to Dvorak<a class="ptr">(2)</a>, an alternative keyboard layout. That didn't do the trick so I tried the ergodone (still using Dvorak, my layout is [here](https://github.com/qmk/qmk_firmware/blob/master/keyboards/ergodone/keymaps/vega/keymap.c)) and haven't looked back. But that's left a few interesting points, ignoring the obvious reason of price, why are people still using something seems to be obviously *worse* - in a word: Familiarity.
+That's why this topic is so interesting. My hands are not your hands. I play music, make art, write stories (and blog posts) and code. Part of the reason I got an Ergodone keyboard (the spit keyboard shown above) in the first place is because I was starting to experience some nasty hand cramps that were particularly bad if I was switching between guitar and typing a lot. I was willing to try just about anything, which I did. I switched to Dvorak<footnote><a href="https://en.wikipedia.org/wiki/Dvorak_keyboard_layout#/media/File:KB_Programmer_Dvorak.svg">Programmer's Dvorak</a> is a thing and honestly I want to know if anybody actually uses it? Having the numbers like that hurts my brain.</footnote>, an alternative keyboard layout. That didn't do the trick so I tried the ergodone (still using Dvorak, my layout is [here](https://github.com/qmk/qmk_firmware/blob/master/keyboards/ergodone/keymaps/vega/keymap.c)) and haven't looked back. But that's left a few interesting points, ignoring the obvious reason of price, why are people still using something seems to be obviously *worse* - in a word: Familiarity.
 
 **Frankly, fuck that.**
 
-We can do so much better. Our phones have auto correct and limited [text expansion](https://espanso.org), why do our beefier systems not do something a thousand times better with their superior on board resources? We could at least make it easier to grab [text out of screenshots](https://github.com/ianzhao05/textshot)- But why are we not doing natural language processing so that I can verbally or textually describe to you a graph or math equation without needing to have committed to memory some archaic set of {{< katex >}} \LaTeX {{< /katex >}}symbol names <a class="ptr">(3)</a>? Why are so many fields limited to ASCII, or maybe UTF-8, giving us those sweet, sweet emoji 🔥🔥🔥💯💯💯💯 when we could have something that allows text, diagrams, pictures, videos, etc.
+We can do so much better. Our phones have auto correct and limited [text expansion](https://espanso.org), why do our beefier systems not do something a thousand times better with their superior on board resources? We could at least make it easier to grab [text out of screenshots](https://github.com/ianzhao05/textshot)- But why are we not doing natural language processing so that I can verbally or textually describe to you a graph or math equation without needing to have committed to memory some archaic set of {{< katex >}} \LaTeX {{< /katex >}}symbol names <footnote><a href="http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf">Seriously,</a>  check these out. You won't believe some of what's in here.</footnote>? Why are so many fields limited to ASCII, or maybe UTF-8, giving us those sweet, sweet emoji 🔥🔥🔥💯💯💯💯 when we could have something that allows text, diagrams, pictures, videos, etc.
 
 {{< columns >}}
 
@@ -170,7 +170,7 @@ I also think there's room to allow for workflows that rely more on the physical,
 
 ### Audio And Video
 
-[Your **webcam** is shit](https://reincubate.com/support/how-to/why-are-webcams-bad/#putting-them-to-the-test). You know how I know? Because it's a webcam. Even the everybody's go-to, the Logitcech C920, is shit<a class="ptr">(4)</a>. You know what else is shit? Your microphone. When you type on a laptop it sounds like damn earthquake, and if you get comfortable and lean back in your chair you suddenly get quiet. Maybe you have a gamer headset? Cool, the boom mic sounds about as good somebody screaming through a cardboard tube.
+[Your **webcam** is shit](https://reincubate.com/support/how-to/why-are-webcams-bad/#putting-them-to-the-test). You know how I know? Because it's a webcam. Even the everybody's go-to, the Logitcech C920, is shit<footnote>I will concede the C920 can be made significantly less shit by just turning off most of the 'auto' settings and setting everything by hand. This can be done on Linux with GuvcView, but on Windows I've found all the recent drivers make it impossible, so, I stand by it still being shit.</footnote>. You know what else is shit? Your microphone. When you type on a laptop it sounds like damn earthquake, and if you get comfortable and lean back in your chair you suddenly get quiet. Maybe you have a gamer headset? Cool, the boom mic sounds about as good somebody screaming through a cardboard tube.
 
 But, better cameras do exist, and, if you're willing to shell out the cash, you can get a decent mic. Unfortunately, either way they have a problem.
 
@@ -200,17 +200,17 @@ Finally, *nobody* has ever wanted their notifications to show up when sharing th
 
 ### Application Specific Controllers (MIDI Controllers, Video Editing, etc)
 
-First of all, this is done in a stupid way in most circumstances<a class="ptr">(5)</a>. There is no reason you should have single use hardware that sends specific commands that are not programmable by the user. Like I said above, let's do all the mapping in software. This lets features be added later and users make better use of their controllers.
+First of all, this is done in a stupid way in most circumstances<footnote>In the case of things that can be used standalone, not connected to a computer, like my afforementioned MorningStar MC6 midi controller, it makes some sense.</footnote>. There is no reason you should have single use hardware that sends specific commands that are not programmable by the user. Like I said above, let's do all the mapping in software. This lets features be added later and users make better use of their controllers.
 
 But, let's look at some of what exists, and why I'm saying this. While other devices exist to pick on, I'm gong to focus on MIDI controllers as they're what I know.
 
 First though, for those unfamiliar, what is a MIDI controller? MIDI, or Musical Instrument Digital Interface is a bloody ancient standard that's still (mostly) 7-bit and let's you send control messages about actions on a controller made for music, often a piano keyboard, so, something like Key C4 Down, Velocity 8 or twisting a knob may be on a MIDI Control Channel (CC) and will be like CC43 changed to 127. Obviously in 2022 having a 7 bit standard is a bit archaic (something I've ranted about previously {{< button relref="Music/midi" color="Music" >}} here {{< /button >}}) and it's a rather stupid that it's taken until earlier this year for the improved MIDI 2.0 standard to even be ratified, but I digress.
 
-MIDI controllers come in all shapes and sizes, from a grid of RGB buttons to traditional keyboards to just a large array of knobs, so, naturally people took notice, and MIDI can therefore be used to control things it was never, ever meant for. People often try to use it to control video editors, 3D modeling software, and generally anything that Adobe<a class="ptr">(6)</a> makes.
+MIDI controllers come in all shapes and sizes, from a grid of RGB buttons to traditional keyboards to just a large array of knobs, so, naturally people took notice, and MIDI can therefore be used to control things it was never, ever meant for. People often try to use it to control video editors, 3D modeling software, and generally anything that Adobe<footnote>Fuck Adobe.</footnote> makes.
 
 ![midi controllers](/hci/midicontrollers.webp)
 
-> Pictured here are the Novation Launch Key MkII (The big keyboard),  Launhpad MkII (the 8x8 grid), the Roli Seaboard Block, and two Roli Lightpad Blocks.  <a class="ptr">(7)</a> The Roli equipment uses MPE, a 'standard' that abuses the hell out of midi and does things with it that were never intended.
+> Pictured here are the Novation Launch Key MkII (The big keyboard),  Launchpad MkII (the 8x8 grid), the Roli Seaboard Block, and two Roli Lightpad Blocks.  <footnote>The Launchkey MK2 has an almost impressively bad keybed. Roli, the company behind the Seaboard Block and Lighpad Blocks is a bit controversial. Not like, Behringer levels of controversial, but still. ╮(─▽─)╭</footnote><footnote>Since I took this picture I have upgrade to a Launchpad Pro MK3 - which was pretty good - but then sold that too for an Ableton Push2. I also sold the Roli Seaboard and got an ExpressiveE Osmose. Both the Osmose and Push are huge upgrades, but have a cost to match.<footnote> The Roli equipment uses MPE, a 'standard' that abuses the hell out of midi and does things with it that were never intended.
 
 So now we have a crazy amount of controllers using a shitty standard instead of something that actually exposes more data and allows for finer control being used in ways that abuse the protocol instead of just exposing raw button down/up events and knob twists to the OS.
 
@@ -292,7 +292,45 @@ I know that I can pick from pleanty of L or U shaped desks on amazon, but most w
 
 ![](/hci/desk2.webp)
 
-And, alright, I admit, I'm not a typical computer user. I have enough devices hooked up that `lsusb` gives me 36 lines of output<a class="ptr">(8)</a>, I have 3 monitors + a pen display, and my desk is also home to a whole host of lab equipment, a eurorack setup, and other various things. 
+And, alright, I admit, I'm not a typical computer user. I have enough devices hooked up that `lsusb` gives me 36 lines of output<footnote> this is without anything extra connected, like flash drives or RFID tools, or my SDR, ...</br>
+<code>
+Bus 006 Device 003: ID 2109:0812 VIA Labs, Inc. VL812 Hub </br>
+Bus 006 Device 002: ID 2109:0812 VIA Labs, Inc. VL812 Hub </br>
+Bus 006 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub </br>
+Bus 005 Device 011: ID 331b:0003 Morningstar Engineering Morningstar MC6MK2 </br>
+Bus 005 Device 008: ID 1235:007c Focusrite-Novation Launchkey MK2 49 </br>
+Bus 005 Device 009: ID 045e:028e Microsoft Corp. Xbox360 Controller </br>
+Bus 005 Device 006: ID 05e3:0608 Genesys Logic, Inc. Hub </br>
+Bus 005 Device 012: ID f182:0003 Leap Motion Controller </br>
+Bus 005 Device 013: ID 0c45:6340 Microdia Camera </br>
+Bus 005 Device 007: ID 1235:8201 Focusrite-Novation Scarlett 18i20 USB </br>
+Bus 005 Device 005: ID 2109:2812 VIA Labs, Inc. VL812 Hub </br>
+Bus 005 Device 004: ID 2109:2812 VIA Labs, Inc. VL812 Hub </br>
+Bus 005 Device 014: ID 1935:000d Elektron Music Machines Elektron Digitakt </br>
+Bus 005 Device 003: ID feed:e60d K.T.E.C. ErgoDone </br>
+Bus 005 Device 002: ID 1a86:7523 QinHeng Electronics CH340 serial converter </br>
+Bus 005 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub </br>
+Bus 004 Device 003: ID 2109:0813 VIA Labs, Inc. VL813 Hub</br>
+Bus 004 Device 002: ID 2109:0813 VIA Labs, Inc. VL813 Hub</br>
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub</br>
+Bus 003 Device 005: ID 256c:006e  Tablet Monitor</br>
+Bus 003 Device 009: ID 1235:0069 Focusrite-Novation Launchpad MK2</br>
+Bus 003 Device 008: ID 046d:082d Logitech, Inc. HD Pro Webcam C920</br>
+Bus 003 Device 007: ID 1337:6007 Vega Deftwing Stinky</br>
+Bus 003 Device 006: ID cb10:1133 Keebio BDN9 Rev. 1</br>
+Bus 003 Device 004: ID 2109:2813 VIA Labs, Inc. VL813 Hub</br>
+Bus 003 Device 003: ID 2109:2813 VIA Labs, Inc. VL813 Hub</br>
+Bus 003 Device 002: ID 1e7d:2e4a ROCCAT Tyon Black Mouse</br>
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</br>
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub</br>
+Bus 001 Device 002: ID 1235:0123 Focusrite-Novation Launchpad Pro MK3</br>
+Bus 001 Device 007: ID 04d8:eef2 Microchip Technology, Inc. FH-2</br>
+Bus 001 Device 006: ID 28de:1142 Valve Software Wireless Steam Controller</br>
+Bus 001 Device 005: ID 0bda:8771 Realtek Semiconductor Corp. Bluetooth Radio</br>
+Bus 001 Device 004: ID 05e3:0745 Genesys Logic, Inc. Logilink CR0012</br>
+Bus 001 Device 003: ID 1a40:0201 Terminus Technology Inc. FE 2.1 7-port Hub</br>
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</br>
+    </code></footnote>, I have 3 monitors + a pen display, and my desk is also home to a whole host of lab equipment, a eurorack setup, and other various things. 
 
 Sure, It does actually have a decent sized keyboard tray unlike most where they just expect you to put the keyboard and mouse on top of the desk like some sort of monster, but that tray is still on the small side if I were to use a normal full size keyboard (with numberpad). Worse, if I use a normal keyboard my hands tend to hit the sides of the keyboard tray (where the slides attach). I've seen a ton of wooden desks with this issue. Just move the rails back like 2 inches and angle it. Please. A lot of desks also skimp on the height of keyboard that can fit in the tray. This is a fair trade off, as the better this is the closer it is to your legs when sitting, but still, I've seen multiple where the feet on the keyboard can't be raised to make typing more comfortable otherwise the keyboard tray can't be closed. My desk actually sits in a pretty good sweet spot on this, but...
 
@@ -310,7 +348,7 @@ I won't try to list it out, but Oh. My. God. A sit stand desk wouldn't be possib
 
 I could rant to you about how USB-C with it's 42 different standards is a god damn nightmare, and that'd even be pretty relevant here. But that's not the rabbit hole I want to fall down right now, instead I want to introduce you to my friend, MIDI.
 
-MIDI Is a fucking shit of a standard. It's 7 bit, ancient, and the 'standard' <a class="ptr">(9)</a> cable for it has (ᵈᵉᵖᵉⁿᵈᶦⁿᵍ ᵒⁿ ʰᵒʷ ʸᵒᵘ ˡᵒᵒᵏ ᵃᵗ ᶦᵗ) 3 more pins than it even uses. By all metrics it fucking sucks. ***However***, They did do one thing right.
+MIDI Is a fucking shit of a standard. It's 7 bit, ancient, and the 'standard' <footnote>MIDI is currently in a transition period from MIDI on a 5-pin Din to over TRS exactly because of this reason. Unfortunately, there's now two competing versions of MIDI over TRS called TRS-A and TRS-B where the signals on each pin are mixed around. Making it even worse, there's even a version that runs on 'mono' TS cables. It's a <a href="https://minimidi.world">mess.</footnote> cable for it has (ᵈᵉᵖᵉⁿᵈᶦⁿᵍ ᵒⁿ ʰᵒʷ ʸᵒᵘ ˡᵒᵒᵏ ᵃᵗ ᶦᵗ) 3 more pins than it even uses. By all metrics it fucking sucks. ***However***, They did do one thing right.
 
 This beautiful port:
 
@@ -440,13 +478,17 @@ There is software that does [some of this](https://github.com/jaakkopasanen/Auto
 
 I'm going to assume that if you're reading this you're probably using at minimum a 1080p, 60hz monitor. And like, yeah 2073600 is a ton of pixels. If you assume the normal 8-bit per R-G-B (24bit color) then you get ~2.98Gbit/s which is already pretty impressive if you think about it, but then consider that even cheap single board computers are starting to be capable of 4k, 3840x2160 which at 60hz is ~11.94Gbit/s and, alright, that's already undeniably really cool. But, unfortunately, super not enough and already causing problems. 
 
-If you're like me and running 4k @ 60hz, you've likely had at least some issues as a result of this. Lower quality Display Port <a class="ptr">(10)</a> cables can cause occasional flickering, you're probably limited to 6' DP cables. The reason I bring all of this up at the start is because I want to fully acknowledge that every extra bit we try to push down that pipe is pushing that even further and making it even more expensive.
+If you're like me and running 4k @ 60hz, you've likely had at least some issues as a result of this. Lower quality Display Port <footnote>The interface on your display matters greatly as well, the most common at the are HDMI, Display Port, DVI, and VGA<br>
+VGA is the worst option here, as it's an analog signal. This means the signal can do strange things, getting corrupted between your computer and the monitor. Typically this is a blue, screw in connection with many pins
+DVI is still pretty common and looks like an even larger VGA connection, with a typically white, screw in connector. This signal is normally digital, though there is a variant of DVI that can be adapted into VGA. Of note, DVI can also be adapted to HDMI though you will not have audio, as DVI does not carry sound<br>
+HDMI, probably the most well known connector, has multiple revisions, the revision determines many things such as the maximum resolution, refresh rate, and weather or not more obscure things such as HDR are supported. HDMI is usually considered the best of these three options<br>
+Taking the crown however, is Display Port (DP). Like HDMI display port does have multiple revisions which do differentiate similar things; however, Display Port will generally support high resolutions and more features at any given point. Assuming you're running a bog-standard 60hz 1080p display however, you'll find no difference between DVI, HDMI, and DP - unless you need sound, in which case you'll want to use HDMI.</footnote> cables can cause occasional flickering, you're probably limited to 6' DP cables. The reason I bring all of this up at the start is because I want to fully acknowledge that every extra bit we try to push down that pipe is pushing that even further and making it even more expensive.
 
 But, let's go to more day-to-day concerns, the things that suck even assuming everything is working fine.
 
 The first thing is obviously **resolution**.
 
-4k is far from normal still. 1080p just is not enough. It's super easy to see the individual pixels from even a comfortable distance and text is pretty unclear unless sub-pixel rendering<a class="ptr">(11)</a> is used, but that makes things even worse because not all displays use the same sub-pixel layout.
+4k is far from normal still. 1080p just is not enough. It's super easy to see the individual pixels from even a comfortable distance and text is pretty unclear unless sub-pixel rendering<footnote>Sub-Pixel Rendering is effectively abusing the fact that monitors will have a sort of trippled horizonal resolution, where each individual R, G, and B sub pixel is treated like an individual pixel that can be rendered to. This can make text look substantially sharper, but is why when you take a screenshot and blow it up you might see weird colors around the text. It's a hacky work around.</footnote> is used, but that makes things even worse because not all displays use the same sub-pixel layout.
 
 Another problem with resolution is that ohmygod does scaling suck. A ton of applications, especially older ones, were made with the assumption that you'd be viewing everything on a 1080p or lower resolution. In general the move to 1080p actually wasn't felt as much because the size of our displays increased with their resolution, increasing work area but keep the application size roughly the same. The problem is with the move to 4k we're dramatically increasing pixel density at often the same screen size, so everything is ᵗᶦⁿʸ. Software scaling in the OS is pretty universally garbage, with some applications scaling in a way that looks super blurry, some being double scaled as both the OS and the application try to compensate, and some applications just not scaling at all. Because this is inherently a complaint about legacy support there's no easy solutions here. Using 4k instead of other  higher-than-1080p resolutions helps, as integer scaling (scaling exactly 2x) is an option as 4k is exactly equivalent to four 1080p screens stitched together, so you can just map 4-pixels in hardware to 1-pixel of what's trying to render... or you could, if we hadn't already tried to use aforementioned sub-pixel rendering.
 
@@ -464,7 +506,7 @@ You'll probably notice it directly, but if not, you will likely at the very leas
 
 Now, realize that the vast, vast majority of displays are only 60hz. Double that, sure, but I think you could easily see how more would be great. This is exactly why most displays sold for gaming advertise being higher refresh rate, often 144hz or more. This is where my above commentary on throughput of DisplayPort and reliability at high rates. If you look at the [Display Port (Wikipedia)](https://en.wikipedia.org/wiki/DisplayPort#1.4) you can see this problem has been mostly addressed, but that only means so much if cables are shit and monitors that are both high res and high refresh rate cost both arms and a leg. Obviously this should get better with time, but it's still a problem.
 
-Some displays may support Freesync or Gsync <a class="ptr">(12)</a>, and both of these technologies require a supported graphics card in the system as well. These allow the display and computer to adaptively change the refresh rate so the monitor and computer both send and display frames in sync, which can make even a low refresh rate 'feel' much higher. This is a feature typically marketed to gamers and only supported in video games, but this has been changing a tiny bit. The big thing to note here is that it's dependent on the frame rate of the application that the user cares about, you could, I guess, sync to your compositor's (the thing that draws multiple windows onto the desktop simultaneously) frame rate, but I don't think there could even be any benefit there. So, really, this is mostly applicable to games as there's a few other applications you'd even want to run in full screen where this latency and responsiveness improvement would matter.
+Some displays may support Freesync or Gsync <footnote>FreeSync is the open standard made by AMD, and, even most FreeSync monitors will work fine on Nvidia card. GSync is Nvidia only and is more expensive to impliment - in part because it uses a full damn FPGA shoved into the back of the monitor - but does offer more features except when it doesn't and it's just rebranded FreeSync with a lil' Nvidia Approved sticker. It's complicated and a mess to understand. As of the time of writing both Freesync and GSync are supported on Linux, but quite rough around the edges.</footnote>, and both of these technologies require a supported graphics card in the system as well. These allow the display and computer to adaptively change the refresh rate so the monitor and computer both send and display frames in sync, which can make even a low refresh rate 'feel' much higher. This is a feature typically marketed to gamers and only supported in video games, but this has been changing a tiny bit. The big thing to note here is that it's dependent on the frame rate of the application that the user cares about, you could, I guess, sync to your compositor's (the thing that draws multiple windows onto the desktop simultaneously) frame rate, but I don't think there could even be any benefit there. So, really, this is mostly applicable to games as there's a few other applications you'd even want to run in full screen where this latency and responsiveness improvement would matter.
 
 Related to refresh rate is **latency**. In general this can actually mean two things, one is how long it takes for an image sent to the screen to actually be displayed. The lower this time the better, with good screens being sub 10 millisecond. Unfortunately, there's no standard among the industry to measure this and many get it wrong.
 
@@ -662,65 +704,3 @@ Rather paradoxically, I do see value in motion in the work space too. For exampl
 If you do think "huh, I could go for a fish tank", I will warn you most produce a fair amount of noise with running water and motors for the air pump and filtration. There are some tanks that avoid both though, so don't immediately rule it out, just do your research.
 
 {{< /hint >}}
-
-<ol hidden id="footnotes">
-<li>alright, so, yes they're still expensive as all hell, but like if you go DIY then I think they're mostly attainable to most people. I'm sure there's a bit of privlidge talking there, but ╮(─▽─)╭</li>
-<li><a href="https://en.wikipedia.org/wiki/Dvorak_keyboard_layout#/media/File:KB_Programmer_Dvorak.svg">Programmer's Dvorak</a> is a thing and honestly I want to know if anybody actually uses it? Having the numbers like that hurts my brain.</li>
-<li><a href="http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf">Seriously,</a>  check these out. You won't believe some of what's in here.</li>
-<li>I will concede the C920 can be made significantly less shit by just turning off most of the 'auto' settings and setting everything by hand. This can be done on Linux with GuvcView, but on Windows I've found all the recent drivers make it impossible, so, I stand by it still being shit.</li>
-<li>In the case of things that can be used standalone, not connected to a computer, like my afforementioned MorningStar MC6 midi controller, it makes some sense. </li>
-<li>Fuck Adobe.</li>
-<li>The Launchkey MK2 has an almost impressively bad keybed. Roli, the company behind the Seaboard Block and Lighpad Blocks is a bit controversial. Not like, Behringer levels of controversial, but still. ╮(─▽─)╭</li>
-<li>
- this is without anything extra connected, like flash drives or RFID tools, or my SDR, ...</br>
-<code>
-Bus 006 Device 003: ID 2109:0812 VIA Labs, Inc. VL812 Hub </br>
-Bus 006 Device 002: ID 2109:0812 VIA Labs, Inc. VL812 Hub </br>
-Bus 006 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub </br>
-Bus 005 Device 011: ID 331b:0003 Morningstar Engineering Morningstar MC6MK2 </br>
-Bus 005 Device 008: ID 1235:007c Focusrite-Novation Launchkey MK2 49 </br>
-Bus 005 Device 009: ID 045e:028e Microsoft Corp. Xbox360 Controller </br>
-Bus 005 Device 006: ID 05e3:0608 Genesys Logic, Inc. Hub </br>
-Bus 005 Device 012: ID f182:0003 Leap Motion Controller </br>
-Bus 005 Device 013: ID 0c45:6340 Microdia Camera </br>
-Bus 005 Device 007: ID 1235:8201 Focusrite-Novation Scarlett 18i20 USB </br>
-Bus 005 Device 005: ID 2109:2812 VIA Labs, Inc. VL812 Hub </br>
-Bus 005 Device 004: ID 2109:2812 VIA Labs, Inc. VL812 Hub </br>
-Bus 005 Device 014: ID 1935:000d Elektron Music Machines Elektron Digitakt </br>
-Bus 005 Device 003: ID feed:e60d K.T.E.C. ErgoDone </br>
-Bus 005 Device 002: ID 1a86:7523 QinHeng Electronics CH340 serial converter </br>
-Bus 005 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub </br>
-Bus 004 Device 003: ID 2109:0813 VIA Labs, Inc. VL813 Hub</br>
-Bus 004 Device 002: ID 2109:0813 VIA Labs, Inc. VL813 Hub</br>
-Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub</br>
-Bus 003 Device 005: ID 256c:006e  Tablet Monitor</br>
-Bus 003 Device 009: ID 1235:0069 Focusrite-Novation Launchpad MK2</br>
-Bus 003 Device 008: ID 046d:082d Logitech, Inc. HD Pro Webcam C920</br>
-Bus 003 Device 007: ID 1337:6007 Vega Deftwing Stinky</br>
-Bus 003 Device 006: ID cb10:1133 Keebio BDN9 Rev. 1</br>
-Bus 003 Device 004: ID 2109:2813 VIA Labs, Inc. VL813 Hub</br>
-Bus 003 Device 003: ID 2109:2813 VIA Labs, Inc. VL813 Hub</br>
-Bus 003 Device 002: ID 1e7d:2e4a ROCCAT Tyon Black Mouse</br>
-Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</br>
-Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub</br>
-Bus 001 Device 002: ID 1235:0123 Focusrite-Novation Launchpad Pro MK3</br>
-Bus 001 Device 007: ID 04d8:eef2 Microchip Technology, Inc. FH-2</br>
-Bus 001 Device 006: ID 28de:1142 Valve Software Wireless Steam Controller</br>
-Bus 001 Device 005: ID 0bda:8771 Realtek Semiconductor Corp. Bluetooth Radio</br>
-Bus 001 Device 004: ID 05e3:0745 Genesys Logic, Inc. Logilink CR0012</br>
-Bus 001 Device 003: ID 1a40:0201 Terminus Technology Inc. FE 2.1 7-port Hub</br>
-Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</br>
-    </code>
-</li>
-<li>MIDI is currently in a transition period from MIDI on a 5-pin Din to over TRS exactly because of this reason. Unfortunately, there's now two competing versions of MIDI over TRS called TRS-A and TRS-B where the signals on each pin are mixed around. Making it even worse, there's even a version that runs on 'mono' TS cables. It's a <a href="https://minimidi.world">mess.</a></li>
-<li>The interface on your display matters greatly as well, the most common at the are HDMI, Display Port, DVI, and VGA<br>
-VGA is the worst option here, as it's an analog signal. This means the signal can do strange things, getting corrupted between your computer and the monitor. Typically this is a blue, screw in connection with many pins
-DVI is still pretty common and looks like an even larger VGA connection, with a typically white, screw in connector. This signal is normally digital, though there is a variant of DVI that can be adapted into VGA. Of note, DVI can also be adapted to HDMI though you will not have audio, as DVI does not carry sound<br>
-HDMI, probably the most well known connector, has multiple revisions, the revision determines many things such as the maximum resolution, refresh rate, and weather or not more obscure things such as HDR are supported. HDMI is usually considered the best of these three options<br>
-Taking the crown however, is Display Port (DP). Like HDMI display port does have multiple revisions which do differentiate similar things; however, Display Port will generally support high resolutions and more features at any given point. Assuming you're running a bog-standard 60hz 1080p display however, you'll find no difference between DVI, HDMI, and DP - unless you need sound, in which case you'll want to use HDMI.</li>
-<li>Sub-Pixel Rendering is effectively abusing the fact that monitors will have a sort of trippled horizonal resolution, where each individual R, G, and B sub pixel is treated like an individual pixel that can be rendered to. This can make text look substantially sharper, but is why when you take a screenshot and blow it up you might see weird colors around the text. It's a hacky work around.</li>
-<li>FreeSync is the open standard made by AMD, and, even most FreeSync monitors will work fine on Nvidia card. GSync is Nvidia only and is more expensive to impliment - in part because it uses a full damn FPGA shoved into the back of the monitor - but does offer more features except when it doesn't and it's just rebranded FreeSync with a lil' Nvidia Approved sticker. It's complicated and a mess to understand. As of the time of writing both Freesync and GSync are supported on Linux, but quite rough around the edges.</li>
-<li>for the non-technical people: A fork is just when you take an existing project and add your own features on top, usually with a rename. If I don't also keep my project up to date with the original, they'll diverge in features even more significantly with time.</li>
-
-
-</ol>

@@ -189,7 +189,7 @@ Ultimately, I want people to be able to express themselves as much or as little 
 
 {{< /speech >}}
 
-Yes. Yes it will. But I think we can find solutions to these problems. Maybe it means making each post note limited to ~~140~~ 280 characters, but being limited to 512x512 pixels. Maybe it means a moderation system with a mix of algorithmic and crowd sourced moderation can take down abusive posts. I don't know how to do it.<a class="ptr">(1)</a> I don't think anybody does. It'll take multiple iterations, some nasty security problems, and some of the brightest minds on this planet - but I think we can make a platform which combines the best of totally custom websites with a scrollable content feed. 
+Yes. Yes it will. But I think we can find solutions to these problems. Maybe it means making each post note limited to ~~140~~ 280 characters, but being limited to 512x512 pixels. Maybe it means a moderation system with a mix of algorithmic and crowd sourced moderation can take down abusive posts. I don't know how to do it.<footnote>I may not know the right way, but I know the wrong way: If you suggest blockchain or NFTs you're part of the problem.</footnote> I don't think anybody does. It'll take multiple iterations, some nasty security problems, and some of the brightest minds on this planet - but I think we can make a platform which combines the best of totally custom websites with a scrollable content feed. 
 
 I **know** pictures, video, audio, and text absofuckinglutly are incredibly limiting. Just think about what artists and creative minds could do given mixed media options. 
 
@@ -226,7 +226,7 @@ Wordle happened and we all got to see this:
 </pre>
 A hundred times before we had and idea what it meant.
 
-But what if r/place <a class="ptr">(2)</a> were a post from some random user on a micro-blogging platform, where you could click to zoom in and place your pixel?
+But what if r/place <footnote>BTW, there's a few r/place clones that are going strong, such as https://pxls.space/</footnote> were a post from some random user on a micro-blogging platform, where you could click to zoom in and place your pixel?
 
 What if when you saw those box-y emoji's for Wordle you could play right there, in the post - maybe with the post having saved how that user did so you could race them? 
 
@@ -362,8 +362,3 @@ I want to make sure I acknowledge that and showcase how amazing the communities 
 {{< /columns3 >}}
 
 Of course, these are only 3 of the hundreds of amazing people I know. I'm looking forward to sharing the people that make the internet awesome more on OpGuides next year.
-
-<ol hidden id="footnotes">
-    <li>I may not know the right way, but I know the wrong way: If you suggest blockchain or NFTs you're part of the problem.</li>    
-    <li>BTW, there's a few r/place clones that are going strong, such as https://pxls.space/ </li>
-</ol>

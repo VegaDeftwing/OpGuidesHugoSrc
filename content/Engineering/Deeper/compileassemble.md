@@ -98,3 +98,9 @@ At this point, I highly recommend '[The Art of Exploitation](https://nostarch.co
 [Witchcraft Compiler Collection](https://github.com/endrazine/wcc)
 
 [Crinkle ](https://github.com/runestubbe/Crinkler)- "an executable file compressor (or rather, a compressing linker) for Windows for compressing small demoscene executables. As of 2020, it is the most widely used tool for compressing 1k/4k/8k intros."
+
+---
+
+TODO:
+
+https://scratchpad.avikdas.com/elf-explanation/elf-explanation.html

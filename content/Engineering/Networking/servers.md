@@ -71,7 +71,7 @@ For reasons of performance, integrity and optimization, data storage is a proble
 
 #### Option 2: A Turn-Key Desktop NAS
 
-These devices are marketed to solve the above issues to people who consider themselves "non-technical" or otherwise don't want the hassle. An example is the [QNAP TS-128A](https://www.qnap.com/en/product/ts-128a).<a class="ptr">(1)</a>
+These devices are marketed to solve the above issues to people who consider themselves "non-technical" or otherwise don't want the hassle. An example is the [QNAP TS-128A](https://www.qnap.com/en/product/ts-128a).<footnote>This device is dated, and intentionally so. It is an illustration, not a recommendation.</footnote>
 
 
 Reading through their marketing, their dedicated box handles the storage and their software handles most of the common problems. They even have extra features for movies and music specifically: a playlist manager for music, and a Plex "app" you can install for movies.
@@ -231,7 +231,3 @@ And once again, if you need a practical example of the power of containers, take
 [Why All My Servers Have an 8GB Empty File (Brian Schrader)](https://brianschrader.com/archive/why-all-my-servers-have-an-8gb-empty-file/) (It's to buy time in case of a full disk)
 
 [Saving Energy: Home Server that Automatically Suspends to RAM and Wakes Up Again (Maximillian Golla)](https://maximiliangolla.com/blog/2022-10-wol-plex-server/)
-
-<ol hidden id="footnotes">
-    <li>This device is dated, and intentionally so. It is an illustration, not a recommendation.</li>
-</ol>

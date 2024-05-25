@@ -84,11 +84,6 @@ https://maker.js.org
 
 https://github.com/mikeflynn/egg.js
 
-<ol hidden id="footnotes">
-    <li>Note, this means <b>NOT</b> Microsoft Word, but Notepad will work. If you want, now is a good time to grab https://code.visualstudio.com</li>
-    <li>In some cases a website will have little to no html but still be quite complex, but those tend to start going into web app territory, like https://squoosh.app where you can press f12→Elements and see there's not much there, because almost everything displayed uses JavaScript. There's nothing wrong with doing webdev this way, but it's more advanced! For the vast majority of websites, the HTML is the foundation.</li>
-</ol>
-
 https://github.com/karpathy/convnetjs
 
 

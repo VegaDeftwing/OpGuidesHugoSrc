@@ -54,7 +54,7 @@ They're **mostly** the same, but the mostly may trip you up, so ╮(─▽─)�
 
 ## Indentation
 
-In Python, indentation is relevant to the meaning of the code, in C, while not necessary,<a class="ptr">(1)</a> reading it without sucks. So, how does one indent well? Well, there's been an ongoing fight between programs on if you should indent by using tabs, 2 spaces, 3 spaces, or 4 spaces. 
+In Python, indentation is relevant to the meaning of the code, in C, while not necessary,<footnote>They're not techncially needed in C because curly braces - { and } - define sections of code. However, while the computer may still be able to understand code without reasonable indentation, humans (including you) won't be able to easily, so it still matters.</footnote> reading it without sucks. So, how does one indent well? Well, there's been an ongoing fight between programs on if you should indent by using tabs, 2 spaces, 3 spaces, or 4 spaces. 
 
 Honestly, it doesn't matter much as long as it's consistent in a given project. VS Code will default to trying to match the style of whatever file you open - this works because either way, you should be able to literally hit the tab key. If the project uses spaces, it will insert the correct number of spaces. Tabs? a tab. Magic.
 
@@ -240,7 +240,3 @@ In VS Code, you can turn this on in `File→Prefrences→Settings→"Editor: Bra
 ### Code navigation
 
 There's quite a few little tricks to navigate between code, but one you'll want to know of for sure is the ability to control+click on a function name (we'll get to what functions are eventually) and be brought to the code that makes it work. This is particularly helpful when that code is in another file - also something we'll see later. So, just stow this little knowledge nugget away: ctrl+click a function name will bring you to the function's code.
-
-<ol hidden id="footnotes">
-<li>They're not techncially needed in C because curly braces - { and } - define sections of code. However, while the computer may still be able to understand code without reasonable indentation, humans (including you) won't be able to easily, so it still matters.  </li>
-</ol>

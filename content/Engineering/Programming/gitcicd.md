@@ -65,7 +65,7 @@ There are a lot of different git platforms out there, and many of them have thei
 
 As a result, I want to push toward a tool that is platform independent: docker. This has some trade-offs:
 
-* It's independent of any CI provider <a class="ptr">(1)</a>
+* It's independent of any CI provider <footnote>This may or may not be important to you. I would simply note that many platforms and CI systems have been taken over or bought by open-source hostile companies. Even formerly visionary ones that don't start with G.</footnote>
 * It's well supported by most of them (a "command" makes it easy to handle containers)
 * You can run the full CI on your own machine, e.g. to debug it without 20 pushes to trigger a rerun
 * It doesn't rely on their support for a particular OS (especially ancient or exotic ones)
@@ -118,7 +118,7 @@ do
 done
 ```
 
-Then you can test it on any compiler you wish. <a class="ptr">(2)</a>
+Then you can test it on any compiler you wish.<footnote>Why have different versions of the same compiler? Because they default to different versions of the C++ standard. Not only will C++ "retcon" keywords, but semantics will change. Suffice to say this has caught issues in open source projects.</footnote>
 
 If your CI provider supports "build matrix" definition (most do), then you don't even need to do that! Just put matrix variables for each one (so that the line up as a *group*, rather than a *cross product*).
 
@@ -143,9 +143,3 @@ job:
 ```
 
 ## Continuous Deployment
-
-
-<ol hidden id="footnotes">
-  <li>This may or may not be important to you. I would simply note that many platforms and CI systems have been taken over or bought by open-source hostile companies. Even formerly visionary ones that don't start with G.</li>
-  <li>Why have different versions of the same compiler? Because they default to different versions of the C++ standard. Not only will C++ "retcon" keywords, but semantics will change. Suffice to say this has caught issues in open source projects.</li>
-</ol>

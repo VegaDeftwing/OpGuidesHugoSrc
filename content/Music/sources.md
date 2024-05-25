@@ -26,19 +26,13 @@ Another term you might hear is **stems**. Stems are just separate recordings of 
 
 {{< columns >}}
 
-Samples are also, sort of confusingly, made of samples. But these words mean two different things in that sentence. The sample of sound as a whole is made up of a bunch of different points in a wave, usually captured thousand of times a second- whatever the sampling rate is (commonly 44.1, 48, or 96 <a class="ptr">(1)</a>). This is what gives us the this image, where with the originally pretty smooth looking wave, when zoomed in, we can see is made of these discrete points. 
+Samples are also, sort of confusingly, made of samples. But these words mean two different things in that sentence. The sample of sound as a whole is made up of a bunch of different points in a wave, usually captured thousand of times a second- whatever the sampling rate is (commonly 44.1, 48, or 96 <footnote>The Nyquist-Shannon Sampling Therom <a href="https://en.wikipedia.org/wiki/Nyquist–Shannon_sampling_theorem">(Wikipedia)</a> , put very basically, just says your sampling rate needs to be twice as high as the highest frequency in your source to be reproduced exactly. Because human hearing ranges roughly from 20 to 20khz, sampling at 40khz or above should be sufficient. Unfortunately, there's more too it than that, especially as generating waves in a virtual synth can benefit in sound quality for various reason from 'oversampling' - running above 44.1 or 48khz. Unfortunately, the higher the sampling rate the more work the computer has to do.</footnote>). This is what gives us the this image, where with the originally pretty smooth looking wave, when zoomed in, we can see is made of these discrete points. 
 
 This is particularly relevant to making music for multiple reasons: 
 
 * When change the speed/pitch by a non integer value, we have to 'interpolate' extra points into this.  <span style="color:#fff2">#math</span>
 * When we slow down or make a sample lower pitch there's only so much data to use, at really low pitches the wave will start to sound sort of low-fi
 * When chopping a sample to start playback at any point, we want to chop at a 0-crossing to avoid a sharp transition (which equates to high pitch sound)
-
-
-<ol hidden id="footnotes">
-    <li>The Nyquist-Shannon Sampling Therom <a href="https://en.wikipedia.org/wiki/Nyquist–Shannon_sampling_theorem">(Wikipedia)</a> , put very basically, just says your sampling rate needs to be twice as high as the highest frequency in your source to be reproduced exactly. Because human hearing ranges roughly from 20 to 20khz, sampling at 40khz or above should be sufficient. Unfortunately, there's more too it than that, especially as generating waves in a virtual synth can benefit in sound quality for various reason from 'oversampling' - running above 44.1 or 48khz. Unfortunately, the higher the sampling rate the more work the computer has to do.
-    </li>
-</ol>
 
 <--->
 

@@ -8,7 +8,7 @@
 
 So. Can you olin a potato?
 
-Tonight <a class="ptr">(1)</a>, myself and a few others in the ma pona server got talking about the usage of the word **olin** (<span class="conlang" style="font-size:1em">󱥅</span>) towards actions, and whether or not olin can refer to love for anything other than a person. And my brain, in its normal spiderweb-weaving fashion, went running. 
+Tonight <footnote>as of starting to write this, I’ve just crossed over into August 29th, 2022</footnote>, myself and a few others in the ma pona server got talking about the usage of the word **olin** (<span class="conlang" style="font-size:1em">󱥅</span>) towards actions, and whether or not olin can refer to love for anything other than a person. And my brain, in its normal spiderweb-weaving fashion, went running. 
 
 As much as I love using the odd preverb here and there (sike (<span class="conlang" style="font-size:1em">**󱥜**</span>) especially), olin preverb is one I’ve never gotten on board with—I love writing, but “mi olin sitelen” is not how I’d express that passion.
 
@@ -75,7 +75,3 @@ Till then, I’ll close out with one more Buber quote that I’ve been chewing o
 Feelings accompany the metaphysical and metapsychical fact of love, but they do not constitute it. The accompanying feelings can be of greatly differing kinds. The feeling of Jesus for the demoniac differs from his feeling for the beloved disciple; but the love is the one love. Feelings are “entertained”: love comes to pass. Feelings dwell in man; but man dwells in his love. That is no metaphor, but the actual truth. Love does not cling to the I in such a way as to have the Thou only for its “content,” its object; but love is between I and Thou.
 
 {{< /speech >}}
-
-<ol hidden id="footnotes">
-<li>as of starting to write this, I’ve just crossed over into August 29th, 2022</li>
-</ol>

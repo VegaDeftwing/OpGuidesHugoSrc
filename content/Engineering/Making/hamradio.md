@@ -44,6 +44,10 @@ https://newhams.info/2017/02/17/rf-connector-types/
 
 [IRC over LORA for when things go really south(Tom Nardi, Hackaday)](https://hackaday.com/2020/12/12/irc-over-lora-for-when-things-really-go-south/)
 
+[ADS-B Visualizer - adsb.exposed](https://adsb.exposed/?zoom=5&lat=52.3676&lng=4.9041&query=11aea631085a55a6bc0f9b574d7b6c16)
+
+[Scra](https://github.com/myriadrf/ScratchRadio)
+
 [A Cleverly Concealed Magnetic Loop Antenna (Jenny List, Hackaday)](https://hackaday.com/2018/06/23/a-cleverly-concealed-magnetic-loop-antenna/)
 
 {{< columns >}}

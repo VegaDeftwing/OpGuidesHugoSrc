@@ -136,7 +136,7 @@ So, this creates an interesting problem. Getting kids interested in radio in the
 
 This then acts as a feedback loop, since the lack of young blood deters other kids from particpating too. The entire point of radio is to be social, both on the air and at in person meetups making radios, doing fox hunts, etc. - but if everyone else there is multiple generations from you, you're just not going to have much in common, so it takes all the fun out of it. No fun ⇒ No kids ⇒ No kids talking about it to other kids.
 
-So, let's view this through this quantization lens. Here, the steps are really obvious: generations. From Boomers to Zoomers. The big problem is that the distribution of ages in the hobby is so horribly uneven that instead of being *roughly* a bell curve that corresponds to age<a class="ptr">(1)</a>, the distribution *feels* (again, I can't find good data) more like this:
+So, let's view this through this quantization lens. Here, the steps are really obvious: generations. From Boomers to Zoomers. The big problem is that the distribution of ages in the hobby is so horribly uneven that instead of being *roughly* a bell curve that corresponds to age<footnote>Yes, I know this is wrong too. Like, in most non-athletic hobbies you <i>should</i> expect more old than young as people get into something and stay in it life long.</footnote>, the distribution *feels* (again, I can't find good data) more like this:
 
 <img class="center" src="/nonfree/blog/quantized/hamgrid.svg" alt="hamgrid" style="zoom:30%;" />
 
@@ -168,7 +168,7 @@ Now, it's a hobby, and as with any hobby purchasing decisions don't have to be j
 
 Let me wrap back around to this though, and talk about two other communities, though I'll keep it brief:
 
-There's this sort of joke among PC gamers that by the time anyone can afford a good GPU, they don't have time to game and that when they finally do have time, they spend all their time overclocking and tuning<a class="ptr">(2)</a> - they never sit down and play a game.
+There's this sort of joke among PC gamers that by the time anyone can afford a good GPU, they don't have time to game and that when they finally do have time, they spend all their time overclocking and tuning<footnote>... or trying to win the NewEgg raffle to even be able to buy a graphics card</footnote> - they never sit down and play a game.
 
 Then, there's the synthesizer community. Here, among the many, many problems in the community itself, there's this issue of people collecting and hoarding a huge amount of gear... and not actually making music with it. Now, I'm absolutely guilty of this as well, and to some extent it's not as big of a deal as it may seem: for many, the fun is in sound design, so making music isn't even the end goal. Still, there's a lot of people who spend more time hunting for gear on reverb.com or planning out a eurorack system on modulargrid.net than actually using the gear they have.
 
@@ -217,7 +217,7 @@ It could also be the case that you're just fascinated by the idea of working on 
 
 This post has been really negative, as I've gone out of my way to portray multiple groups and hobbies as being bad in one way or another, with the reason often boiling down to falling to deep down a rabbit hole. While that absolutely can be dangerous and that's a point I wanted to make, it can be incredibly positive as well. Largely, it's a matter of avoiding the bad and cultivating the good.
 
-For example, I'm a furry. To have a website as big as this one on the internet and own a fursuit, it's pretty clear I've gone pretty deep down the rabbit hole<a class="ptr">(3)</a>. In this case, it was 100% worth it, as some furs are really heckin' awesome. I mean, just look at (almost) all of the {{< button relref="Interviews/interviews" color="interview">}}Interviews{{< /button >}} on this site. But at the same time, there's a lot of issues in the fandom. Honestly, while the media like to play up the sexual nature of it, that's honestly pretty tame and I haven't seen many issues with it personally. Instead, to me, the issue is the sheer amount of alcoholism. It's honestly a bit morbidly impressive. For me, being a furry has been an immensely positive experience. I have made some of my best friends, been given amazing professional advice and opportunities, become more confident, and just generally had a good time.
+For example, I'm a furry. To have a website as big as this one on the internet and own a fursuit, it's pretty clear I've gone pretty deep down the rabbit hole<footnote>I am very aware of the pun here. It's not indended.</footnote>. In this case, it was 100% worth it, as some furs are really heckin' awesome. I mean, just look at (almost) all of the {{< button relref="Interviews/interviews" color="interview">}}Interviews{{< /button >}} on this site. But at the same time, there's a lot of issues in the fandom. Honestly, while the media like to play up the sexual nature of it, that's honestly pretty tame and I haven't seen many issues with it personally. Instead, to me, the issue is the sheer amount of alcoholism. It's honestly a bit morbidly impressive. For me, being a furry has been an immensely positive experience. I have made some of my best friends, been given amazing professional advice and opportunities, become more confident, and just generally had a good time.
 
 <img src="/nonfree/character/box.png" alt="Vega in a box" style="float: left; width:18%">
 
@@ -225,7 +225,7 @@ Mentally, I think I categorize furies into having tags - like metadata on a file
 
 For example, mentally only having one tag for artist means I'll forget if someone can do 2D or 3D art or if they can animate. Similarly, only having one mental tag for "nerd" may cause me to forget if they're deep into programming FPGAs or if they're more into JS and web dev; only remembering LGBT+ means I occasionally forget pronouns. Clearly, that's not a fine grained enough system. Unfortunately, these mental systems aren't something we consciously make, so it's hard to fix.
 
-Still, for me the relevant part is that from that list of tags I give someone, I can decide to prune them from my mental list of people I bother to stay friends with or I can try to maintain that relationship<a class="ptr">(4)</a> This is a healthy thing to do, both at a personal level and a community level.
+Still, for me the relevant part is that from that list of tags I give someone, I can decide to prune them from my mental list of people I bother to stay friends with or I can try to maintain that relationship<footnote>even if I do so poorly 😬, If I haven't messaged you in a while, it's more likely you just floated down to the bottom of my recent messages list...</footnote> This is a healthy thing to do, both at a personal level and a community level.
 
 **Lesson:** Not all nerdy cults are bad, but you should pay attention to avoid the bad connections and cultivate the good.
 
@@ -263,10 +263,3 @@ Take it easy,
 \- Vega
 
 {{< smalltext >}}... and maybe next time I'll sneak in a conversion about respect with a title about aliasing or gun control under the guise of the Fourier Transform. You can't stop me!{{< /smalltext >}}
-
-<ol hidden id="footnotes">
-    <li>Yes, I know this is wrong too. Like, in most non-athletic hobbies you <i>should</i> expect more old than young as people get into something and stay in it life long. </li>
-    <li>... or trying to win the NewEgg raffle to even be able to buy a graphics card</li>
-    <li>I am very aware of the pun here. It's not indended.</li>
-    <li>even if I do so poorly 😬, If I haven't messaged you in a while, it's more likely you just floated down to the bottom of my recent messages list...</li>
-</ol>

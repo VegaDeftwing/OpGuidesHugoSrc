@@ -17,7 +17,7 @@ Maybe you're of the opinion that you're following the One True Good™. </br>May
 Ultimately, as long as it is a personal thing and you keep it a personal thing, which camp you fall in to doesn't really matter. Unfortunately,
 
 * Many religions view spreading the Word Of God™ as a key thing.
-* Religion is becoming increasing tied to political ideology.<a class="ptr">(1)</a>
+* Religion is becoming increasing tied to political ideology.<footnote>Hint, hint - this post is a weee bit US centric. Still, this is a thing globally too.</footnote>
 * Religion is sometimes used to justify doing some really shit things
 * Religion has the ability to make shit things done previously (often 500+ years ago) keep people very, very angry
   * This anger is sometimes used by those with ulterior motives
@@ -79,7 +79,7 @@ Just because you do not take an interest in politics doesn't mean politics won't
 
 {{< /quote >}}
 
-To wrap up this intro, religion is interesting for its own reasons<a class="ptr">(2)</a>. but the political ramifications of religion in modern societies is what is most likely to affect you directly. Still, it's best to address the cause and not the effect, so lets look at how religion do what it do.
+To wrap up this intro, religion is interesting for its own reasons<footnote>it would probably be worth your time to look into the basics of most world religions, as nerdy, professional positions are increasingly held on a global field where you will have no choice but to work with people from diverse backgrounds across the globe, that's just not something I want to cover here. Wikipedia is a thing, go nuts.</footnote>. but the political ramifications of religion in modern societies is what is most likely to affect you directly. Still, it's best to address the cause and not the effect, so lets look at how religion do what it do.
 
 To keep things simple, I'm going to pick on Christianity for the most part. There are other religions that are hugely involved in the politics of their dominant regions, but Christianity being the biggest religion and the one most of the readers of this page are likely to be familiar with, makes the most sense to talk about. Still, I'll try to keep things as generic as possible.
 
@@ -161,7 +161,7 @@ Okay, what about the 2nd result on Google is [Journey Free: Recovery from Harmfu
 
 So, is there an actual, researched moderate view? Well, clearly I'm not the guy to write that. But I did find [The Psychological Processes and Consequences of Fundamentalist Indoctrination by Josh Cuevas](https://d1wqtxts1xzle7.cloudfront.net/57163304/Essays_in_the_Philosophy_of_Humanism-with-cover-page-v2.pdf?Expires=1658095582&Signature=L8Rsm93Ao2wT9LBom3XTFJkGUy71wt0Pi8ACK4P69Ki4IPKESkSsejnyeyMAlco-pG7Juf5ATbbx48C~~FsfD6FW-U4YseeyvGA3iN-VEjRM0YtFfm8ItCbuNijJRkuTPqaN9ts80ei4sDbb~P3VEqGmUUXNLi~Q-YtbICmBqabX5pSHAqyx~RlLUzoOYOYedlwIyvmWU2sivrKTTCvyaQ~sjNEm4AlcBsQcPC9SBPvDCTzV5ebwgiMhLW2sbGDDMAXYEoD8DGzsJz5TYCLWxUNny9qZtm~wVMKFlYOEXsCvBYewL2MIpVorXT8uDjT6hw~Mn36tfjfJQiNbYPWhjw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA), a professor at the University of North Georgia. Which as TL;DR basically agrees that at least religious education is indoctrination "because it asks the child to bypass reason and evidence, and instead accept something as truth that is not known to be true by the authority figure." and that "This also creates greater possibilities for extremism and violence.", though, really, go read at least the Conclusion (only 8 paragraphs) for yourself. It also helpfully mentions how Islamic communities are affected as well.
 
-I think it's pretty safe to assume the vast majority of religious people are religious because it's how they were raised. It's effective, it's normalized, and <a class="ptr">(3)</a> is a guaranteed route for growth.
+I think it's pretty safe to assume the vast majority of religious people are religious because it's how they were raised. It's effective, it's normalized, and <footnote>...assuming the population of that religion is having babies exceeding the replacement rate and conversion-away-from-that-religion-rate</footnote> is a guaranteed route for growth.
 
 ### Missions
 
@@ -235,9 +235,3 @@ As for the particulars there - maybe you are staunchly pro-life, anti-LGBT, etc.
 [Absurdism | How to Party at the End of Meaning (Exurb1a, YouTube)](https://www.youtube.com/watch?v=Jv79l1b-eoI&list=FLFMnqfaTa1se1LfbCB3peJQ)
 
 [We Are the Other People (Oberon (Otter) Zell)](https://www.paganlibrary.com/fundies/other_people.php)
-
-<ol hidden id="footnotes">
-    <li>Hint, hint - this post is a weee bit US centric. Still, this is a thing globally too.</li>
-    <li>it would probably be worth your time to look into the basics of most world religions, as nerdy, professional positions are increasingly held on a global field where you will have no choice but to work with people from diverse backgrounds across the globe, that's just not something I want to cover here. Wikipedia is a thing, go nuts.</li>
-    <li>...assuming the population of that religion is having babies exceeding the replacement rate and conversion-away-from-that-religion-rate</li>
-</ol>

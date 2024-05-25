@@ -1263,7 +1263,7 @@ State Machines
 
 <--->
 
-<img src="https://d2-lang.com/assets/images/intro-example-a917149ff3b72afc02d0cecf703a49a3.png" alt=" ">
+<img src="https://d2lang.com/assets/images/permalight-cd548072550d173729a54b1423ca7eaf.png" alt=" ">
 
 {{< /columns >}}
 
@@ -1320,6 +1320,20 @@ Wave editor, for like showing bit patterns & such
 <--->
 
 <img src="/design/nerdtools/wavedrom.webp" alt=" ">
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[WireViz](https://github.com/wireviz/WireViz)
+
+<--->
+
+"Easily document cables and wiring harnesses."
+
+<--->
+
+<img src="https://github.com/wireviz/WireViz/blob/master/examples/demo02.png?raw=true" alt=" ">
 
 {{< /columns2 >}}
 

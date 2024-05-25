@@ -30,7 +30,7 @@ Sure, some languages may order things differently than English (orange<sub>adj.<
 * Are there any unfamiliar [grammatical cases](https://en.wikipedia.org/wiki/List_of_grammatical_cases)?
 * Word length / Compounding
   * Does the language go full German or Icelandic, or are words short and rarely to never compounded?
-* Is the language written left to right, top to bottom?<a class="ptr">(1)</a>
+* Is the language written left to right, top to bottom?<footnote>Digital interopability with natural languages that arent Left-to-Right, Top-to-Bottom is spotty. Many programs and websites struggle with support, which is unfortunate.</footnote>
 
 Obviously, this is glossing over whole subjects and intricacies that linguists have spent lifetimes on and that I am absofuckinglutly (Hey, look at that, an *infix*) not qualified to talk about. My point is that there's a lot of ground to be covered and explored for conlangs and neoscripts.
 
@@ -110,7 +110,7 @@ Let's look at a few languages quickly, just to see what exists:
 
 * {{< button relref="Other/conlangs/tokipona" color="other" >}} toki pona {{< /button >}} - The language with only ~130 words. It puts all of its points into minimalism and works much better for real conversations than you'd think.
 * [Esparanto](https://en.wikipedia.org/wiki/Esperanto) - The grand daddy of all International auxiliary languages, it now has [60,000 speakers](https://www.liberafolio.org/2017/02/13/nova-takso-60-000-parolas-esperanton/).
-* [Kēlen](https://www.terjemar.net/kelen/lajathin.php) - An attempt at a verb-less language. It also has a beautiful ceremonial alphabet which is more woven than it is written.
+* [Kēlen](https://www.terjemar.net/kelen/lajathin.php) - An attempt at a verb-less language. It also has a beautiful ceremonial alphabet that uses knotwork to hold meaning.
 * [Lojban](https://mw.lojban.org/index.php?title=Lojban&setlang=en-US) -  An attempt to make a language without syntactic ambiguity - that is, any sentence can only mean one thing. Fixing the *[Lesbian Vampire Killers](https://en.wikipedia.org/wiki/Lesbian_Vampire_Killers)* problem. Are they?
   - Lesbians that kill vampires.
   - Killers of lesbian vampires.
@@ -152,7 +152,7 @@ So, more true to the actual spirit, lets start with [HexCasting](https://www.cur
 
 Okay, neat, sure, but maybe it's a contrived example. It's solving a problem that could've been done by just letting the user type out commands (albeit that would be less fun). So, what about working around a real limitation...
 
-[Pixelscript](https://omniglot.com/conscripts/pixelscript.htm) exists for people working on pixel art. At extremely low resolutions, there's just not room to add a normal signature and have it be legible anyway <a class="ptr">(2)</a>. Unlike with the 7-segment display Script/Font, this doesn't try to look like an existing alphabet.
+[Pixelscript](https://omniglot.com/conscripts/pixelscript.htm) exists for people working on pixel art. At extremely low resolutions, there's just not room to add a normal signature and have it be legible anyway <footnote>FWIW, I think <a href="https://www.omniglot.com/conscripts/kfg.htm">KFG</a> may be a better choice if you're working at only a moderately low resolution, as while it's still not a text anybody can read super easily, it's more recognizably text at all, and the differention between glyphs makes it a hair easier to read.</footnote>. Unlike with the 7-segment display Script/Font, this doesn't try to look like an existing alphabet.
 
 ![img](https://omniglot.com/images/langsamples/udhr_pixelscript.gif)
 
@@ -176,7 +176,7 @@ When I tried writing my name I did realize you might want to wear ear protection
 
 Languages and scripts have to make certain trade offs. None of these necessarily make any language or script "better" than any other, but if you have a goal in mind, there are areas where designing either to meet those goals may be difficult:
 
-* Flexibility - Can you say what you actually mean?
+* Flexibility & Precession - Can you say what you actually mean?
   * This can be a lack of vocabulary
 * Ambiguity - Can what you've said/written mean more than one thing?
   * This includes everything from the existence of sarcasm to homophones
@@ -188,7 +188,7 @@ Of course, none of these are strictly *bad* things.
 * Maybe you want a language that's full of double entendres for writing poetry or lyrics
 * Maybe you want cultural differences to be embedded in a language to make a point about two groups of people in a story.
 
-### Flexibility: Music Notation as a proxy for language design
+### Flexibility & Precession: Music Notation as a proxy for language design
 
 Sometimes people will say that "Musical notation is a universal language among musicians" which, given we're talking about languages, you should be able to see the problem here: We don't think of \<Your Native Language Here> as a perfect-for-all-uses, universal language.
 
@@ -242,6 +242,8 @@ In either case, the notes can carry a lot of added information - pitch bend (now
 
 Of course, each has different tradeoffs: You wouldn't want to try to read a printed off piano roll or tracker sheet for performance!
 
+{{< details "[Click to Expand]: Tangent: The Musical Equivalent of Conlangs">}}
+
 Just like conlangs, there have been some efforts to make new music notation systems. [Hummingbird](https://www.hummingbirdnotation.com) and [Clairnote](https://clairnote.org) both make changes (which may be good or bad, depending on who you ask) to the existing common music notation system, but don't really attempt to totally reinvent the wheel.
 
 If these are conlangs, they're not even as different as [Iqglic](https://www.youtube.com/watch?v=mJYrc6oya7c) (pronounced the same as "English") is from English, though.
@@ -269,9 +271,11 @@ Somewhat related, [SMuFL](https://www.smufl.org/fonts/) is standard used to disp
 
 {{< /details >}}
 
-... Getting back on track though,
-
 There are an absolutely **WILD** number of crazy musical notation and sequencing systems because the standard musical notation can't do everything. For the normal roles that sheet music has, yep, pretty great. But just like how we might want the piano roll or tracker to make music (and how that interface changes the end result) we may want other languages because no one language can be infinitely flexible and work for every use case.
+
+{{< /details >}}
+
+The take away I want you to get is that, just like with musical notation, a language has to make compromise in which ways it's flexible vs precise. If you can *technically* represent everything you may find it hard to say some things in an elegant way, but if there are some things you want to say and there's no way to convey them at all, that may also be a problem.
 
 ### Ambiguity: Emoji + Dialects
 
@@ -347,7 +351,7 @@ Could there be ambiguity in these? Of course. It's also likely people would eith
 
 He/Him She/Her Xe/Xem/Xyr Ze/Sir Fae/Faer They/Their ...
 
-Different people have a different level of acceptance of different pronouns... because something-something culture war? Regardless, conlangs may provide different pronouns, often either adding one for non-binary individuals or just using a unified, un-gendered pronoun. <a class="ptr">(4)</a>
+Different people have a different level of acceptance of different pronouns... because something-something culture war? Regardless, conlangs may provide different pronouns, often either adding one for non-binary individuals or just using a unified, un-gendered pronoun. <footnote>Some natural languages have more than two genders for pronouns too!</footnote>
 
 If this sounds difficult, just remember, the correct way to refer to someone in any language is whatever they want you to use, just like in English!
 
@@ -367,7 +371,7 @@ Hiding messages is an art form of itself, and can have a myriad of different req
 * Maybe you want it to be difficult to see there's a message at all
 * Maybe you want it to be obvious there's a message and make it difficult to decode
 
-This does start to go into a conversation about [steganography (Wikipedia)](https://en.wikipedia.org/wiki/Steganography). <a class="ptr">(3)</a>
+This does start to go into a conversation about [steganography (Wikipedia)](https://en.wikipedia.org/wiki/Steganography).<footnote>Not to be confused with Stenography, which is the process of writing in shorthand. Most commonly today this term is used to talk about how court reporters use special keyboards.</br>Also not to be confused with Stegography, the process of writitng with the tail of a Stegosaurus.</footnote>
 
 {{< quote "[Wikipedia](https://en.wikipedia.org/wiki/Steganography)" >}}
 
@@ -438,7 +442,15 @@ Intriguingly, some neoscripts use an existing language but instead of just mappi
 
 </div>
 
-Of these, I particularly like [fontok](https://www.omniglot.com/conscripts/fontok.htm) which adds a significant number of characters as each *sound* (not character) in English is given its own symbol. Of course it doesn't hurt that text written in fontok is breathtakingly beautiful. Similarly, I'm a big fan of [this unnammed script by u/mastefka](https://www.reddit.com/r/neography/comments/8qjd5r/another_english_alternative_script_54/) <a class="ptr">(5)</a>:
+Of these, I particularly like [fontok](https://www.omniglot.com/conscripts/fontok.htm) which adds a significant number of characters as each *sound* (not character) in English is given its own symbol. Of course it doesn't hurt that text written in fontok is breathtakingly beautiful. Similarly, I'm a big fan of [this unnammed script by u/mastefka](https://www.reddit.com/r/neography/comments/8qjd5r/another_english_alternative_script_54/) <footnote>Notes for use (By u/mastefka):
+</br>
+There are two forms for each vowel: a diacritic mark and a letter form:
+• The diacritic mark always precedes the consonant that it appears above.</br>
+• As well, only two vowels can stack over a consonant; in words like “beautiful,” the “ea” are written as diacritics and the “u” is written in its letter form under them.</br>
+• Words that end in a vowel must be written in letter form as the don’t have a vowel to precede. Likewise if a word ends in two vowels, such as “free” a diacritic can be written above the letter form to finish out the word.</br>
+• Words that begin with a capitalized vowel, are written with the letter form, such as the first word of a sentence. Words that begin with a vowel anywhere else in a sentence can be written as a diacritic over the consonant that follows it.</br>
+• Proper nouns that begin with a vowel use the letter form, but there’s no change to any proper nouns that begin with a consonant.</br>
+• Consonants that double (little, bubble, barrel, summer, etc) simply have a line draw under it, or through the tail of the letter has one.</footnote>:
 
 
 <div style="width: 65%;">
@@ -725,7 +737,7 @@ Now imagine you have a whole suite of more intersecting commands, ones that let 
 
 Defaults are powerful. It's why [*United States v. Microsoft Corp.*](https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.) in 2001 was a problem in the first place. It's why making it take even one more click to not accept cookie on a website works. The easiest, quickest option is what most people use, and when more people use it, it becomes harder to justify trying something new. Is QWERTY the best keyboard layout? I use [Dvorak](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout), so *for me* the answer is no, but every time I sit down at somebody else's computer and try to type it's incredibly disorienting. That's the cost of not using the default.
 
-So, while there are quite a few reasons things aren't changing all the rapidly, the biggest is defaults. When it became easy to type Emoji, people used them. If there were a dedicated key for `≠` or `±` on your keyboard, you'd probably use them more and programming languages wouldn't have to use `!=` for "not equal"<a class="ptr">(7)</a>. This goes for many other symbols (‽,←, →,√,°,¡, all come to mind) and I know it to be true because I *can* directly type those symbols on my keyboard. For input devices, I've already written a good amount on this though, see {{< button color="other" relref="Other/HCI2/Physical#our-input-methods-suck" >}}The Way We Interact With Computers Sucks: The Physical{{< /button >}}. Of course, this assumes people even know there's alternative options in the first place. If a default is really ingrained then you may not even recognize it as something that *could* have an alternative.
+So, while there are quite a few reasons things aren't changing all the rapidly, the biggest is defaults. When it became easy to type Emoji, people used them. If there were a dedicated key for `≠` or `±` on your keyboard, you'd probably use them more and programming languages wouldn't have to use `!=` for "not equal"<footnote>Some languages do use extra symbols. Notable examples are <a href="https://en.wikipedia.org/wiki/APL_(programming_language)">APL</a> and languages that decended from it, like <a href="https://www.uiua.org">Uiua</a>. Others are a bit less extreme, like <a href="https://andrewshitov.com/2018/03/01/66-atomic-operations-in-perl-6/">how you use atomics in Raku</a>. Uiua is particularly notable for having a reasonable way for writing the uncommon symbols.</footnote>. This goes for many other symbols (‽,←, →,√,°,¡, all come to mind) and I know it to be true because I *can* directly type those symbols on my keyboard. For input devices, I've already written a good amount on this though, see {{< button color="other" relref="Other/HCI2/Physical#our-input-methods-suck" >}}The Way We Interact With Computers Sucks: The Physical{{< /button >}}. Of course, this assumes people even know there's alternative options in the first place. If a default is really ingrained then you may not even recognize it as something that *could* have an alternative.
 
 Similarly, for many things not using the default would break compatibility with *something*. There are millions of computers out there that still today are running Windows 98 because they're driving some industrial or medical equipment manufactured 20 years ago. Would it work on Windows 11? Maybe. Does anyone want to risk the downtime of trying? Hell no. Similarly, there are many cases when someone has made something that is miles ahead of everything else, but breaks all compatibility assumptions in the process. I'd love to run a Linux system using [Cat9](https://github.com/letoram/cat9) and [Durden](https://github.com/letoram/durden), but the early adopter cost is too high.
 
@@ -825,25 +837,3 @@ A special thanks to these people for helping me revise this page:
 
 * jan Usawi
 * Phlegm
-
-<ol hidden id="footnotes">
-<li>Digital interopability with natural languages that arent Left-to-Right, Top-to-Bottom is spotty. Many programs and websites struggle with support, which is unfortunate.</li>
-<li>FWIW, I think <a href="https://www.omniglot.com/conscripts/kfg.htm">KFG</a> may be a better choice if you're working at only a moderately low resolution, as while it's still not a text anybody can read super easily, it's more recognizably text at all, and the differention between glyphs makes it a hair easier to read.</li>
-<li>Not to be confused with Stenography, which is the process of writing in shorthand. Most commonly today this term is used to talk about how court reporters use special keyboards.</br>Also not to be confused with Stegography, the process of writitng with the tail of a Stegosaurus.</li>
-<li>Some natural languages have more than two genders for pronouns too!</li>
-<li>
-Notes for use (By u/mastefka):
-</br>
-There are two forms for each vowel: a diacritic mark and a letter form:
-• The diacritic mark always precedes the consonant that it appears above.</br>
-• As well, only two vowels can stack over a consonant; in words like “beautiful,” the “ea” are written as diacritics and the “u” is written in its letter form under them.</br>
-• Words that end in a vowel must be written in letter form as the don’t have a vowel to precede. Likewise if a word ends in two vowels, such as “free” a diacritic can be written above the letter form to finish out the word.</br>
-• Words that begin with a capitalized vowel, are written with the letter form, such as the first word of a sentence. Words that begin with a vowel anywhere else in a sentence can be written as a diacritic over the consonant that follows it.</br>
-• Proper nouns that begin with a vowel use the letter form, but there’s no change to any proper nouns that begin with a consonant.</br>
-• Consonants that double (little, bubble, barrel, summer, etc) simply have a line draw under it, or through the tail of the letter has one.
-</li>
-<li>I can't seem to find documentation on doing this anymore, but I know I've done it before ¯\_(ツ)_/¯</li>
-<li>Some languages do use extra symbols. Notable examples are <a href="https://en.wikipedia.org/wiki/APL_(programming_language)">APL</a> and languages that decended from it, like <a href="https://www.uiua.org">Uiua</a>. Others are a bit less extreme, like <a href="https://andrewshitov.com/2018/03/01/66-atomic-operations-in-perl-6/">how you use atomics in Raku</a>. Uiua is particularly notable for having a reasonable way for writing the uncommon symbols.</li>
-</ol>
-
-

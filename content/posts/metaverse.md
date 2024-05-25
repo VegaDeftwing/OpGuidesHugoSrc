@@ -324,7 +324,7 @@ In my opinion, if you want a metaverse, this level of openness, customization, a
 
 ## Moderation
 
-There could again be an entire post devoted to what content moderation does and should look like in VR and the metaverse. The TL;DR of that post would probably be "If it's decentralized, you can't stop it, but you sure as shit don't have to federate with it" if you go along with idea of federation and Mastodon. <a class="ptr">(1)</a>
+There could again be an entire post devoted to what content moderation does and should look like in VR and the metaverse. The TL;DR of that post would probably be "If it's decentralized, you can't stop it, but you sure as shit don't have to federate with it" if you go along with idea of federation and Mastodon. <footnote>If you don't know what I mean by that, the TL;DR of that is that Mastodon (a service a lot like Twitter) has separate servers more-or-less the same as someone might have a gmail or a hotmail account, but can still email eachother. Here, what I mean is that a group of worlds working together could simply say, "nah, we don't want to work with you guys" and maintain either an allow-list of other world (or groups of worlds) they do want to wort with or a block-list of worlds they'd rather not deal with.</footnote>
 
 This is made a bit more complicated if per-user restrictions are made a thing, as there's a conflict between letting users maintain and create multiple identities and making it easy for servers to moderate. This might be fixed by associating a "trust level" with user accounts that federated servers share, and where established users can vouch for a friend by wagering some of their own trust for a set period of time. If the user doesn't do anything bad (cheat, post illegal content, act like a douche) then the original users gets their trust back, and the target user gains some trust on top. {{< smalltext >}}(No, trust doesn't need to be an NFT or currency. I can't believe I even feel the need to clarify this, but here we are.){{< /smalltext >}}
 
@@ -421,8 +421,3 @@ Finally, if you liked this post, please consider donating by throwing me cash on
 
 {{< /speech >}}
 
-
-
-<ol hidden id="footnotes">
-    <li>If you don't know what I mean by that, the TL;DR of that is that Mastodon (a service a lot like Twitter) has separate servers more-or-less the same as someone might have a gmail or a hotmail account, but can still email eachother. Here, what I mean is that a group of worlds working together could simply say, "nah, we don't want to work with you guys" and maintain either an allow-list of other world (or groups of worlds) they do want to wort with or a block-list of worlds they'd rather not deal with.<li>
-</ol>

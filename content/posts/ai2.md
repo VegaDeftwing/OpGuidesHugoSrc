@@ -107,7 +107,7 @@ I'll ignore ChatGPT's response leaving out a whole lot of why **№5** is going 
 
 So, okay, back the prior point:</br> I'm conflicted because for the first time computers are a tool which we lack total control over.
 
-I don't mean control in the sense that it may do so something unexpected and hurt someone,<a class="ptr">(1)</a> I mean in the sense of mathematical control and predictability. It bothers me the same way I'm bothered when my Amazon Alexa device, unprompted, informs me it has a new skill or a video game has an unskippable tutorial. It's a mixed feeling of powerlessness and annoyance that stems from a lack of control.
+I don't mean control in the sense that it may do so something unexpected and hurt someone,<footnote>Not that it's not a concern at all. Obviously something like a self driving car has the ability to kill someone if it goes wrong. That's just not what I want to talk about here.</footnote> I mean in the sense of mathematical control and predictability. It bothers me the same way I'm bothered when my Amazon Alexa device, unprompted, informs me it has a new skill or a video game has an unskippable tutorial. It's a mixed feeling of powerlessness and annoyance that stems from a lack of control.
 
 For the Alexa or the game those lacking controls, I can attribute to either corporate greed or oversight, but for a large language model or image generating tool, the power of the tool comes from its unpredictability and ability to have a free mind capable of innovation - even if that mind is not sentient. 
 
@@ -277,9 +277,3 @@ Though computers may now walk alongside, a second brain to guide,</br>
 The human spirit still prevails, a beacon burning bright.</br>
 
 {{< /speech >}}
-
-
-
-<ol hidden id="footnotes">
-<li>Not that it's not a concern at all. Obviously something like a self driving car has the ability to kill someone if it goes wrong. That's just not what I want to talk about here.</li>
-</ol>

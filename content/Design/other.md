@@ -11,6 +11,10 @@ slug: "Design, Other"
 
 I try not to promote resources you have to pay to access on OpGuides. I am not paid to say this. I bought my own copy on a whim. This book is pure gold. It's about the written word, but will help any artist just as much. It's probably the most beautiful, lovingly hand crafted book I have ever read. It's full of character and art and beauty and words of wisdom that will make you think about what it means to be an Artist.
 
+## Web Apps for Art & Design
+
+https://www.blurmatic.com
+
 ## Mobile Apps for Art & Design
 
 | Name & Link                                                  | Description                                                  | Demo/Screenshot |

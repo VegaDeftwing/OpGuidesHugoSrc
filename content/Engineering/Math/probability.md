@@ -117,7 +117,7 @@ This lets us figure out the conditional probabilities super easily, as all that'
 
 ![](/eng/treediagram2.svg)
 
-So now we know the probability of a blue ball overall: 0.4 (.05 + .35 )<a class="ptr">(1)</a>, the probability of a blue ball in box 1 (.1), what is the probability that we actually picked from box 1? We know P[Blue|Box1], but what is P[Box1|Blue] ? Well, naturally, there's a handy formula, known as "Bayes Rule" for this situation:
+So now we know the probability of a blue ball overall: 0.4 (.05 + .35 )<footnote>Technically, this is the "Law Of Total Probability". Don't overthink this. It just means that by adding up all the conditional probalities of a certain event, you get the total probability. Here, we're adding up the probability of a blue ball given we picked box1 AND the probability of a blue ball given we picked box 2. It's sorta obvious this would give us the total probability of a blue ball.</footnote>, the probability of a blue ball in box 1 (.1), what is the probability that we actually picked from box 1? We know P[Blue|Box1], but what is P[Box1|Blue] ? Well, naturally, there's a handy formula, known as "Bayes Rule" for this situation:
 
 [TODO] [Why Bayes Rule is nicer with odds (YouTube, 3b1b)](https://www.youtube.com/watch?v=lG4VkPoG3ko)
 
@@ -322,7 +322,3 @@ Gaussian Random Variables / Normal RVs (same thing)
 <iframe width="100%" height="200" src="https://www.youtube.com/embed/ovJcsL7vyrk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{< /columns >}}
-
-<ol hidden id="footnotes">
-<li>Technically, this is the "Law Of Total Probability". Don't overthink this. It just means that by adding up all the conditional probalities of a certain event, you get the total probability. Here, we're adding up the probability of a blue ball given we picked box1 AND the probability of a blue ball given we picked box 2. It's sorta obvious this would give us the total probability of a blue ball. </li>
-</ol>
