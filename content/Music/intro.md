@@ -194,7 +194,7 @@ Note I said **Rhythmic** and not **Melodic**. You can have music that lacks note
 
 You'll typically have both rhythmic and melodic elements. And, typically, each sound is doing a little of both and interacting with one another. But let's think about what each really means.
 
-**Rhythm**, at it's core, is what time do you hit the note, but most people will also consider *hard* you hit it. If you read duh-duh DUH. You probably grouped those first hits and made the 3rd one both later and louder. That's Rhythm.
+**Rhythm**, at it's core, is what time do you hit the note, but most people will also consider how *hard* you hit it. If you read duh-duh DUH. You probably grouped those first hits and made the 3rd one both later and louder. That's Rhythm.
 
 **Melody,** is your basic do-re-mi-fa-so-la-ti scale walk (or whatever is typical in your culture). You may not do it with any rhythmic complexity at all (each space equally in time, at the same volume, etc. ) but there's still melody there. This can include more though, like pitch bends, vibrato (pitch wobble), etc. 
 
