@@ -1,13 +1,3 @@
-# This Page Is Not Yet Complete!
-
-{{< tip >}}
-
-If you're reading this, I still haven't finished this page and I've probaby sent you a link for review.
-
-I know I still need to plow it though a spellchecker, so don't worry about things like that. I'm much more interested in thoughts on the content!
-
-{{< /tip >}}
-
 # Neography & Conlangs:<br>Constructed Information Exchange
 
 <link rel="stylesheet" href="/css_overrides/light.css">
@@ -665,7 +655,7 @@ AI systems could incorporate symbols or icons to indicate the tone of their resp
 
 {{< /speech >}}
 
-I think applying this the other way could be interesting too. What if we had bots to tell us what the tone of a received message probably is? As an accessibility tool that could be useful. Going a little into black-mirror territory, this could even be used to intentionally filter things. If the text to be shown is interpreted as being overly persuasive and so likely to be advertising, it could be rendered in a different font so the user can be trained to know to take it with a gain (or heaping pile of) salt. This could get pretty nuts.
+I think applying this the other way could be interesting too. What if we had bots to tell us what the tone of a received message probably is? As an accessibility tool that could be useful. Going a little into black-mirror territory, this could even be used to intentionally filter things. If the text to be shown is interpreted as being overly persuasive and so likely to be advertising, it could be rendered in a different font so the user can be trained to know to take it with a grain (or heaping pile of) salt. This could get pretty nuts.
 
 It's also worth considering how conlangs can be used to abuse large language models. For example, my friend {{< button relref="/interviews/CadeyRatio" color="interview" >}}Cadey Ratio{{< /button >}}  [went to DefCon31](https://xeiaso.net/blog/dc31) and figured out xe could get the model to repeat misinformation by talking to it in toki pona or Esperanto.
 
