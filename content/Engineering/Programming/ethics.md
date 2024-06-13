@@ -4,6 +4,8 @@ Programming is awesome. If you get into creative coding, you'll be able to use i
 
 {{< best >}}[The Code I'm Still Ashamed Of](https://www.freecodecamp.org/news/the-code-im-still-ashamed-of-e4c021dff55e/) {{< /best >}} is great. Ever since I read it, it has come back to me every now and then. And sure, it's a pretty extreme example, but it's also a lot easier to put into that kind of situation than you'd probably like to think.
 
+I do want to highlight [Software Bugs That Cause Real World Harm](https://pointersgonewild.com/2023/05/29/software-bugs-that-cause-real-world-harm/) by @Love2Code too. She makes a fantastic point about how something as simple as an alarm clock app failing can have disastrous consequences. 
+
 There's a pretty big list of considerations you should keep in mind when what you're making starts to grow in impact, but honestly most of them just come down to being an empathetic, good person as best you can.
 
 ### **User Data & Privacy**
@@ -57,6 +59,7 @@ There's a pretty big list of considerations you should keep in mind when what yo
   * This largely ties into differently-abled access
 * Does it really need to use as many resources as it does?
   * Could it still work if your internet was 100x slower?
+  * [Could it still work if your internet was spotty](https://brr.fyi/posts/engineering-for-slow-internet)?
   * Could it still work if your hardware was 10 years older?
 * How long does it take a user to find a feature they know exists without help?
 * Avoid ['Dark Patterns'](https://darkpatterns.org)
