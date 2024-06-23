@@ -198,5 +198,5 @@ You'll typically have both rhythmic and melodic elements. And, typically, each s
 
 **Melody,** is your basic do-re-mi-fa-so-la-ti scale walk (or whatever is typical in your culture). You may not do it with any rhythmic complexity at all (each space equally in time, at the same volume, etc. ) but there's still melody there. This can include more though, like pitch bends, vibrato (pitch wobble), etc. 
 
-Where you choose to draw the line of what to consider part of the melody or rhythm doesn't really matter much in the end, what does matter is that you can use them to convey what you want to convey, be it a high energy mosh bit banger or a sad song about love and loss.
+Where you choose to draw the line of what to consider part of the melody or rhythm doesn't really matter much in the end, what does matter is that you can use them to convey what you want to convey, be it a high energy moshpit banger or a sad song about love and loss.
 
