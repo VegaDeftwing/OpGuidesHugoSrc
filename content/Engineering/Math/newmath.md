@@ -19,3 +19,5 @@ Math, as I've tried to convey though these chapters, is more about problem-solvi
 /+ Slime mold
 
 /+ Chaos/attractors
+
+/+ https://en.wikipedia.org/wiki/Tornado_code / Raptor Codes

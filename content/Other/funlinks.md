@@ -60,6 +60,8 @@
 * [Basilisk collection (ⁿᵒᵗ Wikipedia)](https://suricrasia.online/unfiction/basilisk/)
 * [Harder Drive: Hard drives we didn't want or need (suckerpinch, YouTube)](https://www.youtube.com/watch?v=JcJSW7Rprio)
 * [Cory Doctorow talks about Big Tech, Crypto, and sci-fi (The New Yorker)](https://www.newyorker.com/culture/the-new-yorker-interview/cory-doctorow-wants-you-to-know-what-computers-can-and-cant-do)
+* [How I Got My Laser Eye Injury (Funranium Labs)](https://www.funraniumlabs.com/2024/07/how-i-got-my-laser-eye-injury/)
+* [Weather Landscape (lds133, GitHub)](https://github.com/lds133/weather_landscape) "Visualizing Weather Forecasts Through Landscape Imagery"
 
 ## Inspiration 
 

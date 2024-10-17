@@ -109,3 +109,5 @@
 * [ISA over TPM](https://hackaday.com/2023/03/23/isa-over-tpm-to-your-pc/)
 
 * [The Analog Thing analog computer](https://the-analog-thing.org)
+
+* [The Razer Hydra](https://www.youtube.com/watch?v=_bLbQvAvYQ4),  [Peregrine Glove](https://www.youtube.com/watch?v=pQNo-u3V5uM), & [Tobii Eye Tracker](https://www.youtube.com/watch?v=UHCzdlr0tHY) - 3 products that really bring you right back to 2012.

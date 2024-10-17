@@ -1,27 +1,24 @@
 # List of Ideas
 
 - [ ] Post about sympy in math chapter, espically with sum and product
-
 - [ ] increasingly online spaces that are custom-built are both spreading new ideas and preventing mono-cultures AND causing people to live in completely different realities and echo chambers 
-
 - [ ] Fuck consumerism, fuck hoarding, fuck status symbols, fuck plastic wrapped single use internationally shiped good, fuck single use electronics, fuck shitty electronics that are instant-ewaste
-
 - [ ] Dangerous sounds - high voltage arc clicks, hard drive clicks, loud 60hz hum, etc.
-
 - [ ] Setting up a bleeding-edge system, Beedrock linux, Arcan display manager, Pipewire, etc.
-
 - [x] Toki-pona post
-
 - [ ] List of cool, obsucre VCV and Eurorack modules
-
 - [ ] Making an esoteric linux install. Arcan, Cat9+Lash, weird FS, etc. We want WEIRD.
 
   - [ ] Bedrock
   - [ ] Arcan
   - [ ] FS??
   - [ ] Kernel??
-
-  
+- [ ] Keyboard null-binds https://github.com/Qiasfah/Null-Movement-Script/blob/master/Null%20Movement.ahk
+- [ ] Mouse acceleration https://www.youtube.com/watch?v=1oFy4X48dXM
+- [ ] Stars and bones
+- [ ] Dessert Skies
+- [ ] Proxmox
+- [ ] Post about how tech shouldn't say no (Ex: text entry while driving, GPS car limiting, Fuel efficiency limiting, etc.)
 
 # TODO
 

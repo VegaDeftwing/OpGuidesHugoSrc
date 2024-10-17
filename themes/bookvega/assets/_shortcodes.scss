@@ -339,7 +339,7 @@ div.speech {
   border-bottom-right-radius: 2px;
   border-left: 2px solid #777;
   border-top-right-radius: 2px;
-  margin: 2em 0;
+  margin: 2em 40px;
   padding: 12px 24px 12px 70px;
   position: relative;
   width: 70%;
@@ -695,4 +695,350 @@ div.scifi{
   border-radius: .3em;
   box-shadow: 5px 5px #FFFFFF19 inset;
   padding: 0em 1em 0em 1em;
+}
+
+/* Light theme section */
+.light-section:before {
+  content: '';
+  position: absolute;
+  top: -1em;
+  left: -200%;
+  width: 400%;
+  height: 105%;
+  z-index: -10;
+  background: #eee;
+  overflow: hidden;
+  clip-path: polygon(1% 2%,
+      3.5% 0.1%,
+      8.9% 2.7%,
+      16.2% 1.2%,
+      19.7% 0.8%,
+      24.7% 2%,
+      31.2% 0%,
+      35.9% 2.3%,
+      40.6% 0.5%,
+      47.1% 1.8%,
+      49.9% 1%,
+      53.8% 2.5%,
+      62.2% 0.4%,
+      67.3% 1.2%,
+      70.3% 0.3%,
+      75.8% 1.4%,
+      78.5% 1.7%,
+      84% 2.6%,
+      91.1% 0.5%,
+      93.6% 2.4%,
+      97.3% 0.3%,
+      98.9% 6%,
+      98.1% 11.4%,
+      98.6% 15.5%,
+      97.3% 17.8%,
+      97.7% 27.4%,
+      98.3% 28.5%,
+      99.7% 34.1%,
+      98.8% 41.9%,
+      98.3% 45.7%,
+      98.4% 50.9%,
+      98.7% 57.4%,
+      99.6% 60.4%,
+      99.4% 66.6%,
+      99.2% 69.5%,
+      97.4% 77.1%,
+      98.1% 82.3%,
+      99.9% 83.5%,
+      98.2% 91.5%,
+      99.3% 95.3%,
+      98% 98.6%,
+      93.6% 97.4%,
+      90.3% 98.3%,
+      86.8% 98.3%,
+      78.6% 98.5%,
+      76.4% 98.2%,
+      69.7% 99.8%,
+      64.2% 99.3%,
+      61.8% 98.2%,
+      57.2% 98.1%,
+      48.7% 98.3%,
+      46.8% 99%,
+      39.6% 98.9%,
+      33.8% 97.3%,
+      28.2% 94.4%,
+      27% 98.3%,
+      22.1% 98.6%,
+      13.1% 97.1%,
+      8.7% 99.3%,
+      2.7% 97.4%,
+      2% 98.2%,
+      2.1% 94.3%,
+      0.7% 90.5%,
+      0.9% 86.3%,
+      2.2% 78.2%,
+      0.4% 76.7%,
+      1.2% 72.1%,
+      2% 64%,
+      1.4% 59.8%,
+      0.4% 57.3%,
+      0.3% 49.1%,
+      2.9% 44.7%,
+      1.9% 41.3%,
+      0.8% 35.7%,
+      2.9% 31.3%,
+      0.8% 24.9%,
+      2.7% 20.5%,
+      0.8% 17.4%,
+      2.5% 8.6%,
+      1.1% 5.5%);
+  filter: drop-shadow(-1px 6px 3px rgba(0, 0, 0, 0.5));
+}
+
+.light-section {
+  position: relative;
+  color: #020202;
+
+  body,
+    p {
+      color: var(--text-color);
+      font-family: 'Edu NSW ACT Foundation', cursive;
+      font-size: 1.1em;
+    }
+  
+    body {
+      background-color: var(--body-background);
+      background-image: linear-gradient(var(--body-background-fg) 2px, transparent 2px), linear-gradient(90deg, var(--body-background-fg) 2px, transparent 2px), linear-gradient(var(--body-background-fg) 1px, transparent 1px), linear-gradient(90deg, var(--body-background-fg) 1px, var(--body-background) 1px);
+      background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+      background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+      color: var(--text-color);
+    }
+  
+    h1 {
+      text-shadow: none !important;
+      font-family: 'Julius Sans One', sans-serif !important;
+    }
+  
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    nav {
+      font-family: 'Julius Sans One', sans-serif !important;
+      text-align: left !important;
+      text-shadow: none !important;
+    }
+  
+    h2 {
+      border-bottom: 1px solid #aaaaaa;
+    }
+  
+    a {
+      font-family: 'Edu NSW ACT Foundation', cursive;
+      text-shadow: 1px 1px 1px rgb(2, 55, 4);
+      font-size: 1.02em;
+    }
+  
+    aside nav ul li,
+    .navbak {
+      font-size: 14px !important;
+      color: var(--body-background);
+    }
+  
+    span {
+      color: var(--text-color);
+    }
+  
+    nav {
+      background: #0000 !important;
+    }
+  
+    iframe:not(.no-box) {
+      box-shadow: 5px 5px 10px #888888;
+    }
+  
+    .markdown div.speech {
+      border-bottom-right-radius: 0px !important;
+      border-left: 2px solid #ddd;
+      border-top-right-radius: 0px !important;
+      padding: 12px 24px 12px 70px;
+      border-radius: 0% !important;
+    }
+  
+    div.speech:before {
+      background-color: #fffcf4 !important;
+      background-image: url("/nonfree/character/opguidesSiplick.png");
+      background-size: 75px;
+      border: 1px solid #777;
+      content: "";
+      left: -40px;
+      top: 4px;
+      position: absolute;
+      height: 75px;
+      width: 75px;
+    }
+  
+    div.speech,
+    tr:nth-child(2n) {
+      background-color: #fbfcee !important;
+      box-shadow: 5px 5px 8px #888888;
+    }
+  
+    div.speech.right {
+      background-color: #f3f1f1 !important;
+    }
+  
+    a.gradient-border2 {
+      color: #000 !important;
+      background: var(--body-background) !important;
+    }
+  
+    div.speech.ai {
+      width: 100% !important;
+      background: linear-gradient(90deg, rgba(155, 198, 231, 0.9) 0%, rgba(243, 241, 234, 0.9) 100%), url(/common/texturebg2.webp) center center repeat !important;
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      background: #ccc !important;
+    }
+  
+    ::-webkit-scrollbar-track {
+      background: #040;
+    }
+  
+    .webhead {
+      background: linear-gradient(90deg, #f78200 50%, #009cdf 75%) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0;
+    }
+  
+    .markdown {
+      line-height: 1.6;
+    }
+  
+    .book-menu a,
+    .book-menu label {
+      color: #000;
+    }
+  
+    .book-page p {
+      line-height: 1.7 !important;
+    }
+  
+    dt,
+    dd {
+      display: inline-block;
+      vertical-align: top;
+      margin: 0;
+      padding: 12px 10px 0 0;
+      color: #000;
+      font-size: small;
+    }
+  
+    p.tip,
+    tr:nth-child(2n) {
+      background-color: #fdd;
+    }
+  
+    dd.blogdd {
+      color: #000 !important;
+    }
+  
+    .markdown hr {
+      height: 1px;
+      background: #8880 !important;
+      width: 50%;
+      border-top: 2px dashed #888;
+    }
+  
+    .markdown pre {
+      background-color: #ff8c000b !important;
+    }
+  
+    .dayquote {
+      margin: 1em;
+      overflow: hidden;
+    }
+  
+    .dayquote {
+      background-color: var(--body-background);
+  
+      margin: 0;
+      padding: 1em;
+      position: relative;
+    }
+  
+    .spoiler:hover {
+      background-color: var(--body-background) !important;
+      color: var(--text-color) !important;
+    }
+  
+    blockquote {
+      background-color: #eef9fc !important;
+      border: solid 1px #757575 !important;
+    }
+  
+    .dayquote blockquote {
+      background-color: var(--body-background) !important;
+    }
+  
+    .dayquote blockquote:before {
+      background-color: var(--body-background);
+      bottom: 20%;
+      content: "";
+      left: 0px;
+      position: absolute;
+      right: 0;
+      top: 20%;
+      transform: rotate(-5deg) skew(70deg);
+      z-index: 1;
+    }
+  
+    .dayquote blockquote cite {
+      display: block;
+      font-style: italic;
+      text-align: right;
+    }
+  
+    .dayquote blockquote cite:before {
+      content: "- ";
+    }
+  
+    .dayquote blockquote>* {
+      position: relative;
+      z-index: 1;
+    }
+  
+    .tip {
+      background-color: #ffdfdfdc !important;
+    }
+  
+    .popover {
+      background: #eef9fc !important;
+      border: 1px solid #555;
+    }
+  
+    .popover::after {
+      border-color: transparent transparent #555 transparent;
+    }
+  
+    .popover::before {
+      border-color: transparent transparent #333 transparent;
+    }
+  
+    #webring-img,
+    #logo {
+      -webkit-filter: invert(1);
+      filter: invert(1);
+    }
+  
+    .quote {
+      background-color: #fffa !important;
+    }
+
+    img{
+      box-shadow: 5px 5px 10px #888888;
+    }
+
+    .lg-no-shadow {
+      box-shadow: none;
+    }
 }

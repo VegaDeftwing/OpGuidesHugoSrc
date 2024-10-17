@@ -286,6 +286,10 @@ For as much as I've gone over all the different types of drums above, and the se
 
 Similarly, [Big Drums VS Small Drums (YouTube)](https://www.youtube.com/watch?v=9Q0R3TM2P6c) isn't as simple as you think either
 
+### Linear Drumming
+
+[Linear drumming (Drumeo, YouTube)](https://www.youtube.com/watch?v=YQ3H9XaeUH0) is effectively "drumming in mono". You only play one sound at a time. No two sounds are allowed to play at once. It's not super well defined weather this means the drums have to all choke each other (that is, the start of one immediate cuts off all others) but either way, it's an interesting stylistic exercise to try.
+
 ---
 
 ### Other Drum Content

@@ -179,7 +179,7 @@ Of note, while the majority of these commands should be available on nearly any 
 
 - **ls** - list - list the files/folders in the current directory, lots of flags available
   
-  - Alternative recommendation: **exa** or **[lsd](https://github.com/Peltoche/lsd)**
+  - Alternative recommendation: **[lsd](https://github.com/Peltoche/lsd)** or **[eza](https://github.com/eza-community/eza)**
   
 - **cd** - change directory, if you can't use this may god have mercy
   

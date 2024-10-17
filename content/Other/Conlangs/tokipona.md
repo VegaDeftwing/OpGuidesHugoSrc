@@ -155,3 +155,11 @@ Speaking of, there's also https://wikipesija.org/, the toki pona Wikipedia clone
 toki pona is pretty neat, I guess you could even say it's a good language (🥁 ba dum tss) but more than anything it's a language of good people. The things these people are doing range from moving artistic expressions of art and music and poetry to technical achievements- like creating novel input methods, using otherwise unallocated unicode space, and even getting their language to be a part of Minecraft. I know it's not something I want to miss out on.
 
 {{< speech boba >}}mi tawa{{< /speech >}}
+
+---
+
+## Updates
+
+### 06/22/24 - Sitelen Musi
+
+I became aware of [sitelen musi](https://www.reddit.com/r/tokipona/comments/hlpvx0/sitelen_musi/) by jan Simejo today. I think it's absolutely stunning.

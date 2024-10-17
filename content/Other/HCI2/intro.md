@@ -353,3 +353,5 @@ There are 6 chapters to this post, they should be accessible in the sidebar, but
 <dt class="sub">6</dt><dd class="sub"> <a href="/other/hci2/wrappingup"> Wrapping Up</a></dd>
 
 {{< /columns >}}
+
+<!-- TODO: Include something about Cognative Load Theory, Word Auto-save to onedrive only, SAAS killing everything, cookie banners, -->

@@ -11,3 +11,7 @@ https://www.learnui.design/tools/gradient-generator.html
 * https://velvetyne.fr
 * https://www.design-research.be/by-womxn/
 * https://usemodify.com
+
+# Web dev be hard
+
+When in doubt, an empty character can help: https://empty-character.com

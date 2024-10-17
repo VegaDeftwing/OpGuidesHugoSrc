@@ -2,6 +2,8 @@
 
 <!-- http://www.visual6502.org -->
 
+<!-- https://uops.info/table.html -->
+
 [How To Make A CPU - A Simple Picture Based Explanation (RobertElder)](https://blog.robertelder.org/how-to-make-a-cpu/)
 
 {{< tip >}}

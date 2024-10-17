@@ -246,7 +246,7 @@ Which, is exactly what this website is a part of. Rather than put the button to 
 
 While it's sure as hell taking its sweet time to get there, there's some really neat projects that are trying to make the backbone of the internet decentralized. The idea here is that it's a bit weird that if you were to instant message your neighbor that it has to go over your cell carrier's or ISPs network instead of your presumably-close-enough Wi-Fi routers just ... talking. It's almost a little too obvious to the point that it sounds dumb it doesn't work this way already.
 
-To various degrees and in different ways, project like [yggdrasil](https://yggdrasil-network.github.io), [ipfs](https://ipfs.io), [cjdns](https://github.com/cjdelisle/cjdns) + [hyperboria](https://hyperboria.net/), and [beaker](https://beakerbrowser.com) among many, many others are trying to make this future a reality.
+To various degrees and in different ways, project like [ipfs](https://ipfs.io), ~~[cjdns](https://github.com/cjdelisle/cjdns) + [hyperboria](https://hyperboria.net/)~~ [Yggdrasil](https://sudonull.com/post/31578-CJDNS-is-dead-long-live-Yggdrasil), and ~~[beaker](https://beakerbrowser.com)~~ (Now dead) among many, many others are trying to make this future a reality.
 
 ## The not http-web
 

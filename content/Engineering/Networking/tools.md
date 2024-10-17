@@ -40,7 +40,7 @@ Ben Eater's Networking Tutorial Series is pretty good:
 
 [Weird URL Protocols (YouTube, ThioJoe)](https://www.youtube.com/watch?v=WcLmMLqnKCM)
 
-[cjdns](https://github.com/cjdelisle/cjdns) + [hyperboria](https://hyperboria.net)
+~~[cjdns](https://github.com/cjdelisle/cjdns) + [hyperboria](https://hyperboria.net)~~ [Yggdrasil](https://sudonull.com/post/31578-CJDNS-is-dead-long-live-Yggdrasil)
 
 [ipfs](https://ipfs.io)
 

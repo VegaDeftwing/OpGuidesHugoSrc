@@ -138,3 +138,9 @@ Modular - Eurorack, 3U, & AE , semi-modular, VCV, etc.
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/jfuSEdOdNz0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Collected Synth Tips & Tricks
+
+* Check if there are any easy to perform mods for your hardware synths: [Maffez](https://maffez.com/?page_id=3467) is a good resource.
+* Try putting small, acoustic body impulse-responses or resonators on a synth sound to make it feel more real
+* Transiant Shapers, like https://kilohearts.com/products/transient_shaper, are your friend if you can't make something feel snappy enough.
+* Envelopes. Envelopes. Envelopes. Invert your envelopes. Make weird, multi-stage envelopes. Retrigger some, not others.

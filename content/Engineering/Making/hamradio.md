@@ -48,8 +48,6 @@ https://newhams.info/2017/02/17/rf-connector-types/
 
 [Scra](https://github.com/myriadrf/ScratchRadio)
 
-[A Cleverly Concealed Magnetic Loop Antenna (Jenny List, Hackaday)](https://hackaday.com/2018/06/23/a-cleverly-concealed-magnetic-loop-antenna/)
-
 {{< columns >}}
 
 <video controls width="80%">    <source src="/eng/kahviccradio.mp4"            type="video/mp4"> </video> <br>
@@ -85,3 +83,11 @@ Here OH6BPL is using the [Computer Craft](https://www.computercraft.info/downloa
 ?> I've actually set this up using a HackRF and Rock64. It's pretty neat. Just be aware the ADS-b, the radio signals you'll be picking up to do this, are very line-of-sight so you might need to plop the antenna on your roof or something.
 
 <img src="/eng/MorseDecode.webp" alt="Morse Code" style="zoom:50%;" />
+
+## Antennas
+
+### Fun, weird ones
+
+[Slinky for 80M (Hackaday)](https://hackaday.com/2017/12/04/slinky-walks-down-stairs-and-picks-up-80m-band/)
+
+[A Cleverly Concealed Magnetic Loop Antenna (Jenny List, Hackaday)](https://hackaday.com/2018/06/23/a-cleverly-concealed-magnetic-loop-antenna/)

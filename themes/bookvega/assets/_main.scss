@@ -108,6 +108,8 @@ ul.pagination {
     color: #000000;
 
     @include fixed;
+
+    z-index: 2;
   }
 
   a.active {

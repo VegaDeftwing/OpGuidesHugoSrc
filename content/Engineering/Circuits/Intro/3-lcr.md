@@ -20,6 +20,8 @@ potentiometer read from Arduino full range (center tap or max resistor)
 
 [TODO]
 
+https://chaos.social/@gsuberland/113084315488845513
+
 [Kemet Capacitor Simulator](https://ksim3.kemet.com/capacitor-simulation)
 
 <img src="/common/youtube_social_icon_red.webp" style="height:0.8em"> [True, Reactive, Apparent & Deformed Power](https://www.youtube.com/watch?v=cxXmWZDwNEs&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)

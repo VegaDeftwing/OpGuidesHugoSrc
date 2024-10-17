@@ -1,0 +1,1 @@
+Headphone jack, SD Card, etc.
