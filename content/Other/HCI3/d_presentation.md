@@ -143,6 +143,8 @@ All you have to do is not change shit until you're done computing the answer, an
 
 ### Advertising
 
+TODO: https://modem.io/blog/blog-monetization/
+
 If I have to spend more than a fraction of a second to process what is being shown to me is an ad, it should be fucking illegal. If you want to put ads mixed into the content, then it should be required to be a lot of a lot more visually obvious.
 
 {{< columns >}}

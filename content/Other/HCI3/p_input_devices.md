@@ -1,27 +1,25 @@
-# TODO:
+# TODO
 
-Be playable like an instrument
-
-Use the entire body
+Patents of Cherry MX switches as transition.
 
 # Computing Is Physical
 
 One of the frustrating things about shopping for a computer is that we're taught to think about their specs as strictly quantifiable.  You can read something like,
 
-> The 391Q2 is 1.5x faster than the 292U3 but cost's 2x as much
+> The 391Q2 is 1.5x faster than the 292U3 but costs 2x as much
 
-And make a decision based on your budget and needs, but you can't see that speed. I mean, sure, you'll notice a difference in performance in your applications - and that's important - but an awesome gaming computer with a keyboard covered in mysterious slime and a ball mouse from 1998 still isn't something you want to use.
+And make a decision based on your budget and needs, but you can't see that speed. I mean, sure, you'll notice a difference in performance in your applications - and that's important - but an awesome gaming computer with a keyboard covered in mysterious slime and a ball mouse from 1998 isn't something you want to use.
 
-We give a lot of weight to specs we can quantify, but that doesn't mean we should ignore the real, tangible differences. For example,
+We give a lot of weight to specs we can quantify but which reside out of sight, tucked away in the box under the desk or below the keyboard. That doesn't mean we should ignore the real, tangible differences. For example,
 
 * Maybe that new display is too reflective
 * Maybe the keyboard feels terrible to type on
 * Maybe that new gadget used low quality parts, so won't last as long
 * Maybe it's all glued together and can't be repaired
-* Maybe the fans are too loud
-* Maybe you just find it ugly
+* Maybe the fans are loud
+* Maybe you find it ugly
 
-Additionally, things we don't traditionally think of as "part of the computer" really do change how it feels to use it. If your chair or desk aren't comfortable and don't suit your needs, that's a problem. If you always go chasing the easy, quantifiable (and so easily marketable) upgrades, you'll probably miss out on some of these vital points. 
+Things we don't traditionally think of as "part of the computer" do change how it feels to use it. If your chair or desk aren't comfortable and don't suit your needs, that's a problem. If you always go chasing the easy, quantifiable (and easily marketable) upgrades, you'll probably miss out on some of these vital points. 
 
 To start with, this page will look at direct computer input devices.
 
@@ -31,19 +29,19 @@ Then we'll move on to the main event, juicy discussion of the software, websites
 
 # Input Methods
 
-If we only think only in terms of on-the-box specs, it's pretty easy to think "Yep, it's a keyboard, it types." but should we really accept "it functions" as the bar for quality for the primary interface between our thoughts and these awesome tools?
+If we think only in terms of on-the-box specs, it's pretty easy to think "Yep, it's a keyboard, it types." but should we accept "it functions" as the bar for quality for the primary interface between our thoughts and these awesome tools?
 
-By the time home and office computers made it to the masses, we'd more-or-less figured out the primary two input devices that work for people are a mouse and a keyboard. But back then computers were *expensive*, and so a slightly more expensive keyboard didn't factor much into the cost:
+By the time home and office computers made it to the masses, we'd more-or-less figured out the primary two input devices that work for people are a mouse and a keyboard. But back then computers were *expensive*, and a more expensive keyboard didn't factor much into the cost:
 
 ![ModelM](/hci/modelm.svg)
 
-The venerable IMB Model M keyboard has almost certainly earned its place among computer enthusiast's hearts in part due to survivorship bias, but it was damn good. Each key had an honest to god spring underneath. If there's any valid complaint to be leavied at this keyboard it's that the keys may acture require **to much** force for your fingers.
+The venerable IBM Model M keyboard has almost certainly earned its place among computer enthusiast's hearts in part due to survivorship bias, but it was damn good. Each key had an honest to god spring underneath. If there's any valid complaint to be levied at this keyboard it's that the keys may require **too much** force for your fingers.
 
-There were, of course, bad keyboards back then too. But today? Cheap, plastic keyboards with membrane keys is what ships with modern desktops and so it slowly took over every office and home. It's what was in the box, so it's what your family or businsess uses.
+There were, of course, bad keyboards back then too. But today? Cheap, plastic keyboards with membrane keys is what ships with modern desktops and so have slowly taken over every office and home. They're what's in the box, so they're what your family or business uses.
 
 Gone are the chonky, clicky keys each with their own spring and instead we have thin plastic membranes in a thin plastic shell.
 
-Gone are the clearly defined keys with scupting to be defined buttons instead of a flat surface.
+Gone are the clearly defined keys with sculpting to be defined buttons instead of a flat surface.
 
 It's like people forgot what kinds of interfaces human hands are good at using.
 
@@ -57,11 +55,11 @@ Much cooler, IMHO, is that you can **build** your own keyboard, that's what I've
 
 <img src="/hci/ergo.svg" class="lg-no-shadow">
 
-You can really make a keyboard in any shape or size. Split, tiny, huge, built in joystick, go nuts. There's a keyboard for everyone. You can pick between hundreds of switches to get the perfect amount of clicky feedback, pressure needed to press, etc. Just give [r/MechanicalKeyboards](https://www.reddit.com/r/MechanicalKeyboards/) a good scroll and look at how pretty they are too!
+You can make a keyboard in any shape or size. Split, tiny, huge, built in joystick, go nuts. There's a keyboard for everyone. You can pick between hundreds of switches to get the perfect amount of clicky feedback, pressure needed to press, etc. Just give [r/MechanicalKeyboards](https://www.reddit.com/r/MechanicalKeyboards/) a good scroll and look at how pretty they are!
 
-To me, what's really cool about these isn't just that they're way more comfortable, durable, and repairable but that the code running on the keyboard can do some real 𝓶𝓪𝓰𝓲𝓬. 
+To me, what's cool about these isn't just that they're way more comfortable, durable, and repairable but that the code running on the keyboard can do some real 𝓶𝓪𝓰𝓲𝓬. 
 
-For example, I have [Space Cadet Shift](https://docs.qmk.fm/features/space_cadet) setup, which let's me type opening or closing perenthese by tapping the left or right <kbd>shift</kbd> keys respectively, since you'd otherwise (in normal typing) have no reason to press shift independently.
+For example, I have [Space Cadet Shift](https://docs.qmk.fm/features/space_cadet) setup, which let's me type opening or closing parentheses by tapping the left or right <kbd>shift</kbd> keys respectively, since you'd otherwise (in normal typing) have no reason to press shift independently.
 
 I. LOVE. THIS.
 
@@ -71,7 +69,7 @@ I. LOVE. THIS.
 
 While the ModelM or a custom built mechanical keyboard would be great to use all the time, there's a few problems with that vision:
 
-1. The don't fit in laptops<footnote>Yes, I'm aware laptops with mechanical keyboards exists. These range from either the ludicriously thick to "Okay, I *guess* we can call that mechanical" though.</footnote>
+1. They don't fit in laptops<footnote>Yes, I'm aware laptops with mechanical keyboards exists. These range from either the ludicrously thick to "Okay, I *guess* we can call that mechanical" though.</footnote>
 2. You probably don't want to hook up a USB keyboard though a dongle to your phone every time you send a text.<footnote>There are bluetooth keyboards that have easy "select a device" buttons so you actually could do this at your desk, I guess? Does anybody actually do that?</footnote>
 3. Not everybody is physically *able* to use a normal keyboard.
 
@@ -81,7 +79,7 @@ Many old laptop keyboards, circa ~'00-'05, were *T H I C K*. This made the lapto
 
 Both 2. & 3. are addressed by the same point: Innovation **IS** happening.
 
-Do you remember when you were a kid and you constantly wanted to try new things? At some points, as adults, most people settle into their preferences and stop trying as many new things. Well, leeme tell ya', if you're willing to try some different keyboard apps, the variety is mind blowing.
+Do you remember when you were a kid and you constantly wanted to try new things? At some point, as adults, most people settle into their preferences and stop trying as many new things. Well, leeme tell ya', if you're willing to try some different keyboard apps, the variety is mind blowing.
 
 ![Dasher Gif](/hci/largedasher.gif)
 
@@ -105,7 +103,7 @@ We can draw, dictate, or use any of a number of other methods. Typing is conveni
 
 Text (in multiple languages). Links. Images. Diagrams. Code. Commands. Dates. Our wandering thoughts. Spur of the moment ideas. Everything.
 
-Keyboards happen to be a decent input device for some of these things, and tend to pretty much suck for others. (Come on, make art by typing in RGB values for every pixel. 𝐼 𝒹𝒶𝓇𝑒 𝓎𝑜𝓊)
+Keyboards happen to be a decent input device for some of these things, and tend to pretty much suck for others. (Come on, make art by typing in color values for every pixel. 𝐼 𝒹𝒶𝓇𝑒 𝓎𝑜𝓊)
 
 **Q: What makes something good as an input device?**
 
@@ -118,11 +116,11 @@ It’s easy to list off good qualities of the familiar:
 * Keep the users hands and arms<footnote>Assuming they have hands and arms!</footnote> in a natural position
 * Characters laid out well for the user’s language(s).
 
-But how do you get down to the core of this question without just listing traits of ‘goodness’ in existing things, what actual goals should we strive for. Should it be one unified device? 
+But how do you get down to the core of this question without just listing traits of ‘goodness’ in existing things, what actual goals should we strive for.
 
-Probably not. Bret Victor rejects this idea in his post *[A Brief Rant On The Future Of Interaction Design](https://opentabletdriver.net)*,
+Should it be one unified device? With smart phones and tablets, the trend sure seems to be to make everything a touchscreen.
 
-{{< bigquote "Bret Victor" >}}
+{{< bigquote "*[A Brief Rant On The Future Of Interaction Design](https://opentabletdriver.net)* by Bret Victor" >}}
 
 I call this technology **Pictures Under Glass**. Pictures Under Glass sacrifice all the tactile richness of working with our hands, offering instead a hokey visual facade.
 
@@ -136,7 +134,11 @@ It depends.
 
 That's why this topic is so interesting. My hands are not your hands. I play music, make art, write stories, and code. Part of the reason I got that fancy keyboard in the first place is because I was starting to experience some nasty hand cramps that were particularly bad if I was switching between guitar and typing a lot. 
 
-I was willing to try just about anything, which I did. I switched to Dvorak<footnote><a href="https://en.wikipedia.org/wiki/Dvorak_keyboard_layout#/media/File:KB_Programmer_Dvorak.svg">Programmer's Dvorak</a> is a thing and honestly I want to know if anybody actually uses it? Having the numbers like that hurts my brain.</footnote>, an alternative keyboard layout. That didn't do the trick so I tried the ergodone and haven't looked back. But that's left a few interesting points, ignoring the obvious reason of price, why are people still using something seems to be obviously *worse* - in a word: Familiarity.
+I was willing to try just about anything so I switched to Dvorak<footnote><a href="https://en.wikipedia.org/wiki/Dvorak_keyboard_layout#/media/File:KB_Programmer_Dvorak.svg">Programmer's Dvorak</a> is a thing and honestly I want to know if anybody actually uses it? Having the numbers like that hurts my brain.</footnote>, an alternative keyboard layout:
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/KB_United_States_Dvorak.svg/1200px-KB_United_States_Dvorak.svg.png" style="filter: invert(0.87);height:10em;">
+
+That helped, but didn't entirely fix my pain so I tried the ergodone (That fancy, split keyboard) and haven't looked back. But that's left a few interesting points, ignoring the obvious reason of price, why are people still using something seems to be obviously *worse* - in a word: Familiarity.
 
 And like, sure, I get it. Being a Dvorak layout user, I feel the pain of not being able to type as fast on anybody else's QWERTY keyboard. I understand not wanting to take the time to re-learn. Even if the grass might be greener on the other side, there's a lot to be said for not needing to do so much god damn lawn care to get it that way. I understand,
 
@@ -154,13 +156,13 @@ Or making it easy to tune mouse acceleration curves?<footnote>There actually are
 
 Or letting buttons on the mouse control what keys on the keyboard do or vis-versa?
 
-There's so much opporutunity and seemingly low hanging fruit here.
+There's so much opportunity and seemingly low hanging fruit here.
 
 {{< light >}}
 
  
 
-While it is frustrating that operating systems across the board aren't bundling good utilities for deeper input capabilities, it doesn't mean they don't exist.
+While it is frustrating that operating systems aren't bundling good utilities for deeper input capabilities, it doesn't mean they don't exist.
 
 For those unfamiliar, text expansion lets you do thing like type `:brb` and have it get instantly replaced with "be right back". I use [espanso](https://espanso.org) for this on all my computers.
 
@@ -208,7 +210,7 @@ That mouse isn't even remotely practical to use IMHO.
 
 
 
-Plus, some of these are doomed to fail. Even if the hardware is good, marketing a "strange" expensive product is hard, espicially when your users probably already have something similar but without the gimmik.
+Plus, some of these are doomed to fail. Even if the hardware is good, marketing a "strange" expensive product is hard, especially when your users have something similar but without the gimmick.
 
 
 
@@ -216,7 +218,7 @@ Plus, some of these are doomed to fail. Even if the hardware is good, marketing 
 
  
 
-But like with evolution, sometimes a gimmik sticks. Most mice today have forward and back buttons on the side, and a horizontal scroll wheel for the thumb has gotten quite popular.
+But like with evolution, sometimes a gimmick sticks. Most mice today have forward and back buttons on the side, and a horizontal scroll wheel for the thumb has gotten quite popular.
 
 {{< columns >}}
 
@@ -232,11 +234,11 @@ It just sends a key press on each 'click' while turning (sending a different key
 
 {{< /columns >}}
 
-So, while it may not be trivial to do you can at least sometimes steal old, discontinued ideas and build them yourself.
+While it may not be trivial to do you can at least sometimes steal old, discontinued ideas and build them yourself.
 
-Speaking of, some of those "old ideas" were pretty good, just not attainable by mere motals without infinite pocket books.
+Speaking of, some of those "old ideas" were pretty good, just not attainable by mere mortals without infinite pocket books.
 
-But now, if you want to try stenography, you can! Hardware has gotten much cheaper than back you'd have to buy a comercial off-the-shelf unit for it, and the software is totally free.
+For example, if you want to try stenography, you can! Hardware has gotten much cheaper than back when you'd have to buy a commercial off-the-shelf unit for it, and the software is totally free.
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/nRp_1S7cj6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -244,7 +246,7 @@ But now, if you want to try stenography, you can! Hardware has gotten much cheap
 
  
 
-Most devices are still not made to take good advantage of the shape of human hands though. Take that hand-built split keyboard, for example. It can still be radically improved upon by getting a variant that actually takes the shape of the human hand into account,
+Most devices are still not made to take good advantage of the shape of human hands though. Take that hand-built split keyboard, for example. It can still be radically improved upon by getting a variant that actually takes the shape of the human hand into account, like the Dactyl Manuform:
 
 ![](/hci/dactyl.svg)
 
@@ -272,17 +274,15 @@ MorningStar MC6, a MIDI foot pedal that's highly customizable and has inputs for
 
 {{< /columns >}}
 
+Or, you might have a good use case for an [eye tracker](https://gaming.tobii.com/product/eye-tracker-5/) or an old XBox Kinect. In either case, my point is there is hardware out there that will let you use more than just your hands.
+
 {{< /light >}}
 
-[TODO] Transition, briefly, into how we can use our entire bodys more
+ 
 
-## Things that aren't keyboards*
+Anybody who has every used a wiimote to type anything longer than their name can tell you how tedious body-tracking point-and-click inputs are though. There's a reason the Kinect was seen as a gimmick and that most of those alternate input devices never took off. They're just not that useful.
 
-\* Well, not that kind of keyboard. Musical keyboards incoming.
-
-</br>
-
-Createive types, depending on what they work on, typically will use some non-keyboard-y things. Let's start with the artists,
+Speaking of different input devices though, what about pen tablets?
 
 ### Pen Tablets & Displays
 
@@ -290,7 +290,7 @@ Createive types, depending on what they work on, typically will use some non-key
 
 {{< attribution >}}Photo by [cece kun](https://unsplash.com/@kucee){{< /attribution >}}
 
-I have a pen-display, but, I don't art much, so I asked some other artists: What bothers them in tablets:
+I have a pen-display, but, I don't make art much, so I asked some other artists: What bothers them in tablets:
 
 * Latency/Lag (Drawing lags motion)
 * "Pen and drawing not aligned" (Glass thickness)
@@ -299,25 +299,25 @@ I have a pen-display, but, I don't art much, so I asked some other artists: What
 
 A ton of artists I know have moved to using ProCreate on an iPad, which fixes the third point, at the cost of the other two.
 
-There's no great option for hardware here. You can avoid the wires and dramically improve portability if you use a pen tablet (the ones with no display where you look at a different screen that what you're drawing on), but that's a *much* harder skill to master and just not what a lot of people prefer. You can also use an iPad, but then you're limited in software choice and computing power.
+There's no great option for hardware here. You can avoid the wires and dramatically improve portability if you use a pen tablet (the ones with no display where you look at a different screen that what you're drawing on), but that's a *much* harder skill to master and just not what a lot of people prefer. You can also use an iPad, but then you're limited in software choice and computing power.
 
-Frankly, I don't imagine there will be a magic bullet for anyone here, there's tradeoffs in any option.
+Frankly, I don't imagine there will be a magic bullet for anyone here, there's trade offs in any option.
 
 But, honestly, most pen tablets are reasonably good and there's lots of options so it's *fine*.
 
-**Unfortuantely**, everything needs software. Even with more competent driver stacks there's a confusing number options for pen pressure: Wintab, Windows Ink, the option to 'Use the device as a mouse pointer' ... It's so incredibly confusing and the required options per application vary wildly. To make matters worse, most of the drivers completely shit themselves if one display is scaled for High DPI and another isn't. 
+**Unfortunately**, everything needs software. Even with more competent driver stacks there's a confusing number options for pen pressure: Wintab, Windows Ink, the option to 'Use the device as a mouse pointer' ... It's so incredibly confusing and the required options per application vary wildly. To make matters worse, many of the drivers completely shit themselves if one display is scaled for High DPI and another isn't. 
 
-YMMV, but for an artist that doesn't have the technical skills most anyone reading this probably has, yeah, it sucks.
+YMMV, but for an artist that doesn't have the technical skills yeah, it sucks.
 
 {{<light>}}
 
 But, it's getting better.
 
-Pen displays have pretty dramatically come down in cost compared to a decade ago. Pens mostly don't need to be recharged anymore. Most pen-tablets and tablet-displays both have pretty good options for built in buttons to map in software.
+Pen displays have pretty dramatically come down in cost compared to a decade ago. Most pens don't need to be recharged anymore. Most pen-tablets and tablet-displays both have pretty good options for built in buttons to map in software.
 
-New ideas keep popping up to.  [Microsoft's Surface Studio 2 + Surface Dial](https://www.youtube.com/watch?v=TpWBHkVI1zA) actually had some really interesting and innovative ideas albeit it's a *weee bit* on the extremely expensive side at 3,500 USD. I also think the [HP Sprout](https://www8.hp.com/us/en/campaigns/sprout-pro/overview.html) did some really neat things too. Sure, both of these ideas more-or-less died, but things *are* still happening.
+New ideas keep popping up too.  [Microsoft's Surface Studio 2 + Surface Dial](https://www.youtube.com/watch?v=TpWBHkVI1zA) actually had some really interesting and innovative ideas (albeit it's a *weee bit* on the extremely expensive side at 3,500 USD). I also think the [HP Sprout](https://www8.hp.com/us/en/campaigns/sprout-pro/overview.html) did some really neat things too. Sure, both of these ideas more-or-less died, but things *are* still happening.
 
-Screens have gotten thinner, making the "thick glass" problem less pronounced.
+The hare is improving too. Screens have gotten thinner, making the "thick glass" problem less pronounced.
 
 Best of all, some of the software hell is improving. For one, it seems like the vibe around the web is that most pen tablets and displays work fine in Linux, and "just work" without needing to figure out which input system to use. Meanwhile, [Open Tablet Driver](https://opentabletdriver.net) supports a huge list and adds a ton of extra features and customizable smoothing via a plugin system.
 
@@ -327,23 +327,25 @@ Finally, for artists that prefer to work traditional but want to scan in digital
 
 ### MIDI & Music Input Devices
 
-For those unfamiliar, what is a MIDI controller?
+For those unfamiliar,
 
 MIDI, or **M**usical **I**nstrument **D**igital **I**nterface is a bloody ancient standard that's still (mostly) 7-bit and let's you send control messages about actions on a controller made for music, often a piano keyboard, so, something like Key C4 Down, Velocity 8 or twisting a knob may be on a MIDI Control Channel (CC) and will be like CC43 changed to 127.
 
-Obviously in <script>   document.write(new Date().getFullYear()); </script> having a 7 bit standard is a bit archaic. But I already have a separate page on this website devoted to {{< button relref="Music/midi" color="music" >}}How Bad MIDI is{{< /button >}}. I want to talk hardware.
+These messages go to the computer to tell it to use software to make the actual sound. The controller is just the physical interface to make it more natural to play.
+
+In <script>   document.write(new Date().getFullYear()); </script> having a 7 bit standard is a bit archaic, but I already have a separate page on this website devoted to {{< button relref="Music/midi" color="music" >}}How Bad MIDI is{{< /button >}}. I want to talk hardware.
 
 MIDI controllers come in all shapes and sizes, from a grid of RGB buttons to traditional keyboards to just a large array of knobs, so, naturally people took notice, and MIDI can therefore be used to control things it was never, ever meant for. People often try to use it to control video editors, 3D modeling software, and generally anything that Adobe<footnote>Fuck Adobe.</footnote> makes.
 
 So for how useful they are, I can not believe how bad most of them are.
 
-![](/hci/launchkey.svg)
+![Novation Launchkey 2](/hci/launchkey.svg)
 
 This, for example, is the Novation Launchkey MKⅡ. It is, quite possibly, the worst waste of money I have ever seen.
 
 You see, a musical keyboard is supposed to react to how hard you press the keys. This does, but good luck hitting in the perfect lil' sweet spot that doesn't send the minimum or maximum value.
 
-Musical keyboards also, typically, aren't supposed to let the key wiggle much. This one is almost comicall in how bad it is.
+Musical keyboards also, typically, aren't supposed to let the key wiggle much. This one is almost comical in how bad it is.
 
 What about those light up drum pads at the top? Well, I sure hope you're down to punch the ever living fuck out of them to get them to respond.
 
@@ -351,19 +353,35 @@ Now, this isn't a review of Launchkey MkⅡ. Instead, I'm trying to make a point
 
 But it just absolutely sucks to play.
 
+For everything on this page, though especially for MIDI controllers, people should be able to develop a relationship with tool like a traditional musician does with their instrument. You should be able to play it via muscle memory and know exactly how much pressure and force each key, knob, or switch takes to make movements fluid.
+
+You can't do that if they're not consistent or well made in the first place or if there's not enough tactile feedback. But more than that, they need to multi-dimensional. On a guitar, every tiny movement and change I make will affect the sound. I can bend the string on my finger to make the pitch change, alter the pressure to control how long a note rings out, etc.
+
+On a basic MIDI keyboard? You get how hard you hit the key/button. That's it. You can make good music with that still, of course, but compared to the liveliness of an input method that captures more data it's just not great.
+
 {{< light >}}
 
 Fortunately, MIDI is also pretty awesome.
 
 7-bits? Uni-directional? Yeah. That's bad. But it's also daisy-chain-able and weirdly abusable. If you go read that MIDI page, you'll see you can just combine two messages to get 14-bit controls for a lot of tools. Additionally, **M**idi **P**olyphonic **E**xpression came in to radically push the enevelope by (ab)using the existing standard.
 
-While they're still pretty expensive, we now have keyboards where the keys *are* supposed to wiggle horizontally because you can use it to add vibrato. There's keyboards where the pressure, per finger, over time can change the sound. Sure, these are still kinda expensive<footnote>The "big two" MPE controllers at the moment are the OSMOSE and Roli Seaboard, which are ~$1400 and ~$500, respectively. Though, at the low end, there's the K-Board which can be had for a hair over $100. You get what you pay for, but I've owned all of them at one time or another and enjoy each ... even if Roli's software is annoying AF.</footnote>
+While they're still pretty expensive, we now have **MPE** keyboards where the keys *are* supposed to wiggle horizontally because you can use it to add vibrato, so on this keyboard this motion: 
+
+<img src="/hci/osmose.webp" style="filter: grayscale(1);height:10em;" >
+
+Actually makes the pitch "wiggle" like it would if you did the same to a guitar string!
+
+There's even more keyboards where the pressure, per finger, over time can change the sound. Sure, these are still kinda expensive<footnote>The "big two" MPE controllers at the moment are the OSMOSE (The one with wiggle gif above) and Roli Seaboard, which are ~$1400 and ~$500, respectively. Though, at the low end, there's the K-Board which can be had for a hair over $100. You get what you pay for, but I've owned all of them at one time or another and enjoy each ... even if Roli's software is annoying AF.</footnote>, but they exist!
 
 Plus, MIDI 2.0 is *finally* out and there's starting to be some real hardware products you can buy. Software support is spotty, but it fixes a lot of the old gripes.
 
-There's cool hardware out there, and crazy amounts of innovation.
+There's cool hardware out there and crazy amounts of innovation happening to make input devices for making music with computers not just controllers, but deserving of the title "instrument".
 
 {{< /light >}}
+
+
+
+-- TODO: I've made it to here so far on the rewrite. I suspect some of the following sections can be outright removed or at least trimmed down instead of updated/edited though.
 
 
 
@@ -441,5 +459,25 @@ While having an OS like Linux that is tweakabe to the nth degree is unmistakably
 
 
 
+## Ergonomics and you,
 
+You may've noticed I didn't touch on phystical ergonomics on this page much. Sure, it was hinted at with that dome shaped keyboard, but I didn't dive into things like how the angle we hold a mouse at actually causes two bones in our arms to cross in a way that, long term, may not be great because [Insert long winded, difficult to research paragraph on posture, pain, carpel tunnel, etc. here].
+
+The thing is, for *most* people the tradeoff for going full ergo isn't worth it.
+
+I mentioned above that I use the ergodone,
+
+<img src="/hci/ergo.svg" class="lg-no-shadow" style="filter: invert(1);height:10em;" >
+
+But then I mentioned that the Dactyl Manuform as an improvement,
+
+<img src="/hci/dactyl.svg" class="lg-no-shadow" style="height:10em;" >
+
+So, why don't I use it?
+
+I have a keyboard tray, and prefer having room on top my desk. The Dacty Manuform is too tall. I wouldn't be able to close the keyboard tray.
+
+Similarly, ergonomic mice tend to get those ergonomic gains by making the grip vertical. That does improve the grip comfort,  and I'm sure if you got used to it, tracking accuracy would be about the same. But, for most people this makes the dance from having their hand on their keyboard to on the mouse and back-and-forth more awkward. Plus, it will dramatically limit pool of mice you have to pick from, meaning you may need to make trade-offs on other features you care about. And, again, for keyboard try users, makes it too tall.
+
+While I'm a huge proponent of always being willing to at least try things - and meaningfully, not just "Oh I grabbed it and it's different therefore bad" - it has to be in context of the bigger picture of pros and cons.
 

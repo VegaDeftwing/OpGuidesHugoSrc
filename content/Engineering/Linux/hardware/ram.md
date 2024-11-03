@@ -68,6 +68,8 @@ Each program is now given a virtual address and virtual pages of memory. These p
 
 This has another benefit- we can actually allocate more memory than we really have. Say we're working on a system with limited RAM, like the Raspberry Pi 3B+ with only 1GB to go around. The operating system is going to need some of that to do its duties, says 200Mb, and then say you open two programs- LibreOffice Writer (a word processor) and Firefox, each of which needs 500Mb of memory. That's already 1200Mb of memory, more than the 1024Mb in the 1Gb of physical memory the Pi has! So, what happens? Well, the system will start *Swapping* memory to disk (in this case the SD card) this means that whatever the OS deems what you haven't used in the longest or that you're least likely to use again soon gets taken out of RAM and is instead written to your long term storage (SD card here, but normally an SSD or HDD in a bigger computer) this is *good* because it means you can run more programs than you really have the RAM for, but *bad* because this secondary storage is glacially slow compared to the speed of RAM, so when you do actually need that information, it will take a long time to work its way to the processor. If we continually end up swapping memory from disk and physical memory, this is called *Thrashing*, and it is extremely bad. Even when the system isn't being thrashed, the hiccup from swapping is often very noticeable to the user, so you really don't want to run out of RAM.
 
+[TODO] Introspection with [memflow](https://www.reddit.com/r/rust/comments/irg6aj/introducing_memflow_memory_introspection_with_ease/)
+
 ### Faults & The Dirty Bit
 
 Alright, so, 
@@ -147,4 +149,7 @@ Row Hammer is vulnerability that arises due to the way memory is arranged physic
 <iframe width="100%" height="250" src="https://www.youtube.com/embed/rGaF15-ko5w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{< /columns >}}
+
+## Interesting tools
+[MemProcFS](https://github.com/ufrisk/MemProcFS) "is an easy and convenient way of viewing physical memory as files in a virtual file system."
 

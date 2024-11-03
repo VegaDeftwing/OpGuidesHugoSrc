@@ -64,7 +64,7 @@ Technology - computers - are unlike any other tool. While we may extend them wit
 
 We've had tools like this before. Hell, the pen and paper or the printing press could be argued to be in the same lineage, but the sheer power of the computer - especially when networked to the World Wide Web. It's something else.
 
-There are only so many ways you can make a "normal" tool bad. You might have a drill without enough torque. You might have a saw with a dull blade. While you *can* make a tool bad by adding unnecessary things to it,<footnote>This is a [Leatherman ARC](https://www.leatherman.com/arc-702.html), which, ironically, I think is actually not bad at all. I actually carry a Leatherman Skeletool CX and think it's fantastic, but, you still get the point. </footnote>
+There are only so many ways you can make a "normal" tool bad. You might have a drill without enough torque. You might have a saw with a dull blade. You *can* make a tool bad by adding unnecessary things to it,<footnote>This is a [Leatherman ARC](https://www.leatherman.com/arc-702.html), which, ironically, I think is actually not bad at all. I actually carry a Leatherman Skeletool CX and think it's fantastic, but, you still get the point. </footnote>
 
 <img src="/hci/multitool.svg" class="lg-no-shadow" style="height:15em;">
 
@@ -84,7 +84,7 @@ Of course, new features you love will be added too. Software can get bug fixes. 
 
 You may meet new friends in a virtual world,
 
-[TODO] VR Chat
+[TODO] VR Chat... maybe. I don't love this as an example.
 
 ...
 

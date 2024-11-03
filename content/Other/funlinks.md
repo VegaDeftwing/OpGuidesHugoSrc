@@ -62,6 +62,7 @@
 * [Cory Doctorow talks about Big Tech, Crypto, and sci-fi (The New Yorker)](https://www.newyorker.com/culture/the-new-yorker-interview/cory-doctorow-wants-you-to-know-what-computers-can-and-cant-do)
 * [How I Got My Laser Eye Injury (Funranium Labs)](https://www.funraniumlabs.com/2024/07/how-i-got-my-laser-eye-injury/)
 * [Weather Landscape (lds133, GitHub)](https://github.com/lds133/weather_landscape) "Visualizing Weather Forecasts Through Landscape Imagery"
+* [PoC || GTFO](https://github.com/angea/pocorgtfo) "Proof of Concept or Get The Fuck Out"
 
 ## Inspiration 
 

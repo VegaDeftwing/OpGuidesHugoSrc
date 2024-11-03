@@ -283,6 +283,8 @@ Serum is pretty expensive though, so you may want to check out [VITAL](https://v
 
 There are of course, many, many other Wavetable synths out there, but I can't mention all of them. If you do want to check out more though, I recommend looking into [Phase Plant (VST)](https://kilohearts.com/products/phase_plant), [Argon8 (Standalone Synth)](https://www.modalelectronics.com/argon8/), [Piston Honda MKⅢ (Eurorack)](https://www.perfectcircuit.com/harvestman-piston-honda-mk3.html), Plaits & Braids (Eurorack or [VCV](https://library.vcvrack.com/Atelier/AtelierPalette)), Cursus Iteritas ([Eurorack](https://www.perfectcircuit.com/noise-eng-cursus-iteritas-black.html) or [Reason](https://www.reasonstudios.com/shop/rack-extension/cursus-iteritas-vereor/)), and the [Hydrasynth (Desktop)](https://www.perfectcircuit.com/asm-hydrasynth-desktop.html).
 
+If you'd like to make some wavetables try [carvetoy](https://www.carvetoy.online/).
+
 ## FM Synthesis
 
 <img src="/music/dx7.webp" alt="dx7" style="-webkit-filter: invert(.9);zoom:75%;">
@@ -354,3 +356,20 @@ Colored Noise, using it to make drums, etc
 
 ![TODO](/common/TODO.svg)
 
+
+
+## Transients + Noise + Sines
+
+There's long been a desire to have good models for breaking down the elements of a sound for reproduction and manipulation. There are many, many, many ways to do this. Physical modeling, as covered above, is sort of in this vein. But what if we want a way to decompose and re-combine elements of any sound, even those made by a synthesiser or non-physical means?
+
+There's this neat idea that you break any sound into 3 parts:
+
+On the initial strike, there will be in-harmonic (ie: Not in-tune with the tail) usually brief sound that's louder than the rest. The initial smack or pluck. This is the **Transient**.
+
+Then, you'll have various, harmonically related sinusoids (Think, additive synthesis) that carry the core of the note. So, **Sines**.
+
+Finally, sprinkle in some **noise**, usually filtered (and likely not a simple lp/hp filter, rather multiple band-passes).
+
+The idea is any sound should be able to be broken into these three things.
+
+Using this idea can add some life to otherwise sterile synthesizers (See the {{< button relref="Music/Instruments/synth" color="music" >}}Synthesisers Page{{< /button >}} ) but it's good to keep this in mind early while we look at other instruments. Think about how sounds work with this in mind. What comes from the hit, what does the tonal bit sound like, and what sort of noise is there that rides along with the tonal bit after the strike.
