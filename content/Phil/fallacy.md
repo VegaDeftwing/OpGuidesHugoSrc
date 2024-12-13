@@ -459,6 +459,33 @@ Fractally wrong people are often immune to the [stopped clock rule](https://rati
 
 {{< /quote >}}
 
+## Hindenburg Uncertainty Principle & Hindenburg's Cat
+
+The Hindenburg Uncertainty Principal states that everything is always on fire, but that the more you study it the less it appears to be burning. Only when step back to see the bigger picture again do you see that it is, indeed, on fire.
+
+Hindenburg's Cat is a thought experiment that tries to explain how everything is always in state of simultaniously being on fire and being totally fine, only collapsing to one or the other upon observation. Some use this principal to justify not collecting data in the first place.
+
+(See [Heisenberg's Uncertainty Principle](https://www.wikiwand.com/en/articles/Uncertainty_principle) & [Schrödinger's cat](https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat))
+
+## Feynman's Razor
+
+{{< quote "[Defender's Corner]([https://rationalwiki.org/wiki/Fractal_wrongness](https://defenderofthebasic.substack.com/p/feynmans-razor))" >}}
+
+If an expert can't understand your explanation, you've dumbed it down too much!
+
+{{< /quote >}}
+
+
+{{< quote "Richard Feynman, The Meaning of it All, page 38 in PDF & 88 in the book" >}}
+
+“I can’t read the articles in the paper. I don’t know what they mean. I don’t know what kind of a machine it was just because it weighed seven tons. And there are now sixty two kinds of particles, and I would like to know what atomic bullet he is referring to”
+
+{{< /quote >}}
+
+## Hitchens's razor
+
+TODO
+
 # Other Resources
 
 [Logicalfallacies.org](https://www.logicalfallacies.org) covers many of these same fallacies, plus a few I didn't touch on, and is hugely better written. Give it a look
