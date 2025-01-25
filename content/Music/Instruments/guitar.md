@@ -44,13 +44,13 @@ The bigger reason to know this is to be informed when buying/trying a guitar, to
 
 Splitting & Tapping
 
-Passive V Active
+Passive V Active – + the importance of impedance matching
 
 ### Acoustic: Piezo
 
 Normal circle ones V PVDF
 
-### Vintage Tone: Lipstick, Goldfoil, Triple-coil
+### Vintage Tone: Lipstick, Goldfoil
 
 ### Weird: Hexa-phonic, MIDI, Optical, Sustainiac, Triad
 
@@ -83,20 +83,36 @@ Wax, Epoxy
 
 ---
 
-## **2. Fret Count and Type**  
+## Necks
+### Fret Count and Type
 - Standard and Extended Ranges:  
-  - 21, 22, 24 frets, Custom ranges (27+ frets)  
+  - 21, 22, 24 frets, Custom ranges (27+ frets)
+  - microtonal (fixed and movable, EDO and that curved mess on youtube)
 - Fret Design:  
   - Jumbo, medium, narrow  
   - Stainless steel vs. nickel-silver  
 - Specialized Frets:  
   - Fanned frets (multiscale designs), True temperament frets  
-  - Scalloped frets  
   - Compound radius fretboards  
   - Bound fretboards and their impact on feel  
-  - Alternative fret materials (e.g., EVO gold)  
+  - Alternative fret materials (e.g., EVO gold)
+### Neck Profiles
+ Neck profiles (C, D, V shapes, that weird stranberg shape)
+  
+### Scalloped Necks
 
-—
+### Neck attachment
+Bolt-on vs. set-neck vs. neck-through designs 
+
+## Strings
+
+Brand?
+Gauge?
+Material?
+How long are they good for?
+Initial brightness
+Coatings
+
 
 
 ## **3. Pedals**  
@@ -159,7 +175,22 @@ Simplifier?
 Sorta guitar-specific effects, things that wouldn’t be on past pages
 Green ringer
 
+The most common sub-circuit things to look for:
+OpAmp clipping
+Diode clipping
+Tone stacks
+Basic volume/LFO depth control
+PT2399
+Voltage boosters
+BBDs
+Rectifier octave ups
+FV1 (Vs ARM based like Daisy)
 
+Expression pedals (and their standards)
+
+Insert cables
+
+How some pedals need to have a cable in to turn on
 
  
 - Circuit Types:  
@@ -213,12 +244,13 @@ Green ringer
 
 ## **6. Guitar Components**  
 - Body and Neck:  
-  - Tonewoods (mahogany, alder, ash, etc.)  
-  - Bolt-on vs. set-neck vs. neck-through designs  
-  - Neck profiles (C, D, V shapes)
-  - Slide Guitar
+  - Tonewoods (mahogany, alder, ash, etc.)   
+  - Slide guitars
 - Hardware:  
   - Tuning machines (locking, non-locking, ratio tuners)  
+	  - Locking tuners
+	  - Riot tuners / stranberg tuners
+	  - Hipshot tuners
   - String trees, Nuts (bone, Tusq, brass, locking)  
   - Saddles (material and design differences)  
 - Bridges:  
@@ -285,7 +317,8 @@ Green ringer
 - Headless Guitars:  
   - Tuning systems and string clamping mechanisms, Advantages in ergonomics  
 - Sitar Guitars
-- Harp Guitars
+- Harp guitars
+- Slide Guitar
 
 ---
 
@@ -320,8 +353,12 @@ Green ringer
 
 ## **16. Experimental and Niche Gear**  
 - Fretless guitars and basses  
+	Metal vs wood necks
+	Inlay lines or dots to help
 - Harp guitars and their additional string setups  
 - Guitar synths and processors (e.g., Roland GR series)  
+- Sustained notes using E-Bows and similar devices  
+- Micotonal guitars
 - Sustained notes using E-Bows and similar devices
 - Guitorgan
 - "Sine" Guitar which has the moveable pickups and body
