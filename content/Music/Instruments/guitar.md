@@ -1,6 +1,8 @@
 # Guitar
 
-# **1. Guitar Pickups**  
+TODO: General overview, labeled diagram pointing to each component
+
+# Guitar Pickups
 
 A guitar pickup is a type of transducer - a device that converts one kind of energy into another.
 
@@ -80,10 +82,21 @@ Wax, Epoxy
 
 3 way, 5 way, rotary, push-pull pots
 
+### Tone Pots
 
----
+- Tone Capacitors:  
+  - Ceramic vs. film, Popular values (e.g., 0.022µF, 0.047µF)
+
+### Notable wiring alternatives
+* Push/pull voicings
+* Push/Pull split
+* Blend pots on 5-way
+* Piezo blend
+* Toggle switches
+* Kill switches
 
 ## Necks
+
 ### Fret Count and Type
 - Standard and Extended Ranges:  
   - 21, 22, 24 frets, Custom ranges (27+ frets)
@@ -97,25 +110,43 @@ Wax, Epoxy
   - Bound fretboards and their impact on feel  
   - Alternative fret materials (e.g., EVO gold)
 ### Neck Profiles
- Neck profiles (C, D, V shapes, that weird stranberg shape)
+ Neck profiles (C, D, V shapes, that weird stranberg shape
   
 ### Scalloped Necks
 
 ### Neck attachment
 Bolt-on vs. set-neck vs. neck-through designs 
 
+### Inlays and Markers
+
+Luminlay and glow-in-the-dark fret markers
+### Tuning machines
+	  - Locking tuners
+	  - Ratio tuners
+	  - Riot tuners / stranberg tuners
+	  - Hipshot tuners 
+
 ## Strings
 
 Brand?
-Gauge?
-Material?
 How long are they good for?
 Initial brightness
 Coatings
 
+- Gauge Options:  
+  - Light, medium, heavy, Hybrid sets  
+- Materials:  
+  - Nickel-plated steel, Pure nickel, Stainless steel, Coated strings  
+- Specialty Strings:  
+  - Flatwound, Half-round, Acoustic-electric hybrid strings  
+  - Extended-range string sets  
+- Double-ball end strings (Steinberger and similar systems)  
+- Multi-scale string tension considerations  
+- Custom string sets for alternate tunings  
 
 
-## **3. Pedals**  
+
+## Pedals
 
 For electric guitar, a lot of the crazy sounds you hear aren’t just a guitar plugged into an amp. Instead, there’s a box which modifies the sound between the guitar and amp. These are pedals.
 
@@ -189,6 +220,11 @@ FV1 (Vs ARM based like Daisy)
 Expression pedals (and their standards)
 
 Insert cables
+Utility pedals -> Parallel mixers, frequency splitters, AB/Y, tuners (vs clip on), swithing systems (MLX-10, etc.)
+
+Trails on effects
+
+MIDI controlled pedals (and MIDI standrads, and how many MIDI controlled pedals sorta mid with the standard)
 
 How some pedals need to have a cable in to turn on
 
@@ -209,7 +245,7 @@ How some pedals need to have a cable in to turn on
 - Vintage-style pedal enclosures vs. modern designs  
 - Fx loop
 
-## **4. Amplifiers**  
+## Amplifiers
 - Types of Amps:  
   - Tube (valve), Solid-state, Hybrid, Digital modeling amps  
   - Acoustic amps  
@@ -226,9 +262,9 @@ How some pedals need to have a cable in to turn on
   - Amp simulation in DI systems  
 - Specialty amps for 7/8-string and baritone guitars  
 
----
+Make sure to mention latency, aliasing, and how well it takes for anything digital
 
-## **5. Guitar Cables**  
+## Guitar Cables
 - Electrical Considerations:  
   - Capacitance, Shielding, Length impact on tone  
 - Connector Types:  
@@ -240,50 +276,15 @@ How some pedals need to have a cable in to turn on
 - Specialty cables for stereo/multi-output guitars  
 - Right-angle connectors vs. pancake connectors  
 
----
-
-## **6. Guitar Components**  
-- Body and Neck:  
-  - Tonewoods (mahogany, alder, ash, etc.)   
-  - Slide guitars
-- Hardware:  
-  - Tuning machines (locking, non-locking, ratio tuners)  
-	  - Locking tuners
-	  - Riot tuners / stranberg tuners
-	  - Hipshot tuners
-  - String trees, Nuts (bone, Tusq, brass, locking)  
-  - Saddles (material and design differences)  
-- Bridges:  
-  - Fixed bridges, Tremolo systems (Floyd Rose, Kahler, Wilkinson)  
-  - Evertune bridges, Tune-o-matic  
-- Controls:  
-  - Volume and tone pots, Push-pull potentiometers  
-  - Toggle switches, Kill switches  
-- Tone Capacitors:  
-  - Ceramic vs. film, Popular values (e.g., 0.022µF, 0.047µF)  
+## Guitar Body
+- Body shape
+- Tonewoods (mahogany, alder, ash, etc.)   
+- Slide guitars
+- Side-mounted jack plates vs. top-mounted vs rear mount
 - Pickguards:  
   - Single-ply vs. multi-ply, Custom shapes and materials  
-- B-benders and G-benders (country-style pitch-shifting systems)  
-- Roller nuts and bridges for reduced friction  
-- Luminlay and glow-in-the-dark fret markers  
 
----
-
-## **7. Strings**  
-- Gauge Options:  
-  - Light, medium, heavy, Hybrid sets  
-- Materials:  
-  - Nickel-plated steel, Pure nickel, Stainless steel, Coated strings  
-- Specialty Strings:  
-  - Flatwound, Half-round, Acoustic-electric hybrid strings  
-  - Extended-range string sets  
-- Double-ball end strings (Steinberger and similar systems)  
-- Multi-scale string tension considerations  
-- Custom string sets for alternate tunings  
-
----
-
-## **8. Specialized Components**  
+## Specialized Components
 - Multi-output jacks for stereo or hexaphonic configurations  
 - Tension-adjustable truss rods  
 - String dampeners (FretWraps and similar devices)  
@@ -291,23 +292,22 @@ How some pedals need to have a cable in to turn on
 - Side-mounted jack plates vs. top-mounted  
 - Custom cavity routs for onboard effects  
 
----
-
-## **9. Bridge Systems**  
+## Bridge Systems, Nuts, and String Trees
+- Fixed
 - Vibrato arm mechanics (floating vs. fixed tremolo arms)  
 - Stoptail pieces and their effect on sustain  
 - Microtuners for fine-tuning adjustments  
+- Evertune
+- Bigsby
+- (Floyd Rose, Kahler, Wilkinson)  
+- Evertune bridges
+- Tune-o-matic
+- Roller nuts and bridges for reduced friction  (Ref here or in nuts? Maybe move nuts to here?)
+- String trees
+- Nuts (bone, Tusq, brass, locking)
+- Saddles (material and design differences)  
 
----
-
-## **10. Miscellaneous Components**  
-- Piezo pickup integration with electric guitars  
-- Side-mounted jack plates vs. top-mounted  
-- Custom cavity routs for onboard effects  
-
----
-
-## **11. Extended Guitar Types and Designs**  
+## Extended Guitar Types and Designs
 - 12-string Guitars:  
   - Double-course string configurations, Electric vs. acoustic 12-strings  
 - Baritone Guitars:  
@@ -320,38 +320,28 @@ How some pedals need to have a cable in to turn on
 - Harp guitars
 - Slide Guitar
 
----
-
-## **12. Acoustic Guitar Electronics**  
+## Acoustic Guitar Electronics
 - Internal mic systems vs. undersaddle piezo pickups  
 - Blended pickup systems (mic + piezo + magnetic)  
 - Soundhole covers to reduce feedback  
 
----
-
-## **13. Signal Chains and Connectivity**  
+## Signal Chains and Connectivity
 - ABY splitters for multiple amp setups  
 - Wet/dry rigs and stereo signal chains  
 - Wireless systems:  
   - Analog vs. digital wireless, Latency and interference considerations  
 
----
-
-## **14. Alternate Guitar Tunings and Setups**  
+## Alternate Guitar Tunings and Setups
 - Open tunings (e.g., Open G, Open D)  - relate to string choice
 - Extended-range tuning setups (drop A, F#) - relate to scale length  
 - Adjustable nut height for slide guitar
 
----
-
-## **15. Studio and Live Integration**  
+## Studio and Live Integration
 - Reamping techniques for guitar tracks  
 - Impulse responses (IRs) for cabinet simulation  
 - MIDI foot controllers for live effect switching  
 
----
-
-## **16. Experimental and Niche Gear**  
+## Experimental and Niche Gear 
 - Fretless guitars and basses  
 	Metal vs wood necks
 	Inlay lines or dots to help
@@ -362,8 +352,13 @@ How some pedals need to have a cable in to turn on
 - Sustained notes using E-Bows and similar devices
 - Guitorgan
 - "Sine" Guitar which has the moveable pickups and body
+- Double neck
+- Mixed fretted/fretless
+- Partiall scalloped
+- Custom cavity routs for onboard effects  
+- B-benders and G-benders (country-style pitch-shifting systems)  
 
-## 17 - Playing Techniques
+## Playing Techniques
 * Harp Harmonics
 * Harmonics
 * pinch harmonics
