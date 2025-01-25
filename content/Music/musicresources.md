@@ -46,4 +46,6 @@ Reddit: https://www.reddit.com/r/vcvrack/ , https://www.reddit.com/r/synthesizer
 # Misc Music Tips and Tricks
 
 * Try sidechaining your effects against the dry input - you can duck your delays and verbs out of the way for fresh input while still keeping them spacious.
+* In many DAWs you can view multiple MIDI clips at once or get MIDI from another track to appear as ghost notes on the track you want to edit - this is incredibly helpful for making one sequence in relation to another (Eg, melody & bass)
+	* In Ableton, click the first clip, then shift click any additional clips you want to see simultaniously from other tracks.
 

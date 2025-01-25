@@ -847,3 +847,8 @@ https://mitxela.com/projects/melting_kicad
 # Chapter 26.3 - Alternatives to PCBs
 
 [TODO] Wirewrap, permaproto, etc.
+
+
+---
+
+[How to repair damaged PCB traces](https://www.youtube.com/watch?v=kS1uVBIhBDw)

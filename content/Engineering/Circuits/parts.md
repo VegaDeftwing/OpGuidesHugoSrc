@@ -25,11 +25,42 @@ including sliders, motorized, dual, linear, exponential, logarithmic, etc.
 
 {{< /columns >}}
 
-## Enclosures
+## Enclosures & Environmental Protection
+
+There are a few standardized case sizes I like.
+
+http://dangerousprototypes.com/docs/Sick_of_Beige_compatible_cases works well for custom PCBs of a variety of predefined sizes,
+
+![](http://dangerousprototypes.com/docs/images/1/15/SOB_standardsizes.png)
+
+Guitar peadals often use enclosures of standard sizes that you can get with really nice powder coat finishes: https://stompboxparts.com/enclosures/
+
+#### Weather Proofing
+
+#### Coatings
+
+Wax, conformal, etc.
 
 
+## Adhesives (And other bonding things)
 
-## Adhesives
+[Bondic](https://notaglue.com) (or other UV-cure resin that isn't crazy expensive per fl oz) Is *not* glue, but I'm putting it here first explicitly because if you're banging your head against a wall trying to figure out what to use to repair/bond something, it might be what you need.
+
+Similarly, [Sugru](https://www.tesa.com/en/consumer/repairing/sugru) is, uh, "Adhesive Silicone Rubber" according to Wikipedia. Basically, starts out roughly like thick PlayDoh dries to flexible but well cured rubber. It's very nice for repairing wire strain relief, making grips for things. It bonds to almost anything reasonably well.
+
+As for glues, some are sorta obvious: Wood glue for wood↔wood.
+
+Usually, the hard part is dealing with very smooth materials (glass) or mixed materials (wood↔plastic, mixed plastic, etc.)
+
+I am **not** skilled enough to tell you what glue to get or make a big matrix of what bonds to what using what. *BUT*, I can give you some advice:  
+  
+1. Clean your surface well. Isopropyl alcohol is your friend.
+2. Roughening up (Or "Surface Texturing") a surface first is good, but irrelevant if you use a glue that's chemically incompatible with the material.
+	* (1.) still applies, clean after roughening
+3. Not all plastics are the same. ABS≠PLA≠PVC, etc. Try to figure out what you have first and search what's best. If you can't tell, be prepared to have to either test (If you have spare materials to try on) or to have to try multiple times.
+5. If in doubt, **test**. The gluing stage is usually late enough in a project that screwing up would cost much more time than testing a bond on scrap material.
+
+**Hot glue** should always be a last resort. It's bulky, makes shit bonds, and will always fail at the worst possible time. If it needs to be fast, doesn't need to be pretty, won't be supporting weight (So, stationary crafts) Sure. Be aware there's two types of hot glue: Low and High temp. High temp bond much stronger (Still, please don't), but the higher temp will probably melt fabrics.
 
 
 
@@ -43,6 +74,8 @@ Stranded, enamaled, etc.
 
 ## Buttons
 
+[Graphite Buttons](https://hackaday.com/2024/11/01/fix-that-old-remote-with-graphite/) aren't hard to DIY or fix.
+
 ## Switches
 
 SPST DPST etc
@@ -50,3 +83,8 @@ SPST DPST etc
 ## Encoders
 
 vs a pot, w/ a button
+
+## Heat Shrink
+
+## Solder
+

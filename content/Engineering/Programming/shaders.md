@@ -197,6 +197,8 @@ Clearly, from reading this chapter, `random()` in shaders is going to be determi
 
 There are odd ways around the determinism using uniforms, but regardless, it's not really a big deal. The bigger problem is that it's actually just... kinda a bad random? Like, it's not [uniform](https://en.wikipedia.org/wiki/Discrete_uniform_distribution) or [normal](https://en.wikipedia.org/wiki/Normal_distribution). This is a big part of why you can easily see the banding in the random function as you scale it. This is especially annoying for compute shaders, as there's quite a few algorithms that rely on having good, pseudo random numbers. There's ways around this, but if you need them I believe in your ability to search the web. 
 
+Lacking a better place to mention them, [One Dimensional Reversible Automata](https://richiejp.com/1d-reversible-automata) can be used to make incredible not-qite random patterns which I can best describe as the baby of fractals and digital glitching. I love them.
+
 {{< /tab >}}
 
 {{< tab "12 - Cellular Noise" >}}

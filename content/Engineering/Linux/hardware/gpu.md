@@ -11,6 +11,12 @@
 
 <!-- This image needs replaced, as it's really fuzzy -->
 
+Quick Links:  
+  
+* [GPU Glossary](https://modal.com/gpu-glossary/readme)
+
+---
+
 {{< speech >}} Hi Gamers!
 
 This page will obviously appeal to you, those that drive the sales of these chonky, expensive cards; however, it's important to note that this page is about all graphics & acceleration- from the iGPU in low power systems to the compute cards used for AI research and wasteful crypto mining. Still, this more in depth knowledge will probably be helpful in helping you extract more FPS from your GPU. {{< /speech >}} 

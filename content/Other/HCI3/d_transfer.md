@@ -1,5 +1,14 @@
 /+ ptp
 
+* Direwolf / Chattervox
+* Winlink / WoAD
+* KV4P
+* Yagdrasil
+* Meshtastic
+* RNode/Reticulum
+
+
+
 
 
 ## Transferring Information Sucks

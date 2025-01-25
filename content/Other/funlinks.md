@@ -63,6 +63,7 @@
 * [How I Got My Laser Eye Injury (Funranium Labs)](https://www.funraniumlabs.com/2024/07/how-i-got-my-laser-eye-injury/)
 * [Weather Landscape (lds133, GitHub)](https://github.com/lds133/weather_landscape) "Visualizing Weather Forecasts Through Landscape Imagery"
 * [PoC || GTFO](https://github.com/angea/pocorgtfo) "Proof of Concept or Get The Fuck Out"
+* [Using a CRT as an amplifier (Termadnator, Hackaday)](https://hackaday.com/2024/07/11/you-can-use-a-crt-as-an-audio-amplifier-tube/)
 
 ## Inspiration 
 

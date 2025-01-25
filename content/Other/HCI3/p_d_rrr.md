@@ -1,5 +1,13 @@
 # Refuse, Reduce, Reuse, Recycle and Repair
 
+TODO: Contextual use of resources. https://andymasley.substack.com/p/individual-ai-use-is-not-bad-for
+
+High power usage isn't where people think, leaving something on vs brief period of high power, wireless chargers, etc.
+
+
+
+---
+
 In school, *in the US, **to my knowledge, kids are still taught Reduce, Reuse, Recycle.
 
 Some problems with that:<footnote>At least to me, others may not have the same mental associations with the words, so I guess this is anecdotal</footnote>

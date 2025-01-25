@@ -100,6 +100,10 @@ Also note, WiFi generally uses the same 2.4Ghz spectrum as [Bluetooth](https://e
 
 This is not all of the 802.11 standards. There's a bunch of extensions/application specific cases like [802.11p](https://en.wikipedia.org/wiki/IEEE_802.11p) for use in moving vechicals 
 
+{{< smalltext >}}
+See [This GNU Radio WiFi Hallow Repo if you want to know more about that](https://github.com/irongiant33/gr-halow?tab=readme-ov-file)
+{{< /smalltext >}}
+
 #### SSIDs - Service Set Identifier
 
 A WiFi SSID is the name of a wireless network. It is essentially a unique identifier that allows devices to connect to the network. When you set up a wireless network, you will typically be asked to choose a name for the network, which will become the WiFi SSID. This name is then broadcast by the router so that nearby devices can detect and connect to the network. The name can only be up to 32 bytes long. You may be able to set it to use Unicode, but you proably shouldn't as it can really fuck shit up.

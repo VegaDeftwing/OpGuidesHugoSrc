@@ -1,3 +1,9 @@
+TODO:
+
+Tools should be self contained and opinionated: C vs Rust, Fossil Vs Git, etc. ++ How this contradicts, but why it's better.
+
+
+
 ## Creating New Information Sucks
 
 **Or, People Will Only Make Stuff That Is As Good As The Tools They Have**

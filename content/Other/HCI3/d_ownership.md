@@ -1,10 +1,11 @@
-DRM, spying, etc. data ownership. cookie banners., Denuov, Ilok
+DRM, spying, etc. data ownership. cookie banners., Denuov, Ilok. NFTs and Crypto.
 
 modchips, "resistance" - modchip.jpeg from https://www.reddit.com/r/cableporn/comments/1g2uc0x/ps2_modchip_install_i_recently_finished/
 
-Enshittification
 
 Clarify ownership in the copyright sense and ownership in the ethical creepy sense.
+
+Software for using hardware to full fetaure should always be included. If paid, subscriptions are the worst https://romanzipp.com/blog/no-you-cant-use-your-6299-canon-camera-as-a-webcamc
 
 
 # Ownership & Enshittification
@@ -54,12 +55,71 @@ I call this enshittification, and it is a seemingly inevitable consequence arisi
 The [Wikipedia article](https://en.wikipedia.org/wiki/Enshittification) on the subject has many examples.
 
 By far the worst offenders come from those that seek to profit from their users at all costs by way of ads, I don't mean how the ads themselves are intrusive and platform destroying (but the [TODO] presentation page covers that in more depth), rather I mean what the ad-tech industry has done to our data.
-## Adtech
+
+## Adtech, Data Collection, & Consent
 In 2012, Forbes ran the headline:
 
 [*How Target Figured Out A Teen Girl Was Pregnant Before Her Father Did*](https://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/)
 
 Of which the short version is Target sent targeted, physical ads based on people's searching and shopping habits online.
+
+It's no longer news to anyone that every digital service we use is collecting any and all data they can get their grubby lil' hands on, but what really blows my noggin is that they often just say "Oh, we changed the rules: we want to collect this too."
+
+If Apple updates the Terms Of Service to iOS and you use an iPhone, what are you going to do about it? Sell your phone?
+
+If your SmartTV tricks you into setting up a wireless connection and updates in a way that it can inject ads to what you're watching, what are you going to do about it? Buy a new TV?
+
+While intrusive, ugly ads are annoying in their own right (TODO: Link back to presentation page), it's this theft of data that truly bothers me. Even if you did take the time to read the terms and conditions, many have a clause similar to
+
+> we may modify these terms at anytime and without notice
+
+uh, shit, I guess I need to say it again.
+
+**I am not a lawyer. I am not your lawyer. This is not legal advice.**
+
+Even *if* these kinds of clauses are not legally enforceable, who has the money to sue them? Who is actually going to go to court against Microsoft, Google, Apple, Samsung, etc.
+
+This is why [the tech industry doesn't understand consent (soatok.blog)](https://soatok.blog/2024/02/27/the-tech-industry-doesnt-understand-consent/). It's why everything is opt-out, not opt-in. Because who would actually agree to hand over all of their data to advertisers like that?
+
+{{< quote "Soatok @ [soatok.blog](https://soatok.blog/2024/02/27/the-tech-industry-doesnt-understand-consent/)" >}}
+
+## Opt-Out Is NOT Consent
+Opt-out is “our lawyers told us to make this an option to cover our ass, but we don’t want you to actually do it”.
+
+Opt-out is “if you missed the memo, we assume we have your consent”.
+
+The default state of any decision regarding user data should be opted out. Users should instead be required to opt in for your decision to take effect, and they must not be coerced into doing so.
+
+If consent is not explicitly given by an informed user, you haven’t received consent at all, and to pretend otherwise is unethical.
+
+Your users don’t fucking care about opt-out. We care about opt-in.
+
+{{< /quote >}}
+
+{{< light >}}
+
+TODO: 
+
+Laws getting drafted, GDPR, alt platforms. General consumer understanding.
+
+{{< /light >}}
+
+## Your Time & Attention: Their profits.
+
+TODO: Alexa by the way
+TODO: Amazon "Look at this item again"
+
+## Platforms
+
+TODO: Dating apps
+
+## Hardware meets software: DRM & Encryption
+
+I can not possibly phrase this better than Cory Doctorow,
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/HUEvRyemKSg" title="28c3: The coming war on general computation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+As the punchline at ~8:00 makes a good point of, laws to stop people from doing things with technology that is drafted by morons that don't understand that same technology are also usually implemented by people that lack the technical prowess to enforce them and
 
 
 # OLD

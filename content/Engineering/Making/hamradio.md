@@ -2,7 +2,7 @@
 
 <!-- TODO: https://github.com/jopohl/urh -->
 
-<img src=" /eng/radioart.png " alt="radioart" style="zoom:75%;" />
+<img src=" /eng/radioart.png " alt="radioart" style="zoom:50%;" />
 
 {{< attribution >}}
 
@@ -10,15 +10,46 @@
 
 {{< /attribution >}}
 
+Amateur or "ham" radio is a great hobby to get into for electronics minded people. You can get into the radio hobby without a license, but generally to transmit anything you'll need to take a test to prove you know a reasonable amount about the equipment, electricity, and regulations.
+
+Here in the US, this means taking a multiple-choice test for ~$15. You can actually see the real question bank at https://hamexam.org. Once you have a license, you'll be given a call sign. For example, `KA0XYZ`.
+
+It is not possible for me to cover all the prerequisite knowledge on this page, but the internet is vast and YouTube endless. [newhams.info](https://newhams.info/category/amateur-radio/) is a decent place to start.
+
+Instead, I want to point you to some interesting things you might want to play with and some equipment recommendations.
+
+## Equipment
+
+At the time of writing (Nov 3, '24) the hand held starter transciver I'd recommend is a UV-K5 [due to how hackable it is.](https://spectrum.ieee.org/quansheng-uv-k5-hacking).
+
+<!-- https://hackaday.com/2024/07/05/hacking-a-quansheng-handheld-to-transmit-digital-modes/ -->
+
+If you're looking to do some crazy radio experimentation, software defined radios are also a ton of fun. The two big options currently are the HackRF One - for which you can find clones @ ~$120 - and the LimeSDR MiniV2, which is ~$400.
+
+The Lime is more capable, but more difficult to use. The HackRF is easier, but significantly worse hardware. If you don't want to fight confusing software to start with, get the HackRF.
+
+## Antennas
+
+[TODO] 2.4Ghz patch antenna
+
+[Slinky for 80M (Hackaday)](https://hackaday.com/2017/12/04/slinky-walks-down-stairs-and-picks-up-80m-band/)
+
+[A Cleverly Concealed Magnetic Loop Antenna (Jenny List, Hackaday)](https://hackaday.com/2018/06/23/a-cleverly-concealed-magnetic-loop-antenna/)
+
+## Other equimpent
+
+[TODO] electronically tunable filters
+
+## Misc. interesting Reading
+
+
+
 LORA
 
-2.4Ghz patch antenna
 
-electronically tunable filters
 
 [National Radio Quiet Zone (Wikipedia)](https://en.wikipedia.org/wiki/United_States_National_Radio_Quiet_Zone)
 
-https://newhams.info/2017/02/17/rf-connector-types/
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">question of the day:<br>Analog TV is shut down in the US, right? so all the over-the-air TV is digital. And existing analog OTA frequencies are getting repurposed to other uses... so what am I seeing on UHF channel 60? it&#39;s got way more structure than the noise everywhere else. <a href="https://t.co/Jm9W9JsjgF">pic.twitter.com/Jm9W9JsjgF</a></p>&mdash; foone (@Foone) <a href="https://twitter.com/Foone/status/1240011033395073024?ref_src=twsrc%5Etfw">March 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -84,10 +115,14 @@ Here OH6BPL is using the [Computer Craft](https://www.computercraft.info/downloa
 
 <img src="/eng/MorseDecode.webp" alt="Morse Code" style="zoom:50%;" />
 
-## Antennas
+https://woad.sumusltd.com/home
 
-### Fun, weird ones
+## Meshtastic
 
-[Slinky for 80M (Hackaday)](https://hackaday.com/2017/12/04/slinky-walks-down-stairs-and-picks-up-80m-band/)
+[Long Range Relay](https://hackaday.com/2024/04/03/long-range-meshtastic-relay/)
 
-[A Cleverly Concealed Magnetic Loop Antenna (Jenny List, Hackaday)](https://hackaday.com/2018/06/23/a-cleverly-concealed-magnetic-loop-antenna/)
+[Decoding with GNURadio](https://hackaday.com/2024/06/26/decoding-meshtastic-with-gnu-radio/)
+
+
+
+

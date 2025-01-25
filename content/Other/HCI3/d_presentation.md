@@ -1,5 +1,12 @@
 ## Presentation of Information Sucks
 
+---
+Thoughts:
+* Windows Taskbar sizing
+
+---
+
+
 This section is about how we view information, the presentation of words on a page, graphs, and information in general. To start, I want to look at something a little bit different.
 
 ![](/hci/gemini.webp)
@@ -142,6 +149,10 @@ All you have to do is not change shit until you're done computing the answer, an
 *Fuck your 𝒻𝒶𝓃𝒸𝓎 animations.* I love eye candy, and a little bit is fine, but I shouldn't have to wait as a menu slowly drops down with some pretty animation. If I've used that menu before I probably already know where I want to click, and now because I expect to be able to do so instantly I just clicked whatever is behind it. Fuck that. If the animation is masking some load time, sure, but *as soon as* it is loaded, quit it, and show the damn content. If the animation is necessary to avoid suddenly flipping from black to white and blinding users, again, I get it. But it doesn't need to take more than 100ms. 
 
 ### Advertising
+
+I think this section could stand to be less biased. It's easy to say ads are evil, but, like, not everything can be free, but there's still a balance to be found.
+
+TODO: https://www.nextpit.com/ads-consume-half-of-your-mobile-data
 
 TODO: https://modem.io/blog/blog-monetization/
 
