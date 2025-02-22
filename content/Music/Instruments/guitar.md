@@ -2,6 +2,10 @@
 
 TODO: General overview, labeled diagram pointing to each component
 
+Les Paul, Gretch, Stratocaster, Telecaster, Jazzmaster
+
+https://www.youtube.com/watch?v=hEOuGs7m8bw might be good to at least link, if not embed
+
 # Guitar Pickups
 
 A guitar pickup is a type of transducer - a device that converts one kind of energy into another.
@@ -26,6 +30,7 @@ One more thing of note: Remember before how I said the resistance matters too? T
 
 This means we have a LOT of variables that can affect the sound:
 * The type of magnet
+* The shape of the magnet
 * The type of string
 * The number of windings
 * The tone capacitor
@@ -54,7 +59,14 @@ Normal circle ones V PVDF
 
 ### Vintage Tone: Lipstick, Goldfoil
 
-### Weird: Hexa-phonic, MIDI, Optical, Sustainiac, Triad
+### Weird: 
+* Hexa-phonic
+* MIDI
+* Optical
+* Sustainiac
+* Triad
+* Combined P90 w/ rail (SHPR-1n)
+* Half rail, half pull piece (Railhammer)
 
 Sustaniac vs Fernandes Sustainer
 
@@ -63,6 +75,8 @@ Sustaniac vs Fernandes Sustainer
 ### Magnet Types
 
  AlNiCo (II, III, V), Ceramic, Neodymium, CuNiFe
+ 
+ Magnet shape
 
 ### Windings (Over & Under wound)
 
@@ -113,6 +127,48 @@ Wax, Epoxy
  Neck profiles (C, D, V shapes, that weird stranberg shape
   
 ### Scalloped Necks
+
+<img src="/fairuse/other/Scalloped_fretboard.jpg" alt="Scalloped fingerboard of Yngwie Malmsteen's Stratocaster" style="border-radius:20px;">
+
+The main purpose of a scalloped neck is that it is much easier to bend strings. 
+
+I actually bought a cheap scalloped guitar on eBay so I could try this out. Going into it I had a few questions.
+
+{{< iquestion >}}
+**Q:** Do you feel the bumps as you slide your hand up and down the neck?
+{{< /iquestion >}}
+
+If you do the stereotypical fret-end inspection of sliding your hand up/down the neck, sure. But when actually playing, no, it's not noticnoticible or in the way, at least not for me.
+
+{{< iquestion >}}
+**Q:** Is it actually easier to bend the strings?
+{{< /iquestion >}}
+
+Yes. Significantly.
+
+{{< iquestion >}}
+**Q:** How hard was it to adapt to it.
+{{< /iquestion >}}
+
+For me, I took to it immediately. Like, a few minutes. This probably won't be true for everyone. If you have an iron grip, it'll probably feel pretty weird to you and you might struggle not to press so hard it goes out of tune.
+
+{{< iquestion >}}
+**Q:** Are chords harder to play?
+{{< /iquestion >}}
+
+Eh? Big complex ones, a bit. Because it's so much easier to bend the strings if you're already at the limit of what your hand can strech to, you're liable to start bending a string unintentionally, and more so than you would on a normal guitar.
+
+{{< speech big >}}
+
+I still use chords when playing, but I definitely lean more on the single-note / lead type playing side than rhythm/chords, so I'm not the best judge of this.
+
+{{< /speech >}}
+
+Additionally, I noticed a few things I didn't expect:
+* Hammer-ons are a bit easier. This makes taping easier as well.
+* It's so much easier to bend strings, I managed to accidently push the high e off the neck. I haven't done that on a normal neck in *years*.
+
+Finally, I should note some input from friends: If you play a scalloped guitar a lot and manage to after years of heavy playing and bending wear the frets down, it's likely it will cost more than a normal guitar to get fretwork done on, just because there's a lot more that can go wrong.
 
 ### Neck attachment
 Bolt-on vs. set-neck vs. neck-through designs 
@@ -279,6 +335,7 @@ Make sure to mention latency, aliasing, and how well it takes for anything digit
 ## Guitar Body
 - Body shape
 - Tonewoods (mahogany, alder, ash, etc.)   
+- Resonator guitars
 - Slide guitars
 - Side-mounted jack plates vs. top-mounted vs rear mount
 - Pickguards:  
@@ -304,8 +361,9 @@ Make sure to mention latency, aliasing, and how well it takes for anything digit
 - Tune-o-matic
 - Roller nuts and bridges for reduced friction  (Ref here or in nuts? Maybe move nuts to here?)
 - String trees
-- Nuts (bone, Tusq, brass, locking)
-- Saddles (material and design differences)  
+- Nuts (plastic, bone, Tusq, brass, locking)
+- Saddles (material and design differences)
+- Roller bridges
 
 ## Extended Guitar Types and Designs
 - 12-string Guitars:  

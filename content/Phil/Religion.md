@@ -25,9 +25,9 @@ Ultimately, as long as it is a personal thing and you keep it a personal thing, 
 
 Now, depending on who you are - which, if you're on my website, I can make some good assumptions that you're probably a young, middle-class, technically inclined person, and probably either atheist or at least not-Christian - you may be thinking "Why do I care? Those old white guys have their views, I have mine. Can't change it."
 
-Well, if you are of the nerdy variety, the professional, nerdy community (engineers, programmers, etc.) is strangely divided. The 'old guard' is largely relatively conservative and religious, but as time has moved forward the younger generation taking these positions are largely liberal and not religious at all. If you're going to interact with these people, it helps to know how they think and how to identify how they think and know how to debate in a productive manner. Similarly, if you're a conservative Christian (and you're still reading - which, props. I hope you do actually take my perspectives and think on them, even if you don't agree with any when you're done.) I suspect this will help you see the "other side".
+Religion affects so much about our day to day lives even if we don't practice it. It influences our politics. It's the basis for most of our **holi**days. Even for those that aren't religious, the same ceremonies are used for weddings - and really, the idea of marriage itself (and the presumed societal ideal of monogamy) are religious. Dating, you're likely to meet someone that isn't of the same religion as you, and you'll need to discuss religion with them.
 
-Before going any further though, I want to address a point a friend that reviewed this page for me brought up:
+Before we get to deep into this page though, I want to open with some feedback a good friend gave me about this page, just so you know what you're getting in to:
 
 {{< quote "jan pona" >}}
 
@@ -83,9 +83,6 @@ To wrap up this intro, religion is interesting for its own reasons<footnote>it w
 
 To keep things simple, I'm going to pick on Christianity for the most part. There are other religions that are hugely involved in the politics of their dominant regions, but Christianity being the biggest religion and the one most of the readers of this page are likely to be familiar with, makes the most sense to talk about. Still, I'll try to keep things as generic as possible.
 
-* How religions keeps their numbers
-* How religion got to be so intertwined with politics
-
 ## How Religions Keep Their Numbers*
 
 <b>*</b> Ignoring the historical context of forced conversion and modern day regional religious requirements in some regions 
@@ -109,7 +106,7 @@ If you push your religion on **ANYONE** you're an ass. It doesn't matter if you'
 
 Now, you *personally* may not dislike the person for who they are, hell, maybe you are LGBT or whatever alongside them. Great! Then you know full well why they may be disinterested and should respect that. Let them find your religion on their own. The **only exception** here is if:
 
-You have known the person a long time **AND** They've already expressed some interest
+You have known the person a long time **AND** they've already expressed some interest
 
 Similarly, you *personally* probably haven't gone on any Witch hunts or killed a million Jews. Again, sure, but ya' think that *maybe* someone might hold a bit of a grudge for their ancestors pain? Again, all it takes to respect that is to - and I can't state this enough - shut the fuck up.
 
@@ -163,6 +160,8 @@ So, is there an actual, researched moderate view? Well, clearly I'm not the guy 
 
 I think it's pretty safe to assume the vast majority of religious people are religious because it's how they were raised. It's effective, it's normalized, and <footnote>...assuming the population of that religion is having babies exceeding the replacement rate and conversion-away-from-that-religion-rate</footnote> is a guaranteed route for growth.
 
+I suspect this is a very big reason that branches of Christianity are against birth control: If there are less babies being made by their members, there's not enough new people to cover both the loss of members to death and just leaving the church.
+
 ### Missions
 
 Look, for this one I just can't sugar coat it, Missions:
@@ -176,7 +175,7 @@ Look, for this one I just can't sugar coat it, Missions:
 * Send often untrained people to do work they shouldn't be doing, but pretend to be better at
   * Like when one girl [killed 105 Ugandan children](https://www.npr.org/sections/goatsandsoda/2019/08/09/749005287/american-with-no-medical-training-ran-center-for-malnourished-ugandan-kids-105-d) due to her lack of training
 
-Unfortunately, getting what I can from the (lack of) data I have, it appears that they're probably the next most effective method next to popping out more kids, as according to [some data from the Mormon church](https://www.churchofjesuschrist.org/church/news/2017-statistical-report-for-2018-april-general-conference?lang=eng), its missionaries baptized 233,729 new converts in 2017. For comparison, they claim to have 6,763,019 members. So, that's a significant amount of growth. However, given the size of the Mormon mission program compared to other religions, extrapolating this data may be unwise.
+Unfortunately, getting what I can from the (lack of) data I have, it appears that they're probably the next most effective method next to popping out more kids, as according to [some data from the Mormon church](https://www.churchofjesuschrist.org/church/news/2017-statistical-report-for-2018-april-general-conference?lang=eng), its missionaries baptized 233,729 new converts in 2017. For comparison, they claim to have 6,763,019 members. So, that's a significant amount of growth. However, given the size of the Mormon mission program compared to other  religions, extrapolating this data may be unwise.
 
 ## Politics
 
@@ -196,11 +195,53 @@ The Trial of the Monarch - The Venture Bros. [S01E12]
 
 {{< /columns >}}
 
-### ~~Death~~ Religion & Taxes
+### Project 2025, Religious Nationalism, and how to fix it
 
-## Justifying Shit Things
+If you're in the US and were paying attention around the '24 re-election of Trump, you know he ran on the "Project 2025" platform. This is edging out of religion and into politics, but I just want to quote the Wikipedia page about it,
 
-[TODO] using the broad scope of religious texts to read whatever agenda you choose.
+{{< quote "[Project 2025 on Wikipedia](https://en.wikipedia.org/wiki/Project_2025)" >}}
+
+The project also seeks to infuse the government and society with conservative **Christian** values. Critics have characterized Project 2025 as an authoritarian, **Christian nationalist** plan to steer the U.S. toward autocracy. Legal experts have said it would undermine the rule of law, separation of powers, separation of church and state, and civil liberties.
+
+{{< /quote >}}
+
+To cut the bullshit, **Christian Nationalism** is just Nazis in trench coat, and we all know there's only one good kind of Nazi 💀.
+
+To step back a bit: I by no means think this is all or even most Christians. And, more broadly, I don't think most people involved with any religion fall into this extremist, fascist bullshit. **But,** I don't think movements that are that tied into hate can exist without religion. There's piles of long essays and text books about religion in Nazi Germany but the gist is that Hitler himself was being deified and the party existing in much of the Nazi populace as a religion of sorts - similar to how Trump has been in the US.
+
+My point here isn't to say Chirstianity is synonymous with white nationalism. It's not. Nor do I want to make anyone feel bad for being a Christian or of any other religion.
+
+Instead, my point is that for some subset of the population - and an apparently growing one in the US - their religion is tired to their nationalism and hate, and, for a smaller subset, their belief in God is being replaced by a belief in a deeply racist, transphobic, sexist, abusive man. However, this would not have happened for many of his followers if were not being fed that fear and hate by organizations that claim to be religious.
+
+To be clear: I don't mean churches. Sure, there are some that do not preach tolerance, but the big perpetrators are those that profit from that hate and fear: Be it far-right news platforms like Fox or OAN which directly profit from viewership, or conservative law think tanks that represent those stand to profit from relaxed legislation, especially when it comes to environmentalism.
+
+The issue of course isn't the religion directly: It never is. As I stated at the top of this page: it's the inseparability from politics and then those politicians using that religion as a backdoor in our psyches to bypass reason (Which, all religions must do, nearly definitionally) to put in those seeds of fear and hate and to co-opt our pride in our country and use it as fear it could get worse - or, skip that step and just presume it's already bad and that we must make it great again.
+
+---
+
+A vulnerability in a system isn't always a bad thing. If you think about computers, a system which never requires you enter a password and which always gives you full permissions to use it as you wish sounds pretty sweet.
+
+We don't have that because of bad actors. Instead, we use passwords. We've realized where that is yet not enough, and largely use 2-factor authentication on most services now.
+
+Religion, we know, can be used as a vulnerability like this. But we don't put enough into securing our minds, educating ourselves and our peers to the threat. In part, I think this is intentional. It is hard to explain that threat without necessarily making some question their faith so naturally religious leaders don't do so. Still, that's the fix. Education.
+
+If religious leaders would say "There are some that seek to predate on your faith: To use it for money and power, to convince you that fearing other people is better than loving them" AND actually show it in action. To actually show examples of how people fall down the alt-right pipeline. To take a day to talk about televangelism taking money. When it comes from those outside the faith - people like me - it doesn't convince anyone. It has be education from those they trust.
+
+### ~~Death~~ Religion & Taxes: How religion is forced upon us
+
+[TODO] - Intro with "In God We Trust" and "One nation under god", go into how in a political system like the US's where bad ideas have to be constantly fully repudiated with great instead of swiftly rejected based on religion/state separation ideals.
+
+### Justifying Shit Things
+
+[TODO] using the broad scope of religious texts to read whatever agenda you choose. The bible actually says some things that are quite liberal (Jesus was a hippie)
+
+## He Gets Us - Christian Advertising
+
+You've probably seen those ads for "He Gets Us", an outwardly facing as quite liberal ads for Christianity. They mention issues like political divide, their ads include LGBT people, and just generally try to show Christianity is a cool thing for progressive ideas.
+
+Fun fact! It's been funded by mega-donors that are anti-abortion and anti-LGBT including a cool $100 million from the Hobby Lobby founder, which, if you remember, in 2014, the U.S. Supreme Court ruled that Hobby Lobby, a privately held, for-profit Christian company, could deny its employees health insurance coverage for certain contraceptives based on the owners' religious beliefs.
+
+Basically, the biggest, most well funded "Jesus was actually a hippie, you should feel welcome" campaign is being ran by the same asshats that are trying to take our freedoms away.
 
 ## If You See Something, ~~Say Something~~ Call out the bullshit.
 
