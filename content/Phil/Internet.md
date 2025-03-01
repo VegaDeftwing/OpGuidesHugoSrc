@@ -28,7 +28,7 @@ slug: "Phil and The Internet"
 
 {{< attribution >}}
 
-[Hazbin Hotel Pilot (Viziepop, YouTube)](https://www.youtube.com/watch?v=Zlmswo0S0e0&vl=en&ab_channel=Vivziepop)
+[Hazbin Hotel Pilot (Viziepop)](https://www.youtube.com/watch?v=Zlmswo0S0e0&vl=en&ab_channel=Vivziepop)
 
 {{< /attribution >}}
 
@@ -38,7 +38,7 @@ slug: "Phil and The Internet"
 
 {{< attribution >}}
 
-[Communications Decency Act (Wikipedia)](https://en.wikipedia.org/wiki/Communications_Decency_Act)
+[Communications Decency Act](https://en.wikipedia.org/wiki/Communications_Decency_Act)
 
 {{< /attribution >}}
 
@@ -83,13 +83,13 @@ Alright, so the DMCA is a dumpster fire burning with a raging satanic hell blaze
 
 ### FOSTA/SESTA (Breaking 230)
 
-[FOSTA and SESTA (Wikipedia)](https://en.wikipedia.org/wiki/Stop_Enabling_Sex_Traffickers_Act), the 'Fight Online Sex Trafficking Act' and 'Stop Enabling Sex Traffickers Act' are both massive failures. Their original goal is more or less in the name, but even the U.S. Department of Justice said it was a bad idea. Again, I'm going to hand this off to better sources. The first link there, to the Wikipedia article, has a large section on the criticism of the bills. I strongly encourage you read it, and [this article](https://www.eff.org/deeplinks/2018/03/how-congress-censored-internet) from the EFF does a good job of going into its problems too.
+[FOSTA and SESTA](https://en.wikipedia.org/wiki/Stop_Enabling_Sex_Traffickers_Act), the 'Fight Online Sex Trafficking Act' and 'Stop Enabling Sex Traffickers Act' are both massive failures. Their original goal is more or less in the name, but even the U.S. Department of Justice said it was a bad idea. Again, I'm going to hand this off to better sources. The first link there, to the Wikipedia article, has a large section on the criticism of the bills. I strongly encourage you read it, and [this article](https://www.eff.org/deeplinks/2018/03/how-congress-censored-internet) from the EFF does a good job of going into its problems too.
 
 These are the bills that caused [Craigslist to remove their 'personals' section](https://www.craigslist.org/about/FOSTA).
 
 ### SOPA & PIPA (Trying to break everything)
 
-SOPA, or the [Stop Online Piracy Act (Wikipedia)](https://en.wikipedia.org/wiki/Stop_Online_Piracy_Act) from ~2012 was a *big* deal at the time. Google, Facebook, Twitter, Amazon, eBay, Tumblr, Mozilla (Firefox), Mojang (Minecraft), Wikipedia, and more were all active in letting users know this bill was bad news. It was effective, but it was one hell of a fight. [PIPA (Wikipedia)](https://en.wikipedia.org/wiki/PROTECT_IP_Act), the 'PROTECT IP Act' was just the senate version of the bill, but it is still worth reading up on it quickly, especially the 'Reception' section of the linked Wikipedia article.
+SOPA, or the [Stop Online Piracy Act](https://en.wikipedia.org/wiki/Stop_Online_Piracy_Act) from ~2012 was a *big* deal at the time. Google, Facebook, Twitter, Amazon, eBay, Tumblr, Mozilla (Firefox), Mojang (Minecraft), Wikipedia, and more were all active in letting users know this bill was bad news. It was effective, but it was one hell of a fight. [PIPA](https://en.wikipedia.org/wiki/PROTECT_IP_Act), the 'PROTECT IP Act' was just the senate version of the bill, but it is still worth reading up on it quickly, especially the 'Reception' section of the linked Wikipedia article.
 
 For a slightly dramatized, dubstep recap: (skip to 2:28) 
 
@@ -97,11 +97,11 @@ For a slightly dramatized, dubstep recap: (skip to 2:28)
 
 ### COPPA & CIPA (Breaking things... For the children!)
 
-[COPA (Wikipedia)](https://en.wikipedia.org/wiki/Child_Online_Protection_Act), the Child Online Protection Act, passed in '98 and seeks to keep minors online safe, mostly this just resulting in the 'Are you 18?' checks that surely no minor has ever lied to bypass.
+[COPA](https://en.wikipedia.org/wiki/Child_Online_Protection_Act), the Child Online Protection Act, passed in '98 and seeks to keep minors online safe, mostly this just resulting in the 'Are you 18?' checks that surely no minor has ever lied to bypass.
 
-Oh, what's that, that's COPA with one 'P', my bad, here's [COPPA (Wikipedia)](https://en.wikipedia.org/wiki/Children's_Online_Privacy_Protection_Act#Criticisms), Child Online *PRIVACY* Protection Act. Which if you read up on you'll see has been a mess for free speech, hurts small business, fails to protect kids anyway, and only seeks to create an artificial (and broken) 'safe space' online for kids, which is especially dumb as it ignores the most obvious problem: no kid *wants* to be treated like a kid. Moreover, why the *fuck* should kids get privacy protection until 13 and then ope, just like that fuck em' we'll collect all their information and sell it to advertisers, what magical thing happens at 14 that makes collecting and selling your data okay? Double standards aside, this has caused real issues in implementation and enforcement, just see [What's Gone Wrong With the FTC's COPPA Agreement With YouTube (Folding Ideas, YouTube)](https://youtu.be/LuScIN4emyo).
+Oh, what's that, that's COPA with one 'P', my bad, here's [COPPA](https://en.wikipedia.org/wiki/Children's_Online_Privacy_Protection_Act#Criticisms), Child Online *PRIVACY* Protection Act. Which if you read up on you'll see has been a mess for free speech, hurts small business, fails to protect kids anyway, and only seeks to create an artificial (and broken) 'safe space' online for kids, which is especially dumb as it ignores the most obvious problem: no kid *wants* to be treated like a kid. Moreover, why the *fuck* should kids get privacy protection until 13 and then ope, just like that fuck em' we'll collect all their information and sell it to advertisers, what magical thing happens at 14 that makes collecting and selling your data okay? Double standards aside, this has caused real issues in implementation and enforcement, just see [What's Gone Wrong With the FTC's COPPA Agreement With YouTube (Folding Ideas)](https://youtu.be/LuScIN4emyo).
 
-[CIPA (Wikipedia)](https://en.wikipedia.org/wiki/Children's_Internet_Protection_Act), the Children's Internet Protection Act, is a free speech fuck you to all children as it requires web filtering. The [ACLU](https://en.wikipedia.org/wiki/American_Civil_Liberties_Union) and [ALA](https://en.wikipedia.org/wiki/American_Library_Association) both challenged CIPA, arguing that the filtering it would necessitate at public libraries would limit free speech, and they won.... and then lost on appeal, with the stipulation that on request a librarian unblock content for an adult. Of course, this is still a major fuck you to kids. It's more or less normalized school web filters that are far too overzealous, as anybody that went to high school since the 2010s can tell you. Hell, my public school even had sites blocked for 'Alternative Beliefs'.
+[CIPA](https://en.wikipedia.org/wiki/Children's_Internet_Protection_Act), the Children's Internet Protection Act, is a free speech fuck you to all children as it requires web filtering. The [ACLU](https://en.wikipedia.org/wiki/American_Civil_Liberties_Union) and [ALA](https://en.wikipedia.org/wiki/American_Library_Association) both challenged CIPA, arguing that the filtering it would necessitate at public libraries would limit free speech, and they won.... and then lost on appeal, with the stipulation that on request a librarian unblock content for an adult. Of course, this is still a major fuck you to kids. It's more or less normalized school web filters that are far too overzealous, as anybody that went to high school since the 2010s can tell you. Hell, my public school even had sites blocked for 'Alternative Beliefs'.
 
 Look, I'm not against protecting kids online, no 8-year-old should be exposed to 2 girls and a cup. I know for a fact that some kids get *fucked up* seeing this shit too early. My mom's a family law attorney, and while obviously case specifics are kept quiet, general ideas like 'saw a kid got addicted to porn because the dad showed it to him' are things I've heard. It's awful. I get it. But you can't stop a shitty parent with legislation, no matter how hard you try.
 
@@ -179,7 +179,7 @@ Cloudflare, AWS, etc.
 
 https://en.wikipedia.org/wiki/Illegal_number
 
-[HDCP master key release (Wikipedia) ](https://en.wikipedia.org/wiki/High-bandwidth_Digital_Content_Protection#Master_key_release) [TODO, + background on what HDCP is]
+[HDCP master key release ](https://en.wikipedia.org/wiki/High-bandwidth_Digital_Content_Protection#Master_key_release) [TODO, + background on what HDCP is]
 
 http://www.catb.org/~esr/hdcp-master.txt
 

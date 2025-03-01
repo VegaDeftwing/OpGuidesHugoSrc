@@ -61,7 +61,7 @@ My point here is that by making user-friendly but open tools we could dramatical
 
 But the part that's cool to me? TempleOS gives no, and I mean absolutely zero, fucks about security, now, that's at least in part because it doesn't have networking (though there is a [fork with networking](https://github.com/minexew/Shrine)) but even then, there's no concept of an admin or 'normal' user. There's no system-protected processes. You want to flip arbitrary bits, directly send data over IO lines, whatever. The OS will not stop you. The entire thing runs in ring 0, which means you always have total control over the hardware, but it also means there's nothing stopping you from massively fucking everything up and crashing the system, corrupting everything, etc.
 
-( You may want to watch [TempleOS (Linus Tech Tips, YouTube)](https://youtu.be/LtlyeDAJR7A) if this is interesting to you)
+( You may want to watch [TempleOS (Linus Tech Tips)](https://youtu.be/LtlyeDAJR7A) if this is interesting to you)
 
 And, okay, yeah, that's obviously not ideal for *normal* use, but I think there's something to be said for having the *option* to say fuck it, slam your fist down on the manual override button, and take full control of the system. This is what I mean by optional security - no HAL 9000 in the way. No `sudo`, no 'no'. In this mode it should also be easy to turn off all networking and malware protection, so a super-fuckit No firewalls, no threat scanning, etc. switch.
 
@@ -176,7 +176,7 @@ Furthermore, I'd really like to see high speed not-USB-based GPIO for desktops s
 
 ## Stop wasting time on stupid shit that nobody cares about
 
-Microsoft has been spending a lot of time changing to the new UI, and their calculator has been updated like a dozen times for UI now but still [SpeedCrunch](http://speedcrunch.org) remains 1000x more usable and tools like [WolframAlpha](https://www.wolframalpha.com) remain superior yet. Stop spending time on shit literally nobody gives a shit about and that nobody should be using. If something is dumb for the sake of being dumb, like [Harder Drive: Hard drives we didn't want or need (Tom7, YouTube)](https://www.youtube.com/watch?v=JcJSW7Rprio) sure, but otherwise, let's make things *actually* better.
+Microsoft has been spending a lot of time changing to the new UI, and their calculator has been updated like a dozen times for UI now but still [SpeedCrunch](http://speedcrunch.org) remains 1000x more usable and tools like [WolframAlpha](https://www.wolframalpha.com) remain superior yet. Stop spending time on shit literally nobody gives a shit about and that nobody should be using. If something is dumb for the sake of being dumb, like [Harder Drive: Hard drives we didn't want or need (Tom7)](https://www.youtube.com/watch?v=JcJSW7Rprio) sure, but otherwise, let's make things *actually* better.
 
 ## Give me a fucking physical knob
 

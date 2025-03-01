@@ -99,12 +99,12 @@ Okay, so, what to actually do for each? First, grab the ReaPlugs VST plugin pack
 4: Be excited and talk like you're a radio talk show host.</br>
 5: Buy a mic arm. Cheap ones are like \$15.</br>
 6: Buy a pop filter - though a decent mic probably comes with one.</br>
-7 & 8: Use any De-Essing plugin you want. These can either run live or be applied in post. See [How To Remove Sibilants From Your Live Streams (YouTube, Atomic Overdrive)](https://www.youtube.com/watch?v=oAxh1mB6WUk). You can use ReaXComp if you think you know what you're doing. </br>
+7 & 8: Use any De-Essing plugin you want. These can either run live or be applied in post. See [How To Remove Sibilants From Your Live Streams (Atomic Overdrive)](https://www.youtube.com/watch?v=oAxh1mB6WUk). You can use ReaXComp if you think you know what you're doing. </br>
 9 & 10: Compression - Use literally any compressor. Ratio of 3 to 4, threshold around -20dB, 5-ish ms attack, release around 80ms. Apply any gain needed **before** the compressor. Use ReaComp, not OBS's, as OBS's is a PITA to see if it's working.</br>
-11 & 12: EQ- See [Reaper Equalizer Obs Studio For Better Voice Quality (YouTube, PlentAZach)](https://www.youtube.com/watch?v=PoEUcT9ytYU). Use ReaEQ.</br>
+11 & 12: EQ- See [Reaper Equalizer Obs Studio For Better Voice Quality (PlentAZach)](https://www.youtube.com/watch?v=PoEUcT9ytYU). Use ReaEQ.</br>
 13: De-Noise - If you've used Discord, you know what the de-noising does, and that it's basically magic. In OBS there should be a built-in Noise Suppression Audio Filter. Google how to set that up. Note, that if you don't have a newer Nvidia GPU that can offload this it might be sort of intense on your CPU. </br>
-14: Sidechain - See [Keep your Stream Sound BALANCED with OBS Audio Ducking (YouTube, EposVox)](https://www.youtube.com/watch?v=1Te2JERlInQ) </br>
-15: Reflections - See [3 Steps to SOUND like a PRO on Stream! (YouTube, EposVox)](https://youtu.be/6U8sXU-McL4?t=383) - but generally, just put a lot of weird shaped shit everywhere in the room. Clutter is good in this case. </br>
+14: Sidechain - See [Keep your Stream Sound BALANCED with OBS Audio Ducking (EposVox)](https://www.youtube.com/watch?v=1Te2JERlInQ) </br>
+15: Reflections - See [3 Steps to SOUND like a PRO on Stream! (EposVox)](https://youtu.be/6U8sXU-McL4?t=383) - but generally, just put a lot of weird shaped shit everywhere in the room. Clutter is good in this case. </br>
 
 This is pretty much everything you should need to know for streaming or recording vocals.
 
@@ -126,8 +126,8 @@ These settings aren't necessarily the best for quality, but they should prevent 
 
 | Name & Link                                                  | Description                                                  | Screenshot/Demo                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [music_visualizer (GitHub)](https://github.com/bradleybauer/music_visualizer) | Shader viewer / music visualizer for Windows and Linux       | Too many variations to easily show, look at the GitHub repo. |
-| [Soundshader (GitHub)](https://github.com/soundshader/soundshader.github.io) | Uses fancy 'AutoCorrelation' - info on the GitHub page       | https://soundshader.github.io                                |
+| [music_visualizer](https://github.com/bradleybauer/music_visualizer) | Shader viewer / music visualizer for Windows and Linux       | Too many variations to easily show, look at the GitHub repo. |
+| [Soundshader](https://github.com/soundshader/soundshader.github.io) | Uses fancy 'AutoCorrelation' - info on the GitHub page       | https://soundshader.github.io                                |
 | [Metagroove (Itch.io)](https://marumari.itch.io/metagroove)  |                                                              |                                                              |
 | [Signalizer VST](https://www.jthorborg.com/index.html?ipage=signalizer) | Listed above in Free VSTs, but it's so good I'm listing it here again. An amazing VST Oscilliscope, Vectorscope, and general analysis tool, looks very good too. Has full screen modes. |                                                              |
 

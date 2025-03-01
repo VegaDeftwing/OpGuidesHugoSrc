@@ -1,10 +1,20 @@
 # Guitar
 
+[TODO] Things I don't know where to put yet:
+* Strat plates, they're replaceable
+* 
+
+If you're at least brodly 
+
 TODO: General overview, labeled diagram pointing to each component
 
 Les Paul, Gretch, Stratocaster, Telecaster, Jazzmaster
 
 https://www.youtube.com/watch?v=hEOuGs7m8bw might be good to at least link, if not embed
+
+<piano-keybed label="Guitar" variant="Standard (24 fret)" highlight="E2-E6"></piano-keybed>
+<piano-keybed variant="Baritone" highlight="B2-B6"></piano-keybed>
+<piano-keybed label="Bass" variant="4 string" highlight="E1-D#4"></piano-keybed>
 
 # Guitar Pickups
 
@@ -111,18 +121,42 @@ Wax, Epoxy
 
 ## Necks
 
+### Neck (Scale) Length
+
+[TODO]
+
 ### Fret Count and Type
-- Standard and Extended Ranges:  
-  - 21, 22, 24 frets, Custom ranges (27+ frets)
-  - microtonal (fixed and movable, EDO and that curved mess on youtube)
-- Fret Design:  
-  - Jumbo, medium, narrow  
-  - Stainless steel vs. nickel-silver  
-- Specialized Frets:  
-  - Fanned frets (multiscale designs), True temperament frets  
-  - Compound radius fretboards  
-  - Bound fretboards and their impact on feel  
-  - Alternative fret materials (e.g., EVO gold)
+
+Most guitars have 21, 22, or 24 frets, with 22 being the most common for traditional electric guitars and 24 allowing for extended high-note access, letting the player have two octaves of range on each string. Some custom and experimental designs push beyond this, with guitars featuring 27 or more frets for extreme upper-range playability. 
+
+{{< columns >}}
+
+Microtonal guitars take things even further, utilizing either fixed fretboards—often divided into non-standard intervals like 19-tone equal temperament (EDO)—or movable fret systems that allow for flexible tuning. These let you hit notes that don't exist in the western scale.
+
+<--->
+
+<iframe width="100%" height="270" src="https://www.youtube.com/embed/dHLG5dAlfaA" title="Demo piece for utonal just intonation guitar: Ron Sword, Microtonal Guitarist" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+{{< /columns >}}
+
+Fret size and material also play a role in both feel and durability. Standard options include jumbo, medium, and narrow frets, each affecting string bending and note articulation. On the extreme end, the frets can be normal and the actual fretboard <a href="#scalloped-necks">can be scalloped instead</a>. Really the only reason not to go with jumbo frets is because you like to feel the wood of the fretboard or you play with a strong grip as larger frets make it easier to bend notes but can lead to notes being out of tune if pressed too hard. 
+
+Material choice is another choice: traditional nickel-silver frets wear down over time, while stainless steel frets offer extended durability and a slicker feel, though they can be harder to work with for luthiers performing refrets. An alternative material, EVO gold, offers a middle ground with greater longevity than nickel but without the extreme hardness of stainless steel.
+
+<img src="/fairuse/other/cortmulti.webp">
+
+{{< attribution >}}A multiscale guitar. Image stolen from [Cort Guitars](https://www.cortguitars.com/dp/kx507-multi-scale/). Note how the frets change in angle as you go across the neck.{{< /attribution >}}
+
+Beyond standard designs, specialized fret types have emerged to improve ergonomics and intonation. Multiscale or fanned fret guitars use a slanted fret layout where lower strings have a longer scale length than higher strings, optimizing string tension and tone consistency. If you want to drop tune an extend range guitar, you'll probably want multi-scale to avoid the tension being uncomfortable. Of course some people are repulsed by multiscale, so it may not be for you. It does take some getting used to.
+
+<img src="/fairuse/other/ttneck.webp">
+
+{{< attribution >}}True temperament neck picture from [truetemperament.com](https://truetemperament.com/produkt/fretboards-electric-guitar-2475/){{< /attribution >}}
+
+True temperament frets take this concept even further, using precision-calculated curved frets to "[correct](https://www.guyguitars.com/truetemperament/eng/tt_thidellF1.html)" <footnote>Most people would consider corrected intonation to be making the guitar intonated the same as a piano, that is equal temperament. True temperament frets don't do that. I don't think they're bad, it's just *not* equal temperament and I think they sorta hide that and people assume "true" means "equal".</footnote> intonation across the neck. Compound radius fretboards provide another refinement, gradually shifting from a rounder curve near the nut to a flatter shape near the higher frets, making chording easier while improving lead playability.
+
+Additionally, bound fretboards—where the fret ends are embedded in a smooth binding—can enhance comfort by eliminating exposed fret edges. It's worth note that these may pose issues for long term maintenance though. 
+  
 ### Neck Profiles
  Neck profiles (C, D, V shapes, that weird stranberg shape
   
@@ -177,10 +211,10 @@ Bolt-on vs. set-neck vs. neck-through designs
 
 Luminlay and glow-in-the-dark fret markers
 ### Tuning machines
-	  - Locking tuners
-	  - Ratio tuners
-	  - Riot tuners / stranberg tuners
-	  - Hipshot tuners 
+*	Locking tuners
+* Ratio tuners
+* Riot tuners / stranberg tuners
+* Hipshot tuners 
 
 ## Strings
 
@@ -211,6 +245,12 @@ For electric guitar, a lot of the crazy sounds you hear aren’t just a guitar p
 There are tens of thousands of different pedals out there, from brands that make millions of each pedal to limited run, hand-made boxes. Every effect and combination of effects you could ever want in a pedal exists in one form or another.
 
 ### What is a pedal (and what’s not)
+
+Just to limit our scope here, it's worth noting not all effects are pedals. Some guitarist prefer rack unit effects for example 
+
+[TODO] picture here.
+
+It's also notable that fx pedals don't have to be used with guitars. It's pretty common to use them with synths or other instruments that have electronic outputs as well. It's pretty common even for electric-acoustic guitar players to use at least a reverb pedal.
 
 Pedals, multi-fx, why stomp switches, rack-fx, non-guitar uses,
 

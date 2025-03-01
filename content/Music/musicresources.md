@@ -14,7 +14,7 @@ https://codepen.io/teropa/full/bRqYVj/
 
 [Synchronized Swept-Sine: Theory, Application, and Implementation](https://hal.archives-ouvertes.fr/hal-02504321/document)
 
-[AutoEq (GitHub)](https://github.com/jaakkopasanen/AutoEq) - Automatic headphone equalization from frequency responses
+[AutoEq](https://github.com/jaakkopasanen/AutoEq) - Automatic headphone equalization from frequency responses
 
 
 
@@ -39,7 +39,7 @@ Loopop
 RedMeansRecording
 AdamNeely
 AndrewHuang
-Rob Scallon [Pipe Organ Video (YouTube)](https://www.youtube.com/watch?v=JeB3JnKp8To), [Theorbo Video (YouTube)](https://www.youtube.com/watch?v=48RVcbkhNHQ),
+Rob Scallon [Pipe Organ Video](https://www.youtube.com/watch?v=JeB3JnKp8To), [Theorbo Video](https://www.youtube.com/watch?v=48RVcbkhNHQ),
 
 Reddit: https://www.reddit.com/r/vcvrack/ , https://www.reddit.com/r/synthesizers/ , https://www.reddit.com/r/synthdiy/ , https://www.reddit.com/r/modular/
 

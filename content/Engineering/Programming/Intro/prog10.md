@@ -92,7 +92,7 @@ But, if you're eagle eyed, you'll notice here that file name is in quotes while 
 
 The reason for this (glossing over a few details), is `"filename.h"` says to check nearby folders/local paths, while `<filename.h>` checks for the file in the system include path, which should be set by default to something sane on literally every operating system and will have all of the standard files we expect - that is, you shouldn't have to think about or even know where a file in `<>` is from, but a file in `""` should be near by or in the same project.
 
-Okay, but this still isn't everything because C is super-duper fucked and we need to do one more thing in our header, we need to add ["include guards" (Wikipedia)](https://en.wikipedia.org/wiki/Include_guard) which, if you're not stuck in the 90's, is most easily done like this:
+Okay, but this still isn't everything because C is super-duper fucked and we need to do one more thing in our header, we need to add ["include guards"](https://en.wikipedia.org/wiki/Include_guard) which, if you're not stuck in the 90's, is most easily done like this:
 
 ```c
 #pragma once

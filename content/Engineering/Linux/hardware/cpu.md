@@ -203,7 +203,7 @@ Well, it turns out that modern processors are still compatible with some really,
 
 {{< /columns >}}
 
-As with all things technology progressed and 64bit cpu's came along. Many attempts were made to make 32bit programs run with backwards comparability at high speeds on these CPU's, though in the end AMD made the method used today, dubbed the x86_64 instruction set. Overtime this instruction set was expanded with various additions. We can actually see the names of these additions that are available on the CPU in the system by looking yet again at the output of `cat /proc/cpuinfo` and looking at the flags section. While not all of these signify instruction set additions, many do. The most common 'famous' if you will is SSE, of which there have been multiple revision, the first version alone adds <span style="font-family: Arial">𝐖</span> [70 instructions](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions), which are used to make math faster
+As with all things technology progressed and 64bit cpu's came along. Many attempts were made to make 32bit programs run with backwards comparability at high speeds on these CPU's, though in the end AMD made the method used today, dubbed the x86_64 instruction set. Overtime this instruction set was expanded with various additions. We can actually see the names of these additions that are available on the CPU in the system by looking yet again at the output of `cat /proc/cpuinfo` and looking at the flags section. While not all of these signify instruction set additions, many do. The most common 'famous' if you will is SSE, of which there have been multiple revision, the first version alone adds [70 instructions](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions), which are used to make math faster
 
 Alright, so finally, enter Mircocode. At some point all of this became a lot to manage and processor designs evolved even further, getting exponentially more complicated and faster with more and more instructions, so they added this little computer which has the primary duty of turning the mess of countless possible instructions into yet even smaller instructions that the heavy duty 'real' processor does. Every once in a while a problem will be found in the way this is done, or a security vulnerability in the hardware itself may be found, and your CPU manufacture will release a microcode update.
 
@@ -213,7 +213,7 @@ Now, at the beginning of this guide I said I wouldn't provide useless informatio
 
 Don't worry about what x86 means here, we'll come back to that in {{< button relref="/engineering/linux/hardware/architectures">}} Chapter 3½ - Architectures {{< /button >}}
 
-{{< smalltext >}}If you're interested, check out <span style="font-family: Arial">𝐖</span> [Microcode](https://en.wikipedia.org/wiki/Microcode) and <img src="/common/github-mark-white.svg" style="height:0.8em"> [MicrocodeDecryptor](https://github.com/chip-red-pill/MicrocodeDecryptor){{< /smalltext >}}
+{{< smalltext >}}If you're interested, check out [Microcode](https://en.wikipedia.org/wiki/Microcode) and [MicrocodeDecryptor](https://github.com/chip-red-pill/MicrocodeDecryptor){{< /smalltext >}}
 
 ## Cache
 
@@ -259,7 +259,7 @@ I very strongly recommend looking into this on any system though, as by default 
 
 If you want to actually see how much power is used, `rapl` should do the trick, just be sure to actually put the system under load first- `stress-ng --cpu 16` (or whatever your thread count is) should work.
 
-{{< smalltext >}} If you are also on a Ryzen system, you may need to use <img src="/common/github-mark-white.svg" style="height:0.8em"> [rapl-read-ryzen](https://github.com/djselbeck/rapl-read-ryzen) / [(aur)](https://aur.archlinux.org/packages/rapl-read-ryzen-git/) to get this output {{< /smalltext >}}
+{{< smalltext >}} If you are also on a Ryzen system, you may need to use [rapl-read-ryzen](https://github.com/djselbeck/rapl-read-ryzen) / [(aur)](https://aur.archlinux.org/packages/rapl-read-ryzen-git/) to get this output {{< /smalltext >}}
 
 <img src="/eng/rapl.png" alt="sudo rapl" style="border-radius:20px;">
 
@@ -273,7 +273,7 @@ The CPU is on a square or rectangular board that is usually covered by a large h
 
 [TODO] + CCX Groups and pinning processes to cores -
 
-<img src="/common/github-mark-white.svg" style="height:0.8em"> https://github.com/AdelKS/LinuxGamingGuide
+https://github.com/AdelKS/LinuxGamingGuide
 
 ## Branch Prediction & Pipelining
 
@@ -358,6 +358,6 @@ If you want to know about the internals of the CPU itself, check out [Chapter 29
 
 [Why you should use 'nproc' and not grep /proc/cpuinfo](https://www.flamingspork.com/blog/2020/11/25/why-you-should-use-nproc-and-not-grep-proc-cpuinfo/)
 
-<img src="/common/youtube_social_icon_red.webp" style="height:0.8em">  [Spyware at The Hardware Level - Intel ME & AMD PSP (Mental Outlaw)](https://youtu.be/HNwWQ9zGT-8)
+ [Spyware at The Hardware Level - Intel ME & AMD PSP (Mental Outlaw)](https://youtu.be/HNwWQ9zGT-8)
 
 [Cascade: CPU Fuzzing via Intricate Program Generation](https://comsec.ethz.ch/research/hardware-design-security/cascade-cpu-fuzzing-via-intricate-program-generation/)

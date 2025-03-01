@@ -11,7 +11,7 @@ This makes it a very rare language indeed.
 
 Since we are doing math in a specific order of operations, it would be easy to make this into a tree. Each leaf is a number, and each middle node is an operator.
 
-This would then allow separating the evaluation from the actual parsing and determining order of operations. In this simple language it is extra work, but real compilers will mostly focus on manipulating and reading the structure of the [Abstract Syntax Tree (Wikipedia)](https://en.wikipedia.org/wiki/Abstract_syntax_tree) (AST) when creating their intermediate representation.
+This would then allow separating the evaluation from the actual parsing and determining order of operations. In this simple language it is extra work, but real compilers will mostly focus on manipulating and reading the structure of the [Abstract Syntax Tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree) (AST) when creating their intermediate representation.
 
 In order to save time and keep the code simple, let's use the `binarytree` python library. I'm using version 6.5.1 for this exercise.
 

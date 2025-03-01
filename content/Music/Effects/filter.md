@@ -153,7 +153,7 @@ A bit confusingly, if you look at a 303's schematic you'll see that the "diode l
 
 {{< /columns >}}
 
-If you're into electronics, see [Designing a diode ladder filter from scratch (Moritz Klein, YouTube)](https://www.youtube.com/watch?v=jvNNgUl3al0).
+If you're into electronics, see [Designing a diode ladder filter from scratch (Moritz Klein)](https://www.youtube.com/watch?v=jvNNgUl3al0).
 
 ### Operational Transconductance Amplifiers (OTA Filters)
 

@@ -20,11 +20,11 @@ https://wiki.wireshark.org/CaptureFilters
 
 ### HTTPie 
 
-[HTTPie (GitHub)](https://github.com/httpie/httpie) - human-friendly CLI HTTP client for the API era
+[HTTPie](https://github.com/httpie/httpie) - human-friendly CLI HTTP client for the API era
 
 ### Tunnels & VPN
 
-[bore (GitHub)](https://github.com/ekzhang/bore) - a simple CLI tool for making tunnels to localhost
+[bore](https://github.com/ekzhang/bore) - a simple CLI tool for making tunnels to localhost
 
 ## Further Reading
 
@@ -38,7 +38,7 @@ Ben Eater's Networking Tutorial Series is pretty good:
 
 # Chapter 37.1 - Weird Networking, because why not!
 
-[Weird URL Protocols (YouTube, ThioJoe)](https://www.youtube.com/watch?v=WcLmMLqnKCM)
+[Weird URL Protocols (ThioJoe)](https://www.youtube.com/watch?v=WcLmMLqnKCM)
 
 ~~[cjdns](https://github.com/cjdelisle/cjdns) + [hyperboria](https://hyperboria.net)~~ [Yggdrasil](https://sudonull.com/post/31578-CJDNS-is-dead-long-live-Yggdrasil)
 
@@ -64,17 +64,17 @@ Software Defined Networking, ActivityPub
 
 [List of tools in the BlackArch repo](https://blackarch.org/tools.html), meant mostly for security research, though obviously many of these are network related and so might give some inspiration or lead to interesting rabbit holes
 
-[Defcon channel (YouTube)](https://www.youtube.com/user/DEFCONConference/videos), DefCon is a security confrence, and naturally that means a lot of network security, including [Including some on hacking sex toys](https://www.youtube.com/watch?v=RnxcPeemHSc&ab_channel=DEFCONConference)
+[Defcon channel](https://www.youtube.com/user/DEFCONConference/videos), DefCon is a security confrence, and naturally that means a lot of network security, including [Including some on hacking sex toys](https://www.youtube.com/watch?v=RnxcPeemHSc&ab_channel=DEFCONConference)
 
 [Why do we use the Linux Kernel's TCP Stack (Julia Evans Blog)](https://jvns.ca/blog/2016/06/30/why-do-we-use-the-linux-kernels-tcp-stack/)
 
-[A smol tcp stack (GitHub)](https://github.com/smoltcp-rs/smoltcp)
+[A smol tcp stack](https://github.com/smoltcp-rs/smoltcp)
 
 [The Cost of CPU Networking on a Host (David Ahern's Blog)](https://people.kernel.org/dsahern/the-cpu-cost-of-networking-on-a-host)
 
 [Encapsulation of TCP over UDP](https://tools.ietf.org/id/draft-cheshire-tcp-over-udp-00.html)
 
-[WORST POSSIBLE quality on YouTube? (YouTube, FlyTech Videos)](https://youtu.be/uc9USAE6nJ0)
+[WORST POSSIBLE quality on YouTube? (FlyTech Videos)](https://youtu.be/uc9USAE6nJ0)
 
 ['Nerfnet' tunnells TCP/IP over cheap NRF24L01 Radios (Hackaday, Tom Nardi) ](https://hackaday.com/2020/12/04/nerfnet-tunnels-tcp-ip-over-nrf24l01-radios/)
 

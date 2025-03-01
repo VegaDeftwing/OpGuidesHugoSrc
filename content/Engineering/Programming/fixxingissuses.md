@@ -52,7 +52,7 @@ This is easy, just make a todo style list, if you come up with a new idea halfwa
 
 ## Other Resources:
 
-[How Game Designers Solved These 11 Problems (Game Maker's Toolkit, YouTube)](https://www.youtube.com/watch?v=rJZyPdYIbZI&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
+[How Game Designers Solved These 11 Problems (Game Maker's Toolkit)](https://www.youtube.com/watch?v=rJZyPdYIbZI&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
 
 
 
@@ -84,7 +84,7 @@ https://rr-project.org
 
 #### Static Analysis
 
-[CodeChecker using LLVM/Clang (GitHub)](https://github.com/Ericsson/codechecker)
+[CodeChecker using LLVM/Clang](https://github.com/Ericsson/codechecker)
 
 ### Hardware Debugging
 

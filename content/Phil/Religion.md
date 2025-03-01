@@ -273,6 +273,6 @@ As for the particulars there - maybe you are staunchly pro-life, anti-LGBT, etc.
 
 ---
 
-[Absurdism | How to Party at the End of Meaning (Exurb1a, YouTube)](https://www.youtube.com/watch?v=Jv79l1b-eoI&list=FLFMnqfaTa1se1LfbCB3peJQ)
+[Absurdism | How to Party at the End of Meaning (Exurb1a)](https://www.youtube.com/watch?v=Jv79l1b-eoI&list=FLFMnqfaTa1se1LfbCB3peJQ)
 
 [We Are the Other People (Oberon (Otter) Zell)](https://www.paganlibrary.com/fundies/other_people.php)

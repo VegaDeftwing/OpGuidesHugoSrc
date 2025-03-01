@@ -37,7 +37,7 @@ The next few chapters are, regrettably, necessary for developing your knack. Mat
 
 ---
 
-This video on [How to Read Math (YouTube, Dominic Walliman)](https://www.youtube.com/watch?v=Kp2bYWRQylk) and the cheat sheet from it, [How To Read Math, Cheat Sheet (Flickr, Dominic Walliman)](https://live.staticflickr.com/4671/40544016221_61cf8944d1_h.jpg) may help you get your brain juices flowing.
+This video on [How to Read Math (Dominic Walliman)](https://www.youtube.com/watch?v=Kp2bYWRQylk) and the cheat sheet from it, [How To Read Math, Cheat Sheet (Flickr, Dominic Walliman)](https://live.staticflickr.com/4671/40544016221_61cf8944d1_h.jpg) may help you get your brain juices flowing.
 
 If you're reading this as someone that's trying to refresh on what they learned in high school, I do still recommend going through these pages, but Professor Leonard's [College Algebra and Trigonometry](https://www.youtube.com/watch?v=9OOrhA2iKak&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP) course on YouTube is probably your best bet for getting back up to speed, though it is long enough to take a week of full time watching to get through.
 

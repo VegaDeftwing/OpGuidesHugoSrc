@@ -34,7 +34,7 @@ Wi-Fi is a part of the IEEE 802.11 standard and *normally* uses 2.4GHz and 5GHz.
 
 WiFi, like ethernet, is really a mix of being at the Physical Layer and the Data Link layer. On the physical layer, the main thing we should think about is the frequency it's running at. So, we normally call WiFi either 2.4Ghz or 5Ghz. So, it must run at those frequencies, right?
 
-Sorta. There's two gotcha's. First, no, it's actually 2.401-2.495GHz and 5.030-5.990GHz, but more importantly, you won't be using those full ranges anyway. For 2.4, that range is split up into 14 [different channels (Wikipedia)](https://en.wikipedia.org/wiki/List_of_WLAN_channels), not all of which can be used everywhere. Generally, on 2.4, you'll want to be using 1, 6, or 11 as otherwise the channels will overlapp.
+Sorta. There's two gotcha's. First, no, it's actually 2.401-2.495GHz and 5.030-5.990GHz, but more importantly, you won't be using those full ranges anyway. For 2.4, that range is split up into 14 [different channels](https://en.wikipedia.org/wiki/List_of_WLAN_channels), not all of which can be used everywhere. Generally, on 2.4, you'll want to be using 1, 6, or 11 as otherwise the channels will overlapp.
 
 <img style="-webkit-filter: invert(1);
    filter: invert(1);" alt="2.4 GHz Wi-Fi channels (802.11b,g WLAN)" src="https://upload.wikimedia.org/wikipedia/commons/8/8c/2.4_GHz_Wi-Fi_channels_(802.11b,g_WLAN).svg">

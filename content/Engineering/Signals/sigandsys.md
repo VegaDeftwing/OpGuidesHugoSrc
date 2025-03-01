@@ -20,7 +20,7 @@ Below is a 54 video series that totals around 13 hours
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/playlist?list=PLOunECWxELQRYwsuj4BL4Hu1nvj9dxRQ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[MIT Signals and Systems Lectures (YouTube)](https://www.youtube.com/watch?v=-FHm2pQmiSM&list=PLUl4u3cNGP61kdPAOC7CzFjJZ8f1eMUxs&ab_channel=MITOpenCourseWare)
+[MIT Signals and Systems Lectures](https://www.youtube.com/watch?v=-FHm2pQmiSM&list=PLUl4u3cNGP61kdPAOC7CzFjJZ8f1eMUxs&ab_channel=MITOpenCourseWare)
 
 But, if you'd rather learn out of a textbook, if you go looking online you might just be able to stumble upon a 100% super-duper legal way to obtain `Alan V. Oppenheim, Alan S. Willsky, with S. Hamid-Signals and Systems` with ISBN `978-0138147570` published by Prentice Hall which is now a subsidiary of Pearson, a textbook publisher which can, and this is 100% true, go fuck themselves.
 
@@ -28,7 +28,7 @@ But, if you'd rather learn out of a textbook, if you go looking online you might
 
 One of the most important things in Signals is the Fourier Transform. Fortunately, quality content about it is abundant. This site, {{< best >}} [An Interactive Introduction to the Fourier Transform](http://www.jezzamon.com/fourier/) {{< /best >}}
 
-provides a great introduction for developing an intuition about it graphically, while "[But what is the Fourier Transform? A visual introduction. (YouTube, 3Blue1Brown)](https://www.youtube.com/watch?v=spUNpyF58BY)" goes a bit more into the math by the end.
+provides a great introduction for developing an intuition about it graphically, while "[But what is the Fourier Transform? A visual introduction. (3Blue1Brown)](https://www.youtube.com/watch?v=spUNpyF58BY)" goes a bit more into the math by the end.
 
 [TODO] put in all notes from class here to provide a half decent resource
 
@@ -46,7 +46,7 @@ https://en.wikibooks.org/wiki/Signals_and_Systems
 
 [DSP Spreadsheet: The Goertzel Algorithm is Fourier's Simpler Cousin (Hackaday, Al Williams)](https://hackaday.com/2020/11/13/dsp-spreadsheet-the-goertzel-algorithm-is-fouriers-simpler-cousin/)
 
-[What does the Laplace Transform really tell us? (Zach Star, YouTube)](https://www.youtube.com/watch?v=n2y7n6jw5d0&ab_channel=ZachStar)
+[What does the Laplace Transform really tell us? (Zach Star)](https://www.youtube.com/watch?v=n2y7n6jw5d0&ab_channel=ZachStar)
 
 
 [What does frequency mean in an image (Stack Exchange)](https://photo.stackexchange.com/questions/40401/what-does-frequency-mean-in-an-image)

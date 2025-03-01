@@ -23,7 +23,7 @@ If you want the very, very short version
 * There's "West Coast" and "East Coast" synthesis
   * "West Coast" = Additive synthesis, complex waves, wave folders, lowpass gates, the "weird stuff".
   * "East Coast" = Subtractive synthesis, you're classic waveshape on a basic oscillator + Filter combo.
-* There are some very [notable synths (Wikipedia)](https://en.wikipedia.org/wiki/List_of_synthesizers) that have been cloned into oblivion now
+* There are some very [notable synths](https://en.wikipedia.org/wiki/List_of_synthesizers) that have been cloned into oblivion now
 
 ## A small taste of synth history 
 
@@ -127,7 +127,7 @@ Finally, we've been seeing a push for DIY programmable boxes, where users can wr
 
 ## So You Want to Get Into Modular
 
-[10 Important Questions for Modular Synth Beginners (mylarmelodies, YouTube)](https://youtu.be/p2bo9boedEs)
+[10 Important Questions for Modular Synth Beginners (mylarmelodies)](https://youtu.be/p2bo9boedEs)
 
 Modular - Eurorack, 3U, & AE , semi-modular, VCV, etc.
 

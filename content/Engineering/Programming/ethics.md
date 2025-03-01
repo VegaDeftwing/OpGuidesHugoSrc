@@ -35,7 +35,7 @@ There's a pretty big list of considerations you should keep in mind when what yo
 
 * Can users of other in other regions still use it?
 * Qwerty isn't standard everywhere, neither is left-to-right text.
-  * Hell, [᚛ᚅᚑᚈ ᚐᚂᚂ ᚄᚚᚐᚉᚓᚄ ᚐᚏᚓ ᚄᚚᚐᚉᚓᚄ᚜ (YouTube, Tomm Scott)](https://www.youtube.com/watch?v=2yWWFLI5kFU) 
+  * Hell, [᚛ᚅᚑᚈ ᚐᚂᚂ ᚄᚚᚐᚉᚓᚄ ᚐᚏᚓ ᚄᚚᚐᚉᚓᚄ᚜ (Tom Scott)](https://www.youtube.com/watch?v=2yWWFLI5kFU) 
 * Does it comply with local laws and regulations?
   * Not all illegal services are morally wrong- take [Sci-Hub](https://en.wikipedia.org/wiki/Sci-Hub) for example.
 * Does it force units of measurement?
@@ -216,7 +216,7 @@ actually contribute on GitHub, make an issue, submit a pull request, make a cust
 
 [Setting new expectations for open source maintainers](https://opensource.com/article/21/8/open-source-maintainers)
 
-[How to break the Internet: Cory Doctorow at TEDxOxbridge (YouTube)](https://www.youtube.com/watch?v=aAWCN0Jed8g)
+[How to break the Internet: Cory Doctorow at TEDxOxbridge](https://www.youtube.com/watch?v=aAWCN0Jed8g)
 
 https://github.com/Marak/faker.js/issues/1046
 

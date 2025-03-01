@@ -102,4 +102,4 @@ Read arguments and decide for yourself. I can see both sides as reasonable <foot
 
 Oh, and don't ever tell me that you need a gun "just in case we have to overthrow the government." After January 6th, 2021, I will not tolerate that bullshit.
 
-Required viewing: [Texas Students Opt For C*cks Not Glocks: The Daily Show (YouTube)](https://www.youtube.com/watch?v=UbJKhvmshGs)
+Required viewing: [Texas Students Opt For C*cks Not Glocks: The Daily Show](https://www.youtube.com/watch?v=UbJKhvmshGs)

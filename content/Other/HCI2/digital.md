@@ -81,7 +81,7 @@ Finally, I do want to end on a positive note: [Google is trying to show why resu
 
 ### Pay-Walls suck
 
-Look, it's not that I don't think journalists shouldn't be paid. They should be. It's just that having everything behind a paywall blows. There's not any fun solution to this. Ads suck too. Nobody wants a web full of micro-transactions, and the idea of news sites mining crypto while I read bothers me too. So, let's just ignore the news sites for a second, and instead, focus on the much more offensive situation: academia and scholarly articles ([not that they're all good to begin with (YouTube, DefCon 26)](https://www.youtube.com/watch?v=ras_VYgA77Q))
+Look, it's not that I don't think journalists shouldn't be paid. They should be. It's just that having everything behind a paywall blows. There's not any fun solution to this. Ads suck too. Nobody wants a web full of micro-transactions, and the idea of news sites mining crypto while I read bothers me too. So, let's just ignore the news sites for a second, and instead, focus on the much more offensive situation: academia and scholarly articles ([not that they're all good to begin with (DefCon 26)](https://www.youtube.com/watch?v=ras_VYgA77Q))
 
 It's no secret that access to academic articles is *fucking* expensive. JSTOR alone is \$200 a year for only 85% of the content, some individual articles are well above $20 to read despite a huge portion of it being publicly funded in the first place, yet somehow these sites wonder why so many sites are turning to [Sci-Hub](https://en.wikipedia.org/wiki/Sci-Hub).
 
@@ -305,7 +305,7 @@ This may not ensure the data is good, but at least it makes progress in increasi
 
 This could have extra uses too. Having something that could take two 2D graphs with a common axis and turn it into one 3d graph would be incredible, particularly if that data could come from multiple sources across multiple domains. Combine this with the ability to change the type of graph and this could help expose otherwise non obvious trends. After all, some of the best discoveries come from random people making cross disciplinary connections.
 
-Beyond that, content moderation needs improvements too - I don't even mean fake news or porn here (Though we could stand to have better nsfw tagging on most social media). I mean the bullshit reviews on Amazon or the fake products when shopping online (mostly fake electronics). If those services are going to be allowed to make stupid amounts of money, they should be required to do at least a tiny bit of consumer protection. Hell, Amazon was even selling [Negative Ion/Anti-5g Products Are Actually RADIOACTIVE (The Thought Emporium, YouTube)](https://www.youtube.com/watch?v=C7TwBUxxIC0).
+Beyond that, content moderation needs improvements too - I don't even mean fake news or porn here (Though we could stand to have better nsfw tagging on most social media). I mean the bullshit reviews on Amazon or the fake products when shopping online (mostly fake electronics). If those services are going to be allowed to make stupid amounts of money, they should be required to do at least a tiny bit of consumer protection. Hell, Amazon was even selling [Negative Ion/Anti-5g Products Are Actually RADIOACTIVE (The Thought Emporium)](https://www.youtube.com/watch?v=C7TwBUxxIC0).
 
 ### Information Overload
 
@@ -769,7 +769,7 @@ though there are plenty of other examples, like the node editors used for making
 
 Potentially this could also plug into the entire OS as well, making it so an image manipulation program's extension could for example modify anything output to the screen in real time, or an audio program could effect the output of anything. For developer's this may even offer more power, making possible things such as inter-process communication (think pipes, like `$ls -la | grep png`) a matter of connecting two nodes, or reading disk information such as activity, space, or even writeback and inode information, this would literally allow any one piece of information to be accessible to any other. This does have obvious permission issues, but unix permissions should already have this under control. If something like this could also be tied into the previously mentioned internet search and socialization 'web' without massive security concerns the potential use cases are as simple as getting color information from an image hosted online to as complicated as remote access or distributed computing.
 
-This has already been tried to some extent with [Pipeworld (GitHub)](https://github.com/letoram/pipeworld), which bills itself as a "Dataflow 'spreadsheet' desktop environment". There's a [demo of it on YouTube here](https://www.youtube.com/watch?v=FgHMU7m9-I8), though you have to be pretty nerdy to fully appriciate it.
+This has already been tried to some extent with [Pipeworld](https://github.com/letoram/pipeworld), which bills itself as a "Dataflow 'spreadsheet' desktop environment". There's a [demo of it on YouTube here](https://www.youtube.com/watch?v=FgHMU7m9-I8), though you have to be pretty nerdy to fully appriciate it.
 
 This also does already exist for some workflows. For example, video synthesis (while quite nieche) has [Syphon](http://syphon.v002.info) which many video synthesis applications support for realtime frame sharing with minimal overhead.
 

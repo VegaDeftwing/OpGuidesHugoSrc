@@ -97,7 +97,7 @@ While you may not be able to do anything with the knowledge at the moment, I do 
 
 First, tape loops are a thing. These typically use normal cassette tapes but the tape on the inside has been replaced with a loop so that it'll repeat. Because tape naturally degrades and can be pitch shifted by slowing down or speeding up the play back speed they can act as a neat physical implementation of the same techniques we use samples for. Similarly, they've inspired many techniques that are used for effects, such as the distortion/satuartion that comes with tape and the wobble that comes with an old motor.
 
-See [Tape Loops Are Dope (YouTube, Andrew Huang)](https://www.youtube.com/watch?v=JZ-yp2cCGbQ) for more on Tape Loops.
+See [Tape Loops Are Dope (Andrew Huang)](https://www.youtube.com/watch?v=JZ-yp2cCGbQ) for more on Tape Loops.
 
 {{< /columns >}}
 
@@ -246,7 +246,7 @@ If you want a gentle intro, check out this 3 part video series (Of which only th
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/videoseries?list=PLrnjie9klQEkZGar3zZ4hRurU_kUDk7Md" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-To learn more about Additive Synthesis, I really recommend [Additive Synthesis Magical Mystery Tour (Loopop, YouTube)](https://www.youtube.com/watch?v=SCujIf5eJ2w).
+To learn more about Additive Synthesis, I really recommend [Additive Synthesis Magical Mystery Tour (Loopop)](https://www.youtube.com/watch?v=SCujIf5eJ2w).
 
 ## <span style="text-shadow:2px 2px 0 #222, 4px 4px 0 #DDD,6px 6px 0 #222,8px 8px 0 #DDD,10px 10px 0 #222,12px 12px 0 #DDD,14px 14px 0 #222;"> WAVETABLES</span>
 

@@ -32,7 +32,7 @@ This page is a massive work in progress. Even the things that look done may be w
 
 This is probably where the most bias of any of the lists on this page will show as I obviously can't list every possible plugin. Instead, I'll list those that I think are particularly good both in terms of value and function. While the list below does have ranking (copper, silver, gold) **everything** I'm listing I think is good, even the 'copper' ones!
 
-You *DO NOT NEED* everything on these lists! Many of these plugins will have overlapping features, and as mentioned plenty of times before, your DAW probably has the majority of this functionality built in, as stated back in the start of the effects chapter: USE THESE FIRST. They're lighter on CPU, fit into the DAW's workflow better, and generally are good enough for most things. Check out <a href="https://www.youtube.com/watch?v=Xgm1bGh-eyM">I Made A Song Using Only Ableton Stock Plugins (YouTube, Composerily)</a> if you don't believe me.
+You *DO NOT NEED* everything on these lists! Many of these plugins will have overlapping features, and as mentioned plenty of times before, your DAW probably has the majority of this functionality built in, as stated back in the start of the effects chapter: USE THESE FIRST. They're lighter on CPU, fit into the DAW's workflow better, and generally are good enough for most things. Check out <a href="https://www.youtube.com/watch?v=Xgm1bGh-eyM">I Made A Song Using Only Ableton Stock Plugins (Composerily)</a> if you don't believe me.
 
 I have tried to put a pretty good mix of professional and weird, free and paid, and traditional and novel tools on this list. This means that some will absolutely not be to your taste. Some may be too sterile, or may be wacky and useless to you.
 

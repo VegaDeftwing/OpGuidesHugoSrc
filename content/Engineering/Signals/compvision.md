@@ -27,5 +27,5 @@ Most CV tasks are borderline impossible if your input is acquired under uncontro
 
 ---
 
-[This is the Difference of Gaussians (Acerola, YouTube)](https://www.youtube.com/watch?v=5EuYKEvugLU)
+[This is the Difference of Gaussians (Acerola)](https://www.youtube.com/watch?v=5EuYKEvugLU)
 

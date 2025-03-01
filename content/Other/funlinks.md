@@ -14,13 +14,13 @@
 * This [video about Anime and the blending of cultures (YouTube)](https://www.youtube.com/watch?v=kX8_-uHgFew&ab_channel=TheCartoonCipher) is quite good.
 * 🍻, [Instantly Age Alcohol - Ultrasonic Treatment (Though Emporium on YouTube)](https://www.youtube.com/watch?v=YlQT4ptwLKs)
 * 🥚 [The Egg - A Short Story (Kurzesaght on YouTube)](https://www.youtube.com/watch?v=h6fcK_fRYaI)
-* [LIFE BEYOND II: The Museum of Alien Life (YouTube, MelodySheep)](https://www.youtube.com/watch?v=ThDYazipjSI) is a neat video with fantastic CGI about potential alien life.
+* [LIFE BEYOND II: The Museum of Alien Life (MelodySheep)](https://www.youtube.com/watch?v=ThDYazipjSI) is a neat video with fantastic CGI about potential alien life.
 * [Wild House Pilot](https://www.youtube.com/watch?v=fU4I79HubyM)
   > "A Wolf, a Panther and a Tiger are the friendly roommates of this Wild House. They live in a wicked world with ambiguous moral codes, in which everyone is an idiot and nothing really works"
-* [The Complete Guide to Magnet Implants (YouTube, The Thought Emporium)](https://www.youtube.com/watch?v=3aVwvJn7vpo) is a bit outdated now, but as someone with one in my hand, I clearly found it informative.
-* [You Are Two (YouTube, CGP Grey)](https://www.youtube.com/watch?v=wfYbgdo8e-8) is about people that have had the link between each half the brain split
+* [The Complete Guide to Magnet Implants (The Thought Emporium)](https://www.youtube.com/watch?v=3aVwvJn7vpo) is a bit outdated now, but as someone with one in my hand, I clearly found it informative.
+* [You Are Two (CGP Grey)](https://www.youtube.com/watch?v=wfYbgdo8e-8) is about people that have had the link between each half the brain split
   * Not a video, but see [@Foone: You Want to know how bullshit insane our brains are](https://twitter.com/Foone/status/1014267515696922624) 
-* [Tech Icons: Cliff Stoll (YouTube, AT&T Tech Channel)](https://www.youtube.com/watch?v=Qt0844ViQDI) ... I jsut love Cliff Stoll, he's like the ultimate cute grandpa that's also [obsessed with Klien Bottles.](https://www.youtube.com/watch?v=-k3mVnRlQLU&ab_channel=Numberphile)
+* [Tech Icons: Cliff Stoll (AT&T Tech Channel)](https://www.youtube.com/watch?v=Qt0844ViQDI) ... I jsut love Cliff Stoll, he's like the ultimate cute grandpa that's also [obsessed with Klien Bottles.](https://www.youtube.com/watch?v=-k3mVnRlQLU&ab_channel=Numberphile)
 * 🐜 ... 🌎→ [Metric Paper (YouTube)](https://www.youtube.com/watch?v=9DiHy5ZHzN0)
 * [Robot Sumo Wrestling (YouTube)](https://www.youtube.com/watch?v=QCqxOzKNFks&list=FLFMnqfaTa1se1LfbCB3peJQ&index=6)
 
@@ -58,7 +58,7 @@
 * [CSC218 - Software Precognance](https://suricrasia.online/unfiction/CSC218-Software-Precognance.pdf)
 * [The Cursed Computer Iceberg Meme](https://suricrasia.online/iceberg/)
 * [Basilisk collection (ⁿᵒᵗ Wikipedia)](https://suricrasia.online/unfiction/basilisk/)
-* [Harder Drive: Hard drives we didn't want or need (suckerpinch, YouTube)](https://www.youtube.com/watch?v=JcJSW7Rprio)
+* [Harder Drive: Hard drives we didn't want or need (suckerpinch)](https://www.youtube.com/watch?v=JcJSW7Rprio)
 * [Cory Doctorow talks about Big Tech, Crypto, and sci-fi (The New Yorker)](https://www.newyorker.com/culture/the-new-yorker-interview/cory-doctorow-wants-you-to-know-what-computers-can-and-cant-do)
 * [How I Got My Laser Eye Injury (Funranium Labs)](https://www.funraniumlabs.com/2024/07/how-i-got-my-laser-eye-injury/)
 * [Weather Landscape (lds133, GitHub)](https://github.com/lds133/weather_landscape) "Visualizing Weather Forecasts Through Landscape Imagery"
@@ -73,7 +73,7 @@
 ## Music & Synthesis
 
 * The [Geological Phonograph](https://azlen.me/blog/geological_phonograph/) is an interesting idea for a synthesizer.
-* [Simulating an Entire Car Engine - yes, it makes noise (AngeTheGreat, YouTube)](https://www.youtube.com/watch?v=RKT-sKtR970)
+* [Simulating an Entire Car Engine - yes, it makes noise (AngeTheGreat)](https://www.youtube.com/watch?v=RKT-sKtR970)
 * [Analog Fractals with 1930's Technology (YouTube)](https://www.youtube.com/watch?v=Pv26QAOcb6Q)
 * [Sounds of the Mandelbrot Set](https://www.youtube.com/watch?v=GiAj9WW1OfQ)
 * [Pink Trombone - Bare Handed Speech Synthesis](https://dood.al/pinktrombone/)
@@ -110,7 +110,7 @@
 * [The Night I Met Einstein (Jerome Weidman, Reader's Digest)](https://www.rd.com/article/the-night-i-met-einstein/)
 * [A Twitter Thread about PayPal blocking all transactions with the word "Tardigrade"](https://twitter.com/ArchieMcPhee/status/1304434532293046272)
 * [Letters About Soap](https://people.cs.ksu.edu/~schmidt/soap.txt)
-* [Operation Mindfuck Vol. 4, a video from rC3 (YouTube)](https://www.youtube.com/watch?v=ywYBT0xM7so)
+* [Operation Mindfuck Vol. 4, a video from rC3](https://www.youtube.com/watch?v=ywYBT0xM7so)
 * [The Best Things and Stuff of 2020 (Fogus' Blog)](http://blog.fogus.me/2020/12/31/the-best-things-and-stuff-of-2020/)
 * [Floor796](https://floor796.com/)
 

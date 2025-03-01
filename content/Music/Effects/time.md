@@ -65,7 +65,7 @@ Most delays will let you adjust the number of repeats but usually what you're do
 
 Some will ever let you go above 100% to make each repeat get *louder*. This can get really crazy, so be prepared to quickly go "oh shit!" and turn it back down!
 
-To see a good use of this in practice, check out [My Secret Guitar Pad Patch from the 1990's (Youtube, Dan Worrall)](https://www.youtube.com/watch?v=l9uX_slwbzk), where he Inversely links volume and delay feedback.
+To see a good use of this in practice, check out [My Secret Guitar Pad Patch from the 1990's (Dan Worrall)](https://www.youtube.com/watch?v=l9uX_slwbzk), where he Inversely links volume and delay feedback.
 
 ### Vintage Delays
 

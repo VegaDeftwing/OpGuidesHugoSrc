@@ -14,7 +14,7 @@ Unfortunately, for a good while now VCV has had an annoying bug. I'm not sure wh
 
 {{< attribution >}}
 
-[Radeontop (GitHub)](https://github.com/clbr/radeontop)
+[Radeontop](https://github.com/clbr/radeontop)
 
 {{< /attribution >}}
 

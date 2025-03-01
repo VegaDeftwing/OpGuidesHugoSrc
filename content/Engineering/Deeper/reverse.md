@@ -70,7 +70,7 @@ Resource hacker may be handy too.
 
 {{< columns >}}
 
-If all else fails, there's always the ever-unfriendly hex-editor at your disposal, or [Hobbits (GitHub)](https://github.com/Mahlet-Inc/hobbits) if you're feeling fancy.
+If all else fails, there's always the ever-unfriendly hex-editor at your disposal, or [Hobbits](https://github.com/Mahlet-Inc/hobbits) if you're feeling fancy.
 
 <--->
 
@@ -119,9 +119,9 @@ Will they? Probably not. If you're actually woried about it, talk to a lawyer. I
 
 # 34.2 - Resources
 
-[John Hammond (YouTube)](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
+[John Hammond](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
 
-[LiveOverflow (YouTube)](https://www.youtube.com/c/LiveOverflow)
+[LiveOverflow](https://www.youtube.com/c/LiveOverflow)
 
 
 

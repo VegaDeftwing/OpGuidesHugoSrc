@@ -50,10 +50,10 @@ As for 1. - IMHO, yeah, free speech should probably be free *from government ret
 
 All of that said, to some extent, **deplatforming is necessary** because a lot of people with shit ideas know how to spread them in a way that prevents even logical debate from refuting it. Largely, this is done by using one of a handful of tactics:
 
-1. By spewing shit faster than the opponent can respond with corrections for - that is [Never play defense (YouTube, The Alt-Right Playbook by Innuendo Studios)](https://www.youtube.com/watch?v=wmVkJvieaOA)
-2. By moving the goalpost **or** change the topic subtly - that is [Control the conversation (YouTube, The Alt-Right Playbook by Innuendo Studios)](https://www.youtube.com/watch?v=CaPgDQkmqqM)
-3. By talking about their points publicly, they manage to go [Mainstream (YouTube, The Alt-Right Playbook by Innuendo Studios)](https://www.youtube.com/watch?v=Gq0ZHgKT2tc)
-4. By stretching the meaning of something, in a way that's not *technically* false - see [The Ship of Theseus (YouTube, The Alt-Right Playbook by Innuendo Studios)](https://www.youtube.com/watch?v=Ui-ArJRqEvU)
+1. By spewing shit faster than the opponent can respond with corrections for - that is [Never play defense (The Alt-Right Playbook by Innuendo Studios)](https://www.youtube.com/watch?v=wmVkJvieaOA)
+2. By moving the goalpost **or** change the topic subtly - that is [Control the conversation (The Alt-Right Playbook by Innuendo Studios)](https://www.youtube.com/watch?v=CaPgDQkmqqM)
+3. By talking about their points publicly, they manage to go [Mainstream (The Alt-Right Playbook by Innuendo Studios)](https://www.youtube.com/watch?v=Gq0ZHgKT2tc)
+4. By stretching the meaning of something, in a way that's not *technically* false - see [The Ship of Theseus (The Alt-Right Playbook by Innuendo Studios)](https://www.youtube.com/watch?v=Ui-ArJRqEvU)
 
 The **only way** to stop this is to *not debate them* and to *remove their platform*. If you play fair and want to actually question ideas, you're good. If you're here to spread hate, hurt people, and (intentionally or not) use tactics that prevent real debate, you should lose your platform. 
 
@@ -153,7 +153,7 @@ If you're willing to share what you make too, the open source community is full 
 
 <--->
 
-When most people think biases, they think 'racist' or 'wealthy' or something societal, but [Cognitive Biases (Wikipedia)](https://en.wikipedia.org/wiki/List_of_cognitive_biases) are just as important to recognize. Some of these biases are just human nature, some are the result of seeing repeated ads or hearing the same quotes over and over again, without really thinking about the implications of them.
+When most people think biases, they think 'racist' or 'wealthy' or something societal, but [Cognitive Biases](https://en.wikipedia.org/wiki/List_of_cognitive_biases) are just as important to recognize. Some of these biases are just human nature, some are the result of seeing repeated ads or hearing the same quotes over and over again, without really thinking about the implications of them.
 
 I highly recommend going though the list on that linked Wikipedia page, but there's a few major ones I'd like to point out that are not covered on the <a href="/phil/fallacies/">Logical Fallacies+</a> page:
 
@@ -219,17 +219,17 @@ For this section, I think the best way to show you the problem is to just let yo
 
 {{< columns3 >}}
 
-{{< best >}} [Scientific Studies (Last Week Tonight, YouTube)](https://www.youtube.com/watch?v=0Rnq1NpHdmw) {{< /best >}}
+{{< best >}} [Scientific Studies (Last Week Tonight)](https://www.youtube.com/watch?v=0Rnq1NpHdmw) {{< /best >}}
 
-[Coronavirus: Conspiracy Theories (Last Week Tonight, YouTube)](https://www.youtube.com/watch?v=0b_eHBZLM6U)
+[Coronavirus: Conspiracy Theories (Last Week Tonight)](https://www.youtube.com/watch?v=0b_eHBZLM6U)
 
 <--->
 
-[Academic journal publishing reform (Wikipedia)](https://en.wikipedia.org/wiki/Academic_journal_publishing_reform)
+[Academic journal publishing reform](https://en.wikipedia.org/wiki/Academic_journal_publishing_reform)
 
-[List of scholarly publishing stings (Wikipedia)](https://en.wikipedia.org/wiki/List_of_scholarly_publishing_stings)
+[List of scholarly publishing stings](https://en.wikipedia.org/wiki/List_of_scholarly_publishing_stings)
 
-[Predatory Publishing (Wikipedia)](https://en.wikipedia.org/wiki/Predatory_publishing)
+[Predatory Publishing](https://en.wikipedia.org/wiki/Predatory_publishing)
 
 {{< /columns3 >}}
 
@@ -275,7 +275,7 @@ Balance skepticism with openness.
 
 ## Religion?
 
-I very intentionally didn't bring religion into any of this, because I am aware of my own biases. That said, I think some may find the series [Philosophical Failures of Christian Apologetics (AntiCitizenX, YouTube)](https://www.youtube.com/watch?v=lroKN5gdm08&list=PL3IOkNR8_9gpQa5teO1xQANB-3MiY17uk) interesting. I think it makes some interesting points and may even be interesting for readers that are currently on the fence about religion. I want to be clear, I don't see *any* religion as a "diseased idea" as I put it above; however, I do see many of the things that many religions preach as such. I think having belief in a higher power is fine, especially since mortality is scary and it can help. What I don't think is fine is claiming that higher power justifies ignoring scientific studies or hating a group of people because of a bullshit excuse provided by (or grossly grafted onto) that belief system. Your religion (or lack of) doesn't give you a right to be a dick or be ignorant.
+I very intentionally didn't bring religion into any of this, because I am aware of my own biases. That said, I think some may find the series [Philosophical Failures of Christian Apologetics (AntiCitizenX)](https://www.youtube.com/watch?v=lroKN5gdm08&list=PL3IOkNR8_9gpQa5teO1xQANB-3MiY17uk) interesting. I think it makes some interesting points and may even be interesting for readers that are currently on the fence about religion. I want to be clear, I don't see *any* religion as a "diseased idea" as I put it above; however, I do see many of the things that many religions preach as such. I think having belief in a higher power is fine, especially since mortality is scary and it can help. What I don't think is fine is claiming that higher power justifies ignoring scientific studies or hating a group of people because of a bullshit excuse provided by (or grossly grafted onto) that belief system. Your religion (or lack of) doesn't give you a right to be a dick or be ignorant.
 
 ---
 

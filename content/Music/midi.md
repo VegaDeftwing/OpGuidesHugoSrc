@@ -287,7 +287,7 @@ This is exactly what MIDI clocking does. By default, it's 24 pulses per quarter 
 Anyway, here we are. So, what are the implications of this:
 
 * MIDI clock does not have built in time-correction. If there's a 2ms delay coming out your computer, a 2ms delay for the device to process the midi input, and a 5ms delay on the audio from the device back into your recording interface, you'll need to offset the input by -7ms. This is extraordianly awkward, as the device now needs to know *future* inputs.
-* MIDI clock can have stability issues. If the tempo is 120BPM, that's 2 notes a second, so at 24ppqn, 48 pulses a second, which comes out to be 1 pulse every 20.833 milliseconds. This will absolutely varry a bit, if we assume the clock varries even by ±1 millisecond that will thow us off to anywhere from 45.8 to 50.4 pulses a second, which equates to about 114.5 to 126.1 BPM. That's a lot of varience for a pretty minor hickup in our clock signal. Even if it averages out, there's still a good chance some of the beats will hit at weird times, causing phasing issues. See [this video from Expert Sleepers (YouTube)](https://www.youtube.com/watch?v=qyuSIR0z-lQ) to see how this actually looks.
+* MIDI clock can have stability issues. If the tempo is 120BPM, that's 2 notes a second, so at 24ppqn, 48 pulses a second, which comes out to be 1 pulse every 20.833 milliseconds. This will absolutely varry a bit, if we assume the clock varries even by ±1 millisecond that will thow us off to anywhere from 45.8 to 50.4 pulses a second, which equates to about 114.5 to 126.1 BPM. That's a lot of varience for a pretty minor hickup in our clock signal. Even if it averages out, there's still a good chance some of the beats will hit at weird times, causing phasing issues. See [this video from Expert Sleepers](https://www.youtube.com/watch?v=qyuSIR0z-lQ) to see how this actually looks.
 
 Just be aware this may cause you problems and that none of the solutions to the problem are any fun. Also, MIDI Through only makes the problem worse- more on that in a bit
 
@@ -441,9 +441,55 @@ The FH-2 appears to just try to throw as much data down the pipe as it can muste
 
 If you can, you're probably better off either using something like the ExpertSleepers ES-8, ES-9, or ES-3+ES-6 to take audio in directly and using software that supports using audio as modulation (some workarounds may be necessary, such as using envelope followers) or using one of the very few modules that impliment OSC (more on that later). Honestly though, doing CV→MIDI is a bit of a fools errand, especially for modulation (CCs). The only real practical use is if you *really* want to sequence something that doesn't have a CV input with a eurorack sequencer, otherwise you're better off just finding dedicated MIDI equipment that does the kind of input you want.
 
+#### Over Bluetooth
+
+If you're on Mac, Linux, or Android it should just work. If it doesn't, I don't know how to help.
+
+At least until Microsoft actually pushes [their big MIDI update](https://devblogs.microsoft.com/windows-music-dev/announcing-windows-midi-services-customer-preview-1/) (Because, afaik, the same update is also fixing viltual MIDI port creation and Bluetooth) the bluetooth MIDI situation very much so sucks.
+
+{{< hint warning >}}
+This isn't just being said to say "Oh, it's getting better soon". It's possible that you're reading this page in the future such that this is less of a pain. Try just connecting it first, maybe that update is already out. This was written on March 1st, 2025.
+
+Of course, even if it's out, you'd have to have that update on your system, which might not be the case anyway.
+{{< /hint >}}
+
+First, you'll need a bluetooth adapter. Take care, most MIDI devices that do MIDI over Bluetooth actually use Bluetooth Low Energy, so while your laptop or USB bluetooth adapter or whatever might support bluetooth, what you actually need is *probably* Bluetooth Low Energy. Anything modern with Bluetooth should support this, but it can be a point of confusion.
+
+For example, I'm using the [TP-Link UB500](https://www.amazon.com/dp/B09DMP6T22) adapter with my [Jamstik MIDI Guitar](https://jamstik.com/collections/midi-guitars/products/studio-midi-guitar) which seems to work fine.
+
+Now, we need to actually connect the device in Windows. For most Bluetooth devices this means long holding some button or just restarting the device. You'll need to search for how to do it for whatever it is you're trying to connect. Likely, it will start blinking an LED to indicate it's in pairing mode.
+
+Now, in Windows, open the [Bluetooth Settings Page](ms-settings:bluetooth). There will be a big <kbd>Add Device</kbd> button.
+
+At this point, depending on your version of Windows 11, things differ. Either way, the device won't show up immediatey because Windows has deemed Bluetooth MIDI devices weird and things they'll confuse normal people since they're not just like Bluetooth headphones (🖕 Microsoft).
+
+If you're on a **recent version of Windows 11**, at the bottom of the list when you click the <kbd>Add Device</kbd> button you should see a smaller "Show All Devices" text. That is a button. Click it. After that, your Bluetooth MIDI device (if it's still in pairing mode) *should* show up.
+
+If you're on an **older version of Windows 11** and don't see the "Show All Devices" button, you will need to get out of that Add Device menu, go back to the main [Bluetooth Settings Page](ms-settings:bluetooth), and scroll down to the "Device Settings" section and change the "Bluetooth Devices Discovery" option from "Default" to "Advanced".
+Now, go back click the <kbd>Add Device</kbd> button, and it should show up.
+
+It should connect sucessfully, for all of a second. Once you go back to the list of devices, it'll show up, but say disconnected.
+
+This is because Windows is extraordinarly fucking stupid and unlike every other major OS doesn't go "Oh, this is a MIDI device, let's open a MIDI port for it and leave it open to be used", instead, it just goes "Oh, nothing is using this, so lets disconnect it" AHHHHH.
+
+So, to fix *that* problem, you'll need to install [MIDIberry](https://apps.microsoft.com/detail/9n39720h2m05?hl=en-US&gl=US).
+
+Only, that will only hold the bluetooth connection open as a MIDI device for you, you'll still need a virtual MIDI port to connect to. For that, use [LoopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html).
+
+1. Connect your Bluetooth MIDI device in Windows Settings.
+2. Install and run LoopMIDI. That will make a virtual MIDI port.<footnote>The order you setup loop MIDI or connect the bluetooth device doesn't matter.</footnote>
+3. Install and run MIDIBerry.
+4. In the INPUT devices list, you should see `your device name (Bluetooth MIDI IN) [#######]`. Select It.
+   * If you don't see it, now that MIDIBerry is running, go back to the [Bluetooth settings page](ms-settings:bluetooth), disconnect the device, and reconnect it. Hopefully that fixes it.
+5. Set the output to the Virtual MIDI created by loopMIDI.
+6. In your DAW, configure the virtual MIDI port as an input. This will vary by DAW.
+   * Take care if your DAW and device support MPE to mark it as an MPE device.
+7. Curse Microsoft, MIDI, and technology in general for how annoying this is.
+
+
 #### Over Network
 
-Look, I'm not going to say you can't do wireless or networked midi. You definitely can. It's just that there's alway something that goes wrong. The 'normal' way to do it is using RTP MIDI. This should work cross platform:
+Look, I'm not going to say you can't do networked midi. You definitely can. It's just that there's alway something that goes wrong. The 'normal' way to do it is using RTP MIDI. This should work cross platform:
 
 - Windows, use [rtpMIDI](https://www.tobias-erichsen.de/software/rtpmidi.html) by Tobias Erichsen
 - Mac, use the built in network-MIDI tools

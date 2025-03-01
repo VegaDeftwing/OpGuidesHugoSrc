@@ -127,7 +127,7 @@ I would hope I don't have to justify this. If the library isn't common, hasn't b
 
 Similarly, crypto is hard, unless you want to go into it (which is cool, go for it, just be prepared for a lot of math) and understand what you're getting yourself into, don't try to write crypto code yourself.
 
-Hell, even just using `random()` without knowing better is a good way to screw up: see [How to Predict Random Numbers (PwnFunction, YouTube)](https://www.youtube.com/watch?v=-h_rj2-HP2E)
+Hell, even just using `random()` without knowing better is a good way to screw up: see [How to Predict Random Numbers (PwnFunction)](https://www.youtube.com/watch?v=-h_rj2-HP2E)
 
 ### DO NOT use algorithms that are broken
 
@@ -254,7 +254,7 @@ Some things you should consider:
 
 * Neither side needs to be a machine. It's very possible that the deceit is that somebody is simply lying about who they are on a call.
 * It's not just that you need to trust the other side is who they say they are, you need to know they wont listen to someone that pretends to be you.
-  * This exact problem leads to people being able to carry out a [SIM swap scam (Wikipedia)](https://en.wikipedia.org/wiki/SIM_swap_scam)
+  * This exact problem leads to people being able to carry out a [SIM swap scam](https://en.wikipedia.org/wiki/SIM_swap_scam)
 * While verification of identity is important, so is looking up that identity in the first place. If you always call the wrong number, always connect to the wrong URL, etc. You're asking for someone to come along and fill that role.
 
 There's also just a point about not assuming an adress will always point to the same place, like when a bunch of news websites [found that they were suddenly showing pron videos (The Verge)](https://www.theverge.com/2021/7/22/22589403/porn-site-bought-expired-video-hosting-site-old-embeds).
@@ -421,7 +421,7 @@ https://github.com/kdeldycke/awesome-iam
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/S9JGmA5_unY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Note there's general two 'classes' of hashing- hashing for cryptographic security (Passwords) and for just general usage, the cryptographic ones typically are significantly more computationally intensive to make it harder to brute force all possible keys. Also most cryptographic hashing algorithms go to much greater lengths to avoid collisions. Also, salting is relevant here: [Salting (Wikipedia)](https://en.wikipedia.org/wiki/Salt_(cryptography))
+Note there's general two 'classes' of hashing- hashing for cryptographic security (Passwords) and for just general usage, the cryptographic ones typically are significantly more computationally intensive to make it harder to brute force all possible keys. Also most cryptographic hashing algorithms go to much greater lengths to avoid collisions. Also, salting is relevant here: [Salting](https://en.wikipedia.org/wiki/Salt_(cryptography))
 
 If you want to dive into the math of hashing, going through [this repo](https://github.com/oconnor663/sha256_project) to make SHA-256 yourself will teach you a lot. Of course, don't ever use one you wrote yourself. Just like encryption, leave it to the battle tested libraries.
 
@@ -451,7 +451,7 @@ Metadata can bite you in the ass
 
   XXS
 
-  [How The Self-Retweeting Tweet Worked: Cross-Site Scripting (XSS) and Twitter (Youtube - Tom Scott)](https://www.youtube.com/watch?v=zv0kZKC6GAM&ab_channel=TomScott)
+  [How The Self-Retweeting Tweet Worked: Cross-Site Scripting (XSS) and Twitter (Tom Scott)](https://www.youtube.com/watch?v=zv0kZKC6GAM&ab_channel=TomScott)
 
   MAC/IP spoofing
 
@@ -511,7 +511,7 @@ Fuzzing
 
 ### Hardware
 
-[Intro to Hardware Reversing: Finding a UART and getting a shell (YouTube)](https://www.youtube.com/watch?v=ZmZuKA-Rst0&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
+[Intro to Hardware Reversing: Finding a UART and getting a shell (Tony Gambacorta)](https://www.youtube.com/watch?v=ZmZuKA-Rst0&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
 
 Talk about CPU bugs
 
@@ -621,9 +621,9 @@ https://gtfobins.github.io
 
 ### PWNie Island
 
-[Let's Play/Hack - Pwn Adventure 3: Pwnie Island (YouTube, LiveOverflow)](https://www.youtube.com/watch?v=RDZnlcnmPUA) (Here he's playing a game where you have to exploit it to win)
+[Let's Play/Hack - Pwn Adventure 3: Pwnie Island (LiveOverflow)](https://www.youtube.com/watch?v=RDZnlcnmPUA) (Here he's playing a game where you have to exploit it to win)
 
-[How To Learn Something New? - Game Devlog #1 (YouTube, LiveOverflow)](https://www.youtube.com/watch?v=LTlBElDPDDM) (Here he's making a game where you're supposed to exploit it)
+[How To Learn Something New? - Game Devlog #1 (LiveOverflow)](https://www.youtube.com/watch?v=LTlBElDPDDM) (Here he's making a game where you're supposed to exploit it)
 
 ## Where to learn even more:
 
@@ -641,7 +641,7 @@ CTF time,
 
 https://nagarrosecurity.com/blog/interactive-buffer-overflow-exploitation
 
-[Writehat (GitHub)](https://github.com/blacklanternsecurity/writehat) - "A pentest reporting tool written in Python. Free yourself from Microsoft Word."
+[Writehat](https://github.com/blacklanternsecurity/writehat) - "A pentest reporting tool written in Python. Free yourself from Microsoft Word."
 
 https://opensecuritytraining.info
 
@@ -651,9 +651,9 @@ https://opensecuritytraining.info
 
 ## Some Hacking Community Fun
 
-[Bash injection without letters or numbers (YouTube, LiveOverflow)](https://www.youtube.com/watch?v=6D1LnMj0Yt0&ab_channel=LiveOverflow)
+[Bash injection without letters or numbers (LiveOverflow)](https://www.youtube.com/watch?v=6D1LnMj0Yt0&ab_channel=LiveOverflow)
 
-[Pwned By The Owner: What Happens When You Steal A Hacker's Computer (YouTube, Defcon)](https://www.youtube.com/watch?v=Jwpg-AwJ0Jc)
+[Pwned By The Owner: What Happens When You Steal A Hacker's Computer (Defcon)](https://www.youtube.com/watch?v=Jwpg-AwJ0Jc)
 
 [How a Hacker Convinced Motorola to Send Him Source Code](https://www.youtube.com/watch?v=UBaVek2oTtc)
 
@@ -667,11 +667,11 @@ https://learn.sparkfun.com/tutorials/gas-pump-skimmers
 
 [Leap Day Bugs](https://codeofmatt.com/list-of-2020-leap-day-bugs/)
 
-[DEF CON 18 - Zoz - Pwned By The Owner: What Happens When You Steal A Hacker's Computer (YouTube)](https://www.youtube.com/watch?v=Jwpg-AwJ0Jc)
+[DEF CON 18 - Zoz - Pwned By The Owner: What Happens When You Steal A Hacker's Computer](https://www.youtube.com/watch?v=Jwpg-AwJ0Jc)
 
-[Diabetics Are Hacking Their Own Insulin Pumps (YouTube)](https://www.youtube.com/watch?v=bouYRMItWnI)
+[Diabetics Are Hacking Their Own Insulin Pumps (CNBC)](https://www.youtube.com/watch?v=bouYRMItWnI)
 
-[Big List of Naughty Strings (GitHub)](https://github.com/minimaxir/big-list-of-naughty-strings)
+[Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings)
 
 [Widevine L3 Decryptor](https://github.com/tomer8007/widevine-l3-decryptor)
 

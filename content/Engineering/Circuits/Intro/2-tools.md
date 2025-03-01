@@ -264,7 +264,7 @@ For most modern scopes, this is only scratching the surface. For example, they'l
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/d58GzhXKKG8" title="Everything you need to know when buying/using an Oscilloscope! EB#49" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-[Quake on an oscilloscope (YouTube)](https://www.youtube.com/watch?v=GIdiHh6mW58&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
+[Quake on an oscilloscope (rpocc)](https://www.youtube.com/watch?v=GIdiHh6mW58&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
 
 ## The Logic Analyzer
 

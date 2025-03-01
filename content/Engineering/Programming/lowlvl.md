@@ -34,7 +34,7 @@ Everything from the {{< button relref="Engineering/Programming/Intro/prog0intro"
 
 [TODO] https://github.com/rby90/project-based-tutorials-in-c
 
-[TODO] [30 Seconds of C++ (GitHub)](https://github.com/Bhupesh-V/30-seconds-of-cpp)
+[TODO] [30 Seconds of C++](https://github.com/Bhupesh-V/30-seconds-of-cpp)
 
 [TODO] http://pages.cs.wisc.edu/~remzi/OSTEP/
 

@@ -103,7 +103,7 @@ Things can get weird if you're using Bitlocker for encryption or if your BIOS is
 
 {{< /hint >}}
 
-> If you're here, you might also be in need of a quick way to make a clone of a disk from within Windows, in that case, I've had luck with [RawDiskCopier (GitHub)](https://github.com/TalAloni/RawDiskCopier)
+> If you're here, you might also be in need of a quick way to make a clone of a disk from within Windows, in that case, I've had luck with [RawDiskCopier](https://github.com/TalAloni/RawDiskCopier)
 
 > {{< smalltext >}}If you're feeling really adventureous, you can actually [get Windows to run on BTRFS](https://github.com/maharmstone/btrfs). Just know that here be dragons.{{< /smalltext >}}
 

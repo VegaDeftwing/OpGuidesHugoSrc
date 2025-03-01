@@ -30,13 +30,13 @@ Oh, and the circle of fifths is a thing [TODO]
 
 [TODO] Just V equal Temperament here is confusing
 
-[TODO] [Music Theory and White Supremacy (YouTube, Adam Neely)](https://www.youtube.com/watch?v=Kr3quGh7pJA)
+[TODO] [Music Theory and White Supremacy (Adam Neely)](https://www.youtube.com/watch?v=Kr3quGh7pJA)
 
 [TODO] [Waitbutwhy.com -- Sound](https://waitbutwhy.com/2016/03/sound.html)
 
 [TODO] [Nanotone Synth](https://dylancassidy.itch.io/nanotone-synth)
 
-[TODO] [Benedetti's Puzzle (mathematically impossible music) - (YouTube, Adam Neely)](https://youtu.be/TYhPAbsIqA8)
+[TODO] [Benedetti's Puzzle (mathematically impossible music) - (Adam Neely)](https://youtu.be/TYhPAbsIqA8)
 
 [TODO] [Hack Music Theory](https://www.youtube.com/c/RevolutionHarmony/videos)'s YouTube Channel is pretty good. They do tend to present their tips as rules, but the tips are still generally pretty good.
 
@@ -78,13 +78,13 @@ You want to make sure you're in the right sonic space. [...] It's not so much ab
 
 ## Further Reading
 
-[An Introduction to Math Rock (YouTube, Alfo Media)](https://youtu.be/MF4Fs1lgYc8)
+[An Introduction to Math Rock (Alfo Media)](https://youtu.be/MF4Fs1lgYc8)
 
-[The Largest Chord - sUpEr UlTrA hYpEr MeGa MeTa LyDiAn (YouTube, Leon Waves)](https://www.youtube.com/watch?v=HeTygKpi6pI)
+[The Largest Chord - sUpEr UlTrA hYpEr MeGa MeTa LyDiAn (Leon Waves)](https://www.youtube.com/watch?v=HeTygKpi6pI)
 
 [(*My) Procedurally Generated Music is Awful (Cube Drone)](https://devlog.groovelet.com/p/procedurally-generated-music-is-awful)
 
-[LilyPond: programming beautiful musical scores (YouTube, 36C3)](https://www.youtube.com/watch?v=ryiXvCX3I64)
+[LilyPond: programming beautiful musical scores (36C3)](https://www.youtube.com/watch?v=ryiXvCX3I64)
 
 [WTF Grooves №10](https://www.youtube.com/watch?v=gxELkbVgMy4)
 

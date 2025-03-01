@@ -1,3 +1,3 @@
 # Animation
 
-[Why is "Choppy" Animation Better? (YouTube, Doodley)](https://www.youtube.com/watch?v=BBoVomEOKbc)
+[Why is "Choppy" Animation Better? (Doodley)](https://www.youtube.com/watch?v=BBoVomEOKbc)

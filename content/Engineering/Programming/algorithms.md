@@ -54,7 +54,7 @@ Sets, functions, relations, recurrence, induction, combination, graphs, isomorph
 
 ## Benchmarking
 
-Many computer science courses will have a basically full class on Algorithm Analysis, usually more specifically looking into BigO analysis. In a nutshell, this involves determing how much computation has to occur for a given input size. For example, if you have 10 inputs and just want to add them together, you can do that in O(n) time, because for n inputs you only need to do `n` computations (well, actually n-1 here, but we ignore the constant), but if you wanted to sort them with [Quicksort (Wikipedia)](https://en.wikipedia.org/wiki/Quicksort) that could take up to {{< katex >}}O(n^2){{< /katex >}} basically, the time to run the code (in the worst case) may be squared with the number of inputs. This is not great. If we assume each operation take 1 second (a bit unreasonably long, but go with it) that means for 10 input we're looking at a bit over a minute and a half, but for 1000 inputs that's up to 11.57 **days**.
+Many computer science courses will have a basically full class on Algorithm Analysis, usually more specifically looking into BigO analysis. In a nutshell, this involves determing how much computation has to occur for a given input size. For example, if you have 10 inputs and just want to add them together, you can do that in O(n) time, because for n inputs you only need to do `n` computations (well, actually n-1 here, but we ignore the constant), but if you wanted to sort them with [Quicksort](https://en.wikipedia.org/wiki/Quicksort) that could take up to {{< katex >}}O(n^2){{< /katex >}} basically, the time to run the code (in the worst case) may be squared with the number of inputs. This is not great. If we assume each operation take 1 second (a bit unreasonably long, but go with it) that means for 10 input we're looking at a bit over a minute and a half, but for 1000 inputs that's up to 11.57 **days**.
 
 So, you should learn how to do this kind of analysis, right? Well, it's not a bad idea to - and I do have a brief overview of it in the following section - it's really not as important as those classes make it seem. This is for a few reasons. The first is that the code you write and the code that actually runs are usually quite different. As a basic example, let's look at this C code:
 
@@ -177,7 +177,7 @@ Some benchmarking tools are language dependent, some aren't. Generally, those th
 
 * Chrome and Firefox both have Flame graph tools built in
 
-* Using [Hyperfine (GitHub)](https://github.com/sharkdp/hyperfine) to measure run times is amazing
+* Using [Hyperfine](https://github.com/sharkdp/hyperfine) to measure run times is amazing
 
 * If you really need deep insights, [Palanteer](https://github.com/dfeneyrou/palanteer) may be worth checking out (Python or C++)
 
@@ -193,7 +193,7 @@ It's also a good idea to test on multiple platforms, both in terms of hardware a
 
 > More cool videos like this can be found at https://www.youtube.com/c/Musicombo/videos
 
-+recursion analysis, [P vs. NP (YouTube)](https://www.youtube.com/watch?v=YX40hbAHx3s)
++recursion analysis, [P vs. NP (Hackerdashery)](https://www.youtube.com/watch?v=YX40hbAHx3s)
 
 ### Brute Force
 

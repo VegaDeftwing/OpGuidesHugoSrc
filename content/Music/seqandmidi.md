@@ -247,7 +247,7 @@ random, sample/hold, probability, piano rolls, trackers, AI based, euclidean, tr
 
 [Melody Guide [edmprod.com]](https://www.edmprod.com/ultimate-melody-guide/)
 
-[Ways to turn tiny ideas into bigger tracks (YouTube, Andrew Huang)](https://youtu.be/ONloOhDLrFU)
+[Ways to turn tiny ideas into bigger tracks (Andrew Huang)](https://youtu.be/ONloOhDLrFU)
 
 Song structure ABAB, ABBA, ABAC, etc.
 
@@ -289,4 +289,4 @@ Arp, velocity, pitch bend, mod, sustain, generative, legato
 
 ## Multitracking
 
-[Multitracking Synthesizers for Fun and Profit (YouTube, RedMeansRecording)](https://www.youtube.com/watch?v=7EipTdTy8hM)
+[Multitracking Synthesizers for Fun and Profit (RedMeansRecording)](https://www.youtube.com/watch?v=7EipTdTy8hM)

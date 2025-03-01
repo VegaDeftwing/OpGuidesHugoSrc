@@ -308,13 +308,13 @@ The maker and hacker communities tend to focus a lot on popularity and getting y
 
 (Seriously, all of these are **very** good)
 
-<img src="/common/youtube_social_icon_red.webp" style="height:0.8em"> [Hacker Spaces are Awesome! (LiveOverflow)](https://www.youtube.com/watch?v=HJy-Y4nok3g)
+[Hacker Spaces are Awesome! (LiveOverflow)](https://www.youtube.com/watch?v=HJy-Y4nok3g)
 
 [Assholes: A Probing Examination](https://www.nomachetejuggling.com/2019/06/03/dont-hire-assholes/)
 
 [Death to Bullshit](https://deathtobullshit.com/) [(mirror)](https://web.archive.org/web/20191217003321/http://deathtobullshit.com/)
 
-<img src="/common/github-mark-white.svg" style="height:0.8em"> [Hacker-Laws](https://github.com/dwmkerr/hacker-laws)
+[Hacker-Laws](https://github.com/dwmkerr/hacker-laws)
 
 [Proof of X](https://julian.digital/2020/08/06/proof-of-x/)
 

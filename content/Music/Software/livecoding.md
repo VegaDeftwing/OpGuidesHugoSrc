@@ -220,7 +220,7 @@ I can't find a demo! If you make one, let me know and I'll put it here!
 
 {{< columns2 >}}
 
-[Siren (GitHub)](https://github.com/cannc4/Siren/)
+[Siren](https://github.com/cannc4/Siren/)
 
 <--->
 

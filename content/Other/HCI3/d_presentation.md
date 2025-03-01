@@ -6,7 +6,6 @@ Thoughts:
 
 ---
 
-
 This section is about how we view information, the presentation of words on a page, graphs, and information in general. To start, I want to look at something a little bit different.
 
 ![](/hci/gemini.webp)
@@ -100,7 +99,7 @@ This may not ensure the data is good, but at least it makes progress in increasi
 
 This could have extra uses too. Having something that could take two 2D graphs with a common axis and turn it into one 3d graph would be incredible, particularly if that data could come from multiple sources across multiple domains. Combine this with the ability to change the type of graph and this could help expose otherwise non obvious trends. After all, some of the best discoveries come from random people making cross disciplinary connections.
 
-Beyond that, content moderation needs improvements too - I don't even mean fake news or porn here (Though we could stand to have better nsfw tagging on most social media). I mean the bullshit reviews on Amazon or the fake products when shopping online (mostly fake electronics). If those services are going to be allowed to make stupid amounts of money, they should be required to do at least a tiny bit of consumer protection. Hell, Amazon was even selling [Negative Ion/Anti-5g Products Are Actually RADIOACTIVE (The Thought Emporium, YouTube)](https://www.youtube.com/watch?v=C7TwBUxxIC0).
+Beyond that, content moderation needs improvements too - I don't even mean fake news or porn here (Though we could stand to have better nsfw tagging on most social media). I mean the bullshit reviews on Amazon or the fake products when shopping online (mostly fake electronics). If those services are going to be allowed to make stupid amounts of money, they should be required to do at least a tiny bit of consumer protection. Hell, Amazon was even selling [Negative Ion/Anti-5g Products Are Actually RADIOACTIVE (The Thought Emporium)](https://www.youtube.com/watch?v=C7TwBUxxIC0).
 
 ### Information Overload
 

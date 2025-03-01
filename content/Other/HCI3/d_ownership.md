@@ -7,6 +7,8 @@ Clarify ownership in the copyright sense and ownership in the ethical creepy sen
 
 Software for using hardware to full fetaure should always be included. If paid, subscriptions are the worst https://romanzipp.com/blog/no-you-cant-use-your-6299-canon-camera-as-a-webcamc
 
+THis app doesn't allow screenshots, blocking right click, and other client-side anti-features.
+
 
 # Ownership & Enshittification
 In early 2024 it was headline news for gamers that Ubisoft was displaying the message:

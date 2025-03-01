@@ -36,4 +36,4 @@
 
 [Least Squares](https://en.wikipedia.org/wiki/Least_squares)
 
-[The Bernstein Basis (Mutual Information, YouTube)](https://www.youtube.com/watch?v=DNFhI_Op4y0)
+[The Bernstein Basis (Mutual Information)](https://www.youtube.com/watch?v=DNFhI_Op4y0)

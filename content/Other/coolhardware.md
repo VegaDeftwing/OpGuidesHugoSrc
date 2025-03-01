@@ -22,7 +22,7 @@
   
   <img src="https://github.com/ozel/DIY_particle_detector/raw/master/images/Alpha-spectrometer_with_ceramics_in_chocolate_box.jpeg" style="zoom:33%;" />
 
-* [Williams Tube (Wikipedia)](https://en.wikipedia.org/wiki/Williams_tube)
+* [Williams Tube](https://en.wikipedia.org/wiki/Williams_tube)
 
 * [Slow Motion optical illusion picture frame kit on Tindie](https://www.tindie.com/products/Nick64/jf-slomo-slow-motion-frame-diy-kit/)
 
@@ -78,7 +78,7 @@
 
 {{< attribution >}}Photo by [Ingmar Runage](https://commons.wikimedia.org/w/index.php?title=User:Ingmar_Runge&action=edit&redlink=1), [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) {{< /attribution >}}
 
-{{< smalltext >}}also see [this Tom Scott video (YouTube)](https://www.youtube.com/watch?v=xbi6eoh63ZQ) about it{{< /smalltext >}}
+{{< smalltext >}}also see [this Tom Scott video](https://www.youtube.com/watch?v=xbi6eoh63ZQ) about it{{< /smalltext >}}
 
 <--->
 

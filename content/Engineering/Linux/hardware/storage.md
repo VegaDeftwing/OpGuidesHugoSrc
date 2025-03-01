@@ -26,7 +26,7 @@ Looking at the de-lidded hard drive, you'll see they're pretty simple in their b
 
 HDDs generally run at 'good enough' speeds for most things- like storing video, music, etc. while being much less expensive than solid state options for a given amount of storage, and with a proven reliability and without suffering from data loss when left without power for long periods of time. That said, just like any storage medium, over time data can be corrupted, so backups are still a must.
 
-When a Hard drive is powered off, the head will typically 'park' off the platter (this is part of why the delidded plater above died, as it parked incorrectly) and transportation should be pretty safe, however, when running and spinning quickly they're pretty fragile, and this is why so many older laptops have dead drives: the gyroscopic effects of spinning something that fast make it resistant to a change in orientation, causing things to scrape, scratch, or otherwise go wrong. Thankfully, most 2.5" hard drives have been hardened against this now; however, it's still a good idea to store and run hard drives with as much protection from vibration and shock as possible. In fact, yelling at a hard drive <img src="/common/youtube_social_icon_red.webp" style="height:0.8em"> [has been shown](https://www.youtube.com/watch?v=tDacjrSCeq4) to hurt performance.
+When a Hard drive is powered off, the head will typically 'park' off the platter (this is part of why the delidded plater above died, as it parked incorrectly) and transportation should be pretty safe, however, when running and spinning quickly they're pretty fragile, and this is why so many older laptops have dead drives: the gyroscopic effects of spinning something that fast make it resistant to a change in orientation, causing things to scrape, scratch, or otherwise go wrong. Thankfully, most 2.5" hard drives have been hardened against this now; however, it's still a good idea to store and run hard drives with as much protection from vibration and shock as possible. In fact, yelling at a hard drive [has been shown](https://www.youtube.com/watch?v=tDacjrSCeq4) to hurt performance.
 
 At the end of the day, for bulk media storage that you still want to be able to access quickly or for backups, hard drives are still one of the best options.
 
@@ -94,7 +94,7 @@ Finally, a quick note about Western Digital Green drives: Linux eats them. Thank
 
 [Western Digital is trying to redefine the word “RPM” (arstechnica)](https://arstechnica.com/gadgets/2020/09/western-digital-is-trying-to-redefine-the-word-rpm/)
 
-<img src="/common/youtube_social_icon_red.webp" style="height:0.8em"> [What Is ZFS?: A Brief Primer (Level1Linux)](https://www.youtube.com/watch?v=lsFDp-W1Ks0)
+[What Is ZFS?: A Brief Primer (Level1Linux)](https://www.youtube.com/watch?v=lsFDp-W1Ks0)
 
 [Non-Posix File Systems (Göran Weinholt's Blog)](https://weinholt.se/articles/non-posix-filesystems/)
 
@@ -108,7 +108,7 @@ All SSDs, regardless of type, consist of 3 main parts: The Controller, the NAND,
 
 All three of these can make a difference to both performance and reliability, though honestly, this is one situation where just sticking name brand is probably the best way to ensure you don't get boned. Samsung, Intel, Silicon Power, Kingston, Crucial, Western Digital, SanDisk, Micro, ADATA, and Toshiba should all be safe bets. It's really not worth saving a buck on a no-name brand when your data is at stake.
 
-If you do care about the nerdy nitty-gritty, you should read about  <span style="font-family: Arial">𝐖</span> [Multi Level Cell Flash](https://en.wikipedia.org/wiki/Multi-level_cell), with the general takeaway that more levels means more space but worse speeds and durability.
+If you do care about the nerdy nitty-gritty, you should read about  [Multi Level Cell Flash](https://en.wikipedia.org/wiki/Multi-level_cell), with the general takeaway that more levels means more space but worse speeds and durability.
 
 It's also worth mentioning that new flash types, controllers, and methods to make things even faster keep coming out. One of the most interesting is Intel's Optane SSDs which use 3D XPoint, which, is fast, very low latency, and more durable than flash, but more expensive. It's actually fast enough that in some exotic systems, it's starting <img src="/common/youtube_social_icon_red.webp" style="heitgh0:0.8em"> [to be used as an alternative to RAM](https://youtu.be/uHAfTty9UWY) that can also keep its data though a reboot (unlike normal RAM).
 
@@ -156,7 +156,7 @@ Floppy, Zip, tape
 
 ## RAID and Disk Pools
 
-[Adventures in Motherboard Raid (it's bad) - (Level1Techs, YouTube)](https://www.youtube.com/watch?v=xZJxV-_LbMc)
+[Adventures in Motherboard Raid (it's bad) - (Level1Techs)](https://www.youtube.com/watch?v=xZJxV-_LbMc)
 
 [TODO]
 

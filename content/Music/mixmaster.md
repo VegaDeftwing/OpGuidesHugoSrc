@@ -22,7 +22,7 @@ eq, pan, quadraphonic+
 
 ## Mastering
 
-[Delay Always Means Phase Shift But Phase Shift Does Not Always Mean Delay (YouTube, Dan Worrall)](https://youtu.be/H3ZyaXgTqjM)
+[Delay Always Means Phase Shift But Phase Shift Does Not Always Mean Delay (Dan Worrall)](https://youtu.be/H3ZyaXgTqjM)
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/s6Bo9VN4z3w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

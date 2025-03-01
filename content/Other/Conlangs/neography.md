@@ -240,7 +240,7 @@ If these are conlangs, they're not even as different as [Iqglic](https://www.you
 
 [Dodeka](https://www.dodekamusic.com) goes a bit further, but mostly feels like an advert for a piano that just flattens the keybed. Regardless, I think there is value in at least trying to make a system easier to read and write even if it doesn't improve the overall flexibility.
 
-I should also point out there are other musical notation systems from cultures I am less familiar with - just like I'm not experienced in natural languages outside of English. The [Musical Notation Wikipedia page](https://en.wikipedia.org/wiki/Musical_notation) shows some of these, but I'm not even sure how to go about research most of these in depth. This also ties into how the term "music theory" isn't very good at describing modern music so much as [the harmonic style of 18th century European musicians (Adam Neely, YouTube)](https://www.youtube.com/watch?v=Kr3quGh7pJA) - If you'll forgive the tangent going yet another level deeper, the same issues we have with other languages going extinct will inevitiblely come to these musical notations too.
+I should also point out there are other musical notation systems from cultures I am less familiar with - just like I'm not experienced in natural languages outside of English. The [Musical Notation Wikipedia page](https://en.wikipedia.org/wiki/Musical_notation) shows some of these, but I'm not even sure how to go about research most of these in depth. This also ties into how the term "music theory" isn't very good at describing modern music so much as [the harmonic style of 18th century European musicians (Adam Neely)](https://www.youtube.com/watch?v=Kr3quGh7pJA) - If you'll forgive the tangent going yet another level deeper, the same issues we have with other languages going extinct will inevitiblely come to these musical notations too.
 
 To the point: It seems like the "shared, universal language" isn't all that shared or all that universal - let alone flexible enough to convey what we need.
 
@@ -361,7 +361,7 @@ Hiding messages is an art form of itself, and can have a myriad of different req
 * Maybe you want it to be difficult to see there's a message at all
 * Maybe you want it to be obvious there's a message and make it difficult to decode
 
-This does start to go into a conversation about [steganography (Wikipedia)](https://en.wikipedia.org/wiki/Steganography).<footnote>Not to be confused with Stenography, which is the process of writing in shorthand. Most commonly today this term is used to talk about how court reporters use special keyboards.</br>Also not to be confused with Stegography, the process of writitng with the tail of a Stegosaurus.</footnote>
+This does start to go into a conversation about [steganography](https://en.wikipedia.org/wiki/Steganography).<footnote>Not to be confused with Stenography, which is the process of writing in shorthand. Most commonly today this term is used to talk about how court reporters use special keyboards.</br>Also not to be confused with Stegography, the process of writitng with the tail of a Stegosaurus.</footnote>
 
 {{< quote "[Wikipedia](https://en.wikipedia.org/wiki/Steganography)" >}}
 
@@ -557,7 +557,7 @@ Typically - but now always - DSLs are embedded into a general purpose programmin
 
 {{< /details >}}
 
-The most famous two are [regex (Wikipedia)](https://en.wikipedia.org/wiki/Regular_expression) for processing text and [SQL (Wikipedia)](https://en.wikipedia.org/wiki/SQL) for working with databases. I think you can apply that idea can apply in other niches too. If you think about *speech* vs *writing* vs *signing* vs *braille* and how each can have multiple co-existing (or competing) standards / systems, it's really not a stretch of the imagination.
+The most famous two are [regex](https://en.wikipedia.org/wiki/Regular_expression) for processing text and [SQL](https://en.wikipedia.org/wiki/SQL) for working with databases. I think you can apply that idea can apply in other niches too. If you think about *speech* vs *writing* vs *signing* vs *braille* and how each can have multiple co-existing (or competing) standards / systems, it's really not a stretch of the imagination.
 
 My friend jan Usawi recently made a fantastic language called {{< button relref="Other/conlangs/rhapsodaic" color="other" >}} Rhapsodaic {{< /button >}} which is detailed on this website, but as a TL;DR: Rhapsodaic, as a core design philosophy, values preserving emotional meaning over all else... and I mean all. It means the actual meaning <s>might</s> will be ambiguous, but you'll definitely know how the speaker is feeling and it can be said more accurately than in most any other language. It's also very pretty as a script.
 
@@ -581,7 +581,7 @@ But if we think about each of those, there are tools for working with them to ma
 
 Of course, there are many tools out there and I don't think it's unreasonable to consider each a different dialect, some more closely related than others.
 
-Bringing this back around, what if we made software packages for language entry? Something that does more than just grammar and spell check but rather helps us consider how to think about complex ideas. Definitely not like Grammarly, sorta like Chat-GPT, but really I'm thinking about more tools like [prosodic (GitHub)](https://github.com/quadrismegistus/prosodic)
+Bringing this back around, what if we made software packages for language entry? Something that does more than just grammar and spell check but rather helps us consider how to think about complex ideas. Definitely not like Grammarly, sorta like Chat-GPT, but really I'm thinking about more tools like [prosodic](https://github.com/quadrismegistus/prosodic)
 <div class="scifi">
 <pre>
 ################################################

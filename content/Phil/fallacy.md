@@ -14,7 +14,7 @@ If you'd like something more visual, I recommend reading this [Illustrated Book 
 
 ## Argumentum ad populum
 
-[Argumentum ad populum (Wikipedia)](https://en.wikipedia.org/wiki/Argumentum_ad_populum) also know as the 'Bandwagon fallacy'
+[Argumentum ad populum](https://en.wikipedia.org/wiki/Argumentum_ad_populum) also know as the 'Bandwagon fallacy'
 
 {{< quote Wikipedia>}}
 
@@ -28,7 +28,7 @@ In [argumentation theory](https://en.wikipedia.org/wiki/Argumentation_theory), a
 
 ## Argument to moderation
 
-[Argument to moderation (Wikipedia)](https://en.wikipedia.org/wiki/Argument_to_moderation)
+[Argument to moderation](https://en.wikipedia.org/wiki/Argument_to_moderation)
 
 Inflation of conflict – arguing that, if experts in a field of knowledge disagree on a certain point within that field, no conclusion can be reached or that the legitimacy of that field of knowledge is questionable.
 
@@ -38,7 +38,7 @@ Similarly, if most people think the Earth is flat, and some small fringe group o
 
 ## Slippery slope
 
-[Slippery slope (Wikipedia)](https://en.wikipedia.org/wiki/Slippery_slope)
+[Slippery slope](https://en.wikipedia.org/wiki/Slippery_slope)
 
 "If we let *the gays* marry, what's next, letting people marry horses!?"
 
@@ -50,7 +50,7 @@ Not everything is a slippery slope. If there is actual evidence that one action 
 
 ## Begging the Question
 
-[Begging the Question (Wikipedia)](https://en.wikipedia.org/wiki/Begging_the_question)
+[Begging the Question](https://en.wikipedia.org/wiki/Begging_the_question)
 
 This is just a type of circular reasoning, think claims like
 
@@ -60,7 +60,7 @@ Well, no, you just restated the definition of aphrodisiac. That's how *most* 'be
 
 ## Cherry Picking
 
-[Cherry Picking (Wikipedia)](https://en.wikipedia.org/wiki/Cherry_picking_(fallacy))
+[Cherry Picking](https://en.wikipedia.org/wiki/Cherry_picking_(fallacy))
 
 {{< quote Wikipedia>}}
 
@@ -70,7 +70,7 @@ Well, no, you just restated the definition of aphrodisiac. That's how *most* 'be
 
 ## Sampling Bias
 
-[Sampling Bias (Wikipedia)](https://en.wikipedia.org/wiki/Sampling_bias)
+[Sampling Bias](https://en.wikipedia.org/wiki/Sampling_bias)
 
 {{< quote Wikipedia>}}
 
@@ -84,7 +84,7 @@ Say you wanted to study rates of COVID spread in a community, if you're only loo
 
 ## Survivorship Bias
 
-[Survivorship Bias (Wikipedia)](https://en.wikipedia.org/wiki/Survivorship_bias)
+[Survivorship Bias](https://en.wikipedia.org/wiki/Survivorship_bias)
 
 {{< columns >}}
 
@@ -120,7 +120,7 @@ Basically, people get determined and don't want to feel like their prior time or
 
 ## Pareto Principle
 
-[Pareto Principle (Wikipedia)](https://en.wikipedia.org/wiki/Pareto_principle)
+[Pareto Principle](https://en.wikipedia.org/wiki/Pareto_principle)
 
 {{< quote Wikipedia>}}
 
@@ -132,7 +132,7 @@ Mathematically, the 80/20 rule is roughly described by a power law distribution 
 
 {{< /quote >}}
 
-The Pareto Principle is derived from [Zipf's Law (Wikipedia)](https://en.wikipedia.org/wiki/Zipf's_law), 
+The Pareto Principle is derived from [Zipf's Law](https://en.wikipedia.org/wiki/Zipf's_law), 
 
 {{< quote Wikipedia>}}
 
@@ -144,7 +144,7 @@ The Pareto Principle is derived from [Zipf's Law (Wikipedia)](https://en.wikiped
 
 ## Ad hominem
 
-[Ad hominem (Wikipedia)](https://en.wikipedia.org/wiki/Ad_hominem)
+[Ad hominem](https://en.wikipedia.org/wiki/Ad_hominem)
 
 {{< quote Wikipedia>}}
 
@@ -156,7 +156,7 @@ For example "Bob says that being gay is okay, but Bob is an atheist, so clearly 
 
 ## Appeal to authority
 
-[Appeal to authority (Wikipedia)](https://en.wikipedia.org/wiki/Appeal_to_authority)
+[Appeal to authority](https://en.wikipedia.org/wiki/Appeal_to_authority)
 
 "God said it is true, so it is"
 
@@ -164,7 +164,7 @@ For example "Bob says that being gay is okay, but Bob is an atheist, so clearly 
 
 ## I'm entitled to my opinion
 
-[I'm entitled to my opinion (Wikipedia)](https://en.wikipedia.org/wiki/I'm_entitled_to_my_opinion)
+[I'm entitled to my opinion](https://en.wikipedia.org/wiki/I'm_entitled_to_my_opinion)
 
 {{< quote Wikipedia>}}
 
@@ -176,7 +176,7 @@ This fallacy, is a bit different from the others as it's not so much a breaking 
 
 ## Straw man
 
-[Straw man (Wikipedia)](https://en.wikipedia.org/wiki/Straw_man)
+[Straw man](https://en.wikipedia.org/wiki/Straw_man)
 
 {{< quote Wikipedia>}}
 
@@ -195,7 +195,7 @@ The straw man [fallacy](https://en.wikipedia.org/wiki/Fallacy) occurs in the fol
 
 ## Whataboutism & Moving the Goalposts
 
-[Whataboutism (Wikipedia)](https://en.wikipedia.org/wiki/Whataboutism) & [Moving the Goalposts (Wikipedia)](https://en.wikipedia.org/wiki/Moving_the_goalposts)
+[Whataboutism](https://en.wikipedia.org/wiki/Whataboutism) & [Moving the Goalposts](https://en.wikipedia.org/wiki/Moving_the_goalposts)
 
 {{< quote Wikipedia>}}
 
@@ -215,7 +215,7 @@ The straw man [fallacy](https://en.wikipedia.org/wiki/Fallacy) occurs in the fol
 
 ## False Dichotomy/Dilemma
 
-[False Dilemma (Wikipedia)](https://en.wikipedia.org/wiki/False_dilemma)
+[False Dilemma](https://en.wikipedia.org/wiki/False_dilemma)
 
 {{< quote Wikipedia>}}
 
@@ -229,7 +229,7 @@ A **false dilemma** (sometimes called **false dichotomy**) is a type of [informa
 
 ## Appeal to Ignorance
 
-[Argument from Ignorance (Wikipedia)](https://en.wikipedia.org/wiki/Argument_from_ignorance), hand shortened version below:
+[Argument from Ignorance](https://en.wikipedia.org/wiki/Argument_from_ignorance), hand shortened version below:
 
 {{< quote Wikipedia>}}
 
@@ -269,7 +269,7 @@ Draws a conclusion based on lack of knowledge or evidence without accounting for
 
 ## The Texas Sharpshooter
 
-[Texas Sharpshooter Falacy (Wikipedia)](https://en.wikipedia.org/wiki/Texas_sharpshooter_fallacy)
+[Texas Sharpshooter Falacy](https://en.wikipedia.org/wiki/Texas_sharpshooter_fallacy)
 
 {{< quote Wikipedia>}}
 The **Texas sharpshooter fallacy** is an informal fallacy which is committed when differences in data are ignored, but similarities are overemphasized. From this reasoning, a false conclusion is inferred.
@@ -291,7 +291,7 @@ In politics, a **dog whistle** is the use of [coded or suggestive language](http
 
 ## Quoting Out Of Context
 
-[Quoting out of Context (Wikipedia)](https://en.wikipedia.org/wiki/Quoting_out_of_context)
+[Quoting out of Context](https://en.wikipedia.org/wiki/Quoting_out_of_context)
 
 {{< quote Wikipedia>}}
 **Quoting out of context** (sometimes referred to as **contextomy** or **quote mining**) is an informal fallacy in which a passage is removed from its surrounding matter in such a way as to distort its intended meaning.
@@ -301,14 +301,14 @@ One of the most familiar examples of contextomy is the ubiquitous "review [blurb
 
 ## Occam's Razor
 
-[Occam's Razor (Wikipedia)](https://en.wikipedia.org/wiki/Occam's_razor)
+[Occam's Razor](https://en.wikipedia.org/wiki/Occam's_razor)
 
 {{< bigquote "William of Ockham, but not really?" >}}
 The simplest explanation is usually the right one
 {{< /bigquote >}}
 
 {{< hint warning >}}
-Okay, so technically, this is a misquote. See the Wikipedia article: [Occam's Razor (Wikipedia)](https://en.wikipedia.org/wiki/Occam's_razor) for more information on this. Regardless, this is what everybody means when they talk about Occam's Razor
+Okay, so technically, this is a misquote. See the Wikipedia article: [Occam's Razor](https://en.wikipedia.org/wiki/Occam's_razor) for more information on this. Regardless, this is what everybody means when they talk about Occam's Razor
 {{< /hint >}}
 
 There's a bit of a problem: "simplest" here is a bit crude. Does it mean simplest to describe or simplest to justify? For example, saying 'God created the universe' is very easily described, but to justify requires the proof that a supreme being exists, that it's a singular supreme being, and if you mean the Christian God, that it's that God specifically, then that being didn't exist prior to the universe. You get the idea.
@@ -319,7 +319,7 @@ Basically, while you can't rule out complex answers entirely, if there's an unkn
 
 ## Tragedy of the commons
 
-[Tragedy of the commons (Wikipedia)](https://en.wikipedia.org/wiki/Tragedy_of_the_commons)
+[Tragedy of the commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons)
 
 {{< quote Wikipedia>}}
 The **tragedy of the commons** is a situation in a shared-resource system where individual users, acting independently according to their own self-interest, behave contrary to the common good of all users by depleting or spoiling the shared resource through their collective action.
@@ -339,7 +339,7 @@ Vaccines do have some side effects, usually just a low fever and a sore arm, and
 
 ## Self-Censorship
 
-[Self-Censorship (Wikipedia)](https://en.wikipedia.org/wiki/Self-censorship)
+[Self-Censorship](https://en.wikipedia.org/wiki/Self-censorship)
 
 {{< quote Wikipedia>}}
 **Self-censorship** is the act of censoring or classifying one's own discourse. This is done out of fear of, or deference to, the sensibilities or preferences (actual or perceived) of others and without overt pressure from any specific party or institution of authority. Self-censorship is often practiced by film producers, film directors, publishers, news anchors, [journalists](https://en.wikipedia.org/wiki/Journalist), musicians, and other kinds of authors including individuals who use social media.
@@ -359,7 +359,7 @@ Source: https://www.instagram.com/p/CEpI20ps5wE/
 
 ## Doomscrolling
 
-[Doomscrolling (Wikipedia)](https://en.wikipedia.org/wiki/Doomscrolling)
+[Doomscrolling](https://en.wikipedia.org/wiki/Doomscrolling)
 
 {{< quote Wikipedia>}}
 **Doomscrolling** is the act of consuming a large quantity of negative online news, typically without pause, to the detriment of the mental health of the person consuming it. Essentially, if the news is bad or depressing, one can 'doomscroll' it.
@@ -367,7 +367,7 @@ Source: https://www.instagram.com/p/CEpI20ps5wE/
 
 ## Chilling Effect
 
-[Chilling Effect (Wikipedia)](https://en.wikipedia.org/wiki/Chilling_effect)
+[Chilling Effect](https://en.wikipedia.org/wiki/Chilling_effect)
 
 {{< quote Wikipedia>}}
 In a legal context, a **chilling effect** is the inhibition or discouragement of the legitimate exercise of natural and legal rights by the threat of legal sanction.
@@ -377,7 +377,7 @@ A lawsuit initiated specifically for the purpose of creating a chilling effect m
 
 ## Streisand Effect
 
-[Streisand Effect (Wikipedia)](https://en.wikipedia.org/wiki/Streisand_effect)
+[Streisand Effect](https://en.wikipedia.org/wiki/Streisand_effect)
 
 {{< quote Wikipedia>}}
 The **Streisand effect** is a social phenomenon that occurs when an attempt to hide, remove, or censor information has the unintended consequence of further publicizing that information, often via the Internet.
@@ -397,7 +397,7 @@ The **Overton window** is the range of policies politically acceptable to the ma
 
 ## Hanlon's Razor
 
-[Hanlon's Razor (Wikipedia)](https://en.wikipedia.org/wiki/Hanlon's_razor)
+[Hanlon's Razor](https://en.wikipedia.org/wiki/Hanlon's_razor)
 
 {{< bigquote "Robert J. Hanlon" >}}
 Never attribute to malice that which is adequately explained by stupidity
@@ -427,7 +427,7 @@ There is a whole class of fallacies in this group, as appeals to emotions like f
 
 {{< /hint >}}
 
-[Think of The Children (Wikipedia)](https://en.wikipedia.org/wiki/Think_of_the_children)
+[Think of The Children](https://en.wikipedia.org/wiki/Think_of_the_children)
 
 {{< quote Wikipedia>}}
 "**Think of the children**" (also "**What about the children?**") is a [cliché](https://en.wikipedia.org/wiki/Cliché) that evolved into a [rhetorical](https://en.wikipedia.org/wiki/Rhetoric) tactic. Literally, it refers to [children's rights](https://en.wikipedia.org/wiki/Children's_rights) (as in discussions of [child labor](https://en.wikipedia.org/wiki/Child_labor)). In debate, however, it is a [plea for pity](https://en.wikipedia.org/wiki/Appeal_to_pity) that is used as an [appeal to emotion](https://en.wikipedia.org/wiki/Appeal_to_emotion), and therefore it becomes a [logical fallacy](https://en.wikipedia.org/wiki/Formal_fallacy).
@@ -494,6 +494,6 @@ TODO
 
 Related-ish:
 
-[Benford's Law (Wikipedia)](https://en.wikipedia.org/wiki/Benford's_law)
+[Benford's Law](https://en.wikipedia.org/wiki/Benford's_law)
 
 http://www.loper-os.org/bad-at-entropy/manmach.html

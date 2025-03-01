@@ -286,7 +286,7 @@ Sizing of displays is a bit odd. A 27" 16:9 display, is not the same size as a 2
 
 {{< tab "Resolution" >}}
 
-**Resolution** of a display refers to the number of pixels, HD technically starts at 720p, or 720 pixels across, though this is generally rather low by modern standards, with acceptable usually considered 1080p, which is technically 1920×1080. You may also see 1080i, this is a strange concept, not actually related to resolution, but more to refresh rate. [Interlaced Video (Wikipedia)](https://en.wikipedia.org/wiki/Interlaced_video)
+**Resolution** of a display refers to the number of pixels, HD technically starts at 720p, or 720 pixels across, though this is generally rather low by modern standards, with acceptable usually considered 1080p, which is technically 1920×1080. You may also see 1080i, this is a strange concept, not actually related to resolution, but more to refresh rate. [Interlaced Video](https://en.wikipedia.org/wiki/Interlaced_video)
 
 QHD is 1440p and 4k (ignoring the mess of naming there) is usually 2160p. I recommenced against 1440p unless the system is mostly for gaming, as scaling from most content that is in 1080p to 1440p is awkward compared to the direct 2x scaling with 1080p to 2160p
 
@@ -432,7 +432,7 @@ Noise isolation both electrical and physical, headphone types (over, on, in), am
 
 **Air Quality**
 
-[This Is Your Brain On Stale Air (YouTube)](https://www.youtube.com/watch?v=1Nh_vxpycEA&list=FLFMnqfaTa1se1LfbCB3peJQ)
+[This Is Your Brain On Stale Air (Tom Scott)](https://www.youtube.com/watch?v=1Nh_vxpycEA&list=FLFMnqfaTa1se1LfbCB3peJQ)
 
 
 

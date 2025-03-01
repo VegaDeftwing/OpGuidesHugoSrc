@@ -110,7 +110,7 @@ Now, ECC would be great and all, but the memory in the system you're reading thi
 
 {{< columns >}}
 
-Well, for one, you need to get a feel for when something might be a memory error. Generally, if you see issues that you can't attribute to anything in software, where there's no obvious pattern, it's a good bet that it's memory. Assuming you're on an x86(_64) system, like *most* laptops or desktops, you can check with <span style="font-family: Arial">𝐖</span> [Memtest86(+)](https://en.wikipedia.org/wiki/Memtest86). It often needs to run for a few hours to find anything, but when it does you'll get a big red error.
+Well, for one, you need to get a feel for when something might be a memory error. Generally, if you see issues that you can't attribute to anything in software, where there's no obvious pattern, it's a good bet that it's memory. Assuming you're on an x86(_64) system, like *most* laptops or desktops, you can check with [Memtest86(+)](https://en.wikipedia.org/wiki/Memtest86). It often needs to run for a few hours to find anything, but when it does you'll get a big red error.
 
 Unfortunately, this probably means you need to buy new RAM. In the absolute worst case, maybe a new CPU if the memory controller has gotten damaged, but this is unlikely.
 
@@ -132,9 +132,9 @@ You're far more likely to get RAM errors if you Overclock your RAM as well, so j
 
 It may seem like RAM is simple enough as to not really have any opportunities for massive changes in the future. This is not the case. Currently, there are real, commercially available products implementing both Processing In Memory (PIM) and memory persistence (non-volatile main memory)
 
-This article, [In-Memory Processing by UPMEM](https://www.anandtech.com/show/14750/hot-chips-31-analysis-inmemory-processing-by-upmem), from AnandTech goes into the former, while the [Intel Optane Persistent Memory](https://www.storagereview.com/news/intel-optane-dc-persistent-memory-module-pmm) article from StorageReview and <img src="/common/youtube_social_icon_red.webp" style="height:0.8em"> [this video from Linus Tech Tips](https://www.youtube.com/watch?v=uHAfTty9UWY) cover the latter.
+This article, [In-Memory Processing by UPMEM](https://www.anandtech.com/show/14750/hot-chips-31-analysis-inmemory-processing-by-upmem), from AnandTech goes into the former, while the [Intel Optane Persistent Memory](https://www.storagereview.com/news/intel-optane-dc-persistent-memory-module-pmm) article from StorageReview and [this video from Linus Tech Tips](https://www.youtube.com/watch?v=uHAfTty9UWY) cover the latter.
 
-It's also very likely we'll see new form factors as we run into problems with signal integrity. We're already seeing the start of this with laptop's (<img src="/common/youtube_social_icon_red.webp" style="height:0.8em"> [CAMM Memory (Linus Tech Tips)](https://www.youtube.com/watch?v=WXp4g-KzdAI)) but given the signal integrity woes at hand and the rapid progress of stacking silicon in recent years, it's not even out of the question we'll see it be on a silicon interposer soon- RIP upgradability, but hello speed.
+It's also very likely we'll see new form factors as we run into problems with signal integrity. We're already seeing the start of this with laptop's ([CAMM Memory (Linus Tech Tips)](https://www.youtube.com/watch?v=WXp4g-KzdAI)) but given the signal integrity woes at hand and the rapid progress of stacking silicon in recent years, it's not even out of the question we'll see it be on a silicon interposer soon- RIP upgradability, but hello speed.
 
 ## Row Hammer
 
@@ -142,7 +142,7 @@ It's also very likely we'll see new form factors as we run into problems with si
 
 Row Hammer is vulnerability that arises due to the way memory is arranged physically and electrically on a memory stick. It lets you flip bits you shouldn't be able to by 'hammering' on the row above or below the target row, hoping that you can induce a bit flip in the target row. It's also been "fixed" multiple times, [and is *still* a problem](https://comsec.ethz.ch/research/dram/blacksmith/) {{< smalltext >}}...though it is supposed to be fixed for real this time in DDR5{{< /smalltext >}}
 
-<span style="font-family: Arial">𝐖</span> [Row Hammer's Wikipedia Page](https://en.wikipedia.org/wiki/Row_hammer) has some a very good overview as well as some example assembly to explain the exploit
+[Row Hammer's Wikipedia Page](https://en.wikipedia.org/wiki/Row_hammer) has some a very good overview as well as some example assembly to explain the exploit
 
 <--->
 

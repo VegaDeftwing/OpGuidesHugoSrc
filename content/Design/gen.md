@@ -318,7 +318,7 @@ Import real map data into blender, cool for topographic maps and such
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/97RsfY2ODw0?list=PLuYLhuXt4HrQqnfSceITmv6T_drx1hN84" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Huge Playlist on Constructed Languages ( Conlang Critic on YouTube)](https://www.youtube.com/watch?v=97RsfY2ODw0&list=PLuYLhuXt4HrQqnfSceITmv6T_drx1hN84&index=33)
+[Huge Playlist on Constructed Languages (Conlang Critic)](https://www.youtube.com/watch?v=97RsfY2ODw0&list=PLuYLhuXt4HrQqnfSceITmv6T_drx1hN84&index=33)
 
 Some more cool examples, but lacking code:
 
@@ -365,7 +365,7 @@ Noise maker can make a ton of generative art pieces, as you can see at the right
 
 {{< columns2 >}}
 
-[Noisey-Shapes (GitHub)](https://github.com/cnfrancis/noisey-shapes)
+[Noisey-Shapes](https://github.com/cnfrancis/noisey-shapes)
 
 <--->
 
@@ -489,7 +489,7 @@ Test different {{< vale >}}penrose{{< /vale >}} tilings. If you edit the HTML yo
 
 {{< columns2 >}}
 
-[FastNoise2 (GitHub)](https://github.com/Auburn/FastNoise2)
+[FastNoise2](https://github.com/Auburn/FastNoise2)
 
 <--->
 
@@ -521,15 +521,15 @@ Modular node based noise generation library
 
 [r/pixelsorting (Reddit)](https://www.reddit.com/r/pixelsorting/)
 
-[PixelSorting using Processing (GitHub)](https://github.com/jeffThompson/PixelSorting)
+[PixelSorting using Processing](https://github.com/jeffThompson/PixelSorting)
 
-[python pixelsort, with masks (GitHub)](https://github.com/satyarth/pixelsort)
+[python pixelsort, with masks](https://github.com/satyarth/pixelsort)
 
-[Python again, but with animation support (GitHub)](https://github.com/rkargon/pixelsorter)
+[Python again, but with animation support](https://github.com/rkargon/pixelsorter)
 
 [Pixsort for Adobe After Effects (15 USD)](https://wunkolo.itch.io/pixsort)
 
-[GenerateMe (GitHub)](https://github.com/tsulej/GenerateMe) - lots of glitch effects
+[GenerateMe](https://github.com/tsulej/GenerateMe) - lots of glitch effects
 
 {{< /details >}}
 
@@ -671,7 +671,7 @@ Chaotica is **free for noncommercial use**, and can render up to 1.23 megapixel 
 {{< /columns2 >}}
 
 {{< columns2 >}}
-[p5-live (GitHub)](https://github.com/yangsu/p5-live)
+[p5-live](https://github.com/yangsu/p5-live)
 <--->
 live coding for p5.js - you'll probably want the VS Code Extension
 <--->
@@ -699,7 +699,7 @@ JS library for visualization & creative coding
 
 {{< best >}}
 
-[Hydra (GitHub)](https://github.com/ojack/hydra)
+[Hydra](https://github.com/ojack/hydra)
 
 {{< /best >}}
 
@@ -734,7 +734,7 @@ JS library for visualization & creative coding
 {{< /columns2 >}}
 
 {{< columns2 >}}
-[Ronin (GitHub)](https://github.com/hundredrabbits/Ronin)
+[Ronin](https://github.com/hundredrabbits/Ronin)
 <--->
 {{< vale >}}"Ronin is a procedural graphics tool designed to automate simple graphical tasks, like resizing, cropping, coloring, and generating algorithmic images. It interprets a minimal dialect of LISP, look at the examples to better understand how this all works."{{< /vale >}}
 
@@ -744,7 +744,7 @@ JS library for visualization & creative coding
 {{< /columns2 >}}
 
 {{< columns2 >}}
-[The Force (GitHub)](https://github.com/shawnlawson/The_Force)
+[The Force](https://github.com/shawnlawson/The_Force)
 <--->
 … this one basically lacks all description. Best you'll get is the [API docs in the wiki](https://github.com/shawnlawson/The_Force/wiki/API).
 <--->
@@ -777,7 +777,7 @@ Realtime GPU shader editor
 {{< /columns2 >}}
 
 {{< columns2 >}}
-[Nimp (GitHub)](https://github.com/dan335/nimp)
+[Nimp](https://github.com/dan335/nimp)
 <--->
 "Node-Based Image Manipulation Program"
 <--->
@@ -810,7 +810,7 @@ Realtime GPU shader editor
 {{< /columns2 >}}
 
 {{< columns2 >}}
-[Cyril (GitHub)](https://github.com/cyrilcode/cyril) [(Main site)](http://cyrilcode.com)
+[Cyril](https://github.com/cyrilcode/cyril) [(Main site)](http://cyrilcode.com)
 <--->
 {{< vale >}}"The Cyril programming language is designed for fast prototyping of visualisations and live coding visuals."{{< /vale >}}
 <--->
@@ -831,7 +831,7 @@ Realtime GPU shader editor
 
 </br>
 
-[HackadayU Creative Code with Casey Hunt (YouTube)](https://www.youtube.com/playlist?list=PL_tws4AXg7att6rxtRNsGa36fOoRtdKJV)
+[HackadayU Creative Code with Casey Hunt](https://www.youtube.com/playlist?list=PL_tws4AXg7att6rxtRNsGa36fOoRtdKJV)
 
 
 {{< columns2 >}}

@@ -15,7 +15,7 @@ slug: "Effects"
 
 ### Automation Lanes Are Your Friend
 
-A lot of audio effects boil down to automating some simple parameter. Sometimes you may not actually need a dedicated effect and can instead get by with using [Automation Lanes (YouTube, once upon a synth)](https://www.youtube.com/watch?v=WmgXmb2V6zE) in your Digital Audio Workstation (DAW)
+A lot of audio effects boil down to automating some simple parameter. Sometimes you may not actually need a dedicated effect and can instead get by with using [Automation Lanes (once upon a synth)](https://www.youtube.com/watch?v=WmgXmb2V6zE) in your Digital Audio Workstation (DAW)
 
 ### Talk To Your Doctor About Gear Acquisition Syndrome 
 
@@ -66,7 +66,7 @@ If you want to put reverb after distortion, knock yourself out. Hell, almost eve
 
 # Neat tricks with effects
 
-[My first WET / DRY / WET Guitar Pedal Rig (YouTube, Mark Johnston)](https://www.youtube.com/watch?v=uptuRNXR0Mw)
+[My first WET / DRY / WET Guitar Pedal Rig (Mark Johnston)](https://www.youtube.com/watch?v=uptuRNXR0Mw)
 
 [How to Experiment with your effects pedal signal chain (MusicRadar)](https://www.musicradar.com/news/pedal-signal-chain-experiment)
 

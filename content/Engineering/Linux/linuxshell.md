@@ -254,7 +254,7 @@ Of note, while the majority of these commands should be available on nearly any 
 
 - **ps** - process management: listing processing, finding the parent of a particular process, etc.
 
-  - Alternative recommendation: [procs (GitHub)](https://github.com/dalance/procs)
+  - Alternative recommendation: [procs](https://github.com/dalance/procs)
 
 - **free** - display information about system RAM usage
 
@@ -371,7 +371,7 @@ Note that not all things that seem like a good fit are a good fit for regex, for
 
 [TODO] https://www.debuggex.com
 
-[Regular Expressions - Enough to be Dangerous (YouTube, Engineer man)](https://www.youtube.com/watch?v=bgBWp9EIlMM)
+[Regular Expressions - Enough to be Dangerous (Engineer man)](https://www.youtube.com/watch?v=bgBWp9EIlMM)
 
 [Crex (Octobanana git repo)](https://octobanana.com/software/crex) - "Explore, test, and check regular expressions in the terminal."
 

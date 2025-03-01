@@ -24,7 +24,7 @@ With that said, it does still help to know a bit about these things, as tools in
 
 - Volume Vs Db over frequency range
 - Masking effect
-- [Headphones Are Not Stereo (YouTube, Dan Worrall)](https://youtu.be/uZ9WQDojQt8)
+- [Headphones Are Not Stereo (Dan Worrall)](https://youtu.be/uZ9WQDojQt8)
 - Cultural meanings
 - When out of tune is desired
 - The human ear's frequency response (what frequencies we hear with what attenuation)

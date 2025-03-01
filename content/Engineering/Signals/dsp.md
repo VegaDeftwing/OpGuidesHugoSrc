@@ -94,7 +94,7 @@ Lorem sed risus ultricies tristique. Vestibulum sed arcu non odio euismod lacini
 
 [The Scientist and Engineer's Guide to Digital Signal Processing](http://www.dspguide.com/pdfbook.htm)  By Steven W. Smith, Ph.D.
 
-[Awesome MusicDSP (GitHub)](https://github.com/olilarkin/awesome-musicdsp)
+[Awesome MusicDSP](https://github.com/olilarkin/awesome-musicdsp)
 
 [Tom Erbe, Design the Erbe Verb (YouTube)](https://www.youtube.com/watch?v=Il_qdtQKnqk)
 
@@ -128,17 +128,17 @@ http://www.doepfer.de/DIY/a100_diy.htm
 
 **Software**
 
-[Awesome Audio Visualization (GitHub)](https://github.com/willianjusten/awesome-audio-visualization)
+[Awesome Audio Visualization](https://github.com/willianjusten/awesome-audio-visualization)
 
-[Kord (GitHub)](https://github.com/synestematic/kord) - a music theory development framework in python
+[Kord](https://github.com/synestematic/kord) - a music theory development framework in python
 
-[Tutorial: Programming Modules for VCV Rack - Part 1 (YouTube, Leonardo Laguna Ruiz)](https://www.youtube.com/watch?v=7Z7LHAnIIac) (This might be out of date)
+[Tutorial: Programming Modules for VCV Rack - Part 1 (Leonardo Laguna Ruiz)](https://www.youtube.com/watch?v=7Z7LHAnIIac) (This might be out of date)
 
-[Tutorial: Virtual Analog Modeling Basics, the Vult way (YouTube, Leonardo Laguna Ruiz)](https://www.youtube.com/watch?v=xQYLBS9R_uA)
+[Tutorial: Virtual Analog Modeling Basics, the Vult way (Leonardo Laguna Ruiz)](https://www.youtube.com/watch?v=xQYLBS9R_uA)
 
 [Rust For DSP](https://interrupt.memfault.com/blog/rust-for-digital-signal-processing)
 
-[Learn Modern C++ by Building an Audio Plugin w/ JUCE Framework (YouTube - freeCodeCamp.org)](https://www.youtube.com/watch?v=i_Iq4_Kd7Rc)
+[Learn Modern C++ by Building an Audio Plugin w/ JUCE Framework (freeCodeCamp.org)](https://www.youtube.com/watch?v=i_Iq4_Kd7Rc)
 
 http://ajaxsoundstudio.com/software/pyo/
 

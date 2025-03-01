@@ -784,7 +784,7 @@ https://llllllll.co/t/pcb-art-artfully-shaped-copper-traces/22027/2t
 
 [KiKit for KiCAD](https://github.com/yaqwsx/KiKit)
 
-[KiCad STM32 + RF + USB Hardware Design (YouTube, Phil's Lab)](https://www.youtube.com/watch?v=14_jh3nLSsU)
+[KiCad STM32 + RF + USB Hardware Design (Phil's Lab)](https://www.youtube.com/watch?v=14_jh3nLSsU)
 
 https://hackaday.io/project/174310-copxie-chainable-dual-57-tiny-led-matrix
 
@@ -796,9 +796,9 @@ Probably the most common of these to see is antennas, usually for 2.4Ghz (WiFi a
 
 [TODO] picture
 
-You'll also ocassionally see [PCB Spark gaps (EEVblog, YouTube)](https://www.youtube.com/watch?v=vfP_65gSSBU&list=PL3C5D963B695411B6&index=25) which are useful for protecting againt high voltage spikes. Similarly, it's possible to make a fuse by using a very thin trace. See [This video by Leaf Rex (YouTube)](https://www.youtube.com/watch?v=CMlpCX0bug8)
+You'll also ocassionally see [PCB Spark gaps (EEVblog)](https://www.youtube.com/watch?v=vfP_65gSSBU&list=PL3C5D963B695411B6&index=25) which are useful for protecting againt high voltage spikes. Similarly, it's possible to make a fuse by using a very thin trace. See [This video by Leaf Rex](https://www.youtube.com/watch?v=CMlpCX0bug8)
 
-It's also possible to impliment coils, useful for inductive coupling or transformers - see [RGB LED, Inductively Powered, Frequency Controlled (Wolf Tronix, YouTube)](https://www.youtube.com/watch?v=3DeOPN1Cl1Y).
+It's also possible to impliment coils, useful for inductive coupling or transformers - see [RGB LED, Inductively Powered, Frequency Controlled (Wolf Tronix)](https://www.youtube.com/watch?v=3DeOPN1Cl1Y).
 
 Getting a bit weirder, you can also make a capacitor by using traces on different layers; however, you'll usually only be able to get up to a few hundred pico ferrads max. It's typically not worth the complexity introduced, espically as the exact value will be variable due to manufacturing tollerances.
 

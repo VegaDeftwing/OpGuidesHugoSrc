@@ -256,7 +256,7 @@ Of note, this is the same as `char my_string[] = {'H','e','l','l','o',' ','W','o
 > > > 
 > > > They're only different by flipping one bit. We can abuse this later to go from upper to lower case or vis-versa.
 > >
-> > > If you looked though that table, you'll probably notice some weird ones like 7, which is literally "Bell". That's because ASCII was made back when people still used Teletype machines (effectively terminals that used real, physical printers) there was [literally a bell. (Wikipedia)](https://en.wikipedia.org/wiki/Bell_character) 
+> > > If you looked though that table, you'll probably notice some weird ones like 7, which is literally "Bell". That's because ASCII was made back when people still used Teletype machines (effectively terminals that used real, physical printers) there was [literally a bell.](https://en.wikipedia.org/wiki/Bell_character) 
 
 ... Well, almost. Actually, saying the array version of that is the same is a lie. C actually adds in an extra character for us automatically when we make the string like `char my_string[] = "Hello World\n";`.
 
@@ -493,7 +493,7 @@ Again, depending on the language (or libraries used) you might have some primiti
 
 * **Stacks**. Usually, these only let you access the "top" item, and add a value on (push) or remove one (pop)
 
-* **Hash maps**. [Confusing to understand (Wikipedia)](https://en.wikipedia.org/wiki/Hash_table), but can be effectively treated as a dictionary that is typically very fast.
+* **Hash maps**. [Confusing to understand](https://en.wikipedia.org/wiki/Hash_table), but can be effectively treated as a dictionary that is typically very fast.
 
 * **Linked List**. I will talk about these more later. They're a common topic to teach in CS (fuck if I know why, they're [slower than a basic array in most circumstances](https://www.reddit.com/r/learnprogramming/comments/35rugj/when_is_using_a_linked_list_better_than_an_array/))
 

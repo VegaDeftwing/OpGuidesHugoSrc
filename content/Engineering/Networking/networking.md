@@ -49,7 +49,7 @@ These are the things that you want to do: Talk to someone via voice, text, or vi
 
 It can also refer to the specific program used to do these things, so like Chrome as your web browser or Zoom for video calling.
 
-an [*API* (Wikipedia)](https://en.wikipedia.org/wiki/API) or 'Application Programming Interface' is what defines how two programs talk to each other. This doesn't have to be over the network, but often is.
+an [*API*](https://en.wikipedia.org/wiki/API) or 'Application Programming Interface' is what defines how two programs talk to each other. This doesn't have to be over the network, but often is.
 
 ### End Systems - Hosts/Server & Clients
 
@@ -93,13 +93,13 @@ A *router* is the device that can
 
     Note: This includes differentiating between other, local machines and going out to the Internet
 
- 2. Do Network Address Translation (NAT) (see [NAT traversal (Wikipedia)](https://en.wikipedia.org/wiki/NAT_traversal))
+ 2. Do Network Address Translation (NAT) (see [NAT traversal](https://en.wikipedia.org/wiki/NAT_traversal))
 
     Note: This is how networks can have a bunch of internal IPv4 IPs (usually 192.168.1.xxx) all be served by one external ip. This isn't necessary for IPv6, where each device can have its own external IP.
 
     {{< smalltext >}}... and, technically, you could have enough IPv4 addresses to not need NAT too, but that would be very expensive {{< /smalltext >}}
 
-    {{< smalltext >}}</br>... also, sometimes you'll be behind two NAT's because of [CGNAT (Wikipedia)](https://en.wikipedia.org/wiki/Carrier-grade_NAT){{< /smalltext >}}
+    {{< smalltext >}}</br>... also, sometimes you'll be behind two NAT's because of [CGNAT](https://en.wikipedia.org/wiki/Carrier-grade_NAT){{< /smalltext >}}
 
  3. Deal with congestion (if to much data is being sent to the router, how should it be handled?)
 

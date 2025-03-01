@@ -18,4 +18,4 @@ https://thehustle.co/americas-favorite-family-outings-are-increasingly-out-of-re
 
 ---
 
-[The "Pay For It" Scam (Carlos Maza, YouTube)](https://www.youtube.com/watch?v=MCKeXhta3H0)
+[The "Pay For It" Scam (Carlos Maza)](https://www.youtube.com/watch?v=MCKeXhta3H0)

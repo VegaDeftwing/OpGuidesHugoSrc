@@ -119,7 +119,7 @@ This lets us figure out the conditional probabilities super easily, as all that'
 
 So now we know the probability of a blue ball overall: 0.4 (.05 + .35 )<footnote>Technically, this is the "Law Of Total Probability". Don't overthink this. It just means that by adding up all the conditional probalities of a certain event, you get the total probability. Here, we're adding up the probability of a blue ball given we picked box1 AND the probability of a blue ball given we picked box 2. It's sorta obvious this would give us the total probability of a blue ball.</footnote>, the probability of a blue ball in box 1 (.1), what is the probability that we actually picked from box 1? We know P[Blue|Box1], but what is P[Box1|Blue] ? Well, naturally, there's a handy formula, known as "Bayes Rule" for this situation:
 
-[TODO] [Why Bayes Rule is nicer with odds (YouTube, 3b1b)](https://www.youtube.com/watch?v=lG4VkPoG3ko)
+[TODO] [Why Bayes Rule is nicer with odds (3b1b)](https://www.youtube.com/watch?v=lG4VkPoG3ko)
 
 {{< katex >}}P[A|B]=\frac{P[B|A]P[A]}{P[B]}{{< /katex >}}
 
@@ -307,7 +307,7 @@ Gaussian Random Variables / Normal RVs (same thing)
 
 [TODO] https://mc-stan.org/users/documentation/
 
-[TODO] [The Fisher Information (YouTube - Mutual Information)](https://youtu.be/pneluWj-U-o)
+[TODO] [The Fisher Information (Mutual Information)](https://youtu.be/pneluWj-U-o)
 
 ## Chaos
 

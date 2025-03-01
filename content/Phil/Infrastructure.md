@@ -66,7 +66,7 @@ Where you're born determines if you have access to even basic needs
 
 [Turns Out, Mandatory Helmet Laws Make Cyclists Less Safe (bicycling.com)](https://www.bicycling.com/culture/a29802208/helmet-laws-safety/)
 
-[There Stupid Trucks Are Literally Killing Us (YouTube, Not Just Bikes)](https://www.youtube.com/watch?v=jN7mSXMruEo)
+[There Stupid Trucks Are Literally Killing Us (Not Just Bikes)](https://www.youtube.com/watch?v=jN7mSXMruEo)
 
 ### Racial Discrimination
 

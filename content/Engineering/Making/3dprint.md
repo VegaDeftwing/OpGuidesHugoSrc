@@ -76,23 +76,23 @@ https://github.com/JustinSDK/dotSCAD
 
 ---
 
-[isogrid2020 (GitHub)](https://github.com/wblut/isogrid2020)
+[isogrid2020](https://github.com/wblut/isogrid2020)
 
-[Vpype (GitHub)](https://github.com/abey79/vpype) - "The Swiss-Army-knife command-line tool for plotter vector graphics."
+[Vpype](https://github.com/abey79/vpype) - "The Swiss-Army-knife command-line tool for plotter vector graphics."
 
 [Laser Etching Stainless Steel with Mustard (Hackaday)](https://hackaday.com/2021/01/02/laser-etching-stainless-steel-with-mustard/)
 
-[Achieve true 3D printing with non-planar slicing (YouTube, Teaching Tech)](https://www.youtube.com/watch?v=gmePlcU0TRw)
+[Achieve true 3D printing with non-planar slicing (Teaching Tech)](https://www.youtube.com/watch?v=gmePlcU0TRw)
 
 [3D Printing 90 degree overhangs with non-planar Slicing (Hackaday)](https://hackaday.com/2021/03/08/3d-printing-90-deg-overhangs-with-non-planar-slicing/)
 
-[Giant Mechanical Iris! Cut on a CNC Router (YouTube)](https://www.youtube.com/watch?v=u9KHhsnLhfM&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
+[Giant Mechanical Iris! Cut on a CNC Router (Make:)](https://www.youtube.com/watch?v=u9KHhsnLhfM&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
 
-[Topology Optimization makes for some cool shelves (YouTube)](https://www.youtube.com/watch?v=3smr5CEdksc)
+[Topology Optimization makes for some cool shelves (Made with Layers)](https://www.youtube.com/watch?v=3smr5CEdksc)
 
 [Cleaner Laser Cutting With a 3D-Printed Nozzle (Hackaday)](https://hackaday.com/2020/11/25/cleaner-laser-cutting-with-a-3d-printed-nozzle/) ,[Links to article by Jesse @Nervous Systems](https://n-e-r-v-o-u-s.com/blog/?p=8722)
 
-[Elksmaker modifications (YouTube)](https://www.youtube.com/watch?v=ZzO9skEYqwY)
+[Elksmaker modifications (Marco Reps)](https://www.youtube.com/watch?v=ZzO9skEYqwY)
 
 ### Some neat 3D printable things
 

@@ -156,6 +156,81 @@ ul.pagination {
     margin-right: auto;
     max-width: 50rem;
   }
+
+  a:not([href*="//"]):not(h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .book-btn)::before {
+    content: " #";
+    font-size: 0.7em;
+    vertical-align: super;
+  }
+
+  a:not([href*="//"]):not(h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .book-btn) {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+  }
+
+  a[href^="ms-settings:"] {
+    color: rgb(77, 202, 255) !important;
+    font-weight: bold;
+    text-decoration: none !important;
+    text-decoration-style: none !important;
+    position: relative;
+    white-space: nowrap;
+  }
+
+  a[href^="ms-settings:"]::before {
+    content: "MS⚙" !important;
+  }
+
+  a[href^="ms-settings:"]::after {
+    content: "This link opens the settings page for you.";
+    display: inline-block;
+    font-size: 0.4em;
+    color: gray;
+    position: absolute;
+    top: 85%;
+    left: 0;
+    width: max-content;
+    white-space: nowrap;
+    pointer-events: none;
+  }
+
+  a[href*="youtube.com"]::before {
+    content: " ";
+    background-image: url("/common/youtube_social_icon_red.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    margin-right: 0.2em;
+    vertical-align: super;
+    // Filter it white
+    filter: grayscale(100%) invert(100%) brightness(200%);
+  }
+
+  a[href*="github.com"]:not(.book-footer a)::before {
+    content: " ";
+    background-image: url("/common/github-mark-white.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: .8em;
+    height: .8em;
+    margin-right: .2em;
+    vertical-align: super;
+  }
+
+  a[href*="wikipedia.org"]:not(.qsource a)::before {
+    content: "𝐖";
+    color: #fff;
+    font-family: Arial;
+    font-size: .7em;
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    margin-right: 0.2em;
+    vertical-align: super;
+  }
 }
 
 .book-post {
@@ -655,4 +730,5 @@ kbd {
     box-shadow: 0 1px 0 0.5px #000;
     top: 1px;
   }
+  white-space: nowrap;
 }

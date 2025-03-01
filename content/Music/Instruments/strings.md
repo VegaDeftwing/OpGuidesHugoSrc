@@ -145,7 +145,7 @@ https://www.reddit.com/r/Guitar/comments/muwb6/learning_bass_after_guitar/
 
 ## Cello
 
-[What is the Difference Between Cello and Bass (Consordini, YouTube)](https://www.youtube.com/watch?v=Sl2UZ_F_IFM)
+[What is the Difference Between Cello and Bass (Consordini)](https://www.youtube.com/watch?v=Sl2UZ_F_IFM)
 
 {{< columns >}}
 
@@ -215,9 +215,9 @@ guitar pickups, slides, kapo, tuning (equal v just), wound, physical modeling (K
 
 https://grunfy.com/scaler.html
 
-[The History Of Guitar (YouTube, Rob Scallon)](https://youtu.be/AjK4GVR1EcE)
+[The History Of Guitar (Rob Scallon)](https://youtu.be/AjK4GVR1EcE)
 
 [Tuning a Floyd Rose Guitar (YouTube)](https://floydrose.com/blogs/tech-talk/string-tuning-instructions)
 
-[My New 18-String Hurdy-Gurdy (YouTube, Patty Gurdy)](https://www.youtube.com/watch?v=jgXmxQQW5F4) (also see [5 System of a Down riffs on hurdy gurdy](https://www.youtube.com/watch?v=l3DF6cHN02s))
+[My New 18-String Hurdy-Gurdy (Patty Gurdy)](https://www.youtube.com/watch?v=jgXmxQQW5F4) (also see [5 System of a Down riffs on hurdy gurdy](https://www.youtube.com/watch?v=l3DF6cHN02s))
 

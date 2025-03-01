@@ -17,7 +17,7 @@ Here's *my* personal list of what I keep in mind for art, {{< vale >}}in additio
     * **Natural** - Branches of a tree
 * **Detail** - How much detail do you want to capture? Where do you sit on the spectrum of photo-realistic to iconography?
 * **Artsy-ness** - Is the subject supposed to be highly detailed and pretty, or purely functional and minimalist? Passive or attention grabbing?
-  * **Focal Point or Vibe?** - See [Eastern & Western Design: How Culture Rewires The Brain (YouTube, Design Theory)](https://youtu.be/8UAsN9wvePE?t=376)
+  * **Focal Point or Vibe?** - See [Eastern & Western Design: How Culture Rewires The Brain (Design Theory)](https://youtu.be/8UAsN9wvePE?t=376)
 
 * **Culture** - Where is the subject supposed to be from, and what is the culture like there?
 * **Emotion** - Is the subject supposed to elicit an emotional response?

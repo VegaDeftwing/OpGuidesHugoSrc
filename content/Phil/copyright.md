@@ -89,7 +89,7 @@ Because these many of these sites are technically hosting illegal content, they 
 
 {{< /hint >}}
 
-[Awesome Piracy (GitHub)](https://github.com/Igglybuff/awesome-piracy)
+[Awesome Piracy](https://github.com/Igglybuff/awesome-piracy)
 
 [Sci-hub.do](https://sci-hub.do)
 

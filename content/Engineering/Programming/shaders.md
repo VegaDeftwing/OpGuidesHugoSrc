@@ -178,7 +178,7 @@ This chapter does go into YUV colorspace, see tab 6 for more about color.
 
 This chapter is pretty to the point, just a few things to add:
 
-* If you scale rather small and have two things very similar in frequency, it's quite easy to accidentally wind up with a [Moiré pattern (Wikipedia)](https://en.wikipedia.org/wiki/Moir%C3%A9_pattern). You may be able to use this to your advantage.
+* If you scale rather small and have two things very similar in frequency, it's quite easy to accidentally wind up with a [Moiré pattern](https://en.wikipedia.org/wiki/Moir%C3%A9_pattern). You may be able to use this to your advantage.
 * Patterns don't have to do the same thing on every tile, you can get [really](https://www.shadertoy.com/view/7tscWs) [interesting](https://www.shadertoy.com/view/7sSfWK) [results](https://www.shadertoy.com/view/ltSczW) by doing different things in each division.
 
 {{< /tab >}}
@@ -205,9 +205,9 @@ Lacking a better place to mention them, [One Dimensional Reversible Automata](ht
 
 Not much to add here, but you might want to look at some of these pages:
 
-[Voronoi Diagram (Wikipedia)](https://en.wikipedia.org/wiki/Voronoi_diagram)
+[Voronoi Diagram](https://en.wikipedia.org/wiki/Voronoi_diagram)
 
-[Worsely Noise (Wikipedia)](https://en.wikipedia.org/wiki/Worley_noise)
+[Worsely Noise](https://en.wikipedia.org/wiki/Worley_noise)
 
 [Wavelet Noise (Pixar - PDF)](https://graphics.pixar.com/library/WaveletNoise/paper.pdf)
 
@@ -215,7 +215,7 @@ Not much to add here, but you might want to look at some of these pages:
 
 and, mildly related:
 
-[Quadtree (Wikipedia)](https://en.wikipedia.org/wiki/Quadtree)
+[Quadtree](https://en.wikipedia.org/wiki/Quadtree)
 
 Also, you should know the patent on Simplex noise recent expired, so go nuts if you want to use that.
 
@@ -229,7 +229,7 @@ Also, you should know the patent on Simplex noise recent expired, so go nuts if 
 
 You may want to look at:
 
-[Brownian Surface (Wikipedia)](https://en.wikipedia.org/wiki/Brownian_surface)
+[Brownian Surface](https://en.wikipedia.org/wiki/Brownian_surface)
 
 While brownian motion is cool, for similar effects you'll also probably want to dive into fractals.
 
@@ -331,7 +331,7 @@ Making realistic, performant lighting systems is complicated. It's even arguable
 
 However, wanting to remaking a Physically Based Rendering (PBR) lighting setup like that from scratch implies that you're already probably doing some pretty crazy things. So, outside of that there's really two "sane" ways to do lighting. 
 
-The actually-reasonable-to-use method is to use a pretty basic system with a direct, diffused light, ambient light, and specular highlight. Programming this up is relatively straight forward- This 5hr  video, [Intro to Shader Coding in Unity (Freya Holmer, YouTube)](https://www.youtube.com/watch?v=9WW5-0N1DsI) , actually does a really good job of going over this and explaining each step. Coding it live as she goes along.
+The actually-reasonable-to-use method is to use a pretty basic system with a direct, diffused light, ambient light, and specular highlight. Programming this up is relatively straight forward- This 5hr  video, [Intro to Shader Coding in Unity (Freya Holmer)](https://www.youtube.com/watch?v=9WW5-0N1DsI) , actually does a really good job of going over this and explaining each step. Coding it live as she goes along.
 
 The other cool-but-to-slow-to-use method is to do ray tracing. This is actually easier than it sounds, though, the performance is typically garbage. [This post from Three Eyed Games](http://three-eyed-games.com/2018/05/03/gpu-ray-tracing-in-unity-part-1/) has a nice walk through of building one in Unity.
 
@@ -503,7 +503,7 @@ And while bitshifting is sometimes black magic looking in any language, I fully 
 
 ## The Future of GpGPU
 
-[GPU Accelerated RAID (Linus Tech Tips, YouTube)](https://www.youtube.com/watch?v=12l326jQML8)
+[GPU Accelerated RAID (Linus Tech Tips)](https://www.youtube.com/watch?v=12l326jQML8)
 
 
 

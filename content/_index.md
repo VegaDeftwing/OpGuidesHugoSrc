@@ -172,7 +172,7 @@ Thank you to all of these people for your content contributions to OpGuides, the
 
 ----
 
-Eric Pereyra ([isopropilick](https://github.com/isopropilick))
+Eric Pereyra</br>[isopropilick](https://github.com/isopropilick)
 
 [brickhausdorff](https://github.com/brickhausdorff)
 

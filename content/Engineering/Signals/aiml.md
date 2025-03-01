@@ -221,7 +221,7 @@ generally, if the input can be split up with straight lines and be defined as th
 
 First, feed forward the network's inputs to its outputs, then propagates back error with by repeatedly applying the chain rule
 
-[Backpropagation (Wikipedia)](https://en.wikipedia.org/wiki/Backpropagation)
+[Backpropagation](https://en.wikipedia.org/wiki/Backpropagation)
 
 propagate error back in order to compute loss gradient with respect to each weight, then update the wights
 

@@ -14,7 +14,7 @@ If you've found this page, it's likely your curiosity is getting the better of y
 
 This page is meant to give you a taste, not a full list. There's so many niche languages, [esolangs](https://esolangs.org/wiki/Main_Page), and outright jokes gone to far (like [emojicode](https://www.emojicode.org)) to possibly make this list exhaustive.
 
-This also means it's quite possible your favorite language isn't here. Depending on how esoteric it is, it may not even be on [pldb](https://pldb.com/lists/languages.html) or [Awesome Programming Languages (GitHub)](https://github.com/ChessMax/awesome-programming-languages), in which case, congrats, you've truly found something strange.
+This also means it's quite possible your favorite language isn't here. Depending on how esoteric it is, it may not even be on [pldb](https://pldb.com/lists/languages.html) or [Awesome Programming Languages](https://github.com/ChessMax/awesome-programming-languages), in which case, congrats, you've truly found something strange.
 
 Still though, you may be here just to get a better idea of the answer to the questions all people learning their first language begin to wonder: 
 
@@ -65,7 +65,7 @@ There's only really a handful of instruction sets you're likely to encounter tod
 
 This could derail into a whole conversation about ISA, but you should really go read [TODO] for that.
 
-[x86 Assembly: Hello World! (YouTube, John Hammond)](https://www.youtube.com/watch?v=HgEGAaYdABA)
+[x86 Assembly: Hello World! (John Hammond)](https://www.youtube.com/watch?v=HgEGAaYdABA)
 
 [Say hello to x86_64 Assembly 1-8](https://0xax.github.io/archive/) by 0xAX 
 
@@ -176,7 +176,7 @@ If you'd like to learn Rust, I recommend [A half-hour to learn Rust](https://fas
 - [Learning Rust the Dangerous Way (Cliff L. Biffle)](http://cliffle.com/p/dangerust/)
 - [Rust Performance Book](https://nnethercote.github.io/perf-book/)
 - [Rust Cheat Sheet](https://cheats.rs)
-- [Python -> Rust guide - learning Rust when you know Python (GitHub)](https://www.mylomusic.net/octane)
+- [Python -> Rust guide - learning Rust when you know Python](https://www.mylomusic.net/octane)
 
 Rust isn't a "new" language anymore, but it's certainly not as battle tested as C or C++, so to show the maturity, just check out https://www.redox-os.org/, a full OS written in Rust!
 
@@ -479,7 +479,7 @@ class HelloWorld {
 It's a language that didn't even become popular on its own merit, instead Sun Microsystem paid a [fuck ton](https://www.theregister.com/2003/06/09/sun_preps_500m_java_brand/) of money to push it- hence the **"3 Billion Devices Run Java"** Thing.
 
 I'm hopeful (albeit probably naively) that Oracle (Which bought Java from Sun) making Java a mess of licensing as the 'main' Java Virtual Machine goes [paid (Read on Wikipedia)](https://en.wikipedia.org/wiki/Java_(programming_language)) and [suing Google](https://en.wikipedia.org/wiki/Google_LLC_v._Oracle_America,_Inc.) will be the nail in the coffin for education using it and that it will die out with time. See
-[Criticism of Java (Wikipedia)](https://en.wikipedia.org/wiki/Criticism_of_Java)
+[Criticism of Java](https://en.wikipedia.org/wiki/Criticism_of_Java)
 
 So, frankly, I'm not even going to give Java an honest effort here. Use literally anything else.
 {{< /tip >}} 
@@ -771,7 +771,7 @@ v
 
 ---
 
-If you're looking to learn more, check out [Awesome Esolangs (GitHub)](https://github.com/angrykoala/awesome-esolangs) and https://esolangs.org. Also, the [Esoteric IDE](https://github.com/Timwi/EsotericIDE/) may be of use.
+If you're looking to learn more, check out [Awesome Esolangs](https://github.com/angrykoala/awesome-esolangs) and https://esolangs.org. Also, the [Esoteric IDE](https://github.com/Timwi/EsotericIDE/) may be of use.
 
 ## The Old Guard
 

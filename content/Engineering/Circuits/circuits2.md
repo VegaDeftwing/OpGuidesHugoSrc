@@ -41,7 +41,7 @@ Digilent's 'Real Analog' course looks okay too, and I might write this guide ass
 
 ## Semiconductors?
 
-[Will gallium nitride electronics change the world? (YouTube, Engadget)](https://youtu.be/sfTXZP2DB20)
+[Will gallium nitride electronics change the world? (Engadget)](https://youtu.be/sfTXZP2DB20)
 
 [TODO] pic of silicon bulb
 
@@ -72,11 +72,11 @@ zeener, normal, bipolar
 + varistors , sparkgaps
 + Leds - getting current both ways, LED safety
 
-[Zener Diode (YouTube - EEVblog)](https://www.youtube.com/watch?v=7FYHt5XviKc)
+[Zener Diode (EEVblog)](https://www.youtube.com/watch?v=7FYHt5XviKc)
 
-[Varicaps (Wikipedia)](https://en.wikipedia.org/wiki/Varicap)
+[Varicaps](https://en.wikipedia.org/wiki/Varicap)
 
-[Tunnel Diodes (Wikipedia)](https://en.wikipedia.org/wiki/Tunnel_diode)
+[Tunnel Diodes](https://en.wikipedia.org/wiki/Tunnel_diode)
 
 Shottky
 
@@ -96,7 +96,7 @@ Shottky
 
 tubes and how they work
 
-[Introducing Triodes  (Aaron Lanterman - GT,  YouTube)](https://www.youtube.com/watch?v=2OoL1YF7mbM)
+[Introducing Triodes  (Aaron Lanterman - GT)](https://www.youtube.com/watch?v=2OoL1YF7mbM)
 
 [DIY Triode (Simplifier)](https://simplifier.neocities.org/triode.html) [Part 2](https://simplifier.neocities.org/triode2.html) [Part 3](https://simplifier.neocities.org/triode3.html) [Part 4](https://simplifier.neocities.org/triode4.html) [Part 5: Power Triode](https://simplifier.neocities.org/power.html) [Part 6: Power Triode 2](https://simplifier.neocities.org/power2.html) [Part 7: Portable Triode](https://simplifier.neocities.org/portable.html), [Tetrode](https://simplifier.neocities.org/tetrode.html)
 
@@ -119,7 +119,7 @@ tubes and how they work
 [TODO]
 
 https://hackaday.com/2019/05/20/integrated-circuits-can-be-easy-to-understand-with-the-right-teachers/
-[Uncovering the Silicon: Demystifying How Chips are Built and How They Work (YouTube)](https://www.youtube.com/watch?v=VNzkhZBjo5k&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
+[Uncovering the Silicon: Demystifying How Chips are Built and How They Work (Hackaday)](https://www.youtube.com/watch?v=VNzkhZBjo5k&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
 
 [Reverse-engineering the TL431](http://www.righto.com/2014/05/reverse-engineering-tl431-most-common.html)
 
@@ -135,7 +135,7 @@ https://hackaday.com/2019/05/20/integrated-circuits-can-be-easy-to-understand-wi
 
 ### 555, OpAmp, 74-Series Logic
 
-[555 Timer IC (YouTube)](https://www.youtube.com/watch?v=fLaexx-NMj8&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
+[555 Timer IC (GreatScott!)](https://www.youtube.com/watch?v=fLaexx-NMj8&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz)
 
 [555 as an amplifier (don't actually do this!)](http://www.555-timer-circuits.com/555-amplifier.html)
 
@@ -177,7 +177,7 @@ Opto Isolators, Vacttrols, Photoresistors
 
 [TODO]
 
-[Piezoelectricity - Why hitting crystals makes electricity (YouTube)](https://www.youtube.com/watch?v=wcJXA8IqYl8)
+[Piezoelectricity - Why hitting crystals makes electricity (Steve Mould)](https://www.youtube.com/watch?v=wcJXA8IqYl8)
 
 ## PWM
 
@@ -197,9 +197,9 @@ Nyquist
 
 http://sim.okawa-denshi.jp/en/
 
-[Chebyshev Filters (YouTube - All About Electronics)](https://www.youtube.com/watch?v=6JbOAxCAxGo)
+[Chebyshev Filters (All About Electronics)](https://www.youtube.com/watch?v=6JbOAxCAxGo)
 
-[Butterworth Filters (YouTube - All About Electronics)](https://youtu.be/lc6QT8VjqVc)
+[Butterworth Filters (All About Electronics)](https://youtu.be/lc6QT8VjqVc)
 
 
 
@@ -207,7 +207,7 @@ http://sim.okawa-denshi.jp/en/
 
 ## Waveguides
 
-[Waveguides Explained (YouTube)](https://www.youtube.com/watch?v=r9-m17IPOco)
+[Waveguides Explained (Jordan Louis Edmunds)](https://www.youtube.com/watch?v=r9-m17IPOco)
 
 ## Audio Devices
 
@@ -243,7 +243,7 @@ Also, you may want to be able to update your display quickly, so keep in mind if
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/BeORD7aG3Jc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Why 10,000 Volts at altitude is a Bad Idea (YouTube, Strange Parts)](https://www.youtube.com/watch?v=MIqK45nxcTo)
+[Why 10,000 Volts at altitude is a Bad Idea (Strange Parts)](https://www.youtube.com/watch?v=MIqK45nxcTo)
 
 TODO: Efuses
 
@@ -296,11 +296,11 @@ https://taleri.files.wordpress.com/2014/02/practical_electronics_for_inventors_-
 
 [Hackady.io 2020 Circuit Sculpture Challenge](https://hackaday.io/contest/174093-2020-circuit-sculpture-challenge)
 
-[RGB LED, Inductively Powered, Frequency Controlled (YouTube, Wolf Tronix)](https://www.youtube.com/watch?v=3DeOPN1Cl1Y)
+[RGB LED, Inductively Powered, Frequency Controlled (Wolf Tronix)](https://www.youtube.com/watch?v=3DeOPN1Cl1Y)
 
-[How to protect circuits from reversed voltage polarity! (YouTube, AfroTechMods)](https://www.youtube.com/watch?v=IrB-FPcv1Dc)
+[How to protect circuits from reversed voltage polarity! (AfroTechMods)](https://www.youtube.com/watch?v=IrB-FPcv1Dc)
 
 [Circuit Sculpture Workshop (Hackaday, Kristina Panos)](https://hackaday.com/2020/12/03/remoticon-video-circuit-sculpture-workshop/)
 
-[Current Loop (Wikipedia)](https://en.wikipedia.org/wiki/Current_loop)
+[Current Loop](https://en.wikipedia.org/wiki/Current_loop)
 

@@ -136,7 +136,7 @@ https://lospec.com/palette-list
 
 {{< attribution >}}[Source](https://en.wikipedia.org/wiki/Colour_banding#/media/File:Colour_banding_example01.png){{< /attribution >}}
 
-[Why Dark Video Is A terrible Blocky Mess (YouTube)](https://www.youtube.com/watch?v=h9j89L8eQQk&ab_channel=TomScott)
+[Why Dark Video Is A terrible Blocky Mess (TomScott)](https://www.youtube.com/watch?v=h9j89L8eQQk&ab_channel=TomScott)
 
 
 
@@ -145,8 +145,8 @@ https://lospec.com/palette-list
 * [Demo of how Fourier Filtering works](http://bigwww.epfl.ch/demo/ip/demos/FFT-filtering/)
 * [Color Emulation of the GameBoy](https://byuu.net/video/color-emulation/)
 * [Hello hsluv - blog post about how hsluv works](https://austinjones.onfabrik.com/blog/hello-hsluv)
-* [Graphics & Palettes - Super Nintendo Entertainment System Features Pt. 01 (YouTube)](https://www.youtube.com/watch?v=57ibhDU2SAI&ab_channel=RetroGameMechanicsExplained)
-* [Digital Video Introduction (GitHub)](https://github.com/leandromoreira/digital_video_introduction#how-does-a-video-codec-work) - {{< vale >}}"A hands-on introduction to video technology: image, video, codec (av1, vp9, h265) and more (ffmpeg encoding)."{{< /vale >}}
+* [Graphics & Palettes - Super Nintendo Entertainment System Features Pt. 01 (RetroGameMechanicsExplained)](https://www.youtube.com/watch?v=57ibhDU2SAI&ab_channel=RetroGameMechanicsExplained)
+* [Digital Video Introduction](https://github.com/leandromoreira/digital_video_introduction#how-does-a-video-codec-work) - {{< vale >}}"A hands-on introduction to video technology: image, video, codec (av1, vp9, h265) and more (ffmpeg encoding)."{{< /vale >}}
 * [Oklab](https://bottosson.github.io/posts/oklab/), [An interactive review of Oklab (Raph Levien's Blog)](https://raphlinus.github.io/color/2021/01/18/oklab-critique.html) - {{< vale >}}"A perceptual color space is desirable when doing many kinds of image processing"{{< /vale >}}
 * [The hyperbezier pen tool (cmyr.net)](https://www.cmyr.net/blog/hyperbezier.html)
 

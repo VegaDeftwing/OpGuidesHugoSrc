@@ -20,17 +20,17 @@ This is still a dumping ground for things I want to write about later, nothing o
 
 ![](/xkcd/Exposure_chart-xkcd.svg)
 
-[Radiocarbon dating (Wikipedia)](https://en.wikipedia.org/wiki/Radiocarbon_dating)
+[Radiocarbon dating](https://en.wikipedia.org/wiki/Radiocarbon_dating)
 
-[Cosmic Microwave Background (Wikipedia)](https://en.wikipedia.org/wiki/Cosmic_microwave_background)
+[Cosmic Microwave Background](https://en.wikipedia.org/wiki/Cosmic_microwave_background)
 
-[Natural nuclear fission reactor (Wikipedia)](https://en.wikipedia.org/wiki/Natural_nuclear_fission_reactor)
+[Natural nuclear fission reactor](https://en.wikipedia.org/wiki/Natural_nuclear_fission_reactor)
 
-[How Kodak Exposed The Atomic Bomb (YouTube, Veritasium)](https://www.youtube.com/watch?v=7pSqk-XV2QM)
+[How Kodak Exposed The Atomic Bomb (Veritasium)](https://www.youtube.com/watch?v=7pSqk-XV2QM)
 
 [Seeing the invisible: Event displays in particle physics](https://home.cern/news/news/experiments/seeing-invisible-event-displays-particle-physics)
 
-[Building a Vortex Tube (This Old Tony, YouTube)](https://www.youtube.com/watch?v=Hn8hDY4bvpI&feature=youtu.be&ab_channel=ThisOldTony)
+[Building a Vortex Tube (This Old Tony)](https://www.youtube.com/watch?v=Hn8hDY4bvpI&feature=youtu.be&ab_channel=ThisOldTony)
 
 <div style="display: inline-block; background-color: #fff; border-radius: 10px;"><blockquote class="reddit-card" data-card-created="1609715221"><a href="https://www.reddit.com/r/physicsmemes/comments/kncao1/made_with_paint/">made with paint</a> from <a href="http://www.reddit.com/r/physicsmemes">r/physicsmemes</a></blockquote>
     <script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script></div>

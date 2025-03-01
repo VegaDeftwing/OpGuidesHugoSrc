@@ -22,24 +22,24 @@
 
 [A neat on-guitar effects board (Instagram, ian.costabile)](https://www.instagram.com/p/CI8AdiYhhkR/)
 
-[Why To Modular With Guitar (YouTube, Knobs)](https://youtu.be/eYbSFiuSyuk)
+[Why To Modular With Guitar (Knobs)](https://youtu.be/eYbSFiuSyuk)
 
 [Otamatone Metal - Rob Scallon](https://www.youtube.com/watch?v=dSeJ73JpUxU)
 
-[Theorbo - The enormous 14 string lute (YouTube)](https://www.youtube.com/watch?v=48RVcbkhNHQ&ab_channel=RobScallon)
+[Theorbo - The enormous 14 string lute (RobScallon)](https://www.youtube.com/watch?v=48RVcbkhNHQ&ab_channel=RobScallon)
 
-[Double-sided Guitar Jam (YouTube)](https://www.youtube.com/watch?v=T_s5M48JHFE&ab_channel=RobScallon)
+[Double-sided Guitar Jam (RobScallon)](https://www.youtube.com/watch?v=T_s5M48JHFE&ab_channel=RobScallon)
 
-[Octobasse: A really, really big upright bass (YouTube)](https://www.youtube.com/watch?v=12X-i9YHzmE&t=13s&ab_channel=MIMphx)
+[Octobasse: A really, really big upright bass (MIM)](https://www.youtube.com/watch?v=12X-i9YHzmE&t=13s&ab_channel=MIMphx)
 
 [Awesome Japanese Electric Harp!](https://www.youtube.com/watch?v=1JP2nAoRgl0&ab_channel=ANDREWHUANG)
 
-[Using a Violin Bow on a Guitar Sounds Incredible (YouTube, Music Is Win)](https://www.youtube.com/watch?v=4l3aqFaL7ZM)
+[Using a Violin Bow on a Guitar Sounds Incredible (Music Is Win)](https://www.youtube.com/watch?v=4l3aqFaL7ZM)
 
-[Crazy Fast Robot Drummer (YouTube, Andrew Huang)](https://www.youtube.com/watch?v=KvQ0UXOyh7A)
+[Crazy Fast Robot Drummer (Andrew Huang)](https://www.youtube.com/watch?v=KvQ0UXOyh7A)
 
-[Show Us Your Junk! Ep. 25 - Sylvia Massy of Studio Divine  (YouTube, EarthQuaker Devices)](https://www.youtube.com/watch?v=sTnHEHzFOFU) ... She uses a pickle as a guitar effect...
+[Show Us Your Junk! Ep. 25 - Sylvia Massy of Studio Divine  (EarthQuaker Devices)](https://www.youtube.com/watch?v=sTnHEHzFOFU) ... She uses a pickle as a guitar effect...
 
 [Duesenberg Multibender](https://store.duesenberg.de/en/tremolo-systems/76/duesenberg-multibender) - device to add 2+ string specific pitch bend arms to a guitar 
 
-[Yaybahar by Görkem Şen (YouTube)](https://www.youtube.com/watch?v=_aY6TxC1ojA)
+[Yaybahar by Görkem Şen](https://www.youtube.com/watch?v=_aY6TxC1ojA)

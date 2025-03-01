@@ -20,5 +20,5 @@ Finite State Machines, VHDL, Verilog, FPGA & CPLD internals
 
 ## Weird Ways to do Logic?
 
-[Using an EEPROM to replace combinational logic (Ben Eater, YouTube)](https://www.youtube.com/watch?v=BA12Z7gQ4P0)
+[Using an EEPROM to replace combinational logic (Ben Eater)](https://www.youtube.com/watch?v=BA12Z7gQ4P0)
 

@@ -134,7 +134,7 @@ There's also some systems (like Goroutines in the Go programming language) where
 
 Finally, we need to talk about a few terms relating to how these threads or processes talk.
 
-If you're using different processes (not threads!), they need some way to communicate data other than directly with shared address space because, well, they no longer share address space. This is [**I**nter-**P**rocess **C**ommunication (WikiPedia)](https://en.wikipedia.org/wiki/Inter-process_communication), or IPC. That Wikipedia page is actually great for listing the the different ways it can be done.
+If you're using different processes (not threads!), they need some way to communicate data other than directly with shared address space because, well, they no longer share address space. This is [**I**nter-**P**rocess **C**ommunication](https://en.wikipedia.org/wiki/Inter-process_communication), or IPC. That Wikipedia page is actually great for listing the the different ways it can be done.
 
 If you're using threading, it's common that the language you're using provides some sort of asynchronous, usually abbreviated "async" programming model. For example, [Python's `asyncio`](https://docs.python.org/3/library/asyncio-task.html), [Rust's async](https://rust-lang.github.io/async-book/01_getting_started/02_why_async.html), etc.
 

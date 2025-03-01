@@ -138,7 +138,7 @@ This is the shallowest drum, usually about 6 inches deep. The snare is also used
 
 <iframe width="100%" height="200" src="https://www.youtube.com/embed/Fh5sIZo1_1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{{< attribution >}}[Adding Effects to Your Snare Drum (Sounds Like A Drum, YouTube)](https://www.youtube.com/watch?v=3yVaQ9ecrcA){{< /attribution >}}
+{{< attribution >}}[Adding Effects to Your Snare Drum (Sounds Like A Drum)](https://www.youtube.com/watch?v=3yVaQ9ecrcA){{< /attribution >}}
 
 <--->  
 
@@ -173,7 +173,7 @@ This is the shallowest drum, usually about 6 inches deep. The snare is also used
 
 <iframe width="100%" height="200" src="https://www.youtube.com/embed/3yVaQ9ecrcA?start=602" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{{< attribution >}}[Deep, Detuned Tom Sounds S2E15 (Sounds Like A Drum, YouTube)](https://www.youtube.com/watch?v=3yVaQ9ecrcA){{< /attribution >}}
+{{< attribution >}}[Deep, Detuned Tom Sounds S2E15 (Sounds Like A Drum)](https://www.youtube.com/watch?v=3yVaQ9ecrcA){{< /attribution >}}
 
 {{< /columns >}}
 
@@ -207,7 +207,7 @@ This is the shallowest drum, usually about 6 inches deep. The snare is also used
 
 <iframe width="100%" height="200" src="https://www.youtube.com/embed/h_8x3HbL-hM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{{< attribution >}}[Effects Cymbal Comparison (Christian Baumgartner, YouTube)](https://www.youtube.com/watch?v=h_8x3HbL-hM){{< /attribution >}}
+{{< attribution >}}[Effects Cymbal Comparison (Christian Baumgartner)](https://www.youtube.com/watch?v=h_8x3HbL-hM){{< /attribution >}}
 
 {{< /columns >}}
 
@@ -246,9 +246,9 @@ Most modern drum machines actually have a bit more than drums. The Elektron Digi
 
 {{< /columns >}}
 
-[Playing the Elektron Model:Cycles (Red Means Recroding, YouTube)](https://www.youtube.com/watch?v=APrzOGCr2OU)
+[Playing the Elektron Model:Cycles (Red Means Recroding)](https://www.youtube.com/watch?v=APrzOGCr2OU)
 
-[Why I like the Roland MC-707 (Red Means Recording, YouTube)](https://www.youtube.com/watch?v=Bkh88gZW5kI)
+[Why I like the Roland MC-707 (Red Means Recording)](https://www.youtube.com/watch?v=Bkh88gZW5kI)
 
 ## Drum Effects
 
@@ -288,13 +288,13 @@ Similarly, [Big Drums VS Small Drums (YouTube)](https://www.youtube.com/watch?v=
 
 ### Linear Drumming
 
-[Linear drumming (Drumeo, YouTube)](https://www.youtube.com/watch?v=YQ3H9XaeUH0) is effectively "drumming in mono". You only play one sound at a time. No two sounds are allowed to play at once. It's not super well defined weather this means the drums have to all choke each other (that is, the start of one immediate cuts off all others) but either way, it's an interesting stylistic exercise to try.
+[Linear drumming (Drumeo)](https://www.youtube.com/watch?v=YQ3H9XaeUH0) is effectively "drumming in mono". You only play one sound at a time. No two sounds are allowed to play at once. It's not super well defined weather this means the drums have to all choke each other (that is, the start of one immediate cuts off all others) but either way, it's an interesting stylistic exercise to try.
 
 ---
 
 ### Other Drum Content
 
-[12 Tips I Wish I Knew as a Beginner Drummer (Stephen Clark, YouTube)](https://youtu.be/gHIZELwH49k)
+[12 Tips I Wish I Knew as a Beginner Drummer (Stephen Clark)](https://youtu.be/gHIZELwH49k)
 
 ## Other Percussion Instruments
 

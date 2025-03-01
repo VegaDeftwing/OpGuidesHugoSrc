@@ -128,7 +128,7 @@ canvas {
 
 The key takeaway from the two different kinds of clipping is that while both add harmonics (which is the whole point of distortion) hard clipping adds {{< vale >}}**significantly**{{< /vale >}} more, furthermore, soft-clipping {{< vale >}}mostly{{< /vale >}} adds even harmonics, while hard clipping will give you odd harmonics. That is, it adds a lot more to the higher frequencies. 
 
-If you intentionally use clipping as a distortion and not for limiting the signal, the effect will need to apply some gain to bring the signal back up to the same amplitude, but if this {{< vale >}}is done, it will usually be a few{{< /vale >}} Loudness Units<footnote>See <a href="https://en.wikipedia.org/wiki/EBU_R_128">EBU R 128 (Wikipedia)</a> if you're curious how loudness is usually defined. I'll talk about this more in the mixing and mastering chapter</footnote> higher in volume. This is because more harmonics *sounds* louder. Mix with care.
+If you intentionally use clipping as a distortion and not for limiting the signal, the effect will need to apply some gain to bring the signal back up to the same amplitude, but if this {{< vale >}}is done, it will usually be a few{{< /vale >}} Loudness Units<footnote>See <a href="https://en.wikipedia.org/wiki/EBU_R_128">EBU R 128</a> if you're curious how loudness is usually defined. I'll talk about this more in the mixing and mastering chapter</footnote> higher in volume. This is because more harmonics *sounds* louder. Mix with care.
 
 ### Waveshaping
 
@@ -323,7 +323,7 @@ This effectively amplitude modulates the input signal with a carrier at half the
 
 ### Digital Pitch Effects
 
-I don't want to go into how real-time digital pitch shifting works. If you really must know, looking up [Phase-Locked Loops (Wikipedia)](https://en.wikipedia.org/wiki/Phase-locked_loop) and the [Fast Fourier Transfrom (Wikipedia)](https://en.wikipedia.org/wiki/Fast_Fourier_transform) will give you the start of an idea, but both require a fair amount of math-y science-y engineering-y background to gronk, and it mostly doesn't matter. What does matter is unlike the analog-effects (which can also be done digitally anyway) these can:
+I don't want to go into how real-time digital pitch shifting works. If you really must know, looking up [Phase-Locked Loops](https://en.wikipedia.org/wiki/Phase-locked_loop) and the [Fast Fourier Transfrom](https://en.wikipedia.org/wiki/Fast_Fourier_transform) will give you the start of an idea, but both require a fair amount of math-y science-y engineering-y background to gronk, and it mostly doesn't matter. What does matter is unlike the analog-effects (which can also be done digitally anyway) these can:
 
 * Pitch shift to non-octave intervals (Perfect 5<sup>{{< vale >}}th{{< /vale >}}</sup>s are particularly fun )
 * Handle playing more than one note much, much better than the above
@@ -447,7 +447,7 @@ The 'Threshold' is what level the compressor has to be over to do anything at al
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/j4NrWQljyso?list=PL5cGwrD7cv8jd0PSN2E8pFD97H3R5aQwN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[WTF is a Compander? (YouTube, Dan Worrall)](https://www.youtube.com/watch?v=ZRP5uI9mbzQ)
+[WTF is a Compander? (Dan Worrall)](https://www.youtube.com/watch?v=ZRP5uI9mbzQ)
 
 [How to use a Compressor + 10 tips (Musician on a Mission)](https://www.musicianonamission.com/how-to-use-a-compressor-plus-10-top-tips/)
 

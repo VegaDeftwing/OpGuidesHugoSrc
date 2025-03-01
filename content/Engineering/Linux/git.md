@@ -342,7 +342,7 @@ Some tools also exist to make the command line interface to git better.
 
 Again, GitHub has their own tool, https://cli.github.com
 
-But you may also want to check out [Bit, an alternative git CLI (GitHub)](https://github.com/chriswalz/bit) and [gut](https://gut-cli.dev)
+But you may also want to check out [Bit, an alternative git CLI](https://github.com/chriswalz/bit) and [gut](https://gut-cli.dev)
 
 The basic `git` command really isn't bad though. [This Cheatsheet](http://www.ndpsoftware.com/git-cheatsheet.html#loc=index;) may help you if you want to learn it better.
 
