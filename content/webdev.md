@@ -251,6 +251,7 @@ Something still worth putting a block around here
 ## Button
 
 buttons can  be inline {{< button relref="/music/gettingstarted">}}Music - Getting Started{{< /button >}} and look pretty snazy.
+Note that internal links to local pages will self style like buttons anyway.
 
 ## Columns
 
@@ -661,3 +662,29 @@ if you want to use a conlang, put it in a `<div class="conlang">` or it will sti
 <div class="scifi">
 <p>WARNING: Test test test</p>
 </div>
+
+## Testing page links
+
+Link to section on the same page [test link](#compression)
+
+[Engineering](/engineering) </br>
+[Music](/music) </br>
+[Design](/design) </br>
+[Phil](/phil) </br>
+[Interviews](/interviews) </br>
+[Other](/other) </br>
+
+[Section on Engineering Page](/engineering/#int) </br>
+[Section on Music Page](/music/#int) </br>
+[Section on Design Page](/design/#int) </br>
+[Section on Phil Page](/phil/#int) </br>
+[Section on Interviews Page](/interviews/#int) </br>
+[Section on Other Page](/other/#int) </br>
+
+[youtube video](youtube.com)
+
+[Wikipedia](https://en.wikipedia.org/wiki/Exam)
+
+[github page](github.com)
+
+[other page](example.com)

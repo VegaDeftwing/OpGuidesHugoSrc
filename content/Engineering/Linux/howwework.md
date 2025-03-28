@@ -117,6 +117,10 @@ Alright, some disclosure. I don't really use Vim. I only use nano and VSCode. Th
 
 This is the biggest change, I'm going to recommend switching from KDE, which we installed when we setup arch, to i3-wm. i3 is a tiling window manager, this means it looks something like this:
 
+{{< tip >}}
+This guide has gotten pretty old, and I haven't had a chance to try [Niri](https://ersei.net/en/blog/niri) yet, which I suspect may actually be better than i3. Even if not Niri, Sway should pobably be used instead of i3wm, but it's basically a drop in for i3 but uses a different backend (Wayland instead of X11)
+{{< /tip >}}
+
 ![i3](/eng/newi3.webp)
 
 This is a screenshot of i3-wm with 4 windows open: two instances of `Typora` (the program I'm writing this in), and a file manager (`Thunar`),  a terminal (`deepin-terminal-gtk`) running `ncmpcpp` which is what I use for music. The `Typora` windows are being tabbed by i3 (it's a bit hard to see, but there's two big tabs at the top of the Window).  What's cool about i3 is how it will always use space as efficiently as possible by tiling the windows, and you can navigate between the windows (or multiple monitors) entirely by keyboard (mouse still works obviously) and open multiple virtual workspaces. When programming and using a computer for advanced things it's not uncommon to have a dozen windows open and having things organized like this can be a life saver. Plus, as I showed with the typora tabs, programs can also be tabbed instead of tiled, so I could have one tab of firefox, one of typora, and one of a terminal, so they're all still maximized but I can get between them quickly, and these tabs can be mixed with the tiles, as in that screenshot.

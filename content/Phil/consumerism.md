@@ -125,7 +125,7 @@ Well, not always. Some software, music, and videos *may not even be available to
 
 But, wait, there's more!
 
-Some **hardware** is actually geo-locked. This goes for everything from smart watches sold to only work in Europe but not the US, to Blu-ray discs that won't play if they're put in a player from over seas! What the fuck???!
+Some **hardware** is actually geo-locked. This goes for everything from smart watches sold to only work in Europe but not the US, to Blu-ray discs that won't play if they're put in a player from over seas! What the fuck???!<footnote>Note, there may be a good reason for this  if the device has to comply with laws for that territory, such as if it has a radio it needs to only use frequencies and transmission powers that are legal. Still, for most products, this should be a software change in a menu, not a hardware difference, nor should it mean the pricing is significantly different after accounting for currency conversion between regions, shipping, and import costs.</footnote>
 
 #### Changing Specs, but not the name?
 

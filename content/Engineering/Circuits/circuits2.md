@@ -153,6 +153,8 @@ https://zeptobars.com/en/read/Ti-Texas-Instruments-LMC555CMX-555-CMOS
 
 ## Op-Amps
 
+[Deep dive: the (in)stability of op-amps (lcamtuf's thing)](https://lcamtuf.substack.com/p/deep-dive-the-instability-of-op-amps)
+
 [Handbook of Operation Amplifier Applications (TI)](https://www.ti.com/lit/an/sboa092b/sboa092b.pdf)
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/7FYHt5XviKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

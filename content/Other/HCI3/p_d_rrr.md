@@ -4,7 +4,11 @@ TODO: Contextual use of resources. https://andymasley.substack.com/p/individual-
 
 High power usage isn't where people think, leaving something on vs brief period of high power, wireless chargers, etc.
 
+It's frustrating that you can't buy things to repair things in person, due to online shopping and markets
 
+Online markets also have negative effects on the quality of goods, since you can inspect them first so it's all a race to the bottom in price
+
+It also causes fraudulent parts and supply chain issues
 
 ---
 

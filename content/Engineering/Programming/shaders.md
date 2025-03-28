@@ -414,11 +414,17 @@ https://acko.net/blog/frickin-shaders-with-frickin-laser-beams/
 
 https://github.com/stackgl/shader-school
 
-# 19.1 - 3D Shaders
+## 3D Shaders
 
 [TODO] both on 3D objects and making 3D visualls in a 2D plane
 
-# 19.2 - GpGPU
+## Shader Injection and overlays
+
+https://github.com/mausimus/ShaderGlass
+
+https://github.com/crosire/reshade
+
+# GpGPU
 
 {{< tip >}}
 
@@ -510,8 +516,6 @@ And while bitshifting is sometimes black magic looking in any language, I fully 
 ## Some of my favorite shaders
 
 [The Screen by Xor](https://www.shadertoy.com/view/fstfR8)
-
-
 
 
 

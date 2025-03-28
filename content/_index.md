@@ -6,19 +6,19 @@ type: docs
 # Welcome to Opinionated Guides
 
 
-{{< button relref="/Engineering/engineering" >}}Opinionated Engineering{{< /button >}} makes up the majority of this site, and aims to bring you from normie to ~~neckbeard~~ technomancer.
+[Opinionated Engineering](/engineering/engineering) makes up the majority of this site, and aims to bring you from normie to ~~neckbeard~~ technomancer.
 
-{{< button relref="Music/gettingstarted" color="music" >}}Opinionated Music{{< /button >}} will take you on a journey of sound design and artistic expression via sonic exploration. Buckle up bois, it'll teach you all about 𝓂𝑜𝒹𝓊𝓁𝒶𝓇 𝓈𝓎𝓃𝓉𝒽𝑒𝓈𝒾𝓈𝑒𝓇𝓈 while we're at it.
+[Opinionated Music](/music/gettingstarted) will take you on a journey of sound design and artistic expression via sonic exploration. Buckle up bois, it'll teach you all about 𝓂𝑜𝒹𝓊𝓁𝒶𝓇 𝓈𝓎𝓃𝓉𝒽𝑒𝓈𝒾𝓈𝑒𝓇𝓈 while we're at it.
 
-{{< button relref="Design/basics" color="design" >}}Opinionated Design{{< /button >}} is split into two sections. The first aims to help you not suck at art™ and the second is a stroll though making a website like this one.
+[Opinionated Design](/design/basics) is split into two sections. The first aims to help you not suck at art™ and the second is a stroll though making a website like this one.
 
-{{< button relref="Phil/basic" color="phil" >}}Opinionated Philosophy{{< /button >}} is ~~a place for me to screm my oppinions into the void~~  an attempt to apply philisophical ideas and reasoning to modern problems. 
+[Opinionated Philosophy](/phil/basic-phil) is ~~a place for me to screm my oppinions into the void~~  an attempt to apply philisophical ideas and reasoning to modern problems. 
 
-The {{< button relref="Interviews/interviews" color="interview">}}Interviews{{< /button >}} section will introduce you to some kick ass engineers, musicians, and kool kids from all walks of life.
+The [Interviews](/interviews/interviews) section will introduce you to some kick ass engineers, musicians, and kool kids from all walks of life.
 
 If you're interested in what I have to say, there's some{{< button relref="posts" color="gradient-border" >}}⠀ ⠀⠀  ⠀ ⠀⠀ {{< /button >}} too.
 
-Finally, there's some {{< button relref="Other/hci2/intro" color="other" >}}Other {{< /button >}} miscellaneous pages too. Content in this section ranges from discussions of conlangs like toki pona to 10,000 word rants about technology.
+Finally, there's some [Other](/other/hci2/intro) miscellaneous pages too. Content in this section ranges from discussions of conlangs like toki pona to 10,000 word rants about technology.
 </br>
 
 Note that this website is *[mostly](#copyright)* open source and I really appriciate contributions ❤️

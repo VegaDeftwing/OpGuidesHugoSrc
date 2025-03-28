@@ -128,7 +128,6 @@
   }
 
   table {
-    overflow: auto;
     display: block;
     border-spacing: 0;
     border-collapse: collapse;
@@ -144,6 +143,12 @@
     tr:nth-child(2n) {
       background: #00000022;
     }
+  }
+
+  table>thead {
+    background: #222;
+    position: sticky;
+    top: 0;
   }
 
   hr {

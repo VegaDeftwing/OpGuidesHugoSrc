@@ -157,13 +157,13 @@ ul.pagination {
     max-width: 50rem;
   }
 
-  a:not([href*="//"]):not(h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .book-btn)::before {
+  a[href*="#"]:not([href*="//"][href*="#"]):not(h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .book-btn)::before {
     content: " #";
     font-size: 0.7em;
     vertical-align: super;
   }
 
-  a:not([href*="//"]):not(h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .book-btn) {
+  a[href*="#"]:not([href*="//"]):not(h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .book-btn) {
     text-decoration: underline;
     text-decoration-style: dashed;
   }
@@ -230,6 +230,104 @@ ul.pagination {
     height: 0.8em;
     margin-right: 0.2em;
     vertical-align: super;
+  }
+
+  a[href^="/engineering" i]:not(.book-footer a) {
+    display: inline-block;
+    font-size: $font-size-14;
+    color: var(--color-link);
+    line-height: $padding-16 * 1.1;
+    padding: .05em .5em;
+    border: $padding-1 solid var(--color-link);
+    border-radius: $border-radius;
+    cursor: pointer;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  a[href^="/music" i]:not(.book-footer a) {
+    display: inline-block;
+    font-size: $font-size-14;
+    color: #c448c7;
+    line-height: $padding-16 * 1.1;
+    padding: .05em .5em;
+    border: $padding-1 solid #c448c7;
+    border-radius: $border-radius;
+    cursor: pointer;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  a[href^="/phil" i]:not(.book-footer a) {
+    display: inline-block;
+    font-size: $font-size-14;
+    color: #e23838;
+    line-height: $padding-16 * 1.1;
+    padding: .05em .5em;
+    border: $padding-1 solid #e23838;
+    border-radius: $border-radius;
+    cursor: pointer;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  a[href^="/design" i]:not(.book-footer a) {
+    display: inline-block;
+    font-size: $font-size-14;
+    color: #f78200;
+    line-height: $padding-16 * 1.1;
+    padding: .05em .5em;
+    border: $padding-1 solid #f78200;
+    border-radius: $border-radius;
+    cursor: pointer;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  a[href^="/interview" i]:not(.book-footer a) {
+    display: inline-block;
+    font-size: $font-size-14;
+    color: #ffb900;
+    line-height: $padding-16 * 1.1;
+    padding: .05em .5em;
+    border: $padding-1 solid #ffb900;
+    border-radius: $border-radius;
+    cursor: pointer;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  a[href^="/other" i]:not(.book-footer a) {
+    display: inline-block;
+    font-size: $font-size-14;
+    color: #5ebd3e;
+    line-height: $padding-16 * 1.1;
+    padding: .05em .5em;
+    border: $padding-1 solid #5ebd3e;
+    border-radius: $border-radius;
+    cursor: pointer;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  a[href^="/blog" i]:not(.book-footer a) {
+    display: inline-block;
+    font-size: $font-size-14;
+    color: #42b9f3;
+    line-height: $padding-16 * 1.1;
+    padding: .05em .5em;
+    border: $padding-1 solid #42b9f3;
+    border-radius: $border-radius;
+    cursor: pointer;
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 
