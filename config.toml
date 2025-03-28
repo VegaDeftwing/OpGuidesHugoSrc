@@ -22,3 +22,6 @@ BookSearch = true
 
 [taxonomies]
   tag = "tags"
+
+[sitemap]
+  changeFreq = 'monthly'

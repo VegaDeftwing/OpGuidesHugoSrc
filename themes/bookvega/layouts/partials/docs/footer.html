@@ -1,8 +1,4 @@
-<div class="flex flex-wrap justify-between">
-  {{ if .Site.IsMultiLingual }}
-    {{ partial "docs/languages" . }}
-  {{ end }}
-  
+<div class="flex flex-wrap justify-between">  
   {{ if and .GitInfo .Site.Params.BookRepo }}
     <div>
       {{- $date := partial "docs/date" (dict "Date" .GitInfo.AuthorDate.Local "Format" .Site.Params.BookDateFormat) -}}
