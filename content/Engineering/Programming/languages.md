@@ -111,6 +111,10 @@ If you're looking for a good reference guide to come back to when needed, bookma
 
 <!-- Investigate later: https://www.philipzucker.com/cbmc_tut/ -->
 
+<!-- https://www.reddit.com/r/C_Programming/comments/1cmqqgw/c23_makes_errors_awesome/ -->
+
+<!-- I need to find that link to the way you can use LTO for compile time null checks-->
+
 ### C++
 
 ```c++

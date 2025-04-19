@@ -1,7 +1,8 @@
 +++
 bookToC = false
+aliases = ['/interviews/cadeyratio']
 +++
-# An Interview with Cadey Ratio
+# An Interview with Xe Iaso
 
 <!-- used for the Mara segment later on -->
 <style>
@@ -10,11 +11,11 @@ bookToC = false
 </style>
 **3/10/2021**
 
-<img src="/nonfree/interviews/cadey1.png" alt="Cadey Ratio">
+<img src="/nonfree/interviews/cadey1.png" alt="Xe Iaso">
 
 {{< iquestion >}}
 
-**Thank you for taking the time for this interview Cadey. Your blog at [christine.website/blog](https://christine.website/blog) shows that you really have a wide range of interests. So, to get started, what are you passionate about and why?**
+**Thank you for taking the time for this interview Xe Iaso. Your blog at [xeiaso.net/blog](https://xeiaso.net/blog/) shows that you really have a wide range of interests. So, to get started, what are you passionate about and why?**
 
 {{< /iquestion >}}
 

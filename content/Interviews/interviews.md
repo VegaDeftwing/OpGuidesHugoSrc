@@ -8,7 +8,7 @@ slug: "Interviews"
 
 - <a href="/interviews/loial/">Loial Otter</a>
 - <a href="/interviews/soatok/">Soatok Dreamseeker</a>
-- <a href="/interviews/cadeyratio/">Cadey Ratio</a>
+- <a href="/interviews/xeiaso/">Xe Iaso</a>
 - <a href="/interviews/kell/">Kell Bengal</a>
 - <a href="/interviews/taxbadger/">Tax Badger</a>
 - <a href="/interviews/spg/">Sex Positive Gaming</a>

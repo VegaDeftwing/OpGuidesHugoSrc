@@ -388,7 +388,7 @@ headless: true
 <dl>
 <dt> </dt><dd> <a href="/interviews/loial/">Loial Otter</a></dd>
 <dt> </dt><dd> <a href="/interviews/soatok/">Soatok Dreamseeker</a></dd>
-<dt> </dt><dd> <a href="/interviews/cadeyratio/">Cadey Ratio</a></dd>
+<dt> </dt><dd> <a href="/interviews/cadeyratio/">Xe Iaso</a></dd>
 <dt> </dt><dd> <a href="/interviews/kell/">Kell Bengal</a></dd>
 <dt> </dt><dd> <a href="/interviews/taxbadger/">Tax Badger</a></dd>
 <dt> </dt><dd> <a href="/interviews/spg/">Sex Positive Gaming</a></dd>

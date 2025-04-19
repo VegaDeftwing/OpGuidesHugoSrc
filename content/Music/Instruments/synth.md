@@ -136,7 +136,9 @@ Modular - Eurorack, 3U, & AE , semi-modular, VCV, etc.
 * Do you need polyphony?
 * Would a semimodular be better?
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/jfuSEdOdNz0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+* If you're using a DC-coupled interface (Such as one from Expert Sleepers) make sure you DC block before any speakers/headphones, as it can damage them.
+  * https://maxforlive.com/library/device/8083/0v0v-dc-offset-remover-and-noise-floor-measurer is good option if you use ableton and have M4L.
+  * This can be done EITHER by using a steep high pass filter (Which might cause other problems) or by using something that "learns" and subtracts the DC bias - but the latter only works if the DC bias is constant.
 
 ## Collected Synth Tips & Tricks
 

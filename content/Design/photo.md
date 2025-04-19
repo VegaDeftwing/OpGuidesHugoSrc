@@ -266,7 +266,7 @@ Some cameras will let you take photos with **H**igh **D**ynamic **R**ange. Basic
 
 ### RAW photos
 
-
+https://www.theverge.com/tech/640119/camera-raw-spec-format-explained-adobe-dng-canon-nikon-sony-fujifilm
 
 ### Chromatic  Aberration
 

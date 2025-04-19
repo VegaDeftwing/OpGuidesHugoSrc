@@ -198,7 +198,7 @@ Want your name on this list? [Sumbit a PR on GitHub](https://github.com/VegaDeft
 
 {{< /columns >}}
 
-And an additional **thank you** from the bottom of my heart to **Loial Otter**, **Soatok Dreamseeker**, and **Cadey Ratio** for the opportunity to do an interview with each, as well as to all my friends that have read over the guides and helped point out issues and gaps in content, and finally to all those that haven't just responded with 'RTFM' and worked with me as I've asked some of absolute legends in their fileds to help with the OpGuides project. ❤️
+And an additional **thank you** from the bottom of my heart to **Loial Otter**, **Soatok Dreamseeker**, and **Xe Iaso** for the opportunity to do an interview with each, as well as to all my friends that have read over the guides and helped point out issues and gaps in content, and finally to all those that haven't just responded with 'RTFM' and worked with me as I've asked some of absolute legends in their fileds to help with the OpGuides project. ❤️
 
 # Copyright
 

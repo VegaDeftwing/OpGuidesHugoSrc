@@ -11,4 +11,8 @@
 ## PHP needs to die.
 
 
+## HTMX?
 
+## Datastar?
+
+https://chrismalek.me/posts/data-star-first-impressions/
