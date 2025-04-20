@@ -433,16 +433,6 @@ ul.pagination {
   }
 }
 
-// Responsive styles
-aside nav,
-.book-page,
-.book-header aside,
-.markdown {
-  transition: 0.2s ease-in-out;
-  transition-property: transform, margin, opacity, visibility;
-  will-change: transform, margin, opacity;
-}
-
 @media screen and (max-width: $mobile-breakpoint) {
   #menu-control,
   #toc-control {

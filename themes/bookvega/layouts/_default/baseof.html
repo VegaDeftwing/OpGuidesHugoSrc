@@ -17,9 +17,9 @@
 <script src="/js/egg.min.js"> </script>
 
 <script>
-  var egg = new Egg("d,e,v", function() {
+  var egg = new Egg("d,e,v", function () {
     var elements = document.getElementsByClassName("egg");
-    for(var i = 0; i < elements.length; i++) {
+    for (var i = 0; i < elements.length; i++) {
       elements[i].removeAttribute("hidden");
     }
   }).listen();
@@ -32,35 +32,32 @@
 
 <body dir={{ .Site.Language.LanguageDirection }}>
 
-        <!-- Hack to do background on Engineering Intro Page -->
-        {{if eq .Title "Engineering"}}
-        <div id="canvasContainer">
-          <canvas id="backcanvas"></canvas>
-        </div>
-        {{ end }}
+  <!-- Hack to do background on Engineering Intro Page -->
+  {{if eq .Title "Engineering"}}
+  <div id="canvasContainer">
+    <canvas id="backcanvas"></canvas>
+  </div>
+  {{ end }}
 
-        <!-- Hack to do background on Wolfgun's Interview Page -->
-        
-        <script src="https://unpkg.com/@h0rn0chse/night-sky/dist/bundle.min.js"></script>
-        
+  <!-- Hack to do background on Wolfgun's Interview Page -->
 
-  <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c6f9eeb56e4645ee9ca07afbee7e0462"}'></script><!-- End Cloudflare Web Analytics -->
+  <script src="https://unpkg.com/@h0rn0chse/night-sky/dist/bundle.min.js"></script>
+
+
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+    data-cf-beacon='{"token": "c6f9eeb56e4645ee9ca07afbee7e0462"}'></script><!-- End Cloudflare Web Analytics -->
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
     <aside class="book-menu">
-        {{ template "menu" . }} <!-- Left menu Content -->
+      {{ template "menu" . }} <!-- Left menu Content -->
     </aside>
 
     <div class="book-page">
       <!-- Hack to make the star background on wolfgun's interview page work -->
       {{if eq .Title "Wolfgun"}}
-      <night-sky
-      id="nightSky"
-      layers="4"
-      density="30"
-      velocity="15"
-      starcolor="#461577">
+      <night-sky id="nightSky" layers="4" density="30" velocity="15" starcolor="#461577">
       </night-sky>
       {{ end }}
       <header class="book-header">
@@ -91,40 +88,41 @@
   </main>
   {{ partial "docs/inject/body" . }}
 </body>
+
 </html>
 
 {{ define "menu" }}
-  {{ partial "docs/menu" . }}
+{{ partial "docs/menu" . }}
 {{ end }}
 
 {{ define "header" }}
-  {{ partial "docs/header" . }}
+{{ partial "docs/header" . }}
 
-  {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
-  <aside class="hidden clearfix">
-    {{ template "toc" . }}
-  </aside>
-  {{ end }}
+{{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
+<aside class="hidden clearfix">
+  {{ template "toc" . }}
+</aside>
+{{ end }}
 {{ end }}
 
 {{ define "footer" }}
-  {{ partial "docs/footer" . }}
+{{ partial "docs/footer" . }}
 {{ end }}
 
 {{ define "comments" }}
-  {{ if and .Content (default true (default .Site.Params.BookComments .Params.BookComments)) }}
-  <div class="book-comments">
-    {{- partial "docs/comments" . -}}
-  </div>
-  {{ end }}
+{{ if and .Content (default true (default .Site.Params.BookComments .Params.BookComments)) }}
+<div class="book-comments">
+  {{- partial "docs/comments" . -}}
+</div>
+{{ end }}
 {{ end }}
 
 {{ define "main" }}
-  <article class="markdown">
-    {{- .Content -}}
-  </article>
+<article class="markdown">
+  {{- .Content -}}
+</article>
 {{ end }}
 
 {{ define "toc" }}
-  {{ partial "docs/toc" . }}
+{{ partial "docs/toc" . }}
 {{ end }}
