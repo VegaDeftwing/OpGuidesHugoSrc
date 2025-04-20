@@ -688,3 +688,246 @@ Link to section on the same page [test link](#compression)
 [github page](github.com)
 
 [other page](example.com)
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght,GRAD,XOPQ,YOPQ,YTAS,YTDE,YTLC,YTUC@8..144,25..151,100..1000,-200..150,27..175,25..135,649..854,-305..-98,416..570,528..760&display=swap"
+    rel="stylesheet">
+
+<style>
+.roboto-flex-test {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  /* 100-1000 */
+  font-weight: 100; 
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    /* 25 151 */
+    "wdth" 25,
+    /* -200 150*/
+    "GRAD" -200,
+    /* 27 175 */
+    "XOPQ" 27,
+    "XTRA" 468,
+    /* 25 135 */
+    "YOPQ" 25
+    /* 649 854 */
+    "YTAS" 649,
+    /*-305 -98 */
+    "YTDE" -305,
+    "YTFI" 738,
+    /* 528 760*/
+    "YTLC" 528,
+    /* 528 760*/
+    "YTUC" 528;
+}
+.roboto-flex-test2 {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  /* 100-1000 */
+  font-weight: 100; 
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    /* 25 151 */
+    "wdth" 151,
+    /* -200 150*/
+    "GRAD" 150,
+    /* 27 175 */
+    "XOPQ" 175,
+    "XTRA" 468,
+    /* 25 135 */
+    "YOPQ" 135,
+    /* 649 854 */
+    "YTAS" 854,
+    /*-305 -98 */
+    "YTDE" -98,
+    "YTFI" 738,
+    /* 528 760*/
+    "YTLC" 760,
+    /* 528 760*/
+    "YTUC" 760;
+}
+</style>
+
+test
+<div class="roboto-flex-test">
+test
+</div>
+<div class="roboto-flex-test2">
+test
+</div>
+
+<div>
+  <label for="slnt">Slant:</label>
+  <input id="slnt" type="range" min="-90" max="90" value="0" step="1" oninput="updateFontSettings()">
+</div>
+<div>
+  <label for="wdth">Width:</label>
+  <input id="wdth" type="range" min="25" max="151" value="88" step="1" oninput="updateFontSettings()">
+</div>
+<div>
+  <label for="GRAD">Grade:</label>
+  <input id="GRAD" type="range" min="-200" max="150" value="-25" step="1" oninput="updateFontSettings()">
+</div>
+<div>
+  <label for="XOPQ">XOPQ:</label>
+  <input id="XOPQ" type="range" min="27" max="175" value="101" step="1" oninput="updateFontSettings()">
+</div>
+<div>
+  <label for="YOPQ">YOPQ:</label>
+  <input id="YOPQ" type="range" min="25" max="135" value="80" step="1" oninput="updateFontSettings()">
+</div>
+<div>
+  <label for="YTAS">YTAS:</label>
+  <input id="YTAS" type="range" min="649" max="854" value="751" step="1" oninput="updateFontSettings()">
+</div>
+<div>
+  <label for="YTDE">YTDE:</label>
+  <input id="YTDE" type="range" min="-305" max="-98" value="-201" step="1" oninput="updateFontSettings()">
+</div>
+<div>
+  <label for="YTLC">YTLC:</label>
+  <input id="YTLC" type="range" min="528" max="760" value="644" step="1" oninput="updateFontSettings()">
+</div>
+<div>
+  <label for="YTUC">YTUC:</label>
+  <input id="YTUC" type="range" min="528" max="760" value="644" step="1" oninput="updateFontSettings()">
+</div>
+
+<div class="roboto-flex-test" id="fontPreview">
+  Preview Text
+</div>
+
+<script>
+  function updateFontSettings() {
+    const slnt = document.getElementById("slnt").value;
+    const wdth = document.getElementById("wdth").value;
+    const GRAD = document.getElementById("GRAD").value;
+    const XOPQ = document.getElementById("XOPQ").value;
+    const YOPQ = document.getElementById("YOPQ").value;
+    const YTAS = document.getElementById("YTAS").value;
+    const YTDE = document.getElementById("YTDE").value;
+    const YTLC = document.getElementById("YTLC").value;
+    const YTUC = document.getElementById("YTUC").value;
+
+    const fontPreview = document.getElementById("fontPreview");
+    fontPreview.style.fontVariationSettings = `
+      "slnt" ${slnt},
+      "wdth" ${wdth},
+      "GRAD" ${GRAD},
+      "XOPQ" ${XOPQ},
+      "XTRA" 468,
+      "YOPQ" ${YOPQ},
+      "YTAS" ${YTAS},
+      "YTDE" ${YTDE},
+      "YTFI" 738,
+      "YTLC" ${YTLC},
+      "YTUC" ${YTUC}
+    `;
+  }
+
+  // Initialize font settings on page load
+  window.addEventListener("DOMContentLoaded", () => {
+    updateFontSettings();
+  });
+</script>
+
+<style>
+  div {
+    margin-bottom: 10px;
+  }
+
+  label {
+    margin-right: 10px;
+  }
+
+  #fontPreview {
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+</style>
+
+<div class="roboto-flex-test" id="animatedFontPreview">
+  Animated Preview Text
+</div>
+
+<script>
+  function animateFontSettings() {
+    const fontPreview = document.getElementById("animatedFontPreview");
+    let slnt = -90, wdth = 25, GRAD = -200, XOPQ = 27, YOPQ = 25, YTAS = 649, YTDE = -305, YTLC = 528, YTUC = 528;
+    let slntDir = 1, wdthDir = 1, GRADDir = 1, XOPQDir = 1, YOPQDir = 1, YTASDir = 1, YTDEDir = 1, YTLCDir = 1, YTUCDir = 1;
+
+    function update() {
+      slnt += slntDir;
+      if (slnt >= 90 || slnt <= -90) slntDir *= -1;
+
+      wdth += wdthDir * 0.5;
+      if (wdth >= 151 || wdth <= 25) wdthDir *= -1;
+
+      GRAD += GRADDir;
+      if (GRAD >= 150 || GRAD <= -200) GRADDir *= -1;
+
+      XOPQ += XOPQDir * 0.8;
+      if (XOPQ >= 175 || XOPQ <= 27) XOPQDir *= -1;
+
+      YOPQ += YOPQDir * 0.6;
+      if (YOPQ >= 135 || YOPQ <= 25) YOPQDir *= -1;
+
+      YTAS += YTASDir;
+      if (YTAS >= 854 || YTAS <= 649) YTASDir *= -1;
+
+      YTDE += YTDEDir;
+      if (YTDE >= -98 || YTDE <= -305) YTDEDir *= -1;
+
+      YTLC += YTLCDir * 0.7;
+      if (YTLC >= 760 || YTLC <= 528) YTLCDir *= -1;
+
+      YTUC += YTUCDir * 0.9;
+      if (YTUC >= 760 || YTUC <= 528) YTUCDir *= -1;
+
+      fontPreview.style.fontVariationSettings = `
+        "slnt" ${slnt},
+        "wdth" ${wdth},
+        "GRAD" ${GRAD},
+        "XOPQ" ${XOPQ},
+        "XTRA" 468,
+        "YOPQ" ${YOPQ},
+        "YTAS" ${YTAS},
+        "YTDE" ${YTDE},
+        "YTFI" 738,
+        "YTLC" ${YTLC},
+        "YTUC" ${YTUC}
+      `;
+
+      setTimeout(() => requestAnimationFrame(update), 10); // Add delay of 100ms
+    }
+
+    update();
+  }
+
+  animateFontSettings();
+</script>
+
+<style>
+  #animatedFontPreview {
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 24px;
+  }
+</style>
+

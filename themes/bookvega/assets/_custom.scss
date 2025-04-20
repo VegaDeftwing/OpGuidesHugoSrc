@@ -126,51 +126,130 @@ footnote {
 
 
 // Imported from https://www.w3schools.com/w3css/4/w3.css for the sake of a blog post
-.w3-bar{width:100%;overflow:hidden}.w3-center .w3-bar{display:inline-block;width:auto}
-.w3-bar .w3-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
-.w3-red,.w3-hover-red:hover{color:#fff!important;background-color:#f44336!important}
-.w3-green,.w3-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
-.w3-blue,.w3-hover-green:hover{color:#fff!important;background-color:#2dd2de!important}
-.w3-bluenu{color:#000!important;background-color:#00cfeb!important;font-family: 'Space Mono', monospace;font-weight: bold;}
-.w3-container,.w3-panel{padding:0.01em 16px}.w3-panel{marginß-top:16px;margin-bottom:16px}
-.w3-button:hover{color:#000!important;background-color:#ccc!important}
-.w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
-.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
-.w3-round-xxlarge{border-radius:32px}
-.w3-block{display:block;width:100%}
+.w3-bar {
+    width: 100%;
+    overflow: hidden
+}
+
+.w3-center .w3-bar {
+    display: inline-block;
+    width: auto
+}
+
+.w3-bar .w3-bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0
+}
+
+.w3-red,
+.w3-hover-red:hover {
+    color: #fff !important;
+    background-color: #f44336 !important
+}
+
+.w3-green,
+.w3-hover-green:hover {
+    color: #fff !important;
+    background-color: #4CAF50 !important
+}
+
+.w3-blue,
+.w3-hover-green:hover {
+    color: #fff !important;
+    background-color: #2dd2de !important
+}
+
+.w3-bluenu {
+    color: #000 !important;
+    background-color: #00cfeb !important;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+}
+
+.w3-container,
+.w3-panel {
+    padding: 0.01em 16px
+}
+
+.w3-panel {
+    marginß-top: 16px;
+    margin-bottom: 16px
+}
+
+.w3-button:hover {
+    color: #000 !important;
+    background-color: #ccc !important
+}
+
+.w3-btn,
+.w3-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.w3-round-xxlarge {
+    border-radius: 32px
+}
+
+.w3-block {
+    display: block;
+    width: 100%
+}
 
 th[role=columnheader]:not(.no-sort) {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 th[role=columnheader]:not(.no-sort):after {
-	content: '';
-	float: right;
-	margin-top: 7px;
-	border-width: 0 4px 4px;
-	border-style: solid;
-	border-color: #fff transparent;
-	visibility: hidden;
-	opacity: 0;
-	-ms-user-select: none;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	user-select: none;
+    content: '';
+    float: right;
+    margin-top: 7px;
+    border-width: 0 4px 4px;
+    border-style: solid;
+    border-color: #fff transparent;
+    visibility: hidden;
+    opacity: 0;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
 }
 
 th[aria-sort=ascending]:not(.no-sort):after {
-	border-bottom: none;
-	border-width: 4px 4px 0;
+    border-bottom: none;
+    border-width: 4px 4px 0;
 }
 
 th[aria-sort]:not(.no-sort):after {
-	visibility: visible;
-	opacity: 0.4;
+    visibility: visible;
+    opacity: 0.4;
 }
 
 th[role=columnheader]:not(.no-sort):hover:after {
-	visibility: visible;
-	opacity: 1;
+    visibility: visible;
+    opacity: 1;
 }
 
 // This style has been stolen from https://codepen.io/Kosai106/pen/eZvJwY (and slightly modifed)
@@ -178,15 +257,15 @@ th[role=columnheader]:not(.no-sort):hover:after {
 // The full text of the MIT licence can be found at https://opensource.org/licenses/MIT
 // So, MIT, Copyright Kevin Østerkilde. Stolen with love <3.
 
-$color1 :     #161719;
-$color2 :     #333;
-$text :       #eee;
+$color1 : #161719;
+$color2 : #333;
+$text : #eee;
 $highlight1 : #39505a;
 $highlight2 : #453346;
 $highlight3 : #422c2c;
 $highlight4 : #2f3f32;
 
-.foot-tooltip{
+.foot-tooltip {
     background-color: $color2;
     color: $text;
     font-size: 1em;
@@ -199,6 +278,7 @@ $highlight4 : #2f3f32;
     &:nth-child(2n) {
         border-left: 5px solid;
     }
+
     &:nth-child(2n):after {
         content: '';
         margin-top: -30px;
@@ -212,10 +292,12 @@ $highlight4 : #2f3f32;
         display: block;
         width: 1px;
     }
+
     //  Border and arrow right
     &:nth-child(2n+1) {
         border-right: 5px solid;
     }
+
     &:nth-child(2n+1):after {
         content: '';
         margin-top: -30px;
@@ -236,18 +318,485 @@ $highlight4 : #2f3f32;
         //border-color: hsla(random(365), random(365), 50, 1);
         border-color: $highlight1;
     }
+
     &:nth-child(4n+2) {
         border-color: $highlight4;
     }
+
     &:nth-child(4n+3) {
         border-color: $highlight2;
     }
+
     &:nth-child(4n+4) {
         border-color: $highlight3;
     }
 }
 
-.edgeLabel{ background-color: #333 !important; }
+.edgeLabel {
+    background-color: #333 !important;
+}
+
 .edgeLabel .label {
-    color:#fff !important;
+    color: #fff !important;
+}
+
+// https: //codepen.io/msriki12/pen/yyBNMEr Pokemon cards by Ric
+
+@layer base, cards;
+
+@layer cards {
+    .card {
+        /* we need the parent element to preserve the 3D style always */
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        display: flex;
+        float: left;
+        clear: left;
+        margin: 1rem 2rem 1rem 0;
+
+        border: none;
+        box-shadow: 0 4px 10px black;
+        border-radius: 1rem;
+        width: 20rem;
+
+        transition: transform 150ms linear;
+        position: relative;
+    }
+
+    .card-wrapper {
+        display: flex;
+        width: 20rem;
+    }
+
+    .card::after,
+    .card::before {
+        content: "";
+        position: absolute;
+        border-radius: 1.2rem;
+    }
+
+    .card::after {
+        z-index: -1;
+        inset: 0;
+        background: radial-gradient(circle at var(--mouse-x) var(--mouse-y),
+                var(--blur-color, hsla(52, 66%, 77%, var(--active-blur, 1))),
+                transparent var(--gradient-size));
+
+        filter: blur(1rem);
+    }
+
+    /* Border color effects based on card rarity */
+    .card[data-rarity="rare rainbow"] {
+        --blur-color: hsla(52, 66%, 77%, var(--active-blur, 1));
+        --border-color-in: hsl(52, 66%, 77%);
+        --border-color-out: hsl(183, 41%, 75%);
+    }
+
+    .card[data-rarity="rare holo v"] {
+        --blur-color: hsla(48, 100%, 69%, var(--active-blur, 1));
+        --border-color-in: hsl(48, 100%, 69%);
+        --border-color-out: hsl(240, 100%, 69%);
+    }
+
+    .card[data-rarity="rare holo v"]::before,
+    .card[data-rarity="rare rainbow"]::before {
+        z-index: -1;
+        inset: -0.2rem;
+        background: radial-gradient(circle at var(--mouse-x) var(--mouse-y),
+                var(--border-color-in),
+                var(--border-color-out),
+                transparent var(--gradient-size));
+    }
+
+    .card-img {
+        width: 20rem;
+        height: auto;
+        border-radius: 1rem;
+    }
+
+    .card__shine,
+    .card__glare {
+        position: absolute;
+        inset: 0;
+    }
+
+    .card__glare {
+        background-image: radial-gradient(farthest-corner circle at var(--mouse-x) var(--mouse-y),
+                hsla(0,
+                    0%,
+                    100%,
+                    calc(var(--gradient-opacity) * 0.8 * var(--active-glare, 1))) 10%,
+                hsla(0,
+                    0%,
+                    100%,
+                    calc(var(--gradient-opacity) * 0.65 * var(--active-glare, 1))) 20%,
+                hsla(0,
+                    0%,
+                    0%,
+                    calc(var(--gradient-opacity) * 0.65 * var(--active-glare, 1))) 90%);
+        border-radius: 1.2rem;
+        mix-blend-mode: overlay;
+    }
+
+    .card__shine {
+        transform: translateZ(1px);
+        display: grid;
+        opacity: var(--gradient-opacity);
+        background: transparent;
+        background-size: cover;
+        background-position: center;
+        mix-blend-mode: color-dodge;
+        filter: brightness(0.85) contrast(2.75) saturate(0.65);
+    }
+
+    /* Rare Holo V effect */
+    .card[data-rarity="rare holo v"] .card__shine,
+    .card[data-rarity="rare holo v"] .card__shine::after {
+        /* grainy texture for the holo v card */
+        --grain: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCI+CjxmaWx0ZXIgaWQ9Im4iPgo8ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iLjciIG51bU9jdGF2ZXM9IjEwIiBzdGl0Y2hUaWxlcz0ic3RpdGNoIj48L2ZlVHVyYnVsZW5jZT4KPC9maWx0ZXI+CjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjMDAwIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWx0ZXI9InVybCgjbikiIG9wYWNpdHk9IjAuMyI+PC9yZWN0Pgo8L3N2Zz4=");
+        --space: 5%;
+        --angle: 133deg;
+        --imgsize: 500px;
+
+        background-image: var(--grain),
+            repeating-linear-gradient(0deg,
+                rgb(255, 119, 115) calc(var(--space) * 1),
+                rgba(255, 237, 95, 1) calc(var(--space) * 2),
+                rgba(168, 255, 95, 1) calc(var(--space) * 3),
+                rgba(131, 255, 247, 1) calc(var(--space) * 4),
+                rgba(120, 148, 255, 1) calc(var(--space) * 5),
+                rgb(216, 117, 255) calc(var(--space) * 6),
+                rgb(255, 119, 115) calc(var(--space) * 7)),
+            repeating-linear-gradient(var(--angle),
+                #0e152e 0%,
+                hsl(180, 10%, 60%) 3.8%,
+                hsl(180, 29%, 66%) 4.5%,
+                hsl(180, 10%, 60%) 5.2%,
+                #0e152e 10%,
+                #0e152e 12%),
+            radial-gradient(farthest-corner circle at var(--mouse-x) var(--mouse-y),
+                rgba(0, 0, 0, 0.1) 12%,
+                rgba(0, 0, 0, 0.15) 20%,
+                rgba(0, 0, 0, 0.25) 120%);
+        background-blend-mode: screen, hue, hard-light;
+        background-size: var(--imgsize), 200% 700%, 300%, 200%;
+        background-position: center, 0% var(--posy), var(--posx) var(--posy),
+            var(--posx) var(--posy);
+
+        filter: brightness(0.8) contrast(2.95) saturate(0.5);
+        border-radius: 1rem;
+    }
+
+    .card[data-rarity="rare holo v"] .card__shine::after {
+        content: "";
+        background-position: center, 0% var(--mouse-x),
+            calc(var(--mouse-y) * -0.25) calc(var(--mouse-x) * -0.25),
+            var(--mouse-y) var(--mouse-x);
+        background-size: var(--imgsize), 200% 400%, 195%, 200%;
+        filter: brightness(1) contrast(2.5) saturate(2.75);
+        mix-blend-mode: soft-light;
+    }
+
+    /* Rare rainbow effect */
+    .card[data-rarity="rare rainbow"] .card__shine,
+    .card[data-rarity="rare rainbow"] .card__shine:after {
+        --space: 7%;
+        --angle: -20deg;
+        --angle2: 130deg;
+        --imgsize: 540px 700px;
+
+        border-radius: 1rem;
+
+        background-image: url("https://res.cloudinary.com/simey/image/upload/Dev/PokemonCards/rainbow2.jpg"),
+            repeating-linear-gradient(var(--angle),
+                rgb(253, 71, 65) calc(var(--space) * 1),
+                rgb(255, 243, 151) calc(var(--space) * 2),
+                rgba(168, 255, 95, 1) calc(var(--space) * 3),
+                rgba(131, 255, 247, 1) calc(var(--space) * 4),
+                rgb(75, 198, 255) calc(var(--space) * 5),
+                rgb(255, 73, 246) calc(var(--space) * 6),
+                rgb(255, 56, 49) calc(var(--space) * 7)),
+            repeating-linear-gradient(var(--angle2),
+                rgba(89, 46, 80, 0.5) 0%,
+                hsl(118, 43%, 76%) 2.5%,
+                rgb(223, 96, 202) 5%,
+                hsl(180, 57%, 56%) 7.5%,
+                rgba(14, 21, 46, 0.5) 10%,
+                rgba(14, 21, 46, 0.5) 15%),
+            url("https://res.cloudinary.com/simey/image/upload/Dev/PokemonCards/illusion2.webp");
+        background-size: 50% 50%, 500% 500%, 1000% 1000%, var(--imgsize);
+        background-position: center, 0% calc(var(--mouse-x) * 0.5),
+            var(--posx) var(--posy), center;
+        background-blend-mode: color-burn, soft-light, normal;
+        filter: brightness(calc((var(--hyp) * 0.25) + 0.66)) contrast(2) saturate(0.95);
+    }
+
+    .card[data-rarity="rare rainbow"] .card__shine:after {
+        content: "";
+        border-radius: 1rem;
+        background-position: center, 0% calc(var(--posy) * -1),
+            calc(var(--posx) * -1) calc(var(--posy) * -1), center;
+        mix-blend-mode: exclusion;
+    }
+}
+
+// https: //codepen.io/electrifried/pen/REjQdM - Letterpress Foil by Jaclyn Tan
+
+.container-iri {
+    font-family: "Raleway", Helvetica, Arial !important;
+
+    ul {
+        margin: 0px;
+        padding: 0px;
+
+        li {
+            margin-bottom: 1em;
+        }
+    }
+
+    /* text-shadow: inherit; */
+    /* text-shadow: initial; */
+    /* text-shadow: revert; */
+    /* text-shadow: revert-layer; */
+    /* text-shadow: unset; */
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        text-shadow: none !important;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    * {
+        font-family: "Raleway", Helvetica, Arial !important;
+        text-align: left !important;
+        padding-left: 0px !important;
+        text-shadow: none;
+        --pseudobg-x: 20%;
+        --pseudobg-y: 0%;
+
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(to right,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(249, 246, 242, 0.3) 50%,
+                rgba(255, 255, 255, 0) 100%);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        position: relative;
+        background-blend-mode: overlay;
+        /* text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.4); */
+        will-change: contents;
+        color: rgba(255, 255, 255, 0.3);
+
+        .rainbow {
+            color: rgba(11, 6, 56, 0.8);
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(255, 255, 255, 0.3);
+            filter: saturate(1.5);
+            background-image: linear-gradient(to right,
+                    rgba(255, 255, 255, 0) 0%,
+                    #ffdfdf 30%,
+                    #fff6c9 40%,
+                    #e8f1d6 50%,
+                    #d5ffff 60%,
+                    #caccff 70%,
+                    #fde2f7 80%,
+                    rgba(255, 255, 255, 0) 100%),
+                url("https://previews.123rf.com/images/scenery1/scenery11803/scenery1180300031/96996545-shiny-silver-leaf-foil-texture-texture-background.jpg");
+
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 20vw 100%, 100%;
+            background-repeat: no-repeat, repeat;
+            background-position: var(--pseudobg-x), var(--pseudobg-y);
+            background-blend-mode: color;
+            background-attachment: scroll, scroll;
+            background-attachment: fixed, scroll;
+            //use fixed or scroll background-position depending on the overall page design
+            z-index: 1;
+            // background-blend-mode: multiply;
+            text-shadow: -2px 1px 1px rgba(0, 0, 0, 0.2);
+            opacity: 0.95;
+            z-index: -1;
+        }
+
+        &:after {
+            content: attr(var(--html));
+            position: absolute;
+            top: -3px;
+            left: -3px;
+            text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.9);
+            z-index: -2;
+        }
+    }
+}
+
+// https: //codepen.io/HejChristian/pen/YPzLbYX Holograhpic Glare by Christian ALder 
+
+.clr {
+    clear: both;
+}
+
+.full-width {
+    /* padding: 5em 0em; */
+    /* width: 100%; */
+}
+
+/* The Shader Stuff */
+.shader {
+    position: relative;
+    overflow: hidden;
+    width: fit-content;
+    display: flex;
+    float: left;
+    clear: left;
+    backface-visibility: hidden;
+    /* Forces GPU */
+    margin: 1rem 2rem 1rem 0;
+}
+
+.shader-r {
+    position: relative;
+    overflow: hidden;
+    width: fit-content;
+    display: flex;
+    float: right;
+    clear: right;
+    backface-visibility: hidden;
+    /* Forces GPU */
+    margin: 1rem 2rem 1rem 0;
+}
+
+.shader-layer {
+    background: black;
+    mix-blend-mode: multiply;
+    position: absolute;
+    inset: 0;
+    /* width: inherit; */
+    /* height: 100%; */
+    /* background-size: 100%; */
+    display: flex;
+    background-position: center;
+}
+
+.specular {
+    mix-blend-mode: color-dodge;
+    background-attachment: fixed;
+}
+
+.mask {
+    mix-blend-mode: multiply;
+    /* background-image: url(sparrow_mask.png); */
+}
+
+/* Gradient Definitions */
+.gradient-sparrow {
+    background-image: linear-gradient(0deg,
+            hsl(359, 60%, 40%),
+            hsl(16, 60%, 45%),
+            hsl(33, 60%, 50%),
+            hsl(45, 60%, 55%),
+            hsl(58, 60%, 60%),
+            hsl(58, 60%, 65%),
+            hsl(58, 60%, 70%),
+            hsl(96, 60%, 65%),
+            hsl(146, 60%, 60%),
+            hsl(183, 60%, 55%),
+            hsl(225, 60%, 50%),
+            hsl(265, 60%, 45%),
+            hsl(303, 60%, 40%));
+}
+
+.gradient-lumon {
+    background-image: linear-gradient(0deg,
+            hsl(0, 0%, 0%) 0%,
+            hsl(0, 0%, 0%) 59.8%,
+            hsl(221, 61%, 34%) 60%,
+            hsl(197, 92%, 86%) 60.2%,
+            hsl(0, 0%, 0%) 100%);
+}
+
+.gradient-turtle {
+    background-image: linear-gradient(0deg,
+            hsl(0, 0%, 0%) 40%,
+            hsl(195, 63%, 71%) 50%,
+            hsl(261, 49%, 78%) 100%);
+}
+
+.gradient-dragonfly {
+    background-image: linear-gradient(25deg,
+            hsl(0, 0%, 33%) 30%,
+            hsl(138, 26%, 83%) 45%,
+            hsl(77, 5%, 72%) 65%,
+            hsl(0, 0%, 33%) 70%);
+}
+
+.gradient-vega {
+    background-image: linear-gradient(-35deg,
+            hsl(0, 0.00%, 12.90%) 30%,
+            hsl(200, 51.10%, 43.30%) 45%,
+            hsla(66, 71.70%, 61.20%, 0.70) 65%,
+            hsl(0, 0.00%, 23.10%) 70%);
+}
+
+.gradient-vega2 {
+    background-image: linear-gradient(-25deg, rgba(61, 60, 60, 1) 0%, rgba(63, 94, 251, 1) 30%, rgba(107, 232, 104, 1) 49%, rgba(255, 204, 0, 1) 73%, rgba(252, 70, 107, 1) 80%, rgba(59, 59, 59, 1) 100%);
+}
+
+.gradient-beetle {
+    background-image: linear-gradient(0deg,
+            hsl(0, 0%, 0%) 10%,
+            hsl(67, 61%, 83%) 45%,
+            hsl(0, 0%, 0%) 80%);
+}
+
+.gradient-nanina {
+    background-image: linear-gradient(0deg,
+            hsl(0, 0%, 0%) 0%,
+            hsl(50, 100%, 88%) 30%,
+            hsl(50, 100%, 88%) 70%,
+            hsl(0, 0%, 0%) 90%);
+}
+
+.gradient-mandala {
+    background-image: linear-gradient(30deg,
+            hsl(30, 80%, 20%) 0%,
+            hsl(30, 80%, 80%) 10%,
+            hsl(30, 80%, 20%) 20%,
+            hsl(30, 80%, 80%) 30%,
+            hsl(30, 80%, 20%) 35%,
+            hsl(30, 80%, 80%) 50%,
+            hsl(30, 80%, 20%) 65%,
+            hsl(30, 80%, 80%) 70%,
+            hsl(30, 80%, 20%) 80%,
+            hsl(30, 80%, 80%) 90%,
+            hsl(30, 80%, 20%) 100%);
+}
+
+.gradient-deer {
+    background-image: linear-gradient(-25deg,
+            hsl(0, 0%, 0%) 30%,
+            hsl(104, 26%, 83%) 45%,
+            hsl(273, 22%, 25%) 65%,
+            hsl(0, 0%, 0%) 70%);
 }
