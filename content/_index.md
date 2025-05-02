@@ -12,7 +12,7 @@ type: docs
 
 [Opinionated Design](/design/basics) is split into two sections. The first aims to help you not suck at art™ and the second is a stroll though making a website like this one.
 
-[Opinionated Philosophy](/phil/basic-phil) is ~~a place for me to screm my oppinions into the void~~  an attempt to apply philisophical ideas and reasoning to modern problems. 
+[Opinionated Philosophy](/phil/basic-phil) is ~~a place for me to screm my opinions into the void~~  an attempt to apply philosophical ideas and reasoning to modern problems. 
 
 The [Interviews](/interviews/interviews) section will introduce you to some kick ass engineers, musicians, and kool kids from all walks of life.
 
