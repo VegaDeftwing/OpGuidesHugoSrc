@@ -45,13 +45,28 @@ I don't really want to see beheadings or nudity or have a platform overtaken wit
 
 What *really* bothers me about it isn't the filtering or lack there of, it's the limitations of content in the first place.
 
--- LIGHT
+{{< light >}}
 
 The web is fucking awesome.
 
 TODO: Indieweb, neocities, mastodon, etc.
 
--- ELIGHT
+## Indie Web Projects: The Personal Touch that Matters
+
+Enter platforms like **Neocities**, where the old web's spirit of creativity, personalization, and experimentation is alive and well. These sites may lack the pristine polish of modern platforms, but what they lack in convention, they make up for in character. 
+
+Every site feels like a window into the creator’s world, with unique choices of color palettes, animated gifs, background music, and personal touches that make browsing feel more like a conversation than a transaction. It’s a reminder that the web doesn’t have to be a monotonous scroll — it can be an *experience*.
+
+We’re seeing a resurgence in people seeking out indie apps, quirky interfaces, and visually striking designs not because they’re perfect, but because they feel **human**. This isn’t nostalgia — it’s our desire for **connection** and **self-expression**.
+
+"Design isn't just what it looks like and feels like. Design is how it works." — Steve Jobs
+<footnote>Yeah, Jobs was a massive douche, but the quote is still good.</footnote>
+
+---
+
+[TODO] Add a bunch of web badges here
+
+{{< /light >}}
 
 ## Solving the Physical Link Problem
 

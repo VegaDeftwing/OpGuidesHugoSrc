@@ -12,9 +12,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+
   * {
     box-sizing: inherit;
   }
+
   overflow-x: hidden;
   max-width: 100%;
 }
@@ -123,11 +125,11 @@ ul.pagination {
     word-wrap: break-word;
   }
 
-  input.toggle + label + ul {
+  input.toggle+label+ul {
     display: none;
   }
 
-  input.toggle:checked + label + ul {
+  input.toggle:checked+label+ul {
     display: block;
   }
 }
@@ -135,13 +137,13 @@ ul.pagination {
 .book-section-flat {
   margin: $padding-16 * 2 0;
 
-  > a,
-  > span,
-  > label {
+  >a,
+  >span,
+  >label {
     font-weight: bolder;
   }
 
-  > ul {
+  >ul {
     padding-inline-start: 0;
   }
 }
@@ -151,10 +153,12 @@ ul.pagination {
   flex-grow: 1;
   padding-top: 1rem;
   padding-left: 1rem;
-  .markdown{
+
+  .markdown {
     margin-left: auto;
     margin-right: auto;
     max-width: 50rem;
+    box-sizing: border-box;
   }
 
   a[href*="#"]:not([href*="//"][href*="#"]):not(h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .book-btn)::before {
@@ -241,6 +245,7 @@ ul.pagination {
     border: $padding-1 solid var(--color-link);
     border-radius: $border-radius;
     cursor: pointer;
+
     &:hover {
       text-decoration: none;
     }
@@ -255,6 +260,7 @@ ul.pagination {
     border: $padding-1 solid #c448c7;
     border-radius: $border-radius;
     cursor: pointer;
+
     &:hover {
       text-decoration: none;
     }
@@ -269,6 +275,7 @@ ul.pagination {
     border: $padding-1 solid #e23838;
     border-radius: $border-radius;
     cursor: pointer;
+
     &:hover {
       text-decoration: none;
     }
@@ -283,6 +290,7 @@ ul.pagination {
     border: $padding-1 solid #f78200;
     border-radius: $border-radius;
     cursor: pointer;
+
     &:hover {
       text-decoration: none;
     }
@@ -297,6 +305,7 @@ ul.pagination {
     border: $padding-1 solid #ffb900;
     border-radius: $border-radius;
     cursor: pointer;
+
     &:hover {
       text-decoration: none;
     }
@@ -311,6 +320,7 @@ ul.pagination {
     border: $padding-1 solid #5ebd3e;
     border-radius: $border-radius;
     cursor: pointer;
+
     &:hover {
       text-decoration: none;
     }
@@ -325,6 +335,7 @@ ul.pagination {
     border: $padding-1 solid #42b9f3;
     border-radius: $border-radius;
     cursor: pointer;
+
     &:hover {
       text-decoration: none;
     }
@@ -359,7 +370,7 @@ ul.pagination {
     background: var(--gray-100);
     color: var(--body-font-color);
 
-    &:required + .book-search-spinner {
+    &:required+.book-search-spinner {
       display: block;
     }
   }
@@ -400,7 +411,7 @@ ul.pagination {
     height: 1em;
   }
 
-  nav > ul > li:first-child {
+  nav>ul>li:first-child {
     margin-top: 0;
   }
 }
@@ -434,6 +445,7 @@ ul.pagination {
 }
 
 @media screen and (max-width: $mobile-breakpoint) {
+
   #menu-control,
   #toc-control {
     display: inline;
@@ -454,11 +466,11 @@ ul.pagination {
     display: block;
   }
 
-  #menu-control:focus ~ main label[for="menu-control"] {
+  #menu-control:focus~main label[for="menu-control"] {
     @include outline;
   }
 
-  #menu-control:checked ~ main {
+  #menu-control:checked~main {
     .book-menu {
       visibility: initial;
     }
@@ -482,18 +494,18 @@ ul.pagination {
     }
   }
 
-  #toc-control:focus ~ main label[for="toc-control"] {
+  #toc-control:focus~main label[for="toc-control"] {
     @include outline;
   }
 
-  #toc-control:checked ~ main {
+  #toc-control:checked~main {
     .book-header aside {
       display: block;
     }
   }
 
   //for RTL support
-  body[dir="rtl"] #menu-control:checked + main {
+  body[dir="rtl"] #menu-control:checked+main {
     .book-menu nav {
       transform: translateX(-$menu-width);
     }
@@ -502,6 +514,7 @@ ul.pagination {
 
 // Extra space for big screens
 @media screen and (min-width: $container-max-width) {
+
   .book-page,
   .book-menu nav,
   .book-toc nav {
@@ -511,47 +524,47 @@ ul.pagination {
 
 .tip,
 tr:nth-child(2n) {
-	background-color: #00000077;
+  background-color: #00000077;
 }
 
 .tip {
-	border-bottom-right-radius: 2px;
-	border-left: 4px solid #f66;
-	border-top-right-radius: 2px;
-	margin: 2em 0;
-	padding: 12px 24px 12px 30px;
-	position: relative
+  border-bottom-right-radius: 2px;
+  border-left: 4px solid #f66;
+  border-top-right-radius: 2px;
+  margin: 2em 0;
+  padding: 12px 24px 12px 30px;
+  position: relative
 }
 
 .tip:before {
-	background-color: #f66;
-	border-radius: 20%;
-	color: #fff;
-	content: "!";
-	font-family: Dosis, Source Sans Pro, Helvetica Neue, Arial, sans-serif;
-	font-size: 14px;
-	font-weight: 700;
-	left: -12px;
-	line-height: 20px;
-	position: absolute;
-	height: 20px;
-	width: 20px;
-	text-align: center;
-	top: 14px
+  background-color: #f66;
+  border-radius: 20%;
+  color: #fff;
+  content: "!";
+  font-family: Dosis, Source Sans Pro, Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  left: -12px;
+  line-height: 20px;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  top: 14px
 }
 
 .tip code {
-	background-color: #efefef22;
+  background-color: #efefef22;
 }
 
 .tip em {
-	color: #34495e
+  color: #34495e
 }
 
 p.warn {
-	background: rgba(66, 185, 131, .1);
-	border-radius: 2px;
-	padding: 1rem
+  background: rgba(66, 185, 131, .1);
+  border-radius: 2px;
+  padding: 1rem
 }
 
 ::-webkit-scrollbar {
@@ -574,27 +587,28 @@ a {
   font-family: 'Space Mono', monospace;
 }
 
-.navbak{
+.navbak {
   padding-left: .5em;
   padding-right: .1em;
 }
 
-.wrapper{
+.wrapper {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  h2.glitch{
+
+  h2.glitch {
     color: white;
     font-weight: 400;
     position: relative;
     font-size: 2em;
     padding: 30px;
   }
-    
-  h2.glitch::before, h1.glitch::after{
+
+  h2.glitch::before,
+  h1.glitch::after {
     padding: 30px;
     color: white;
     content: "Chapter 2: The Digital";
@@ -605,8 +619,8 @@ a {
     overflow: hidden;
     top: 0;
   }
-  
-  h2.glitch::before{
+
+  h2.glitch::before {
     left: 3px;
     text-shadow: -2px 0 red;
     animation-name: glitch-animation-1;
@@ -616,8 +630,8 @@ a {
     animation-iteration-count: infinite;
     animation-direction: reverse-alternate;
   }
-    
-  h2.glitch::after{
+
+  h2.glitch::after {
     left: -3px;
     text-shadow: -2px 0 blue;
     animation-name: glitch-animation-2;
@@ -628,172 +642,225 @@ a {
     animation-direction: reverse-alternate;
   }
 }
-  
+
 @keyframes glitch-animation-1 {
   0% {
     clip: rect(61px, 850px, 126px, 30px);
   }
+
   5% {
     clip: rect(45px, 850px, 59px, 30px);
   }
+
   10% {
     clip: rect(48px, 850px, 101px, 30px);
   }
+
   15% {
     clip: rect(21px, 850px, 17px, 30px);
   }
+
   20% {
     clip: rect(25px, 850px, 25px, 30px);
   }
+
   25% {
     clip: rect(71px, 850px, 73px, 30px);
   }
+
   30% {
     clip: rect(17px, 850px, 99px, 30px);
   }
+
   35% {
     clip: rect(129px, 850px, 61px, 30px);
   }
+
   40% {
     clip: rect(55px, 850px, 74px, 30px);
   }
+
   45% {
     clip: rect(134px, 850px, 14px, 30px);
   }
+
   50% {
     clip: rect(136px, 850px, 129px, 30px);
   }
+
   55% {
     clip: rect(100px, 850px, 100px, 30px);
   }
+
   60% {
     clip: rect(122px, 850px, 26px, 30px);
   }
+
   65% {
     clip: rect(33px, 850px, 140px, 30px);
   }
+
   70% {
     clip: rect(7px, 850px, 58px, 30px);
   }
+
   75% {
     clip: rect(48px, 850px, 141px, 30px);
   }
+
   80% {
     clip: rect(120px, 850px, 112px, 30px);
   }
+
   85% {
     clip: rect(86px, 850px, 29px, 30px);
   }
+
   90% {
     clip: rect(9px, 850px, 84px, 30px);
   }
+
   95% {
     clip: rect(34px, 850px, 59px, 30px);
   }
+
   100% {
     clip: rect(72px, 850px, 87px, 30px);
   }
 }
+
 @keyframes glitch-animation-2 {
   0% {
     clip: rect(140px, 150px, 51px, 30px);
   }
+
   5% {
     clip: rect(4px, 150px, 70px, 30px);
   }
+
   10% {
     clip: rect(31px, 150px, 123px, 30px);
   }
+
   15% {
     clip: rect(124px, 150px, 78px, 30px);
   }
+
   20% {
     clip: rect(3px, 150px, 27px, 30px);
   }
+
   25% {
     clip: rect(73px, 150px, 96px, 30px);
   }
+
   30% {
     clip: rect(142px, 150px, 147px, 30px);
   }
+
   35% {
     clip: rect(15px, 150px, 135px, 30px);
   }
+
   40% {
     clip: rect(34px, 150px, 68px, 30px);
   }
+
   45% {
     clip: rect(101px, 150px, 96px, 30px);
   }
+
   50% {
     clip: rect(11px, 150px, 144px, 30px);
   }
+
   55% {
     clip: rect(64px, 150px, 80px, 30px);
   }
+
   60% {
     clip: rect(146px, 150px, 125px, 30px);
   }
+
   65% {
     clip: rect(105px, 150px, 70px, 30px);
   }
+
   70% {
     clip: rect(125px, 150px, 9px, 30px);
   }
+
   75% {
     clip: rect(126px, 150px, 135px, 30px);
   }
+
   80% {
     clip: rect(117px, 150px, 2px, 30px);
   }
+
   85% {
     clip: rect(20px, 150px, 10px, 30px);
   }
+
   90% {
     clip: rect(24px, 150px, 66px, 30px);
   }
+
   95% {
     clip: rect(88px, 150px, 57px, 30px);
   }
+
   100% {
     clip: rect(130px, 150px, 129px, 30px);
   }
 }
 
 .progress-ww {
-  text-align:left;
+  text-align: left;
 }
+
 .progress-ww div {
   display: flex;
-  padding:0 0 0 0px;
+  padding: 0 0 0 0px;
 }
-dl { 
-width: 100%;
-margin-top:0;
+
+dl {
+  width: 100%;
+  margin-top: 0;
 }
-dt , dd {
-  display:inline-block;
-  vertical-align:top;
-  margin:0;
-  padding:12px 10px 0 0;
+
+dt,
+dd {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 12px 10px 0 0;
   color: #fff;
   font-size: small;
 }
+
 dt {
   width: 17%;
-  text-align:right;
+  text-align: right;
 }
+
 dd {
   width: 80%;
-  text-align:left;
-}
-dt:after {content:'-';}
-
-dt.sub, dd.sub {
-  padding:8px 0 0 0 !important;
+  text-align: left;
 }
 
-dt.sub:after {content:':';}
+dt:after {
+  content: '-';
+}
+
+dt.sub,
+dd.sub {
+  padding: 8px 0 0 0 !important;
+}
+
+dt.sub:after {
+  content: ':';
+}
 
 .iquestion {
   padding: 1px 10px 1px 10px;
@@ -814,9 +881,11 @@ kbd {
   padding: 2px 5px;
   position: relative;
   top: -1px;
+
   &:hover {
     box-shadow: 0 1px 0 0.5px #000;
     top: 1px;
   }
+
   white-space: nowrap;
 }

@@ -2,6 +2,7 @@ TODO:
 
 Tools should be self contained and opinionated: C vs Rust, Fossil Vs Git, etc. ++ How this contradicts, but why it's better.
 
+Tools should be composable, smart, fast, customizable. 
 
 
 ## Creating New Information Sucks

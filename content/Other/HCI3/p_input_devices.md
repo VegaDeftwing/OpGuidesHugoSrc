@@ -1,12 +1,15 @@
-# TODO
+<img src="/hci/mxpatent.svg" class="lg-no-shadow" style="height:15em;">
 
-Patents of Cherry MX switches as transition.
+</br>
+{{< smalltext >}}In 2014, Cherry's [patent](https://patents.google.com/patent/US4467160A/en) for the MX style keyswitch used in most mechanical keyboards expired, allowing for a large variety of new switches and improvements to the original designs to hit the market.{{< /smalltext >}}
 
 # Computing Is Physical
 
 One of the frustrating things about shopping for a computer is that we're taught to think about their specs as strictly quantifiable.  You can read something like,
 
-> The 391Q2 is 1.5x faster than the 292U3 but costs 2x as much
+<div class="conlang" style="font-size:1.2em;">
+The 󿝏󿝯󿝭Q󿝛 is 1.5x faster than the 󿝛󿝯󿝛U󿝏 but costs 2x as much
+</div>
 
 And make a decision based on your budget and needs, but you can't see that speed. I mean, sure, you'll notice a difference in performance in your applications - and that's important - but an awesome gaming computer with a keyboard covered in mysterious slime and a ball mouse from 1998 isn't something you want to use.
 
@@ -14,12 +17,12 @@ We give a lot of weight to specs we can quantify but which reside out of sight, 
 
 * Maybe that new display is too reflective
 * Maybe the keyboard feels terrible to type on
-* Maybe that new gadget used low quality parts, so won't last as long
+* Maybe that new gadget used low quality parts
 * Maybe it's all glued together and can't be repaired
 * Maybe the fans are loud
 * Maybe you find it ugly
 
-Things we don't traditionally think of as "part of the computer" do change how it feels to use it. If your chair or desk aren't comfortable and don't suit your needs, that's a problem. If you always go chasing the easy, quantifiable (and easily marketable) upgrades, you'll probably miss out on some of these vital points. 
+Things we don't traditionally think of as "part of the computer" do change how it feels to use it. If your chair or desk aren't comfortable and don't suit your needs, that's a problem. If you always go chasing the easy, quantifiable (and easily marketable) upgrades, you'll probably miss out on some of these vital points.
 
 To start with, this page will look at direct computer input devices.
 
@@ -293,9 +296,8 @@ Speaking of different input devices though, what about pen tablets?
 I have a pen-display, but, I don't make art much, so I asked some other artists: What bothers them in tablets:
 
 * Latency/Lag (Drawing lags motion)
-* "Pen and drawing not aligned" (Glass thickness)
+* Pen and drawing not aligned (Glass thickness)
 * Wires & Portability
-* Frustrating setup
 
 A ton of artists I know have moved to using ProCreate on an iPad, which fixes the third point, at the cost of the other two.
 
@@ -481,3 +483,7 @@ Similarly, ergonomic mice tend to get those ergonomic gains by making the grip v
 
 While I'm a huge proponent of always being willing to at least try things - and meaningfully, not just "Oh I grabbed it and it's different therefore bad" - it has to be in context of the bigger picture of pros and cons.
 
+
+# TODO:
+
+- MX key profiles, chonkier keys, material type matters.
