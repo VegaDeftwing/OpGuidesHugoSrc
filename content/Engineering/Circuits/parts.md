@@ -33,7 +33,33 @@ http://dangerousprototypes.com/docs/Sick_of_Beige_compatible_cases works well fo
 
 ![](http://dangerousprototypes.com/docs/images/1/15/SOB_standardsizes.png)
 
-Guitar peadals often use enclosures of standard sizes that you can get with really nice powder coat finishes: https://stompboxparts.com/enclosures/
+Guitar peadals often use enclosures of standard sizes that you can get with really nice powder coat finishes.
+
+Some places to buy these:
+* https://stompboxparts.com/enclosures/
+* https://www.taydaelectronics.com/hardware-tools/enclosures.html
+* https://lovemyswitches.com/enclosures/
+
+![](https://www.amplifiedparts.com/sites/default/files/uc_products/enclosures_lid_view_web_jp2_53.png)
+
+For really big projects - or if you just already have some gear it would work with well (Such as networking, audio, or scientific equipment) - you can also DIY standard rack-mount equipment. Rack mount PC cases are also a thing.
+
+For example:
+* https://us.rs-online.com/product/rs-pro/6657659/70646735/?gQT=1
+* https://www.sliger.com/products/rackmount/4u/cx4150a/
+
+Finally, there are a few other back-plane based modular standards you might look at,
+
+* https://smallcomputercentral.com/rcbus/
+* https://en.wikipedia.org/wiki/Europe_Card_Bus
+* 500-series
+* [Modular crate electronics](https://en.wikipedia.org/wiki/Modular_crate_electronics)
+	* Notably, NIM ([Nuclear Instrumentation Module](https://en.wikipedia.org/wiki/Nuclear_Instrumentation_Module)), is simple enough that it's not impractical to DIY and there are some used chassis and misc modules available on sites like eBay.
+	* https://www.picmg.org/openstandards/microtca/ isn't crazy as a spec, but isn't super common, so you'll have a hard time finding a used, off the shelf chassis.
+
+Or, if you just need modular, but not a backplane, look to synthesizers. The Eurorack standard is popular, but there are others.
+
+I wouldn't really recommend (ab)using any of these unless you're planning to take advantage of existing modules in the ecosystem.
 
 #### Weather Proofing
 

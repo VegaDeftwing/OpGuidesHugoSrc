@@ -13,7 +13,7 @@ Before I even dive into Percussion, I think it's necessary to point out how gene
 
 <--->
 
-<img src="/music/drumkit.webp" alt="wikipedia drum kit list" height="500em">
+<img src="/music/drumkit.webp" alt="wikipedia drum kit list">
 
 {{< attribution >}}[Drum Kit](https://en.wikipedia.org/wiki/Drum_kit) page on Wikipedia{{< /attribution >}}
 

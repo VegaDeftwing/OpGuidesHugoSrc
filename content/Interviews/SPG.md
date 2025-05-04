@@ -284,7 +284,7 @@ I would really like to pick up some type of activity that I could use to exercis
 
 Thanks for giving me an opportunity to talk!
 
-<img src="/nonfree/interviews/spghero.jpeg" alt="Sex Positive Gaming Logo" height="250em">
+<img src="/nonfree/interviews/spghero.jpeg" alt="Sex Positive Gaming Logo">
 
 {{< speech big >}}
 

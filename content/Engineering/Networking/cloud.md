@@ -141,7 +141,7 @@ Further, separating things, while Microsoft has tried to make their development 
 
 So, while Azure effectively has the [single bullet point of Visual Studio](https://azure.microsoft.com/en-us/product-categories/developer-tools/), AWS has all of this
 
-<img src="/eng/awstools.webp" alt="AWS Tools" height="700em" style="-webkit-filter: invert(.85);">
+<img src="/eng/awstools.webp" alt="AWS Tools" style="height:30em;-webkit-filter: invert(.85);">
 
 As a very lazy metric, just searching GitHub (Which is owned by MS and hosted on Azure), we find this:
 

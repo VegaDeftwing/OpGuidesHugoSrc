@@ -4,17 +4,17 @@
 
 Well, when anyone first starts with circuits, they go for the ever popular breadboard:
 
-<img src="/unsplash/vishnu-mohanan-r98pDCvbcfM-unsplash.webp" alt=" " height="400em" style="border-radius:50px;">
+<img src="/unsplash/vishnu-mohanan-r98pDCvbcfM-unsplash.webp" alt=" " style="height:20em;border-radius:1em;">
 
 {{< attribution >}}Image by [Vishnu Mohanan](https://unsplash.com/photos/r98pDCvbcfM){{< /attribution >}}
 
 Then, you may decide to make a more reliable version, soldered together on a perma-proto board:
 
-<img src="/eng/filterproto.jpg" alt=" " height="400em" style="border-radius:50px;">
+<img src="/eng/filterproto.jpg" alt=" " style="height:20em;border-radius:50px;">
 
 But ultimately, the best, most reliable way to build your circuit is with a PCB:
 
-<img src="/eng/BassDrumPCB.jpg" alt=" " height="400em" style="border-radius:50px;">
+<img src="/eng/BassDrumPCB.jpg" alt=" " style="height:20em;border-radius:50px;">
 
 {{< hint warning >}}
 

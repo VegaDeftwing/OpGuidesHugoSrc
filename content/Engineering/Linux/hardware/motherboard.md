@@ -3,7 +3,7 @@
 <script>
     document.getElementById("hardwareMenu").open = true;
 </script>
-<img class="center" src="/eng/mobo.webp" alt="Motherboard" height="700em">
+<img class="center" src="/eng/mobo.webp" alt="Motherboard">
 
 This is an older motherboard, but still new enough to have modern parts. Let's start by looking at the most obvious physical features and move to smaller things from there.
 
@@ -47,7 +47,7 @@ So, how do we get any information from the motherboard? Well, in case it wasn't 
 
 To see what your fans are doing on Linux you'll need to grab the package `lm_sensors` with yay, then you can run `sudo sensors-decect` and mash enter until it's done. After this you should be able to run `sensors` and see an output similar to this one:
 
-<img src="/eng/sensors.webp" alt="sensors" height="500em" style="border-radius:30px;">
+<img src="/eng/sensors.webp" alt="sensors" style="height:30em;border-radius:1em;">
 
 Of note, depending on your system, there's a small chance nothing will be detected at all or that some information will be wrong. Even in my case this is true as my CPU fan is reporting 0 RPM. Actually entering your motherboard's UEFI or BIOS settings may expose more information, but we'll talk about that more later.
 
@@ -216,7 +216,7 @@ Finally, it's notable that the chipset typically acts as a PCIe lane 'splitter' 
 
 ## Expansion slots
 
-<img class="center" src="/eng/pciep.webp" alt="pci expansion" height="500em">
+<img class="center" src="/eng/pciep.webp" alt="pci expansion" style="height:20em;">
 
 {{< smalltext >}}Two PCI-e 1x expansion cards, one for USB 3.0 and one for audio. Of note, most modern motherboards have both functions built in.{{< /smalltext >}}
 

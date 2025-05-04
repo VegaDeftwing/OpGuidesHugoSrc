@@ -67,7 +67,7 @@ Each of these things is very important, but I'm going to start with cpu MHz as i
 
 ## Clock Speed
 
-<img class="center" src="/eng/transistor.jpg" alt="Transistors" height="400em" style="border-radius:50px;">
+<img class="center" src="/eng/transistor.jpg" alt="Transistors" style="height:25em;border-radius:50px;">
 
 However, to get to transistors we've gotta go just a bit further down the rabbit hole to *the relay*. Relays are super simple to understand, they're just a metal switch that is pulled open or closed using another input signal (usually a magnet pulling/pushing the switch closed/open) basically imagine a light switch, where the switch itself is controlled by yet another electrical signal. Relays are slow though, they require a physical metal plate to move to change the connection. Because of this they have limited reliability and worth note they're actually loud. You can hear an audible click of the switch as they change state.
 

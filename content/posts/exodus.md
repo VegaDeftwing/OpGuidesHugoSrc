@@ -105,7 +105,7 @@ Now we can kick them off of our little islands without feeling bad.
 
 If they want to make their own toxic little bubble, they can, but we don't have to deal with it. Yes, this may make echo cambers worse, but I think most people will just generally be miserable hanging out in those communities given enough time and mellow out. Could I be wrong? Sure. But trying something is better than the status quo.
 
-Basically, I feel like this is finally the first <img src="/common/crack.svg" alt=" " height="80rem" style="position: absolute;"></span>crack in a wall and that soon that crack will spread and the entire creativity that has been held back from platforms that offered a limited palette of expression will break free.
+Basically, I feel like this is finally the first <img src="/common/crack.svg" alt=" " style="height:5em;position: absolute;"></span>crack in a wall and that soon that crack will spread and the entire creativity that has been held back from platforms that offered a limited palette of expression will break free.
 
 I mean this. I think Mastodon is just the start. {{< button relref="other/fediverse" color="other" >}} The Fediverse, ActivityPub, & The IndieWeb {{< /button >}} are currently at this tipping point of going mainstream and with it [Webrings](https://webring.xxiivv.com/#icons) and [88x31 pixel badges](https://anlucas.neocities.org/88x31Buttons) might become common again, and the new standards might mean the entire obnoxious idea of platform lock-in becomes simply bad for business, because why would users ever want to use something that has the chance to implode like Twitter or Tumblr did.
 
@@ -263,26 +263,25 @@ for(var x=1; x < 8;x++) {
 <!-- This height needs to depend on the image.-->
 
 <style>
-region:hover{
+region:hover {
 }
 .grid-container {
   display: grid;
   grid-template-columns: 15% 15% 14% 12% 17% 13% 14%;
-  position: absolute;
-  width: 100%;
-  height: inherit;
+  /* position: absolute; */
+  /* height: inherit; */
+  /* width: 10%; */
 }
 
+.nerd-container {
+  position: relative;
+}
 
-.nerds{
+.nerds {
 	height: inherit;
 }
 
-.nerd-container{
-width: 100%
-}
-
-.grid-item:{
+.grid-item: {
 	background-color: blue;
 	z-index: 100 !important;
 }
@@ -293,41 +292,24 @@ pointer-events: none;
 </style>
 
 <div class="nerd-container">
-
-
-<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/1.webp" alt="Soatok" style="position: absolute;z-index: 3;">
-
-<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/2.webp" alt="Cadey" style="position: absolute;z-index: 2;">
-
-
-<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/3.webp" alt="Loial" style="position: absolute;z-index: 3;">
-
-
-<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/4.webp" alt="Vega" style="position: absolute;z-index: 1;">
-
-
-<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/5.webp" alt="Cendyne" style="position: absolute;z-index: 1;">
-
-<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/6.webp" alt="Mimir" style="position: absolute;z-index: 1;">
-
-<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/7.webp" alt="Vordex" style="position: absolute;z-index: 3;">
-
-<img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/placeholder.webp" alt="Vordex" style="position: absolute;z-index: 3;">
-
-<div class="grid-container">
-  <div class="grid-item" onmouseover="hover(1);" onmouseout="unhover(1);"><img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/hoverregion.webp" alt="Placeholder" style="z-index: 3;"></div>
-  <div class="grid-item" onmouseover="hover(2);" onmouseout="unhover(2);"> </div>
-  <div class="grid-item" onmouseover="hover(3);" onmouseout="unhover(3);"> </div>
-  <div class="grid-item" onmouseover="hover(4);" onmouseout="unhover(4);"> </div>
-  <div class="grid-item" onmouseover="hover(5);" onmouseout="unhover(5);"> </div>
-  <div class="grid-item" onmouseover="hover(6);" onmouseout="unhover(6);"> </div>
-  <div class="grid-item" onmouseover="hover(7);" onmouseout="unhover(7);"> </div>
-
+  <img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/1.webp" alt="Soatok" style="position: absolute;z-index: 3;">
+  <img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/2.webp" alt="Cadey" style="position: absolute;z-index: 2;">
+  <img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/3.webp" alt="Loial" style="position: absolute;z-index: 3;">
+  <img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/4.webp" alt="Vega" style="position: absolute;z-index: 1;">
+  <img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/5.webp" alt="Cendyne" style="position: absolute;z-index: 1;">
+  <img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/6.webp" alt="Mimir" style="position: absolute;z-index: 1;">
+  <img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/7.webp" alt="Vordex" style="position: absolute;z-index: 3;">
+  <img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/placeholder.webp" alt="Vordex" style="position: absolute;z-index: 3;">
+  <div class="grid-container">
+    <div class="grid-item" onmouseover="hover(1);" onmouseout="unhover(1);"><img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/hoverregion.webp" alt="Placeholder" style="z-index: 3;"></div>
+    <div class="grid-item" onmouseover="hover(2);" onmouseout="unhover(2);"> </div>
+    <div class="grid-item" onmouseover="hover(3);" onmouseout="unhover(3);"> </div>
+    <div class="grid-item" onmouseover="hover(4);" onmouseout="unhover(4);"> </div>
+    <div class="grid-item" onmouseover="hover(5);" onmouseout="unhover(5);"> </div>
+    <div class="grid-item" onmouseover="hover(6);" onmouseout="unhover(6);"> </div>
+    <div class="grid-item" onmouseover="hover(7);" onmouseout="unhover(7);"> </div>
   </div>
-
-  </div>
-
-  <img class="nerds" src="/nonfree/permissiongranted/nerd_lineup/placeholder.webp" alt="Vordex" style="z-index: 3;">
+</div>
 
 {{< attribution >}} Art by [Talon Creations](https://mobile.twitter.com/talon_creations). Characters from Left to Right: [Soatok](https://soatok.blog), [Cadey](https://xeiaso.net/blog), [Loial](https://www.hackster.io/news/this-vfd-clock-exquisitely-echoes-the-craftsmanship-of-its-mechanical-analog-cousins-of-yesterday-eaa73a60adb1), Vega, [Cendyne](https://cendyne.dev), [Mimir](http://meow.social/@mimir), [Vordex](http://yote.tech) {{< /attribution >}}
 

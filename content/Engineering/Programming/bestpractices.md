@@ -342,7 +342,7 @@ Yes, you should test your code.</br>Yes, some of these methods can help.</br>No,
 
 If in talking to others you can only think "What they're saying isn't actionable" you cease to be human.
 
-<img class="center" src="/nonfree/character/throw.png" alt="Table Flip" height="200em">
+<img class="center" src="/nonfree/character/throw.png" alt="Table Flip" style="height:20em;">
 
 
 

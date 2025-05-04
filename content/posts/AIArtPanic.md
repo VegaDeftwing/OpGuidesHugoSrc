@@ -308,7 +308,7 @@ It's a tool that uses other people's work without permission! AI pictures have e
 
 <div style="float:right;width:30%;padding: 10px 4px 10px 25px;">
 
-<img src="/nonfree/blog/ai/copyleftnewlogo.svg" alt=" " height="120em">
+<img src="/nonfree/blog/ai/copyleftnewlogo.svg" alt=" ">
 
 {{< smalltext >}}`copyleft open source symbol gnu linux free software piracy theft crow bird talon logo minimal`, Bit map traced in inkscape to convert to SVG.  CC0, Vega Deftwing (Feel free to steal this one){{< /smalltext >}}
 

@@ -293,7 +293,7 @@ Just be aware this may cause you problems and that none of the solutions to the 
 
 #### Transport & MMC
 
-<img src="/music/transport.svg" alt=" " height="80em" class="center">
+<img src="/music/transport.svg" alt=" " class="center">
 
 MIDI Machine Control or MMC is the part of the MIDI spec that defines the ability for devices to send and receive transport control messages. These include play, pause, stop, record start and stop, as well as fast-forward and rewind among others you can see [In the Wikipedia article](https://en.wikipedia.org/wiki/MIDI_Machine_Control). Technically, these are sent as SysEx messages, which I'll touch on in a bit, but unlike the broader use of SysEx messages, these messages are pretty universally supported.
 
@@ -303,7 +303,7 @@ MIDI Time Code or MTC is what is used for devices to talk to each other and say 
 
 So, how does it work? Get ready for a wild ride.
 
-<img src="/nonfree/character/inhale.webp" alt=" " height="160em">
+<img src="/nonfree/character/inhale.webp" alt=" " style="height:18em">
 
 MTC is actually based on SMPTE Timecode, so what's that? SMPTE stands for *Society of Motion Picture and Television Engineers*, so SMPTE Timecode is, unsurprisingly, for video time codes. In video, each picture shown is a frame, and there were multiple standards for how many frames should appear per second- the *FPS*. Unlike in gaming, this is a fixed, standard number for video *except* that the standard varied by region for older, analog television. As such, MIDI clock is actually based on 'frames per second' and there are multiple competing standards, but let's work our way to that:
 

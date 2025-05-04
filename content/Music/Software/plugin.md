@@ -82,7 +82,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><img src="https://www.fabfilter.com/img/products/pro-q-3-screenshot.jpg" alt=" " width="100%"></td>
 	<td>Equalization</br></td>
 	<td>~180</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   </tr>
   <tr>
     <!--- Valhalla Reverbs (Supermassive, Plate) & Delay ---> 
@@ -91,7 +91,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><img src="https://valhalladsp.com/wp-content/uploads/2020/11/ValhallaSupermassive_GUI_1_2_0.png" alt=" " ></td>
 	<td>Reverb</br></td>
 	<td>0 or 50</br>🆓</td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   </tr>
 <tr>
     <!--- Dragonfly Reverbs ---> 
@@ -100,7 +100,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><img src="https://michaelwillis.github.io/dragonfly-reverb/images/collage.png" alt=" " ></td>
 	<td>Reverb</br></td>
 	<td>0</br>🆓</td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   </tr>
 <tr>
     <!--- Peel ---> 
@@ -109,7 +109,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
  	 </tr>
     <!--- X-Noise ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
@@ -117,7 +117,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
 	<tr>
     <!--- Ignite Emissary ---> 
@@ -126,7 +126,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
 	<tr>
     <!--- Unfiltered Triad ---> 
@@ -135,7 +135,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
 	<tr>
     <!--- Unfiltered SpecOps ---> 
@@ -144,7 +144,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
 	<tr>
     <!--- Ufiltered Sandman Pro ---> 
@@ -153,7 +153,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Ufiltered Instant Delay ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Instant Delay</a></br>(Unfiltered Audio)</td>
@@ -161,7 +161,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Ufiltered Dent 2 ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Dent 2</a></br>(Unfiltered Audio)</td>
@@ -169,7 +169,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Ufiltered Fault ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Fault</a></br>(Unfiltered Audio)</td>
@@ -177,7 +177,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Ufiltered Byome ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Byome</a></br>(Unfiltered Audio)</td>
@@ -185,7 +185,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Output Portal ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Portal</a></br>(Output)</td>
@@ -193,7 +193,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Output Thermal ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Thermal</a></br>(Output)</td>
@@ -201,7 +201,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Noise Engineering Desmodus ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Desmodus</a></br>(Noise Engineering)</td>
@@ -209,7 +209,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Noise Engineering Ruina ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">XRuina</a></br>(Noise Engineering)</td>
@@ -217,7 +217,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Neural DSP Archetype Gojira ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
@@ -225,7 +225,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Neural DSP Archetype Gojira ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
@@ -233,7 +233,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Neural DSP Archetype Gojira, Nolly,  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
@@ -241,7 +241,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Nectar 3 (As Pitch Shifter)  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
@@ -249,7 +249,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Ghz Lohi 3  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
@@ -257,7 +257,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Ghz Megaverb 3  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
@@ -265,7 +265,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Ghz Trem Control 3  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
@@ -273,7 +273,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Devious Machines Pitch Monster  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
@@ -281,7 +281,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Baby Audio Taip  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
@@ -289,7 +289,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Baby Audio Super VHS  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
@@ -297,7 +297,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Aberrant DSP Digitalis  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
@@ -305,7 +305,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- UVI Shade  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
@@ -313,7 +313,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Puremagnetik Pastfabric  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
@@ -321,7 +321,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Puremagnetik Octavlord  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
@@ -329,7 +329,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Puremagnetik Clusters  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
@@ -337,7 +337,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Polyverse Gatekeeper  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Gatekeeper</a></br>(Polyverse)</td>
@@ -345,7 +345,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Polyverse Manipulator  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Manipulator</a></br>(Polyverse)</td>
@@ -353,7 +353,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Eventide Qudra/Octavox  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Octa/Qudravox</a></br>(Eventide)</td>
@@ -361,7 +361,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Eventide Blackhole  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Blackhole</a></br>(Waves)</td>
@@ -369,7 +369,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- D16 Decimort2  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Decimort 2</a></br>(D16 Group)</td>
@@ -377,7 +377,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
    <!--- D16 Tekturon, or NE delay, Or Chow Matrix, or Other Desert Cities.  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Tekturon</a></br>(D16 Group)</td>
@@ -385,7 +385,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
    <!--- D16 Redoptor  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
@@ -393,7 +393,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
    <!--- GuitarML SmartAmp  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">X-Noise</a></br>(Waves)</td>
@@ -401,7 +401,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
  <!--- MJUC  ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">MJUC</a></br>(Waves)</td>
@@ -409,7 +409,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
 </tbody>
 </table>
@@ -445,7 +445,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><video width="100%" autoplay="" loop="" muted="" playsinline="" loading="lazy" src="https://vital.audio/videos/full_screen.mp4"></video></td>
 	<td>Synth</br>🎛</td>
 	<td>0 ~ 80</br>🆓🧱🧑</td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   </tr>
   <tr>
     <!--- Pendulate ---> 
@@ -454,7 +454,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><img src="https://com-eventide-drupaluserfiles.s3.amazonaws.com/product/images/GenerateScreenShot.png" alt=" " width="100%"</td>
     <td>Synth</td>
 	<td>0 ~ 150</br>🆓🧱</td>
-    <td><p hidden>1</p><img src="/copper.svg" alt=" " height="40em"></td>
+    <td><p hidden>1</p><img src="/nonfree/logo/copper.svg" alt=" " ></td>
   </tr>
   <tr>
     <!--- XFER Serum ---> 
@@ -463,7 +463,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td></td>
     <td>Synth</td>
     <td></td>
-    <td><p hidden>1</p><img src="/copper.svg" alt=" " height="40em"></td>
+    <td><p hidden>1</p><img src="/nonfree/logo/copper.svg" alt=" " ></td>
   </tr>
   <tr>
     <!--- Pigments ---> 
@@ -472,7 +472,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><img src="https://medias.arturia.net/images/products/pigments/pigments-image.png" alt=" " width="100%"></td>
 	<td>Synth</br>🎛</td>
 	<td>100</br>💸</td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   </tr>
   <tr>
     <!--- Analog Lab V ---> 
@@ -481,7 +481,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><img src="https://medias.arturia.net/images/products/analoglab-v/analoglab-v-image.png" alt=" " width="100%"></td>
     <td>Synth</td>
     <td>100</br>💸</td>
-    <td><p hidden>2</p><img src="/silver.svg" alt=" " height="40em"></td>
+    <td><p hidden>2</p><img src="/nonfree/logo/silver.svg" alt=" " ></td>
   </tr>
   <tr>
     <!--- Komplete ---> 
@@ -490,7 +490,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><img src="https://www.native-instruments.com/typo3temp/pics/img-ce-gallery-image-gallery_1-6ae0d1d0eb9eb564111025f4edf3dec2-d@2x.jpg" alt=" " width="100%"></td>
     <td>Sampler</td>
     <td>0 ~ 400</br>🆓🧱💸🧑</td>
-    <td><p hidden>2</p><img src="/silver.svg" alt=" " height="40em"></td>
+    <td><p hidden>2</p><img src="/nonfree/logo/silver.svg" alt=" " ></td>
   </tr>
   <tr>
     <!--- Guitarist ---> 
@@ -517,7 +517,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><img src="https://www.amplesound.net/images/ag/apc01.jpg" alt=" " width="100%"></td>
     <td>Perc (Cloudrum)</td>
     <td>0</br>🆓</td>
-    <td><p hidden>1</p><img src="/copper.svg" alt=" " height="40em"></td>
+    <td><p hidden>1</p><img src="/nonfree/logo/copper.svg" alt=" " ></td>
   </tr>
   <tr>
     <!--- Alter Ego ---> 
@@ -553,7 +553,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><img src="https://secureservercdn.net/198.71.233.109/h0y.f02.myftpupload.com/wp-content/uploads/2019/10/synth1-free-vst-synth-1.png" alt=" " width="100%"></td>
     <td>Synth</td>
 	<td>0</br>🆓</td>
-    <td><p hidden>1</p><img src="/copper.svg" alt=" " height="40em"></td>
+    <td><p hidden>1</p><img src="/nonfree/logo/copper.svg" alt=" " ></td>
   </tr>
   <tr>
     <!--- Massive ---> 
@@ -700,7 +700,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><img src="https://assets.xlnaudio.com/pages/xo/1.2/gui-screens/main_2x.png" alt=" " width="100%"></td>
 	<td>Organization</br>🎛</td>
 	<td>0 ~ 80</br>🆓🧱🧑</td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   </tr>
   <tr>
     <!--- Signalizer ---> 
@@ -709,7 +709,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><iframe width="100%" height="220" src="https://www.youtube.com/embed/dHWDmufiohc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 	<td>Visulization</br>🎛</td>
 	<td>0 ~ 80</br>🆓🧱🧑</td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   </tr>
 <tr>
     <!--- Peel ---> 
@@ -718,7 +718,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
  	</tr>
 	<tr>
     <!--- X-Noise ---> 
@@ -727,7 +727,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
 	<tr>
     <!--- Gullfoss (Soundtheory) ---> 
@@ -736,7 +736,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Scalar 2 ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Gullfoss</a></br>(Soundtheory)</td>
@@ -744,7 +744,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Polyverse Wider ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Gullfoss</a></br>(Soundtheory)</td>
@@ -752,7 +752,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
     <!--- Hy-RPE2 ---> 
     <td><a href="https://www.waves.com/plugins/x-noise#tab-in-depth">Gullfoss</a></br>(Soundtheory)</td>
@@ -760,7 +760,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td>[TODO]</td>
 	<td>Repair</br>🎛</td>
 	<td>~40</br></td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   	</tr>
 </tbody>
 </table>
@@ -786,7 +786,7 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><img src="https://warmplace.ru/soft/fbits/images/scr02.jpg" alt=" " width="100%"></td>
 	<td>🤖,🍎</td>
 	<td>2</td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   </tr>
   <tr>
     <td><a href="https://warmplace.ru/soft/sunvox/">Sunvox</a></br>(WarmPlace.ru)</td>
@@ -794,63 +794,63 @@ You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just deno
     <td><img src="https://warmplace.ru/soft/sunvox/images/sunvox28.png" alt=" " width="100%"></td>
 	<td>🤖,🍎 + Win, Linux, Mac</br>🎛</td>
 	<td>6, free on desktop</td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   </tr>
     <td><a href="https://grainstorm.rocks.me">Grainstorm</a></br>(The Secret Laboratory)</td>
     <td>Granular Synth</td>
     <td><img src="https://play-lh.googleusercontent.com/6wF10yI2PHwJkIcmosNXlOmU199H2eU9lqwMT02AqWZwOzbiz0dIgDS-AeTi1PvGKA=w3372-h1892-rw" alt=" " width="100%"></td>
 	<td>🤖</td>
 	<td>0, in app purchases</br>🆓🧱</td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   </tr>
     <td><a href="https://www.jthorborg.com/index.html?ipage=signalizer">Wave editor</a></br>(Lynggaard Thorborg)</td>
     <td>Oscope+++ great for finding issues in your mixs</td>
     <td><iframe width="100%" height="220" src="https://www.youtube.com/embed/dHWDmufiohc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 	<td>Synth</br>🎛</td>
 	<td>0 ~ 80</br>🆓🧱🧑</td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   </tr>
     <td><a href="https://www.jthorborg.com/index.html?ipage=signalizer">FL Studio Moblie</a></br>(Image Line)</td>
     <td>Oscope+++ great for finding issues in your mixs</td>
     <td><iframe width="100%" height="220" src="https://www.youtube.com/embed/dHWDmufiohc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 	<td>Synth</br>🎛</td>
 	<td>0 ~ 80</br>🆓🧱🧑</td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   </tr>
     <td><a href="https://www.flipsampler.com">Flip</a></br>(Flip Sampler, Andrew Huang)</td>
     <td>Sample Based Mobile DAW</td>
-    <td><img src="https://images.squarespace-cdn.com/content/v1/5d9e2c5dbaad6f4ed18b1003/1606173512946-QVDGFWTU93HQDYGQJ7KA/sampler.png?format=2500w" alt=" " height="220"></td>
+    <td><img src="https://images.squarespace-cdn.com/content/v1/5d9e2c5dbaad6f4ed18b1003/1606173512946-QVDGFWTU93HQDYGQJ7KA/sampler.png?format=2500w" alt=" "></td>
 	<td>🍎</td>
 	<td>10</td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   </tr>
     <td><a href="https://www.jthorborg.com/index.html?ipage=signalizer">SynprezFM</a></br>(Lynggaard Thorborg)</td>
     <td>Oscope+++ great for finding issues in your mixs</td>
     <td><iframe width="100%" height="220" src="https://www.youtube.com/embed/dHWDmufiohc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 	<td>Synth</br>🎛</td>
 	<td>0 ~ 80</br>🆓🧱🧑</td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   </tr>
     <td><a href="https://www.jthorborg.com/index.html?ipage=signalizer">NodeBeat</a></br>(Lynggaard Thorborg)</td>
     <td>Oscope+++ great for finding issues in your mixs</td>
     <td><iframe width="100%" height="220" src="https://www.youtube.com/embed/dHWDmufiohc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 	<td>Synth</br>🎛</td>
 	<td>0 ~ 80</br>🆓🧱🧑</td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   </tr>
     <td><a href="https://www.jthorborg.com/index.html?ipage=signalizer">OSCSurface</a></br>(Lynggaard Thorborg)</td>
     <td>Oscope+++ great for finding issues in your mixs</td>
     <td><iframe width="100%" height="220" src="https://www.youtube.com/embed/dHWDmufiohc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 	<td>Synth</br>🎛</td>
 	<td>0 ~ 80</br>🆓🧱🧑</td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   </tr>
     <td><a href="https://play.google.com/store/apps/details?id=org.intoorbit.spectrum&hl=en_US&gl=US">Spectroid</a></br>(Carl Reinke)</td>
     <td>Spectal Analyzer, helpful for finding what frequency an annoying sound in the backgound is at- "Is that 60hz hum?"</td>
     <td><img src="https://play-lh.googleusercontent.com/hIHAfW-YhJfQnBl2aO7jpaJ6xVaLI1diITAJ54J9xPMXZYLBFz0and_M3YJHSXLpiA=w3372-h1892-rw" alt=" " width="100%"></td>
 	<td>🤖</td>
 	<td>0</br>🆓</td>
-    <td><p hidden>3</p><img src="/gold.svg" alt=" " height="40em"></td>
+    <td><p hidden>3</p><img src="/nonfree/logo/gold.svg" alt=" " ></td>
   </tr>
 </tbody>
 </table>

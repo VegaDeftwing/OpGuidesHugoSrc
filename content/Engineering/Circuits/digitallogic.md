@@ -27,7 +27,7 @@ As an example, here's a rather artistic representation of a digital logic circui
 
 <--->
 
-<img src="/eng/logicloop.gif" alt="logicloop" height="760em" style="border-radius:50px;">
+<img src="/eng/logicloop.gif" alt="logicloop" style="border-radius:1em;">
 
 {{< attribution >}}lineart by https://merveilles.town/@chirrolafupa, </br>I (Vega) filled it in and turned it into a gif.</br> To access the original line art, use a [gemini](https://gemini.circumlunar.space) browser to go to</br> gemini://caracolito.mooo.com/coloring-computers/{{< /attribution >}}
 
@@ -57,7 +57,7 @@ min/max terms, Don't cares, SOP/POS, multiple out
 
 ### Not
 
-<img src="/eng/logic/Not-gate-en.svg" alt=" " height="80em" style="-webkit-filter: invert(1);filter: invert(1);">
+<img src="/eng/logic/Not-gate-en.svg" alt=" " style="height:3em;-webkit-filter: invert(1);filter: invert(1);">
 
 {{< attribution >}}Image [CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=829201), by [Heron](https://en.wikipedia.org/wiki/User:Heron) {{< /attribution >}}
 
@@ -74,7 +74,7 @@ min/max terms, Don't cares, SOP/POS, multiple out
 
 True **if** A **and** B are true, else false. Often written as A∧B or just AB
 
-<img src="/eng/logic/AND_ANSI.svg" alt=" " height="80em" style="-webkit-filter: invert(1);filter: invert(1);">
+<img src="/eng/logic/AND_ANSI.svg" alt=" " style="height:3em;-webkit-filter: invert(1);filter: invert(1);">
 
 | Input A | Input B | Output |
 | ------- | ------- | ------ |
@@ -89,7 +89,7 @@ True **if** A **and** B are true, else false. Often written as A∧B or just AB
 
 False **if** A **and** B are true, else True. Often written as ¬(A∧B), ((¬A)∧(¬B)), or A⊼B
 
-<img src="/eng/logic/NAND_ANSI_Labelled.svg" alt=" " height="80em" style="-webkit-filter: invert(1);filter: invert(1);">
+<img src="/eng/logic/NAND_ANSI_Labelled.svg" alt=" " style="height:3em;-webkit-filter: invert(1);filter: invert(1);">
 
 | Input A | Input B | Output |
 | ------- | ------- | ------ |
@@ -108,7 +108,7 @@ Bitwise `AND` is often used in programming to make a mask of which bits you want
 
 True **if** A **or** B are true, else False. Note, this includes if both are true. Often written as A∨B or A+B
 
-<img src="/eng/logic/OR_ANSI_Labelled.svg" alt=" " height="80em" style="-webkit-filter: invert(1);filter: invert(1);">
+<img src="/eng/logic/OR_ANSI_Labelled.svg" alt=" " style="height:3em;-webkit-filter: invert(1);filter: invert(1);">
 
 | Input A | Input B | Output |
 | ------- | ------- | ------ |
@@ -127,7 +127,7 @@ True if neither A or B are True, else False. {{< katex >}} \text{Often written }
 
 </br>
 
-<img src="/eng/logic/NOR_ANSI_Labelled.svg" alt=" " height="80em" style="-webkit-filter: invert(1);filter: invert(1);">
+<img src="/eng/logic/NOR_ANSI_Labelled.svg" alt=" " style="height:3em;-webkit-filter: invert(1);filter: invert(1);">
 
 | Input A | Input B | Output |
 | ------- | ------- | ------ |
@@ -144,7 +144,7 @@ True if neither A or B are True, else False. {{< katex >}} \text{Often written }
 
 True **if** A **or** B are **exclusively** True, else False. Note, this **does not** include if both are true. Often written as A⊕B
 
-<img src="/eng/logic/XOR_ANSI.svg" alt=" " height="80em" style="-webkit-filter: invert(1);filter: invert(1);">
+<img src="/eng/logic/XOR_ANSI.svg" alt=" " style="height:3em;-webkit-filter: invert(1);filter: invert(1);">
 
 | Input A | Input B | Output |
 | ------- | ------- | ------ |
@@ -159,7 +159,7 @@ True **if** A **or** B are **exclusively** True, else False. Note, this **does n
 
 For two bits, most easily thought of as True if both bits are equal. More broadly, it is the negation of the exclusive or logic.
 
-<img src="/eng/logic/Xnor-gate-en.svg" alt=" " height="80em" style="-webkit-filter: invert(1);filter: invert(1);">
+<img src="/eng/logic/Xnor-gate-en.svg" alt=" " style="height:3em;-webkit-filter: invert(1);filter: invert(1);">
 
 {{< attribution >}}Image [CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=829201), by [Heron](https://en.wikipedia.org/wiki/User:Heron) {{< /attribution >}}
 

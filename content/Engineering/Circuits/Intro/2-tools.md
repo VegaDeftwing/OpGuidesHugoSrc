@@ -230,19 +230,25 @@ The oscilloscope (or OScope or simply Scope) allows you to see an AC signal and 
 
 More simply, it lets you watch how your circuit behaves over time.
 
+<img src="/eng/oscopeastroids.webp" alt="Asteroids" style="height:15em;float:right;padding: 1em 1em 1em 1em">
 Most OScopes will allow you to look at multiple signals at once, with one overlaid on the other. Furthermore, most support X-Y mode, where the plot is actually the voltage of one input as the X axis and the voltage of another as the Y, moving a dot and it's trail around the screen. In fact, this is how the first computer monitors worked:
 
-<img src="/eng/oscopeastroids.webp" alt="Asteroids" height="400em">
+
+<br class="clr">
+
+<img src="/eng/modernscope.webp" alt="Modern Scope" style="height:15em;float:left;padding: 1em 1em 1em 1em;border-radius:2em;">
 
 Modern OScopes look much different than their phosphorescent green ancestors, though:
 
-<img src="/eng/modernscope.webp" alt="Modern Scope" height="400em">
+However, a decent 'Digital Storage Oscilloscope' or DSO like this one will run you a minimum of \$300 at the time of writing.
 
-However, a decent 'Digital Storage Oscilloscope' or DSO like the one above run a minimum of \$300 at the time of writing, so many hobbyists opt for older scopes like this one:
+<br class="clr">
 
-<img src="/eng/oldscope.jpeg" alt="Old Scope" height="400em">
+<img src="/eng/oldscope.jpeg" alt="Old Scope" style="float:right;padding: 1em 1em 1em 1em;border-radius:1em;">
 
-Note, a lot of hobbyists will try to get by on a really cheap new scope (less than $100).
+Because of this many hobbyists opt for older scopes. Note, a lot of hobbyists will try to get by on a really cheap new scope (less than $100).
+
+<br class="clr">
 
 There's a particularly popular really cheap (often under \$10) exposed red PCB one and just… don't. Either get a used scope (often around \$100) or get something good outright, as for "good" I'd really recommend the Rigol DS1054Z<footnote>especially as you can easily unlock it to make it much better, using http://www.n5dux.com/ham/riglol/, albeit not 100% legally</footnote>, or the [Diglent Analog Discovery 2](https://digilent.com/shop/analog-discovery-2-100ms-s-usb-oscilloscope-logic-analyzer-and-variable-power-supply/) which packs a lot of these tools all into one thing. I know it's a lot of money, but ideally this is something you can think of as an investment.
 

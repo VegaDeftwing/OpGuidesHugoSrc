@@ -180,7 +180,7 @@ Well, when the program exits, it returns that number to the process that called 
 
 <--->
 
-<img src="/eng/returncodes.png" alt="Return Codes" height="300em"></br>
+<img src="/eng/returncodes.png" alt="Return Codes"></br>
 
 {{< /columns >}}
 
@@ -204,7 +204,7 @@ Okay, so, we now have almost everything, last up is just the string that we're p
 
 But what's with that `\n` on the end? Well, to understand this line we'll need our helpful friend, the ASCII table.
 
-<img src="/eng/ASCII-Table-wide.svg" alt="Arch Logo" height="600em" style="-webkit-filter: invert(100%);">
+<img src="/eng/ASCII-Table-wide.svg" alt="Arch Logo" style="-webkit-filter: invert(100%);">
 
 {{< hint info>}}
 
