@@ -208,6 +208,9 @@ headless: true
 <div class="progress-ww">
 <dl>
 <dt>46 </dt><dd> <a href="/engineering/wrappingup/wrappingup/">Where next?</a></dd>
+
+---
+
 <dt>A3 </dt><dd> <a href="/engineering/wrappingup/cheat/">Cheat Sheets & Libraries</a></dd>
 <dt>A4 </dt><dd> <a href="/engineering/wrappingup/resources/">Other Great Resources</a></dd>
 <dt>A5 </dt><dd> <a href="/engineering/wrappingup/job/">Getting a Job</a></dd>
@@ -413,15 +416,32 @@ headless: true
 <dt> </dt><dd> <a href="/other/funlinks/">Interesting Links</a></dd>
 <dt> </dt><dd> <a href="/other/advice/">Advice</a></dd>
 <p class="navhead" style="color:#5EBD3E;margin-bottom:0px;" >   Technical</p>
-<dt></dt><dd>
-      <details id="hciMenu"> <summary> <a href="/other/hci2/intro/">The Way We Interact With Computers Sucks</a></summary>
+<!-- <dt></dt><dd> -->
+      <!-- <details id="hciMenu"> <summary> <a href="/other/hci2/intro/">The Way We Interact With Computers Sucks</a></summary>
          <dt class="sub">1</dt><dd class="sub"> <a href="/other/hci2/physical"> The Physical</a></dd>
 	      <dt class="sub">2</dt><dd class="sub"> <a href="/other/hci2/digital"> The Digital</a></dd>
          <dt class="sub">3</dt><dd class="sub"> <a href="/other/hci2/whatelse"> What Is Needed?</a></dd>
          <dt class="sub">4</dt><dd class="sub"> <a href="/other/hci2/contradictions"> What Contradicts?</a></dd>
          <dt class="sub">5</dt><dd class="sub"> <a href="/other/hci2/radicallychanging"> Radically Changing</a></dd>
          <dt class="sub">6</dt><dd class="sub"> <a href="/other/hci2/wrappingup"> Wrapping Up</a></dd>
-      </details>
+      </details> -->
+<p class="navhead" style="color:#5EBD3E;margin-bottom:0px;" >      FOO </p>
+<dt> </dt><dd> <a href="/other/HCI3/intro">Intro</a></dd>
+<dt> </dt><dd> <a href="/other/HCI3/p_input_devices">Input Devices</a></dd>
+<dt> </dt><dd> <a href="/other/HCI3/p_env">Working Environment</a></dd>
+<dt> </dt><dd> <a href="/other/HCI3/p_art">Art</a></dd>
+<dt> </dt><dd> <a href="/other/HCI3/p_d_rrr">Reduce Reuse Recycle</a></dd>
+<dt> </dt><dd> <a href="/other/HCI3/p_d_features">Features</a></dd>
+<dt> </dt><dd> <a href="/other/HCI3/d_ownership">Ownership</a></dd>
+<dt> </dt><dd> <a href="/other/HCI3/d_storage">Storage</a></dd>
+<dt> </dt><dd> <a href="/other/HCI3/d_transfer">Transfer</a></dd>
+<dt> </dt><dd> <a href="/other/HCI3/d_presentation">Presentation</a></dd>
+<dt> </dt><dd> <a href="/other/HCI3/d_find_access">Find & Access</a></dd>
+<dt> </dt><dd> <a href="/other/HCI3/d_creating_and_tools">Creating & Tools</a></dd>
+<dt> </dt><dd> <a href="/other/HCI3/d_community">Community</a></dd>
+<dt> </dt><dd> <a href="/other/HCI3/d_auth">Auth</a></dd>
+<dt> </dt><dd> <a href="/other/HCI3/conclusion">Conclusion</a></dd>
+<p class="navhead" style="color:#5EBD3E;margin-bottom:0px;" >      </p>
 </dd>
 <dt> </dt><dd> <a href="/other/coolhardware/">Cool Hardware</a></dd>
 <dt> </dt><dd> <a href="/other/fediverse/">The Fediverse, ActivityPub, & The IndieWeb </a></dd>

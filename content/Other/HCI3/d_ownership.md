@@ -9,6 +9,10 @@ Software for using hardware to full fetaure should always be included. If paid, 
 
 THis app doesn't allow screenshots, blocking right click, and other client-side anti-features.
 
+Car not allowing typing (Even with passanger)
+
+Any popup that says "Remind me later"
+
 
 # Ownership & Enshittification
 In early 2024 it was headline news for gamers that Ubisoft was displaying the message:

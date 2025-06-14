@@ -4,26 +4,19 @@ weight: 20
 ---
 
 <script>
-
 function hover(num) {
   document.querySelector("body > main > div > article > div.nerd-container >   img:nth-child(8)").setAttribute('src', "/nonfree/permissiongranted/nerd_lineup/" + num + "_a.webp");
 }
-
 function unhover(num) {
   document.querySelector("body > main > div > article > div.nerd-container >   img:nth-child(8)").setAttribute('src', "/nonfree/permissiongranted/nerd_lineup/" + num + ".webp");
 }
-
 preloads = "red.gif,green.gif,blue.gif".split(",")
 var tempImg = []
-
 for(var x=1; x < 8;x++) {
     tempImg[x] = new Image()
     tempImg[x].src = "/nonfree/permissiongranted/nerd_lineup/" + x + "_a.webp"
 }
-
 </script>
-
-<!-- This height needs to depend on the image.-->
 
 <style>
 region:hover {
@@ -31,9 +24,6 @@ region:hover {
 .grid-container {
   display: grid;
   grid-template-columns: 15% 15% 14% 12% 17% 13% 14%;
-  /* position: absolute; */
-  /* height: inherit; */
-  /* width: 10%; */
 }
 
 .nerd-container {
