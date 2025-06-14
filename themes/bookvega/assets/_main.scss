@@ -149,10 +149,13 @@ ul.pagination {
 }
 
 .book-page {
+  overflow: hidden !important;
+  overflow-wrap: break-word;
   min-width: $body-min-width;
   flex-grow: 1;
   padding-top: 1rem;
   padding-left: 1rem;
+  padding-right: 1rem;
 
   .markdown {
     margin-left: auto;
