@@ -1359,7 +1359,37 @@ If you're looking at this list, there's a good chance you're either writing up t
 
 {{< /details >}}
 
+{{< details title="Simple Image Tools" open=false >}}
 
+{{< columns2 >}}
+
+[Atkinson Dithering](https://gazs.github.io/canvas-atkinson-dither/)
+
+<--->
+
+Dithers
+
+<--->
+
+It's pretty b/w dithering
+
+{{< /columns2 >}}
+
+{{< columns2 >}}
+
+[Touch Your Art](https://lyra.horse/arrupted/)
+
+<--->
+
+Lets you corrupt bytes of your image intentionally to get cool effects.
+
+<--->
+
+<img src="/nonfree/character/lyra_horse_touch_your_art.png" alt=" ">
+
+{{< /columns2 >}}
+
+{{< /details >}}
 
 ---
 

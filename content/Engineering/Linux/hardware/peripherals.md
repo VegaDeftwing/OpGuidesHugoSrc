@@ -1,5 +1,20 @@
 # 9 - Peripherals
 
+Quick links
+
+---
+
+{{< columns >}}
+
+* [USB Log View](https://www.nirsoft.net/utils/usb_log_view.html) - Figure Out What is dis/re connecting randomly
+* [USB Tree View](https://www.uwe-sieber.de/usbtreeview_e.html) - See connection speeds/Bus Topology
+
+<--->
+
+{{< /columns >}}
+
+---
+
 <script>
     document.getElementById("hardwareMenu").open = true;
 </script>
