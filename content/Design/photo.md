@@ -20,7 +20,7 @@ I don't.
 
 ---
 
-Now that we're working with a camera, not some AI-Smooth'd nightmare let's talk about how to get actual, good pictures. You just need to spend an extra couple of seconds in the camera app to go from "meh" to great.
+Now that we're working with a camera, not some AI-Smoothed nightmare let's talk about how to get actual, good pictures. You just need to spend an extra couple of seconds in the camera app to go from "meh" to great.
 
 First things first, you'll need to figure out how to get to "Pro" mode on your camera. Just search the internet for how to do this for your phone.
 
@@ -32,7 +32,7 @@ Cameras, when they open their shutter, let light in. If you don't have enough li
 
 That number, is the ISO.
 
-This means we can need to balance how much time the shutter is open (more time = more light) and how much we muliply by (ISO).
+This means we can need to balance how much time the shutter is open (more time = more light) and how much we multiply by (ISO).
 
 Let's say we have the worlds worst camera - a device we could hardly call a camera - with a resolution of 1x1. 1 pixel. That's it. Worse, let's assume it's a black and white camera - so we can get grayscale.
 
@@ -130,7 +130,7 @@ So, first, because of our fast shutter time, the sensor sees this:
         <div style="background-color: hsl(0 0% 11%); display: flex; justify-content: center;"><p style="mix-blend-mode: difference;">110</p></div>
 </div>
 
-Multiplying by 10 (And capping the values to 1000, the highest our camera can repsent)
+Multiplying by 10 (And capping the values to 1000, the highest our camera can represent)
 
 <div style="display: grid; grid-template-columns: repeat(3, 3.33em); grid-template-rows: repeat(3, 3.33em); width: 10em; height: 10em; gap: 0;">
         <div style="background-color: hsl(0 0% 7%); display: flex; justify-content: center;"><p style="mix-blend-mode: difference;">70</p></div>
@@ -216,7 +216,7 @@ Note the extra grain in the high ISO image due to the noise issues explained up 
 
 Technically, we only taked about 2/3 of what makes up "Exposure". We covered ISO and shutter speed, but not the Aperture. I think focusing on the science here makes it overly complicated anyway, so, suffice to say by controlling the apature, you can control the depth of field - effectively, how far back do you have to look before things look blurry and out of focus. But, when you do this, you are changing how much light can get to the sensor, so it does play a part in how you select the shutter time and ISO as well.
 
-*(Un?)fortunately,* this probably isn't relevant to you for smart-phone photography, because very few phones actually have an aperature that can be controlled.
+*(Un?)fortunately,* this probably isn't relevant to you for smart-phone photography, because very few phones actually have an aperture that can be controlled.
 
 {{< speech big >}}
 
@@ -270,16 +270,45 @@ https://www.theverge.com/tech/640119/camera-raw-spec-format-explained-adobe-dng-
 
 ### Chromatic  Aberration
 
-
+### Filters
 
 ## ND Filter
 
+ND, or "Neutral-Density" filters do something that normally sounds pretty useless: They block light.
 
+This means you'll need a longer exposure to get the same amount of light. Generally, that's a bad thing, but there are some circumstances where you want to take a long exposure photo but would have too much light at sane settings. The most stereotypical example of this is taking a picture of a waterfall with a longer exposure so the water looks smooth or getting trails as the stars move across the night sky, as in the example picture above.
+
+Today, most you'll see are variable. These are actually just two polarizing filters. These have a minor cost in image quality because there is more in front of the sensor, but, as always, the best tool is the one you'll use. The variablility is often worth it for getting the shot right compared to needing to carry and swap between multiple, static ND filters which block different amounts of light.
+
+At the exterme end, at ND 5.0 (or anythin that's doing the eqivilent of about 17 stops) you can use these to take pictures of the sun without damaging the camera's sensor.
+
+Some cameras - notably those in smartphones - have digital ND filter options which, are, uh, not doing that. ND Filtering is an inheritly analog thing, so rather the digital ones are using some [weird motion interpolation thing](https://r2.community.samsung.com/t5/CamCyclopedia/Digital-ND-Filter/ba-p/15082402). It can look about the same, and a good looking picture is a good looking picture, but you should know it's not physically doing the same thing.
+
+## Infrared Filters
+
+## Polarization Filters
+
+## Colored Filters
+
++ use for BW
+
+The [Photographic Filters](https://en.wikipedia.org/wiki/Photographic_filter) Wikipedia page has a fantastic reference for how different colored filters will affect black and white images.
+
+## Vari-Color Filters
+
+These are nearly un-obtanium, as far as I can tell there is nobody manufacturing them now. So, only read on if you won't feel FOMO:
+
+
+
+See [Review: Cokin varicolor](https://howgreenisyourgarden.wordpress.com/2014/07/06/review-cokin-varicolor/) by Howgreenisyourgarden. It's more than a review.
+
+You can do some pretty neat stuff with just a CPL and some junk plastic though,
+
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/zbKjqHqy2no" title="Strange Filters" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+--
 
 [This Guy Flipped an Element in an Old Lens and Got ‘Magic’ Bokeh  (PetaPixel)](https://petapixel.com/2018/08/02/this-guy-flipped-an-element-in-an-old-lens-and-got-magic-bokeh/)
 
-https://hackaday.com/2022/10/12/enjoy-the-beauty-of-corona-discharge-with-this-kirlian-photography-setup/
 
-https://www.camerasim.com/original-camerasim
-
-ND Filter? https://r2.community.samsung.com/t5/CamCyclopedia/Digital-ND-Filter/ba-p/15082402
+[TODO]: Tilt Shift lens

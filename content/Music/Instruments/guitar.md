@@ -1,5 +1,9 @@
 # Guitar
 
+<script>
+    document.getElementById("instMenu").open = true;
+</script>
+
 [TODO] Things I don't know where to put yet:
 * Strat plates, they're replaceable
 * 

@@ -34,7 +34,7 @@ Of course, that's not counting the actual parts needed for whatever you're build
 
 {{< tip >}}
 
-note, the above video uses U=IR instead of V=IR like 'normal'. You'd think that engineers could just get along and pick consistent symbols, but, nope. The 'normal' way to write it is V (voltage) = I (current) * R (Resistance), though you'll also often see E=IR or, less common, U=IR like here.
+Note, the above video uses U=IR instead of V=IR like 'normal'. You'd think that engineers could just get along and pick consistent symbols, but, nope. The 'normal' way to write it is V (voltage) = I (current) * R (Resistance), though you'll also often see E=IR or, less common, U=IR like here.
 
 {{< /tip >}}
 

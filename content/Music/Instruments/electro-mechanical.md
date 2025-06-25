@@ -1,5 +1,9 @@
 # Electro-Mechanical Instruments
 
+<script>
+    document.getElementById("instMenu").open = true;
+</script>
+
 I have a particular love of instruments that sit in that acoustic sweet spot where i feels as though there's a physical resonating body merged with a synthesizer, where you can hear key clicks and a physical body but it doesn't respond like we're used to yet it's not so avant-garde as not not be useful or just a gimmick.
 
 Think a hurdy gurdy, but with an inbuilt tube amp and the drones are actually tube based oscillators.

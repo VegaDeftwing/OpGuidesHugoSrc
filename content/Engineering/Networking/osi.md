@@ -1,4 +1,4 @@
-# Chapter 37.2 - The OSI Model
+# Chapter 38.2 - The OSI Model
 
 The **OSI model of networking** is the model of networking most classes will cover. It is slightly different from the one used by the internet, which is the <u>**TCP/IP**</u> model, but it's a bit more regularly used when talking about networking, so it's the one I'll cover here. Note, the big difference is really just that In the **<u>TCP/IP</u>** model, the **Physical** and **Data Link** Layers are viewed as a **unified '<u>Network Acces Layer</u>'**, the **Network Layer** is called the **<u>Internet</u> Layer,** The Transport Layer *stays the same*, and the and The **Session, Presentation, and Application** layer are all part of a **larger <u>Application</u>** Layer.
 

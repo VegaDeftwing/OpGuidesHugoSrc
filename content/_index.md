@@ -12,7 +12,7 @@ type: docs
 
 [Opinionated Design](/design/basics) is split into two sections. The first aims to help you not suck at art™ and the second is a stroll though making a website like this one.
 
-[Opinionated Philosophy](/phil/basic-phil) is ~~a place for me to screm my opinions into the void~~  an attempt to apply philosophical ideas and reasoning to modern problems. 
+[Opinionated Philosophy](/phil/basic-phil) is ~~a place for me to scream my opinions into the void~~  an attempt to apply philosophical ideas and reasoning to modern problems. 
 
 The [Interviews](/interviews/interviews) section will introduce you to some kick ass engineers, musicians, and kool kids from all walks of life.
 
@@ -21,7 +21,7 @@ If you're interested in what I have to say, there's some{{< button relref="posts
 Finally, there's some [Other](/other/hci2/intro) miscellaneous pages too. Content in this section ranges from discussions of conlangs like toki pona to 10,000 word rants about technology.
 </br>
 
-Note that this website is *[mostly](#copyright)* open source and I really appriciate contributions ❤️
+Note that this website is *[mostly](#copyright)* open source and I really appreciate contributions ❤️
 
 The site is hosted though GitHub Pages, so all you have to do is [submit a PR on GitHub](https://github.com/VegaDeftwing/OpGuidesHugoSrc).
 
@@ -84,7 +84,7 @@ is crazy to me.
 
 Because of everything from an abusive text book industry to capitalism as a whole what we have right now is expensive, boring, low quality, and isn't even worth it.
 
-Seriously, look at how poor of a value even a technical education is becoming! College prices have sky rocketed, the dream of finding a career with decent work-life balance is imploding, and the big employers of computer engineers and computer scientists are being generally fucking evil and I just don't get why anyone would want to do it....
+Seriously, look at how poor a value even a technical education is becoming! College prices have sky rocketed, the dream of finding a career with decent work-life balance is imploding, and the big employers of computer engineers and computer scientists are being generally fucking evil and I just don't get why anyone would want to do it....
 
 ...except for 18 year old high school graduates that have been fed the line that college is necessary for them to have a fulfilling life and have been repeatedly told how much it's expected of them to go to college.
 

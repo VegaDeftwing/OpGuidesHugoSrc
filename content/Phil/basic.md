@@ -34,7 +34,7 @@ slug: "Basic Phil"
 </div>
 
 
-Before anything else, I think it's necessary to point out this is **opinionated** guides. 
+Before anything else, I think it's necessary to point out this is **opinionated** guides.
 
 Philosophy involves looking at the world around us and asking ourselves 'why', then making arguments for how things should be different and what moral frameworks work best to come to conclusions that optimize for something like happiness or 'goodness' in the world. Given that both morals and 'goodness' are not absolutes, the best way for me to write this guide and actually be of service to you as a reader is to provide my **opinion** and talk about why I believe what believe both from a researched 'here are the facts' sense and from a 'here is the moral framework that, with these facts, brought me to this conclusion' sense. You don't have to agree with my opinions, I'd rather you didn't actually, as agreement means talking to you doesn't expose me to new ideas.<footnote>To be transparent and tell you my biases up front, I'm WEIRD, that is I'm from a Western, Eduated, Industrialized, Rich, & Democratic Country- The US. I'm also white, bisexual, liberal with a tinge of libertarian, and Gen Z.</footnote> Instead it's my hope that reading my opinion, seeing how I present arguments, and seeing the research that goes into them will show you how to think about how to apply facts to moral frameworks.
 
@@ -259,7 +259,7 @@ Which, uh, is really a fancy way of saying treat others the way you want to be t
 
 ## Moral Relativism
 
-So, this is the philosophical framework I like the most as, while it is less *solid* in a way -  that is, some things may or may not be morally correct depdening on circumstance - it's also, in my oppinion, the most realistic.
+So, this is the philosophical framework I like the most as, while it is less *solid* in a way -  that is, some things may or may not be morally correct depdening on circumstance - it's also, in my opinion, the most realistic.
 
 So, what is Moral Relativism? Well, it's an umbrella term for multiple ideas, so let me yoink' some text from Wikipedia:
 
@@ -288,11 +288,11 @@ So, relativism it is then, right?
 
 No. If we follow that line of thought, we hit another problem: if we always prioritize choice, what do we do if someone is making a choice that limits someone else's freedoms or might bring them harm?
 
-You see the problem, and how this just wraps back around to needing another framework. This is why it's good to have a mixed bag of phillosphical frameworks. Now, we can sort of mix all of these ideas together. How you do that is up to you ... I guess you could even say it's *relative* to you and your culture.
+You see the problem, and how this just wraps back around to needing another framework. This is why it's good to have a mixed bag of philosophical frameworks. Now, we can sort of mix all of these ideas together. How you do that is up to you ... I guess you could even say it's *relative* to you and your culture.
 
 Some people, after taking a philosophy class think "I have found the answer, the one **true** framework" and, I've got news for you, what you're describing is religion. In Ethics, there is no right answer, only doing the best you can - and the best we have isn't one system, it's internally digesting all of the existing ideals, filtering them, and making your own system and holding yourself to be the best you can.
 
-Utilitarianism with some added baggage regarding not doing things that are horendously offputting (A bit of relativism) and an assumption that we just do the moral calculus the best we can is a pretty good place to work from, and, unless otherwise stated, the point I'll be working off of for all the other pages as I *think* it's pretty much in line with what most people believe so long as they haven't been sucked into a deeply cultural system like Egoism, Role Ethics, or something religion based.
+Utilitarianism with some added baggage regarding not doing things that are horrendously off putting (A bit of relativism) and an assumption that we just do the moral calculus the best we can is a pretty good place to work from, and, unless otherwise stated, the point I'll be working off of for all the other pages as I *think* it's pretty much in line with what most people believe so long as they haven't been sucked into a deeply cultural system like Egoism, Role Ethics, or something religion based.
 
 What this means is I'll be mostly making utilitarianism arguments, addressing some of the opposing views, and providing data to try to go with the moral calculus.
 

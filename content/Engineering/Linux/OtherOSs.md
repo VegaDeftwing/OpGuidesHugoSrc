@@ -8,7 +8,5 @@
 * TempleOS
 * Haiku
 
-
-
 https://awesomekling.github.io/pledge-and-unveil-in-SerenityOS/
 

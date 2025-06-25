@@ -16,7 +16,7 @@ On the other hand, if you want to work on machines and make something that inter
 
 Unfortunately, "circuits" isn't one thing anymore and it's increasing tied to the world of programming as more and more systems have a computer of varying capability integrated into them. Even without the invasion of code and computers, "circuits" is a pretty wide ranging description.
 
-Maybe you want to make an power system for your project, to make the batteries last longer and easier to recharge. That, and much more, falls under the "power electronics" umbrella.
+Maybe you want to make a power system for your project, to make the batteries last longer and easier to recharge. That, and much more, falls under the "power electronics" umbrella.
 
 Maybe you want to design strictly analog audio equipment, like guitar pedals, amplifiers, or speaker systems.
 
@@ -44,7 +44,7 @@ To get started on that journey, let's establish a baseline. There's some things 
 * Current = Flow of electrons = releasing that potential energy to do something
   * Measured in Amps
 * Power = Pressure (Volts) * Flow (Amps)
-  * high pressure but low flow has the same power draw as low pressure but high flow
+  * High pressure but low flow has the same power draw as low pressure but high flow
     * Tiny hose with lots of pressure Vs fire hose with low pressure could both move the same amount of water = use the same amount of power
 
   * Power = Voltage * Current ( {{< katex >}}P=I\times V{{< /katex >}} )

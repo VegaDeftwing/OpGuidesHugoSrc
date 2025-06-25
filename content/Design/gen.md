@@ -16,7 +16,7 @@ AI tools, and to a lesser extend non-AI based generative art tools, have been co
 
 {{< tip >}}
 
-Due to the copy right office deciding on the un-copyright-ability of AI generated images with tools like DALL·E 2, Midjourney, and Stable Diffusion, there's some questions about how this will affect the copyright-ability of other generative tools. I don't want to comment if that's good or bad on this page, but you should at least be aware of it.
+Due to the copyright office deciding on the un-copyright-ability of AI generated images with tools like DALL·E 2, Midjourney, and Stable Diffusion, there's some questions about how this will affect the copyright-ability of other generative tools. I don't want to comment if that's good or bad on this page, but you should at least be aware of it.
 
 {{< /tip >}}
 

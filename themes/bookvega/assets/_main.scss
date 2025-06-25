@@ -149,13 +149,17 @@ ul.pagination {
 }
 
 .book-page {
-  overflow: hidden !important;
   overflow-wrap: break-word;
   min-width: $body-min-width;
   flex-grow: 1;
   padding-top: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
+
+  // If we're on mobile, we need to also hide overflow
+  @media (max-width: $mobile-breakpoint) {
+    overflow: hidden;
+  }
 
   .markdown {
     margin-left: auto;
@@ -859,10 +863,20 @@ dt:after {
 dt.sub,
 dd.sub {
   padding: 8px 0 0 0 !important;
+  margin-left: -8px;
+}
+
+dt.subsub,
+dd.subsub {
+  padding: 8px 0 0 0 !important;
 }
 
 dt.sub:after {
   content: ':';
+}
+
+dt.subsub:after {
+  content: '↳';
 }
 
 .iquestion {

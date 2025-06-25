@@ -29,7 +29,7 @@ As an example, here's a rather artistic representation of a digital logic circui
 
 <img src="/eng/logicloop.gif" alt="logicloop" style="border-radius:1em;">
 
-{{< attribution >}}lineart by https://merveilles.town/@chirrolafupa, </br>I (Vega) filled it in and turned it into a gif.</br> To access the original line art, use a [gemini](https://gemini.circumlunar.space) browser to go to</br> gemini://caracolito.mooo.com/coloring-computers/{{< /attribution >}}
+{{< attribution >}}line art by https://merveilles.town/@chirrolafupa, </br>I (Vega) filled it in and turned it into a gif.</br> To access the original line art, use a [gemini](https://gemini.circumlunar.space) browser to go to</br> gemini://caracolito.mooo.com/coloring-computers/{{< /attribution >}}
 
 {{< /columns >}}
 

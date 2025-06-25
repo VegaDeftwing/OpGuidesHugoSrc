@@ -59,7 +59,7 @@ Freshman year feels like ancient history now, but some of it still stands out. A
 
 * Calc Ⅰ 
 
-  Taught by a prof that seemed like he didn't want to be there, and made frequent mistakes on the whiteboard. Fortunately my TA for the recesitation was, and I can't stress this enough, *amazing*. Thank you Jessalyn Bolkema for making the class as good as you did, and for helping inspire me to see more beauty in math.
+  Taught by a prof that seemed like he didn't want to be there, and made frequent mistakes on the whiteboard. Fortunately my TA for the recitation was, and I can't stress this enough, *amazing*. Thank you Jessalyn Bolkema for making the class as good as you did, and for helping inspire me to see more beauty in math.
 
   In Calc Ⅰ I also had somebody put gum in my hair so bad that I had to get a hair cut. So, those beautiful locks you see above were short lived.
 
@@ -71,7 +71,7 @@ Freshman year feels like ancient history now, but some of it still stands out. A
 
 The actual 'college experience' was actually pretty good this semester. I only had to chop off one arm to pay for books with online codes attached that me prevented buying them used. Living with a roommate wasn't *quite* as bad as people said it would be (still pretty much sucked)
 
-Oh, the cazy preechers on campus were definitely a great way to round out the college experience.
+Oh, the crazy preachers on campus were definitely a great way to round out the college experience.
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/cZe1rdvCrWk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -95,21 +95,21 @@ There were many, many more times like this with different groups (This is 'Broth
 
 * SciFi literature
 
-  Great class that I actually really enjoyed. Again, it made no difference for my major beside fullfilling a gen-ed requirement. I actually had a lot of fun in the class, but the prof was painfully awkward, to the point where one day I'm not 10000% sure I didn't encounter an awkward [Title IX](https://en.wikipedia.org/wiki/Title_IX)-y situation when the prof told my at-the-time girlfriend and I that he had a dream about us. (゜_゜;) like, *excuse me*, what the *fuck*. 
+  Great class that I actually really enjoyed. Again, it made no difference for my major beside fulfilling a gen-ed requirement. I actually had a lot of fun in the class, but the prof was painfully awkward, to the point where one day I'm not 10000% sure I didn't encounter an awkward [Title IX](https://en.wikipedia.org/wiki/Title_IX)-y situation when the prof told my at-the-time girlfriend and I that he had a dream about us. (゜_゜;) like, *excuse me*, what the *fuck*. 
 
-I was dealing with quite a few personal issues this semester, which made the stress of Calc Ⅱ and Physics Ⅰ unbarable. I withdrew from Physics and got a C- in CalcⅡ, which meant I needed to retake it.
+I was dealing with quite a few personal issues this semester, which made the stress of Calc Ⅱ and Physics Ⅰ unbearable. I withdrew from Physics and got a C- in CalcⅡ, which meant I needed to retake it.
 
-The reason I choose to drop Physics was two fold, for one, the class was my hardest and so made the most sense if I needed the lighter load, but the bigger reason? I couldn't follow the lectures though the prof's and TA's accents. Very thick Russian and Chinese respectively, and it was just not going to work. The textbook cost a few of my remaining limbs and couldn't be avoided for a online code, which I would later need to re-buy (thankfully only the online code since I had bought it before) when I took the class later. 
+The reason I choose to drop Physics was two fold, for one, the class was my hardest and so made the most sense if I needed the lighter load, but the bigger reason? I couldn't follow the lectures though the prof's and TA's accents. Very thick Russian and Chinese respectively, and it was just not going to work. The textbook cost a few of my remaining limbs and couldn't be avoided for an online code, which I would later need to re-buy (thankfully only the online code since I had bought it before) when I took the class later. 
 
 ## 3 - Sophomore, Fall '17
 
 * Chem Ⅰ 
 
-  Not really noteworthy, I found it difficult, as did most people as, if I recal correctly, the pass rate was abysmal. The prof was fine, the lab was fine, and everything was 'fine', just the content was fast paced and difficult. The final was a standardized American Chemical Society final, which I found oddly disconnected from the course and hard as hell, but I passed the class with a B and was able to move on with my life. I did find some complaints from when I took the class that I had expressed to a group of engineers:
+  Not really noteworthy, I found it difficult, as did most people as, if I recall correctly, the pass rate was abysmal. The prof was fine, the lab was fine, and everything was 'fine', just the content was fast paced and difficult. The final was a standardized American Chemical Society final, which I found oddly disconnected from the course and hard as hell, but I passed the class with a B and was able to move on with my life. I did find some complaints from when I took the class that I had expressed to a group of engineers:
 
-> There are 3 different books we need (Textbook, recestation book, lab book) all of which have related online materials and all of which require separate logins and access codes on different websites. All of these are separate from the actual course webpage. But, I can deal with that. What has me angry is this first prelab I just did on one of said websites. Multiple of the questions have no correct answer or multiple correct answers, one is worded in a way that doesn't even make sense (despite the question they were trying to ask being obvious so I got it anyways), and yet another doesn't even tell you how the answer should be formatted on the page (do I include units?).
+> There are 3 different books we need (Textbook, recitation book, lab book) all of which have related online materials and all of which require separate logins and access codes on different websites. All of these are separate from the actual course web page. But, I can deal with that. What has me angry is this first pre-lab I just did on one of said websites. Multiple of the questions have no correct answer or multiple correct answers, one is worded in a way that doesn't even make sense (despite the question they were trying to ask being obvious so I got it anyways), and yet another doesn't even tell you how the answer should be formatted on the page (do I include units?).
 
-* Computer Organizaiton
+* Computer Organization
 
   Ho-boy, now we're hitting the really what-the-fuck stuff. According to my record I passed this with a C+ and that's the biggest grade inflation the world ever did see, most of the class got out with C's after a similar curve that stopped them from outright failing. My grade on the first test- a whopping 27%, and the high was a 32% (iirc?). The prof, while the sweetest old man I have ever met in my life and I would happily spend hours with just talking to, had some sort of neurodegeneration disease and in his old age should not have been teaching. This meant that instead of having the prof teach, the TA's picked up the slack. There were 5 TA's I think? Only 1 really knew what he was doing though, and he showed up to class **DRUNK** a few times. I was actually really into learning about computer architecture before this class so sorta had a better idea of what I was doing than most, so for one of the TA-lead classes where the TA that knew what he was doing was too hungover to attend one of the other TA's *asked me to teach it*. Just let that one sink in a little bit.
 
@@ -125,7 +125,7 @@ The reason I choose to drop Physics was two fold, for one, the class was my hard
 
    Surprisingly chill for being in Fall of '17 after the election of Drumpf. Prof was good, no real complaints.
 
-I commuted to class this semester, which meant about 40 min to campus and the same back. Combined with CalcⅡ being at 8:30am, this was not awesome.
+I commuted to class this semester, which meant about 40 minutes to campus and the same back. Combined with CalcⅡ being at 8:30am, this was not awesome.
 
 {{< columns >}}
 
@@ -141,7 +141,7 @@ On the bright side, I did get to flip off some more asshats telling people they 
 
 * Chem Ⅱ
 
-  Nothing woth saying really. Hard as hell, but I got though ヽ（´ー｀）┌
+  Nothing worth saying really. Hard as hell, but I got though ヽ（´ー｀）┌
 
 * Calc Ⅲ 
 
@@ -159,7 +159,7 @@ The Lab? The lab was worse. This TA has given me a story so stupid it hurts.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/4/4e/Ohmmeter.jpg)
 
-This, is an ohmmeter, it measures *resistance* in *ohms*. Not Impedance. This TA, in his glorious idiocracy, told the class to use a much more expensive, digital, high precision ohm meter to measure the *impedance* of an element in the circuit using the *ohm meter* while the circuit was **powered on**. And look, I'm not going to go into all the mental hurdles of incredible idicoracy at play there, but trust me, this is 110% distilled stupid. So, I raised my hand and told him that this was wrong, thinking that as he's a Graduate TA (GTA) that, maybe, he'd just had a lapse in judgment and that he'd be thankful I pointed it out before everyone in the lab either blew fuses or damaged things outright.
+This, is an ohmmeter, it measures *resistance* in *ohms*. Not Impedance. This TA, in his glorious idiocracy, told the class to use a much more expensive, digital, high precision ohm meter to measure the *impedance* of an element in the circuit using the *ohm meter* while the circuit was **powered on**. And look, I'm not going to go into all the mental hurdles of incredible idiocy at play there, but trust me, this is 110% distilled stupid. So, I raised my hand and told him that this was wrong, thinking that as he's a Graduate TA (GTA) that, maybe, he'd just had a lapse in judgment and that he'd be thankful I pointed it out before everyone in the lab either blew fuses or damaged things outright.
 
 Nope. This guy wants to fight.
 
@@ -215,7 +215,7 @@ During this time UNL did have an incident with a [Racist](https://journalstar.co
 
 * Technical Communication
 
-  Just.... not good? This class largely felt like busy work, and for the final presentation we had to give for the class, my partner just up n' disappeared on me, leaving me to do it myself. Ironic, given the class.
+  Just... not good? This class largely felt like busywork, and for the final presentation we had to give for the class, my partner just up n' disappeared on me, leaving me to do it myself. Ironic, given the class.
 
 * Differential Equations
 
@@ -225,7 +225,7 @@ This semester I was also a Resident Assistant at UNL again. I can't say much abo
 
 {{< columns >}}
 
-I also felt that I was not respected as a person. Despite my request that I be stationed literally anywhere else in the building on account of my bad knee, I was assigned a room on the fourth floor of a building with no elevator. Their response to LGBT issuses also left me unhappy, as on oppisite-sex guest wasn't allowed overnight... yeah. Let that one sink in, it's somehow more restrictive to straight people yet more offensive to LGBT people. Way to go guys.
+I also felt that I was not respected as a person. Despite my request that I be stationed literally anywhere else in the building on account of my bad knee, I was assigned a room on the fourth floor of a building with no elevator. Their response to LGBT issues also left me unhappy, as on opposite-sex guest wasn't allowed overnight... yeah. Let that one sink in, it's somehow more restrictive to straight people yet more offensive to LGBT people. Way to go guys.
 
 
 
@@ -247,7 +247,7 @@ I had a lot going on outside of school, so I intentionally took a rather chill s
 
 * Embedded System
 
-  I yet again had a professor for which it was his first semester teaching. He was... not great. We used the Arudino Uno and built a tiny wall-avoiding robot and did a few other labs, and... cool, I guess? It was the kinda thing that should be tought in high school, not college. We (mostly) didn't use the Arduino framework, instead poking registers directly, which made the class a bit more valuable, but still, I found it a bit lack luster. I often found that I knew more about the 328p μC and it's features, debuggers and simulators that were available, etc. than the prof did. I have heard the prof has since gotten a lot better at teaching though, and one of my good friends had a really good experience taking the advanced variant of the course with him, where he used an FPGA instead of an μC.
+  I yet again had a professor for which it was his first semester teaching. He was... not great. We used the Arudino Uno and built a tiny wall-avoiding robot and did a few other labs, and... cool, I guess? It was the kinda thing that should be taught in high school, not college. We (mostly) didn't use the Arduino framework, instead poking registers directly, which made the class a bit more valuable, but still, I found it a bit lack luster. I often found that I knew more about the 328p μC and it's features, debuggers and simulators that were available, etc. than the prof did. I have heard the prof has since gotten a lot better at teaching though, and one of my good friends had a really good experience taking the advanced variant of the course with him, where he used an FPGA instead of an μC.
 
 * Physics Ⅰ (Actually taking it this time instead of withdrawing early)
 
@@ -299,17 +299,17 @@ If the quality of my professors and classes didn't piss me off before, this is t
 
   * The self chosen project
 
-    My group partner and I choose to make a [Euclidian Rhythm](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf) drum machine, that actually hit physical toy drums with some solenoids.
+    My group partner and I choose to make a [Euclidean Rhythm](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf) drum machine, that actually hit physical toy drums with some solenoids.
 
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/TBjfojgqGho" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-  Alright, so, why complain about this class? Well, for one, neither of the TA's knew their heads from their asses. One of them insisted the Arduino Uno (AtMega 328P) was a perfectly fine, modern μC. (It's not.) and the other had *never even used a micro controller*. I ended up gifting her an arduino nano and a few parts from my stash so she could learn (that TA had no influence on my grade). I'm not saying either was dumb, or saying anything bad about them directly, but they sure as hell should not have been the TAs for this class. (There was no professor)
+  Alright, so, why complain about this class? Well, for one, neither of the TA's knew their heads from their asses. One of them insisted the Arduino Uno (AtMega 328P) was a perfectly fine, modern μC. (It's not.) and the other had *never even used a microcontroller*. I ended up gifting her an arduino nano and a few parts from my stash so she could learn (that TA had no influence on my grade). I'm not saying either was dumb, or saying anything bad about them directly, but they sure as hell should not have been the TAs for this class. (There was no professor)
 
   Also, when all classes were force to go online this lab lost a lot of its value. I was fortunate enough to have an Oscilloscope, multiple lab PSUs, logic analyzer, etc. all on hand, but many other students got a much worse education for it.
 
 * Digital Logic Desgin
 
-  This class was fine, not steller, but like, I actually learned a bit and the content practical. The prof had come from industry and actually knew how to teach practically. So... all good? No. About 2/3 of the way though the semester COVID hit and my university went online. The prof had no idea what he was doing and the online lectures were sparse, poor quality (like, outright useless), and the wasn't a single thing that changed my grade after the transition. I definitely didn't get what I paid for.
+  This class was fine, not stellar, but like, I actually learned a bit and the content practical. The prof had come from industry and actually knew how to teach practically. So... all good? No. About 2/3 of the way though the semester COVID hit and my university went online. The prof had no idea what he was doing and the online lectures were sparse, poor quality (like, outright useless), and the wasn't a single thing that changed my grade after the transition. I definitely didn't get what I paid for.
 
 * Digital Logic Design Lab
 
@@ -333,7 +333,7 @@ If the quality of my professors and classes didn't piss me off before, this is t
 
 * PCB Design
 
-  We designed a PCB in KiCad, mostly refrencing existing open source designs. This was assumed to be a baby's first PCB class, which it wasn't for me. The prof is super cool and having chats with him about nothing in particular in his office have often lead to me learning more than I have in other classes over an entire semester.
+  We designed a PCB in KiCad, mostly referencing existing open source designs. This was assumed to be a baby's first PCB class, which it wasn't for me. The prof is super cool and having chats with him about nothing in particular in his office have often lead to me learning more than I have in other classes over an entire semester.
 
   Unfortunately, when COVID hit it stopped the class in its tracks, resulting in the PCB never actually being soldered as I don't have good enough equipment to do the fine soldering required for what I designed at home
 
@@ -381,7 +381,7 @@ This semester was entirely done online due to COVID-19. All classes were taught 
   
 * Communication Networks
 
-  This prof, Dr. Massimilliano Pierobon, was great. I've never seen a professor express so much concern and care for his students. He knew the Pandemic and our course load was getting to us, and was extraordiniarly flexible to the needs of the class. The content covered in the course was presented well, and his research with the [Molecular and Biochemical Telecommunications Lab (MBITE)](https://mbite.unl.edu/) was facinating to hear about.
+  This prof, Dr. Massimilliano Pierobon, was great. I've never seen a professor express so much concern and care for his students. He knew the Pandemic and our course load was getting to us, and was extraordinarily flexible to the needs of the class. The content covered in the course was presented well, and his research with the [Molecular and Biochemical Telecommunications Lab (MBITE)](https://mbite.unl.edu/) was fascinating to hear about.
 
 ## 10 - Senior+, Spring '21
 
@@ -393,7 +393,7 @@ This semester was entirely done online due to COVID-19. Computer Architecture, D
 
 * Computer Architecture
 
-  This, from my understanding, was this professor's first time teaching. He actually did a pretty good job. The biggest problems came from weird expectations (homework deadlines were not great), extraordinarly hard homework compared to what was taught, and a lack of hands on labs/exercises like could be offered on an FPGA, by poking around in Linux, or using a simulator of some sort. Of course, this class was remote, so I can understand why these things were not done.
+  This, from my understanding, was this professor's first time teaching. He actually did a pretty good job. The biggest problems came from weird expectations (homework deadlines were not great), extraordinarily hard homework compared to what was taught, and a lack of hands on labs/exercises like could be offered on an FPGA, by poking around in Linux, or using a simulator of some sort. Of course, this class was remote, so I can understand why these things were not done.
 
 * Data and Network Security
 
@@ -441,25 +441,25 @@ Right after my last final of the semester I was able to get my first dose of the
 
   Lab 3, rectifiers and smoothing. Again pretty lame. Didn't even talk about active rectifiers, switch mode PSUs or anything. Just your normal full bridge rectifier
 
-  Lab 4 & 5, finaly hitting something non-trival: Transistors, and basic amplifer circuits. This would have been fine, except the labs were written to be exceptionally confusing. Good times.
+  Lab 4 & 5, finally hitting something non-trivial: Transistors, and basic amplifier circuits. This would have been fine, except the labs were written to be exceptionally confusing. Good times.
 
   Finally, Lab 7, the only mildly well written one, was about active filters. It was fine.
 
-  Then, there was a finaly project. Only, due to the poor planning of the Instructor and Lab TAs (if it weren't already evidant by the lack of labs 6 & 8) there was only two weeks to do it and it was during finals week. Fortuanately, they let me count my already mostly-done work modding a Behringer TD-3 synthesiser, but this was just following a guide, so it was a bit weird to count.
+  Then, there was a finally project. Only, due to the poor planning of the Instructor and Lab TAs (if it weren't already evident by the lack of labs 6 & 8) there was only two weeks to do it and it was during finals week. Fortuanately, they let me count my already mostly-done work modding a Behringer TD-3 synthesizer, but this was just following a guide, so it was a bit weird to count.
 
 * Linear Control Systems
 
-  This class was half online and half in person. The biggest problems with it were pacing and MatLab. The beggining of the class was ungodly slow, then the latter half went so fast as to try to cover state-space in a week. Not ideal. The MatLab would have been fine, except that it was assumed we were all already profient in MatLab, while no of us were.
+  This class was half online and half in person. The biggest problems with it were pacing and MatLab. The beginning of the class was ungodly slow, then the latter half went so fast as to try to cover state-space in a week. Not ideal. The MatLab would have been fine, except that it was assumed we were all already proficient in MatLab, while no of us were.
 
-  Fortuantely, the professor was very accomodating and largely made up for the issuses.
+  Fortunately, the professor was very accommodating and largely made up for the issuses.
 
 * Communication Systems
 
-  Should have been called **Analog** Communitacion Systems, as digital was *almost* entirely ignored. Still, I learned a lot about the actual math of FM and AM transmission and how to quantify signal quality. Tests were written to be tricky in a way that those good at doing pencil and paper math quickly dominated those that actually understood the theory, which bothers me.
+  Should have been called **Analog** Communication Systems, as digital was *almost* entirely ignored. Still, I learned a lot about the actual math of FM and AM transmission and how to quantify signal quality. Tests were written to be tricky in a way that those good at doing pencil and paper math quickly dominated those that actually understood the theory, which bothers me.
 
 * Digital Signal Processing
 
-  All the Matlab. Matlab everywhere. This class went well, professor was great. Focused mostly on filters and the FFT. No envelope generation or oscilattors here. Still, pretty neat.
+  All the Matlab. Matlab everywhere. This class went well, professor was great. Focused mostly on filters and the FFT. No envelope generation or oscillators here. Still, pretty neat.
 
 * Capstone Ⅰ
 
@@ -493,13 +493,13 @@ Right after my last final of the semester I was able to get my first dose of the
 
   In the end, we won first place across the EE projects - though I suspect that's largely because we at least had something to show. Many of the other projects didn't work at all. [Here's a video overview of the project.](https://www.youtube.com/watch?v=YwxuVqh-gg8)
 
-  The really wasn't a "class" here. Just a professor we met with once a week and chatted with, often not even about the project. Fortunately, that professor is my absolute favorite of my time at UNL and from just chatting with him I learned more than I have from many of my other classes. It's nice to just absorb some wisdom though conversation.
+  The really wasn't a "class" here. Just a professor we met with once a week and chatted with, often not even about the project. Fortunately, that professor is my absolute favorite of my time at UNL and from just chatting with him, I learned more than I have from many of my other classes. It's nice to just absorb some wisdom though conversation.
 
 ## Graduation
 
 {{< columns >}}
 
-Graduation was not great. They did give us our actual, real diplomas on the stage. However, the ceremony itself was very poorly planned. It was in the football stadium on a nearly 90°F day around noon, while we were all wearing black robes. They even felt the need to explain the history of the robes and how the were originally to keep warm while all of us were cooking. My girl friend came out of it a lobster from the sunburn.
+Graduation was not great. They did give us our actual, real diplomas on the stage. However, the ceremony itself was very poorly planned. It was in the football stadium on a nearly 90°F day around noon, while we were all wearing black robes. They even felt the need to explain the history of the robes and how the were originally to keep warm while all of us were cooking. My girlfriend came out of it a lobster from the sunburn.
 
 Worse, they gave out diplomas across 4 stages but to save time didn't announce names... or display them on a screen... or even make the stage easily visible to friends and family. Nobody could really tell when the person they were there for was even walking.
 
@@ -559,8 +559,8 @@ I originally had a multi page rant here, but instead, I've decided that some bul
   * Getting a B- in a class because you took detours teaching yourself extra related things is far more valuable
     * If the prof has a passion for what they teach, talk to them about it- you never know what doing that work might do for your grade 😉
   * The harder the classes and larger the course load, the less you'll learn.
-    * Honor's students often learn *less* because they don't have time to persue their own interests- speaking of:
-* Find a creative outlet unrelated to your major, then find a way to tie it in to what you're learning.
+    * Honor's students often learn *less* because they don't have time to pursue their own interests- speaking of:
+* Find a creative outlet unrelated to your major, then find a way to tie it into what you're learning.
   * For me this was music, doing DSP or designing circuits for audio
 
 ![](https://imgs.xkcd.com/comics/11th_grade.png)
@@ -575,12 +575,12 @@ I originally had a multi page rant here, but instead, I've decided that some bul
   * Thermal cameras for increasing crop yield or targeting civilians taking shelter?
   * Machine learning to find cures or make deep fake porn?
 * Be vocal in class. Ask questions. Ask questions that a bit tangential even.
-* Talk to you classmates. As many as you can. Get to know them, find out what they're good at.
+* Talk to your classmates. As many as you can. Get to know them, find out what they're good at.
   * Study groups save lives
 * Never take an unpaid internship
-  * If the field your in only has unpaid interships you need to change majors.
-  * If your college does a final project (often called Capstone) and they want you to do work for a corprate/business 'sponsor' for free, tell them to   *g o   f u c k   t h e m s e l v e s*.  DO. NOT. DO. WORK. FOR. FREE.
-* Colege is ᵥₑᵣᵧ, very , ᵛᵉʳʸ, extremely, ¸,ø¤º° extraordinaly °º¤ø,¸ , 𝕦𝕟𝕗𝕒𝕥𝕙𝕠𝕞𝕒𝕓𝕝𝕪, *ludicriously*, obnoxiously expensive.
+  * If the field your in only has unpaid internships you need to change majors.
+  * If your college does a final project (often called Capstone) and they want you to do work for a corporate/business 'sponsor' for free, tell them to   *g o   f u c k   t h e m s e l v e s*.  DO. NOT. DO. WORK. FOR. FREE.
+* College is ᵥₑᵣᵧ, very , ᵛᵉʳʸ, extremely, ¸,ø¤º° extraordinarily °º¤ø,¸ , 𝕦𝕟𝕗𝕒𝕥𝕙𝕠𝕞𝕒𝕓𝕝𝕪, *ludicriously*, obnoxiously expensive.
 * At the end of the day, you still need that degree to get most jobs that you actually want, so if you can't avoid it- you may as well fight to make it worth something.
 
 # Data
