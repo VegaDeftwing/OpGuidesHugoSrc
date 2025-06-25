@@ -41,7 +41,6 @@ Computers are a different kind of tool because they augment our ability to think
 But, while computers augment *how* we think, - and yes I know how cheesy this is about to sound - art augments *what* we think.
 
 ---
-
 <style>
 .punk-text {
   font-family: "Lacquer", system-ui !important;
@@ -50,28 +49,49 @@ But, while computers augment *how* we think, - and yes I know how cheesy this is
 }
 
 .punk-header {
-    /* background-image: url("/hci/punk_wip_drawing.svg"); */
-    /* background-size: 100em 100em; */
-    width: 100vw !important;
-    max-width: 100vw !important;
-    /* overflow: hidden; */
-    margin: 0 -100vw 0 -1rem;
-    /* display: flex; */
-    /* justify-content: left; */
+  position: relative;
+  width: 100vw !important;
+  max-width: 100vw !important;
+  margin-left: calc(-1 * (50vw - 50%)); /* Center and overflow both sides */
+  margin-right: calc(-1 * (50vw - 50%));
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 1;
+}
+
+.punk-header img.punk-img {
+  display: block;
+  width: 110vw;
+  height: auto;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+  margin-left: -5vw;
+  margin-right: -5vw;
 }
 
 @media screen and (max-width: 1000px) {
-    .punk-header {
-            margin: 0 0 0 0 !important;
-            /* overflow: hidden; */
-        }
-    }
+  .punk-header {
+    margin-left: -5vw; !important;
+    margin-right: -5vw !important;
+  }
+  .punk-header img.punk-img {
+    width: 110vw;
+    min-width: 0;
+    max-width: 110vw;
+    margin-left: -5vw;
+    margin-right: -5vw;
+  }
+}
+
 </style>
 
 <div class="punk-header">
-<img src="/hci/punk_wip_drawing.svg" alt=" " class="punk-header punk-img">
+  <img src="/hci/punk_wip_drawing.svg" alt=" " class="punk-header punk-img">
 </div>
-{{< attribution >}}<span class="punk-text">Both large, white art pieces here are taken from large patches I have on my jackets, they're great quality, please support the artists!</br></br>"Embrace Your Anger" by https://www.etsy.com/shop/Trashmerch</br>"Eat The Rich" by https://www.etsy.com/shop/NocturnalNetizen<span>{{< /attribution >}}
+{{< attribution >}}<span class="punk-text">The big white "Eat The Rich" art piece here is taken from large patch I have on my jacket, it's great quality, please support the artist! at by https://www.etsy.com/shop/NocturnalNetizen. </span>{{< /attribution >}}
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -123,6 +143,8 @@ Do you need some background stimulus, like music or slowly shifting lighting?
 **Vibe**: Does your environment put you in the right mood? 
 
 This doesn't mean relaxed, necessarily. You might be working on something where being high energy or creative is more important than slow and methodical. Your environment might also need to be capable of supporting multiple moods.
+
+You also may want it to intentionally help you get into a mood other than your default-state. Maybe you want it to make you feel inspired to take risks and create or maybe you want it to inspire you to slow down, enjoy a cup of hot chocolate and read a book.
 
 How do you get those right? Eh, mostly experimentation - but there's a few easy things you can try:
 

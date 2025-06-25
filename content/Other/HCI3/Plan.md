@@ -35,4 +35,4 @@ Whole new server section - no, merge into others
 
 
 
-Soatok consent post - ownership
+Soatok consent post - ownership, opt-out for ai is not concent, defaults matter, my time isn't free.

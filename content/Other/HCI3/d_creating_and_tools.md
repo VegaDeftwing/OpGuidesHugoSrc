@@ -2,8 +2,13 @@ TODO:
 
 Tools should be self contained and opinionated: C vs Rust, Fossil Vs Git, etc. ++ How this contradicts, but why it's better.
 
-Tools should be composable, smart, fast, customizable. 
+Tools should be composable, smart, fast, customizable.
 
+Tools should both enable new functionality, but learn from mistakes.
+
+Tools that are fundamental should be fast, slim, and highly optimized
+
+Tools that are high level should be easily modified, open, customizable
 
 ## Creating New Information Sucks
 
@@ -172,4 +177,22 @@ This also does already exist for some workflows. For example, video synthesis (w
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Slightly more impressive from a more technical side is that you can reverse search for methods using an expected input-output pair<br><br>For example if you type in &#39;eureka&#39;, &#39;EUREKA&#39; it will return the method &quot;asUppercase&quot; which performs that string operation!<a href="https://t.co/9DpmCuV9hf">https://t.co/9DpmCuV9hf</a></p>&mdash; Azlen Elza (@azlenelza) <a href="https://twitter.com/azlenelza/status/1371612552824766477?ref_src=twsrc%5Etfw">March 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## 
+## We need tools that acknowledge human behavior and needs
+
+[TODO ai stuff]
+
+https://github.com/zaboople/klonk/blob/master/TheGURQ.md
+
+https://vladimirslepnev.me/undo
+
+https://github.com/idank/explainshell?tab=readme-ov-file
+
+
+---
+
+https://github.com/BrianHicks/tree-grepper (Meh)
+https://github.com/binpash/try
+https://github.com/narenratan/jird
+https://github.com/erhanbaris/smartcalc
+
+... I think I need a physical tools section, talking aboutt physical UI. Not just input devices - but actual tools. I think relating to guitars, hammers, scredrivers, etc. Like, the whole monty. Ref Dynamic Land

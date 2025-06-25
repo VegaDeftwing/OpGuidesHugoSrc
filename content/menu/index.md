@@ -37,6 +37,7 @@ headless: true
     <dt class="sub">.10</dt><dd class="sub"> <a href="/engineering/linux/hardware/biggerpicture"> The Bigger Picture</a></dd>
     <dt class="sub">.11</dt><dd class="sub"> <a href="/engineering/linux/hardware/buying"> What to Buy?</a></dd>
     <dt class="sub">.12</dt><dd class="sub"> <a href="/engineering/linux/hardware/legacy"> Legacy</a></dd>
+    <dt class="sub">A1</dt><dd class="sub"> <a href="/engineering/linux/hardware/weird"> Weird Things</a></dd>
    </details> </dd>
 <dt>3½</dt><dd> <a href="/engineering/linux/hardware/architectures/">Architectures</a></dd>
 <dt>4 </dt><dd> <a href="/engineering/linux/linuxdirtree/">Getting Rooted in Linux</a></dd>
@@ -44,6 +45,7 @@ headless: true
 <dt>5½</dt><dd> <a href="/engineering/linux/git/">Git</a></dd>
 <dt>A1</dt><dd> <a href="/engineering/linux/linuxshell/">Using The Linux Shell</a></dd>
 <dt>A2</dt><dd> <a href="/engineering/linux/windows/">Ugh. Windows.</a></dd>
+<dt>A3</dt><dd> <a href="/engineering/linux/OtherOSs/">Other Operating Systems</a></dd>
 </dil>
 </div>
 
@@ -215,6 +217,7 @@ headless: true
 <dt>A4 </dt><dd> <a href="/engineering/wrappingup/resources/">Other Great Resources</a></dd>
 <dt>A5 </dt><dd> <a href="/engineering/wrappingup/job/">Getting a Job</a></dd>
 <dt>A6 </dt><dd> <a href="/engineering/wrappingup/latex/">Markdown and LaTeX</a></dd>
+<dt>A7 </dt><dd> <a href="/engineering/wrappingup/tools/">Useful Tools</a></dd>
 </dil>
 </div>
 
@@ -238,11 +241,13 @@ headless: true
 <dt>3 </dt><dd> <a href="/music/gettingstartedcont/">On We Go</a></dd>
 <dt>4 </dt><dd> <a href="/music/sound-sources/">Sound Sources</a></dd>
    <dt>5 </dt><dd> <details id="instMenu"> <summary><a href="/music/instruments/">Instruments</a></summary>
-    <dt class="sub">.1</dt><dd class="sub"> <a href="/music/instruments/perc/"> Percussion</a></dd>
-	  <dt class="sub">.2</dt><dd class="sub"> <a href="/music/instruments/strings/"> Strings</a></dd>
-    <dt class="sub">.3</dt><dd class="sub"> <a href="/music/instruments/wind/"> Wind</a></dd>
-    <dt class="sub">.4</dt><dd class="sub"> <a href="/music/instruments/synth/"> Synths</a></dd>
-    <dt class="sub">.5</dt><dd class="sub"> <a href="/music/instruments/esoteric/"> The Esoteric</a></dd>
+   <dt class="sub">-</dt><dd class="sub"> <a href="/music/instruments/perc/"> Percussion</a></dd>
+	<dt class="sub">-</dt><dd class="sub"> <a href="/music/instruments/strings/"> Strings</a></dd>
+   <dt class="subsub"></dt><dd class="subsub"> <a href="/music/instruments/guitar/"> Guitar</a></dd>
+    <dt class="sub">-</dt><dd class="sub"> <a href="/music/instruments/wind/"> Wind</a></dd>
+    <dt class="sub">-</dt><dd class="sub"> <a href="/music/instruments/synth/"> Synths</a></dd>
+   <dt class="sub">-</dt><dd class="sub"> <a href="/music/instruments/electro-mechanical/"> Electro-Mechanical</a></dd>
+    <dt class="sub">-</dt><dd class="sub"> <a href="/music/instruments/esoteric/"> The Esoteric</a></dd>
    </details> </dd>
    <dt>6 </dt><dd> <details id="effectMenu"> <summary><a href="/music/effects/">Effects</a></summary>
     <dt class="sub">.1</dt><dd class="sub"> <a href="/music/effects/trivial/"> Trivial Effects</a></dd>
@@ -267,8 +272,9 @@ headless: true
 <dt>13 </dt><dd> <a href="/music/psychoacoustic/">Psychoacoustics</a></dd>
 <dt>A1 </dt><dd> <a href="/music/other-resources-music/">Other Resources</a></dd>
 <dt>A2 </dt><dd> <a href="/music/video/">Video</a></dd>
-<dt>A3 </dt><dd> <a href="/music/vcv/">VCV Tips</a></dd>
-<dt>A4 </dt><dd> <a href="/music/musicpiracy/">Piracy</a></dd>
+<dt>A3 </dt><dd> <a href="/music/videosynth/">Video Synthesis</a></dd>
+<dt>A4 </dt><dd> <a href="/music/vcv/">VCV Tips</a></dd>
+<dt>A5 </dt><dd> <a href="/music/musicpiracy/">Piracy</a></dd>
 </dil>
 </div>
 
@@ -349,9 +355,9 @@ headless: true
 <dt>5 </dt><dd> <a href="/design/3d/">3D</a></dd>
 <dt>6 </dt><dd> <a href="/design/gen/">Generative Tools</a></dd>
 <dt>7 </dt><dd> <a href="/design/animation/">Animation</a></dd>
+<dt>8 </dt><dd> <a href="/design/photo/">Photography</a></dd>
 <dt>A1 </dt><dd> <a href="/design/design-other/">Other Resources</a></dd>
 <dt>A2 </dt><dd> <a href="/design/ia/">Inspirational Art</a></dd>
-<dt>A3 </dt><dd> <a href="/design/photo/">Photo</a></dd>
 </dil>
 </div>
 <p class="navhead, webhead" style="background: linear-gradient(90deg, #F78200 0%, #FFF 50%, #009CDF 75%) ;-webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom:0px;" >    Web Development</p>
@@ -416,6 +422,8 @@ headless: true
 <dt> </dt><dd> <a href="/other/funlinks/">Interesting Links</a></dd>
 <dt> </dt><dd> <a href="/other/advice/">Advice</a></dd>
 <p class="navhead" style="color:#5EBD3E;margin-bottom:0px;" >   Technical</p>
+<dt> </dt><dd> <a href="/other/coolhardware/">Cool Hardware</a></dd>
+<dt> </dt><dd> <a href="/other/fediverse/">The Fediverse, ActivityPub, & The IndieWeb </a></dd>
 <!-- <dt></dt><dd> -->
       <!-- <details id="hciMenu"> <summary> <a href="/other/hci2/intro/">The Way We Interact With Computers Sucks</a></summary>
          <dt class="sub">1</dt><dd class="sub"> <a href="/other/hci2/physical"> The Physical</a></dd>
@@ -425,34 +433,28 @@ headless: true
          <dt class="sub">5</dt><dd class="sub"> <a href="/other/hci2/radicallychanging"> Radically Changing</a></dd>
          <dt class="sub">6</dt><dd class="sub"> <a href="/other/hci2/wrappingup"> Wrapping Up</a></dd>
       </details> -->
-<p class="navhead" style="color:#5EBD3E;margin-bottom:0px;" >      FOO </p>
-<dt> </dt><dd> <a href="/other/HCI3/intro">Intro</a></dd>
-<dt> </dt><dd> <a href="/other/HCI3/p_input_devices">Input Devices</a></dd>
-<dt> </dt><dd> <a href="/other/HCI3/p_env">Working Environment</a></dd>
-<dt> </dt><dd> <a href="/other/HCI3/p_art">Art</a></dd>
-<dt> </dt><dd> <a href="/other/HCI3/p_d_rrr">Reduce Reuse Recycle</a></dd>
-<dt> </dt><dd> <a href="/other/HCI3/p_d_features">Features</a></dd>
-<dt> </dt><dd> <a href="/other/HCI3/d_ownership">Ownership</a></dd>
-<dt> </dt><dd> <a href="/other/HCI3/d_storage">Storage</a></dd>
-<dt> </dt><dd> <a href="/other/HCI3/d_transfer">Transfer</a></dd>
-<dt> </dt><dd> <a href="/other/HCI3/d_presentation">Presentation</a></dd>
-<dt> </dt><dd> <a href="/other/HCI3/d_find_access">Find & Access</a></dd>
-<dt> </dt><dd> <a href="/other/HCI3/d_creating_and_tools">Creating & Tools</a></dd>
-<dt> </dt><dd> <a href="/other/HCI3/d_community">Community</a></dd>
-<dt> </dt><dd> <a href="/other/HCI3/d_auth">Auth</a></dd>
-<dt> </dt><dd> <a href="/other/HCI3/conclusion">Conclusion</a></dd>
-<p class="navhead" style="color:#5EBD3E;margin-bottom:0px;" >      </p>
+<p class="navhead" style="color:#5EBD3E;margin-bottom:0px;" >     ↳ Computing and You </p>
+<dt>       </dt><dd> <a href="/other/HCI3/intro">   Intro</a></dd>
+<dt>       </dt><dd> <a href="/other/HCI3/p_input_devices">   Input Devices</a></dd>
+<dt>       </dt><dd> <a href="/other/HCI3/p_env">   Working Environment</a></dd>
+<dt>       </dt><dd> <a href="/other/HCI3/p_art">   Art</a></dd>
+<dt>       </dt><dd> <a href="/other/HCI3/p_d_rrr">   Reduce Reuse Recycle</a></dd>
+<dt>       </dt><dd> <a href="/other/HCI3/p_d_features">   Features</a></dd>
+<dt>       </dt><dd> <a href="/other/HCI3/d_ownership">   Ownership</a></dd>
+<dt>       </dt><dd> <a href="/other/HCI3/d_storage">   Storage</a></dd>
+<dt>       </dt><dd> <a href="/other/HCI3/d_transfer">   Transfer</a></dd>
+<dt>       </dt><dd> <a href="/other/HCI3/d_presentation">   Presentation</a></dd>
+<dt>       </dt><dd> <a href="/other/HCI3/d_find_access">   Find & Access</a></dd>
+<dt>       </dt><dd> <a href="/other/HCI3/d_creating_and_tools">   Creating & Tools</a></dd>
+<dt>       </dt><dd> <a href="/other/HCI3/d_community">   Community</a></dd>
+<dt>       </dt><dd> <a href="/other/HCI3/d_auth">   Auth</a></dd>
+<dt>       </dt><dd> <a href="/other/HCI3/conclusion">   Conclusion</a></dd>
 </dd>
-<dt> </dt><dd> <a href="/other/coolhardware/">Cool Hardware</a></dd>
-<dt> </dt><dd> <a href="/other/fediverse/">The Fediverse, ActivityPub, & The IndieWeb </a></dd>
 <p class="navhead" style="color:#5EBD3E;margin-bottom:0px;" >   Conlangs & Neography</p>
     <dt> </dt><dd> <a href="/other/conlangs/neography/">Intro to Conlangs & Neography</a></dd>
 	<dt> </dt><dd> <a href="/other/conlangs/tokipona/">toki pona! <span class="conlang">󱥬󱦖󱥔</span> </a></dd>
     <dt> </dt><dd> <a href="/other/conlangs/janolin/">Thoughts on olin</a> <span style="font-size:.4rem;">by jan Usawi</span>
     <dt> </dt><dd> <a href="/other/conlangs/rhapsodaic/">Rhapsodaic</a> <span style="font-size:.4rem;">by jan Usawi</span></dd>
-<!--
-<dt> </dt><dd> <a href="/other/conlangs/neography/">Neography </a></dd>
-<dt> </dt><dd> <a href="/other/conlangs/rhapsodaic/">Rhapsodaic </a></dd>
 <p class="navhead" style="color:#5EBD3E;margin-bottom:0px;" >   Writing & Storytelling</p>
 <dt>1 </dt><dd> <a href="/other/writing/writing">Writing is hard</a></dd>
 <dt>1½</dt><dd> <a href="/other/writing/creative">Creative Thinking</a></dd>
@@ -463,7 +465,6 @@ headless: true
 <dt>6 </dt><dd> <a href="/other/writing/worldbuilding">World Building</a></dd>
 <dt>7 </dt><dd> <a href="/other/writing/revision">Revision</a></dd>
 <dt>A1</dt><dd> <a href="/other/writing/poetry">Poetry</a></dd>
---->
 </dil>
 
 
@@ -481,4 +482,4 @@ headless: true
 
 {{< listtags >}}
 
-<br />
+<a href="/hidden/jaki">     </a>

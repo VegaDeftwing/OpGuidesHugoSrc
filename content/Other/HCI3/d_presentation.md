@@ -174,3 +174,239 @@ If I have to spend more than a fraction of a second to process what is being sho
 Here the original at least has some color differentiation (Using the Boost app to view Reddit) but on the official Twitter client I actually have to stop and look to avoid accidentally clicking an ad link. That's some bull shit.
 
 Yunno what else is bullshit? The fact that all of these ads are 'personalized' to the point that collecting crazy amounts of information on individuals is expected and almost inevitable online, even with a pile of tracking blocking extensions and a DNS blackhole like [pi-hole](https://pi-hole.net). This could, and should, be a rant of it's own (and is, again, see the {{< button relref="/Engineering/Networking/privacy" >}}Privacy{{< /button >}} page) Being spied on by our own devices is 100% not okay and it's one of the biggest reasons that they way we interact with computers sucks.
+
+---
+
+(TODO: Move this)
+
+https://worrydream.com/MagicInk/
+
+## Data Filtering
+
+In {{< best >}}[MagicInk](https://worrydream.com/MagicInk/){{< /best >}} Bret Victor makes many arguments about how information is often centered around the computer and ease to the programmer or utility to the presenter, showing various redesigns and ...
+
+Yunno' what? <u>Just go read it.</u> It's an amazing piece. 
+
+Welcome back,
+
+I do have one big complaint with it though, though which may be at least partially attributable to it's age as it was written in 2006: it argues that we got here mostly by technical means rather than intentional mal intent. I don't believe that. Instead, as we can see as AI invades everything or going though reviews on Amazon is intentionally made more difficult, etc. etc. that, often, these poor designs are known regressions done to make money. This isn't even some conspiracy theory: Google being sued for antitrust with the government claiming they've intentionally made results worse to make people have to make multiple queries so they can show more ads.
+
+I do not want to belabor the advertising point any more than necessary, but I do think it pertinent to point out that the idea of providing information the user wants - context sensative information in which it is easy to, as Bret puts it, "Winnow the data" inheritly means displaying it in its true order. Advertising inhertly means promoting something outside of the order it would be in without that financial incentive and so is inheritly at odds with the idea of optimal, user focused, fast access to information.
+
+[TODO: Transition]
+
+If I look at https://modulargrid.net to browse modules (You don't need to know what these actually are for this example), you'll see the presentation is pretty complicated, but also reasonably intuitive.
+
+<img src="/hci/mg.webp" alt=" " style="background-color: #fffD;padding: .1em;">
+
+I can choose to narrow down my search by name, manufacturer, what it does, how big it is, if it's currently in production, etc.
+
+Furthermore, I can sort the results by their age, how popular they are, their price, the manufacture, etc.
+
+*But,* you know what I *can't* do? I can't sort by a mix of two results. I can't say weight results by age and price, show newer, cheaper things at the top, older, more expensive things at the bottom.
+
+If instead the data were provided to my client directly rather than dynamically accessed though this restrictive interface, I could.
+
+In my mind, I'm thinking something sorta like this:
+
+<div>
+  <label>Weight: Price <input type="range" id="priceWeight" min="0" max="100" value="33"> <span id="priceLabel">33%</span></label><br>
+  <label>Weight: Newness <input type="range" id="dateWeight" min="0" max="100" value="33"> <span id="dateLabel">33%</span></label><br>
+  <label>Weight: Rating <input type="range" id="ratingWeight" min="0" max="100" value="34"> <span id="ratingLabel">34%</span></label>
+</div>
+
+<div style="margin-top: 1em;">
+  <label>Min Rating:
+    <select id="minRating">
+      <option value="1">⭐</option>
+      <option value="2">⭐⭐</option>
+      <option value="3">⭐⭐⭐</option>
+      <option value="4">⭐⭐⭐⭐</option>
+      <option value="5">⭐⭐⭐⭐⭐</option>
+    </select>
+  </label>
+  <label style="margin-left:1em;">Price: <input type="number" id="minPrice" value="0" style="width:5em;"> - <input type="number" id="maxPrice" value="1000" style="width:5em;"></label>
+  <label style="margin-left:1em;">Release Year: <input type="number" id="minYear" value="2020" style="width:5em;"> - <input type="number" id="maxYear" value="2025" style="width:5em;"></label>
+</div>
+
+<table id="productTable" style="width:100%">
+  <thead>
+    <tr><th>Name</th><th>Price ($)</th><th>Release Date</th><th>Rating</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>HotNewThing™</td><td>1000</td><td>2025-06-11</td><td>⭐⭐⭐⭐⭐</td></tr>
+    <tr><td>FooBar Mk2</td><td>900</td><td>2025-06-10</td><td>⭐⭐⭐⭐</td></tr>
+    <tr><td>FooBar Mk1 Pro</td><td>850</td><td>2022-07-30</td><td>⭐⭐⭐⭐</td></tr>
+    <tr><td>FooBar Mk1</td><td>700</td><td>2024-06-05</td><td>⭐⭐⭐</td></tr>
+    <tr><td>Blooper I</td><td>89</td><td>2024-05-18</td><td>⭐⭐</td></tr>
+    <tr><td>Blooper II</td><td>179</td><td>2025-04-25</td><td>⭐⭐⭐⭐⭐</td></tr>
+    <tr><td>Blooper II Mini</td><td>95</td><td>2024-12-10</td><td>⭐⭐⭐</td></tr>
+    <tr><td>UwU</td><td>219</td><td>2024-03-15</td><td>⭐⭐⭐⭐</td></tr>
+    <tr><td>OwO</td><td>109</td><td>2020-09-02</td><td>⭐⭐</td></tr>
+    <tr><td>Ziggy Ultra</td><td>500</td><td>2023-02-19</td><td>⭐⭐⭐</td></tr>
+    <tr><td>Ziggy Flip</td><td>139</td><td>2021-11-03</td><td>⭐⭐</td></tr>
+    <tr><td>Ziggy Pro</td><td>249</td><td>2024-05-22</td><td>⭐⭐⭐</td></tr>
+    <tr><td>Ziggy +</td><td>119</td><td>2023-07-10</td><td>⭐⭐⭐</td></tr>
+    <tr><td>Ziggy Pro+</td><td>169</td><td>2022-10-05</td><td>⭐⭐⭐</td></tr>
+    <tr><td>Ziggy</td><td>100</td><td>2020-09-01</td><td>⭐</td></tr>
+    <tr><td>CheapToy</td><td>10</td><td>2022-01-17</td><td>⭐</td></tr>
+  </tbody>
+</table>
+
+<script>
+  const table = document.querySelector("#productTable tbody");
+  const sliders = {
+    price: document.getElementById("priceWeight"),
+    date: document.getElementById("dateWeight"),
+    rating: document.getElementById("ratingWeight")
+  };
+  const labels = {
+    price: document.getElementById("priceLabel"),
+    date: document.getElementById("dateLabel"),
+    rating: document.getElementById("ratingLabel")
+  };
+  const filters = {
+    minRating: document.getElementById("minRating"),
+    minPrice: document.getElementById("minPrice"),
+    maxPrice: document.getElementById("maxPrice"),
+    minYear: document.getElementById("minYear"),
+    maxYear: document.getElementById("maxYear")
+  };
+
+  function parseDate(dateStr) {
+    return new Date(dateStr).getTime();
+  }
+
+  function getRatingValue(stars) {
+    return stars.trim().length;
+  }
+
+  function balanceWeights(changed) {
+    const total = Object.values(sliders).reduce((acc, el) => acc + parseInt(el.value), 0);
+    if (total === 100) return;
+
+    const remaining = 100 - parseInt(sliders[changed].value);
+    const others = Object.keys(sliders).filter(k => k !== changed);
+    const even = Math.floor(remaining / 2);
+    sliders[others[0]].value = even;
+    sliders[others[1]].value = remaining - even;
+
+    Object.keys(sliders).forEach(k => labels[k].textContent = sliders[k].value + "%");
+  }
+
+function rescoreAndSort() {
+  const weights = {
+    price: parseInt(sliders.price.value) / 100,
+    date: parseInt(sliders.date.value) / 100,
+    rating: parseInt(sliders.rating.value) / 100
+  };
+
+  Object.keys(labels).forEach(k => labels[k].textContent = sliders[k].value + "%");
+
+  const minR = parseInt(filters.minRating.value);
+  const minP = parseFloat(filters.minPrice.value);
+  const maxP = parseFloat(filters.maxPrice.value);
+  const minY = parseInt(filters.minYear.value);
+  const maxY = parseInt(filters.maxYear.value);
+
+  const allRows = Array.from(table.querySelectorAll("tr"));
+  let filteredRows = [];
+
+  let maxPrice = 0, maxDate = 0, maxRating = 5;
+
+  allRows.forEach(row => {
+    const price = parseFloat(row.cells[1].textContent);
+    const date = new Date(row.cells[2].textContent);
+    const rating = getRatingValue(row.cells[3].textContent);
+
+    const inPriceRange = price >= minP && price <= maxP;
+    const inYearRange = date.getFullYear() >= minY && date.getFullYear() <= maxY;
+    const meetsRating = rating >= minR;
+
+    if (inPriceRange && inYearRange && meetsRating) {
+      row.style.display = ""; // show row
+      filteredRows.push(row);
+      maxPrice = Math.max(maxPrice, price);
+      maxDate = Math.max(maxDate, date.getTime());
+    } else {
+      row.style.display = "none"; // hide row
+    }
+  });
+
+  filteredRows.sort((a, b) => {
+    const [ap, bp] = [a, b].map(r => parseFloat(r.cells[1].textContent));
+    const [ad, bd] = [a, b].map(r => parseDate(r.cells[2].textContent));
+    const [ar, br] = [a, b].map(r => getRatingValue(r.cells[3].textContent));
+
+    const aScore = (1 - (ap / maxPrice)) * weights.price +
+                   (ad / maxDate) * weights.date +
+                   (ar / maxRating) * weights.rating;
+    const bScore = (1 - (bp / maxPrice)) * weights.price +
+                   (bd / maxDate) * weights.date +
+                   (br / maxRating) * weights.rating;
+
+    return bScore - aScore;
+  });
+
+  filteredRows.forEach(row => table.appendChild(row));
+}
+
+
+
+  Object.keys(sliders).forEach(key => {
+    sliders[key].addEventListener("input", () => {
+      balanceWeights(key);
+      rescoreAndSort();
+    });
+  });
+
+  Object.values(filters).forEach(el => el.addEventListener("input", rescoreAndSort));
+
+  balanceWeights("price");
+  rescoreAndSort();
+</script>
+
+
+This toy example clearly leaves a lot to be desired (A real page with only 2 slider should probably be a single, balance slider; 3 should be a triangle; 4 a square; and only 5 or more should be sliders like this. Furthermore, it should have product images and just genally look nicer, along with integrating the review devicisive ness ticks as were suggested in that article by Bret Victor)
+
+Don't see this example and miss the forest for the hastily thrown together tree: What I want is for the webserver to send your webbrowser all of that data (or be able to directly query it) and for your computer and web browser to be what decides how its shown.
+
+The example above is to show you a small taste of what that could do. If done right, you could pipe this though, say, a spreadsheet tool and have it do more complicated filtering. Buying a laptop? You might be able to quickly enter an equation to say
+
+`IF $PRICE > 1000 AND RAM < 16GB -> DROP`
+
+Hell, if done they way I'm suggesting you should even be able to do
+
+`IF $RAM_SPEED NOT DEFINED -> DROP` to just say "Yeah, if you're not gonna tell me how fast the RAM is, I don't want to buy it"
+
+And in either case not have to hope that the site is respecting what you're asking. If I go to Amazon and search laptop and set the price slider to $2000 to $2500, the 3rd result is $645. Last I checked 2000 < 645 > 2500 wasn't true mathematically, but what the fuck do I know, right? 
+
+# The Point I'm Trying To Make
+
+All of these things have the same problem in common: We relinquished control to the provider at the language and protocol layer. We let it become normal to not be in control of what is displayed on our screens by tying the presentation to the data, and for what, making the web general purpose?
+
+Like, sure, each web page can do *anything* but we didn't have to give that up in the first place. We could still have websites as they exist today, an open platform for experimentation, while still having standards that would - oh my god I'm about to use a capitalism argument I hate this - naturally win over their competition by providing a better user experience.
+
+Right now, if you go to browse amazon for laptops the sorting is .. uh, bad.
+
+It does at least recognize the search term and offer some sorting options - price, amount of RAM, screen size, etc. - but the processor selection is all sorts of wrong (For example, it doesn't differentiate between processors of a different generation but same name. An i5 from 2009 will perform much differently than one from 2025)
+
+{{< light >}}
+
+But what if you could go to, say, dell.com, hp.com, and say "Send my computer a list of products you offer, their prices, and their specs" and then go to Reddit to find other brands people trust and do the same from other brands you can vet yourself.
+
+Agregator shipping and middle men could still exist, you could, of course, still go to Amazon (If they conformed to this standard and cleaned up their data enough to work with it) and have them provide their list or even just the option to have it sold and shipped by them if it matches exactly from another vendor.
+
+You could then load a community made page which allows you to search these sources all together, or try other data filtering pages which themseves only provide your client with the interface. They wouldn't even have to have access to the data or facilitate the transaction. Sure, Amazon or Dell might provide their own interface to do this, but the idea is you could plumb the same data through multiple of them.
+
+Think about how radically different this is from Amazon.
+
+You would have much, much lower fraud and abuse as individual vendors are the ones listing their own products and you're choosing to trust them.
+
+You would have more price competition as different sites are forced to actually compete instead of consumers all centralizing on a monopoly shopping service
+
+I could keep going, but shopping isn't the only example. I think an even better one is social media because there this isn't just a hypothetical.
+
+[TODO: Mastodon clients, and historically reddit clients, how reddit got worse.]
+
+{{< /light >}}

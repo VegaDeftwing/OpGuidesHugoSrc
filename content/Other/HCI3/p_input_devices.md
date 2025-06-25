@@ -7,11 +7,26 @@
 
 One of the frustrating things about shopping for a computer is that we're taught to think about their specs as strictly quantifiable.  You can read something like,
 
-<div class="conlang" style="font-size:1.2em;">
-The 󿝏󿝯󿝭Q󿝛 is 1.5x faster than the 󿝛󿝯󿝛U󿝏 but costs 2x as much
-</div>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Flex:opsz,wght,GRAD,XOPQ,XTRA,YOPQ@8..144,498,150,152,379,84&display=swap" rel="stylesheet">
 
-And make a decision based on your budget and needs, but you can't see that speed. I mean, sure, you'll notice a difference in performance in your applications - and that's important - but an awesome gaming computer with a keyboard covered in mysterious slime and a ball mouse from 1998 isn't something you want to use.
+<style>
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+</style>
+
+
+> <h3 style="text-align:left;text-shadow:none;"><span class="fjalla-one-regular" style="color:orange;text-align:left;text-shadow:none;">FauxTechNews</span>:</h3>
+>
+> <p class="fjalla-one-regular">The 391Q2 is 1.5x faster than the 292U3 but costs 2x as much</p>
+>
+> But is it the best bang for your buck in Cyberjunk2069?
+
+And make a decision based on your budget and needs, but you can't feel that speed. I mean, sure, you might notice a difference in performance in your applications - and that's important - but an awesome gaming computer with a keyboard covered in mysterious slime and a ball mouse from 1998 isn't something you want to use.
 
 We give a lot of weight to specs we can quantify but which reside out of sight, tucked away in the box under the desk or below the keyboard. That doesn't mean we should ignore the real, tangible differences. For example,
 

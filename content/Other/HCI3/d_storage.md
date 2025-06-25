@@ -128,3 +128,14 @@ I'd also be remiss if I didn't mention [Boinc](https://boinc.berkeley.edu), a to
 ---
 
 Unfortunately, in response to criticisms, like this one, of cloud storage a lot of providers of "Personal Cloud" devices have cropped up. Though, headlines like *[“I’m totally screwed.” WD My Book Live users wake up to find their data deleted](https://arstechnica.com/gadgets/2021/06/mass-data-wipe-in-my-book-devices-prompts-warning-from-western-digital/)* and *[If you have a QNAP NAS, stop what you're doing right now and install latest updates. Do it before Qlocker gets you](https://arstechnica.com/gadgets/2021/06/mass-data-wipe-in-my-book-devices-prompts-warning-from-western-digital/)* might go to show why that's also a pretty fucking stupid idea.
+
+
+
+---
+
+https://www.monperrus.net/martin/store-data-paper
+
+
+-- 
+
+Note about crypto-based cloud storage being BS

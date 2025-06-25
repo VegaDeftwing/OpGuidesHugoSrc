@@ -63,7 +63,7 @@ If we all had RFID tags implanted in our hands as I do,
 
 it'd be simple, right? We just authenticate with our hands!
 
-Sure, maybe with something like this it *might*, *maybe* be possible to have a good way to verify identity, but that misses an important point in authentication: You don't always want to only have one identitiy.
+Sure, maybe with something like this it *might*, *maybe* be possible to have a good way to verify identity, but that misses an important point in authentication: You don't always want to only have one identity.
 
 Maybe you want to keep your work account separate from a personal one. Maybe you're testing the waters with your gender identity and don't want it to be tied back to other accounts. Whatever the case, we don't *want* identity verification to be absolute.
 
@@ -87,11 +87,11 @@ This is a royal pain in the ass.
 
 This is why people use the same junk password across a ton of different services, and don't use multiple factors.
 
-Which then means when, inevitibly, one of them get's hacked, it's not *one* service that a user has compromised, it's many.
+Which then means when, inevitably, one of them gets hacked, it's not *one* service that a user has compromised, it's many.
 
 Go find someone's password in previous [security breaches (haveibeenpwned)](https://haveibeenpwned.com/PwnedWebsites) and try in a bunch of services. No dark hacking sorcery required.
 
-But, wait, now you can avoid making 10,000 acounts with different passwords, you just have to 
+But, wait, now you can avoid making 10,000 accounts with different passwords, you just have to 
 
 
 
@@ -133,7 +133,38 @@ But, wait. What if you loose access to your account.
 
 <span>   <span style="color: #4285F4;">G</span><span style="color: #EA4335;">o</span><span style="color: #FBBC05;">o</span><span style="color: #4285F4;">g</span><span style="color: #34A853;">l</span><span style="color: #EA4335;">e</span> </span> absolutely gives negative fucks. You will not get support, you will simply loose access to everything*
 
-{{< smalltext >}}*probably. I'm mosty saying "probably" for legal reasons though. It's become a bit of a meme for the best way to get support from Google, Meta, etc. to be posting online in technical circles until either an engineer sees it or it becomes a big enough PR problem, which is hard for a normal person to do.{{< /smalltext >}}
+{{< smalltext >}}*probably. I'm mostly saying "probably" for legal reasons though. It's become a bit of a meme for the best way to get support from Google, Meta, etc. to be posting online in technical circles until either an engineer sees it or it becomes a big enough PR problem (which is hard for a normal person to do).{{< /smalltext >}}
+
+[TODO: finish the above]
+
+---
+
+{{< bigquote "[\"The High Stakes of Tracking Menstruation\", MCTD Cambridge ](https://www.mctd.ac.uk/femtech-high-stakes-tracking-menstruation/)" >}}
+
+Menstrual tracking applications turn personal health information into data points to be collected, analysed, and sold. This poses risks and harms for users and society, as menstrual tracking data can be used to control people’s reproductive lives. In the UK, police forces may be able to check tracking apps and medical records related to reproductive health[.]
+
+{{< /bigquote >}}
+
+The reason this is a problem is mixed, and it depends on where you want to attribute blame.
+
+You could:
+* Blame the user - they should have read the terms of service, reviews, etc.
+* Blame the law - it should protect the user.
+* Blame the platform - it should protect the user.
+
+Practically, all of these are true to some extent, though I'd argue the user is the least at fault. It is unreasonable to expect everyone to look for reviews of everything.
+
+It is reasonable to blame our governments or the platforms for failing to protect people, but at some limit the issue will exist no matter what so long as there is financial incentive for abuse. I'm not going to turn this into that argument (even if it is a valid one, especially in regards to health care). Instead I want to argue:
+
+{{< light >}}
+
+## If you own your data, your authorization needs go down.
+
+While it may not feel like it, your authorizing apps to sell your data by using them, if that's in their Terms Of Service. If you can only authorize an application to exchange data with sources you own - not to the internet at large - a whole host of problems disappear. You no longer have to worry about an app collecting location data, menstrual cycle information, or your nudes if it isn't allowed to send it up to the any server other than your own.
+
+If this is data you don't need backed up or to sync across devices, you don't even need a server. Just store it locally. The existence of smartphone apps and social media hasn't made the idea of storing a file on your device obsolete.
+
+{{< /light >}}
 
 # OLD
 
