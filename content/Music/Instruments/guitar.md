@@ -458,7 +458,8 @@ Make sure to mention latency, aliasing, and how well it takes for anything digit
 - Mixed fretted/fretless
 - Partiall scalloped
 - Custom cavity routs for onboard effects  
-- B-benders and G-benders (country-style pitch-shifting systems)  
+- B-benders and G-benders (country-style pitch-shifting systems)
+- Lap Steel & Pedal Steel
 
 ## Playing Techniques
 * Harp Harmonics
@@ -466,3 +467,12 @@ Make sure to mention latency, aliasing, and how well it takes for anything digit
 * pinch harmonics
 * finger picking
 
+# Bass
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/qxIHAGzb6lc" title="RESPECT THE BASS!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[TODO]
+
+* Active Pickups, 3 vs 2 band EQ, string count, picking methods, slap
+
+https://www.reddit.com/r/Guitar/comments/muwb6/learning_bass_after_guitar/

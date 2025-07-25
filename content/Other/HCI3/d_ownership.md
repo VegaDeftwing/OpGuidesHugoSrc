@@ -9,7 +9,7 @@ Software for using hardware to full fetaure should always be included. If paid, 
 
 THis app doesn't allow screenshots, blocking right click, and other client-side anti-features.
 
-Car not allowing typing (Even with passanger)
+Car not allowing typing (Even with passenger)
 
 Any popup that says "Remind me later"
 

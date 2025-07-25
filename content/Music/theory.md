@@ -99,3 +99,5 @@ Microtonality can be interesting too:
 # SCIENCE!
 
 https://ciechanow.ski/sound/
+
+[The Physics Of Dissonance (Minute Physics)](https://www.youtube.com/watch?v=tCsl6ZcY9ag)

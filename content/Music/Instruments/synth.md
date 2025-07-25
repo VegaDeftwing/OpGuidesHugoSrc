@@ -31,6 +31,12 @@ If you want the very, very short version
 
 **Yes, I might have skipped your favorite**
 
+### 1935 - The Hammond Organ
+
+https://www.youtube.com/watch?v=I27T9CnhdmI
+
+Really it's additive synthesis
+
 ### 1970 - The Moog & Minimoog
 
 Moog modular

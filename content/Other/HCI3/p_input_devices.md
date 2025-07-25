@@ -1,9 +1,21 @@
+# TODO
+
+- Car controls
+
+---
+
 <img src="/hci/mxpatent.svg" class="lg-no-shadow" style="height:15em;">
 
 </br>
 {{< smalltext >}}In 2014, Cherry's [patent](https://patents.google.com/patent/US4467160A/en) for the MX style keyswitch used in most mechanical keyboards expired, allowing for a large variety of new switches and improvements to the original designs to hit the market.{{< /smalltext >}}
 
 # Computing Is Physical
+
+Computers would not serve a purpose to most people if it was not easy to put data in and get data out. If you had a calculator with a broken screen or a broken keypad, it would be useless either way.
+
+The ulility of the devices we use is intrinsically tied to how quickly and comfortably we can put data in and get the data we want out.
+
+# -
 
 One of the frustrating things about shopping for a computer is that we're taught to think about their specs as strictly quantifiable.  You can read something like,
 

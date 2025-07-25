@@ -328,3 +328,6 @@ Similarly, [Big Drums VS Small Drums (YouTube)](https://www.youtube.com/watch?v=
 
 ### Xylophones & Glockenspiels
 
+### Gongs
+
+### Djembe

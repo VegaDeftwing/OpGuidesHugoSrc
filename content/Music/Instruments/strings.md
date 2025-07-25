@@ -1,11 +1,61 @@
 # Strings
 
+Looking for information about guitars? Go to the dedicated [Guitar Page](/music/instruments/guitar)!
+
+## Physical String Science
+
+Almost all instruments work by exploiting resonance. For some instruments this is a skin stretched over a tube, for others it's a metal bar being hit. For stringed instruments, it's a tensioned string being excited.
+
+There are quite a few variables that effect the sound,
+
+Some are inherit to the string:
+- How long is the string?
+- How thick is the string?
+- What material is the string made of? (Nylon, Steel, different alloys, etc)
+- Is the string a bare wire or wound?
+
+Some are a matter of how you play it:
+- Where on the string is it being excited?
+- Is the object making contact with the string hard or soft?
+- Is the object removed from the string quickly, or left on the string after the strike - like a bow?
+
+Yet other factors depend on the instrument's design:
+- Will near-by strings vibrate sympathetically?
+- Is the string supposed to vibrate the instrument's body or ring out as long as possible?
+
+On many stringed instruments of a given class (So, say "guitars") those options vary pretty wildly from instrument to instrument.
+
+There is one point in particular I want to dwell on though: Stringed instruments will produce overtones that are not all harmonic.
+
+This is broadly true of most instruments, but if you've ever heard someone say "It's impossible to tune a piano" and then try to say something about the 12TET scale vs Just Intonation they've lost something important along the way. All instruments have that 12 TET / JI problem, and it is *obviously* possible to get all the notes on a piano tuned such that their fundamental frequency is in tune for 12 TET. At least within the practical limits of the tunability of any instrument - but you don't want to.
+
+The problem with tuning a piano is your ears will naturally focus on the overtones produced, and these overtones are not all harmonic.
+
+Often when talking about music people will interchangeably use the words "overtone" and "harmonic". But these words have meaning, and much like all squares are rectangles but not all rectangles are squares, not all overtones are harmonic. In an ideal string ("Ideal" in the you're learning physics sense) they are, but in reality, not so much. Pianos in particular suffer from this quite a bit, usually going sharp.
+
+Here, give it a listen:
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/MoKVuo-87l8?si=ShgeeBnDGN5mh7Vz&amp;start=912" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+{{< smalltext >}}
+For a longer, deeper explanation see [The Physics Of Dissonance (Minute Physics)](https://www.youtube.com/watch?v=tCsl6ZcY9ag)
+{{< /smalltext >}}
+
+How much this affects a given instrument or even on which string varies.
+
+{{< quote "[\"On inharmonicity in bass guitar strings [...]\" by Jonathan A. Kemp](https://link.springer.com/article/10.1007/s42452-020-2391-2)" >}}
+[In Bass Guitars], the inharmonicity is found to be low in the lowest (open string) pitch on the fve string bass guitar (B0) given typical
+standard construction. Conversely, the inharmonicity is high (around 100 cents at the 10th partial) when that string is
+sounded when stopped at the 12th fret and very high (around 100 cents at the 6th partial) when that string is stopped at
+the 21st fret.
+{{< /quote >}}
+
+
 ![TODO](/common/TODO.svg)
 
 <script>
     document.getElementById("instMenu").open = true;
 </script>
-## Guitars
 
 <!-- Normally I wouldn't even click something like this, but this one is actually good: https://www.youtube.com/watch?v=LnJkVg3Es2o -->
 
@@ -18,20 +68,6 @@
 {{< attribution >}}Picture of my character by [Alex the Nerd Bird](alexthenerdbird.weebly.com) {{< /attribution >}}
 
 {{< /columns >}}
-
-### Acoustic, Electric, Acoustic-Electric?
-
-### Hollow Body, Solid Body?
-
-### Pickups?
-
-### Frets?
-
-Some guitars used "fanned" or multi-scale frets. This is most common on extended range (7+ string) guitars. The intent is that the scale length can be longer for the thick string and shorter for the thin so that the tension on all of them is reasonable (it avoids the low string being floppy). Different guitars may use a different fret as the "straight fret" where it changes from being fanned up vs down, and this can alter what chords are comfortable. They also should have better intonation.
-
-You won't find many old guitars with fanned frets as the patent for them on guitars only expired in 2009.
-
-In addition to multi-scale, you may happen across a [true temperament neck](https://truetemperament.com/products/) where the frets are all a bit squiggly. This makes it so each note is actually correct in a 12TET scale, instead of the standard imperfections inherit to guitar. This makes chords sound more stable/accurate as you move closer to the body. [These are still patented](https://patents.google.com/patent/US7728210B2/en) with it not set to expire until 2027.
 
 ### Strings?
 
@@ -72,32 +108,6 @@ Standard (EADBGe), drop D, open G, DADGAD, Ostrich, etc. Why you'd want them.
 
 
 {{< /columns >}}
-
-### 6-String
-
-### Bass
-
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/qxIHAGzb6lc" title="RESPECT THE BASS!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-[TODO]
-
-* Active Pickups, 3 vs 2 band EQ, string count, picking methods, slap
-
-https://www.reddit.com/r/Guitar/comments/muwb6/learning_bass_after_guitar/
-
-### 12-String
-
-### Extended Range
-
-#### Fanned-Fretts
-
-### Fretless
-
-### Baritone
-
-### Lap Steel & Pedal Steel
-
-
 
 ## Pianos
 

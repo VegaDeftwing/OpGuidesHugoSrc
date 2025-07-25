@@ -6,7 +6,7 @@ For OpGuides I'm going to refer to any non-digital art as analog. Traditionally,
 
 ## Pen/Pencil and Paper
 
-Paper types, lead weight, transfer paper, pen types (+caligraphy), erasers, etc.
+Paper types, lead weight, transfer paper, pen types (+calligraphy), erasers, etc.
 
 ## Charcoal
 

@@ -180,7 +180,7 @@ Hell, I'll go all in betting on saying you've authenticated with quite a few ser
 
 button, though possibly only because it was the only way to login to that service at all.
 
-Unfortunately, all of the above are probably not the best decisions.
+Unfortunately, all the above are probably not the best decisions.
 
 The top two points combined mean someone can find your password in previous [security breaches (haveibeenpwned)](https://haveibeenpwned.com/PwnedWebsites), and then just login in, easy as that.
 

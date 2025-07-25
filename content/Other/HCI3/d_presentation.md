@@ -410,3 +410,7 @@ I could keep going, but shopping isn't the only example. I think an even better 
 [TODO: Mastodon clients, and historically reddit clients, how reddit got worse.]
 
 {{< /light >}}
+
+---
+
+TODO: Design language being up to the user and choosing something actually good - Apple's Liquid Glass sucks. https://morrick.me/archives/10068
