@@ -125,6 +125,7 @@ headless: true
    </details></dd>
 </dil>
     <dt>A3 </dt><dd> <a href="/engineering/programming/languages/">Programming Languages</a></dd>
+    <dt>A4 </dt><dd> <a href="/engineering/programming/vibecoding/">Vibe Coding</a></dd>
 </div>
 
 
