@@ -1,9 +1,3 @@
-# TODO
-
-- Car controls
-
----
-
 <img src="/hci/mxpatent.svg" class="lg-no-shadow" style="height:15em;">
 
 </br>
@@ -514,3 +508,4 @@ While I'm a huge proponent of always being willing to at least try things - and 
 # TODO:
 
 - MX key profiles, chonkier keys, material type matters.
+- Car controls should be physical for safety, and shouldn't lock you out of doing things like typing ever.

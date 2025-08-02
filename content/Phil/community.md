@@ -10,31 +10,76 @@ slug: "Community"
 
 Hopefully this isn't a shock to anyone reading this, but I'm a furry.
 
-{{< attribution >}}
+{{< smalltext >}}
 
 owo uwu nuzzles rawr tehe 
 
-{{< /attribution >}}
+{{< /smalltext >}}
 
 So, I think I can share a little bit about why I joined the fandom, what being in a subculture community is like, and how some of those experiences have made me a better person and helped me be a part of or run successful online communities.
 
-I hope that though this I can talk about what makes a community good or bad, what brings division, and what good rules for a healthy community look like.
+First though, I want to talk about why I'm in the fandom.
 
-But, to get there, I think I need to first indoctrinate you into the furry culture of OwO and UwU. So prepare your beans, we're about to get fluffy. 
+
+{{< hint warning >}}
+
+If, somehow, you've gotten to this page and think furries are gross/bad I want you to go read: [Dogwhistles and Other Falsehoods Uttered About Furries](https://soatok.blog/2023/01/27/dogwhistles-and-other-falsehoods-uttered-about-furries/).
+
+If you're only anti furry because you are actually anti-LGBT, kindly get the fuck off my website, thx.
+
+{{< /hint >}}
 
 <--->
 
-![](/nonfree/character/box.png)
+<div class="shader">
+          <img src="/nonfree/character/furby.webp" alt="Shadowbox design of multiple SVG layers depicting a deer in a forest scene, set within the outline of a deer" width="1024">
+          <div class="shader-layer specular gradient-vega2">
+            <img class="shader-layer mask gradient-vega" src="/nonfree/character/furby_over.webp" alt="" width="1024">
+          </div>
+</div>
 
 {{< attribution >}}
 
-Character owned by me, art by [Talon Creations](https://twitter.com/Talon_Creations)
+Art by [ManedMenace](https://www.deviantart.com/manedmenace/gallery)
 
 {{< /attribution >}}
 
 {{< /columns >}}
 
-## Furries?
+---
+
+Most furries are not just "Furries". Most will identify with a second sub-group, or multiple of them.
+
+For example, there's furry artists, fursuit makers, furry programmers, furry car enthusiasts, and furries into ham radio.
+
+For each of those, and a couple dozen other interests, I can pretty easily find group chats and sub-communities dedicated to the combination interest.
+
+That may initially sound irrelevant: If you join a ham radio group, why would you care if the other people in there are furries?
+
+Two reasons:
+1. It gives you a way to break the ice: "What's your fursona"
+2. It filters out people that would be bothered by the fandom.
+
+{{< columns >}}
+
+<div class="shader">
+          <img src="/nonfree/character/zed.webp" alt="Shadowbox design of multiple SVG layers depicting a deer in a forest scene, set within the outline of a deer" width="1024">
+          <div class="shader-layer specular gradient-vega2">
+            <img class="shader-layer mask gradient-vega" src="/nonfree/character/field_mask7_opt.webp" alt="" width="1024">
+          </div>
+</div>
+
+{{< attribution >}}Art by [Zed Shirogane](https://www.shiroganestudios.com){{< /attribution >}}
+
+<div class="clr"></div>
+
+<--->
+
+That second point is really important. Self identifying as a member of the furry community is not something people that would be bothered by LGBT people or are overly concerned about appearing to be conformist would do, and that's great, because we don't want them. The furry community is [only 20% hetrosexual](https://furscience.com/research-findings/sex-relationships-pornography/5-1-orientation/): It's not that we're not welcoming to straight white males <footnote>Hell, I'm a bi heavily female pefrence cis white male, you wouldn't realllly know I wasn't</footnote>, it's that we don't want the type of people who think being otherwise is wrong.
+
+So having that filter that inheritly self selects for people you have things in common with and are likely to share values with is a big deal.
+
+{{< /columns >}}
 
 [TODO] Furries, internet culture, LGBT, Gender Identity vs need for legal identity - furry stats, like what percent look at lood, age demographics, etc. [Proof of X](https://julian.digital/2020/08/06/proof-of-x/), [Assholes: A Probing Examination](https://www.nomachetejuggling.com/2019/06/03/dont-hire-assholes/), 
 
@@ -48,7 +93,38 @@ Might also talk about https://wileywiggins.com/merveilles.html as that's a commu
 
 Encryption, Tragedy of the commons
 
-## Community
+## Avoiding Corporate Takeover
+
+In 2025 I caught the first half a talk titled "How to Organize in the Furry Fandom" given by [Sasha Jones](https://sasharjones.com/about) and [Jonathan Vair Duncan](https://www.jonathanvair.com), two artists-by day, activists by night who put me in awe with their work in both regards.
+
+{{< columns >}}
+
+In it, they made a point that while I already knew intuitively, it being put out there made it really click:
+
+The reason the furry fandom has made it so far and continues to be so full of independent artists and creators isn't despite the porn. 
+
+**It's because of it.**
+
+If it weren't for the sheer amount of rabid horniness in this fandom, it would've gotten bought out by commercially available fursuits and corporate sponsors a long time ago.
+
+<--->
+
+![](/nonfree/character/box.png)
+
+{{< attribution >}}
+
+Character owned by me, art by [Talon Creations](https://twitter.com/Talon_Creations)
+
+{{< /attribution >}}
+
+{{< /columns >}}
+
+I'm not saying every community fandom should suddenly become NSFW just to avoid takeover like this. But I think it's worth pointing out that whenever anyone says they wish the fandom were more safe for work, they're missing the point that it wouldn't be the same fandom if it was.
+
+It has become something of a repeat joke how every June MegaCorp™ busts out the cheaply made pride merch only to turn around and donate to anti-LGBT politicians, hell, sometimes they do both at the same time. That's what we shouldn't put up with.
+
+I will not buy LGBT themed goods not made by individual artists. If everyone does that then MegaCorp™ would have to stop selling it and would have a bunch of stock they have nothing to do with.
+
 
 {{< columns >}}
 

@@ -27,7 +27,7 @@
 ## Fiction
 
 * [17776](https://www.sbnation.com/a/17776-football) - 🛰 🏈 📅🌌
-* This [Furry Visual Novel.](https://play.google.com/store/apps/details?id=klace.majorminor.androidmv&hl=en_US) is neat, albeit a bit cheesy.
+* This [Furry Visual Novel](https://store.steampowered.com/app/475490/MajorMinor/) is neat, albeit a bit cheesy.
 * [Killing Hitler (Reddit Writing Prompt Response)](https://www.reddit.com/r/WritingPrompts/comments/46qkd4/wpkilling_hitler_has_become_a_sport_amongst_time/d074op9?utm_source=share&utm_medium=web2x)
 * [Voice of the Ilk (Wiktopher.ca)](https://wiktopher.ca/site/chapter_01.html)
 * [I don't know, Timmy, being God is a big responsibility](https://qntm.org/responsibility)
@@ -80,12 +80,22 @@
 
 ## Games
 
+{{< columns >}}
+
+<img src="/nonfree/character/minecraft.png" style="background-color:#9fdb8a;padding:.5em;margin: 0em 2em 1em 1em;">
+
+{{< attribution >}}Art by [Hadley Crumbsworth](https://bsky.app/profile/hadleycrumbs.bsky.social/post/3lv2bfb2hh22d){{< /attribution >}}
+
+<--->
+
 * [A mix between Minesweeper and a Bullethell (tic-80, Artemis Minesweeper)](https://swamp-kun.itch.io/artemis-minesweeper)
 * [Hexagonal Chess (tic-80, HexChess)](https://tic80.com/play?cart=1496)
-  > While I'm at it, their [5D Chess With Multiverse Time Travel](https://store.steampowered.com/app/1349230/5D_Chess_With_Multiverse_Time_Travel/) too.
+  * See [5D Chess With Multiverse Time Travel](https://store.steampowered.com/app/1349230/5D_Chess_With_Multiverse_Time_Travel/) too.
 * [A weird asteroids clone (tic-80, Ship'em up)](https://tic80.com/play?cart=1495) 
 * [I thought I made a hard game and then speedrunners totally destroyed it. Here is what that feels like. (Zukalous, Imgur)](https://imgur.com/t/speedrunning/zDoWihd)
 * ['Free Games' tag on Rock Paper Shotgun shows off some neat stuff](https://www.rockpapershotgun.com/tag/free-games/)
+
+{{< /columns >}}
 
 ## History
 

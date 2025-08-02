@@ -1,3 +1,7 @@
++++
+bookToC = false
++++
+
 # Lo' and Behold.
 
 The technology we use every day isn't designed to be the best we can.

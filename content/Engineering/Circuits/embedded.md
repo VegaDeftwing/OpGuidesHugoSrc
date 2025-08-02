@@ -365,3 +365,9 @@ I **really** want to make this clear: Arduino is a framework. Not a specific har
 # 14.2 - Projects I recommend
 
 * Hand wiring a keyboard: https://docs.qmk.fm/#/hand_wire?id=hand-wiring-guide
+
+---
+
+# Putting functions in RAM
+
+[TODO] sometimes you might have to relocate functions to RAM for things to work fast enough, espicially things with lots of interrupts or that talk to peripherals.
