@@ -20,11 +20,11 @@ If you want to, you *can* run a web server off of your home internet connection.
 * The hardware costs money. Even a Raspberry Pi isn't free, and neither is the power to run it.
   * Even a pi 3b+ will use ~$5 of electricity a year, and the cost of the pi is ~\$40 not counting the power supply, case, SD card, etc.
 
-**TL;DR:** economies of scale will hit you here, it's cheaper, safer, and typically better for users if you host with either a {{< vale >}}**V**irtual **P**rivate **S**erver{{< /vale >}} (VPS) or use a web hosting solution- either free or paid.
+**TL;DR:** economies of scale will hit you here, it's cheaper, safer, and typically better for users if you host with either a **V**irtual **P**rivate **S**erver (VPS) or use a web hosting solution- either free or paid.
 
 If you're making a small-ish personal (read: non-commercial / advertising) site like this one, then the best bet IMHO is to use free hosting from [GitHub Pages](https://pages.github.com), [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) or with a free VPS, though there are cheap VPS options that may be less of a headache, see https://lowendbox.com for some. Depending on your needs, it's totally within reason to get well under $20 a year.
 
-{{< vale >}}**HOWEVER:**{{< /vale >}} If you're following this guide for the sake of learning the technical side, it's totally reasonable to want to setup your own web sever on your own hardware and network! I'm not trying to dissuade you from doing so, I just want to make sure nobody is doing it "Because it's cheaper", because it's probably not.
+**HOWEVER:** If you're following this guide for the sake of learning the technical side, it's totally reasonable to want to setup your own web sever on your own hardware and network! I'm not trying to dissuade you from doing so, I just want to make sure nobody is doing it "Because it's cheaper", because it's probably not.
 
 {{< speech big>}}
 
@@ -44,7 +44,7 @@ There are some cool esoteric hosting options too!
 
 ### VPS? - A brief detour
 
-Alright, so, what the heck is a VPS? As stated above, it's a {{< vale >}}**V**irtual **P**rivate **S**erver{{< /vale >}}. This means you're getting a {{< vale >}}**V**irtual{{< /vale >}} machine (basically a fake computer running in software) that is acting as a tiny slice of a larger server (note that servers are just fancy computers) but because all the other users are on {{< vale >}}**V**irtual{{< /vale >}} machines, it's {{< vale >}}**P**rivate{{< /vale >}}: even though you're sharing a physical computer, you have no way of seeing anything about your neighbors, and they can't see anything about you. {{< vale >}}Finally{{< /vale >}}, it's a {{< vale >}}**S**erver{{< /vale >}}, which means it's purpose is to, well, serve something, in our case a website, and is probably running an operating system that is better suited to that - almost always Linux.
+Alright, so, what the heck is a VPS? As stated above, it's a **V**irtual **P**rivate **S**erver. This means you're getting a **V**irtual machine (basically a fake computer running in software) that is acting as a tiny slice of a larger server (note that servers are just fancy computers) but because all the other users are on **V**irtual machines, it's **P**rivate: even though you're sharing a physical computer, you have no way of seeing anything about your neighbors, and they can't see anything about you. Finally, it's a **S**erver, which means it's purpose is to, well, serve something, in our case a website, and is probably running an operating system that is better suited to that - almost always Linux.
 
 What this means is you *might* need to know at least a tiny bit about Linux and using the command line to get up and running if you go this route, but it shouldn't be all that much.
 
@@ -56,17 +56,17 @@ For the actual guide on making your own website, I'll be going over all three op
 
 ## The domain name
 
-{{< vale >}}**D**omain **N**ame **S**ystem{{< /vale >}}, or DNS, is what makes it so you can go to (at the time of writing) to https://facebook.com instead of 157.240.2.35 - it's the thing that prevents you from needing to memorize a ton of numbers. Now, there's a whole ton of complexity I'm going to gloss over, but what you need to know for right now is you *probably* want a custom domain name for your site. I say *probably* because if you're using something like GitHub Pages, you'll be able to use {{< vale >}}htt<span>p</span>s://y<span>ourwebsitename.github.io</span>{{< /vale >}} for free, and you'll get similar names for free with some of the other options, but for something more custom like opguides.info, you'll have to pay for it.
+**D**omain **N**ame **S**ystem, or DNS, is what makes it so you can go to (at the time of writing) to https://facebook.com instead of 157.240.2.35 - it's the thing that prevents you from needing to memorize a ton of numbers. Now, there's a whole ton of complexity I'm going to gloss over, but what you need to know for right now is you *probably* want a custom domain name for your site. I say *probably* because if you're using something like GitHub Pages, you'll be able to use htt<span>p</span>s://y<span>ourwebsitename.github.io</span> for free, and you'll get similar names for free with some of the other options, but for something more custom like opguides.info, you'll have to pay for it.
 
 <!--The spans in the above link are a hack to make it inactive on the site, so that someone doesn't come along and make that go to something weird-->
 
 ### How do you do that and how much does it cost?
 
-Well, the how to do is pretty simple to buy, a bit weird to use, but we'll get to that point in a bit. To buy it, you'll want to find a reputable domain marketplace - [Namecheap](https://www.namecheap.com) and [Google Domains](https://domains.google) are nice - and see what you can find. Note that some {{< vale >}}**T**op **L**evel **D**omains{{< /vale >}} are more expensive and have weird requirements, 
+Well, the how to do is pretty simple to buy, a bit weird to use, but we'll get to that point in a bit. To buy it, you'll want to find a reputable domain marketplace - [Namecheap](https://www.namecheap.com) and [Google Domains](https://domains.google) are nice - and see what you can find. Note that some **T**op **L**evel **D**omains are more expensive and have weird requirements, 
 
 for example, 
 
-`pleaseend.us` is a .us domain, so {{< vale >}}is supposed{{< /vale >}} to be strictly be for use [by US citizen or entities](https://en.wikipedia.org/wiki/.us#Restrictions_on_use_of_.us_domains)
+`pleaseend.us` is a .us domain, so is supposed to be strictly be for use [by US citizen or entities](https://en.wikipedia.org/wiki/.us#Restrictions_on_use_of_.us_domains)
 
 `isholdinghands.gay` is a .gay domain, so prohibits anti LGBTQ content (and 20% of all registration revenue gets donated to LGBTQ non-profit organizations) 
 
@@ -76,7 +76,7 @@ But, assuming you want to be a normie and use `.com`, `.net`, or `.org`, it depe
 
 ### A Detour into TLS
 
-You've probably heard that you should try to trust websites starting with {{< vale >}}http**s**://{{< /vale >}} more than those with just {{< vale >}}http://{{< /vale >}}. This is a bit of a failing of security nerds to explain things well. In short, the "s" just means that:
+You've probably heard that you should try to trust websites starting with http**s**:// more than those with just http://. This is a bit of a failing of security nerds to explain things well. In short, the "s" just means that:
 
 1. Other people on your network shouldn't be able to eaves drop on what you're doing on that website (though they could still snoop and see that you're using that website)
 2. They can't Man-In-The-Middle your connection to the website, meaning an attacker can't change what you see on that page
@@ -85,4 +85,4 @@ What it does not mean is that the site is any more trustworthy, an https:// site
 
 ## Okay… so… how much then?
 
-OpGuides costs me a little $20/yr for the domain name, and I host the site with GitHub Pages, which also provides SSL via Let's Encrypt. Before I bought the domain I was using https://opinionatedguide.github.io which was free, and… that's it. That's the entire cost to me for this website, the under \$20/yr for the domain. That cost gets entirely covered by generous supporters of the OpGuides project. {{< vale >}}*However*{{< /vale >}}, if you're running a commercial website (and so can't use GitHub Pages), need to send lots of data (Videos, big downloads), or need deeper control of the server (PHP code, extra servers like games or torrenting) the cost will go up. As I stated at the top of the page, it's a big {{< vale >}}'ol{{< /vale >}} **"it depends"**
+OpGuides costs me a little $20/yr for the domain name, and I host the site with GitHub Pages, which also provides SSL via Let's Encrypt. Before I bought the domain I was using https://opinionatedguide.github.io which was free, and… that's it. That's the entire cost to me for this website, the under \$20/yr for the domain. That cost gets entirely covered by generous supporters of the OpGuides project. *However*, if you're running a commercial website (and so can't use GitHub Pages), need to send lots of data (Videos, big downloads), or need deeper control of the server (PHP code, extra servers like games or torrenting) the cost will go up. As I stated at the top of the page, it's a big 'ol **"it depends"**

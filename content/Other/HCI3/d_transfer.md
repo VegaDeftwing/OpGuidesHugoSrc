@@ -42,3 +42,5 @@ But we can do better. With tools like [ipfs](https://ipfs.io) or ~~[cjdns](https
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/SrA7XTDCtok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ↑ Note, this video has a part 2: [Decentralize 02 / VoluntaryNet: The Digital Public Square](https://www.youtube.com/watch?v=URoRVFfoGMg)
+
+[NEXT PAGE](/other/hci3/d_presentation)

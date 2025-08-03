@@ -129,7 +129,7 @@ Unfortunately, when you do get here, the first response to anyone trying to teac
 
 Break.👏The.👏Problem.👏Down.👏
 
-If you want to make a video game, you can't just will it into existence by throwing code at a wall. You need to break the problem down. Maybe you need an inventory system? What would that look like? Does it need to handle stacking items? What attributes do items need to have? Number of uses? Edible? Tradable? Rarity? Do they need to each have a picture, name, and description? Well, before you write any code, you should be thinking about the structure of the thing you want to make. Eventually, when it's broken down enough, you'll realize you can represent those things via math and data. 
+If you want to make a video game, you can't just will it into existence by throwing code at a wall. You need to break the problem down. Maybe you need an inventory system? What would that look like? Does it need to handle stacking items? What attributes do items need to have? Number of uses? Edible? Trade-able? Rarity? Do they need to each have a picture, name, and description? Well, before you write any code, you should be thinking about the structure of the thing you want to make. Eventually, when it's broken down enough, you'll realize you can represent those things via math and data. 
 
 You'll often hear good programmers say a good data structure with bad code is still a hundred times better good code with a bad data structure. This is really a reflection of the above. When you break the problem down, you need to really understand what attributes each thing has, what they "belong" to, what valid values are (as in, are there some values that conflict), etc.
 

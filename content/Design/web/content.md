@@ -14,9 +14,9 @@ That said, there are some tips that I've found useful for making better content 
 
    * If you're writing about something, it's probably because you care about it, but you may think that others don't follow everything you're saying 
 
-     > {{< vale >}}"Ohh, I'd love to mention {{< spoiler >}}how the QMK keyboard firmware lets you set up multiple unicode layers{{< /spoiler >}} but most people have no idea about {{< spoiler >}}mechanical keyboards, let alone Unicode or the QMK firmware{{< /spoiler >}} so I need to cover that first…"{{< /vale >}}
+     > "Ohh, I'd love to mention {{< spoiler >}}how the QMK keyboard firmware lets you set up multiple unicode layers{{< /spoiler >}} but most people have no idea about {{< spoiler >}}mechanical keyboards, let alone Unicode or the QMK firmware{{< /spoiler >}} so I need to cover that first…"
 
-     **BE YOURSELF**. If you think it's cool, others will enjoy your passion - even if they {{< vale >}}only{{< /vale >}} follow half of what you're saying. If nothing else, put something in to interrupt the flow of the rest of the page, like how I have my little speech bubbles and footnotes <footnote>Hello!</footnote>
+     **BE YOURSELF**. If you think it's cool, others will enjoy your passion - even if they only follow half of what you're saying. If nothing else, put something in to interrupt the flow of the rest of the page, like how I have my little speech bubbles and footnotes <footnote>Hello!</footnote>
 
      {{< speech >}}Hi there!{{< /speech >}}
      
@@ -44,4 +44,4 @@ That said, there are some tips that I've found useful for making better content 
 4. Balance consumption with creation
 
    * Inspiration is incredibly valuable
-   * Despite everything, a good, actual text book (paper or screen) tends to provide more food for thought than any other medium
+   * Despite everything, a good, actual textbook (paper or screen) tends to provide more food for thought than any other medium

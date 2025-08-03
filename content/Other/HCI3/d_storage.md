@@ -139,3 +139,5 @@ https://www.monperrus.net/martin/store-data-paper
 -- 
 
 Note about crypto-based cloud storage being BS
+
+[NEXT PAGE](/other/hci3/d_transfer)

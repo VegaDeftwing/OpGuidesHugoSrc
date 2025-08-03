@@ -62,7 +62,7 @@ https://linuxjourney.com
 
 ---
 
-## Youtube
+## YouTube
 
 {{< columns >}}
 
@@ -227,7 +227,7 @@ https://relevant.community/relevant/top
 | IP Tools      |                                                              |                 |
 | Intrace       |                                                              |                 |
 | zANTI         |                                                              |                 |
-| Wifi Analyzer |                                                              |                 |
+| WiFi Analyzer |                                                              |                 |
 
 # Articles and Ramblings I Want To Feature But Have Nowhere Else to Put:
 

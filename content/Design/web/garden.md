@@ -18,7 +18,7 @@ I just said you'd need to learn a bunch to do this, so, why bother?
 
    … and (typically) cost more
 
-   {{< smalltext >}}\* I will however concede that they're nice if you want to have a store front!{{< /smalltext >}}
+   {{< smalltext >}}\* I will however concede that they're nice if you want to have a storefront!{{< /smalltext >}}
 
 But, that's just reasons to *not* use those things, why do you actually want to do this?
 
@@ -38,7 +38,7 @@ But, that's just reasons to *not* use those things, why do you actually want to 
 
 5. It can be nice for organization, like I have for myself with OpGuides
 
-   {{< speech big>}} I wouldn't use a website like this one as my {{< vale >}}**only**{{< /vale >}} organizational tool though! Things like [Masterplan](https://solarlune.itch.io/masterplan), [Notion](https://www.notion.so), and [Obsidian](https://obsidian.md) all do that a bit better.{{< /speech >}}
+   {{< speech big>}} I wouldn't use a website like this one as my **only** organizational tool though! Things like [Masterplan](https://solarlune.itch.io/masterplan), [Notion](https://www.notion.so), and [Obsidian](https://obsidian.md) all do that a bit better.{{< /speech >}}
 
 <style>
 @import url("//fonts.googleapis.com/css?family=Pacifico&text=Pure");

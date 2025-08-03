@@ -77,7 +77,7 @@ Speaking of both Federation and ActivityPub, usually the IndieWeb will also get 
 
 Some time has passed since this page was written initial. Currently<footnote>July 20025</footnote> it's still the dominating protocol, but Bluesky and a few other application are using the [AT Protocol](https://en.wikipedia.org/wiki/AT_Protocol).
 
-There's a good amount of technical differences, but (at risk if annoying those that know better) you can hand-wavily say they're roughtly the same thing.
+There's a good amount of technical differences, but (at risk if annoying those that know better) you can hand-wavily say they're roughly the same thing.
 
 {{< /speech >}}
 

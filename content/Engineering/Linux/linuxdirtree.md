@@ -20,7 +20,7 @@ And honestly, yeah. But first, lets talk about what we just did.
 
 ## Permissions
 
-if you run `ls` it normally shows you the all the folders, shortcuts, and files in a directory, except it excludes any hidden files. In linux you can make a file or folder hidden simply by naming the folder with a '.' at the beginning, so naming a folder `.nsfw` will mark it has hidden. Hidden doesn't really mean much though as most file managers allow you to view hidden files/folders by checking a box, and in this case, we can see hidden items by using the -a flag for ls. running `man ls` you'll see the -a flag just stands for 'all' and does exactly what I've said.
+if you run `ls` it normally shows you the all the folders, shortcuts, and files in a directory, except it excludes any hidden files. In Linux you can make a file or folder hidden simply by naming the folder with a '.' at the beginning, so naming a folder `.nsfw` will mark it has hidden. Hidden doesn't really mean much though as most file managers allow you to view hidden files/folders by checking a box, and in this case, we can see hidden items by using the -a flag for ls. running `man ls` you'll see the -a flag just stands for 'all' and does exactly what I've said.
 
 further down you'll see the '-l' flag gives a "long listing format" which is an almost impressively bad description. This means that on each listing will be displayed like this:
 
@@ -143,7 +143,7 @@ crw-------   1 root root       5,   1 Feb  8 06:03 console
 lrwxrwxrwx   1 root root           11 Feb  8 06:02 core -> /proc/kcore
 ```
 
-'ashmem' is something that is on my system as a part of a project with the end goal of running android apps natively on linux called 'anbox' it's still in early development, and is very difficult to run on arch
+'ashmem' is something that is on my system as a part of a project with the end goal of running android apps natively on Linux called 'anbox' it's still in early development, and is very difficult to run on arch
 
 'autofs' is a configurable system for mounting and unmounting storage as it is used
 
@@ -571,14 +571,14 @@ Some of the more interesting things in `/etc` are:
 * `/conf.d/` -- various system default config files for system services
 * `/cron.d/`,`/cron.daily/`,`/cron.hourly/`, etc. are all form the `cronie` package which can be installed then enabled with systemd. Note, systemd timers are a built in way to do the same thing. cron is the 'old' way of doing thing, but is super simple to use
 * `/crypttab` is the similar to `/fstab` but for encrypted partitions
-* `/cups` is a folder used by `cups`, which is the backend used for printers in linux
-* `/dbus-1/` is used by `dbus` which is a backend for interprocess communication in linux
+* `/cups` is a folder used by `cups`, which is the backend used for printers in Linux
+* `/dbus-1/` is used by `dbus` which is a backend for interprocess communication in Linux
 * `/dconf/` is a folder used by `dconf` wich is used to store config settings. `dconf` is a cli tool for changing these settings
 * `/gconf/` -- `gconf` is very similar to dconf but outdated. Still used by somethings though.
 * `/dnsmasq.conf` is used by `dnsmasq`, which will be discussed in networking [TODO]
 * `/default/` stores default configuration files, typically these get overriden elsewhere by the user
 * `/dhcp_fingerprint.conf`,`/dhcpcd.conf`,`/dhcpd.conf`, and `/ducpd6.conf` are all part of `dhcpcd` and `dhcp`, used for reciveing DHCP information. This is dicussed further in the networking chapter [TODO]
-* `/dkms/framework.conf` is used to configure `dkms` or Dynamic Kernel Module Support which is used to load modules for the kernel without building the kernel from source. In practice this means drivers for various hardware can be loaded even if it's not in the linux source tree. Read more here: https://www.linuxjournal.com/article/6896
+* `/dkms/framework.conf` is used to configure `dkms` or Dynamic Kernel Module Support which is used to load modules for the kernel without building the kernel from source. In practice this means drivers for various hardware can be loaded even if it's not in the Linux source tree. Read more here: https://www.linuxjournal.com/article/6896
 * `/envrioment` is a configarating file for pam_env files. Basically, enviroment variables that you want to be loaded at boot can be put here. For example to change the defalut editor used by command line programs you can set `EDITOR=vim` or `EDITOR=nano` or whatever you like here.
 * `/ethertypes` is a file listing various ethernet protolcols, we'll come back to this in the networking chapter [TODO]
 * `/exports` is used to setup NFS shares, again, in networking [TODO]

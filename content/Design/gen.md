@@ -10,7 +10,7 @@ AI tools, and to a lesser extend non-AI based generative art tools, have been co
 
 * How can artists can prove they drew a piece instead of using an AI tool?
 
-  One solution to this is to post a each piece with a WIP from earlier in the process or a time lapse of the creation process. This is something a lot of viewers already appreciate anyway, and, depending on your workflow, may be low effort.
+  One solution to this is to post each piece with a WIP from earlier in the process or a time lapse of the creation process. This is something a lot of viewers already appreciate anyway, and, depending on your workflow, may be low effort.
 
 {{< /tip >}}
 
@@ -36,7 +36,7 @@ This page is almost entirely devoid of actual educational content. Instead, I've
 
 {{< tip >}}
 
-You may notice this page lacks AI generative art tools such as DALL·E 2, Midjourney, & Stable Diffusion. This isn't because they're not interesting, it's because the space is {{< vale >}}[rapidly evolving](https://the-decoder.com/nvidias-ediffi-is-an-impressive-alternative-to-dall-e-or-stable-diffusion/){{< /vale >}} and I don't want to maintain constantly changing lists!</br></br>If you're totally new to AI Art, see [Stable Diffusion is a really big deal](https://simonwillison.net/2022/Aug/29/stable-diffusion/) by [@simonw](https://twitter.com/simonw) but even that is getting old now as new features and extensions come out, like the ability to pose characters in the scene.
+You may notice this page lacks AI generative art tools such as DALL·E 2, Midjourney, & Stable Diffusion. This isn't because they're not interesting, it's because the space is [rapidly evolving](https://the-decoder.com/nvidias-ediffi-is-an-impressive-alternative-to-dall-e-or-stable-diffusion/) and I don't want to maintain constantly changing lists!</br></br>If you're totally new to AI Art, see [Stable Diffusion is a really big deal](https://simonwillison.net/2022/Aug/29/stable-diffusion/) by [@simonw](https://twitter.com/simonw) but even that is getting old now as new features and extensions come out, like the ability to pose characters in the scene.
 
 {{< /tip >}}
 
@@ -50,7 +50,7 @@ If you're interested in generative music and sounds as well, you may want to che
 
 {{< columns2 >}}
 
-{{< vale >}}[roberthodgin - meander](http://roberthodgin.com/project/meander){{< /vale >}}
+[roberthodgin - meander](http://roberthodgin.com/project/meander)
 
 <--->
 
@@ -96,7 +96,7 @@ A tool for building custom maps, envisioned for use in tabletop roleplaying game
 
 <--->
 
-{{< vale >}}"Dungeon Map Doodler is a new, free to use drawing tool accessible from any web browser. Easily create maps for your favourite tabletop RPGs in minutes!"{{< /vale >}}
+"Dungeon Map Doodler is a new, free to use drawing tool accessible from any web browser. Easily create maps for your favourite tabletop RPGs in minutes!"
 
 <--->
 
@@ -152,7 +152,7 @@ make a map with tons of customization options including some about the culture a
 
 <--->
 
-Make a {{< vale >}}lil'{{< /vale >}} solar system
+Make a lil' solar system
 
 <--->
 
@@ -264,7 +264,7 @@ Import real map data into blender, cool for topographic maps and such
 
 <--->
 
-{{< vale >}}"LDtk is a modern and open-source 2D level editor, specifically designed for indie devs."{{< /vale >}}
+"LDtk is a modern and open-source 2D level editor, specifically designed for indie devs."
 
 <--->
 
@@ -411,17 +411,17 @@ Use this tool to create unique, seamless, royalty-free patterns.</br>Choose a ba
 
 <--->
 
-Noisedeck is a generative art synth. Still in {{< vale >}}early{{< /vale >}} development. Some features require a license.
+Noisedeck is a generative art synth. Still in early development. Some features require a license.
 
 <iframe width="100%" height="200" src="https://www.youtube.com/embed/pKlowAvANMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <--->
 
-{{< vale >}}
+
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Five months ago, we had an idea for a simple app to make generative art accessible to everyone. It&#39;s rapidly matured into a remarkable app, and found its way into the workflow of a small (but growing!) base of talented creators.<br><br>Thank you! We&#39;re excited about what&#39;s next. ✨ <a href="https://t.co/7KpkFNjv99">pic.twitter.com/7KpkFNjv99</a></p>&mdash; noisedeck (@noisedeck) <a href="https://twitter.com/noisedeck/status/1378936586138759169?ref_src=twsrc%5Etfw">April 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-{{< /vale >}}
+
 
 [Archive.org link to the embedded tweet](https://web.archive.org/web/20210405050500/https://twitter.com/noisedeck/status/1378936586138759169)
 
@@ -479,7 +479,7 @@ Convert your ASCII diagram scribbles into happy little SVG
 
 <--->
 
-Test different {{< vale >}}penrose{{< /vale >}} tilings. If you edit the HTML you increase the slider limits.
+Test different penrose tilings. If you edit the HTML you increase the slider limits.
 
 <--->
 
@@ -704,7 +704,7 @@ JS library for visualization & creative coding
 {{< /best >}}
 
 <--->
-{{< vale >}}"Set of tools for livecoding networked visuals. Inspired by analog modular synthesizers, these tools are an exploration into using streaming over the web for routing video sources and outputs in realtime. Hydra uses multiple framebuffers to allow dynamically mixing, compositing, and collaborating between connected browser-visual-streams. Coordinate and color transforms can be applied to each output via chained functions."{{< /vale >}}
+"Set of tools for livecoding networked visuals. Inspired by analog modular synthesizers, these tools are an exploration into using streaming over the web for routing video sources and outputs in realtime. Hydra uses multiple framebuffers to allow dynamically mixing, compositing, and collaborating between connected browser-visual-streams. Coordinate and color transforms can be applied to each output via chained functions."
 <--->
 ![](/design/hydraexample.webp)
 {{< /columns2 >}}
@@ -712,7 +712,7 @@ JS library for visualization & creative coding
 {{< columns2 >}}
 [LiveCodeLab](https://livecodelab.net)
 <--->
-{{< vale >}}"Livecodelab is a special secret place where you can make fancy "on-the-fly" 3d visuals and play awesomely offbeat (literally) sounds. "On-the-fly" meaning: as you type. Type just three letters: "box", and boom! a box appears. No clicking play, no waiting, no nothing."{{< /vale >}}
+"Livecodelab is a special secret place where you can make fancy "on-the-fly" 3d visuals and play awesomely offbeat (literally) sounds. "On-the-fly" meaning: as you type. Type just three letters: "box", and boom! a box appears. No clicking play, no waiting, no nothing."
 <--->
 ![](https://livecodelab.net/images/screenshots/ScreenShot7.png)
 {{< /columns2 >}}
@@ -736,7 +736,7 @@ JS library for visualization & creative coding
 {{< columns2 >}}
 [Ronin](https://github.com/hundredrabbits/Ronin)
 <--->
-{{< vale >}}"Ronin is a procedural graphics tool designed to automate simple graphical tasks, like resizing, cropping, coloring, and generating algorithmic images. It interprets a minimal dialect of LISP, look at the examples to better understand how this all works."{{< /vale >}}
+"Ronin is a procedural graphics tool designed to automate simple graphical tasks, like resizing, cropping, coloring, and generating algorithmic images. It interprets a minimal dialect of LISP, look at the examples to better understand how this all works."
 
 <--->
 
@@ -771,7 +771,7 @@ Realtime GPU shader editor
 {{< columns2 >}}
 [Cables.gl (beta)](https://cables.gl)
 <--->
-{{< vale >}}"Cables is a tool for creating beautiful interactive content. With an easy to navigate interface and real time visuals, it allows for rapid prototyping and fast adjustments." --- Because this seems to be so 'beta' and I don't see code or any indication of future pricing it's probably not the best option at the moment.{{< /vale >}}
+"Cables is a tool for creating beautiful interactive content. With an easy to navigate interface and real time visuals, it allows for rapid prototyping and fast adjustments." --- Because this seems to be so 'beta' and I don't see code or any indication of future pricing it's probably not the best option at the moment.
 <--->
 ![](https://cables.gl/landing/ui.mp4.gif)
 {{< /columns2 >}}
@@ -787,7 +787,7 @@ Realtime GPU shader editor
 {{< columns2 >}}
 [vvvv](https://vvvv.org) - Heads up vvvv requires a license for commercial use that is rather expensive
 <--->
-{{< vale >}}"vvvv is a hybrid visual/textual live-programming environment for easy prototyping and development. It is designed to facilitate the handling of large media environments with physical interfaces, real-time motion graphics, audio and video that can interact with many users simultaneously."{{< /vale >}}
+"vvvv is a hybrid visual/textual live-programming environment for easy prototyping and development. It is designed to facilitate the handling of large media environments with physical interfaces, real-time motion graphics, audio and video that can interact with many users simultaneously."
 <--->
 ![vvvv](https://vvvv.org/sites/default/files/imagecache/large/images/vvvv_Propaganda_NEU_00_1.png)
 {{< /columns2 >}}
@@ -812,7 +812,7 @@ Realtime GPU shader editor
 {{< columns2 >}}
 [Cyril](https://github.com/cyrilcode/cyril) [(Main site)](http://cyrilcode.com)
 <--->
-{{< vale >}}"The Cyril programming language is designed for fast prototyping of visualisations and live coding visuals."{{< /vale >}}
+"The Cyril programming language is designed for fast prototyping of visualisations and live coding visuals."
 <--->
 ![](https://miro.medium.com/max/1400/1*4SaWjEs62NUN_Ti-FU_Iwg.png)
 {{< /columns2 >}}
@@ -861,7 +861,7 @@ This site is weird? It seems to be embedding Vimeo videos of static images, rega
 {{< columns2 >}}
 [three.js](https://threejs.org)                             
 <--->
-{{< vale >}}"Three.js is a lightweight cross-browser JavaScript library/API used to create and display animated 3D computer graphics on a Web browser. Three.js scripts may be used in conjunction with the HTML5 canvas element, SVG or WebGL."{{< /vale >}}
+"Three.js is a lightweight cross-browser JavaScript library/API used to create and display animated 3D computer graphics on a Web browser. Three.js scripts may be used in conjunction with the HTML5 canvas element, SVG or WebGL."
 <--->
 [Three.js examples from Free Frontend](https://freefrontend.com/three-js-examples/) and [on the Three.js site itself](https://threejs.org/examples/)
 {{< /columns2 >}}
@@ -885,7 +885,7 @@ Move your mouse over the image on the homepage
 {{< columns2 >}}
 [rough.js](https://roughjs.com)                             
 <--->
-{{< vale >}}"A small (<9kB gzipped) graphics library that lets you draw in a *sketchy*, *hand-drawn-like*, style."{{< /vale >}}
+"A small (<9kB gzipped) graphics library that lets you draw in a *sketchy*, *hand-drawn-like*, style."
 <--->
 ![roughjs example](https://roughjs.com/images/cap.png)
 {{< /columns2 >}}
@@ -901,7 +901,7 @@ Move your mouse over the image on the homepage
 {{< columns2 >}}
 [OpenFrameworks](https://openframeworks.cc)                 
 <--->
-{{< vale >}}"openFrameworks is an open source C++ toolkit for creative coding."{{< /vale >}}
+"openFrameworks is an open source C++ toolkit for creative coding."
 <--->
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/74124094" width="100%" height="150" frameborder="0" allowfullscreen></iframe>
@@ -910,7 +910,7 @@ Move your mouse over the image on the homepage
 {{< columns2 >}}
 [OPENRNDR](https://openrndr.org)                            
 <--->
-{{< vale >}}"In short, OPENRNDR is a tool to create tools. It is an open source framework for creative coding, written in Kotlin for the Java VM that simplifies writing real-time interactive software"{{< /vale >}}
+"In short, OPENRNDR is a tool to create tools. It is an open source framework for creative coding, written in Kotlin for the Java VM that simplifies writing real-time interactive software"
 <--->
 plenty of examples on the site
 {{< /columns2 >}}
@@ -926,9 +926,9 @@ plenty of examples on the site                              |
 {{< columns2 >}}
 [Context Free](https://www.contextfreeart.org)              
 <--->
-{{< vale >}}"Context Free is a program that generates images from written instructions called a grammar. The program follows the instructions in a few seconds to create images that can contain millions of shapes."{{< /vale >}}
+"Context Free is a program that generates images from written instructions called a grammar. The program follows the instructions in a few seconds to create images that can contain millions of shapes."
 <--->
-![](https://glyphic.s3.amazonaws.com/cfa/gallery/uploads/81/0d/810d02128464264536b6e3b71bff7332//full_3498.jpg?5)<img alt="creative commons icon" src="https://i.creativecommons.org/l/by-nc-sa/3.0//88x31.png" style="image-rendering: pixelated;"> {{< vale >}}**Agneya** by **thijs**](https://www.contextfreeart.org/gallery/search.php?by=thijs){{< /vale >}}
+![](https://glyphic.s3.amazonaws.com/cfa/gallery/uploads/81/0d/810d02128464264536b6e3b71bff7332//full_3498.jpg?5)<img alt="creative commons icon" src="https://i.creativecommons.org/l/by-nc-sa/3.0//88x31.png" style="image-rendering: pixelated;"> **Agneya** by **thijs**](https://www.contextfreeart.org/gallery/search.php?by=thijs)
 {{< /columns2 >}}
 
 {{< columns2 >}}
@@ -944,13 +944,13 @@ a creative coding frame work for Rust, you may want to look at the work by [MacT
 <--->
 Another creative coding framework for Rust
 <--->
-![](https://gblobscdn.gitbook.com/assets%2F-Lw1VWDRh9_wPSAWr8kv%2F-M51LUdWgcmABW_iSJDI%2F-M51LaXRFO0JLuIVbJfo%2Fimage.png?alt=media&token=1e4f8e4b-da2e-4dc3-af67-61d1d0d15fe7)[curtain](https://paytonturnage.gitbook.io/valora/gallery) by {{< vale >}}turnage, 2020{{< /vale >}}
+![](https://gblobscdn.gitbook.com/assets%2F-Lw1VWDRh9_wPSAWr8kv%2F-M51LUdWgcmABW_iSJDI%2F-M51LaXRFO0JLuIVbJfo%2Fimage.png?alt=media&token=1e4f8e4b-da2e-4dc3-af67-61d1d0d15fe7)[curtain](https://paytonturnage.gitbook.io/valora/gallery) by turnage, 2020
 {{< /columns2 >}}
 
 {{< columns2 >}}
 [immense](https://github.com/turnage/immense)               
 <--->
-A Rust library for describing 3D meshes with simple {{< vale >}}composable{{< /vale >}} rules. 
+A Rust library for describing 3D meshes with simple composable rules. 
 
 ```rust
 rule![
@@ -1104,7 +1104,7 @@ Same vibe as Waifu-2x, but a different model. Tends to perform a tiny bit better
 {{< columns2 >}}
 [Drain-App](https://grisk.itch.io/dain-app)                  
 <--->
-Dain-App is a free app that let you take any form of media like movies, stop-motion, anime, cartoons, sprites, etc and interpolate new frames, generating a bigger frame-rate from the original file. {{< vale >}}**NOTE: drain-app only runs on systems with an NVDIA GPU**{{< /vale >}}
+Dain-App is a free app that let you take any form of media like movies, stop-motion, anime, cartoons, sprites, etc and interpolate new frames, generating a bigger frame-rate from the original file. **NOTE: drain-app only runs on systems with an NVDIA GPU**
 <--->
 {{< /columns2 >}}
 
@@ -1113,7 +1113,7 @@ Dain-App is a free app that let you take any form of media like movies, stop-mot
 <--->
 "[…]. Based on this observation, we design an algorithm to both estimate the density of strokes in a digital painting using color geometry, and then generate novel lighting effects by mimicking artists' coarse-to-fine workflow."
 <--->
-![](https://lllyasviel.github.io/PaintingLight/index_files/paintlight_title.jpg) artwork traced by ToS2P from an artwork by {{< vale >}}David Revoy{{< /vale >}} under CC-BY license, www.peppercarrot.com
+![](https://lllyasviel.github.io/PaintingLight/index_files/paintlight_title.jpg) artwork traced by ToS2P from an artwork by David Revoy under CC-BY license, www.peppercarrot.com
 {{< /columns2 >}}
 
 {{< columns2 >}}
@@ -1127,7 +1127,7 @@ convert 'normal' art into pixel art
 {{< columns2 >}}
 [Picbreeder](http://picbreeder.org)                          
 <--->
-{{< vale >}}"Picbreeder is a collaborative art application based on an idea called *evolutionary art*, which is a technique that allows pictures to be bred almost like animals. For example, you can evolve a butterfly into a bat by selecting parents that look like bats"{{< /vale >}}
+"Picbreeder is a collaborative art application based on an idea called *evolutionary art*, which is a technique that allows pictures to be bred almost like animals. For example, you can evolve a butterfly into a bat by selecting parents that look like bats"
 <--->
 {{< /columns2 >}}
 
@@ -1149,7 +1149,7 @@ See the <a href="/engineering/making/3dprint/">3D Printing & CNC</a> page from t
 
 ---
 
-{{< vale >}}[vpype](https://github.com/abey79/vpype) - aims to be the one-stop-shop, Swiss Army knife for producing plotter-ready vector graphics. Here are, for illustration, a few examples of what it can do:{{< /vale >}}
+[vpype](https://github.com/abey79/vpype) - aims to be the one-stop-shop, Swiss Army knife for producing plotter-ready vector graphics. Here are, for illustration, a few examples of what it can do:
 
 {{< /details >}}
 
@@ -1161,7 +1161,7 @@ https://kroki.io
 
 <--->
 
-{{< vale >}}"Kroki provides a unified API with support for BlockDiag (BlockDiag, SeqDiag, ActDiag, NwDiag, PacketDiag, RackDiag), BPMN, Bytefield, C4 (with PlantUML), Ditaa, Erd, Excalidraw, GraphViz, Mermaid, Nomnoml, Pikchr, PlantUML, SvgBob, UMLet, Vega, Vega-Lite, WaveDrom… and more to come!"{{< /vale >}}
+"Kroki provides a unified API with support for BlockDiag (BlockDiag, SeqDiag, ActDiag, NwDiag, PacketDiag, RackDiag), BPMN, Bytefield, C4 (with PlantUML), Ditaa, Erd, Excalidraw, GraphViz, Mermaid, Nomnoml, Pikchr, PlantUML, SvgBob, UMLet, Vega, Vega-Lite, WaveDrom… and more to come!"
 
 <--->
 
@@ -1355,7 +1355,7 @@ Graphviz editor
 
 {{< katex >}}\LaTeX \text{?}{{< /katex >}}
 
-If you're looking at this list, there's a good chance you're either writing up technical documentation or working on an academic paper, and so using LaTeX. First, I feel your pain. Second,  [This DSPTricksManual](https://ctan.math.illinois.edu/graphics/pstricks/contrib/dsptricks/dspTricksManual.pdf) from {{< vale >}}Paolo Prandoni{{< /vale >}} may help with some graphing, as may the [Tikz Examples](https://texample.net/tikz/examples/) on texample.net. There's decent [Circuit](https://texample.net/tikz/examples/tag/circuitikz/) and [Block Diagram](https://texample.net/tikz/examples/tag/circuitikz/) examples, though I do still think loading in a picture from an external tool is probably in your best interest due to the PITA that is doing this in plain LaTeX.
+If you're looking at this list, there's a good chance you're either writing up technical documentation or working on an academic paper, and so using LaTeX. First, I feel your pain. Second,  [This DSPTricksManual](https://ctan.math.illinois.edu/graphics/pstricks/contrib/dsptricks/dspTricksManual.pdf) from Paolo Prandoni may help with some graphing, as may the [Tikz Examples](https://texample.net/tikz/examples/) on texample.net. There's decent [Circuit](https://texample.net/tikz/examples/tag/circuitikz/) and [Block Diagram](https://texample.net/tikz/examples/tag/circuitikz/) examples, though I do still think loading in a picture from an external tool is probably in your best interest due to the PITA that is doing this in plain LaTeX.
 
 {{< /details >}}
 
@@ -1403,7 +1403,7 @@ There's a LOT more tools listed in the music chapters, but there's some more 'fo
 
 {{< /tip >}}
 
-{{< vale >}}[rFXGen](https://raylibtech.itch.io/rfxgen){{< /vale >}}
+[rFXGen](https://raylibtech.itch.io/rfxgen)
 
 ## Resources to learn Creative Coding
 

@@ -56,7 +56,7 @@ I'm going to keep this exceptionally brief, but to be a good hacker/engineer/mak
 
 * Keep friendships
 
-* Have hobies that aren't engineering-y
+* Have hobbies that aren't engineering-y
   * And don't force them all of them to be engineering-y. If you spend more time getting it to work in Linux than actually enjoying it, Linux is your hobby. Get a hobby that's not Linux.
 
 <--->
@@ -65,9 +65,9 @@ I'm going to keep this exceptionally brief, but to be a good hacker/engineer/mak
 
 {{< columns >}}
 
-* Limit caffine intake
+* Limit caffeine intake
 
-* Brush yo' fuckin' teath
+* Brush yo' fuckin' teeth
 
 * Actually walk around a park and get fresh air
 

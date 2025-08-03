@@ -184,7 +184,7 @@ not really threading, but process children
 
 ## SIMD
 
-[TODO] Compiler options, using intinsics, pragmas, etc.
+[TODO] Compiler options, using intrinsics, pragmas, etc.
 
 
 

@@ -4,7 +4,7 @@
 
 <!--TODO: This page is fine but could use a more gental introduction. I just throw the reader to the wolves as is.-->
 
-{{< vale >}}**H**yper**T**ext **M**arkup **L**anguage{{< /vale >}} is the one thing on this list I suspect everyone reading this page has at least a smidgen of familiarity with.
+**H**yper**T**ext **M**arkup **L**anguage is the one thing on this list I suspect everyone reading this page has at least a smidgen of familiarity with.
 
 To write HTML you'll be working with a bunch of HTML **tags**. Tags are these point-bracketed enclosed words that mean something special to the browser, let's actually make a HTML file right now to get started. Go ahead and open any plain text editor <footnote>Note, this means <b>NOT</b> Microsoft Word, but Notepad will work. If you want, now is a good time to grab https://code.visualstudio.com</footnote>, and make a new file and name it whatever you want, just make sure to end it in `.html`
 

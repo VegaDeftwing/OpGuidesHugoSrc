@@ -14,7 +14,7 @@ This page is nearly entirely Twitter embeds. If you have something in your brows
 
 {{< columns >}}
 
-{{< vale >}}
+
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Added a lot of minor improvements, like camera limits, subtle lighting, dust particles and more <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://twitter.com/hashtag/pixelart?src=hash&amp;ref_src=twsrc%5Etfw">#pixelart</a> <a href="https://twitter.com/hashtag/screenshotsaturday?src=hash&amp;ref_src=twsrc%5Etfw">#screenshotsaturday</a> <a href="https://t.co/KmSYW3iHml">pic.twitter.com/KmSYW3iHml</a></p>&mdash; Luis Moreno Jimenez (@more8bit) <a href="https://twitter.com/more8bit/status/904107654196469761?ref_src=twsrc%5Etfw">September 2, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -83,4 +83,3 @@ This page is nearly entirely Twitter embeds. If you have something in your brows
 
 {{< /columns >}}
 
-{{< /vale >}}

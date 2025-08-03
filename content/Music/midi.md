@@ -223,7 +223,7 @@ Unfortunately, NRPN support is super fucked up and support for it varies pretty 
 | 8 or 10 (+40 or 42) | Pan                                 | 0=Left, 127=Right, 64=Center                                 |
 | 64                  | Sustain Pedal                       | When high (>64) hold all notes played until the CC goes low. Usually a pedal for piano |
 | 65, 66, 67, 68      | Portamento, Sostenuto, Soft, Legato | These CC's aren't often supported, but provide the other pedal controls that some MIDI keyboards will have as foot pedals. **Very few VSTs will respond to these correctly.** |
-| 120                 | Mute                                | Channel Mute, but sometimes acts as master mute, depends on implimentation |
+| 120                 | Mute                                | Channel Mute, but sometimes acts as master mute, depends on implementation |
 | 123                 | All Off                             | Force all MIDI notes OFF, not always supported               |
 
 You'll notice that all the extra resolution CC's (these provide the LSB) are exactly 32 higher than the original. In fact, depending on the software you may be able to corolate any of the first 32 CCs to there +32 counterpart, 1 with 33, 2 with 34, and so on. Again, this is all relatively uncommon, but you should be aware of it.
@@ -238,7 +238,7 @@ MIDI CC's are, typically, a one-way communication. For *most* controllers, this 
 
 In the above table, the Sustain on CC 64 is listed. This CC is particularly important as when it's high, notes will continue to play as if the note off message never happened until it is let go. This is really fun to play with.
 
-If you're using a pino VST, there's at least a small chance that CC's 65-68 will work as intended to emulate the other pedals on a real piano as well.
+If you're using a piano VST, there's at least a small chance that CC's 65-68 will work as intended to emulate the other pedals on a real piano as well.
 
 Sometimes the sustain CC is used as a control that is assumed to be on a pedal and would only be wanted as a momentary action, such as a repeated striking of the note or enabling a very heavy effect. This is relatively common in music plugins that emulate other instruments. For example, in a guitar emulation, the sustain pedal may act as a palm mute switch instead.
 

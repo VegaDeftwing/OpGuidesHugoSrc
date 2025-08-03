@@ -60,13 +60,13 @@ While this divides it in half each way, we could adjust the values to get differ
 
 This isn't the most efficient or by-any-means the best way to get a lower voltage, but it does work, and in some applications is a perfectly reasonable solution.
 
-## Voltage, Ground, and the Volt Meter
+## Voltage, Ground, and the VoltMeter
 
 Voltage can be thought of as the 'pressure' in a hose. (And a battery the pump)
 
 However, this pressure is relative to another point, the point we usually take reference to is called 'ground', though this doesn't have to be the case- you can measure the voltage across a single resistor or other component too. 
 
-Just remember, measuring the voltage with both probes at a point or along the same wire doesn't make sense because a volt meter only tells you the voltage difference between two points. This would be like seeing the pressure difference in hose between two nearby points, obviously the pressure of one point minus the other will be 0.
+Just remember, measuring the voltage with both probes at a point or along the same wire doesn't make sense because a voltmeter only tells you the voltage difference between two points. This would be like seeing the pressure difference in hose between two nearby points, obviously the pressure of one point minus the other will be 0.
 
 {{< columns >}}
 
@@ -150,7 +150,7 @@ Current, just like voltage, can vary, and in AC circuits usually does. This lead
 
 The continuity tester does exactly what it's name implies, it makes sure two points are connected electrically.
 
- If you have a piece of metal and put both probes on, it should beep, but if you put the probes on rubber, they clearly will not be. The continuity tester isn't really much different from the ohm meter in operation, and many will actually display the resistance if there is any. 
+ If you have a piece of metal and put both probes on, it should beep, but if you put the probes on rubber, they clearly will not be. The continuity tester isn't really much different from the ohmmeter in operation, and many will actually display the resistance if there is any. 
 
 The main use is that it beeps when the resistance is low enough to be confident two points are electrically connected or for checking that two points aren't connected (such as ensuring there's no short between two pins of a small part)
 

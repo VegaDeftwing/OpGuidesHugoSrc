@@ -239,3 +239,5 @@ Put simply, we need easier to use, fine grain authorization settings that can't 
 Newer versions of Android actually do this really well, including the ability to only grant those permissions for that session. This is amazing. It's not *perfect*, far from it. Like, Bluetooth requires location permissions and, unless you're on a rooted phone, there are some permissions the user can't even give. That's a load of shit, but I'll come back to that. 
 
 {{< /columns >}}
+
+[NEXT PAGE](/other/hci3/conclusion)

@@ -1,16 +1,16 @@
-# {{< vale >}}Jack of All Trades{{< /vale >}}
+# Jack of All Trades
 
 You probably noticed the gradient heading this section: that was my warning to you that you're about to walk into something that requires an interesting mixture of design and engineering skills. Making a good website requires a fair understanding of computers, some basic programming skills, and a willingness to dive into some technical topics. There's a good reason most blogging now happens on Medium or Tumblr and that social media has boomed: The barrier to entry is dramatically lower. There's also good reasons to want to make your own website and have your own little digital garden.
 
 Before diving into anything, I want to level with you, teaching web development is hard for two big reasons:
 
-1. **The scope can vary {{< vale >}}wildly{{< /vale >}}**: For a personal blog, you can probably get away with googling enough HTML and CSS snippets to scrape by, never writing any JavaScript. 
+1. **The scope can vary wildly**: For a personal blog, you can probably get away with googling enough HTML and CSS snippets to scrape by, never writing any JavaScript. 
 
-   Going up a step, if you want to make an interactive page or want to add some flair to your site, you'll need some real understanding. But if you want to make full-blow interactive dynamic website, like YouTube or Facebook, that will require *way* more skill. If you're managing user data, you'll need to know about encryption and probably how to manage a database. If you're making something that serves a lot of data you'll need to worry about Content Distribution Networks (CDNs), if the site being down can make customers angry, you'll have to worry about redundancy, backups, DDOS protection, etc. There's a huge variety of hats that you need to wear if you want to single-handedly manage something with a lot of features, extra so if money {{< vale >}}is involved{{< /vale >}}.
+   Going up a step, if you want to make an interactive page or want to add some flair to your site, you'll need some real understanding. But if you want to make full-blow interactive dynamic website, like YouTube or Facebook, that will require *way* more skill. If you're managing user data, you'll need to know about encryption and probably how to manage a database. If you're making something that serves a lot of data you'll need to worry about Content Distribution Networks (CDNs). If the site being down can make customers angry, you'll have to worry about redundancy, backups, DDOS protection, etc. There's a huge variety of hats that you need to wear if you want to single-handedly manage something with a lot of features, extra so if money is involved.
 
-2. **There's just a lot of ground to cover**: {{< vale >}}Multiple{{< /vale >}} languages, how basic networking works, how to make something actually look good on the web, etc. Larger organizations manage these things with different teams of people who don't worry all that much about how the layers above or below them work - designers don't think about networking.
+2. **There's just a lot of ground to cover**: Multiple languages, how basic networking works, how to make something actually look good on the web, etc. Larger organizations manage these things with different teams of people who don't worry all that much about how the layers above or below them work - designers don't think about networking.
 
-**{{< vale >}}So,{{< /vale >}} what will you need to know?**
+**So, what will you need to know?**
 
 ## The Technical Stuff:
 
@@ -64,14 +64,14 @@ text **bold text** more text
 2. **How to write CSS - MODERATE**
 
    * CSS is what stylize your website. CSS is what defines the colors, font sizes, arrangement of content, etc. but, strangely, now sometimes does animations and other complex things.
-   * Sometimes CSS can be pretty hard to work with, with things sometimes [interacting in](http://wtfhtmlcss.com) [weird ways](https://css-tricks.com/css-is-awesome/). Worse, more and more (legitimately useful) features have {{< vale >}}been added{{< /vale >}} to CSS over the years, some of which are now the right way to do things, but are still hard to learn (… fucking [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/))
+   * Sometimes CSS can be pretty hard to work with, with things sometimes [interacting in](http://wtfhtmlcss.com) [weird ways](https://css-tricks.com/css-is-awesome/). Worse, more and more (legitimately useful) features have been added to CSS over the years, some of which are now the right way to do things, but are still hard to learn (… fucking [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/))
    * It's extraordinary difficult to make a website not break when viewed on both a phone and a normal display.
    * You *might* want to use frameworks here, like https://tailwindcss.com, https://www.bonsaicss.com, https://getbootstrap.com, https://picturepan2.github.io/spectre/index.html
    * … and you might want to use something that added extra features to CSS then gets turned back into CSS, the most common of these is [SCSS](https://github.com/sass/sass), but https://lesscss.org is neat too.
 
    Here's a neat example of using CSS to make some nice looking background stars. This example is more complex than anything you'd do as a beginner.
 
-   {{< vale >}}
+   
 
    <p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="BKJun" data-editable="true" data-user="saransh" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
      <span>See the Pen <a href="https://codepen.io/saransh/pen/BKJun">
@@ -80,16 +80,16 @@ text **bold text** more text
    </p>
    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-   {{< /vale >}}
+   
 
-   {{< attribution >}}Code by {{< vale >}}[Saransh Sinha](https://codepen.io/saransh){{< /vale >}}{{< /attribution >}}
+   {{< attribution >}}Code by [Saransh Sinha](https://codepen.io/saransh){{< /attribution >}}
 
 3. How to write JavaScript - IT DEPENDS
 
    * JS is weird in that you will *sometimes* want to use it plain, and work with the language as is but often you'll end up using frameworks (such as React, Angular, Vue) and libraries (Like jQuery, three.js, d3.js)
    * The complexity of the thing you want to do and the libraries you're using will make a big difference here, something like this text reveal effect is simple (Click Rerun in the bottom right corner to see the animation again)
 
-   {{< vale >}}
+   
 
    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="VwwXMOe" data-editable="true" data-user="AliAmmarDev" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
      <span>See the Pen <a href="https://codepen.io/AliAmmarDev/pen/VwwXMOe">
@@ -98,13 +98,13 @@ text **bold text** more text
    </p>
    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-   {{< /vale >}}
+   
 
-   {{< attribution >}}Code by {{< vale >}}[Ali Ammar](https://codepen.io/AliAmmarDev){{< /vale >}}{{< /attribution >}}
+   {{< attribution >}}Code by [Ali Ammar](https://codepen.io/AliAmmarDev){{< /attribution >}}
 
    But something like this is a lot harder 
 
-   {{< vale >}}
+   
 
    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="dyzqdKR" data-editable="true" data-user="Coderesting" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
      <span>See the Pen <a href="https://codepen.io/Coderesting/pen/dyzqdKR">
@@ -113,9 +113,9 @@ text **bold text** more text
    </p>
    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-   {{< /vale >}}
+   
 
-   {{< attribution >}}Code by {{< vale >}}[Yannick Brandt](https://codepen.io/Coderesting){{< /vale >}}{{< /attribution >}}
+   {{< attribution >}}Code by [Yannick Brandt](https://codepen.io/Coderesting){{< /attribution >}}
 
 4. How to setup a domain
 

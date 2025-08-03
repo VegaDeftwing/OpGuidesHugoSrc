@@ -139,7 +139,7 @@ There are a couple reasons:
 * **Accessibility**. Python was designed from the beginning to be easy to learn and read, including for non-programmers.
 * **Features**. Python has most of the features common in other languages. That makes it good for teaching the features in other languages.
 * **Popularity**. There are dozens of tutorials about how to use it to solve any problem you could imagine. Once this guide gets you started, the internet is full of paths to follow.
-* **Portability**. You can get Python running everywhere: Windows, Linux, Mac, or even [a microcontoller](https://micropython.org/).
+* **Portability**. You can get Python running everywhere: Windows, Linux, Mac, or even [a microcontroller](https://micropython.org/).
 
 ## The building blocks of programming
 
@@ -623,7 +623,7 @@ articles: NAME, PUBLISHED, TPUB, TEDIT
 
 we'll need some way to track what items in the time tracker were started, but never stopped
 
-for now, everything should be strictly command line arguments and print statments
+for now, everything should be strictly command line arguments and print statements
 
 ## More advanced topics
 

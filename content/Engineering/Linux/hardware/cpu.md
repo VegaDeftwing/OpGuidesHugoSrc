@@ -5,13 +5,13 @@
 </script>
 <img class="center" src="/eng/cpus.webp" alt="CPUS">
 
-{{< smalltext >}}Note, there's more the a CPU on some of these boards. On the big one, only the square thing in the middle is the CPU, on the pi-0 (the board with the HDMI and USB Ports) the CPU is under the metal heatsink - and in truth the CPU is actually an SOC (System On a Chip) - more on that in a bit. Finally, on the blue board, the CPU is only the black chip in the middle, though in this case it is again the definition is blurred, as in truth this is a *microcontroller*. This will all make sense shortly!{{< /smalltext >}}
+{{< smalltext >}}Note, there's more the a CPU on some of these boards. On the big one, only the square thing in the middle is the CPU, on the pi-0 (the board with the HDMI and USB Ports) the CPU is under the metal heat sink - and in truth the CPU is actually an SOC (System On a Chip) - more on that in a bit. Finally, on the blue board, the CPU is only the black chip in the middle, though in this case it is again the definition is blurred, as in truth this is a *microcontroller*. This will all make sense shortly!{{< /smalltext >}}
 
 These are **CPU**s or **C**entral **P**rocessing **U**nits. They're the beating heart of your computer, doing the number crunching. The white, rectangular one is of one of the first CPUs in the lineage leading up to CPUs like the ones used in desktop's today, with further successors shown in order from top left to the bottom right. The metal-capped one at the bottom right, while a tad old, is visually quite representative of a modern desktop CPU, though the CPUs in a laptop or smart phone do look quite different still.
 
 ---
 
-One of the nifty things we do pretty easily in linux is get information about our hardware directly. Just as when we were installing Arch and we used `lsblk` to see an overview of the disks on the system, we can use some other tools to find out some other information about the system. Let's start off basic and see what CPU you have. Go ahead and run
+One of the nifty things we do pretty easily in Linux is get information about our hardware directly. Just as when we were installing Arch and we used `lsblk` to see an overview of the disks on the system, we can use some other tools to find out some other information about the system. Let's start off basic and see what CPU you have. Go ahead and run
 
 ```bash
 ╭─vega@lyrae ~

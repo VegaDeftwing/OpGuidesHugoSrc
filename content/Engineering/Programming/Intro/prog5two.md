@@ -241,5 +241,5 @@ int main(){
 
 Then, wait, what? The output is **"A is 65"**!
 
-All of the examples have to do with something called *types*. That's what we'll dive into next, and they're much more obvious in C than in Python.
+All the examples have to do with something called *types*. That's what we'll dive into next, and they're much more obvious in C than in Python.
 

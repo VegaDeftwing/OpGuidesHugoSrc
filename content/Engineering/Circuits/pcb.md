@@ -1,6 +1,6 @@
 # Chapter 27 - Let's make our own PCB
 
-**P**rinted **C**ircuit **B**orads look like something reserved for only big business, but that is very much so not the case. It's suprisingly cheap to get smaller boards made, espically if you're okay with waiting a week or two on international shipping. But, let me back up- what even is a PCB?
+**P**rinted **C**ircuit **B**orads look like something reserved for only big business, but that is very much so not the case. It's suprisingly cheap to get smaller boards made, especially if you're okay with waiting a week or two on international shipping. But, let me back up- what even is a PCB?
 
 Well, when anyone first starts with circuits, they go for the ever popular breadboard:
 
@@ -800,7 +800,7 @@ You'll also ocassionally see [PCB Spark gaps (EEVblog)](https://www.youtube.com/
 
 It's also possible to impliment coils, useful for inductive coupling or transformers - see [RGB LED, Inductively Powered, Frequency Controlled (Wolf Tronix)](https://www.youtube.com/watch?v=3DeOPN1Cl1Y).
 
-Getting a bit weirder, you can also make a capacitor by using traces on different layers; however, you'll usually only be able to get up to a few hundred pico ferrads max. It's typically not worth the complexity introduced, espically as the exact value will be variable due to manufacturing tollerances.
+Getting a bit weirder, you can also make a capacitor by using traces on different layers; however, you'll usually only be able to get up to a few hundred pico ferrads max. It's typically not worth the complexity introduced, especially as the exact value will be variable due to manufacturing tollerances.
 
 Entering the relm of black magic fuckery, you can actually make high frequency filters by adjusting the length and gaps between traces - these are called [distributed element filters](https://en.wikipedia.org/wiki/Distributed-element_filter) and are really fucking cool.
 

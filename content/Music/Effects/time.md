@@ -11,7 +11,7 @@ There are a million ways to make a delay that's weird. Most basic? Make a ring b
 
 {{< /devegg >}}
 
-Delay is basically echo. Take a sound in, and repeat {{< vale >}}it it it{{< /vale >}}. Normally the main controls on a delay are 'Time', which controls how long of a delay there is before each repeat, 'Feedback' which controls how much the level is reduced each time the delay repeats (and in turn, how many audible repetitions there are), and 'Dry/Wet' which controls how the signal is blended, entirely dry will have no delay, entirely wet may even miss the initial sound adding a weird latency before you hear what you're playing. Some delays have additional controls, obviously I can't cover every possible delay, but I'll try to cover most:
+Delay is basically echo. Take a sound in, and repeat it it it. Normally the main controls on a delay are 'Time', which controls how long of a delay there is before each repeat, 'Feedback' which controls how much the level is reduced each time the delay repeats (and in turn, how many audible repetitions there are), and 'Dry/Wet' which controls how the signal is blended, entirely dry will have no delay, entirely wet may even miss the initial sound adding a weird latency before you hear what you're playing. Some delays have additional controls, obviously I can't cover every possible delay, but I'll try to cover most:
 
 Some delays instead of letting you set a delay time or 'tap' a delay tempo in to actually synchronize to a clock signal input which lets the delayed repetitions always be in time with the rest of the song.
 
@@ -99,7 +99,7 @@ Here for example is a jam using the Ditto X4 looper (the box slightly blurry, cl
 
 {{< devegg >}}
 
-The DSP for reverb is a black magic. If you actually want to persue this, see https://www.youtube.com/watch?v=Il_qdtQKnqk then go read ALL of Valhalla DSP's blog post, then realize making a good algorithm is just thousands of hours of trial and error.
+The DSP for reverb is a black magic. If you actually want to pursue this, see https://www.youtube.com/watch?v=Il_qdtQKnqk then go read ALL of Valhalla DSP's blog post, then realize making a good algorithm is just thousands of hours of trial and error.
 
 {{< /devegg >}}
 
@@ -138,7 +138,7 @@ Seriously, watch the above video, [Why Huge Metal Plates Are on SO Many Songs (Y
 
 ### Convolutional
 
-When working with signals - which fundamentally is what making music is - there's this mathematial process you can do called convolution. This is a bit hard to explain, so let's start by looking at a drum hit's waveform:
+When working with signals - which fundamentally is what making music is - there's this mathematical process you can do called convolution. This is a bit hard to explain, so let's start by looking at a drum hit's waveform:
 
 ![Audacity](/music/Audacity.webp)
 
@@ -155,7 +155,7 @@ When you hear this click in your room, it will cause the room to echo a bit, and
 Now, if we make the assumption that the response to that click - what is really called an **impulse response** is:
 
 * **Linear** - There's a nice input-to-output relationship with regards to amplitude - A quieter input would just make the same reverb, but quiter
-* **Time-Invariant** - The response to that impulse will be the same (or at least close enough, for reverb anyway) whever me make it
+* **Time-Invariant** - The response to that impulse will be the same (or at least close enough, for reverb anyway) whenever me make it
 
 We can record that result and use it as a reverb. How? Well think of each point as the volume of the reflections from the room of the original sound at that moment in time. It's like a map for when to play delays though the world craziest delay effect. But, we need that effect we can plug it into - that effect is called a **convolution**.
 
@@ -163,7 +163,7 @@ But, let me back up just a second:
 
 Both of these assumptions are probably not 100% true. If you blast your speakers hard enough with that click, you may make things on the walls literally shake - clearly that's not the same. Similarly, sound *technically* cares about temperature a bit, so, if you're change the temperature during the day, time invariace also breaks down, but within reason, the assumption works. Reverb is, for most environments, close enough to being linear, time invariant that it doesn't matter. The same is true of the *sound* of most guitar amp's **speakers** - they will also color the sound in a way that shouldn't care about the volume (barring extremes) or with time (barring significant aging)
 
-But, note I bolded **"speakers"** that's because the amp itself absolutely is not linear. Most guitar amps intentionally distort at higher volumes, and this distortion changes as it's pushed harder. This will be relevent in a moment.
+But, note I bolded **"speakers"** that's because the amp itself absolutely is not linear. Most guitar amps intentionally distort at higher volumes, and this distortion changes as it's pushed harder. This will be relevant in a moment.
 
 Okay, so, we have our impulse response. Usually, these will look (and sound) a bit like a drum hit if played normally, but they're not intended to be played normally, the intent is to use them with **convolution**
 
@@ -181,7 +181,7 @@ This is one of the reasons why even if we technically *could* do a lot of effect
 
 But, even this isn't totally true - if the response is long enough there's a fancier way to do the convolution by using something called the FFT and transforming the both the impulse response and input signal into the frequency domain and then simply adding them together - don't worry if you no idea what that means - The point is, we can replace all of that multiplications with a single addition! Sort of...
 
-In reality, this is how it will be done for any remotely large impulse responses, but it's not all sunshine and rainbows, that FFT bit actually pretty expensive for a computer to do too, espically at high quality. Plus, to keep latency down, the FFT has to be done pretty rapidly, so, even with the fancy-math to avoid it being out right infesibale amount of computations, convolutional reverbs still tend to be on the computationally expensive side - if you're working on a laptop and want to run a bunch of virtual synths and other effects to, you may not have the heavy lifting required to run one.
+In reality, this is how it will be done for any remotely large impulse responses, but it's not all sunshine and rainbows, that FFT bit actually pretty expensive for a computer to do too, especially at high quality. Plus, to keep latency down, the FFT has to be done pretty rapidly, so, even with the fancy-math to avoid it being out right infesibale amount of computations, convolutional reverbs still tend to be on the computationally expensive side - if you're working on a laptop and want to run a bunch of virtual synths and other effects to, you may not have the heavy lifting required to run one.
 
 Still, if you can get away with them, they do often sound extremely good. Usually you won't get much control over them though as the reverb (or guitar amp speaker, or delay, or whatever) is basically baked into that recorded impulse response.
 

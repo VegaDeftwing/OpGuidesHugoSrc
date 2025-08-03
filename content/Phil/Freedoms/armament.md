@@ -98,7 +98,7 @@ Many pro or anti-gun stats you read are bullshit, or at least framed into being 
 
 ## So What Do?
 
-Read arguments and decide for yourself. I can see both sides as reasonable <footnote>...sort of reasonable. Unfettered, you can buy an AR-15 at any WalMart with no background check is obviously crazy. Similarly, saying absolutely no guns ever isn't really right, as many people do enjoy them for sport, even at shooting ranges which are nutritiously incredibly safe. I really don't think many people are arguing for either extreme though, so really all I ask is that you give it some real thought and consider where you fall on that spectrum.</footnote>.
+Read arguments and decide for yourself. I can see both sides as reasonable <footnote>...sort of reasonable. Unfettered, you can buy an AR-15 at any Walmart with no background check is obviously crazy. Similarly, saying absolutely no guns ever isn't really right, as many people do enjoy them for sport, even at shooting ranges which are nutritiously incredibly safe. I really don't think many people are arguing for either extreme though, so really all I ask is that you give it some real thought and consider where you fall on that spectrum.</footnote>.
 
 Oh, and don't ever tell me that you need a gun "just in case we have to overthrow the government." After January 6th, 2021, I will not tolerate that bullshit.
 

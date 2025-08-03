@@ -33,7 +33,7 @@ I bitch about consumerism a lot, yet, I like *things*. So that's what this post 
 
 1. The Launchpad Pro Mk3.
 
-   I had a Launchpad Mk2 before this, and while it was *fine* it wasn't even really something I'd recommend. Meanwhile, the LP Pro Mk3, with velocity sensative pads and after touch is *almost* the only controller I need. It doesn't have a way to hook up a sustain pedal, and the lack of pitch and mod wheels means It can't take over synth control duties entirely, but in general it made playing music a lot more fun - espically with scale mode turned on since I'm ass at music theory
+   I had a Launchpad Mk2 before this, and while it was *fine* it wasn't even really something I'd recommend. Meanwhile, the LP Pro Mk3, with velocity sensative pads and after touch is *almost* the only controller I need. It doesn't have a way to hook up a sustain pedal, and the lack of pitch and mod wheels means It can't take over synth control duties entirely, but in general it made playing music a lot more fun - especially with scale mode turned on since I'm ass at music theory
 
 2. 7-String, nice guitar
 
@@ -163,7 +163,7 @@ I bitch about consumerism a lot, yet, I like *things*. So that's what this post 
 
 4. Love Death Robots
 
-   The majority of these short stories really stick with you. Espically the neral-link moster fighting one- the animation for that one made the part of my brain that likes a well coreographed fight between monsters light up enough I just sorta made that dumb "dudeeeee, this is cooool" laugh.
+   The majority of these short stories really stick with you. Especially the neral-link moster fighting one- the animation for that one made the part of my brain that likes a well coreographed fight between monsters light up enough I just sorta made that dumb "dudeeeee, this is cooool" laugh.
 
 5. She-Ra, Infinity Train, & KIPO
 
@@ -301,7 +301,7 @@ I don't feel comfortably calling anyone out on bad videos, though I have noticed
 
 2. KiCad
 
-   If you want to make something quickly, it's great. The new SPCIE integration is so-so, and some times the workflow is awkward, espically if you make a mistake and then need to back-propagate your fix though each step
+   If you want to make something quickly, it's great. The new SPCIE integration is so-so, and some times the workflow is awkward, especially if you make a mistake and then need to back-propagate your fix though each step
 
 3. OpenSCad
 

@@ -84,15 +84,15 @@ There's no output… but that should tip you off to what's about to happen
 aOWO
 ```
 
-Got it. By making the string one character (not including the %n itself) %n's character count output is stored into the interger i, and we trigger the if, printing the string.
+Got it. By making the string one character (not including the %n itself) %n's character count output is stored into the integer i, and we trigger the if, printing the string.
 
-Hopefully you see that this is a big problem. The user was able to change code flow on a *print* statement. With a little more work the input could be crafted to access arbitary memory of the program, potentially getting the print to divuldge something in memory you'd really rather keep private- maybe a password?
+Hopefully you see that this is a big problem. The user was able to change code flow on a *print* statement. With a little more work the input could be crafted to access arbitrary memory of the program, potentially getting the print to divulge something in memory you'd really rather keep private- maybe a password?
 
 {{< hint info>}}
 
 [This video from Live Overflow](https://youtu.be/0WvrSfcdq1I) explains this much more in depth in just 10 minutes. Give it a watch.
 
-See [These Lecture notes on Format String Vulnerabilities from Syracuse University](https://web.ecs.syr.edu/~wedu/Teaching/cis643/LectureNotes_New/Format_String.pdf) and [Intoduction to Format String Exploits from Code Arcana](https://codearcana.com/posts/2013/05/02/introduction-to-format-string-exploits.html) for even more.
+See [These Lecture notes on Format String Vulnerabilities from Syracuse University](https://web.ecs.syr.edu/~wedu/Teaching/cis643/LectureNotes_New/Format_String.pdf) and [Introduction to Format String Exploits from Code Arcana](https://codearcana.com/posts/2013/05/02/introduction-to-format-string-exploits.html) for even more.
 
 {{< /hint >}}
 
@@ -133,7 +133,7 @@ Hell, even just using `random()` without knowing better is a good way to screw u
 
 I would seriously hope this is a 'No Shit'. Unfortunately, it seems it's not. So, allow me:
 
-DO NOT USE: MD5, DES (Including Tripple DES), SHA-1*, AES-EBC, AES-CBC without a [MAC](https://en.wikipedia.org/wiki/CBC-MAC)
+DO NOT USE: MD5, DES (Including Triple DES), SHA-1*, AES-EBC, AES-CBC without a [MAC](https://en.wikipedia.org/wiki/CBC-MAC)
 
 Alright, so what should you use? Well, the answer is obviously "It depends on what you want", but in general the recommendations from [Cryptographic Right Answers](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html) are probably a good place to start.
 
@@ -313,7 +313,7 @@ Similarly, unless you know you're audience is already technical, don't assume th
 
 There's a reason torrent clients verify the hash automatically, that browsers show a little lock, and that telegram lets users [check their keys with emoji](https://www.slashgear.com/telegram-debuts-voice-calls-uses-emoji-codes-to-verify-security-30480357/).
 
-Also don't make your users change passwords on a schedule. We all hate it, [It's not even recomended anymore](https://pages.nist.gov/800-63-FAQ/#q-b05), and it's just a royal PITA. 
+Also don't make your users change passwords on a schedule. We all hate it, [It's not even recommended anymore](https://pages.nist.gov/800-63-FAQ/#q-b05), and it's just a royal PITA. 
 
 ### …Or that they have a single clue about privacy
 
@@ -750,7 +750,7 @@ The hacker and information freedom community has multiple 'sacred texts' if you 
 >
 > July 2008, Eremo, Italy
 
-If you'd like more information on Swartz's infulence you can watch a documentry on him [here](https://www.youtube.com/watch?v=vXr-2hwTk58&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz&index=367&t=0s)
+If you'd like more information on Swartz's infulence you can watch a documentary on him [here](https://www.youtube.com/watch?v=vXr-2hwTk58&list=PL5cGwrD7cv8hK-qxPqRB25Dzs0BtLWhXz&index=367&t=0s)
 
 {{< /details >}}
 

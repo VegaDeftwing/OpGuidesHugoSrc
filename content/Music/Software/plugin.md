@@ -55,7 +55,7 @@ Generally, there are a few things you need to know:
 
 There are some other, not-VST plugin formats you may encounter, namely [LV2](https://en.wikipedia.org/wiki/LV2) and Apple's [Audio Units](https://en.wikipedia.org/wiki/Audio_Units), as well as the various plugins for particular DAWs, like Reason's 'Rack Extensions' or Ableton Live's M4L (Max For Live) Devices.
 
-While VST3 does have a linux SDK, most plugins aren't released for Linux. You may still be able to make it work using a bridging program like [Yabridge](https://github.com/robbert-vdh/yabridge).
+While VST3 does have a Linux SDK, most plugins aren't released for Linux. You may still be able to make it work using a bridging program like [Yabridge](https://github.com/robbert-vdh/yabridge).
 
 You may also see VSTi or VSTfx, these aren't anything new, 'i' or 'fx' just denote if the plugin is an instrument or effects plugin.
 

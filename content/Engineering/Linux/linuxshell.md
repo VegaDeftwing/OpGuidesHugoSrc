@@ -133,7 +133,7 @@ Commenting out this custom style because it makes this page a pain to read.
 
 ## What The Shell?
 
-Okay, first question you probably have after I've been using them interchangebly 'What is a Shell and is it different from a terminal?'
+Okay, first question you probably have after I've been using them interchangeably 'What is a Shell and is it different from a terminal?'
 
 Yes, they're different, but before I talk about the shell it's easier to talk about the Terminal.
 
@@ -243,7 +243,7 @@ Of note, while the majority of these commands should be available on nearly any 
 
 - **export** - used to set environment variables, these for example use `export EDITOR=nano` to use nano as your terminal text viewer by default.
 
-- **systemctl** - literally system control, wayyy to big to cover quickly, used for everything from setting services to run on boot, shutting down/restarting the system, to viewing logs. Look up Systemd for more information. This is probably the least-universal of the tools listed here, but *most* linux systems have switched to Systemd now for better or worse.
+- **systemctl** - literally system control, wayyy to big to cover quickly, used for everything from setting services to run on boot, shutting down/restarting the system, to viewing logs. Look up Systemd for more information. This is probably the least-universal of the tools listed here, but *most* Linux systems have switched to Systemd now for better or worse.
 
   - **[sysz](https://github.com/joehillen/sysz)** provides a decent UI to systemd functions, check it out
 
@@ -305,7 +305,7 @@ Probably the most useful shortcut for using the shell is tab completion. This is
 
 Next up for navigation is directory shortcuts, these can be massive time savers, the most obvious is `~` which is just short hand for the location of the current shell users home directory, so in my case `~` is the exact same as typing out `/home/vega`. The next two have already been touched on which are `.` for the current directory and `..` for the previous directory. Depending on the shell and arbitrary number of dots may take you back and arbitrary number of directories. Give it a shot! If nothing else you can always use `../../..` to navigate back as necessary. Finally, `-` represents the last directory you were in so if your in `~/Downloads` and then `cd /etc/pacman.d/`, running `cd -` will bring you back to downloads.
 
-The most advanced form of built in linux navigation comes in the form of `pushd` and `popd`, which as their names imply push and pop directories to a stack (a special kind of list) of directories. Like a stack of any item you can put or 'push' an item on top, and take or 'pop' an item off. Running `dirs -v` will show you a numbered list of the stack, you can navigate to the top item with `popd` or and arbitrary item with `cd ~#` where # is the number as shown by `dirs -v`.
+The most advanced form of built in Linux navigation comes in the form of `pushd` and `popd`, which as their names imply push and pop directories to a stack (a special kind of list) of directories. Like a stack of any item you can put or 'push' an item on top, and take or 'pop' an item off. Running `dirs -v` will show you a numbered list of the stack, you can navigate to the top item with `popd` or and arbitrary item with `cd ~#` where # is the number as shown by `dirs -v`.
 
 Finally, there's one more super handy way to get around your file system but it's a non-standard tool so most systems or servers you use other than your own will not have it installed, and that's autojump. Put simply it takes a good guess about where you want to go by only typing part of the name of a folder you've navigated to before, so say you have a long file path `/mnt/data/archived/january2000/pictures/family/vacation/` you can get back to it again by simply running `j vac` which is obviously much simpler. It works the vast majority of the time in practice, only having issues if you don't include enough letters leading to ambiguity.
 
@@ -527,7 +527,7 @@ When we installed arch we actually changed the default shell from bash to zsh, b
 
 * tldr
   
-  * tldr, 'for too long didn't read' provides a quick, easy to read version of the man page for many common linux commands. Forget how to use `tar` ? just run `tldr tar`
+  * tldr, 'for too long didn't read' provides a quick, easy to read version of the man page for many common Linux commands. Forget how to use `tar` ? just run `tldr tar`
 
 * autojump
   
@@ -668,7 +668,7 @@ While some of these may be included, they're some of the OG addons or tools to m
 
 * tmux
   
-  * multiplex your termianal, open multiple terminals in your terminal, usefull in non-graphicas ttys espically
+  * multiplex your termianal, open multiple terminals in your terminal, usefull in non-graphicas ttys especially
 * vim + extensions (neovim, spacevim, etc)
   
   * the old school text editor meets new school

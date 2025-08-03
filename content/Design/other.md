@@ -36,19 +36,19 @@ https://www.blurmatic.com
 
 ## Events that can help you with art
 
-{{< vale >}}
+
 
 * Inktober
 * Swordvember
 * Smaugust
 
-{{< /vale >}}
+
 
 ## Photography
 
 https://filmulator.org/about/ 
 
-{{< vale >}}
+
 
 > Filmulator accepts raw files from cameras and simulates the development of film as if exposed to the same light as the camera's sensor. This brings about several benefits:
 >
@@ -57,6 +57,6 @@ https://filmulator.org/about/
 > - In bright regions, saturation is enhanced, helping retain color in bright skies, brighter skin tones, and sunsets.
 > - In extremely saturated regions, the brightness is attenuated, helping retain detail e.g. in flowers.
 
-{{< /vale >}}
+
 
 [Extremely high resolution scan of art](https://www.micro-pano.com/pearl/index.html)

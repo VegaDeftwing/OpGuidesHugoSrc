@@ -34,7 +34,7 @@ An embedded system is a computer system—a combination of a computer processor,
 
 {{< /quote >}}
 
-Alright, so how do these pocket operators show this well? Well, the pocket operators have a *Microcontroller* on them as well as a fair amount of things connects to it, but let's hang on for a second- Microcontroller? Microcontrollers, sometimes written as *μC*, *MCU*, or just *micro* are the heart of most embeded projects
+Alright, so how do these pocket operators show this well? Well, the pocket operators have a *Microcontroller* on them as well as a fair amount of things connects to it, but let's hang on for a second- Microcontroller? Microcontrollers, sometimes written as *μC*, *MCU*, or just *micro* are the heart of most embedded projects
 
 {{< quote "Wikipedia, minor edits" >}}
 
@@ -145,7 +145,7 @@ First, the "arduino" framework isn't actually C it's *C++* and the standard way 
 
 `cout << "Hello World!";`
 
-But, more improtantly, C++ is also object oriented, so we're calling the `println()` function from the `Serial` class - it's an entirely different language. Again, not a big deal to think about right now. There are two take aways you need to really answer your question
+But, more importantly, C++ is also object oriented, so we're calling the `println()` function from the `Serial` class - it's an entirely different language. Again, not a big deal to think about right now. There are two take aways you need to really answer your question
 
 1. `println` is basically just a `printf` that add's the newline for us
 2. `Serial` is a class that gives provides us functions for working with the serial interface *hardware* on the board
@@ -158,7 +158,7 @@ This is why we can't just use `printf()` - where would that text even show up?! 
 
 Finally, just to be though, that `9600` which may seem like a magic number, is the baudrate the board was sending data to the computer over Serial. `9600` is stupidly slow, yet is the default that many programs with the Arduino framework will use- most boards can do `115200`, which is 12 times faster.
 
-Really, most of this abstraction is just in our way. This isn't C++'s fault, the `Serial` class providing functions like println and having encasulated functions for setup - great, that's well made. Not including `serial.h` ourselves or having a convient tool for looking at how the underlying libraries tie together? That is a dumpster fire.
+Really, most of this abstraction is just in our way. This isn't C++'s fault, the `Serial` class providing functions like println and having encapsulated functions for setup - great, that's well made. Not including `serial.h` ourselves or having a convenient tool for looking at how the underlying libraries tie together? That is a dumpster fire.
 
 There's no need for all of that to sit between us and the code!
 
@@ -370,4 +370,4 @@ I **really** want to make this clear: Arduino is a framework. Not a specific har
 
 # Putting functions in RAM
 
-[TODO] sometimes you might have to relocate functions to RAM for things to work fast enough, espicially things with lots of interrupts or that talk to peripherals.
+[TODO] sometimes you might have to relocate functions to RAM for things to work fast enough, especially things with lots of interrupts or that talk to peripherals.

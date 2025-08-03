@@ -198,3 +198,5 @@ RE: That big anti-corpo spheel at the start of this page. You may feel powerless
 Call your congress critters. Don't buy from Amazon. [Don't *just* Block Ads, click em' all.](https://adnauseam.io)
 
 This includes advocating for open standards, data privacy, and user rights. It can mean standing against planned obsolescence in software and hardware or supporting movements toward decentralized systems like the Fediverse or self-hosted alternatives to mainstream tech giants.
+
+[NEXT PAGE](/other/hci3/p_d_features)

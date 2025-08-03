@@ -34,15 +34,15 @@ Computers, to a normal user, look like magic. In previous chapters I've shown yo
 
 <iframe width="100%" height="400px" src="https://godbolt.org/e?readOnly=true&hideEditorToolbars=true#g:!((g:!((g:!((h:codeEditor,i:(fontScale:18,j:1,lang:c%2B%2B,selection:(endColumn:1,endLineNumber:11,positionColumn:1,positionLineNumber:11,selectionStartColumn:1,selectionStartLineNumber:11,startColumn:1,startLineNumber:11),source:'%23include+%3Ccstdlib%3E%0A%0Aint*+addFloats(int*+a,+int*+b,+int*+c,+int+n)+%7B%0A%0A++++for+(int+i+%3D+0%3B+i+%3C+n%3B+i%2B%2B)%7B%0A++++++++c%5Bi%5D+%3D+a%5Bi%5D+%2B+b%5Bi%5D%3B%0A++++%7D%0A%0A++++return+c%3B%0A%7D%0A'),l:'5',n:'0',o:'C%2B%2B+source+%231',t:'0')),k:50.79365079365079,l:'4',n:'0',o:'',s:0,t:'0'),(g:!((h:compiler,i:(compiler:g102,filters:(b:'0',binary:'1',commentOnly:'0',demangle:'0',directives:'0',execute:'1',intel:'0',libraryCode:'0',trim:'0'),fontScale:17,j:1,lang:c%2B%2B,libs:!(),options:'-O',selection:(endColumn:1,endLineNumber:1,positionColumn:1,positionLineNumber:1,selectionStartColumn:1,selectionStartLineNumber:1,startColumn:1,startLineNumber:1),source:1),l:'5',n:'0',o:'x86-64+gcc+10.2+(Editor+%231,+Compiler+%231)+C%2B%2B',t:'0')),k:49.20634920634921,l:'4',n:'0',o:'',s:0,t:'0')),l:'2',n:'0',o:'',t:'0')),version:4"></iframe>
 
-Here you can see there are three memory operations(2x MOV and one ADD that have DWORD PTR in them). With 4-byte ints on a 4Ghz CPU, this works out to $ 3 \times4(Bytes) \times (4 \times10^9(hz)) = 48GB/s $. This is pretty close to the 55GB/s that [this linux tool](https://zsmith.co/bandwidth.php) reports that I get, per core, on my system. Fortunately, most modern CPUs have ways of parrelizing these operations internally, having multiple integer units per core as well.
+Here you can see there are three memory operations(2x MOV and one ADD that have DWORD PTR in them). With 4-byte ints on a 4Ghz CPU, this works out to $ 3 \times4(Bytes) \times (4 \times10^9(hz)) = 48GB/s $. This is pretty close to the 55GB/s that [this Linux tool](https://zsmith.co/bandwidth.php) reports that I get, per core, on my system. Fortunately, most modern CPUs have ways of parrelizing these operations internally, having multiple integer units per core as well.
 
 [TODO] newer systems, https://www.cerebras.net/cerebras-wafer-scale-engine-why-we-need-big-chips-for-deep-learning/, https://www.anandtech.com/show/14750/hot-chips-31-analysis-inmemory-processing-by-upmem, intel optane
 
 [TODO]
 
-Data-Level, Task-Level, and Instruction-Level Paralleism (Application Parrallelism)
+Data-Level, Task-Level, and Instruction-Level Parallelism (Application Parallelism)
 
-Instruction Level Parrelism (Pipelining), Thread-Level and Request-Level Parellism (Architectural Parallelism)
+Instruction Level Parallelism (Pipelining), Thread-Level and Request-Level Parallelism (Architectural Parallelism)
 
 Single Instruction Stream, Single Data Stream (SISD)
 

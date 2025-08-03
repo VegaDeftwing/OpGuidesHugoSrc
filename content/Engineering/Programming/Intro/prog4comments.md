@@ -153,9 +153,9 @@ But if we removed the `# ` from before the `c = a + b` it would run again. You c
 
 In VSCode, if you want to comment out a single line, just type <kbd>ctrl</kbd> + <kbd>/</kbd>  when on the line in question and that line will have the language's comment symbol added to it. If you select multiple lines, that'll work as you expect too. You can do this on a blank line to start typing a new comment too.
 
-## Autoformatting
+## Auto-Formatting
 
-It's pretty easy to have your code get gross with mixed indentation types, weirdly wrapped lines, etc. Autoformatters are often a bit overly aggressive, but are helpful for keeping your code clean. For example, say we had this messy C:
+It's pretty easy to have your code get gross with mixed indentation types, weirdly wrapped lines, etc. Auto-formatters are often a bit overly aggressive, but are helpful for keeping your code clean. For example, say we had this messy C:
 
 ```c
 int main()

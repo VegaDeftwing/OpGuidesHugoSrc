@@ -30,7 +30,7 @@ There's a lot of ground to cover here, and while each has things is common, ther
 
 Regardless, if you want to go down this road, one thing's for sure, you'll need to make electrons do work for you.
 
-To get started on that journey, let's establish a baseline. There's some things that most lay people should know, and we can make some connections to make a platform of knowledge we can build on.
+To get started on that journey, let's establish a baseline. There's some things that most laypeople should know, and we can make some connections to make a platform of knowledge we can build on.
 
 ## The Stuff You Probably Know
 

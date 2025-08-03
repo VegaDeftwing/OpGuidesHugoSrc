@@ -22,7 +22,7 @@ https://www.youtube.com/watch?v=xJYjXVhCiT0
 
 {{< devegg >}}
 
-Traditionally, It's a lot of band pass filters with envelope followers. That's it. That said, actuall implementiton, use an FFT, not a fuck load of filters. See https://dsp.stackexchange.com/questions/1232/programming-a-vocoder
+Traditionally, It's a lot of band pass filters with envelope followers. That's it. That said, actual implementation, use an FFT, not a fuck load of filters. See https://dsp.stackexchange.com/questions/1232/programming-a-vocoder
 
 {{< /devegg >}}
 

@@ -75,7 +75,7 @@ Lyrics are not poetry.
 
 Poetry is an art form, delivering it another. Writing lyrics is an art form, delivering it is another. 
 
-Singing and vocal presentantion is not something that can be easily be written on a page. You may hear what you want in your head as you write, the subtle vibrato here, the long belted performance-finishing pride there, vocal fry to add texture, a word sung with sexual desire in it - you can't possibly write it all down.
+Singing and vocal presentation is not something that can be easily be written on a page. You may hear what you want in your head as you write. The subtle vibrato here. The long belted performance-finishing pride there. Vocal fry to add texture. A word sung with sexual desire in it. You can't possibly write it all down.
 
 {{< speech triode >}}
 

@@ -211,3 +211,5 @@ There are also issues on ownership, for example:
 [Amazon Sued For Saying You've 'Bought' Movies That It Can Take Away From You](https://www.techdirt.com/articles/20200505/23193344443/amazon-sued-saying-youve-bought-movies-that-it-can-take-away-you.shtml) and [Microsoft Is Closing Its Ebook Store and Taking the Books With It](https://www.popularmechanics.com/technology/a27021744/microsoft-ebook-store-shutdown/)
 
 Not to mention the fact that [updates keep changing how IOT devices work](https://staceyoniot.com/the-unbearable-fussiness-of-the-smart-home/), making them more "needy" as they display more notifications and interupt the user more in a plea to get used (so they can harvest even more data).
+
+[NEXT PAGE](/other/hci3/d_storage)

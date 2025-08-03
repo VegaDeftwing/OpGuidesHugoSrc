@@ -85,3 +85,5 @@ As an aside, if you want to get around paywalls you can use [Switch your user ag
 ## Algorithms
 
 https://www.youtube.com/watch?v=QEJpZjg8GuA
+
+[NEXT PAGE](/other/hci3/d_creating_and_tools)

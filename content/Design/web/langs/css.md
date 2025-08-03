@@ -2,15 +2,15 @@
 
 <script>    document.getElementById("webMenu").open = true;</script>
 
-Let me start by saying that {{< vale >}}**C**ascading **S**tyle **S**heets{{< /vale >}} - CSS - is not a hard language to write. The problem is not the language<footnote>Mostly. If you're doing something complex, such as working with animations, the syntax can get a bit weird</footnote>, but with how humans don't think about style and art in a linear way and dealing with the complexities of different devices.
+Let me start by saying that **C**ascading **S**tyle **S**heets - CSS - is not a hard language to write. The problem is not the language<footnote>Mostly. If you're doing something complex, such as working with animations, the syntax can get a bit weird</footnote>, but with how humans don't think about style and art in a linear way and dealing with the complexities of different devices.
 
 ## How we think about style
 
-Look around this website, there are things that are stylistically cohesive - the color theme,  the way I indicate that something is a local link by {{< button relref="/design/web/langs/css" color="design" >}} putting it in a button {{< /button >}} with a color that matches where it goes. That makes sense to the part of our brains that wants to see the full overview and look at the completed picture. We like to think of art from the **macroscopic scale**.
+Look around this website, there are things that are stylistically cohesive - the color theme,  the way I indicate that something is a local link by {{< button relref="/design/web/langs/css">}} putting it in a button {{< /button >}} with a color that matches where it goes. That makes sense to the part of our brains that wants to see the full overview and look at the completed picture. We like to think of art from the **macroscopic scale**.
 
 In the vast majority of contexts, this line of thought works. Think about digital art - you put pixels on layers and stack those layers. The one thing you have to worry about is color on each pixel. Sure, if you're stacking layers with weirder blend modes it can start to get more complicated but it's almost always easy to think about what the change you're making will look like before you make it. There is a convenient 1:1 relationship between you and the content on the screen.
 
-We do not want to have to think about styling every. single. element. on our web page. You would not want to have to set the background color, font sizes, line height, etc. etc. each time you made a new element. You need to be able to set defaults for each {{< vale >}}type of{{< /vale >}} thing on the page.
+We do not want to have to think about styling every. single. element. on our web page. You would not want to have to set the background color, font sizes, line height, etc. etc. each time you made a new element. You need to be able to set defaults for each type of thing on the page.
 
 At the same time, it's necessary to think about individual elements sometimes and give special attention to one thing on a page. For example on this website I have tables where things need color applied to make them easier to read.
 
@@ -140,11 +140,11 @@ but if we just left the logo alone and didn't specify a class at all, it should 
 
 If you have something like our situation here, where you have two things which derive from the same class - here, "rounded images" and "logo images" are both of type `img`, you should never make a change to the parent of both (`img` in this case) for one child if it will require you undo that change in another - just make the change where it belongs in the first place!
 
-The tough part about that is realizing when you need to make a new class and what those classes are. Above I made a `rounded` class, but that may not be {{< vale >}}sufficient{{< /vale >}}. Maybe you need variants for setting the amounts of rounding, ranging from subtle to full-on-circle. What would you call those classes? You also don't want to go to nuts with different classes, otherwise each element would have a whole pile of classes assigned to it. There is art in organization and picking the right amount of abstraction here. That's an art that's much harder to teach.
+The tough part about that is realizing when you need to make a new class and what those classes are. Above I made a `rounded` class, but that may not be sufficient. Maybe you need variants for setting the amounts of rounding, ranging from subtle to full-on-circle. What would you call those classes? You also don't want to go to nuts with different classes, otherwise each element would have a whole pile of classes assigned to it. There is art in organization and picking the right amount of abstraction here. That's an art that's much harder to teach.
 
 ## What can CSS do?
 
-{{< vale >}}
+
 
 <div class="stage">
   <div class="animlayer"></div>
@@ -241,12 +241,12 @@ The tough part about that is realizing when you need to make a new class and wha
   }
 }
 </style>
-{{< /vale >}}
+
 
 
 That said, you should probably not do to crazy of shit. Not all browsers behave the same or support everything. While nearly everything should work, you will find weird edge cases. For example, this website used to have a nice gradient for the background, but it had awful banding on Firefox and was unusable on the default browser on Samsung phones.
 
-In general though, if you have an idea for a simple animation in mind, you can probably make it work with just {{< vale >}}CSS… ish{{< /vale >}}. The limitation is if you want to actually change the content, that's a job better suited to JavaScript, which we'll look at next. Here, as a teaser:
+In general though, if you have an idea for a simple animation in mind, you can probably make it work with just CSS… ish. The limitation is if you want to actually change the content, that's a job better suited to JavaScript, which we'll look at next. Here, as a teaser:
 
 <script>
     function getRandomUnicodeLetter() {

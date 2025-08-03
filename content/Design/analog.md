@@ -2,7 +2,7 @@
 
 ## What makes it 'analog'
 
-For OpGuides I'm going to refer to any non-digital art as analog. Traditionally, this art {{< vale >}}is called{{< /vale >}} traditional. I don't like this term as it implies that there's a right 'traditional' way to do things, and that's a load of shit. Whenever I say analog, don't think about it too much. I just mean not using software and a computer, or, if using a computer, it's not necessary for the majority of the effort that's used to make the end product. For example, 3D printing a model to then paint it.
+For OpGuides I'm going to refer to any non-digital art as analog. Traditionally, this art is called traditional. I don't like this term as it implies that there's a right 'traditional' way to do things, and that's a load of shit. Whenever I say analog, don't think about it too much. I just mean not using software and a computer, or, if using a computer, it's not necessary for the majority of the effort that's used to make the end product. For example, 3D printing a model to then paint it.
 
 ## Pen/Pencil and Paper
 
@@ -25,15 +25,15 @@ clay + different types (water, air-dry, oil, polymer, epoxy, earthen/stone, cera
 
 ## Fabrics and Fashion
 
-{{< vale >}}
+
 
 <div style="display: inline-block; background-color: #eee; border-radius: 10px;"><blockquote class="reddit-card" data-card-created="1609713910"><a href="https://www.reddit.com/r/LongFurbies/comments/iqwhsd/this_is_my_very_long_daughter_calliope_crayon/">This is my very long daughter, Calliope Crayon Cruncher</a> from <a href="http://www.reddit.com/r/LongFurbies">r/LongFurbies</a></blockquote>
     <script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script></div>
-{{< /vale >}}
+
 
 [LED Hackers Jacket for EMF Camp (lochsh)](https://mcla.ug/blog/led-hackers-jacket-for-emf-camp.html)
 
-[Ink/Stich Inkscape Library](https://inkstitch.org)
+[Ink/Stitch Inkscape Library](https://inkstitch.org)
 
 ## Glass
 

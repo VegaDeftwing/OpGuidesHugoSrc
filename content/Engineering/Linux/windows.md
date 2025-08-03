@@ -32,7 +32,7 @@ I'll be honest with you, even if you run a VPN -> Tor -> Freenet -> IPFS chain t
 
 {{< speech big >}}
 
-Historically, I'd recommend setting up Windows with a local account for a whole mess of reasons as well. Unfortuantely, Microsoft is making this more of a pain in the ass with each update, and basically removing the ability outright in Windows 11. If you haven't yet set up your computer and your coming back to this guide as a "Did I miss anything", this is something you may want to consider trying still. Just realize you'll be fighting Windows every step of the way.
+Historically, I'd recommend setting up Windows with a local account for a whole mess of reasons as well. Unfortunately, Microsoft is making this more of a pain in the ass with each update, and basically removing the ability outright in Windows 11. If you haven't yet set up your computer and your coming back to this guide as a "Did I miss anything", this is something you may want to consider trying still. Just realize you'll be fighting Windows every step of the way.
 
 {{< /speech >}}
 
@@ -57,7 +57,7 @@ Okay, first up, drivers. Ideally, Windows wouldn't go grab ancient driver to beg
 * Intel CPU with integrated graphics
 * Intel CPU without integrated graphics
 
-Now, with *any* of the four options, you *might* also have a dedicated graphics card, which will need its own drivers. This (currently) will either be an AMD or Nvidia card, and you should be able to see it listed under GPU as the last entry in the performance tab in task manager. If you see two graphics cards (GPU0 and GPU1) one of them is probably the integrated graphics. You can confirm if   it's a dedicated or integrated card by looking if there's a "Dedicated GPU memory" field under the graphs. If there is, it's a dedicated card. If there's not (so only "Shared GPU memory") then it's an integrated card. This now means there's really 12 basic system driver options, the above four, plus a variant of each with either a dedicated AMD card or dedicated Nvidia card.
+Now, with *any* of the four options, you *might* also have a dedicated graphics card, which will need its own drivers. This (currently) will either be an AMD or Nvidia card, and you should be able to see it listed under GPU as the last entry in the performance tab in task manager. If you see two graphics cards (GPU0 and GPU1) one of them is probably the integrated graphics. You can confirm if it's a dedicated or integrated card by looking if there's a "Dedicated GPU memory" field under the graphs. If there is, it's a dedicated card. If there's not (so only "Shared GPU memory") then it's an integrated card. This now means there's really 12 basic system driver options, the above four, plus a variant of each with either a dedicated AMD card or dedicated Nvidia card.
 
 Fortunately, we can group these up pretty easily: 
 
@@ -85,15 +85,15 @@ Both of these let you change settings for your graphics card. The AMD version ha
 
 As for other hardware utilities, you may want to just type "AMD" or "Intel" into the start menu search as well and see what utilities pop up.
 
-Windows also has a few application specific tools you should be aware exist, like the disk managment tool, device manager, and task scheduler, and services manager. While we're on the subject, now tould be a good time to go check each and make sure everything is sane.
+Windows also has a few application specific tools you should be aware exist, like the disk managment tool, device manager, and task scheduler, and services manager. While we're on the subject, now should be a good time to go check each and make sure everything is sane.
 
-Let's start by opening up "device manager", you should see a bunch of different categories ranging from "Audio Inputs and Outputs" to "Universal Serial Bus Controllers". What you shoud be looking for is a any thing showing up as "⚠ Unknown Device" as this is a sign that you have something that's unhappy about drivers. The exact method for figuring out which device this is varies, but a good portion of the time this will be a USB device. If that's the case, a good place to start is to right click the device, select *properties* then the Details tab, then select the "Hardware IDs" property. You should see something like "USB\VID_258A&PID_0013&REV_0100&MI_00" what we actually need from that is the Vendor ID (VID) and Product ID (PID), in this case that's 258A and 0013. If you search the web for these together as VendorID:DeviceID (so, 258A:0013), you'll often be able to figure out what the offending device is. For example, Googling this example "258A:0013" the first result is for a gaming keyboard, which is correct.
+Let's start by opening up "device manager", you should see a bunch of different categories ranging from "Audio Inputs and Outputs" to "Universal Serial Bus Controllers". What you should be looking for is a any thing showing up as "⚠ Unknown Device" as this is a sign that you have something that's unhappy about drivers. The exact method for figuring out which device this is varies, but a good portion of the time this will be a USB device. If that's the case, a good place to start is to right click the device, select *properties* then the Details tab, then select the "Hardware IDs" property. You should see something like "USB\VID_258A&PID_0013&REV_0100&MI_00" what we actually need from that is the Vendor ID (VID) and Product ID (PID), in this case that's 258A and 0013. If you search the web for these together as VendorID:DeviceID (so, 258A:0013), you'll often be able to figure out what the offending device is. For example, Googling this example "258A:0013" the first result is for a gaming keyboard, which is correct.
 
-Now, let's head over to Disk managment. Here the big thing we should be looking for is any large blocks of unallocated space or partitions you don't recognize (if you've installed Linux, Windows will see these partitions, but have no idea what they are!) - on a normal, single disk, Windows system there will probably be a ~300Mb EFI System Partition, a very large (the majority of the disk in size) "Windows C:/" partition, and one or two recovery partitions, totalling less than 30Gb.
+Now, let's head over to Disk management. Here the big thing we should be looking for is any large blocks of unallocated space or partitions you don't recognize (if you've installed Linux, Windows will see these partitions, but have no idea what they are!) - on a normal, single disk, Windows system there will probably be a ~300Mb EFI System Partition, a very large (the majority of the disk in size) "Windows C:/" partition, and one or two recovery partitions, totaling less than 30Gb.
 
 {{< hint info >}}
 
-Heads up, the graphical disk managment utility may not let you do some things! In this case you may need to run `diskpart` in cmd.
+Heads up, the graphical disk management utility may not let you do some things! In this case you may need to run `diskpart` in cmd.
 
 {{< /hint >}}
 
@@ -105,7 +105,7 @@ Things can get weird if you're using Bitlocker for encryption or if your BIOS is
 
 > If you're here, you might also be in need of a quick way to make a clone of a disk from within Windows, in that case, I've had luck with [RawDiskCopier](https://github.com/TalAloni/RawDiskCopier)
 
-> {{< smalltext >}}If you're feeling really adventureous, you can actually [get Windows to run on BTRFS](https://github.com/maharmstone/btrfs). Just know that here be dragons.{{< /smalltext >}}
+> {{< smalltext >}}If you're feeling really adventurous, you can actually [get Windows to run on BTRFS](https://github.com/maharmstone/btrfs). Just know that here be dragons.{{< /smalltext >}}
 
 Next up, lets make sure HP/Dell/Acer/etc. didn't put any dumb things into the task scheduler or services. Open the start menu, search for "Task Scheduler" and open it. Click "Task Scheduler Library" and look through the entries, don't be afraid to web search if you don't know what some are. If there's some you know you don't need, just right click and disable them.
 
@@ -123,19 +123,19 @@ For your sanity later, I'm going to recommend a whole host of deeper utilities &
 
 Now, I recommend you go through literally all of your settings. Both in the old school control panel and the newer setting nightmare. There's some settings I do want to point out though:
 
-First, is assigining programs to use a dedicated GPU. If you're on a laptop (or desktop, though it'd be rare) with *both* integrated and dedicated graphics, the laptop probably switches between the two to save power. Unfortunately, it might get this wrong sometimes resulting in some programs running like ass. Games are *usually* fine, but for art tools like Krita, PCB design tools like KiCad, or really any other creative tool with a resonably interactive graphical interface Windows often gets it wrong. On 10 [TODO], on 11 this if you just search "GPU" it will bring you to the graphics settings page for this. In either case, just add the program (might need to be done by file path to the .exe) and then set it to use the "High performance" card.
+First, is assigining programs to use a dedicated GPU. If you're on a laptop (or desktop, though it'd be rare) with *both* integrated and dedicated graphics, the laptop probably switches between the two to save power. Unfortunately, it might get this wrong sometimes resulting in some programs running like ass. Games are *usually* fine, but for art tools like Krita, PCB design tools like KiCad, or really any other creative tool with a reasonably interactive graphical interface Windows often gets it wrong. On 10 [TODO], on 11 this if you just search "GPU" it will bring you to the graphics settings page for this. In either case, just add the program (might need to be done by file path to the .exe) and then set it to use the "High performance" card.
 
 Next, Windows defaults to saving power - even on desktops. In the start menu, search for "choose a power plan", select that, and switch to whatever the highest performance is called on your system ("Ultimate Performance" or whatever). On laptops this will eat more battery though. While you're here, you should see an option on the left for "Choose what the power buttons do". Click that, click "Change settings that are currently unavailable", and **un-**tick  "Turn on fast startup".
 
-Now, onto networking. First of all, go into networking settings and dig around for "Random hardware addresses" and turn that off. It doesn't do jack shit for secutiy or privacy, and it just makes a lot of networks kick you off repeatedly. It's super annoying.
+Now, onto networking. First of all, go into networking settings and dig around for "Random hardware addresses" and turn that off. It doesn't do jack shit for security or privacy, and it just makes a lot of networks kick you off repeatedly. It's super annoying.
 
-While we're playing with networking, you might want to use a different DNS provider. No matter who you go with, they'll track you, so it may as well be a better one than the stock one. ╮(─▽─)╭ Go to the *old* control panel → Network & Internet → Network & Sharing Center, then, on the left, click "Change Adapter Settings". Your active connection should be pretty obvious- right click whatever it is, select *properties*. You should be in the networking tab, click (But do not un-check!) the "Internet Protocol Version 4 (TCP/IPv4)" option and click *properies*. Now, at the bottom, "Obtain DNS server address automatically" is probably checked. Select "Use the following DNS server addresses" and enter `1.1.1.1` and `8.8.8.8` as the Preferred and Alternate respectively. 
+While we're playing with networking, you might want to use a different DNS provider. No matter who you go with, they'll track you, so it may as well be a better one than the stock one. ╮(─▽─)╭ Go to the *old* control panel → Network & Internet → Network & Sharing Center, then, on the left, click "Change Adapter Settings". Your active connection should be pretty obvious- right click whatever it is, select *properties*. You should be in the networking tab, click (But do not un-check!) the "Internet Protocol Version 4 (TCP/IPv4)" option and click *properties*. Now, at the bottom, "Obtain DNS server address automatically" is probably checked. Select "Use the following DNS server addresses" and enter `1.1.1.1` and `8.8.8.8` as the Preferred and Alternate respectively. 
 
 Next up, let's fix the stupid file explorer settings. In the start menu, search for and open "File Explorer Options". Click the "View tab", turn on "Display the full path in the title bar", "Show hidden files, folders, and drives". Now, you can close that window and open literally any folder to view files. In the file explorer, go to the top ribbon and select View→Show, and turn on "File Name Extensions"
 
 Now onto the display. First things first, open the start menu and run "Adjust ClearType Text", go through it and do what looks best to you. Then, let's go make sure you're display settings are sane. You should be able to right click in the desktop (with no window) and select "Display Settings". What you'll want to check is that the resolution is set to the displays maximum (with a few rare exceptions), and *unless you need it* that the scale is set to 100%. Then, go into the advanced options and make sure the refresh rate is set to the maximum supported by the display. Probably 60hz on most, but commonly 120 or 144hz on gaming laptops.
 
-Next up, lets make it so that when a Blue Screen of Death (BSoD) does happen, we can actually figure out why. In the start menu, search for and open "Adavced System Settings", click "startup and recovery" and make sure "Automatic memory dump" is selected in the Write debugging information menu. Close out of the start up and recovery window, but not the system properties window - while we're here we can tweak some visual effects to make things feel snappier. Still on the advanced tab, click the performance button, and then under visual effects. Turn **off** all the "Fade", "Slide" animations, as well as Animate Windows when minimizing and maximizing. 
+Next up, let's make it so that when a Blue Screen of Death (BSoD) does happen, we can actually figure out why. In the start menu, search for and open "Advanced System Settings", click "startup and recovery" and make sure "Automatic memory dump" is selected in the Write debugging information menu. Close out of the start up and recovery window, but not the system properties window - while we're here we can tweak some visual effects to make things feel snappier. Still on the advanced tab, click the performance button, and then under visual effects. Turn **off** all the "Fade", "Slide" animations, as well as Animate Windows when minimizing and maximizing. 
 
 Windows really doesn't like to tell you what's going on during updates, with messages like "Getting things ready". Fuck that. Fix this by opening an admin command prompt and running `reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v verbosestatus /d 1 /t REG_DWORD /f` The messages often happen to quickly to read (especially if you have a fast computer and SSD) but it's better than what it was.
 
@@ -151,7 +151,7 @@ Finally, for the command line lovers, I *think* that just by having the newer, l
 
 ### 1.4 Installing User Stuff
 
-You probably have your own prefneces in Software. Statistically, you're *probably* a Chrome user. That's cool, you do you. (I'm a [Vivaldi](https://vivaldi.com) guy) Regadless, I recommend installing all of the software that you can via `winget`, as it makes it much less likely that you'll download shit, and it's just generally easier and faster.
+You probably have your own prefneces in Software. Statistically, you're *probably* a Chrome user. That's cool, you do you. (I'm a [Vivaldi](https://vivaldi.com) guy) Regardless, I recommend installing all of the software that you can via `winget`, as it makes it much less likely that you'll download shit, and it's just generally easier and faster.
 
 [TODO]
 
@@ -168,7 +168,7 @@ You probably have your own prefneces in Software. Statistically, you're *probabl
 
 ### 1.5 Security & Backups
 
-Just use Windows Defender (built in). If you have Norton or McAffee please just unistall them, they do more harm than good. If you need more, I really just recommend you have a linux live disk with `clamtk` on it as It's amazing how well some viruses protect themselves, but if you boot into a different OS, they're not even able to run.
+Just use Windows Defender (built in). If you have Norton or McAffee please just unistall them, they do more harm than good. If you need more, I really just recommend you have a Linux live disk with `clamtk` on it as It's amazing how well some viruses protect themselves, but if you boot into a different OS, they're not even able to run.
 
 On top of that, just have backups. If somehow you do manage to get a cryptolocker, it wont matter if you have regular backups.
 
@@ -176,13 +176,13 @@ Really though, the best protection is not being a dumbass. Don't go to weird pro
 
 If you want to protect your files there's VeraCrypt, just know that encryption comes with a disk overhead, so, if your on an HDD, windows 10 will be slower than bearable in my experience. 
 
-If you want to be one of the cool kids, use [KeePassXC](https://keepassxc.org) for password managment. It can generate good passwords for you.
+If you want to be one of the cool kids, use [KeePassXC](https://keepassxc.org) for password management. It can generate good passwords for you.
 
 [TODO] Security
 
 # 2. Understanding Windows & Fixing issues
 
-One of the most annoying things about Windows is that it's an absolute pain in the ass to figure out what is going wrong when something goes wrong. Still, there's a few things that even knowing about will make fixing issues less awful. Some of identifying issues on Windows is, frankly, blind intuition. It comes from years of experiance and repeatedly cursing Microsoft's shitty forums and help sections.
+One of the most annoying things about Windows is that it's an absolute pain in the ass to figure out what is going wrong when something goes wrong. Still, there's a few things that even knowing about will make fixing issues less awful. Some of identifying issues on Windows is, frankly, blind intuition. It comes from years of experience and repeatedly cursing Microsoft's shitty forums and help sections.
 
 So, let's dig into some core window's stuff for just a moment. The very TL;DR version:
 
@@ -190,7 +190,7 @@ So, let's dig into some core window's stuff for just a moment. The very TL;DR ve
   * This means most low-level fixes and articles you read since then should be reasonably accurate
 
 * Window's disks are formatted as NTFS. NTFS is awful. [TODO] BTRFS
-* Windows file permissions are way weirder than linux's `*rwxrwxrwx` structure. Permissions can and will fuck you.
+* Windows file permissions are way weirder than Linux's `*rwxrwxrwx` structure. Permissions can and will fuck you.
   * If the user has a Microsoft account associated, the username isn't always the username. If you encounter this issue, I wish you luck in figuring out what the correct name actually is.
 
 * Drivers for windows tend to be a mess. Keeping them up to date is awful. Windows update will often install very old (or even incorrect) driver by default.
@@ -221,7 +221,7 @@ That said, there are some nuggets of wisdom I can provide, in no particular orde
 
   * Event Viewer will almost never say anything useful.
 
-* If you keep freezing and nothing shows up in event viwer after rebooting and you aren't getting dump files, you might try leaving audio playing. If you still have audio playback on the next freeze, it's a graphics problem - either your graphics driver or hardware.
+* If you keep freezing and nothing shows up in event viewer after rebooting and you aren't getting dump files, you might try leaving audio playing. If you still have audio playback on the next freeze, it's a graphics problem - either your graphics driver or hardware.
 
 * If networking is hecked up:
 
@@ -252,7 +252,7 @@ That said, there are some nuggets of wisdom I can provide, in no particular orde
 
 ## 2.5 For The Dual Booters
 
-Windows likes to think it's the only OS on your system even if it's not. Sometimes this means it'll just eat your bootloader (so keep a live linux disk around to fix that). Other times it's a comical yet annoying tendancy to have update-and-shutdown actually update-and-reboot-into-Linux making it so the next time you boot Windows it just immediately shuts off. Fun stuff. On top of that, Windows only supporting NTFS [TODO, BTRFS] means if you want to share data between the two, you're pretty much stuck having your data be on an NTFS partition. Finally, Windows is weird and uses a different time standard than everyone else, so if you want Windows to not fuck up your clock every reboot, open an admin command prompt and run `reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f`
+Windows likes to think it's the only OS on your system even if it's not. Sometimes this means it'll just eat your bootloader (so keep a live Linux disk around to fix that). Other times it's a comical yet annoying tendency to have update-and-shutdown actually update-and-reboot-into-Linux making it so the next time you boot Windows it just immediately shuts off. Fun stuff. On top of that, Windows only supporting NTFS [TODO, BTRFS] means if you want to share data between the two, you're pretty much stuck having your data be on an NTFS partition. Finally, Windows is weird and uses a different time standard than everyone else, so if you want Windows to not fuck up your clock every reboot, open an admin command prompt and run `reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f`
 
 ## 3. For The programmers
 
@@ -274,15 +274,15 @@ Okay, so what do you need to know?
 
 * Windows is *NOT* [POSIX](https://en.wikipedia.org/wiki/POSIX):
   * Windows has weird line endings
-  * Being a different OS, it also has diffeernt system calls
-  * NTFS *the filesystem* **is** case sensative; however, Windows artifically makes it **not** case sensative- don't put `myasm.S` and `myasm.s` in the same folder! Also, there's a bunch of annoying reserved words, file names can only be 255 characters, and some characters are not allowed. Fun, right?
+  * Being a different OS, it also has different system calls
+  * NTFS *the filesystem* **is** case-sensitive; however, Windows artificially makes it **not** case-sensitive- don't put `myasm.S` and `myasm.s` in the same folder! Also, there's a bunch of annoying reserved words, file names can only be 255 characters, and some characters are not allowed. Fun, right?
 * You'll probably have to fight compilers a bit
   * Welcome to editing environment variable hell
 * … see the [win32 api](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list)
 * … and a different executable format
 * [TODO] exe vs MSI
 
-*All of that said,* WSL on Windows is acutally pretty great and solves the vast majority of this. There's a few exceptions if you need pedal-to-the-metal performance or access to `/dev` for not stupid device access (like developing embedded systems) then clearly WSL isn't going to cut it. Furthermore, you'll still need to install a ton of tools to make the windows-y operations less awful, like [clink](https://mridgers.github.io/clink/) to make `cmd` slightly more tollerable, tools like [groupy](https://www.stardock.com/products/groupy/) and [fancyzones](https://docs.microsoft.com/en-us/windows/powertoys/fancyzones) can make the actual window managment in Windows less bad… you get the idea.
+*All of that said,* WSL on Windows is actually pretty great and solves the vast majority of this. There's a few exceptions if you need pedal-to-the-metal performance or access to `/dev` for not stupid device access (like developing embedded systems) then clearly WSL isn't going to cut it. Furthermore, you'll still need to install a ton of tools to make the windows-y operations less awful, like [clink](https://mridgers.github.io/clink/) to make `cmd` slightly more tollerable, tools like [groupy](https://www.stardock.com/products/groupy/) and [fancyzones](https://docs.microsoft.com/en-us/windows/powertoys/fancyzones) can make the actual window managment in Windows less bad… you get the idea.
 
 ### Using Visual Studio
 

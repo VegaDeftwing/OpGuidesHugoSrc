@@ -20,7 +20,7 @@ There are a some 'gotchas' to be aware of when shopping for a good pen display.
 
 As for the cheaper non-display pen tablets: I haven't noticed a difference between the feeling of cheap and expensive ones. If someone knows better, please get in touch!
 
-## Raster, Vector, Pixel, {{< vale >}}Voxel{{< /vale >}}, ASCII, Mesh, Fractal, Generative...??
+## Raster, Vector, Pixel, Voxel, ASCII, Mesh, Fractal, Generative...??
 
 **Projection Mapping, Creative Code,…**
 
@@ -74,7 +74,7 @@ Inkscape
 
 blender
 
-#### {{< vale >}}Voxel{{< /vale >}} Art
+#### Voxel Art
 
 [MagicaVoxel](https://ephtracy.github.io)
 
@@ -146,8 +146,8 @@ https://lospec.com/palette-list
 * [Color Emulation of the GameBoy](https://byuu.net/video/color-emulation/)
 * [Hello hsluv - blog post about how hsluv works](https://austinjones.onfabrik.com/blog/hello-hsluv)
 * [Graphics & Palettes - Super Nintendo Entertainment System Features Pt. 01 (RetroGameMechanicsExplained)](https://www.youtube.com/watch?v=57ibhDU2SAI&ab_channel=RetroGameMechanicsExplained)
-* [Digital Video Introduction](https://github.com/leandromoreira/digital_video_introduction#how-does-a-video-codec-work) - {{< vale >}}"A hands-on introduction to video technology: image, video, codec (av1, vp9, h265) and more (ffmpeg encoding)."{{< /vale >}}
-* [Oklab](https://bottosson.github.io/posts/oklab/), [An interactive review of Oklab (Raph Levien's Blog)](https://raphlinus.github.io/color/2021/01/18/oklab-critique.html) - {{< vale >}}"A perceptual color space is desirable when doing many kinds of image processing"{{< /vale >}}
+* [Digital Video Introduction](https://github.com/leandromoreira/digital_video_introduction#how-does-a-video-codec-work) - "A hands-on introduction to video technology: image, video, codec (av1, vp9, h265) and more (ffmpeg encoding)."
+* [Oklab](https://bottosson.github.io/posts/oklab/), [An interactive review of Oklab (Raph Levien's Blog)](https://raphlinus.github.io/color/2021/01/18/oklab-critique.html) - "A perceptual color space is desirable when doing many kinds of image processing"
 * [The hyperbezier pen tool (cmyr.net)](https://www.cmyr.net/blog/hyperbezier.html)
 
 ## Compression

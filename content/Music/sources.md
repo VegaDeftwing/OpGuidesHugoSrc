@@ -147,7 +147,7 @@ Avoiding the complex explanation of what actually makes an oscilator analog or d
   
     For example, in VCV you can take the output of a VCO and plug it into it's own FM input! **Try it!**
   
-* Digital (DSP) oscilators can get complexity and polyphony for cheaper, so they're good for really complex timbres, for example with wavetables, which I'll cover in a bit
+* Digital (DSP) oscillators can get complexity and polyphony for cheaper, so they're good for really complex timbres, for example with wavetables, which I'll cover in a bit
 
 So, which is better? Neither! If you want to go all analog or all digital, that's cool, but both have their strengths and weaknesses. But going analog means using physical hardware, which is usually very expensive.
 
@@ -372,4 +372,4 @@ Finally, sprinkle in some **noise**, usually filtered (and likely not a simple l
 
 The idea is any sound should be able to be broken into these three things.
 
-Using this idea can add some life to otherwise sterile synthesizers (See the {{< button relref="Music/Instruments/synth" color="music" >}}Synthesisers Page{{< /button >}} ) but it's good to keep this in mind early while we look at other instruments. Think about how sounds work with this in mind. What comes from the hit, what does the tonal bit sound like, and what sort of noise is there that rides along with the tonal bit after the strike.
+Using this idea can add some life to otherwise sterile synthesizers (See the {{< button relref="Music/Instruments/synth" color="music" >}}Synthesizers Page{{< /button >}} ) but it's good to keep this in mind early while we look at other instruments. Think about how sounds work with this in mind. What comes from the hit, what does the tonal bit sound like, and what sort of noise is there that rides along with the tonal bit after the strike.

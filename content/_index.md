@@ -82,7 +82,7 @@ to share my passions with others. The idea that much of the information for the 
 
 is crazy to me. 
 
-Because of everything from an abusive text book industry to capitalism as a whole what we have right now is expensive, boring, low quality, and isn't even worth it.
+Because of everything from an abusive textbook industry to capitalism as a whole what we have right now is expensive, boring, low quality, and isn't even worth it.
 
 Seriously, look at how poor a value even a technical education is becoming! College prices have sky rocketed, the dream of finding a career with decent work-life balance is imploding, and the big employers of computer engineers and computer scientists are being generally fucking evil and I just don't get why anyone would want to do it....
 
@@ -166,7 +166,7 @@ or tip me on Venmo, @vegadeftwing
 
 # Contributors
 
-Thank you to all of these people for your content contributions to OpGuides, the work you've put in really hepls!
+Thank you to all of these people for your content contributions to OpGuides, the work you've put in really helps!
 
 {{< columns >}}
 
@@ -238,7 +238,7 @@ is licensed under [CC-NC-BY-SA 4.0](https://creativecommons.org/licenses/by-nc-s
 
 What this means is you are welcome to fork the project; *however,* if you want to host it yourself you'll need to remove the `nonfree` folder of content in the `static` folder at the base of this repo. If you'd like to collect donations (to cover the cost of hosting and encourage development) you'll need to ask for an exception from me (Vega). This exception will almost certainly be granted if you've put in any more work than just changing the logo around and removing the nonfree folder.
 
-It is worth noting that a fair amount of content on OpGuides is presented under the assumption of fair use, some of this done more liberally than it probably should be. Many images on OpGuides are used because of broad permission granting statements on the authors websites such as the statements from [xkcd](https://xkcd.com/about/) and [Sarah Scribbles](https://sarahcandersen.com/about). Some images are almost certainly violations of copyright, but exist under the same gray area that has let meme and [gif culture](https://fortune.com/2016/11/07/giphy-gifs-copyright/) flourish. If you plan to host a fork of OpGuides you may want to consider your own level of comfort regarding the usage of this content and change pages as necessary. 
+It is worth noting that a fair amount of content on OpGuides is presented under the assumption of fair use, some of this done more liberally than it probably should be. Many images on OpGuides are used because of broad permission granting statements on the authors websites such as the statements from [xkcd](https://xkcd.com/about/) and [Sarah Scribbles](https://sarahcandersen.com/about). Some images are almost certainly violations of copyright, but exist under the same gray area that has lets meme and [gif culture](https://fortune.com/2016/11/07/giphy-gifs-copyright/) flourish. If you plan to host a fork of OpGuides you may want to consider your own level of comfort regarding the usage of this content and change pages as necessary. 
 
 ---
 

@@ -12,7 +12,7 @@ Read it? Cool.
 
 ---
 
-The big take away is free speech & spread of ideas = good, echo chambers = bad. And, like, yeah? That's pretty hard to disagree with. However, it reminds me of the often repeated line "There's no such thing as a stupid idea!" and that quote really, really drives me nuts.
+The big takeaway is free speech & spread of ideas = good, echo chambers = bad. And, like, yeah? That's pretty hard to disagree with. However, it reminds me of the often repeated line "There's no such thing as a stupid idea!" and that quote really, really drives me nuts.
 
 Unfortunately, some ideas, even when we can make well thought out arguments for why the idea itself is absolute bunk and the supposed evidence for their idea is also bunk, still persist. Obviously, this is on a spectrum: Flat Earthers? Idiots. Those that think there has been extraterrestrial life on earth before? Maybe worth listening to. Those that think aliens built the pyramids and that someday they'll send beams of light into the sky to call down our gray skinned, big headed overlords to provide us with infinite energy, end hunger, and cure cancer? Back to idiots. Extraordinary claims require extraordinary evidence and all that jazz.    
 

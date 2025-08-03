@@ -314,7 +314,7 @@ Taking the crown however, is **Display Port** (DP). Like HDMI display port does 
 
 Next, you'll want to note the **refresh rate** of your monitor. This is how many times per second your monitor refreshes the screen. Typically monitors run at 60hz and TVs at 30 or 60. Because unlike a TV you're causing things on screen to change though, 30hz is generally considered bad and can even cause motion sickness. While 60hz may be standard, going for something even higher, with many displays offering well above 120hz, is something you may want to consider, especially if you plan on gaming.
 
-Newer displays may support Freesync or Gsync, and both of these technologies require a supported graphics card in the system as well. These allow the display and computer to adaptively change the refresh rate so the monitor and computer both send and display frames in sync, which can make even a low refresh rate 'feel' much higher. This is a feature typically marketed to gamers and only supported in video games, but this has been changing. Gsync monitors generally have a much better implementation of the technology but it requires an Nvidia graphics card. As of the time of writing both Freesync and GSync are supported on linux, but quite rough around the edges.
+Newer displays may support Freesync or Gsync, and both of these technologies require a supported graphics card in the system as well. These allow the display and computer to adaptively change the refresh rate so the monitor and computer both send and display frames in sync, which can make even a low refresh rate 'feel' much higher. This is a feature typically marketed to gamers and only supported in video games, but this has been changing. Gsync monitors generally have a much better implementation of the technology but it requires an Nvidia graphics card. As of the time of writing both Freesync and GSync are supported on Linux, but quite rough around the edges.
 
 {{< /tab >}}
 
@@ -536,7 +536,7 @@ https://joshwcomeau.com/accessibility/hands-free-coding/
 
 **Lil' shoutout**
 
-I've stolen a lot of config files from r/UnixPorn and other websites over the years, but I'd espically like to highlight https://twily.info as twilly actually helped me out a lot when I was a total noob and even helped me steal her website to make my own clone of it at one point
+I've stolen a lot of config files from r/UnixPorn and other websites over the years, but I'd especially like to highlight https://twily.info as twilly actually helped me out a lot when I was a total noob and even helped me steal her website to make my own clone of it at one point
 
 ## Gaming?
 

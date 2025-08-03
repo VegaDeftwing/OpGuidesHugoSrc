@@ -450,3 +450,5 @@ Rather paradoxically, I do see value in motion in the work space too. For exampl
 If you do think "huh, I could go for a fish tank", I will warn you most produce a fair amount of noise with running water and motors for the air pump and filtration. There are some tanks that avoid both though, so don't immediately rule it out, just do your research.
 
 {{< /hint >}}
+
+[NEXT PAGE](/other/hci3/p_art)

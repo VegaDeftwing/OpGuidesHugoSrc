@@ -33,7 +33,7 @@ http://dangerousprototypes.com/docs/Sick_of_Beige_compatible_cases works well fo
 
 ![](http://dangerousprototypes.com/docs/images/1/15/SOB_standardsizes.png)
 
-Guitar peadals often use enclosures of standard sizes that you can get with really nice powder coat finishes.
+Guitar pedals often use enclosures of standard sizes that you can get with really nice powder coat finishes.
 
 Some places to buy these:
 * https://stompboxparts.com/enclosures/

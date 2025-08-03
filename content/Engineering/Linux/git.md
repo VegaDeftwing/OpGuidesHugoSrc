@@ -15,7 +15,7 @@ You could. It's just that git can do a lot more!
 {{< /speech >}}
 
 Namely, it's really good at:
-1. Letting multiple people work together where real-time (Google Docs style) colaboration doesn't work well.
+1. Letting multiple people work together where real-time (Google Docs style) collaboration doesn't work well.
 2. Allowing for changes to be reverted later
 3. Allowing for branches
 
@@ -36,7 +36,7 @@ You have `Dave has a dog`, your friend has `Bob has a cat`.
 
 Now, you both go submit your changes. Naturally, one of you has to go first. Let's assume you make it first, the file now says `Dave has a dog`. Then, your friend goes to do their changes. Keep in mind, their version they were based on doesn't have the name changed to Dave yet. Now, git is smart enough to realize that you *only* changed Dave's name and your friend *only* changed the dog to a cat, so, it merges the two for you and you get `Dave has a cat`
 
-Sometimes, the changes can't be resolved so easily and you will have what's called a **merge conflict**. These are fine, but does require some human intervention. In the above, if both of you had changed the persons name, the latter person would have to select which name to keep. Usually, each change is reviewed by multiple people working on the project, and if there's a conflict the preson the conflict is with would help get it resolved - in this case, picking which name to actually use.
+Sometimes, the changes can't be resolved so easily and you will have what's called a **merge conflict**. These are fine, but does require some human intervention. In the above, if both of you had changed the persons name, the latter person would have to select which name to keep. Usually, each change is reviewed by multiple people working on the project, and if there's a conflict the person the conflict is with would help get it resolved - in this case, picking which name to actually use.
 
 ## 2. Allowing changes to be reverted later
 
@@ -80,7 +80,7 @@ Motivating this outside of Git's intended purpose (code) is a bit awkward, but b
 
 <span>1.</span> should sort of make sense intuitively. If multiple people on a team are working on a series of complex changes, a change to one thing while someone works might temporarily break something else. It's easier if you can take a snapshot, work off of that **branch**, and then submit those changes when they're ready, not constantly keeping up with everyone else's changes. 
 
-Sure, sometimes someone else's changes will conflict with yours, but espically if you're mostly adding entirely new files, it usually just works - no conflicts.
+Sure, sometimes someone else's changes will conflict with yours, but especially if you're mostly adding entirely new files, it usually just works - no conflicts.
 
 <span>2.</span> is roughly the same idea. Say you're working on a program and you want to add a feature to do X. All of the changes to make X work should be self contained. When the feature is fully ready, then you merge the branch in as one big "add this feature" to the project merge. This is done because otherwise half-finished ideals will have code just hanging around.
 

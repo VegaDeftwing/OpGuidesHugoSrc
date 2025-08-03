@@ -146,7 +146,7 @@ This page really is just to inform you of the *existence* of Markdown and {{< ka
 
 
 
-For S&Gs, check out this StackExchange question: "[How do I make my document look like it was written by a Cthulhu-worshipping madman?](https://tex.stackexchange.com/questions/29402/how-do-i-make-my-document-look-like-it-was-written-by-a-cthulhu-worshipping-madm)"
+For S&Gs, check out this StackExchange question: "[How do I make my document look like it was written by a Cthulhu-worshiping madman?](https://tex.stackexchange.com/questions/29402/how-do-i-make-my-document-look-like-it-was-written-by-a-cthulhu-worshipping-madm)"
 
 
 

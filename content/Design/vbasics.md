@@ -2,7 +2,7 @@
 
 We have the basics that any art program will focus on - **Lines, Shape, Form, Color, Space, Texture, Value** - and these are the standard starting topics for good reason. They're tried and tested to make people better at art, and they apply to any piece. This is great, but I think there are a some things left out of this, I assume to make it more broadly applicable. 
 
-Here's *my* personal list of what I keep in mind for art, {{< vale >}}in addition to{{< /vale >}} the above. Not all apply to every piece of art work, and you may have some you don't care about or would add. {{< smalltext >}}Though if you do have some you want to add, you should really let me know!{{< /smalltext >}}
+Here's *my* personal list of what I keep in mind for art, in addition to the above. Not all apply to every piece of art work, and you may have some you don't care about or would add. {{< smalltext >}}Though if you do have some you want to add, you should really let me know!{{< /smalltext >}}
 
 * **Interaction** - How does the subject work with other things or influence its surroundings?
   * **Desires** - What does it want?
@@ -97,7 +97,7 @@ Also, don't mistake artsy for fun. You could have something be "artsy" but horro
 
 <img src="/memes/pantyandstockingpop.webp">
 
-{{< attribution >}}Image originally from {{< vale >}}[Panty & Stocking with Garterbelt](https://en.wikipedia.org/wiki/Panty_%26_Stocking_with_Garterbelt){{< /vale >}}, a very raunchy anime that uses this style of written-out sounds to great effect. Screen capture stolen from [soundeffect.fandom.com](https://soundeffects.fandom.com/wiki/Panty_%26_Stocking_with_Garterbelt/Image_Gallery?file=IMG_20200401_215346.jpg).{{< /attribution >}}
+{{< attribution >}}Image originally from [Panty & Stocking with Garterbelt](https://en.wikipedia.org/wiki/Panty_%26_Stocking_with_Garterbelt), a very raunchy anime that uses this style of written-out sounds to great effect. Screen capture stolen from [soundeffect.fandom.com](https://soundeffects.fandom.com/wiki/Panty_%26_Stocking_with_Garterbelt/Image_Gallery?file=IMG_20200401_215346.jpg).{{< /attribution >}}
 
 {{< /columns >}}
 

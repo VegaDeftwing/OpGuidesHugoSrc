@@ -32,9 +32,9 @@ Cool! VR chat is a really neat platform to work with and it's really fun to be a
 
 I got into shaders for a bit of a backwards goal - I'm into the art, sure, but it's more that I found the *idea* of running code on the graphics card cool, and wanted to know how to use the multi-hundred watts of computational horse power in my desktop to my advantage. However, I knew better than to dive head-first into a difficult language like Vulkan (more on that in a bit) and that it would be much easier to get to the point of running complex, not-necessarily-for-graphics code on the GPU if I went through the normal for-art path first.
 
-On top of this, I was also just getting into VR Chat, which lets users submit their own worlds and avtars made in Unity.
+On top of this, I was also just getting into VR Chat, which lets users submit their own worlds and avatars made in Unity.
 
-This is where some of the confusion begins, as this chapter of *The Book of Shaders* introduces what shaders are, but sort of glosses over the fact that there are both multiple languages and multiple types of Shaders. *The Book* uses GLSL, but - epically for games - HLSL is significantly more common. Fortunately, the two are <u>extremely</u> similar. So, porting something written in one to the other is usually not a problem. Of course, there are other option than even these two, but these are probably the two you'll see the most.
+This is where some of the confusion begins, as this chapter of *The Book of Shaders* introduces what shaders are, but sort of glosses over the fact that there are both multiple languages and multiple types of Shaders. *The Book* uses GLSL, but - especially for games - HLSL is significantly more common. Fortunately, the two are <u>extremely</u> similar. So, porting something written in one to the other is usually not a problem. Of course, there are other option than even these two, but these are probably the two you'll see the most.
 
 **Languages?**
 
@@ -48,7 +48,7 @@ If you look at tab "4 - Running" here, there's more information on this.
 
 **Types?**
 
-*The Book* focuses entirely on Fragment Shaders - the ones that pick what color a given pixel should be. However, there are other kinds. Vertex Shaders allow you to move the vertices of a 3D object to change it's shape. Geometry and Tessellation shaders allow for interesting performance optimizations (Though are very rarely used by artists), and Compute Shaders allow for using the graphics card to do massively parallel math that would otherwise be impractical to do on the CPU - though with the limitations imposed from using the GPU. Compute Shaders can be written in HLSL, but the concept is applicable more broadly and so there are other, more purpose built languages for the task such as OpenCL and CUDA as well. See the GpGPU section near the bottom of this page for more information.
+*The Book* focuses entirely on Fragment Shaders - the ones that pick what color a given pixel should be. However, there are other kinds. Vertex Shaders allow you to move the vertices of a 3D object to change its shape. Geometry and Tessellation shaders allow for interesting performance optimizations (Though are very rarely used by artists), and Compute Shaders allow for using the graphics card to do massively parallel math that would otherwise be impractical to do on the CPU - though with the limitations imposed from using the GPU. Compute Shaders can be written in HLSL, but the concept is applicable more broadly and so there are other, more purpose built languages for the task such as OpenCL and CUDA as well. See the GpGPU section near the bottom of this page for more information.
 
 {{< /tab >}}
 
@@ -76,9 +76,9 @@ So while the book goes on to regularly use some of these like `u_time`, it's wor
 
 {{< tab "4 - Running" >}}
 
-While the book goes into ways to run the code written there elsewhere, I think it misses the mark for most people who are interested in using shaders for game development. If that's you, you're *probably* wanting to write shaders for Unity, Unreal, or Godot. In both cases, you may actually want to start by trying out visual shader programming, espically if you're not used to code. **However,** I do recommend coming back to code at some point as the visual editors are usually both limited and generate kinda slow code.
+While the book goes into ways to run the code written there elsewhere, I think it misses the mark for most people who are interested in using shaders for game development. If that's you, you're *probably* wanting to write shaders for Unity, Unreal, or Godot. In both cases, you may actually want to start by trying out visual shader programming, especially if you're not used to code. **However,** I do recommend coming back to code at some point as the visual editors are usually both limited and generate kinda slow code.
 
-If you're using Unity, you'll want to use the built in [Shader Graph](https://unity.com/features/shader-graph) if you're using either the Scriptable Render Pipelines (SRP)  ( so the High Definition Render Pipeline (HDRP) or .Universal Render Pipeline (URP)) Unfortunately, it doesn't work with the Built-In render pipeline (yes, it's confusing) - though you can use the $80 [Amplify Shader Editor](https://assetstore.unity.com/packages/tools/visual-scripting/amplify-shader-editor-68570) for Built-In. If you're doing development for VR chat, this is probably your best bet unless you want to jump right into code - which is fine! You can do it!
+If you're using Unity, you'll want to use the built-in [Shader Graph](https://unity.com/features/shader-graph) if you're using either the Scriptable Render Pipelines (SRP)  ( so the High Definition Render Pipeline (HDRP) or .Universal Render Pipeline (URP)) Unfortunately, it doesn't work with the Built-In render pipeline (yes, it's confusing) - though you can use the $80 [Amplify Shader Editor](https://assetstore.unity.com/packages/tools/visual-scripting/amplify-shader-editor-68570) for Built-In. If you're doing development for VR chat, this is probably your best bet unless you want to jump right into code - which is fine! You can do it!
 
 If you're using Unreal [TODO]
 
@@ -86,7 +86,7 @@ If you're using Godot, good news, you can use [its visual shader editor](https:/
 
 If you're going right for code, having something with a debugger may come in handy. Debuggers for shaders are still rather novel, but [Shadered](https://shadered.org) is pretty neat, albeit a bit confusing to use at first.
 
-If you're developing for Unity and want decent syntax highlighiting, code completion, etc. your options are forking over  the better part of a grand for [dotUltimate](https://www.jetbrains.com/lp/dotnet-unity/) or grabbing [ShaderlabVS Pro](https://assetstore.unity.com/packages/tools/utilities/shaderlabvs-pro-186176?aid=1011lGoJ&utm_campaign=unity_affiliate&utm_medium=affiliate&utm_source=partnerize-linkmaker) for $35
+If you're developing for Unity and want decent syntax highlighting, code completion, etc. your options are forking over  the better part of a grand for [dotUltimate](https://www.jetbrains.com/lp/dotnet-unity/) or grabbing [ShaderlabVS Pro](https://assetstore.unity.com/packages/tools/utilities/shaderlabvs-pro-186176?aid=1011lGoJ&utm_campaign=unity_affiliate&utm_medium=affiliate&utm_source=partnerize-linkmaker) for $35
 
 {{< /tab >}}
 
@@ -141,7 +141,7 @@ While being able to draw shapes directly in your shader is extremely useful, it'
 
 {{< tab "8 - Matrices" >}}
 
-This chapter is probably the first that will have math that makes you go "WTF?", espically if math with matricies and/or programming are new to you in the first place. While ideally you'd understand the math, it's not honestly a big deal if you don't. That said I think this chapter also just sort of fails to explain the rationaile behing rotation. If we look at the rotation matrix:
+This chapter is probably the first that will have math that makes you go "WTF?", especially if math with matrices and/or programming are new to you in the first place. While ideally you'd understand the math, it's not honestly a big deal if you don't. That said I think this chapter also just sort of fails to explain the rationale behind rotation. If we look at the rotation matrix:
 
 ```glsl
 mat2(cos(_angle),-sin(_angle),
@@ -162,7 +162,7 @@ we have x = x.cosθ-y.sinθ and  y = x.sinθ+y.cosθ. Let's just test some value
 | -3π/2 (270°)              | -1   | 1    |
 | -2π (360°, Full rotation) | 1    | 1    |
 
-If you think about this, at 0 (no angle of rotation) both are being multpied by 1, so, no change. At either ±π/2 only one of the x or y are being multiplied by -1, a 90° rotation (albeit in oposite directions). At ±π, the shape is being rotated 180° (so, the same either way), then at ±3π/2 were at more than 180°, so we could have gotten there faster by only going π/2 in the other direction that is, 270° = -90° and 90° = -270° (since things repeat at 360°)
+If you think about this, at 0 (no angle of rotation) both are being multiplied by 1, so, no change. At either ±π/2 only one of the x or y are being multiplied by -1, a 90° rotation (albeit in opposite directions). At ±π, the shape is being rotated 180° (so, the same either way), then at ±3π/2 were at more than 180°, so we could have gotten there faster by only going π/2 in the other direction that is, 270° = -90° and 90° = -270° (since things repeat at 360°)
 
 ---
 
@@ -367,7 +367,7 @@ As a TL;DR:
 * Clip Space → **4D**; Messy because of dealing with a "Projection Matrix", but generally this determines what verticies will be discarded because they're off screen. This also winds up being a PITA as there's a difference between the OpenGL and Direct3D standard
 * Screen Space → **2D** coordinate space that actually represents the screen's pixels. *Usually*, you won't have direct control over this.
 
-* UV Space → **2D** coordinates mapping points in a texture to the object. Weird to think of in terms of "space", so usually talked about separaetly.
+* UV Space → **2D** coordinates mapping points in a texture to the object. Weird to think of in terms of "space", so usually talked about separately.
 
 ### Culling, Z-test
 
@@ -379,7 +379,7 @@ The [Unity Manual Page](https://docs.unity3d.com/2020.1/Documentation/Manual/SL-
 
 ## Performance
 
-> In HLSL and Cg a ternary operator will never lead to branching. Instead both possible results are always evaluated and the not used one is being discarded. To quote the HLSL documentation:
+> In HLSL and Cg a ternary operator will never lead to branching. Instead, both possible results are always evaluated and the not used one is being discarded. To quote the HLSL documentation:
 >
 > <span class="smalltext">[Soulsource on StackOverflow](https://stackoverflow.com/users/759323/soulsource)</span>
 >
@@ -439,21 +439,21 @@ Well first of all, we need to know a few things about the GPU:
 1. There's a *lot* of overhead for just using the GPU. You need to detect it, reserve some memory, copy your data to it, process it, and copy it back.
 2. There's a lot of different GPUs. Different vendors, models, etc. These will have wildly different capabilities, support different APIs, etc.
 
-Basically, this means you need to both be sure you're workload will actually benefit. It needs to be parrallizable in the first place, you need to be processing *a lot* of data to justify the overhead, and you need to know you have a GPU in the system(s) that can actually use it. As a general rule of thumb, if you're not processing an array/matrix with at least 100,000 items, it's probably not worth it. For context, assuming each item is a byte, that's about 100 killobytes.
+Basically, this means you need to both be sure your workload will actually benefit. It needs to be parallelizable in the first place, you need to be processing *a lot* of data to justify the overhead, and you need to know you have a GPU in the system(s) that can actually use it. As a general rule of thumb, if you're not processing an array/matrix with at least 100,000 items, it's probably not worth it. For context, assuming each item is a byte, that's about 100 kilobytes.
 
-So, if it's not enough data or if it's not a parallizable task, the anser to "how do we put it to use?" is "Don't."
+So, if it's not enough data or if it's not a parallelizable task, the answer to "how do we put it to use?" is "Don't."
 
 {{< hint info >}}
 
-If you hadn't guessed from the mentioning of there being overhead, various platforms, and thresholds for the amount of data before it makes sense: Profiling matters. You will absolutly need to profile your code for this. Generating [Flamegraphs](https://www.brendangregg.com/flamegraphs.html) (if you can) is particularly helpful.
+If you hadn't guessed from the mentioning of there being overhead, various platforms, and thresholds for the amount of data before it makes sense: Profiling matters. You will absolutely need to profile your code for this. Generating [Flamegraphs](https://www.brendangregg.com/flamegraphs.html) (if you can) is particularly helpful.
 
 {{< /hint >}}
 
-But, if you've got an applicable problem, the sitation is still messy. There's a whole variety of GPU vendors and APIs in a venn diagram from hell making actually utilizing this stuff a massive pain. So while you could go write openCL or CUDA (or Vulkan, or Halide) code directly, you'll probably find a bunch of weird edge cases across systems and it's just generally more of a pain than it's worth. So, frankly, I'm not even going to look into those languages anymore than to let you know that it's quite likely the ones we will look into will actually still use their APIs, so, you'll probably still need their respective compilers/headers/toolchain on your system. Of special note, if you're using Cuda this probably means the full 11GB-or-so or so install with the `nvcc` compiler, which you can grab [Here](https://developer.nvidia.com/cuda-downloads) for Windows or Linux (though, if Linux you should try your package manager first). 
+But, if you've got an applicable problem, the situation is still messy. There's a whole variety of GPU vendors and APIs in a venn-diagram from hell making actually utilizing this stuff a massive pain. So while you could go write openCL or CUDA (or Vulkan, or Halide) code directly, you'll probably find a bunch of weird edge cases across systems and it's just generally more of a pain than it's worth. So, frankly, I'm not even going to look into those languages anymore than to let you know that it's quite likely the ones we will look into will actually still use their APIs, so, you'll probably still need their respective compilers/headers/toolchain on your system. Of special note, if you're using Cuda this probably means the full 11GB-or-so or so install with the `nvcc` compiler, which you can grab [Here](https://developer.nvidia.com/cuda-downloads) for Windows or Linux (though, if Linux you should try your package manager first). 
 
-So, reading that probably just made you go "Oh this is going to be compiler hell, isn't it?". Yes. It will be. Espically on Windows. So, is it worth it? Well, just running one of the [example programs](https://github.com/arrayfire/arrayfire-python/blob/master/examples/benchmarks/monte_carlo_pi.py) for the [Arrayfire](https://arrayfire.com) library I got an **88x speedup** (though I'm pretty sure this doesn't count the overhead of initalizing the GPU) when the code was ran on the GPU. So, yes, even if we did have to use OpenCL or Cuda directly, it probably would be. 
+So, reading that probably just made you go "Oh this is going to be compiler hell, isn't it?". Yes. It will be. Especially on Windows. So, is it worth it? Well, just running one of the [example programs](https://github.com/arrayfire/arrayfire-python/blob/master/examples/benchmarks/monte_carlo_pi.py) for the [Arrayfire](https://arrayfire.com) library I got an **88x speedup** (though I'm pretty sure this doesn't count the overhead of initalizing the GPU) when the code was ran on the GPU. So, yes, even if we did have to use OpenCL or Cuda directly, it probably would be. 
 
-Fortunately, we dont. 
+Fortunately, we don't. 
 
 From my digging I've found two good options that play nice with a lot of languages and different system configurations:  [Futhark](https://futhark-lang.org) and [Arrayfire](https://arrayfire.com). I'll focus on these two, but you should know there are other options. If you're into Rust, there's [emu](https://github.com/calebwin/emu). Nim? check out [shady](https://github.com/treeform/shady). JS? [this library called "GPGPU "](https://github.com/DanRuta/GPGPU) should do the trick. If you use Matlab, it should already be GPU accelerated, at least assuming you have an Nvidia graphics card. For these more specific ones  I don't have experance with these to know if they're good or bad. All of that said, you can *probably* make Futhark work damn near anywhere on account of the fact that it spits out C code for using either OpenCL, Cuda, Ptheads, or - failing all else - normal ol' sequantial processing (just C, no special sauce). So, anywhere you can load C code, Futhark should work too. This is pretty much everywhere, as almost all languages have at least some way to load in a library written in C for speed sake. It also can generate python libraries easily, which is nice too.
 

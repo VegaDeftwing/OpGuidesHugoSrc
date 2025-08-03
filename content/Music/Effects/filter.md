@@ -221,7 +221,7 @@ Filters with resonance can often be put into self oscillation by turning the res
 
 Here I start by feeding this filter an input from an oscillator module which is off screen, and sweep though the frequencies. Then I turn up the resonance a bit, do another sweep. Then I unplug the oscillator and sweep frequencies, you can see that it is silent. Finally, I turn the resonance above the self oscillation threshold, and you can hear the output.
 
-> Note, this module is a multi-mode filter, it's top 4 outputs are various poles of a low pass filter and the bottom four outputs are a highpass, 'band bost + notch', Phase-shifter, and Band Pass, respectively. Here, you're hearing the output of the band pass filter. The sound of self oscillation will be a sine wave for any of the outputs, though. 
+> Note, this module is a multi-mode filter, its top 4 outputs are various poles of a low pass filter and the bottom four outputs are a highpass, 'band boost + notch', Phase-shifter, and Band Pass, respectively. Here, you're hearing the output of the band pass filter. The sound of self oscillation will be a sine wave for any of the outputs, though. 
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/_12dHnLS474" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -251,7 +251,7 @@ Finite Impose Response, Infinite Impulse Response- ref Signals from Engineering
 
 ## Equalizers
 
-<!-- Unlike everywhere else where you probably want IIR. You may want FIR on the EQ, espically if it's going on the master as otherwise it's easy to absolutely sheck phase response and make bass sound like total crap. -->
+<!-- Unlike everywhere else where you probably want IIR. You may want FIR on the EQ, especially if it's going on the master as otherwise it's easy to absolutely sheck phase response and make bass sound like total crap. -->
 
 ### Parametric
 

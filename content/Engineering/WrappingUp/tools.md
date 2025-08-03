@@ -69,5 +69,5 @@ This page exists as an info dump of tools you may find helpful, but didn't know 
 
 
 
-In general, any sensor you could ever want is available, affordable, and dead simple to wire up to a micro controller to get data out.
+In general, any sensor you could ever want is available, affordable, and dead simple to wire up to a microcontroller to get data out.
 

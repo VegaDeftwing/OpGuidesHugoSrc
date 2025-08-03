@@ -1,0 +1,4 @@
+{
+    "harper.linters.Dashes": false,
+    "harper.userDictPath": "./harper_allowed_words.txt"
+}

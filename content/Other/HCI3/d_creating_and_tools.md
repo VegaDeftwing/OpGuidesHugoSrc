@@ -91,7 +91,7 @@ For video, the same ideas apply. Some of this is already being done by https://r
 
 ### We Need Tools that Scale With the User
 
-On one hand, I really hate baby sitting users that don't want to learn how to use software - espically software they use every day - on the other, I know not everyone is capable of remembering how to use the deepest features of Word (or, have mercy, Blender) and often just want to do something quickly.
+On one hand, I really hate baby sitting users that don't want to learn how to use software - especially software they use every day - on the other, I know not everyone is capable of remembering how to use the deepest features of Word (or, have mercy, Blender) and often just want to do something quickly.
 
 Right now, this problem is largely solved by just having a bunch of different products depending on what a user needs. Just need to quickly draw over an image to circle something? MS Paint will probably work fine. Want to do digital art? You probably want [Krita](https://krita.org/en/). Photo Editing? ~~Photoshop~~ [Affinity Photo](https://affinity.serif.com/en-us/photo/) will work well.
 
@@ -196,3 +196,5 @@ https://github.com/narenratan/jird
 https://github.com/erhanbaris/smartcalc
 
 ... I think I need a physical tools section, talking aboutt physical UI. Not just input devices - but actual tools. I think relating to guitars, hammers, scredrivers, etc. Like, the whole monty. Ref Dynamic Land
+
+[NEXT PAGE](/other/hci3/d_community)

@@ -187,3 +187,5 @@ You don't have to get 2D art as custom art. One of my friends often gets custom 
 All of this applies to your digital space as well. Custom desktop wallpapers, theme packs, or even tweaking CSS in the software you use daily can inject that same personal spark. The smallest changes — like setting your color scheme in in your text editor to something a bit more vibrant or customizing your browser's homepage make a big difference. Of course, when we get to the digital sections we'll talk about just how far this can go - though there the focus will be on utility. So, going forward, don't forget about beauty.
 
 If you're looking for some inspiration, to see just how much more beautiful your computing experience can be, drop by [r/unixporn](https://www.reddit.com/r/unixporn/).
+
+[NEXT PAGE](/other/hci3/p_d_rrr)

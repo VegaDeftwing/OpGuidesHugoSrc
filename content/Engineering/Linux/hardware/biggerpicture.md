@@ -60,7 +60,7 @@ At then end of the day, I'm telling you all of this to make it clear that a lot 
 TODO: I want to link to a page doing each of these, that is, each bullet should have a button.
 
 * In {{< button relref="/Engineering/Programming/shaders" >}}GPU Computation{{< /button >}} you'll see it can make sense to take a massive, temporary speed hit to copy data to a GPU (Graphics Processing Unit) because for big enough data with the right operations, it will pay off significantly
-  * For example, if you have two lists of a million numbers and you need to make a third list which is the elment-wise sum. The GPU can do that really, really, fast because it can do much of the work in parallel instead of working on each operation sequentially.
+  * For example, if you have two lists of a million numbers and you need to make a third list which is the element-wise sum. The GPU can do that really, really, fast because it can do much of the work in parallel instead of working on each operation sequentially.
 * Spending a few cycles to move data around and pack it into a special structure so that we can do [Single Instruction Multiple Data Operations (Practical SIMD Programming by Jacco Bikker)](https://www.cs.uu.nl/docs/vakken/magr/2017-2018/files/SIMD%20Tutorial.pdf)
   * https://ispc.github.io
 * [Use buffers, memory alignment, and avoiding OS locks to speed up computation (A Little Story About the `yes` Unix Command, endler.dev)](https://endler.dev/2017/yes/)
@@ -84,7 +84,7 @@ TODO: I want to link to a page doing each of these, that is, each bullet should 
 
 Where every one of these things relates back to this page - keeping the time spend moving and accessing data down.
 
-Now, a good chunk of that is really advanced stuff, and 95% of the time when you're writing code you won't have to worry about any of this. Hell, depending on the language you're working in, you literally *can't* because you wont have control over how things like that are done. But understanding how it works and knowing that you *can* is important, as some problems would otherwise be impractical. Let me explain:
+Now, a good chunk of that is really advanced stuff, and 95% of the time when you're writing code you won't have to worry about any of this. Hell, depending on the language you're working in, you literally *can't* because you won't have control over how things like that are done. But understanding how it works and knowing that you *can* is important, as some problems would otherwise be impractical. Let me explain:
 
 Say you're working on real time audio. To keep things "real time" you can buffer around 128 samples of audio, and you'll probably be playing back 48,000 samples a second. So, that means any computation you do has to happen reliably within 2.6 milliseconds deadlines.
 

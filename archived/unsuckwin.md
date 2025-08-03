@@ -50,7 +50,7 @@ I'd like to start a bit out of order here, because it will make things easier do
 Edge is a pile of garbage so, let's go grab a good browser. Vivaldi is my recommendation, but, chrome is fine too
 If you want the same pretty start page I use, grab 8bitdash from here and make new tabs open to the local address by default
 Extensions are a must have for speed and security, so, grab your adblocker of choice, HTTPS everywhere, Magic Actions for YouTube, One Tab, and Privacy Badger are all must haves. HoverHound can help you save some cash too, but, I'm sure that has privacy implications. Greenhouse, a dictionary/thesaurus, Google Keep, The Great Suspender, and a color picker can all come in handy too. Really, just get what you need
-chrome://flags can have some good things to help you make sure everything is running smoothly too, espically if hardware acceleration is disabled for some reason
+chrome://flags can have some good things to help you make sure everything is running smoothly too, especially if hardware acceleration is disabled for some reason
 Rainmeter (Download the Beta) is a nice tool for adding some live widgets (clock, music visualizer, sys info) to your desktop. Doesn't have a huge overhead, but, might want to leave this one out if you have a lower end system
 Some more downtime is probably on the way, so, lets go get some messaging programs:
 Pushbullet is the best way I've found to do texting across devices
@@ -70,10 +70,10 @@ chocolatey has: Aimp4 (aimp), Vivaldi (vivaldi), F.lux (f.lux), VLC (vlc), Atom 
 Event Ghost, Typora, Davinci, Helm, FL Studio, Ableton Live 9, PhotoShop, deflemask, Processing 3
 
 Security
-Security is probably the next big thing to worry about (I know linux can get virus too, but, now you might actually get one instead of just your grandmother)
+Security is probably the next big thing to worry about (I know Linux can get virus too, but, now you might actually get one instead of just your grandmother)
 
 Glasswire is a handly little firewall that's nice and easy to use, and it's really good about letting you know when something fishy is going on
-As far as antivirus is concerned, I really just recommend you have a linux live disk with clamtk on it. It's amazing how well some viruses protect themselves, and this is really the only good option out there. Anybody interested in infosec will tell you: If someone wants to infect your box, they will. Definition based scanning doesn't matter when you already have an encrypted hard drive asking for 300 bitcoin either. so, regular backups and a fix-it-when-it-needs-fixing strategy is really the way to go. Just use your adblocker and don't do anything stupid and it should be fine.
+As far as antivirus is concerned, I really just recommend you have a Linux live disk with clamtk on it. It's amazing how well some viruses protect themselves, and this is really the only good option out there. Anybody interested in infosec will tell you: If someone wants to infect your box, they will. Definition based scanning doesn't matter when you already have an encrypted hard drive asking for 300 bitcoin either. so, regular backups and a fix-it-when-it-needs-fixing strategy is really the way to go. Just use your adblocker and don't do anything stupid and it should be fine.
 If you want to protect your files there's VeraCrypt, just know that encryption comes with a disk overhead, so, if your on an HDD, windows 10 will be slower than bearable in my experience. Only protect what needs protecting.
 Don't use a password manager. Don't use complex passwords.
 Bad news, you're probably signed in using a MSlive/outlook/whatever account. Change that.

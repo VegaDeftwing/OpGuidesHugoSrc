@@ -104,7 +104,7 @@ Don't make your buttons `div`s.
 
 
 ## Finding a balance.
-A lot of sites that preach accessibility miss a point that everyone is thinking "If I'm focused on accessibility, I won't be able to work as fast or make {{< vale >}}as many{{< /vale >}} cool things.". Yep. That's true.
+A lot of sites that preach accessibility miss a point that everyone is thinking "If I'm focused on accessibility, I won't be able to work as fast or make as many cool things.". Yep. That's true.
 
 Hell, above where I wrote "🗹🗹🗹 these boxes are <b>high contrast.</b>"
 
@@ -114,7 +114,7 @@ It's possible a screen reader will read that as
 
 With the bold text being in a, uh, bold voice? It depends on the user's screen reader.
 
-And, yeah, ｏｏｆ. That's not a good experience. It's worth trying to balance your use of text, images, and (do-as-I-say-not-as-I-do) Unicode abusing spice. 
+And, yeah, ｏｏｆ. That's not a good experience. Its worth trying to balance your use of text, images, and (do-as-I-say-not-as-I-do) Unicode abusing spice. 
 
 ## Not being a dick™
 TODO: Facebook putting each letter of sponsored in a different div breaking things.

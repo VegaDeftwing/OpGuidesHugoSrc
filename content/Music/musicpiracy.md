@@ -28,7 +28,7 @@ I get it, you worked hard, you spent money on equipment, time on development, wh
 
 Hell, upload torrents to pirate sites yourself so they're in high quality, and just put a readme.txt saying "Hey, I uploaded this myself, it'd be cool if you support me if you like it". Whether you're making plugins or music or games or anything else, it's probably not worth it to fight it with DRM.
 
-Also, keep your prices reasonable and don't fuck people by having like 50% off sales. If someone know's they missed that and it's back up to normal price, you bet they'll want to pirate it.
+Also, keep your prices reasonable and don't fuck people by having like 50% off sales. If someone knows they missed that and it's back up to normal price, you bet they'll want to pirate it.
 
 
 

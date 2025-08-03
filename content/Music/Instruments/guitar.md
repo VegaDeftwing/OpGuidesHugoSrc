@@ -453,10 +453,10 @@ Make sure to mention latency, aliasing, and how well it takes for anything digit
 - Micotonal guitars
 - Sustained notes using E-Bows and similar devices
 - Guitorgan
-- "Sine" Guitar which has the moveable pickups and body
+- "Sine" Guitar which has the move-able pickups and body
 - Double neck
 - Mixed fretted/fretless
-- Partiall scalloped
+- Partially scalloped
 - Custom cavity routs for onboard effects  
 - B-benders and G-benders (country-style pitch-shifting systems)
 - Lap Steel & Pedal Steel

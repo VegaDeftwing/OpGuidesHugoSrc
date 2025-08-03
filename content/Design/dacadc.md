@@ -20,9 +20,9 @@ Before doing this, you should know what vector art is and how it differs from th
 
 4. Select Trace Bitmap
 
-5. Try different options (here, I used *Single Scan*, {{< vale >}}*Autotrace*{{< /vale >}}, see picture)
+5. Try different options (here, I used *Single Scan*, *Autotrace*, see picture)
 
-6. Click Apply, a bit map trace will appear over the original image. Select either the trace or original picture and drag it to the side.
+6. Click Apply, a bitmap trace will appear over the original image. Select either the trace or original picture and drag it to the side.
 
 7. Select the trace, copy it (Ctrl+C), and paste it into your art software (the following assumes Krita)
 
@@ -34,7 +34,7 @@ Before doing this, you should know what vector art is and how it differs from th
 
 <img class=center src="/design/pedal.webp" alt=" " width="50%" style="border-radius:50px;">
 
-You may want to experiment with the {{< vale >}}*multiple scans*{{< /vale >}} → *colors* option if you want to convert something which used color, but has a limited palette. It can also be a cool effect anyway, as the output is, uh, well, I'll just show you:
+You may want to experiment with the *multiple scans* → *colors* option if you want to convert something which used color, but has a limited palette. It can also be a cool effect anyway, as the output is, uh, well, I'll just show you:
 {{< columns >}}
 <img src="/nonfree/blog/COMountain.jpg" alt=" " width="100%">
 {{< smalltext >}}Original Image{{< /smalltext >}}

@@ -12,23 +12,16 @@ slug: "Infrastructure"
 
 ### Light Pollution
 
-{{< columns >}}
-
 <pre style="background-color: #2220 !important;overflow: hidden;">
-    ˚    ·           .          .   ✦  
-               ✵ .      .   
-         . *       ⊹       ˚    ·        
-.         ⊹  ✵     .             ⊹      .  
-    .   ✦                   ✦      
- ·  .     *  ·    ˚ 
-    .  ˚                 ⊹          . 
-</pre>
+    ˚    ·           .          .   ✦   ·                     ✵ .      .   
+               ✵ .      .                  ✵ .      .                 ⊹       ˚    ·          
+         . *       ⊹       ˚    ·            .                   ✦    
+.         ⊹  ✵     <a href="https://www.darksky.org">International Dark Sky Association</a>    ⊹      .  
+    *       ⊹       ˚    ·                     ✵ .      .   
+         . *       ⊹       ˚    ·            .   ✦                   ✦    
+</pre> 
 
-<--->
-
-[International Dark Sky Association](https://www.darksky.org)
-
-{{< /columns >}}
+<div class="clr"></div>
 
 ## Air Quality
 

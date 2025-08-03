@@ -79,11 +79,11 @@ Much cooler, IMHO, is that you can **build** your own keyboard, that's what I've
 
 <img src="/hci/ergo.svg" class="lg-no-shadow">
 
-You can make a keyboard in any shape or size. Split, tiny, huge, built in joystick, go nuts. There's a keyboard for everyone. You can pick between hundreds of switches to get the perfect amount of clicky feedback, pressure needed to press, etc. Just give [r/MechanicalKeyboards](https://www.reddit.com/r/MechanicalKeyboards/) a good scroll and look at how pretty they are!
+You can make a keyboard in any shape or size. Split, tiny, huge, built-in joystick, go nuts. There's a keyboard for everyone. You can pick between hundreds of switches to get the perfect amount of clicky feedback, pressure needed to press, etc. Just give [r/MechanicalKeyboards](https://www.reddit.com/r/MechanicalKeyboards/) a good scroll and look at how pretty they are!
 
 To me, what's cool about these isn't just that they're way more comfortable, durable, and repairable but that the code running on the keyboard can do some real 𝓶𝓪𝓰𝓲𝓬. 
 
-For example, I have [Space Cadet Shift](https://docs.qmk.fm/features/space_cadet) setup, which let's me type opening or closing parentheses by tapping the left or right <kbd>shift</kbd> keys respectively, since you'd otherwise (in normal typing) have no reason to press shift independently.
+For example, I have [Space Cadet Shift](https://docs.qmk.fm/features/space_cadet) setup, which lets me type opening or closing parentheses by tapping the left or right <kbd>shift</kbd> keys respectively, since you'd otherwise (in normal typing) have no reason to press shift independently.
 
 I. LOVE. THIS.
 
@@ -94,7 +94,7 @@ I. LOVE. THIS.
 While the ModelM or a custom built mechanical keyboard would be great to use all the time, there's a few problems with that vision:
 
 1. They don't fit in laptops<footnote>Yes, I'm aware laptops with mechanical keyboards exists. These range from either the ludicrously thick to "Okay, I *guess* we can call that mechanical" though.</footnote>
-2. You probably don't want to hook up a USB keyboard though a dongle to your phone every time you send a text.<footnote>There are bluetooth keyboards that have easy "select a device" buttons so you actually could do this at your desk, I guess? Does anybody actually do that?</footnote>
+2. You probably don't want to hook up a USB keyboard though a dongle to your phone every time you send a text.<footnote>There are Bluetooth keyboards that have easy "select a device" buttons so you actually could do this at your desk, I guess? Does anybody actually do that?</footnote>
 3. Not everybody is physically *able* to use a normal keyboard.
 
 {{< light >}}
@@ -148,7 +148,7 @@ Should it be one unified device? With smart phones and tablets, the trend sure s
 
 I call this technology **Pictures Under Glass**. Pictures Under Glass sacrifice all the tactile richness of working with our hands, offering instead a hokey visual facade.
 
-Is that so bad, to dump the tactile for the visual? Try this: close your eyes and tie your shoelaces. No problem at all, right? Now, how well do you think you could tie your shoes if your arm was asleep? Or even if your fingers were numb? When working with our hands, touch does the driving, and vision helps out from the back seat.
+Is that so bad, to dump the tactile for the visual? Try this: close your eyes and tie your shoelaces. No problem at all, right? Now, how well do you think you could tie your shoes if your arm was asleep? Or even if your fingers were numb? When working with our hands, touch does the driving, and vision helps out from the backseat.
 
 {{< /bigquote >}}
 
@@ -180,7 +180,7 @@ Or making it easy to tune mouse acceleration curves?<footnote>There actually are
 
 Or letting buttons on the mouse control what keys on the keyboard do or vis-versa?
 
-There's so much opportunity and seemingly low hanging fruit here.
+There's so much opportunity and seemingly low-hanging fruit here.
 
 {{< light >}}
 
@@ -196,7 +196,7 @@ Alternative input methods exist for nearly anything you can think of and they ab
 
 Similarly, the input devices I have for playing music have made crazy progress - I'll get to this more later.
 
-Voice transcription software has gone from expensive to free and open, with real-time dictation locally (your vocie never leaves your device) using free, easy to use tools sure to follow soon, and while there are downsides to the AI-ification of everything, I won't complain about better voice-to-text models.
+Voice transcription software has gone from expensive to free and open, with real-time dictation locally (your voice never leaves your device) using free, easy to use tools sure to follow soon. While there are downsides to the AI-ification of everything, I won't complain about better voice-to-text models.
 
 Innovative hardware options will keep appearing too:
 
@@ -204,7 +204,7 @@ Innovative hardware options will keep appearing too:
 
 ![](/hci/leapmotion.webp)
 
-The leap motion hardware is basically just two cameras without an infrared filter and some infrared leds, 
+The leap motion hardware is basically just two cameras without an infrared filter and some infrared LEDs, 
 
 <--->
 
@@ -280,7 +280,7 @@ Most devices are still not made to take good advantage of the shape of human han
 
 But as that image shows, it does exist. Expensive to buy? Yep. But it exists! Plus, it's open source. 3D Print your own at home, go nuts. It won't be an easy build, but if you use a keyboard enough, it might be worth it.
 
-Cooler yet, input devices can take advantage of more than just our hands! Trying to optimize for hands first - the part of our bodies were the best at doing fine motor skills with - makes sense, but if we're going to complain about not taking advantage of our bodies, then we should mean our *entire body*.
+Cooler yet, input devices can take advantage of more than just our hands! Trying to optimize for hands first - the part of our bodies were the best at doing fine motor skills with - makes sense, but if we're going to complain about not taking advantage of our bodies, then we should mean our *entire bodies*.
 
 I have some foot controllers in my setup,
 
@@ -352,7 +352,7 @@ Finally, for artists that prefer to work traditional but want to scan in digital
 
 For those unfamiliar,
 
-MIDI, or **M**usical **I**nstrument **D**igital **I**nterface is a bloody ancient standard that's still (mostly) 7-bit and let's you send control messages about actions on a controller made for music, often a piano keyboard, so, something like Key C4 Down, Velocity 8 or twisting a knob may be on a MIDI Control Channel (CC) and will be like CC43 changed to 127.
+MIDI, or **M**usical **I**nstrument **D**igital **I**nterface is a bloody ancient standard that's still (mostly) 7-bit and lets you send control messages about actions on a controller made for music. Often this is a piano keyboard, so, something like Key C4 Down, Velocity 8 or twisting a knob may be on a MIDI Control Channel (CC) and will be like CC43 changed to 127.
 
 These messages go to the computer to tell it to use software to make the actual sound. The controller is just the physical interface to make it more natural to play.
 
@@ -386,7 +386,7 @@ On a basic MIDI keyboard? You get how hard you hit the key/button. That's it. Yo
 
 Fortunately, MIDI is also pretty awesome.
 
-7-bits? Uni-directional? Yeah. That's bad. But it's also daisy-chain-able and weirdly abusable. If you go read that MIDI page, you'll see you can just combine two messages to get 14-bit controls for a lot of tools. Additionally, **M**idi **P**olyphonic **E**xpression came in to radically push the enevelope by (ab)using the existing standard.
+7-bits? Uni-directional? Yeah. That's bad. But it's also daisy-chain-able and weirdly abusable. If you go read that MIDI page, you'll see you can just combine two messages to get 14-bit controls for a lot of tools. Additionally, **M**idi **P**olyphonic **E**xpression came in to radically push the envelope by (ab)using the existing standard.
 
 While they're still pretty expensive, we now have **MPE** keyboards where the keys *are* supposed to wiggle horizontally because you can use it to add vibrato, so on this keyboard this motion: 
 
@@ -440,13 +440,13 @@ Finally, *nobody* has ever wanted their notifications to show up when sharing th
 
 ### Application Specific Controllers (MIDI Controllers, Video Editing, etc)
 
-First of all, this is done in a stupid way in most circumstances<footnote>In the case of things that can be used standalone, not connected to a computer, like my afforementioned MorningStar MC6 midi controller, it makes some sense.</footnote>. There is no reason you should have single use hardware that sends specific commands that are not programmable by the user. Like I said above, let's do all the mapping in software. This lets features be added later and users make better use of their controllers.
+First of all, this is done in a stupid way in most circumstances<footnote>In the case of things that can be used standalone, not connected to a computer, like my aforementioned MorningStar MC6 midi controller, it makes some sense.</footnote>. There is no reason you should have single use hardware that sends specific commands that are not programmable by the user. Like I said above, let's do all the mapping in software. This lets features be added later and users make better use of their controllers.
 
 ### Voice Control
 
 The first thing I want to point out is how incredibly English centric voice control is. I only speak English so I lack any more to say on the subject, but come on.
 
-Next, why can my phone do voice control but my computer either can't or just really sucks at it. I know you can use OkGoogle from Chome, That Cortanna is a thing, and that there's multiple open source projects that implement voice control. But, they all sorta suck. None of them can do much beyond just setting a timer or working with a limited set of supported applications in a way that fails more often than not. 
+Next, why can my phone do voice control but my computer either can't or just really sucks at it. I know you can use OkGoogle from Chrome, That Cortanna is a thing, and that there's multiple open source projects that implement voice control. But, they all sorta suck. None of them can do much beyond just setting a timer or working with a limited set of supported applications in a way that fails more often than not. 
 
 If anything, I think Alexa is a bit ahead of the curve on this making it semi-easy to add custom actions, but does *anybody* actually have Alexa For PCs installed on Windows?
 
@@ -456,7 +456,7 @@ I want voice control that can actually -do- something. Not 15 competing standard
 
 What if everything you did was an actionable input? What if you could finger-drum on your desk and get real drum sounds, have your computer pause a video if you get out of you chair, or give the user a warning if they've been sitting with a bad posture for a long time? Between the Kinect, [Leap Motion,](https://www.ultraleap.com) and [Tobii Eye Tracking](https://www.tobii.com) we're staring to get close to this.
 
-I think https://dynamicland.org has a lot of interesting thoughts on this idea and if this vision of the future interests you, you should check it out. [ReacTable](https://www.youtube.com/watch?v=Mgy1S8qymx0&ab_channel=ReacTj) is another interesting concept in the relm of pyhsical computing too.
+I think https://dynamicland.org has a lot of interesting thoughts on this idea and if this vision of the future interests you, you should check it out. [ReacTable](https://www.youtube.com/watch?v=Mgy1S8qymx0&ab_channel=ReacTj) is another interesting concept in the realm of physical computing too.
 
 I do think in the future we'll stop using the basic screen + keyboard + mouse combo and see more 'smarts' integrated into everyday things and our work flows. I really like the idea of having a desk with a camera and projector above it to highlight objects and interact with what it can see- scanning documents, giving feedback on technique with crafts, whatever.
 
@@ -498,7 +498,7 @@ But then I mentioned that the Dactyl Manuform as an improvement,
 
 So, why don't I use it?
 
-I have a keyboard tray, and prefer having room on top my desk. The Dacty Manuform is too tall. I wouldn't be able to close the keyboard tray.
+I have a keyboard tray, and prefer having room on top my desk. The Dactyl Manuform is too tall. I wouldn't be able to close the keyboard tray.
 
 Similarly, ergonomic mice tend to get those ergonomic gains by making the grip vertical. That does improve the grip comfort,  and I'm sure if you got used to it, tracking accuracy would be about the same. But, for most people this makes the dance from having their hand on their keyboard to on the mouse and back-and-forth more awkward. Plus, it will dramatically limit pool of mice you have to pick from, meaning you may need to make trade-offs on other features you care about. And, again, for keyboard try users, makes it too tall.
 
@@ -509,3 +509,5 @@ While I'm a huge proponent of always being willing to at least try things - and 
 
 - MX key profiles, chonkier keys, material type matters.
 - Car controls should be physical for safety, and shouldn't lock you out of doing things like typing ever.
+
+[NEXT PAGE](/other/hci3/p_env)

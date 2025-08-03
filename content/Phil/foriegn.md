@@ -25,10 +25,7 @@ But, literally Orwellian naming aside, what does it matter? Are there any just w
 * [Google Maps is Different in Other Countries (YouTube)](https://www.youtube.com/watch?v=q9ZMub2UrKU)
 
 ## US Tampering in Foreign Affairs
-
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/SDf_Zg6uonE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-This embeddable version of this video is a re-upload. The original, from 'Second Thought' on YouTube, is [here](https://www.youtube.com/watch?v=_2khAmMTAjI) but has been age restricted and has been shadow-banned by YouTube. The entire situation just proves the point, here's the video creator's twitter thread on the issue (click to see the entire thread)
+{{< best >}}[This video from Second Thought](https://www.youtube.com/watch?v=_2khAmMTAjI){{< /best >}} has been age restricted and has been shadow-banned by YouTube. The entire situation just proves the point, here's the video creator's twitter thread on the issue (click to see the entire thread)
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is going to be an important thread. We need to talk about YouTube, and private media operations in general<br><br>This thread was prompted by YouTube’s shadow ban of my new video, but that’s really just a minor inconvenience. The whole story involves YouTube, the DHS, and the CIA</p>&mdash; JT Chapman (@_SecondThought) <a href="https://twitter.com/_SecondThought/status/1332746158947635202?ref_src=twsrc%5Etfw">November 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

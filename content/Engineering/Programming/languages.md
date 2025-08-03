@@ -612,7 +612,7 @@ Hack, https://hacklang.org/, is Facebook's (🤮) answer to PHP. They needed som
 
 > "Perl" is a family of languages, "Raku" (formerly known as "Perl 6") is part of the family, but it is a separate language which has its own development team.
 
-... I'm not a big Perl fan, but I have to mention it only because of how bizzare it is that they used the [⚛ character for atomics ](https://p6weekly.wordpress.com/2017/08/21/2017-34-going-atomic/). (Though that, among other choices, lead to it being split into another language, [raku](https://www.raku.org) )
+... I'm not a big Perl fan, but I have to mention it only because of how bizarre it is that they used the [⚛ character for atomics ](https://p6weekly.wordpress.com/2017/08/21/2017-34-going-atomic/). (Though that, among other choices, lead to it being split into another language, [raku](https://www.raku.org) )
 
 ### Scallop
 
