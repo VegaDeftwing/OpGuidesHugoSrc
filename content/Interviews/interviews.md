@@ -15,6 +15,7 @@ slug: "Interviews"
 - <a href="/interviews/cendyne/">Cendyne</a>
 - <a href="/interviews/wolfgun/">Wolfgun</a>
 - <a href="/interviews/paulshapera/">Paul Shapera</a>
+- <a href="/interviews/usawi">jan Usawi</a>
 
 # If you would like to be interviewed
 
