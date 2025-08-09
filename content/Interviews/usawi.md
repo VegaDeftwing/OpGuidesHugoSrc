@@ -139,7 +139,7 @@ bookToC = false
 </script>
 
 
-**06/15/2025**
+**08/09/2025**
 
 ﻿﻿<!-- This document is wirtten in a format called markdown. If you've never seen it before, that's fine. The gist is all the formatting is done in the text itself. Text with **two asterics** around it is bold, *one* is italic, and the things with less than and greater than signs and dashes you see here are comments that won't appear in the final page. if you want a link just do [link text in the square brackets](https://actuallLinkHere.com). If you really want to go nuts, you can technically mix in html too, so things like YouTube, Bandcamp, or Twitter embeds work too. If you want to put in a table, fancy math, colums of text, pictures, or footnotes let me know and I'll get that done for you. -->
 
@@ -191,7 +191,7 @@ And I've had a desire to learn and do magic ever since (and, to hell with it, ev
 
 So I wouldn't call where I am now a compromise between Judaism and witchery. They don't feel nearly so opposite these days. It's more, I pursue magical acts and experiences, with a whole ocean of other symbologies and practices (both external and personal) for me to dive into, and my faith as the scuba gear and the boat.
 
-A lot of my artmaking process is, and has been for a long while, a tool for me to either process or effect change on my current mental/emotional/spiritual/material situation. My song *Cold*,
+A lot of my artmaking process is, and has been for a long while, a tool for me to either process or effect change on my current mental/emotional/spiritual/material situation. My song *Cold*
 
 <iframe style="border: 0; width: 30em; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3192549735/size=large/bgcol=333333/linkcol=4ec5ec/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://natanya.bandcamp.com/album/cold">Cold by Natanya</a></iframe>
 
@@ -231,7 +231,7 @@ Not that all problems can be fixed by buying stuff, but getting a dumbphone has 
 
 {{< /iquestion >}}
 
-do-over // ALL DOGS FALL FROM HEAVEN,
+do-over // ALL DOGS FALL FROM HEAVEN
 
 <iframe style="border: 0; width: 30em; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3381483841/size=large/bgcol=333333/linkcol=e99708/tracklist=false/artwork=small/track=3196479870/transparent=true/" seamless><a href="https://natanya.bandcamp.com/album/all-dogs-fall-from-heaven">All Dogs Fall From Heaven by Natanya</a></iframe>
 
@@ -327,7 +327,7 @@ And I like that it does; by and large this is a neutral-to-positive thing in my 
 
 So my first thought was to say: More-or-less reliably knowing what's going on in my own psyche. Knowing what I'm actually feeling, knowing what it's like bodily/mentally when I'm saying something I don't really mean, acting for some reason other than what I'd thought, feeling some kind of pressure or attraction that was *probably* supposed to stay subconscious, etc. and catching it in real time. Sort of the negative skill of not being able to bullshit myself. I'm not perfect at it—nor do I particularly want to be—but I'm better at it than I used to be, and the times when I'm most able to do it are the times when I'm most able to do and *enjoy* doing, well, most other things I enjoy.
 
-Thing is, this is an useless, probably awful, and maybe also impossible? skill to have without the parallel skill (and it is one) of meeting what you find in the process with compassion and and patience and good sense. So that's probably the more important one.
+Thing is, this is a useless, probably awful, and maybe also impossible? skill to have without the parallel skill (and it is one) of meeting what you find in the process with compassion and patience and good sense. [So that's probably the more important one](https://ilinx.substack.com/p/the-joy-of-forgetting-yourself-is).
 
 {{< iquestion >}}
 
@@ -355,7 +355,7 @@ As for media I'd recommend? Always Coming Home, Proverbs of Hell, Severance, Gam
 
 Worst first, I'm thinking, and it's probably something from that one god-awful witchcraft Discord I was a member (and eventually moderator) of for about a couple years. The things the server owner said that impacted me most weren't so much advice as they were "call-outs," but they did scare/shame me out of some of my favorite magical practices for a time. The actual worst straight-up advice they told me, though, which I clocked as being shit advice at the time, was "If you're going to take psilocybin, which you should, *definitely* do it before your brain has finished maturing."
 
-Best might have to go to something my Taekwondo teacher was told by a Navy Seal friend of his and then passed on to the class during warmups (he was very fond of saying "our warmup is their workout," to give you a sense of the vibe in the room at the time), which was "Embrace the suck." Not "put up with," crucially, which would make it probably the worst advice I've received. But "embrace": Find the good in it, *make* good if there isn't any, have *fun* with it. If "doing things you enjoy is an important part of being good to yourself" is the thesis and "sometimes you won't enjoy things you have to do" is the antithesis, then this is a synthesis I've gotten a lot of mileage out of. Yes, shit sucks sometimes, but if I can get into my body about it, make a game of it, encourage and commiserate with myself through it, think about the stories I'll tell once it's done, just sense it and see if there's anything savorable there—even when the sucky thing is that I need to stop persisting and tap out—then it gets so much easier to stay *with* myself while it happens. And that always makes it suck less.
+Best might have to go to something my Taekwondo teacher was told by a Navy Seal friend of his and then passed on to the class during warmups (he was very fond of saying "our warmup is their workout," to give you a sense of the vibe in the room at the time), which was "Embrace the suck." Not "put up with," crucially, which would make it probably some of the worst advice I’ve received. But "embrace": Find the good in it, *make* good if there isn't any, have *fun* with it. If "doing things you enjoy is an important part of being good to yourself" is the thesis and "sometimes you won't enjoy things you have to do" is the antithesis, then this is a synthesis I've gotten a lot of mileage out of. Yes, shit sucks sometimes, but if I can get into my body about it, make a game of it, encourage and commiserate with myself through it, think about the stories I'll tell once it's done, just sense it and see if there's anything savorable there—even when the sucky thing is that I need to stop persisting and tap out—then it gets so much easier to stay *with* myself while it happens. And that always makes it suck less.
 
 {{< iquestion >}}
 
