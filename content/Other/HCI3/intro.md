@@ -78,11 +78,16 @@ You may not get the choice. The manufacturer, may decide to push an unwelcome "u
 
 Of course, new features you love will be added too. Software can get bug fixes. Entirely new kinds of software may come into existence.
 
-You may meet new friends in a virtual world,
+You might meet new friends in a VR Chat.
 
-[TODO] VR Chat... maybe. I don't love this as an example.
+Maybe you use large language models to help you quickly write one-off programs.
 
-...
+Perhaps you like try out new software synthesizers to make interesting sounds.
+
+Maybe you're writing a fiction novel using software that helps you keep track of your characters and locations.
+
+New, useful software is always being made and pushing the boundaries of what's possible.
+</br></br>
 
 {{< /light >}}
 
@@ -99,7 +104,18 @@ In these visions, technology isn't seen as symbiotic to the human experience, bu
 
 {{< light >}}
 
-Contrast this with the vision of most solarpunk stories and art. Again, the most surface level difference is that, typically, the world is painted in a less dark, dystopian light and more in a positive happy tone. This, itself explains it being less common in media: Stories exist to tell about conflict and overcoming adversity. It's easier to do that in a world which is built on it. Looking more deeply you can see that technology in these stories, if augmenting the human experience, is doing so to assist, not replace.
+{{< columns >}}
+
+![](/fairuse/other/solarpunk.webp)
+{{< attribution >}}
+["Madame Yu Leading Guangchangwu"](https://storyseedlibrary.org/art/elakidd-madame-yu-leading-guangchangwu/) by [ELAkidd](https://storyseedlibrary.org/authors/elakidd/), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+{{< /attribution >}}
+
+<--->
+
+<span style="font-family: 'Edu NSW ACT Foundation', cursive;font-size: 1.1em;">Contrast this with the vision of most solarpunk stories and art. Again, the most surface level difference is that, typically, the world is painted in a less dark, dystopian light and more in a positive happy tone. This, itself explains it being less common in media: Stories exist to tell about conflict and overcoming adversity. It's easier to do that in a world which is built on it. Looking more deeply you can see that technology in these stories, if augmenting the human experience, is doing so to assist, not replace.</span>
+
+{{< /columns >}}
 
 Similarly, in most Solarpunk media there are strong communities and the technology employed by them serves the entire community, rarely the individual. Think community gardens with community maintained soil and water monitoring, shared communications infrastructure, public transit systems, etc.
 </br></br>

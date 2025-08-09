@@ -405,11 +405,12 @@ ul.pagination {
 
 .book-toc {
   flex: 0 0 $toc-width;
-  font-size: $font-size-12;
+  font-size: .65rem;
 
   .book-toc-content {
     width: $toc-width;
     padding: $padding-16;
+    position: fixed;
 
     // @include fixed;
   }

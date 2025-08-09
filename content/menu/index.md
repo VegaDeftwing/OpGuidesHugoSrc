@@ -425,16 +425,8 @@ headless: true
 <p class="navhead" style="color:#5EBD3E;margin-bottom:0px;" >   Technical</p>
 <dt> </dt><dd> <a href="/other/coolhardware/">Cool Hardware</a></dd>
 <dt> </dt><dd> <a href="/other/fediverse/">The Fediverse, ActivityPub, & The IndieWeb </a></dd>
-<!-- <dt></dt><dd> -->
-      <!-- <details id="hciMenu"> <summary> <a href="/other/hci2/intro/">The Way We Interact With Computers Sucks</a></summary>
-         <dt class="sub">1</dt><dd class="sub"> <a href="/other/hci2/physical"> The Physical</a></dd>
-	      <dt class="sub">2</dt><dd class="sub"> <a href="/other/hci2/digital"> The Digital</a></dd>
-         <dt class="sub">3</dt><dd class="sub"> <a href="/other/hci2/whatelse"> What Is Needed?</a></dd>
-         <dt class="sub">4</dt><dd class="sub"> <a href="/other/hci2/contradictions"> What Contradicts?</a></dd>
-         <dt class="sub">5</dt><dd class="sub"> <a href="/other/hci2/radicallychanging"> Radically Changing</a></dd>
-         <dt class="sub">6</dt><dd class="sub"> <a href="/other/hci2/wrappingup"> Wrapping Up</a></dd>
-      </details> -->
-<p class="navhead" style="color:#5EBD3E;margin-bottom:0px;" >     ↳ Computing and You </p>
+
+<!--<p class="navhead" style="color:#5EBD3E;margin-bottom:0px;" >     ↳ Computing and You </p>
 <dt>       </dt><dd> <a href="/other/HCI3/intro">   Intro</a></dd>
 <dt>       </dt><dd> <a href="/other/HCI3/p_input_devices">   Input Devices</a></dd>
 <dt>       </dt><dd> <a href="/other/HCI3/p_env">   Working Environment</a></dd>
@@ -449,14 +441,14 @@ headless: true
 <dt>       </dt><dd> <a href="/other/HCI3/d_creating_and_tools">   Creating & Tools</a></dd>
 <dt>       </dt><dd> <a href="/other/HCI3/d_community">   Community</a></dd>
 <dt>       </dt><dd> <a href="/other/HCI3/d_auth">   Auth</a></dd>
-<dt>       </dt><dd> <a href="/other/HCI3/conclusion">   Conclusion</a></dd>
+<dt>       </dt><dd> <a href="/other/HCI3/conclusion">   Conclusion</a></dd>-->
 </dd>
 <p class="navhead" style="color:#5EBD3E;margin-bottom:0px;" >   Conlangs & Neography</p>
     <dt> </dt><dd> <a href="/other/conlangs/neography/">Intro to Conlangs & Neography</a></dd>
 	<dt> </dt><dd> <a href="/other/conlangs/tokipona/">toki pona! <span class="conlang">󱥬󱦖󱥔</span> </a></dd>
     <dt> </dt><dd> <a href="/other/conlangs/janolin/">Thoughts on olin</a> <span style="font-size:.4rem;">by jan Usawi</span>
     <dt> </dt><dd> <a href="/other/conlangs/rhapsodaic/">Rhapsodaic</a> <span style="font-size:.4rem;">by jan Usawi</span></dd>
-<p class="navhead" style="color:#5EBD3E;margin-bottom:0px;" >   Writing & Storytelling</p>
+<!--<p class="navhead" style="color:#5EBD3E;margin-bottom:0px;" >   Writing & Storytelling</p>
 <dt>1 </dt><dd> <a href="/other/writing/writing">Writing is hard</a></dd>
 <dt>1½</dt><dd> <a href="/other/writing/creative">Creative Thinking</a></dd>
 <dt>2 </dt><dd> <a href="/other/writing/plot">Plot & Pacing</a></dd>
@@ -465,7 +457,7 @@ headless: true
 <dt>5 </dt><dd> <a href="/other/writing/language">Language</a></dd>
 <dt>6 </dt><dd> <a href="/other/writing/worldbuilding">World Building</a></dd>
 <dt>7 </dt><dd> <a href="/other/writing/revision">Revision</a></dd>
-<dt>A1</dt><dd> <a href="/other/writing/poetry">Poetry</a></dd>
+<dt>A1</dt><dd> <a href="/other/writing/poetry">Poetry</a></dd>-->
 </dil>
 
 

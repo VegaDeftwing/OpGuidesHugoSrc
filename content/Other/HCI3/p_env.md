@@ -1,3 +1,12 @@
+TODO:
+
+- Storage / Mounting
+- Actual ergonomics
+- Anti-vibration mounts
+- Acoustics (Not just noise, but like, some rooms echo painfully)
+
+
+
 # Your Environment
 
 a [TODO] Respect our senses and priority (Good audio, video, latency, safety, etc.)

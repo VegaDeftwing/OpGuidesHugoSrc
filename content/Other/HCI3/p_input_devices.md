@@ -7,11 +7,11 @@
 
 Computers would not serve a purpose to most people if it was not easy to put data in and get data out. If you had a calculator with a broken screen or a broken keypad, it would be useless either way.
 
-The ulility of the devices we use is intrinsically tied to how quickly and comfortably we can put data in and get the data we want out.
+The utility of the devices we use is intrinsically tied to how quickly and comfortably we can put data in and get the data we want out.
 
 # -
 
-One of the frustrating things about shopping for a computer is that we're taught to think about their specs as strictly quantifiable.  You can read something like,
+One of the frustrating things about shopping for a computer is that we're taught to think about their specs as strictly quantifiable. You can read something like,
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,12 +44,6 @@ We give a lot of weight to specs we can quantify but which reside out of sight, 
 * Maybe you find it ugly
 
 Things we don't traditionally think of as "part of the computer" do change how it feels to use it. If your chair or desk aren't comfortable and don't suit your needs, that's a problem. If you always go chasing the easy, quantifiable (and easily marketable) upgrades, you'll probably miss out on some of these vital points.
-
-To start with, this page will look at direct computer input devices.
-
-The next two will look at the environment (desk, chair, etc.) and output devices (monitors, speakers, etc.) respectively.
-
-Then we'll move on to the main event, juicy discussion of the software, websites, and tools we use, what problems they have, and what can be done about them.
 
 # Input Methods
 
@@ -117,19 +111,25 @@ I, personally, would not like to use this. But there's plenty of other, "weird" 
 
 We're talking about keyboards - but this was supposed to a series about the big-picture of technology and our relationship with it. To get to those points, we're going to need to ask some deeper questions.
 
+{{< iquestion >}}
 **Q: Why do we even need to type?**
+{{< /iquestion >}}
 
 We don’t. 
 
 We can draw, dictate, or use any of a number of other methods. Typing is convenient because it can be kept semi-private, is tactile (assuming you’re keeb isn’t a 💩), and generally fast enough to keep up with the speed of thought if you know how to touch type.
 
+{{< iquestion >}}
 **Q: What do we want to input in the first place?**
+{{< /iquestion >}}
 
 Text (in multiple languages). Links. Images. Diagrams. Code. Commands. Dates. Our wandering thoughts. Spur of the moment ideas. Everything.
 
 Keyboards happen to be a decent input device for some of these things, and tend to pretty much suck for others. (Come on, make art by typing in color values for every pixel. 𝐼 𝒹𝒶𝓇𝑒 𝓎𝑜𝓊)
 
+{{< iquestion >}}
 **Q: What makes something good as an input device?**
+{{< /iquestion >}}
 
 It’s easy to list off good qualities of the familiar: 
 
@@ -160,7 +160,7 @@ That's why this topic is so interesting. My hands are not your hands. I play mus
 
 I was willing to try just about anything so I switched to Dvorak<footnote><a href="https://en.wikipedia.org/wiki/Dvorak_keyboard_layout#/media/File:KB_Programmer_Dvorak.svg">Programmer's Dvorak</a> is a thing and honestly I want to know if anybody actually uses it? Having the numbers like that hurts my brain.</footnote>, an alternative keyboard layout:
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/KB_United_States_Dvorak.svg/1200px-KB_United_States_Dvorak.svg.png" style="filter: invert(0.87);height:10em;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/KB_United_States_Dvorak.svg/1200px-KB_United_States_Dvorak.svg.png" style="filter: invert(0.87);width:100%;">
 
 That helped, but didn't entirely fix my pain so I tried the ergodone (That fancy, split keyboard) and haven't looked back. But that's left a few interesting points, ignoring the obvious reason of price, why are people still using something seems to be obviously *worse* - in a word: Familiarity.
 
@@ -362,7 +362,7 @@ MIDI controllers come in all shapes and sizes, from a grid of RGB buttons to tra
 
 So for how useful they are, I can not believe how bad most of them are.
 
-![Novation Launchkey 2](/hci/launchkey.svg)
+<img src="/hci/launchkey.svg" style="width:100%">
 
 This, for example, is the Novation Launchkey MKⅡ. It is, quite possibly, the worst waste of money I have ever seen.
 
@@ -376,7 +376,7 @@ Now, this isn't a review of Launchkey MkⅡ. Instead, I'm trying to make a point
 
 But it just absolutely sucks to play.
 
-For everything on this page, though especially for MIDI controllers, people should be able to develop a relationship with tool like a traditional musician does with their instrument. You should be able to play it via muscle memory and know exactly how much pressure and force each key, knob, or switch takes to make movements fluid.
+For everything on this page (Though especially for MIDI controllers) people should be able to develop a relationship with tool like a traditional musician does with their instrument. You should be able to play it via muscle memory and know exactly how much pressure and force each key, knob, or switch takes to make movements fluid.
 
 You can't do that if they're not consistent or well made in the first place or if there's not enough tactile feedback. But more than that, they need to multi-dimensional. On a guitar, every tiny movement and change I make will affect the sound. I can bend the string on my finger to make the pitch change, alter the pressure to control how long a note rings out, etc.
 
@@ -388,13 +388,19 @@ Fortunately, MIDI is also pretty awesome.
 
 7-bits? Uni-directional? Yeah. That's bad. But it's also daisy-chain-able and weirdly abusable. If you go read that MIDI page, you'll see you can just combine two messages to get 14-bit controls for a lot of tools. Additionally, **M**idi **P**olyphonic **E**xpression came in to radically push the envelope by (ab)using the existing standard.
 
-While they're still pretty expensive, we now have **MPE** keyboards where the keys *are* supposed to wiggle horizontally because you can use it to add vibrato, so on this keyboard this motion: 
+{{< columns >}}
 
-<img src="/hci/osmose.webp" style="filter: grayscale(1);height:10em;" >
+<span style="font-family: 'Edu NSW ACT Foundation', cursive;font-size: 1.1em;">While they're still pretty expensive, we now have **MPE** keyboards where the keys *are* supposed to wiggle horizontally because you can use it to add vibrato, so on this keyboard this motion: </span>
+
+<--->
+
+<img src="/hci/osmose.webp" style="filter: grayscale(1);width:100%;" >
+
+{{< /columns >}}
 
 Actually makes the pitch "wiggle" like it would if you did the same to a guitar string!
 
-There's even more keyboards where the pressure, per finger, over time can change the sound. Sure, these are still kinda expensive<footnote>The "big two" MPE controllers at the moment are the OSMOSE (The one with wiggle gif above) and Roli Seaboard, which are ~$1400 and ~$500, respectively. Though, at the low end, there's the K-Board which can be had for a hair over $100. You get what you pay for, but I've owned all of them at one time or another and enjoy each ... even if Roli's software is annoying AF.</footnote>, but they exist!
+There's even more keyboards where the pressure, per finger, over time can change the sound. Sure, these are still kinda expensive<footnote>The "big two" MPE controllers at the moment are the Osmose (The one with wiggle gif above) and Roli Seaboard, which are ~$1400 and ~$500, respectively. Though, at the low end, there's the K-Board which can be had for a hair over $100. You get what you pay for, but I've owned all of them at one time or another and enjoy each ... even if Roli's software is annoying AF.</br>If you're okay with a button-grid instead of a keyboard, the Exquis from Intuitive Instruments is probably the best bang-for-you-buck MPE controller I've used.</footnote>, but they exist!
 
 Plus, MIDI 2.0 is *finally* out and there's starting to be some real hardware products you can buy. Software support is spotty, but it fixes a lot of the old gripes.
 
@@ -410,7 +416,31 @@ There's cool hardware out there and crazy amounts of innovation happening to mak
 
 ### Audio And Video
 
-[Your **webcam** is shit](https://reincubate.com/support/how-to/why-are-webcams-bad/#putting-them-to-the-test). You know how I know? Because it's a webcam. Even the everybody's go-to, the Logitcech C920, is shit<footnote>I will concede the C920 can be made significantly less shit by just turning off most of the 'auto' settings and setting everything by hand. This can be done on Linux with GuvcView, but on Windows I've found all the recent drivers make it impossible, so, I stand by it still being shit.</footnote>. You know what else is shit? Your microphone. When you type on a laptop it sounds like damn earthquake, and if you get comfortable and lean back in your chair you suddenly get quiet. Maybe you have a gamer headset? Cool, the boom mic sounds about as good somebody screaming through a cardboard tube.
+#### Webcams
+
+{{< light >}}
+
+The prior version of these pages started out by saying "Your Webcam is Shit"
+
+And, while individually, that might be true, since I wrote that the scales have tipped enough that it stands just as good a chance of being wrong as it does right.
+
+I don't know if its due to the world being forced to use Zoom for a year, companies competing to sell gear to wanna-be streamers, or the price of good sensors coming down but good webcams are affordable now.
+
+We've left the days of awful autofocus and bad white balance.*
+</br></br>
+
+{{< /light >}}
+
+\* Unless you get a Logitech C-920. Still overrated. Still looks awful. Let it die.<footnote>Also, fuck <a href="https://arstechnica.com/gadgets/2024/07/logitech-has-an-idea-for-a-forever-mouse-thatrequires-a-subscription/">Logitech</a>. Who the fuck thinks a subscription computer mouse is reasonable‽</footnote>
+
+But, there's still room for improvement.
+
+There's really no good reason webcams - especially the ones targeted at streamers - shouldn't use a standard lens mount.
+Because light coming from monitors is polarized, this would let people attach a [Polarizing Filter](https://en.wikipedia.org/wiki/Polarizing_filter_%28photography%29) and make reflections and response to the changing lighting from the monitor look a lot better.
+
+### Microphones
+
+Your microphone. When you type on a laptop it sounds like damn earthquake, and if you get comfortable and lean back in your chair you suddenly get quiet. Maybe you have a gamer headset? Cool, the boom mic sounds about as good somebody screaming through a cardboard tube.
 
 But, better cameras do exist, and, if you're willing to shell out the cash, you can get a decent mic. Unfortunately, either way they have a problem.
 
@@ -509,5 +539,9 @@ While I'm a huge proponent of always being willing to at least try things - and 
 
 - MX key profiles, chonkier keys, material type matters.
 - Car controls should be physical for safety, and shouldn't lock you out of doing things like typing ever.
+- Joysticks
+- More about foot controllers
+  - Toggle switches (Latching), momentary switches, spring-loaded 1-axis, non-spring loaded, and multi-axis
+- Eye tracking
 
 [NEXT PAGE](/other/hci3/p_env)
