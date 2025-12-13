@@ -32,11 +32,13 @@ https://pql.dev
 
 ![xkcd Drop Tables](/eng/xkcddrop.webp)
 
-{{< attribution >}}
+##{{< attribution >}}
+##Permanent link to this comic: https://xkcd.com/327/
+##Image URL (for hotlinking/embedding): https://imgs.xkcd.com/comics/exploits_of_a_mom.png
 
 [TODO] need image source
 
-{{< /attribution >}}
+##{{< /attribution >}}
 
 ## Key-Value (Memcached, Redis)
 
